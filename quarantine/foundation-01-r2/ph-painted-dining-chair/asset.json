@@ -1,0 +1,314 @@
+{
+  "schema_version": 1,
+  "id": "ph-painted-dining-chair",
+  "title": "Painted wooden dining chair",
+  "category": "furniture/chairs",
+  "style": "realistic",
+  "tags": [
+    "chair",
+    "dining",
+    "wood",
+    "pbr"
+  ],
+  "batch": "foundation-01-r2",
+  "acquired_at": "2026-11-03T14:48:52.506076+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/painted_wooden_chair_02_2k.gltf",
+    "creator": "Kirill Sannikov",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/painted_wooden_chair_02",
+    "source_id": "painted_wooden_chair_02",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/painted_wooden_chair_02/painted_wooden_chair_02_2k.gltf",
+        "bytes": 2972,
+        "sha256": "a947b9cbbb10d33d039adf2f6130fff03a865af09822b0f67597087dd9422fda"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/painted_wooden_chair_02/painted_wooden_chair_02.bin",
+        "bytes": 39028,
+        "sha256": "6125c4ac10e1b53803bf468eb21769fd43a3669564bfc8885a9346c8302e121f"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/painted_wooden_chair_02/painted_wooden_chair_02_arm_2k.jpg",
+        "bytes": 2613013,
+        "sha256": "b5bddec6863cadee32cb60f11703bbb6fd73f671364005c7374ed276ee3f2159"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/painted_wooden_chair_02/painted_wooden_chair_02_nor_gl_2k.jpg",
+        "bytes": 4182238,
+        "sha256": "b0a7131c14078cd7dc7bad3ea4512d49f90ce1c3c86fa0489f0ea3e478802562"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/painted_wooden_chair_02/painted_wooden_chair_02_diff_2k.jpg",
+        "bytes": 2537428,
+        "sha256": "7b5b06b10d2b11b51465974bcea3cb5cd9333bbefb3c6d35a5de16bf695b6c55"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/painted_wooden_chair_02_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/painted_wooden_chair_02_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "painted_wooden_chair_02_nor_gl"
+    },
+    {
+      "path": "model/textures/painted_wooden_chair_02_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "painted_wooden_chair_02_diff"
+    },
+    {
+      "path": "model/textures/painted_wooden_chair_02_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "painted_wooden_chair_02_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "vertices": 986,
+    "triangles": 1246,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "painted_wooden_chair_02_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/foundation-01-r2/ph-painted-dining-chair/model/textures/painted_wooden_chair_02_diff_2k.jpg"
+      },
+      {
+        "name": "painted_wooden_chair_02_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/foundation-01-r2/ph-painted-dining-chair/model/textures/painted_wooden_chair_02_nor_gl_2k.jpg"
+      },
+      {
+        "name": "painted_wooden_chair_02_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/foundation-01-r2/ph-painted-dining-chair/model/textures/painted_wooden_chair_02_arm_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67952,
+      "sha256": "421d19aa84437671bea5201ef326f222464e6318a3cb942f264f5f5a79440841",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/painted_wooden_chair_02.bin",
+      "bytes": 39028,
+      "sha256": "6125c4ac10e1b53803bf468eb21769fd43a3669564bfc8885a9346c8302e121f",
+      "role": "model"
+    },
+    {
+      "path": "model/painted_wooden_chair_02_2k.gltf",
+      "bytes": 2972,
+      "sha256": "a947b9cbbb10d33d039adf2f6130fff03a865af09822b0f67597087dd9422fda",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/painted_wooden_chair_02_arm_2k.jpg",
+      "bytes": 2613013,
+      "sha256": "b5bddec6863cadee32cb60f11703bbb6fd73f671364005c7374ed276ee3f2159",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/painted_wooden_chair_02_diff_2k.jpg",
+      "bytes": 2537428,
+      "sha256": "7b5b06b10d2b11b51465974bcea3cb5cd9333bbefb3c6d35a5de16bf695b6c55",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/painted_wooden_chair_02_nor_gl_2k.jpg",
+      "bytes": 4182238,
+      "sha256": "b0a7131c14078cd7dc7bad3ea4512d49f90ce1c3c86fa0489f0ea3e478802562",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 18832,
+      "sha256": "ee71378e4d18e750303b8dbbc21e7e9b677461efcea85a92f88a51fb4050d9b4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18737,
+      "sha256": "62d49487fce738cadf0b2d12f00ec7c9b11929972645b041fd9b27a6dfd220de",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 145235,
+      "sha256": "abc9c98511f05db006c7fec29556a159c3b33433ea1f7d9a92e3bb49f9e8e850",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1204,
+      "sha256": "a3a6723e8f614924ab2db0d995bf4d0419b1f235e003706d01457581dedc49ec",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 19953,
+      "sha256": "059ef617f7f509f1a109556317f980ab7f1b9d5fd0d562fa9a34f7afc9dfbc42",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 22649,
+      "sha256": "e3f5f76435c8911cd0a37f0f914637031759a9f71f22b929288ab898fdefadbe",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 15366,
+      "sha256": "28a8cec828013359a6e285485d2a9d7045055ad22b6fcce746ac73af94cb14a7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 21299,
+      "sha256": "2d43927cf1db5421f869a31968a0e08713fc2f594bdd634e49dee61b6baaa2eb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 18249,
+      "sha256": "2810488b2eff44511373905ecedebd196c2c878f8168ace76afe07b32acfa348",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 21810,
+      "sha256": "4eca21ba6938f65b4f14e7e639167bc0301186cd3185460971c030b726800205",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 15949,
+      "sha256": "03034263bc22f8f1673de364ed860eef4f894caef58bcac5da24dfc39b24595d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 22921,
+      "sha256": "cebac0a4a7e5d97c9f10f8cd51b0e23db5f1707c58da86fb8f1cd061d1a18517",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 16380,
+      "sha256": "8936c8ea0a183e5c6b4b12d57879d804db6063fc476f8c547924d21a665a965d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 23926,
+      "sha256": "53d198314fb956de9d857bb294acf8d04bdbd1be10e33e48d1c4da304d9900e1",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1225,
+      "sha256": "15f1d4b9558f23db6e758630773784533bb49352a969deec79a48437a1a49b9e",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2175,
+      "sha256": "75709cafb6c8ee05d5527a0ae2708c9dbe2e4e8f70bde4f334c304f5f7e35eca",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1230,
+      "sha256": "bf4b5b746814d6620760b70c72bb8d992496a31ff0928c4f74044e7d658d9944",
+      "role": "provenance"
+    }
+  ]
+}

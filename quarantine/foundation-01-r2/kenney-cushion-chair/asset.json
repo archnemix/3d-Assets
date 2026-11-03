@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "id": "kenney-cushion-chair",
+  "title": "Kenney cushioned dining chair",
+  "category": "furniture/chairs",
+  "style": "low-poly",
+  "tags": [
+    "chair",
+    "dining",
+    "kids",
+    "game-ready"
+  ],
+  "batch": "foundation-01-r2",
+  "acquired_at": "2026-11-03T14:52:38.961691+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "kenney",
+    "model": "model/chaircushion.glb",
+    "creator": "Kenney",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE",
+    "source_url": "https://github.com/Hidencod/tge-assets/blob/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/furniture-kit/chaircushion.glb",
+    "source_id": "packs/furniture-kit/chaircushion.glb",
+    "revision": "d92c6e923bbef8649d4e5be3ab375a40f88672b0",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/furniture-kit/chaircushion.glb",
+        "bytes": 12588,
+        "sha256": "33544228984857f2cb502b58452fed72157335f9b1caf29e96da5c9094c53fdc"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE"
+  },
+  "model": "model/chaircushion.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 2,
+    "images": 0,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_materials_unlit"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "vertices": 274,
+    "triangles": 198,
+    "material_slots": 2,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 8,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 0,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 510,
+      "sha256": "6913dd72bdc20532b7f02d86469058f45d886c9dabf60831275ed16927aa523b",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 61630,
+      "sha256": "453089e4fd293d551c33cd0bfe0131417622d61ea4e5c2ef8eec67399c84b3a7",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "e7040e3bf05438a7ca6aac251c6fe9710aa659243a0514755c103e4cac54790e",
+      "role": "logs"
+    },
+    {
+      "path": "model/chaircushion.glb",
+      "bytes": 12588,
+      "sha256": "33544228984857f2cb502b58452fed72157335f9b1caf29e96da5c9094c53fdc",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 10935,
+      "sha256": "4402e3b90d29a8c3943daf9a79b122559b4282b004167aa5778eb74a92b348bc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 16299,
+      "sha256": "7c792d4094b1c5ca839677834d82e925cba77b7971953f4a0226e9c69d883ee1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 123225,
+      "sha256": "c8ea990658912d4df038ebc5019ceb4a15f5b1342b57f4d56c13d17d535dbbe9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 297,
+      "sha256": "ded11f6b1f94352f8b46f78874254a0276117995171bbf5c025ccc0314e29d83",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 15325,
+      "sha256": "be4db184aee7a3763b563b8e9533e2cc8a808eda73ab37061c6a1a171e3d2d64",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 18017,
+      "sha256": "65337a4f44124aaf4f8d637c5668bc68c693e4d5db2bb5ae9474d0f9a14f9ca2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 13873,
+      "sha256": "0ffd31f1c7276bc1a77ea35cf57c4cf67d7f10e4e3969c0e64d7345a6154a27b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 17526,
+      "sha256": "cb9d56ee3e28c77e512bd178b97cdc3d23a4b476202cd1d4bc61c911c1920223",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 13925,
+      "sha256": "c7314aca51b7aab011bd1520f6e26af14dcd4fe37b3929eba50c86b520810c1a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 17806,
+      "sha256": "dc452a15783734d053c503cf1cd6204560b814ccc891396c5c222563a11a828f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 13918,
+      "sha256": "90bfd31aa19d2ca4873698c44fb5fcc968730ef880eb2c241eb776659be390f3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 18254,
+      "sha256": "47691672bc6c1a4e809a0b2b9e9337ba80889dc966467dd80f5acb6705008d3e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 10489,
+      "sha256": "39b6e234f43490c0e82e8a520da2e44ffa0f77d122829f8b07f4915b1055f273",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 23062,
+      "sha256": "65bd45b4d8c05e8cea570159575d09e4dbd221ccd26fa2c6e9675e2705d730a6",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/github-source.json",
+      "bytes": 425,
+      "sha256": "58d32f011972884bd41ea55219cfe55efcec8333d4376283b93526640bb44f84",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1286,
+      "sha256": "1de688af427cf7ce598c0d2f76aaf5ba19f61ee3a562eacbfd21e374ea17e638",
+      "role": "provenance"
+    }
+  ]
+}

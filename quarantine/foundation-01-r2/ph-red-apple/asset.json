@@ -1,0 +1,314 @@
+{
+  "schema_version": 1,
+  "id": "ph-red-apple",
+  "title": "Realistic red apple",
+  "category": "food/fruit",
+  "style": "realistic",
+  "tags": [
+    "apple",
+    "fruit",
+    "food",
+    "pbr"
+  ],
+  "batch": "foundation-01-r2",
+  "acquired_at": "2026-11-03T14:50:06.544027+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/food_apple_01_2k.gltf",
+    "creator": "Oliver Harries",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/food_apple_01",
+    "source_id": "food_apple_01",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/food_apple_01/food_apple_01_2k.gltf",
+        "bytes": 2705,
+        "sha256": "751d0c3cd4bcae4cd7c74553763107cc8211d000f3017f5a58b34fd0e08d2e61"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/food_apple_01/food_apple_01_nor_gl_2k.jpg",
+        "bytes": 240476,
+        "sha256": "d023ebdcd22d495d80d1137b47072e023724a34bf4b6459e5b2bf37ecaa46df1"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/food_apple_01/food_apple_01_diff_2k.jpg",
+        "bytes": 643716,
+        "sha256": "c66c46d57f5b5c8129dc36a766401e48223651a83a75e694179ec182586d2e41"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/food_apple_01/food_apple_01_rough_2k.jpg",
+        "bytes": 142078,
+        "sha256": "b7b0cd4dda6660c9d47446ca98809bb3535f176a3bc03e9f0a700335253dfc31"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/food_apple_01/food_apple_01.bin",
+        "bytes": 170680,
+        "sha256": "f14ff9647fdd9f5a59ef325f94154e91f1f14cc2563cd3fb572c4fe9ce5756ca"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/food_apple_01_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/food_apple_01_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "food_apple_01_nor_gl"
+    },
+    {
+      "path": "model/textures/food_apple_01_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "food_apple_01_diff"
+    },
+    {
+      "path": "model/textures/food_apple_01_rough_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "food_apple_01_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "vertices": 4019,
+    "triangles": 7012,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "food_apple_01_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/foundation-01-r2/ph-red-apple/model/textures/food_apple_01_diff_2k.jpg"
+      },
+      {
+        "name": "food_apple_01_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/foundation-01-r2/ph-red-apple/model/textures/food_apple_01_nor_gl_2k.jpg"
+      },
+      {
+        "name": "food_apple_01_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/foundation-01-r2/ph-red-apple/model/textures/food_apple_01_rough_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67543,
+      "sha256": "8d1d3802f9a05053571889fa40b4b69347a9edb83807c601d02cdc19dc5d0a90",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/food_apple_01.bin",
+      "bytes": 170680,
+      "sha256": "f14ff9647fdd9f5a59ef325f94154e91f1f14cc2563cd3fb572c4fe9ce5756ca",
+      "role": "model"
+    },
+    {
+      "path": "model/food_apple_01_2k.gltf",
+      "bytes": 2705,
+      "sha256": "751d0c3cd4bcae4cd7c74553763107cc8211d000f3017f5a58b34fd0e08d2e61",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/food_apple_01_diff_2k.jpg",
+      "bytes": 643716,
+      "sha256": "c66c46d57f5b5c8129dc36a766401e48223651a83a75e694179ec182586d2e41",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/food_apple_01_nor_gl_2k.jpg",
+      "bytes": 240476,
+      "sha256": "d023ebdcd22d495d80d1137b47072e023724a34bf4b6459e5b2bf37ecaa46df1",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/food_apple_01_rough_2k.jpg",
+      "bytes": 142078,
+      "sha256": "b7b0cd4dda6660c9d47446ca98809bb3535f176a3bc03e9f0a700335253dfc31",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 23907,
+      "sha256": "3e0ec2157b3d0183e66e7f8a91496003e712b0189ebb3cb47ba4bf4503fe972c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 12153,
+      "sha256": "ac31fd2ac0da5b845af8a4c6ee1f3dd49adff804abce3d2931bc983c6e727ee1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 185552,
+      "sha256": "97072332e5f22af112e4176295890b8cf6791cf7cd336d325c0f584573c61df1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1114,
+      "sha256": "4594c0900c77457f412200a37e1e8f8de412b1ce4a3bb1a1f85cdae0770bffe8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 24381,
+      "sha256": "25971c7d28f89c209b118f1d3f0aadd93f60d0db16e2cced5502259506f5c03d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 25063,
+      "sha256": "ca1e96d69375482f5a447390b39d0c3f1b8e9b10e7dab99d7f1fe96d48ba4743",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 26429,
+      "sha256": "3672241ee1349558ddda0ee71294436b8cb00adce7cb999204ba8ea90f11c07a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 27229,
+      "sha256": "3955551bdb550895a0655b70a1997e2393631ec7998b46a1906f272fa31418f8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 27751,
+      "sha256": "e189218783f2af82f41886782d23c49eb26a13450f2649bb09e679bc45194963",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 26769,
+      "sha256": "20f41089f52371ae304bd858bd1394c1d9aed2493f58a0170bad7b96052bf1ba",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 25964,
+      "sha256": "0002bf7678cddeadb16143a30d6798354da1b6e6c7ac9ed9b01a95487c5b4518",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 24746,
+      "sha256": "86968863b0093b2c8e9aad9534ae0bdb39ba367db775336aaf41cad146a4a4a5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 29129,
+      "sha256": "08fcd454fff4e80dfe1712f594eacfdcc026ad15f240278d795c5602adcc3f25",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 34295,
+      "sha256": "b2336f741821802886301cf833bf8e04da0d6c934cb7386b3fd824569c0cc4f5",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1166,
+      "sha256": "61ea06778085e6ec2086b07dc8109c11639d86c2fa3e4208f387f93800f2ace8",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3037,
+      "sha256": "e540e5c2a04bbbd5581606d4c7b3f721e363b4b3a333c620657dea9f490c7ac8",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1092,
+      "sha256": "98c1e350419dd2a0944800fd4ed44889dc95d526423d6b38ae335ccc43c29b1d",
+      "role": "provenance"
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "id": "kenney-go-kart",
+  "title": "Kenney go-kart",
+  "category": "vehicles/cars",
+  "style": "low-poly",
+  "tags": [
+    "car",
+    "kart",
+    "racing",
+    "kids"
+  ],
+  "batch": "foundation-01-r2",
+  "acquired_at": "2026-11-03T14:53:57.338937+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "kenney",
+    "model": "model/kart-oobi.glb",
+    "creator": "Kenney",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE",
+    "source_url": "https://github.com/Hidencod/tge-assets/blob/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/car-kit/kart-oobi.glb",
+    "source_id": "packs/car-kit/kart-oobi.glb",
+    "revision": "d92c6e923bbef8649d4e5be3ab375a40f88672b0",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/car-kit/kart-oobi.glb",
+        "bytes": 263780,
+        "sha256": "be713611f3422ccd980dcd82bf7ebd20e93ebab6645a845aa1e03285cbd8fb0c"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE"
+  },
+  "model": "model/kart-oobi.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 6,
+    "materials": 1,
+    "images": 1,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_texture_transform"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/colormap.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "colormap"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 6,
+    "vertices": 4699,
+    "triangles": 2884,
+    "material_slots": 6,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 2,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "colormap",
+        "dimensions": [
+          512,
+          512
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 0,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 510,
+      "sha256": "6913dd72bdc20532b7f02d86469058f45d886c9dabf60831275ed16927aa523b",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 69494,
+      "sha256": "9ed464030d57c76218438db88d95fa5d30e79ac7b810998745f14cf8ad0a3d3a",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "c2ae86616c8fe7d9ebe6549b823cc4f71e1ebddaee59234e4b9fb1b79e57c2b9",
+      "role": "logs"
+    },
+    {
+      "path": "model/kart-oobi.glb",
+      "bytes": 263780,
+      "sha256": "be713611f3422ccd980dcd82bf7ebd20e93ebab6645a845aa1e03285cbd8fb0c",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 17150,
+      "sha256": "3a4c60479a35db037ec7ce63f66e250404e11cfa87cb3bac2a72cf08cb0ad45c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 16865,
+      "sha256": "213311af87259b80e31b31eded4ecb894831c4831bd1e425cf1f9d78e9da21a7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 161845,
+      "sha256": "6fb3a6b3044c557fde7c26cda4a35a5e07d8c2c8ef2e839de52b32cd12de3719",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 439,
+      "sha256": "c6671a93e8ddf0d5412f5739e2c2ca0780cbc2340d90153ddd4d701872b78d09",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 21151,
+      "sha256": "0ae307adadb06de18d77e66c1bd9025d50b2b7f37b306b85e9e81190ba8c2060",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 23100,
+      "sha256": "4d6c87c4987de947c3f83e126a46b3d4abd5b0e651f0129ccf3b57a308ae19e4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 21132,
+      "sha256": "c61cb627a38f0a9ff41f01e15a99285838973134b83d322c59a43d56a75d8c8c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 20192,
+      "sha256": "2db52185a1e7b1ae0bd61ef07a0c0a69f6fe2554feddd900bd55bb287eba9453",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 16306,
+      "sha256": "0e236b83c73061411c8a61e51da7daa1b092c36ad188c7109342bee911d4636b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 20553,
+      "sha256": "ccc4645a423bae91aea8afc65956f6a85429fb9174eb9f85fe18070442ed60a6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 22222,
+      "sha256": "881758dcd2b670271888478f0041bb50038fea5b284a88815f178d3ce3b45100",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 23456,
+      "sha256": "786033878eb587fc0c05c2acc2d0c72a3694e2a538115e8e3a568d31e22a9dbe",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 17665,
+      "sha256": "7a663f4d758f6a420c4e79ec9a66f802f9acf03e37907153219ec55da331910e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 30024,
+      "sha256": "9d4fd5e0617e146f8b08c495acfe54c7c5fa1046e02bd8da47d904e965003210",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/github-source.json",
+      "bytes": 416,
+      "sha256": "05bbbb3e2a345feacda576e377ed7523d009c8b3c917b26891cad12cf03fceaf",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2591,
+      "sha256": "448f5ba5556de0b7e148e589e8817d57e706b6be743f0597e2249fd6e4bf6b51",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/colormap.png",
+      "bytes": 12371,
+      "sha256": "f3622a03a20c6696065cae9cbe391351be873508af190c2ebd1d420c055787a5",
+      "role": "textures"
+    }
+  ]
+}
