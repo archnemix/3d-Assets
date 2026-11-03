@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "id": "kenney-sports-sedan",
+  "title": "Kenney sports sedan",
+  "category": "vehicles/cars",
+  "style": "low-poly",
+  "tags": [
+    "car",
+    "sedan",
+    "kids",
+    "game-ready"
+  ],
+  "batch": "foundation-01-r2",
+  "acquired_at": "2026-11-03T14:54:00.413913+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "kenney",
+    "model": "model/sedan-sports.glb",
+    "creator": "Kenney",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE",
+    "source_url": "https://github.com/Hidencod/tge-assets/blob/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/car-kit/sedan-sports.glb",
+    "source_id": "packs/car-kit/sedan-sports.glb",
+    "revision": "d92c6e923bbef8649d4e5be3ab375a40f88672b0",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/car-kit/sedan-sports.glb",
+        "bytes": 189920,
+        "sha256": "aba8186e85d3aa828cb9af5c735f640c893315fb45662cf1eabf1ed9676fa99f"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE"
+  },
+  "model": "model/sedan-sports.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 6,
+    "materials": 1,
+    "images": 1,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_texture_transform"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/colormap.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "colormap"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 6,
+    "vertices": 3268,
+    "triangles": 2088,
+    "material_slots": 6,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 13,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "colormap",
+        "dimensions": [
+          512,
+          512
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 0,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 510,
+      "sha256": "6913dd72bdc20532b7f02d86469058f45d886c9dabf60831275ed16927aa523b",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 69727,
+      "sha256": "26d4a8031edbc1fff362d5ef049e4a7e0c3967631430911f86883275cd4aaba2",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "c2ae86616c8fe7d9ebe6549b823cc4f71e1ebddaee59234e4b9fb1b79e57c2b9",
+      "role": "logs"
+    },
+    {
+      "path": "model/sedan-sports.glb",
+      "bytes": 189920,
+      "sha256": "aba8186e85d3aa828cb9af5c735f640c893315fb45662cf1eabf1ed9676fa99f",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 13980,
+      "sha256": "11b42cf0dc987930f7e0fa2182aa8d78ef71092412d692974fed4cb53a901988",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 14845,
+      "sha256": "e8792173a42ac17a68f0d8436699a25a17eb37a3956f95720e872c3fcc344b94",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 153342,
+      "sha256": "e7bebf8421cf2073e2aa0e3ca649c2233c2172d4c725c54da303061143da0b1e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 440,
+      "sha256": "684a0b9401e4343d34abada1270a3e3b007e3b33155f6c0f9f2a730e7bfd6ea4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 14976,
+      "sha256": "d94b6043d6aa42d88fcd1b9159313436d23a0dc5ae657921b8f97b9e6a9fbc54",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 21732,
+      "sha256": "6233610f9428f7d3655ca9d90db7155beae375529fb9eb7d3c25a9ac838253d2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 21323,
+      "sha256": "2555dbfccf3332185bfa5c5bd277960186ec3c7fb4c82a98837eb8989b24e3ef",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 22177,
+      "sha256": "86bfb6c34e30258b1236b3c6df1dd4b822775d890a6a0e0392a74a935d7d24c1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 15719,
+      "sha256": "d598966866e7bb3172d933a7e21856171c834b4dd3f069847ac700960b95401d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 23723,
+      "sha256": "b03a746dda4ca965a32bb7a88fbe78a00fed51c81f8154b02520dee6eeeb91bd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 23276,
+      "sha256": "9833a17e0b060f14525678bf298e91b34ab249745dc4cdb452db2662a9b7a810",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 23550,
+      "sha256": "6f6add86b5d294ccabb5e548f72b13f04abe2481287d9a3fc3992ff920941e17",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 17687,
+      "sha256": "2494af530ee5c1840aa1217dc8faa259a2fd9abde2f98814846f8f68da7a9e26",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 23820,
+      "sha256": "93844977d293c2b0c7b14242a61a1d3c8532cc2e40076bf045bcbdd095bf7eba",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/github-source.json",
+      "bytes": 419,
+      "sha256": "2f822560a84179e157dbc74934bc2ee0620f67acc552ff16e015126a50f6626b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2594,
+      "sha256": "63c0f5005afd7bcded0f6512828cf5388ee4cf4579885fc4a709f533a91763ea",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/colormap.png",
+      "bytes": 12371,
+      "sha256": "f3622a03a20c6696065cae9cbe391351be873508af190c2ebd1d420c055787a5",
+      "role": "textures"
+    }
+  ]
+}

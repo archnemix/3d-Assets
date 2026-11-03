@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "id": "kenney-male-character",
+  "title": "Kenney mini male character",
+  "category": "characters/humans",
+  "style": "low-poly",
+  "tags": [
+    "human",
+    "male",
+    "rigged",
+    "animated",
+    "kids"
+  ],
+  "batch": "foundation-01-r2",
+  "acquired_at": "2026-11-03T14:52:59.861677+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "kenney",
+    "model": "model/character-male-a.glb",
+    "creator": "Kenney",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE",
+    "source_url": "https://github.com/Hidencod/tge-assets/blob/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/mini-characters/character-male-a.glb",
+    "source_id": "packs/mini-characters/character-male-a.glb",
+    "revision": "d92c6e923bbef8649d4e5be3ab375a40f88672b0",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/mini-characters/character-male-a.glb",
+        "bytes": 253400,
+        "sha256": "b9e4a5e2c7761f08c759ca9e013a2f57b986ac4e46961569f634d80084c3e5d7"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE"
+  },
+  "model": "model/character-male-a.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 2,
+    "materials": 1,
+    "images": 1,
+    "skins": 2,
+    "animations": [
+      "attack-kick-left",
+      "attack-kick-right",
+      "attack-melee-left",
+      "attack-melee-right",
+      "crouch",
+      "die",
+      "drive",
+      "emote-no",
+      "emote-yes",
+      "fall",
+      "holding-both",
+      "holding-both-shoot",
+      "holding-left",
+      "holding-left-shoot",
+      "holding-right",
+      "holding-right-shoot",
+      "idle",
+      "interact-left",
+      "interact-right",
+      "jump",
+      "pick-up",
+      "sit",
+      "sprint",
+      "static",
+      "walk",
+      "wheelchair-look-left",
+      "wheelchair-look-right",
+      "wheelchair-move-back",
+      "wheelchair-move-forward",
+      "wheelchair-move-left",
+      "wheelchair-move-right",
+      "wheelchair-sit"
+    ],
+    "extensions": [
+      "KHR_texture_transform"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/colormap.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "colormap"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 3,
+    "vertices": 1301,
+    "triangles": 803,
+    "material_slots": 2,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [
+      {
+        "name": "character-male-a",
+        "bones": 7
+      }
+    ],
+    "actions": [
+      "attack-kick-left_character-male-a",
+      "attack-kick-right_character-male-a",
+      "attack-melee-left_character-male-a",
+      "attack-melee-right_character-male-a",
+      "crouch_character-male-a",
+      "die_character-male-a",
+      "drive_character-male-a",
+      "emote-no_character-male-a",
+      "emote-yes_character-male-a",
+      "fall_character-male-a",
+      "holding-both-shoot_character-male-a",
+      "holding-both_character-male-a",
+      "holding-left-shoot_character-male-a",
+      "holding-left_character-male-a",
+      "holding-right-shoot_character-male-a",
+      "holding-right_character-male-a",
+      "idle_character-male-a",
+      "interact-left_character-male-a",
+      "interact-right_character-male-a",
+      "jump_character-male-a",
+      "pick-up_character-male-a",
+      "sit_character-male-a",
+      "sprint_character-male-a",
+      "static_character-male-a",
+      "walk_character-male-a",
+      "wheelchair-look-left_character-male-a",
+      "wheelchair-look-right_character-male-a",
+      "wheelchair-move-back_character-male-a",
+      "wheelchair-move-forward_character-male-a",
+      "wheelchair-move-left_character-male-a",
+      "wheelchair-move-right_character-male-a",
+      "wheelchair-sit_character-male-a"
+    ],
+    "images": [
+      {
+        "name": "colormap",
+        "dimensions": [
+          512,
+          512
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 510,
+      "sha256": "6913dd72bdc20532b7f02d86469058f45d886c9dabf60831275ed16927aa523b",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 64590,
+      "sha256": "bcfd730f5daa79c229bd4a6c09797f3bdf26c5aacea442ae143ef2c8ab231317",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "8092b37bcdff0477d961eb1ef4ce3b2266b682dcf10a3778c5077f1ae8275816",
+      "role": "logs"
+    },
+    {
+      "path": "model/character-male-a.glb",
+      "bytes": 253400,
+      "sha256": "b9e4a5e2c7761f08c759ca9e013a2f57b986ac4e46961569f634d80084c3e5d7",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 9883,
+      "sha256": "b9e3fef173547c493b28efca83fccc157844ea88d936be50a9809cc5aba262be",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 9928,
+      "sha256": "18a10ae4b6765acc01b9813bc43629c8bc29e1ea7c41b0698f8466448473961b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 74624,
+      "sha256": "103566f3f8fa41a2cdfd27b6499fb937174fb15855909525ecb95ab01d2bb275",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1701,
+      "sha256": "d67d2b8c945f98960102d92d8a3c1b2c90f740531e4afea73b9c0edf200d3663",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 10916,
+      "sha256": "6be6af2d7a5383e4605e14b71594d11413dc6a78e7a1623126fe365abe2189bf",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 10700,
+      "sha256": "e041b819a22888dee08f88f911a667839761416d02fc6b9269040dcdf807f33f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 9572,
+      "sha256": "bfdd30b6aed866533d0df3721adbfe0d94c70ba467577038029bd76bc451b4be",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 10396,
+      "sha256": "74e06cbdd297be65dc883bdea3efbcb0b9c26c746f768196296478140c67afb6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 10510,
+      "sha256": "d57b02bf0d19d4448e3a2f7fddfc5faa8c976878a84533bfe0e688a74774ee2e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 10497,
+      "sha256": "44300b3eff71802f4fd29570c95cbfa3268539c5256e853981cc245fbd17e6f8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 9762,
+      "sha256": "9d3b3b29550ee981a265a8dbdad6fa4ad913ff0db8207015f7dcd37045825acb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 10749,
+      "sha256": "7718bd05a93854e45e799c90b0e15c6279af3e50b868265e0d67e3b52d0f1dd7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 9036,
+      "sha256": "d843dc2bdd576bfab17502ec009badf7d529948182a7392d4e5f593db1cfcf3e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 11320,
+      "sha256": "3b01f0930270ff71245ee3542fbdfe7c394a4fb6ae11c021ecee8fb1128a9633",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/github-source.json",
+      "bytes": 431,
+      "sha256": "6da49e97225fcc2eb64fd2bdf92bee285372c7fb3e35a7fcae35f9e60494721d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2504,
+      "sha256": "c26ed824353b115713ca35f380e539940747a80fb3551260ec29bf12f7e5c25c",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/colormap.png",
+      "bytes": 8706,
+      "sha256": "0d4947d34ff32acf4a359c7f22ca784e057e7e72f622170a9a77b6fc88fdb70e",
+      "role": "textures"
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "schema_version": 1,
+  "id": "kaykit-barbarian",
+  "title": "KayKit barbarian",
+  "category": "characters/humans",
+  "style": "stylized",
+  "tags": [
+    "human",
+    "fantasy",
+    "rigged",
+    "animated"
+  ],
+  "batch": "foundation-01-r2",
+  "acquired_at": "2026-11-03T14:51:49.604383+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "kaykit-characters",
+    "model": "model/Barbarian.glb",
+    "creator": "Kay Lousberg",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Character-Pack-Adventures-1.0/672074b73ba276876a19e8816ecdc5241817ab47/LICENSE.txt",
+    "source_url": "https://github.com/KayKit-Game-Assets/KayKit-Character-Pack-Adventures-1.0/blob/672074b73ba276876a19e8816ecdc5241817ab47/addons/kaykit_character_pack_adventures/Characters/gltf/Barbarian.glb",
+    "source_id": "addons/kaykit_character_pack_adventures/Characters/gltf/Barbarian.glb",
+    "revision": "672074b73ba276876a19e8816ecdc5241817ab47",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Character-Pack-Adventures-1.0/672074b73ba276876a19e8816ecdc5241817ab47/addons/kaykit_character_pack_adventures/Characters/gltf/Barbarian.glb",
+        "bytes": 3613268,
+        "sha256": "cefc311a0e10c7858b6141f5ada7e33268727564fb8ac1347aab97d000669cc6"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Character-Pack-Adventures-1.0/672074b73ba276876a19e8816ecdc5241817ab47/LICENSE.txt"
+  },
+  "model": "model/Barbarian.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 13,
+    "materials": 1,
+    "images": 1,
+    "skins": 1,
+    "animations": [
+      "1H_Melee_Attack_Chop",
+      "1H_Melee_Attack_Slice_Diagonal",
+      "1H_Melee_Attack_Slice_Horizontal",
+      "1H_Melee_Attack_Stab",
+      "1H_Ranged_Aiming",
+      "1H_Ranged_Reload",
+      "1H_Ranged_Shoot",
+      "1H_Ranged_Shooting",
+      "2H_Melee_Attack_Chop",
+      "2H_Melee_Attack_Slice",
+      "2H_Melee_Attack_Spin",
+      "2H_Melee_Attack_Spinning",
+      "2H_Melee_Attack_Stab",
+      "2H_Melee_Idle",
+      "2H_Ranged_Aiming",
+      "2H_Ranged_Reload",
+      "2H_Ranged_Shoot",
+      "2H_Ranged_Shooting",
+      "Block",
+      "Block_Attack",
+      "Block_Hit",
+      "Blocking",
+      "Cheer",
+      "Death_A",
+      "Death_A_Pose",
+      "Death_B",
+      "Death_B_Pose",
+      "Dodge_Backward",
+      "Dodge_Forward",
+      "Dodge_Left",
+      "Dodge_Right",
+      "Dualwield_Melee_Attack_Chop",
+      "Dualwield_Melee_Attack_Slice",
+      "Dualwield_Melee_Attack_Stab",
+      "Hit_A",
+      "Hit_B",
+      "Idle",
+      "Interact",
+      "Jump_Full_Long",
+      "Jump_Full_Short",
+      "Jump_Idle",
+      "Jump_Land",
+      "Jump_Start",
+      "Lie_Down",
+      "Lie_Idle",
+      "Lie_Pose",
+      "Lie_StandUp",
+      "PickUp",
+      "Running_A",
+      "Running_B",
+      "Running_Strafe_Left",
+      "Running_Strafe_Right",
+      "Sit_Chair_Down",
+      "Sit_Chair_Idle",
+      "Sit_Chair_Pose",
+      "Sit_Chair_StandUp",
+      "Sit_Floor_Down",
+      "Sit_Floor_Idle",
+      "Sit_Floor_Pose",
+      "Sit_Floor_StandUp",
+      "Spellcast_Long",
+      "Spellcast_Raise",
+      "Spellcast_Shoot",
+      "Spellcasting",
+      "T-Pose",
+      "Throw",
+      "Unarmed_Idle",
+      "Unarmed_Melee_Attack_Kick",
+      "Unarmed_Melee_Attack_Punch_A",
+      "Unarmed_Melee_Attack_Punch_B",
+      "Unarmed_Pose",
+      "Use_Item",
+      "Walking_A",
+      "Walking_B",
+      "Walking_Backwards",
+      "Walking_C"
+    ],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/barbarian_texture.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "barbarian_texture"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 14,
+    "vertices": 5964,
+    "triangles": 6623,
+    "material_slots": 13,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [
+      {
+        "name": "Rig",
+        "bones": 41
+      }
+    ],
+    "actions": [
+      "1H_Melee_Attack_Chop_Rig",
+      "1H_Melee_Attack_Slice_Diagonal_Rig",
+      "1H_Melee_Attack_Slice_Horizontal_Rig",
+      "1H_Melee_Attack_Stab_Rig",
+      "1H_Ranged_Aiming_Rig",
+      "1H_Ranged_Reload_Rig",
+      "1H_Ranged_Shoot_Rig",
+      "1H_Ranged_Shooting_Rig",
+      "2H_Melee_Attack_Chop_Rig",
+      "2H_Melee_Attack_Slice_Rig",
+      "2H_Melee_Attack_Spin_Rig",
+      "2H_Melee_Attack_Spinning_Rig",
+      "2H_Melee_Attack_Stab_Rig",
+      "2H_Melee_Idle_Rig",
+      "2H_Ranged_Aiming_Rig",
+      "2H_Ranged_Reload_Rig",
+      "2H_Ranged_Shoot_Rig",
+      "2H_Ranged_Shooting_Rig",
+      "Block_Attack_Rig",
+      "Block_Hit_Rig",
+      "Block_Rig",
+      "Blocking_Rig",
+      "Cheer_Rig",
+      "Death_A_Pose_Rig",
+      "Death_A_Rig",
+      "Death_B_Pose_Rig",
+      "Death_B_Rig",
+      "Dodge_Backward_Rig",
+      "Dodge_Forward_Rig",
+      "Dodge_Left_Rig",
+      "Dodge_Right_Rig",
+      "Dualwield_Melee_Attack_Chop_Rig",
+      "Dualwield_Melee_Attack_Slice_Rig",
+      "Dualwield_Melee_Attack_Stab_Rig",
+      "Hit_A_Rig",
+      "Hit_B_Rig",
+      "Idle_Rig",
+      "Interact_Rig",
+      "Jump_Full_Long_Rig",
+      "Jump_Full_Short_Rig",
+      "Jump_Idle_Rig",
+      "Jump_Land_Rig",
+      "Jump_Start_Rig",
+      "Lie_Down_Rig",
+      "Lie_Idle_Rig",
+      "Lie_Pose_Rig",
+      "Lie_StandUp_Rig",
+      "PickUp_Rig",
+      "Running_A_Rig",
+      "Running_B_Rig",
+      "Running_Strafe_Left_Rig",
+      "Running_Strafe_Right_Rig",
+      "Sit_Chair_Down_Rig",
+      "Sit_Chair_Idle_Rig",
+      "Sit_Chair_Pose_Rig",
+      "Sit_Chair_StandUp_Rig",
+      "Sit_Floor_Down_Rig",
+      "Sit_Floor_Idle_Rig",
+      "Sit_Floor_Pose_Rig",
+      "Sit_Floor_StandUp_Rig",
+      "Spellcast_Long_Rig",
+      "Spellcast_Raise_Rig",
+      "Spellcast_Shoot_Rig",
+      "Spellcasting_Rig",
+      "T-Pose_Rig",
+      "Throw_Rig",
+      "Unarmed_Idle_Rig",
+      "Unarmed_Melee_Attack_Kick_Rig",
+      "Unarmed_Melee_Attack_Punch_A_Rig",
+      "Unarmed_Melee_Attack_Punch_B_Rig",
+      "Unarmed_Pose_Rig",
+      "Use_Item_Rig",
+      "Walking_A_Rig",
+      "Walking_B_Rig",
+      "Walking_Backwards_Rig",
+      "Walking_C_Rig"
+    ],
+    "images": [
+      {
+        "name": "barbarian_texture",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 6,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 891,
+      "sha256": "ae322141814056dda0deea7540d74c41d87aee1da319977cd1bd84ee5a923629",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 81114,
+      "sha256": "3735081dc2b8ead34cee73286ffb1d78f19de694607ed06e1a2130251617b501",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "7e548e603fb9ff731fb419cd57f4814a7d461cad8cb17797c81036476a777e62",
+      "role": "logs"
+    },
+    {
+      "path": "model/Barbarian.glb",
+      "bytes": 3613268,
+      "sha256": "cefc311a0e10c7858b6141f5ada7e33268727564fb8ac1347aab97d000669cc6",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 18579,
+      "sha256": "ff3bca397c296ad3b5002910514a4d645b26d17e1181b184609a76c10eb53e7a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 14576,
+      "sha256": "0cc1108c9274ce1095db7ae3419604dd47951b249617627b897a50d51da94aa4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 125521,
+      "sha256": "0251be395f5ecee7ff20689ed8ee1cf909a7b06413a025b11caedc1abbb49d22",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 2496,
+      "sha256": "c0fb789b62e12737859a570fd34b2890b3de06f552b1c0ac9a243afec9804e13",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 18840,
+      "sha256": "fa4f323bb466bcd19b1a6e93ad0c20ad6165d02c207616e59dd70c2cc6f898e7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 17327,
+      "sha256": "3e6e1ca14d0dc458b511a073078556e561021ce86e780c1d80f49999f43d4c7a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 14598,
+      "sha256": "d299c641d724ef132816e35c36aa0748176830e04ec065e9b42b2e5e2e8a9928",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 15250,
+      "sha256": "3e26259db95d45e224a76a74ade68cb4c7f711ddfb30b2b78c3fdc018fbefd65",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 15080,
+      "sha256": "5832261bc1a2d50b65442d740cb67099ae87d40e19c02316310b8df15f3c8810",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 16169,
+      "sha256": "8fb6aee3f10411222d1f279d130e5f0c03e5c677259e8bda8f118e8a911b5b15",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 15533,
+      "sha256": "7a334cbe5b80ce7a98803be5e57ed4449c93891cf108e09264c7a67d8d349cd8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 17032,
+      "sha256": "fbd07262fa82a30c05e604affc526dcaf31de631f1cf66d73407b6c6aca94d11",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 15181,
+      "sha256": "39ab369d6daeba37e874530650f559669e017d63563f9e9f0e9a1b32a37e1cce",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 21713,
+      "sha256": "ddeb876ed54d554615cc6d5154f71dbf3f96c7905fc8af55fb6d9b1acc5bd8d9",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/github-source.json",
+      "bytes": 382,
+      "sha256": "20f287152dbe3e03e00d17d1805b5416f1529140f2177239ffa72baffa4aaab0",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 16910,
+      "sha256": "50942859d9a24ef86859af451f18fd1c3f1f0b4f84ae3869f38e2b1648a95074",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/barbarian_texture.png",
+      "bytes": 15089,
+      "sha256": "7329b2ff9709e8d54c886d5ef49c08bd42b12be3bbb2facb1488a6b48b1e8a80",
+      "role": "textures"
+    }
+  ]
+}

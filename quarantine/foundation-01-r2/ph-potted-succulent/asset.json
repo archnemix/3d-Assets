@@ -1,0 +1,314 @@
+{
+  "schema_version": 1,
+  "id": "ph-potted-succulent",
+  "title": "Potted zebra succulent",
+  "category": "nature/potted-plants",
+  "style": "realistic",
+  "tags": [
+    "plant",
+    "succulent",
+    "pot",
+    "pbr"
+  ],
+  "batch": "foundation-01-r2",
+  "acquired_at": "2026-11-03T14:50:27.944658+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/potted_plant_04_2k.gltf",
+    "creator": "James Ray Cock",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/potted_plant_04",
+    "source_id": "potted_plant_04",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/potted_plant_04/potted_plant_04_2k.gltf",
+        "bytes": 7081,
+        "sha256": "3f9502718be285a6614622774a6b19fd9014e2d5e05e6a08f822321dd157e6d5"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/potted_plant_04/potted_plant_04_diff_2k.jpg",
+        "bytes": 1804144,
+        "sha256": "088004de42f405aaa5e14b22f9376e066d3b1ba58e957ad7a67a14697f086bcf"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/potted_plant_04/potted_plant_04.bin",
+        "bytes": 241800,
+        "sha256": "158c1d27503d4845eb3573f00c01ae3f4f77f1d6ca8754c67bf1762745946f7f"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/potted_plant_04/potted_plant_04_nor_gl_2k.jpg",
+        "bytes": 2723926,
+        "sha256": "d4ba8dce3a46ab10bf95cf643838222f50778c718fe16acf0f95cba9b599b8a7"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/potted_plant_04/potted_plant_04_arm_2k.jpg",
+        "bytes": 1480527,
+        "sha256": "95fed5f61ce04485b9233f81459fa4f2c7e51ed93a96f8e4470a0db75ce16288"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/potted_plant_04_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 4,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/potted_plant_04_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "potted_plant_04_nor_gl"
+    },
+    {
+      "path": "model/textures/potted_plant_04_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "potted_plant_04_diff"
+    },
+    {
+      "path": "model/textures/potted_plant_04_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "potted_plant_04_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 4,
+    "vertices": 5882,
+    "triangles": 8929,
+    "material_slots": 4,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "potted_plant_04_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/foundation-01-r2/ph-potted-succulent/model/textures/potted_plant_04_diff_2k.jpg"
+      },
+      {
+        "name": "potted_plant_04_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/foundation-01-r2/ph-potted-succulent/model/textures/potted_plant_04_nor_gl_2k.jpg"
+      },
+      {
+        "name": "potted_plant_04_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/foundation-01-r2/ph-potted-succulent/model/textures/potted_plant_04_arm_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 4,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 71357,
+      "sha256": "0db00a5124799f0a2a4800913e83157f7dd71ee14cd9aaf81b0c789e96e957b0",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "a99759f362377291a7bb056ad797ad31a9826d4cf0cce6cd08add7590b8520d0",
+      "role": "logs"
+    },
+    {
+      "path": "model/potted_plant_04.bin",
+      "bytes": 241800,
+      "sha256": "158c1d27503d4845eb3573f00c01ae3f4f77f1d6ca8754c67bf1762745946f7f",
+      "role": "model"
+    },
+    {
+      "path": "model/potted_plant_04_2k.gltf",
+      "bytes": 7081,
+      "sha256": "3f9502718be285a6614622774a6b19fd9014e2d5e05e6a08f822321dd157e6d5",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/potted_plant_04_arm_2k.jpg",
+      "bytes": 1480527,
+      "sha256": "95fed5f61ce04485b9233f81459fa4f2c7e51ed93a96f8e4470a0db75ce16288",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/potted_plant_04_diff_2k.jpg",
+      "bytes": 1804144,
+      "sha256": "088004de42f405aaa5e14b22f9376e066d3b1ba58e957ad7a67a14697f086bcf",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/potted_plant_04_nor_gl_2k.jpg",
+      "bytes": 2723926,
+      "sha256": "d4ba8dce3a46ab10bf95cf643838222f50778c718fe16acf0f95cba9b599b8a7",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 15413,
+      "sha256": "9142ccef466c61f88bd63a8f217df78a670e57163003c408063112b856435834",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 17286,
+      "sha256": "702c817a8779db3f8efa80d0284d16c4e84320a3a1fe6f1fe7a94aae0fbe3d1c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 175071,
+      "sha256": "ed9de42697420a03a9a82588e323d6e8312f3ba070f38b6bba3e4113e47d1a8b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1145,
+      "sha256": "8732839d36e070e5b6aea7eeba583d47de25fdd918f33afd326faea679b7524b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 23792,
+      "sha256": "3631608b738a65a0cfbdd845b7a9bb3fa9095dd2d4afd72841c132d21b10e831",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 23482,
+      "sha256": "94a2fc599cc4fec046f89fc9d204267757da8f834ce4cbcf3cdac8eeb99926e9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 23692,
+      "sha256": "1493cb66cec3c1e7f21fdfb023ec1a4977d5c044c8ddc09cca8c29e25caca192",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 25102,
+      "sha256": "aea4977afcbb731b449317dbfe660dc1a1e683068b7efa075b0b9e414acc0216",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 24920,
+      "sha256": "0da8e77c7ad26dcfcf1b6c07e7eccd79dff543fcdb2d2bb7387d12095453b843",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 25882,
+      "sha256": "62398adf7754c0d8945ef9057a960222685b87ddf6aa2d3875866d95f133aca1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 26000,
+      "sha256": "b6dd15470fd69b6e9b58438beee7e9f98fe3706341f8571161b87120b5db71fb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 25670,
+      "sha256": "516023f5a9bb3e60e23cb0fae280fc21868cfa0dfe18c031179c185d97cd6464",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 28334,
+      "sha256": "c767ea98f5f2dc5f17e64ec00caefe7acc1fd89dd602fd1b4283448170d09de4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 30637,
+      "sha256": "3aff2fb2a9c6349e3811fbee992fb387d071d870051e35437fcb23ff1a74df23",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1238,
+      "sha256": "6da18a8400ba58a04d4e394f0674871494da62e89d3c3a429072221aa05b1c26",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3118,
+      "sha256": "9fd43d0f08e676b5864b34d686878e160ce6d55239593e71a53e43739fc6f5ac",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1119,
+      "sha256": "66ef10b42efd38de35a4cd5b1ae688fc039bd5399b823f0e86ac119e41d57464",
+      "role": "provenance"
+    }
+  ]
+}

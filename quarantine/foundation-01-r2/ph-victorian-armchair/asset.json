@@ -1,0 +1,314 @@
+{
+  "schema_version": 1,
+  "id": "ph-victorian-armchair",
+  "title": "Victorian armchair",
+  "category": "furniture/chairs",
+  "style": "realistic",
+  "tags": [
+    "chair",
+    "armchair",
+    "victorian",
+    "pbr"
+  ],
+  "batch": "foundation-01-r2",
+  "acquired_at": "2026-11-03T14:48:56.060891+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/ArmChair_01_2k.gltf",
+    "creator": "Kirill Sannikov",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/ArmChair_01",
+    "source_id": "ArmChair_01",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/ArmChair_01/ArmChair_01_2k.gltf",
+        "bytes": 2643,
+        "sha256": "fef57c24069f77767605f865332cb6b4bfa4b78352b230ce75ee66ed5566a9eb"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/ArmChair_01/Armchair_01_nor_gl_2k.jpg",
+        "bytes": 1482566,
+        "sha256": "0bce11bc21a3259e13429e65bedc1cf28d2a672fc6dde6dc86f45e8b8f8a9af4"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/ArmChair_01/ArmChair_01.bin",
+        "bytes": 154012,
+        "sha256": "42a4206ea8bb3f7c3c1500ca3e408e084e8687cd3cc9cbf095b3344e215e0db6"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/ArmChair_01/Armchair_01_diff_2k.jpg",
+        "bytes": 723200,
+        "sha256": "d45d6f6328a924b5099deb7ed88023ab066128a376ee2d16f48149872cec47de"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/ArmChair_01/Armchair_01_arm_2k.jpg",
+        "bytes": 442886,
+        "sha256": "9f5011595cfc5ba523ac385b0bf978c5e455dcf9f9fb6f53d4bfcb4159224e39"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/ArmChair_01_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/Armchair_01_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "Armchair_01_nor_gl"
+    },
+    {
+      "path": "model/textures/Armchair_01_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "Armchair_01_diff"
+    },
+    {
+      "path": "model/textures/Armchair_01_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "Armchair_01_arm"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "vertices": 3758,
+    "triangles": 5626,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 1,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "Armchair_01_arm",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/foundation-01-r2/ph-victorian-armchair/model/textures/Armchair_01_arm_2k.jpg"
+      },
+      {
+        "name": "Armchair_01_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/foundation-01-r2/ph-victorian-armchair/model/textures/Armchair_01_diff_2k.jpg"
+      },
+      {
+        "name": "Armchair_01_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/foundation-01-r2/ph-victorian-armchair/model/textures/Armchair_01_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67673,
+      "sha256": "fdd0a59549a560168d7f5b2546b4bc85c9247670e826dc7626fe165746b6579a",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/ArmChair_01.bin",
+      "bytes": 154012,
+      "sha256": "42a4206ea8bb3f7c3c1500ca3e408e084e8687cd3cc9cbf095b3344e215e0db6",
+      "role": "model"
+    },
+    {
+      "path": "model/ArmChair_01_2k.gltf",
+      "bytes": 2643,
+      "sha256": "fef57c24069f77767605f865332cb6b4bfa4b78352b230ce75ee66ed5566a9eb",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/Armchair_01_arm_2k.jpg",
+      "bytes": 442886,
+      "sha256": "9f5011595cfc5ba523ac385b0bf978c5e455dcf9f9fb6f53d4bfcb4159224e39",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/Armchair_01_diff_2k.jpg",
+      "bytes": 723200,
+      "sha256": "d45d6f6328a924b5099deb7ed88023ab066128a376ee2d16f48149872cec47de",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/Armchair_01_nor_gl_2k.jpg",
+      "bytes": 1482566,
+      "sha256": "0bce11bc21a3259e13429e65bedc1cf28d2a672fc6dde6dc86f45e8b8f8a9af4",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 18346,
+      "sha256": "e1946dcbaf2cc2ed31414a6d9293a21f9c00301ef47a6ffe927e66d39fcdf1c4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 16589,
+      "sha256": "f5092746e8e9cd556c5bbccf9ce4ed4d6936f7c2bb92a536f1e1a5b8fb6ba074",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 174216,
+      "sha256": "c9eeffc795051fddd38159d575dd2996df347fccdeb1759fcdb702f8740a140e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1125,
+      "sha256": "a0a2609045d5a25a1a9c3a437149bd64c4d923c6d348a50c41dcb18aab3059c3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 26687,
+      "sha256": "8420723cd4209773d8ee49f97a02ec87f355cb04de7c302bce4e7f00b1408670",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 29039,
+      "sha256": "20231f5bc09d296ad867932ff6675377ba501f4a9adec5c92246ca49fa27fc02",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 24261,
+      "sha256": "cb77f3abf94e9a8edfa73dbf6c99c661b11e261037dfc3543049c4e463d37c4a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 24662,
+      "sha256": "1b2f66b6ec12e935901da2a25638eaa097681f001544fd5cca4ccfe377c7e610",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 23595,
+      "sha256": "728be2d906004098020c08322f321cc66e304d3a2ec2e651bb8e853f12432fb3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 25074,
+      "sha256": "c50701427a82e84dcc44ccd7aaa621f3773b3e1851f61f50569df5376d71f690",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 26292,
+      "sha256": "8817743a6b853fb3188c69718e9c874dd3028f53366c1526b85c608367257c44",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 29601,
+      "sha256": "c5126dcc88367acbf2a007789fed62155041ea619a06cb81d72f8eb29c682b2d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 19704,
+      "sha256": "d732d0e88384be8538f104b7737fe604e8383695d144d8fce87cc7902959f0ad",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 36109,
+      "sha256": "64d082348cd4d04500bec1ce4ef8818aefe5b45711ca2ff8f050e0d6d3e63f4e",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1232,
+      "sha256": "a2649ce1f627ed2ad7b9c5728d6bb82e0077bea474e79150af66f361fec8e0cf",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3025,
+      "sha256": "88b2fe2c1dcf03ac291de26b656e4ef594b16575ce6b61fbd19f55fd8455e8f4",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1061,
+      "sha256": "e3a6e39ca1033e194641192821926a27126ae39358dfb6bb0ded3b9f10875bbb",
+      "role": "provenance"
+    }
+  ]
+}
