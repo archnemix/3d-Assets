@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "kaykit-dining-chair",
+  "title": "KayKit wooden dining chair",
+  "category": "furniture/chairs",
+  "style": "stylized",
+  "tags": [
+    "chair",
+    "dining",
+    "wood",
+    "game-ready"
+  ],
+  "batch": "foundation-01",
+  "acquired_at": "2026-11-03T14:21:00.480697+00:00",
+  "review": {
+    "status": "intake-failed",
+    "approved": false
+  },
+  "source": {
+    "provider": "kaykit-furniture",
+    "model": "model/chair_A_wood.gltf",
+    "creator": "Kay Lousberg",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/96d5930a8dbdb363409bbc2d3341718b00e17c9c/LICENSE.txt",
+    "source_url": "https://github.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/blob/96d5930a8dbdb363409bbc2d3341718b00e17c9c/addons/kaykit_furniture_bits/Assets/gltf/chair_A_wood.gltf",
+    "source_id": "addons/kaykit_furniture_bits/Assets/gltf/chair_A_wood.gltf",
+    "revision": "96d5930a8dbdb363409bbc2d3341718b00e17c9c",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/96d5930a8dbdb363409bbc2d3341718b00e17c9c/addons/kaykit_furniture_bits/Assets/gltf/chair_A_wood.gltf",
+        "bytes": 3032,
+        "sha256": "e17a16127b9a3e44ef8888c9d52fe7ec09a06b348934627816a538720793af8d"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/96d5930a8dbdb363409bbc2d3341718b00e17c9c/addons/kaykit_furniture_bits/Assets/gltf/chair_A_wood.bin",
+        "bytes": 16504,
+        "sha256": "726ea8962909becf3d925d272928a8e26a1f345fc9f8f165e7424221c69be733"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/96d5930a8dbdb363409bbc2d3341718b00e17c9c/addons/kaykit_furniture_bits/Assets/gltf/furniturebits_texture.png",
+        "bytes": 15605,
+        "sha256": "de62db37a80d1801c3d9eb674890ae04b04469e0c149481a51fa250562c628dc"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/96d5930a8dbdb363409bbc2d3341718b00e17c9c/LICENSE.txt"
+  },
+  "model": "model/chair_A_wood.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 1,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/furniturebits_texture.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "furniturebits_texture"
+    }
+  ],
+  "error": "[Errno 2] No such file or directory: '/home/runner/work/3d-Assets/3d-Assets/quarantine/foundation-01/kaykit-dining-chair/provenance/gltf-validator.json'"
+}
