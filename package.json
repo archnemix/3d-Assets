@@ -1,0 +1,12 @@
+{
+  "name": "cc0-asset-library-tools",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Pinned glTF validation for the asset review pipeline",
+  "scripts": {
+    "validate": "gltf-validator"
+  },
+  "devDependencies": {
+    "gltf-validator": "2.0.0-dev.3.10"
+  }
+}
