@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "kenney-sports-hatchback",
+  "title": "Kenney sports hatchback",
+  "category": "vehicles/cars",
+  "style": "low-poly",
+  "tags": [
+    "car",
+    "hatchback",
+    "kids",
+    "game-ready"
+  ],
+  "batch": "foundation-01",
+  "acquired_at": "2026-11-03T14:21:57.626392+00:00",
+  "review": {
+    "status": "intake-failed",
+    "approved": false
+  },
+  "source": {
+    "provider": "kenney",
+    "model": "model/hatchback-sports.glb",
+    "creator": "Kenney",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE",
+    "source_url": "https://github.com/Hidencod/tge-assets/blob/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/car-kit/hatchback-sports.glb",
+    "source_id": "packs/car-kit/hatchback-sports.glb",
+    "revision": "d92c6e923bbef8649d4e5be3ab375a40f88672b0",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/car-kit/hatchback-sports.glb",
+        "bytes": 210092,
+        "sha256": "9fc0e0c1e216d8b5670905f02b4de09230d44baeed2879f32d39791a483fb508"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE"
+  },
+  "model": "model/hatchback-sports.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 5,
+    "materials": 1,
+    "images": 1,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_texture_transform"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/colormap.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "colormap"
+    }
+  ],
+  "error": "[Errno 2] No such file or directory: '/home/runner/work/3d-Assets/3d-Assets/quarantine/foundation-01/kenney-sports-hatchback/provenance/gltf-validator.json'"
+}
