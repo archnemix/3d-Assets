@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "id": "kenney-teddy-bear",
+  "title": "Kenney teddy bear",
+  "category": "toys/soft-toys",
+  "style": "low-poly",
+  "tags": [
+    "toy",
+    "bear",
+    "plush",
+    "kids"
+  ],
+  "batch": "foundation-01-r2",
+  "acquired_at": "2026-11-03T14:54:24.006154+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "kenney",
+    "model": "model/bear.glb",
+    "creator": "Kenney",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE",
+    "source_url": "https://github.com/Hidencod/tge-assets/blob/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/furniture-kit/bear.glb",
+    "source_id": "packs/furniture-kit/bear.glb",
+    "revision": "d92c6e923bbef8649d4e5be3ab375a40f88672b0",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/furniture-kit/bear.glb",
+        "bytes": 11884,
+        "sha256": "fd87c08f81dcd652b1f7f61afae9d1f040fa1322ac4ddda6f543ed423b954aed"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE"
+  },
+  "model": "model/bear.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 3,
+    "images": 0,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_materials_unlit"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "vertices": 260,
+    "triangles": 134,
+    "material_slots": 3,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 0,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 510,
+      "sha256": "6913dd72bdc20532b7f02d86469058f45d886c9dabf60831275ed16927aa523b",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 61490,
+      "sha256": "da5216c158b2999c67f6cd9f20d2433b9af86511910bf6002dbe61a63507207a",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "99e46f13ebb213c1ff4173ce7d563151e40eeaa23a69bab85256de0a84bcbb51",
+      "role": "logs"
+    },
+    {
+      "path": "model/bear.glb",
+      "bytes": 11884,
+      "sha256": "fd87c08f81dcd652b1f7f61afae9d1f040fa1322ac4ddda6f543ed423b954aed",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 12079,
+      "sha256": "bf335150301494608b8456a85dff9095b1cf2b8be11c077bdc792aa9cab32056",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 13891,
+      "sha256": "01ff9bee603cae9b1f2a979894743d809a29b334cdeb6baca8e58db93482e74a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 108899,
+      "sha256": "fbb874a2acf1538484650314a062e6dbc3da98fd99681f3371c6dceadbf3f287",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 297,
+      "sha256": "431d283c067d35241822b5f42d8552bd08a6bd331cf369e6c43795fc0aa953da",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 15710,
+      "sha256": "c08e5b5ab0d6b614f8515dc4ac09d9888e8acec3d42967e519c1905992b5f852",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 14723,
+      "sha256": "ab41a565c3d4f3e059d3c2a5db600d296bab06614b5bdc584d6fb62762635d77",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 12333,
+      "sha256": "809474b54edb52d4e34dfe9dfae550ca560612c80ed013d6cf35730da0dd8a5d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 12370,
+      "sha256": "8afd6cda6c6ff77e855a7c6af214bb1404a235461ba78998184a3e6a753863f7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 12160,
+      "sha256": "d9981c01edb717a9d42032c9d9a8f1fbb68ea5d7b10e9fd1dd552a41be106a29",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 12570,
+      "sha256": "b8758aefa9f576ca9d6c8bd759d360a4650ac2556643bdaf637c6e1eac40e13e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 12672,
+      "sha256": "41217cd955ed6e71ed05be2ba646eda348e6e14b0fd72ad2617ad1bad18e0209",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 15338,
+      "sha256": "858241cfeb81a5db6050663e4bdb515d1ddce452e72ee2650c18645b6c349eb9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 12665,
+      "sha256": "2e3d7d266861c070b0fb98f93e5da50bd4c86a365555e603529be89a89e09927",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 18796,
+      "sha256": "412f0b7b46643255704babb5bf8ddfce14eb3f2be599774bd3741a3d3faf4def",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/github-source.json",
+      "bytes": 417,
+      "sha256": "71b3b696d57eaab57290e2071a4488135f780ad42d9b914f33a5744d9a8b0870",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1465,
+      "sha256": "433e5836d19b85b29a384698bcd37cd74844d81a7220c2a675119ea686fe3cf0",
+      "role": "provenance"
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "schema_version": 1,
+  "id": "ph-victorian-sofa",
+  "title": "Victorian leather sofa",
+  "category": "furniture/sofas",
+  "style": "realistic",
+  "tags": [
+    "sofa",
+    "leather",
+    "victorian",
+    "pbr"
+  ],
+  "batch": "foundation-01-r2",
+  "acquired_at": "2026-11-03T14:48:58.364473+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/sofa_03_2k.gltf",
+    "creator": "Fran Calvente",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/sofa_03",
+    "source_id": "sofa_03",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/sofa_03/sofa_03_2k.gltf",
+        "bytes": 4465,
+        "sha256": "885fd91183328e44af4e2766044c6636fde31ad10af27bb8eb0d57a775ca92c7"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/sofa_03/sofa_03_rough_2k.jpg",
+        "bytes": 613551,
+        "sha256": "b358e40506dc1cfd55911eba718195c4a8ea10c12b8ddc9d5aecb12bd7e71524"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/sofa_03/sofa_03_nor_gl_2k.jpg",
+        "bytes": 319647,
+        "sha256": "24ea0b754eef8ea7af5e8bb1939df1c395b0d60b387f39b2bd6194bed3f89062"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/sofa_03/sofa_03.bin",
+        "bytes": 228984,
+        "sha256": "e524350933d3d2a84c28f13bc042888a4768adeef88d630111015caede1c2e98"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/sofa_03/sofa_03_diff_2k.jpg",
+        "bytes": 563414,
+        "sha256": "1e334e40065b5591b35351124ad5ba74a32337581aa4c0af49fe935ef4648fef"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/sofa_03_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 2,
+    "images": 4,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/sofa_03_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "sofa_03_nor_gl"
+    },
+    {
+      "path": "model/textures/sofa_03_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "sofa_03_diff.png"
+    },
+    {
+      "path": "model/textures/sofa_03_rough_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "sofa_03_rough.png"
+    },
+    {
+      "path": "model/textures/sofa_03_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "sofa_03_diff.png-sofa_03_opacity"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "vertices": 5655,
+    "triangles": 8003,
+    "material_slots": 2,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "sofa_03_diff.png",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/foundation-01-r2/ph-victorian-sofa/model/textures/sofa_03_diff_2k.jpg"
+      },
+      {
+        "name": "sofa_03_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/foundation-01-r2/ph-victorian-sofa/model/textures/sofa_03_nor_gl_2k.jpg"
+      },
+      {
+        "name": "sofa_03_rough.png",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/foundation-01-r2/ph-victorian-sofa/model/textures/sofa_03_rough_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67410,
+      "sha256": "f1bb1e830d995e65e5b741f4db7d66167def9b655a437168c8961dcedd267f58",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "2a9a229f8bb2ed821581e94782406b1f4a42c4f9a9e024e1cc719a6265cfa1b4",
+      "role": "logs"
+    },
+    {
+      "path": "model/sofa_03.bin",
+      "bytes": 228984,
+      "sha256": "e524350933d3d2a84c28f13bc042888a4768adeef88d630111015caede1c2e98",
+      "role": "model"
+    },
+    {
+      "path": "model/sofa_03_2k.gltf",
+      "bytes": 4465,
+      "sha256": "885fd91183328e44af4e2766044c6636fde31ad10af27bb8eb0d57a775ca92c7",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/sofa_03_diff_2k.jpg",
+      "bytes": 563414,
+      "sha256": "1e334e40065b5591b35351124ad5ba74a32337581aa4c0af49fe935ef4648fef",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/sofa_03_nor_gl_2k.jpg",
+      "bytes": 319647,
+      "sha256": "24ea0b754eef8ea7af5e8bb1939df1c395b0d60b387f39b2bd6194bed3f89062",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/sofa_03_rough_2k.jpg",
+      "bytes": 613551,
+      "sha256": "b358e40506dc1cfd55911eba718195c4a8ea10c12b8ddc9d5aecb12bd7e71524",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 17137,
+      "sha256": "3375aae95040b949d2027247d79a95becca583dcf24c07e6ad769464a90565da",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18607,
+      "sha256": "06b29d5eeb25cb89fcf12a7c8f29e2580c9341bdb8d66fe272337e42187559c4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 189152,
+      "sha256": "65139a6b08c995eba9a1fd5c50c422007467ad7a0d1c53be113963aaa3d105ea",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1101,
+      "sha256": "ccfaf0e00cbdf4b1c5586360b9ab82f471511fb59f653f0a9cc576ff15c4817d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 37689,
+      "sha256": "a8e27a18b41072708856631b1690f16d72076f852be5325f4efa3bdd64f9fe7f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 34714,
+      "sha256": "7692f0e939a5aeb0a77deee658f58ca4e2a0e80dc888aadf826ce049d05b588d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 19755,
+      "sha256": "d9dbc9c506236849cda0f353a8fc0df9e7d12510e845b32d352e301ed32ade38",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 23334,
+      "sha256": "6f94c927cb1da429ef53325e2784502f8fbb6bbd3343ae8561e6ec0c05934998",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 23570,
+      "sha256": "89f869652ea6eb43702d4728d819da7d156d0f4bdbf0dfd6aa75ab2263164cfa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 22509,
+      "sha256": "64e782c85bdd94fa7db2d25f40f1dcc834c7db74015cb7b3c8f7b850a87f3989",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 19112,
+      "sha256": "1bfd99d2148ab50170c4150906e812ad69dbd22834e4f2ba19d882b394e7b969",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 34469,
+      "sha256": "9dc9071ed3bf11fa698687376485653f617ee71978a9631c78963dfb1727046f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 31901,
+      "sha256": "f2cdfc9cb50cf4bbc55d414629d10e4522fd6e5291d54d55a738d8ccb74c0a23",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 38739,
+      "sha256": "af4550c96ce77b1d2dae514696f14cecedf43dd04ebef10e8d6e3dca499469e5",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1222,
+      "sha256": "825b617d40b07385110b97af4ccdbd5346064501cb6ec73eb141f929fb7df998",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 4536,
+      "sha256": "ee29dd0726eab0206b0354b20f5d92886807d1b808ffefb548aa861d3807c3fa",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1008,
+      "sha256": "caa402a3bca2d7547b36266793c207cf179cc83e82dd43aab8e186d4d0708fc9",
+      "role": "provenance"
+    }
+  ]
+}

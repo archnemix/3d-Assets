@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "id": "kaykit-rogue",
+  "title": "KayKit hooded rogue",
+  "category": "characters/humans",
+  "style": "stylized",
+  "tags": [
+    "human",
+    "fantasy",
+    "rigged",
+    "animated",
+    "rogue"
+  ],
+  "batch": "foundation-01-r2",
+  "acquired_at": "2026-11-03T14:51:52.234288+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "kaykit-characters",
+    "model": "model/Rogue_Hooded.glb",
+    "creator": "Kay Lousberg",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Character-Pack-Adventures-1.0/672074b73ba276876a19e8816ecdc5241817ab47/LICENSE.txt",
+    "source_url": "https://github.com/KayKit-Game-Assets/KayKit-Character-Pack-Adventures-1.0/blob/672074b73ba276876a19e8816ecdc5241817ab47/addons/kaykit_character_pack_adventures/Characters/gltf/Rogue_Hooded.glb",
+    "source_id": "addons/kaykit_character_pack_adventures/Characters/gltf/Rogue_Hooded.glb",
+    "revision": "672074b73ba276876a19e8816ecdc5241817ab47",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Character-Pack-Adventures-1.0/672074b73ba276876a19e8816ecdc5241817ab47/addons/kaykit_character_pack_adventures/Characters/gltf/Rogue_Hooded.glb",
+        "bytes": 3597652,
+        "sha256": "93e6e25213009952276d9cf34f5d96a243767334c66f280db0433ddfabb91545"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Character-Pack-Adventures-1.0/672074b73ba276876a19e8816ecdc5241817ab47/LICENSE.txt"
+  },
+  "model": "model/Rogue_Hooded.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 12,
+    "materials": 1,
+    "images": 1,
+    "skins": 1,
+    "animations": [
+      "1H_Melee_Attack_Chop",
+      "1H_Melee_Attack_Slice_Diagonal",
+      "1H_Melee_Attack_Slice_Horizontal",
+      "1H_Melee_Attack_Stab",
+      "1H_Ranged_Aiming",
+      "1H_Ranged_Reload",
+      "1H_Ranged_Shoot",
+      "1H_Ranged_Shooting",
+      "2H_Melee_Attack_Chop",
+      "2H_Melee_Attack_Slice",
+      "2H_Melee_Attack_Spin",
+      "2H_Melee_Attack_Spinning",
+      "2H_Melee_Attack_Stab",
+      "2H_Melee_Idle",
+      "2H_Ranged_Aiming",
+      "2H_Ranged_Reload",
+      "2H_Ranged_Shoot",
+      "2H_Ranged_Shooting",
+      "Block",
+      "Block_Attack",
+      "Block_Hit",
+      "Blocking",
+      "Cheer",
+      "Death_A",
+      "Death_A_Pose",
+      "Death_B",
+      "Death_B_Pose",
+      "Dodge_Backward",
+      "Dodge_Forward",
+      "Dodge_Left",
+      "Dodge_Right",
+      "Dualwield_Melee_Attack_Chop",
+      "Dualwield_Melee_Attack_Slice",
+      "Dualwield_Melee_Attack_Stab",
+      "Hit_A",
+      "Hit_B",
+      "Idle",
+      "Interact",
+      "Jump_Full_Long",
+      "Jump_Full_Short",
+      "Jump_Idle",
+      "Jump_Land",
+      "Jump_Start",
+      "Lie_Down",
+      "Lie_Idle",
+      "Lie_Pose",
+      "Lie_StandUp",
+      "PickUp",
+      "Running_A",
+      "Running_B",
+      "Running_Strafe_Left",
+      "Running_Strafe_Right",
+      "Sit_Chair_Down",
+      "Sit_Chair_Idle",
+      "Sit_Chair_Pose",
+      "Sit_Chair_StandUp",
+      "Sit_Floor_Down",
+      "Sit_Floor_Idle",
+      "Sit_Floor_Pose",
+      "Sit_Floor_StandUp",
+      "Spellcast_Long",
+      "Spellcast_Raise",
+      "Spellcast_Shoot",
+      "Spellcasting",
+      "T-Pose",
+      "Throw",
+      "Unarmed_Idle",
+      "Unarmed_Melee_Attack_Kick",
+      "Unarmed_Melee_Attack_Punch_A",
+      "Unarmed_Melee_Attack_Punch_B",
+      "Unarmed_Pose",
+      "Use_Item",
+      "Walking_A",
+      "Walking_B",
+      "Walking_Backwards",
+      "Walking_C"
+    ],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/rogue_texture.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "rogue_texture"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 13,
+    "vertices": 5628,
+    "triangles": 6115,
+    "material_slots": 12,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [
+      {
+        "name": "Rig",
+        "bones": 41
+      }
+    ],
+    "actions": [
+      "1H_Melee_Attack_Chop_Rig",
+      "1H_Melee_Attack_Slice_Diagonal_Rig",
+      "1H_Melee_Attack_Slice_Horizontal_Rig",
+      "1H_Melee_Attack_Stab_Rig",
+      "1H_Ranged_Aiming_Rig",
+      "1H_Ranged_Reload_Rig",
+      "1H_Ranged_Shoot_Rig",
+      "1H_Ranged_Shooting_Rig",
+      "2H_Melee_Attack_Chop_Rig",
+      "2H_Melee_Attack_Slice_Rig",
+      "2H_Melee_Attack_Spin_Rig",
+      "2H_Melee_Attack_Spinning_Rig",
+      "2H_Melee_Attack_Stab_Rig",
+      "2H_Melee_Idle_Rig",
+      "2H_Ranged_Aiming_Rig",
+      "2H_Ranged_Reload_Rig",
+      "2H_Ranged_Shoot_Rig",
+      "2H_Ranged_Shooting_Rig",
+      "Block_Attack_Rig",
+      "Block_Hit_Rig",
+      "Block_Rig",
+      "Blocking_Rig",
+      "Cheer_Rig",
+      "Death_A_Pose_Rig",
+      "Death_A_Rig",
+      "Death_B_Pose_Rig",
+      "Death_B_Rig",
+      "Dodge_Backward_Rig",
+      "Dodge_Forward_Rig",
+      "Dodge_Left_Rig",
+      "Dodge_Right_Rig",
+      "Dualwield_Melee_Attack_Chop_Rig",
+      "Dualwield_Melee_Attack_Slice_Rig",
+      "Dualwield_Melee_Attack_Stab_Rig",
+      "Hit_A_Rig",
+      "Hit_B_Rig",
+      "Idle_Rig",
+      "Interact_Rig",
+      "Jump_Full_Long_Rig",
+      "Jump_Full_Short_Rig",
+      "Jump_Idle_Rig",
+      "Jump_Land_Rig",
+      "Jump_Start_Rig",
+      "Lie_Down_Rig",
+      "Lie_Idle_Rig",
+      "Lie_Pose_Rig",
+      "Lie_StandUp_Rig",
+      "PickUp_Rig",
+      "Running_A_Rig",
+      "Running_B_Rig",
+      "Running_Strafe_Left_Rig",
+      "Running_Strafe_Right_Rig",
+      "Sit_Chair_Down_Rig",
+      "Sit_Chair_Idle_Rig",
+      "Sit_Chair_Pose_Rig",
+      "Sit_Chair_StandUp_Rig",
+      "Sit_Floor_Down_Rig",
+      "Sit_Floor_Idle_Rig",
+      "Sit_Floor_Pose_Rig",
+      "Sit_Floor_StandUp_Rig",
+      "Spellcast_Long_Rig",
+      "Spellcast_Raise_Rig",
+      "Spellcast_Shoot_Rig",
+      "Spellcasting_Rig",
+      "T-Pose_Rig",
+      "Throw_Rig",
+      "Unarmed_Idle_Rig",
+      "Unarmed_Melee_Attack_Kick_Rig",
+      "Unarmed_Melee_Attack_Punch_A_Rig",
+      "Unarmed_Melee_Attack_Punch_B_Rig",
+      "Unarmed_Pose_Rig",
+      "Use_Item_Rig",
+      "Walking_A_Rig",
+      "Walking_B_Rig",
+      "Walking_Backwards_Rig",
+      "Walking_C_Rig"
+    ],
+    "images": [
+      {
+        "name": "rogue_texture",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 6,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 891,
+      "sha256": "ae322141814056dda0deea7540d74c41d87aee1da319977cd1bd84ee5a923629",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 78142,
+      "sha256": "0f4d975fdf54f77d28408010e835a3a34df00a728c6a86c8d405f49069b9f6f6",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "7e548e603fb9ff731fb419cd57f4814a7d461cad8cb17797c81036476a777e62",
+      "role": "logs"
+    },
+    {
+      "path": "model/Rogue_Hooded.glb",
+      "bytes": 3597652,
+      "sha256": "93e6e25213009952276d9cf34f5d96a243767334c66f280db0433ddfabb91545",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 15901,
+      "sha256": "d5966ab0f4673e15a87ff2203329f329585f67981932c9481e5d2f3a79657677",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 14985,
+      "sha256": "dbdf5e5483f04b61290c906104e8d47141701b31c808c0ca0a3555ff1b6a7a88",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 120045,
+      "sha256": "6132254895878f803d27e74366b3277bafcf268ac0dd20fc4992854ec3b0e3ec",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 2492,
+      "sha256": "1ba2b68c1193b54bfdc07531ced8f1240d1018203ada1365f047731797ca7bac",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 18482,
+      "sha256": "d1f52a4f70ab1d6f0f4bfa6506a1fd88f5471e61937c6254d3f8b265b907bd41",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 17296,
+      "sha256": "ed224999e1067996ce78d1005c556556e702610559db58115304730fb0a050fa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 13236,
+      "sha256": "340dfbafe6467d92ac13579d07078de9145a9a2a120f2d1b775861f9efb575f2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 15056,
+      "sha256": "d66c4f745fcb1a032796893580dec2c46595048f4ea617ac787b206e4bdf0290",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 15037,
+      "sha256": "7e8f998b713a16350fb53dde45f74da8ee72938d306a614738060862a6964595",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 15360,
+      "sha256": "7ae9cac66967b96fac692338614842178753015abd2c2df9a9a9c7d3277d3d91",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 13909,
+      "sha256": "932bc4506f0046728f8d9c1a1eb7ddb2ed52d4106c5f2869667f7b94b89855df",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 17294,
+      "sha256": "1b7b280aaf14b1f7c82dfc131ad9c5db6981cb7159f2377a65a5cd833377086b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 12682,
+      "sha256": "97778a61aa3fd5fadf0bac566c915a178974ee353ef8f2fdab7159eaea52a68f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 21634,
+      "sha256": "4756ff29c20776260252c563a4951faf5bd73df99d8c62f746b306e714b6b5f4",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/github-source.json",
+      "bytes": 385,
+      "sha256": "c7f3726aef7d7e4fcaf31ebfb0ba8011499f4629213d594e11176c066863ffac",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 15999,
+      "sha256": "3474c72987148c684099706b1c5a3dacb4c180c26114f101970508c412aef925",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/rogue_texture.png",
+      "bytes": 16670,
+      "sha256": "a4032e877c3b91939f5cdbb630349c1998fdbc3211bbd587c111125500fe4cc5",
+      "role": "textures"
+    }
+  ]
+}
