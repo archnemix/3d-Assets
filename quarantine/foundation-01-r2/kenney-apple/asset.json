@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "id": "kenney-apple",
+  "title": "Kenney stylized apple",
+  "category": "food/fruit",
+  "style": "low-poly",
+  "tags": [
+    "apple",
+    "fruit",
+    "food",
+    "kids"
+  ],
+  "batch": "foundation-01-r2",
+  "acquired_at": "2026-11-03T14:54:17.659956+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "kenney",
+    "model": "model/apple.glb",
+    "creator": "Kenney",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE",
+    "source_url": "https://github.com/Hidencod/tge-assets/blob/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/food-kit/apple.glb",
+    "source_id": "packs/food-kit/apple.glb",
+    "revision": "d92c6e923bbef8649d4e5be3ab375a40f88672b0",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/food-kit/apple.glb",
+        "bytes": 25120,
+        "sha256": "80617eb699d267f4bc377415aff8e5397de4184b88d43974501b11bc3b5f33a1"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE"
+  },
+  "model": "model/apple.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 1,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_texture_transform"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/colormap.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "colormap"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "vertices": 252,
+    "triangles": 136,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "colormap",
+        "dimensions": [
+          512,
+          512
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 0,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 510,
+      "sha256": "6913dd72bdc20532b7f02d86469058f45d886c9dabf60831275ed16927aa523b",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 62878,
+      "sha256": "01d480085f02ae4d2d51ef6a7ad63075ae9aeb49617ed2f79a446dbb1f432b96",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "3629b738db9a859e28c3be3ca3f30737a293067d742f1bb7f0d75f7f8b36e9e2",
+      "role": "logs"
+    },
+    {
+      "path": "model/apple.glb",
+      "bytes": 25120,
+      "sha256": "80617eb699d267f4bc377415aff8e5397de4184b88d43974501b11bc3b5f33a1",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 13876,
+      "sha256": "97928657516a70c60b765a10d594f72d265cf92e65dccd2387b7bf0364a49ef4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 12454,
+      "sha256": "dc825c07afd560e9498514324e9510c6deea6298c100600ec8d57b90f89eb3c6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 117323,
+      "sha256": "53dbf091df06aebaec9654dba5d8ec0c1e733a1d9f94c93ed874410fa59daa4c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 437,
+      "sha256": "12ee2b0b342c8faa13ade7b5def2ae0f1c2eb3041a348d5a9100747e25175cfe",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 14964,
+      "sha256": "c4b4cc1f2c43a4394aae4ca7d0de0eb63b297f8ced547f618d92a9b52854e0c4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 14824,
+      "sha256": "cae0872364bcd1ba6e01a97a0f5c695af5dbbe7ab0fffbe4762d147018f88a04",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 14810,
+      "sha256": "9d5ae3eda94d1327b575e775ea221e2edbbb5378a34f2cd123482fa5064662ae",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 14706,
+      "sha256": "f669c848098abfbf7b91a17fa9e48c972c37787542f9713b5eef008b3480c51e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 14771,
+      "sha256": "491126610b3d32520a02636e969e3a4baeb8b3e0eb27641c2875067cc9a33aa4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 15071,
+      "sha256": "edc517f24f8e276e0379dba2238a13baa55ece72d9a8a6f099080461ca24d055",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 15154,
+      "sha256": "61b10c2a0a585de9f96669473a789b9ba1e8cb7f9aa7ed7dbe2111ab2ef23283",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 15094,
+      "sha256": "2fe45219c43da92e3c516cef8f315be4d470d88b5b8800319a4680196cba2c6c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 14200,
+      "sha256": "168f7118c3658d0c6d9c4b1b7e26fc8665e2d01c75383d89300684cab1839958",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 17471,
+      "sha256": "1b6bc3fbe217524d3f2dee65d4384fc2940beae17b273c78cc0df56658f3ad58",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/github-source.json",
+      "bytes": 413,
+      "sha256": "eb439958fe73688d5bab0e823f66d6044d9f309201b0a3c22fb1aeacd8e701b9",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1433,
+      "sha256": "bf59d369c2073ab29783d60745c4a3d3e07d3cf6f4b77727cbdae339c10a6ba2",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/colormap.png",
+      "bytes": 10715,
+      "sha256": "75baf74d9483a0fc56ac21ceba346fbe16fc24a2a1bf0524c53e6bbe802e1153",
+      "role": "textures"
+    }
+  ]
+}

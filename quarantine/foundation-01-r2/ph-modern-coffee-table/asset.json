@@ -1,0 +1,314 @@
+{
+  "schema_version": 1,
+  "id": "ph-modern-coffee-table",
+  "title": "Modern coffee table",
+  "category": "furniture/tables",
+  "style": "realistic",
+  "tags": [
+    "table",
+    "coffee-table",
+    "modern",
+    "pbr"
+  ],
+  "batch": "foundation-01-r2",
+  "acquired_at": "2026-11-03T14:48:52.653504+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/modern_coffee_table_01_2k.gltf",
+    "creator": "Amin",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/modern_coffee_table_01",
+    "source_id": "modern_coffee_table_01",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/modern_coffee_table_01/modern_coffee_table_01_2k.gltf",
+        "bytes": 2771,
+        "sha256": "0934d355e65fc5d1b2056fa913813384246572839af464d741f443462cc8e955"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modern_coffee_table_01/modern_coffee_table_01_rough_2k.jpg",
+        "bytes": 1476681,
+        "sha256": "48575f42cab1b40558a4f5957ccaf304651460d6caad2de23d86aec3a6bcd6ff"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modern_coffee_table_01/modern_coffee_table_01.bin",
+        "bytes": 154864,
+        "sha256": "b8fe0d49041b879a5d5962685a39e3daf009679f7b6a88ced1347e6dc6c0851e"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modern_coffee_table_01/modern_coffee_table_01_diff_2k.jpg",
+        "bytes": 1571631,
+        "sha256": "527c9cbe6162b5ba84c5427407148d45a051f38c8475b32b5cd3fc02534a7090"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modern_coffee_table_01/modern_coffee_table_01_nor_gl_2k.jpg",
+        "bytes": 1495294,
+        "sha256": "ce0fbc0e6e900480edafbeaab4e4593882c8f3f46dea43b897ccef07093b8caa"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/modern_coffee_table_01_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/modern_coffee_table_01_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "modern_coffee_table_01_nor_gl"
+    },
+    {
+      "path": "model/textures/modern_coffee_table_01_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "modern_coffee_table_01_diff"
+    },
+    {
+      "path": "model/textures/modern_coffee_table_01_rough_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "modern_coffee_table_01_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "vertices": 3995,
+    "triangles": 4504,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 12,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "modern_coffee_table_01_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/foundation-01-r2/ph-modern-coffee-table/model/textures/modern_coffee_table_01_diff_2k.jpg"
+      },
+      {
+        "name": "modern_coffee_table_01_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/foundation-01-r2/ph-modern-coffee-table/model/textures/modern_coffee_table_01_nor_gl_2k.jpg"
+      },
+      {
+        "name": "modern_coffee_table_01_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/foundation-01-r2/ph-modern-coffee-table/model/textures/modern_coffee_table_01_rough_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68042,
+      "sha256": "031ec07b48ff8b8e50ee500969733080d8cf42b85a9e5569638c8756e4ca7047",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/modern_coffee_table_01.bin",
+      "bytes": 154864,
+      "sha256": "b8fe0d49041b879a5d5962685a39e3daf009679f7b6a88ced1347e6dc6c0851e",
+      "role": "model"
+    },
+    {
+      "path": "model/modern_coffee_table_01_2k.gltf",
+      "bytes": 2771,
+      "sha256": "0934d355e65fc5d1b2056fa913813384246572839af464d741f443462cc8e955",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/modern_coffee_table_01_diff_2k.jpg",
+      "bytes": 1571631,
+      "sha256": "527c9cbe6162b5ba84c5427407148d45a051f38c8475b32b5cd3fc02534a7090",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/modern_coffee_table_01_nor_gl_2k.jpg",
+      "bytes": 1495294,
+      "sha256": "ce0fbc0e6e900480edafbeaab4e4593882c8f3f46dea43b897ccef07093b8caa",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/modern_coffee_table_01_rough_2k.jpg",
+      "bytes": 1476681,
+      "sha256": "48575f42cab1b40558a4f5957ccaf304651460d6caad2de23d86aec3a6bcd6ff",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 26629,
+      "sha256": "53c67d402e4e9bad0b9999e8562f888acdb1f9847879a61d22f614a061a4c047",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 14862,
+      "sha256": "7ab0984883ef6446232efd664346486f36b4f5d406aad56df63d803d45fd0605",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 147270,
+      "sha256": "a64a84c0b4481543d3fabe1c37f2abe814e5c8ab0ac84b7fc5b0ca0ee283a11f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1199,
+      "sha256": "cb16b8e0b0ed670d04773d9297de4a74552a5d3b9c83d13671dbcb0600c2f488",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 16644,
+      "sha256": "783c3dcdab660443893f93ee4cd2743741c5e66355ef14f25d30f76c2ca4c1b1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 20270,
+      "sha256": "4301a7d7c70a7eab0fe77c8237265a927d84e45c9c104ce2be728e7e255228ff",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 17445,
+      "sha256": "2b9004a7c127da3f91bbb61ebcb35907f900a85927b9a3a4f5467564f6bb8a51",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 19882,
+      "sha256": "be5891f631616039b6d5ad0db61d87d82115b68dbfb640ab9013ec8f9fd8e936",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 16558,
+      "sha256": "9dfea1debdb097a310bbfc1eb1a177cea4e8288f515557b798a3ab50f1ec3bd8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 20868,
+      "sha256": "9747b9d9b5a1d676cb67b18f76fc4c00de1a721faf8d651507fa30eb493bf197",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 17891,
+      "sha256": "ffb2ca4c9e2d349c1edfe2e29abb6a259aa8fc8aeb87468e80266025c2f90c2a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 20604,
+      "sha256": "c44da1bbe4317c72805c5695fd3b695321ea3fbd64c04dda10e4736b335a9677",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 25982,
+      "sha256": "18ec8eddee623981c4a4e07112dc5be0d24de4187976b00dfa1a769cbe12af96",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 23333,
+      "sha256": "1e4b6d72c13de52b677bba7363e3fe38937f74f2f34c20405b6680ac87761f56",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1160,
+      "sha256": "b844b6caab2de93e6c0ef2262bdfd1a854aa65228849d783be0d9b288dfde176",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3088,
+      "sha256": "8657f4823e669e836b37c512fc07c1cc9ba39928fd3a01e341d574b84f3f096c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1221,
+      "sha256": "75e5583f03f53655b2b9438f78c7d3540230786a50885f707a8901d78fc4bd79",
+      "role": "provenance"
+    }
+  ]
+}
