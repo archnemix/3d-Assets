@@ -9,7 +9,7 @@ run=${GITHUB_RUN_ID:?GITHUB_RUN_ID is required}
 # Only this invocation's output paths are staged. Never sweep unrelated edits into a bot commit.
 git config user.name 'github-actions[bot]'
 git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-git add -- "quarantine/$batch" "reports/intake/$batch/shard-$shard.json"
+git add -- "quarantine/$batch" "reports/intake/$batch/shard-$shard.json" "reports/intake/$batch/worker-$shard.log"
 if git diff --cached --quiet; then
   echo 'No shard output to publish.'
   exit 0

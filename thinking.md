@@ -14,7 +14,7 @@ This is a decision and implementation journal: what changed, the observed reason
 
 The first search identified Poly Haven, Kenney, KayKit and MakeHuman as candidates. Primary source checks were more useful than aggregator labels:
 
-- Poly Haven explicitly allows redistribution of its CC0 assets. Its live API has separate service terms, including a discovery-service credit and identifiable requests. The tool complplies; downloaded assets remain attribution-free.
+- Poly Haven explicitly allows redistribution of its CC0 assets. Its live API has separate service terms, including a discovery-service credit and identifiable requests. The tool complies; downloaded assets remain attribution-free.
 - KayKit's pinned character and furniture packs include explicit CC0 notices.
 - Kenney's original pack pages declare CC0. The selected GitHub convenience mirror also explicitly releases its converted GLBs under CC0. Its exact revision and original creator are recorded rather than presenting the mirror as the author.
 - Some search results described models as CC0 even when the actual listing said attribution was required. Those listings are not accepted on the strength of their titles.
@@ -32,3 +32,11 @@ The workflow is triggered only by `automation/request.json` on the session branc
 Raw downloads go to `quarantine/`, never `assets/`. The render pass uses the actual local model and its textures. It does not substitute a vendor's marketing image. Twelve inspection images and machine-readable geometry/format reports accompany each candidate.
 
 **Next gate.** Inspect the rendered contact sheets and full-size views, record explicit decisions, then move only approved candidates into their category folders and rebuild the catalog. Rejections retain their reasons and review evidence without keeping failed model payloads.
+
+## First CI run — preserve the evidence, fix the boundaries
+
+Run 41652664807 acquired and rendered all 16 GitHub-hosted candidates, but none passed the complete intake gate. Ten Poly Haven candidates stopped before download because the license check expected prose in a JavaScript-rendered page. The other 16 produced images and a validator summary but no validator report.
+
+Two fixes followed. The license check now reads an immutable revision of Poly Haven's official API terms, which explicitly distinguish CC0 assets from API service conditions. The validator invocation now matches our small Node wrapper's two-argument contract; obsolete flags from a different CLI were removed. A regression test invokes the real validator and checks the report file, not just mocked success.
+
+The failed candidates remain unapproved. Their payloads will be replaced by a clean rerun; the original run and reports remain available in Git history. This is precisely why CI outputs are committed: the failure was diagnosable without artifact-browser access.

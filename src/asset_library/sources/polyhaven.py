@@ -5,7 +5,14 @@ from pathlib import Path
 from asset_library.files import destination, safe_relative_path, write_json
 from asset_library.http import download, json, text
 
-HOSTS = {"api.polyhaven.com", "dl.polyhaven.org", "polyhaven.com", "creativecommons.org"}
+HOSTS = {
+    "api.polyhaven.com",
+    "dl.polyhaven.org",
+    "polyhaven.com",
+    "creativecommons.org",
+    "raw.githubusercontent.com",
+}
+LICENSE_REVISION = "2fd1796dc3506dfa8269439aac8e6f5c65876bd1"
 
 
 def fetch_polyhaven(source: dict, candidate: dict, directory: Path) -> dict:
@@ -14,8 +21,10 @@ def fetch_polyhaven(source: dict, candidate: dict, directory: Path) -> dict:
     headers = {"User-Agent": source["user_agent"], "Referer": source["user_agent"]}
     info = json(f"{source['api']}/info/{upstream}", HOSTS, headers)
     files = json(f"{source['api']}/files/{upstream}", HOSTS, headers)
-    license_page = text(source["license_page"], HOSTS)
-    if "Our assets are all licensed as CC0" not in license_page:
+    # The website is a JavaScript application. Check the official, immutable API terms instead.
+    terms_url = f"https://raw.githubusercontent.com/Poly-Haven/Public-API/{LICENSE_REVISION}/ToS.md"
+    license_document = text(terms_url, HOSTS)
+    if "CC0 assets carry no attribution requirement whatsoever" not in license_document:
         raise ValueError("Poly Haven's license statement changed; manual review required")
     try:
         package = files["gltf"][resolution]["gltf"]
@@ -34,7 +43,8 @@ def fetch_polyhaven(source: dict, candidate: dict, directory: Path) -> dict:
         "model": model.relative_to(directory).as_posix(),
         "creator": ", ".join(info.get("authors", {})),
         "license": "CC0-1.0",
-        "license_evidence": source["license_page"],
+        "license_evidence": terms_url,
+        "license_page": source["license_page"],
         "source_url": source["page"] + upstream,
         "source_id": upstream,
         "resolution": resolution,
