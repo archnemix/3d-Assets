@@ -1,0 +1,405 @@
+{
+  "schema_version": 1,
+  "id": "ph-modern-armchair",
+  "title": "Modern leather armchair",
+  "category": "furniture/chairs",
+  "style": "realistic",
+  "tags": [
+    "chair",
+    "armchair",
+    "modern",
+    "leather",
+    "pbr"
+  ],
+  "batch": "foundation-01-r2",
+  "acquired_at": "2026-11-03T14:48:54.288994+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/modern_arm_chair_01_2k.gltf",
+    "creator": "Vibrant Nordic",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/modern_arm_chair_01",
+    "source_id": "modern_arm_chair_01",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/modern_arm_chair_01/modern_arm_chair_01_2k.gltf",
+        "bytes": 5121,
+        "sha256": "eb971ed98af1ce3d4cc93a058ceee5c31dbd185f99aa3d86938d366820943414"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modern_arm_chair_01/modern_arm_chair_01_pillow_diff_2k.jpg",
+        "bytes": 843013,
+        "sha256": "20a8b41bd14552643c1355587ec1198cb8c5f1f7dea50dc71dbb0f6a826adfc1"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modern_arm_chair_01/modern_arm_chair_01_pillow_nor_gl_2k.jpg",
+        "bytes": 1074878,
+        "sha256": "dfd11d444ba0a6c1a16304f91c10ef2a2a525180f6a46ca57c2d55c196ff39de"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modern_arm_chair_01/modern_arm_chair_01.bin",
+        "bytes": 240728,
+        "sha256": "8755f2f498c0bb165660379d1b045465751c16bbeaf553c8dd76bb14c16d1ff6"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modern_arm_chair_01/modern_arm_chair_01_legs_diff_2k.jpg",
+        "bytes": 1660925,
+        "sha256": "a3a289f3265d77e120e81aebdd9107b612609b077190e842389b5cd32bbf9a3d"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modern_arm_chair_01/modern_arm_chair_01_legs_arm_2k.jpg",
+        "bytes": 2144468,
+        "sha256": "38a2b11cdfb18aeed9804fee38de93d8fd856f53ad9448ee877833ba25643f15"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modern_arm_chair_01/modern_arm_chair_01_legs_nor_gl_2k.jpg",
+        "bytes": 2076117,
+        "sha256": "5a57c6b8de10b79d7d2b5540bcb864f4c3c0b4f81c6ef2c5f61470e88620c4a7"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modern_arm_chair_01/modern_arm_chair_01_pillow_arm_2k.jpg",
+        "bytes": 1176399,
+        "sha256": "3c98a68f8d4d9045082d1af97994ff564dc4f8378814bea717d9862edf5dae22"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/modern_arm_chair_01_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 2,
+    "images": 6,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/modern_arm_chair_01_legs_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "modern_arm_chair_01_legs_nor_gl"
+    },
+    {
+      "path": "model/textures/modern_arm_chair_01_legs_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "modern_arm_chair_01_legs_diff"
+    },
+    {
+      "path": "model/textures/modern_arm_chair_01_legs_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "modern_arm_chair_01_legs_metal-modern_arm_chair_01_legs_rough"
+    },
+    {
+      "path": "model/textures/modern_arm_chair_01_pillow_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "modern_arm_chair_01_pillow_nor_gl"
+    },
+    {
+      "path": "model/textures/modern_arm_chair_01_pillow_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "modern_arm_chair_01_pillow_diff"
+    },
+    {
+      "path": "model/textures/modern_arm_chair_01_pillow_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "modern_arm_chair_01_pillow_metal-modern_arm_chair_01_pillow_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "vertices": 5851,
+    "triangles": 8916,
+    "material_slots": 2,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "modern_arm_chair_01_legs_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/foundation-01-r2/ph-modern-armchair/model/textures/modern_arm_chair_01_legs_diff_2k.jpg"
+      },
+      {
+        "name": "modern_arm_chair_01_legs_metal-modern_arm_chair_01_legs_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/foundation-01-r2/ph-modern-armchair/model/textures/modern_arm_chair_01_legs_arm_2k.jpg"
+      },
+      {
+        "name": "modern_arm_chair_01_legs_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/foundation-01-r2/ph-modern-armchair/model/textures/modern_arm_chair_01_legs_nor_gl_2k.jpg"
+      },
+      {
+        "name": "modern_arm_chair_01_pillow_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/foundation-01-r2/ph-modern-armchair/model/textures/modern_arm_chair_01_pillow_diff_2k.jpg"
+      },
+      {
+        "name": "modern_arm_chair_01_pillow_metal-modern_arm_chair_01_pillow_rou",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/foundation-01-r2/ph-modern-armchair/model/textures/modern_arm_chair_01_pillow_arm_2k.jpg"
+      },
+      {
+        "name": "modern_arm_chair_01_pillow_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/foundation-01-r2/ph-modern-armchair/model/textures/modern_arm_chair_01_pillow_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 73741,
+      "sha256": "cd33b65a35f1c016cd09cf5bbbf922f7898e117fd3223a3aa805ddf620ee59ea",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "2a9a229f8bb2ed821581e94782406b1f4a42c4f9a9e024e1cc719a6265cfa1b4",
+      "role": "logs"
+    },
+    {
+      "path": "model/modern_arm_chair_01.bin",
+      "bytes": 240728,
+      "sha256": "8755f2f498c0bb165660379d1b045465751c16bbeaf553c8dd76bb14c16d1ff6",
+      "role": "model"
+    },
+    {
+      "path": "model/modern_arm_chair_01_2k.gltf",
+      "bytes": 5121,
+      "sha256": "eb971ed98af1ce3d4cc93a058ceee5c31dbd185f99aa3d86938d366820943414",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/modern_arm_chair_01_legs_arm_2k.jpg",
+      "bytes": 2144468,
+      "sha256": "38a2b11cdfb18aeed9804fee38de93d8fd856f53ad9448ee877833ba25643f15",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/modern_arm_chair_01_legs_diff_2k.jpg",
+      "bytes": 1660925,
+      "sha256": "a3a289f3265d77e120e81aebdd9107b612609b077190e842389b5cd32bbf9a3d",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/modern_arm_chair_01_legs_nor_gl_2k.jpg",
+      "bytes": 2076117,
+      "sha256": "5a57c6b8de10b79d7d2b5540bcb864f4c3c0b4f81c6ef2c5f61470e88620c4a7",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/modern_arm_chair_01_pillow_arm_2k.jpg",
+      "bytes": 1176399,
+      "sha256": "3c98a68f8d4d9045082d1af97994ff564dc4f8378814bea717d9862edf5dae22",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/modern_arm_chair_01_pillow_diff_2k.jpg",
+      "bytes": 843013,
+      "sha256": "20a8b41bd14552643c1355587ec1198cb8c5f1f7dea50dc71dbb0f6a826adfc1",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/modern_arm_chair_01_pillow_nor_gl_2k.jpg",
+      "bytes": 1074878,
+      "sha256": "dfd11d444ba0a6c1a16304f91c10ef2a2a525180f6a46ca57c2d55c196ff39de",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 20973,
+      "sha256": "0a3585be4cedbe8e6aa7b9ff538d30e2d11d7c407c3fd018a60e8e40b299a559",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 17426,
+      "sha256": "390744895acd866f051455b8e3ae363bdb6f5fdfa8a1b823468a9fa8993e92ab",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 180052,
+      "sha256": "ea69f64afb343b39ca6acb345830eb86a8af5b7da3f9de3fc9c2e66a2e13a1b6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 2165,
+      "sha256": "f9ac5d6af5d1824a69ba4953d57cd850ab1f8601c7c7d9205d7f188cde28d9df",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 21595,
+      "sha256": "fb0f0af959c85f34d555bef6090d95e9e1de2b76ec05cafd8cb59af9e64c8831",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 26146,
+      "sha256": "f88ed842c5d5f19c9eab3f87fb6e2a9699f4d538263c0d9cd1218d0d87d29adb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 23605,
+      "sha256": "3b79c2b205156f64f0b122b33c11cf3e817d561dbd62cfd6e98141931d0aa41a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 26832,
+      "sha256": "0957c0ae6f032f597fe97ea5f7e1ef82b1b149742fb8fae4d0b0ac1fbb30316b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 21823,
+      "sha256": "5806151e101880a4bb70a0509fae506d57849d1d5c005d000ca9062580a6ef27",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 27055,
+      "sha256": "dc799a769ff2e2162a24260cef6d636f1086e2930d58d28dc18ce9811a6e64d3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 23916,
+      "sha256": "6309c962e4d0805b28c91b58066f3bd4f4eed987080a07e5c62588028b9b0824",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 26935,
+      "sha256": "449d47a16b96bf00d9d3db06c7a42031196162f6c1fceb303209fdb955e5f112",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 20091,
+      "sha256": "4091593a3a5275e804b68bcfc2f4926b9ab368f67c017b28839637e6ec8877b5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 36445,
+      "sha256": "391231e435d716ea4fa695c774d6ad1e07c1d50e1e02d5d828286ad75962dcc3",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1256,
+      "sha256": "c88033e0b5f508c155a3ca3778f363e8b6fa4c56584dedddef4e8b6f948042fb",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3421,
+      "sha256": "a5af9b1d9346afafdc8ebb2660fd0667a66bb57c6e507f4822466b2a2d09b2b7",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1998,
+      "sha256": "bd3403b8df13be89c9a2b2429afc35db812f1d7483823d5365b8e51f08466b52",
+      "role": "provenance"
+    }
+  ]
+}

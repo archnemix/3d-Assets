@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "id": "kenney-female-character",
+  "title": "Kenney mini female character",
+  "category": "characters/humans",
+  "style": "low-poly",
+  "tags": [
+    "human",
+    "female",
+    "rigged",
+    "animated",
+    "kids"
+  ],
+  "batch": "foundation-01-r2",
+  "acquired_at": "2026-11-03T14:51:45.108236+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "kenney",
+    "model": "model/character-female-a.glb",
+    "creator": "Kenney",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE",
+    "source_url": "https://github.com/Hidencod/tge-assets/blob/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/mini-characters/character-female-a.glb",
+    "source_id": "packs/mini-characters/character-female-a.glb",
+    "revision": "d92c6e923bbef8649d4e5be3ab375a40f88672b0",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/mini-characters/character-female-a.glb",
+        "bytes": 279936,
+        "sha256": "7a7f1015ebbb22d515babf6ce36fc41f5b0ce91c4886d5d963764585f709faa6"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE"
+  },
+  "model": "model/character-female-a.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 2,
+    "materials": 1,
+    "images": 1,
+    "skins": 2,
+    "animations": [
+      "attack-kick-left",
+      "attack-kick-right",
+      "attack-melee-left",
+      "attack-melee-right",
+      "crouch",
+      "die",
+      "drive",
+      "emote-no",
+      "emote-yes",
+      "fall",
+      "holding-both",
+      "holding-both-shoot",
+      "holding-left",
+      "holding-left-shoot",
+      "holding-right",
+      "holding-right-shoot",
+      "idle",
+      "interact-left",
+      "interact-right",
+      "jump",
+      "pick-up",
+      "sit",
+      "sprint",
+      "static",
+      "walk",
+      "wheelchair-look-left",
+      "wheelchair-look-right",
+      "wheelchair-move-back",
+      "wheelchair-move-forward",
+      "wheelchair-move-left",
+      "wheelchair-move-right",
+      "wheelchair-sit"
+    ],
+    "extensions": [
+      "KHR_texture_transform"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/colormap.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "colormap"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 3,
+    "vertices": 1618,
+    "triangles": 956,
+    "material_slots": 2,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [
+      {
+        "name": "character-female-a",
+        "bones": 7
+      }
+    ],
+    "actions": [
+      "attack-kick-left_character-female-a",
+      "attack-kick-right_character-female-a",
+      "attack-melee-left_character-female-a",
+      "attack-melee-right_character-female-a",
+      "crouch_character-female-a",
+      "die_character-female-a",
+      "drive_character-female-a",
+      "emote-no_character-female-a",
+      "emote-yes_character-female-a",
+      "fall_character-female-a",
+      "holding-both-shoot_character-female-a",
+      "holding-both_character-female-a",
+      "holding-left-shoot_character-female-a",
+      "holding-left_character-female-a",
+      "holding-right-shoot_character-female-a",
+      "holding-right_character-female-a",
+      "idle_character-female-a",
+      "interact-left_character-female-a",
+      "interact-right_character-female-a",
+      "jump_character-female-a",
+      "pick-up_character-female-a",
+      "sit_character-female-a",
+      "sprint_character-female-a",
+      "static_character-female-a",
+      "walk_character-female-a",
+      "wheelchair-look-left_character-female-a",
+      "wheelchair-look-right_character-female-a",
+      "wheelchair-move-back_character-female-a",
+      "wheelchair-move-forward_character-female-a",
+      "wheelchair-move-left_character-female-a",
+      "wheelchair-move-right_character-female-a",
+      "wheelchair-sit_character-female-a"
+    ],
+    "images": [
+      {
+        "name": "colormap",
+        "dimensions": [
+          512,
+          512
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 510,
+      "sha256": "6913dd72bdc20532b7f02d86469058f45d886c9dabf60831275ed16927aa523b",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 64614,
+      "sha256": "544a1e4b11d4691e3072267c20e7a28f7a3fd80d6cba80dc6d7603af0d2685ca",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "8092b37bcdff0477d961eb1ef4ce3b2266b682dcf10a3778c5077f1ae8275816",
+      "role": "logs"
+    },
+    {
+      "path": "model/character-female-a.glb",
+      "bytes": 279936,
+      "sha256": "7a7f1015ebbb22d515babf6ce36fc41f5b0ce91c4886d5d963764585f709faa6",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 11093,
+      "sha256": "c1f67be5243bacdae2c25285216647b390674c8ecd5663d80d2343a3838f0409",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 10338,
+      "sha256": "aa83b81cd8aa8c9739fdd45f493ce8a9465afbea47d677989e605c1909213d83",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 79916,
+      "sha256": "764a4f0efa904d099d3f63fd3b7b6f5ac624821668af3b061b9da2f3ffd3cbb8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1767,
+      "sha256": "446dfc57202e7b3f88f2ffbf407044292f4e096a709c2dc64f0777fb898c91d8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 11430,
+      "sha256": "e1f411caf785bdb4f83fb509d5f225bbd0f664857c4d126bd68c33d344c5f0de",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 11118,
+      "sha256": "9ed03ad167d512ea407f34169ac3ebe9391bdfba7125a33ce9698a860da14918",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 9836,
+      "sha256": "59a44f67e05d8b9a5f8f4242419e50241e1dbe7e35adcf5d29d0e5297ec66541",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 10825,
+      "sha256": "6b86b845c8f8b0ba3b725066d248de7ea1b1857f0e22e88fc83e7ef8f31f1be8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 11029,
+      "sha256": "39f662c719b55f260135cb9e94fcdc8be7edd4fee28ec2ad0035de5a9ca29673",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 10951,
+      "sha256": "17b479bbdb1f817debd0659a81ce4d4eae84be5282c843ae5331c60bd54d7ef3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 10044,
+      "sha256": "c4d5e5b738364f69f4f5823c69114da6fc2cd0acc54c99f5187fcad2364f6c95",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 11161,
+      "sha256": "a6cf7b235dd1ecaf4bc32c431599b39ed16a1b9bea3e513e7ad74c6a1ab6cff6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 9928,
+      "sha256": "1feb82705571b0fde901c1551aeee8b0dc2abbfae4227cd7d6f04f43967ba3a6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 11985,
+      "sha256": "1827347128da619ee5b8362ef20aa5bb7e58358ddce7272896c7fa70af91ff3c",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/github-source.json",
+      "bytes": 433,
+      "sha256": "48aac55f607b26d4936cad051af5fdee61111e85963f3a71cbcde5eaf6f138fb",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2506,
+      "sha256": "2fa37a35e7526569aaf93eb6dd5b24f5e6652fd2c6e8a1ab6c19e4b5e6ae466a",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/colormap.png",
+      "bytes": 8706,
+      "sha256": "0d4947d34ff32acf4a359c7f22ca784e057e7e72f622170a9a77b6fc88fdb70e",
+      "role": "textures"
+    }
+  ]
+}

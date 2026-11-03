@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "id": "kenney-sports-hatchback",
+  "title": "Kenney sports hatchback",
+  "category": "vehicles/cars",
+  "style": "low-poly",
+  "tags": [
+    "car",
+    "hatchback",
+    "kids",
+    "game-ready"
+  ],
+  "batch": "foundation-01-r2",
+  "acquired_at": "2026-11-03T14:52:27.453430+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "kenney",
+    "model": "model/hatchback-sports.glb",
+    "creator": "Kenney",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE",
+    "source_url": "https://github.com/Hidencod/tge-assets/blob/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/car-kit/hatchback-sports.glb",
+    "source_id": "packs/car-kit/hatchback-sports.glb",
+    "revision": "d92c6e923bbef8649d4e5be3ab375a40f88672b0",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/car-kit/hatchback-sports.glb",
+        "bytes": 210092,
+        "sha256": "9fc0e0c1e216d8b5670905f02b4de09230d44baeed2879f32d39791a483fb508"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE"
+  },
+  "model": "model/hatchback-sports.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 5,
+    "materials": 1,
+    "images": 1,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_texture_transform"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/colormap.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "colormap"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 5,
+    "vertices": 3286,
+    "triangles": 2088,
+    "material_slots": 5,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 8,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "colormap",
+        "dimensions": [
+          512,
+          512
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 0,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 510,
+      "sha256": "6913dd72bdc20532b7f02d86469058f45d886c9dabf60831275ed16927aa523b",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68117,
+      "sha256": "f7922b6ef469349e95391b70bfca119c8988035c7da69e43e95fa2214fc25abc",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "eb5abb8b81db5c9060d28be1d4813be7a043fc6b30ee6d15f44d800a973bca1b",
+      "role": "logs"
+    },
+    {
+      "path": "model/hatchback-sports.glb",
+      "bytes": 210092,
+      "sha256": "9fc0e0c1e216d8b5670905f02b4de09230d44baeed2879f32d39791a483fb508",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 14878,
+      "sha256": "e8ae6f630a4cf4c08bbf70c3f0d3e79d00dab4c6e744efe68c6157c601bed7b1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 14190,
+      "sha256": "5479173f1c3a7c9d91369b33b8cdb78adc1ef1000530caab3faff15a3de7c51b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 139804,
+      "sha256": "822b1f1ca6f5a8c947dac53a6213f01b47dea7ce0cd90529b36ea819738cd0e9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 439,
+      "sha256": "cb6191893e3c2223c6ab0a4603329a9a7190d2e476cff0eff0ea5b651ff874f2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 14006,
+      "sha256": "f14ec1dcbdc5d84de4ed5011b53e51a263598b58ed188c6bcca541f950d94b96",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 19787,
+      "sha256": "22723fa51932bb6c1d07f28ea2e20cd91bd9eaf816beea77d7d6c697c4cd8518",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 19250,
+      "sha256": "f22d2a542bf0233e0c4a00ebaadd6f8c0743309c871d900a87411b884fe23b03",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 19016,
+      "sha256": "2777f3ed852ceb3e4458e304644c8d1e5ed22e3389ab3a25200a8c3f368dccc4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 13420,
+      "sha256": "902d6334001116ecee6f28e83dd073b44a2cf1d625a3c22039ef56f7f0a9e9b8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 20392,
+      "sha256": "fbb0288e4e2deeb047405d1758aab7758306b5f5768845bab466939f9353f0f4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 21049,
+      "sha256": "7d27b11219287d38bdce7266d5c54f1d01d4b5eb7cac162cf4ec6a90d1ac0b6d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 21286,
+      "sha256": "81c4defc54d82bb1d680b253a8b525e2675e25d2fefad9eea75b509cea69b3a7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 16064,
+      "sha256": "cd02a8591e13a2a75435a1a4209cd28825ed8551655be568820953647d6aa571",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 22213,
+      "sha256": "7edcca6594aa9d3cc1cc3baf8f7708d7b8b921d12efaf3398e8234597b05a853",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/github-source.json",
+      "bytes": 423,
+      "sha256": "d9bf6ea4233fbac4d3ffbc4ad9af1c6703556d60f002833545bcf87e2773c24d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2368,
+      "sha256": "48e64bfd1b6345fbab15814176aa043cf57ad67d7d9d2b66e81f0e4d92d2dc46",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/colormap.png",
+      "bytes": 12371,
+      "sha256": "f3622a03a20c6696065cae9cbe391351be873508af190c2ebd1d420c055787a5",
+      "role": "textures"
+    }
+  ]
+}

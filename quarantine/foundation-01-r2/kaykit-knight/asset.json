@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "id": "kaykit-knight",
+  "title": "KayKit knight",
+  "category": "characters/humans",
+  "style": "stylized",
+  "tags": [
+    "human",
+    "fantasy",
+    "rigged",
+    "animated",
+    "knight"
+  ],
+  "batch": "foundation-01-r2",
+  "acquired_at": "2026-11-03T14:50:55.668041+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "kaykit-characters",
+    "model": "model/Knight.glb",
+    "creator": "Kay Lousberg",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Character-Pack-Adventures-1.0/672074b73ba276876a19e8816ecdc5241817ab47/LICENSE.txt",
+    "source_url": "https://github.com/KayKit-Game-Assets/KayKit-Character-Pack-Adventures-1.0/blob/672074b73ba276876a19e8816ecdc5241817ab47/addons/kaykit_character_pack_adventures/Characters/gltf/Knight.glb",
+    "source_id": "addons/kaykit_character_pack_adventures/Characters/gltf/Knight.glb",
+    "revision": "672074b73ba276876a19e8816ecdc5241817ab47",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Character-Pack-Adventures-1.0/672074b73ba276876a19e8816ecdc5241817ab47/addons/kaykit_character_pack_adventures/Characters/gltf/Knight.glb",
+        "bytes": 3659532,
+        "sha256": "60428e3abc09ba83e595d256e3af8c5c976b46cdae599f0802fc82b4a3445168"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Character-Pack-Adventures-1.0/672074b73ba276876a19e8816ecdc5241817ab47/LICENSE.txt"
+  },
+  "model": "model/Knight.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 15,
+    "materials": 1,
+    "images": 1,
+    "skins": 1,
+    "animations": [
+      "1H_Melee_Attack_Chop",
+      "1H_Melee_Attack_Slice_Diagonal",
+      "1H_Melee_Attack_Slice_Horizontal",
+      "1H_Melee_Attack_Stab",
+      "1H_Ranged_Aiming",
+      "1H_Ranged_Reload",
+      "1H_Ranged_Shoot",
+      "1H_Ranged_Shooting",
+      "2H_Melee_Attack_Chop",
+      "2H_Melee_Attack_Slice",
+      "2H_Melee_Attack_Spin",
+      "2H_Melee_Attack_Spinning",
+      "2H_Melee_Attack_Stab",
+      "2H_Melee_Idle",
+      "2H_Ranged_Aiming",
+      "2H_Ranged_Reload",
+      "2H_Ranged_Shoot",
+      "2H_Ranged_Shooting",
+      "Block",
+      "Block_Attack",
+      "Block_Hit",
+      "Blocking",
+      "Cheer",
+      "Death_A",
+      "Death_A_Pose",
+      "Death_B",
+      "Death_B_Pose",
+      "Dodge_Backward",
+      "Dodge_Forward",
+      "Dodge_Left",
+      "Dodge_Right",
+      "Dualwield_Melee_Attack_Chop",
+      "Dualwield_Melee_Attack_Slice",
+      "Dualwield_Melee_Attack_Stab",
+      "Hit_A",
+      "Hit_B",
+      "Idle",
+      "Interact",
+      "Jump_Full_Long",
+      "Jump_Full_Short",
+      "Jump_Idle",
+      "Jump_Land",
+      "Jump_Start",
+      "Lie_Down",
+      "Lie_Idle",
+      "Lie_Pose",
+      "Lie_StandUp",
+      "PickUp",
+      "Running_A",
+      "Running_B",
+      "Running_Strafe_Left",
+      "Running_Strafe_Right",
+      "Sit_Chair_Down",
+      "Sit_Chair_Idle",
+      "Sit_Chair_Pose",
+      "Sit_Chair_StandUp",
+      "Sit_Floor_Down",
+      "Sit_Floor_Idle",
+      "Sit_Floor_Pose",
+      "Sit_Floor_StandUp",
+      "Spellcast_Long",
+      "Spellcast_Raise",
+      "Spellcast_Shoot",
+      "Spellcasting",
+      "T-Pose",
+      "Throw",
+      "Unarmed_Idle",
+      "Unarmed_Melee_Attack_Kick",
+      "Unarmed_Melee_Attack_Punch_A",
+      "Unarmed_Melee_Attack_Punch_B",
+      "Unarmed_Pose",
+      "Use_Item",
+      "Walking_A",
+      "Walking_B",
+      "Walking_Backwards",
+      "Walking_C"
+    ],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/knight_texture.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "knight_texture"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 16,
+    "vertices": 7066,
+    "triangles": 7032,
+    "material_slots": 15,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [
+      {
+        "name": "Rig",
+        "bones": 41
+      }
+    ],
+    "actions": [
+      "1H_Melee_Attack_Chop_Rig",
+      "1H_Melee_Attack_Slice_Diagonal_Rig",
+      "1H_Melee_Attack_Slice_Horizontal_Rig",
+      "1H_Melee_Attack_Stab_Rig",
+      "1H_Ranged_Aiming_Rig",
+      "1H_Ranged_Reload_Rig",
+      "1H_Ranged_Shoot_Rig",
+      "1H_Ranged_Shooting_Rig",
+      "2H_Melee_Attack_Chop_Rig",
+      "2H_Melee_Attack_Slice_Rig",
+      "2H_Melee_Attack_Spin_Rig",
+      "2H_Melee_Attack_Spinning_Rig",
+      "2H_Melee_Attack_Stab_Rig",
+      "2H_Melee_Idle_Rig",
+      "2H_Ranged_Aiming_Rig",
+      "2H_Ranged_Reload_Rig",
+      "2H_Ranged_Shoot_Rig",
+      "2H_Ranged_Shooting_Rig",
+      "Block_Attack_Rig",
+      "Block_Hit_Rig",
+      "Block_Rig",
+      "Blocking_Rig",
+      "Cheer_Rig",
+      "Death_A_Pose_Rig",
+      "Death_A_Rig",
+      "Death_B_Pose_Rig",
+      "Death_B_Rig",
+      "Dodge_Backward_Rig",
+      "Dodge_Forward_Rig",
+      "Dodge_Left_Rig",
+      "Dodge_Right_Rig",
+      "Dualwield_Melee_Attack_Chop_Rig",
+      "Dualwield_Melee_Attack_Slice_Rig",
+      "Dualwield_Melee_Attack_Stab_Rig",
+      "Hit_A_Rig",
+      "Hit_B_Rig",
+      "Idle_Rig",
+      "Interact_Rig",
+      "Jump_Full_Long_Rig",
+      "Jump_Full_Short_Rig",
+      "Jump_Idle_Rig",
+      "Jump_Land_Rig",
+      "Jump_Start_Rig",
+      "Lie_Down_Rig",
+      "Lie_Idle_Rig",
+      "Lie_Pose_Rig",
+      "Lie_StandUp_Rig",
+      "PickUp_Rig",
+      "Running_A_Rig",
+      "Running_B_Rig",
+      "Running_Strafe_Left_Rig",
+      "Running_Strafe_Right_Rig",
+      "Sit_Chair_Down_Rig",
+      "Sit_Chair_Idle_Rig",
+      "Sit_Chair_Pose_Rig",
+      "Sit_Chair_StandUp_Rig",
+      "Sit_Floor_Down_Rig",
+      "Sit_Floor_Idle_Rig",
+      "Sit_Floor_Pose_Rig",
+      "Sit_Floor_StandUp_Rig",
+      "Spellcast_Long_Rig",
+      "Spellcast_Raise_Rig",
+      "Spellcast_Shoot_Rig",
+      "Spellcasting_Rig",
+      "T-Pose_Rig",
+      "Throw_Rig",
+      "Unarmed_Idle_Rig",
+      "Unarmed_Melee_Attack_Kick_Rig",
+      "Unarmed_Melee_Attack_Punch_A_Rig",
+      "Unarmed_Melee_Attack_Punch_B_Rig",
+      "Unarmed_Pose_Rig",
+      "Use_Item_Rig",
+      "Walking_A_Rig",
+      "Walking_B_Rig",
+      "Walking_Backwards_Rig",
+      "Walking_C_Rig"
+    ],
+    "images": [
+      {
+        "name": "knight_texture",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 6,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 891,
+      "sha256": "ae322141814056dda0deea7540d74c41d87aee1da319977cd1bd84ee5a923629",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 83864,
+      "sha256": "0628b95d83b3df19b73042d7d4f2f10f86ea946d9debedc116d524ac49ba07a3",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "7e548e603fb9ff731fb419cd57f4814a7d461cad8cb17797c81036476a777e62",
+      "role": "logs"
+    },
+    {
+      "path": "model/Knight.glb",
+      "bytes": 3659532,
+      "sha256": "60428e3abc09ba83e595d256e3af8c5c976b46cdae599f0802fc82b4a3445168",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 16930,
+      "sha256": "d33593d11f908d815e7a9f6145d3f41d738e762735962ab914ac4e83a7c18e14",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 14486,
+      "sha256": "23c1e171c75ac351172576a2ce39b48f95ed5ff4b1654ffe6b1cdf6b1fc8b7fe",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 116816,
+      "sha256": "5b2b2b9551c5804fa76bd41e820c8f54572822035451166a8ccd18f3b73b88c4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 2493,
+      "sha256": "9d2f425bee3f606473763cdeef181a117bd6e9ab4188c14a0856ae70e265cb0c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 17032,
+      "sha256": "290fde4ba9b3827e40bdb70b628fc30960ecf4feb37c145dbc8e7c9547bd8df9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 15905,
+      "sha256": "edfeec895217818eceb051557a1735817750c9322ec411042ae5fff6585c7c33",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 13793,
+      "sha256": "b4d09349d2628bd3755d9628d8808ec1d41981efe8bcab2761d64f05097c3717",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 14270,
+      "sha256": "660cfe990e44f82a702d12ec333d20caf4ea1a352cc45b75984ca00aeaef1604",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 14560,
+      "sha256": "99d5aad82cc0aee1369a754d739f2236e47ae6c784ab545b0f8c26eee399e205",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 15052,
+      "sha256": "16e3356e05f44423fc161116d2fe34a90da46eb834785b5a94023b786bc748e3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 14413,
+      "sha256": "f17fcbca7ca8d96b5c8cd233cd60e16981953f877bce50e48ade5af598987f91",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 16108,
+      "sha256": "e4447b7241d8a6598824cd52907a55464e5120128d7fa8e160ceb1e4965d2d23",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 14723,
+      "sha256": "aaa811df9d823e625e536eebc03303cfc3594902109f6d62f6642cb16e42b192",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 20312,
+      "sha256": "da2565271b3a643df20b91e5121d65790902e6f1b8a0b6f414a9645551380871",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/github-source.json",
+      "bytes": 379,
+      "sha256": "5fc5941c82f4d810ff057cf340c60f496ee8437d8b8800751e7af0f9c5e037af",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 18735,
+      "sha256": "a8c1a098e4f869bcd7567826d33bd60b2d9f35c5824f09e84269f5d37bafd9fe",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/knight_texture.png",
+      "bytes": 14172,
+      "sha256": "5d250ccc5da020e6126bfa3839f83bd9a465a951ed223e4d13c08b1925e154d4",
+      "role": "textures"
+    }
+  ]
+}
