@@ -1,0 +1,577 @@
+{
+  "schema_version": 1,
+  "id": "mh-adult-casual-male",
+  "title": "Realistic adult male, casual outfit",
+  "category": "characters/humans",
+  "style": "realistic",
+  "tags": [
+    "human",
+    "male",
+    "adult",
+    "rigged",
+    "casual",
+    "pbr"
+  ],
+  "batch": "expansion-05",
+  "acquired_at": "2026-11-04T14:19:30.101580+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "makehuman",
+    "model": "model/mh-adult-casual-male.glb",
+    "creator": "MakeHuman Community",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/LICENSE.ASSETS.md",
+    "source_url": "https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html",
+    "source_id": "adult-casual-male",
+    "revision": "b542127a8e25547c7c29c19f2d1d2adb9a664c80396ecd694095dbc8028a0107",
+    "generation": {
+      "tool": "MPFB2",
+      "tool_revision": "d0a32e57a7f915cb2f2b95410e2117648c7bbb7e",
+      "tool_license": "GPL-3.0-or-later (MPFB2 build tool only; generated assets use the CC0 asset pack)",
+      "recipe": "adult-casual-male",
+      "blender_version": "4.2.9 LTS"
+    },
+    "downloads": [
+      {
+        "url": "https://files2.makehumancommunity.org/asset_packs/makehuman_system_assets/makehuman_system_assets_cc0.zip",
+        "bytes": 280737770,
+        "sha256": "b542127a8e25547c7c29c19f2d1d2adb9a664c80396ecd694095dbc8028a0107"
+      },
+      {
+        "url": "https://codeload.github.com/makehumancommunity/mpfb2/zip/d0a32e57a7f915cb2f2b95410e2117648c7bbb7e",
+        "bytes": 45813741,
+        "sha256": "b50c69cea33cce250ca49d838079904da7fb84a21943f3cb7fc5a9bb3e0165f8"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/LICENSE.ASSETS.md"
+  },
+  "model": "model/mh-adult-casual-male.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 8,
+    "materials": 8,
+    "images": 10,
+    "skins": 1,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/young_darkskinned_male_diffuse.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "young_darkskinned_male_diffuse"
+    },
+    {
+      "path": "textures/eyebrow001.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "eyebrow001"
+    },
+    {
+      "path": "textures/brown_eye.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "brown_eye"
+    },
+    {
+      "path": "textures/male_casualsuit04_normal.png",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "male_casualsuit04_normal"
+    },
+    {
+      "path": "textures/male_casualsuit04_diffuse.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "male_casualsuit04_diffuse"
+    },
+    {
+      "path": "textures/shoes04_normal.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "shoes04_normal"
+    },
+    {
+      "path": "textures/shoes04_diffuse.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "shoes04_diffuse"
+    },
+    {
+      "path": "textures/short02_diffuse.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "short02_diffuse"
+    },
+    {
+      "path": "textures/teeth.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "teeth"
+    },
+    {
+      "path": "textures/tongue01_diffuse.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tongue01_diffuse"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 8,
+    "hidden_mesh_objects": 1,
+    "vertices": 62903,
+    "triangles": 118440,
+    "material_slots": 8,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [
+      {
+        "name": "adult-casual-male.rig",
+        "bones": 53
+      }
+    ],
+    "actions": [],
+    "images": [
+      {
+        "name": "brown_eye",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "eyebrow001",
+        "dimensions": [
+          512,
+          512
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "male_casualsuit04_diffuse",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "male_casualsuit04_normal",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "shoes04_diffuse",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "shoes04_normal",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "short02_diffuse",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "teeth",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "tongue01_diffuse",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "young_darkskinned_male_diffuse",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 10,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 6962,
+      "sha256": "f6089cba01cb570a24712b41ab8a586ccd3cc5ef53dc266ca50b95c288956d2c",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 89951,
+      "sha256": "9fc4703f7a08890a8ae37cfa27d5db98616255687115eb678be79d1ec155e82a",
+      "role": "logs"
+    },
+    {
+      "path": "logs/makehuman-build.log",
+      "bytes": 3546,
+      "sha256": "c8fd640ac00171b3034e3882e0ce5d9579b3d499055ab4b823c75bc3e187d6ab",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "0df9a03cb7a3e3457020aa4300c644d8f683529351f01c8cb6ff96b99671d444",
+      "role": "logs"
+    },
+    {
+      "path": "model/mh-adult-casual-male.glb",
+      "bytes": 24111084,
+      "sha256": "1ae253df60b67f5972544c893fac27371fe724970ed0ac3ca57fc8a3c1868060",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 21359,
+      "sha256": "474142baf0b8e4c8cbdb9e8a943287e190beabaccb0c49ca7ebcf5e84e325f3d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 16403,
+      "sha256": "25aa46cd50ff2629b8dff403ea8e75663b650f451420bcf4c113c894f838fe6c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 172323,
+      "sha256": "d2ddde291457139b328f950758592b6e5723483f3d1d48e3497f550302cebf32",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1885,
+      "sha256": "a063f3cc69b0c86c0a36de94c076412d49e3129513f8146c2ac3ea514e697d61",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 25709,
+      "sha256": "7ea9e4c2bafd0656b901ac7d29a7a0b9c6989a18000011d116f9211e48619d4e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 24046,
+      "sha256": "e408002ee5bfd123f9fee5d58ca4bdde36092362ffa483ba50ea45c4975c893b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 19188,
+      "sha256": "85459dc3d99ad66cd303899a5d4d357765beb2860aea511e7522b4e478ce919c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 22673,
+      "sha256": "66899524cd4b009db46ec86f7b07f3e5a85f88a326f953ebf7acb62a873560c6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 23238,
+      "sha256": "c5adca4992dea5198805c6563b87df01f1706126cb346dc4476f429f27ee2ee1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 23277,
+      "sha256": "d20faadfd9788b5c8857eaf7d3bf71d62de0d091105b9ab8e6191a7a1e725072",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 20077,
+      "sha256": "1e31eceb5f2160cbd413156fdcdb66d579b9d6230a1520888e0cd501fd3f2dd3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 24297,
+      "sha256": "3a5578a979d2b62a8ea45fdde804ef4d6d4ea5fa1bcde3448144191641f8182b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 21062,
+      "sha256": "067bf1a8abdedf911c69fa670b2495d935d56306ee28cba555355f6e0f7b5875",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 34455,
+      "sha256": "b12070b8aeda125aabc9d53121d6a85799a9a9e221c78886926c562899e48041",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/build-report.json",
+      "bytes": 2039,
+      "sha256": "105328ac5f239d0b173795c51dd0bb19aa654ddfc0f77a95820a8da73c481fcf",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 6398,
+      "sha256": "5c340f5ed94e60363d0f83058c5a83fe283f87f50ca975b519bf68e3dcccaabe",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/makehuman/clothes/male_casualsuit04/male_casualsuit04.mhclo",
+      "bytes": 116682,
+      "sha256": "8c1a2d3272cd51ba03f0840d593eddc6325d3d2c4c8529f8203d2c2cad3d0cef",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/makehuman/clothes/male_casualsuit04/male_casualsuit04.mhmat",
+      "bytes": 1396,
+      "sha256": "0408dea995c10e078ab79a3b68fa3092bdf18d3241b74fa35d48fe5397b42430",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/makehuman/clothes/shoes04/shoes04.mhclo",
+      "bytes": 119049,
+      "sha256": "88223bf0c6168e85fd118015e4ca61612c6b35f42a79d7ce5df1864f1a6f715e",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/makehuman/clothes/shoes04/shoes04.mhmat",
+      "bytes": 1161,
+      "sha256": "dafb73d722453798f4d501f2bf2d668ba41c34fc252cd76d0716ea23baef8753",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/makehuman/eyebrows/eyebrow001/eyebrow001.mhclo",
+      "bytes": 9141,
+      "sha256": "54c8892c2ba577f4152d779ce1f20f7cd323beb8cbd9cb701796165c221b4f5b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/makehuman/eyebrows/eyebrow001/eyebrow001.mhmat",
+      "bytes": 1098,
+      "sha256": "976e5f4f1d3922d7a11c6e2db233f8b4584b068d00619d5749687e81c92d61fc",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/makehuman/eyes/high-poly/high-poly.mhclo",
+      "bytes": 72490,
+      "sha256": "b183cfe37120ab726f9b3f2ea6cd3a64c44ce7b4bd91a77c841cf70c04f83a0d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/makehuman/hair/short02/short02.mhclo",
+      "bytes": 119240,
+      "sha256": "625736cdb73e6d094df6e5a2df18f371781f1d2cd37b0ae15795c5d7051c3ec2",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/makehuman/hair/short02/short02.mhmat",
+      "bytes": 1323,
+      "sha256": "2ed04c8aad9c1a35d858ca72091525d32b1da3b61b5a031634dd528fd8530f6d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/makehuman/skins/young_african_male/young_african_male.mhmat",
+      "bytes": 1453,
+      "sha256": "11040111c4735028b473f8ce4bb6b0dc0515b7bf26ea815ead85f2c3cbdd7645",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/makehuman/teeth/teeth_base/teeth.mhmat",
+      "bytes": 1086,
+      "sha256": "3baeff72d9eb06ca16c3cff7ca2ab304216717dee247e0d88f1dc33037c8320e",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/makehuman/teeth/teeth_base/teeth_base.mhclo",
+      "bytes": 263220,
+      "sha256": "9edc3deff3bb97a95c791878064dd069a74a38f95ea6d9707a9ba68d888b3b5c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/makehuman/tongue/tongue01/tongue01.mhclo",
+      "bytes": 2113,
+      "sha256": "61d825899cd78ff3146fa1324118060cb44b095fae1427d408c199ade74e3c9e",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/makehuman/tongue/tongue01/tongue01.mhmat",
+      "bytes": 1261,
+      "sha256": "7769df66c69b8c09a0ec713d70d8381abbb08ac82207369f5413970495cd4340",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/pack.json",
+      "bytes": 1582,
+      "sha256": "30eedbf8290820e59699be4f3d7fb4ee83f8a4d3d5172c4990df405cd0f8c6c3",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/recipe.json",
+      "bytes": 890,
+      "sha256": "2e82a9eabec222b71b364b366304b43729ffd78747d76d7636e57edf266f6e37",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/brown_eye.png",
+      "bytes": 610817,
+      "sha256": "4659691c7295ad6206c78b003e5fd0e5f91dcd53032fa914a229bb48cabe424b",
+      "role": "textures"
+    },
+    {
+      "path": "textures/eyebrow001.png",
+      "bytes": 89619,
+      "sha256": "9940f7d0b1b223709a19b05156ba6f6e9e4dbdbced02d7574f4d51d72c58967b",
+      "role": "textures"
+    },
+    {
+      "path": "textures/male_casualsuit04_diffuse.png",
+      "bytes": 2742499,
+      "sha256": "eb33337f43b006159773ab2fdff1293f51f72c3d0d24c132c2272b4deff9bcbe",
+      "role": "textures"
+    },
+    {
+      "path": "textures/male_casualsuit04_normal.png",
+      "bytes": 6112410,
+      "sha256": "006c0c0dfecaeda1a749f737ac15bfc228ebb76dbbcbf9871993e267a545ca69",
+      "role": "textures"
+    },
+    {
+      "path": "textures/shoes04_diffuse.png",
+      "bytes": 714208,
+      "sha256": "dc3d3c294ba5bf4a47a7840172154ce7ab587ff0737ace0712c4cc310089c232",
+      "role": "textures"
+    },
+    {
+      "path": "textures/shoes04_normal.png",
+      "bytes": 875473,
+      "sha256": "a9bfd7223e98b8f93100e89596135e3a94e6044f9db11b4d23cec625c37a4599",
+      "role": "textures"
+    },
+    {
+      "path": "textures/short02_diffuse.png",
+      "bytes": 3553543,
+      "sha256": "47fe33831a3929567c733356dd66243116e05df2ace1f884ddca0080b728229f",
+      "role": "textures"
+    },
+    {
+      "path": "textures/teeth.png",
+      "bytes": 1799930,
+      "sha256": "d0afb57869c6fbb56b98f5efc4aec629ee7593e70d8dd2bfb9de923acfb65f43",
+      "role": "textures"
+    },
+    {
+      "path": "textures/tongue01_diffuse.png",
+      "bytes": 625419,
+      "sha256": "3150be398e48e8ba1feac164c3143c16c0b2e959d9ffb6155f0171f59cfb4ea9",
+      "role": "textures"
+    },
+    {
+      "path": "textures/young_darkskinned_male_diffuse.png",
+      "bytes": 2976491,
+      "sha256": "e3f0dbb634e4c68561338f0087f7a122444e84ec56df102212f1222aa12e4d50",
+      "role": "textures"
+    }
+  ]
+}
