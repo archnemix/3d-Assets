@@ -35,9 +35,26 @@ Open `http://localhost:8000/` on your own computer. It redirects to the live gal
 
 ## Documentation
 
+- [License audit — per asset](docs/licenses.md)
 - [Technical details](technical.md)
 - [Engineering journal](thinking.md)
 - [Changelog](CHANGELOG.md)
 - [Research and licensing decisions](docs/research.md)
+
+## What you may do with these assets
+
+All 33 approved assets are CC0 1.0. Per asset, that means **free**, **no attribution**, **commercial use**, **use and redistribution of the files as-is** (not only embedded in a game), and **public display**. The [license audit](docs/licenses.md) records the verdict, evidence link and license-file checksum for every asset, plus the caveats that CC0 does not remove:
+
+- CC0 waives copyright, not trademark or patent rights, and clears no third-party rights in a depicted subject.
+- KayKit's creator asks that unmodified copies not be resold or claimed as your own. That is a request alongside the CC0 dedication, not a license condition — but it is recorded rather than hidden.
+- The three Grab3D humans disclose an AI-assisted origin; some storefronts require an AI content disclosure.
+- The Kenney files come from a pinned third-party GLB conversion whose own license also releases the conversions under CC0.
+
+Re-run the audit yourself:
+
+```bash
+PYTHONPATH=src python -m asset_library license-audit          # rebuild report + docs/licenses.md
+PYTHONPATH=src python -m asset_library license-audit --check   # fail if stale or non-compliant
+```
 
 Discovery uses the Poly Haven API: **Powered by Poly Haven**. This is a service credit for the acquisition tool, not an attribution condition on downloaded CC0 assets.

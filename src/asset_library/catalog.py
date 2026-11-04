@@ -5,6 +5,7 @@ from collections import Counter
 from .config import ROOT, categories, read_json
 from .files import sha256, write_json
 from .inspection import validate_inventory
+from .licensing import terms
 from .review import check_decision
 
 
@@ -23,7 +24,7 @@ def check_review(directory, manifest: dict) -> None:
         raise ValueError(f"Reviewed contact sheet does not match approval record: {directory}")
 
 
-def summary(directory, manifest: dict) -> dict:
+def summary(directory, manifest: dict, provider_terms: dict) -> dict:
     base = directory.relative_to(ROOT).as_posix()
     geometry = manifest["geometry"]
     return {
@@ -34,6 +35,8 @@ def summary(directory, manifest: dict) -> dict:
         "tags": manifest["tags"],
         "creator": manifest["source"]["creator"],
         "license": "CC0-1.0",
+        "license_notes": provider_terms["asset_notes"],
+        "resale_as_is": provider_terms["resale_as_is"]["note"],
         "source_url": manifest["source"]["source_url"],
         "license_evidence": manifest["license"].get("evidence"),
         "directory": base,
@@ -55,13 +58,14 @@ def summary(directory, manifest: dict) -> dict:
 
 def collect() -> list[dict]:
     result = []
+    providers = terms()["providers"]
     for path in sorted((ROOT / "assets").glob("*/*/*/asset.json")):
         manifest = read_json(path)
         check_review(path.parent, manifest)
         if manifest["license"]["spdx"] != "CC0-1.0":
             raise ValueError(f"Non-CC0 asset inside assets/: {path}")
         validate_inventory(path.parent, manifest)
-        result.append(summary(path.parent, manifest))
+        result.append(summary(path.parent, manifest, providers[manifest["source"]["provider"]]))
     return result
 
 

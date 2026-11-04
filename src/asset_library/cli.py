@@ -35,6 +35,10 @@ def main() -> int:
             refresh.add_argument("--shard", type=int, required=True)
     catalog = commands.add_parser("catalog", help="Rebuild the approved-only catalog")
     catalog.add_argument("--check", action="store_true")
+    licensing = commands.add_parser(
+        "license-audit", help="Audit every approved asset against its recorded CC0 terms"
+    )
+    licensing.add_argument("--check", action="store_true")
     args = parser.parse_args()
     try:
         if args.command == "plan":
@@ -69,6 +73,11 @@ def main() -> int:
             from .catalog import build, verify
 
             verify() if args.check else build()
+        elif args.command == "license-audit":
+            from .licensing import build as audit_build
+            from .licensing import verify as audit_verify
+
+            audit_verify() if args.check else audit_build()
         return 0
     except (ValueError, KeyError, IndexError, RuntimeError, OSError) as error:
         print(f"error: {error}", file=sys.stderr)

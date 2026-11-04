@@ -101,11 +101,30 @@ export function showDetail(dialog, container, asset) {
   sources.append(
     externalLink("Source", asset.source_url),
     externalLink("License evidence", asset.license_evidence),
+    link("License audit", "docs/licenses.md", true),
   );
+  const rights = node("div", "", "detail-rights");
+  rights.append(
+    node("h3", "What you may do"),
+    node(
+      "p",
+      "Free · No attribution required · Commercial use · Use and redistribute the files as-is · Public display",
+      "detail-note",
+    ),
+  );
+  if (asset.resale_as_is) {
+    rights.append(
+      node("p", `Reselling the files: ${asset.resale_as_is}`, "detail-note"),
+    );
+  }
+  for (const note of asset.license_notes ?? []) {
+    rights.append(node("p", note, "detail-note"));
+  }
   facts.append(
     list,
     actions,
     sources,
+    rights,
     node("h3", "Review scores"),
     scoreGrid(asset.review_scores),
     node(

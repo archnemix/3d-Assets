@@ -8,6 +8,7 @@ This repository is a file-based CC0 3D asset library, not a web application. The
 automation/request.json       Trigger file for GitHub Actions intake
 automation/*.json             Archived batch requests
 config/sources.json           Pinned source adapters and license evidence
+config/license-terms.json     Recorded per-provider license terms and caveats
 config/categories.json        Category/subcategory taxonomy
 config/human-recipes/         MakeHuman recipes for generated CC0 humans
 schemas/                      JSON Schemas for requests, recipes, refreshes
@@ -17,6 +18,8 @@ src/asset_library/            Python CLI and pipeline modules
   intake.py                   Candidate acquisition and quarantine orchestration
   inspection.py               Blender render/inspection subprocess boundary
   review.py                   Explicit visual approval/rejection gate
+  licensing.py                Per-asset license checks against recorded terms
+  license_report.py           Markdown rendering of the license audit
   catalog.py                  Approved-only manifest and category pages
   refresh.py                  Re-render existing quarantine candidates
   requests.py                 Batch validation and shard partitioning
@@ -117,6 +120,40 @@ Variants of the same subject share the subject folder. For example, realistic an
 - five integer scores, each at least 4, with mean at least 4.6.
 
 Rejections preserve the contact sheet and review JSON under `reports/rejected/` without keeping the failed model payload in the approved library.
+
+## License audit
+
+The license question is answered per asset, not per provider slogan. `config/license-terms.json`
+records what each source actually grants, where that was read, and every caveat found; it is
+validated by `schemas/license-terms.schema.json`, which refuses to describe a source as
+attribution-bearing, paid, or resale-restricted while the library claims otherwise.
+
+`python -m asset_library license-audit` walks every approved `asset.json` and checks:
+
+| Check | Meaning |
+| --- | --- |
+| `free_of_charge` | The provider distributes the asset at no cost |
+| `cc0_spdx` | Asset and source metadata both say `CC0-1.0` |
+| `cc0_text_present` | The stored `LICENSE.txt` really contains a CC0/public-domain dedication |
+| `license_file_checksummed` | That file matches the asset inventory checksum |
+| `no_attribution_required` | `attribution_required` is `false` |
+| `commercial_use_allowed` | Commercial use is recorded as allowed |
+| `redistribution_allowed` | Redistribution is recorded as allowed |
+| `evidence_recorded` | Asset and source agree on one HTTPS evidence URL |
+| `source_terms_verified` | The provider has recorded, verified terms |
+| `standalone_resale_permitted` | The provider terms permit as-is/standalone use |
+| `textures_included` | Every listed texture file is present on disk |
+| `no_trademark_warning` | No upstream trademark warning flag in stored API metadata |
+| `visually_approved` | The asset passed the visual gate |
+
+Output is `reports/license-audit.json` (machine-readable, per-asset checks and license-file
+SHA-256) and `docs/licenses.md` (readable per-asset table, caveats and evidence links).
+`--check` recomputes both and fails if either is stale or any asset fails a check, so the
+audit cannot silently drift from the files. CI runs it in the plan job next to `catalog --check`.
+
+`catalog.py` reads the same terms file, so `manifest.json` carries `license_notes` and
+`resale_as_is` per asset and the gallery detail panel shows the caveat next to the download
+button. Provider terms live in exactly one place.
 
 ## Inspection standard
 

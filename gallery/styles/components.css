@@ -240,6 +240,16 @@ dialog::backdrop {
   line-height: 1.6;
   color: var(--muted);
 }
+.detail-rights {
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
+}
+.detail-rights h3 {
+  margin: 0 0 6px;
+}
+.detail-rights p {
+  margin: 0 0 6px;
+}
 @media (max-width: 1050px) {
   .asset-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));

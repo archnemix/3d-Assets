@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Added a per-asset license audit: `config/license-terms.json` records verified provider terms and caveats, `license-audit` checks all 33 approved assets against them, and results are published as `docs/licenses.md` plus `reports/license-audit.json`. CI verifies both with `--check`.
+- Recorded the honest caveats instead of a blanket "no restrictions": KayKit's creator request not to resell unmodified copies, Kenney's `/license` page returning 404 (pinned pack license used as evidence), Poly Haven's separate API/site-content terms, Grab3D's AI-assisted disclosure, and the trademark/patent limits of CC0.
+- Manifest and gallery now carry per-asset `license_notes` and `resale_as_is`, so the caveat is visible next to the download button.
 - Added a Grab3D source adapter with per-package CC0 manifest/license verification and AI-origin disclosure preservation.
 - Added expansion batch `expansion-05`: Grab3D realistic rigged male/female base characters, MakeHuman casual adult retries, a vintage brass chandelier and a barber shop chair; introduced the `lighting/chandeliers` category.
 - Fixed the MakeHuman headless addon entry for Blender 4.2 by creating an empty addon preference entry and assigning its module name separately.

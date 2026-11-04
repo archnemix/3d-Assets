@@ -2,6 +2,8 @@
 
 The library accepts only assets that can be used, modified, and redistributed without an attribution obligation. Source pages, archive licenses, and API terms were checked separately because a website label is not enough.
 
+The per-asset verdict for every approved asset — free, no attribution, commercial use, standalone/as-is use, public display — is published in [the license audit](licenses.md) and verified in CI by `python -m asset_library license-audit --check`.
+
 ## Accepted source families
 
 ### Poly Haven
@@ -16,6 +18,7 @@ The library accepts only assets that can be used, modified, and redistributed wi
 ### Kenney
 
 - Original pack pages declare CC0.
+- `https://kenney.nl/license` returned 404 on 2026-11-04; `https://kenney.nl/support` confirms all asset-page assets are CC0 and attribution is not required, and reserves the studio logo for official projects.
 - The selected GitHub convenience mirror explicitly releases converted/embedded GLBs under CC0.
 - The pipeline records the original creator and the exact mirror revision rather than presenting the mirror as the author.
 - Accepted examples include low-poly characters, vehicles, furniture, fruit, and snacks.
@@ -28,6 +31,8 @@ The library accepts only assets that can be used, modified, and redistributed wi
 - Furniture pack revision: `96d5930a8dbdb363409bbc2d3341718b00e17c9c`.
 - Accepted examples include stylized fantasy humans and wooden furniture.
 - External glTF dependencies and atlas textures are preserved.
+- The Adventurers itch.io page adds a request: "please don't resell unmodified copies or claim them as your own." The pack's CC0 dedication does not contain that condition, so the assets remain usable and redistributable as-is; the request is recorded per asset in the audit and the manifest instead of being silently dropped.
+- `https://kaylousberg.itch.io/kaykit-furniture-bits` returned 404 on 2026-11-04, so the pinned repository license is the primary furniture evidence.
 
 ### MakeHuman / MPFB2
 

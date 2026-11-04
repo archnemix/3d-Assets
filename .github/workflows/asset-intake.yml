@@ -40,6 +40,8 @@ jobs:
       - run: pytest
       - run: npm run test:gallery
       - run: npm run check:web
+      - run: python -m asset_library catalog --check
+      - run: python -m asset_library license-audit --check
       - id: plan
         run: |
           python -m asset_library plan automation/request.json

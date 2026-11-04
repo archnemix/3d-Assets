@@ -28,7 +28,11 @@ def library(tmp_path, monkeypatch):
         "textures": [{"dimensions": [1024, 1024]}],
         "gltf": {"animations": []},
         "geometry": {"triangles": 100, "armatures": []},
-        "source": {"creator": "Tester", "source_url": "https://example.com/test-chair"},
+        "source": {
+            "provider": "polyhaven",
+            "creator": "Tester",
+            "source_url": "https://example.com/test-chair",
+        },
         "license": {"spdx": "CC0-1.0"},
         "review": {
             "id": "test-chair",

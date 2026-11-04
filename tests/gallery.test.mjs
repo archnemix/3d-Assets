@@ -129,3 +129,19 @@ test("category counts summarize the visible library", () => {
   assert.equal(counts.get("furniture/chairs"), 2);
   assert.equal(counts.get("characters/humans"), 1);
 });
+
+test("manifest carries per-asset license rights and caveats", async () => {
+  const { readFile } = await import("node:fs/promises");
+  const catalog = JSON.parse(
+    await readFile(new URL("../manifest.json", import.meta.url), "utf8"),
+  );
+  assert.ok(catalog.assets.length > 0);
+  for (const asset of catalog.assets) {
+    assert.equal(asset.license, "CC0-1.0", asset.id);
+    assert.match(asset.license_evidence, /^https:\/\//, asset.id);
+    assert.ok(Array.isArray(asset.license_notes), asset.id);
+    assert.ok(asset.resale_as_is.length > 20, asset.id);
+  }
+  const kaykit = catalog.assets.find((a) => a.id === "kaykit-knight");
+  assert.ok(kaykit.license_notes.join(" ").includes("request"));
+});
