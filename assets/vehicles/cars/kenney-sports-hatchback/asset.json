@@ -129,6 +129,12 @@
       "role": "documentation"
     },
     {
+      "path": "logs/animations.log",
+      "bytes": 18320,
+      "sha256": "57f6a32277bc80b1ea44187eaef1e894f2e0171b28b98145f9212b4d092fae1d",
+      "role": "logs"
+    },
+    {
       "path": "logs/blender.log",
       "bytes": 67985,
       "sha256": "3a02d5b9035ecfef377e34bf96d610b8efb8f8792a216bb2ec26dbcc9ea9d794",
@@ -141,10 +147,34 @@
       "role": "logs"
     },
     {
+      "path": "model/hatchback-sports-animated.glb",
+      "bytes": 136636,
+      "sha256": "34cff78ff67ebe1b2a8b19d16a07f8e2e93d7551068950cdba470ee784e689c8",
+      "role": "model"
+    },
+    {
       "path": "model/hatchback-sports.glb",
       "bytes": 210092,
       "sha256": "9fc0e0c1e216d8b5670905f02b4de09230d44baeed2879f32d39791a483fb508",
       "role": "model"
+    },
+    {
+      "path": "previews/anim-wheel_roll-a.jpg",
+      "bytes": 9421,
+      "sha256": "cf978c8a787050c9933772458d60bd342c645222fae2d458e4f1253894c34885",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-b.jpg",
+      "bytes": 9420,
+      "sha256": "dd59b0201e64f8dea2bce11c7076cb8f8b8d462cec0a96cf22bf0360d23d40d8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-c.jpg",
+      "bytes": 9421,
+      "sha256": "61c4c33a85fd8f776eb156ba1799da220363bdc12a4775ca8af41ec87419f39f",
+      "role": "previews"
     },
     {
       "path": "previews/bottom.jpg",
@@ -237,6 +267,12 @@
       "role": "previews"
     },
     {
+      "path": "provenance/animations.json",
+      "bytes": 641,
+      "sha256": "cbe948379636f7a62985c91718d72ff3710b87e6e377f9fdd83ef2e5c6487902",
+      "role": "provenance"
+    },
+    {
       "path": "provenance/github-source.json",
       "bytes": 423,
       "sha256": "d9bf6ea4233fbac4d3ffbc4ad9af1c6703556d60f002833545bcf87e2773c24d",
@@ -260,5 +296,21 @@
       "sha256": "f3622a03a20c6696065cae9cbe391351be873508af190c2ebd1d420c055787a5",
       "role": "textures"
     }
-  ]
+  ],
+  "authored_animations": [
+    {
+      "name": "wheel_roll",
+      "parts": [
+        "wheel-back-left",
+        "wheel-back-right",
+        "wheel-front-left",
+        "wheel-front-right"
+      ],
+      "axis": "X",
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/hatchback-sports-animated.glb"
 }

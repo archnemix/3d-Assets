@@ -192,6 +192,12 @@
       "role": "documentation"
     },
     {
+      "path": "logs/animations.log",
+      "bytes": 21122,
+      "sha256": "4acd4229a006110e7fe216a4ace62a0dffb5fdfa80d5fe23d04a6353943661a1",
+      "role": "logs"
+    },
+    {
       "path": "logs/blender.log",
       "bytes": 77183,
       "sha256": "0b56c8c1530b28f5715b6ea182fd0496453c0437b1279add02fd8e80ceb5536c",
@@ -207,6 +213,12 @@
       "path": "model/metal_tool_chest.bin",
       "bytes": 434496,
       "sha256": "c2bde4e96af4aad171e57e00ff78f0aa9e3b603286a2c74cd6d7c2a20c487342",
+      "role": "model"
+    },
+    {
+      "path": "model/metal_tool_chest_2k-animated.glb",
+      "bytes": 7770580,
+      "sha256": "4e55a21e330e1e159c358be2a65e6bab5f675242b4514d55cf16e2daa07b5719",
       "role": "model"
     },
     {
@@ -232,6 +244,24 @@
       "bytes": 2456895,
       "sha256": "9275d16e87fadd4d282b684e7dabe41cd139c15fae8257c7b43f2f8943e7e3b5",
       "role": "model"
+    },
+    {
+      "path": "previews/anim-lid_open-a.jpg",
+      "bytes": 19687,
+      "sha256": "ea0f6791296dc9c441e9bb5eeb5885c9c1f7b944761bdbe3899e7c7436d2b097",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-lid_open-b.jpg",
+      "bytes": 19388,
+      "sha256": "fe81767c595554906fe185739e1a1dbb3043018e39d2abf8ad9f88ec46f79f77",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-lid_open-c.jpg",
+      "bytes": 16817,
+      "sha256": "5956e869aa4b433ca70a92b4683118c8492960dbaaa2cf79f38fb62bf8a98c51",
+      "role": "previews"
     },
     {
       "path": "previews/bottom.jpg",
@@ -324,6 +354,12 @@
       "role": "previews"
     },
     {
+      "path": "provenance/animations.json",
+      "bytes": 597,
+      "sha256": "efcdc5372f59e18f3f49f0208baeb7d3933032f2125f2ebf34cc688730b1d8ed",
+      "role": "provenance"
+    },
+    {
       "path": "provenance/api-info.json",
       "bytes": 1487,
       "sha256": "0102d33a196ebd77920b3bf4df741296ce70707b6ee8b374a5990519aa0a9d02",
@@ -347,5 +383,19 @@
       "sha256": "e7c7c38e8dce2dbe1bb61165d65d2e11452dd6dedb978706f43115e3a5fbd7c1",
       "role": "documentation"
     }
-  ]
+  ],
+  "authored_animations": [
+    {
+      "name": "lid_open",
+      "parts": [
+        "metal_tool_chest_hinge_lid",
+        "metal_tool_chest_lid"
+      ],
+      "axis": "X",
+      "degrees": -105.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/metal_tool_chest_2k-animated.glb"
 }
