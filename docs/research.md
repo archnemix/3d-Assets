@@ -39,6 +39,7 @@ The library accepts only assets that can be used, modified, and redistributed wi
 - MPFB2 code is GPL-3.0-or-later; it is used as a tool, not bundled as an asset dependency.
 - Exported candidates contain only CC0 base mesh, targets, clothes, and textures from the official system pack.
 - Generated humans are not approved until they pass the same visual and technical gates as downloaded assets.
+- The first successful casual male/female builds were rejected visually: blank-looking eyes, face-obscuring hair and prominent MakeHuman-logo clothing. Future recipes should use generic clothing, readable eyes and face-clear hair.
 
 ### Grab3D
 
@@ -50,6 +51,7 @@ The library accepts only assets that can be used, modified, and redistributed wi
 - The pipeline preserves the package origin disclosure and tags candidates `ai-assisted`; visual approval is still required.
 - Grab3D waives only its own rights. Subjects are described as generic, with no brands, logos or real people.
 - The first rigged packages failed the Khronos validator because auto-rigged skin-weight sums drifted by about `1.7e-4`. The adapter applies a bounded, recorded normalization repair (divide each weight vector by its sum) and stores both upstream and repaired checksums. After repair the same packages report zero validator errors.
+- Approved realistic examples: adult male base character, adult female base character and elderly woman. The teenage boy package was rejected for the realistic-human category because its face/hair read anime-stylized rather than realistic.
 
 ## Rejected or deferred candidates
 

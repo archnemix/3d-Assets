@@ -1,0 +1,39 @@
+{
+  "batch": "expansion-06",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-04",
+  "decisions": [
+    {
+      "id": "grab3d-man-base-character",
+      "decision": "approved",
+      "scores": {"silhouette": 5, "materials": 4, "topology": 4, "completeness": 5, "style_fit": 5},
+      "notes": "Realistic adult male base character with believable proportions, readable face, intact skin/clothing PBR maps and complete geometry from every orbit, top and underside. The rigged GLB includes walk/run clips and passes the validator with zero errors after the recorded skin-weight normalization. Strong non-cartoon human anchor for the library.",
+      "limitations": ["AI-assisted upstream origin is disclosed in provenance and tags.", "Rigged package uses 2K textures rather than the static package's 4K maps.", "Generated tangent-space and skinned-mesh-non-root warnings are informational.", "No collision mesh or LODs supplied."],
+      "contact_sheet_sha256": "54649f640d51f6592ed489d8937158e5a5813751eb6b9559958b91c714c681e3"
+    },
+    {
+      "id": "grab3d-woman-base-character",
+      "decision": "approved",
+      "scores": {"silhouette": 5, "materials": 4, "topology": 4, "completeness": 5, "style_fit": 5},
+      "notes": "Realistic adult female base character with coherent anatomy, face-clear bun, intact sports-top/shorts materials and complete feet/hands from all angles. Rigged walk/run GLB passes the validator with zero errors after the recorded weight normalization. Pairs with the male base as a realistic human variant rather than a stylized game character.",
+      "limitations": ["AI-assisted upstream origin is disclosed in provenance and tags.", "Rigged package uses 2K textures rather than the static package's 4K maps.", "Generated tangent-space and skinned-mesh-non-root warnings are informational.", "No collision mesh or LODs supplied."],
+      "contact_sheet_sha256": "0352e0672319eb99e4d55ce2ef822f064a9d39eeacb9b3f3c9a54b79a45f9128"
+    },
+    {
+      "id": "grab3d-elderly-woman",
+      "decision": "approved",
+      "scores": {"silhouette": 5, "materials": 5, "topology": 4, "completeness": 5, "style_fit": 4},
+      "notes": "Elderly woman adds age diversity with realistic clothing detail: cable-knit cardigan, blouse, cropped trousers, hiking shoes, glasses and silver bun. The face has readable laugh lines and the body remains complete from every angle. It is slightly warmer/stylized than the base meshes but still reads as a realistic senior NPC, not a cartoon. Zero validator errors after recorded weight normalization.",
+      "limitations": ["AI-assisted upstream origin is disclosed in provenance and tags.", "Facial sculpt is slightly stylized compared with photoreal scan data.", "Rigged package uses 2K textures.", "Generated tangent-space and skinned-mesh-non-root warnings are informational.", "No collision mesh or LODs supplied."],
+      "contact_sheet_sha256": "0c0dd1c1511060c05b0a460a81da146a349830441bb3d84a19cd6a6e232768a5"
+    },
+    {
+      "id": "grab3d-teen-character",
+      "decision": "rejected",
+      "scores": {"silhouette": 4, "materials": 4, "topology": 4, "completeness": 5, "style_fit": 2},
+      "notes": "Technically clean rigged teenager, but the face and hair are clearly anime/stylized: large eyes, smooth simplified features and sculpted hair clumps. The user specifically asked for realistic, non-cartoonish humans, so this does not fit the realistic-human category even though the clothing and geometry are complete. It could be reconsidered later under a stylized category, not as a realistic human anchor.",
+      "limitations": ["Rejected for style mismatch, not license or format failure.", "AI-assisted upstream origin.", "Stylized/anime facial proportions are visible in front and three-quarter views."],
+      "contact_sheet_sha256": "0fdf1ae1bf515e24659b914ad95c95b323517379701e2a4313512a287c44002e"
+    }
+  ]
+}

@@ -19,8 +19,29 @@
   "batch": "expansion-06",
   "acquired_at": "2026-11-04T14:55:17.878274+00:00",
   "review": {
-    "status": "awaiting-visual-review",
-    "approved": false
+    "id": "grab3d-man-base-character",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Realistic adult male base character with believable proportions, readable face, intact skin/clothing PBR maps and complete geometry from every orbit, top and underside. The rigged GLB includes walk/run clips and passes the validator with zero errors after the recorded skin-weight normalization. Strong non-cartoon human anchor for the library.",
+    "limitations": [
+      "AI-assisted upstream origin is disclosed in provenance and tags.",
+      "Rigged package uses 2K textures rather than the static package's 4K maps.",
+      "Generated tangent-space and skinned-mesh-non-root warnings are informational.",
+      "No collision mesh or LODs supplied."
+    ],
+    "contact_sheet_sha256": "54649f640d51f6592ed489d8937158e5a5813751eb6b9559958b91c714c681e3",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
   },
   "source": {
     "provider": "grab3d",
@@ -176,6 +197,12 @@
       "role": "license"
     },
     {
+      "path": "README.md",
+      "bytes": 1431,
+      "sha256": "f0fdb7f8d16d7cdfcd978d7d889ad211ee9f83cae326f855789c0344f368026b",
+      "role": "documentation"
+    },
+    {
       "path": "logs/blender.log",
       "bytes": 67924,
       "sha256": "67e4935c6127379744a5ea4b44de5ffa0e0d5478e18a5e1a606856893608785d",
@@ -306,6 +333,12 @@
       "bytes": 352,
       "sha256": "3c5f6b06109d5bff5e16ec94a3b18e88614deb2734e23df2898d37350bd09694",
       "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1107,
+      "sha256": "eec2d268b96edf780be66815b0d7eafc7d7042448e2e1ace29b8b93dd75fbd98",
+      "role": "documentation"
     },
     {
       "path": "textures/rig_basecolor.jpg",

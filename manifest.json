@@ -4,6 +4,125 @@
   "approval_policy": "Explicit visual review; every score >=4, mean >=4.6",
   "assets": [
     {
+      "id": "grab3d-elderly-woman",
+      "title": "Realistic elderly woman, rigged",
+      "category": "characters/humans",
+      "style": "realistic",
+      "tags": [
+        "human",
+        "female",
+        "elderly",
+        "rigged",
+        "casual",
+        "walk",
+        "run",
+        "pbr",
+        "ai-assisted"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "source_url": "https://grab3d.com/models/characters/elderly-woman/",
+      "license_evidence": "https://grab3d.com/dl/elderly-woman-rigged/LICENSE.txt",
+      "directory": "assets/characters/humans/grab3d-elderly-woman",
+      "metadata": "assets/characters/humans/grab3d-elderly-woman/asset.json",
+      "metadata_sha256": "e084c312b50aebd2979316ceebe000603fc9a065e3e86c669c88ba382434fee1",
+      "model": "assets/characters/humans/grab3d-elderly-woman/model/elderly-woman-rigged.glb",
+      "preview": "assets/characters/humans/grab3d-elderly-woman/previews/orbit-01.jpg",
+      "contact_sheet": "assets/characters/humans/grab3d-elderly-woman/previews/contact-sheet.jpg",
+      "triangles": 300000,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": true,
+      "animation_count": 2,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 4
+      }
+    },
+    {
+      "id": "grab3d-man-base-character",
+      "title": "Realistic adult male base character, rigged",
+      "category": "characters/humans",
+      "style": "realistic",
+      "tags": [
+        "human",
+        "male",
+        "adult",
+        "rigged",
+        "base-mesh",
+        "a-pose",
+        "walk",
+        "run",
+        "pbr",
+        "ai-assisted"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "source_url": "https://grab3d.com/models/characters/man-base-character/",
+      "license_evidence": "https://grab3d.com/dl/man-base-character-rigged/LICENSE.txt",
+      "directory": "assets/characters/humans/grab3d-man-base-character",
+      "metadata": "assets/characters/humans/grab3d-man-base-character/asset.json",
+      "metadata_sha256": "9cd994b6d70ff386bbe286e36fe9217b9825a50e00f87ebc292fb421f8d2e952",
+      "model": "assets/characters/humans/grab3d-man-base-character/model/man-base-character-rigged.glb",
+      "preview": "assets/characters/humans/grab3d-man-base-character/previews/orbit-01.jpg",
+      "contact_sheet": "assets/characters/humans/grab3d-man-base-character/previews/contact-sheet.jpg",
+      "triangles": 262348,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": true,
+      "animation_count": 2,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      }
+    },
+    {
+      "id": "grab3d-woman-base-character",
+      "title": "Realistic adult female base character, rigged",
+      "category": "characters/humans",
+      "style": "realistic",
+      "tags": [
+        "human",
+        "female",
+        "adult",
+        "rigged",
+        "base-mesh",
+        "a-pose",
+        "walk",
+        "run",
+        "pbr",
+        "ai-assisted"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "source_url": "https://grab3d.com/models/characters/woman-base-character/",
+      "license_evidence": "https://grab3d.com/dl/woman-base-character-rigged/LICENSE.txt",
+      "directory": "assets/characters/humans/grab3d-woman-base-character",
+      "metadata": "assets/characters/humans/grab3d-woman-base-character/asset.json",
+      "metadata_sha256": "1be95101d1190920d3eca8e8347ae32e855a0348f72f80d5c0cf82fa6bc2edd3",
+      "model": "assets/characters/humans/grab3d-woman-base-character/model/woman-base-character-rigged.glb",
+      "preview": "assets/characters/humans/grab3d-woman-base-character/previews/orbit-01.jpg",
+      "contact_sheet": "assets/characters/humans/grab3d-woman-base-character/previews/contact-sheet.jpg",
+      "triangles": 300000,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": true,
+      "animation_count": 2,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      }
+    },
+    {
       "id": "kaykit-barbarian",
       "title": "KayKit barbarian",
       "category": "characters/humans",
@@ -1039,10 +1158,10 @@
     }
   ],
   "totals": {
-    "assets": 30,
+    "assets": 33,
     "categories": 12,
     "by_category": {
-      "characters/humans": 6,
+      "characters/humans": 9,
       "electronics/retail": 1,
       "food/fruit": 2,
       "food/snacks": 1,
@@ -1057,7 +1176,7 @@
     },
     "by_style": {
       "low-poly": 10,
-      "realistic": 14,
+      "realistic": 17,
       "stylized": 6
     }
   }

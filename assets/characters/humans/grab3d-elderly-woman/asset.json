@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "id": "grab3d-teen-character",
-  "title": "Realistic teenage boy, rigged",
+  "id": "grab3d-elderly-woman",
+  "title": "Realistic elderly woman, rigged",
   "category": "characters/humans",
   "style": "realistic",
   "tags": [
     "human",
-    "male",
-    "teen",
+    "female",
+    "elderly",
     "rigged",
     "casual",
     "walk",
@@ -16,39 +16,61 @@
     "ai-assisted"
   ],
   "batch": "expansion-06",
-  "acquired_at": "2026-11-04T14:55:05.492816+00:00",
+  "acquired_at": "2026-11-04T14:55:07.304720+00:00",
   "review": {
-    "status": "awaiting-visual-review",
-    "approved": false
+    "id": "grab3d-elderly-woman",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 4
+    },
+    "notes": "Elderly woman adds age diversity with realistic clothing detail: cable-knit cardigan, blouse, cropped trousers, hiking shoes, glasses and silver bun. The face has readable laugh lines and the body remains complete from every angle. It is slightly warmer/stylized than the base meshes but still reads as a realistic senior NPC, not a cartoon. Zero validator errors after recorded weight normalization.",
+    "limitations": [
+      "AI-assisted upstream origin is disclosed in provenance and tags.",
+      "Facial sculpt is slightly stylized compared with photoreal scan data.",
+      "Rigged package uses 2K textures.",
+      "Generated tangent-space and skinned-mesh-non-root warnings are informational.",
+      "No collision mesh or LODs supplied."
+    ],
+    "contact_sheet_sha256": "0c0dd1c1511060c05b0a460a81da146a349830441bb3d84a19cd6a6e232768a5",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
   },
   "source": {
     "provider": "grab3d",
-    "model": "model/teen-character-rigged.glb",
+    "model": "model/elderly-woman-rigged.glb",
     "creator": "Grab3D",
     "license": "CC0-1.0",
-    "license_evidence": "https://grab3d.com/dl/teen-character-rigged/LICENSE.txt",
+    "license_evidence": "https://grab3d.com/dl/elderly-woman-rigged/LICENSE.txt",
     "license_page": "https://grab3d.com/license/",
-    "source_url": "https://grab3d.com/models/characters/teen-character/",
-    "source_id": "teen-character-rigged",
-    "revision": "dad1f07e02e1eefbdcbc982fcb17cc20970429f60a007e92c6c2188d716317a0",
+    "source_url": "https://grab3d.com/models/characters/elderly-woman/",
+    "source_id": "elderly-woman-rigged",
+    "revision": "2fe048c7b0478ab6f9c71239f14a0fa26bc889d3d5d17068f5d2fced212d0502",
     "downloads": [
       {
-        "url": "https://grab3d.com/dl/teen-character-rigged/teen-character-rigged.glb",
-        "bytes": 14054756,
-        "sha256": "8609b3751ba6a9fb222a9832c1b94a0810eb20fbfaa26345e65faaeb3cb2032e"
+        "url": "https://grab3d.com/dl/elderly-woman-rigged/elderly-woman-rigged.glb",
+        "bytes": 14346976,
+        "sha256": "62345960beb594398aaaf2cb970076e88796fd39da00eb8de92b98965e6e7843"
       }
     ],
     "repairs": [
       {
         "repair": "normalize-skin-weights",
-        "checked_vertices": 177363,
-        "normalized_vertices": 13621,
-        "max_sum_delta": 0.0001710108481347561,
+        "checked_vertices": 180485,
+        "normalized_vertices": 28240,
+        "max_sum_delta": 0.00017187464982271194,
         "accessors": [
           4
         ],
-        "original_sha256": "8609b3751ba6a9fb222a9832c1b94a0810eb20fbfaa26345e65faaeb3cb2032e",
-        "repaired_sha256": "dad1f07e02e1eefbdcbc982fcb17cc20970429f60a007e92c6c2188d716317a0"
+        "original_sha256": "62345960beb594398aaaf2cb970076e88796fd39da00eb8de92b98965e6e7843",
+        "repaired_sha256": "2fe048c7b0478ab6f9c71239f14a0fa26bc889d3d5d17068f5d2fced212d0502"
       }
     ],
     "origin": {
@@ -62,9 +84,9 @@
     "attribution_required": false,
     "commercial_use": true,
     "redistribution_allowed": true,
-    "evidence": "https://grab3d.com/dl/teen-character-rigged/LICENSE.txt"
+    "evidence": "https://grab3d.com/dl/elderly-woman-rigged/LICENSE.txt"
   },
-  "model": "model/teen-character-rigged.glb",
+  "model": "model/elderly-woman-rigged.glb",
   "gltf": {
     "format": "glb",
     "meshes": 1,
@@ -114,7 +136,7 @@
     "blender_version": "4.2.9 LTS",
     "mesh_objects": 1,
     "hidden_mesh_objects": 1,
-    "vertices": 177363,
+    "vertices": 180485,
     "triangles": 300000,
     "material_slots": 1,
     "meshes_without_uv": 0,
@@ -175,9 +197,15 @@
       "role": "license"
     },
     {
+      "path": "README.md",
+      "bytes": 1440,
+      "sha256": "d938c421e165681349788a29c45b16ce5181e6a452874ab8440d213f0882cb99",
+      "role": "documentation"
+    },
+    {
       "path": "logs/blender.log",
-      "bytes": 67335,
-      "sha256": "5997671f334724f26b4d20ea76023985f8d1692d27800af70e0dd9597ca61954",
+      "bytes": 68018,
+      "sha256": "efb68bfbb8ef679aec56d350c5bccbec117b9c68d83aa7e1c9394628ec51bc19",
       "role": "logs"
     },
     {
@@ -187,87 +215,87 @@
       "role": "logs"
     },
     {
-      "path": "model/teen-character-rigged.glb",
-      "bytes": 14054756,
-      "sha256": "dad1f07e02e1eefbdcbc982fcb17cc20970429f60a007e92c6c2188d716317a0",
+      "path": "model/elderly-woman-rigged.glb",
+      "bytes": 14346976,
+      "sha256": "2fe048c7b0478ab6f9c71239f14a0fa26bc889d3d5d17068f5d2fced212d0502",
       "role": "model"
     },
     {
       "path": "previews/bottom.jpg",
-      "bytes": 23317,
-      "sha256": "8e72c4f17a1655f4d60eb46cc19299db1f3d7ee3b28e895f657edb76af6bd164",
+      "bytes": 24517,
+      "sha256": "d4fd974410a05fabc10d060016a9a8390a542c5528636a030e9b71cf33c082b3",
       "role": "previews"
     },
     {
       "path": "previews/clay.jpg",
-      "bytes": 19323,
-      "sha256": "9b6fb7c9825fd01d9553ffbd1aa444d7b2ed959ab09b575d4d3066786ab1367f",
+      "bytes": 20216,
+      "sha256": "ef7b5a38cc04042d563f0ea12a351bb0e5fbe8cf0ada2c26481b0ec36cfc9e77",
       "role": "previews"
     },
     {
       "path": "previews/contact-sheet.jpg",
-      "bytes": 180356,
-      "sha256": "0fdf1ae1bf515e24659b914ad95c95b323517379701e2a4313512a287c44002e",
+      "bytes": 199178,
+      "sha256": "0c0dd1c1511060c05b0a460a81da146a349830441bb3d84a19cd6a6e232768a5",
       "role": "previews"
     },
     {
       "path": "previews/geometry.json",
       "bytes": 880,
-      "sha256": "9351b7c14da5717d759aae85a221b28db50c05043bbdae20197c51e2c4dac006",
+      "sha256": "22acb0dfe302d8fe946697231f58d1c879abd0a4a9711ad226cc4e9220c557f8",
       "role": "previews"
     },
     {
       "path": "previews/orbit-00.jpg",
-      "bytes": 24474,
-      "sha256": "4c54b4fe4a89d15b7ea7630693333767d655868b9d06b953476adc8068874fb0",
+      "bytes": 29331,
+      "sha256": "18f1c9cf46c08109e08e878cb6caacb6031a4c970ebe4354b23fd2fe74f58420",
       "role": "previews"
     },
     {
       "path": "previews/orbit-01.jpg",
-      "bytes": 23621,
-      "sha256": "c5e4e2120ed841a80efc5247044da95ae7c2f1015580a4ba7c8660f659ef9dba",
+      "bytes": 27786,
+      "sha256": "65f5eee5d7f03f48b3de2e6e7412f6aa3ca0dc79fcbcedbf219b80369e0dda35",
       "role": "previews"
     },
     {
       "path": "previews/orbit-02.jpg",
-      "bytes": 18677,
-      "sha256": "1f1c0b5419d3d11eece18f67fc1dc95e4c89a2fa613f5e94efb2d22a0de2b6e4",
+      "bytes": 21127,
+      "sha256": "b647f2492f3641915ea22c7cb46f7bd746ed2e4b6488fd80ef89791978835d81",
       "role": "previews"
     },
     {
       "path": "previews/orbit-03.jpg",
-      "bytes": 23694,
-      "sha256": "7ec369637de4aa841bcbb4d8230476d74c2de0aaa594ed87777fef80bc164618",
+      "bytes": 27484,
+      "sha256": "0b5ae0ae78a4814ddfcc3891bd8eb64ddb1b306556f415151391ccc20bdda73f",
       "role": "previews"
     },
     {
       "path": "previews/orbit-04.jpg",
-      "bytes": 23819,
-      "sha256": "ea6327f5eba06116ce44be5fdd62edc26d1ca2ec7a5de17b26733aa45f0d462c",
+      "bytes": 29476,
+      "sha256": "47920ee0c96d669b5b960b848505fb8869fed7e56bccec2504645cb2965bf725",
       "role": "previews"
     },
     {
       "path": "previews/orbit-05.jpg",
-      "bytes": 24324,
-      "sha256": "332842c9a547e0104132afe70ac1033f199a2b170361d9c1f5d9294f5deb0df5",
+      "bytes": 28307,
+      "sha256": "d84b4cc2d48a653836eb4f0ffb0ea179a8bb17e91b7df633ec53f34768e1b8ff",
       "role": "previews"
     },
     {
       "path": "previews/orbit-06.jpg",
-      "bytes": 19958,
-      "sha256": "236b074a8712cd84af2302bac6e142b65dca1be1ef2dc9f73aea81ab7cd374f5",
+      "bytes": 21941,
+      "sha256": "2f7e4271fb7b81917b1f57fc0ca83185e12edcd7c0356da2f43d8b4d44db365e",
       "role": "previews"
     },
     {
       "path": "previews/orbit-07.jpg",
-      "bytes": 24862,
-      "sha256": "677ebdb286f48d6299a453a4d6a67e40dd361618acb6b3b82f3723ea17a9d7b9",
+      "bytes": 27381,
+      "sha256": "98ee0d06b9c9f0190023d562ae729f27155ed7ee788b279eb6e1c51dd4553f80",
       "role": "previews"
     },
     {
       "path": "previews/top.jpg",
-      "bytes": 22386,
-      "sha256": "b151448f71ae1215616e84512ca36c935daddd0e88aae5e7182f309503ceddbd",
+      "bytes": 27172,
+      "sha256": "15aae7974dd8ee49d08f7a0491a37e35100a981614f399afc9de1415b14af113",
       "role": "previews"
     },
     {
@@ -278,50 +306,56 @@
     },
     {
       "path": "previews/wireframe.jpg",
-      "bytes": 37466,
-      "sha256": "70d18b0327b942d7f172d9f094638306fdf61a1e0f5cb1f3eb0fc1ee989e6579",
+      "bytes": 41424,
+      "sha256": "ab308a8ee8603468ad4081e3732e8010224645c5a1dd4ee7a054569f6383ba0f",
       "role": "previews"
     },
     {
       "path": "provenance/gltf-validator.json",
-      "bytes": 2162,
-      "sha256": "3faefe0b7a82a38dde3a2f68837a58936392591c9840e76339b6fda133e4831e",
+      "bytes": 2161,
+      "sha256": "b1ad6a9fd791a15f79241705267b646647a6e8d5bafab30136185fef3cfd5151",
       "role": "provenance"
     },
     {
       "path": "provenance/grab3d-manifest.json",
-      "bytes": 1105,
-      "sha256": "59a0918fd48b1c1356eed2d1262826315e5f681fa9e083b539179c27fc8f95c7",
+      "bytes": 1100,
+      "sha256": "9b30848b6b25abd800fe248b299534653e59170dd0a63d1f33d724629b3c14dc",
       "role": "provenance"
     },
     {
       "path": "provenance/grab3d-package.json",
-      "bytes": 560,
-      "sha256": "6ec1fd5c0a2dc98ab3ed8d42bcf80a94438db4d1e1151c219e8df0990fbdc7f1",
+      "bytes": 552,
+      "sha256": "544c5672b8a6e53d8acb5d4b8c83f31eaf33b657266de2d3281de92c65229027",
       "role": "provenance"
     },
     {
       "path": "provenance/grab3d-repair.json",
-      "bytes": 351,
-      "sha256": "53385da92986269f60af06769b2f530817e53b62acf53a1d80181bdff703c1fa",
+      "bytes": 352,
+      "sha256": "8d565c908eb506f19e22c2dc108cf020137dcf11e110f25a047137f44da812ee",
       "role": "provenance"
     },
     {
+      "path": "review.json",
+      "bytes": 1194,
+      "sha256": "c564de47071929dc0391c6a27b84331be1582c48af4aeb44676f3b2fb84b7a50",
+      "role": "documentation"
+    },
+    {
       "path": "textures/rig_basecolor.jpg",
-      "bytes": 623335,
-      "sha256": "27d129e968b5717173a7cc7ba97cd0c3111f6f1ecddba1bfdfd945b1852acbfd",
+      "bytes": 702348,
+      "sha256": "235a3678d863636b563459da1309b8587fb71db556ef1e75a1b109873ae3b930",
       "role": "textures"
     },
     {
       "path": "textures/rig_metallic-rig_roughness.jpg",
-      "bytes": 252082,
-      "sha256": "acecf55d7aeee70c098ce73d087f0aad9319ab56c5fd3b36c20534ec2437aa6f",
+      "bytes": 254071,
+      "sha256": "19105b66bf32f2fcdfec68e3e19301c3b5956e0833d6e7beb963bf5ed82e37c2",
       "role": "textures"
     },
     {
       "path": "textures/rig_normal.jpg",
-      "bytes": 302769,
-      "sha256": "9d3f2e1549c39af6c20ccafb9eab5a6929ce95714972491fe2d3bc19e99933d5",
+      "bytes": 352042,
+      "sha256": "2d97c3c981bb4d08dda691b0decffd31433f85c5e39e2f8f40d81fbc17aa5b6f",
       "role": "textures"
     }
   ]

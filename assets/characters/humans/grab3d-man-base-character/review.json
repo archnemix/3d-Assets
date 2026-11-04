@@ -1,0 +1,23 @@
+{
+  "id": "grab3d-man-base-character",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Realistic adult male base character with believable proportions, readable face, intact skin/clothing PBR maps and complete geometry from every orbit, top and underside. The rigged GLB includes walk/run clips and passes the validator with zero errors after the recorded skin-weight normalization. Strong non-cartoon human anchor for the library.",
+  "limitations": [
+    "AI-assisted upstream origin is disclosed in provenance and tags.",
+    "Rigged package uses 2K textures rather than the static package's 4K maps.",
+    "Generated tangent-space and skinned-mesh-non-root warnings are informational.",
+    "No collision mesh or LODs supplied."
+  ],
+  "contact_sheet_sha256": "54649f640d51f6592ed489d8937158e5a5813751eb6b9559958b91c714c681e3",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-04",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

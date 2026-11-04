@@ -1,0 +1,24 @@
+{
+  "id": "grab3d-elderly-woman",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 4
+  },
+  "notes": "Elderly woman adds age diversity with realistic clothing detail: cable-knit cardigan, blouse, cropped trousers, hiking shoes, glasses and silver bun. The face has readable laugh lines and the body remains complete from every angle. It is slightly warmer/stylized than the base meshes but still reads as a realistic senior NPC, not a cartoon. Zero validator errors after recorded weight normalization.",
+  "limitations": [
+    "AI-assisted upstream origin is disclosed in provenance and tags.",
+    "Facial sculpt is slightly stylized compared with photoreal scan data.",
+    "Rigged package uses 2K textures.",
+    "Generated tangent-space and skinned-mesh-non-root warnings are informational.",
+    "No collision mesh or LODs supplied."
+  ],
+  "contact_sheet_sha256": "0c0dd1c1511060c05b0a460a81da146a349830441bb3d84a19cd6a6e232768a5",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-04",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

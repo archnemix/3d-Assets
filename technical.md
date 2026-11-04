@@ -13,6 +13,7 @@ config/human-recipes/         MakeHuman recipes for generated CC0 humans
 schemas/                      JSON Schemas for requests, recipes, refreshes
 src/asset_library/            Python CLI and pipeline modules
   sources/                    Source adapters: Poly Haven, GitHub, MakeHuman, Grab3D
+  gltf_repair.py              Bounded, checksum-recorded glTF portability repairs
   intake.py                   Candidate acquisition and quarantine orchestration
   inspection.py               Blender render/inspection subprocess boundary
   review.py                   Explicit visual approval/rejection gate
