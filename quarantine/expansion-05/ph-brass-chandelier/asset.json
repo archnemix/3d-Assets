@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "id": "ph-brass-chandelier",
+  "title": "Vintage brass chandelier",
+  "category": "lighting/chandeliers",
+  "style": "realistic",
+  "tags": [
+    "lighting",
+    "chandelier",
+    "ceiling",
+    "brass",
+    "vintage",
+    "pbr"
+  ],
+  "batch": "expansion-05",
+  "acquired_at": "2026-11-04T14:19:22.470439+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/Chandelier_01_2k.gltf",
+    "creator": "Kirill Sannikov",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/Chandelier_01",
+    "source_id": "Chandelier_01",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/Chandelier_01/Chandelier_01_2k.gltf",
+        "bytes": 4438,
+        "sha256": "af5bb8c5edb9ba5596d8da7d22df0fc66008e12ba66871dda6a66f367c7a7569"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/Chandelier_01/Chandelier_01_diff_2k.jpg",
+        "bytes": 274257,
+        "sha256": "1b8ba5cc706bfe1408eca00dde40ad9b7212df3c74e29234984d5fad46333059"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/Chandelier_01/Chandelier_01.bin",
+        "bytes": 892104,
+        "sha256": "f476cc0c0eed8ccc31c49fc797e00ac6a0c8666c345aa933a9accd5762c06cd1"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/Chandelier_01/Chandelier_01_nor_gl_2k.jpg",
+        "bytes": 519652,
+        "sha256": "307ecd4bc27d4581a35914d5c9a3e5c0cb68469b41c68a3a9495a99ee78cfa7e"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/Chandelier_01/Chandelier_01_arm_2k.jpg",
+        "bytes": 448730,
+        "sha256": "b83f156f94c0783654914857e3a8412085507004994ea54fbacb15057828996f"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/Chandelier_01_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 2,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/Chandelier_01_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "Chandelier_01_nor_gl"
+    },
+    {
+      "path": "model/textures/Chandelier_01_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "Chandelier_01_diff"
+    },
+    {
+      "path": "model/textures/Chandelier_01_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "Chandelier_01_metallic-Chandelier_01_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 22842,
+    "triangles": 26860,
+    "material_slots": 2,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "Chandelier_01_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-05/ph-brass-chandelier/model/textures/Chandelier_01_diff_2k.jpg"
+      },
+      {
+        "name": "Chandelier_01_metallic-Chandelier_01_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-05/ph-brass-chandelier/model/textures/Chandelier_01_arm_2k.jpg"
+      },
+      {
+        "name": "Chandelier_01_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-05/ph-brass-chandelier/model/textures/Chandelier_01_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67706,
+      "sha256": "70438b605b63cc250a47134fb9fb25151e1b4b9ba488ba0f5345e820a327412a",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "a7bd174aca67fdd44852b7c25e401fa22379da95c70a5c6e1b180613fc9a99df",
+      "role": "logs"
+    },
+    {
+      "path": "model/Chandelier_01.bin",
+      "bytes": 892104,
+      "sha256": "f476cc0c0eed8ccc31c49fc797e00ac6a0c8666c345aa933a9accd5762c06cd1",
+      "role": "model"
+    },
+    {
+      "path": "model/Chandelier_01_2k.gltf",
+      "bytes": 4438,
+      "sha256": "af5bb8c5edb9ba5596d8da7d22df0fc66008e12ba66871dda6a66f367c7a7569",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/Chandelier_01_arm_2k.jpg",
+      "bytes": 448730,
+      "sha256": "b83f156f94c0783654914857e3a8412085507004994ea54fbacb15057828996f",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/Chandelier_01_diff_2k.jpg",
+      "bytes": 274257,
+      "sha256": "1b8ba5cc706bfe1408eca00dde40ad9b7212df3c74e29234984d5fad46333059",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/Chandelier_01_nor_gl_2k.jpg",
+      "bytes": 519652,
+      "sha256": "307ecd4bc27d4581a35914d5c9a3e5c0cb68469b41c68a3a9495a99ee78cfa7e",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 43737,
+      "sha256": "3627090f464e172f9bcb5045ce5630fea0813a3db0b0d0e8593c1c62b9aae473",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 24318,
+      "sha256": "4db45ac92af6d0bdd6e935cd3b23f2df608bd91fae8202fdb84ecc81e4662d6a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 270603,
+      "sha256": "c8cfc124f5c7d13a1ca836ce4626c637c5ab55d22bf5c282d655cab9d48a97ff",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1178,
+      "sha256": "c668dc289fe37ba66030eeecbeedb8a852ade18efadf26bf2bdf76d1f62da696",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 33679,
+      "sha256": "4f9e9665cbf08c101e3a70560a9080a4793f3a6a307db1004ae0a6176d546568",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 35636,
+      "sha256": "c75592300afacaed9ba88e6d309f382e8a0b5046edfe161b91f63cc0787f39ad",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 35994,
+      "sha256": "a154f7045a018b990ac0a13a08f7fd8bf59b158df489919317073e9248d20df8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 35861,
+      "sha256": "082a2b22c6d61c0e26aa266b4fce358d0f3e7fb7fb22336a92518be86d637401",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 33716,
+      "sha256": "8bccb0fb8fcd228c7ccf48965daac5c560194eae99cb5dcae8870afda8b5a341",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 35784,
+      "sha256": "1f34f352a6b4d43cc3790b29d15db8665e35f3515ae3c02288800c82f19547e1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 35660,
+      "sha256": "fa571d0268840a77542343e7c70edc44427c9fb207871695631c4c2556af9230",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 35779,
+      "sha256": "4c996d87dbd980ebfaad1bd576c2611d28aceda9d430611a6720219af3df90bb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 40943,
+      "sha256": "0a9d2725b9eeb4b2c1bd9366b964f476882485c61153b9dd8c7502a1757c4cc0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 44801,
+      "sha256": "33233028c58fffa3a13be52326944343fceada3d95ac21265538d9787aad5956",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1183,
+      "sha256": "7863d59dfa13178d89398c7ec94459d052df2d4bf75d924f3571cfc3b839f194",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 4133,
+      "sha256": "9984858a10e786a34acddc48a7a412f6643b63fe19d03640d9c7ce1b0c4876fd",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1088,
+      "sha256": "379dfe4aab60b0c143798b013c99ad188ce09f158d399a8f07fa499a4dd1623f",
+      "role": "provenance"
+    }
+  ]
+}
