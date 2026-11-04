@@ -191,8 +191,8 @@
     },
     {
       "path": "logs/animations.log",
-      "bytes": 24341,
-      "sha256": "b74c5b290221964fb43126c09a125390f2550b2ef79ced32bec51aff2c81ade8",
+      "bytes": 67622,
+      "sha256": "aba1b71b660d538be7567e07c73f28fdf37db5a943e7f0f6ca749229ae31bd81",
       "role": "logs"
     },
     {
@@ -215,8 +215,8 @@
     },
     {
       "path": "model/drill_press_01_2k-animated.glb",
-      "bytes": 9651588,
-      "sha256": "d8f650d1a688b3d7174eca78b6a7907bf67cd3ff92421ce39b850e4080b7ce7f",
+      "bytes": 9655208,
+      "sha256": "5498a6d5c9023a54abbfd56ca5657e0fe348679913fa77853f5d248dc891e4fc",
       "role": "model"
     },
     {
@@ -244,21 +244,57 @@
       "role": "model"
     },
     {
+      "path": "previews/anim-bit_spin-a.jpg",
+      "bytes": 9699,
+      "sha256": "32e8586b75a08e4b45d7523c59da250d99f0616a967e55ce930c2bc0c3bc9ed9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-bit_spin-b.jpg",
+      "bytes": 9680,
+      "sha256": "31b109c962a74e5b55b1c49dceecd2240999902aa076e6f2c03dc1a178a7c937",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-bit_spin-c.jpg",
+      "bytes": 9699,
+      "sha256": "25d4b7e0f65f4b5348a7ea8b7d755403b98cf9a2fc9fa75054a4dc93d578b3de",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-gear_spin-a.jpg",
+      "bytes": 9701,
+      "sha256": "146ce1aef0ee22921df2707b3296ae65b5eb4221e1817d46872c8927ed1a7396",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-gear_spin-b.jpg",
+      "bytes": 9754,
+      "sha256": "15af934e5a22a49bd893aa1cca3433d76c8d2eca827a16166eee30812ff0d3d5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-gear_spin-c.jpg",
+      "bytes": 9699,
+      "sha256": "982d675dc006e2f86fc62d98b21116959d784de11596fd2d0fb93e5d1d6cff8e",
+      "role": "previews"
+    },
+    {
       "path": "previews/anim-lid_open-a.jpg",
-      "bytes": 9768,
-      "sha256": "f1376255e09e4e999e15e70c6d6e868a09b2adc882bbf8aa0cb6c961c49526e6",
+      "bytes": 9537,
+      "sha256": "63300abc701c7a5f1d836cbbe339419e57f46bf37ded5f2a5e1baebb571a981f",
       "role": "previews"
     },
     {
       "path": "previews/anim-lid_open-b.jpg",
-      "bytes": 9874,
-      "sha256": "955a9f2bb7cb9faa64220c790330cd1e9b1a93c3c6ccb356a6fa12060d25839d",
+      "bytes": 9163,
+      "sha256": "30d31b51cf9a1f855b8f50ded813929bb5cac78a9645882a268c3db9373c0dd9",
       "role": "previews"
     },
     {
       "path": "previews/anim-lid_open-c.jpg",
-      "bytes": 9631,
-      "sha256": "0c49a4e35274e3ed1ea616c98cd3c116af245abb144d3c4a4c8e4292c2cf2ed0",
+      "bytes": 9701,
+      "sha256": "3111084e44168b04f4fc41dc5cedac2120f47f8d41c02cf98d86669cfb7be0e0",
       "role": "previews"
     },
     {
@@ -353,8 +389,8 @@
     },
     {
       "path": "provenance/animations.json",
-      "bytes": 553,
-      "sha256": "50a990470cee20c81b0d64ab773b31db437565c1bede874a3b0a3d749fd4be9f",
+      "bytes": 1337,
+      "sha256": "bfb07f5b687b8c910b7d22c6384abb6e5e3622588f9d1662bddc5a3625083362",
       "role": "provenance"
     },
     {
@@ -389,7 +425,31 @@
         "drill_press_01_lid"
       ],
       "axis": "X",
-      "degrees": -105.0,
+      "start_degrees": 100.0,
+      "degrees": 0.0,
+      "frames": 60,
+      "fps": 30
+    },
+    {
+      "name": "gear_spin",
+      "parts": [
+        "drill_press_01_gear_a",
+        "drill_press_01_gear_b"
+      ],
+      "axis": "X",
+      "start_degrees": 0.0,
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    },
+    {
+      "name": "bit_spin",
+      "parts": [
+        "drill_press_01_bit"
+      ],
+      "axis": "Z",
+      "start_degrees": 0.0,
+      "degrees": 720.0,
       "frames": 60,
       "fps": 30
     }
