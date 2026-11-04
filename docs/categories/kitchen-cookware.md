@@ -2,7 +2,7 @@
 
 Pots, pans and vessels used for cooking
 
-Approved assets: **3**
+Approved assets: **4**
 
 ## Worn brass frying pan
 
@@ -11,6 +11,14 @@ Approved assets: **3**
 - Creator: Rico Cilliers; style: realistic; CC0-1.0
 - 4,340 triangles; 3 texture images
 - [Asset folder](../../assets/kitchen/cookware/ph-brass-pan/) · [Metadata](../../assets/kitchen/cookware/ph-brass-pan/asset.json) · [All inspection views](../../assets/kitchen/cookware/ph-brass-pan/previews/contact-sheet.jpg)
+
+## Worn brass cooking pot
+
+![Worn brass cooking pot](../../assets/kitchen/cookware/ph-brass-pot/previews/orbit-01.jpg)
+
+- Creator: Rico Cilliers; style: realistic; CC0-1.0
+- 3,344 triangles; 3 texture images
+- [Asset folder](../../assets/kitchen/cookware/ph-brass-pot/) · [Metadata](../../assets/kitchen/cookware/ph-brass-pot/asset.json) · [All inspection views](../../assets/kitchen/cookware/ph-brass-pot/previews/contact-sheet.jpg)
 
 ## Lidded ceramic cooking pot
 

@@ -1,0 +1,349 @@
+{
+  "schema_version": 1,
+  "id": "ph-fire-alarm",
+  "title": "Red fire alarm pull station",
+  "category": "industrial/safety",
+  "style": "realistic",
+  "tags": [
+    "safety",
+    "alarm",
+    "fire",
+    "red",
+    "wall",
+    "emergency",
+    "pbr"
+  ],
+  "batch": "expansion-08",
+  "acquired_at": "2026-11-04T17:15:38.124562+00:00",
+  "review": {
+    "id": "ph-fire-alarm",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Inspected all 12 views. Pull station with a recessed T-handle, modelled key lock, raised FIRE / ALARM lettering and a keyed mounting slot on the rear plate. The lettering is real geometry, clear in the clay and wireframe views. Rear and bottom views confirm a closed backbox. Just 2.7k tris.",
+    "limitations": [
+      "Lower badge reads HOTRESCUE, an invented brand rather than a real manufacturer.",
+      "Pull handle is modelled in the armed position with no rig."
+    ],
+    "contact_sheet_sha256": "3ff0eb72713607e74e25d0ec8ce4d1ac8e91a7d248cd6b1454a86325538d5522",
+    "reviewer": "arena-agent-visual-review",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/fire_alarm_2k.gltf",
+    "creator": "Slinc",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/fire_alarm",
+    "source_id": "fire_alarm",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/fire_alarm/fire_alarm_2k.gltf",
+        "bytes": 4264,
+        "sha256": "2f640122bc8575aad67f0dcf161a2938ae9d001b4b31153141876961f7a462fc"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/fire_alarm/fire_alarm_nor_gl_2k.jpg",
+        "bytes": 2614635,
+        "sha256": "12e02dd197db7da8136d73d5ed69123f3e84f92da1b7b7c490996b3cf44ecad6"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/fire_alarm/fire_alarm_diff_2k.jpg",
+        "bytes": 1781248,
+        "sha256": "20dad1f8be81ed277417a49085768505eab2f6f7d9c59f526f37bbd4fd56609b"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/fire_alarm/fire_alarm_arm_2k.jpg",
+        "bytes": 2222852,
+        "sha256": "63b2614033bca70b193b18a0ffc006dfd59bc3302d38fff99c5f1a7c773b8f25"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/fire_alarm/fire_alarm.bin",
+        "bytes": 112072,
+        "sha256": "f65b6fe5ed53c248497fe833ac66d5b8c452e28db4b02b8d1b67109fcc2ce132"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/fire_alarm_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 2,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/fire_alarm_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "fire_alarm_nor_gl"
+    },
+    {
+      "path": "model/textures/fire_alarm_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "fire_alarm_diff"
+    },
+    {
+      "path": "model/textures/fire_alarm_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "fire_alarm_metal-fire_alarm_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 2,
+    "hidden_mesh_objects": 0,
+    "vertices": 2995,
+    "triangles": 2705,
+    "material_slots": 2,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 1,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "fire_alarm_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-fire-alarm/model/textures/fire_alarm_diff_2k.jpg"
+      },
+      {
+        "name": "fire_alarm_metal-fire_alarm_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-fire-alarm/model/textures/fire_alarm_arm_2k.jpg"
+      },
+      {
+        "name": "fire_alarm_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-fire-alarm/model/textures/fire_alarm_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1262,
+      "sha256": "69dd5d66964155a8cd830dcb43d37b0f4e6c6bf8b4553cee0604eed9c6d23ca6",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 69480,
+      "sha256": "0f1a12a67f4e5a93b0bbabd9133a7be624ea0c33f6e68739ef3ef4b59f989f76",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "2a9a229f8bb2ed821581e94782406b1f4a42c4f9a9e024e1cc719a6265cfa1b4",
+      "role": "logs"
+    },
+    {
+      "path": "model/fire_alarm.bin",
+      "bytes": 112072,
+      "sha256": "f65b6fe5ed53c248497fe833ac66d5b8c452e28db4b02b8d1b67109fcc2ce132",
+      "role": "model"
+    },
+    {
+      "path": "model/fire_alarm_2k.gltf",
+      "bytes": 4264,
+      "sha256": "2f640122bc8575aad67f0dcf161a2938ae9d001b4b31153141876961f7a462fc",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/fire_alarm_arm_2k.jpg",
+      "bytes": 2222852,
+      "sha256": "63b2614033bca70b193b18a0ffc006dfd59bc3302d38fff99c5f1a7c773b8f25",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/fire_alarm_diff_2k.jpg",
+      "bytes": 1781248,
+      "sha256": "20dad1f8be81ed277417a49085768505eab2f6f7d9c59f526f37bbd4fd56609b",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/fire_alarm_nor_gl_2k.jpg",
+      "bytes": 2614635,
+      "sha256": "12e02dd197db7da8136d73d5ed69123f3e84f92da1b7b7c490996b3cf44ecad6",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 16369,
+      "sha256": "8270ddb87bf1042c9556ab487a15a7befba2e57665f97aa665bb6b5cf4217ff6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 25268,
+      "sha256": "345f292d9f82b11175ae06a5f1789e24a6983afe95f5f869408269062394fb54",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 200076,
+      "sha256": "3ff0eb72713607e74e25d0ec8ce4d1ac8e91a7d248cd6b1454a86325538d5522",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1130,
+      "sha256": "d353836bb3370c91180ec2b6f48bf512aa780c969c7583081f352b64d413dcab",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 48144,
+      "sha256": "d2a468a1413adc5bd9a196545349ede16944cb44e8eb0071b0aa7103c9cdea83",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 39396,
+      "sha256": "5609adbad2e3366b8c082c95212cd8ddcc070bd1cf5877c229dec061afca240a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 15249,
+      "sha256": "8346cd71f28a1f74318b574e714c11118a2442313d473d15c22bfb00185c374d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 20298,
+      "sha256": "9a3d9a7589ad59e70a529d1e6754f15010ca1a0ab3cb3559ad216301f7c23c2c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 22038,
+      "sha256": "b351e221cb7075a9252f37b010504e8cd99b259dd8d651be8e87ae55b8a1ca82",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 19921,
+      "sha256": "631c148c444d160d685f6ca0b96389af34cb2ea6f4e127282e08a2d0654f7813",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 15234,
+      "sha256": "f7f368319d05ceb91c233e7d080a5cea0c147f624e95a6fd0716787c24bdfcaa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 37894,
+      "sha256": "987d58b48751381b91edbe533af4a9f951c92334bd7bd1b9b5ce4376654eafad",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 18675,
+      "sha256": "ee6c899405da99ee4a6d3dcad9925bd71bb7565c2fa852db37b7ca4f9c92f3ec",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 41011,
+      "sha256": "7502c0c6ec30c0a350342db4bdef6f77d30987862adea2b1fde2632d05f67f6e",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1268,
+      "sha256": "82fe4fd89a4855cde5f798784bdab5944e86b099c9a250fa240611623050a4be",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2439,
+      "sha256": "fffddcafa25000e00f168de1c1c02966695cb92d852047d1f2b2fb3ae0e24e9c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1049,
+      "sha256": "af3959e2f326714a5b2275b45743a6aef302acdda2799b42a6f31d4f409d7ebb",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 928,
+      "sha256": "349ed2ae945a927a59bc55d05c2873a1938830272e64e507e747fb172da3542e",
+      "role": "documentation"
+    }
+  ]
+}

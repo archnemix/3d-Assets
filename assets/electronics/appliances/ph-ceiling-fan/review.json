@@ -1,0 +1,21 @@
+{
+  "id": "ph-ceiling-fan",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "All 12 views inspected. Four curved blades, motor housing with cooling fins, downrod, ceiling canopy and a frosted light diffuser are distinct parts. The top and bottom views confirm correct blade pitch and a closed motor underside. Brushed metal and matte black read as separate materials. 16.4k tris.",
+  "limitations": [
+    "Blades are not rigged to spin; animate the blade parent object yourself.",
+    "Light diffuser is opaque in the inspection render and emits nothing."
+  ],
+  "contact_sheet_sha256": "68b80407b07ec79fe882d39680d70e9481c0a4b29cfb1edb659fa0c3c8951f4a",
+  "reviewer": "arena-agent-visual-review",
+  "reviewed_at": "2026-11-04",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

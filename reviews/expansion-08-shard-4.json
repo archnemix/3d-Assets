@@ -1,0 +1,92 @@
+{
+  "batch": "expansion-08",
+  "reviewer": "arena-agent-visual-review",
+  "reviewed_at": "2026-11-04",
+  "decisions": [
+    {
+      "id": "ph-boombox",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected plus full-size top and left orbits. Twin speaker grilles with real perforation geometry, cassette deck with a modelled tape inside, tuner scale, five slider controls, carry handle and a telescoping antenna. Scuffed grey plastic and metal read distinctly. Five texture maps handle the printed panels and decals.",
+      "limitations": [
+        "Decorative stickers show original chibi-style cartoon artwork with no wordmark or logo; replace the decal map if your storefront requires cleared artwork.",
+        "Front panel carries a generic tuner scale, not a manufacturer name."
+      ],
+      "contact_sheet_sha256": "4aa5243ab453da1968e684f6b0825ca436671274f430c67bc7c6366c3be0bc3d"
+    },
+    {
+      "id": "ph-gothic-commode",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Three drawers with carved pointed-arch fronts, turned knobs, carved side panels and bracket feet. The top view shows a clean boarded top and the bottom view a properly closed base. Warm figured wood with consistent grain direction across the drawer fronts. Just 3.9k tris.",
+      "limitations": [
+        "Drawers are modelled closed and are not rigged to open.",
+        "Wood figure repeats slightly between the three drawer fronts."
+      ],
+      "contact_sheet_sha256": "41d98ec64b2506a4a6d98b1f45676b5f6c2e40c7550e507145c388ee469defb6"
+    },
+    {
+      "id": "ph-fire-alarm",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Inspected all 12 views. Pull station with a recessed T-handle, modelled key lock, raised FIRE / ALARM lettering and a keyed mounting slot on the rear plate. The lettering is real geometry, clear in the clay and wireframe views. Rear and bottom views confirm a closed backbox. Just 2.7k tris.",
+      "limitations": [
+        "Lower badge reads HOTRESCUE, an invented brand rather than a real manufacturer.",
+        "Pull handle is modelled in the armed position with no rig."
+      ],
+      "contact_sheet_sha256": "3ff0eb72713607e74e25d0ec8ce4d1ac8e91a7d248cd6b1454a86325538d5522"
+    },
+    {
+      "id": "ph-spacecraft-instrument",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Inspected all 12 views. Cold-war instrument housing with a large circular CRT bezel, modelled toggle switches, knurled connectors, mounting flanges and hand-stencilled Cyrillic service warnings on the rear panels. Paint chipping and grime are consistent across all eight orbits, and the bottom view shows the connector row properly closed. 13.3k tris.",
+      "limitations": [
+        "CRT face is flat grey with no displayed image; add your own emissive texture.",
+        "Rear stencils are Cyrillic service notes, which may not suit every setting."
+      ],
+      "contact_sheet_sha256": "fda3eec2e5bb62b1f710edb4fc1a3b7cf998289c4102253d4deab30f24cbaf68"
+    },
+    {
+      "id": "ph-lychee",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. The spiky pericarp is real geometry, clearly visible in the clay and wireframe views, and each tubercle holds its own shading around the full orbit. Stem stub and blossom end are differentiated in the top and bottom views. Pink-red skin with pale tips is photographic. 6.8k tris.",
+      "limitations": [
+        "Whole fruit only; no peeled variant showing the translucent flesh.",
+        "Dense spikes make the silhouette busy at small on-screen sizes."
+      ],
+      "contact_sheet_sha256": "2b891bdd5e8d52a8db725f0f608df55bcd482270477c415eb150b08e5e285e3f"
+    }
+  ]
+}

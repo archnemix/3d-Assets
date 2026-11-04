@@ -1,0 +1,22 @@
+{
+  "id": "ph-brass-candleholders",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "All 12 views inspected. Three graduated candelabra with turned stems, scrolled arms, modelled candle sockets and separate candles with wicks. The top view confirms correct radial arm spacing and the bottom view shows closed weighted bases. The 4 is for materials: the package exceeded the 2K budget across fourteen maps, so the picker correctly fell back to 1K.",
+  "limitations": [
+    "Textures are 1K, not 2K: fourteen maps exceeded the per-package storage budget and the picker logged the fallback.",
+    "Three holders ship as one laid-out scene; separate them to place individually.",
+    "Candles are unlit with no flame geometry."
+  ],
+  "contact_sheet_sha256": "bd569242e0791d98e6d7b2f063b55d268c473771e8b0dbcdca34ee16ae59ff5e",
+  "reviewer": "arena-agent-visual-review",
+  "reviewed_at": "2026-11-04",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

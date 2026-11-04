@@ -1,0 +1,21 @@
+{
+  "id": "ph-old-bed-frame",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "All 12 views inspected. Tubular headboard and footboard with vertical spindles, side rails, cast joint collars and a full wire-spring mattress deck, all visible in the top and bottom views. Chipped white paint over rust tracks the tubes believably. The 4 is for topology: 50k triangles, most of it in the spring grid.",
+  "limitations": [
+    "50k triangles, largely the wire spring deck; replace with a plane if it will be covered by a mattress.",
+    "Frame only: no mattress or bedding included."
+  ],
+  "contact_sheet_sha256": "e8e343aaddd970f3aa29af0bb1f7fe3e4a3ebcdb2ec3ca08f4f633b2dac3daee",
+  "reviewer": "arena-agent-visual-review",
+  "reviewed_at": "2026-11-04",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

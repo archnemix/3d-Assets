@@ -1,0 +1,21 @@
+{
+  "id": "ph-spacecraft-instrument",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Inspected all 12 views. Cold-war instrument housing with a large circular CRT bezel, modelled toggle switches, knurled connectors, mounting flanges and hand-stencilled Cyrillic service warnings on the rear panels. Paint chipping and grime are consistent across all eight orbits, and the bottom view shows the connector row properly closed. 13.3k tris.",
+  "limitations": [
+    "CRT face is flat grey with no displayed image; add your own emissive texture.",
+    "Rear stencils are Cyrillic service notes, which may not suit every setting."
+  ],
+  "contact_sheet_sha256": "fda3eec2e5bb62b1f710edb4fc1a3b7cf998289c4102253d4deab30f24cbaf68",
+  "reviewer": "arena-agent-visual-review",
+  "reviewed_at": "2026-11-04",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

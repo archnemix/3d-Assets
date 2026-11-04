@@ -2,7 +2,7 @@
 
 Whole fruit models
 
-Approved assets: **5**
+Approved assets: **7**
 
 ## Kenney stylized apple
 
@@ -35,6 +35,22 @@ Approved assets: **5**
 - Creator: Oliver Harries; style: realistic; CC0-1.0
 - 7,748 triangles; 3 texture images
 - [Asset folder](../../assets/food/fruit/ph-kiwi/) · [Metadata](../../assets/food/fruit/ph-kiwi/asset.json) · [All inspection views](../../assets/food/fruit/ph-kiwi/previews/contact-sheet.jpg)
+
+## Photoscanned fresh lime
+
+![Photoscanned fresh lime](../../assets/food/fruit/ph-lime/previews/orbit-01.jpg)
+
+- Creator: Oliver Harries; style: realistic; CC0-1.0
+- 8,100 triangles; 3 texture images
+- [Asset folder](../../assets/food/fruit/ph-lime/) · [Metadata](../../assets/food/fruit/ph-lime/asset.json) · [All inspection views](../../assets/food/fruit/ph-lime/previews/contact-sheet.jpg)
+
+## Photoscanned lychee fruit
+
+![Photoscanned lychee fruit](../../assets/food/fruit/ph-lychee/previews/orbit-01.jpg)
+
+- Creator: Oliver Harries; style: realistic; CC0-1.0
+- 6,783 triangles; 3 texture images
+- [Asset folder](../../assets/food/fruit/ph-lychee/) · [Metadata](../../assets/food/fruit/ph-lychee/asset.json) · [All inspection views](../../assets/food/fruit/ph-lychee/previews/contact-sheet.jpg)
 
 ## Realistic red apple
 

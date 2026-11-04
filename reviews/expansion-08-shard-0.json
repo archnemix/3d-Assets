@@ -1,0 +1,109 @@
+{
+  "batch": "expansion-08",
+  "reviewer": "arena-agent-visual-review",
+  "reviewed_at": "2026-11-04",
+  "decisions": [
+    {
+      "id": "ph-ukulele",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Body, neck, fretboard, bridge, four strings and four separate tuning machines are all modelled; the top view shows the headstock and tuner layout correctly and the side views confirm a genuinely thin hollow body. Worn wood grain runs continuously around the rim with no UV seam. 8.9k tris.",
+      "limitations": [
+        "Strings are static geometry, so the instrument cannot be posed mid-play.",
+        "No maker's label inside the sound hole."
+      ],
+      "contact_sheet_sha256": "52e8ddadc6119992e80add19ec0e96fbd23532f649e750e9519df8dd84dccc83"
+    },
+    {
+      "id": "ph-megaphone",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Inspected all 12 views. Flared horn is a true thin shell with a modelled interior and central driver, confirmed in the front-on and left views. Pistol grip, trigger, shoulder strap lugs, battery box and a coiled microphone cable are all separate geometry. Red and grey plastics stay cleanly separated at every angle. Only 2.3 MB.",
+      "limitations": [
+        "Coiled cable is in a fixed pose.",
+        "Rear control panel markings are generic symbols with no brand."
+      ],
+      "contact_sheet_sha256": "dc48442f7416b70abbd3c294aae22fffb223842be8c8c25affabf5bfc27bcb57"
+    },
+    {
+      "id": "ph-chinese-chandelier",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Octagonal carved frame with pierced geometric roof panels, eight painted silk-look side panels, carved dragon-head corners and eight hanging red tassels. The top and bottom views confirm the roof lattice and base ring are properly closed. Only 7.8k tris for this much ornament.",
+      "limitations": [
+        "Panels are opaque in the inspection render; add translucency for a lit look.",
+        "Tassels are rigid geometry and will not sway without a rig."
+      ],
+      "contact_sheet_sha256": "cc98be3e1ddb6d536ba0957e44e3508c7878095d3109a782aeb8b91a771814b5"
+    },
+    {
+      "id": "ph-painted-shelves",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Inspected all 12 views. Small wall-hung spice shelf with a shaped back, hanging hole, two curved shelves and a lower bin. Distressed red paint over bare wood is consistent on front, back and sides. Top and bottom views confirm real board thickness throughout. Only 524 triangles.",
+      "limitations": [
+        "At 524 triangles the shaped back facets under grazing light.",
+        "Shelves are fixed and cannot be re-spaced without editing."
+      ],
+      "contact_sheet_sha256": "1dea5a3258b5f4cda1e6d349d70b3bc40c946291b41408a2919a4d85338f05f8"
+    },
+    {
+      "id": "ph-ammo-box",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Steel can with a hinged lid, folding carry handle, latch and a rubber-gasket end plate with a recessed circular seal. Stencilled 200 CARTRIDGES 7.62 MM markings are generic military specification text with no manufacturer. Rust and olive paint wear are consistent across every orbit. 4.4k tris.",
+      "limitations": [
+        "Lid is modelled closed and latched.",
+        "Stencil text is specific to 7.62 mm ammunition; retouch it for a different calibre."
+      ],
+      "contact_sheet_sha256": "e833ce6bbdecaaa7031a19c73bede60904364d83c5e7b3d8f35f45556e7ec0f0"
+    },
+    {
+      "id": "ph-brass-pot",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Wide brass pot with a genuinely hollow copper-lined interior, confirmed in the top view, two modelled side lugs and a rolled rim. The copper interior and tarnished brass exterior read as clearly different metals in every orbit, and the bottom view shows a properly closed base. 3.3k tris.",
+      "limitations": [
+        "No lid is included.",
+        "Interior copper is highly reflective and needs an environment map."
+      ],
+      "contact_sheet_sha256": "91b506b492a94b027510d7e558e77d7d4bef9fba7f77a07ca50443b2eddb44d5"
+    }
+  ]
+}

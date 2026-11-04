@@ -1,0 +1,349 @@
+{
+  "schema_version": 1,
+  "id": "ph-vintage-binoculars",
+  "title": "Vintage brass binoculars",
+  "category": "science/optical",
+  "style": "realistic",
+  "tags": [
+    "optical",
+    "binoculars",
+    "brass",
+    "leather",
+    "glass",
+    "vintage",
+    "pbr"
+  ],
+  "batch": "expansion-08",
+  "acquired_at": "2026-11-04T17:13:38.969118+00:00",
+  "review": {
+    "id": "ph-vintage-binoculars",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. Twin barrels, central hinge, knurled focus wheel labelled FOCUS, dioptre ring and both eyecups are separately modelled. Leather body covering with worn-through brass edges is consistent across all eight orbits, and the objective lenses show correct recessed depth. Top and bottom views confirm the hinge geometry.",
+    "limitations": [
+      "Lenses are dark and non-transmissive in the inspection render.",
+      "Faint stamped markings on the barrel are illegible at 2k and carry no readable brand."
+    ],
+    "contact_sheet_sha256": "2c835c5f4454ef69e20fbeb638b8636bce20095892da801648bd3ca66ca6840b",
+    "reviewer": "arena-agent-visual-review",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/vintage_binocular_2k.gltf",
+    "creator": "Luke",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/vintage_binocular",
+    "source_id": "vintage_binocular",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/vintage_binocular/vintage_binocular_2k.gltf",
+        "bytes": 13871,
+        "sha256": "c89aab9472be48dfb5167ce9df3ae849da43903b6c0c6eeb6aa96a490e48fe44"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/vintage_binocular/vintage_binocular_nor_gl_2k.jpg",
+        "bytes": 2424305,
+        "sha256": "7e727a943c4f5dfb0ed31224fb7813921839cb943afe1ac87aee826cecd40b06"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/vintage_binocular/vintage_binocular_diff_2k.jpg",
+        "bytes": 2281232,
+        "sha256": "d6031345ac502a8f8d957ef1cbe2d7c0b760c97abd161869197afc0ceb9f5efe"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/vintage_binocular/vintage_binocular_arm_2k.jpg",
+        "bytes": 2581484,
+        "sha256": "6a48bbab22a51f2f8028a10c56f243e7fa94ee77eb8005f8201c752249200cdb"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/vintage_binocular/vintage_binocular.bin",
+        "bytes": 659372,
+        "sha256": "d20f4ece8d4236a83ff88bd5892b6f78d9808ab60bf239a8eb87d7d6cea6f80a"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/vintage_binocular_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 8,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/vintage_binocular_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "vintage_binocular_nor_gl"
+    },
+    {
+      "path": "model/textures/vintage_binocular_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "vintage_binocular_diff"
+    },
+    {
+      "path": "model/textures/vintage_binocular_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "vintage_binocular_metal-vintage_binocular_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 8,
+    "hidden_mesh_objects": 0,
+    "vertices": 16975,
+    "triangles": 19362,
+    "material_slots": 8,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "vintage_binocular_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-vintage-binoculars/model/textures/vintage_binocular_diff_2k.jpg"
+      },
+      {
+        "name": "vintage_binocular_metal-vintage_binocular_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-vintage-binoculars/model/textures/vintage_binocular_arm_2k.jpg"
+      },
+      {
+        "name": "vintage_binocular_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-vintage-binoculars/model/textures/vintage_binocular_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 8,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1281,
+      "sha256": "fdf953e57d0171831fbcba8baf5efa53a54d522a33bf5351cc6ca7f8dcb3d5a0",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 79139,
+      "sha256": "3903082ab9ce4451787abe586044f49288477dcadcdc4f0bdee7c67e9165c47c",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "0fd0a746503a9ff6f79a306915bb1f4bb48046785cdaf1ae7215409244a4fbf0",
+      "role": "logs"
+    },
+    {
+      "path": "model/textures/vintage_binocular_arm_2k.jpg",
+      "bytes": 2581484,
+      "sha256": "6a48bbab22a51f2f8028a10c56f243e7fa94ee77eb8005f8201c752249200cdb",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/vintage_binocular_diff_2k.jpg",
+      "bytes": 2281232,
+      "sha256": "d6031345ac502a8f8d957ef1cbe2d7c0b760c97abd161869197afc0ceb9f5efe",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/vintage_binocular_nor_gl_2k.jpg",
+      "bytes": 2424305,
+      "sha256": "7e727a943c4f5dfb0ed31224fb7813921839cb943afe1ac87aee826cecd40b06",
+      "role": "model"
+    },
+    {
+      "path": "model/vintage_binocular.bin",
+      "bytes": 659372,
+      "sha256": "d20f4ece8d4236a83ff88bd5892b6f78d9808ab60bf239a8eb87d7d6cea6f80a",
+      "role": "model"
+    },
+    {
+      "path": "model/vintage_binocular_2k.gltf",
+      "bytes": 13871,
+      "sha256": "c89aab9472be48dfb5167ce9df3ae849da43903b6c0c6eeb6aa96a490e48fe44",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 44595,
+      "sha256": "1b35f87e23e7f0f46ea77696a280505ac57411fa66d51ab49f4177b6ce4bdae0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18678,
+      "sha256": "6a0cc9a06b6b13dcccf45757c30ad359fc7f3d81b59d30f7885ca724eb65e3d1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 285236,
+      "sha256": "2c835c5f4454ef69e20fbeb638b8636bce20095892da801648bd3ca66ca6840b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1205,
+      "sha256": "60cc0bef2858eba6005d20cf7e3208be64b52e274ccf3d8a0ee13a11ef7e4f7e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 40004,
+      "sha256": "e47ce47297f8b97e2cd2a07755ded45384fdd30b10f92506676cd85d49b98fd0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 37923,
+      "sha256": "7c7dfb89dcbb8a8b4dacbadfe54653e136e850e3215253aae3aa29db12741ca2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 43118,
+      "sha256": "fedb1cca412ce5244a7b4c4724175e023b9bb295b8c7243c3ffea1184db9e372",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 38449,
+      "sha256": "20523dc99dda0549010c7889bd33ab0b95774a84ebd02174a36d95076286f6a4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 45025,
+      "sha256": "97959f6d0e7611c7470f5998a54cfcc6b19070b638050280ceb5d855b8a60b85",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 37465,
+      "sha256": "9560e3df203e390c1be0ad6da5dda467da651b8a3f2391467d0015b1ba440364",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 42604,
+      "sha256": "36ce48ea4b006839a1a5d333cfc6eab49f1202c0b2f2075205ce364ce0180771",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 38593,
+      "sha256": "2d6b1fbd4ca21a3082065af263473e97fe834a7fb586bcc0bfa37bef2c27ffb5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 60491,
+      "sha256": "2b43de6197b7c91b678fd6d8d444477d6d84f4735496cac53228ffdfaba9d6a5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 39949,
+      "sha256": "f90e82772d2f90f9a8888a7177256f7cb604170a46f72fd407a9bae1fc09b4f8",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1292,
+      "sha256": "080c534f716d913b42144e2c48a5787a17daf707c430b38049db0dbf661caf33",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 4438,
+      "sha256": "a58e1e0431e65ee71767b133a453f724fc231522c5e1db5c3b138241fb633e83",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1148,
+      "sha256": "932c24e7d97b136494d26fa43a6488ac0fec307d71575f123e58f79f762ab45e",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 992,
+      "sha256": "786267cdc046486a87e804d0a2ac4bba0e48f7bc59b64b3e290c48cc6660f8cd",
+      "role": "documentation"
+    }
+  ]
+}

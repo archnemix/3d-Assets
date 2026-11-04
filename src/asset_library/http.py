@@ -9,6 +9,12 @@ import requests
 MAX_FILE_BYTES = 400 * 1024 * 1024
 USER_AGENT = "3d-Assets-Curator/0.1 (https://github.com/archnemix/3d-Assets)"
 
+# Poly Haven's CDN intermittently returns 500 for a single texture while the rest
+# of the package serves fine. Retry those long enough to ride out a brief blip:
+# four attempts with 2s, 4s and 8s waits span ~14s rather than ~6s.
+MAX_ATTEMPTS = 4
+RETRY_STATUSES = frozenset({429, 500, 502, 503, 504})
+
 
 class DownloadError(RuntimeError):
     pass
@@ -23,22 +29,30 @@ def check_url(url: str, allowed_hosts: set[str]) -> None:
 
 
 def request(url: str, allowed_hosts: set[str], headers: dict | None = None) -> requests.Response:
+    """Fetch a URL, retrying only transient failures.
+
+    Transport errors and the statuses in ``RETRY_STATUSES`` are worth another
+    attempt. A permanent client error such as 404 or 403 is not: retrying it just
+    delays the real error, so it propagates on the first attempt.
+    """
     check_url(url, allowed_hosts)
     session = requests.Session()
     session.headers.update({"User-Agent": USER_AGENT, **(headers or {})})
-    for attempt in range(3):
+    for attempt in range(MAX_ATTEMPTS):
+        last = attempt == MAX_ATTEMPTS - 1
         try:
             response = session.get(url, timeout=(15, 120), stream=True)
-            if response.status_code in {429, 500, 502, 503, 504} and attempt < 2:
-                response.close()
-                time.sleep(2 ** (attempt + 1))
-                continue
-            response.raise_for_status()
-            return response
         except requests.RequestException:
-            if attempt == 2:
+            if last:
                 raise
             time.sleep(2 ** (attempt + 1))
+            continue
+        if response.status_code in RETRY_STATUSES and not last:
+            response.close()
+            time.sleep(2 ** (attempt + 1))
+            continue
+        response.raise_for_status()
+        return response
     raise DownloadError(f"Could not fetch {url}")
 
 

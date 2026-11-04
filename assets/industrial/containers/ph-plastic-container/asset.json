@@ -1,0 +1,349 @@
+{
+  "schema_version": 1,
+  "id": "ph-plastic-container",
+  "title": "Industrial plastic storage container",
+  "category": "industrial/containers",
+  "style": "realistic",
+  "tags": [
+    "container",
+    "bin",
+    "storage",
+    "plastic",
+    "industrial",
+    "worn",
+    "pbr"
+  ],
+  "batch": "expansion-08",
+  "acquired_at": "2026-11-04T17:19:51.852510+00:00",
+  "review": {
+    "id": "ph-plastic-container",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Inspected all 12 views. Stackable tote with two hinged split lids shown open, ribbed lid panels, moulded hand grips and a genuinely hollow interior with correct wall thickness, confirmed in the top view. Scuffed blue plastic with grime concentrated at the base reads consistently all round. 7.1k tris.",
+    "limitations": [
+      "Lids are modelled open; rotate the lid objects to close them.",
+      "A generic shipping label with a barcode is visible on the front face."
+    ],
+    "contact_sheet_sha256": "79f4dd6069ca7eefd20286a17ab20901115becfe50523ce6b779516367d318a3",
+    "reviewer": "arena-agent-visual-review",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/industrial_pastic_container_2k.gltf",
+    "creator": "Galo Benivegna",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/industrial_pastic_container",
+    "source_id": "industrial_pastic_container",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/industrial_pastic_container/industrial_pastic_container_2k.gltf",
+        "bytes": 6201,
+        "sha256": "2646e738f4996fd617699b0f99bf4800585e427c4c4c869ccda6f45681eae625"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/industrial_pastic_container/industrial_pastic_container_nor_gl_2k.jpg",
+        "bytes": 382322,
+        "sha256": "34f0b1cb2eac9464f48633eaea9c5d53787a46d96a939960e11d354a99f4e37d"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/industrial_pastic_container/industrial_pastic_container_diff_2k.jpg",
+        "bytes": 635975,
+        "sha256": "35ec4060b77fe6d80364d8b2796441506233d49d8c994f5b4301489bfa6fb443"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/industrial_pastic_container/industrial_pastic_container_arm_2k.jpg",
+        "bytes": 3075996,
+        "sha256": "4de96358aeedcb26b769a7df0b9e9ed84792bf21cdabd2f2c42d182fd72d447a"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/industrial_pastic_container/industrial_pastic_container.bin",
+        "bytes": 370100,
+        "sha256": "4ee471df26a3a386536109ee5a0c68300eced2706c0f667963a7a54ecb9343fd"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/industrial_pastic_container_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 3,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/industrial_pastic_container_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "industrial_pastic_container_nor_gl"
+    },
+    {
+      "path": "model/textures/industrial_pastic_container_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "industrial_pastic_container_diff"
+    },
+    {
+      "path": "model/textures/industrial_pastic_container_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "industrial_pastic_container_metal-industrial_pastic_container_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 3,
+    "hidden_mesh_objects": 0,
+    "vertices": 10231,
+    "triangles": 7118,
+    "material_slots": 3,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 8,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "industrial_pastic_container_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-plastic-container/model/textures/industrial_pastic_container_diff_2k.jpg"
+      },
+      {
+        "name": "industrial_pastic_container_metal-industrial_pastic_container_r",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-plastic-container/model/textures/industrial_pastic_container_arm_2k.jpg"
+      },
+      {
+        "name": "industrial_pastic_container_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-plastic-container/model/textures/industrial_pastic_container_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 3,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1311,
+      "sha256": "1a1c96e81f494f4c227890dd851d297385eaaadc2b9635357acfe70c6bc61784",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 70405,
+      "sha256": "883ea1dd680167654b099f7f24dd1ea9f63e71b82c34a6b121a872cf11a95fcd",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "13a8b99793ba089c84f4df144fa4bf72282f0ff6e6d5c1cb98630ea56b0eec8e",
+      "role": "logs"
+    },
+    {
+      "path": "model/industrial_pastic_container.bin",
+      "bytes": 370100,
+      "sha256": "4ee471df26a3a386536109ee5a0c68300eced2706c0f667963a7a54ecb9343fd",
+      "role": "model"
+    },
+    {
+      "path": "model/industrial_pastic_container_2k.gltf",
+      "bytes": 6201,
+      "sha256": "2646e738f4996fd617699b0f99bf4800585e427c4c4c869ccda6f45681eae625",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/industrial_pastic_container_arm_2k.jpg",
+      "bytes": 3075996,
+      "sha256": "4de96358aeedcb26b769a7df0b9e9ed84792bf21cdabd2f2c42d182fd72d447a",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/industrial_pastic_container_diff_2k.jpg",
+      "bytes": 635975,
+      "sha256": "35ec4060b77fe6d80364d8b2796441506233d49d8c994f5b4301489bfa6fb443",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/industrial_pastic_container_nor_gl_2k.jpg",
+      "bytes": 382322,
+      "sha256": "34f0b1cb2eac9464f48633eaea9c5d53787a46d96a939960e11d354a99f4e37d",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 46186,
+      "sha256": "4535c392f74e3c7d87d7150bc029d9c98e14a19dbe298ac20005d7f5c3b2737a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 23773,
+      "sha256": "d90916d4a094b24135621f6f6c00cd33d656dd9ad743b70ddcb2faebd1398b19",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 298082,
+      "sha256": "79f4dd6069ca7eefd20286a17ab20901115becfe50523ce6b779516367d318a3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1267,
+      "sha256": "5e72b80732eb3f4330c7a218dc6d63e316b6d0263555295a1f586f18bd88d105",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 35672,
+      "sha256": "60aa6cec9aa726e278ddffbfc53adafeb65475eff295f3419527cd1bcfde832a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 44154,
+      "sha256": "01bc402809964a4461cb8b0f82467657cba86885d8c23c3896a4355973f5c567",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 47442,
+      "sha256": "b70dd6d5ff14868e108464bbe61b40f8ebb973124d8567ebd4ed1f831ec2ba72",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 45958,
+      "sha256": "c09c53726fb9bb2e2a92d2ddf6dc7923962c697f56f8eedf005dd3bbbea25dd7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 32432,
+      "sha256": "704b35290032287d3ffc7bd66ac9e08682a2d2681add4b3d879bde796dc33983",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 43136,
+      "sha256": "8fea6b5e6b28c69ed227a1fb804177a38973bcdbdd1b00947a1060176448b14f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 51764,
+      "sha256": "8851a25469f02c84360204d3f38c28af9053fc1ad11ef1f38fa9740600a9e156",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 42178,
+      "sha256": "2af9ebb93ed65491f0b3a431b4ef39e16cf8144086724b250016e45e1861dcac",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 34541,
+      "sha256": "89fe5d0b477a8303164b802b156d6eb3fc19e0b8d6d54693a17300d499143510",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 41590,
+      "sha256": "c3b2e853e978656c3fdfc3e6d8d6faa7721e141c2fe62ddbbb6dcdbc2cb5c1a6",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1247,
+      "sha256": "3bffb7f0b546832dec8db9f529378e86c1e7e25f13ee5d31db1ebad96619cb16",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2852,
+      "sha256": "7a63c32b0719172617fe1756b89eac4c7813c18ca31b8e2bb007e2f435976450",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1285,
+      "sha256": "2839341d80884644fd45f385b92bafa60bdeb26958e1920abaa89889ba1db2f9",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 938,
+      "sha256": "104a0929a1b01fcf5c48f0ed0d96bd0390b4182e7399b1d44dc559d8cc2e0b31",
+      "role": "documentation"
+    }
+  ]
+}

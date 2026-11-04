@@ -106,6 +106,20 @@ Some Poly Haven entries are texture/material sets rather than glTF models. They 
 
 Minor upstream issues are recorded rather than hidden. Examples include a small number of zero-area triangles in low-poly props, informational tangent-space warnings, and rest-pose-only rig inspection.
 
+## Marks and depicted third-party content
+
+CC0 waives the creator's copyright. It does not waive trademark rights, and it does not clear rights a third party may hold in something the model depicts. Because this library tells people they may resell assets as-is, every candidate is checked for marks in the full-size inspection views, not just on the contact sheet. Three outcomes:
+
+| What the render shows | Decision | Examples |
+| --- | --- | --- |
+| A legible real manufacturer's mark | **Reject** | `binder_notebook` (embossed cover emblem), `electric_stove` (ARINA badge) |
+| An obviously invented brand | Approve, record it as a limitation | `classic_laptop` (SENNETZ MIKROPER), `CoffeeCart_01` (DUNN), `fire_alarm` (HOTRESCUE) |
+| Generic text, specifications or ornament | Approve | `Drill_01` (18V 1.3Ah), `ammo_box` (7.62 MM stencil), caution signage, floral transfers |
+
+Upstream's `tmwarn` API flag is a useful first filter and is refused automatically at intake, but it is not sufficient: none of the rejected assets carried that flag. Descriptions help too — `clipboard` was dropped from the queue before intake because upstream described an engraved logo — but a description saying "logo" does not tell you how legible the mark actually is, so the render still decides.
+
+Decorative artwork without a wordmark is recorded rather than rejected, with a note telling the user to swap the decal map if their storefront needs cleared artwork. `boombox` is the current example.
+
 ## Evidence locations
 
 - `research/` contains pinned license texts, source trees, and MakeHuman pack research.

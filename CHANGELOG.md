@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- **Added 28 further photorealistic CC0 assets** (expansion-08) across instruments, optical science, computing, audio, appliances, ceiling lighting, carts and safety, bringing the library to **84 approved assets in 32 categories**. Across expansion-07 and expansion-08 that is 57 new assets, all visually reviewed across twelve views before promotion.
+- Rejected the compact electric stove: a legible ARINA manufacturer badge in the full-size front view, plus an unfinished open rear cavity. Rejected the leather binder notebook in the previous batch for the same trademark reason.
+- Wrote down the marks policy in `docs/research.md`: a legible real manufacturer's mark is a rejection, an obviously invented brand is approved with a recorded limitation, and generic specification text or ornament is fine. Upstream's `tmwarn` flag is a first filter, not the decision — neither rejected asset carried it.
+- Hardened HTTP retries after a Poly Haven CDN 500 cost one candidate: four attempts spanning ~14 s instead of three spanning ~6 s. Writing the test exposed a real bug — `raise_for_status()` raises `RequestException`, so permanent 404/403 responses were being retried too. Client errors now fail on the first attempt.
 - **Added 29 new photorealistic CC0 assets across 13 new categories** (expansion-07): hand tools, power tools, measuring instruments, cookware, tableware, vegetables, baked goods, vases, books, storage furniture, beds, desks and lamps. The library now holds 56 approved assets in 25 categories, all saved with 2K textures, twelve inspection views and full provenance.
 - Rejected the leather binder notebook at the visual gate despite excellent model quality: the full-size top view shows an embossed manufacturer emblem, and CC0 does not grant trademark rights. Rejection evidence is preserved under `reports/rejected/`.
 - Fixed a duplicated link line in the generated category pages; each asset now emits exactly one links row.

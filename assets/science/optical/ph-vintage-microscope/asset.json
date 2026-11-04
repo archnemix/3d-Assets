@@ -1,0 +1,359 @@
+{
+  "schema_version": 1,
+  "id": "ph-vintage-microscope",
+  "title": "Vintage brass microscope",
+  "category": "science/optical",
+  "style": "realistic",
+  "tags": [
+    "science",
+    "microscope",
+    "brass",
+    "optical",
+    "laboratory",
+    "vintage",
+    "pbr"
+  ],
+  "batch": "expansion-08",
+  "acquired_at": "2026-11-04T17:14:34.228915+00:00",
+  "review": {
+    "id": "ph-vintage-microscope",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Inspected all 12 views. Revolving objective turret with three separate objectives, rack-and-pinion focus wheels, stage clips, sub-stage condenser and tilting mirror are all resolved as distinct parts. Brass, black enamel and ground glass read as three convincing materials in every orbit. Top and bottom views confirm a properly closed cast base. 20.6k tris.",
+    "limitations": [
+      "Optics are opaque in the inspection render; enable transmission for the eyepiece and mirror.",
+      "Focus and turret are modelled in fixed positions with no rig."
+    ],
+    "contact_sheet_sha256": "01a4d36d7be58521ab94aa5824c1efecb82a1d2c9c8bbc71b96519fa3c22500d",
+    "reviewer": "arena-agent-visual-review",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/vintage_microscope_2k.gltf",
+    "creator": "Luis José Fernández Rodríguez",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/vintage_microscope",
+    "source_id": "vintage_microscope",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/vintage_microscope/vintage_microscope_2k.gltf",
+        "bytes": 15000,
+        "sha256": "e18ed013ab9b50e3879cfe9c0001c05f580eba40ac5255facd241f114c717163"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/vintage_microscope/vintage_microscope_nor_gl_2k.jpg",
+        "bytes": 1102722,
+        "sha256": "412dedf6fc596d75eb50d9601c6e3018499f793ca8bc43147a64c5af8d0962ae"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/vintage_microscope/vintage_microscope_diff_2k.jpg",
+        "bytes": 1700328,
+        "sha256": "ff5440bdeb88c7002924bda265e6df71b3c8db4d331251e5ca5e77b526747de0"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/vintage_microscope/vintage_microscope_arm_2k.jpg",
+        "bytes": 2261716,
+        "sha256": "53d28f1c3b48c9ecf0f7eca257ee6c2757cc9e4d2b182b97487a13f9677ec89d"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/vintage_microscope/vintage_microscope.bin",
+        "bytes": 702092,
+        "sha256": "b4f906ab5fe5ba71f12dc174064ab54a7417ea89740a1c1d2247d220e7c265db"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/vintage_microscope_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 8,
+    "materials": 2,
+    "images": 4,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/vintage_microscope_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "vintage_microscope_nor_gl"
+    },
+    {
+      "path": "model/textures/vintage_microscope_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "vintage_microscope_diff"
+    },
+    {
+      "path": "model/textures/vintage_microscope_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "vintage_microscope_metal-vintage_microscope_rough"
+    },
+    {
+      "path": "model/textures/vintage_microscope_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "vintage_microscope_diff-vintage_microscope_alpha"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 8,
+    "hidden_mesh_objects": 0,
+    "vertices": 18072,
+    "triangles": 20631,
+    "material_slots": 9,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 2,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "vintage_microscope_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-vintage-microscope/model/textures/vintage_microscope_diff_2k.jpg"
+      },
+      {
+        "name": "vintage_microscope_metal-vintage_microscope_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-vintage-microscope/model/textures/vintage_microscope_arm_2k.jpg"
+      },
+      {
+        "name": "vintage_microscope_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-vintage-microscope/model/textures/vintage_microscope_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 9,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1317,
+      "sha256": "7a8214c3392f87b41c1d5cf290fbf8dc7ef7cb70d2a916f6db7a3da9e778d22d",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 79661,
+      "sha256": "1217c909066b05850ad72000c203df430d5077d0bc9db739d8083235f6367fa9",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "714c27ac804a376c91eb0d81250cb67d7bc1333594b2663fd290e46faf49126e",
+      "role": "logs"
+    },
+    {
+      "path": "model/textures/vintage_microscope_arm_2k.jpg",
+      "bytes": 2261716,
+      "sha256": "53d28f1c3b48c9ecf0f7eca257ee6c2757cc9e4d2b182b97487a13f9677ec89d",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/vintage_microscope_diff_2k.jpg",
+      "bytes": 1700328,
+      "sha256": "ff5440bdeb88c7002924bda265e6df71b3c8db4d331251e5ca5e77b526747de0",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/vintage_microscope_nor_gl_2k.jpg",
+      "bytes": 1102722,
+      "sha256": "412dedf6fc596d75eb50d9601c6e3018499f793ca8bc43147a64c5af8d0962ae",
+      "role": "model"
+    },
+    {
+      "path": "model/vintage_microscope.bin",
+      "bytes": 702092,
+      "sha256": "b4f906ab5fe5ba71f12dc174064ab54a7417ea89740a1c1d2247d220e7c265db",
+      "role": "model"
+    },
+    {
+      "path": "model/vintage_microscope_2k.gltf",
+      "bytes": 15000,
+      "sha256": "e18ed013ab9b50e3879cfe9c0001c05f580eba40ac5255facd241f114c717163",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 26608,
+      "sha256": "911f0aadbbe63b273b1cc02d369f8a1d8634d43943858ac88e3414faca872ffa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18094,
+      "sha256": "715de2e9e53cabe13d33649c1a0a3f6e362e4b10a98b595f39f242b82710c828",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 202248,
+      "sha256": "01a4d36d7be58521ab94aa5824c1efecb82a1d2c9c8bbc71b96519fa3c22500d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1212,
+      "sha256": "ea244c49123a74deebe375b4a3abbc38c1f2d64995331bd1f3a12de20ea9bbf4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 22550,
+      "sha256": "4382cd6e1663ddbfc107e2b466a951790c4385bffd6fac5206e3517cb84fa51a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 25984,
+      "sha256": "2e0d692cc94f4972a6353f9c26015926d72c5aa8e4aea094d97df12d4987408a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 27097,
+      "sha256": "432f0fa57b85dbcb94c428dc661e736731fd3c9af3391cddf5ec9341ebbba36a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 26290,
+      "sha256": "9818c8c10c98a0fa60775c36610ee85a6b31ce6c640e72a66b9b808344f206e2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 21169,
+      "sha256": "41c40013c99d8996db4908844dcc0c7c20cd23c56ab36fab676ab1cdf4e7602a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 26560,
+      "sha256": "992cf010e61c02b24fba21002bbb7273c915528b7003df73d0ee2e4995e4147d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 28901,
+      "sha256": "82804cc9813e5bfc815c78cf88045dbdc1141e69ca7e49e90739836e47e476f5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 26610,
+      "sha256": "86f1f7a3be3f726ff0b7d1bc2112ab531ebd4cc0fcca421c99be4c87e86379aa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 45599,
+      "sha256": "c7fcf881bac5d2cfcc0b8a6ed2c28bb9c890ed0026b4d5075c680eaf7b447d8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 30026,
+      "sha256": "5a8785fd676f4ac348bb3df7af37283e665fc3661aa7464af8139b0de66193a5",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1338,
+      "sha256": "4058fafea3b972452939c75d91f41a19a3a088fee6a800bb02271b48fdb1985e",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 5069,
+      "sha256": "18253facdcba750b57a7fd49323d1b6fcf008a06b0c5526e619f9db185d117de",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1162,
+      "sha256": "ac788974f7edf3d868ac29b2d319ff35bece6e3b678c0c5e2fa14462510ad54b",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1019,
+      "sha256": "893c5419de6e92fc5e851847aef7ab63d3e52dccb7c6bb96c1e295f4ea881f1b",
+      "role": "documentation"
+    }
+  ]
+}

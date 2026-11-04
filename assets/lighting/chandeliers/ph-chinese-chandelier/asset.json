@@ -1,0 +1,349 @@
+{
+  "schema_version": 1,
+  "id": "ph-chinese-chandelier",
+  "title": "Carved Chinese wooden chandelier",
+  "category": "lighting/chandeliers",
+  "style": "realistic",
+  "tags": [
+    "lighting",
+    "chandelier",
+    "wood",
+    "carved",
+    "silk",
+    "traditional",
+    "pbr"
+  ],
+  "batch": "expansion-08",
+  "acquired_at": "2026-11-04T17:16:38.872965+00:00",
+  "review": {
+    "id": "ph-chinese-chandelier",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. Octagonal carved frame with pierced geometric roof panels, eight painted silk-look side panels, carved dragon-head corners and eight hanging red tassels. The top and bottom views confirm the roof lattice and base ring are properly closed. Only 7.8k tris for this much ornament.",
+    "limitations": [
+      "Panels are opaque in the inspection render; add translucency for a lit look.",
+      "Tassels are rigid geometry and will not sway without a rig."
+    ],
+    "contact_sheet_sha256": "cc98be3e1ddb6d536ba0957e44e3508c7878095d3109a782aeb8b91a771814b5",
+    "reviewer": "arena-agent-visual-review",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/chinese_chandelier_2k.gltf",
+    "creator": "Kirill Sannikov",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/chinese_chandelier",
+    "source_id": "chinese_chandelier",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/chinese_chandelier/chinese_chandelier_2k.gltf",
+        "bytes": 2824,
+        "sha256": "1b7e627ff12ba62a6c1c640feee85716bc4fb9df917b8301d92c09a9faf77045"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/chinese_chandelier/chinese_chandelier.bin",
+        "bytes": 293368,
+        "sha256": "e0212905755edbe70777747ff3fd0bae9aec591a775e6ad505c239c713e57467"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/chinese_chandelier/chinese_chandelier_arm_2k.jpg",
+        "bytes": 2089673,
+        "sha256": "a7df4260f12af937237ac0f8110cadcb6ec730ac3112a3bef332f379c2067a9d"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/chinese_chandelier/chinese_chandelier_diff_2k.jpg",
+        "bytes": 1799175,
+        "sha256": "e9797736c2ab185b26ec11ce6c0200aa5428511ad1654d13c672af451a1efb7f"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/chinese_chandelier/chinese_chandelier_nor_gl_2k.jpg",
+        "bytes": 2343942,
+        "sha256": "c3c6446aeb7060bb460ea4a30d39b3ab4d972abadb83765b9086824aef1a70fb"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/chinese_chandelier_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/chinese_chandelier_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "chinese_chandelier_nor_gl"
+    },
+    {
+      "path": "model/textures/chinese_chandelier_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "chinese_chandelier_diff"
+    },
+    {
+      "path": "model/textures/chinese_chandelier_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "chinese_chandelier_metal-chinese_chandelier_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 7700,
+    "triangles": 7828,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "chinese_chandelier_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-chinese-chandelier/model/textures/chinese_chandelier_diff_2k.jpg"
+      },
+      {
+        "name": "chinese_chandelier_metal-chinese_chandelier_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-chinese-chandelier/model/textures/chinese_chandelier_arm_2k.jpg"
+      },
+      {
+        "name": "chinese_chandelier_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-chinese-chandelier/model/textures/chinese_chandelier_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1294,
+      "sha256": "412c133eb14462a11b3b69ad89a9995124b43dda61ff25ea554ef2809e7b41c1",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68369,
+      "sha256": "15594bc5af2acf97168c12322cdbbcfd634b72f0ce7d28e6713dce9dbdf50bf8",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/chinese_chandelier.bin",
+      "bytes": 293368,
+      "sha256": "e0212905755edbe70777747ff3fd0bae9aec591a775e6ad505c239c713e57467",
+      "role": "model"
+    },
+    {
+      "path": "model/chinese_chandelier_2k.gltf",
+      "bytes": 2824,
+      "sha256": "1b7e627ff12ba62a6c1c640feee85716bc4fb9df917b8301d92c09a9faf77045",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/chinese_chandelier_arm_2k.jpg",
+      "bytes": 2089673,
+      "sha256": "a7df4260f12af937237ac0f8110cadcb6ec730ac3112a3bef332f379c2067a9d",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/chinese_chandelier_diff_2k.jpg",
+      "bytes": 1799175,
+      "sha256": "e9797736c2ab185b26ec11ce6c0200aa5428511ad1654d13c672af451a1efb7f",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/chinese_chandelier_nor_gl_2k.jpg",
+      "bytes": 2343942,
+      "sha256": "c3c6446aeb7060bb460ea4a30d39b3ab4d972abadb83765b9086824aef1a70fb",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 31585,
+      "sha256": "d583ab3c4dfcfeb6af432fa03050a51251f4ae28c1eea1c23c1dd0432290468b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 31699,
+      "sha256": "a7d8124c347f751bdfcc3bf7043064a26a5d363f605d1eda7773fab75a0a712b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 380191,
+      "sha256": "cc98be3e1ddb6d536ba0957e44e3508c7878095d3109a782aeb8b91a771814b5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1210,
+      "sha256": "c172d6251d0cdfbaa9b6a458ade9821d58c622ae084e8c4ea5e6e815186a9991",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 61419,
+      "sha256": "eedbac8d6634858e7a6cfb645a5b3d222fd2caf9b18bf177f41cc00b4fc09f93",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 60381,
+      "sha256": "58be71015cc4e71dffd01e0fc0e5b091f63b1e7cb8140efa5c5bf2cd066969e7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 60597,
+      "sha256": "cf7446a304f507235eba46833dbfdadbf8888cde8a0b6f7077f4eb385329d3c9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 61214,
+      "sha256": "634783a5920f07a4dda8d194317165120c32e46dec6026ce12b948bca3ff75af",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 60749,
+      "sha256": "6dc14a7922609437f68fa92fa3a9013bee50bd4d005b8d9d55cf4d5d88f84a4d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 60420,
+      "sha256": "53fd3571aaeaafdba1a559141c4f9e11eed25f100a9d8cc86e5a46b522830d86",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 61234,
+      "sha256": "6a8cc2709d8b0c18a7d404578fa7e54acf46c407451aeccb9e553ecc45df9f7c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 59568,
+      "sha256": "bfd900093699936c41828f23871e704cadb5d57b6cb7b2344ec25ae0877068a7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 37657,
+      "sha256": "1db1679352f2e50b7d14b98f0c87fff82c5f9438963f7716dec5095e3550ef0a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 50372,
+      "sha256": "72b8762f9d030e239852cba3624936ae5e4909bc166077e1668d0b3780a5f0d7",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1147,
+      "sha256": "e78750b567a7da54e4f141b676cd10126068709a2b711105f3c9896cb8c85a6c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2152,
+      "sha256": "e3e0c9db1aaf8be09a22e0b4234bdab340e8ba490caa020d3e0a9610664f74b6",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1161,
+      "sha256": "5bd5c94e7e8f2281aba5f24bae74fcd052aeaedfd43d0a8a2987f8321a95c893",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 944,
+      "sha256": "fbcd81108ced3ab5afae7ddc50c42387e4912a3fb3a17123b47c0cd866949b5f",
+      "role": "documentation"
+    }
+  ]
+}

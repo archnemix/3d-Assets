@@ -1,0 +1,663 @@
+{
+  "schema_version": 1,
+  "id": "ph-brass-candleholders",
+  "title": "Ornate brass candleholders",
+  "category": "lighting/lamps",
+  "style": "realistic",
+  "tags": [
+    "lighting",
+    "candlestick",
+    "brass",
+    "ornate",
+    "candles",
+    "vintage",
+    "pbr"
+  ],
+  "batch": "expansion-08",
+  "acquired_at": "2026-11-04T17:15:33.768501+00:00",
+  "review": {
+    "id": "ph-brass-candleholders",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. Three graduated candelabra with turned stems, scrolled arms, modelled candle sockets and separate candles with wicks. The top view confirms correct radial arm spacing and the bottom view shows closed weighted bases. The 4 is for materials: the package exceeded the 2K budget across fourteen maps, so the picker correctly fell back to 1K.",
+    "limitations": [
+      "Textures are 1K, not 2K: fourteen maps exceeded the per-package storage budget and the picker logged the fallback.",
+      "Three holders ship as one laid-out scene; separate them to place individually.",
+      "Candles are unlit with no flame geometry."
+    ],
+    "contact_sheet_sha256": "bd569242e0791d98e6d7b2f063b55d268c473771e8b0dbcdca34ee16ae59ff5e",
+    "reviewer": "arena-agent-visual-review",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/brass_candleholders_1k.gltf",
+    "creator": "Tina",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/brass_candleholders",
+    "source_id": "brass_candleholders",
+    "resolution": "1k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/brass_candleholders/brass_candleholders_1k.gltf",
+        "bytes": 14865,
+        "sha256": "a1de928d1c7d2241f0727dbad2c9b52d49c3245e1f7dd0c45a9a6482bc5c9101"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/brass_candleholders/brass_candleholders_03_arm_1k.jpg",
+        "bytes": 866977,
+        "sha256": "943b1e42d92ac9ed67f24c8c49d55172829ca35fcb98f8289cf266bae854f7a0"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/brass_candleholders/brass_candleholders_03_nor_gl_1k.jpg",
+        "bytes": 773357,
+        "sha256": "6213bf43d69f3344091262608d90729e182bfc6c558fd7bd58fec2f3942c3f13"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/brass_candleholders/brass_candleholders_flame_diff_1k.jpg",
+        "bytes": 88579,
+        "sha256": "72b1ef8a6ef2b37148cd9fceb9a239748a87b6866a833c9ae3ac98e1ca81f024"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/brass_candleholders/brass_candleholders_candles_nor_gl_1k.jpg",
+        "bytes": 175178,
+        "sha256": "4655772521d11f205be8101293be6d8ab07177c6eb00a745a2eb8f5760781e9d"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/brass_candleholders/brass_candleholders_candles_arm_1k.jpg",
+        "bytes": 288769,
+        "sha256": "c2d4f750067b56cb0cef19b8899e9194e9fc59ebafb7c5e6ae86712baa9da78a"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/brass_candleholders/brass_candleholders_02_arm_1k.jpg",
+        "bytes": 753959,
+        "sha256": "dce7d69149c18c148b9fccc37708d498e8c087e838653ee8745e6d627c005d0b"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/brass_candleholders/brass_candleholders_01_diff_1k.jpg",
+        "bytes": 942661,
+        "sha256": "f6d8ae2f8d565cddcdab836bf4d7c6210abd7fbd1a6896381dc182a926e9e9a4"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/brass_candleholders/brass_candleholders_03_diff_1k.jpg",
+        "bytes": 945596,
+        "sha256": "e30b198ae61e8620aec45faf9181dc19d3ef1b852a52170d9e9fc5d8151aee1a"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/brass_candleholders/brass_candleholders_01_nor_gl_1k.jpg",
+        "bytes": 627197,
+        "sha256": "57639408a3f29aae15381f605210b89cef60d3e69b2577252abd23e0a44e6488"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/brass_candleholders/brass_candleholders_02_nor_gl_1k.jpg",
+        "bytes": 672717,
+        "sha256": "fbf36bfcc4c75d54f4b3b3603682dda8efee299604b5c1daec25bdad7a032c8e"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/brass_candleholders/brass_candleholders_02_diff_1k.jpg",
+        "bytes": 983525,
+        "sha256": "3a8a7b81af977141549ed032b6a2d0a919d0478f225f4dbcd39ddb640cac1203"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/brass_candleholders/brass_candleholders_candles_diff_1k.jpg",
+        "bytes": 271273,
+        "sha256": "4a044a1c4b79173edd19dbd2b0c503f1d5a3cb9431801f89aaaf00c41b5a43bd"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/brass_candleholders/brass_candleholders_01_arm_1k.jpg",
+        "bytes": 908699,
+        "sha256": "32e6de735b85ae2e1e800dac0b25e31a89bb37adff28303929ca90c40357352d"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/brass_candleholders/brass_candleholders.bin",
+        "bytes": 1189088,
+        "sha256": "a2f406ea19e6e606ba6b618958cb496b2c18a41fa580409512afd6e644878d51"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/brass_candleholders_1k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 3,
+    "materials": 5,
+    "images": 14,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_materials_specular",
+      "KHR_materials_ior"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/brass_candleholders_03_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "brass_candleholders_03_nor_gl"
+    },
+    {
+      "path": "model/textures/brass_candleholders_03_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "brass_candleholders_03_diff"
+    },
+    {
+      "path": "model/textures/brass_candleholders_03_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "brass_candleholders_03_metal-brass_candleholders_03_rough"
+    },
+    {
+      "path": "model/textures/brass_candleholders_flame_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "brass_candleholders_flame_diff"
+    },
+    {
+      "path": "model/textures/brass_candleholders_flame_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "brass_candleholders_flame_diff"
+    },
+    {
+      "path": "model/textures/brass_candleholders_02_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "brass_candleholders_02_nor_gl"
+    },
+    {
+      "path": "model/textures/brass_candleholders_02_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "brass_candleholders_02_diff"
+    },
+    {
+      "path": "model/textures/brass_candleholders_02_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "brass_candleholders_02_metal-brass_candleholders_02_rough"
+    },
+    {
+      "path": "model/textures/brass_candleholders_candles_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "brass_candleholders_candles_nor_gl"
+    },
+    {
+      "path": "model/textures/brass_candleholders_candles_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "brass_candleholders_candles_diff"
+    },
+    {
+      "path": "model/textures/brass_candleholders_candles_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "brass_candleholders_candles_rough"
+    },
+    {
+      "path": "model/textures/brass_candleholders_01_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "brass_candleholders_01_nor_gl"
+    },
+    {
+      "path": "model/textures/brass_candleholders_01_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "brass_candleholders_01_diff"
+    },
+    {
+      "path": "model/textures/brass_candleholders_01_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "brass_candleholders_01_metal-brass_candleholders_01_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 3,
+    "hidden_mesh_objects": 0,
+    "vertices": 29296,
+    "triangles": 41936,
+    "material_slots": 7,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "brass_candleholders_01_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-brass-candleholders/model/textures/brass_candleholders_01_diff_1k.jpg"
+      },
+      {
+        "name": "brass_candleholders_01_metal-brass_candleholders_01_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-brass-candleholders/model/textures/brass_candleholders_01_arm_1k.jpg"
+      },
+      {
+        "name": "brass_candleholders_01_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-brass-candleholders/model/textures/brass_candleholders_01_nor_gl_1k.jpg"
+      },
+      {
+        "name": "brass_candleholders_02_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-brass-candleholders/model/textures/brass_candleholders_02_diff_1k.jpg"
+      },
+      {
+        "name": "brass_candleholders_02_metal-brass_candleholders_02_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-brass-candleholders/model/textures/brass_candleholders_02_arm_1k.jpg"
+      },
+      {
+        "name": "brass_candleholders_02_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-brass-candleholders/model/textures/brass_candleholders_02_nor_gl_1k.jpg"
+      },
+      {
+        "name": "brass_candleholders_03_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-brass-candleholders/model/textures/brass_candleholders_03_diff_1k.jpg"
+      },
+      {
+        "name": "brass_candleholders_03_metal-brass_candleholders_03_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-brass-candleholders/model/textures/brass_candleholders_03_arm_1k.jpg"
+      },
+      {
+        "name": "brass_candleholders_03_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-brass-candleholders/model/textures/brass_candleholders_03_nor_gl_1k.jpg"
+      },
+      {
+        "name": "brass_candleholders_candles_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-brass-candleholders/model/textures/brass_candleholders_candles_diff_1k.jpg"
+      },
+      {
+        "name": "brass_candleholders_candles_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-brass-candleholders/model/textures/brass_candleholders_candles_nor_gl_1k.jpg"
+      },
+      {
+        "name": "brass_candleholders_candles_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-brass-candleholders/model/textures/brass_candleholders_candles_arm_1k.jpg"
+      },
+      {
+        "name": "brass_candleholders_flame_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-brass-candleholders/model/textures/brass_candleholders_flame_diff_1k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 4,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1376,
+      "sha256": "724931535c88a31d13f4977cb351737cb00cc37318b8e149b5aa84daa2fcacfc",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 86861,
+      "sha256": "0ee82e3cbcdd2147b45aadf1da1fb7b043380f52aea3bf262429f03a00149e6d",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "a99759f362377291a7bb056ad797ad31a9826d4cf0cce6cd08add7590b8520d0",
+      "role": "logs"
+    },
+    {
+      "path": "model/brass_candleholders.bin",
+      "bytes": 1189088,
+      "sha256": "a2f406ea19e6e606ba6b618958cb496b2c18a41fa580409512afd6e644878d51",
+      "role": "model"
+    },
+    {
+      "path": "model/brass_candleholders_1k.gltf",
+      "bytes": 14865,
+      "sha256": "a1de928d1c7d2241f0727dbad2c9b52d49c3245e1f7dd0c45a9a6482bc5c9101",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/brass_candleholders_01_arm_1k.jpg",
+      "bytes": 908699,
+      "sha256": "32e6de735b85ae2e1e800dac0b25e31a89bb37adff28303929ca90c40357352d",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/brass_candleholders_01_diff_1k.jpg",
+      "bytes": 942661,
+      "sha256": "f6d8ae2f8d565cddcdab836bf4d7c6210abd7fbd1a6896381dc182a926e9e9a4",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/brass_candleholders_01_nor_gl_1k.jpg",
+      "bytes": 627197,
+      "sha256": "57639408a3f29aae15381f605210b89cef60d3e69b2577252abd23e0a44e6488",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/brass_candleholders_02_arm_1k.jpg",
+      "bytes": 753959,
+      "sha256": "dce7d69149c18c148b9fccc37708d498e8c087e838653ee8745e6d627c005d0b",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/brass_candleholders_02_diff_1k.jpg",
+      "bytes": 983525,
+      "sha256": "3a8a7b81af977141549ed032b6a2d0a919d0478f225f4dbcd39ddb640cac1203",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/brass_candleholders_02_nor_gl_1k.jpg",
+      "bytes": 672717,
+      "sha256": "fbf36bfcc4c75d54f4b3b3603682dda8efee299604b5c1daec25bdad7a032c8e",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/brass_candleholders_03_arm_1k.jpg",
+      "bytes": 866977,
+      "sha256": "943b1e42d92ac9ed67f24c8c49d55172829ca35fcb98f8289cf266bae854f7a0",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/brass_candleholders_03_diff_1k.jpg",
+      "bytes": 945596,
+      "sha256": "e30b198ae61e8620aec45faf9181dc19d3ef1b852a52170d9e9fc5d8151aee1a",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/brass_candleholders_03_nor_gl_1k.jpg",
+      "bytes": 773357,
+      "sha256": "6213bf43d69f3344091262608d90729e182bfc6c558fd7bd58fec2f3942c3f13",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/brass_candleholders_candles_arm_1k.jpg",
+      "bytes": 288769,
+      "sha256": "c2d4f750067b56cb0cef19b8899e9194e9fc59ebafb7c5e6ae86712baa9da78a",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/brass_candleholders_candles_diff_1k.jpg",
+      "bytes": 271273,
+      "sha256": "4a044a1c4b79173edd19dbd2b0c503f1d5a3cb9431801f89aaaf00c41b5a43bd",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/brass_candleholders_candles_nor_gl_1k.jpg",
+      "bytes": 175178,
+      "sha256": "4655772521d11f205be8101293be6d8ab07177c6eb00a745a2eb8f5760781e9d",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/brass_candleholders_flame_diff_1k.jpg",
+      "bytes": 88579,
+      "sha256": "72b1ef8a6ef2b37148cd9fceb9a239748a87b6866a833c9ae3ac98e1ca81f024",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 18097,
+      "sha256": "b94c8fe283b3d73114b24fd94cae8f04c93a18a801deda0119576b2330fd5085",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 22121,
+      "sha256": "aad0795ed36cd02df1ef028ab3818445b47c3cbf28e07cea9db4b84067ca7043",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 213796,
+      "sha256": "bd569242e0791d98e6d7b2f063b55d268c473771e8b0dbcdca34ee16ae59ff5e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 4279,
+      "sha256": "540d9e94aae192e974642db719968f3b5e0a2639688aa4fb41c36dd8c270daea",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 29998,
+      "sha256": "78e8687c20b9cfe93defb424f796e45876866cba11467a5fefa6e4f0f1d6f305",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 41206,
+      "sha256": "c5e693f8e0079d2b252fb5d7158fdb5eee6569b453dd120aff8a4dbdd91f36f7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 28231,
+      "sha256": "7678a6f818530fdd895e388c9a1574e4267782d69538b78345e019c21315e800",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 41212,
+      "sha256": "be27a387b72dcbb34008f7482181dd864e6e9dc8651d8f30ff1c76fe2193aa35",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 30447,
+      "sha256": "349615fdd059325e5da95d3d4d0ce058c9da8cb875dcc8b4be68a0bf075dce8e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 33541,
+      "sha256": "f1205526a99cedff77728aee53a801ed7be93d284134ea6328c5007a4642955c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 24147,
+      "sha256": "341b4009c1dede6dd04d614300bc1b20bb10638083ea3a709cc317e02c0be9a7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 32989,
+      "sha256": "e254b39703ff995cfac243ca05f33c0240777852b2add85b645a7c3262654e32",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 21575,
+      "sha256": "14d844cda200bf1b8d80681b6c3409bdc4555777501d97d8a09a420f4c209232",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 30174,
+      "sha256": "85122db21fb00ca998989eda001d2d6dbd14f1ba20cec5e860082f5e787fbf5c",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1236,
+      "sha256": "0bdab21f71cf70f459ad094e127b8e58eae7e3012ba27a370d5f0e5c7d7bb7c3",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 6600,
+      "sha256": "6226c8f3cae8a6a810e2dd084745779dd87da2e866a9662dc34f6c720eb6489d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 3783,
+      "sha256": "4b725499ccc5e2c3f2ae447c49d4b9a2e473190d1786abd5245a6bbb7acac1e6",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1111,
+      "sha256": "7e42dd10fec53f85f54c8e62a32e0bf9b99e1ff3e647e72f9fc1e8c4b537da87",
+      "role": "documentation"
+    }
+  ]
+}

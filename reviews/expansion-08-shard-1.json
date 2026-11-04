@@ -1,0 +1,109 @@
+{
+  "batch": "expansion-08",
+  "reviewer": "arena-agent-visual-review",
+  "reviewed_at": "2026-11-04",
+  "decisions": [
+    {
+      "id": "ph-vintage-microscope",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Inspected all 12 views. Revolving objective turret with three separate objectives, rack-and-pinion focus wheels, stage clips, sub-stage condenser and tilting mirror are all resolved as distinct parts. Brass, black enamel and ground glass read as three convincing materials in every orbit. Top and bottom views confirm a properly closed cast base. 20.6k tris.",
+      "limitations": [
+        "Optics are opaque in the inspection render; enable transmission for the eyepiece and mirror.",
+        "Focus and turret are modelled in fixed positions with no rig."
+      ],
+      "contact_sheet_sha256": "01a4d36d7be58521ab94aa5824c1efecb82a1d2c9c8bbc71b96519fa3c22500d"
+    },
+    {
+      "id": "ph-ceiling-fan",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Four curved blades, motor housing with cooling fins, downrod, ceiling canopy and a frosted light diffuser are distinct parts. The top and bottom views confirm correct blade pitch and a closed motor underside. Brushed metal and matte black read as separate materials. 16.4k tris.",
+      "limitations": [
+        "Blades are not rigged to spin; animate the blade parent object yourself.",
+        "Light diffuser is opaque in the inspection render and emits nothing."
+      ],
+      "contact_sheet_sha256": "68b80407b07ec79fe882d39680d70e9481c0a4b29cfb1edb659fa0c3c8951f4a"
+    },
+    {
+      "id": "ph-brass-diya-lantern",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Inspected all 12 views. Hexagonal brass body with star-cut ventilation holes, confirmed in the top view, a domed cap, hanging chain and a properly closed base in the bottom view. The 4 is for materials: the six glass panels render as flat pure black with no transmission or interior detail, so they read as holes rather than glazing.",
+      "limitations": [
+        "Glass panels are flat black in the inspection render and need transmission plus an interior light.",
+        "Long suspension chain makes the lantern small in whole-object framing."
+      ],
+      "contact_sheet_sha256": "6ee4e42210c494e4815e575d984d1bd22379c7117570cfa9abd4d99393e1fa8a"
+    },
+    {
+      "id": "ph-old-bed-frame",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Tubular headboard and footboard with vertical spindles, side rails, cast joint collars and a full wire-spring mattress deck, all visible in the top and bottom views. Chipped white paint over rust tracks the tubes believably. The 4 is for topology: 50k triangles, most of it in the spring grid.",
+      "limitations": [
+        "50k triangles, largely the wire spring deck; replace with a plane if it will be covered by a mattress.",
+        "Frame only: no mattress or bedding included."
+      ],
+      "contact_sheet_sha256": "e8e343aaddd970f3aa29af0bb1f7fe3e4a3ebcdb2ec3ca08f4f633b2dac3daee"
+    },
+    {
+      "id": "ph-plastic-container",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Inspected all 12 views. Stackable tote with two hinged split lids shown open, ribbed lid panels, moulded hand grips and a genuinely hollow interior with correct wall thickness, confirmed in the top view. Scuffed blue plastic with grime concentrated at the base reads consistently all round. 7.1k tris.",
+      "limitations": [
+        "Lids are modelled open; rotate the lid objects to close them.",
+        "A generic shipping label with a barcode is visible on the front face."
+      ],
+      "contact_sheet_sha256": "79f4dd6069ca7eefd20286a17ab20901115becfe50523ce6b779516367d318a3"
+    },
+    {
+      "id": "ph-brass-vase",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Inspected all 12 views. Shouldered vase on a splayed foot with three bands of engraved scrollwork carried in both geometry and normal map. The top view shows a real hollow neck and interior, and the bottom view a closed foot. Engraving stays registered around the full orbit with no UV seam. Just 2.6k tris.",
+      "limitations": [
+        "Interior is dark below the neck, so top-down cameras see a black cavity.",
+        "Polished brass will look flat without an environment map."
+      ],
+      "contact_sheet_sha256": "f683e8143f997179b582013cf0378263e2adfc78d05ae6538c73a2b349eda2fc"
+    }
+  ]
+}

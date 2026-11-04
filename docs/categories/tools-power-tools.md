@@ -2,7 +2,7 @@
 
 Powered workshop tools and their accessories
 
-Approved assets: **2**
+Approved assets: **3**
 
 ## Brass blowtorch
 
@@ -19,4 +19,12 @@ Approved assets: **2**
 - Creator: Fernando Quinn; style: realistic; CC0-1.0
 - 2,926 triangles; 3 texture images
 - [Asset folder](../../assets/tools/power-tools/ph-cordless-drill/) · [Metadata](../../assets/tools/power-tools/ph-cordless-drill/asset.json) · [All inspection views](../../assets/tools/power-tools/ph-cordless-drill/previews/contact-sheet.jpg)
+
+## Vintage workshop drill press
+
+![Vintage workshop drill press](../../assets/tools/power-tools/ph-drill-press/previews/orbit-01.jpg)
+
+- Creator: Viktor; style: realistic; CC0-1.0
+- 58,526 triangles; 3 texture images
+- [Asset folder](../../assets/tools/power-tools/ph-drill-press/) · [Metadata](../../assets/tools/power-tools/ph-drill-press/asset.json) · [All inspection views](../../assets/tools/power-tools/ph-drill-press/previews/contact-sheet.jpg)
 

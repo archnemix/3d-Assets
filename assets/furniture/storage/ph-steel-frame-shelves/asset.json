@@ -1,0 +1,350 @@
+{
+  "schema_version": 1,
+  "id": "ph-steel-frame-shelves",
+  "title": "Industrial steel-frame shelving unit",
+  "category": "furniture/storage",
+  "style": "realistic",
+  "tags": [
+    "shelf",
+    "shelving",
+    "storage",
+    "steel",
+    "wood",
+    "industrial",
+    "warehouse",
+    "pbr"
+  ],
+  "batch": "expansion-08",
+  "acquired_at": "2026-11-04T17:18:52.739840+00:00",
+  "review": {
+    "id": "ph-steel-frame-shelves",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. Five pale timber planks in a welded black steel frame with a lower stretcher; every board has real thickness, confirmed in the front-left orbit and the top view. The bottom view shows the plank undersides and frame feet properly closed. Clean modern lines with convincing wood grain. Only 4.3k tris.",
+    "limitations": [
+      "Shelves are fixed and cannot be re-spaced without editing the mesh.",
+      "Frame welds are not modelled, so extreme close-ups look simplified."
+    ],
+    "contact_sheet_sha256": "1cfa657acc34feb045e55c70f83e1682c8d0fe78e3515d7e524a76643494dcfb",
+    "reviewer": "arena-agent-visual-review",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/steel_frame_shelves_01_2k.gltf",
+    "creator": "James Ray Cock",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/steel_frame_shelves_01",
+    "source_id": "steel_frame_shelves_01",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/steel_frame_shelves_01/steel_frame_shelves_01_2k.gltf",
+        "bytes": 2766,
+        "sha256": "42c992b86966deace163e701fb45df82743d42716eefbedb533e550bcc879b6b"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/steel_frame_shelves_01/steel_frame_shelves_01_diff_2k.jpg",
+        "bytes": 1679686,
+        "sha256": "f13b689662757c99dce62503fa98baa54d5c8aec1597fce1ab7c5b8d5a77f721"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/steel_frame_shelves_01/steel_frame_shelves_01_nor_gl_2k.jpg",
+        "bytes": 1350248,
+        "sha256": "bb5db1bdc40938b7f949d773ffdf4c7d2d8319b285ab291173676114ddb91c7b"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/steel_frame_shelves_01/steel_frame_shelves_01.bin",
+        "bytes": 142312,
+        "sha256": "306d7e72d12a5d3047b8a189f8d0add51075eaf7f51f935286fda4e1c16dd066"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/steel_frame_shelves_01/steel_frame_shelves_01_arm_2k.jpg",
+        "bytes": 2393901,
+        "sha256": "6aeca77df7c022bec768212cba95011ce4fc67555c5e039e22542db171492a4f"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/steel_frame_shelves_01_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/steel_frame_shelves_01_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "steel_frame_shelves_01_nor_gl"
+    },
+    {
+      "path": "model/textures/steel_frame_shelves_01_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "steel_frame_shelves_01_diff"
+    },
+    {
+      "path": "model/textures/steel_frame_shelves_01_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "steel_frame_shelves_01_metal-steel_frame_shelves_01_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 3632,
+    "triangles": 4348,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "steel_frame_shelves_01_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-steel-frame-shelves/model/textures/steel_frame_shelves_01_diff_2k.jpg"
+      },
+      {
+        "name": "steel_frame_shelves_01_metal-steel_frame_shelves_01_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-steel-frame-shelves/model/textures/steel_frame_shelves_01_arm_2k.jpg"
+      },
+      {
+        "name": "steel_frame_shelves_01_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-steel-frame-shelves/model/textures/steel_frame_shelves_01_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1301,
+      "sha256": "c3602786748c9856f98696c134d938824e764082b60c1cdff21b80fe468cba3e",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68785,
+      "sha256": "60dd9d880508ec1755f11272161443e2367037205d5e96646d627b25b6660266",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/steel_frame_shelves_01.bin",
+      "bytes": 142312,
+      "sha256": "306d7e72d12a5d3047b8a189f8d0add51075eaf7f51f935286fda4e1c16dd066",
+      "role": "model"
+    },
+    {
+      "path": "model/steel_frame_shelves_01_2k.gltf",
+      "bytes": 2766,
+      "sha256": "42c992b86966deace163e701fb45df82743d42716eefbedb533e550bcc879b6b",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/steel_frame_shelves_01_arm_2k.jpg",
+      "bytes": 2393901,
+      "sha256": "6aeca77df7c022bec768212cba95011ce4fc67555c5e039e22542db171492a4f",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/steel_frame_shelves_01_diff_2k.jpg",
+      "bytes": 1679686,
+      "sha256": "f13b689662757c99dce62503fa98baa54d5c8aec1597fce1ab7c5b8d5a77f721",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/steel_frame_shelves_01_nor_gl_2k.jpg",
+      "bytes": 1350248,
+      "sha256": "bb5db1bdc40938b7f949d773ffdf4c7d2d8319b285ab291173676114ddb91c7b",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 28575,
+      "sha256": "c98c02f94f8e8628703a9329e5b0b5ba2e296ba08c430619ece976e7985b1c24",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 21932,
+      "sha256": "76e469d844ccce6ac29a8a826ebaa5276121ccfbc98c923211a56043a688c2c3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 199026,
+      "sha256": "1cfa657acc34feb045e55c70f83e1682c8d0fe78e3515d7e524a76643494dcfb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1241,
+      "sha256": "bc71ab585daaa1c02671c4b1483cfcda374dc597aacdf886d5351c03f3241e79",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 24091,
+      "sha256": "15c2dc07d44060a36f03939ffcf35e19880f855f2d9c608985fcc6613a78269c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 33131,
+      "sha256": "6872b20a8e4cab7508219cf70f729b1d96d4596f45561a89b14618359a8f75b4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 20005,
+      "sha256": "73a71164dfd61a74dd244a2c888b6b5715883f20e13652ac2a45f25298bf56c2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 32271,
+      "sha256": "a1fbd55cd186fa7944258f05515d68854d278692c33a9ccae59c2f9867de8a37",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 25011,
+      "sha256": "db72d91b66fe5764c998a4e0b40566f9df6ab6cc93ffc1c0cb850b099ed1ecbb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 33014,
+      "sha256": "2c93b9255647988d4a1b2b94d834613edded52db996bbbb4542856271fc1067d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 18651,
+      "sha256": "66edabd43526de96478c54485521d490a1f57a6c01382fddd9f36ad77cd673af",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 33182,
+      "sha256": "fd970806e0250f788de9c986beb84e2d9a7fd49902b1ba89acb3b941ce4fc4d5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 23859,
+      "sha256": "47ca8c947272460a697de7c056e3cfa88d2eba2ad289b0ac59ad44c3ad55aff1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 28938,
+      "sha256": "7882830fd8a34be5070ddb25f444f0d2a2e1055b32fc71f09830eec931ccf54d",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1257,
+      "sha256": "a407e9327bf7f5e3339841f1ace4815f8884b9d8c407931ba358576758a917f7",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3080,
+      "sha256": "f4c8c696c791fd29caa95036e22cb0b5a81c921219328f5e852be471408648aa",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1217,
+      "sha256": "323618c381110ea8b83af4f9f8682dc1ecad566d8b374e7b7a8d94df8464561e",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 966,
+      "sha256": "ba7f18875e42322b56bc9788e0a09c72174afa540809446eaefd9fadcbfa8481",
+      "role": "documentation"
+    }
+  ]
+}

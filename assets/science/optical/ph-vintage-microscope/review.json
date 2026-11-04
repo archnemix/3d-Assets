@@ -1,0 +1,21 @@
+{
+  "id": "ph-vintage-microscope",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Inspected all 12 views. Revolving objective turret with three separate objectives, rack-and-pinion focus wheels, stage clips, sub-stage condenser and tilting mirror are all resolved as distinct parts. Brass, black enamel and ground glass read as three convincing materials in every orbit. Top and bottom views confirm a properly closed cast base. 20.6k tris.",
+  "limitations": [
+    "Optics are opaque in the inspection render; enable transmission for the eyepiece and mirror.",
+    "Focus and turret are modelled in fixed positions with no rig."
+  ],
+  "contact_sheet_sha256": "01a4d36d7be58521ab94aa5824c1efecb82a1d2c9c8bbc71b96519fa3c22500d",
+  "reviewer": "arena-agent-visual-review",
+  "reviewed_at": "2026-11-04",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

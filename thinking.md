@@ -145,3 +145,33 @@ reject, I verified `steel_frame_shelves_01` through the Poly Haven info endpoint
 intake is cheaper than screening the render after it, but it does not replace the
 render — the notebook's description also said "embossed logo" and I still needed
 the full-size view to confirm how legible the mark actually was.
+
+## 2026-11-04 — Where the trademark line actually falls
+
+The second wave forced me to turn one rejection into a rule. `electric_stove`
+arrived with a perfectly legible ARINA badge on the control panel and an
+unfinished open cavity at the back — an easy rejection on both rights and
+completeness. But three other assets in the same batch also had badges, and
+rejecting all of them would have been lazy rather than careful.
+
+The distinction that holds up is whether the mark identifies a real company.
+SENNETZ MIKROPER on the laptop, DUNN on the coffee cart and HOTRESCUE on the fire
+alarm are invented; inventing a brand is standard practice for props precisely
+because it avoids this problem. ARINA and the notebook's embossed emblem are not
+invented. So the rule is now written down in `docs/research.md` as a three-way
+table, with the invented marks approved and their lettering recorded as a
+limitation so nobody is surprised by it later.
+
+Worth noting that upstream's `tmwarn` flag caught neither rejection. It is a
+useful cheap filter and the adapter refuses flagged assets outright, but the
+assets that actually needed rejecting were unflagged. The twelve-view render is
+still the thing that decides.
+
+The other lesson was cheaper. A single CDN 500 on one normal map cost a whole
+candidate, so I widened the retry window — and then the test I wrote for it
+failed, because `raise_for_status()` raises `RequestException` and the old
+`except` clause was therefore retrying permanent 404s and 403s as well. The retry
+budget was being spent on errors that could never succeed. That bug had been
+there since the first commit and only surfaced because I wrote the boring
+"client errors are not retried" case. Splitting transport failures from status
+failures fixed it.
