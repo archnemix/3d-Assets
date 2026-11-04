@@ -1,0 +1,28 @@
+{
+  "source_model": "filmstrip_projector_8mm_2k.gltf",
+  "authored": [
+    {
+      "name": "reel_spin",
+      "parts": [
+        "filmstrip_projector_8mm_spool_feed",
+        "filmstrip_projector_8mm_spool_takeup"
+      ],
+      "axis": "X",
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "verification": [
+    {
+      "clip": "reel_spin",
+      "frames": [
+        "anim-reel_spin-a.jpg",
+        "anim-reel_spin-b.jpg",
+        "anim-reel_spin-c.jpg"
+      ]
+    }
+  ],
+  "note": "Clips authored by this library, not upstream. Dedicated to CC0.",
+  "animated_model": "filmstrip_projector_8mm_2k-animated.glb"
+}

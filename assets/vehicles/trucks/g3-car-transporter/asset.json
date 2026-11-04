@@ -270,6 +270,12 @@
       "role": "documentation"
     },
     {
+      "path": "logs/animations.log",
+      "bytes": 72364,
+      "sha256": "66f81e3f174dabb926f24425840837df6307d4bff5b872a70a0ec3538b1ceb46",
+      "role": "logs"
+    },
+    {
       "path": "logs/blender.log",
       "bytes": 93593,
       "sha256": "1ff9b22501a6b394589ea07040e4cfd5984ae9f81e356721b6011419b1dd1208",
@@ -282,10 +288,70 @@
       "role": "logs"
     },
     {
+      "path": "model/car-transporter-animated.glb",
+      "bytes": 2421984,
+      "sha256": "aa4609232f97bedb22fcb14e8debc16ec07e8867997e025ddc41130511a8972f",
+      "role": "model"
+    },
+    {
       "path": "model/car-transporter.glb",
       "bytes": 2385396,
       "sha256": "c55ad3eb2a4570a3aa1b591478d4227ac69f6f8747199968500dc974cac27288",
       "role": "model"
+    },
+    {
+      "path": "previews/anim-steer-a.jpg",
+      "bytes": 12500,
+      "sha256": "91359173712d20ae57ff6be4aec04f3ae1996f6bd96a28cf3f33779e7074c85d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-steer-b.jpg",
+      "bytes": 11365,
+      "sha256": "1078c0b1b8fc73cc7b8d56fcfa8f02ed118baf565ff3ac984d2637d6436b4d0d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-steer-c.jpg",
+      "bytes": 9570,
+      "sha256": "6db553d29def2c7de9bdb965e268cdd9facac45ae6dd245b6602dbaf65823280",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-trailer_swing-a.jpg",
+      "bytes": 12500,
+      "sha256": "ad6a0d53b3978d71fe6633fadde5232b3f60fd66a2096725789f5a56c82246ae",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-trailer_swing-b.jpg",
+      "bytes": 10763,
+      "sha256": "e945f50dad234144070de42f9f09af5b841a4be4480a6e3b78867589185b1ad1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-trailer_swing-c.jpg",
+      "bytes": 8425,
+      "sha256": "bc099028d0e6c5dced1719f56aa28b4ef5c77dd5c5219483f3b4ba6e05e76ee9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-a.jpg",
+      "bytes": 12488,
+      "sha256": "50840586654890f8ed41dc00d3c7bf5bd38ec6527bcd309a35db26d647a771d9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-b.jpg",
+      "bytes": 10763,
+      "sha256": "9922438090e792647f43b21f870ab6318a08750b977b129b9247427e9eee788d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-c.jpg",
+      "bytes": 8425,
+      "sha256": "d91dd82d7480849ef5f1bd8ad3cb86236d690ed03475cea64600ad0a8ade3386",
+      "role": "previews"
     },
     {
       "path": "previews/bottom.jpg",
@@ -378,6 +444,12 @@
       "role": "previews"
     },
     {
+      "path": "provenance/animations.json",
+      "bytes": 1534,
+      "sha256": "52bbb410699f2ce331f56a17cbb37a56f22bf68d40bd781c0d74a46cd50329ed",
+      "role": "provenance"
+    },
+    {
       "path": "provenance/gltf-validator.json",
       "bytes": 9296,
       "sha256": "75ea9e166bc0881519c5211c480a7161b8d7873d66d8310d253dc086ebf76d0b",
@@ -455,5 +527,46 @@
       "sha256": "9b8e54643a0c4455a5dbaf2cafc0cedb6cac8fec06d7af9d6d6a7903e1816c67",
       "role": "textures"
     }
-  ]
+  ],
+  "authored_animations": [
+    {
+      "name": "wheel_roll",
+      "parts": [
+        "car-transporter_wheel_dl",
+        "car-transporter_wheel_dr",
+        "car-transporter_wheel_fl",
+        "car-transporter_wheel_fr",
+        "car-transporter_wheel_t1l",
+        "car-transporter_wheel_t1r",
+        "car-transporter_wheel_t2l",
+        "car-transporter_wheel_t2r"
+      ],
+      "axis": "X",
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    },
+    {
+      "name": "steer",
+      "parts": [
+        "car-transporter_wheel_fl",
+        "car-transporter_wheel_fr"
+      ],
+      "axis": "Z",
+      "degrees": 32.0,
+      "frames": 45,
+      "fps": 30
+    },
+    {
+      "name": "trailer_swing",
+      "parts": [
+        "car-transporter_trailer"
+      ],
+      "axis": "Z",
+      "degrees": 35.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/car-transporter-animated.glb"
 }

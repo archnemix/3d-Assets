@@ -129,6 +129,12 @@
       "role": "documentation"
     },
     {
+      "path": "logs/animations.log",
+      "bytes": 19095,
+      "sha256": "eec9cf2c1dca052803c65b29fcd383196f677fbebb567cc79e011ce44e73ed65",
+      "role": "logs"
+    },
+    {
       "path": "logs/blender.log",
       "bytes": 69500,
       "sha256": "b673c02cca724099c9ae1dccaaede56a4262159cd0ade457e0ca066530e68e24",
@@ -141,10 +147,34 @@
       "role": "logs"
     },
     {
+      "path": "model/kart-oobi-animated.glb",
+      "bytes": 187068,
+      "sha256": "94ae41eb3412fc942425123a60bcf109822c9dbef19f4db64d71f4bc99aa71fd",
+      "role": "model"
+    },
+    {
       "path": "model/kart-oobi.glb",
       "bytes": 263780,
       "sha256": "be713611f3422ccd980dcd82bf7ebd20e93ebab6645a845aa1e03285cbd8fb0c",
       "role": "model"
+    },
+    {
+      "path": "previews/anim-wheel_roll-a.jpg",
+      "bytes": 13939,
+      "sha256": "382ff869d8af57f36ffcf9fe963508696193807f6ff3bb5901037d4c2793582f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-b.jpg",
+      "bytes": 14019,
+      "sha256": "2c7136552f08bcc572e97ec6667f0c7d384a4ce47eb6eaf40403f3db0a587aba",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-c.jpg",
+      "bytes": 13943,
+      "sha256": "b7e7c080102a49ff38cf1ee7e0d00fe2bf617ec18db48d1d878596aef3a6ac88",
+      "role": "previews"
     },
     {
       "path": "previews/bottom.jpg",
@@ -237,6 +267,12 @@
       "role": "previews"
     },
     {
+      "path": "provenance/animations.json",
+      "bytes": 627,
+      "sha256": "51548567bcecb7226fae74dde616ee4a7b40de66dee1eecbec13f7a70707132c",
+      "role": "provenance"
+    },
+    {
       "path": "provenance/github-source.json",
       "bytes": 416,
       "sha256": "05bbbb3e2a345feacda576e377ed7523d009c8b3c917b26891cad12cf03fceaf",
@@ -260,5 +296,21 @@
       "sha256": "f3622a03a20c6696065cae9cbe391351be873508af190c2ebd1d420c055787a5",
       "role": "textures"
     }
-  ]
+  ],
+  "authored_animations": [
+    {
+      "name": "wheel_roll",
+      "parts": [
+        "wheel-back-left",
+        "wheel-back-right",
+        "wheel-front-left",
+        "wheel-front-right"
+      ],
+      "axis": "X",
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/kart-oobi-animated.glb"
 }

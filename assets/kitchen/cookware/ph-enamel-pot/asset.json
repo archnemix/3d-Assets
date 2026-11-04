@@ -189,6 +189,12 @@
       "role": "documentation"
     },
     {
+      "path": "logs/animations.log",
+      "bytes": 18494,
+      "sha256": "b4e0bc0aee8cf740eb1c785199ce009768fe94698daa8f905db1d01aaf9ff459",
+      "role": "logs"
+    },
+    {
       "path": "logs/blender.log",
       "bytes": 69862,
       "sha256": "7472b1e3d278123d14b329342f18345e294619deb7923dc39eac4278887ceb24",
@@ -204,6 +210,12 @@
       "path": "model/pot_enamel_01.bin",
       "bytes": 270448,
       "sha256": "134771c9f71269f791ad9e52910f25542e94b5e83adff1c9acc620c93d486d13",
+      "role": "model"
+    },
+    {
+      "path": "model/pot_enamel_01_2k-animated.glb",
+      "bytes": 5903532,
+      "sha256": "4b30bbaab6e78ff5085a88fdb2f4ab1b9d211e43eaa7c031561d5854068fdb6c",
       "role": "model"
     },
     {
@@ -229,6 +241,24 @@
       "bytes": 1902299,
       "sha256": "2210d30c882ab6f76d5013c91c47e437b8b17468104791a3fb06f9aa2c371e9c",
       "role": "model"
+    },
+    {
+      "path": "previews/anim-lid_open-a.jpg",
+      "bytes": 14254,
+      "sha256": "0b7d6527190e05fa6641abc42c28166d54dc2d309a4f7ddba52a363dc42390f6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-lid_open-b.jpg",
+      "bytes": 14453,
+      "sha256": "ef741d0d0cfc9a4ec0cc1e843dc380ea3265664fd29949d92d1972309718518d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-lid_open-c.jpg",
+      "bytes": 14573,
+      "sha256": "6da58426130ce4c3e6d483871f93789d332337499666571cc7e4a77086977abf",
+      "role": "previews"
     },
     {
       "path": "previews/bottom.jpg",
@@ -321,6 +351,12 @@
       "role": "previews"
     },
     {
+      "path": "provenance/animations.json",
+      "bytes": 550,
+      "sha256": "2bbbe183b739dd1aae1f8ef2f12086848fa3fc2fe35b3e3661591e9ce6d04549",
+      "role": "provenance"
+    },
+    {
       "path": "provenance/api-info.json",
       "bytes": 1219,
       "sha256": "fb1ec06fe4919089c19ccae7ad028a944b35430d4a2c99dd6185d4a53627523f",
@@ -344,5 +380,18 @@
       "sha256": "03b1e0e924cad6ea927c6bf5f5d18639824d10ffaea07cbb553cc7b4f7477ef8",
       "role": "documentation"
     }
-  ]
+  ],
+  "authored_animations": [
+    {
+      "name": "lid_open",
+      "parts": [
+        "pot_enamel_01_lid"
+      ],
+      "axis": "X",
+      "degrees": -105.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/pot_enamel_01_2k-animated.glb"
 }

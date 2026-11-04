@@ -190,6 +190,12 @@
       "role": "documentation"
     },
     {
+      "path": "logs/animations.log",
+      "bytes": 19032,
+      "sha256": "c3d4ea87d4ffc8f0cb1c6713f484a3c0041ad6177a5afb45277d006d3396af0a",
+      "role": "logs"
+    },
+    {
       "path": "logs/blender.log",
       "bytes": 70942,
       "sha256": "896ccf0e4d1fa6315c88fac2b3707580053d65343d1616d440e91461bc81906f",
@@ -205,6 +211,12 @@
       "path": "model/painted_wooden_cabinet_02.bin",
       "bytes": 39332,
       "sha256": "7acab853993b90cafc9c7550a7035397dfeb4bbda7f0dba8759d40a971c755ca",
+      "role": "model"
+    },
+    {
+      "path": "model/painted_wooden_cabinet_02_2k-animated.glb",
+      "bytes": 6177160,
+      "sha256": "929fc06095fa5df22129bcbc3a4b0a87a992fc629c51258fd7e4789119460387",
       "role": "model"
     },
     {
@@ -230,6 +242,24 @@
       "bytes": 2325419,
       "sha256": "90b057654befa0bc580f0ed60313d10820c2a794d8b7672dd2324bef4f89702f",
       "role": "model"
+    },
+    {
+      "path": "previews/anim-door_open-a.jpg",
+      "bytes": 9308,
+      "sha256": "7cefc4ee001cefde78517ced672b84cd4c2632f4ced31d84e48a2f472c0fc29d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-door_open-b.jpg",
+      "bytes": 9520,
+      "sha256": "93b273cfcba00a8b9595b2fd789efe4f579e071594e6bed89dc06d557adc9d13",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-door_open-c.jpg",
+      "bytes": 9569,
+      "sha256": "fa43b01cd2feca393a531908722646aa311290ecbd7bc30fbf963b5a03172f3c",
+      "role": "previews"
     },
     {
       "path": "previews/bottom.jpg",
@@ -322,6 +352,12 @@
       "role": "previews"
     },
     {
+      "path": "provenance/animations.json",
+      "bytes": 592,
+      "sha256": "738d589129b4d582258bde47bd5df3424ee3619c86ac7cb3bb15f69b599fed96",
+      "role": "provenance"
+    },
+    {
       "path": "provenance/api-info.json",
       "bytes": 1196,
       "sha256": "483c6d2c429021b91efac7ffa6ffa66942e0b321c2200f065b7a68a4aa22e1ca",
@@ -345,5 +381,18 @@
       "sha256": "c7b2e420bcbfda23420fa043cc75829ff72e2238bc467c799c23acef036975ad",
       "role": "documentation"
     }
-  ]
+  ],
+  "authored_animations": [
+    {
+      "name": "door_open",
+      "parts": [
+        "painted_wooden_cabinet_02_door"
+      ],
+      "axis": "Z",
+      "degrees": -100.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/painted_wooden_cabinet_02_2k-animated.glb"
 }

@@ -190,6 +190,12 @@
       "role": "documentation"
     },
     {
+      "path": "logs/animations.log",
+      "bytes": 24341,
+      "sha256": "b74c5b290221964fb43126c09a125390f2550b2ef79ced32bec51aff2c81ade8",
+      "role": "logs"
+    },
+    {
       "path": "logs/blender.log",
       "bytes": 86609,
       "sha256": "b113cbfe8badb5e78be7030a2ff292ad5ee0758ade956beabf786ebe0bc2b74c",
@@ -205,6 +211,12 @@
       "path": "model/drill_press_01.bin",
       "bytes": 1911136,
       "sha256": "3c786cf21c206d1edb7df970067421fa692bbc1a941b279cd21605c33057f9ad",
+      "role": "model"
+    },
+    {
+      "path": "model/drill_press_01_2k-animated.glb",
+      "bytes": 9651588,
+      "sha256": "d8f650d1a688b3d7174eca78b6a7907bf67cd3ff92421ce39b850e4080b7ce7f",
       "role": "model"
     },
     {
@@ -230,6 +242,24 @@
       "bytes": 2585573,
       "sha256": "d0afa4be93caba253defcea91b11885f7616316df02f229030df946baa8e0036",
       "role": "model"
+    },
+    {
+      "path": "previews/anim-lid_open-a.jpg",
+      "bytes": 9768,
+      "sha256": "f1376255e09e4e999e15e70c6d6e868a09b2adc882bbf8aa0cb6c961c49526e6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-lid_open-b.jpg",
+      "bytes": 9874,
+      "sha256": "955a9f2bb7cb9faa64220c790330cd1e9b1a93c3c6ccb356a6fa12060d25839d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-lid_open-c.jpg",
+      "bytes": 9631,
+      "sha256": "0c49a4e35274e3ed1ea616c98cd3c116af245abb144d3c4a4c8e4292c2cf2ed0",
+      "role": "previews"
     },
     {
       "path": "previews/bottom.jpg",
@@ -322,6 +352,12 @@
       "role": "previews"
     },
     {
+      "path": "provenance/animations.json",
+      "bytes": 553,
+      "sha256": "50a990470cee20c81b0d64ab773b31db437565c1bede874a3b0a3d749fd4be9f",
+      "role": "provenance"
+    },
+    {
       "path": "provenance/api-info.json",
       "bytes": 1267,
       "sha256": "328b481435ade36b5746f7143567a4501ec8523bfa6177d837d062da075954d8",
@@ -345,5 +381,18 @@
       "sha256": "bab46214a6bf2ec732a0327e0d8a4992e554b1b4a224832e1692cb60b165b26e",
       "role": "documentation"
     }
-  ]
+  ],
+  "authored_animations": [
+    {
+      "name": "lid_open",
+      "parts": [
+        "drill_press_01_lid"
+      ],
+      "axis": "X",
+      "degrees": -105.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/drill_press_01_2k-animated.glb"
 }

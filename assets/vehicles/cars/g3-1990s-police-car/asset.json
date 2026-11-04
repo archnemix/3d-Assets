@@ -214,6 +214,12 @@
       "role": "documentation"
     },
     {
+      "path": "logs/animations.log",
+      "bytes": 41181,
+      "sha256": "eb453fa0f2d73ec841f702fb317e7ced5f2c720696e727d2506a42d4663a4579",
+      "role": "logs"
+    },
+    {
       "path": "logs/blender.log",
       "bytes": 79129,
       "sha256": "002331431937deb9f959b0acf1c08c69ebc5371b1febd369d8ce47d0a7031021",
@@ -226,10 +232,52 @@
       "role": "logs"
     },
     {
+      "path": "model/1990s-police-car-animated.glb",
+      "bytes": 1237456,
+      "sha256": "803c67266f976807a681baf3db6ca1ad6966ab3a06935592feb3f267bf77e321",
+      "role": "model"
+    },
+    {
       "path": "model/1990s-police-car.glb",
       "bytes": 1228820,
       "sha256": "3b32c1c4e6413b9a6c938240dc7b51b83f72d60afac00607f2df3268ad131a72",
       "role": "model"
+    },
+    {
+      "path": "previews/anim-steer-a.jpg",
+      "bytes": 9722,
+      "sha256": "1f857bb04392c1281e3ec20d969a2f1bbf821e494652770a7da1931aa907f5ec",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-steer-b.jpg",
+      "bytes": 9616,
+      "sha256": "0cca0e52be4326e7a5c4e2d75d193dfe9a35d5a9d4b2ec3267fdeb89fbba10a5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-steer-c.jpg",
+      "bytes": 9527,
+      "sha256": "351c153165010407a6149262ba8e832f288764c7e1f30d4480d56be30c677a0d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-a.jpg",
+      "bytes": 9722,
+      "sha256": "7d2a0bb0a913967234ac9af1e743c4a55f8106ce9bb61c08471ef575adb6c8a4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-b.jpg",
+      "bytes": 9592,
+      "sha256": "671c60fe7383696190075e94b444d2b90f46fa59015851b0084190819e0036a8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-c.jpg",
+      "bytes": 9534,
+      "sha256": "a09ec3ad294d742e817ccca43ddad837a3483f776fc87f885c045fb76d3f0bcc",
+      "role": "previews"
     },
     {
       "path": "previews/bottom.jpg",
@@ -322,6 +370,12 @@
       "role": "previews"
     },
     {
+      "path": "provenance/animations.json",
+      "bytes": 1035,
+      "sha256": "873ce274e4cca1ef1787e4f3f4160be6b0f371a6dc8e450e0b21333eea504285",
+      "role": "provenance"
+    },
+    {
       "path": "provenance/gltf-validator.json",
       "bytes": 6928,
       "sha256": "064767993d6f8ebb1441687622570661455b87e248bad6c9147b838cf6c0232d",
@@ -381,5 +435,32 @@
       "sha256": "1ac12a81a5ccc3fb6b78601a0b9665ecb4251b6a18602b230f6c025b54cd930c",
       "role": "textures"
     }
-  ]
+  ],
+  "authored_animations": [
+    {
+      "name": "wheel_roll",
+      "parts": [
+        "1990s-police-car_wheel_fl",
+        "1990s-police-car_wheel_fr",
+        "1990s-police-car_wheel_rl",
+        "1990s-police-car_wheel_rr"
+      ],
+      "axis": "X",
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    },
+    {
+      "name": "steer",
+      "parts": [
+        "1990s-police-car_wheel_fl",
+        "1990s-police-car_wheel_fr"
+      ],
+      "axis": "Z",
+      "degrees": 32.0,
+      "frames": 45,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/1990s-police-car-animated.glb"
 }

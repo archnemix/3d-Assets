@@ -1,0 +1,71 @@
+{
+  "source_model": "car-transporter.glb",
+  "authored": [
+    {
+      "name": "wheel_roll",
+      "parts": [
+        "car-transporter_wheel_dl",
+        "car-transporter_wheel_dr",
+        "car-transporter_wheel_fl",
+        "car-transporter_wheel_fr",
+        "car-transporter_wheel_t1l",
+        "car-transporter_wheel_t1r",
+        "car-transporter_wheel_t2l",
+        "car-transporter_wheel_t2r"
+      ],
+      "axis": "X",
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    },
+    {
+      "name": "steer",
+      "parts": [
+        "car-transporter_wheel_fl",
+        "car-transporter_wheel_fr"
+      ],
+      "axis": "Z",
+      "degrees": 32.0,
+      "frames": 45,
+      "fps": 30
+    },
+    {
+      "name": "trailer_swing",
+      "parts": [
+        "car-transporter_trailer"
+      ],
+      "axis": "Z",
+      "degrees": 35.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "verification": [
+    {
+      "clip": "wheel_roll",
+      "frames": [
+        "anim-wheel_roll-a.jpg",
+        "anim-wheel_roll-b.jpg",
+        "anim-wheel_roll-c.jpg"
+      ]
+    },
+    {
+      "clip": "steer",
+      "frames": [
+        "anim-steer-a.jpg",
+        "anim-steer-b.jpg",
+        "anim-steer-c.jpg"
+      ]
+    },
+    {
+      "clip": "trailer_swing",
+      "frames": [
+        "anim-trailer_swing-a.jpg",
+        "anim-trailer_swing-b.jpg",
+        "anim-trailer_swing-c.jpg"
+      ]
+    }
+  ],
+  "note": "Clips authored by this library, not upstream. Dedicated to CC0.",
+  "animated_model": "car-transporter-animated.glb"
+}
