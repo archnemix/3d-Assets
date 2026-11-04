@@ -4,7 +4,9 @@ A curated library of free, public-domain 3D assets for games, renders and protot
 
 ## Current status
 
-The initial library is being acquired and visually reviewed. **Only entries in `manifest.json` are approved.** Files under `quarantine/` are review candidates, not recommendations. An empty or absent catalog means the review is still in progress.
+The library currently contains **28 approved CC0 assets** saved as real files under `assets/`, organized by category and subject. **Only entries in `manifest.json` are approved.** Files under `quarantine/` are review candidates, not recommendations.
+
+Approved subjects include humans, chairs, sofas, tables, potted plants, fruit, snacks, vehicles, toys, industrial containers and retail props. Realistic MakeHuman human candidates are generated through the same quarantine/review pipeline and are only added after they pass inspection and visual review.
 
 ## Find and use an asset
 

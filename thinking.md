@@ -40,3 +40,25 @@ Run 41652664807 acquired and rendered all 16 GitHub-hosted candidates, but none 
 Two fixes followed. The license check now reads an immutable revision of Poly Haven's official API terms, which explicitly distinguish CC0 assets from API service conditions. The validator invocation now matches our small Node wrapper's two-argument contract; obsolete flags from a different CLI were removed. A regression test invokes the real validator and checks the report file, not just mocked success.
 
 The failed candidates remain unapproved. Their payloads will be replaced by a clean rerun; the original run and reports remain available in Git history. This is precisely why CI outputs are committed: the failure was diagnosable without artifact-browser access.
+
+## 2026-11-04 — Framing fix and visual promotion
+
+**Observation.** The first corrected contact sheets were still framed poorly: hidden helpers and non-visible objects inflated bounds, making assets appear tiny or off-center.
+
+**Resolution.** Inspection now computes bounds from visible evaluated mesh vertices, recenters the subject, and applies a consistent margin. The refreshed sheets made actual all-angle review possible.
+
+**Result.** After reviewing the refreshed sheets, 25 foundation candidates were approved and promoted into `assets/`. One candidate, the Kenney “teddy bear,” was rejected because it is flat-backed wall decor rather than a plush toy. The expansion batch then added a rubber duck toy, oak side table and KayKit table, bringing the approved library to 28 assets before the realistic-human retry.
+
+**Trade-off.** Minor upstream zero-area triangles and informational validator warnings were accepted only where the visual result remained clean and the limitation was recorded. The gate still requires zero validator errors and explicit scores.
+
+## MakeHuman realism — tool license is not asset license
+
+**Observation.** The user explicitly wanted realistic human characters, not only stylized game characters. MakeHuman’s official system pack provides CC0 base mesh, clothes and textures, but the GitHub source tree alone does not contain the full asset collection.
+
+**Decision.** Pin the official CC0 system archive by SHA-256 and use MPFB2 as a build tool. Preserve recipe descriptors, pack evidence, build logs and a build report. The exported candidate remains subject to the same quarantine and visual-review gates.
+
+**Failure.** The first CI build failed because MPFB 2.0.18 expects Blender 4.2 extension package naming. Importing it as plain `mpfb` caused `bpy.utils.extension_path_user("mpfb")` to reject the package name.
+
+**Resolution.** Load the pinned MPFB source as `bl_ext.user_default.mpfb`, create the extension user directory, then register it. This keeps the fix inside the build script and avoids modifying the upstream tool.
+
+**Next gate.** Generated humans must render cleanly from all angles, pass the validator, and receive explicit visual approval before they are saved into `assets/characters/humans/`.
