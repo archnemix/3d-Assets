@@ -1,0 +1,318 @@
+{
+  "schema_version": 1,
+  "id": "ph-painted-cabinet",
+  "title": "Weathered painted farmhouse cabinet",
+  "category": "furniture/storage",
+  "style": "realistic",
+  "tags": [
+    "furniture",
+    "cabinet",
+    "storage",
+    "wood",
+    "farmhouse",
+    "worn",
+    "pbr"
+  ],
+  "batch": "expansion-07",
+  "acquired_at": "2026-11-04T16:48:37.926058+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/painted_wooden_cabinet_2k.gltf",
+    "creator": "Kirill Sannikov",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/painted_wooden_cabinet",
+    "source_id": "painted_wooden_cabinet",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/painted_wooden_cabinet/painted_wooden_cabinet_2k.gltf",
+        "bytes": 9253,
+        "sha256": "0f2153a2a10fc78a8670a3f11027155b09ee0a11e1ba2a25f616e440b95ad56b"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/painted_wooden_cabinet/painted_wooden_cabinet_nor_gl_2k.jpg",
+        "bytes": 1864160,
+        "sha256": "7ca37c5a81684c53181bc6d523ac7dfe983d737787bcda379517d14c8105c2be"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/painted_wooden_cabinet/painted_wooden_cabinet_diff_2k.jpg",
+        "bytes": 2638553,
+        "sha256": "295ae8c562e3a75379558a4620ef4c06c67385db7a863e6a0b35a2ca73ee1a59"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/painted_wooden_cabinet/painted_wooden_cabinet.bin",
+        "bytes": 78072,
+        "sha256": "1023d773d84c42f2709ec297247d90b0e2833e37241fbe852e2f33b41ae10cda"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/painted_wooden_cabinet/painted_wooden_cabinet_arm_2k.jpg",
+        "bytes": 2228994,
+        "sha256": "4dedb866c4a86d0c32fde3f77736e74440b0f95a90128d0526ea5bad61b1519d"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/painted_wooden_cabinet_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 5,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/painted_wooden_cabinet_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "painted_wooden_cabinet_nor_gl"
+    },
+    {
+      "path": "model/textures/painted_wooden_cabinet_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "painted_wooden_cabinet_diff"
+    },
+    {
+      "path": "model/textures/painted_wooden_cabinet_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "painted_wooden_cabinet_metal-painted_wooden_cabinet_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 5,
+    "hidden_mesh_objects": 0,
+    "vertices": 2022,
+    "triangles": 2227,
+    "material_slots": 5,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "painted_wooden_cabinet_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-painted-cabinet/model/textures/painted_wooden_cabinet_diff_2k.jpg"
+      },
+      {
+        "name": "painted_wooden_cabinet_metal-painted_wooden_cabinet_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-painted-cabinet/model/textures/painted_wooden_cabinet_arm_2k.jpg"
+      },
+      {
+        "name": "painted_wooden_cabinet_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-painted-cabinet/model/textures/painted_wooden_cabinet_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 5,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 74196,
+      "sha256": "3fd4df78649579b69c0f737bf7c67e335d7e3eaa69f585135a4143f5b0d8e882",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "4a1ac31e02299efa77ae3b810565b7859ed55e6bb96e9664c8420d2f29890ce8",
+      "role": "logs"
+    },
+    {
+      "path": "model/painted_wooden_cabinet.bin",
+      "bytes": 78072,
+      "sha256": "1023d773d84c42f2709ec297247d90b0e2833e37241fbe852e2f33b41ae10cda",
+      "role": "model"
+    },
+    {
+      "path": "model/painted_wooden_cabinet_2k.gltf",
+      "bytes": 9253,
+      "sha256": "0f2153a2a10fc78a8670a3f11027155b09ee0a11e1ba2a25f616e440b95ad56b",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/painted_wooden_cabinet_arm_2k.jpg",
+      "bytes": 2228994,
+      "sha256": "4dedb866c4a86d0c32fde3f77736e74440b0f95a90128d0526ea5bad61b1519d",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/painted_wooden_cabinet_diff_2k.jpg",
+      "bytes": 2638553,
+      "sha256": "295ae8c562e3a75379558a4620ef4c06c67385db7a863e6a0b35a2ca73ee1a59",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/painted_wooden_cabinet_nor_gl_2k.jpg",
+      "bytes": 1864160,
+      "sha256": "7ca37c5a81684c53181bc6d523ac7dfe983d737787bcda379517d14c8105c2be",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 22139,
+      "sha256": "8ef06fcd236075493b8a0bd4d3adfc6b0828306f7b0e744f8384eb074b56fd3e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 22476,
+      "sha256": "53823f2d5733677dfbca798b4c35583bb9b42b71907921de9bf62d095456841e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 275068,
+      "sha256": "e728723668409ba60d8b97f1714551f193e2a387166cebc4da177dd5ce5dc38c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1229,
+      "sha256": "898a9c7f32cdb4d50266f243d64f8040ce021a4f60a254d60957257e6aaaf3ab",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 50991,
+      "sha256": "1134784baefa8bb24d96c0095da7226009ac75b08f54a9d50c7209b74b437a1d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 42999,
+      "sha256": "fad888733251fa6304e38561aff1e09836c3cbe190f1d23be32f2ae27a88fde5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 24506,
+      "sha256": "e305e83ce8fcce44e82809d8e815c7bd83e757eb3ef7df661715bce94dcaa3c7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 42946,
+      "sha256": "5bdfed8902ffe28bc01a398da934250e3f4b5a3990f26e336c1566f56e64b911",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 57800,
+      "sha256": "0acf47553ddd594f06259ec71c91bf8add038e83346ca1a7732b0d37a696d71d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 43785,
+      "sha256": "3fbb72d8ddd8df664fc2de2a1fcadcfde7faebd67edec9b51b0ee8c1491bf27f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 24219,
+      "sha256": "5b1d8bc84567abfa05a3e21d74e23c394ba5630424dcaeb1dd658460891dbc82",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 44228,
+      "sha256": "e53d636f126239f16d5fa8a2b609d842edd219d04d3e069c2e2395d72486a7d3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 37482,
+      "sha256": "ea04678766b40c0a80e849e474d6cb10e78d644734fc2248ac5b608f8c786c13",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 36777,
+      "sha256": "843ea399afed98b85a0ea663a9093c760125b0c0193db9a77b5637bbbd6e046b",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1291,
+      "sha256": "ccb650255bb6b5c10710e0246f4bf1332fa5b42e61b6ffee6d3229a0806a07bb",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3479,
+      "sha256": "6f7d63af900bdcf97157a36638021de73c3754942132cf0ea0e6c519852c62ba",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1216,
+      "sha256": "935d39bbf20cae640a583dbf4abd5cf8a6fe37daa617c47549c2e9f5f8e9ef64",
+      "role": "provenance"
+    }
+  ]
+}
