@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "id": "grab3d-man-base-character",
+  "title": "Realistic adult male base character, rigged",
+  "category": "characters/humans",
+  "style": "realistic",
+  "tags": [
+    "human",
+    "male",
+    "adult",
+    "rigged",
+    "base-mesh",
+    "a-pose",
+    "walk",
+    "run",
+    "pbr",
+    "ai-assisted"
+  ],
+  "batch": "expansion-06",
+  "acquired_at": "2026-11-04T14:55:17.878274+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/man-base-character-rigged.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/man-base-character-rigged/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/characters/man-base-character/",
+    "source_id": "man-base-character-rigged",
+    "revision": "e4ca6debfc35459f7c479b72d3bcc9a37c4c68792b27bafd26110974a23d5086",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/man-base-character-rigged/man-base-character-rigged.glb",
+        "bytes": 11354468,
+        "sha256": "3038f56e1225d0ef9692189ed19ff688f1424e669281148a4cc6995fed568496"
+      }
+    ],
+    "repairs": [
+      {
+        "repair": "normalize-skin-weights",
+        "checked_vertices": 143901,
+        "normalized_vertices": 17242,
+        "max_sum_delta": 0.00017595291137695312,
+        "accessors": [
+          4
+        ],
+        "original_sha256": "3038f56e1225d0ef9692189ed19ff688f1424e669281148a4cc6995fed568496",
+        "repaired_sha256": "e4ca6debfc35459f7c479b72d3bcc9a37c4c68792b27bafd26110974a23d5086"
+      }
+    ],
+    "origin": {
+      "method": "ai-assisted",
+      "detail": "Base mesh and textures generated with an AI image-to-3D tool (Meshy), then cleaned up, scaled, textured and checked in Blender. Skeleton, skinning and the walk and run clips were added automatically with Meshy Auto-Rig.",
+      "ai_content": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/man-base-character-rigged/LICENSE.txt"
+  },
+  "model": "model/man-base-character-rigged.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 1,
+    "animations": [
+      "run",
+      "walk"
+    ],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/rig_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "rig_normal"
+    },
+    {
+      "path": "textures/rig_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "rig_basecolor"
+    },
+    {
+      "path": "textures/rig_metallic-rig_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "rig_metallic-rig_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 1,
+    "vertices": 143901,
+    "triangles": 262348,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [
+      {
+        "name": "Armature",
+        "bones": 24
+      }
+    ],
+    "actions": [
+      "run_Armature",
+      "walk_Armature"
+    ],
+    "images": [
+      {
+        "name": "rig_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "rig_metallic-rig_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "rig_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 758,
+      "sha256": "66eda0cadb138a0b94a4c7b850ee0e074b537d66368cd41cd312ba8f23d65347",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67924,
+      "sha256": "67e4935c6127379744a5ea4b44de5ffa0e0d5478e18a5e1a606856893608785d",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "2a9a229f8bb2ed821581e94782406b1f4a42c4f9a9e024e1cc719a6265cfa1b4",
+      "role": "logs"
+    },
+    {
+      "path": "model/man-base-character-rigged.glb",
+      "bytes": 11354468,
+      "sha256": "e4ca6debfc35459f7c479b72d3bcc9a37c4c68792b27bafd26110974a23d5086",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 21369,
+      "sha256": "68e99a5f6e99e9efffbae3240be099d32f9859a9c7b7d4d959c210192742186e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 17660,
+      "sha256": "97a13d1f64ae48904deab4f7d7e8583ea08a0dc7cf8fcad6a652c459f64b0ea7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 163277,
+      "sha256": "54649f640d51f6592ed489d8937158e5a5813751eb6b9559958b91c714c681e3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 880,
+      "sha256": "9aca7ea5a7a77869a9857a15ddfc1d70daf398000e5009b3f42a786f66363394",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 21074,
+      "sha256": "097b59e807f283090c5b3b29735a4f70ac495579af3c95068c716858773b38b4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 20175,
+      "sha256": "1bbc63619409377bb444ec78d26cc4da6f454af122a9b117730c070a795f1fc2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 15884,
+      "sha256": "ab6e558da0a76b8d7406bdc79572d28e5704b3dc72fe02f2a21b5af40db56bb4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 20255,
+      "sha256": "a3daa17eda6ba404bfc11a72af218c483c1a981797e00dba6eaaa2d87b94eb94",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 20737,
+      "sha256": "f61aa53665f2c5265cdfcb5d356df78ea6543b01ded56ed72ba065c97e206a3e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 20358,
+      "sha256": "f415395d05a3d7293983491ec69e73183d56c33dd4662f36b55e904ba1586459",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 16549,
+      "sha256": "769fd0d02d342b0417ad0cd3c6eb705b24a3baab020de1da910a68fbec8462c2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 20776,
+      "sha256": "b1428f6778462a41d89b1026c0998472070e90871f4c5c6a6dcd09a801e31db0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 18528,
+      "sha256": "858a08522d93b70db6004f93259665f4f20a4939b239aca9cac9c5baf4a2ac7b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 37120,
+      "sha256": "c580a64dcde93c426b101057845b2f850cc3687c6c68a6c9387650ee57265128",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2166,
+      "sha256": "1397698679ca57a69bb49703ce66fbfe7cfad9b79a46c873612006c3ff5a4eb6",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1125,
+      "sha256": "3937c57ac46038c8446372e1203fd374501f33dad14b325d1621936648ab1178",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 592,
+      "sha256": "5956fee77b8d222ce2524853dc4487d7e61bfc7e70e5a75f047da6d5955720f8",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 352,
+      "sha256": "3c5f6b06109d5bff5e16ec94a3b18e88614deb2734e23df2898d37350bd09694",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/rig_basecolor.jpg",
+      "bytes": 364953,
+      "sha256": "e80959ffed491749311b3f3040ab17803215a1961ff9baaf669151e81fc4ea5c",
+      "role": "textures"
+    },
+    {
+      "path": "textures/rig_metallic-rig_roughness.jpg",
+      "bytes": 210756,
+      "sha256": "0f65055204dd52f17417a3d8a1a851d360b36ebc74634a81e0e9e13d071a1b52",
+      "role": "textures"
+    },
+    {
+      "path": "textures/rig_normal.jpg",
+      "bytes": 94071,
+      "sha256": "945bbbaad7bbfa23c819c3576a2501feb4e54a784ecc7526c16167d599139854",
+      "role": "textures"
+    }
+  ]
+}
