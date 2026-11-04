@@ -1,0 +1,328 @@
+{
+  "schema_version": 1,
+  "id": "ph-electric-stove",
+  "title": "Compact electric stove",
+  "category": "electronics/appliances",
+  "style": "realistic",
+  "tags": [
+    "appliance",
+    "stove",
+    "oven",
+    "kitchen",
+    "hotplate",
+    "rigged",
+    "pbr"
+  ],
+  "batch": "expansion-08",
+  "acquired_at": "2026-11-04T17:14:34.249790+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/electric_stove_2k.gltf",
+    "creator": "Kuutti Siitonen",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/electric_stove",
+    "source_id": "electric_stove",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/electric_stove/electric_stove_2k.gltf",
+        "bytes": 31234,
+        "sha256": "ce90e97647bda28d76e5417585ff9f16f8b20b475cf5efc1e1e1e1683b2bc667"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/electric_stove/electric_stove_nor_gl_2k.jpg",
+        "bytes": 1617459,
+        "sha256": "85acd8f883770e47c63a050f4fbc99af1dc6f6e60625a36aeef18d09b7e663ff"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/electric_stove/electric_stove_diff_2k.jpg",
+        "bytes": 1614960,
+        "sha256": "d614a4e88934e0cfa641b02f855d67141341412ff98791e94d549d8d26aacc37"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/electric_stove/electric_stove_arm_2k.jpg",
+        "bytes": 2440092,
+        "sha256": "2a8ce052532dece1beb41d00a06bc2a726d6cdd2d575c8b617c1b0d7da044d28"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/electric_stove/electric_stove.bin",
+        "bytes": 462956,
+        "sha256": "66f210539346b8f339b7519664ad6fa9b74d0932d8445b6b7e40eabcb40cd4f9"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/electric_stove_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 19,
+    "materials": 2,
+    "images": 4,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/electric_stove_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "electric_stove_nor_gl"
+    },
+    {
+      "path": "model/textures/electric_stove_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "electric_stove_diff"
+    },
+    {
+      "path": "model/textures/electric_stove_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "electric_stove_metal-electric_stove_rough"
+    },
+    {
+      "path": "model/textures/electric_stove_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "electric_stove_diff-electric_stove_opacity"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 19,
+    "hidden_mesh_objects": 0,
+    "vertices": 11989,
+    "triangles": 13914,
+    "material_slots": 20,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "electric_stove_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-electric-stove/model/textures/electric_stove_diff_2k.jpg"
+      },
+      {
+        "name": "electric_stove_metal-electric_stove_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-electric-stove/model/textures/electric_stove_arm_2k.jpg"
+      },
+      {
+        "name": "electric_stove_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-electric-stove/model/textures/electric_stove_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 20,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 95403,
+      "sha256": "e9b3f8a6dfece32859493e71333d18f2f271a6526b340acaa43b3030630de89f",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "aaa2cbf4cc086808aa3c0b08ce22c1e14c351ead82d28729390261ce4b2c06c1",
+      "role": "logs"
+    },
+    {
+      "path": "model/electric_stove.bin",
+      "bytes": 462956,
+      "sha256": "66f210539346b8f339b7519664ad6fa9b74d0932d8445b6b7e40eabcb40cd4f9",
+      "role": "model"
+    },
+    {
+      "path": "model/electric_stove_2k.gltf",
+      "bytes": 31234,
+      "sha256": "ce90e97647bda28d76e5417585ff9f16f8b20b475cf5efc1e1e1e1683b2bc667",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/electric_stove_arm_2k.jpg",
+      "bytes": 2440092,
+      "sha256": "2a8ce052532dece1beb41d00a06bc2a726d6cdd2d575c8b617c1b0d7da044d28",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/electric_stove_diff_2k.jpg",
+      "bytes": 1614960,
+      "sha256": "d614a4e88934e0cfa641b02f855d67141341412ff98791e94d549d8d26aacc37",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/electric_stove_nor_gl_2k.jpg",
+      "bytes": 1617459,
+      "sha256": "85acd8f883770e47c63a050f4fbc99af1dc6f6e60625a36aeef18d09b7e663ff",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 38609,
+      "sha256": "af0aac66ec1c02fd2a2d71151087675e1791b37868bd23e0c6fe05bbbfddfa2b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 21635,
+      "sha256": "9a643f05e66146b801624943b6d1a7f6a3f0a3cf5f6e31562639a6273c2449b3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 212718,
+      "sha256": "c399eaa86ab832686bcc8b001166b0e0622a5c77d91cf9785d49c1cf6ff723de",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1174,
+      "sha256": "f529e451228e8e40ff7af32c273fc42843638dea5e0794e6e26bebf16ab767da",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 25389,
+      "sha256": "6f901c8fbba50ed2e8dea57940947b03c46fb6cb40e8e63a9412665c022e116d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 27818,
+      "sha256": "6b35ef98f65ff5d44fc2f8aaa9febfb8a3ab12155d156d56377f80d191e08838",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 18726,
+      "sha256": "389f089a1f4a663cfe59b7f6fb54b1a835f8e2ab3027b01777465aaed0367a3f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 26795,
+      "sha256": "1583e43f2eed399ff76c3c8c8ab0d883586f517fcf951e1005ecde60f885ab43",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 26455,
+      "sha256": "439b8131ded60c1c9b060b63823eee0b206c6f4da110f019ec615b8486136964",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 27954,
+      "sha256": "0dfe233667a076e148b1d82fa9636273ceffb767cff7c0d4f6d98be2aad4c875",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 19744,
+      "sha256": "e91dd84b6b94635f6ee53f55530e2897be6ec3400a0193b91e1387c49ddea676",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 28501,
+      "sha256": "45de1bfb891d3f18fe6684ab4c670068292a3153b0887143d3820725ccd197f9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 29639,
+      "sha256": "2a13eb7670586344f91bf701bfae67bc9ec2c8117ce6ee483d46fdc156b1c6d9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 41594,
+      "sha256": "eedf3514a9b53e43cb213a63754743b339e129db27b4c766d45f8f959395f3bd",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1401,
+      "sha256": "6f4ffbe29a45047345f84d6c12f81e773b283e128d15ef39730729ac000fc403",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 8653,
+      "sha256": "bad17ac1666eed9bda3c8013d94f23fe7911f61352cdca2217181afeb5eef96d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1106,
+      "sha256": "2377f26c9f04f96e2032a07e9a1676a7d6a91c2b70daa0b1521b9f8cc6aaa50c",
+      "role": "provenance"
+    }
+  ]
+}
