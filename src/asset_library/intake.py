@@ -66,7 +66,12 @@ def candidate(candidate: dict, batch: str) -> dict:
 
 
 def run_shard(batch: str, candidates: list[dict], shard: int) -> int:
-    results = [candidate(item, batch) for item in candidates]
+    results = []
+    for item in candidates:
+        print(f"[shard {shard}] inspecting {item['id']}", flush=True)
+        result = candidate(item, batch)
+        print(f"[shard {shard}] {result['status']}: {item['id']}", flush=True)
+        results.append(result)
     report = {
         "batch": batch,
         "shard": shard,

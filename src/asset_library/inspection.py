@@ -6,10 +6,22 @@ import shutil
 import subprocess
 from pathlib import Path
 
-from .config import ROOT
+from .config import ROOT, read_json
 from .contact_sheet import build
 from .files import inventory, write_checksums, write_json
 from .gltf import extract_textures, validate_local
+
+
+def validate_inventory(directory: Path, manifest: dict) -> None:
+    actual = {item["path"]: item for item in inventory(directory)}
+    expected = {item["path"]: item for item in manifest["files"]}
+    if actual != expected:
+        changed = sorted(
+            path for path in actual.keys() & expected.keys() if actual[path] != expected[path]
+        )
+        missing = sorted(expected.keys() - actual.keys())
+        added = sorted(actual.keys() - expected.keys())
+        raise ValueError(f"Inventory mismatch: changed={changed}, missing={missing}, added={added}")
 
 
 def run(command: list[str], log: Path, timeout: int = 900) -> None:
@@ -78,4 +90,21 @@ def inspect(directory: Path, candidate: dict, manifest: dict) -> dict:
     manifest["files"] = inventory(directory)
     write_checksums(directory, manifest["files"])
     write_json(directory / "asset.json", manifest)
+    return manifest
+
+
+def reinspect(directory: Path) -> dict:
+    """Replace stale renders and clear earlier approvals of those renders."""
+    manifest = read_json(directory / "asset.json")
+    status = manifest["review"]["status"]
+    if status not in {"awaiting-visual-review", "intake-failed"}:
+        raise ValueError("Only quarantine candidates can be reinspected")
+    if status == "awaiting-visual-review":
+        validate_inventory(directory, manifest)
+    print(f"Reinspecting {manifest['id']}", flush=True)
+    inspect(directory, {"title": manifest["title"]}, manifest)
+    manifest["review"] = {"status": "awaiting-visual-review", "approved": False}
+    manifest.pop("error", None)
+    write_json(directory / "asset.json", manifest)
+    print(f"awaiting-visual-review: {manifest['id']}", flush=True)
     return manifest

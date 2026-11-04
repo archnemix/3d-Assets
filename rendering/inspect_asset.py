@@ -12,7 +12,15 @@ import bpy
 
 sys.path.insert(0, str(Path(__file__).parent))
 from metrics import collect  # noqa: E402
-from scene import add_studio_lights, bounds, camera_view, import_model, reset_scene  # noqa: E402
+from scene import (  # noqa: E402
+    add_studio_lights,
+    bounds,
+    camera_view,
+    fit_camera,
+    import_model,
+    reset_scene,
+    world_points,
+)
 
 
 def neutral_material(name: str, color: tuple) -> bpy.types.Material:
@@ -50,6 +58,7 @@ def main(model: str, output: str) -> None:
     objects = import_model(model)
     low, high, radius = bounds(objects)
     center = (low + high) / 2
+    points = world_points(objects)
     add_studio_lights(center, radius)
     collect(str(directory / "geometry.json"))
     views = [(f"orbit-{index:02d}", index * 45, 18) for index in range(8)]
@@ -59,10 +68,12 @@ def main(model: str, output: str) -> None:
             neutral_material("Clay inspection", (0.55, 0.6, 0.65, 1)) if name == "clay" else None
         )
         camera_view(name, center, radius, azimuth, elevation)
+        fit_camera(bpy.context.scene.camera, points)
         bpy.context.scene.render.filepath = str(directory / f"{name}.jpg")
         bpy.ops.render.render(write_still=True)
     bpy.context.view_layer.material_override = wire_material()
     camera_view("wireframe", center, radius, 35, 18)
+    fit_camera(bpy.context.scene.camera, points)
     bpy.context.scene.render.filepath = str(directory / "wireframe.jpg")
     bpy.ops.render.render(write_still=True)
     bpy.context.view_layer.material_override = None

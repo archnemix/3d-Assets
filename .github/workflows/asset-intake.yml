@@ -10,12 +10,11 @@ permissions:
   contents: write
 
 concurrency:
-  group: asset-intake-${{ github.ref }}
+  group: asset-pipeline-${{ github.ref }}
   cancel-in-progress: false
 
 env:
-  BLENDER_VERSION: 4.2.9
-  BLENDER_SHA256: dfbc127a7d28f9c2175b23bf9d6701b2855f31eedfb391f9a6e60adb24572846
+  PYTHONUNBUFFERED: '1'
   PYTHONPATH: src
 
 jobs:
@@ -31,9 +30,16 @@ jobs:
         with:
           python-version: '3.11'
           cache: pip
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+          cache: npm
       - run: pip install -r requirements.txt
-      - run: ruff check src tests rendering
+      - run: npm ci --ignore-scripts
+      - run: ruff check src tests rendering scripts
       - run: pytest
+      - run: npm run test:gallery
+      - run: npm run check:web
       - id: plan
         run: |
           python -m asset_library plan automation/request.json
@@ -65,21 +71,7 @@ jobs:
           npm ci --ignore-scripts
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends libxi6 libxrender1 libxxf86vm1 libxfixes3 libxkbcommon0 libsm6 libgl1
-      - name: Restore verified Blender archive
-        id: blender-cache
-        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
-        with:
-          path: /tmp/blender.tar.xz
-          key: blender-${{ env.BLENDER_VERSION }}-${{ env.BLENDER_SHA256 }}
-      - name: Install Blender with checksum verification
-        run: |
-          if [ ! -f /tmp/blender.tar.xz ]; then
-            curl --fail --location --retry 3 "https://download.blender.org/release/Blender4.2/blender-${BLENDER_VERSION}-linux-x64.tar.xz" -o /tmp/blender.tar.xz
-          fi
-          echo "${BLENDER_SHA256}  /tmp/blender.tar.xz" | sha256sum --check
-          mkdir -p /tmp/blender
-          tar -xf /tmp/blender.tar.xz -C /tmp/blender --strip-components=1
-          echo "/tmp/blender" >> "$GITHUB_PATH"
+      - uses: ./.github/actions/blender
       - name: Acquire and render quarantine candidates
         id: intake
         continue-on-error: true

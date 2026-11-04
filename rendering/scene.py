@@ -50,21 +50,47 @@ def import_model(path: str) -> list:
     return objects
 
 
-def bounds(objects: list) -> tuple[Vector, Vector, float]:
-    points = [
-        obj.matrix_world @ Vector(corner)
-        for obj in objects
-        if obj.type == "MESH"
-        for corner in obj.bound_box
+def visible_meshes(objects: list) -> list:
+    """Exclude hidden helpers and bone shapes from framing and measurements."""
+    return [
+        obj for obj in objects if obj.type == "MESH" and not obj.hide_render and obj.visible_get()
     ]
+
+
+def world_points(objects: list) -> list[Vector]:
+    points = []
+    depsgraph = bpy.context.evaluated_depsgraph_get()
+    for obj in visible_meshes(objects):
+        evaluated = obj.evaluated_get(depsgraph)
+        mesh = evaluated.to_mesh()
+        points.extend(evaluated.matrix_world @ vertex.co for vertex in mesh.vertices)
+        evaluated.to_mesh_clear()
     if not points:
-        raise RuntimeError("Asset has no world-space bounds")
+        raise RuntimeError("Asset has no visible mesh vertices")
+    return points
+
+
+def bounds(objects: list) -> tuple[Vector, Vector, float]:
+    points = world_points(objects)
     low = Vector(tuple(min(point[axis] for point in points) for axis in range(3)))
     high = Vector(tuple(max(point[axis] for point in points) for axis in range(3)))
     radius = max((high - low).length / 2, 0.001)
     if not all(math.isfinite(value) for value in [*low, *high, radius]):
         raise RuntimeError("Asset has invalid coordinates")
     return low, high, radius
+
+
+def fit_camera(camera, points: list[Vector], margin: float = 1.12) -> None:
+    """Center and fit this view's silhouette, not a hidden helper's bounding box."""
+    bpy.context.view_layer.update()
+    rotation = camera.matrix_world.to_quaternion()
+    projected = [rotation.inverted() @ (point - camera.location) for point in points]
+    low = [min(point[axis] for point in projected) for axis in range(2)]
+    high = [max(point[axis] for point in projected) for axis in range(2)]
+    midpoint = Vector(((low[0] + high[0]) / 2, (low[1] + high[1]) / 2, 0))
+    camera.location += rotation @ midpoint
+    camera.data.ortho_scale = max(high[0] - low[0], high[1] - low[1], 0.001) * margin
+    bpy.context.view_layer.update()
 
 
 def add_studio_lights(center: Vector, radius: float) -> None:

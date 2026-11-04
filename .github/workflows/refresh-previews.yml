@@ -1,0 +1,87 @@
+name: Refresh quarantine previews
+
+on:
+  push:
+    branches: ['arena/6f1c607a-3d-assets']
+    paths: ['automation/refresh-previews.json']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: asset-pipeline-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  PYTHONPATH: src
+  PYTHONUNBUFFERED: '1'
+
+jobs:
+  plan:
+    if: github.ref == 'refs/heads/arena/6f1c607a-3d-assets'
+    runs-on: ubuntu-24.04
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+      batch: ${{ steps.plan.outputs.batch }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - id: plan
+        run: |
+          python -m asset_library refresh-plan automation/refresh-previews.json
+          echo "matrix=$(python -m asset_library refresh-matrix automation/refresh-previews.json)" >> "$GITHUB_OUTPUT"
+          echo "batch=$(python -c 'import json; print(json.load(open("automation/refresh-previews.json"))["batch"])')" >> "$GITHUB_OUTPUT"
+
+  refresh:
+    needs: plan
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      max-parallel: 5
+      matrix:
+        include: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Install validation and imaging tools
+        run: |
+          pip install -r requirements.txt
+          npm ci --ignore-scripts
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends libxi6 libxrender1 libxxf86vm1 libxfixes3 libxkbcommon0 libsm6 libgl1
+      - uses: ./.github/actions/blender
+      - name: Refresh assigned quarantine candidates
+        id: refresh
+        continue-on-error: true
+        env:
+          BATCH: ${{ needs.plan.outputs.batch }}
+          SHARD: ${{ matrix.shard }}
+        run: |
+          mkdir -p "reports/refresh/$BATCH"
+          set -o pipefail
+          set +e
+          python -m asset_library refresh automation/refresh-previews.json --shard "$SHARD" 2>&1 | tee "reports/refresh/$BATCH/worker-$SHARD.log"
+          result=${PIPESTATUS[0]}
+          echo "exit_code=$result" >> "$GITHUB_OUTPUT"
+          exit "$result"
+      - name: Commit refreshed previews and logs
+        if: always()
+        env:
+          BATCH: ${{ needs.plan.outputs.batch }}
+          SHARD: ${{ matrix.shard }}
+        run: bash scripts/publish-shard.sh "$BATCH" "$SHARD" refresh
+      - name: Reflect refresh result
+        if: steps.refresh.outputs.exit_code != '0'
+        run: exit 1

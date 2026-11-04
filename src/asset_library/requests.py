@@ -18,20 +18,26 @@ def load_request(path: Path) -> dict:
             raise ValueError(f"Duplicate candidate: {candidate['id']}")
         seen.add(candidate["id"])
         asset_directory(ROOT / "assets", candidate["category"], candidate["id"])
-        if candidate["source"] not in registered and candidate["source"] != "makehuman":
+        if candidate["source"] not in registered:
             raise ValueError(f"Unregistered source: {candidate['source']}")
         if (ROOT / "assets" / candidate["category"] / candidate["id"]).exists():
             raise ValueError(f"Already published; use a new revision request: {candidate['id']}")
     return value
 
 
-def shards(path: Path, count: int = 5) -> list[dict]:
+def partition(items: list, count: int = 5) -> list[list]:
+    """Round-robin assignment keeps related source work spread across workers."""
     if not 1 <= count <= 5:
         raise ValueError("The workflow supports one to five parallel workers")
+    groups = [[] for _ in range(min(count, len(items)))]
+    for index, item in enumerate(items):
+        groups[index % len(groups)].append(item)
+    return groups
+
+
+def shards(path: Path, count: int = 5) -> list[dict]:
     request = load_request(path)
-    groups = [[] for _ in range(min(count, len(request["candidates"])))]
-    for index, candidate in enumerate(request["candidates"]):
-        groups[index % len(groups)].append(candidate)
+    groups = partition(request["candidates"], count)
     return [
         {
             "shard": index,

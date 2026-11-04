@@ -20,6 +20,19 @@ def main() -> int:
     intake.add_argument("--shard", type=int, required=True)
     review = commands.add_parser("review", help="Apply explicit per-asset visual review decisions")
     review.add_argument("decisions", type=Path)
+    reinspect = commands.add_parser(
+        "reinspect", help="Recheck an already acquired quarantine candidate"
+    )
+    reinspect.add_argument("candidate", type=Path)
+    for command, help_text in [
+        ("refresh-plan", "Validate a quarantine refresh request"),
+        ("refresh-matrix", "Emit at most five refresh worker assignments"),
+        ("refresh", "Refresh inspection evidence for one worker assignment"),
+    ]:
+        refresh = commands.add_parser(command, help=help_text)
+        refresh.add_argument("request", type=Path)
+        if command == "refresh":
+            refresh.add_argument("--shard", type=int, required=True)
     catalog = commands.add_parser("catalog", help="Rebuild the approved-only catalog")
     catalog.add_argument("--check", action="store_true")
     args = parser.parse_args()
@@ -35,6 +48,19 @@ def main() -> int:
             return run_shard(
                 assignment["batch_id"], json.loads(assignment["candidates"]), args.shard
             )
+        elif args.command == "reinspect":
+            from .inspection import reinspect
+
+            reinspect(args.candidate.resolve())
+        elif args.command in {"refresh-plan", "refresh-matrix", "refresh"}:
+            from . import refresh
+
+            if args.command == "refresh-plan":
+                refresh.describe(args.request)
+            elif args.command == "refresh-matrix":
+                print(json.dumps(refresh.shards(args.request)))
+            else:
+                return refresh.run_shard(args.request, args.shard)
         elif args.command == "review":
             from .review import apply
 

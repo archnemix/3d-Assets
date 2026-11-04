@@ -48,7 +48,11 @@ def main() -> None:
     write_json(
         Path("research/makehuman-system-pack.json"),
         {
-            "archive": {"url": PACK_URL, "bytes": archive.stat().st_size, "sha256": digest.hexdigest()},
+            "archive": {
+                "url": PACK_URL,
+                "bytes": archive.stat().st_size,
+                "sha256": digest.hexdigest(),
+            },
             "license_url": LICENSE_URL,
             "license_text": license_text,
             "entries": entries,

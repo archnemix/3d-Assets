@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: asset-research-${{ github.ref }}
+  group: asset-pipeline-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:

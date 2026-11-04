@@ -6,10 +6,12 @@ import sys
 from pathlib import Path
 
 import bpy
+from scene import visible_meshes
 
 
 def collect(output: str) -> None:
-    meshes = [obj for obj in bpy.context.scene.objects if obj.type == "MESH"]
+    all_meshes = [obj for obj in bpy.context.scene.objects if obj.type == "MESH"]
+    meshes = visible_meshes(all_meshes)
     armatures = [obj for obj in bpy.context.scene.objects if obj.type == "ARMATURE"]
     triangles = 0
     vertices = 0
@@ -44,6 +46,7 @@ def collect(output: str) -> None:
     report = {
         "blender_version": bpy.app.version_string,
         "mesh_objects": len(meshes),
+        "hidden_mesh_objects": len(all_meshes) - len(meshes),
         "vertices": vertices,
         "triangles": triangles,
         "material_slots": sum(len(obj.material_slots) for obj in meshes),
