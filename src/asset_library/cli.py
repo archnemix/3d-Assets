@@ -5,6 +5,8 @@ import json
 import sys
 from pathlib import Path
 
+from jsonschema.exceptions import ValidationError as SchemaError
+
 from .requests import describe, shards
 
 
@@ -20,6 +22,10 @@ def main() -> int:
     intake.add_argument("--shard", type=int, required=True)
     review = commands.add_parser("review", help="Apply explicit per-asset visual review decisions")
     review.add_argument("decisions", type=Path)
+    retire = commands.add_parser(
+        "retire", help="Withdraw published assets and record why; payloads are deleted"
+    )
+    retire.add_argument("decisions", type=Path)
     reinspect = commands.add_parser(
         "reinspect", help="Recheck an already acquired quarantine candidate"
     )
@@ -69,6 +75,10 @@ def main() -> int:
             from .review import apply
 
             apply(args.decisions)
+        elif args.command == "retire":
+            from .retire import apply as retire_apply
+
+            retire_apply(args.decisions)
         elif args.command == "catalog":
             from .catalog import build, verify
 
@@ -79,7 +89,7 @@ def main() -> int:
 
             audit_verify() if args.check else audit_build()
         return 0
-    except (ValueError, KeyError, IndexError, RuntimeError, OSError) as error:
+    except (ValueError, KeyError, IndexError, RuntimeError, OSError, SchemaError) as error:
         print(f"error: {error}", file=sys.stderr)
         return 1
 

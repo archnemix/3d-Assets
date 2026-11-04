@@ -24,16 +24,6 @@ The per-asset verdict for every approved asset — free, no attribution, commerc
 - Accepted examples include low-poly characters, vehicles, furniture, fruit, and snacks.
 - Some Kenney furniture uses intentional flat-color materials rather than image textures.
 
-### KayKit
-
-- Pinned character and furniture repositories include explicit CC0 notices.
-- Character pack revision: `672074b73ba276876a19e8816ecdc5241817ab47`.
-- Furniture pack revision: `96d5930a8dbdb363409bbc2d3341718b00e17c9c`.
-- Accepted examples include stylized fantasy humans and wooden furniture.
-- External glTF dependencies and atlas textures are preserved.
-- The Adventurers itch.io page adds a request: "please don't resell unmodified copies or claim them as your own." The pack's CC0 dedication does not contain that condition, so the assets remain usable and redistributable as-is; the request is recorded per asset in the audit and the manifest instead of being silently dropped.
-- `https://kaylousberg.itch.io/kaykit-furniture-bits` returned 404 on 2026-11-04, so the pinned repository license is the primary furniture evidence.
-
 ### MakeHuman / MPFB2
 
 - Official MakeHuman system asset pack is CC0.
@@ -59,6 +49,24 @@ The per-asset verdict for every approved asset — free, no attribution, commerc
 - Approved realistic examples: adult male base character, adult female base character and elderly woman. The teenage boy package was rejected for the realistic-human category because its face/hair read anime-stylized rather than realistic.
 
 ## Rejected or deferred candidates
+
+### KayKit — withdrawn at the author's request
+
+The character and furniture packs are genuinely CC0, and the pinned licenses say credit "is not
+mandatory". But the Adventurers download page also asks: "please don't resell unmodified copies or
+claim them as your own." This repository republishes unmodified copies publicly, which is exactly
+the activity the author asked us not to do.
+
+The user's direction was to respect that request, so on 2026-11-04 all six approved KayKit assets
+were retired and their model files deleted: `kaykit-barbarian`, `kaykit-knight`, `kaykit-mage`,
+`kaykit-rogue`, `kaykit-dining-chair`, `kaykit-table-medium`. Per-asset records are in
+`reports/retired/`. Both KayKit entries were removed from `config/sources.json` and
+`config/license-terms.json`, so no future batch can reintroduce them, and a gallery test asserts
+the family stays out of the manifest.
+
+The general rule is now recorded in the license policy: **an author's stated request about use is
+honoured even where CC0 would legally permit more.** A license is a floor, not a permission slip to
+ignore the person who made the work.
 
 ### MB-Lab / ManuelbastioniLAB
 

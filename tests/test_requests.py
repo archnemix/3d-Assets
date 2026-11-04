@@ -11,10 +11,10 @@ def candidate(index):
         "id": f"test-asset-{index}",
         "title": "Test asset",
         "category": "furniture/chairs",
-        "source": "kaykit-furniture",
-        "style": "stylized",
+        "source": "kenney",
+        "style": "low-poly",
         "tags": ["chair"],
-        "path": "addons/kaykit_furniture_bits/Assets/gltf/chair_A.gltf",
+        "path": "packs/furniture-kit/chair.glb",
     }
 
 

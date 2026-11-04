@@ -2,16 +2,8 @@
 
 Dining, side and coffee tables
 
-Approved assets: **4**
+Approved assets: **3**
 
-## KayKit medium wooden table
-
-![KayKit medium wooden table](../../assets/furniture/tables/kaykit-table-medium/previews/orbit-01.jpg)
-
-- Creator: Kay Lousberg; style: stylized; CC0-1.0
-- 168 triangles; 1 texture images
-- [Asset folder](../../assets/furniture/tables/kaykit-table-medium/) · [Metadata](../../assets/furniture/tables/kaykit-table-medium/asset.json)
-- [Asset folder](../../assets/furniture/tables/kaykit-table-medium/) · [Metadata](../../assets/furniture/tables/kaykit-table-medium/asset.json) · [All inspection views](../../assets/furniture/tables/kaykit-table-medium/previews/contact-sheet.jpg)
 ## Kenney coffee table
 
 ![Kenney coffee table](../../assets/furniture/tables/kenney-coffee-table/previews/orbit-01.jpg)

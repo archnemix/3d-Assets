@@ -13,6 +13,30 @@ HOSTS = {
     "raw.githubusercontent.com",
 }
 LICENSE_REVISION = "2fd1796dc3506dfa8269439aac8e6f5c65876bd1"
+RESOLUTIONS = ("8k", "4k", "2k", "1k")
+
+
+def package_bytes(package: dict) -> int:
+    return package.get("size", 0) + sum(
+        entry.get("size", 0) for entry in package.get("include", {}).values()
+    )
+
+
+def select_package(files: dict, preferred: str, budget: int) -> tuple[str, dict]:
+    """Highest resolution at or below the preference that fits the storage budget.
+
+    Falling back is recorded, never silent: a 1k asset is still a complete,
+    correct model, while an 8k texture set can outweigh the whole library.
+    """
+    available = files.get("gltf", {})
+    if preferred not in available:
+        raise ValueError(f"No glTF package at {preferred}; available: {sorted(available)}")
+    ladder = RESOLUTIONS[RESOLUTIONS.index(preferred) :]
+    for resolution in ladder:
+        package = available.get(resolution, {}).get("gltf")
+        if package and package_bytes(package) <= budget:
+            return resolution, package
+    raise ValueError(f"No glTF package for {preferred} or lower fits {budget} bytes")
 
 
 def fetch_polyhaven(source: dict, candidate: dict, directory: Path) -> dict:
@@ -26,10 +50,14 @@ def fetch_polyhaven(source: dict, candidate: dict, directory: Path) -> dict:
     license_document = text(terms_url, HOSTS)
     if "CC0 assets carry no attribution requirement whatsoever" not in license_document:
         raise ValueError("Poly Haven's license statement changed; manual review required")
-    try:
-        package = files["gltf"][resolution]["gltf"]
-    except KeyError as error:
-        raise ValueError(f"No glTF package at {resolution} for {upstream}") from error
+    if info.get("tmwarn"):
+        raise ValueError(f"{upstream} carries an upstream trademark warning; not eligible")
+    requested = resolution
+    resolution, package = select_package(
+        files, requested, source.get("max_package_bytes", 12 * 1024**2)
+    )
+    if resolution != requested:
+        print(f"{upstream}: {requested} exceeds the storage budget; using {resolution}", flush=True)
     model = directory / "model" / Path(package["url"]).name
     records = [download(package["url"], model, HOSTS, package.get("md5"), headers)]
     for relative, entry in package.get("include", {}).items():

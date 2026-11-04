@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+- **Retired all six KayKit assets** (4 characters, a chair and a table; 18.2 MB of payloads deleted) to respect Kay Lousberg's request that unmodified copies not be resold or claimed as one's own. Added `retire` as an auditable CLI operation with per-asset records under `reports/retired/`, and closed the KayKit sources to future intake.
+- Made an author's stated request a blocking policy in `config/license-terms.json` and its schema, rather than a footnote: a source whose creator asks that copies not be redistributed is no longer eligible even though CC0 would allow it.
+- Registered 20 new categories across tools, kitchen, food, decor, storage furniture, beds, desks, lighting, computing, optical science, music, watercraft, safety and office supplies.
+- Added a budget-aware Poly Haven resolution picker: the highest resolution that fits the per-package storage budget is chosen, the fallback is logged, and upstream trademark-flagged assets are refused at intake.
+- Discarded 27 MB of superseded Grab3D quarantine payloads whose repaired versions are already approved, keeping the failure records and logs.
+
 - Added a per-asset license audit: `config/license-terms.json` records verified provider terms and caveats, `license-audit` checks all 33 approved assets against them, and results are published as `docs/licenses.md` plus `reports/license-audit.json`. CI verifies both with `--check`.
 - Recorded the honest caveats instead of a blanket "no restrictions": KayKit's creator request not to resell unmodified copies, Kenney's `/license` page returning 404 (pinned pack license used as evidence), Poly Haven's separate API/site-content terms, Grab3D's AI-assisted disclosure, and the trademark/patent limits of CC0.
 - Manifest and gallery now carry per-asset `license_notes` and `resale_as_is`, so the caveat is visible next to the download button.

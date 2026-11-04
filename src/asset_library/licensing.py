@@ -56,7 +56,7 @@ def checks(directory, manifest: dict, provider: dict) -> dict[str, bool]:
         "redistribution_allowed": license_block["redistribution_allowed"] is True,
         "evidence_recorded": license_block.get("evidence", "").startswith("https://")
         and license_block["evidence"] == source["license_evidence"],
-        "source_terms_verified": provider["status"] in {"verified", "verified-with-request"},
+        "source_terms_verified": provider["status"] == "verified",
         "standalone_resale_permitted": provider["resale_as_is"]["permitted"] is True,
         "textures_included": texture_files_present(directory, manifest),
         "no_trademark_warning": not trademark_flag(directory),

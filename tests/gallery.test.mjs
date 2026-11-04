@@ -142,6 +142,10 @@ test("manifest carries per-asset license rights and caveats", async () => {
     assert.ok(Array.isArray(asset.license_notes), asset.id);
     assert.ok(asset.resale_as_is.length > 20, asset.id);
   }
-  const kaykit = catalog.assets.find((a) => a.id === "kaykit-knight");
-  assert.ok(kaykit.license_notes.join(" ").includes("request"));
+  // The author's request outranks the license: no KayKit asset may be published.
+  assert.equal(
+    catalog.assets.filter((a) => a.id.startsWith("kaykit-")).length,
+    0,
+    "KayKit was retired at the author's request and must not reappear",
+  );
 });

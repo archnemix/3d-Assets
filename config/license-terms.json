@@ -2,14 +2,19 @@
   "schema_version": 1,
   "checked_on": "2026-11-04",
   "policy": {
-    "accepted_spdx": ["CC0-1.0"],
+    "accepted_spdx": [
+      "CC0-1.0"
+    ],
     "attribution_required": false,
     "commercial_use": true,
     "standalone_use": true,
     "redistribution_allowed": true,
-    "public_display": true
+    "public_display": true,
+    "respect_author_requests": true,
+    "author_request_blocks_intake": true
   },
   "universal_caveats": [
+    "An author's stated request is honoured even where CC0 would legally allow more. A source whose creator asks that copies not be redistributed or resold is not accepted, and any already-published asset from such a source is retired. KayKit was withdrawn on exactly this basis.",
     "CC0 waives copyright and related rights. It does not waive trademark or patent rights, and it does not clear rights a third party may hold in a depicted subject.",
     "CC0 offers no warranty. The library's own technical and visual checks are the quality guarantee, not the license.",
     "Nothing here is exclusive. The same files are available to everyone else under the same terms.",
@@ -48,48 +53,13 @@
         "explicit": false,
         "note": "The CC0 dedication places no restriction on resale. Kenney asks for nothing beyond the license, but repackaging a free pack as a paid product is a poor way to treat a creator who released it for free."
       },
-      "asset_notes": ["Third-party GLB conversion of a Kenney pack; conversion and embedded textures are also CC0."],
+      "asset_notes": [
+        "Third-party GLB conversion of a Kenney pack; conversion and embedded textures are also CC0."
+      ],
       "caveats": [
         "The standalone page https://kenney.nl/license returned 404 when checked on 2026-11-04. The evidence used instead is the support page (all asset-page assets are CC0, attribution not required) plus the license file pinned in the exact source revision each asset came from.",
         "Kenney reserves its studio logo for official projects. The logo is not part of any asset here and must not be used to imply endorsement.",
         "Files come from a pinned third-party mirror that converts Kenney's packs to GLB. That mirror's license explicitly releases its conversions, embedded textures and thumbnails under CC0 as well. Kenney remains the original creator and is recorded as such."
-      ]
-    },
-    "kaykit-characters": {
-      "name": "KayKit (Kay Lousberg)",
-      "spdx": "CC0-1.0",
-      "status": "verified-with-request",
-      "free_of_charge": true,
-      "terms_url": "https://kaylousberg.itch.io/kaykit-adventurers",
-      "evidence_url": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Character-Pack-Adventures-1.0/672074b73ba276876a19e8816ecdc5241817ab47/LICENSE.txt",
-      "resale_as_is": {
-        "permitted": true,
-        "explicit": false,
-        "note": "CC0 permits it, but the creator's download page asks: 'please don't resell unmodified copies or claim them as your own.' That sentence is a request, not a condition of the CC0 dedication shipped in the pack."
-      },
-      "asset_notes": ["Creator asks that unmodified copies not be resold or claimed as your own (request, not a license condition)."],
-      "caveats": [
-        "The pack's LICENSE.txt grants CC0 and says credit 'is not mandatory'. The itch.io page repeats CC0 and adds a polite anti-resale request. Both facts are recorded here rather than quietly dropping one of them.",
-        "Practical reading: use these characters in anything you sell, including a standalone model viewer, an editor, a film or an asset browser. Selling this folder unchanged as your own character pack is legally possible and socially a bad idea.",
-        "The itch.io page states no generative AI was used for this pack."
-      ]
-    },
-    "kaykit-furniture": {
-      "name": "KayKit (Kay Lousberg)",
-      "spdx": "CC0-1.0",
-      "status": "verified-with-request",
-      "free_of_charge": true,
-      "terms_url": "https://github.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0",
-      "evidence_url": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/96d5930a8dbdb363409bbc2d3341718b00e17c9c/LICENSE.txt",
-      "resale_as_is": {
-        "permitted": true,
-        "explicit": false,
-        "note": "CC0 permits it. The same creator asks on the character pack page that unmodified copies not be resold; treat that as the author's stated preference across KayKit packs."
-      },
-      "asset_notes": ["Same creator as KayKit characters; the ask not to resell unmodified copies is treated as applying here too."],
-      "caveats": [
-        "The pack's LICENSE.txt grants CC0 for personal, educational and commercial projects and says credit 'is not mandatory'.",
-        "The itch.io page https://kaylousberg.itch.io/kaykit-furniture-bits returned 404 when checked on 2026-11-04, so the pinned repository license is the primary evidence."
       ]
     },
     "grab3d": {
@@ -104,7 +74,9 @@
         "explicit": true,
         "note": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves."
       },
-      "asset_notes": ["AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."],
+      "asset_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
       "caveats": [
         "Every download package ships its own LICENSE.txt and manifest.json, and the adapter verifies both before fetching the model. No attribution, account or fee is required, and the license file does not have to ship with your product.",
         "Grab3D waives only its own rights. Subjects are described as generic, with no brands, logos or real people.",
@@ -124,7 +96,9 @@
         "explicit": true,
         "note": "The system asset pack is dedicated to CC0, so exported characters may be used, sold and redistributed without attribution."
       },
-      "asset_notes": ["Built from the CC0 MakeHuman system asset pack."],
+      "asset_notes": [
+        "Built from the CC0 MakeHuman system asset pack."
+      ],
       "caveats": [
         "Only the official CC0 system asset pack is used. The MPFB2 Blender add-on is GPL-3.0-or-later code used as a build tool; none of its code ships inside an asset.",
         "MakeHuman-branded clothing is excluded: it carries a logo, which CC0 does not license as a trademark.",

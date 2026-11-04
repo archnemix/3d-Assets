@@ -2,16 +2,8 @@
 
 Dining chairs, armchairs, stools and lounge chairs
 
-Approved assets: **6**
+Approved assets: **5**
 
-## KayKit wooden dining chair
-
-![KayKit wooden dining chair](../../assets/furniture/chairs/kaykit-dining-chair/previews/orbit-01.jpg)
-
-- Creator: Kay Lousberg; style: stylized; CC0-1.0
-- 308 triangles; 1 texture images
-- [Asset folder](../../assets/furniture/chairs/kaykit-dining-chair/) · [Metadata](../../assets/furniture/chairs/kaykit-dining-chair/asset.json)
-- [Asset folder](../../assets/furniture/chairs/kaykit-dining-chair/) · [Metadata](../../assets/furniture/chairs/kaykit-dining-chair/asset.json) · [All inspection views](../../assets/furniture/chairs/kaykit-dining-chair/previews/contact-sheet.jpg)
 ## Kenney cushioned dining chair
 
 ![Kenney cushioned dining chair](../../assets/furniture/chairs/kenney-cushion-chair/previews/orbit-01.jpg)

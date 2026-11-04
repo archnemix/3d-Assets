@@ -4,9 +4,9 @@ A curated library of free, public-domain 3D assets for games, renders and protot
 
 ## Current status
 
-The library currently contains **33 approved CC0 assets** in **12 categories**, saved as real files under `assets/` and organized by category and subject. **Only entries in `manifest.json` are approved.** Files under `quarantine/` are review candidates, not recommendations.
+The library currently contains **27 approved CC0 assets** in **12 categories**, saved as real files under `assets/` and organized by category and subject. **Only entries in `manifest.json` are approved.** Files under `quarantine/` are review candidates, not recommendations.
 
-Approved subjects include realistic rigged humans, stylized game characters, chairs, sofas, tables, potted plants, fruit, snacks, vehicles, toys, industrial containers, retail props and lighting. The realistic-human set currently includes an adult male base character, an adult female base character and an elderly woman, each with embedded PBR textures and walk/run animation clips. MakeHuman/MPFB generation is working through the same quarantine/review pipeline, but generated characters are only added after they pass inspection and visual review.
+Approved subjects include realistic rigged humans, low-poly game characters, chairs, sofas, tables, potted plants, fruit, snacks, vehicles, toys, industrial containers, retail props and lighting. The realistic-human set currently includes an adult male base character, an adult female base character and an elderly woman, each with embedded PBR textures and walk/run animation clips. MakeHuman/MPFB generation is working through the same quarantine/review pipeline, but generated characters are only added after they pass inspection and visual review.
 
 ## Find and use an asset
 
@@ -43,10 +43,15 @@ Open `http://localhost:8000/` on your own computer. It redirects to the live gal
 
 ## What you may do with these assets
 
-All 33 approved assets are CC0 1.0. Per asset, that means **free**, **no attribution**, **commercial use**, **use and redistribution of the files as-is** (not only embedded in a game), and **public display**. The [license audit](docs/licenses.md) records the verdict, evidence link and license-file checksum for every asset, plus the caveats that CC0 does not remove:
+**An author's request outranks the license.** KayKit's creator asks that unmodified copies not be
+resold or claimed as your own. CC0 would legally permit it, but this library mirrors unmodified
+copies publicly, so all six KayKit assets were **retired and deleted** and the source is closed to
+future intake. `config/license-terms.json` now encodes that rule, and a test asserts KayKit cannot
+reappear. Retirement records live in `reports/retired/`.
+
+Every approved asset is CC0 1.0. Per asset, that means **free**, **no attribution**, **commercial use**, **use and redistribution of the files as-is** (not only embedded in a game), and **public display**. The [license audit](docs/licenses.md) records the verdict, evidence link and license-file checksum for every asset, plus the caveats that CC0 does not remove:
 
 - CC0 waives copyright, not trademark or patent rights, and clears no third-party rights in a depicted subject.
-- KayKit's creator asks that unmodified copies not be resold or claimed as your own. That is a request alongside the CC0 dedication, not a license condition — but it is recorded rather than hidden.
 - The three Grab3D humans disclose an AI-assisted origin; some storefronts require an AI content disclosure.
 - The Kenney files come from a pinned third-party GLB conversion whose own license also releases the conversions under CC0.
 

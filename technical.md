@@ -11,13 +11,14 @@ config/sources.json           Pinned source adapters and license evidence
 config/license-terms.json     Recorded per-provider license terms and caveats
 config/categories.json        Category/subcategory taxonomy
 config/human-recipes/         MakeHuman recipes for generated CC0 humans
-schemas/                      JSON Schemas for requests, recipes, refreshes
+schemas/                      JSON Schemas for requests, recipes, reviews, retirements
 src/asset_library/            Python CLI and pipeline modules
   sources/                    Source adapters: Poly Haven, GitHub, MakeHuman, Grab3D
   gltf_repair.py              Bounded, checksum-recorded glTF portability repairs
   intake.py                   Candidate acquisition and quarantine orchestration
   inspection.py               Blender render/inspection subprocess boundary
   review.py                   Explicit visual approval/rejection gate
+  retire.py                   Withdraw published assets; payloads deleted, reason kept
   licensing.py                Per-asset license checks against recorded terms
   license_report.py           Markdown rendering of the license audit
   catalog.py                  Approved-only manifest and category pages
@@ -120,6 +121,17 @@ Variants of the same subject share the subject folder. For example, realistic an
 - five integer scores, each at least 4, with mean at least 4.6.
 
 Rejections preserve the contact sheet and review JSON under `reports/rejected/` without keeping the failed model payload in the approved library.
+
+## Retiring an asset
+
+Approval is reversible. `python -m asset_library retire reviews/<decision>.json` withdraws a
+published asset: it verifies the inventory and provider first, writes a record to
+`reports/retired/<id>/retirement.json` (reason, decider, date, removed byte count, model SHA-256),
+then deletes the asset folder. The payload is deleted rather than moved, because honouring
+"please don't redistribute this" means the files leave the repository.
+
+Retirement is all-or-nothing: every entry is validated before any folder is touched, so a bad
+entry cannot leave the library half-retired. `catalog` and `license-audit` are re-run afterwards.
 
 ## License audit
 
