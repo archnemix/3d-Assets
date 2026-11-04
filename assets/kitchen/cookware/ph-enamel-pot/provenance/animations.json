@@ -2,23 +2,28 @@
   "source_model": "pot_enamel_01_2k.gltf",
   "authored": [
     {
-      "name": "lid_open",
+      "name": "lid_lift",
       "parts": [
         "pot_enamel_01_lid"
       ],
-      "axis": "X",
-      "degrees": -105.0,
+      "motion": "lift",
+      "detail": [
+        {
+          "part": "pot_enamel_01_lid",
+          "rise_metres": 0.0791
+        }
+      ],
       "frames": 60,
       "fps": 30
     }
   ],
   "verification": [
     {
-      "clip": "lid_open",
+      "clip": "lid_lift",
       "frames": [
-        "anim-lid_open-a.jpg",
-        "anim-lid_open-b.jpg",
-        "anim-lid_open-c.jpg"
+        "anim-lid_lift-a.jpg",
+        "anim-lid_lift-b.jpg",
+        "anim-lid_lift-c.jpg"
       ]
     }
   ],

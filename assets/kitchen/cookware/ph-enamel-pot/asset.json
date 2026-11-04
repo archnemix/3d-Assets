@@ -190,8 +190,8 @@
     },
     {
       "path": "logs/animations.log",
-      "bytes": 18494,
-      "sha256": "b4e0bc0aee8cf740eb1c785199ce009768fe94698daa8f905db1d01aaf9ff459",
+      "bytes": 18493,
+      "sha256": "f214a0d0d3bfc298df1593b4ed72b4beb0cf35ba2718eef2f1241298acb81dc5",
       "role": "logs"
     },
     {
@@ -214,8 +214,8 @@
     },
     {
       "path": "model/pot_enamel_01_2k-animated.glb",
-      "bytes": 5903532,
-      "sha256": "4b30bbaab6e78ff5085a88fdb2f4ab1b9d211e43eaa7c031561d5854068fdb6c",
+      "bytes": 5904472,
+      "sha256": "3820cebe243ca12bcea335696b8fc50c3d72fcdec6d4aa8af44f7162df161669",
       "role": "model"
     },
     {
@@ -241,6 +241,24 @@
       "bytes": 1902299,
       "sha256": "2210d30c882ab6f76d5013c91c47e437b8b17468104791a3fb06f9aa2c371e9c",
       "role": "model"
+    },
+    {
+      "path": "previews/anim-lid_lift-a.jpg",
+      "bytes": 14254,
+      "sha256": "fee8ecba0786a8ef1b48b298a5e24a07e1f4332a86bc2d8a975c915e74f78209",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-lid_lift-b.jpg",
+      "bytes": 15840,
+      "sha256": "415ecee4c1ae3423fa9b973b44bbbebfd30c446da7a6df40b7843e2c5c06f078",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-lid_lift-c.jpg",
+      "bytes": 15788,
+      "sha256": "25bdf4edaf5f23ea852956e83f1b62630f54c8ada577f16cb2aac700ae1d6631",
+      "role": "previews"
     },
     {
       "path": "previews/anim-lid_open-a.jpg",
@@ -352,8 +370,8 @@
     },
     {
       "path": "provenance/animations.json",
-      "bytes": 550,
-      "sha256": "2bbbe183b739dd1aae1f8ef2f12086848fa3fc2fe35b3e3661591e9ce6d04549",
+      "bytes": 648,
+      "sha256": "8b3ba35810fbb48294d3ee1679911efc1a27829ee774877a3de7b3d9c1eaf4f5",
       "role": "provenance"
     },
     {
@@ -383,12 +401,17 @@
   ],
   "authored_animations": [
     {
-      "name": "lid_open",
+      "name": "lid_lift",
       "parts": [
         "pot_enamel_01_lid"
       ],
-      "axis": "X",
-      "degrees": -105.0,
+      "motion": "lift",
+      "detail": [
+        {
+          "part": "pot_enamel_01_lid",
+          "rise_metres": 0.0791
+        }
+      ],
       "frames": 60,
       "fps": 30
     }
