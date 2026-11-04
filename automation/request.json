@@ -1,36 +1,545 @@
 {
   "revision": 1,
-  "batch_id": "expansion-07",
+  "batch_id": "expansion-08",
   "candidates": [
-    {"id":"ph-adjustable-wrench","title":"Vintage adjustable wrench","category":"tools/hand-tools","source":"polyhaven","style":"realistic","tags":["tool","wrench","spanner","metal","wood","workshop","vintage","pbr"],"upstream_id":"adjustable_wrench","resolution":"2k"},
-    {"id":"ph-bolt-cutters","title":"Heavy bolt cutters","category":"tools/hand-tools","source":"polyhaven","style":"realistic","tags":["tool","cutters","metal","worn","workshop","rigged","pbr"],"upstream_id":"bolt_cutters_01","resolution":"2k"},
-    {"id":"ph-bench-vice","title":"Workshop bench vice","category":"tools/hand-tools","source":"polyhaven","style":"realistic","tags":["tool","vice","clamp","metal","rusty","workshop","rigged","pbr"],"upstream_id":"bench_vice_01","resolution":"2k"},
-    {"id":"ph-cordless-drill","title":"Cordless power drill","category":"tools/power-tools","source":"polyhaven","style":"realistic","tags":["tool","drill","power-tool","plastic","metal","workshop","pbr"],"upstream_id":"Drill_01","resolution":"2k"},
-    {"id":"ph-brass-blowtorch","title":"Brass blowtorch","category":"tools/power-tools","source":"polyhaven","style":"realistic","tags":["tool","blowtorch","brass","welding","workshop","pbr"],"upstream_id":"brass_blowtorch","resolution":"2k"},
-    {"id":"ph-retro-multimeter","title":"Retro analog multimeter","category":"tools/measuring","source":"polyhaven","style":"realistic","tags":["instrument","multimeter","gauge","analog","vintage","electronics","pbr"],"upstream_id":"retro_multimeter","resolution":"2k"},
-    {"id":"ph-brass-pan","title":"Worn brass frying pan","category":"kitchen/cookware","source":"polyhaven","style":"realistic","tags":["kitchen","pan","cookware","brass","wood","pbr"],"upstream_id":"brass_pan_01","resolution":"2k"},
-    {"id":"ph-enamel-pot","title":"Enamel cooking pot with lid","category":"kitchen/cookware","source":"polyhaven","style":"realistic","tags":["kitchen","pot","cookware","enamel","lid","pbr"],"upstream_id":"pot_enamel_01","resolution":"2k"},
-    {"id":"ph-ceramic-pot","title":"Lidded ceramic cooking pot","category":"kitchen/cookware","source":"polyhaven","style":"realistic","tags":["kitchen","pot","ceramic","earthenware","lid","pbr"],"upstream_id":"ceramic_pot","resolution":"2k"},
-    {"id":"ph-brass-goblets","title":"Ornate brass goblets","category":"kitchen/tableware","source":"polyhaven","style":"realistic","tags":["tableware","goblet","cup","brass","ornate","vintage","pbr"],"upstream_id":"brass_goblets","resolution":"2k"},
-    {"id":"ph-carved-wooden-plate","title":"Hand-carved wooden plate","category":"kitchen/tableware","source":"polyhaven","style":"realistic","tags":["tableware","plate","bowl","wood","carved","rustic","pbr"],"upstream_id":"carved_wooden_plate","resolution":"2k"},
-    {"id":"ph-ceramic-jug","title":"Painted ceramic milk jug","category":"kitchen/tableware","source":"polyhaven","style":"realistic","tags":["tableware","jug","pitcher","ceramic","floral","vintage","pbr"],"upstream_id":"jug_01","resolution":"2k"},
-    {"id":"ph-tea-set","title":"Antique floral tea set","category":"kitchen/tableware","source":"polyhaven","style":"realistic","tags":["tableware","tea","ceramic","floral","victorian","set","pbr"],"upstream_id":"tea_set_01","resolution":"2k"},
-    {"id":"ph-ginger-root","title":"Photoscanned ginger root","category":"food/vegetables","source":"polyhaven","style":"realistic","tags":["food","vegetable","ginger","root","organic","photoscan","pbr"],"upstream_id":"food_ginger_01","resolution":"2k"},
-    {"id":"ph-croissant","title":"Flaky butter croissant","category":"food/baked-goods","source":"polyhaven","style":"realistic","tags":["food","pastry","croissant","bakery","breakfast","photoscan","pbr"],"upstream_id":"croissant","resolution":"2k"},
-    {"id":"ph-carrot-cake","title":"Frosted carrot cake","category":"food/baked-goods","source":"polyhaven","style":"realistic","tags":["food","cake","dessert","bakery","frosting","photoscan","pbr"],"upstream_id":"carrot_cake","resolution":"2k"},
-    {"id":"ph-bananas","title":"Ripe bananas, bunch and singles","category":"food/fruit","source":"polyhaven","style":"realistic","tags":["food","fruit","banana","bunch","organic","photoscan","pbr"],"upstream_id":"bananas","resolution":"2k"},
-    {"id":"ph-avocado","title":"Ripe Hass avocado","category":"food/fruit","source":"polyhaven","style":"realistic","tags":["food","fruit","avocado","organic","photoscan","pbr"],"upstream_id":"food_avocado_01","resolution":"2k"},
-    {"id":"ph-kiwi","title":"Photoscanned kiwi fruit","category":"food/fruit","source":"polyhaven","style":"realistic","tags":["food","fruit","kiwi","tropical","organic","photoscan","pbr"],"upstream_id":"food_kiwi_01","resolution":"2k"},
-    {"id":"ph-antique-ceramic-vase","title":"Blue floral antique ceramic vase","category":"decor/vases","source":"polyhaven","style":"realistic","tags":["decor","vase","ceramic","floral","antique","pattern","pbr"],"upstream_id":"antique_ceramic_vase_01","resolution":"2k"},
-    {"id":"ph-ceramic-vase","title":"Modern fluted white ceramic vase","category":"decor/vases","source":"polyhaven","style":"realistic","tags":["decor","vase","ceramic","modern","white","minimal","pbr"],"upstream_id":"ceramic_vase_01","resolution":"2k"},
-    {"id":"ph-encyclopedia-set","title":"Leather-bound encyclopedia set","category":"decor/books","source":"polyhaven","style":"realistic","tags":["books","encyclopedia","leather","library","vintage","set","pbr"],"upstream_id":"book_encyclopedia_set_01","resolution":"2k"},
-    {"id":"ph-binder-notebook","title":"Leather binder notebook with pen","category":"decor/books","source":"polyhaven","style":"realistic","tags":["books","notebook","journal","leather","brass","office","pbr"],"upstream_id":"binder_notebook","resolution":"2k"},
-    {"id":"ph-gothic-cabinet","title":"Carved gothic wooden cabinet","category":"furniture/storage","source":"polyhaven","style":"realistic","tags":["furniture","cabinet","storage","wood","gothic","carved","pbr"],"upstream_id":"GothicCabinet_01","resolution":"2k"},
-    {"id":"ph-painted-cabinet","title":"Weathered painted farmhouse cabinet","category":"furniture/storage","source":"polyhaven","style":"realistic","tags":["furniture","cabinet","storage","wood","farmhouse","worn","pbr"],"upstream_id":"painted_wooden_cabinet","resolution":"2k"},
-    {"id":"ph-wooden-shelf","title":"Distressed wooden bookshelf","category":"furniture/storage","source":"polyhaven","style":"realistic","tags":["furniture","shelf","bookcase","storage","wood","weathered","pbr"],"upstream_id":"Shelf_01","resolution":"2k"},
-    {"id":"ph-gothic-bed","title":"Gothic four-poster wooden bed","category":"furniture/beds","source":"polyhaven","style":"realistic","tags":["furniture","bed","four-poster","wood","gothic","carved","pbr"],"upstream_id":"GothicBed_01","resolution":"2k"},
-    {"id":"ph-day-bed","title":"Vintage day bed with quilt","category":"furniture/beds","source":"polyhaven","style":"realistic","tags":["furniture","bed","day-bed","wood","fabric","vintage","pbr"],"upstream_id":"vintage_day_bed","resolution":"2k"},
-    {"id":"ph-office-desk","title":"Metal pedestal office desk","category":"furniture/desks","source":"polyhaven","style":"realistic","tags":["furniture","desk","office","metal","drawers","mid-century","pbr"],"upstream_id":"metal_office_desk","resolution":"2k"},
-    {"id":"ph-hurricane-lantern","title":"Antique brass hurricane lantern","category":"lighting/lamps","source":"polyhaven","style":"realistic","tags":["lighting","lantern","brass","glass","portable","vintage","pbr"],"upstream_id":"Lantern_01","resolution":"2k"}
+    {
+      "id": "ph-ukulele",
+      "title": "Worn wooden ukulele",
+      "category": "music/instruments",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "music",
+        "instrument",
+        "ukulele",
+        "guitar",
+        "wood",
+        "strings",
+        "pbr"
+      ],
+      "upstream_id": "Ukulele_01",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-vintage-microscope",
+      "title": "Vintage brass microscope",
+      "category": "science/optical",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "science",
+        "microscope",
+        "brass",
+        "optical",
+        "laboratory",
+        "vintage",
+        "pbr"
+      ],
+      "upstream_id": "vintage_microscope",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-vintage-binoculars",
+      "title": "Vintage brass binoculars",
+      "category": "science/optical",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "optical",
+        "binoculars",
+        "brass",
+        "leather",
+        "glass",
+        "vintage",
+        "pbr"
+      ],
+      "upstream_id": "vintage_binocular",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-classic-laptop",
+      "title": "Retro beige laptop computer",
+      "category": "electronics/computing",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "electronics",
+        "computer",
+        "laptop",
+        "retro",
+        "beige",
+        "keyboard",
+        "pbr"
+      ],
+      "upstream_id": "classic_laptop",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-boombox",
+      "title": "Eighties portable boombox",
+      "category": "electronics/audio",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "electronics",
+        "audio",
+        "boombox",
+        "radio",
+        "cassette",
+        "retro",
+        "pbr"
+      ],
+      "upstream_id": "boombox",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-megaphone",
+      "title": "Handheld megaphone",
+      "category": "electronics/audio",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "electronics",
+        "audio",
+        "megaphone",
+        "loudspeaker",
+        "plastic",
+        "pbr"
+      ],
+      "upstream_id": "Megaphone_01",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-ceiling-fan",
+      "title": "Modern ceiling fan with light",
+      "category": "electronics/appliances",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "appliance",
+        "fan",
+        "ceiling",
+        "cooling",
+        "modern",
+        "light",
+        "pbr"
+      ],
+      "upstream_id": "ceiling_fan",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-electric-stove",
+      "title": "Compact electric stove",
+      "category": "electronics/appliances",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "appliance",
+        "stove",
+        "oven",
+        "kitchen",
+        "hotplate",
+        "rigged",
+        "pbr"
+      ],
+      "upstream_id": "electric_stove",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-drill-press",
+      "title": "Vintage workshop drill press",
+      "category": "tools/power-tools",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "tool",
+        "drill-press",
+        "machinery",
+        "workshop",
+        "metal",
+        "vintage",
+        "pbr"
+      ],
+      "upstream_id": "drill_press_01",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-caged-hanging-light",
+      "title": "Industrial caged hanging light",
+      "category": "lighting/ceiling",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "lighting",
+        "pendant",
+        "industrial",
+        "caged",
+        "warehouse",
+        "metal",
+        "pbr"
+      ],
+      "upstream_id": "caged_hanging_light",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-chinese-chandelier",
+      "title": "Carved Chinese wooden chandelier",
+      "category": "lighting/chandeliers",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "lighting",
+        "chandelier",
+        "wood",
+        "carved",
+        "silk",
+        "traditional",
+        "pbr"
+      ],
+      "upstream_id": "chinese_chandelier",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-brass-diya-lantern",
+      "title": "Hanging brass diya lantern",
+      "category": "lighting/lamps",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "lighting",
+        "lantern",
+        "diya",
+        "brass",
+        "glass",
+        "hanging",
+        "pbr"
+      ],
+      "upstream_id": "brass_diya_lantern",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-brass-candleholders",
+      "title": "Ornate brass candleholders",
+      "category": "lighting/lamps",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "lighting",
+        "candlestick",
+        "brass",
+        "ornate",
+        "candles",
+        "vintage",
+        "pbr"
+      ],
+      "upstream_id": "brass_candleholders",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-chinese-cabinet",
+      "title": "Antique Chinese wooden cabinet",
+      "category": "furniture/storage",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "furniture",
+        "cabinet",
+        "storage",
+        "wood",
+        "brass",
+        "traditional",
+        "pbr"
+      ],
+      "upstream_id": "chinese_cabinet",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-gothic-commode",
+      "title": "Gothic carved wooden commode",
+      "category": "furniture/storage",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "furniture",
+        "commode",
+        "drawers",
+        "wood",
+        "gothic",
+        "carved",
+        "pbr"
+      ],
+      "upstream_id": "GothicCommode_01",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-painted-shelves",
+      "title": "Painted farmhouse wall shelves",
+      "category": "furniture/storage",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "furniture",
+        "shelves",
+        "storage",
+        "wood",
+        "farmhouse",
+        "worn",
+        "pbr"
+      ],
+      "upstream_id": "painted_wooden_shelves",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-old-bed-frame",
+      "title": "Vintage metal bed frame",
+      "category": "furniture/beds",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "furniture",
+        "bed",
+        "frame",
+        "metal",
+        "rusty",
+        "vintage",
+        "pbr"
+      ],
+      "upstream_id": "old_bed_frame",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-coffee-cart",
+      "title": "Industrial coffee cart",
+      "category": "furniture/carts",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "furniture",
+        "cart",
+        "trolley",
+        "coffee",
+        "metal",
+        "wheels",
+        "pbr"
+      ],
+      "upstream_id": "CoffeeCart_01",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-wet-floor-sign",
+      "title": "Yellow wet floor caution sign",
+      "category": "industrial/safety",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "safety",
+        "sign",
+        "caution",
+        "plastic",
+        "yellow",
+        "workplace",
+        "pbr"
+      ],
+      "upstream_id": "WetFloorSign_01",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-fire-alarm",
+      "title": "Red fire alarm pull station",
+      "category": "industrial/safety",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "safety",
+        "alarm",
+        "fire",
+        "red",
+        "wall",
+        "emergency",
+        "pbr"
+      ],
+      "upstream_id": "fire_alarm",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-ammo-box",
+      "title": "Weathered metal ammo box",
+      "category": "industrial/containers",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "container",
+        "box",
+        "crate",
+        "metal",
+        "military",
+        "rusted",
+        "pbr"
+      ],
+      "upstream_id": "ammo_box",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-plastic-container",
+      "title": "Industrial plastic storage container",
+      "category": "industrial/containers",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "container",
+        "bin",
+        "storage",
+        "plastic",
+        "industrial",
+        "worn",
+        "pbr"
+      ],
+      "upstream_id": "industrial_pastic_container",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-blue-barrel",
+      "title": "Blue plastic industrial drum",
+      "category": "industrial/containers",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "container",
+        "barrel",
+        "drum",
+        "plastic",
+        "blue",
+        "industrial",
+        "pbr"
+      ],
+      "upstream_id": "Barrel_02",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-steel-frame-shelves",
+      "title": "Industrial steel-frame shelving unit",
+      "category": "furniture/storage",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "shelf",
+        "shelving",
+        "storage",
+        "steel",
+        "wood",
+        "industrial",
+        "warehouse",
+        "pbr"
+      ],
+      "upstream_id": "steel_frame_shelves_01",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-spacecraft-instrument",
+      "title": "Vintage spacecraft instrument panel",
+      "category": "tools/measuring",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "instrument",
+        "panel",
+        "gauge",
+        "retro",
+        "space",
+        "analog",
+        "pbr"
+      ],
+      "upstream_id": "vintage_spacecraft_instrument",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-brass-pot",
+      "title": "Worn brass cooking pot",
+      "category": "kitchen/cookware",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "kitchen",
+        "pot",
+        "cookware",
+        "brass",
+        "wood",
+        "pbr"
+      ],
+      "upstream_id": "brass_pot_02",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-brass-vase",
+      "title": "Engraved antique brass vase",
+      "category": "decor/vases",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "decor",
+        "vase",
+        "brass",
+        "engraved",
+        "antique",
+        "metal",
+        "pbr"
+      ],
+      "upstream_id": "brass_vase_03",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-ceramic-vase-painted",
+      "title": "Painted clay ceramic vase",
+      "category": "decor/vases",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "decor",
+        "vase",
+        "ceramic",
+        "clay",
+        "painted",
+        "modern",
+        "pbr"
+      ],
+      "upstream_id": "ceramic_vase_02",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-lime",
+      "title": "Photoscanned fresh lime",
+      "category": "food/fruit",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "food",
+        "fruit",
+        "lime",
+        "citrus",
+        "organic",
+        "photoscan",
+        "pbr"
+      ],
+      "upstream_id": "food_lime_01",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-lychee",
+      "title": "Photoscanned lychee fruit",
+      "category": "food/fruit",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "food",
+        "fruit",
+        "lychee",
+        "tropical",
+        "organic",
+        "photoscan",
+        "pbr"
+      ],
+      "upstream_id": "food_lychee_01",
+      "resolution": "2k"
+    }
   ]
 }

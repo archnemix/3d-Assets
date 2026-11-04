@@ -136,3 +136,12 @@ fallback kept the whole batch near 160 MB while staying at 2K throughout. Second
 I fixed the duplicated-bullet bug in the category pages rather than leaving it as
 a known cosmetic wart. Small generated-output defects are the kind of thing that
 quietly trains readers to distrust the rest of the documentation.
+
+Before queueing the next wave I dropped `clipboard` from it. Upstream describes
+an engraved logo, and the notebook rejection had just demonstrated exactly how
+that ends. Rather than spend a CI shard rendering something I already expect to
+reject, I verified `steel_frame_shelves_01` through the Poly Haven info endpoint
+(4,348 triangles, no `tmwarn`) and swapped it in. Screening the description before
+intake is cheaper than screening the render after it, but it does not replace the
+render — the notebook's description also said "embossed logo" and I still needed
+the full-size view to confirm how legible the mark actually was.
