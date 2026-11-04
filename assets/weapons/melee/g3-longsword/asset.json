@@ -1,0 +1,335 @@
+{
+  "schema_version": 1,
+  "id": "g3-longsword",
+  "title": "Longsword with brass crossguard",
+  "category": "weapons/melee",
+  "style": "stylized",
+  "tags": [
+    "sword",
+    "blade",
+    "brass",
+    "gem",
+    "weapon",
+    "pbr",
+    "game-ready"
+  ],
+  "batch": "expansion-11",
+  "acquired_at": "2026-11-04T23:11:20.473832+00:00",
+  "review": {
+    "id": "g3-longsword",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. Hand-and-a-half sword with a straight double-fullered steel blade, a swept brass crossguard with swollen terminals, a ribbed leather-bound grip and a disc pommel set with a pale cabochon. The fuller runs the correct length down both faces, the blade tapers to a real point in the top view, and the grip ribbing and pommel gem are present on both sides. Free-standing weapon with no display furniture. Unrigged static prop.",
+    "limitations": [
+      "Stylised Cozy-kit palette rather than photoreal metal.",
+      "Blade, guard and grip are one fused mesh and cannot be disassembled."
+    ],
+    "contact_sheet_sha256": "94f44b79fd6b90734ed19fd9ec13af4536505304a9ac2f12bf57d2566125f7dc",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/longsword.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/longsword/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/weapons/longsword/",
+    "source_id": "longsword",
+    "revision": "c88e7b6c6191fb7f2463b452c7f00970b2a753f2d7882cb7e50364b6fbe53b66",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/longsword/longsword.glb",
+        "bytes": 626220,
+        "sha256": "c88e7b6c6191fb7f2463b452c7f00970b2a753f2d7882cb7e50364b6fbe53b66"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/longsword/LICENSE.txt"
+  },
+  "model": "model/longsword.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/longsword_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "longsword_body_normal"
+    },
+    {
+      "path": "textures/longsword_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "longsword_body_basecolor"
+    },
+    {
+      "path": "textures/longsword_body_metallic-longsword_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "longsword_body_metallic-longsword_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 7123,
+    "triangles": 9720,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "longsword_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "longsword_body_metallic-longsword_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "longsword_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1252,
+      "sha256": "ec39f41138c95f6d69099add52387445929ce93e2d10044ba63a16c2166365ab",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68146,
+      "sha256": "fe0e9b1f4dd04548b5a19c7bfd5e7fe7a1dd4fdcf74a7ca8f6335db7a863e5cf",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/longsword.glb",
+      "bytes": 626220,
+      "sha256": "c88e7b6c6191fb7f2463b452c7f00970b2a753f2d7882cb7e50364b6fbe53b66",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 12195,
+      "sha256": "213aa36f1c7e00dc15f25882a286133891da2d70c5902f0c0714e22f8f3320f1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 11624,
+      "sha256": "ce4c9075e594f823fe0c6d0d611b578917fe41f1a4f66d26f1c758cf8ff59328",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 97209,
+      "sha256": "94f44b79fd6b90734ed19fd9ec13af4536505304a9ac2f12bf57d2566125f7dc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 818,
+      "sha256": "f8c1d7ffc33260b5b619d8379f3565e24b505613a579761d301fa603dc71e3d1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 11092,
+      "sha256": "8b2f3a38abaeb4cdc13b738e57831f31bcea1fcd562bd4b92bd9a50d34b9d863",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 13097,
+      "sha256": "4f0ff0086fd822cdad8817c8ef474b587a2b1d92630f8fb502cb8a90d9daa137",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 14485,
+      "sha256": "dbfaba022870bbd11afcff793d5f334e826c803234aac9872ef932f613297f15",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 13222,
+      "sha256": "c252222c8843b258bc09dd838b3fc2542f6b9c1bdeccd2a387738e2760ca764a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 10719,
+      "sha256": "d18ff51da1ad5e4c7c160a64991cfe8419edf627c66efde4643a614af1a6df3e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 12909,
+      "sha256": "879178d5dd49b6e8a2449c9e304ba1ffa9e58eaa758bd335b47e521ff5e00bd2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 17216,
+      "sha256": "e5fbc8340cc5f45fc688725777550dc841c25488663cb5935f5087f35b00d8ed",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 13095,
+      "sha256": "f73d1e8e4d09612afb7fb5609a4fcf5317f0a62d1e69147efc15d33e00d40eb6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 11971,
+      "sha256": "9ac5a85d29b0dd6a222126fac22b90dbd41ad31747a4c262e4504ff2af5bffed",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 13606,
+      "sha256": "24fa7364a0fd11c0bcd2db0f4b135d1094d27ca4ba7a4c6011dff731dd90db8b",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1929,
+      "sha256": "bbeb4d81185d70e155f666eaffdfae34377bf0d37759f1a47aaa35ad477226e8",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1604,
+      "sha256": "fa537fa6a80075f8f6878dba76cf5424b8bb39169ae8419e5e090676ac257c2d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 466,
+      "sha256": "3071e31c1bc9d6fac83a5bfb38410c4cc18b34913c6a679155dfe66299093bf0",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "945e28a158d878e33df9f8de10f4a35688aa69da07d829ccc3b6ac6b9cb5ac9e",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1053,
+      "sha256": "f2b8e00308cc45a81b6f27c8b08f33e6d3bd7880ac25ba2bb01f9d7dc921471b",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/longsword_body_basecolor.jpg",
+      "bytes": 133092,
+      "sha256": "b5484cc9630f3f5f0426318068f374bde611511820086a9604a3b13a9f109cdc",
+      "role": "textures"
+    },
+    {
+      "path": "textures/longsword_body_metallic-longsword_body_roughness.jpg",
+      "bytes": 137733,
+      "sha256": "f3c41270962b874c08a38e4836bca9864175e68d25ca10a08bda05f2f7c71b46",
+      "role": "textures"
+    },
+    {
+      "path": "textures/longsword_body_normal.jpg",
+      "bytes": 66554,
+      "sha256": "80a0d1a190a05104a216cd2d4454b63c645e06e45e385d9d9a2bea880b57a133",
+      "role": "textures"
+    }
+  ]
+}

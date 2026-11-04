@@ -2,6 +2,16 @@
 
 ## Unreleased
 
+## expansion-11 and authored animations
+
+- **Added 27 further CC0 assets**, bringing the library to **166 approved assets in 53 categories**.
+- **14 rigged characters**: viking, wizard, firefighter, doctor, nurse, chef, farmer, police officer, sci-fi soldier, elderly man, woman, child, teen and an articulated artist's mannequin. Each carries a 54-bone humanoid armature with finger bones plus walk and run clips, and each was checked at 1024px so footwear and headgear could be cleared of real marks.
+- **First melee weapons and armour**: longsword, katana, rapier, dagger, hand axe, mace, flail, halberd, longbow, crossbow, quiver, great helm and breastplate. The helm and cuirass are hollow shells with real wall thickness, so they can actually be worn.
+- **Mechanical animations are now authored in-house.** `rendering/author_animations.py` adds real glTF clips to models whose moving parts are already separate nodes: wheel roll, steering, trailer swing, hinged doors and lids, removable-lid lift, crank, gear, drill-bit and reel spin. The original model is never modified; an `-animated.glb` is written beside it and the catalog exposes `animated_model` and `authored_animations`.
+- **Every clip is rendered as a three-frame verification strip** and reviewed before it ships. That check caught four real defects in the first pass: hinged parts modelled already-open were swinging through their own bodies, a lid-side hinge half was left behind because it pivoted on its own origin, removable pot lids were being flipped off instead of lifted, and all NLA tracks played at once so a wheel-roll check was showing steering. Hinge swings are now calibrated per part, followers are parented to the moving part, removable lids lift, and verification solos one clip at a time.
+- **Rejected 3 on usability, not rights**: `g3-cutlass`, `g3-machete` and `g3-pike` ship welded to a display plaque or plinth as a single mesh with a single material, so the weapon cannot be separated and equipped.
+- Fixed an inventory bug where the animation pass left `animations.json` untracked on assets it found nothing to animate, and added a regression test.
+
 ## expansion-09 and expansion-10
 
 - **Added 55 further CC0 assets**, bringing the library to **139 approved assets in 47 categories**.

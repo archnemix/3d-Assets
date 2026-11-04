@@ -1,0 +1,335 @@
+{
+  "schema_version": 1,
+  "id": "g3-katana",
+  "title": "Katana with cord-wrapped grip",
+  "category": "weapons/melee",
+  "style": "stylized",
+  "tags": [
+    "katana",
+    "sword",
+    "japan",
+    "tsuba",
+    "weapon",
+    "pbr",
+    "game-ready"
+  ],
+  "batch": "expansion-11",
+  "acquired_at": "2026-11-04T23:13:52.490482+00:00",
+  "review": {
+    "id": "g3-katana",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. Katana with a correctly curved single-edge blade, a round brass tsuba, a pale cord-wrapped tsuka with a visible diamond wrap pattern and a brass kashira cap. The curvature is consistent in the top and side views and the wrap pattern continues around the grip. Materials score 4 because the hamon and steel are represented by flat colour rather than a layered shader. Free-standing weapon, unrigged.",
+    "limitations": [
+      "No saya (scabbard) is included.",
+      "The blade is fused to the hilt and cannot be drawn or separated."
+    ],
+    "contact_sheet_sha256": "7d9db126b8dddf99fcca127805210b522be52e28fd7d104c810b72271a8e4898",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/katana.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/katana/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/weapons/katana/",
+    "source_id": "katana",
+    "revision": "c364470aa005db4efd04b205a0b0fa2c55d8bc8f9318e896611ca5f3792deb1d",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/katana/katana.glb",
+        "bytes": 736356,
+        "sha256": "c364470aa005db4efd04b205a0b0fa2c55d8bc8f9318e896611ca5f3792deb1d"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/katana/LICENSE.txt"
+  },
+  "model": "model/katana.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/katana_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "katana_body_normal"
+    },
+    {
+      "path": "textures/katana_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "katana_body_basecolor"
+    },
+    {
+      "path": "textures/katana_body_metallic-katana_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "katana_body_metallic-katana_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 6965,
+    "triangles": 9624,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "katana_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "katana_body_metallic-katana_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "katana_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1217,
+      "sha256": "57ac7220b1183ca1e3a508e16a7739f72600f57f687f95b5f349d3834ff1e2aa",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67662,
+      "sha256": "a63665a76eb90794f09d322c73b6b278b76947f038e07fcdd03b0adb32ffcedf",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/katana.glb",
+      "bytes": 736356,
+      "sha256": "c364470aa005db4efd04b205a0b0fa2c55d8bc8f9318e896611ca5f3792deb1d",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 11853,
+      "sha256": "4b94a63c97d5dbc30456305e4dbe0b44a05fdc23a448abeeaf9ac31e5f375325",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 11676,
+      "sha256": "40c8d4df0f6c9b7677c2b2a737fe7dd92d6a6e76a417b1d08f6d162c8bfdfd6d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 93016,
+      "sha256": "7d9db126b8dddf99fcca127805210b522be52e28fd7d104c810b72271a8e4898",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 806,
+      "sha256": "68ca9a5f72f908cbd19508f9c26539672b1cc600fa51414f9146a662ee97c62b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 10920,
+      "sha256": "16686499310c5a9cb8ff9bed51a21d7c0370fa589af04833d185e2d3e78f351c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 12245,
+      "sha256": "232df7ae279f3dc5ea596054f37f3dcba09a201f7885eeeba5bf48fcf003498f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 13243,
+      "sha256": "4dc67aa2269407a1171be933637838f3e34a5dd091d7158e88e225ad60011f15",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 12869,
+      "sha256": "818e55d388790770707d6dc6d7c2141838db4b315ed0b2649077560c310e8841",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 10722,
+      "sha256": "665e50b34824d17c0f2238b9a721467903094fd4543399fbaf651428516a0651",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 12289,
+      "sha256": "d4d7b5552ddc10058a43d613e09e87970ce5d56bf82a255228b18c655767f828",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 16890,
+      "sha256": "acf0477ef6b67979c348432844a8b3e1232e4df1d3497ae63d62044b84bdffab",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 11962,
+      "sha256": "f04284f0ff61ce6d6f7b8a239609a7f85a2c72dc1e41aaf2a22c848b08f97a99",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 11396,
+      "sha256": "b2fb06054d6a6a4d00a05c6480ec94218bb2d4028d2a9590750d0e860ca8f9cc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 12582,
+      "sha256": "748d40457ccca225b9d847267ab9a3c875fd1a666274ccd92c358aed06eb966a",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1926,
+      "sha256": "2f5ab9a2a921f9f823a3c4b26aef4e80e7616413516555bbed1ce63af1d5bf76",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1597,
+      "sha256": "6e28065d5da228713a53373353863cb8da8e23b345dc54e845b7255f4208f990",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 442,
+      "sha256": "d626c47a5b1486d2d88b1d1f61cfb81108d5eaf0b26cce61de1ffeddad9b0c6a",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "6fd4840c8864a46a5a28037b7693fb19013a344be1dd25a6e50541ee7a45fb90",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 999,
+      "sha256": "6d4e02606cbcd62ca17d245a555c7ded9c09514b21276177b2ace7f030cd1a6e",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/katana_body_basecolor.jpg",
+      "bytes": 170531,
+      "sha256": "57aa2584e79cde7c27bf3beee24bd8f20967de650fb5936d1c27f1ac9c0d391b",
+      "role": "textures"
+    },
+    {
+      "path": "textures/katana_body_metallic-katana_body_roughness.jpg",
+      "bytes": 216258,
+      "sha256": "b6a0b220891449a14bcc55331f1ba3337f2c93f3bac7f935e8d6a8f2f7ab6245",
+      "role": "textures"
+    },
+    {
+      "path": "textures/katana_body_normal.jpg",
+      "bytes": 66375,
+      "sha256": "3b4a485ea2f17ba2898d523fc970c0c468f906791de4b77abd335112139b4556",
+      "role": "textures"
+    }
+  ]
+}

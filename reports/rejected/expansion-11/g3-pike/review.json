@@ -1,0 +1,20 @@
+{
+  "id": "g3-pike",
+  "decision": "rejected",
+  "scores": {
+    "silhouette": 4,
+    "materials": 4,
+    "topology": 5,
+    "completeness": 2,
+    "style_fit": 3
+  },
+  "notes": "All 12 views inspected. Rejected on usability, not rights. The upstream model is a wall/floor display piece: the pike with langets is welded to a wide circular wooden floor plinth. The GLB contains a single mesh with a single material and no separate node for the furniture, so the stand cannot be hidden, deleted or unparented without destructive mesh surgery. The bottom view is entirely the stand. A weapon that cannot be separated from its plinth cannot be equipped, holstered or held by a character, which is the primary use for this category. The sculpt and materials themselves are clean.",
+  "limitations": [],
+  "contact_sheet_sha256": "64b81bec82785d9bfd6af039e9869e1f079abef207ecfe1da2b6c1b3acd08d42",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports",
+  "status": "rejected",
+  "approved": false
+}

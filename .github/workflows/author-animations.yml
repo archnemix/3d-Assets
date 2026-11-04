@@ -3,7 +3,7 @@ name: Author mechanical animations
 on:
   push:
     branches: ['arena/6f1c607a-3d-assets']
-    paths: ['automation/animate-retrofit-01.json']
+    paths: ['automation/animate-request.json']
 
 permissions:
   contents: write
@@ -32,9 +32,9 @@ jobs:
       - run: pip install -r requirements.txt
       - id: plan
         run: |
-          python -m asset_library animate-plan automation/animate-retrofit-01.json
-          echo "matrix=$(python -m asset_library animate-matrix automation/animate-retrofit-01.json)" >> "$GITHUB_OUTPUT"
-          echo "batch=$(python -c 'import json; print(json.load(open("automation/animate-retrofit-01.json"))["batch"])')" >> "$GITHUB_OUTPUT"
+          python -m asset_library animate-plan automation/animate-request.json
+          echo "matrix=$(python -m asset_library animate-matrix automation/animate-request.json)" >> "$GITHUB_OUTPUT"
+          echo "batch=$(python -c 'import json; print(json.load(open("automation/animate-request.json"))["batch"])')" >> "$GITHUB_OUTPUT"
 
   animate:
     needs: plan
@@ -70,7 +70,7 @@ jobs:
           mkdir -p "reports/animations/$BATCH"
           set -o pipefail
           set +e
-          python -m asset_library animate automation/animate-retrofit-01.json --shard "$SHARD" 2>&1 | tee "reports/animations/$BATCH/worker-$SHARD.log"
+          python -m asset_library animate automation/animate-request.json --shard "$SHARD" 2>&1 | tee "reports/animations/$BATCH/worker-$SHARD.log"
           result=${PIPESTATUS[0]}
           echo "exit_code=$result" >> "$GITHUB_OUTPUT"
           exit "$result"

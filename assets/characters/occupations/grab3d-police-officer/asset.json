@@ -1,0 +1,374 @@
+{
+  "schema_version": 1,
+  "id": "grab3d-police-officer",
+  "title": "Police officer in uniform and vest",
+  "category": "characters/occupations",
+  "style": "realistic",
+  "tags": [
+    "police",
+    "uniform",
+    "vest",
+    "radio",
+    "duty-belt",
+    "rigged",
+    "character",
+    "humanoid",
+    "walk",
+    "run",
+    "pbr"
+  ],
+  "batch": "expansion-11",
+  "acquired_at": "2026-11-04T23:07:36.391332+00:00",
+  "review": {
+    "id": "grab3d-police-officer",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. Officer in a navy uniform with a black plate carrier holding modelled magazine pouches, a shoulder radio, a duty belt with holster and pouches, cargo trousers and black boots. A high-resolution crop of the head confirms the peaked cap is completely plain: no cap badge, force crest, shoulder patch or legible POLICE lettering anywhere, so there is no real-world insignia to clear. The carrier webbing, belt and rear trouser pockets are complete from all sides. Rigged: 54-bone humanoid armature (24 body + 30 finger bones), walk and run clips, zero unweighted skinned vertices.",
+    "limitations": [
+      "AI-assisted origin is disclosed upstream (origin.ai_content); some storefronts require an AI-content disclosure when you resell.",
+      "Generic uniform with no insignia; it does not depict any specific real police force.",
+      "The vest and holster are fused to the body; the sidearm cannot be drawn."
+    ],
+    "contact_sheet_sha256": "9d9737f59e24011ae28afcec425987d95165eecb0a80be74a46ad8d6a1680987",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/police-officer-rigged.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/police-officer-rigged/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/characters/police-officer/",
+    "source_id": "police-officer-rigged",
+    "revision": "780fc5d096fa8fa7840149cf240854e0dcc48d14b95c12d2a7b63a68ed73ffb5",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/police-officer-rigged/police-officer-rigged.glb",
+        "bytes": 13320104,
+        "sha256": "e29c967602d9b13c4050aceb9dac413d17f98f072b8fbe2345bd47911e0753d6"
+      }
+    ],
+    "repairs": [
+      {
+        "repair": "normalize-skin-weights",
+        "checked_vertices": 173182,
+        "normalized_vertices": 6831,
+        "max_sum_delta": 0.00017753615975379944,
+        "accessors": [
+          4
+        ],
+        "original_sha256": "e29c967602d9b13c4050aceb9dac413d17f98f072b8fbe2345bd47911e0753d6",
+        "repaired_sha256": "780fc5d096fa8fa7840149cf240854e0dcc48d14b95c12d2a7b63a68ed73ffb5"
+      }
+    ],
+    "origin": {
+      "method": "ai-assisted",
+      "detail": "Base mesh and textures generated with an AI image-to-3D tool (Meshy), then cleaned up, scaled, textured and checked in Blender. Skeleton, skinning and the walk and run clips were added automatically with Meshy Auto-Rig.",
+      "ai_content": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/police-officer-rigged/LICENSE.txt"
+  },
+  "model": "model/police-officer-rigged.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 1,
+    "animations": [
+      "run",
+      "walk"
+    ],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/rig_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "rig_normal"
+    },
+    {
+      "path": "textures/rig_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "rig_basecolor"
+    },
+    {
+      "path": "textures/rig_metallic-rig_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "rig_metallic-rig_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 1,
+    "vertices": 173182,
+    "triangles": 267417,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [
+      {
+        "name": "Armature",
+        "bones": 24
+      }
+    ],
+    "actions": [
+      "run_Armature",
+      "walk_Armature"
+    ],
+    "images": [
+      {
+        "name": "rig_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "rig_metallic-rig_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "rig_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 758,
+      "sha256": "66eda0cadb138a0b94a4c7b850ee0e074b537d66368cd41cd312ba8f23d65347",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1451,
+      "sha256": "9e28c8590d9a548ca678142654e0c2e7509d9f7e32df5649d4856e3e0efadd93",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 78944,
+      "sha256": "d48ea0e0d07519e78a8bdd5d507c39f8a2570295836f14175d0f5b0bba61f1e6",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "2a9a229f8bb2ed821581e94782406b1f4a42c4f9a9e024e1cc719a6265cfa1b4",
+      "role": "logs"
+    },
+    {
+      "path": "model/police-officer-rigged.glb",
+      "bytes": 13320104,
+      "sha256": "780fc5d096fa8fa7840149cf240854e0dcc48d14b95c12d2a7b63a68ed73ffb5",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 25746,
+      "sha256": "0bbc9d7cc320fe1b1d04ec2f049890d0e9be1a2a12e82c083d5057ffe04c48d7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 21924,
+      "sha256": "3cc6e535e293f55112be8d75a4425549fb10aed9e97c1df15b8fd544588c80a7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 200196,
+      "sha256": "9d9737f59e24011ae28afcec425987d95165eecb0a80be74a46ad8d6a1680987",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 880,
+      "sha256": "44a40a6f14715b43d776acf69c99f608fdb2aa85eea56cc52a4736e763241958",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 29669,
+      "sha256": "bb4e5d206b5ee03821aeec8543d8ff2306f2d8563546b1da66d464cac884f308",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 26934,
+      "sha256": "319842271305219593f594a69cbb5505bc374313b53001eeccd99e1ddaaaf24a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 20298,
+      "sha256": "d54d8bd3b745a1581b89e85d5907cb6fde7be2c197675fc72ca635598f56f2e8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 25428,
+      "sha256": "f4a9f034ace61bb034998eb50629fda04cfea7e012c3b24e1bb0cdf329d71ff7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 27097,
+      "sha256": "daf6669750144776525b78c392278e48e10ef533857fd0a6329172b4a9fd2374",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 25820,
+      "sha256": "bbc1ccfe7481060bed8be43f6a9cceff1e39dd30d2d19a373151cf70e01205e3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 21040,
+      "sha256": "84e1e33da5ed4888065fcb70282714af9d4df7ea76ae6a5cd0d7b0e6e8a35f64",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 27410,
+      "sha256": "571dec37efe2c13e91b048c25097a82b932b02cbf9d01f3156e6f4b8aeec18bf",
+      "role": "previews"
+    },
+    {
+      "path": "previews/portrait-front.jpg",
+      "bytes": 73377,
+      "sha256": "5f0aabbff904c12c4deef8c9f9ba3d130317d509c34f5c4ac21494072e93cea3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/portrait-three-quarter.jpg",
+      "bytes": 73902,
+      "sha256": "6cb613ca520c3f2a8127225d46ca9ff16588a0f67eb1cd88c83609a40c61ffd8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 20703,
+      "sha256": "1d22b8242f4c89bf0f0d018d4a6098d67739d3bab5ceff712bbb4955734464ca",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 605,
+      "sha256": "17cecff55276c72770bd0180bda17de448577e84122c101e86167c75d8d98afd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 46160,
+      "sha256": "c2ff0dd27c5b4d90f742442bfceba34f6773625b84bd4d0a69150d4801377d8a",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2162,
+      "sha256": "05f6acc550911b146d21230edff969f7bbc81c241f925ef16e4d65af33472de6",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1105,
+      "sha256": "485b7b15923edf9d6be53379ee6c95ebb51566677270360841ce4613abc62e95",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 560,
+      "sha256": "6cbf465be2712db084b41db5a05107617b246e071c2055b453c5f9056d1724c9",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 351,
+      "sha256": "cb9e0ccb03f3128ce0356c314a3f2adf612e397448538efa2b65472cd7c863e0",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1387,
+      "sha256": "9cfe09641470833277f2abebcc55a3b1110fba056cc97516da2ad0726ee140eb",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/rig_basecolor.jpg",
+      "bytes": 395507,
+      "sha256": "aa618540a4a48d638bb19caf7b4136e5bb949d2d9b87529a73298a56f952c593",
+      "role": "textures"
+    },
+    {
+      "path": "textures/rig_metallic-rig_roughness.jpg",
+      "bytes": 266819,
+      "sha256": "3ea73d11b42585ac0a937207646a5b9db87a5be8852ff0e3658002fbf77874ff",
+      "role": "textures"
+    },
+    {
+      "path": "textures/rig_normal.jpg",
+      "bytes": 389183,
+      "sha256": "b5ba22c9a9fa9d29a68e1b488533c0160a194e5c7b59100a8d3ac1b8db537236",
+      "role": "textures"
+    }
+  ]
+}

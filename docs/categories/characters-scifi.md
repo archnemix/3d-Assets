@@ -2,7 +2,7 @@
 
 Rigged science-fiction characters such as androids and astronauts
 
-Approved assets: **4**
+Approved assets: **5**
 
 ## Porcelain shell android
 
@@ -35,4 +35,12 @@ Approved assets: **4**
 - Creator: Grab3D; style: realistic; CC0-1.0
 - 300,000 triangles; 3 texture images
 - [Asset folder](../../assets/characters/scifi/grab3d-grey-alien/) · [Metadata](../../assets/characters/scifi/grab3d-grey-alien/asset.json) · [All inspection views](../../assets/characters/scifi/grab3d-grey-alien/previews/contact-sheet.jpg)
+
+## Sci-fi soldier in powered armour
+
+![Sci-fi soldier in powered armour](../../assets/characters/scifi/grab3d-scifi-soldier/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: realistic; CC0-1.0
+- 238,850 triangles; 3 texture images
+- [Asset folder](../../assets/characters/scifi/grab3d-scifi-soldier/) · [Metadata](../../assets/characters/scifi/grab3d-scifi-soldier/asset.json) · [All inspection views](../../assets/characters/scifi/grab3d-scifi-soldier/previews/contact-sheet.jpg)
 

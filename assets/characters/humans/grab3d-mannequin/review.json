@@ -1,0 +1,22 @@
+{
+  "id": "grab3d-mannequin",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 4
+  },
+  "notes": "All 12 views inspected. Articulated wooden artist's mannequin with a pale lacquered body, darker wood ball joints at the shoulders, elbows, wrists, hips, knees and ankles, a separate head ovoid, a segmented torso and shaped hands and feet. Every ball joint is real geometry with a visible gap rather than a painted circle, and the joints read correctly from all eight orbits. Style fit is 4 because it is a plain reference figure by design rather than a detailed character. Rigged: 54-bone humanoid armature (24 body + 30 finger bones), walk and run clips, zero unweighted skinned vertices.",
+  "limitations": [
+    "AI-assisted origin is disclosed upstream (origin.ai_content); some storefronts require an AI-content disclosure when you resell.",
+    "The mannequin is rigged with the standard humanoid skeleton, so its ball joints are driven by bones rather than being separate props.",
+    "Deliberately featureless face."
+  ],
+  "contact_sheet_sha256": "3afd5b93e7f333782dcb8b2a82908bec88624a34b4822824a40f0f45522b2dcf",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

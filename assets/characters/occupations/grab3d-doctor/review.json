@@ -1,0 +1,22 @@
+{
+  "id": "grab3d-doctor",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 4
+  },
+  "notes": "All 12 views inspected. Doctor with swept brown hair, a beard and wire glasses, wearing an open white lab coat over blue scrubs, a stethoscope around the neck, a pen pocket and plain white trainers. The coat has a proper back vent, collar and lapels, and the rear views confirm the coat and scrub trousers continue cleanly. A close crop of the footwear confirms the trainers are unbranded: white uppers with a blue sole and no logo or swoosh. Proportions are deliberately stylised with long legs, which is why style fit is 4 against a realism-first brief. Rigged: 54-bone humanoid armature (24 body + 30 finger bones), walk and run clips, zero unweighted skinned vertices.",
+  "limitations": [
+    "AI-assisted origin is disclosed upstream (origin.ai_content); some storefronts require an AI-content disclosure when you resell.",
+    "Stylised body proportions; not a photoreal human.",
+    "The lab coat is skinned, not simulated, and cannot be removed."
+  ],
+  "contact_sheet_sha256": "78b6b9afbab8598e1dc213561c242c9da448c3b85ab190c28a6d42aea6096a50",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

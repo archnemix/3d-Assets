@@ -2,7 +2,7 @@
 
 Checked on 2026-11-04. Scope: approved assets under assets/ only.
 
-**139 of 139 approved assets pass every check.**
+**166 of 166 approved assets pass every check.**
 
 Every approved asset is dedicated to the public domain under CC0 1.0. For each one
 that means: no cost, no attribution, commercial use allowed, use and redistribution
@@ -19,6 +19,8 @@ standalone. "Display" means showing the model and our own renders publicly.
 
 | Asset | Category | Creator / source | License | Free | Credit | Sell with it | Use as-is | Display |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Steel breastplate with brass trim](../assets/armour/body/g3-breastplate/README.md) | `armour/body` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Great helm with breathing rosettes](../assets/armour/head/g3-great-helm/README.md) | `armour/head` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Knight in silver and gold plate](../assets/characters/fantasy/grab3d-armored-knight/README.md) | `characters/fantasy` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Dwarf gem cutter with loupe](../assets/characters/fantasy/grab3d-dwarf/README.md) | `characters/fantasy` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Elf cartographer with map tube](../assets/characters/fantasy/grab3d-elf/README.md) | `characters/fantasy` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -26,24 +28,38 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Orc warrior in steppe coat with quiver](../assets/characters/fantasy/grab3d-orc/README.md) | `characters/fantasy` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Mossy bridge troll](../assets/characters/fantasy/grab3d-troll/README.md) | `characters/fantasy` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Herbalist witch with potion jars](../assets/characters/fantasy/grab3d-witch/README.md) | `characters/fantasy` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Old wizard in star-patterned robe](../assets/characters/fantasy/grab3d-wizard/README.md) | `characters/fantasy` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Viking with braided beard and axe](../assets/characters/historical/grab3d-viking/README.md) | `characters/historical` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Toddler in knitted romper](../assets/characters/humans/grab3d-baby-toddler/README.md) | `characters/humans` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Businessman in pinstripe suit](../assets/characters/humans/grab3d-businessman/README.md) | `characters/humans` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Casual man in bomber jacket](../assets/characters/humans/grab3d-casual-man/README.md) | `characters/humans` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Casual woman in blazer and wide-leg trousers](../assets/characters/humans/grab3d-casual-woman/README.md) | `characters/humans` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Child in yellow raincoat and rain boots](../assets/characters/humans/grab3d-child-raincoat/README.md) | `characters/humans` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Desert queen with headdress](../assets/characters/humans/grab3d-desert-queen/README.md) | `characters/humans` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Elderly man in flat cap and cardigan](../assets/characters/humans/grab3d-elderly-man/README.md) | `characters/humans` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Realistic elderly woman, rigged](../assets/characters/humans/grab3d-elderly-woman/README.md) | `characters/humans` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Realistic adult male base character, rigged](../assets/characters/humans/grab3d-man-base-character/README.md) | `characters/humans` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Stylized artist mannequin](../assets/characters/humans/grab3d-mannequin/README.md) | `characters/humans` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Ninja in indigo wraps](../assets/characters/humans/grab3d-ninja/README.md) | `characters/humans` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Pirate captain with cutlass](../assets/characters/humans/grab3d-pirate-captain/README.md) | `characters/humans` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Samurai in lacquered armour](../assets/characters/humans/grab3d-samurai/README.md) | `characters/humans` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Modern soldier in digital camouflage](../assets/characters/humans/grab3d-soldier/README.md) | `characters/humans` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Teen in t-shirt and cargo shorts](../assets/characters/humans/grab3d-teen/README.md) | `characters/humans` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Winter king in ermine cape](../assets/characters/humans/grab3d-winter-king/README.md) | `characters/humans` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Realistic adult female base character, rigged](../assets/characters/humans/grab3d-woman-base-character/README.md) | `characters/humans` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Kenney mini female character](../assets/characters/humans/kenney-female-character/README.md) | `characters/humans` | Kenney (kenney) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Kenney mini male character](../assets/characters/humans/kenney-male-character/README.md) | `characters/humans` | Kenney (kenney) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Chef in toque and apron](../assets/characters/occupations/grab3d-chef/README.md) | `characters/occupations` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Doctor in lab coat with stethoscope](../assets/characters/occupations/grab3d-doctor/README.md) | `characters/occupations` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Farmer in overalls and straw hat](../assets/characters/occupations/grab3d-farmer/README.md) | `characters/occupations` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Firefighter in turnout gear](../assets/characters/occupations/grab3d-firefighter/README.md) | `characters/occupations` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Nurse in scrubs with stethoscope](../assets/characters/occupations/grab3d-nurse/README.md) | `characters/occupations` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Police officer in uniform and vest](../assets/characters/occupations/grab3d-police-officer/README.md) | `characters/occupations` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Porcelain shell android](../assets/characters/scifi/grab3d-android/README.md) | `characters/scifi` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Astronaut in EVA spacesuit](../assets/characters/scifi/grab3d-astronaut/README.md) | `characters/scifi` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Cyborg with prosthetic limbs](../assets/characters/scifi/grab3d-cyborg/README.md) | `characters/scifi` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Grey alien in fitted suit](../assets/characters/scifi/grab3d-grey-alien/README.md) | `characters/scifi` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Sci-fi soldier in powered armour](../assets/characters/scifi/grab3d-scifi-soldier/README.md) | `characters/scifi` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Leather-bound encyclopedia set](../assets/decor/books/ph-encyclopedia-set/README.md) | `decor/books` | John Malcolm (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Blue floral antique ceramic vase](../assets/decor/vases/ph-antique-ceramic-vase/README.md) | `decor/vases` | James Ray Cock (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Engraved antique brass vase](../assets/decor/vases/ph-brass-vase/README.md) | `decor/vases` | Rico Cilliers (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -158,6 +174,17 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [WW2 wooden stick grenade](../assets/weapons/explosives/ph-stick-grenade/README.md) | `weapons/explosives` | singaii (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Weathered bolt-action 7.62 rifle](../assets/weapons/firearms/ph-bolt-action-rifle/README.md) | `weapons/firearms` | Mateusz Sadek (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Worn semi-automatic service pistol](../assets/weapons/firearms/ph-service-pistol/README.md) | `weapons/firearms` | Mateusz Sadek (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Dagger with gemmed pommel](../assets/weapons/melee/g3-dagger/README.md) | `weapons/melee` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Chain flail](../assets/weapons/melee/g3-flail/README.md) | `weapons/melee` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Halberd with tassel](../assets/weapons/melee/g3-halberd/README.md) | `weapons/melee` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Bearded hand axe](../assets/weapons/melee/g3-hand-axe/README.md) | `weapons/melee` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Katana with cord-wrapped grip](../assets/weapons/melee/g3-katana/README.md) | `weapons/melee` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Longsword with brass crossguard](../assets/weapons/melee/g3-longsword/README.md) | `weapons/melee` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Flanged mace](../assets/weapons/melee/g3-mace/README.md) | `weapons/melee` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Rapier with swept brass hilt](../assets/weapons/melee/g3-rapier/README.md) | `weapons/melee` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Crossbow with loaded bolt](../assets/weapons/ranged/g3-crossbow/README.md) | `weapons/ranged` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Ash longbow](../assets/weapons/ranged/g3-longbow/README.md) | `weapons/ranged` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Leather quiver with arrows](../assets/weapons/ranged/g3-quiver/README.md) | `weapons/ranged` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 
 ## What CC0 does not cover
 
@@ -172,7 +199,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 
 ### Grab3D — `grab3d`
 
-33 approved assets. Status: **verified**.
+60 approved assets. Status: **verified**.
 
 - Terms: <https://grab3d.com/license/>
 - Pinned evidence: <https://grab3d.com/license/>
@@ -214,35 +241,62 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [1960s sports car](../assets/vehicles/cars/g3-1960s-sports-car/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [1980s wedge sports car](../assets/vehicles/cars/g3-1980s-sports-car/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [1990s police patrol car](../assets/vehicles/cars/g3-1990s-police-car/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Steel breastplate with brass trim](../assets/armour/body/g3-breastplate/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Car engine block assembly](../assets/vehicles/parts/g3-car-engine/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Car tyre with tread pattern](../assets/vehicles/parts/g3-car-tire/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Double-deck car transporter](../assets/vehicles/trucks/g3-car-transporter/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Small hatchback compact car](../assets/vehicles/cars/g3-compact-car/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Crossbow with loaded bolt](../assets/weapons/ranged/g3-crossbow/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Dagger with gemmed pommel](../assets/weapons/melee/g3-dagger/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Compact electric city car](../assets/vehicles/cars/g3-electric-car/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Chain flail](../assets/weapons/melee/g3-flail/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Great helm with breathing rosettes](../assets/armour/head/g3-great-helm/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Halberd with tassel](../assets/weapons/melee/g3-halberd/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Bearded hand axe](../assets/weapons/melee/g3-hand-axe/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Katana with cord-wrapped grip](../assets/weapons/melee/g3-katana/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Ash longbow](../assets/weapons/ranged/g3-longbow/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Longsword with brass crossguard](../assets/weapons/melee/g3-longsword/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Flanged mace](../assets/weapons/melee/g3-mace/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Classic fastback muscle car](../assets/vehicles/cars/g3-muscle-car/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Leather quiver with arrows](../assets/weapons/ranged/g3-quiver/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Rally car with roof scoop](../assets/vehicles/cars/g3-rally-car/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Rapier with swept brass hilt](../assets/weapons/melee/g3-rapier/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Porcelain shell android](../assets/characters/scifi/grab3d-android/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Knight in silver and gold plate](../assets/characters/fantasy/grab3d-armored-knight/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Astronaut in EVA spacesuit](../assets/characters/scifi/grab3d-astronaut/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Toddler in knitted romper](../assets/characters/humans/grab3d-baby-toddler/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Businessman in pinstripe suit](../assets/characters/humans/grab3d-businessman/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Casual man in bomber jacket](../assets/characters/humans/grab3d-casual-man/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Casual woman in blazer and wide-leg trousers](../assets/characters/humans/grab3d-casual-woman/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Chef in toque and apron](../assets/characters/occupations/grab3d-chef/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Child in yellow raincoat and rain boots](../assets/characters/humans/grab3d-child-raincoat/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Cyborg with prosthetic limbs](../assets/characters/scifi/grab3d-cyborg/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Desert queen with headdress](../assets/characters/humans/grab3d-desert-queen/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Doctor in lab coat with stethoscope](../assets/characters/occupations/grab3d-doctor/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Dwarf gem cutter with loupe](../assets/characters/fantasy/grab3d-dwarf/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Elderly man in flat cap and cardigan](../assets/characters/humans/grab3d-elderly-man/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Realistic elderly woman, rigged](../assets/characters/humans/grab3d-elderly-woman/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Elf cartographer with map tube](../assets/characters/fantasy/grab3d-elf/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Farmer in overalls and straw hat](../assets/characters/occupations/grab3d-farmer/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Firefighter in turnout gear](../assets/characters/occupations/grab3d-firefighter/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Goblin tinkerer with goggles](../assets/characters/fantasy/grab3d-goblin/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Grey alien in fitted suit](../assets/characters/scifi/grab3d-grey-alien/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Realistic adult male base character, rigged](../assets/characters/humans/grab3d-man-base-character/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Stylized artist mannequin](../assets/characters/humans/grab3d-mannequin/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Ninja in indigo wraps](../assets/characters/humans/grab3d-ninja/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Nurse in scrubs with stethoscope](../assets/characters/occupations/grab3d-nurse/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Orc warrior in steppe coat with quiver](../assets/characters/fantasy/grab3d-orc/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Pirate captain with cutlass](../assets/characters/humans/grab3d-pirate-captain/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Police officer in uniform and vest](../assets/characters/occupations/grab3d-police-officer/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Samurai in lacquered armour](../assets/characters/humans/grab3d-samurai/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Sci-fi soldier in powered armour](../assets/characters/scifi/grab3d-scifi-soldier/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Modern soldier in digital camouflage](../assets/characters/humans/grab3d-soldier/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Teen in t-shirt and cargo shorts](../assets/characters/humans/grab3d-teen/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Mossy bridge troll](../assets/characters/fantasy/grab3d-troll/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Viking with braided beard and axe](../assets/characters/historical/grab3d-viking/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Winter king in ermine cape](../assets/characters/humans/grab3d-winter-king/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Herbalist witch with potion jars](../assets/characters/fantasy/grab3d-witch/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Old wizard in star-patterned robe](../assets/characters/fantasy/grab3d-wizard/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Realistic adult female base character, rigged](../assets/characters/humans/grab3d-woman-base-character/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Kenney stylized apple](../assets/food/fruit/kenney-apple/README.md) | Third-party GLB conversion of a Kenney pack; conversion and embedded textures are also CC0. |
 | [Kenney coffee table](../assets/furniture/tables/kenney-coffee-table/README.md) | Third-party GLB conversion of a Kenney pack; conversion and embedded textures are also CC0. |
@@ -261,19 +315,19 @@ Every check below is machine-verified by `python -m asset_library license-audit`
 
 | Check | Passing |
 | --- | --- |
-| `cc0_spdx` | 139/139 |
-| `cc0_text_present` | 139/139 |
-| `commercial_use_allowed` | 139/139 |
-| `evidence_recorded` | 139/139 |
-| `free_of_charge` | 139/139 |
-| `license_file_checksummed` | 139/139 |
-| `no_attribution_required` | 139/139 |
-| `no_trademark_warning` | 139/139 |
-| `redistribution_allowed` | 139/139 |
-| `source_terms_verified` | 139/139 |
-| `standalone_resale_permitted` | 139/139 |
-| `textures_included` | 139/139 |
-| `visually_approved` | 139/139 |
+| `cc0_spdx` | 166/166 |
+| `cc0_text_present` | 166/166 |
+| `commercial_use_allowed` | 166/166 |
+| `evidence_recorded` | 166/166 |
+| `free_of_charge` | 166/166 |
+| `license_file_checksummed` | 166/166 |
+| `no_attribution_required` | 166/166 |
+| `no_trademark_warning` | 166/166 |
+| `redistribution_allowed` | 166/166 |
+| `source_terms_verified` | 166/166 |
+| `standalone_resale_permitted` | 166/166 |
+| `textures_included` | 166/166 |
+| `visually_approved` | 166/166 |
 
 ## Evidence per asset
 
@@ -285,35 +339,62 @@ Each row links to the license file stored beside the model and to the exact
 | g3-1960s-sports-car | [LICENSE.txt](../assets/vehicles/cars/g3-1960s-sports-car/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/1960s-sports-car/) | [evidence](https://grab3d.com/dl/1960s-sports-car/LICENSE.txt) |
 | g3-1980s-sports-car | [LICENSE.txt](../assets/vehicles/cars/g3-1980s-sports-car/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/1980s-sports-car/) | [evidence](https://grab3d.com/dl/1980s-sports-car/LICENSE.txt) |
 | g3-1990s-police-car | [LICENSE.txt](../assets/vehicles/cars/g3-1990s-police-car/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/1990s-police-car/) | [evidence](https://grab3d.com/dl/1990s-police-car/LICENSE.txt) |
+| g3-breastplate | [LICENSE.txt](../assets/armour/body/g3-breastplate/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/characters/breastplate/) | [evidence](https://grab3d.com/dl/breastplate/LICENSE.txt) |
 | g3-car-engine | [LICENSE.txt](../assets/vehicles/parts/g3-car-engine/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/car-engine/) | [evidence](https://grab3d.com/dl/car-engine/LICENSE.txt) |
 | g3-car-tire | [LICENSE.txt](../assets/vehicles/parts/g3-car-tire/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/car-tire/) | [evidence](https://grab3d.com/dl/car-tire/LICENSE.txt) |
 | g3-car-transporter | [LICENSE.txt](../assets/vehicles/trucks/g3-car-transporter/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/car-transporter/) | [evidence](https://grab3d.com/dl/car-transporter/LICENSE.txt) |
 | g3-compact-car | [LICENSE.txt](../assets/vehicles/cars/g3-compact-car/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/compact-car/) | [evidence](https://grab3d.com/dl/compact-car/LICENSE.txt) |
+| g3-crossbow | [LICENSE.txt](../assets/weapons/ranged/g3-crossbow/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/weapons/crossbow/) | [evidence](https://grab3d.com/dl/crossbow/LICENSE.txt) |
+| g3-dagger | [LICENSE.txt](../assets/weapons/melee/g3-dagger/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/weapons/dagger/) | [evidence](https://grab3d.com/dl/dagger/LICENSE.txt) |
 | g3-electric-car | [LICENSE.txt](../assets/vehicles/cars/g3-electric-car/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/electric-car/) | [evidence](https://grab3d.com/dl/electric-car/LICENSE.txt) |
+| g3-flail | [LICENSE.txt](../assets/weapons/melee/g3-flail/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/weapons/flail/) | [evidence](https://grab3d.com/dl/flail/LICENSE.txt) |
+| g3-great-helm | [LICENSE.txt](../assets/armour/head/g3-great-helm/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/characters/great-helm/) | [evidence](https://grab3d.com/dl/great-helm/LICENSE.txt) |
+| g3-halberd | [LICENSE.txt](../assets/weapons/melee/g3-halberd/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/weapons/halberd/) | [evidence](https://grab3d.com/dl/halberd/LICENSE.txt) |
+| g3-hand-axe | [LICENSE.txt](../assets/weapons/melee/g3-hand-axe/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/weapons/hand-axe/) | [evidence](https://grab3d.com/dl/hand-axe/LICENSE.txt) |
+| g3-katana | [LICENSE.txt](../assets/weapons/melee/g3-katana/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/weapons/katana/) | [evidence](https://grab3d.com/dl/katana/LICENSE.txt) |
+| g3-longbow | [LICENSE.txt](../assets/weapons/ranged/g3-longbow/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/weapons/longbow/) | [evidence](https://grab3d.com/dl/longbow/LICENSE.txt) |
+| g3-longsword | [LICENSE.txt](../assets/weapons/melee/g3-longsword/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/weapons/longsword/) | [evidence](https://grab3d.com/dl/longsword/LICENSE.txt) |
+| g3-mace | [LICENSE.txt](../assets/weapons/melee/g3-mace/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/weapons/mace/) | [evidence](https://grab3d.com/dl/mace/LICENSE.txt) |
 | g3-muscle-car | [LICENSE.txt](../assets/vehicles/cars/g3-muscle-car/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/muscle-car/) | [evidence](https://grab3d.com/dl/muscle-car/LICENSE.txt) |
+| g3-quiver | [LICENSE.txt](../assets/weapons/ranged/g3-quiver/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/weapons/quiver/) | [evidence](https://grab3d.com/dl/quiver/LICENSE.txt) |
 | g3-rally-car | [LICENSE.txt](../assets/vehicles/cars/g3-rally-car/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/rally-car/) | [evidence](https://grab3d.com/dl/rally-car/LICENSE.txt) |
+| g3-rapier | [LICENSE.txt](../assets/weapons/melee/g3-rapier/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/weapons/rapier/) | [evidence](https://grab3d.com/dl/rapier/LICENSE.txt) |
 | grab3d-android | [LICENSE.txt](../assets/characters/scifi/grab3d-android/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/android/) | [evidence](https://grab3d.com/dl/android-rigged/LICENSE.txt) |
 | grab3d-armored-knight | [LICENSE.txt](../assets/characters/fantasy/grab3d-armored-knight/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/armored-knight/) | [evidence](https://grab3d.com/dl/armored-knight-rigged/LICENSE.txt) |
 | grab3d-astronaut | [LICENSE.txt](../assets/characters/scifi/grab3d-astronaut/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/astronaut-in-spacesuit/) | [evidence](https://grab3d.com/dl/astronaut-in-spacesuit-rigged/LICENSE.txt) |
 | grab3d-baby-toddler | [LICENSE.txt](../assets/characters/humans/grab3d-baby-toddler/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/baby-character/) | [evidence](https://grab3d.com/dl/baby-character-rigged/LICENSE.txt) |
 | grab3d-businessman | [LICENSE.txt](../assets/characters/humans/grab3d-businessman/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/businessman/) | [evidence](https://grab3d.com/dl/businessman-rigged/LICENSE.txt) |
 | grab3d-casual-man | [LICENSE.txt](../assets/characters/humans/grab3d-casual-man/LICENSE.txt) | `3e198bc4f11d` | [source](https://grab3d.com/models/characters/man/) | [evidence](https://grab3d.com/dl/man-rigged/LICENSE.txt) |
+| grab3d-casual-woman | [LICENSE.txt](../assets/characters/humans/grab3d-casual-woman/LICENSE.txt) | `3e198bc4f11d` | [source](https://grab3d.com/models/characters/woman/) | [evidence](https://grab3d.com/dl/woman-rigged/LICENSE.txt) |
+| grab3d-chef | [LICENSE.txt](../assets/characters/occupations/grab3d-chef/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/chef/) | [evidence](https://grab3d.com/dl/chef-rigged/LICENSE.txt) |
+| grab3d-child-raincoat | [LICENSE.txt](../assets/characters/humans/grab3d-child-raincoat/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/child/) | [evidence](https://grab3d.com/dl/child-rigged/LICENSE.txt) |
 | grab3d-cyborg | [LICENSE.txt](../assets/characters/scifi/grab3d-cyborg/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/cyborg/) | [evidence](https://grab3d.com/dl/cyborg-rigged/LICENSE.txt) |
 | grab3d-desert-queen | [LICENSE.txt](../assets/characters/humans/grab3d-desert-queen/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/queen/) | [evidence](https://grab3d.com/dl/queen-rigged/LICENSE.txt) |
+| grab3d-doctor | [LICENSE.txt](../assets/characters/occupations/grab3d-doctor/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/doctor/) | [evidence](https://grab3d.com/dl/doctor-rigged/LICENSE.txt) |
 | grab3d-dwarf | [LICENSE.txt](../assets/characters/fantasy/grab3d-dwarf/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/dwarf/) | [evidence](https://grab3d.com/dl/dwarf-rigged/LICENSE.txt) |
+| grab3d-elderly-man | [LICENSE.txt](../assets/characters/humans/grab3d-elderly-man/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/elderly-man/) | [evidence](https://grab3d.com/dl/elderly-man-rigged/LICENSE.txt) |
 | grab3d-elderly-woman | [LICENSE.txt](../assets/characters/humans/grab3d-elderly-woman/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/elderly-woman/) | [evidence](https://grab3d.com/dl/elderly-woman-rigged/LICENSE.txt) |
 | grab3d-elf | [LICENSE.txt](../assets/characters/fantasy/grab3d-elf/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/elf/) | [evidence](https://grab3d.com/dl/elf-rigged/LICENSE.txt) |
+| grab3d-farmer | [LICENSE.txt](../assets/characters/occupations/grab3d-farmer/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/farmer/) | [evidence](https://grab3d.com/dl/farmer-rigged/LICENSE.txt) |
+| grab3d-firefighter | [LICENSE.txt](../assets/characters/occupations/grab3d-firefighter/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/firefighter/) | [evidence](https://grab3d.com/dl/firefighter-rigged/LICENSE.txt) |
 | grab3d-goblin | [LICENSE.txt](../assets/characters/fantasy/grab3d-goblin/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/goblin/) | [evidence](https://grab3d.com/dl/goblin-rigged/LICENSE.txt) |
 | grab3d-grey-alien | [LICENSE.txt](../assets/characters/scifi/grab3d-grey-alien/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/alien-grey/) | [evidence](https://grab3d.com/dl/alien-grey-rigged/LICENSE.txt) |
 | grab3d-man-base-character | [LICENSE.txt](../assets/characters/humans/grab3d-man-base-character/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/man-base-character/) | [evidence](https://grab3d.com/dl/man-base-character-rigged/LICENSE.txt) |
+| grab3d-mannequin | [LICENSE.txt](../assets/characters/humans/grab3d-mannequin/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/stylized-mannequin/) | [evidence](https://grab3d.com/dl/stylized-mannequin-rigged/LICENSE.txt) |
 | grab3d-ninja | [LICENSE.txt](../assets/characters/humans/grab3d-ninja/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/ninja/) | [evidence](https://grab3d.com/dl/ninja-rigged/LICENSE.txt) |
+| grab3d-nurse | [LICENSE.txt](../assets/characters/occupations/grab3d-nurse/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/nurse/) | [evidence](https://grab3d.com/dl/nurse-rigged/LICENSE.txt) |
 | grab3d-orc | [LICENSE.txt](../assets/characters/fantasy/grab3d-orc/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/orc/) | [evidence](https://grab3d.com/dl/orc-rigged/LICENSE.txt) |
 | grab3d-pirate-captain | [LICENSE.txt](../assets/characters/humans/grab3d-pirate-captain/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/pirate/) | [evidence](https://grab3d.com/dl/pirate-rigged/LICENSE.txt) |
+| grab3d-police-officer | [LICENSE.txt](../assets/characters/occupations/grab3d-police-officer/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/police-officer/) | [evidence](https://grab3d.com/dl/police-officer-rigged/LICENSE.txt) |
 | grab3d-samurai | [LICENSE.txt](../assets/characters/humans/grab3d-samurai/LICENSE.txt) | `3e198bc4f11d` | [source](https://grab3d.com/models/characters/samurai/) | [evidence](https://grab3d.com/dl/samurai-rigged/LICENSE.txt) |
+| grab3d-scifi-soldier | [LICENSE.txt](../assets/characters/scifi/grab3d-scifi-soldier/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/sci-fi-soldier/) | [evidence](https://grab3d.com/dl/sci-fi-soldier-rigged/LICENSE.txt) |
 | grab3d-soldier | [LICENSE.txt](../assets/characters/humans/grab3d-soldier/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/soldier/) | [evidence](https://grab3d.com/dl/soldier-rigged/LICENSE.txt) |
+| grab3d-teen | [LICENSE.txt](../assets/characters/humans/grab3d-teen/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/teen-character/) | [evidence](https://grab3d.com/dl/teen-character-rigged/LICENSE.txt) |
 | grab3d-troll | [LICENSE.txt](../assets/characters/fantasy/grab3d-troll/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/troll/) | [evidence](https://grab3d.com/dl/troll-rigged/LICENSE.txt) |
+| grab3d-viking | [LICENSE.txt](../assets/characters/historical/grab3d-viking/LICENSE.txt) | `3e198bc4f11d` | [source](https://grab3d.com/models/characters/viking/) | [evidence](https://grab3d.com/dl/viking-rigged/LICENSE.txt) |
 | grab3d-winter-king | [LICENSE.txt](../assets/characters/humans/grab3d-winter-king/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/king/) | [evidence](https://grab3d.com/dl/king-rigged/LICENSE.txt) |
 | grab3d-witch | [LICENSE.txt](../assets/characters/fantasy/grab3d-witch/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/witch/) | [evidence](https://grab3d.com/dl/witch-rigged/LICENSE.txt) |
+| grab3d-wizard | [LICENSE.txt](../assets/characters/fantasy/grab3d-wizard/LICENSE.txt) | `3e198bc4f11d` | [source](https://grab3d.com/models/characters/wizard/) | [evidence](https://grab3d.com/dl/wizard-rigged/LICENSE.txt) |
 | grab3d-woman-base-character | [LICENSE.txt](../assets/characters/humans/grab3d-woman-base-character/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/woman-base-character/) | [evidence](https://grab3d.com/dl/woman-base-character-rigged/LICENSE.txt) |
 | kenney-apple | [LICENSE.txt](../assets/food/fruit/kenney-apple/LICENSE.txt) | `6913dd72bdc2` | [source](https://github.com/Hidencod/tge-assets/blob/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/food-kit/apple.glb) | [evidence](https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE) |
 | kenney-coffee-table | [LICENSE.txt](../assets/furniture/tables/kenney-coffee-table/LICENSE.txt) | `6913dd72bdc2` | [source](https://github.com/Hidencod/tge-assets/blob/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/furniture-kit/tablecoffee.glb) | [evidence](https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE) |

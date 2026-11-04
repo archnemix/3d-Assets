@@ -29,7 +29,7 @@ def page_url(source: dict, slug: str, category: str = "characters/humans") -> st
     page_slug = slug.removesuffix("-rigged").removesuffix("-light")
     sections = source.get("page_sections", {})
     root = category.split("/")[0]
-    section = sections.get(root, sections.get("default", "characters"))
+    section = sections.get(category, sections.get(root, sections.get("default", "characters")))
     base = source["page"].rstrip("/")
     return f"{base}/{section}/{page_slug}/"
 

@@ -1,0 +1,104 @@
+{
+  "batch": "expansion-11",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "decisions": [
+    {
+      "id": "g3-cutlass",
+      "decision": "rejected",
+      "scores": {
+        "silhouette": 4,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 2,
+        "style_fit": 3
+      },
+      "notes": "All 12 views inspected. Rejected on usability, not rights. The upstream model is a wall/floor display piece: the cutlass with a shell guard is welded to a long flat wooden wall plaque with two upright pegs. The GLB contains a single mesh with a single material and no separate node for the furniture, so the stand cannot be hidden, deleted or unparented without destructive mesh surgery. The bottom view is entirely the stand. A weapon that cannot be separated from its plinth cannot be equipped, holstered or held by a character, which is the primary use for this category. The sculpt and materials themselves are clean.",
+      "limitations": [],
+      "contact_sheet_sha256": "dc0b80d4818adcb60a20cae34c47c02c5807ced53c9a5929087059b36af3deb8"
+    },
+    {
+      "id": "g3-hand-axe",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Bearded axe with a curved pale haft, a leather-wrapped grip section, brass end caps and a steel head with a lowered beard, a modelled eye, a poll and two brass rivets through the cheek. The beard profile and the rivet heads are present on both faces and the head is correctly seated on the haft in the top view. Materials score 4 for flat steel and wood colour. Free-standing weapon, unrigged.",
+      "limitations": [
+        "Stylised palette.",
+        "The head cannot be removed from the haft."
+      ],
+      "contact_sheet_sha256": "ab099d9bf530838855ec3772601c0d66aa97172bb5626d8c65a8fb419a835a38"
+    },
+    {
+      "id": "g3-machete",
+      "decision": "rejected",
+      "scores": {
+        "silhouette": 4,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 2,
+        "style_fit": 3
+      },
+      "notes": "All 12 views inspected. Rejected on usability, not rights. The upstream model is a wall/floor display piece: the machete with a riveted grip is welded to a rectangular wooden display board with two raised cradles. The GLB contains a single mesh with a single material and no separate node for the furniture, so the stand cannot be hidden, deleted or unparented without destructive mesh surgery. The bottom view is entirely the stand. A weapon that cannot be separated from its plinth cannot be equipped, holstered or held by a character, which is the primary use for this category. The sculpt and materials themselves are clean.",
+      "limitations": [],
+      "contact_sheet_sha256": "d029904d01705f7f2830d0648bc506b9a6ff85fe4730607a6c2ca21fd6a24bec"
+    },
+    {
+      "id": "grab3d-chef",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Chef with a pleated toque, moustache and beard, a double-breasted white jacket with two rows of dark buttons and piped cuffs, a red neckerchief, an orange waist apron with a modelled pocket, black-and-white checked trousers and black clogs. A high-resolution crop of the trousers confirms the check is a consistent weave that follows the leg curvature rather than a stretched or misaligned decal. Rear views show the jacket yoke, apron ties and check pattern all continue correctly. Rigged: 54-bone humanoid armature (24 body + 30 finger bones), walk and run clips, zero unweighted skinned vertices.",
+      "limitations": [
+        "AI-assisted origin is disclosed upstream (origin.ai_content); some storefronts require an AI-content disclosure when you resell.",
+        "The toque and apron are fused to the body and cannot be removed."
+      ],
+      "contact_sheet_sha256": "84f3e24182713be9939edb6b87d09160ec213e38638ea9f515fe18e3b615be23"
+    },
+    {
+      "id": "grab3d-firefighter",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Firefighter in black turnout gear with correctly placed retroreflective yellow banding on the chest, cuffs, thighs and ankles, a red helmet with a raised visor, gloves, harness straps with buckles and a back-mounted air cylinder with a regulator. The banding wraps continuously around the limbs in every side and rear view and the cylinder bracket is complete at the back. No legible service name, badge number or manufacturer mark appears anywhere. Rigged: 54-bone humanoid armature (24 body + 30 finger bones), walk and run clips, zero unweighted skinned vertices.",
+      "limitations": [
+        "AI-assisted origin is disclosed upstream (origin.ai_content); some storefronts require an AI-content disclosure when you resell.",
+        "The visor is modelled in the raised position only and is not a separate hinged part.",
+        "The air cylinder cannot be removed."
+      ],
+      "contact_sheet_sha256": "f5551a8f5fba153e3c48a624cf2a053231bc5fe6eeb838360faca025aa54c223"
+    },
+    {
+      "id": "grab3d-teen",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Teenage boy in a blue crew-neck tee, sand cargo shorts with flap pockets, white crew socks and chunky white-and-orange trainers. A high-resolution crop of the footwear confirms the orange elements are plain moulded panels with no logo, swoosh or wordmark. Garment hems are open rings with limbs inside, the cargo pockets are present on both legs, and the hair is closed from the top and back. Materials score 4 because the clothing is intentionally simple flat-shaded fabric with little surface variation. Rigged: 54-bone humanoid armature (24 body + 30 finger bones), walk and run clips, zero unweighted skinned vertices.",
+      "limitations": [
+        "AI-assisted origin is disclosed upstream (origin.ai_content); some storefronts require an AI-content disclosure when you resell.",
+        "Very plain clothing textures; best suited to background or crowd use."
+      ],
+      "contact_sheet_sha256": "e357b50e8e02a47761130260e2d64b37753ac40ad86507e0672ee40fc11b7490"
+    }
+  ]
+}

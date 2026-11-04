@@ -2,7 +2,7 @@
 
 Rigged fantasy humanoids such as orcs, elves and dwarves
 
-Approved assets: **7**
+Approved assets: **8**
 
 ## Knight in silver and gold plate
 
@@ -59,4 +59,12 @@ Approved assets: **7**
 - Creator: Grab3D; style: realistic; CC0-1.0
 - 300,000 triangles; 3 texture images
 - [Asset folder](../../assets/characters/fantasy/grab3d-witch/) · [Metadata](../../assets/characters/fantasy/grab3d-witch/asset.json) · [All inspection views](../../assets/characters/fantasy/grab3d-witch/previews/contact-sheet.jpg)
+
+## Old wizard in star-patterned robe
+
+![Old wizard in star-patterned robe](../../assets/characters/fantasy/grab3d-wizard/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: realistic; CC0-1.0
+- 281,624 triangles; 3 texture images
+- [Asset folder](../../assets/characters/fantasy/grab3d-wizard/) · [Metadata](../../assets/characters/fantasy/grab3d-wizard/asset.json) · [All inspection views](../../assets/characters/fantasy/grab3d-wizard/previews/contact-sheet.jpg)
 

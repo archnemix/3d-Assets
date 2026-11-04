@@ -101,3 +101,22 @@ def test_fetch_rejects_changed_package_size(tmp_path, monkeypatch):
             {"upstream_id": "man-base-character-rigged", "category": "characters/humans"},
             tmp_path,
         )
+
+
+def test_page_url_prefers_a_full_category_override_over_the_root():
+    source = {
+        **SOURCE,
+        "page_sections": {
+            **SOURCE["page_sections"],
+            "nature": "animals",
+            "nature/creatures": "creatures",
+        },
+    }
+    assert (
+        grab3d.page_url(source, "crystal-dragon", "nature/creatures")
+        == "https://grab3d.com/models/creatures/crystal-dragon/"
+    )
+    assert (
+        grab3d.page_url(source, "lynx", "nature/wildlife")
+        == "https://grab3d.com/models/animals/lynx/"
+    )

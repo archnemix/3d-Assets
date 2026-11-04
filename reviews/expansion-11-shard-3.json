@@ -1,0 +1,109 @@
+{
+  "batch": "expansion-11",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "decisions": [
+    {
+      "id": "g3-dagger",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Dagger with a short leaf-shaped double-edge blade, a brass crossguard with ball terminals, a ribbed tan grip and a rounded brass pommel with a pink cabochon on both faces. The blade has a real central ridge visible in the end-on views and closes to a point. Materials score 4 for the flat stylised steel. Free-standing weapon, unrigged.",
+      "limitations": [
+        "Stylised palette rather than photoreal metal.",
+        "Single fused mesh."
+      ],
+      "contact_sheet_sha256": "38235f51e02e1dbbc7ccc80d532d8c2295b4847c7da20c4eee314632f6ed928b"
+    },
+    {
+      "id": "g3-katana",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Katana with a correctly curved single-edge blade, a round brass tsuba, a pale cord-wrapped tsuka with a visible diamond wrap pattern and a brass kashira cap. The curvature is consistent in the top and side views and the wrap pattern continues around the grip. Materials score 4 because the hamon and steel are represented by flat colour rather than a layered shader. Free-standing weapon, unrigged.",
+      "limitations": [
+        "No saya (scabbard) is included.",
+        "The blade is fused to the hilt and cannot be drawn or separated."
+      ],
+      "contact_sheet_sha256": "7d9db126b8dddf99fcca127805210b522be52e28fd7d104c810b72271a8e4898"
+    },
+    {
+      "id": "g3-pike",
+      "decision": "rejected",
+      "scores": {
+        "silhouette": 4,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 2,
+        "style_fit": 3
+      },
+      "notes": "All 12 views inspected. Rejected on usability, not rights. The upstream model is a wall/floor display piece: the pike with langets is welded to a wide circular wooden floor plinth. The GLB contains a single mesh with a single material and no separate node for the furniture, so the stand cannot be hidden, deleted or unparented without destructive mesh surgery. The bottom view is entirely the stand. A weapon that cannot be separated from its plinth cannot be equipped, holstered or held by a character, which is the primary use for this category. The sculpt and materials themselves are clean.",
+      "limitations": [],
+      "contact_sheet_sha256": "64b81bec82785d9bfd6af039e9869e1f079abef207ecfe1da2b6c1b3acd08d42"
+    },
+    {
+      "id": "grab3d-child-raincoat",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Child with curly auburn hair, a yellow hooded raincoat with a storm flap and pockets, a teal striped tee, rolled-cuff jeans, coral rain boots with modelled tread and a teal backpack with buckled straps. The hood is closed geometry with a visible lining, the backpack straps wrap correctly over both shoulders in the rear views, and the boot soles carry a real tread pattern in the bottom view. Rigged: 54-bone humanoid armature (24 body + 30 finger bones), walk and run clips, zero unweighted skinned vertices.",
+      "limitations": [
+        "AI-assisted origin is disclosed upstream (origin.ai_content); some storefronts require an AI-content disclosure when you resell.",
+        "The backpack is fused to the torso and cannot be removed.",
+        "The hood is modelled in the down position only."
+      ],
+      "contact_sheet_sha256": "83afe6b20cd4663e48fc5a2b6bbb83ef585156da17d0f272432a3503030c4084"
+    },
+    {
+      "id": "grab3d-mannequin",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 4
+      },
+      "notes": "All 12 views inspected. Articulated wooden artist's mannequin with a pale lacquered body, darker wood ball joints at the shoulders, elbows, wrists, hips, knees and ankles, a separate head ovoid, a segmented torso and shaped hands and feet. Every ball joint is real geometry with a visible gap rather than a painted circle, and the joints read correctly from all eight orbits. Style fit is 4 because it is a plain reference figure by design rather than a detailed character. Rigged: 54-bone humanoid armature (24 body + 30 finger bones), walk and run clips, zero unweighted skinned vertices.",
+      "limitations": [
+        "AI-assisted origin is disclosed upstream (origin.ai_content); some storefronts require an AI-content disclosure when you resell.",
+        "The mannequin is rigged with the standard humanoid skeleton, so its ball joints are driven by bones rather than being separate props.",
+        "Deliberately featureless face."
+      ],
+      "contact_sheet_sha256": "3afd5b93e7f333782dcb8b2a82908bec88624a34b4822824a40f0f45522b2dcf"
+    },
+    {
+      "id": "grab3d-viking",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Norse warrior with a plaited copper beard and moustache, iron nasal helm, layered fur pauldrons, studded leather cuirass with a round bronze brooch, green embroidered under-tunic, wrapped bracers, fur-cuffed trousers and laced boots. Back views confirm a round shield with a raised dragon relief and a bearded axe slung across it; the fur, stud rows and tunic hem continue correctly around the body. Top and bottom views are closed. Rigged: 54-bone humanoid armature (24 body + 30 finger bones), walk and run clips, zero unweighted skinned vertices.",
+      "limitations": [
+        "AI-assisted origin is disclosed upstream (origin.ai_content); some storefronts require an AI-content disclosure when you resell.",
+        "The axe and shield are fused to the body mesh and cannot be detached or swapped.",
+        "Fur is modelled shell geometry, not groomed hair or a simulation."
+      ],
+      "contact_sheet_sha256": "e2cb8ee9289e6537ab4d7f10f471fcce46629c1650875e4f1634b8e228b7b15e"
+    }
+  ]
+}

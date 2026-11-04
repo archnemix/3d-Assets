@@ -1,0 +1,111 @@
+{
+  "batch": "expansion-11",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "decisions": [
+    {
+      "id": "g3-flail",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Flail with a pale haft, a leather grip, brass ferrules and a smooth steel ball joined by a short run of individually modelled interlocking chain links. The chain links are real torus geometry visible in the close side views rather than a texture, and the ball is closed from every angle. Materials score 4 for flat metal colour. Free-standing weapon, unrigged.",
+      "limitations": [
+        "The chain is a static fused mesh: it will not swing or simulate without adding a rig.",
+        "The ball is plain, with no spikes."
+      ],
+      "contact_sheet_sha256": "8e2264f80ab703fe1c9e1c532441062a34fec0219d555e2680bd8347fccc7b1a"
+    },
+    {
+      "id": "g3-longbow",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Ash longbow with a gently recurved limb profile, a leather-bound central grip, brass nocks at both tips and a taut string. The limb taper and the string attachment are correct in the front, top and end-on views, and the string is real thin geometry rather than a texture. Materials score 4 for flat wood colour. Free-standing weapon, unrigged.",
+      "limitations": [
+        "The string and limbs are one fused mesh, so the bow cannot be drawn without adding a rig or shape keys.",
+        "No arrows are included; the quiver is a separate asset."
+      ],
+      "contact_sheet_sha256": "ac52a65e9a3e124c56517ac723308158618d9838962582e1f9fbf9d0f679d01d"
+    },
+    {
+      "id": "g3-quiver",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Cylindrical leather quiver with a brass mouth ring, banded leather body, stitched panels, a brass buckle and an adjustable shoulder strap, holding a bundle of arrows with individually modelled pastel fletchings and nocks. The strap is real geometry that loops correctly in the side and rear views, and the arrow shafts are visible inside the open mouth in the end-on view. Unrigged static prop.",
+      "limitations": [
+        "The arrows are fused into the quiver and cannot be drawn individually.",
+        "The strap is static and cannot be re-fitted to a character without rigging."
+      ],
+      "contact_sheet_sha256": "c119347b32b4c7235316cfa250ecb70eb6e07064f14e70642c9c7972457cd891"
+    },
+    {
+      "id": "grab3d-doctor",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 4
+      },
+      "notes": "All 12 views inspected. Doctor with swept brown hair, a beard and wire glasses, wearing an open white lab coat over blue scrubs, a stethoscope around the neck, a pen pocket and plain white trainers. The coat has a proper back vent, collar and lapels, and the rear views confirm the coat and scrub trousers continue cleanly. A close crop of the footwear confirms the trainers are unbranded: white uppers with a blue sole and no logo or swoosh. Proportions are deliberately stylised with long legs, which is why style fit is 4 against a realism-first brief. Rigged: 54-bone humanoid armature (24 body + 30 finger bones), walk and run clips, zero unweighted skinned vertices.",
+      "limitations": [
+        "AI-assisted origin is disclosed upstream (origin.ai_content); some storefronts require an AI-content disclosure when you resell.",
+        "Stylised body proportions; not a photoreal human.",
+        "The lab coat is skinned, not simulated, and cannot be removed."
+      ],
+      "contact_sheet_sha256": "78b6b9afbab8598e1dc213561c242c9da448c3b85ab190c28a6d42aea6096a50"
+    },
+    {
+      "id": "grab3d-nurse",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Nurse with a pinned brown bun, pink scrubs over a light-blue long-sleeve underlayer, a stethoscope with a modelled chest piece and a badge reel, cargo scrub pockets and plain white shoes. Sleeve layering, pocket seams and the underlayer cuffs read correctly from both sides and the back; the bun is closed geometry from the top view. No hospital name or legible text on the badge. Rigged: 54-bone humanoid armature (24 body + 30 finger bones), walk and run clips, zero unweighted skinned vertices.",
+      "limitations": [
+        "AI-assisted origin is disclosed upstream (origin.ai_content); some storefronts require an AI-content disclosure when you resell.",
+        "The stethoscope is fused around the neck and cannot be repositioned."
+      ],
+      "contact_sheet_sha256": "1816b721121bb8b4491097b8d672007a35e3013d76c2c83d70a361d95dcd3c4f"
+    },
+    {
+      "id": "grab3d-wizard",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Elderly wizard with a long white beard, a tall curled pointed hat and a midnight-blue robe carrying a dense gold star, moon and filigree pattern. The pattern is continuous across the front, back, sleeves and hat brim with no visible seams or stretching; a leather belt with pouches, a gemmed buckle and tooled bracers break up the silhouette. Rear views show the robe pattern and hat curl resolve correctly, and the robe hem is closed underneath. Rigged: 54-bone humanoid armature (24 body + 30 finger bones), walk and run clips, zero unweighted skinned vertices.",
+      "limitations": [
+        "AI-assisted origin is disclosed upstream (origin.ai_content); some storefronts require an AI-content disclosure when you resell.",
+        "The robe is skinned to the legs rather than cloth-simulated, so it will not flow independently.",
+        "No staff is included."
+      ],
+      "contact_sheet_sha256": "65598339422e229fb5a8e495013cd81f96d0673cdeba2f6674ee9851f046785c"
+    }
+  ]
+}

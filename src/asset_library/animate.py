@@ -16,13 +16,18 @@ from .inspection import author_animations
 
 
 def targets(request: dict) -> list:
+    """Approved assets without authored motion, or all of them when re-authoring.
+
+    ``force`` re-runs assets that already carry an animated model so a corrected
+    rule can replace a bad clip. The original model file is still never touched.
+    """
     wanted = request.get("ids")
     found = []
     for path in sorted((ROOT / "assets").glob("*/*/*/asset.json")):
         manifest = read_json(path)
         if wanted is not None and manifest["id"] not in wanted:
             continue
-        if manifest.get("animated_model"):
+        if manifest.get("animated_model") and not request.get("force"):
             continue
         found.append(path)
     return found
@@ -55,9 +60,12 @@ def run_shard(request: dict, shard: int) -> int:
             if clips:
                 manifest["authored_animations"] = clips
                 manifest["animated_model"] = f"model/{data['animated_model']}"
-                manifest["files"] = inventory(directory)
-                write_checksums(directory, manifest["files"])
-                write_json(path, manifest)
+            # The authoring pass always leaves an animations.json and a log behind,
+            # even when it finds nothing to animate, so the inventory has to be
+            # refreshed either way or the catalog gate fails on untracked files.
+            manifest["files"] = inventory(directory)
+            write_checksums(directory, manifest["files"])
+            write_json(path, manifest)
             results.append({"id": identifier, "clips": [c["name"] for c in clips]})
             print(f"{identifier}: {len(clips)} clips {[c['name'] for c in clips]}", flush=True)
         except Exception as error:  # noqa: BLE001 - record and continue the shard
