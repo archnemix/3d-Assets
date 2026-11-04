@@ -1,0 +1,21 @@
+{
+  "id": "kaykit-barbarian",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Stylized barbarian reads cleanly from every angle with weapons, armor and cape attachments intact. Atlas texture is preserved, rig is present, no zero-area triangles and no validator errors. Consistent kids'/fantasy human variant.",
+  "limitations": [
+    "Skinned-mesh non-root and buffer-view-target warnings are non-visual.",
+    "Rest-pose inspection only; animation import must be tested in the target engine."
+  ],
+  "contact_sheet_sha256": "9eaeac69de4afbe24fa270f9904019f1483a1abdb0ba76f01ebdd8c11eb61685",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-04",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

@@ -4,6 +4,40 @@
   "approval_policy": "Explicit visual review; every score >=4, mean >=4.6",
   "assets": [
     {
+      "id": "kaykit-barbarian",
+      "title": "KayKit barbarian",
+      "category": "characters/humans",
+      "style": "stylized",
+      "tags": [
+        "human",
+        "fantasy",
+        "rigged",
+        "animated"
+      ],
+      "creator": "Kay Lousberg",
+      "license": "CC0-1.0",
+      "source_url": "https://github.com/KayKit-Game-Assets/KayKit-Character-Pack-Adventures-1.0/blob/672074b73ba276876a19e8816ecdc5241817ab47/addons/kaykit_character_pack_adventures/Characters/gltf/Barbarian.glb",
+      "license_evidence": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Character-Pack-Adventures-1.0/672074b73ba276876a19e8816ecdc5241817ab47/LICENSE.txt",
+      "directory": "assets/characters/humans/kaykit-barbarian",
+      "metadata": "assets/characters/humans/kaykit-barbarian/asset.json",
+      "metadata_sha256": "9c1a0f65234891cbbff9d3423073578e830b6995bd22ef4f9b28aa727a1d15d7",
+      "model": "assets/characters/humans/kaykit-barbarian/model/Barbarian.glb",
+      "preview": "assets/characters/humans/kaykit-barbarian/previews/orbit-01.jpg",
+      "contact_sheet": "assets/characters/humans/kaykit-barbarian/previews/contact-sheet.jpg",
+      "triangles": 6543,
+      "texture_count": 1,
+      "max_texture_resolution": 1024,
+      "rigged": true,
+      "animation_count": 76,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      }
+    },
+    {
       "id": "kaykit-knight",
       "title": "KayKit knight",
       "category": "characters/humans",
@@ -144,6 +178,41 @@
       }
     },
     {
+      "id": "kenney-male-character",
+      "title": "Kenney mini male character",
+      "category": "characters/humans",
+      "style": "low-poly",
+      "tags": [
+        "human",
+        "male",
+        "rigged",
+        "animated",
+        "kids"
+      ],
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source_url": "https://github.com/Hidencod/tge-assets/blob/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/mini-characters/character-male-a.glb",
+      "license_evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE",
+      "directory": "assets/characters/humans/kenney-male-character",
+      "metadata": "assets/characters/humans/kenney-male-character/asset.json",
+      "metadata_sha256": "fbacfdac21601067f94b7c0d718c3d76d5ff96663f5d139a9df5bcad402cde95",
+      "model": "assets/characters/humans/kenney-male-character/model/character-male-a.glb",
+      "preview": "assets/characters/humans/kenney-male-character/previews/orbit-01.jpg",
+      "contact_sheet": "assets/characters/humans/kenney-male-character/previews/contact-sheet.jpg",
+      "triangles": 723,
+      "texture_count": 1,
+      "max_texture_resolution": 512,
+      "rigged": true,
+      "animation_count": 32,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      }
+    },
+    {
       "id": "ph-cash-register",
       "title": "Vintage cash register",
       "category": "electronics/retail",
@@ -240,6 +309,40 @@
       "review_scores": {
         "silhouette": 5,
         "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      }
+    },
+    {
+      "id": "kenney-sprinkled-donut",
+      "title": "Kenney sprinkled donut",
+      "category": "food/snacks",
+      "style": "low-poly",
+      "tags": [
+        "donut",
+        "food",
+        "snack",
+        "kids"
+      ],
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source_url": "https://github.com/Hidencod/tge-assets/blob/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/food-kit/donut-sprinkles.glb",
+      "license_evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE",
+      "directory": "assets/food/snacks/kenney-sprinkled-donut",
+      "metadata": "assets/food/snacks/kenney-sprinkled-donut/asset.json",
+      "metadata_sha256": "2c8140a0f4082dc784bccdd521737c131efa64029301947caec12515a31ac7bd",
+      "model": "assets/food/snacks/kenney-sprinkled-donut/model/donut-sprinkles.glb",
+      "preview": "assets/food/snacks/kenney-sprinkled-donut/previews/orbit-01.jpg",
+      "contact_sheet": "assets/food/snacks/kenney-sprinkled-donut/previews/contact-sheet.jpg",
+      "triangles": 180,
+      "texture_count": 1,
+      "max_texture_resolution": 512,
+      "rigged": false,
+      "animation_count": 0,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
         "topology": 5,
         "completeness": 5,
         "style_fit": 5
@@ -383,6 +486,40 @@
       }
     },
     {
+      "id": "ph-victorian-armchair",
+      "title": "Victorian armchair",
+      "category": "furniture/chairs",
+      "style": "realistic",
+      "tags": [
+        "chair",
+        "armchair",
+        "victorian",
+        "pbr"
+      ],
+      "creator": "Kirill Sannikov",
+      "license": "CC0-1.0",
+      "source_url": "https://polyhaven.com/a/ArmChair_01",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/furniture/chairs/ph-victorian-armchair",
+      "metadata": "assets/furniture/chairs/ph-victorian-armchair/asset.json",
+      "metadata_sha256": "c67bf1df8ab5e233894f6a8efedb1a9afb733861dec99308ba685440c87f2167",
+      "model": "assets/furniture/chairs/ph-victorian-armchair/model/ArmChair_01_2k.gltf",
+      "preview": "assets/furniture/chairs/ph-victorian-armchair/previews/orbit-01.jpg",
+      "contact_sheet": "assets/furniture/chairs/ph-victorian-armchair/previews/contact-sheet.jpg",
+      "triangles": 5626,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      }
+    },
+    {
       "id": "kenney-lounge-sofa",
       "title": "Kenney lounge sofa",
       "category": "furniture/sofas",
@@ -445,6 +582,39 @@
       "review_scores": {
         "silhouette": 5,
         "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      }
+    },
+    {
+      "id": "kaykit-table-medium",
+      "title": "KayKit medium wooden table",
+      "category": "furniture/tables",
+      "style": "stylized",
+      "tags": [
+        "table",
+        "wood",
+        "game-ready"
+      ],
+      "creator": "Kay Lousberg",
+      "license": "CC0-1.0",
+      "source_url": "https://github.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/blob/96d5930a8dbdb363409bbc2d3341718b00e17c9c/addons/kaykit_furniture_bits/Assets/gltf/table_medium.gltf",
+      "license_evidence": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/96d5930a8dbdb363409bbc2d3341718b00e17c9c/LICENSE.txt",
+      "directory": "assets/furniture/tables/kaykit-table-medium",
+      "metadata": "assets/furniture/tables/kaykit-table-medium/asset.json",
+      "metadata_sha256": "befc5594ff6338ae5c8c297d6370d576afd210ae55be81eb98a5f1b2f36d6f87",
+      "model": "assets/furniture/tables/kaykit-table-medium/model/table_medium.gltf",
+      "preview": "assets/furniture/tables/kaykit-table-medium/previews/orbit-01.jpg",
+      "contact_sheet": "assets/furniture/tables/kaykit-table-medium/previews/contact-sheet.jpg",
+      "triangles": 168,
+      "texture_count": 1,
+      "max_texture_resolution": 1024,
+      "rigged": false,
+      "animation_count": 0,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
         "topology": 5,
         "completeness": 5,
         "style_fit": 5
@@ -519,6 +689,42 @@
       }
     },
     {
+      "id": "ph-side-table",
+      "title": "Oak side table with shelves",
+      "category": "furniture/tables",
+      "style": "realistic",
+      "tags": [
+        "table",
+        "side-table",
+        "oak",
+        "wood",
+        "shelf",
+        "pbr"
+      ],
+      "creator": "James Ray Cock",
+      "license": "CC0-1.0",
+      "source_url": "https://polyhaven.com/a/side_table_01",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/furniture/tables/ph-side-table",
+      "metadata": "assets/furniture/tables/ph-side-table/asset.json",
+      "metadata_sha256": "a416e709d7ddf36a16b9f6044518c2d64c7158e69929d8e9fe64b8d3fa82f9ca",
+      "model": "assets/furniture/tables/ph-side-table/model/side_table_01_2k.gltf",
+      "preview": "assets/furniture/tables/ph-side-table/previews/orbit-01.jpg",
+      "contact_sheet": "assets/furniture/tables/ph-side-table/previews/contact-sheet.jpg",
+      "triangles": 2756,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      }
+    },
+    {
       "id": "ph-red-barrel",
       "title": "Worn red industrial barrel",
       "category": "industrial/containers",
@@ -582,6 +788,76 @@
         "silhouette": 5,
         "materials": 5,
         "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      }
+    },
+    {
+      "id": "ph-potted-succulent",
+      "title": "Potted zebra succulent",
+      "category": "nature/potted-plants",
+      "style": "realistic",
+      "tags": [
+        "plant",
+        "succulent",
+        "pot",
+        "pbr"
+      ],
+      "creator": "James Ray Cock",
+      "license": "CC0-1.0",
+      "source_url": "https://polyhaven.com/a/potted_plant_04",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/nature/potted-plants/ph-potted-succulent",
+      "metadata": "assets/nature/potted-plants/ph-potted-succulent/asset.json",
+      "metadata_sha256": "12d60e0709cba2f33fc56eaee1a9ad95c27522f7397237cc3ddf742c7d13e8f9",
+      "model": "assets/nature/potted-plants/ph-potted-succulent/model/potted_plant_04_2k.gltf",
+      "preview": "assets/nature/potted-plants/ph-potted-succulent/previews/orbit-01.jpg",
+      "contact_sheet": "assets/nature/potted-plants/ph-potted-succulent/previews/contact-sheet.jpg",
+      "triangles": 8929,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      }
+    },
+    {
+      "id": "ph-rubber-duck-toy",
+      "title": "Worn rubber duck toy",
+      "category": "toys/figures",
+      "style": "realistic",
+      "tags": [
+        "toy",
+        "duck",
+        "rubber",
+        "plastic",
+        "kids",
+        "pbr"
+      ],
+      "creator": "Plat251",
+      "license": "CC0-1.0",
+      "source_url": "https://polyhaven.com/a/rubber_duck_toy",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/toys/figures/ph-rubber-duck-toy",
+      "metadata": "assets/toys/figures/ph-rubber-duck-toy/asset.json",
+      "metadata_sha256": "f8ae6a39dacff08efc2cc6e591d0d3defb86d56bbf22068492469a8d549eaf82",
+      "model": "assets/toys/figures/ph-rubber-duck-toy/model/rubber_duck_toy_2k.gltf",
+      "preview": "assets/toys/figures/ph-rubber-duck-toy/previews/orbit-01.jpg",
+      "contact_sheet": "assets/toys/figures/ph-rubber-duck-toy/previews/contact-sheet.jpg",
+      "triangles": 4288,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
         "completeness": 5,
         "style_fit": 5
       }
@@ -653,26 +929,62 @@
         "completeness": 5,
         "style_fit": 5
       }
+    },
+    {
+      "id": "kenney-sports-sedan",
+      "title": "Kenney sports sedan",
+      "category": "vehicles/cars",
+      "style": "low-poly",
+      "tags": [
+        "car",
+        "sedan",
+        "kids",
+        "game-ready"
+      ],
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source_url": "https://github.com/Hidencod/tge-assets/blob/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/car-kit/sedan-sports.glb",
+      "license_evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE",
+      "directory": "assets/vehicles/cars/kenney-sports-sedan",
+      "metadata": "assets/vehicles/cars/kenney-sports-sedan/asset.json",
+      "metadata_sha256": "2b12e73d6b0222427b7f9248562a4f30d1216088634d5bd85a419a08386bb663",
+      "model": "assets/vehicles/cars/kenney-sports-sedan/model/sedan-sports.glb",
+      "preview": "assets/vehicles/cars/kenney-sports-sedan/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/cars/kenney-sports-sedan/previews/contact-sheet.jpg",
+      "triangles": 2088,
+      "texture_count": 1,
+      "max_texture_resolution": 512,
+      "rigged": false,
+      "animation_count": 0,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      }
     }
   ],
   "totals": {
-    "assets": 19,
-    "categories": 9,
+    "assets": 28,
+    "categories": 11,
     "by_category": {
-      "characters/humans": 4,
+      "characters/humans": 6,
       "electronics/retail": 1,
       "food/fruit": 2,
-      "furniture/chairs": 4,
+      "food/snacks": 1,
+      "furniture/chairs": 5,
       "furniture/sofas": 2,
-      "furniture/tables": 2,
+      "furniture/tables": 4,
       "industrial/containers": 1,
-      "nature/potted-plants": 1,
-      "vehicles/cars": 2
+      "nature/potted-plants": 2,
+      "toys/figures": 1,
+      "vehicles/cars": 3
     },
     "by_style": {
-      "low-poly": 7,
-      "realistic": 8,
-      "stylized": 4
+      "low-poly": 10,
+      "realistic": 12,
+      "stylized": 6
     }
   }
 }

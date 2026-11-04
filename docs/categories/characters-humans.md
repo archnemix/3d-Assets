@@ -2,8 +2,16 @@
 
 Human characters, including stylized game characters and realistic proportioned people
 
-Approved assets: **4**
+Approved assets: **6**
 
+## KayKit barbarian
+
+![KayKit barbarian](../../assets/characters/humans/kaykit-barbarian/previews/orbit-01.jpg)
+
+- Creator: Kay Lousberg; style: stylized; CC0-1.0
+- 6,543 triangles; 1 texture images
+- [Asset folder](../../assets/characters/humans/kaykit-barbarian/) · [Metadata](../../assets/characters/humans/kaykit-barbarian/asset.json)
+- [Asset folder](../../assets/characters/humans/kaykit-barbarian/) · [Metadata](../../assets/characters/humans/kaykit-barbarian/asset.json) · [All inspection views](../../assets/characters/humans/kaykit-barbarian/previews/contact-sheet.jpg)
 ## KayKit knight
 
 ![KayKit knight](../../assets/characters/humans/kaykit-knight/previews/orbit-01.jpg)
@@ -36,3 +44,11 @@ Approved assets: **4**
 - 876 triangles; 1 texture images
 - [Asset folder](../../assets/characters/humans/kenney-female-character/) · [Metadata](../../assets/characters/humans/kenney-female-character/asset.json)
 - [Asset folder](../../assets/characters/humans/kenney-female-character/) · [Metadata](../../assets/characters/humans/kenney-female-character/asset.json) · [All inspection views](../../assets/characters/humans/kenney-female-character/previews/contact-sheet.jpg)
+## Kenney mini male character
+
+![Kenney mini male character](../../assets/characters/humans/kenney-male-character/previews/orbit-01.jpg)
+
+- Creator: Kenney; style: low-poly; CC0-1.0
+- 723 triangles; 1 texture images
+- [Asset folder](../../assets/characters/humans/kenney-male-character/) · [Metadata](../../assets/characters/humans/kenney-male-character/asset.json)
+- [Asset folder](../../assets/characters/humans/kenney-male-character/) · [Metadata](../../assets/characters/humans/kenney-male-character/asset.json) · [All inspection views](../../assets/characters/humans/kenney-male-character/previews/contact-sheet.jpg)

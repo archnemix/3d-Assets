@@ -1,0 +1,55 @@
+{
+  "batch": "foundation-01-r2",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-04",
+  "decisions": [
+    {
+      "id": "ph-victorian-armchair",
+      "decision": "approved",
+      "scores": {"silhouette": 5, "materials": 5, "topology": 4, "completeness": 5, "style_fit": 5},
+      "notes": "Victorian armchair is coherent from every orbit, top and underside. Carved wood and upholstery read clearly, PBR maps are intact, and the validator reports no errors. One zero-area triangle is negligible for a static realistic chair variant.",
+      "limitations": ["One zero-area triangle retained from upstream.", "Generated tangent-space warning is informational."],
+      "contact_sheet_sha256": "151eb712fb4a863874131e58f1ab86cecf800decfd0344f0d3699e4d55ae0d17"
+    },
+    {
+      "id": "ph-potted-succulent",
+      "decision": "approved",
+      "scores": {"silhouette": 5, "materials": 5, "topology": 5, "completeness": 5, "style_fit": 5},
+      "notes": "Potted zebra succulent is complete from all sides, top and bottom, with pot, soil and leaves coherent. PBR maps are preserved, no zero-area triangles and no validator errors. Strong realistic plant variant alongside the approved potted plant.",
+      "limitations": ["Generated tangent-space and buffer-view-target warnings are non-visual.", "Leaf geometry is moderately dense; use LODs for large scenes."],
+      "contact_sheet_sha256": "08ef9bdddefe6c748241103e18d853e7b92de00ea5784629b66a15f86b129837"
+    },
+    {
+      "id": "kaykit-barbarian",
+      "decision": "approved",
+      "scores": {"silhouette": 5, "materials": 5, "topology": 5, "completeness": 5, "style_fit": 5},
+      "notes": "Stylized barbarian reads cleanly from every angle with weapons, armor and cape attachments intact. Atlas texture is preserved, rig is present, no zero-area triangles and no validator errors. Consistent kids'/fantasy human variant.",
+      "limitations": ["Skinned-mesh non-root and buffer-view-target warnings are non-visual.", "Rest-pose inspection only; animation import must be tested in the target engine."],
+      "contact_sheet_sha256": "9eaeac69de4afbe24fa270f9904019f1483a1abdb0ba76f01ebdd8c11eb61685"
+    },
+    {
+      "id": "kenney-male-character",
+      "decision": "approved",
+      "scores": {"silhouette": 5, "materials": 4, "topology": 5, "completeness": 5, "style_fit": 5},
+      "notes": "Mini male character is complete and readable from all sides, with simple rig and colormap intact. No zero-area triangles and no validator errors. Good low-poly human variant for kids' games and a deliberate contrast to realistic humans.",
+      "limitations": ["Skinned-mesh non-root warning is non-visual.", "Flat-color colormap rather than PBR maps."],
+      "contact_sheet_sha256": "45a65f11bdb4a350adc7895445763c77c82f3d07a8eb26e534887219bb0745f4"
+    },
+    {
+      "id": "kenney-sports-sedan",
+      "decision": "approved",
+      "scores": {"silhouette": 5, "materials": 4, "topology": 4, "completeness": 5, "style_fit": 5},
+      "notes": "Sports sedan is complete from front, back, sides, top and underside, with wheels and body coherent. Flat-color atlas suits the stylized vehicle category. Thirteen zero-area triangles are minor for a low-poly static prop and do not break the silhouette.",
+      "limitations": ["Thirteen zero-area triangles retained from upstream.", "Flat-color atlas rather than PBR maps."],
+      "contact_sheet_sha256": "54590825fa2272d7ca4eb606a3ed21326918015ddf3917d5187946f422514bbf"
+    },
+    {
+      "id": "kenney-sprinkled-donut",
+      "decision": "approved",
+      "scores": {"silhouette": 5, "materials": 4, "topology": 5, "completeness": 5, "style_fit": 5},
+      "notes": "Sprinkled donut is complete and readable from every angle, with icing and sprinkles intact. Flat-color atlas suits kids' food props. No zero-area triangles or validator errors. Useful stylized food variant.",
+      "limitations": ["Flat-color atlas rather than PBR maps.", "Intentionally low-poly; not a realistic food substitute."],
+      "contact_sheet_sha256": "c08eaa408641c36faf9f6c2cdbf2824e7c1a96b2a806f40918ca406c44952cd4"
+    }
+  ]
+}

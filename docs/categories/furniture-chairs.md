@@ -2,7 +2,7 @@
 
 Dining chairs, armchairs, stools and lounge chairs
 
-Approved assets: **4**
+Approved assets: **5**
 
 ## KayKit wooden dining chair
 
@@ -36,3 +36,11 @@ Approved assets: **4**
 - 1,246 triangles; 3 texture images
 - [Asset folder](../../assets/furniture/chairs/ph-painted-dining-chair/) · [Metadata](../../assets/furniture/chairs/ph-painted-dining-chair/asset.json)
 - [Asset folder](../../assets/furniture/chairs/ph-painted-dining-chair/) · [Metadata](../../assets/furniture/chairs/ph-painted-dining-chair/asset.json) · [All inspection views](../../assets/furniture/chairs/ph-painted-dining-chair/previews/contact-sheet.jpg)
+## Victorian armchair
+
+![Victorian armchair](../../assets/furniture/chairs/ph-victorian-armchair/previews/orbit-01.jpg)
+
+- Creator: Kirill Sannikov; style: realistic; CC0-1.0
+- 5,626 triangles; 3 texture images
+- [Asset folder](../../assets/furniture/chairs/ph-victorian-armchair/) · [Metadata](../../assets/furniture/chairs/ph-victorian-armchair/asset.json)
+- [Asset folder](../../assets/furniture/chairs/ph-victorian-armchair/) · [Metadata](../../assets/furniture/chairs/ph-victorian-armchair/asset.json) · [All inspection views](../../assets/furniture/chairs/ph-victorian-armchair/previews/contact-sheet.jpg)
