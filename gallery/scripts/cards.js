@@ -28,12 +28,17 @@ export function renderCards(container, assets, onInspect) {
       element("h2", "", asset.title),
       element("p", "", `By ${asset.creator}`),
     );
+    const meta = element("p", "card-meta");
+    meta.append(
+      element("span", "", `${asset.triangles.toLocaleString()} tris`),
+      element("span", "", asset.rigged ? "Rigged" : "Static"),
+    );
     const footer = element("div", "card-footer");
     const inspect = element("button", "detail-button", "Inspect ↗");
     inspect.type = "button";
     inspect.addEventListener("click", () => onInspect(asset));
     footer.append(element("span", "pill", asset.style), inspect);
-    body.append(footer);
+    body.append(meta, footer);
     card.append(imageButton, body);
     container.append(card);
   }

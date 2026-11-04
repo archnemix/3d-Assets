@@ -25,7 +25,8 @@
         <h1>Good assets.<br /><span>No strings attached.</span></h1>
         <p>
           Realistic details. Playful worlds. Every model checked from every
-          side, with its textures and source evidence included.
+          side, with its textures and source evidence included. New approved
+          assets appear here automatically.
         </p>
         <div class="stats" id="stats" aria-live="polite"></div>
       </section>
@@ -58,8 +59,33 @@
             ><input id="rigged" type="checkbox" /> Rigged only</label
           >
         </form>
+        <div class="browser-toolbar">
+          <div
+            class="category-chips"
+            id="category-chips"
+            aria-label="Quick categories"
+          ></div>
+          <div class="toolbar-controls">
+            <label
+              ><span>Sort</span
+              ><select id="sort">
+                <option value="title">Name A–Z</option>
+                <option value="category">Category</option>
+                <option value="triangles-asc">Triangles: low to high</option>
+                <option value="triangles-desc">Triangles: high to low</option>
+              </select></label
+            >
+            <label class="check-label"
+              ><input id="group" type="checkbox" /> Group by category</label
+            >
+            <button class="refresh-button" id="refresh" type="button">
+              Refresh
+            </button>
+          </div>
+        </div>
         <div class="results-bar">
           <p id="result-count" aria-live="polite">Loading approved assets…</p>
+          <p class="last-updated" id="last-updated" aria-live="polite"></p>
           <button class="text-button" id="reset" type="button">
             Reset filters
           </button>

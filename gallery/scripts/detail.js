@@ -30,6 +30,33 @@ function link(text, path, secondary = false) {
   return anchor;
 }
 
+function externalLink(text, url) {
+  const anchor = node("a", text, "secondary");
+  anchor.href = url;
+  anchor.target = "_blank";
+  anchor.rel = "noopener";
+  return anchor;
+}
+
+function downloadLink(text, path) {
+  const anchor = link(text, path);
+  anchor.download = path.split("/").pop();
+  return anchor;
+}
+
+function scoreGrid(scores) {
+  const grid = node("div", "score-grid");
+  for (const [label, value] of Object.entries(scores ?? {})) {
+    const item = node("div", "score");
+    item.append(
+      node("strong", String(value)),
+      node("span", label.replaceAll("_", " ")),
+    );
+    grid.append(item);
+  }
+  return grid;
+}
+
 export function showDetail(dialog, container, asset) {
   container.replaceChildren();
   const header = node("header", "", "detail-header");
@@ -46,6 +73,7 @@ export function showDetail(dialog, container, asset) {
   const facts = node("div", "", "detail-facts");
   const list = node("dl");
   for (const [label, value] of [
+    ["Category", asset.category.replaceAll("/", " / ")],
     ["Creator", asset.creator],
     ["License", "CC0-1.0 · No attribution required"],
     ["Geometry", `${asset.triangles.toLocaleString()} triangles`],
@@ -63,19 +91,34 @@ export function showDetail(dialog, container, asset) {
   }
   const actions = node("div", "", "detail-actions");
   actions.append(
-    link("Open model", asset.model),
+    downloadLink("Download model", asset.model),
+    link("Open model", asset.model, true),
+    link("Contact sheet", asset.contact_sheet, true),
     link("Metadata", asset.metadata, true),
     link("Asset folder", `${asset.directory}/`, true),
+  );
+  const sources = node("div", "", "detail-actions");
+  sources.append(
+    externalLink("Source", asset.source_url),
+    externalLink("License evidence", asset.license_evidence),
   );
   facts.append(
     list,
     actions,
+    sources,
+    node("h3", "Review scores"),
+    scoreGrid(asset.review_scores),
     node(
       "p",
       "Keep neighboring buffers and textures with the model. Engine shading and animation import behavior can vary.",
       "detail-note",
     ),
   );
+  if (asset.tags?.length) {
+    const tags = node("div", "tag-row");
+    for (const tag of asset.tags) tags.append(node("span", tag, "pill"));
+    facts.append(tags);
+  }
   layout.append(hero, facts);
   const views = node("section", "", "view-section");
   views.append(node("h3", "Every side, before approval"));

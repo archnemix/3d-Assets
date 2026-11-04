@@ -31,7 +31,7 @@ Import the file identified by `model` into Blender, Godot or another glTF-compat
 python -m http.server 8000 --bind 0.0.0.0
 ```
 
-Open `http://localhost:8000/gallery/` on your own computer. The gallery reads the approved-only manifest.
+Open `http://localhost:8000/` on your own computer. It redirects to the live gallery at `/gallery/`. The gallery reads the approved-only manifest, refreshes automatically, and lets you browse all assets or filter by category, style, search text, and rigging.
 
 ## Documentation
 

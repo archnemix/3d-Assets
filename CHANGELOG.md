@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Added a live static library gallery with category chips, search, style/rig filters, sorting, category grouping, auto-refresh, asset detail views, downloads and source/license links.
 - Approved and promoted 28 CC0 assets into the organized `assets/` library, with manifest, category pages, checksums, licenses, previews, logs and review evidence.
 - Added realistic and stylized variants for chairs, tables, sofas, fruit, humans, vehicles, plants, toys, industrial props and retail props.
 - Rejected the mislabeled Kenney wall-decor bear from the toy category and preserved rejection evidence.
