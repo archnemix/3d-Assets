@@ -1,0 +1,115 @@
+{
+  "uri": "ceiling_fan_2k.gltf",
+  "mimeType": "model/gltf+json",
+  "validatorVersion": "2.0.0-dev.3.10",
+  "validatedAt": "2026-11-04T17:17:15.503Z",
+  "issues": {
+    "numErrors": 0,
+    "numWarnings": 2,
+    "numInfos": 0,
+    "numHints": 0,
+    "messages": [
+      {
+        "code": "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE",
+        "message": "Material requires a tangent space but the mesh primitive does not provide it. Runtime-generated tangent space may be non-portable across implementations.",
+        "severity": 1,
+        "pointer": "/meshes/0/primitives/0/material"
+      },
+      {
+        "code": "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE",
+        "message": "Material requires a tangent space but the mesh primitive does not provide it. Runtime-generated tangent space may be non-portable across implementations.",
+        "severity": 1,
+        "pointer": "/meshes/1/primitives/0/material"
+      }
+    ],
+    "truncated": false
+  },
+  "info": {
+    "version": "2.0",
+    "generator": "Khronos glTF Blender I/O v4.4.56",
+    "extensionsUsed": [
+      "KHR_materials_specular"
+    ],
+    "resources": [
+      {
+        "pointer": "/buffers/0",
+        "mimeType": "application/gltf-buffer",
+        "storage": "external",
+        "uri": "ceiling_fan.bin",
+        "byteLength": 455032
+      },
+      {
+        "pointer": "/images/0",
+        "mimeType": "image/jpeg",
+        "storage": "external",
+        "uri": "textures/ceiling_fan_emissive_2k.jpg",
+        "image": {
+          "width": 2048,
+          "height": 2048,
+          "format": "rgb",
+          "bits": 8
+        }
+      },
+      {
+        "pointer": "/images/1",
+        "mimeType": "image/jpeg",
+        "storage": "external",
+        "uri": "textures/ceiling_fan_spec_2k.jpg",
+        "image": {
+          "width": 2048,
+          "height": 2048,
+          "format": "rgb",
+          "bits": 8
+        }
+      },
+      {
+        "pointer": "/images/2",
+        "mimeType": "image/jpeg",
+        "storage": "external",
+        "uri": "textures/ceiling_fan_nor_gl_2k.jpg",
+        "image": {
+          "width": 2048,
+          "height": 2048,
+          "format": "rgb",
+          "bits": 8
+        }
+      },
+      {
+        "pointer": "/images/3",
+        "mimeType": "image/jpeg",
+        "storage": "external",
+        "uri": "textures/ceiling_fan_diff_2k.jpg",
+        "image": {
+          "width": 2048,
+          "height": 2048,
+          "format": "rgb",
+          "bits": 8
+        }
+      },
+      {
+        "pointer": "/images/4",
+        "mimeType": "image/jpeg",
+        "storage": "external",
+        "uri": "textures/ceiling_fan_arm_2k.jpg",
+        "image": {
+          "width": 2048,
+          "height": 2048,
+          "format": "rgb",
+          "bits": 8
+        }
+      }
+    ],
+    "animationCount": 0,
+    "materialCount": 1,
+    "hasMorphTargets": false,
+    "hasSkins": false,
+    "hasTextures": true,
+    "hasDefaultScene": true,
+    "drawCallCount": 2,
+    "totalVertexCount": 11153,
+    "totalTriangleCount": 16356,
+    "maxUVs": 1,
+    "maxInfluences": 0,
+    "maxAttributes": 3
+  }
+}

@@ -1,0 +1,380 @@
+{
+  "schema_version": 1,
+  "id": "ph-ceiling-fan",
+  "title": "Modern ceiling fan with light",
+  "category": "electronics/appliances",
+  "style": "realistic",
+  "tags": [
+    "appliance",
+    "fan",
+    "ceiling",
+    "cooling",
+    "modern",
+    "light",
+    "pbr"
+  ],
+  "batch": "expansion-08",
+  "acquired_at": "2026-11-04T17:16:02.245933+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/ceiling_fan_2k.gltf",
+    "creator": "Ulan Cabanilla",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/ceiling_fan",
+    "source_id": "ceiling_fan",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/ceiling_fan/ceiling_fan_2k.gltf",
+        "bytes": 4777,
+        "sha256": "2ba222ded2eb0a32754426624a862e52966b94268a3b569beec4c120c4bd87c4"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/ceiling_fan/ceiling_fan_emissive_2k.jpg",
+        "bytes": 119056,
+        "sha256": "03237a663cebba715548ff323ab8229f75edb0334036ece0e50a611590e82cd9"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/ceiling_fan/ceiling_fan_spec_2k.jpg",
+        "bytes": 86455,
+        "sha256": "c32c3054ff655f0048111368ee304445c8ed7e26e15eb8797c26d37695c3d1ca"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/ceiling_fan/ceiling_fan_nor_gl_2k.jpg",
+        "bytes": 1251259,
+        "sha256": "f82ee3dd16866795dcbb86e60a010e7036a963bc36634cdc105ab82f5874107e"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/ceiling_fan/ceiling_fan_diff_2k.jpg",
+        "bytes": 1433732,
+        "sha256": "727af6e3e7a3ad9a6dc37ddd84c970bb4acf51222e6ec87e8bcd66cf2f7ea881"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/ceiling_fan/ceiling_fan_arm_2k.jpg",
+        "bytes": 1848361,
+        "sha256": "45df277ffdb8649d66fd3d5f90eff19974fa76de37d8ea54e8c2c55837853a3a"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/ceiling_fan/ceiling_fan.bin",
+        "bytes": 455032,
+        "sha256": "06ad4d0cfc71b92e3a8c3fb6540b58ad41c389bb7baae82f9fa21a9286040b28"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/ceiling_fan_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 2,
+    "materials": 1,
+    "images": 5,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_materials_specular"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/ceiling_fan_emissive_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "ceiling_fan_emissive"
+    },
+    {
+      "path": "model/textures/ceiling_fan_spec_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "ceiling_fan_spec"
+    },
+    {
+      "path": "model/textures/ceiling_fan_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "ceiling_fan_nor_gl"
+    },
+    {
+      "path": "model/textures/ceiling_fan_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "ceiling_fan_diff"
+    },
+    {
+      "path": "model/textures/ceiling_fan_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "ceiling_fan_metal-ceiling_fan_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 2,
+    "hidden_mesh_objects": 0,
+    "vertices": 11153,
+    "triangles": 16356,
+    "material_slots": 2,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "ceiling_fan_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-ceiling-fan/model/textures/ceiling_fan_diff_2k.jpg"
+      },
+      {
+        "name": "ceiling_fan_emissive",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-ceiling-fan/model/textures/ceiling_fan_emissive_2k.jpg"
+      },
+      {
+        "name": "ceiling_fan_metal-ceiling_fan_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-ceiling-fan/model/textures/ceiling_fan_arm_2k.jpg"
+      },
+      {
+        "name": "ceiling_fan_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-ceiling-fan/model/textures/ceiling_fan_nor_gl_2k.jpg"
+      },
+      {
+        "name": "ceiling_fan_spec",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-ceiling-fan/model/textures/ceiling_fan_spec_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 71813,
+      "sha256": "53b33acdff92ec8afe80234400e8e1a96062973470704970705bf0095d51e73d",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "2a9a229f8bb2ed821581e94782406b1f4a42c4f9a9e024e1cc719a6265cfa1b4",
+      "role": "logs"
+    },
+    {
+      "path": "model/ceiling_fan.bin",
+      "bytes": 455032,
+      "sha256": "06ad4d0cfc71b92e3a8c3fb6540b58ad41c389bb7baae82f9fa21a9286040b28",
+      "role": "model"
+    },
+    {
+      "path": "model/ceiling_fan_2k.gltf",
+      "bytes": 4777,
+      "sha256": "2ba222ded2eb0a32754426624a862e52966b94268a3b569beec4c120c4bd87c4",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/ceiling_fan_arm_2k.jpg",
+      "bytes": 1848361,
+      "sha256": "45df277ffdb8649d66fd3d5f90eff19974fa76de37d8ea54e8c2c55837853a3a",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/ceiling_fan_diff_2k.jpg",
+      "bytes": 1433732,
+      "sha256": "727af6e3e7a3ad9a6dc37ddd84c970bb4acf51222e6ec87e8bcd66cf2f7ea881",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/ceiling_fan_emissive_2k.jpg",
+      "bytes": 119056,
+      "sha256": "03237a663cebba715548ff323ab8229f75edb0334036ece0e50a611590e82cd9",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/ceiling_fan_nor_gl_2k.jpg",
+      "bytes": 1251259,
+      "sha256": "f82ee3dd16866795dcbb86e60a010e7036a963bc36634cdc105ab82f5874107e",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/ceiling_fan_spec_2k.jpg",
+      "bytes": 86455,
+      "sha256": "c32c3054ff655f0048111368ee304445c8ed7e26e15eb8797c26d37695c3d1ca",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 17969,
+      "sha256": "0cca5662eb2fb72d5880d683465567e3880d1631951b972813a8d6cec852d2cf",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 16969,
+      "sha256": "81b9b6758bdd86818f755e8055f66303a2ab72a77f40b330695727eebace1712",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 134874,
+      "sha256": "68b80407b07ec79fe882d39680d70e9481c0a4b29cfb1edb659fa0c3c8951f4a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1676,
+      "sha256": "df0563924d01f4478d0faf30b125b42b7b855d5286c4ac57854b97e7bd461a03",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 15261,
+      "sha256": "20a9267b7bdc2b72e5198610040253425c5bdd02fe31e2dd3af6207a44c01d97",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 18353,
+      "sha256": "a86fbb13c99a5354a41eb74340d4eb6616ede2b4e2aa1d9070afdcbac80dd66c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 15339,
+      "sha256": "c5c1b2606b76e71b5bfda248f094b90412f174840af9efb3a16629e9af1d3e44",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 17940,
+      "sha256": "e77904cca684924244a1898b34bf07305b4dfe403e087467b5fa05382c927225",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 15235,
+      "sha256": "461864f57460d21924c5e91131a5d6d143400d6a6ff9283bf5a0e1163dcb1952",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 18548,
+      "sha256": "a4f76939a91bece602dbe600bc07fa44af2c84bf45bc0064a4c0a25207228039",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 15890,
+      "sha256": "80698c4c99779ec11f8eb0d49d0f89827421bac242542b1d88b72601bdd7c57b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 18784,
+      "sha256": "88d96529e2c3cf796a1ade5f6e7154f4ea265a4ca7972220198a73cdcd49c9a6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 16445,
+      "sha256": "70a0b41084e65dee676fa57a52983f998bbb839eb2151627b34d5942ea609124",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 26497,
+      "sha256": "6de116732649f6ad79f462896be58feacd11cd8ca4ee50c18abf8d1c705ccc02",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1273,
+      "sha256": "e386555a0bf3a6fb52180f8afcc5a0e4c65aa5aafd9a88d17a460e3b9ae6743f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3096,
+      "sha256": "195d5a659dac1c07b2fcbba2784b92ae135b43103fc592dcee3681ddabe79aed",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1520,
+      "sha256": "09f85a13e0df8d7336d5c0bc362611a527403dfccec6e88695d343789cdbd6a3",
+      "role": "provenance"
+    }
+  ]
+}
