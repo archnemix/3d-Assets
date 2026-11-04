@@ -1,0 +1,14 @@
+Loading MPFB as Blender extension package
+Blender 4.2.9 LTS (hash a10f621e649a built 2025-04-15 01:46:41)
+Traceback (most recent call last):
+  File "/home/runner/work/3d-Assets/3d-Assets/rendering/build_makehuman.py", line 225, in <module>
+    main(*arguments)
+  File "/home/runner/work/3d-Assets/3d-Assets/rendering/build_makehuman.py", line 179, in main
+    setup_mpfb(Path(mpfb_src), pack)
+  File "/home/runner/work/3d-Assets/3d-Assets/rendering/build_makehuman.py", line 53, in setup_mpfb
+    bpy.context.preferences.addons.new(MPFB_PACKAGE)
+TypeError: Addons.new(): takes at most 0 arguments, got 1
+
+Error: script failed, file: '/home/runner/work/3d-Assets/3d-Assets/rendering/build_makehuman.py', exiting.
+
+Blender quit
