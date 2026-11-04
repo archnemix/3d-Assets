@@ -175,3 +175,53 @@ budget was being spent on errors that could never succeed. That bug had been
 there since the first commit and only surfaced because I wrote the boring
 "client errors are not retried" case. Splitting transport failures from status
 failures fixed it.
+
+## Authoring motion, and why the verification frames mattered
+
+The ask was animations for machines as well as characters — tyres turning, doors
+opening. Most of these props ship as a static assembly, but the moving parts are
+already separate nodes with their origins on the right pivot, so real glTF clips
+can be authored without inventing a skeleton. The original file is never touched;
+an `-animated.glb` is written beside it.
+
+The first pass produced 30 clips and every one of them exported cleanly. The
+glTF validator was happy. They were also, several of them, wrong:
+
+- **Rest pose is not always closed.** The tool chest, the drill-press belt cover
+  and the power box are all modelled with the lid or door already open. A clip
+  that starts at rest and rotates "open" drives the part straight through its own
+  body. Nothing in the file format complains about this.
+- **A hinge has two halves.** `metal_tool_chest_hinge_lid` matches `endswith("_lid")`
+  just as well as the lid does, so it got its own clip and pivoted on its own
+  origin. It flew off. Followers have to be parented to the part they follow, not
+  animated independently.
+- **Not every lid is hinged.** A teapot lid rotated about its centre flips off the
+  pot like a coin. Removable lids need to lift clear of the rim, then tilt.
+- **All NLA tracks are live at once.** The wheel-roll verification strip was
+  showing the wheels *steering*, because the steer track was also playing. Each
+  clip has to be soloed before it is rendered.
+
+Every one of those was caught by looking at three rendered frames per clip. None
+was caught by the validator, the schema, the checksum gate or the unit tests.
+That is the argument for rendering motion, not just asserting it exists.
+
+The second pass fixed the follower, lift and soloing problems outright. For the
+hinge angles I stopped eyeballing the renders and read the node quaternion out of
+the upstream glTF instead: the power box door sits at a yaw of -109.2 degrees,
+which is to say 109 degrees open. Closing it is +109.2, so the clip plays +109.2
+back to 0. Measuring beat guessing; two rounds of guessing had already failed.
+
+A separate bug surfaced in the catalog gate: the authoring pass writes
+`animations.json` even when it finds nothing to animate, but the inventory was
+only refreshed when clips were produced. 119 approved assets ended up with
+untracked files. The fix is to refresh unconditionally, and there is now a
+regression test named after the failure rather than after the function.
+
+## Rejecting weapons that cannot be held
+
+Three Grab3D weapons — cutlass, machete, pike — arrived welded to a display
+plaque or plinth. Single mesh, single material, no separate node. The sculpt is
+clean and the licence is fine, but the stand cannot be hidden, deleted or
+unparented without destructive mesh surgery, so the weapon cannot be equipped.
+A sword permanently fused to a wall plaque is a different product from a sword.
+Rejected on usability, with the reason recorded so nobody re-intakes them.

@@ -216,7 +216,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 
 - Terms: <https://kenney.nl/support>
 - Pinned evidence: <https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE>
-- Reselling the files themselves: The CC0 dedication places no restriction on resale. Kenney asks for nothing beyond the license, but repackaging a free pack as a paid product is a poor way to treat a creator who released it for free.
+- Reselling the files themselves: The CC0 dedication places no restriction on resale, and the creator has publicly confirmed that as-is resale is permitted. Editorial note from this library, not a creator request and not a licence condition: repackaging a free pack as a paid product is a poor way to treat a creator who released it for free.
 
 - The standalone page https://kenney.nl/license returned 404 when checked on 2026-11-04. The evidence used instead is the support page (all asset-page assets are CC0, attribution not required) plus the license file pinned in the exact source revision each asset came from.
 - Kenney reserves its studio logo for official projects. The logo is not part of any asset here and must not be used to imply endorsement.
