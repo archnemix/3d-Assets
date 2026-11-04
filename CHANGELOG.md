@@ -2,6 +2,17 @@
 
 ## Unreleased
 
+## expansion-09 and expansion-10
+
+- **Added 55 further CC0 assets**, bringing the library to **139 approved assets in 47 categories**.
+- **20 rigged cinematic characters** at 244k-300k triangles with walk and run clips, including pirate, orc, cyborg, samurai, knight, astronaut, soldier, dwarf, ninja, witch, goblin, troll, elf, king, queen, android, grey alien, toddler, businessman and casual man. Two have 54-bone rigs with finger bones.
+- **First weapons and vehicles**: unbranded service pistol, bolt-action rifle and stick grenade, a naval cannon, seven stylized cars, a car transporter, engine and tyre, and a realistic Dutch merchant ship.
+- **Portrait renders**: rigged humanoids now get two 1024px head shots so facial detail can actually be reviewed. The standard 640px orbit reduced a head to about fifty pixels.
+- **Rigging documented**: `docs/rigging.md` explains what a rig is, character versus mechanical rigs, and why a rig advertised upstream is often absent from the glTF. None of the Poly Haven props labelled rigged carried a rig into glTF; all Grab3D characters did.
+- **Licence audit published**: `docs/license-audit-summary.md` answers the five usage questions for all 139 assets, lists every refused provider and the reason, and separates genuine caveats from licence conflicts. No conflicts found.
+- **Rejected 3**: `ph-alarm-clock` (upstream glTF exports the dial glass opaque, hiding the face), `ph-security-camera-hood` (badge imitates the Pepsi globe trade dress), `ph-ceramic-vase-patterned` (plain glaze, mean 4.4 against the 4.6 threshold).
+- **Eight titles corrected** where the upstream or planned name overstated the contents.
+
 - **Added 28 further photorealistic CC0 assets** (expansion-08) across instruments, optical science, computing, audio, appliances, ceiling lighting, carts and safety, bringing the library to **84 approved assets in 32 categories**. Across expansion-07 and expansion-08 that is 57 new assets, all visually reviewed across twelve views before promotion.
 - Rejected the compact electric stove: a legible ARINA manufacturer badge in the full-size front view, plus an unfinished open rear cavity. Rejected the leather binder notebook in the previous batch for the same trademark reason.
 - Wrote down the marks policy in `docs/research.md`: a legible real manufacturer's mark is a rejection, an obviously invented brand is approved with a recorded limitation, and generic specification text or ornament is fine. Upstream's `tmwarn` flag is a first filter, not the decision — neither rejected asset carried it.
