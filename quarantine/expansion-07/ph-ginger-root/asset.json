@@ -1,0 +1,318 @@
+{
+  "schema_version": 1,
+  "id": "ph-ginger-root",
+  "title": "Photoscanned ginger root",
+  "category": "food/vegetables",
+  "style": "realistic",
+  "tags": [
+    "food",
+    "vegetable",
+    "ginger",
+    "root",
+    "organic",
+    "photoscan",
+    "pbr"
+  ],
+  "batch": "expansion-07",
+  "acquired_at": "2026-11-04T16:45:10.244550+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/food_ginger_01_2k.gltf",
+    "creator": "Oliver Harries",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/food_ginger_01",
+    "source_id": "food_ginger_01",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/food_ginger_01/food_ginger_01_2k.gltf",
+        "bytes": 2715,
+        "sha256": "0b20525f30c3e4a76a0ebfa42dbf2b578eaf777f80601c3b056ff185e6304c8d"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/food_ginger_01/food_ginger_01_diff_2k.jpg",
+        "bytes": 711368,
+        "sha256": "f96abd2c751638c08559f41f81052d61207da1a72fd6d35a1c549f7824127843"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/food_ginger_01/food_ginger_01_nor_gl_2k.jpg",
+        "bytes": 601412,
+        "sha256": "f31e45d7614243f050c912bd63987347e8f388ed55383312227de04b025ea1ba"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/food_ginger_01/food_ginger_01.bin",
+        "bytes": 175232,
+        "sha256": "b1967c29b2f38dbc63ca2374486c9eb1d90870795b40bc1c2728ffcc760ebcd4"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/food_ginger_01/food_ginger_01_rough_2k.jpg",
+        "bytes": 144517,
+        "sha256": "67026f765cb1cb622fb7172c7d1f691271916c7b49417563e2c451ece8e07b47"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/food_ginger_01_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/food_ginger_01_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "food_ginger_01_nor_gl"
+    },
+    {
+      "path": "model/textures/food_ginger_01_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "food_ginger_01_diff"
+    },
+    {
+      "path": "model/textures/food_ginger_01_rough_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "food_ginger_01_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 4125,
+    "triangles": 7205,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "food_ginger_01_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-ginger-root/model/textures/food_ginger_01_diff_2k.jpg"
+      },
+      {
+        "name": "food_ginger_01_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-ginger-root/model/textures/food_ginger_01_nor_gl_2k.jpg"
+      },
+      {
+        "name": "food_ginger_01_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-ginger-root/model/textures/food_ginger_01_rough_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67568,
+      "sha256": "809d5d45ec0da408d3833f467a17d2cb5fb5686d33129024e7462a3442946151",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/food_ginger_01.bin",
+      "bytes": 175232,
+      "sha256": "b1967c29b2f38dbc63ca2374486c9eb1d90870795b40bc1c2728ffcc760ebcd4",
+      "role": "model"
+    },
+    {
+      "path": "model/food_ginger_01_2k.gltf",
+      "bytes": 2715,
+      "sha256": "0b20525f30c3e4a76a0ebfa42dbf2b578eaf777f80601c3b056ff185e6304c8d",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/food_ginger_01_diff_2k.jpg",
+      "bytes": 711368,
+      "sha256": "f96abd2c751638c08559f41f81052d61207da1a72fd6d35a1c549f7824127843",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/food_ginger_01_nor_gl_2k.jpg",
+      "bytes": 601412,
+      "sha256": "f31e45d7614243f050c912bd63987347e8f388ed55383312227de04b025ea1ba",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/food_ginger_01_rough_2k.jpg",
+      "bytes": 144517,
+      "sha256": "67026f765cb1cb622fb7172c7d1f691271916c7b49417563e2c451ece8e07b47",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 49708,
+      "sha256": "b4f2c90be16aa532a461debe9a9216dcdf2569d906524a776a9692408112700c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 15081,
+      "sha256": "95504e5797cb6f7de25466b18cd946ad5e48751cd483ccd3d467ed520f4849b7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 212517,
+      "sha256": "a01d0f4a9de9c26a790c10c5802412c8853d5eed9e2454d0db1c3aea709a5a5a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1142,
+      "sha256": "7d0de0c71b8c66eecc04dfe4be3a746ffa5938e57152cbd94c5fa5a3b937bd04",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 29603,
+      "sha256": "f8213ef7e10152db9b80a35f9af87e0cb05ef6d021fb449235de3b0292848bcc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 26223,
+      "sha256": "be5e99acf23883855c972bf40398eb08e45fc7b72e33b6665ff34706b9a978cf",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 21730,
+      "sha256": "0c3514f3e18763309fc043ccc9e2167b65e2d152f5d2275674fa889388f3a362",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 26237,
+      "sha256": "9974e33093466b56154a2192d744297ce561127dfb5ba9ee564f9a870bcd68a8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 32448,
+      "sha256": "4abfd70fe76c3694dee1d0ee616cc8d8951d8e32078670baf5266f025b2e1a17",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 31114,
+      "sha256": "cc5f4f8f0b72a26adec3e0aa42ba304de843c00977a2207587c5079930eed6c9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 24175,
+      "sha256": "d8fab25eae5f93dbfdb815a486eee73ab1986d9df6a8f869f432ad6d171412bd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 26425,
+      "sha256": "66664149e97016ea451dce3800e8c0e6905dc81e9a01135018cc4769c3dae3ae",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 40547,
+      "sha256": "e45e961f8836a2a1acabca76c2b6d706e5066712e860ff894887cdb285088c28",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 39121,
+      "sha256": "bc614646d7030de8c90c469096380325628b7ac4703ba5f1d7ef47398928ba39",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1146,
+      "sha256": "04ba0db063ee871a7a8943c0a5f3beee1927df01e18373a97971b9f0f0d73720",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3042,
+      "sha256": "cbbc71907d29cc3d26d91a7d7a9863b126e683462c1ac754f51a34f372a1f838",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1106,
+      "sha256": "ba8d22f15db9adc61f0621220373ac2e1af8bcf4270ecefe66b0a5353e2cabf8",
+      "role": "provenance"
+    }
+  ]
+}
