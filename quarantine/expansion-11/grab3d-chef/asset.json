@@ -1,0 +1,342 @@
+{
+  "schema_version": 1,
+  "id": "grab3d-chef",
+  "title": "Chef in toque and apron",
+  "category": "characters/occupations",
+  "style": "realistic",
+  "tags": [
+    "chef",
+    "toque",
+    "apron",
+    "neckerchief",
+    "kitchen",
+    "rigged",
+    "character",
+    "humanoid",
+    "walk",
+    "run",
+    "pbr"
+  ],
+  "batch": "expansion-11",
+  "acquired_at": "2026-11-04T23:09:04.076008+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/chef-rigged.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/chef-rigged/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/characters/chef/",
+    "source_id": "chef-rigged",
+    "revision": "abe8291d39ded6c1841da7591b74cdf22fc10adc362284f89d109f92dc52a433",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/chef-rigged/chef-rigged.glb",
+        "bytes": 12820084,
+        "sha256": "a3bfa8fe563daaf706d0b0296fa442ddee0b470484ecabf878f70c8a9590b665"
+      }
+    ],
+    "repairs": [
+      {
+        "repair": "normalize-skin-weights",
+        "checked_vertices": 168221,
+        "normalized_vertices": 5202,
+        "max_sum_delta": 0.0001761019229888916,
+        "accessors": [
+          4
+        ],
+        "original_sha256": "a3bfa8fe563daaf706d0b0296fa442ddee0b470484ecabf878f70c8a9590b665",
+        "repaired_sha256": "abe8291d39ded6c1841da7591b74cdf22fc10adc362284f89d109f92dc52a433"
+      }
+    ],
+    "origin": {
+      "method": "ai-assisted",
+      "detail": "Base mesh and textures generated with an AI image-to-3D tool (Meshy), then cleaned up, scaled, textured and checked in Blender. Skeleton, skinning and the walk and run clips were added automatically with Meshy Auto-Rig.",
+      "ai_content": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/chef-rigged/LICENSE.txt"
+  },
+  "model": "model/chef-rigged.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 1,
+    "animations": [
+      "run",
+      "walk"
+    ],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/rig_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "rig_normal"
+    },
+    {
+      "path": "textures/rig_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "rig_basecolor"
+    },
+    {
+      "path": "textures/rig_metallic-rig_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "rig_metallic-rig_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 1,
+    "vertices": 168221,
+    "triangles": 245171,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [
+      {
+        "name": "Armature",
+        "bones": 24
+      }
+    ],
+    "actions": [
+      "run_Armature",
+      "walk_Armature"
+    ],
+    "images": [
+      {
+        "name": "rig_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "rig_metallic-rig_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "rig_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 758,
+      "sha256": "66eda0cadb138a0b94a4c7b850ee0e074b537d66368cd41cd312ba8f23d65347",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 78562,
+      "sha256": "e172367a529295c11453ba1f22923f1d775690a51f3bb79bb06d6f357c14b05c",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "2a9a229f8bb2ed821581e94782406b1f4a42c4f9a9e024e1cc719a6265cfa1b4",
+      "role": "logs"
+    },
+    {
+      "path": "model/chef-rigged.glb",
+      "bytes": 12820084,
+      "sha256": "abe8291d39ded6c1841da7591b74cdf22fc10adc362284f89d109f92dc52a433",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 23753,
+      "sha256": "67ae97fa7528b2bd78a0ccc07d767168f649029e3a3822e2a48e3c0036618532",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18867,
+      "sha256": "d05c1e70b6473ff74edca8eb88195eca817f3efe0fc45719b34285b5e7711318",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 200485,
+      "sha256": "84f3e24182713be9939edb6b87d09160ec213e38638ea9f515fe18e3b615be23",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 880,
+      "sha256": "6d7dda35f8e49145a59409ef942a1e7c36e36cb803583bd8c45c183b9381400e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 31308,
+      "sha256": "ff3e8554328e6a7a1d9fa340be4a3d30de59d118ba9419f7dae56435e16c8282",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 29807,
+      "sha256": "755863225e71a6686fbaa40b12f92d86a4d0b963f47acb9daa43317ee92b799c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 22235,
+      "sha256": "4ee041b979f668ab676f232dfff7924899e84359ca03ad16b81eeaf99c143507",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 27666,
+      "sha256": "b2201a47a20933083eef6536bb89238c692a4a657a04fb18ee4c93997f069c29",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 28161,
+      "sha256": "4e33c38f7c5c83c5cc949f92a40112f549a407b056fb4e9bd57c1c815b9bb8fe",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 28067,
+      "sha256": "9b76b43cecd038687eb5b298839ded3cf26deee3d603419b02f142bb7505ebed",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 23200,
+      "sha256": "a04639e990fce18d05ef931652b0783c0e34049cfed0593e2eadca6442611019",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 30284,
+      "sha256": "f6385ab3b54000ba448a7c6b19142b1f2cfcc22c69ff467935085252c2b49568",
+      "role": "previews"
+    },
+    {
+      "path": "previews/portrait-front.jpg",
+      "bytes": 57808,
+      "sha256": "d33411b1c28e9a0e013f72db30ecd2784bbe1c0d3ba718b54e72ceb1a8c6b7e9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/portrait-three-quarter.jpg",
+      "bytes": 55573,
+      "sha256": "93e1a369c643bf3ab61eee680435eff4e223919804369222fa13c4befab9c237",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 19623,
+      "sha256": "43aa54eed953947cfdf4ac558182352b57012b04a1bd8996b1c63ce7562603d9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 605,
+      "sha256": "17cecff55276c72770bd0180bda17de448577e84122c101e86167c75d8d98afd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 41749,
+      "sha256": "ddefb0a8b376782da16c7e6f1b3210691923fbfbd21bf6231ac7f669e4ffb6b0",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2152,
+      "sha256": "6d04f556a55f789c23ac2c75663d2b0b96fb4c9a3e254806c706e2a538e65f1e",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1055,
+      "sha256": "fbd639097498533a3d774ee90bbfc8410aa2357168ed7ea3f50419758f4232fe",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 480,
+      "sha256": "e563743ff0bda3c671697a29dc1bd1d59012fa4f0b9cfdb3ad46a0eda915e79f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 350,
+      "sha256": "81fe6aede5cede757b7b752d3440043c8da7af17ad8f64c6ef5c9ca0806dec62",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/rig_basecolor.jpg",
+      "bytes": 542958,
+      "sha256": "cb86cc49a05c6cf7cc9df667e9ee5023786807280b7b06b88ee6d696342287b7",
+      "role": "textures"
+    },
+    {
+      "path": "textures/rig_metallic-rig_roughness.jpg",
+      "bytes": 233344,
+      "sha256": "47706997c3816e5cc7eecc8ac90565bfb38e5a76d9d31333a26edfddd60255e8",
+      "role": "textures"
+    },
+    {
+      "path": "textures/rig_normal.jpg",
+      "bytes": 300161,
+      "sha256": "7ef403ae65dabe9e0bbd99dcd33eae36d8ba77cd85480c8440555e43f468bfad",
+      "role": "textures"
+    }
+  ]
+}

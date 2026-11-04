@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "id": "g3-longbow",
+  "title": "Ash longbow",
+  "category": "weapons/ranged",
+  "style": "stylized",
+  "tags": [
+    "bow",
+    "longbow",
+    "archery",
+    "string",
+    "weapon",
+    "pbr",
+    "game-ready"
+  ],
+  "batch": "expansion-11",
+  "acquired_at": "2026-11-04T23:16:10.971024+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/longbow.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/longbow/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/weapons/longbow/",
+    "source_id": "longbow",
+    "revision": "3df9f38250116819f1d0d645355a18d352d40fd9aa5f33a252e8fc6672703454",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/longbow/longbow.glb",
+        "bytes": 487076,
+        "sha256": "3df9f38250116819f1d0d645355a18d352d40fd9aa5f33a252e8fc6672703454"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/longbow/LICENSE.txt"
+  },
+  "model": "model/longbow.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/longbow_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "longbow_body_normal"
+    },
+    {
+      "path": "textures/longbow_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "longbow_body_basecolor"
+    },
+    {
+      "path": "textures/longbow_body_metallic-longbow_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "longbow_body_metallic-longbow_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 5368,
+    "triangles": 7572,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "longbow_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "longbow_body_metallic-longbow_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "longbow_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67913,
+      "sha256": "a88a55e396d3e2f132b9599a60d0a8677c8c559664e076aac47dd694b9790e56",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/longbow.glb",
+      "bytes": 487076,
+      "sha256": "3df9f38250116819f1d0d645355a18d352d40fd9aa5f33a252e8fc6672703454",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 12258,
+      "sha256": "6091eff1cebc337c76541d07670bb66edd14ccc54b873e5e66eece5d319c7456",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 12113,
+      "sha256": "d282692fc5b35ab299c629cfb2df5219fc91be106eb8df30aea55cdc2e209f41",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 100438,
+      "sha256": "ac52a65e9a3e124c56517ac723308158618d9838962582e1f9fbf9d0f679d01d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 810,
+      "sha256": "c9fcaa944b7205e33bcaa9d3ed32713d9cc19161753fe02dfb362e335549f09a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 11427,
+      "sha256": "7eaccac6b25c5153e574bd385ffe92bcf7ac9ceaa54a930a4f29cb4502631592",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 14027,
+      "sha256": "5a3e757ebc2ceafc499a150ca935578387ca5d06687f0acc0f206d5893973615",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 15042,
+      "sha256": "5906e383aacd47bc349000dc8bb334458b9cc5e8d08562a4817df595d337e1d5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 14458,
+      "sha256": "f091caef7fda82565b034ea5229318c4ae55ac725a97675721758fb2e6f5f339",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 11720,
+      "sha256": "1000c5d25e0b1b2d8c31fd60ddef0c6138f033f85bf6c551980b10782685dfd5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 14514,
+      "sha256": "dd7696e9e3d86bb1fb23ef9e981f79115731f695fbb6754782e4440c15d3467b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 15489,
+      "sha256": "a272712b96d8b67859a3699ebd9b4c7bce3cf261d75c5342ec0cf8e247964f8c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 14161,
+      "sha256": "77aeb63e7374799ac141450d02a3cee20b8b3e99f11115ede036ac8afff48013",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 12106,
+      "sha256": "148a87eea2218c96687a73234a2885d570198bef7dedab76f1d2542421c59952",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 14680,
+      "sha256": "95b4a14b7d62aebad620d53a3f05b658ba8e517684d334bc7883cfd1f0387719",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1927,
+      "sha256": "582297cae32c09b57e1101246e760bee71e0db9e36a22815eaed6d57f5de8cc5",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1559,
+      "sha256": "101cd676dac5e74aa64b0c7256df9c1be302dfef998add662ca08670d6772d96",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 450,
+      "sha256": "aa7e26b74a7b61ca9902f3b391438304080411781c39981af1eff776eb974c04",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "50d412d1fa2bc66a74269d2c3f18fabc431a9f209819f5724f351a7733224085",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/longbow_body_basecolor.jpg",
+      "bytes": 103274,
+      "sha256": "c0d336c20b1671f4b85e40748be002b6ac8f699e2ef6bd967965c2aca20679f6",
+      "role": "textures"
+    },
+    {
+      "path": "textures/longbow_body_metallic-longbow_body_roughness.jpg",
+      "bytes": 97279,
+      "sha256": "38521e56d02cb9d67e5dc2a143db73af3112c914fb9be246c5e8e013fb242d39",
+      "role": "textures"
+    },
+    {
+      "path": "textures/longbow_body_normal.jpg",
+      "bytes": 66777,
+      "sha256": "5cf465fa221a2e6b22b695bd97bc8539055d116ef4a75e68a5d50b8dcad31289",
+      "role": "textures"
+    }
+  ]
+}
