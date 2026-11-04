@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "id": "grab3d-pirate-captain",
+  "title": "Pirate captain with cutlass",
+  "category": "characters/humans",
+  "style": "realistic",
+  "tags": [
+    "pirate",
+    "captain",
+    "coat",
+    "tricorn",
+    "cutlass",
+    "rigged",
+    "character",
+    "humanoid",
+    "walk",
+    "run",
+    "pbr"
+  ],
+  "batch": "expansion-09",
+  "acquired_at": "2026-11-04T22:26:55.898268+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/pirate-rigged.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/pirate-rigged/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/characters/pirate/",
+    "source_id": "pirate-rigged",
+    "revision": "3a98f073245a4afe669be21f983500f0173d496d1d4f5100e45e49595343097c",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/pirate-rigged/pirate-rigged.glb",
+        "bytes": 13918136,
+        "sha256": "1646442b39cb3168c14001a47f7ea20b32543538adb770b692582148fe308927"
+      }
+    ],
+    "repairs": [
+      {
+        "repair": "normalize-skin-weights",
+        "checked_vertices": 176604,
+        "normalized_vertices": 26521,
+        "max_sum_delta": 0.00016630999743938446,
+        "accessors": [
+          4
+        ],
+        "original_sha256": "1646442b39cb3168c14001a47f7ea20b32543538adb770b692582148fe308927",
+        "repaired_sha256": "3a98f073245a4afe669be21f983500f0173d496d1d4f5100e45e49595343097c"
+      }
+    ],
+    "origin": {
+      "method": "ai-assisted",
+      "detail": "Base mesh and textures generated with an AI image-to-3D tool (Meshy), then cleaned up, scaled, textured and checked in Blender. Skeleton, skinning and the walk and run clips were added automatically with Meshy Auto-Rig.",
+      "ai_content": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/pirate-rigged/LICENSE.txt"
+  },
+  "model": "model/pirate-rigged.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 1,
+    "animations": [
+      "run",
+      "walk"
+    ],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/rig_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "rig_normal"
+    },
+    {
+      "path": "textures/rig_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "rig_basecolor"
+    },
+    {
+      "path": "textures/rig_metallic-rig_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "rig_metallic-rig_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 1,
+    "vertices": 176604,
+    "triangles": 300000,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 2,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [
+      {
+        "name": "Armature",
+        "bones": 24
+      }
+    ],
+    "actions": [
+      "run_Armature",
+      "walk_Armature"
+    ],
+    "images": [
+      {
+        "name": "rig_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "rig_metallic-rig_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "rig_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 758,
+      "sha256": "66eda0cadb138a0b94a4c7b850ee0e074b537d66368cd41cd312ba8f23d65347",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68425,
+      "sha256": "d36d3fe7280f565a8a93d85d98bbeb3a338e060e1ece5b8d08683d755ff407fa",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "2a9a229f8bb2ed821581e94782406b1f4a42c4f9a9e024e1cc719a6265cfa1b4",
+      "role": "logs"
+    },
+    {
+      "path": "model/pirate-rigged.glb",
+      "bytes": 13918136,
+      "sha256": "3a98f073245a4afe669be21f983500f0173d496d1d4f5100e45e49595343097c",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 26705,
+      "sha256": "b2be27eec094cc6d5b9d6a34264be7cff496b2750eeaad49a4aa8525cab4cb98",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 23375,
+      "sha256": "b2be1d8846d6d7b7cfb2ae2712dd760035a83199c418d173eb4889bef8c6af9b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 219127,
+      "sha256": "ad4856dd4de84a9d0245dd97f7146ae84665f86d3887e42ec6ed2b416634ca48",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 880,
+      "sha256": "d03a7f8f40138ef1c3ba57f978fa971bda791749f5d1b7eb28c2e046a2dc7d1c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 34058,
+      "sha256": "a5276cdc1f8650bc337f9a67b1fd29efb9f30345d12adbc9e1f3c857713d9976",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 32426,
+      "sha256": "9b90d722f1a90058df92a15d39d4ecc32d9094570f5b3ea06e995d48c2353513",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 23710,
+      "sha256": "11fa2d99f8ecabbfac696f2b26656902c13e87c4e039ef8a83489658ce96a48d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 28091,
+      "sha256": "ff56dbf4bead52c46ebb5b8d39aaa898b0a68796e8ed25c6881a98c6212c621a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 30164,
+      "sha256": "3b2dab5d44b0511db9fd6257bbc5fe1b261b657bb7d12ae1a7145ad131dcad43",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 28388,
+      "sha256": "47b463201a5203c8efa72e1c95d7f3cad7d8a853629fbc5b46e3aa4757b17bbb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 23213,
+      "sha256": "d0a933a9a9d6f8ecb4a4dc14c190d751ca245ac4a2e65eb496ee2685edcd8222",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 29822,
+      "sha256": "0d89f334769322217722132d8f5025afd506a5dd5e9a3f32ed26d4d9869c149f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 27732,
+      "sha256": "2465ae1c77518338f4cc9428582e82ea425954a4cfc2d7e5a6b23ae67e7b9c0e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 45941,
+      "sha256": "991529481d82ca81057e526b72c95218fc54e8c5c540c209a47f194fbff61962",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2154,
+      "sha256": "27c59166395d4054c392ca3f57383202808a1743d43a9562c9d218ce318d4afc",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1065,
+      "sha256": "47ef4c8d4cbe23b5b394aa46228adbb71913d01914e2d9b11ae84fedb27857da",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 496,
+      "sha256": "c3b20313a513e3cba78df89e67cee4e24432cc2c31db7b4fcdc730ab11e7c9d7",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 352,
+      "sha256": "feacf334bbdf285fe279b00147420735773120d0379515acc6402304db94a2c5",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/rig_basecolor.jpg",
+      "bytes": 546210,
+      "sha256": "ef3f2c8f381848b31fbc3c7338196c5df9c85b198201050ec06594062fd295b6",
+      "role": "textures"
+    },
+    {
+      "path": "textures/rig_metallic-rig_roughness.jpg",
+      "bytes": 276221,
+      "sha256": "4b2d37ed637b7d20cb0a4a011585a56f3f7aafc6609c8d1c819bdb378014a90a",
+      "role": "textures"
+    },
+    {
+      "path": "textures/rig_normal.jpg",
+      "bytes": 257806,
+      "sha256": "4dfbbd60279bd8c49c3d1793647c533faa5e2b607a750d618cb13bda8cdbc6b2",
+      "role": "textures"
+    }
+  ]
+}
