@@ -213,6 +213,12 @@
       "role": "documentation"
     },
     {
+      "path": "logs/animations.log",
+      "bytes": 42612,
+      "sha256": "4f5cc14d3d04e847e40d2074a15b335f5b3cae4868616220080b9dac9d17b4cc",
+      "role": "logs"
+    },
+    {
       "path": "logs/blender.log",
       "bytes": 81327,
       "sha256": "c390f5ab51de71844b80d56f7cc2e481a92ebed1fe543acecd5c9003d4221d76",
@@ -225,10 +231,52 @@
       "role": "logs"
     },
     {
+      "path": "model/electric-car-animated.glb",
+      "bytes": 1179268,
+      "sha256": "9f0ef74f46dfa36d8770c3af449dbe66061c6a6f3e65dbc6fc8f363c9082f27f",
+      "role": "model"
+    },
+    {
       "path": "model/electric-car.glb",
       "bytes": 1159732,
       "sha256": "8153199eac19abe67fc035c3b457fe635a5c41ed04478f8eeaf4d0b9c43329f2",
       "role": "model"
+    },
+    {
+      "path": "previews/anim-steer-a.jpg",
+      "bytes": 9478,
+      "sha256": "3e46385c7541c53b73a354550015f29105670a1710d87ee99ce20a91f02f0cfa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-steer-b.jpg",
+      "bytes": 9439,
+      "sha256": "75fbc20e92c17b7ed2289b6f0c8680c6610ea560118bf3704feec30cc3a11e45",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-steer-c.jpg",
+      "bytes": 9347,
+      "sha256": "1566c42259bd254e2e377b090508145d7c58542a1be21ed0fb78452531fa2edd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-a.jpg",
+      "bytes": 9478,
+      "sha256": "aea038a48a1fcd2d9b68ef9de8002033ba6a781192d6937f779844277c524936",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-b.jpg",
+      "bytes": 9402,
+      "sha256": "716dc1a5b7b30cd1bbec5d516d4af8522de34c9b46048359345ac67eea610518",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-c.jpg",
+      "bytes": 9365,
+      "sha256": "aa2b83726745f2549dd212992b5315bd0484b2b9ec9d0a7cccb72e39f801f9d5",
+      "role": "previews"
     },
     {
       "path": "previews/bottom.jpg",
@@ -321,6 +369,12 @@
       "role": "previews"
     },
     {
+      "path": "provenance/animations.json",
+      "bytes": 1003,
+      "sha256": "1a482d8cebd9d83933984444dfaed77a4a29b3ae370f2257fef5d43accd676d8",
+      "role": "provenance"
+    },
+    {
       "path": "provenance/gltf-validator.json",
       "bytes": 6736,
       "sha256": "515ae3d31ec3af9d410ff233f319942bbe4a800e17486e7f3210c1d692a5a33d",
@@ -380,5 +434,32 @@
       "sha256": "1ac12a81a5ccc3fb6b78601a0b9665ecb4251b6a18602b230f6c025b54cd930c",
       "role": "textures"
     }
-  ]
+  ],
+  "authored_animations": [
+    {
+      "name": "wheel_roll",
+      "parts": [
+        "electric-car_wheel_fl",
+        "electric-car_wheel_fr",
+        "electric-car_wheel_rl",
+        "electric-car_wheel_rr"
+      ],
+      "axis": "X",
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    },
+    {
+      "name": "steer",
+      "parts": [
+        "electric-car_wheel_fl",
+        "electric-car_wheel_fr"
+      ],
+      "axis": "Z",
+      "degrees": 32.0,
+      "frames": 45,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/electric-car-animated.glb"
 }

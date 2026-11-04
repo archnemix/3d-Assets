@@ -192,6 +192,12 @@
       "role": "documentation"
     },
     {
+      "path": "logs/animations.log",
+      "bytes": 22397,
+      "sha256": "1cef074633d705dd1d1ca3d1a95c65e5f3be0e6edf1639ffc76426cf87a9aa1a",
+      "role": "logs"
+    },
+    {
       "path": "logs/blender.log",
       "bytes": 80214,
       "sha256": "f1336424199fc9059a9f78cb636dcdf1ad33b1a985e3aefcf020ae21ca81525d",
@@ -207,6 +213,12 @@
       "path": "model/cannon_01.bin",
       "bytes": 1143768,
       "sha256": "4f035b40eecfd21cf29c7c2c13a85bb91804b0b486e11f6072a77c583f3a49e9",
+      "role": "model"
+    },
+    {
+      "path": "model/cannon_01_2k-animated.glb",
+      "bytes": 9918708,
+      "sha256": "2037695257b118a770bfefb670162302af98439f8ca6ffcbde2c1d0ae8f7da22",
       "role": "model"
     },
     {
@@ -232,6 +244,24 @@
       "bytes": 3050903,
       "sha256": "e7c72b1515f0940b9244f6f6be1c577bc46140a75bd4e94b1f011e86dc3c028b",
       "role": "model"
+    },
+    {
+      "path": "previews/anim-wheel_roll-a.jpg",
+      "bytes": 12880,
+      "sha256": "146a8987a181b9c989d103bfc69c00d33157df4618f8360d32c7a9090ad79eaf",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-b.jpg",
+      "bytes": 12874,
+      "sha256": "1b6a06fd67feef2e169395a50c358061eb66684c6d84449a17b2abf9ad6ba7e9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-c.jpg",
+      "bytes": 12882,
+      "sha256": "c3c9feb10e20eec38af3df3f372a30b909ea3e3ef88754295ed87d1153d2ee50",
+      "role": "previews"
     },
     {
       "path": "previews/bottom.jpg",
@@ -324,6 +354,12 @@
       "role": "previews"
     },
     {
+      "path": "provenance/animations.json",
+      "bytes": 642,
+      "sha256": "ff79629ead814633e16996fc28a478168b9587098f698fad42f588265c374d12",
+      "role": "provenance"
+    },
+    {
       "path": "provenance/api-info.json",
       "bytes": 1545,
       "sha256": "9193385a04a1db5b475717d7bc98851dbcb4ceacef14c7c5ac1d75eb379bbba3",
@@ -347,5 +383,21 @@
       "sha256": "ebf7217c4a3aac42c7bcace51d8e17a691f664eeffe1bc35030a76deb180d6ae",
       "role": "documentation"
     }
-  ]
+  ],
+  "authored_animations": [
+    {
+      "name": "wheel_roll",
+      "parts": [
+        "cannon_01_wheel_01",
+        "cannon_01_wheel_02",
+        "cannon_01_wheel_03",
+        "cannon_01_wheel_04"
+      ],
+      "axis": "X",
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/cannon_01_2k-animated.glb"
 }

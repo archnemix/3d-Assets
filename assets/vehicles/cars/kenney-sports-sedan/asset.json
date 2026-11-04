@@ -129,6 +129,12 @@
       "role": "documentation"
     },
     {
+      "path": "logs/animations.log",
+      "bytes": 18822,
+      "sha256": "3cfdec4e7aff1c3e972cc9f5ccce97666a3c76cdaa74476a38187a582c96c6dc",
+      "role": "logs"
+    },
+    {
       "path": "logs/blender.log",
       "bytes": 69727,
       "sha256": "014b572d42ddaa89b08c91128324ed5d2651ea5717d756fea70e7113fd92fdd7",
@@ -141,10 +147,34 @@
       "role": "logs"
     },
     {
+      "path": "model/sedan-sports-animated.glb",
+      "bytes": 136980,
+      "sha256": "dc4fdebfb55d7033163ba61d307cb87cec016047fdc6229dd1bd19ec45adbc38",
+      "role": "model"
+    },
+    {
       "path": "model/sedan-sports.glb",
       "bytes": 189920,
       "sha256": "aba8186e85d3aa828cb9af5c735f640c893315fb45662cf1eabf1ed9676fa99f",
       "role": "model"
+    },
+    {
+      "path": "previews/anim-wheel_roll-a.jpg",
+      "bytes": 10516,
+      "sha256": "143c47eb9c2b9b89b3164df79be386461accf23d2a0dc3b0895ee846edef8473",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-b.jpg",
+      "bytes": 10518,
+      "sha256": "3ddc550bed9289e7f3dc74c4d02a989f1b3098d99055c507a3cf4e806575b43e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-c.jpg",
+      "bytes": 10516,
+      "sha256": "b5fcba36e714275eda4468380a34d755ce4836dc09df89ee6888c618aa9b5704",
+      "role": "previews"
     },
     {
       "path": "previews/bottom.jpg",
@@ -237,6 +267,12 @@
       "role": "previews"
     },
     {
+      "path": "provenance/animations.json",
+      "bytes": 633,
+      "sha256": "e8b57f8e801d5e4204c700363f197c844a0fc654bede0313a7e5e0ea8ad2135b",
+      "role": "provenance"
+    },
+    {
       "path": "provenance/github-source.json",
       "bytes": 419,
       "sha256": "2f822560a84179e157dbc74934bc2ee0620f67acc552ff16e015126a50f6626b",
@@ -260,5 +296,21 @@
       "sha256": "f3622a03a20c6696065cae9cbe391351be873508af190c2ebd1d420c055787a5",
       "role": "textures"
     }
-  ]
+  ],
+  "authored_animations": [
+    {
+      "name": "wheel_roll",
+      "parts": [
+        "wheel-back-left",
+        "wheel-back-right",
+        "wheel-front-left",
+        "wheel-front-right"
+      ],
+      "axis": "X",
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/sedan-sports-animated.glb"
 }

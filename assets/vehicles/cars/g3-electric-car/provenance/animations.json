@@ -1,0 +1,49 @@
+{
+  "source_model": "electric-car.glb",
+  "authored": [
+    {
+      "name": "wheel_roll",
+      "parts": [
+        "electric-car_wheel_fl",
+        "electric-car_wheel_fr",
+        "electric-car_wheel_rl",
+        "electric-car_wheel_rr"
+      ],
+      "axis": "X",
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    },
+    {
+      "name": "steer",
+      "parts": [
+        "electric-car_wheel_fl",
+        "electric-car_wheel_fr"
+      ],
+      "axis": "Z",
+      "degrees": 32.0,
+      "frames": 45,
+      "fps": 30
+    }
+  ],
+  "verification": [
+    {
+      "clip": "wheel_roll",
+      "frames": [
+        "anim-wheel_roll-a.jpg",
+        "anim-wheel_roll-b.jpg",
+        "anim-wheel_roll-c.jpg"
+      ]
+    },
+    {
+      "clip": "steer",
+      "frames": [
+        "anim-steer-a.jpg",
+        "anim-steer-b.jpg",
+        "anim-steer-c.jpg"
+      ]
+    }
+  ],
+  "note": "Clips authored by this library, not upstream. Dedicated to CC0.",
+  "animated_model": "electric-car-animated.glb"
+}
