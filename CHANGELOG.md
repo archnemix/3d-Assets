@@ -8,6 +8,7 @@
 - Fixed inspection framing to use visible evaluated vertices instead of hidden helpers.
 - Added expansion batches for a rubber duck toy, side table, KayKit table and MakeHuman realistic humans.
 - Fixed MakeHuman CI loading by registering pinned MPFB2 under Blender extension package naming.
+- Made the intake pipeline cancellable and added MakeHuman build-stage logging; removed unnecessary MPFB UI asset-list scanning.
 - Added maintainer technical guide and research/licensing decision log.
 - Established a CC0-only intake policy, source registry and subject-based category structure.
 - Added immutable GitHub source revisions and official Poly Haven API resolution.

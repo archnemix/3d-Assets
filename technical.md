@@ -74,7 +74,7 @@ Workflow: `.github/workflows/asset-intake.yml`
 - Each worker writes `reports/intake/<batch>/worker-N.log` and `shard-N.json`.
 - Candidate payloads go to `quarantine/<batch>/<id>/`.
 - Bot commits use `[skip ci]` and do not retrigger intake.
-- Shared concurrency prevents overlapping intake/refresh pushes where possible.
+- Shared concurrency prevents overlapping intake/refresh pushes where possible; a newer request can cancel an older stuck intake run.
 
 If a push races with a bot commit, fetch and rebase before retrying:
 

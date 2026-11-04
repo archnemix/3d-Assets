@@ -62,3 +62,5 @@ The failed candidates remain unapproved. Their payloads will be replaced by a cl
 **Resolution.** Load the pinned MPFB source as `bl_ext.user_default.mpfb`, create the extension user directory, then register it. This keeps the fix inside the build script and avoids modifying the upstream tool.
 
 **Next gate.** Generated humans must render cleanly from all angles, pass the validator, and receive explicit visual approval before they are saved into `assets/characters/humans/`.
+
+**Follow-up.** The first extension-package retry did not fail fast; it remained in the acquisition/render step long enough to be unhelpful. The pipeline was made cancellable, the build script now prints stage progress, and the unnecessary MPFB UI asset-list cache was removed because recipes load explicit CC0 pack paths. The next retry uses those changes rather than silently waiting on a stuck job.
