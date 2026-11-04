@@ -214,8 +214,8 @@
     },
     {
       "path": "logs/animations.log",
-      "bytes": 40082,
-      "sha256": "55721818143efa8c383e4666480a3ab3543a2b8b8cf4d55e1462fb2965103f23",
+      "bytes": 40278,
+      "sha256": "4f279bfd1fd90becfacac574797752018d2f15c584373666e0d6d0cafd58c1c4",
       "role": "logs"
     },
     {
@@ -245,37 +245,37 @@
     {
       "path": "previews/anim-steer-a.jpg",
       "bytes": 10891,
-      "sha256": "6e3f5eeaa15183fd8fee803b3c6a940e06c72e0d371b7cc10c982d7bd1f02ba8",
+      "sha256": "70b414286e026fdc982fd9c0305ddf126f1a2fe8c59d0d5ecbe88a006ff91a5f",
       "role": "previews"
     },
     {
       "path": "previews/anim-steer-b.jpg",
-      "bytes": 10830,
-      "sha256": "9f8c66ca2e7dd487bd070225435f862c19eb1c87a576ee4673693e47f42cc4e3",
+      "bytes": 10820,
+      "sha256": "516527fb3921ef62a1cfc1530d576f8d9248dbf3aaec07c5c09af044decd0235",
       "role": "previews"
     },
     {
       "path": "previews/anim-steer-c.jpg",
-      "bytes": 10730,
-      "sha256": "be892defd7c394686244b07e754caabf080417005fd46e58d1a8ac820ea52d4d",
+      "bytes": 10742,
+      "sha256": "ce01a64a4ec1c60c0f0bc049b6bc1098e05ac3c52c287b6dd544fa862bceb824",
       "role": "previews"
     },
     {
       "path": "previews/anim-wheel_roll-a.jpg",
       "bytes": 10891,
-      "sha256": "27845a782665d01839fae25b6215f94588cf724fdf81f32d25284b951e100510",
+      "sha256": "53db2264095f461a4ef4e9018d88befdeb0dbf2744f5f57fdfbe2d464f1173e7",
       "role": "previews"
     },
     {
       "path": "previews/anim-wheel_roll-b.jpg",
-      "bytes": 10815,
-      "sha256": "133a0e9393809f2b158c59ca21848f9c612d58f9e37cc1a6c6f9ca004bf13d48",
+      "bytes": 10909,
+      "sha256": "8b739d80f79a8915594c23be39a79aad514bd505089b3bb04f1465f8a9233040",
       "role": "previews"
     },
     {
       "path": "previews/anim-wheel_roll-c.jpg",
-      "bytes": 10742,
-      "sha256": "05e76b8744ab641eae099542fadf802d8d3e8a056b8c597c6b477d90cf688a21",
+      "bytes": 10896,
+      "sha256": "81e1393e0cac0ebbb27f9954e9d1ef58c01c9b79fb85bbc3044cc57d5a713eae",
       "role": "previews"
     },
     {
@@ -370,8 +370,8 @@
     },
     {
       "path": "provenance/animations.json",
-      "bytes": 979,
-      "sha256": "7bbfae1810bb5b68e5a8fd6e20ec17694c632651d0661fd208d7aca370d7282d",
+      "bytes": 1035,
+      "sha256": "f5e28814a90e7cade49d7582b7b5e6155aff7fd93f820f580fe4255795b8f03e",
       "role": "provenance"
     },
     {
@@ -445,6 +445,7 @@
         "rally-car_wheel_rr"
       ],
       "axis": "X",
+      "start_degrees": 0.0,
       "degrees": 360.0,
       "frames": 60,
       "fps": 30
@@ -456,6 +457,7 @@
         "rally-car_wheel_fr"
       ],
       "axis": "Z",
+      "start_degrees": 0.0,
       "degrees": 32.0,
       "frames": 45,
       "fps": 30

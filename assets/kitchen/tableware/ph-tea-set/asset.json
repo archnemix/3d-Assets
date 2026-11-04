@@ -191,8 +191,8 @@
     },
     {
       "path": "logs/animations.log",
-      "bytes": 22657,
-      "sha256": "8f0416e13e1e8025b512da63401acc04bce1fe6b419b009f143b08620684d1d0",
+      "bytes": 22792,
+      "sha256": "4ae54913046b03b218dd4baadc01b51875ea88171b36395c9367b199c8d5089f",
       "role": "logs"
     },
     {
@@ -215,8 +215,8 @@
     },
     {
       "path": "model/tea_set_01_2k-animated.glb",
-      "bytes": 5178240,
-      "sha256": "158475c71acd909dbddf977aeef155ee237768cd40b82d72532824052ce83995",
+      "bytes": 5180120,
+      "sha256": "0cf965c28a80cd2e560765b9402f453b10ff05efc4e9f2661a05ce787ec366dd",
       "role": "model"
     },
     {
@@ -242,6 +242,24 @@
       "bytes": 805167,
       "sha256": "79aa99b7e50d47cc2854f57ca57979722d110b998d126d5b058239ae61a85bef",
       "role": "model"
+    },
+    {
+      "path": "previews/anim-lid_lift-a.jpg",
+      "bytes": 5802,
+      "sha256": "7fc3a1bc4dd1a09e3b471abe0ea766aee431739dbb1bc56f5372a747f892d393",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-lid_lift-b.jpg",
+      "bytes": 5884,
+      "sha256": "2fe19b492197fcf72e4d5085709666069dda57a1088bdf0d2fcb8367fa2a24d1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-lid_lift-c.jpg",
+      "bytes": 6112,
+      "sha256": "29a3ff1a9f87c36361a4817f59050211845fd69d86f92cbe0dc34e2983088654",
+      "role": "previews"
     },
     {
       "path": "previews/anim-lid_open-a.jpg",
@@ -353,8 +371,8 @@
     },
     {
       "path": "provenance/animations.json",
-      "bytes": 590,
-      "sha256": "ea4778179ecc73ff23dab9a7f01475183622833c5ab9836f670f8a514175cdf9",
+      "bytes": 796,
+      "sha256": "c5624992d43d2a6668edfdef741df139b2b86a4cf41143f95e15777b24aa6ca5",
       "role": "provenance"
     },
     {
@@ -384,13 +402,22 @@
   ],
   "authored_animations": [
     {
-      "name": "lid_open",
+      "name": "lid_lift",
       "parts": [
         "tea_set_01_sugar_cup_01_lid",
         "tea_set_01_teapot_01_lid"
       ],
-      "axis": "X",
-      "degrees": -105.0,
+      "motion": "lift",
+      "detail": [
+        {
+          "part": "tea_set_01_sugar_cup_01_lid",
+          "rise_metres": 0.054
+        },
+        {
+          "part": "tea_set_01_teapot_01_lid",
+          "rise_metres": 0.0793
+        }
+      ],
       "frames": 60,
       "fps": 30
     }
