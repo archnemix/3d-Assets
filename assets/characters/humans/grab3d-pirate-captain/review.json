@@ -1,0 +1,22 @@
+{
+  "id": "grab3d-pirate-captain",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "All 12 views inspected. Pirate captain reads cleanly from every azimuth: tricorn with red plume, double-breasted coat with brass buttons and cuffs, brocade waistcoat, wrapped sash, cuffed breeches, strapped boots and a sheathed cutlass at the hip. The rear views confirm the coat tails, sash knot and scabbard are fully modelled rather than painted on. Bearded face with defined brow and hair strands. 300k tris, 2K PBR. Rigged: 24-bone humanoid armature with walk and run clips, zero unweighted skinned vertices.",
+  "limitations": [
+    "AI-assisted origin (Meshy) is disclosed upstream; some storefronts require AI-content disclosure.",
+    "24-bone rig has no finger or facial bones, so no hand poses or expressions.",
+    "The cutlass is part of the skinned mesh and cannot be detached without editing."
+  ],
+  "contact_sheet_sha256": "ad4856dd4de84a9d0245dd97f7146ae84665f86d3887e42ec6ed2b416634ca48",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

@@ -1,0 +1,378 @@
+{
+  "schema_version": 1,
+  "id": "ph-caged-hanging-light",
+  "title": "Industrial caged fluorescent pendant",
+  "category": "lighting/ceiling",
+  "style": "realistic",
+  "tags": [
+    "lighting",
+    "pendant",
+    "caged",
+    "industrial",
+    "metal",
+    "pbr"
+  ],
+  "batch": "expansion-09",
+  "acquired_at": "2026-11-04T22:27:57.690200+00:00",
+  "review": {
+    "id": "ph-caged-hanging-light",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. Linear industrial fluorescent pendant with a green enamelled housing, protective wire cage, two chain suspensions with ceiling roses, end caps and a central junction box. Cage wires are real geometry and the underside diffuser and top mounting detail are both modelled. Retry of the expansion-08 candidate that failed on a transient CDN error; the texture set downloaded intact this time.",
+    "limitations": [
+      "Not rigged: the chains are static geometry and will not swing.",
+      "The diffuser does not emit light by default; add an emitter in your scene."
+    ],
+    "contact_sheet_sha256": "550a0389f64a94f4b5260c96a9de5ad169cf8db7c2b4f1945294cd335454e720",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/caged_hanging_light_2k.gltf",
+    "creator": "Ulan Cabanilla",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/caged_hanging_light",
+    "source_id": "caged_hanging_light",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/caged_hanging_light/caged_hanging_light_2k.gltf",
+        "bytes": 3098,
+        "sha256": "66b8d89bef8c41aeadd31ee0cba609a33612c001506bba997b011c67420cff20"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/caged_hanging_light/caged_hanging_light_emissive_2k.jpg",
+        "bytes": 215883,
+        "sha256": "0f25838f744a8f9a57d1070a04c60dd720d047104708075c17992d8d2199cba2"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/caged_hanging_light/caged_hanging_light_nor_gl_2k.jpg",
+        "bytes": 2654221,
+        "sha256": "18fbce7b2dc01118c937c7c5ff88c31b044077cdb84421eaf05e89222761df0d"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/caged_hanging_light/caged_hanging_light_diff_2k.jpg",
+        "bytes": 2099065,
+        "sha256": "bfa7533e804b38086bc125343bf40403f3f808a6f0861718408793ad3ecb05fd"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/caged_hanging_light/caged_hanging_light_arm_2k.jpg",
+        "bytes": 3331285,
+        "sha256": "9aa26b03e132c7ebb29c724ed83e7fb76d448e189d112e1d4517f69134151199"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/caged_hanging_light/caged_hanging_light.bin",
+        "bytes": 711056,
+        "sha256": "061a05a47a794fdcb43d032e512291369b5b9cd4db3c4d4975c23431b0c6a0c6"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/caged_hanging_light_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 4,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/caged_hanging_light_emissive_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "caged_hanging_light_emissive"
+    },
+    {
+      "path": "model/textures/caged_hanging_light_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "caged_hanging_light_nor_gl"
+    },
+    {
+      "path": "model/textures/caged_hanging_light_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "caged_hanging_light_diff"
+    },
+    {
+      "path": "model/textures/caged_hanging_light_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "caged_hanging_light_metal-caged_hanging_light_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 17928,
+    "triangles": 22893,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 2,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "caged_hanging_light_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-caged-hanging-light/model/textures/caged_hanging_light_diff_2k.jpg"
+      },
+      {
+        "name": "caged_hanging_light_emissive",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-caged-hanging-light/model/textures/caged_hanging_light_emissive_2k.jpg"
+      },
+      {
+        "name": "caged_hanging_light_metal-caged_hanging_light_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-caged-hanging-light/model/textures/caged_hanging_light_arm_2k.jpg"
+      },
+      {
+        "name": "caged_hanging_light_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-caged-hanging-light/model/textures/caged_hanging_light_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1387,
+      "sha256": "71b480382967a09f6ea9c91bee34b1a0e12274ba60f8273002ed8a92cf474b12",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68779,
+      "sha256": "5b10140e007abac5317a06adfdf043a886fa40e22a9f1046a7e71593fe4d6f31",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/caged_hanging_light.bin",
+      "bytes": 711056,
+      "sha256": "061a05a47a794fdcb43d032e512291369b5b9cd4db3c4d4975c23431b0c6a0c6",
+      "role": "model"
+    },
+    {
+      "path": "model/caged_hanging_light_2k.gltf",
+      "bytes": 3098,
+      "sha256": "66b8d89bef8c41aeadd31ee0cba609a33612c001506bba997b011c67420cff20",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/caged_hanging_light_arm_2k.jpg",
+      "bytes": 3331285,
+      "sha256": "9aa26b03e132c7ebb29c724ed83e7fb76d448e189d112e1d4517f69134151199",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/caged_hanging_light_diff_2k.jpg",
+      "bytes": 2099065,
+      "sha256": "bfa7533e804b38086bc125343bf40403f3f808a6f0861718408793ad3ecb05fd",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/caged_hanging_light_emissive_2k.jpg",
+      "bytes": 215883,
+      "sha256": "0f25838f744a8f9a57d1070a04c60dd720d047104708075c17992d8d2199cba2",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/caged_hanging_light_nor_gl_2k.jpg",
+      "bytes": 2654221,
+      "sha256": "18fbce7b2dc01118c937c7c5ff88c31b044077cdb84421eaf05e89222761df0d",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 22065,
+      "sha256": "9f8b71f972c153527897a8d89b9f41018ba61647ebb9442dfaa3ce724d9bfeb1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 21429,
+      "sha256": "0b1e28834d65d9e035372772cd17bd7f2480d5f4a5cae636e877cc93f521c0ec",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 194383,
+      "sha256": "550a0389f64a94f4b5260c96a9de5ad169cf8db7c2b4f1945294cd335454e720",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1517,
+      "sha256": "e8419583c3c65968f08abe36be614a477680d3720634480543bf94b1c504af3a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 24595,
+      "sha256": "510e4bef8233a128a9922879de96a702ccfbc4d0f656da8252bd3388625ad59d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 30484,
+      "sha256": "c0e064f9293335f45e2d707877a67e76a7e3d42d7ac11d99e89d1ac8881da311",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 21840,
+      "sha256": "48ac4cdccb701e24fb5af7701623b2c5f88494964d9c44275c094f3a4c474187",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 30518,
+      "sha256": "ef178a74a06d46075197cea4752d563960d1e725de8184c297cb58b6a06f9290",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 24049,
+      "sha256": "b87cb91baa938b8faf2ac6a9f5c9b4d932d2dc6b816d8d40eb5ea3875d9fed6f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 31295,
+      "sha256": "e9dddeaf925a5bb9ee884f4603fd6fdc8b5c3286241f69534e828f52c08be32e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 24347,
+      "sha256": "207c977c73d1e16deb5aa3bee9326764a74ba37c405623999f532b63f0b86dac",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 30827,
+      "sha256": "bdec118de539e1d6d1848774a48980ae258a33f077eef22f378c84308253e9a9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 24781,
+      "sha256": "7a7492b335fe2faf39af2ffddd09da47e0a8a18e4eec46d557fb54140a5ef730",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 32261,
+      "sha256": "4153a3452fad74ab3033a743178cfda62c5cd5954db7b25f12faa7bf096e00ea",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1371,
+      "sha256": "1f2f6773b33a21a7d34a411858b3455ce21abb39df150dcee7c05d4939f7a932",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2463,
+      "sha256": "6939214409ba8e292dcd1c051eca04ac39910f3720a39a2a7ac8237c79d2ecb3",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1432,
+      "sha256": "3038a6b17505a1a2e3cc3d0e6c0c0eda447beb9758d141b1f5c41ff8cab34f4a",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1043,
+      "sha256": "87fce74460b38ff6f6eeaad8a86e66b2a31a0ddc279c2d8707f53a1b7726cd7c",
+      "role": "documentation"
+    }
+  ]
+}

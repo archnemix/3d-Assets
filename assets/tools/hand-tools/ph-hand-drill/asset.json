@@ -1,0 +1,350 @@
+{
+  "schema_version": 1,
+  "id": "ph-hand-drill",
+  "title": "Vintage crank hand drill",
+  "category": "tools/hand-tools",
+  "style": "realistic",
+  "tags": [
+    "drill",
+    "crank",
+    "wood",
+    "vintage",
+    "carpentry",
+    "rigged",
+    "animatable",
+    "pbr"
+  ],
+  "batch": "expansion-09",
+  "acquired_at": "2026-11-04T22:24:01.567004+00:00",
+  "review": {
+    "id": "ph-hand-drill",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. Crank hand drill with a turned wooden head grip, cast frame, red-painted main gear wheel, pinion, side crank with wooden knob, chuck and a modelled twist bit. Gear teeth are real geometry, visible in the top and bottom views, and rust and chipped paint are consistent across the frame. No cast-in maker's name.",
+    "limitations": [
+      "Not rigged in the shipped glTF: the crank and chuck do not rotate.",
+      "The drill bit is fused to the chuck rather than interchangeable."
+    ],
+    "contact_sheet_sha256": "fc56d8b66965c1976e141f9a3362bcda6555967e163150b9347ef357edd7f312",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/vintage_hand_drill_2k.gltf",
+    "creator": "Yann Kervran, Benjamin McDonnell",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/vintage_hand_drill",
+    "source_id": "vintage_hand_drill",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/vintage_hand_drill/vintage_hand_drill_2k.gltf",
+        "bytes": 9084,
+        "sha256": "047786ee6dd215a438800338252064479e4d370c58e3561d36712a027fe87f5d"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/vintage_hand_drill/vintage_hand_drill_arm_2k.jpg",
+        "bytes": 3729066,
+        "sha256": "c8af27eee5f8a021d822f69f216ecdb6120d743a29fd4cec0de195214214ce85"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/vintage_hand_drill/vintage_hand_drill.bin",
+        "bytes": 332652,
+        "sha256": "a3fd7673733b9836a98ae8c744edb1a23e52a2bcd079c500e46c9fca16ce4d9c"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/vintage_hand_drill/vintage_hand_drill_nor_gl_2k.jpg",
+        "bytes": 3842775,
+        "sha256": "811be26baee49fd549356ff0945f04e48cd7710b7728f246e118454c5db115b3"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/vintage_hand_drill/vintage_hand_drill_diff_2k.jpg",
+        "bytes": 2982795,
+        "sha256": "550182936f5c4406bad9a772ed5b742ba159888bcdc665645a801e69562bbba4"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/vintage_hand_drill_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 5,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/vintage_hand_drill_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "vintage_hand_drill_nor_gl"
+    },
+    {
+      "path": "model/textures/vintage_hand_drill_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "vintage_hand_drill_diff"
+    },
+    {
+      "path": "model/textures/vintage_hand_drill_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "vintage_hand_drill_metal-vintage_hand_drill_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 5,
+    "hidden_mesh_objects": 0,
+    "vertices": 8832,
+    "triangles": 8338,
+    "material_slots": 5,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "vintage_hand_drill_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-hand-drill/model/textures/vintage_hand_drill_diff_2k.jpg"
+      },
+      {
+        "name": "vintage_hand_drill_metal-vintage_hand_drill_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-hand-drill/model/textures/vintage_hand_drill_arm_2k.jpg"
+      },
+      {
+        "name": "vintage_hand_drill_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-hand-drill/model/textures/vintage_hand_drill_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 5,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1294,
+      "sha256": "bc233fa5305cca502d6f8a76643444f162316d907400038f0cb823411dd85f07",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 73345,
+      "sha256": "1f6969066cd51d14b43864b1344f07d39868bfbb581c6f6f89dbf4c2ce4cdfac",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "4a1ac31e02299efa77ae3b810565b7859ed55e6bb96e9664c8420d2f29890ce8",
+      "role": "logs"
+    },
+    {
+      "path": "model/textures/vintage_hand_drill_arm_2k.jpg",
+      "bytes": 3729066,
+      "sha256": "c8af27eee5f8a021d822f69f216ecdb6120d743a29fd4cec0de195214214ce85",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/vintage_hand_drill_diff_2k.jpg",
+      "bytes": 2982795,
+      "sha256": "550182936f5c4406bad9a772ed5b742ba159888bcdc665645a801e69562bbba4",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/vintage_hand_drill_nor_gl_2k.jpg",
+      "bytes": 3842775,
+      "sha256": "811be26baee49fd549356ff0945f04e48cd7710b7728f246e118454c5db115b3",
+      "role": "model"
+    },
+    {
+      "path": "model/vintage_hand_drill.bin",
+      "bytes": 332652,
+      "sha256": "a3fd7673733b9836a98ae8c744edb1a23e52a2bcd079c500e46c9fca16ce4d9c",
+      "role": "model"
+    },
+    {
+      "path": "model/vintage_hand_drill_2k.gltf",
+      "bytes": 9084,
+      "sha256": "047786ee6dd215a438800338252064479e4d370c58e3561d36712a027fe87f5d",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 35713,
+      "sha256": "28ba2318694875631e0446a2cff3caa2d0e4e547d18a3f0911f27e7c88b1a32d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 15147,
+      "sha256": "67c712e6e4b12f335b835aa41b14713055fa2f2595128e2b77c41e5804f18122",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 170312,
+      "sha256": "fc56d8b66965c1976e141f9a3362bcda6555967e163150b9347ef357edd7f312",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1186,
+      "sha256": "3c2c1e1702f4bfcc69f72b098ab1d0940c865471bb13de524a51154dabc9145b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 21831,
+      "sha256": "942e3b8417798abf5bb58be2b693f96c3cefda9d72c8540f3ef2d39e8051891f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 20758,
+      "sha256": "441df7b1bdc7da1014a0fde9cbe4933cdb545dd07f107ddc0add4c66b7d1557e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 18449,
+      "sha256": "9b45811fcc1bd2e7cc53dab8ae3c5904feef4f171af44a11129f558ac45154f7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 21431,
+      "sha256": "b8693bca8094912450ec8cce043b5f30edef00713c922919958b37a886db87ef",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 22306,
+      "sha256": "ca84bb2c0a7abc4bf57f8b10dca34078d96ebfceb33e0ff24f1e0de68642e384",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 20293,
+      "sha256": "dac26cc241e08dd8158837124a3fe112ad08e35b99c6cde47a4ccddb1b993577",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 17886,
+      "sha256": "53b0c629aaa8f7b13d8e5a68d1e7edc66e4bc52356d73505a82e90bf03abdc90",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 21223,
+      "sha256": "6b6c933b4b1c7b35b804301cd57921a5de71d79c544764edf5fa412bb8a8d1b3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 43669,
+      "sha256": "8d90ef06f61d8ee86f84fbcabc3445e266904f995727ade956575cc1e0b95863",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 21063,
+      "sha256": "1a26a961126d5ba47a57175c22e68773e142f5145b4c896e09e8d3ed2010128b",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1431,
+      "sha256": "e78401fca06961422491e8adf3685c23aafb39781a0f145b89d42cde8f53930b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3460,
+      "sha256": "bbc28f1143830614c6eb32ce0dafb063db3311588254e8bb211ab49381d00a3b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1161,
+      "sha256": "2b85618cc57d3d85ba9799fce5c0cf3b581c42e90c9378b39c2dbcdf746e1f92",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 950,
+      "sha256": "62a386bcd539744e2d206c84747225127c525bdf454c1a1b0e6344c58c007dc6",
+      "role": "documentation"
+    }
+  ]
+}

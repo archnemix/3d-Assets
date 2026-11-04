@@ -1,0 +1,350 @@
+{
+  "schema_version": 1,
+  "id": "ph-ratchet-wrench",
+  "title": "Chrome ratchet socket wrench",
+  "category": "tools/hand-tools",
+  "style": "realistic",
+  "tags": [
+    "wrench",
+    "ratchet",
+    "chrome",
+    "mechanic",
+    "socket",
+    "rigged",
+    "animatable",
+    "pbr"
+  ],
+  "batch": "expansion-09",
+  "acquired_at": "2026-11-04T22:22:57.899762+00:00",
+  "review": {
+    "id": "ph-ratchet-wrench",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 4
+    },
+    "notes": "All 12 views inspected. Chrome socket ratchet with a square drive, reversing lever, quick-release button, recessed head plate and a shaped handle with grip flutes. Both faces of the head are modelled and the top view shows the drive square and retaining detail. Polished metal shows plausible micro-scratching with no UV seam and no stamped brand name.",
+    "limitations": [
+      "Not rigged in the shipped glTF; the drive and reversing lever do not move.",
+      "No sockets are included."
+    ],
+    "contact_sheet_sha256": "540de0823ec4a6114b748f813e480110769a0fc18de46c6ee8f7a6d8fab78510",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/ratchet_wrench_2k.gltf",
+    "creator": "John Hutcheson",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/ratchet_wrench",
+    "source_id": "ratchet_wrench",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/ratchet_wrench/ratchet_wrench_2k.gltf",
+        "bytes": 2788,
+        "sha256": "7f9d44fbf283af3985abfba9e0bab6b7582dd99ba6a05b8a4f2ae3e1b1fa01e1"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/ratchet_wrench/ratchet_wrench_diff_2k.jpg",
+        "bytes": 897323,
+        "sha256": "bcd214f047ee45c7268ef2758c1036120984853b434768530d5bf9fa18c9f253"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/ratchet_wrench/ratchet_wrench_nor_gl_2k.jpg",
+        "bytes": 1341562,
+        "sha256": "96ad79ffaf6f2dc947aec80e8a1638cd26ad5f527b69fb9737b42c60d2ae20a1"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/ratchet_wrench/ratchet_wrench.bin",
+        "bytes": 219816,
+        "sha256": "97b2ddbb13baeefd1abe76a18f89352410614af470eb60f4cada170a6c00ab5e"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/ratchet_wrench/ratchet_wrench_arm_2k.jpg",
+        "bytes": 2145513,
+        "sha256": "d024f5bbdcf4da22eec58bbb6ea58d11d229b59dd28ecdd58e590d4700fb9dcb"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/ratchet_wrench_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/ratchet_wrench_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "ratchet_wrench_nor_gl"
+    },
+    {
+      "path": "model/textures/ratchet_wrench_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "ratchet_wrench_diff"
+    },
+    {
+      "path": "model/textures/ratchet_wrench_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "ratchet_wrench_metal-ratchet_wrench_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 5220,
+    "triangles": 8796,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "ratchet_wrench_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-ratchet-wrench/model/textures/ratchet_wrench_diff_2k.jpg"
+      },
+      {
+        "name": "ratchet_wrench_metal-ratchet_wrench_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-ratchet-wrench/model/textures/ratchet_wrench_arm_2k.jpg"
+      },
+      {
+        "name": "ratchet_wrench_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-ratchet-wrench/model/textures/ratchet_wrench_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1240,
+      "sha256": "4f0d41eb0636e63d05f8350583fa62edeb547f68ea6ab55ae2b265dca55b63e2",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67843,
+      "sha256": "847259201909e0ed2fc31c713e91d005603ef92107ab2c492b20c372ebe9d3e3",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/ratchet_wrench.bin",
+      "bytes": 219816,
+      "sha256": "97b2ddbb13baeefd1abe76a18f89352410614af470eb60f4cada170a6c00ab5e",
+      "role": "model"
+    },
+    {
+      "path": "model/ratchet_wrench_2k.gltf",
+      "bytes": 2788,
+      "sha256": "7f9d44fbf283af3985abfba9e0bab6b7582dd99ba6a05b8a4f2ae3e1b1fa01e1",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/ratchet_wrench_arm_2k.jpg",
+      "bytes": 2145513,
+      "sha256": "d024f5bbdcf4da22eec58bbb6ea58d11d229b59dd28ecdd58e590d4700fb9dcb",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/ratchet_wrench_diff_2k.jpg",
+      "bytes": 897323,
+      "sha256": "bcd214f047ee45c7268ef2758c1036120984853b434768530d5bf9fa18c9f253",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/ratchet_wrench_nor_gl_2k.jpg",
+      "bytes": 1341562,
+      "sha256": "96ad79ffaf6f2dc947aec80e8a1638cd26ad5f527b69fb9737b42c60d2ae20a1",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 33958,
+      "sha256": "635cbd62679c32db50d7a7769294dab487c5efa19eb6b30767d5c76679b5da58",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 11422,
+      "sha256": "cb0569628e8280c0f03b8f84c1f436aacb3d1b75081c82c1a26107e4ee4b6e37",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 129600,
+      "sha256": "540de0823ec4a6114b748f813e480110769a0fc18de46c6ee8f7a6d8fab78510",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1170,
+      "sha256": "e775733a86b9b54d2aa8320c15127b2d72d65ae152619e7cfd175f7ecb506414",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 11842,
+      "sha256": "cb63f08ef1e203527fece02aac5b00805e0f6350a977918f2c1835dc21a12e0b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 13293,
+      "sha256": "5ddf428430f3fda47909b83f50f6fde1a0691417c33b837e1927e90f2d7f41b7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 13944,
+      "sha256": "a485e86b8fffa8106a64c09be96c676b998d9dcd252d484f65567c774ce84767",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 13555,
+      "sha256": "1164f4db332a0ce1423bcc56c14e7f6cf373a2a8b446c55638cb670027c4133a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 12102,
+      "sha256": "6ab0fda61a05c35270cfd1ff65c2eebd98600ab17c0c4f372cc77b388f6e9f40",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 13732,
+      "sha256": "3e653ddcacc719ce4e2fce4b8466bc7a5a6a7adb3209c5484dae96e1df23e36f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 13692,
+      "sha256": "aef95a0fb0066a502002f4afe2279b713e18869246f0011a8ec623508eb2d6a3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 13377,
+      "sha256": "ffc4a87beaa5c8b1f7dc80bbe94f5cd86db3fc6d4ee6e6397867cf1a7404fe06",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 35488,
+      "sha256": "eb4e774a478261c619df2f0eda20785193501c2cb19b23b19eb935df69e9f963",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 20477,
+      "sha256": "9e438fa97836e824a00a67e9a84d0bd2c065e8cfad8b21a9243b778b03a203b7",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1308,
+      "sha256": "e1e793ae0bca4a71a9f3a11b1297f623418ff985d4bc80457035cffbb09f4928",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2132,
+      "sha256": "ef588101bfa5a18005dc116633e56d9ae1b88ec76c8d4f408c667f05480f7e8c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1104,
+      "sha256": "4389a6716662d3e9814cd26e66fe8dcff45d91057d7cb0d768de59aef3112592",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 940,
+      "sha256": "b42a49afd430d2dce9808ab023b919d92107177fc798911d497d84828cace0f2",
+      "role": "documentation"
+    }
+  ]
+}

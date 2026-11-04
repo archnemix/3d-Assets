@@ -2,7 +2,7 @@
 
 Cabinets, commodes, shelving and bookcases
 
-Approved assets: **7**
+Approved assets: **9**
 
 ## Antique Chinese wooden cabinet
 
@@ -11,6 +11,22 @@ Approved assets: **7**
 - Creator: Kirill Sannikov; style: realistic; CC0-1.0
 - 15,668 triangles; 3 texture images
 - [Asset folder](../../assets/furniture/storage/ph-chinese-cabinet/) · [Metadata](../../assets/furniture/storage/ph-chinese-cabinet/asset.json) · [All inspection views](../../assets/furniture/storage/ph-chinese-cabinet/previews/contact-sheet.jpg)
+
+## Carved Chinese wooden commode
+
+![Carved Chinese wooden commode](../../assets/furniture/storage/ph-chinese-commode/previews/orbit-01.jpg)
+
+- Creator: Kirill Sannikov; style: realistic; CC0-1.0
+- 6,775 triangles; 3 texture images
+- [Asset folder](../../assets/furniture/storage/ph-chinese-commode/) · [Metadata](../../assets/furniture/storage/ph-chinese-commode/asset.json) · [All inspection views](../../assets/furniture/storage/ph-chinese-commode/previews/contact-sheet.jpg)
+
+## Small painted farmhouse cabinet
+
+![Small painted farmhouse cabinet](../../assets/furniture/storage/ph-farmhouse-cabinet/previews/orbit-01.jpg)
+
+- Creator: Kirill Sannikov; style: realistic; CC0-1.0
+- 966 triangles; 3 texture images
+- [Asset folder](../../assets/furniture/storage/ph-farmhouse-cabinet/) · [Metadata](../../assets/furniture/storage/ph-farmhouse-cabinet/asset.json) · [All inspection views](../../assets/furniture/storage/ph-farmhouse-cabinet/previews/contact-sheet.jpg)
 
 ## Carved gothic wooden cabinet
 

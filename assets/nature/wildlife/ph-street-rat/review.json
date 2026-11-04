@@ -1,0 +1,22 @@
+{
+  "id": "ph-street-rat",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "All 12 views inspected. Realistic brown rat with a coherent body silhouette, modelled ears, whisker pads, individually separated toes with claws, and a long tapering tail that reads correctly from the top, bottom and both sides. Fur direction is carried by the normal and roughness maps and stays consistent across the flanks and rump. 57k tris.",
+  "limitations": [
+    "Not rigged: the rat is a static pose and cannot be animated without adding a skeleton.",
+    "Fur is texture and normal-map detail, not strand geometry.",
+    "Whiskers are not modelled as separate geometry."
+  ],
+  "contact_sheet_sha256": "aa5163f40c59eea4f0197a4d491fa54c7fdcaeeda97ed6cdbed25d749ef90043",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

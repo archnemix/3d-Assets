@@ -8,6 +8,8 @@ The library currently contains **84 approved CC0 assets** in **32 categories**, 
 
 Approved subjects span realistic rigged humans, low-poly game characters, chairs, sofas, tables, beds, cabinets and shelving, desks, hand and power tools, measuring instruments, optical and scientific instruments, cookware and tableware, fruit, vegetables and baked goods, vases, books, potted plants, vehicles, toys, computers and audio, appliances, safety equipment, industrial containers, carts and lighting. The realistic-human set currently includes an adult male base character, an adult female base character and an elderly woman, each with embedded PBR textures and walk/run animation clips. MakeHuman/MPFB generation is working through the same quarantine/review pipeline, but generated characters are only added after they pass inspection and visual review.
 
+New to rigged models? [`docs/rigging.md`](docs/rigging.md) explains what a rig is, the difference between character and mechanical rigs, and why a rig advertised upstream is sometimes absent from the glTF we ship.
+
 Browse approved assets by category in [`docs/categories/`](docs/categories/), or open the live gallery in [`gallery/`](gallery/) to search and filter all of them at once. Every asset folder carries its model, textures, twelve inspection renders, provenance, license text and checksums.
 
 ## Find and use an asset

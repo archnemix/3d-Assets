@@ -2,7 +2,7 @@
 
 Human characters, including stylized game characters and realistic proportioned people
 
-Approved assets: **5**
+Approved assets: **8**
 
 ## Realistic elderly woman, rigged
 
@@ -19,6 +19,30 @@ Approved assets: **5**
 - Creator: Grab3D; style: realistic; CC0-1.0
 - 262,348 triangles; 3 texture images
 - [Asset folder](../../assets/characters/humans/grab3d-man-base-character/) · [Metadata](../../assets/characters/humans/grab3d-man-base-character/asset.json) · [All inspection views](../../assets/characters/humans/grab3d-man-base-character/previews/contact-sheet.jpg)
+
+## Pirate captain with cutlass
+
+![Pirate captain with cutlass](../../assets/characters/humans/grab3d-pirate-captain/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: realistic; CC0-1.0
+- 300,000 triangles; 3 texture images
+- [Asset folder](../../assets/characters/humans/grab3d-pirate-captain/) · [Metadata](../../assets/characters/humans/grab3d-pirate-captain/asset.json) · [All inspection views](../../assets/characters/humans/grab3d-pirate-captain/previews/contact-sheet.jpg)
+
+## Samurai in lacquered armour
+
+![Samurai in lacquered armour](../../assets/characters/humans/grab3d-samurai/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: realistic; CC0-1.0
+- 295,015 triangles; 3 texture images
+- [Asset folder](../../assets/characters/humans/grab3d-samurai/) · [Metadata](../../assets/characters/humans/grab3d-samurai/asset.json) · [All inspection views](../../assets/characters/humans/grab3d-samurai/previews/contact-sheet.jpg)
+
+## Modern soldier in digital camouflage
+
+![Modern soldier in digital camouflage](../../assets/characters/humans/grab3d-soldier/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: realistic; CC0-1.0
+- 278,969 triangles; 3 texture images
+- [Asset folder](../../assets/characters/humans/grab3d-soldier/) · [Metadata](../../assets/characters/humans/grab3d-soldier/asset.json) · [All inspection views](../../assets/characters/humans/grab3d-soldier/previews/contact-sheet.jpg)
 
 ## Realistic adult female base character, rigged
 

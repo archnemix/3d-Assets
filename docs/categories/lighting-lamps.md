@@ -2,7 +2,7 @@
 
 Portable lanterns, oil lamps and candle holders
 
-Approved assets: **3**
+Approved assets: **4**
 
 ## Ornate brass candleholders
 
@@ -19,6 +19,14 @@ Approved assets: **3**
 - Creator: Bhargav Kubal; style: realistic; CC0-1.0
 - 12,742 triangles; 4 texture images
 - [Asset folder](../../assets/lighting/lamps/ph-brass-diya-lantern/) · [Metadata](../../assets/lighting/lamps/ph-brass-diya-lantern/asset.json) · [All inspection views](../../assets/lighting/lamps/ph-brass-diya-lantern/previews/contact-sheet.jpg)
+
+## Articulated industrial lamp arm
+
+![Articulated industrial lamp arm](../../assets/lighting/lamps/ph-desk-lamp-arm/previews/orbit-01.jpg)
+
+- Creator: Yann Kervran, Kuutti Siitonen; style: realistic; CC0-1.0
+- 24,102 triangles; 3 texture images
+- [Asset folder](../../assets/lighting/lamps/ph-desk-lamp-arm/) · [Metadata](../../assets/lighting/lamps/ph-desk-lamp-arm/asset.json) · [All inspection views](../../assets/lighting/lamps/ph-desk-lamp-arm/previews/contact-sheet.jpg)
 
 ## Antique brass hurricane lantern
 

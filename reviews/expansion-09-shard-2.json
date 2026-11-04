@@ -1,0 +1,96 @@
+{
+  "batch": "expansion-09",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "decisions": [
+    {
+      "id": "ph-ratchet-wrench",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 4
+      },
+      "notes": "All 12 views inspected. Chrome socket ratchet with a square drive, reversing lever, quick-release button, recessed head plate and a shaped handle with grip flutes. Both faces of the head are modelled and the top view shows the drive square and retaining detail. Polished metal shows plausible micro-scratching with no UV seam and no stamped brand name.",
+      "limitations": [
+        "Not rigged in the shipped glTF; the drive and reversing lever do not move.",
+        "No sockets are included."
+      ],
+      "contact_sheet_sha256": "540de0823ec4a6114b748f813e480110769a0fc18de46c6ee8f7a6d8fab78510"
+    },
+    {
+      "id": "ph-bolt-action-rifle",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 4
+      },
+      "notes": "All 12 views inspected. Full-length bolt-action rifle with a camo-wrapped buttstock and fore-end, exposed wood along the barrel channel, receiver, bolt handle, trigger group, barrel bands, front and rear sights. Side views confirm a genuinely thin profile and the top view shows the sight line and bolt correctly. No proof marks, arsenal stamps or manufacturer name are legible on receiver or stock.",
+      "limitations": [
+        "Recognisable historical rifle pattern, unbranded; some marketplaces restrict weapons content.",
+        "Static: the bolt does not cycle and no magazine or ammunition is included.",
+        "The camo wrap is texture only, not separate cloth geometry."
+      ],
+      "contact_sheet_sha256": "6b1f0df047ecbb28c82923213e97c211b41a5d93bae9ed0a88967dd1ad7f2fa7"
+    },
+    {
+      "id": "ph-aircon-unit",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Exterior condenser unit supplied as both a clean and a heavily rusted variant, each with a louvred grille, visible fan blades behind it, side coil fins, service valves, insulated pipework, a junction box and a wall bracket with drain line. Rear and bottom views show the coil block, bracket welds and mounting feet fully modelled. No manufacturer badge on either variant.",
+      "limitations": [
+        "Two variants ship in one file; hide the one you do not want.",
+        "Not rigged: the fan does not spin.",
+        "Pipework terminates openly and is meant to pass into a wall."
+      ],
+      "contact_sheet_sha256": "69428e298ccc5ecb806a32516d0ca234642ebffc0f0a14b9c4b9ab5639b6b294"
+    },
+    {
+      "id": "grab3d-pirate-captain",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Pirate captain reads cleanly from every azimuth: tricorn with red plume, double-breasted coat with brass buttons and cuffs, brocade waistcoat, wrapped sash, cuffed breeches, strapped boots and a sheathed cutlass at the hip. The rear views confirm the coat tails, sash knot and scabbard are fully modelled rather than painted on. Bearded face with defined brow and hair strands. 300k tris, 2K PBR. Rigged: 24-bone humanoid armature with walk and run clips, zero unweighted skinned vertices.",
+      "limitations": [
+        "AI-assisted origin (Meshy) is disclosed upstream; some storefronts require AI-content disclosure.",
+        "24-bone rig has no finger or facial bones, so no hand poses or expressions.",
+        "The cutlass is part of the skinned mesh and cannot be detached without editing."
+      ],
+      "contact_sheet_sha256": "ad4856dd4de84a9d0245dd97f7146ae84665f86d3887e42ec6ed2b416634ca48"
+    },
+    {
+      "id": "grab3d-armored-knight",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Knight in silver plate with gold filigree, blue tabard bearing a sunburst device, a blue plumed helm worn back on the head and a round gold shield strapped across the back. Gauntlet fingers, knee cops and sabatons are individually modelled; the rear views confirm the shield boss and strap hardware. The heraldry is an invented sunburst, not an identifiable real coat of arms. 292k tris. Rigged: 24-bone humanoid armature with walk and run clips, zero unweighted skinned vertices.",
+      "limitations": [
+        "AI-assisted origin (Meshy) is disclosed upstream.",
+        "The shield is fused to the body mesh and cannot be unequipped without editing.",
+        "24-bone rig; gauntlet fingers are static."
+      ],
+      "contact_sheet_sha256": "2768179f6afbe5e302b6d587c584ce7384d6fdcadb25e72b1b8eec1b7d027a3a"
+    }
+  ]
+}

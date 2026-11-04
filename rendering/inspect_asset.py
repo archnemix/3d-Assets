@@ -11,6 +11,7 @@ from pathlib import Path
 import bpy
 
 sys.path.insert(0, str(Path(__file__).parent))
+from mathutils import Vector
 from metrics import collect  # noqa: E402
 from scene import (  # noqa: E402
     add_studio_lights,
@@ -51,6 +52,51 @@ def wire_material() -> bpy.types.Material:
     return material
 
 
+def portrait_views(objects, low, high, points, directory) -> list[str]:
+    """Render close-up head shots for humanoid characters.
+
+    The standard 640px full-body orbit reduces a head to roughly fifty pixels,
+    which is not enough to judge facial detail such as scars, eye shading or
+    skin texture. For rigged humanoids we add two 1024px portraits so those
+    details can actually be reviewed.
+    """
+    height = high.z - low.z
+    width = max(high.x - low.x, high.y - low.y)
+    skinned = any(
+        obj.find_armature() is not None
+        or any(modifier.type == "ARMATURE" for modifier in obj.modifiers)
+        for obj in objects
+        if obj.type == "MESH"
+    )
+    if height <= 0 or not skinned or height < width * 1.4:
+        return []
+    head_low = low.z + height * 0.80
+    head_points = [point for point in points if point.z >= head_low]
+    if len(head_points) < 24:
+        return []
+    head_center = Vector(
+        (
+            sum(point.x for point in head_points) / len(head_points),
+            sum(point.y for point in head_points) / len(head_points),
+            sum(point.z for point in head_points) / len(head_points),
+        )
+    )
+    head_radius = max((point - head_center).length for point in head_points)
+    scene = bpy.context.scene
+    scene.render.resolution_x = 1024
+    scene.render.resolution_y = 1024
+    names = []
+    for name, azimuth in (("portrait-front", 0), ("portrait-three-quarter", 40)):
+        camera_view(name, head_center, head_radius, azimuth, 4)
+        fit_camera(scene.camera, head_points, margin=1.25)
+        scene.render.filepath = str(directory / f"{name}.jpg")
+        bpy.ops.render.render(write_still=True)
+        names.append(name)
+    scene.render.resolution_x = 640
+    scene.render.resolution_y = 640
+    return names
+
+
 def main(model: str, output: str) -> None:
     directory = Path(output)
     directory.mkdir(parents=True, exist_ok=True)
@@ -77,13 +123,15 @@ def main(model: str, output: str) -> None:
     bpy.context.scene.render.filepath = str(directory / "wireframe.jpg")
     bpy.ops.render.render(write_still=True)
     bpy.context.view_layer.material_override = None
+    extra = portrait_views(objects, low, high, points, directory)
     (directory / "views.json").write_text(
         json.dumps(
             {
                 "front_convention": "Orbit 00 looks toward glTF +Z; engine front may differ.",
                 "orbit_elevation_degrees": 18,
                 "orbit_step_degrees": 45,
-                "views": [view[0] for view in views] + ["wireframe"],
+                "views": [view[0] for view in views] + ["wireframe"] + extra,
+                "portrait_views": extra,
                 "render_engine": "Cycles",
                 "samples": 24,
                 "note": "Inspection renders, not a replacement for testing in the target engine.",

@@ -1,0 +1,22 @@
+{
+  "id": "grab3d-astronaut",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "All 12 views inspected. EVA spacesuit with a gold-metallised visor, orange shoulder and knee accents, chest control module, thigh pockets, gloves, boots and a full life-support backpack. Rear and top views confirm the backpack, hose routing and waist adjusters are complete geometry. Suit creasing reads as fabric rather than rigid shell. No agency insignia, mission patch or national flag is present anywhere on the suit. 300k tris. Rigged: 24-bone humanoid armature with walk and run clips, zero unweighted skinned vertices.",
+  "limitations": [
+    "AI-assisted origin (Meshy) is disclosed upstream.",
+    "The visor is opaque metallised glass; no face is modelled behind it.",
+    "24-bone rig; the backpack is skinned to the torso and will flex slightly with the spine."
+  ],
+  "contact_sheet_sha256": "2ee20a5c47d185a74dda2c8dc7ebb2e2472d3996014a8c703d007e79d1ed1d75",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

@@ -1,0 +1,619 @@
+{
+  "schema_version": 1,
+  "id": "ph-aircon-unit",
+  "title": "Exterior air conditioning unit",
+  "category": "electronics/appliances",
+  "style": "realistic",
+  "tags": [
+    "aircon",
+    "hvac",
+    "condenser",
+    "exterior",
+    "metal",
+    "pbr"
+  ],
+  "batch": "expansion-09",
+  "acquired_at": "2026-11-04T22:25:23.314447+00:00",
+  "review": {
+    "id": "ph-aircon-unit",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. Exterior condenser unit supplied as both a clean and a heavily rusted variant, each with a louvred grille, visible fan blades behind it, side coil fins, service valves, insulated pipework, a junction box and a wall bracket with drain line. Rear and bottom views show the coil block, bracket welds and mounting feet fully modelled. No manufacturer badge on either variant.",
+    "limitations": [
+      "Two variants ship in one file; hide the one you do not want.",
+      "Not rigged: the fan does not spin.",
+      "Pipework terminates openly and is meant to pass into a wall."
+    ],
+    "contact_sheet_sha256": "69428e298ccc5ecb806a32516d0ca234642ebffc0f0a14b9c4b9ab5639b6b294",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/exterior_aircon_unit_1k.gltf",
+    "creator": "Monsta3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/exterior_aircon_unit",
+    "source_id": "exterior_aircon_unit",
+    "resolution": "1k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/exterior_aircon_unit/exterior_aircon_unit_1k.gltf",
+        "bytes": 9634,
+        "sha256": "f19d85c76948903047c2846068aeaa376d5e956a410675268cb6cb6aac5d97c2"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_01_nor_gl_1k.jpg",
+        "bytes": 472088,
+        "sha256": "e5a6f3c135b942d6efe62a24496c575d03f6a4316188efe65079035d7faf1c38"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_01_opacity_1k.jpg",
+        "bytes": 333675,
+        "sha256": "c19feb434c2b01923fbb3e16ace3aa6d9cb16b05c2a5c479ad237759b2d331d6"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_rusted_01_arm_1k.jpg",
+        "bytes": 673246,
+        "sha256": "51c103926b118bf00b902826001db802b15755c6eefa12b00afa24c60d7b341b"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_01_arm_1k.jpg",
+        "bytes": 651293,
+        "sha256": "14671920f716691dc3b8940432f7aba5c469e3b466441ff8ad500de92d3178fb"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_02_arm_1k.jpg",
+        "bytes": 484026,
+        "sha256": "1cdfa2d1c938c3af61a5f06510b0d94aeddddd4bdc1832008b3826240dd1535d"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_rusted_02_arm_1k.jpg",
+        "bytes": 605557,
+        "sha256": "6ac4cfca6a8d8bec6ef1ff756652eb1f36b780d1ff7d70d9cb3e0f7fe1faf271"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/exterior_aircon_unit/exterior_aircon_unit.bin",
+        "bytes": 494784,
+        "sha256": "b4b9ad082bdaa8f8b437bc14d9981caeaf318334499d4bf65d616fb2ec0c5ca8"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_02_nor_gl_1k.jpg",
+        "bytes": 942230,
+        "sha256": "864c0fb1e55aff910d826a8c1f6a2ad459f7db0124b5846445d466cabf0cadf5"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_rusted_01_nor_gl_1k.jpg",
+        "bytes": 583620,
+        "sha256": "14f105cda9172290be2e8b23b8e895099b65e222619850af3b13105901d922e2"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_rusted_01_diff_1k.jpg",
+        "bytes": 606076,
+        "sha256": "a8771db98ed7f3d46ce48fd70867f58a74a2530666c339f8dcc14f3e5de86d0b"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_01_diff_1k.jpg",
+        "bytes": 506664,
+        "sha256": "2ae5005b4836d2c91d1e712d9acf425c7dcc4973b7c0fc6f23da9afaa6381da6"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_rusted_02_opacity_1k.jpg",
+        "bytes": 357558,
+        "sha256": "a86bcaf9c4858cf250fd67c9a0ee362504454b9972ff6e1ac44e38bac3213421"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_rusted_02_nor_gl_1k.jpg",
+        "bytes": 947477,
+        "sha256": "3af4716b42812b742577594c7a0a342accd79925f02037c152b1da1c5831bb78"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/exterior_aircon_unit_1k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 2,
+    "materials": 4,
+    "images": 12,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/exterior_aircon_unit_01_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "exterior_aircon_unit_01_nor_gl"
+    },
+    {
+      "path": "model/textures/exterior_aircon_unit_01_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "exterior_aircon_unit_01_diff"
+    },
+    {
+      "path": "model/textures/exterior_aircon_unit_01_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "exterior_aircon_unit_01_metal-exterior_aircon_unit_01_rough"
+    },
+    {
+      "path": "model/textures/exterior_aircon_unit_02_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "exterior_aircon_unit_02_nor_gl"
+    },
+    {
+      "path": "model/textures/exterior_aircon_unit_01_opacity_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "exterior_aircon_unit_02_diff-exterior_aircon_unit_01_opacity"
+    },
+    {
+      "path": "model/textures/exterior_aircon_unit_02_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "exterior_aircon_unit_02_metal-exterior_aircon_unit_02_rough"
+    },
+    {
+      "path": "model/textures/exterior_aircon_unit_rusted_01_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "exterior_aircon_unit_rusted_01_nor_gl"
+    },
+    {
+      "path": "model/textures/exterior_aircon_unit_rusted_01_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "exterior_aircon_unit_rusted_01_diff"
+    },
+    {
+      "path": "model/textures/exterior_aircon_unit_rusted_01_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "exterior_aircon_unit_rusted_01_metal-exterior_aircon_unit_rusted_01_rough"
+    },
+    {
+      "path": "model/textures/exterior_aircon_unit_rusted_02_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "exterior_aircon_unit_rusted_02_nor_gl"
+    },
+    {
+      "path": "model/textures/exterior_aircon_unit_rusted_02_opacity_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "exterior_aircon_unit_rusted_02_diff-exterior_aircon_unit_rusted_02_opacity"
+    },
+    {
+      "path": "model/textures/exterior_aircon_unit_rusted_02_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "exterior_aircon_unit_rusted_02_metal-exterior_aircon_unit_rusted_02_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 2,
+    "hidden_mesh_objects": 0,
+    "vertices": 13682,
+    "triangles": 18986,
+    "material_slots": 4,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "exterior_aircon_unit_01_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-aircon-unit/model/textures/exterior_aircon_unit_01_diff_1k.jpg"
+      },
+      {
+        "name": "exterior_aircon_unit_01_metal-exterior_aircon_unit_01_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-aircon-unit/model/textures/exterior_aircon_unit_01_arm_1k.jpg"
+      },
+      {
+        "name": "exterior_aircon_unit_01_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-aircon-unit/model/textures/exterior_aircon_unit_01_nor_gl_1k.jpg"
+      },
+      {
+        "name": "exterior_aircon_unit_02_diff-exterior_aircon_unit_01_opacity",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-aircon-unit/model/textures/exterior_aircon_unit_01_opacity_1k.jpg"
+      },
+      {
+        "name": "exterior_aircon_unit_02_metal-exterior_aircon_unit_02_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-aircon-unit/model/textures/exterior_aircon_unit_02_arm_1k.jpg"
+      },
+      {
+        "name": "exterior_aircon_unit_02_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-aircon-unit/model/textures/exterior_aircon_unit_02_nor_gl_1k.jpg"
+      },
+      {
+        "name": "exterior_aircon_unit_rusted_01_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-aircon-unit/model/textures/exterior_aircon_unit_rusted_01_diff_1k.jpg"
+      },
+      {
+        "name": "exterior_aircon_unit_rusted_01_metal-exterior_aircon_unit_ruste",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-aircon-unit/model/textures/exterior_aircon_unit_rusted_01_arm_1k.jpg"
+      },
+      {
+        "name": "exterior_aircon_unit_rusted_01_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-aircon-unit/model/textures/exterior_aircon_unit_rusted_01_nor_gl_1k.jpg"
+      },
+      {
+        "name": "exterior_aircon_unit_rusted_02_diff-exterior_aircon_unit_rusted",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-aircon-unit/model/textures/exterior_aircon_unit_rusted_02_opacity_1k.jpg"
+      },
+      {
+        "name": "exterior_aircon_unit_rusted_02_metal-exterior_aircon_unit_ruste",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-aircon-unit/model/textures/exterior_aircon_unit_rusted_02_arm_1k.jpg"
+      },
+      {
+        "name": "exterior_aircon_unit_rusted_02_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-aircon-unit/model/textures/exterior_aircon_unit_rusted_02_nor_gl_1k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 4,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1315,
+      "sha256": "7e5bad90eb9a635e87d7e9172df983b2b0999bc177f0af26d74158790177fdfe",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 86953,
+      "sha256": "e7665fad9e7e6efc8d61b3bad28688f7977205612522da9c447162e270f5c865",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "a99759f362377291a7bb056ad797ad31a9826d4cf0cce6cd08add7590b8520d0",
+      "role": "logs"
+    },
+    {
+      "path": "model/exterior_aircon_unit.bin",
+      "bytes": 494784,
+      "sha256": "b4b9ad082bdaa8f8b437bc14d9981caeaf318334499d4bf65d616fb2ec0c5ca8",
+      "role": "model"
+    },
+    {
+      "path": "model/exterior_aircon_unit_1k.gltf",
+      "bytes": 9634,
+      "sha256": "f19d85c76948903047c2846068aeaa376d5e956a410675268cb6cb6aac5d97c2",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/exterior_aircon_unit_01_arm_1k.jpg",
+      "bytes": 651293,
+      "sha256": "14671920f716691dc3b8940432f7aba5c469e3b466441ff8ad500de92d3178fb",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/exterior_aircon_unit_01_diff_1k.jpg",
+      "bytes": 506664,
+      "sha256": "2ae5005b4836d2c91d1e712d9acf425c7dcc4973b7c0fc6f23da9afaa6381da6",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/exterior_aircon_unit_01_nor_gl_1k.jpg",
+      "bytes": 472088,
+      "sha256": "e5a6f3c135b942d6efe62a24496c575d03f6a4316188efe65079035d7faf1c38",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/exterior_aircon_unit_01_opacity_1k.jpg",
+      "bytes": 333675,
+      "sha256": "c19feb434c2b01923fbb3e16ace3aa6d9cb16b05c2a5c479ad237759b2d331d6",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/exterior_aircon_unit_02_arm_1k.jpg",
+      "bytes": 484026,
+      "sha256": "1cdfa2d1c938c3af61a5f06510b0d94aeddddd4bdc1832008b3826240dd1535d",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/exterior_aircon_unit_02_nor_gl_1k.jpg",
+      "bytes": 942230,
+      "sha256": "864c0fb1e55aff910d826a8c1f6a2ad459f7db0124b5846445d466cabf0cadf5",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/exterior_aircon_unit_rusted_01_arm_1k.jpg",
+      "bytes": 673246,
+      "sha256": "51c103926b118bf00b902826001db802b15755c6eefa12b00afa24c60d7b341b",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/exterior_aircon_unit_rusted_01_diff_1k.jpg",
+      "bytes": 606076,
+      "sha256": "a8771db98ed7f3d46ce48fd70867f58a74a2530666c339f8dcc14f3e5de86d0b",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/exterior_aircon_unit_rusted_01_nor_gl_1k.jpg",
+      "bytes": 583620,
+      "sha256": "14f105cda9172290be2e8b23b8e895099b65e222619850af3b13105901d922e2",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/exterior_aircon_unit_rusted_02_arm_1k.jpg",
+      "bytes": 605557,
+      "sha256": "6ac4cfca6a8d8bec6ef1ff756652eb1f36b780d1ff7d70d9cb3e0f7fe1faf271",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/exterior_aircon_unit_rusted_02_nor_gl_1k.jpg",
+      "bytes": 947477,
+      "sha256": "3af4716b42812b742577594c7a0a342accd79925f02037c152b1da1c5831bb78",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/exterior_aircon_unit_rusted_02_opacity_1k.jpg",
+      "bytes": 357558,
+      "sha256": "a86bcaf9c4858cf250fd67c9a0ee362504454b9972ff6e1ac44e38bac3213421",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 20113,
+      "sha256": "2d7b60ce9f879c0052d46fe6c55a4613c189768fcc54b367c9d6a291d9fd83b1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 33389,
+      "sha256": "f2661f65b62cc235a634450369618bfe73fa92c499b1f54bd55ddecf5db30275",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 262369,
+      "sha256": "69428e298ccc5ecb806a32516d0ca234642ebffc0f0a14b9c4b9ab5639b6b294",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 4055,
+      "sha256": "aa1334e27fdb309d50fd6c69936189bfe68f9fc022c6d197f2e0adbe666056fb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 34633,
+      "sha256": "ddbf89d7ff4369a2822c280814c5345d0936596a368623e1bef8fc1721742db4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 53922,
+      "sha256": "eb02810079c33af0f5e9ebb72a6665484b726794d2333591851e531ab0eb3e83",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 21500,
+      "sha256": "313076a4a0a2fe3083bc5b544acd9fd9f6ae826576c24903769638256d33202b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 62155,
+      "sha256": "2a4eb325f833ece8e8b59d93628fa42b9b2294315a3151d32633dff6569319ba",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 44200,
+      "sha256": "8368fbb7bb4a1a4612e0281ea7ab47b2510005ae2eb058d16d2a42af89864868",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 63103,
+      "sha256": "348d5abd9bb7ec7eac6f76ea5084cbfcbb882ec3e1020d556e6c0f3f7c9af846",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 23814,
+      "sha256": "fc782d0b96b222c6e80c1ff3d9365b2dd25d6a61ae1efd7c229a3f7e03727b25",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 55317,
+      "sha256": "13d3e56cd64db8031141164b76e4c9dce9ca7c599c5896bfcd8e131e58848123",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 15063,
+      "sha256": "1a8de4e60e2e3d1f00f259f09674ab60f98df49ad43949b52cc7f28626595fd4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 47334,
+      "sha256": "e9a968f24b4710f68d479ab8dbcec5ff304dd186f9b0873afdbebce92bb1b46e",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1363,
+      "sha256": "c4ae4f00433e56317d01b71001e10820708132b008a700f9cbe1f204ec2125a0",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 5955,
+      "sha256": "1c11edb09da663a33bf2f213cab64429dd48a530ef723b80c969d5efd9fce659",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 3628,
+      "sha256": "79d5581d566e6c20baae8582d5faa77103c6aba1c74525d805ae246577413517",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1044,
+      "sha256": "377552d1b5352792b7f3316fd1fc7e743c19c0b2aeffb1058c89b17efbf60ec4",
+      "role": "documentation"
+    }
+  ]
+}

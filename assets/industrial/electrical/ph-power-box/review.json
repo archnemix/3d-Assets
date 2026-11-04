@@ -1,0 +1,22 @@
+{
+  "id": "ph-power-box",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "All 12 views inspected. Wall distribution box shown with its door open: three DIN rows of breakers, a red main isolator group, terminals, gland plate, hinges, door latch and a warning label. Rear and side views show a fully closed enclosure with mounting flange. Carries an invented POWERHAVEN wordmark on the back panel plus generic hazard and specification labels.",
+  "limitations": [
+    "Invented POWERHAVEN brand mark is baked into the texture; remove or overpaint it for brand-sensitive use.",
+    "Not rigged in the shipped glTF; the door cannot be opened or closed at runtime.",
+    "Breaker toggles are static geometry."
+  ],
+  "contact_sheet_sha256": "f8f1b5841b4e37ccac978ae5930d253fa30635d3d3ad108139ad67375a47fa00",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

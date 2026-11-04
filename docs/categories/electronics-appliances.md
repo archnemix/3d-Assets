@@ -2,7 +2,15 @@
 
 Household and workshop appliances such as stoves and fans
 
-Approved assets: **1**
+Approved assets: **2**
+
+## Exterior air conditioning unit
+
+![Exterior air conditioning unit](../../assets/electronics/appliances/ph-aircon-unit/previews/orbit-01.jpg)
+
+- Creator: Monsta3D; style: realistic; CC0-1.0
+- 18,986 triangles; 12 texture images
+- [Asset folder](../../assets/electronics/appliances/ph-aircon-unit/) · [Metadata](../../assets/electronics/appliances/ph-aircon-unit/asset.json) · [All inspection views](../../assets/electronics/appliances/ph-aircon-unit/previews/contact-sheet.jpg)
 
 ## Modern ceiling fan with light
 

@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "id": "ph-power-box",
+  "title": "Industrial electrical power box",
+  "category": "industrial/electrical",
+  "style": "realistic",
+  "tags": [
+    "electrical",
+    "breakers",
+    "wiring",
+    "utility",
+    "metal",
+    "rigged",
+    "animatable",
+    "pbr"
+  ],
+  "batch": "expansion-09",
+  "acquired_at": "2026-11-04T22:24:21.049937+00:00",
+  "review": {
+    "id": "ph-power-box",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. Wall distribution box shown with its door open: three DIN rows of breakers, a red main isolator group, terminals, gland plate, hinges, door latch and a warning label. Rear and side views show a fully closed enclosure with mounting flange. Carries an invented POWERHAVEN wordmark on the back panel plus generic hazard and specification labels.",
+    "limitations": [
+      "Invented POWERHAVEN brand mark is baked into the texture; remove or overpaint it for brand-sensitive use.",
+      "Not rigged in the shipped glTF; the door cannot be opened or closed at runtime.",
+      "Breaker toggles are static geometry."
+    ],
+    "contact_sheet_sha256": "f8f1b5841b4e37ccac978ae5930d253fa30635d3d3ad108139ad67375a47fa00",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/power_box_01_2k.gltf",
+    "creator": "Rico Cilliers, Yann Kervran",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/power_box_01",
+    "source_id": "power_box_01",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/power_box_01/power_box_01_2k.gltf",
+        "bytes": 4417,
+        "sha256": "c440e5e7f51cb148a5eb8d00f4d973f806817434a675168110cd2bb9cb0a7060"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/power_box_01/power_box_01_nor_gl_2k.jpg",
+        "bytes": 2733825,
+        "sha256": "fff3e5b9037375226c10e7625b2d7735029cdae4d926ddc90567e02de61420e0"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/power_box_01/power_box_01_arm_2k.jpg",
+        "bytes": 3011906,
+        "sha256": "792a1e04f9ab4740cbde8a70c1b720f4e411afc42d1359b24ab6602ef52d1c33"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/power_box_01/power_box_01.bin",
+        "bytes": 782096,
+        "sha256": "b46efdf668ec2d4e04ff51604b5f1486caf20df632f442aab62601718058db05"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/power_box_01/power_box_01_diff_2k.jpg",
+        "bytes": 1883678,
+        "sha256": "045f04100a6a95bf6d43ea0989545b52008c84dd1d1d238ad0d7fa89789f8d0b"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/power_box_01_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 2,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/power_box_01_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "power_box_01_nor_gl"
+    },
+    {
+      "path": "model/textures/power_box_01_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "power_box_01_diff"
+    },
+    {
+      "path": "model/textures/power_box_01_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "power_box_01_metal-power_box_01_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 2,
+    "hidden_mesh_objects": 0,
+    "vertices": 20452,
+    "triangles": 21272,
+    "material_slots": 2,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "power_box_01_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-power-box/model/textures/power_box_01_diff_2k.jpg"
+      },
+      {
+        "name": "power_box_01_metal-power_box_01_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-power-box/model/textures/power_box_01_arm_2k.jpg"
+      },
+      {
+        "name": "power_box_01_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-power-box/model/textures/power_box_01_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1383,
+      "sha256": "838d3d471f3022a4f9c293f8b5884d2a089e6fd231f6faef59557b04dc127b3a",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 69209,
+      "sha256": "2b568ef9fa6144b876aa127bb3504d14b09fb3d6348c52c527aaf410974e90b6",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "2a9a229f8bb2ed821581e94782406b1f4a42c4f9a9e024e1cc719a6265cfa1b4",
+      "role": "logs"
+    },
+    {
+      "path": "model/power_box_01.bin",
+      "bytes": 782096,
+      "sha256": "b46efdf668ec2d4e04ff51604b5f1486caf20df632f442aab62601718058db05",
+      "role": "model"
+    },
+    {
+      "path": "model/power_box_01_2k.gltf",
+      "bytes": 4417,
+      "sha256": "c440e5e7f51cb148a5eb8d00f4d973f806817434a675168110cd2bb9cb0a7060",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/power_box_01_arm_2k.jpg",
+      "bytes": 3011906,
+      "sha256": "792a1e04f9ab4740cbde8a70c1b720f4e411afc42d1359b24ab6602ef52d1c33",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/power_box_01_diff_2k.jpg",
+      "bytes": 1883678,
+      "sha256": "045f04100a6a95bf6d43ea0989545b52008c84dd1d1d238ad0d7fa89789f8d0b",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/power_box_01_nor_gl_2k.jpg",
+      "bytes": 2733825,
+      "sha256": "fff3e5b9037375226c10e7625b2d7735029cdae4d926ddc90567e02de61420e0",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 16978,
+      "sha256": "b65e7dc3478f4439b57eaf22cd7c7278ed5b3ea86e2d89cae2911e5d13b8f5c1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 25817,
+      "sha256": "692249dd065d9bc87ae74d1d9ad37b4d8826fb8071f3427f3986dac90b70f25b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 209757,
+      "sha256": "f8f1b5841b4e37ccac978ae5930d253fa30635d3d3ad108139ad67375a47fa00",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1143,
+      "sha256": "dc0aa2a20bb01b21d3132e1fb01093c38325b0a3e911752918cd6661a7cd9a99",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 38132,
+      "sha256": "33529aba2d5738c8c51c90c9d5466267807cf4449feb161490d8a35fc1217326",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 38457,
+      "sha256": "4648117411b171b8a16bc25e7b56f74af1fd3bd19ef75526359fc7209dad04bf",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 20791,
+      "sha256": "c838e204ed76602a5d912b646ea2100ce3635c474b78a0e4a9f57fc2cc6d0ad2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 21702,
+      "sha256": "86e052e4a099e5d4cdbcd55241b9ebaf4b7e669deb49f8000e79fa308cf27856",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 28347,
+      "sha256": "940934beb3aff049f804c498a48e7d8b7d844e74a27c1e6f7013b81eab065bed",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 32717,
+      "sha256": "93df4e643a826cc36a305686c9fec3f75e0edc183528818e593c4fafb77c0d3a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 23007,
+      "sha256": "f9a8f43fede3487f26407958eef849343eb43db05fde78defb5948bbe4c46bd8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 22905,
+      "sha256": "5ea8d3c4c0c2bac28c5ee90b4483c995787beba6055301605e9bbda7627e273a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 15463,
+      "sha256": "b95bc7b41e06076e42cbf53fe5bf7b5c04e4921f4cbfa9e4811d45125ca2eb6c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 58010,
+      "sha256": "96634a00dabdb47e7fbc45e384740de2905e91f7d73b95ac397bb46ed32930d2",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1540,
+      "sha256": "f72d45dcbecb8330bf4a0ca374c50c0f38f53136aa6eccf1c92392f571c1a2ab",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2451,
+      "sha256": "2713e205f51818333ab4c66da2cb8b8e98b1a074b3a8fe7d009e4e1d1e650768",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1077,
+      "sha256": "d2c39bb1fb20a7363785cc1cc6f0a43e0a7a70a576f4b7198bf0a0b578875f6c",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1079,
+      "sha256": "ef16b3f9cf8fe7f3f7c879814ebb488d33996036c2116e867823b7801ff99b0c",
+      "role": "documentation"
+    }
+  ]
+}

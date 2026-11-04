@@ -1,0 +1,449 @@
+{
+  "schema_version": 1,
+  "id": "ph-bolt-action-rifle",
+  "title": "Weathered bolt-action 7.62 rifle",
+  "category": "weapons/firearms",
+  "style": "realistic",
+  "tags": [
+    "rifle",
+    "firearm",
+    "wood",
+    "scope",
+    "weathered",
+    "pbr"
+  ],
+  "batch": "expansion-09",
+  "acquired_at": "2026-11-04T22:24:17.645312+00:00",
+  "review": {
+    "id": "ph-bolt-action-rifle",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 4
+    },
+    "notes": "All 12 views inspected. Full-length bolt-action rifle with a camo-wrapped buttstock and fore-end, exposed wood along the barrel channel, receiver, bolt handle, trigger group, barrel bands, front and rear sights. Side views confirm a genuinely thin profile and the top view shows the sight line and bolt correctly. No proof marks, arsenal stamps or manufacturer name are legible on receiver or stock.",
+    "limitations": [
+      "Recognisable historical rifle pattern, unbranded; some marketplaces restrict weapons content.",
+      "Static: the bolt does not cycle and no magazine or ammunition is included.",
+      "The camo wrap is texture only, not separate cloth geometry."
+    ],
+    "contact_sheet_sha256": "6b1f0df047ecbb28c82923213e97c211b41a5d93bae9ed0a88967dd1ad7f2fa7",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/bolt_action_rifle_7_62_1k.gltf",
+    "creator": "Mateusz Sadek",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/bolt_action_rifle_7_62",
+    "source_id": "bolt_action_rifle_7_62",
+    "resolution": "1k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/bolt_action_rifle_7_62/bolt_action_rifle_7_62_1k.gltf",
+        "bytes": 15369,
+        "sha256": "60a5c7a745625dd38275756ca359170ffadcd427827ff5a161af3149bdabb9ec"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bolt_action_rifle_7_62/bolt_action_rifle_7_62_accesories_nor_gl_1k.jpg",
+        "bytes": 1007303,
+        "sha256": "a437112195ecebbb809d208a444e38581c769ab4849d9a714f65c1d8bde414b4"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bolt_action_rifle_7_62/bolt_action_rifle_7_62_accesories_diff_1k.jpg",
+        "bytes": 878584,
+        "sha256": "624908d9514c958f0f17cd967ca93a3060b613eda97d6d94bc25aa40edcaa8f9"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bolt_action_rifle_7_62/bolt_action_rifle_7_62_accesories_arm_1k.jpg",
+        "bytes": 984292,
+        "sha256": "d45228bcdd1fb969f2a5fe07dacb4864c68baf27cd0bfc821ea9ae0b9f0bafed"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bolt_action_rifle_7_62/bolt_action_rifle_7_62_nor_gl_1k.jpg",
+        "bytes": 670019,
+        "sha256": "cc0477d86301ea63fdd877416f80d70a9b8fe0598a8772c9cbd754b212d9c2ea"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bolt_action_rifle_7_62/bolt_action_rifle_7_62_diff_1k.jpg",
+        "bytes": 856375,
+        "sha256": "81a7a97770e7f8d5e19bb45b35d2ba97404d6bd44ab1d29487c3c3b431883c4a"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bolt_action_rifle_7_62/bolt_action_rifle_7_62_arm_1k.jpg",
+        "bytes": 892057,
+        "sha256": "8206367baa98eda75c09bca5c43341e382eb4365c1a08cf7abbdfaa3801c46f5"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/bolt_action_rifle_7_62/bolt_action_rifle_7_62.bin",
+        "bytes": 736616,
+        "sha256": "c9a32b6471ef08b6d901f9c1865a31c22d37b254a3f772a3c3348d0fa8203ed0"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/bolt_action_rifle_7_62_1k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 7,
+    "materials": 3,
+    "images": 7,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/bolt_action_rifle_7_62_accesories_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "bolt_action_rifle_7_62_accesories_nor_gl"
+    },
+    {
+      "path": "model/textures/bolt_action_rifle_7_62_accesories_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "bolt_action_rifle_7_62_accesories_diff"
+    },
+    {
+      "path": "model/textures/bolt_action_rifle_7_62_accesories_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "bolt_action_rifle_7_62_accesories_metal-bolt_action_rifle_7_62_accesories_rough"
+    },
+    {
+      "path": "model/textures/bolt_action_rifle_7_62_accesories_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "bolt_action_rifle_7_62_accesories_diff-bolt_action_rifle_7_62_accesories_alpha"
+    },
+    {
+      "path": "model/textures/bolt_action_rifle_7_62_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "bolt_action_rifle_7_62_nor_gl"
+    },
+    {
+      "path": "model/textures/bolt_action_rifle_7_62_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "bolt_action_rifle_7_62_diff"
+    },
+    {
+      "path": "model/textures/bolt_action_rifle_7_62_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "bolt_action_rifle_7_62_metal-bolt_action_rifle_7_62_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 7,
+    "hidden_mesh_objects": 0,
+    "vertices": 19272,
+    "triangles": 19985,
+    "material_slots": 8,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "bolt_action_rifle_7_62_accesories_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-bolt-action-rifle/model/textures/bolt_action_rifle_7_62_accesories_diff_1k.jpg"
+      },
+      {
+        "name": "bolt_action_rifle_7_62_accesories_metal-bolt_action_rifle_7_62_",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-bolt-action-rifle/model/textures/bolt_action_rifle_7_62_accesories_arm_1k.jpg"
+      },
+      {
+        "name": "bolt_action_rifle_7_62_accesories_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-bolt-action-rifle/model/textures/bolt_action_rifle_7_62_accesories_nor_gl_1k.jpg"
+      },
+      {
+        "name": "bolt_action_rifle_7_62_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-bolt-action-rifle/model/textures/bolt_action_rifle_7_62_diff_1k.jpg"
+      },
+      {
+        "name": "bolt_action_rifle_7_62_metal-bolt_action_rifle_7_62_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-bolt-action-rifle/model/textures/bolt_action_rifle_7_62_arm_1k.jpg"
+      },
+      {
+        "name": "bolt_action_rifle_7_62_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-bolt-action-rifle/model/textures/bolt_action_rifle_7_62_nor_gl_1k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 8,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1391,
+      "sha256": "9cb1b2c7a87d543b8782bff2975512de360a421c4aa9e5324d24241940fa9379",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 81646,
+      "sha256": "c347547517a1c0d34e3b8ed55472a72d0b1e5075b96717d5bb6a22fc0e33ddfc",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "0fd0a746503a9ff6f79a306915bb1f4bb48046785cdaf1ae7215409244a4fbf0",
+      "role": "logs"
+    },
+    {
+      "path": "model/bolt_action_rifle_7_62.bin",
+      "bytes": 736616,
+      "sha256": "c9a32b6471ef08b6d901f9c1865a31c22d37b254a3f772a3c3348d0fa8203ed0",
+      "role": "model"
+    },
+    {
+      "path": "model/bolt_action_rifle_7_62_1k.gltf",
+      "bytes": 15369,
+      "sha256": "60a5c7a745625dd38275756ca359170ffadcd427827ff5a161af3149bdabb9ec",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/bolt_action_rifle_7_62_accesories_arm_1k.jpg",
+      "bytes": 984292,
+      "sha256": "d45228bcdd1fb969f2a5fe07dacb4864c68baf27cd0bfc821ea9ae0b9f0bafed",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/bolt_action_rifle_7_62_accesories_diff_1k.jpg",
+      "bytes": 878584,
+      "sha256": "624908d9514c958f0f17cd967ca93a3060b613eda97d6d94bc25aa40edcaa8f9",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/bolt_action_rifle_7_62_accesories_nor_gl_1k.jpg",
+      "bytes": 1007303,
+      "sha256": "a437112195ecebbb809d208a444e38581c769ab4849d9a714f65c1d8bde414b4",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/bolt_action_rifle_7_62_arm_1k.jpg",
+      "bytes": 892057,
+      "sha256": "8206367baa98eda75c09bca5c43341e382eb4365c1a08cf7abbdfaa3801c46f5",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/bolt_action_rifle_7_62_diff_1k.jpg",
+      "bytes": 856375,
+      "sha256": "81a7a97770e7f8d5e19bb45b35d2ba97404d6bd44ab1d29487c3c3b431883c4a",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/bolt_action_rifle_7_62_nor_gl_1k.jpg",
+      "bytes": 670019,
+      "sha256": "cc0477d86301ea63fdd877416f80d70a9b8fe0598a8772c9cbd754b212d9c2ea",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 11897,
+      "sha256": "8d77afe976e2ff65f60adbc7542cb9ebd8da5b495152648373230287385f4f0c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 12623,
+      "sha256": "7175bbbcc6c5b4e000870abb7e3f42746c2d61c5ba64148e7640344f3809c6da",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 118507,
+      "sha256": "6b1f0df047ecbb28c82923213e97c211b41a5d93bae9ed0a88967dd1ad7f2fa7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 2204,
+      "sha256": "f4ae8eb4921bfc5c37da5027b3aad3194c54482e9a0ce3a53def5682137432dd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 15067,
+      "sha256": "c039cb40fd77f1a5166ebe72e8d60f25a58d984292b1043a9d4fbb5ed39da334",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 18206,
+      "sha256": "b55eeaf9023ab3f5f529683b75b2eb87ddf55ebf57146020eb2a0eef0a1dd301",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 18858,
+      "sha256": "01de1e80626a88de2e07b061da471cb0bc5360b64c09c244c84f6c84d4459a78",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 18182,
+      "sha256": "db19998d2a1bb5ab078d0fcb66fb914dc1c34a652d08cc365be2fca1643b2c2a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 14905,
+      "sha256": "1f8e4e319a659af07d339f354ccebc471eaca243fdfbd8f96370cc5418018e99",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 19012,
+      "sha256": "4ec4064bbd39db19f01538615fea73eeca6101339d2fac559d0fa16cd4b4d9e1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 15902,
+      "sha256": "71d2fb20a8d3bdb6aa954dd9e309666b37f0573084d5a5def86bf853fc6d8d65",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 18845,
+      "sha256": "318fe9138f0fe56721aca0d4a1a7b56205dc56c23455e6f7429d3474fdc83c19",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 12062,
+      "sha256": "0cfe5f97d19732462b3085e43f7607d522ebdcf6490d6c3aedca4db34d063859",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 17802,
+      "sha256": "0fc7505c72b148d45d89af45e18b1526cbf2287b9cef98227cd9cc5aa3e61360",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1293,
+      "sha256": "702eb8330eed63d656768568f22cc5c3eaa2def791feb65b0d85d19e06c80878",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 5720,
+      "sha256": "4bca9d599866c93fa9d34fe87b617b3559607cce12f67a6c49642c3f50ef4784",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 2058,
+      "sha256": "8ad3e539c72e0c3b004025f8141919fa2818c0c439aae179b4f48ca5f7eb47a1",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1126,
+      "sha256": "8ef8a92caef80a15bddb0dee92f3f78d2973b8c207107bdb934ff88e1664871c",
+      "role": "documentation"
+    }
+  ]
+}

@@ -2,7 +2,15 @@
 
 Microscopes, binoculars and optical instruments
 
-Approved assets: **2**
+Approved assets: **3**
+
+## Leather-bodied field binoculars
+
+![Leather-bodied field binoculars](../../assets/science/optical/ph-field-binoculars/previews/orbit-01.jpg)
+
+- Creator: Derek Wight; style: realistic; CC0-1.0
+- 19,248 triangles; 4 texture images
+- [Asset folder](../../assets/science/optical/ph-field-binoculars/) · [Metadata](../../assets/science/optical/ph-field-binoculars/asset.json) · [All inspection views](../../assets/science/optical/ph-field-binoculars/previews/contact-sheet.jpg)
 
 ## Vintage brass binoculars
 

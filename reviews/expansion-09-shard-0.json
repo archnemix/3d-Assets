@@ -1,0 +1,109 @@
+{
+  "batch": "expansion-09",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "decisions": [
+    {
+      "id": "ph-alarm-clock",
+      "decision": "rejected",
+      "scores": {
+        "silhouette": 5,
+        "materials": 2,
+        "topology": 4,
+        "completeness": 1,
+        "style_fit": 3
+      },
+      "notes": "All 12 views inspected. Rejected: the clock face renders as an opaque black disc in every one of the eight orbit views, so the dial, numerals and hands are invisible. This is an upstream glTF material defect, not a render setup problem. The dial artwork does exist in the diffuse atlas (cream face with Roman numerals), but the front glass primitive is exported with alphaMode BLEND referencing the same JPEG diffuse map, and JPEG carries no alpha channel, so the glass resolves fully opaque over the black UV island. A clock whose time cannot be read fails the completeness and materials gate as shipped.",
+      "limitations": [],
+      "contact_sheet_sha256": "6cb786f47d6e65da41b94d9d744ae0f23ff1f90132522bf4baf3af39435c0cd8"
+    },
+    {
+      "id": "ph-tool-chest",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Red steel tool chest with an open lid on two stays, a lidded upper tray, four drawers with chrome pulls, side carry handles, a lock barrel and a riveted body. Interior tray walls, hinge hardware and the underside are all modelled, and rust and scratches wrap continuously across panels. A zoomed crop of the front plate reads as descriptive text about ball-bearing drawer runners, not a manufacturer wordmark.",
+      "limitations": [
+        "Not rigged in the shipped glTF: drawers and lid are fixed in the shown open position.",
+        "Drawers are shells without individual contents."
+      ],
+      "contact_sheet_sha256": "76e36b846c4c9a8e55ebbfd7329050fea7c21f4b123523706183b591d937783a"
+    },
+    {
+      "id": "ph-cannon",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Naval cannon on a wooden truck carriage: cast barrel with muzzle swell, reinforce rings, cascabel and touch hole, four wooden wheels, iron axle caps, side brackets, bolts and breeching rings, plus three loose cannonballs. Wood grain and rust weathering wrap continuously around the carriage and the underside is fully modelled. No foundry mark or cypher on the barrel.",
+      "limitations": [
+        "Not rigged in the shipped glTF: the upstream Blender rig (elevation and recoil) is not exported to glTF.",
+        "Cannonballs are loose separate objects, not stacked or secured."
+      ],
+      "contact_sheet_sha256": "77b60b27acc8681202acef84c6da5062e3e7c417b127dc0aff4eed6277f26ea9"
+    },
+    {
+      "id": "ph-street-rat",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Realistic brown rat with a coherent body silhouette, modelled ears, whisker pads, individually separated toes with claws, and a long tapering tail that reads correctly from the top, bottom and both sides. Fur direction is carried by the normal and roughness maps and stays consistent across the flanks and rump. 57k tris.",
+      "limitations": [
+        "Not rigged: the rat is a static pose and cannot be animated without adding a skeleton.",
+        "Fur is texture and normal-map detail, not strand geometry.",
+        "Whiskers are not modelled as separate geometry."
+      ],
+      "contact_sheet_sha256": "aa5163f40c59eea4f0197a4d491fa54c7fdcaeeda97ed6cdbed25d749ef90043"
+    },
+    {
+      "id": "ph-farmhouse-cabinet",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 4,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 4,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Narrow painted step-back cabinet with four open upper shelves, a bare wood counter, a single drawer and a lower cupboard with a knob. Worn blue paint over exposed timber is consistent across the front and sides, and the shelves have real thickness. Deliberately simple at 966 triangles, which keeps the silhouette and panel edges clean.",
+      "limitations": [
+        "Very low triangle count (966); edges will look faceted in extreme close-up.",
+        "The back is unfinished bare board, as on real wall-standing furniture; do not place it free-standing in a room.",
+        "Not rigged: the drawer and cupboard door do not open."
+      ],
+      "contact_sheet_sha256": "2ee4b677513c18b939294a4dba89a003e22f31157cb555c04474f99bf930c310"
+    },
+    {
+      "id": "grab3d-orc",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Green-skinned orc in an orange steppe coat with toggle fastenings, dark trousers, wrapped boots, leather belt with pouches and a back-mounted quiver. Braided topknot and beard are separate geometry that survives the top and rear views. Coat lining, belt buckle and quiver strap are modelled on the reverse. 300k tris. Rigged: 24-bone humanoid armature with walk and run clips, zero unweighted skinned vertices.",
+      "limitations": [
+        "AI-assisted origin (Meshy) is disclosed upstream.",
+        "Title corrected: the mesh carries a quiver and topknot, not a visible tusk pair or a mount.",
+        "24-bone rig; no finger or facial articulation."
+      ],
+      "contact_sheet_sha256": "b691b9ad947e7c7757b5205d80b84cd91655a32614186f0f6cc500df7f654541"
+    }
+  ]
+}

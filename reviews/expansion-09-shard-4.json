@@ -1,0 +1,110 @@
+{
+  "batch": "expansion-09",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "decisions": [
+    {
+      "id": "ph-security-camera-hood",
+      "decision": "rejected",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 4,
+        "style_fit": 4
+      },
+      "notes": "All 12 views inspected. Rejected on third-party-rights grounds. A zoomed crop of the front bezel shows a circular badge built from a red upper arc, a blue lower arc and a white central band carrying lettering. That construction closely imitates the Pepsi globe trade dress, and substituting an invented word does not cure the imitation. Under the library's standing marks policy a device that mimics a famous trademark is refused even though the asset is CC0, because CC0 waives copyright only and grants no trademark clearance. The mesh itself is otherwise clean.",
+      "limitations": [],
+      "contact_sheet_sha256": "c2a284c9e3e5c04060b8bdf71e7f0c5b1ff503624c4c4ed3a87815b004296dc5"
+    },
+    {
+      "id": "ph-desk-lamp-arm",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Articulated task lamp with a clamp base, two spring-balanced arm segments, tension springs, pivot bosses, a conical shade with a rolled rim, an internal reflector and a bulb socket. The clamp screw and jaw are modelled underneath and the shade interior is finished. Uniform orange enamel with clean edges and no branding.",
+      "limitations": [
+        "Not rigged in the shipped glTF; the arm cannot be reposed without adding constraints.",
+        "No cable or plug is modelled.",
+        "The shade emits no light by default; add an emitter in your scene."
+      ],
+      "contact_sheet_sha256": "85683395cc789241ab0ab9d258f7b2cfa6d888e4e52ff7d707df596b2fa74ff8"
+    },
+    {
+      "id": "ph-stick-grenade",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 4
+      },
+      "notes": "All 12 views inspected. Stick grenade with a weathered olive steel head, retaining clip, wooden handle with turned grip profile and a threaded base cap. The bottom view shows the star-shaped detonator cap and the top view the crimped head seam. Handle carries faint generic ordnance stencilling, not a maker's mark.",
+      "limitations": [
+        "Weapons/ordnance content may be restricted by individual marketplaces.",
+        "Static single piece; the head does not unscrew from the handle.",
+        "Handle stencilling is decorative and not a legible real unit marking."
+      ],
+      "contact_sheet_sha256": "bd919eddf4d80b7afc7136884687bdc5c958b588492b64b8b23821f5908dc419"
+    },
+    {
+      "id": "ph-chinese-commode",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Long carved hardwood commode with an overhanging cleated top, three drawers with brass medallion pulls, fielded lower panels, shaped apron and splayed legs. Grain runs continuously around the case, the back is a finished panel, and the underside shows the leg joinery and drawer runners. Brass medallions carry ornamental relief, not lettering.",
+      "limitations": [
+        "Not rigged: the drawers do not open in the shipped glTF.",
+        "Drawer interiors are shallow shells without contents."
+      ],
+      "contact_sheet_sha256": "47a4cf94c9148435cf9cbfca4eae8558b8cf04dade2bf3c34b7533c55d998ae8"
+    },
+    {
+      "id": "grab3d-samurai",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Samurai in red lacquered lamellar armour with gold trim: crested kabuto helmet, shoulder guards, cuirass, skirt plates, armoured sleeves, greaves and split-toe footwear, plus a sheathed katana at the hip. Individual lacing rows and plate overlaps stay legible from the rear and top. Face is visible beneath the helmet with moustache and beard. 295k tris. Rig is stronger than the others: 54 bones including fingers, with walk and run clips and zero unweighted vertices.",
+      "limitations": [
+        "AI-assisted origin (Meshy) is disclosed upstream.",
+        "Armour plates are skinned to the body rather than separately articulated, so plates will deform with the limbs.",
+        "The katana is part of the skinned mesh and is not a separate prop."
+      ],
+      "contact_sheet_sha256": "05161f3accfb7d1b7560f801f6bfec545217ebe760e531aa48d33cbb7bd9b471"
+    },
+    {
+      "id": "grab3d-astronaut",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. EVA spacesuit with a gold-metallised visor, orange shoulder and knee accents, chest control module, thigh pockets, gloves, boots and a full life-support backpack. Rear and top views confirm the backpack, hose routing and waist adjusters are complete geometry. Suit creasing reads as fabric rather than rigid shell. No agency insignia, mission patch or national flag is present anywhere on the suit. 300k tris. Rigged: 24-bone humanoid armature with walk and run clips, zero unweighted skinned vertices.",
+      "limitations": [
+        "AI-assisted origin (Meshy) is disclosed upstream.",
+        "The visor is opaque metallised glass; no face is modelled behind it.",
+        "24-bone rig; the backpack is skinned to the torso and will flex slightly with the spine."
+      ],
+      "contact_sheet_sha256": "2ee20a5c47d185a74dda2c8dc7ebb2e2472d3996014a8c703d007e79d1ed1d75"
+    }
+  ]
+}
