@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "id": "g3-breastplate",
+  "title": "Steel breastplate with brass trim",
+  "category": "armour/body",
+  "style": "stylized",
+  "tags": [
+    "breastplate",
+    "cuirass",
+    "steel",
+    "straps",
+    "armour",
+    "pbr",
+    "game-ready"
+  ],
+  "batch": "expansion-11",
+  "acquired_at": "2026-11-04T23:15:12.508151+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/breastplate.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/breastplate/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/characters/breastplate/",
+    "source_id": "breastplate",
+    "revision": "371ff03228b1e9e5c3df84176ce4c91443db4ab4c2f5e763f8871a1d55ac6b54",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/breastplate/breastplate.glb",
+        "bytes": 1036552,
+        "sha256": "371ff03228b1e9e5c3df84176ce4c91443db4ab4c2f5e763f8871a1d55ac6b54"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/breastplate/LICENSE.txt"
+  },
+  "model": "model/breastplate.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/breastplate_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "breastplate_body_normal"
+    },
+    {
+      "path": "textures/breastplate_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "breastplate_body_basecolor"
+    },
+    {
+      "path": "textures/breastplate_body_metallic-breastplate_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "breastplate_body_metallic-breastplate_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 13558,
+    "triangles": 14972,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "breastplate_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "breastplate_body_metallic-breastplate_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "breastplate_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68308,
+      "sha256": "d65adeed6160f417a5b92c9155db94587c30b02399007003576fa25dc6ba502c",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/breastplate.glb",
+      "bytes": 1036552,
+      "sha256": "371ff03228b1e9e5c3df84176ce4c91443db4ab4c2f5e763f8871a1d55ac6b54",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 37032,
+      "sha256": "68a9226bb8d9d1e1ce5f1c612abe21bf3b92247b40dc4d1686d0fe9bdd4edb92",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 21334,
+      "sha256": "f4487b36c45e9f529d531713404a3fb2c9a8d926ab2f8c2b6e30ef2732e94e48",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 215910,
+      "sha256": "d99d0a638b240b2b92a361d32226163d2f64742da9126fe296f66ccff2443ae8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 828,
+      "sha256": "439c9233530f92f712e62e689400179b78caa73da1688c64b676a33b540f122b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 28174,
+      "sha256": "3433ddde80ec4601fe15458f2154b49fc8002bcde96706eb5c1ad611484ddac3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 27558,
+      "sha256": "5b71c164c2b9f082e9ae37b197fbd94c1cfdf7c8006617a5b3d0a34db91c45e9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 23154,
+      "sha256": "dfbe5d10f4f900dfc2bfbf21e26802227f37a38ee030e916e3269e0b92f0bb5a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 22848,
+      "sha256": "21d35caef02ff816de71b05ab39715807d3d03433619825ff99149a7425d1e66",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 21898,
+      "sha256": "dc4d1b950864c681cf9df4131bd2b423e1e688f7cde08705193121bc0cccc9ba",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 23057,
+      "sha256": "cb0588b0d2e67d91b4dac7ce7a6fb7a016e1f712ad5d2a0dae55936c732c2e33",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 25108,
+      "sha256": "b5e7157e8827d8d2dc274c281ce497ac17b6f2cf671a66bbfada68974658c3ed",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 26984,
+      "sha256": "ca8aba7c0c0987d43d38c034d41da17083b6857cf25c067517972a738fd2b733",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 27861,
+      "sha256": "5e4826336f79e2a3bf6a3cfee67a1d6378c1dee893933a106708aaa8f56c5e5f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 58321,
+      "sha256": "9a86e27bb9dd0f48769c13ee086dcc79ce92c0be86ebff5ea81000edc4543f72",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1934,
+      "sha256": "c61c3febf9b96eb783423f839ad06cfc5a4714b5cbe41f86f70ccf80d1254f07",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1555,
+      "sha256": "66ec217c961dcde6765410aaef853e249ed9725c0402426961b9e2f76e236c08",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 486,
+      "sha256": "72ca45dfd6e13c4dc4f151d8d13b9b200b8ac0814019ace47ea858e6dc3a25c0",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "c45421f984577452879a8ae13e1fe1af4cf4589a697e73e5e3f8da64b7ef8578",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/breastplate_body_basecolor.jpg",
+      "bytes": 222222,
+      "sha256": "8dd259cf78ed9246fa568bed63e71ea071e73d5419345d11ffa1244fa3c3d3e8",
+      "role": "textures"
+    },
+    {
+      "path": "textures/breastplate_body_metallic-breastplate_body_roughness.jpg",
+      "bytes": 221405,
+      "sha256": "2030c0000b52fd0a7c9d5e1399a41399397bb954021267e1009c2dd1af7c8712",
+      "role": "textures"
+    },
+    {
+      "path": "textures/breastplate_body_normal.jpg",
+      "bytes": 66669,
+      "sha256": "d582fdbccdba91c73190d6397c3c88e30f6be605044dcf3397776b07fbd274a6",
+      "role": "textures"
+    }
+  ]
+}

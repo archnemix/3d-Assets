@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "id": "g3-machete",
+  "title": "Machete with riveted grip",
+  "category": "weapons/melee",
+  "style": "stylized",
+  "tags": [
+    "machete",
+    "blade",
+    "wood",
+    "rivets",
+    "weapon",
+    "pbr",
+    "game-ready"
+  ],
+  "batch": "expansion-11",
+  "acquired_at": "2026-11-04T23:13:47.798356+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/machete.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/machete/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/weapons/machete/",
+    "source_id": "machete",
+    "revision": "a6298bcfa36cbaf403767d51b519ebbba19d77dbd2afe64e9ac8f05e3f1e802d",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/machete/machete.glb",
+        "bytes": 456212,
+        "sha256": "a6298bcfa36cbaf403767d51b519ebbba19d77dbd2afe64e9ac8f05e3f1e802d"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/machete/LICENSE.txt"
+  },
+  "model": "model/machete.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/machete_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "machete_body_normal"
+    },
+    {
+      "path": "textures/machete_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "machete_body_basecolor"
+    },
+    {
+      "path": "textures/machete_body_metallic-machete_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "machete_body_metallic-machete_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 4267,
+    "triangles": 6276,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "machete_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "machete_body_metallic-machete_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "machete_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68032,
+      "sha256": "6a9a2f3c74070fda8eb14a2b92a2016a9c627cf3412aa14a83f9c29905a6d5d9",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/machete.glb",
+      "bytes": 456212,
+      "sha256": "a6298bcfa36cbaf403767d51b519ebbba19d77dbd2afe64e9ac8f05e3f1e802d",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 11632,
+      "sha256": "67f9f32a33ce6309a322354ea07f2f34931bf3571d073f638051f49361f74cda",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 14774,
+      "sha256": "88eb2650716786ad135f97b4bcc38ae5c3d5bfef22756b4c117be051208c3423",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 129256,
+      "sha256": "d029904d01705f7f2830d0648bc506b9a6ff85fe4730607a6c2ca21fd6a24bec",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 810,
+      "sha256": "3b3f12f2ce1c7310516a29fde0fda8b507704975260b722edddbbd01971cec34",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 15613,
+      "sha256": "51bc87cfc95630d488bc227749f887709484212d4f0fdc4fed28576738eb6692",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 16971,
+      "sha256": "2840eb3e3e1c11e9113444553d392311bd48c2d2f7cfd516d25381ae0f94c6a2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 17822,
+      "sha256": "c878631f0e4e4fe945bf2d79bd7136a208d422ddc6b3e4bf883b90d71fb11ce0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 16656,
+      "sha256": "e7bd8a9ff77813c107e4885d172d5c0a8d064da3842bfa1c125dbda552b4ac9b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 15067,
+      "sha256": "8dceb9bb598a41056bf32655c177a965b84ac54e050de8872da66334fd2ed627",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 17675,
+      "sha256": "d60ebd74f7bcaf696872a343532f1c1aec9c89030114296e6c468f17bb505017",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 18737,
+      "sha256": "c6f0601b6639a6e7a8cf953a355b4e1195ca0473b4c53778e0f7fbf82bfd7ac4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 17799,
+      "sha256": "714fe6c668ad6e2f0c6176da5966e50aaae112cda1117cee2b7cdfdee6f054fc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 14475,
+      "sha256": "3c3294e2dc51c2d66917cd626c6591f7368e54ec7ea8429c94310351a2453bd6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 23671,
+      "sha256": "00753bd0f8ca1a9b90cc4264542db7ddcb31799bf679ceed767460acacdfe32a",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1927,
+      "sha256": "18eb620f3bfbf21c5fbe9f7b9d4600e63cb5db2e3d3baaaf87e4b1b3add9ea28",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1566,
+      "sha256": "8b26c425ca5cd1136dba1912cabd8cc13897793d9c54b9339762684d14c229b6",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 450,
+      "sha256": "32223046dd4cd020f886f8f08eeec5f4b21d4fad61e53005aeeaf02e51cc0ea8",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "7fb9996f838442c8bd1085184c1bb29b2ea4230b267826a8d0b05077e189a330",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/machete_body_basecolor.jpg",
+      "bytes": 105618,
+      "sha256": "968c37d399b41158cc92c1981f7e4150575ba41739af391a864deed2ca4ac404",
+      "role": "textures"
+    },
+    {
+      "path": "textures/machete_body_metallic-machete_body_roughness.jpg",
+      "bytes": 107424,
+      "sha256": "458a42d44df5ce15dc10e81f3bfd1616a6ebc35b956857d07db7744836b155f3",
+      "role": "textures"
+    },
+    {
+      "path": "textures/machete_body_normal.jpg",
+      "bytes": 66426,
+      "sha256": "5e178497777df61b348046d7e22d1c06088793562b63efc76fdac5a1108fe501",
+      "role": "textures"
+    }
+  ]
+}

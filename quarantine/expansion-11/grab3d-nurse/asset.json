@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "id": "grab3d-nurse",
+  "title": "Nurse in scrubs with stethoscope",
+  "category": "characters/occupations",
+  "style": "realistic",
+  "tags": [
+    "nurse",
+    "scrubs",
+    "stethoscope",
+    "badge",
+    "rigged",
+    "character",
+    "humanoid",
+    "walk",
+    "run",
+    "pbr"
+  ],
+  "batch": "expansion-11",
+  "acquired_at": "2026-11-04T23:06:30.856429+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/nurse-rigged.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/nurse-rigged/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/characters/nurse/",
+    "source_id": "nurse-rigged",
+    "revision": "6d11393d37b4245c1ad9b16e41effc7931cef40d403873583cb05ae84a3cfc74",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/nurse-rigged/nurse-rigged.glb",
+        "bytes": 12376456,
+        "sha256": "5d4125b7e3e8e95a69658c5de980fb2dd525d30e2654d42f94ee7e157d993bf6"
+      }
+    ],
+    "repairs": [
+      {
+        "repair": "normalize-skin-weights",
+        "checked_vertices": 166418,
+        "normalized_vertices": 2668,
+        "max_sum_delta": 0.00017262250185012817,
+        "accessors": [
+          4
+        ],
+        "original_sha256": "5d4125b7e3e8e95a69658c5de980fb2dd525d30e2654d42f94ee7e157d993bf6",
+        "repaired_sha256": "6d11393d37b4245c1ad9b16e41effc7931cef40d403873583cb05ae84a3cfc74"
+      }
+    ],
+    "origin": {
+      "method": "ai-assisted",
+      "detail": "Base mesh and textures generated with an AI image-to-3D tool (Meshy), then cleaned up, scaled, textured and checked in Blender. Skeleton, skinning and the walk and run clips were added automatically with Meshy Auto-Rig.",
+      "ai_content": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/nurse-rigged/LICENSE.txt"
+  },
+  "model": "model/nurse-rigged.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 1,
+    "animations": [
+      "run",
+      "walk"
+    ],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/rig_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "rig_normal"
+    },
+    {
+      "path": "textures/rig_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "rig_basecolor"
+    },
+    {
+      "path": "textures/rig_metallic-rig_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "rig_metallic-rig_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 1,
+    "vertices": 166418,
+    "triangles": 216428,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [
+      {
+        "name": "Armature",
+        "bones": 24
+      }
+    ],
+    "actions": [
+      "run_Armature",
+      "walk_Armature"
+    ],
+    "images": [
+      {
+        "name": "rig_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "rig_metallic-rig_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "rig_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 758,
+      "sha256": "66eda0cadb138a0b94a4c7b850ee0e074b537d66368cd41cd312ba8f23d65347",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 78965,
+      "sha256": "fec10d07f0ca05c2372abbb2792cb74db59cba56c9c0267e9ce227b74ec248b3",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "2a9a229f8bb2ed821581e94782406b1f4a42c4f9a9e024e1cc719a6265cfa1b4",
+      "role": "logs"
+    },
+    {
+      "path": "model/nurse-rigged.glb",
+      "bytes": 12376456,
+      "sha256": "6d11393d37b4245c1ad9b16e41effc7931cef40d403873583cb05ae84a3cfc74",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 21426,
+      "sha256": "5d4e5c82fddd8c5e662f196c9a005c73365fdaf35d32081621b08d8d91d5f53f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18836,
+      "sha256": "d8b2163892d3524f3bf80126588e6bb7470adafa1f5c7d530dac92622ed563db",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 175248,
+      "sha256": "1816b721121bb8b4491097b8d672007a35e3013d76c2c83d70a361d95dcd3c4f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 880,
+      "sha256": "30c5b6ae3f54830599cfe74e22c52de7243339652dd39a7b7c4571839ef01ff7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 24896,
+      "sha256": "1ca09a0b06ae638942260779ebb4644ed19a2258dc0ac053e214cd7ff22bd9c0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 23527,
+      "sha256": "2d85c667482d6a821a5ad0b470c48a3cffe92491eeec66c5e6a3f704604c765c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 18369,
+      "sha256": "0fd141a22a5cf66b0e8ae20c921179bfc3617a657ee9f4d72afd77ba6a5c4b2b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 21344,
+      "sha256": "3522cf9829907f39a26ecbb1c750f794b31f039963c0f588db09c0982b47eaa4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 22259,
+      "sha256": "2c627d991a536a03f93febd7098912df0301aa400546d7c3db6732e887450d56",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 22312,
+      "sha256": "21afc001e03f866af7b708176cbd3a812103ea5238303b04ccb475a6545be909",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 19416,
+      "sha256": "0aebb75cba804237198dc0036062c9e7dc15af0c6e08319411ddfeb32142b765",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 23946,
+      "sha256": "924eaaede21aa8c7b1a84b744744a55ddd0fa4869fe72e29768503e9d908151d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/portrait-front.jpg",
+      "bytes": 81685,
+      "sha256": "1b8ff251e4e890eef98129a49ff560e766da5cb5d6753d8ed1891a1df633d17b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/portrait-three-quarter.jpg",
+      "bytes": 89012,
+      "sha256": "31373af3c67d5135e98da517a055cad0718b92144d00f642990dba4c46c2fb3c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 23021,
+      "sha256": "b1b371d025622a1bfdc5bc3b52b106ab374edf8d216e863f37f4316068e5a2e9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 605,
+      "sha256": "17cecff55276c72770bd0180bda17de448577e84122c101e86167c75d8d98afd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 38339,
+      "sha256": "ec03276a87cb5446d6d42baa29cdca03e59edcd7407c660f874b39800e5fd11e",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2153,
+      "sha256": "292b0ad059520b2455957409b5eddcc3be375d75cd01150bc6e682fc4fe0a198",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1060,
+      "sha256": "5200182cd3b4e9aa49adf376f3463cf09e50c05581432f11123fc4bbbf33ab03",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 488,
+      "sha256": "5deae9cba44d56070ca40c2e7e1997eb2f97fdd9cbd42928ba900948bcd6863f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 351,
+      "sha256": "43a57190d451b14f1b7d40f7bfed3ac55f748aa931eb7ef787fd09fa8142ba5f",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/rig_basecolor.jpg",
+      "bytes": 526883,
+      "sha256": "02fbc062411827a0f906029e8e118db074d66e00ad23e6bb216e15847b231213",
+      "role": "textures"
+    },
+    {
+      "path": "textures/rig_metallic-rig_roughness.jpg",
+      "bytes": 229936,
+      "sha256": "e523baff95457c39704156e82f058d877bc6638b61004ce4df8520a10b15bfe5",
+      "role": "textures"
+    },
+    {
+      "path": "textures/rig_normal.jpg",
+      "bytes": 314689,
+      "sha256": "623e590c1ad2bc8a620ff4da19112aed73e78a74ce7ba2b99eced5a7743c4d90",
+      "role": "textures"
+    }
+  ]
+}
