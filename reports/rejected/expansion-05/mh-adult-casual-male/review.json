@@ -1,0 +1,24 @@
+{
+  "id": "mh-adult-casual-male",
+  "decision": "rejected",
+  "scores": {
+    "silhouette": 4,
+    "materials": 3,
+    "topology": 5,
+    "completeness": 3,
+    "style_fit": 3
+  },
+  "notes": "The MakeHuman build pipeline now works and the body is realistically proportioned, but this candidate does not meet the hero-quality bar. The eyes render blank/white without a readable iris, the casual shirt carries a prominent MakeHuman logo rather than a generic garment, and the face/hands read stiff in the full-size orbits. It is useful pipeline evidence, not an approved library character.",
+  "limitations": [
+    "Rejected candidate; evidence retained without approving the payload.",
+    "MakeHuman system-pack outfit includes a community logo.",
+    "Eye material did not present a readable iris in inspection renders."
+  ],
+  "contact_sheet_sha256": "d2ddde291457139b328f950758592b6e5723483f3d1d48e3497f550302cebf32",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-04",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports",
+  "status": "rejected",
+  "approved": false
+}

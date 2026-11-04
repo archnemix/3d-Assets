@@ -1,0 +1,24 @@
+{
+  "id": "mh-adult-casual-female",
+  "decision": "rejected",
+  "scores": {
+    "silhouette": 3,
+    "materials": 4,
+    "topology": 5,
+    "completeness": 3,
+    "style_fit": 3
+  },
+  "notes": "The generated body and clothing are technically clean, but the default bob hides one eye and much of the face in the primary views, and the shirt carries a prominent MakeHuman logo. For a realistic human library anchor the face must be readable from the front and the outfit should be generic. This candidate is rejected as a presentation/quality issue, not a license or format failure.",
+  "limitations": [
+    "Rejected candidate; evidence retained without approving the payload.",
+    "Hair obscures the face in key inspection views.",
+    "MakeHuman system-pack outfit includes a community logo."
+  ],
+  "contact_sheet_sha256": "cc8dc0083f70d6f1799cd6700ab66e5dcfcc1e2dc6e6e6bef56d01f58fbdd80e",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-04",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports",
+  "status": "rejected",
+  "approved": false
+}
