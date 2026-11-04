@@ -1,0 +1,353 @@
+{
+  "schema_version": 1,
+  "id": "g3-muscle-car",
+  "title": "Classic fastback muscle car",
+  "category": "vehicles/cars",
+  "style": "stylized",
+  "tags": [
+    "car",
+    "muscle",
+    "fastback",
+    "coupe",
+    "stripes",
+    "wheels"
+  ],
+  "batch": "expansion-10",
+  "acquired_at": "2026-11-04T22:52:36.161998+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/muscle-car.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/muscle-car/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/muscle-car/",
+    "source_id": "muscle-car",
+    "revision": "d3409591ad13f8f43914e44c9e504a3acb19b21560029ee3231894dffb278502",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/muscle-car/muscle-car.glb",
+        "bytes": 1258332,
+        "sha256": "d3409591ad13f8f43914e44c9e504a3acb19b21560029ee3231894dffb278502"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/muscle-car/LICENSE.txt"
+  },
+  "model": "model/muscle-car.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 6,
+    "materials": 18,
+    "images": 5,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/muscle-car_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "muscle-car_body_normal"
+    },
+    {
+      "path": "textures/muscle-car_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "muscle-car_body_basecolor"
+    },
+    {
+      "path": "textures/muscle-car_body_metallic-muscle-car_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "muscle-car_body_metallic-muscle-car_body_roughness"
+    },
+    {
+      "path": "textures/muscle-car_tire_normal.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "muscle-car_tire_normal"
+    },
+    {
+      "path": "textures/muscle-car_tire_color.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "muscle-car_tire_color"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 6,
+    "hidden_mesh_objects": 0,
+    "vertices": 16480,
+    "triangles": 19806,
+    "material_slots": 18,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "muscle-car_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "muscle-car_body_metallic-muscle-car_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "muscle-car_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "muscle-car_tire_color",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "muscle-car_tire_normal",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 5,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 76582,
+      "sha256": "d5210ea2afe62181fc620da5482162b422d0e975113f27f62a2ac84a80614c99",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "998ef207bb56a5da54cfc753f6cf05bd6985e629781c1ba33f1562c902587ed1",
+      "role": "logs"
+    },
+    {
+      "path": "model/muscle-car.glb",
+      "bytes": 1258332,
+      "sha256": "d3409591ad13f8f43914e44c9e504a3acb19b21560029ee3231894dffb278502",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 19545,
+      "sha256": "1331ea1675d784efad569cca8f74e37b04129abc913cbbaf9283ad1387924461",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18525,
+      "sha256": "11f0f7e0b33aeb3fcc0caa2c163a6cabdee9274f31faef664c0ff3c2d2052112",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 208826,
+      "sha256": "113a70d3685c3ac28927c17127f55090efd0bf91db3c0fa0c502e4577f97404a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1126,
+      "sha256": "930fff37416b21db55f02b2af432eeda1259555890f7d31a1b58138a1a8b3367",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 40251,
+      "sha256": "d1e126e278d3e9bf31a4ccc6a5a737f873ed3515fd804d9075bd99c3273f4774",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 27330,
+      "sha256": "5692b32ad786908ef2cf4dd167b08bc483dbe7600d34b8ad8800beefec9dd17b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 23137,
+      "sha256": "4ef36540e3c688ed82d9c196f8d31647e63c3f8312b3ab967256ee36017b3492",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 25069,
+      "sha256": "34894f191186c4cb6bd50cdcf1aeafe9f9c2572abd68bd73ef7bab325b956a86",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 34490,
+      "sha256": "89d47332deae82ca36eec2e747e6b042f25f76e12da4185fc6311e7e5ff6dbe2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 25623,
+      "sha256": "14fa8c2ec09184a759f8c9901d1ed0d93170b1b810c2a7c9992fa2ce89b5efa7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 24783,
+      "sha256": "70d694747f9dc2b8ddd2231422ed468757d86edcbbca0d6a4cb872cfb80e9e4f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 28231,
+      "sha256": "b51085a3221b3843c0a6c92f80b1298c64014d625bbf1a3bc0f6281b87102fa7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 23374,
+      "sha256": "947c9f9326ddc38899a979268713a45a585c4fab49fa7055ecf190de998ed9a5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 39902,
+      "sha256": "9f3077985936e37d68bce1df0d784c0c087e15b6e36f13b26cfad00d920e9017",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 6170,
+      "sha256": "a167903d47fb7c6fa4e3d96d5009e248ca78fc1b6bd36397ead6a8e6f9dac341",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1516,
+      "sha256": "6e2dbc23984ac94457d6f11b18156d49364b5384b14d5d25a02d4f65aa5f3cea",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 476,
+      "sha256": "b6aae168409d7b3030980c8a067ac6b89e483bdbf4d5dac60db5b12a33f84401",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "924acff403419d9cdb47026480aabb3e2d9392012b4d1dbd30306a9145628cbd",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/muscle-car_body_basecolor.jpg",
+      "bytes": 289409,
+      "sha256": "0068b34735cda097b617ef1de71b141fef48609594e8c8320accddeb11060ddc",
+      "role": "textures"
+    },
+    {
+      "path": "textures/muscle-car_body_metallic-muscle-car_body_roughness.jpg",
+      "bytes": 251941,
+      "sha256": "8203b2e18e93c60546bf58c2f411b4a43da88b430f1781205e4ee1a8d3d87973",
+      "role": "textures"
+    },
+    {
+      "path": "textures/muscle-car_body_normal.jpg",
+      "bytes": 67405,
+      "sha256": "69c2a027a57239e42d89a5bf7b0cee661b7e63f9d64248cccb5a4f7bbdbbb895",
+      "role": "textures"
+    },
+    {
+      "path": "textures/muscle-car_tire_color.jpg",
+      "bytes": 1539,
+      "sha256": "9a26cd08e0224cc42916de18d402a711edeee7659c6a944e67dae2b4e9b09f91",
+      "role": "textures"
+    },
+    {
+      "path": "textures/muscle-car_tire_normal.jpg",
+      "bytes": 2114,
+      "sha256": "1ac12a81a5ccc3fb6b78601a0b9665ecb4251b6a18602b230f6c025b54cd930c",
+      "role": "textures"
+    }
+  ]
+}
