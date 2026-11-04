@@ -1,0 +1,49 @@
+{
+  "source_model": "1960s-sports-car.glb",
+  "authored": [
+    {
+      "name": "wheel_roll",
+      "parts": [
+        "1960s-sports-car_wheel_fl",
+        "1960s-sports-car_wheel_fr",
+        "1960s-sports-car_wheel_rl",
+        "1960s-sports-car_wheel_rr"
+      ],
+      "axis": "X",
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    },
+    {
+      "name": "steer",
+      "parts": [
+        "1960s-sports-car_wheel_fl",
+        "1960s-sports-car_wheel_fr"
+      ],
+      "axis": "Z",
+      "degrees": 32.0,
+      "frames": 45,
+      "fps": 30
+    }
+  ],
+  "verification": [
+    {
+      "clip": "wheel_roll",
+      "frames": [
+        "anim-wheel_roll-a.jpg",
+        "anim-wheel_roll-b.jpg",
+        "anim-wheel_roll-c.jpg"
+      ]
+    },
+    {
+      "clip": "steer",
+      "frames": [
+        "anim-steer-a.jpg",
+        "anim-steer-b.jpg",
+        "anim-steer-c.jpg"
+      ]
+    }
+  ],
+  "note": "Clips authored by this library, not upstream. Dedicated to CC0.",
+  "animated_model": "1960s-sports-car-animated.glb"
+}

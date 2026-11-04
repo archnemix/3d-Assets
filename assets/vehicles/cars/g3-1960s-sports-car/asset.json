@@ -214,6 +214,12 @@
       "role": "documentation"
     },
     {
+      "path": "logs/animations.log",
+      "bytes": 41023,
+      "sha256": "87d33ea9f608a39e460422dc3d8620b1a197f8cc9a740f82b6e1d40c5e4b168e",
+      "role": "logs"
+    },
+    {
       "path": "logs/blender.log",
       "bytes": 77929,
       "sha256": "800349ba1f187e8897eb9849d11b3ec2f88ca4f933b37d4af1d096faca0e01c6",
@@ -226,10 +232,52 @@
       "role": "logs"
     },
     {
+      "path": "model/1960s-sports-car-animated.glb",
+      "bytes": 1164432,
+      "sha256": "0ce41ddc2ca37448a7712b0fcaf6b5f49b69a77604fec327b5baca79238aefe9",
+      "role": "model"
+    },
+    {
       "path": "model/1960s-sports-car.glb",
       "bytes": 1156528,
       "sha256": "e2d88dd6eed3bb1d0f1ff7b239f1c8ccc66ba81347bd42f023d5a2046cfd8251",
       "role": "model"
+    },
+    {
+      "path": "previews/anim-steer-a.jpg",
+      "bytes": 9131,
+      "sha256": "3c1bd031caf09eb6721e8d160223d65c6cf75899ed71b5ec3ac111dd244c7dc5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-steer-b.jpg",
+      "bytes": 9036,
+      "sha256": "11da75717c52bd92bfc82d2a666b2ed3a8d261317d3aa57cd448758edba6a4a5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-steer-c.jpg",
+      "bytes": 8923,
+      "sha256": "5b493a154173de47ec904cc46ce7becf556ef7cdf7e8e8c468d1253d9f34138a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-a.jpg",
+      "bytes": 9134,
+      "sha256": "68273fab977560169510f238999bc0f3a60964c20a0366f803962dd2a5bedf78",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-b.jpg",
+      "bytes": 9011,
+      "sha256": "2efeb26477ad604f726bb6dddad059327480c809ed3a0c519ad7815eb4692154",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-c.jpg",
+      "bytes": 8923,
+      "sha256": "85ff16f4d838841d16a491f04624542be9d6547b9e5019cb4271a97a21adc34e",
+      "role": "previews"
     },
     {
       "path": "previews/bottom.jpg",
@@ -322,6 +370,12 @@
       "role": "previews"
     },
     {
+      "path": "provenance/animations.json",
+      "bytes": 1035,
+      "sha256": "06cc9dbcb8c24ded217921078a16289cf888cc844723b1b764fa09e55e033f27",
+      "role": "provenance"
+    },
+    {
       "path": "provenance/gltf-validator.json",
       "bytes": 6176,
       "sha256": "b9c02964ac3c811a33763d4a467d3b882ba7566c772ae217d8b2850528990ecc",
@@ -381,5 +435,32 @@
       "sha256": "1ac12a81a5ccc3fb6b78601a0b9665ecb4251b6a18602b230f6c025b54cd930c",
       "role": "textures"
     }
-  ]
+  ],
+  "authored_animations": [
+    {
+      "name": "wheel_roll",
+      "parts": [
+        "1960s-sports-car_wheel_fl",
+        "1960s-sports-car_wheel_fr",
+        "1960s-sports-car_wheel_rl",
+        "1960s-sports-car_wheel_rr"
+      ],
+      "axis": "X",
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    },
+    {
+      "name": "steer",
+      "parts": [
+        "1960s-sports-car_wheel_fl",
+        "1960s-sports-car_wheel_fr"
+      ],
+      "axis": "Z",
+      "degrees": 32.0,
+      "frames": 45,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/1960s-sports-car-animated.glb"
 }

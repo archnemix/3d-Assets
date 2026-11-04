@@ -214,6 +214,12 @@
       "role": "documentation"
     },
     {
+      "path": "logs/animations.log",
+      "bytes": 40244,
+      "sha256": "2bc03aa95a282daa48408884869aa75b78f172652d3f4edade2a3fb368aacfe9",
+      "role": "logs"
+    },
+    {
       "path": "logs/blender.log",
       "bytes": 76582,
       "sha256": "d5210ea2afe62181fc620da5482162b422d0e975113f27f62a2ac84a80614c99",
@@ -226,10 +232,52 @@
       "role": "logs"
     },
     {
+      "path": "model/muscle-car-animated.glb",
+      "bytes": 1270372,
+      "sha256": "1922b9d63de195feecaa9805f0f9c0913a218b9bcba681fe54996ac1773c9cce",
+      "role": "model"
+    },
+    {
       "path": "model/muscle-car.glb",
       "bytes": 1258332,
       "sha256": "d3409591ad13f8f43914e44c9e504a3acb19b21560029ee3231894dffb278502",
       "role": "model"
+    },
+    {
+      "path": "previews/anim-steer-a.jpg",
+      "bytes": 10598,
+      "sha256": "c201a78ee355b2b836cdc04e9a693a8c1c9c743fa24d324272aac4d5882fed39",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-steer-b.jpg",
+      "bytes": 10475,
+      "sha256": "62ef2fdc7b6dcca25690addd310b825209242ebee9202a261f6d49a0e36d105c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-steer-c.jpg",
+      "bytes": 10334,
+      "sha256": "c1879db221dc365b5fd9c608db4a1340ad67a97b22af13cd02522d706bbb3748",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-a.jpg",
+      "bytes": 10598,
+      "sha256": "e4909e1eaa5421972bc81bbdd8762a32744a054cd2db1931d3ae464c34299e38",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-b.jpg",
+      "bytes": 10438,
+      "sha256": "dbef06d5bd16d1a60cd397bfd98f0977337109687e72b4a32c480c23439afe91",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-c.jpg",
+      "bytes": 10345,
+      "sha256": "958857dd31e4e69caadfba83846a519dfbf2893b2b8bb653893078a4833371bf",
+      "role": "previews"
     },
     {
       "path": "previews/bottom.jpg",
@@ -322,6 +370,12 @@
       "role": "previews"
     },
     {
+      "path": "provenance/animations.json",
+      "bytes": 987,
+      "sha256": "c1cd00ea334a9305f5bbdfe2f6c4ba6e3ab25055f636551138cae72f1def36dc",
+      "role": "provenance"
+    },
+    {
       "path": "provenance/gltf-validator.json",
       "bytes": 6170,
       "sha256": "a167903d47fb7c6fa4e3d96d5009e248ca78fc1b6bd36397ead6a8e6f9dac341",
@@ -381,5 +435,32 @@
       "sha256": "1ac12a81a5ccc3fb6b78601a0b9665ecb4251b6a18602b230f6c025b54cd930c",
       "role": "textures"
     }
-  ]
+  ],
+  "authored_animations": [
+    {
+      "name": "wheel_roll",
+      "parts": [
+        "muscle-car_wheel_fl",
+        "muscle-car_wheel_fr",
+        "muscle-car_wheel_rl",
+        "muscle-car_wheel_rr"
+      ],
+      "axis": "X",
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    },
+    {
+      "name": "steer",
+      "parts": [
+        "muscle-car_wheel_fl",
+        "muscle-car_wheel_fr"
+      ],
+      "axis": "Z",
+      "degrees": 32.0,
+      "frames": 45,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/muscle-car-animated.glb"
 }
