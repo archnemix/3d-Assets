@@ -1,0 +1,318 @@
+{
+  "schema_version": 1,
+  "id": "ph-wooden-shelf",
+  "title": "Distressed wooden bookshelf",
+  "category": "furniture/storage",
+  "style": "realistic",
+  "tags": [
+    "furniture",
+    "shelf",
+    "bookcase",
+    "storage",
+    "wood",
+    "weathered",
+    "pbr"
+  ],
+  "batch": "expansion-07",
+  "acquired_at": "2026-11-04T16:49:40.071465+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/Shelf_01_2k.gltf",
+    "creator": "Gabriel Radić",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/Shelf_01",
+    "source_id": "Shelf_01",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/Shelf_01/Shelf_01_2k.gltf",
+        "bytes": 2617,
+        "sha256": "3a47b370bcd0291a27218a5b554de70ff0e1928d67d804576349dc2de17204e1"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/Shelf_01/Shelf_01_arm_2k.jpg",
+        "bytes": 792733,
+        "sha256": "ccedd6c6eabfcaf71167135aaaa33b54066d95653cce525d5d9e515d16222916"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/Shelf_01/Shelf_01_nor_gl_2k.jpg",
+        "bytes": 1120781,
+        "sha256": "bc20c8f4fefc52aabe368dc91c383e4e3bac7152e0100174add475b31bf2677a"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/Shelf_01/Shelf_01.bin",
+        "bytes": 12676,
+        "sha256": "21ee76dda6320ba423e76d192cfd38885e334ae394c03978d092f96b508f175b"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/Shelf_01/Shelf_01_diff_2k.jpg",
+        "bytes": 569169,
+        "sha256": "0378d3294f1bee70a63ddee2a732987ae7845af27936dec012610e22d983fd0a"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/Shelf_01_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/Shelf_01_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "Shelf_01_nor_gl.png"
+    },
+    {
+      "path": "model/textures/Shelf_01_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "Shelf_01_diff.png"
+    },
+    {
+      "path": "model/textures/Shelf_01_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "Shelf_01_metallic.png-Shelf_01_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 362,
+    "triangles": 182,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "Shelf_01_diff.png",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-wooden-shelf/model/textures/Shelf_01_diff_2k.jpg"
+      },
+      {
+        "name": "Shelf_01_metallic.png-Shelf_01_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-wooden-shelf/model/textures/Shelf_01_arm_2k.jpg"
+      },
+      {
+        "name": "Shelf_01_nor_gl.png",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-wooden-shelf/model/textures/Shelf_01_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67561,
+      "sha256": "2aaf517c6f6b31f7eb7ec84d706d9fd7badb1a396d5e343056808ea7b1ae3f9c",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/Shelf_01.bin",
+      "bytes": 12676,
+      "sha256": "21ee76dda6320ba423e76d192cfd38885e334ae394c03978d092f96b508f175b",
+      "role": "model"
+    },
+    {
+      "path": "model/Shelf_01_2k.gltf",
+      "bytes": 2617,
+      "sha256": "3a47b370bcd0291a27218a5b554de70ff0e1928d67d804576349dc2de17204e1",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/Shelf_01_arm_2k.jpg",
+      "bytes": 792733,
+      "sha256": "ccedd6c6eabfcaf71167135aaaa33b54066d95653cce525d5d9e515d16222916",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/Shelf_01_diff_2k.jpg",
+      "bytes": 569169,
+      "sha256": "0378d3294f1bee70a63ddee2a732987ae7845af27936dec012610e22d983fd0a",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/Shelf_01_nor_gl_2k.jpg",
+      "bytes": 1120781,
+      "sha256": "bc20c8f4fefc52aabe368dc91c383e4e3bac7152e0100174add475b31bf2677a",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 19747,
+      "sha256": "63a1f9463841c44e6170c1f32d554f1e0992319227152075a6992dcc4ed58fe1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 21188,
+      "sha256": "7810370ea217e1f84c807b4989e8d2a55d253085bae82066aeca73ee41887f77",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 166257,
+      "sha256": "6d27098c96e4058024ee755a717776f8e0b03f5dc1bf35f45ba34a0bf46e7d73",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1139,
+      "sha256": "60e7a2d39677f8e4b9b5d159559110343b824baa718ea994d626a5d8223268a8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 34174,
+      "sha256": "6ea7deb8d25dc4c688b79264f8a3d2f5e26d5572af589fd0e808aebc93b3a905",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 28128,
+      "sha256": "5a7caeb8fcc1ee69b0d61daeb5b1a398ade453e645bb3f55b64f4fabd599c154",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 12077,
+      "sha256": "b19813f4a04b6d0b397a4cbaf064c4cf71ad5b6157b76dedf2796a3e82047307",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 20316,
+      "sha256": "2f2a58240dfdff44009b7e1dac8dabab11d4b1a2afa0b84a08fe340c477c6a7e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 24096,
+      "sha256": "7c2e62e382c85027e6b4877ff036f2bf888bccf56cd15ec1c3d3239259bc57f9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 21508,
+      "sha256": "661db5967a2f04851b29de8a2b44f29883674277413ce2650a21f8fefbc7cafe",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 13398,
+      "sha256": "395c924d0584e005549d6563ccb87837da8912020b3610764fc0a74a67999048",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 29211,
+      "sha256": "9e13bc74642412dd6b92e9863d13d6221e5cebca2c19166ea2595c6091abda68",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 15820,
+      "sha256": "da7144401133038201a51e2b63bffc382caabdc0321e0172bb1522ec057f4ec6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 26092,
+      "sha256": "b84cc8b2228ed7c05fef8f88f1ae9e31978e4bc08052d9cee90b3ddacf2cfdac",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1271,
+      "sha256": "5afe51af2d7809792b1fba564d6a70ce5f3abf7d466a24dd810706b831fd542c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3007,
+      "sha256": "86d14f67fe609054daf588786227ce62b04d3fad8321217941bc05a99f0a2db7",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1018,
+      "sha256": "1d7fd8c817f85d309a1f58347ae67da6ca03a098d025fa4fa92f4e0574789d6c",
+      "role": "provenance"
+    }
+  ]
+}

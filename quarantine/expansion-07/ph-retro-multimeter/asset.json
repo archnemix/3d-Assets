@@ -1,0 +1,328 @@
+{
+  "schema_version": 1,
+  "id": "ph-retro-multimeter",
+  "title": "Retro analog multimeter",
+  "category": "tools/measuring",
+  "style": "realistic",
+  "tags": [
+    "instrument",
+    "multimeter",
+    "gauge",
+    "analog",
+    "vintage",
+    "electronics",
+    "pbr"
+  ],
+  "batch": "expansion-07",
+  "acquired_at": "2026-11-04T16:43:03.241649+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/retro_multimeter_2k.gltf",
+    "creator": "elli moeller",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/retro_multimeter",
+    "source_id": "retro_multimeter",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/retro_multimeter/retro_multimeter_2k.gltf",
+        "bytes": 13821,
+        "sha256": "2cd18491b38aedf6d33d1ac84c1693974b8b3b2447d7df147c5f80e21d3fe5bf"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/retro_multimeter/retro_multimeter_nor_gl_2k.jpg",
+        "bytes": 1051164,
+        "sha256": "0555cb6c0ea9566ebc43fb75ac452bf683c47874735ee1d88fe077bea2426716"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/retro_multimeter/retro_multimeter_diff_2k.jpg",
+        "bytes": 1327058,
+        "sha256": "b3ba9213aa2c8becdf2660b6f549ef27817d11e19116915f345a58c844080db7"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/retro_multimeter/retro_multimeter_arm_2k.jpg",
+        "bytes": 1580720,
+        "sha256": "8dbe287ad5fac8f6ff6c4fa885411aba0136829a7743c6f708c0b472f2ad11f2"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/retro_multimeter/retro_multimeter.bin",
+        "bytes": 273368,
+        "sha256": "c2d626778b59eaa5293f7c666433a5b0224cdb2dc38d005a056f95b2ab24b2e8"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/retro_multimeter_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 7,
+    "materials": 2,
+    "images": 4,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/retro_multimeter_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "retro_multimeter_nor_gl"
+    },
+    {
+      "path": "model/textures/retro_multimeter_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "retro_multimeter_diff"
+    },
+    {
+      "path": "model/textures/retro_multimeter_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "retro_multimeter_metal-retro_multimeter_rough"
+    },
+    {
+      "path": "model/textures/retro_multimeter_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "retro_multimeter_diff-retro_multimeter_alpha"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 7,
+    "hidden_mesh_objects": 0,
+    "vertices": 6865,
+    "triangles": 8948,
+    "material_slots": 8,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "retro_multimeter_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-retro-multimeter/model/textures/retro_multimeter_diff_2k.jpg"
+      },
+      {
+        "name": "retro_multimeter_metal-retro_multimeter_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-retro-multimeter/model/textures/retro_multimeter_arm_2k.jpg"
+      },
+      {
+        "name": "retro_multimeter_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-retro-multimeter/model/textures/retro_multimeter_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 8,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 77076,
+      "sha256": "8f96764eabe60fa99fb1c6f71a7ae76866e536b9e959e4af1f1168fec57c276e",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "0fd0a746503a9ff6f79a306915bb1f4bb48046785cdaf1ae7215409244a4fbf0",
+      "role": "logs"
+    },
+    {
+      "path": "model/retro_multimeter.bin",
+      "bytes": 273368,
+      "sha256": "c2d626778b59eaa5293f7c666433a5b0224cdb2dc38d005a056f95b2ab24b2e8",
+      "role": "model"
+    },
+    {
+      "path": "model/retro_multimeter_2k.gltf",
+      "bytes": 13821,
+      "sha256": "2cd18491b38aedf6d33d1ac84c1693974b8b3b2447d7df147c5f80e21d3fe5bf",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/retro_multimeter_arm_2k.jpg",
+      "bytes": 1580720,
+      "sha256": "8dbe287ad5fac8f6ff6c4fa885411aba0136829a7743c6f708c0b472f2ad11f2",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/retro_multimeter_diff_2k.jpg",
+      "bytes": 1327058,
+      "sha256": "b3ba9213aa2c8becdf2660b6f549ef27817d11e19116915f345a58c844080db7",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/retro_multimeter_nor_gl_2k.jpg",
+      "bytes": 1051164,
+      "sha256": "0555cb6c0ea9566ebc43fb75ac452bf683c47874735ee1d88fe077bea2426716",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 35574,
+      "sha256": "dacad4ec4547b6ad1973216f2e885bd1a7ec4df5f96fab70e9847a2f78f31626",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 21636,
+      "sha256": "255b7eb9bc30402dffcae8890a7c2afa312603a9409f521dcab3740f4900e043",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 217641,
+      "sha256": "990996a2238d0de4babf5f5a3d21a47d24b4cd95c775a9acf010be2aa4c5c4ff",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1190,
+      "sha256": "30204d645d6d6293481b4781010bd3f4c7322246978632f519918d8da9894484",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 34639,
+      "sha256": "bae5e78f83374c4bab3df8ce1b16d35d15d05be96fa2e7907d1a800d8376f806",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 33471,
+      "sha256": "aeb680d4cf1e28fd3cfd4f91d22c51293c4a3ec266d7c4b6bb8ba3a2f5313edd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 20684,
+      "sha256": "39a068e944aa6148f7c092d31efc93f1e292111fcb15fa7ed0b8a3d8835f6c46",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 26360,
+      "sha256": "3298d392a13ecfbd42a76fed3e686fe7a847db7c422cb96b62ecd677c132252a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 27836,
+      "sha256": "d9707ca81fe898a456829c303a0c1dd8db54b7f913b18a4e63de10cc84f9ec51",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 27914,
+      "sha256": "a7d3becf3e4dd94dfe280c801c5eb85398f2b1130d7a47a884f72031594bd5a2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 20058,
+      "sha256": "f0cfc10df7f001740dc65713f1620153a382220b89405b90c8da1ccd8fe4d376",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 31807,
+      "sha256": "07b49993ea94f4be5e3a8e928d1d9a6cf8a0cd45998cc3c5855ab777aec169f1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 36795,
+      "sha256": "2d5e675ac2b36bdd99c340a15ebb2064c18e64b7bbffd9b87127fc1c97fab792",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 34300,
+      "sha256": "4809b0998fb73a77f7f627baea805a6ff5dee69578a5c0f03e66b8ce7334adb9",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1367,
+      "sha256": "69bb91d0348ec2ea1e602f025ae91e6187615b213cb4da7e8eef58ec36ed5f09",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 4728,
+      "sha256": "13071a63d7d406f446481376430f5c2c2b939f0c0397351f38bbce08869b19c9",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1134,
+      "sha256": "443d3207dd36b8b10d02ec0c991d5cd617358e26f5b0b3f67ca9d23d8ac1ebe6",
+      "role": "provenance"
+    }
+  ]
+}
