@@ -193,8 +193,8 @@
     },
     {
       "path": "logs/animations.log",
-      "bytes": 21122,
-      "sha256": "4acd4229a006110e7fe216a4ace62a0dffb5fdfa80d5fe23d04a6353943661a1",
+      "bytes": 20984,
+      "sha256": "3a114a0064b2f87c9522f028f63cf4ee50481b835b56c3dd8cb5b2ae949f0339",
       "role": "logs"
     },
     {
@@ -217,8 +217,8 @@
     },
     {
       "path": "model/metal_tool_chest_2k-animated.glb",
-      "bytes": 7770580,
-      "sha256": "4e55a21e330e1e159c358be2a65e6bab5f675242b4514d55cf16e2daa07b5719",
+      "bytes": 7769452,
+      "sha256": "e66b8be68ba73728436952569bba5149977a82a215ad3acf997e1ae5a7c63e48",
       "role": "model"
     },
     {
@@ -247,20 +247,20 @@
     },
     {
       "path": "previews/anim-lid_open-a.jpg",
-      "bytes": 19687,
-      "sha256": "ea0f6791296dc9c441e9bb5eeb5885c9c1f7b944761bdbe3899e7c7436d2b097",
+      "bytes": 18094,
+      "sha256": "bb3372c962dbddd983c026dfe0e5d5257570c6a3276470a0f23d0048b3d3f5f6",
       "role": "previews"
     },
     {
       "path": "previews/anim-lid_open-b.jpg",
-      "bytes": 19388,
-      "sha256": "fe81767c595554906fe185739e1a1dbb3043018e39d2abf8ad9f88ec46f79f77",
+      "bytes": 21394,
+      "sha256": "f91b05e5f97eac02d66e31ef49bfa3a9c33b47de46b4cf305687fa77d445975f",
       "role": "previews"
     },
     {
       "path": "previews/anim-lid_open-c.jpg",
-      "bytes": 16817,
-      "sha256": "5956e869aa4b433ca70a92b4683118c8492960dbaaa2cf79f38fb62bf8a98c51",
+      "bytes": 21166,
+      "sha256": "ce5bb24c375aedbff4083149e7ede5ee88d0396de5c9ab1688a91eda15acdd8e",
       "role": "previews"
     },
     {
@@ -355,8 +355,8 @@
     },
     {
       "path": "provenance/animations.json",
-      "bytes": 597,
-      "sha256": "efcdc5372f59e18f3f49f0208baeb7d3933032f2125f2ebf34cc688730b1d8ed",
+      "bytes": 586,
+      "sha256": "b33f5d95595038f74d5efed5b6029a6fa605d3cc39819f881739719190d981d4",
       "role": "provenance"
     },
     {
@@ -388,11 +388,11 @@
     {
       "name": "lid_open",
       "parts": [
-        "metal_tool_chest_hinge_lid",
         "metal_tool_chest_lid"
       ],
       "axis": "X",
-      "degrees": -105.0,
+      "start_degrees": 100.0,
+      "degrees": 0.0,
       "frames": 60,
       "fps": 30
     }

@@ -214,8 +214,8 @@
     },
     {
       "path": "logs/animations.log",
-      "bytes": 42612,
-      "sha256": "4f5cc14d3d04e847e40d2074a15b335f5b3cae4868616220080b9dac9d17b4cc",
+      "bytes": 42036,
+      "sha256": "4f8b22e3fc73126a2c60512424be528af78532db343fd7b7429897c7b9f1dbc7",
       "role": "logs"
     },
     {
@@ -245,37 +245,37 @@
     {
       "path": "previews/anim-steer-a.jpg",
       "bytes": 9478,
-      "sha256": "3e46385c7541c53b73a354550015f29105670a1710d87ee99ce20a91f02f0cfa",
+      "sha256": "104374cc3db906b2bf014225d0459f6778b125163d29001c80dabb26b96e7498",
       "role": "previews"
     },
     {
       "path": "previews/anim-steer-b.jpg",
-      "bytes": 9439,
-      "sha256": "75fbc20e92c17b7ed2289b6f0c8680c6610ea560118bf3704feec30cc3a11e45",
+      "bytes": 9435,
+      "sha256": "5d3e95ab9d1d73e9bfa21226d67a84839179c8bf41afdaa1227042791a3b65c3",
       "role": "previews"
     },
     {
       "path": "previews/anim-steer-c.jpg",
-      "bytes": 9347,
-      "sha256": "1566c42259bd254e2e377b090508145d7c58542a1be21ed0fb78452531fa2edd",
+      "bytes": 9365,
+      "sha256": "51a168db203c8a9d47b1c3f7b6b98e8cf0f47154f47d0a211abe674b37a2f5d7",
       "role": "previews"
     },
     {
       "path": "previews/anim-wheel_roll-a.jpg",
       "bytes": 9478,
-      "sha256": "aea038a48a1fcd2d9b68ef9de8002033ba6a781192d6937f779844277c524936",
+      "sha256": "77017cbdff0ece76952cb31ef46d6640b234992be0127681a8603a405a57922e",
       "role": "previews"
     },
     {
       "path": "previews/anim-wheel_roll-b.jpg",
-      "bytes": 9402,
-      "sha256": "716dc1a5b7b30cd1bbec5d516d4af8522de34c9b46048359345ac67eea610518",
+      "bytes": 9490,
+      "sha256": "096ae6452ef971ebf09c3ca8cf05b3f54b887fada2529e5bd0d5f5af9b8030cf",
       "role": "previews"
     },
     {
       "path": "previews/anim-wheel_roll-c.jpg",
-      "bytes": 9365,
-      "sha256": "aa2b83726745f2549dd212992b5315bd0484b2b9ec9d0a7cccb72e39f801f9d5",
+      "bytes": 9478,
+      "sha256": "ccc71d8a27315606b6ad0e22f5e458e6e7f4fd55eb6be28599e01b42955a1e50",
       "role": "previews"
     },
     {
@@ -370,8 +370,8 @@
     },
     {
       "path": "provenance/animations.json",
-      "bytes": 1003,
-      "sha256": "1a482d8cebd9d83933984444dfaed77a4a29b3ae370f2257fef5d43accd676d8",
+      "bytes": 1059,
+      "sha256": "10f781a8ffbbac69822d202f3660d6444f1b4fd6f1750fa6b8bf2c2cf233ec40",
       "role": "provenance"
     },
     {
@@ -445,6 +445,7 @@
         "electric-car_wheel_rr"
       ],
       "axis": "X",
+      "start_degrees": 0.0,
       "degrees": 360.0,
       "frames": 60,
       "fps": 30
@@ -456,6 +457,7 @@
         "electric-car_wheel_fr"
       ],
       "axis": "Z",
+      "start_degrees": 0.0,
       "degrees": 32.0,
       "frames": 45,
       "fps": 30
