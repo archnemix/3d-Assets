@@ -1,0 +1,27 @@
+{
+  "source_model": "power_box_01_2k.gltf",
+  "authored": [
+    {
+      "name": "door_open",
+      "parts": [
+        "power_box_01_door"
+      ],
+      "axis": "Z",
+      "degrees": -100.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "verification": [
+    {
+      "clip": "door_open",
+      "frames": [
+        "anim-door_open-a.jpg",
+        "anim-door_open-b.jpg",
+        "anim-door_open-c.jpg"
+      ]
+    }
+  ],
+  "note": "Clips authored by this library, not upstream. Dedicated to CC0.",
+  "animated_model": "power_box_01_2k-animated.glb"
+}

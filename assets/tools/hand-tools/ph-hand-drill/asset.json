@@ -191,6 +191,12 @@
       "role": "documentation"
     },
     {
+      "path": "logs/animations.log",
+      "bytes": 38368,
+      "sha256": "a5e265257d49fdf167e965dadc85826bd121eeb94a3a2cd6df87b6ff0a024683",
+      "role": "logs"
+    },
+    {
       "path": "logs/blender.log",
       "bytes": 73345,
       "sha256": "1f6969066cd51d14b43864b1344f07d39868bfbb581c6f6f89dbf4c2ce4cdfac",
@@ -227,10 +233,52 @@
       "role": "model"
     },
     {
+      "path": "model/vintage_hand_drill_2k-animated.glb",
+      "bytes": 10897316,
+      "sha256": "a9be60b39e6dcefb493bcf21297fe16cbbb9811f9e072b3192cdf64565c2e038",
+      "role": "model"
+    },
+    {
       "path": "model/vintage_hand_drill_2k.gltf",
       "bytes": 9084,
       "sha256": "047786ee6dd215a438800338252064479e4d370c58e3561d36712a027fe87f5d",
       "role": "model"
+    },
+    {
+      "path": "previews/anim-crank_turn-a.jpg",
+      "bytes": 7269,
+      "sha256": "08ef609125ee0f26c52d74abebd0857a5350dc32bc1acfd4ca24a47c0ac65daf",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-crank_turn-b.jpg",
+      "bytes": 7368,
+      "sha256": "9a482b4993d118d15b34353c364ecd6016c3f5efe5b55b36dd1dcf9526428d2f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-crank_turn-c.jpg",
+      "bytes": 7269,
+      "sha256": "20fc14915e5966d5726edfe38afe47ef5b73e4f1a9a4f19ea4b1e34b00fb22cc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-gear_spin-a.jpg",
+      "bytes": 7269,
+      "sha256": "7d8021a02c3075a5b0b437d7c3f32c9639f237e17208c2138ccbacd9fe6e389c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-gear_spin-b.jpg",
+      "bytes": 7368,
+      "sha256": "6d02eeee2f81fad55a8bc642480be86ba405a3d16067713b2a4da9914d457b7a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-gear_spin-c.jpg",
+      "bytes": 7269,
+      "sha256": "b86d37aded62cdc43f72a56a45cab530c0febe6b8d945287e6c51068a8b8556b",
+      "role": "previews"
     },
     {
       "path": "previews/bottom.jpg",
@@ -323,6 +371,12 @@
       "role": "previews"
     },
     {
+      "path": "provenance/animations.json",
+      "bytes": 951,
+      "sha256": "e2194d65188a18a1a65be4aea82714e884d63f26af47e4136cc8185072b555aa",
+      "role": "provenance"
+    },
+    {
       "path": "provenance/api-info.json",
       "bytes": 1431,
       "sha256": "e78401fca06961422491e8adf3685c23aafb39781a0f145b89d42cde8f53930b",
@@ -346,5 +400,29 @@
       "sha256": "62a386bcd539744e2d206c84747225127c525bdf454c1a1b0e6344c58c007dc6",
       "role": "documentation"
     }
-  ]
+  ],
+  "authored_animations": [
+    {
+      "name": "crank_turn",
+      "parts": [
+        "vintage_hand_drill_crank"
+      ],
+      "axis": "X",
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    },
+    {
+      "name": "gear_spin",
+      "parts": [
+        "vintage_hand_drill_cog1",
+        "vintage_hand_drill_cog2"
+      ],
+      "axis": "X",
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/vintage_hand_drill_2k-animated.glb"
 }

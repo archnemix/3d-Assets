@@ -190,6 +190,12 @@
       "role": "documentation"
     },
     {
+      "path": "logs/animations.log",
+      "bytes": 22657,
+      "sha256": "8f0416e13e1e8025b512da63401acc04bce1fe6b419b009f143b08620684d1d0",
+      "role": "logs"
+    },
+    {
       "path": "logs/blender.log",
       "bytes": 82177,
       "sha256": "0ce93e040c64524ea18f45b69887ce9b63620589a91edc07fa3fad038abef220",
@@ -205,6 +211,12 @@
       "path": "model/tea_set_01.bin",
       "bytes": 941776,
       "sha256": "5ddd90f031a71832842f9030c2f7f0aa07b2c96f3d3cc4aa5cfaa5dbb14aa7b0",
+      "role": "model"
+    },
+    {
+      "path": "model/tea_set_01_2k-animated.glb",
+      "bytes": 5178240,
+      "sha256": "158475c71acd909dbddf977aeef155ee237768cd40b82d72532824052ce83995",
       "role": "model"
     },
     {
@@ -230,6 +242,24 @@
       "bytes": 805167,
       "sha256": "79aa99b7e50d47cc2854f57ca57979722d110b998d126d5b058239ae61a85bef",
       "role": "model"
+    },
+    {
+      "path": "previews/anim-lid_open-a.jpg",
+      "bytes": 5796,
+      "sha256": "cc2fd00ae098bdff64513bae71819630104b7fc3e33d1623a96d842a942e2ef8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-lid_open-b.jpg",
+      "bytes": 5858,
+      "sha256": "e113a59a29b1fd8ed20949847d27d58334ae49f7665ca80257f1383c7c95b8a7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-lid_open-c.jpg",
+      "bytes": 6026,
+      "sha256": "8f2c1733c9bd4165c1a30608bd78e09c87f1fc01ba47dd12d543901a117a0560",
+      "role": "previews"
     },
     {
       "path": "previews/bottom.jpg",
@@ -322,6 +352,12 @@
       "role": "previews"
     },
     {
+      "path": "provenance/animations.json",
+      "bytes": 590,
+      "sha256": "ea4778179ecc73ff23dab9a7f01475183622833c5ab9836f670f8a514175cdf9",
+      "role": "provenance"
+    },
+    {
       "path": "provenance/api-info.json",
       "bytes": 1345,
       "sha256": "8008b14d8708de93df1e78c3d5a73b9a4d23d7abff3b0c0bd26d6f669b6c448a",
@@ -345,5 +381,19 @@
       "sha256": "ed3d0b87eaa3bfd627d286e69b37090c4cfb4fa97544850b36f0a641f7e1de93",
       "role": "documentation"
     }
-  ]
+  ],
+  "authored_animations": [
+    {
+      "name": "lid_open",
+      "parts": [
+        "tea_set_01_sugar_cup_01_lid",
+        "tea_set_01_teapot_01_lid"
+      ],
+      "axis": "X",
+      "degrees": -105.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/tea_set_01_2k-animated.glb"
 }

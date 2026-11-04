@@ -214,6 +214,12 @@
       "role": "documentation"
     },
     {
+      "path": "logs/animations.log",
+      "bytes": 40729,
+      "sha256": "f8a280fab466dc3aecfceda92cf8fe1c58ab7b3140ec6893a81840c2986b10a5",
+      "role": "logs"
+    },
+    {
       "path": "logs/blender.log",
       "bytes": 77888,
       "sha256": "2410d0610b8f8fe7ee31e6cd5ce91fd050cea439e7d5f1ad0a3080ff0fddc2b9",
@@ -226,10 +232,52 @@
       "role": "logs"
     },
     {
+      "path": "model/1980s-sports-car-animated.glb",
+      "bytes": 1228844,
+      "sha256": "0e5503d82d91d6d79a5486e05b428f561f8858539ab4078081489326f5e780df",
+      "role": "model"
+    },
+    {
       "path": "model/1980s-sports-car.glb",
       "bytes": 1217424,
       "sha256": "97eec0fb81cc33222da4c641fa80661ff615fe6b2e99cfd9f5adb98f096edda2",
       "role": "model"
+    },
+    {
+      "path": "previews/anim-steer-a.jpg",
+      "bytes": 10232,
+      "sha256": "493b76ba0f6e9ffe0939ef366e0481642295858ee10ea5d7ec73a63f414e8ab1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-steer-b.jpg",
+      "bytes": 10076,
+      "sha256": "f713d6e0408bf8fe54a7c25446bda70dbe2dbc747b722b8c6b1342984809e245",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-steer-c.jpg",
+      "bytes": 9953,
+      "sha256": "2f72b57cdfb448a95bb5b55039b31f300739246189efeb95223f24dda049dd79",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-a.jpg",
+      "bytes": 10233,
+      "sha256": "f56c108cebcb8ab0fc2d743356b3f042a5028ccdb3c96ad7dc58dbc7b680af85",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-b.jpg",
+      "bytes": 10060,
+      "sha256": "094bfabb16934ce8e2fc493445282dddd1e4d96d5f2dd9db755acde68f69f3ce",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-c.jpg",
+      "bytes": 9972,
+      "sha256": "e14bd18ccfe3d5f20b9d27d7ee4484feb93b8a5e99b3dc57763480099199b440",
+      "role": "previews"
     },
     {
       "path": "previews/bottom.jpg",
@@ -322,6 +370,12 @@
       "role": "previews"
     },
     {
+      "path": "provenance/animations.json",
+      "bytes": 1035,
+      "sha256": "d53fa2c05c6a1fe7c9aa34001e46ba72132fd1af49050f7c8d3c8c7f0e0ff811",
+      "role": "provenance"
+    },
+    {
       "path": "provenance/gltf-validator.json",
       "bytes": 6176,
       "sha256": "468ecb13d7b5e82904a305e78233d751d41040dc3d80357962ee71abbd2b8ef2",
@@ -381,5 +435,32 @@
       "sha256": "1ac12a81a5ccc3fb6b78601a0b9665ecb4251b6a18602b230f6c025b54cd930c",
       "role": "textures"
     }
-  ]
+  ],
+  "authored_animations": [
+    {
+      "name": "wheel_roll",
+      "parts": [
+        "1980s-sports-car_wheel_fl",
+        "1980s-sports-car_wheel_fr",
+        "1980s-sports-car_wheel_rl",
+        "1980s-sports-car_wheel_rr"
+      ],
+      "axis": "X",
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    },
+    {
+      "name": "steer",
+      "parts": [
+        "1980s-sports-car_wheel_fl",
+        "1980s-sports-car_wheel_fr"
+      ],
+      "axis": "Z",
+      "degrees": 32.0,
+      "frames": 45,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/1980s-sports-car-animated.glb"
 }

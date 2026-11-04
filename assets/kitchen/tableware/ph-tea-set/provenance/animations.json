@@ -1,0 +1,28 @@
+{
+  "source_model": "tea_set_01_2k.gltf",
+  "authored": [
+    {
+      "name": "lid_open",
+      "parts": [
+        "tea_set_01_sugar_cup_01_lid",
+        "tea_set_01_teapot_01_lid"
+      ],
+      "axis": "X",
+      "degrees": -105.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "verification": [
+    {
+      "clip": "lid_open",
+      "frames": [
+        "anim-lid_open-a.jpg",
+        "anim-lid_open-b.jpg",
+        "anim-lid_open-c.jpg"
+      ]
+    }
+  ],
+  "note": "Clips authored by this library, not upstream. Dedicated to CC0.",
+  "animated_model": "tea_set_01_2k-animated.glb"
+}

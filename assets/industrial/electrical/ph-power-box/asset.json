@@ -192,6 +192,12 @@
       "role": "documentation"
     },
     {
+      "path": "logs/animations.log",
+      "bytes": 18338,
+      "sha256": "f500c32fdea34367f84e2ea1efc3b2777629f342ba2d068921379a982e63f9f4",
+      "role": "logs"
+    },
+    {
       "path": "logs/blender.log",
       "bytes": 69209,
       "sha256": "2b568ef9fa6144b876aa127bb3504d14b09fb3d6348c52c527aaf410974e90b6",
@@ -207,6 +213,12 @@
       "path": "model/power_box_01.bin",
       "bytes": 782096,
       "sha256": "b46efdf668ec2d4e04ff51604b5f1486caf20df632f442aab62601718058db05",
+      "role": "model"
+    },
+    {
+      "path": "model/power_box_01_2k-animated.glb",
+      "bytes": 8417820,
+      "sha256": "876c7509d1a481c45b74dff422c79445f02e840bad8a2bee08fa9b48487664db",
       "role": "model"
     },
     {
@@ -232,6 +244,24 @@
       "bytes": 2733825,
       "sha256": "fff3e5b9037375226c10e7625b2d7735029cdae4d926ddc90567e02de61420e0",
       "role": "model"
+    },
+    {
+      "path": "previews/anim-door_open-a.jpg",
+      "bytes": 12716,
+      "sha256": "b3132cf78a313349104b30e4780c24776e6aecf1f6e630b94e1730269ce132d4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-door_open-b.jpg",
+      "bytes": 12787,
+      "sha256": "b3bed3bbc733faaa50229a8fe351e8f53b25714c40521521bbcffc5f681f7a32",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-door_open-c.jpg",
+      "bytes": 11737,
+      "sha256": "27aa4d7c7586b76565a479bc8537b199e6d33c63b2c7731623e211c8b54d7d1a",
+      "role": "previews"
     },
     {
       "path": "previews/bottom.jpg",
@@ -324,6 +354,12 @@
       "role": "previews"
     },
     {
+      "path": "provenance/animations.json",
+      "bytes": 553,
+      "sha256": "040dc0f681c8d318dd5cce045542102a185767dcee802f8d57c66514f0928360",
+      "role": "provenance"
+    },
+    {
       "path": "provenance/api-info.json",
       "bytes": 1540,
       "sha256": "f72d45dcbecb8330bf4a0ca374c50c0f38f53136aa6eccf1c92392f571c1a2ab",
@@ -347,5 +383,18 @@
       "sha256": "ef16b3f9cf8fe7f3f7c879814ebb488d33996036c2116e867823b7801ff99b0c",
       "role": "documentation"
     }
-  ]
+  ],
+  "authored_animations": [
+    {
+      "name": "door_open",
+      "parts": [
+        "power_box_01_door"
+      ],
+      "axis": "Z",
+      "degrees": -100.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/power_box_01_2k-animated.glb"
 }

@@ -213,6 +213,12 @@
       "role": "documentation"
     },
     {
+      "path": "logs/animations.log",
+      "bytes": 40082,
+      "sha256": "55721818143efa8c383e4666480a3ab3543a2b8b8cf4d55e1462fb2965103f23",
+      "role": "logs"
+    },
+    {
       "path": "logs/blender.log",
       "bytes": 76818,
       "sha256": "c7f395153de46d7f162c1adc8294a4bf24a394f0fdb2290dc12852451c8f965b",
@@ -225,10 +231,52 @@
       "role": "logs"
     },
     {
+      "path": "model/rally-car-animated.glb",
+      "bytes": 1306816,
+      "sha256": "88954c1ec561add1689f0a78da4f0e0b6dc20bc930309b79ecd14505c54e3f60",
+      "role": "model"
+    },
+    {
       "path": "model/rally-car.glb",
       "bytes": 1286748,
       "sha256": "96301ed4a42b05ce21913b91a4180b249275f1c9c8b8f3957916e5d114be78a8",
       "role": "model"
+    },
+    {
+      "path": "previews/anim-steer-a.jpg",
+      "bytes": 10891,
+      "sha256": "6e3f5eeaa15183fd8fee803b3c6a940e06c72e0d371b7cc10c982d7bd1f02ba8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-steer-b.jpg",
+      "bytes": 10830,
+      "sha256": "9f8c66ca2e7dd487bd070225435f862c19eb1c87a576ee4673693e47f42cc4e3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-steer-c.jpg",
+      "bytes": 10730,
+      "sha256": "be892defd7c394686244b07e754caabf080417005fd46e58d1a8ac820ea52d4d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-a.jpg",
+      "bytes": 10891,
+      "sha256": "27845a782665d01839fae25b6215f94588cf724fdf81f32d25284b951e100510",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-b.jpg",
+      "bytes": 10815,
+      "sha256": "133a0e9393809f2b158c59ca21848f9c612d58f9e37cc1a6c6f9ca004bf13d48",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-c.jpg",
+      "bytes": 10742,
+      "sha256": "05e76b8744ab641eae099542fadf802d8d3e8a056b8c597c6b477d90cf688a21",
+      "role": "previews"
     },
     {
       "path": "previews/bottom.jpg",
@@ -321,6 +369,12 @@
       "role": "previews"
     },
     {
+      "path": "provenance/animations.json",
+      "bytes": 979,
+      "sha256": "7bbfae1810bb5b68e5a8fd6e20ec17694c632651d0661fd208d7aca370d7282d",
+      "role": "provenance"
+    },
+    {
       "path": "provenance/gltf-validator.json",
       "bytes": 6169,
       "sha256": "35dc777638a641ebcfca123336ccbe247bfaee4a4ab6c88ff905f5318ba1033a",
@@ -380,5 +434,32 @@
       "sha256": "70c68a6fc74a53d9bd96adc5eac23e75eef775b7db492277f229f5d63484f71f",
       "role": "textures"
     }
-  ]
+  ],
+  "authored_animations": [
+    {
+      "name": "wheel_roll",
+      "parts": [
+        "rally-car_wheel_fl",
+        "rally-car_wheel_fr",
+        "rally-car_wheel_rl",
+        "rally-car_wheel_rr"
+      ],
+      "axis": "X",
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    },
+    {
+      "name": "steer",
+      "parts": [
+        "rally-car_wheel_fl",
+        "rally-car_wheel_fr"
+      ],
+      "axis": "Z",
+      "degrees": 32.0,
+      "frames": 45,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/rally-car-animated.glb"
 }
