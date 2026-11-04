@@ -13,8 +13,27 @@
   "batch": "foundation-01-r2",
   "acquired_at": "2026-11-03T14:52:27.453430+00:00",
   "review": {
-    "status": "awaiting-visual-review",
-    "approved": false
+    "id": "kenney-sports-hatchback",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Low-poly hatchback is complete from front, back, sides, top and underside. Wheels, windows and lights are coherent; flat-color atlas suits the stylized vehicle category. Eight zero-area triangles are minor and do not affect the visible silhouette.",
+    "limitations": [
+      "Flat-color atlas rather than PBR maps.",
+      "Eight zero-area triangles retained from upstream; no validator errors."
+    ],
+    "contact_sheet_sha256": "f12e15194b32a31ab3893e8276d7a8dca7cd7aa50e1960949c5177ce697c3561",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
   },
   "source": {
     "provider": "kenney",
@@ -102,6 +121,12 @@
       "bytes": 510,
       "sha256": "6913dd72bdc20532b7f02d86469058f45d886c9dabf60831275ed16927aa523b",
       "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1312,
+      "sha256": "bdeeafd93b6922b6d341c36a81968d1a3f63c3443b0ec9ec5fda9a25923449c8",
+      "role": "documentation"
     },
     {
       "path": "logs/blender.log",
@@ -222,6 +247,12 @@
       "bytes": 2368,
       "sha256": "d45fbcc42c319fb712f1fcc2611fa85f5c627d0c96f45150b9dfa6e56349d26f",
       "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 851,
+      "sha256": "3f338b790bf23bacf8fa26b3ed6adbff62d6860d50f4f77b5a42e416604adb26",
+      "role": "documentation"
     },
     {
       "path": "textures/colormap.png",

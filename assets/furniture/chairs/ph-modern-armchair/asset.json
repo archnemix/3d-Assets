@@ -14,8 +14,27 @@
   "batch": "foundation-01-r2",
   "acquired_at": "2026-11-03T14:48:54.288994+00:00",
   "review": {
-    "status": "awaiting-visual-review",
-    "approved": false
+    "id": "ph-modern-armchair",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Coherent mid-century armchair from all eight orbits, top and bottom. Leather cushions and oak frame read clearly; 2K PBR maps are intact, UVs present, no degenerate triangles and no validator errors.",
+    "limitations": [
+      "Generated tangent-space warnings are informational; target engines may generate tangents on import.",
+      "Static inspection only; no collision mesh or LODs are supplied."
+    ],
+    "contact_sheet_sha256": "74c6409b6de503e9a516a922332570d73aa5b0272a6d51f324c05ef95c7a576f",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
   },
   "source": {
     "provider": "polyhaven",
@@ -235,6 +254,12 @@
       "role": "license"
     },
     {
+      "path": "README.md",
+      "bytes": 1309,
+      "sha256": "3cfcd28df0df5393820b227d193fbc84fa8cfb4af33c3786ff47f2e366cf4463",
+      "role": "documentation"
+    },
+    {
       "path": "logs/blender.log",
       "bytes": 73405,
       "sha256": "0de10e141a9acde242e69007aa1e164074d068fa2543c4fcebba66add272efaa",
@@ -401,6 +426,12 @@
       "bytes": 1998,
       "sha256": "bd3403b8df13be89c9a2b2429afc35db812f1d7483823d5365b8e51f08466b52",
       "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 852,
+      "sha256": "cccb20fa47fc9d8f85d441245a53ab441d5a17604989ae19b2c5a30fb1b60318",
+      "role": "documentation"
     }
   ]
 }

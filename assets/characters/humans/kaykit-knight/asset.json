@@ -14,8 +14,27 @@
   "batch": "foundation-01-r2",
   "acquired_at": "2026-11-03T14:50:55.668041+00:00",
   "review": {
-    "status": "awaiting-visual-review",
-    "approved": false
+    "id": "kaykit-knight",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Stylized knight with helmet, cape, sword and shield reads cleanly from all sides after hidden-helper exclusion. Atlas texture is intact, rig has 41 bones, no zero-area triangles and no validator errors. Strong fit for kids'/stylized game scenes.",
+    "limitations": [
+      "Skinned-mesh non-root and buffer-view-target warnings are importer/optimizer notes, not visual defects.",
+      "Animation clips must be tested in the target engine; inspection used rest pose."
+    ],
+    "contact_sheet_sha256": "3df409b7c3e323e3b3758080673757ea87a7cb8c8b6d3b7a6ac698ca8894e033",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
   },
   "source": {
     "provider": "kaykit-characters",
@@ -262,6 +281,12 @@
       "role": "license"
     },
     {
+      "path": "README.md",
+      "bytes": 1445,
+      "sha256": "37eddfc3bbab46767fbf4df4b8e8095afaa653549ee7740667a55f5db7384bd3",
+      "role": "documentation"
+    },
+    {
       "path": "logs/blender.log",
       "bytes": 83738,
       "sha256": "7d73cf0879fd0b073ae378a83a33417ba9aef414fe3fc82d6807f2903d931bcc",
@@ -380,6 +405,12 @@
       "bytes": 18735,
       "sha256": "0920c74ba2ba174ec5a21df65ad4f80356a8f3c974d43bca9345eb3a2c204e23",
       "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 913,
+      "sha256": "896e5fb3c9b2ae67b902687166229d7382a1375ac83fdf435e46ab5ec089ed7d",
+      "role": "documentation"
     },
     {
       "path": "textures/knight_texture.png",

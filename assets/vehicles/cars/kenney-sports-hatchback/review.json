@@ -1,0 +1,21 @@
+{
+  "id": "kenney-sports-hatchback",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Low-poly hatchback is complete from front, back, sides, top and underside. Wheels, windows and lights are coherent; flat-color atlas suits the stylized vehicle category. Eight zero-area triangles are minor and do not affect the visible silhouette.",
+  "limitations": [
+    "Flat-color atlas rather than PBR maps.",
+    "Eight zero-area triangles retained from upstream; no validator errors."
+  ],
+  "contact_sheet_sha256": "f12e15194b32a31ab3893e8276d7a8dca7cd7aa50e1960949c5177ce697c3561",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-04",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

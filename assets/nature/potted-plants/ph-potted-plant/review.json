@@ -1,0 +1,21 @@
+{
+  "id": "ph-potted-plant",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Terracotta pot, soil and leafy plant remain coherent from every angle. Leaf alpha and pot roughness read correctly in the corrected framing. High triangle count and a small number of zero-area leaf triangles are acceptable for a realistic hero prop, not a mobile crowd asset.",
+  "limitations": [
+    "176,226 triangles and 132 zero-area triangles; use LODs or decimation for performance-sensitive scenes.",
+    "Leaf cards rely on alpha testing/blending in the target engine."
+  ],
+  "contact_sheet_sha256": "ee89e7542b6b40d6c9b3dc3694092039c854c0a9f05447e2f963526e1ee62b78",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-04",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}
