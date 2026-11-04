@@ -5,32 +5,60 @@ The script imports MPFB2 as a build tool, assembles CC0 assets, bakes export geo
 and writes a GLB plus a small build report. It never modifies the source pack.
 """
 
+import importlib
+import importlib.util
 import json
 import shutil
 import sys
+import types
 from pathlib import Path
 
 import bpy
 
+# MPFB 2.0.18 expects Blender 4.2 extension package naming. Loading it as plain
+# `mpfb` makes LocationService call extension_path_user("mpfb"), which Blender
+# rejects. We load the pinned source under a valid extension module name instead.
+MPFB_PACKAGE = "bl_ext.user_default.mpfb"
+
+
+def load_mpfb_extension(mpfb_src: Path):
+    if MPFB_PACKAGE in sys.modules:
+        return sys.modules[MPFB_PACKAGE]
+    for name in ("bl_ext", "bl_ext.user_default"):
+        if name not in sys.modules:
+            parent = types.ModuleType(name)
+            parent.__path__ = []
+            sys.modules[name] = parent
+    init = mpfb_src / "mpfb" / "__init__.py"
+    spec = importlib.util.spec_from_file_location(
+        MPFB_PACKAGE, init, submodule_search_locations=[str(init.parent)]
+    )
+    module = importlib.util.module_from_spec(spec)
+    sys.modules[MPFB_PACKAGE] = module
+    spec.loader.exec_module(module)
+    return module
+
+
+def mpfb_services():
+    return importlib.import_module(f"{MPFB_PACKAGE}.services")
+
 
 def setup_mpfb(mpfb_src: Path, pack_data: Path):
-    sys.path.insert(0, str(mpfb_src))
     if hasattr(bpy.context.preferences.system, "use_online_access"):
         bpy.context.preferences.system.use_online_access = False
-    import mpfb
-
-    mpfb.register()
-    from mpfb.services import AssetService, LocationService
-
-    LocationService.ensure_relevant_directories_exist()
-    user_data = Path(LocationService.get_user_data())
+    module = load_mpfb_extension(mpfb_src)
+    bpy.utils.extension_path_user(MPFB_PACKAGE, create=True)
+    module.register()
+    services = mpfb_services()
+    services.LocationService.ensure_relevant_directories_exist()
+    user_data = Path(services.LocationService.get_user_data())
     shutil.copytree(pack_data, user_data, dirs_exist_ok=True)
-    AssetService.update_all_asset_lists()
-    return mpfb
+    services.AssetService.update_all_asset_lists()
+    return module
 
 
 def add_assets(recipe: dict, pack: Path, human):
-    from mpfb.services import HumanService
+    HumanService = mpfb_services().HumanService
 
     rig = HumanService.add_builtin_rig(human, "game_engine", import_weights=True)
     for part, relative in recipe["bodyparts"].items():
@@ -59,7 +87,7 @@ def add_assets(recipe: dict, pack: Path, human):
 
 
 def bake_export_meshes(root, human, subdivision: int):
-    from mpfb.services import TargetService
+    TargetService = mpfb_services().TargetService
 
     TargetService.bake_targets(human)
     meshes = [obj for obj in [root, *root.children_recursive] if obj.type == "MESH"]
@@ -141,7 +169,7 @@ def main(recipe_path: str, pack_data: str, mpfb_src: str, output: str) -> None:
     recipe = json.loads(recipe_file.read_text(encoding="utf-8"))
     bpy.ops.wm.read_factory_settings(use_empty=True)
     setup_mpfb(Path(mpfb_src), pack)
-    from mpfb.services import HumanService
+    HumanService = mpfb_services().HumanService
 
     human = HumanService.create_human(
         mask_helpers=True,
