@@ -39,6 +39,15 @@ def main() -> int:
         refresh.add_argument("request", type=Path)
         if command == "refresh":
             refresh.add_argument("--shard", type=int, required=True)
+    for command, help_text in (
+        ("animate-plan", "List approved assets eligible for authored animation"),
+        ("animate-matrix", "Emit at most five animation worker assignments"),
+        ("animate", "Author mechanical animation clips for one worker assignment"),
+    ):
+        animate = commands.add_parser(command, help=help_text)
+        animate.add_argument("request", type=Path)
+        if command == "animate":
+            animate.add_argument("--shard", type=int, required=True)
     catalog = commands.add_parser("catalog", help="Rebuild the approved-only catalog")
     catalog.add_argument("--check", action="store_true")
     licensing = commands.add_parser(
@@ -62,6 +71,16 @@ def main() -> int:
             from .inspection import reinspect
 
             reinspect(args.candidate.resolve())
+        elif args.command in {"animate-plan", "animate-matrix", "animate"}:
+            from . import animate
+
+            request = json.loads(args.request.read_text())
+            if args.command == "animate-plan":
+                animate.describe(request)
+            elif args.command == "animate-matrix":
+                print(json.dumps(animate.shards(request)))
+            else:
+                return animate.run_shard(request, args.shard)
         elif args.command in {"refresh-plan", "refresh-matrix", "refresh"}:
             from . import refresh
 

@@ -52,6 +52,11 @@ def summary(directory, manifest: dict, provider_terms: dict) -> dict:
         ),
         "rigged": bool(geometry["armatures"]),
         "animation_count": len(manifest["gltf"]["animations"]),
+        "authored_animation_count": len(manifest.get("authored_animations", [])),
+        "authored_animations": [c["name"] for c in manifest.get("authored_animations", [])],
+        "animated_model": (
+            f"{base}/{manifest['animated_model']}" if manifest.get("animated_model") else None
+        ),
         "review_scores": manifest["review"]["scores"],
     }
 

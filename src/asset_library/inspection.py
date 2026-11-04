@@ -41,6 +41,45 @@ def run(command: list[str], log: Path, timeout: int = 900) -> None:
         raise RuntimeError(f"Command failed ({result.returncode}); see {log.relative_to(ROOT)}")
 
 
+def author_animations(directory: Path, model: Path, blender: str) -> dict:
+    """Add mechanical clips where the moving parts are already separate nodes.
+
+    Non-destructive: the downloaded model is never modified. An animated GLB is
+    written beside it and three verification frames per clip are rendered so the
+    motion can be reviewed before approval. A failure here is not fatal to intake
+    -- the static asset is still valid -- but it is recorded.
+    """
+    output = directory / "provenance"
+    try:
+        run(
+            [
+                blender,
+                "--background",
+                "--factory-startup",
+                "--python-exit-code",
+                "1",
+                "--python",
+                str(ROOT / "rendering" / "author_animations.py"),
+                "--",
+                str(model.resolve()),
+                str(output.resolve()),
+            ],
+            directory / "logs" / "animations.log",
+        )
+    except (RuntimeError, subprocess.TimeoutExpired) as error:
+        return {"authored": [], "error": str(error)}
+    report = output / "animations.json"
+    if not report.exists():
+        return {"authored": []}
+    data = json.loads(report.read_text())
+    for strip in data.get("verification", []):
+        for name in strip["frames"]:
+            source = output / name
+            if source.exists():
+                shutil.move(str(source), str(directory / "previews" / name))
+    return data
+
+
 def inspect(directory: Path, candidate: dict, manifest: dict) -> dict:
     model = directory / manifest["model"]
     manifest["gltf"] = validate_local(model)
@@ -63,6 +102,10 @@ def inspect(directory: Path, candidate: dict, manifest: dict) -> dict:
         ],
         directory / "logs" / "blender.log",
     )
+    authored = author_animations(directory, model, blender)
+    if authored.get("authored"):
+        manifest["authored_animations"] = authored["authored"]
+        manifest["animated_model"] = f"model/{authored['animated_model']}"
     build(directory / "previews", candidate["title"])
     validator = ROOT / "scripts" / "validate-gltf.js"
     if not (ROOT / "node_modules" / "gltf-validator" / "index.js").exists():
