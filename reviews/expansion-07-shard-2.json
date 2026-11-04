@@ -1,0 +1,109 @@
+{
+  "batch": "expansion-07",
+  "reviewer": "arena-agent-visual-review",
+  "reviewed_at": "2026-11-04",
+  "decisions": [
+    {
+      "id": "ph-bench-vice",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Cast body, sliding jaw, anvil face and tommy bar are distinct solids; the top view shows the correct jaw serration and the bottom view shows a properly closed base plate. Paint wear and bare-metal edges track the geometry believably. Only 2.9k tris for this much mechanical detail.",
+      "limitations": [
+        "Jaw is modelled in one fixed open position.",
+        "Surface grime is baked, so it will not respond to relighting as separate roughness variation would."
+      ],
+      "contact_sheet_sha256": "9ff4af6b056bba82e414a36a95c7d63f411c0e344a1272942414264a3346578c"
+    },
+    {
+      "id": "ph-enamel-pot",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Inspected all 12 views. Lid, knob and both side handles are separate solids with correct thickness; the top view shows the lid seating cleanly on the rim. The brown enamel and the orange flame decal stay registered across every orbit angle with no UV seam visible on the body. Clay confirms a watertight body.",
+      "limitations": [
+        "Lid is modelled seated; lifting it requires separating the object.",
+        "The flame motif is a decorative decal, not a manufacturer logo."
+      ],
+      "contact_sheet_sha256": "12ca532b311afbd3d22f4a54e0df2ff4b7a3c8e8c265f85adb97a526d4b7a2cb"
+    },
+    {
+      "id": "ph-tea-set",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected plus a full-size left orbit to check the small pieces. Teapot, lidded sugar bowl, creamer, cups and plates are each individually modelled with hollow interiors and correct rims; the close orbit confirms the grey floral transfer and gold rim lines stay sharp at 2k. Topology is heavier than needed on the plates, hence the 4.",
+      "limitations": [
+        "Supplied as a wide display layout of many pieces; the whole-set framing makes individual items small on the contact sheet.",
+        "40k triangles for the full set; separate and decimate the plates if you only need one piece."
+      ],
+      "contact_sheet_sha256": "5e8800e575af2ddac9b9b0b8d3cc0e0aaf7c1804cbed50933dca08b28ed7b73e"
+    },
+    {
+      "id": "ph-avocado",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Inspected all 12 views. The pebbled Hass skin is carried in both displacement-derived geometry and normal map, and it stays consistent from every angle including the top stem scar and bottom blossom end. Clay shows a clean closed surface. Only 2.6 MB for the whole package.",
+      "limitations": [
+        "Whole fruit only; no halved or pitted variant.",
+        "Very dark skin can lose its surface detail in shadow."
+      ],
+      "contact_sheet_sha256": "aa5beca3ab06647fc2c74f8daad73e49f5bed9c351976f55e65a8ecf3b7fd398"
+    },
+    {
+      "id": "ph-binder-notebook",
+      "decision": "rejected",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 4,
+        "style_fit": 5
+      },
+      "notes": "Rejected on trademark grounds, not quality. The full-size top view shows a clearly embossed circular brand emblem on the closed leather cover, and the same mark repeats on the open cover flap. CC0 waives copyright but explicitly does not waive trademark rights, so redistributing this as-is would carry a mark we cannot clear. Model quality is otherwise excellent.",
+      "limitations": [
+        "Embossed manufacturer emblem on the cover; CC0 does not grant trademark rights.",
+        "Supplied as open and closed variants in one scene."
+      ],
+      "contact_sheet_sha256": "36d1155269addeffe0c4b7f55cb8e8a3bfa72e3a62b9b24a47f1773dd7765ccf"
+    },
+    {
+      "id": "ph-day-bed",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Curved asymmetric back, tapered legs, mattress, floral quilt and a bolster cushion, all separate. The quilt drape is real geometry and reads correctly from the back and side orbits. Distressed gilt frame is consistent all round. Remarkably light at 2.7k tris for this silhouette.",
+      "limitations": [
+        "Quilt pattern repeats visibly along the drape at close range.",
+        "Very low triangle count means the curved back can facet under grazing light."
+      ],
+      "contact_sheet_sha256": "78f768ef1601c0cc6baa857c2e0d8b77a186fc0bb2711113ab3aafec3b36414d"
+    }
+  ]
+}

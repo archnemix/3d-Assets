@@ -4,7 +4,7 @@ A curated library of free, public-domain 3D assets for games, renders and protot
 
 ## Current status
 
-The library currently contains **27 approved CC0 assets** in **12 categories**, saved as real files under `assets/` and organized by category and subject. **Only entries in `manifest.json` are approved.** Files under `quarantine/` are review candidates, not recommendations.
+The library currently contains **56 approved CC0 assets** in **25 categories**, saved as real files under `assets/` and organized by category and subject. **Only entries in `manifest.json` are approved.** Files under `quarantine/` are review candidates, not recommendations.
 
 Approved subjects include realistic rigged humans, low-poly game characters, chairs, sofas, tables, potted plants, fruit, snacks, vehicles, toys, industrial containers, retail props and lighting. The realistic-human set currently includes an adult male base character, an adult female base character and an elderly woman, each with embedded PBR textures and walk/run animation clips. MakeHuman/MPFB generation is working through the same quarantine/review pipeline, but generated characters are only added after they pass inspection and visual review.
 

@@ -1,0 +1,349 @@
+{
+  "schema_version": 1,
+  "id": "ph-ceramic-jug",
+  "title": "Painted ceramic milk jug",
+  "category": "kitchen/tableware",
+  "style": "realistic",
+  "tags": [
+    "tableware",
+    "jug",
+    "pitcher",
+    "ceramic",
+    "floral",
+    "vintage",
+    "pbr"
+  ],
+  "batch": "expansion-07",
+  "acquired_at": "2026-11-04T16:43:41.165728+00:00",
+  "review": {
+    "id": "ph-ceramic-jug",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Inspected all 12 views. Hollow interior with a correctly formed pouring lip, visible in the top view, and a closed foot ring in the bottom view. The handle is a true swept solid with a through-hole. Floral decal wraps consistently and the silver rim line stays registered at every orbit angle. Clean quad topology in the wireframe.",
+    "limitations": [
+      "Floral transfer pattern is generic and carries no maker's mark.",
+      "Glazed white ceramic is bright and will bloom under strong key lighting."
+    ],
+    "contact_sheet_sha256": "2b814e8f11d6fdfb5627ec9b33ef96a8ca8d7579c43094d70e57fe0313f8d221",
+    "reviewer": "arena-agent-visual-review",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/jug_01_2k.gltf",
+    "creator": "Kuutti Siitonen",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/jug_01",
+    "source_id": "jug_01",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/jug_01/jug_01_2k.gltf",
+        "bytes": 2612,
+        "sha256": "4ac09cde8eae1f4f338430833f62eba5619b74eb8f9d0c72a292247fcdd9fc63"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/jug_01/jug_01_nor_gl_2k.jpg",
+        "bytes": 403384,
+        "sha256": "25cf8bcc5100126741496b42104eac50369016692892403826f8c9c804df6254"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/jug_01/jug_01_arm_2k.jpg",
+        "bytes": 2600319,
+        "sha256": "d6e7bbe6c0bb3c1fa2ba7d13d587bded40ef76275d19ad2c7b59076e271ba7d6"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/jug_01/jug_01.bin",
+        "bytes": 137084,
+        "sha256": "2dd3772547ae41cc7beeaa5f002e741cfe2c014ed4717731c5076810154bedb9"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/jug_01/jug_01_diff_2k.jpg",
+        "bytes": 1686960,
+        "sha256": "23582ddf55627f7920ce32edc14f465f67aa938d3fde0247f4564278c00211b1"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/jug_01_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/jug_01_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "jug_01_nor_gl"
+    },
+    {
+      "path": "model/textures/jug_01_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "jug_01_diff"
+    },
+    {
+      "path": "model/textures/jug_01_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "jug_01_metal-jug_01_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 3202,
+    "triangles": 5770,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "jug_01_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-ceramic-jug/model/textures/jug_01_diff_2k.jpg"
+      },
+      {
+        "name": "jug_01_metal-jug_01_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-ceramic-jug/model/textures/jug_01_arm_2k.jpg"
+      },
+      {
+        "name": "jug_01_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-ceramic-jug/model/textures/jug_01_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1259,
+      "sha256": "b4b25f9f7463ae2f1bc9ad36a451d67c2e30434d7d4f4b6888bd305f2b0cf7f4",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67627,
+      "sha256": "1f779a465d3a1e8f7a22db2cbd95d134ea75471a181bae307c4d8aeadc5619eb",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/jug_01.bin",
+      "bytes": 137084,
+      "sha256": "2dd3772547ae41cc7beeaa5f002e741cfe2c014ed4717731c5076810154bedb9",
+      "role": "model"
+    },
+    {
+      "path": "model/jug_01_2k.gltf",
+      "bytes": 2612,
+      "sha256": "4ac09cde8eae1f4f338430833f62eba5619b74eb8f9d0c72a292247fcdd9fc63",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/jug_01_arm_2k.jpg",
+      "bytes": 2600319,
+      "sha256": "d6e7bbe6c0bb3c1fa2ba7d13d587bded40ef76275d19ad2c7b59076e271ba7d6",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/jug_01_diff_2k.jpg",
+      "bytes": 1686960,
+      "sha256": "23582ddf55627f7920ce32edc14f465f67aa938d3fde0247f4564278c00211b1",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/jug_01_nor_gl_2k.jpg",
+      "bytes": 403384,
+      "sha256": "25cf8bcc5100126741496b42104eac50369016692892403826f8c9c804df6254",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 21294,
+      "sha256": "055817962d6dd9318d117bb05866a5bf87291613b09e326c09ed4ecfd037d899",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18205,
+      "sha256": "94ca0cfd67c8ccc992bd2d4105025d80f4d7fec42a62a9b0105da032ff1fe435",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 240203,
+      "sha256": "2b814e8f11d6fdfb5627ec9b33ef96a8ca8d7579c43094d70e57fe0313f8d221",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1105,
+      "sha256": "dbbeff866c7757803ec453a77f38d1e1bee597b8cd61e6c7e8d9e8e6bade2cd8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 36161,
+      "sha256": "5737e43abe6142a9b42f9f9804b3b6f9637bc46766b5f2f12f1cc0e558d0b35b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 35194,
+      "sha256": "f42845c632019648059e668735be6f550c6ce03d1abf72b8e5b8e541be545697",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 24392,
+      "sha256": "392dc0d48f6ae30283f73cafdb7cc563608bb51f2e310fc00e0c464162330a8f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 35148,
+      "sha256": "c01280e592e5f89828a3022e461d79333e37fb038cb68f6a96bfe55009f2ebde",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 34637,
+      "sha256": "c8be188493d564cd3479c0e36f4eff69c98b3723845f623de2c3018673b97302",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 33313,
+      "sha256": "80999ef77b3632325f4589c5de00ac153034fe6f9a045f8ddb8414c834ece577",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 24300,
+      "sha256": "1bd1f90e5cfe939f26046508343485c690e0d2068af6d5c0eae298e4c7b8337f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 34271,
+      "sha256": "a1c4716b60677987c564372b8c9cf9ab7146e47693b2fca5e7740ef23e5f55c6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 20373,
+      "sha256": "0218495d679db6988c4cbb8593e891989f1a7bc7e0aff55ee498d88b75323caf",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 66863,
+      "sha256": "c233afb0ffd344cc5c6f662f73e3ecf3920a9e3a79446117b6c634844764f5ec",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1208,
+      "sha256": "59b8753674ba0c3cb3515fed06dc06aa5901b96a11774f77df36b1ac7887cc70",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3000,
+      "sha256": "d265ed6ebff4e8472ee74b8214b007e10d54618f79695f2fff0ceae8a86247b3",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 992,
+      "sha256": "98a8756280ab8332d035f5ca9b713c639ab87ad98e17e046ab000119a9ca4ce5",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 967,
+      "sha256": "4c5c100e9b13140df95ef266fb8c4545f65b577c177cb2ea92bb62d4bc1aece0",
+      "role": "documentation"
+    }
+  ]
+}

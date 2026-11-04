@@ -10,5 +10,5 @@ Approved assets: **1**
 
 - Creator: Kirill Sannikov; style: realistic; CC0-1.0
 - 26,860 triangles; 3 texture images
-- [Asset folder](../../assets/lighting/chandeliers/ph-brass-chandelier/) · [Metadata](../../assets/lighting/chandeliers/ph-brass-chandelier/asset.json)
 - [Asset folder](../../assets/lighting/chandeliers/ph-brass-chandelier/) · [Metadata](../../assets/lighting/chandeliers/ph-brass-chandelier/asset.json) · [All inspection views](../../assets/lighting/chandeliers/ph-brass-chandelier/previews/contact-sheet.jpg)
+

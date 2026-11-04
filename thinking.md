@@ -106,3 +106,33 @@ The failed candidates remain unapproved. Their payloads will be replaced by a cl
 **Expansion design.** Rather than deepening existing subjects, the next batch opens 20 new categories — hand and power tools, measuring instruments, cookware, tableware, vegetables, baked goods, vases, books, storage furniture, beds, desks, lanterns, ceiling lighting, computing, optical science, musical instruments, watercraft, safety equipment and office supplies. Two engineering guards came with it: Poly Haven assets carrying an upstream `tmwarn` trademark flag are now refused at intake rather than caught later by the audit, and a budget-aware resolution picker takes the highest resolution that fits a per-package byte budget and logs the fallback. That keeps 30+ new assets from blowing the repository budget while never shipping an incomplete model.
 
 **Storage honesty.** Discarded 27 MB of superseded Grab3D quarantine payloads whose repaired versions are already approved, keeping the failure records and logs. Evidence is worth keeping; a duplicate broken binary is not.
+
+## 2026-11-04 — Thirty new subjects, one trademark rejection
+
+The second expansion batch was the first one large enough to test whether the
+pipeline scales past a handful of hero props. Thirty candidates went in, spread
+across fourteen categories that did not exist a day ago, and thirty came back
+technically clean: zero glTF errors, full 2K texture sets, every package inside
+the storage budget. That part is now boring, which is the point.
+
+The interesting failure was `binder_notebook`. It is a genuinely lovely asset —
+worn leather, modelled pen loop, open and closed variants, clean topology. On the
+contact sheet it looks like an obvious approval. It was only in the full-size top
+view that the embossed circular manufacturer's emblem on the cover became
+legible. CC0 §4a is explicit that trademark rights are not waived, so shipping
+that emblem in a library we tell people they can resell as-is would be
+overpromising. I rejected it and wrote the reason into the record.
+
+This is the second time the same lesson has shown up from a different direction.
+With KayKit the copyright grant was fine but the author's request was not; here
+the copyright grant is fine but a *third party's* mark is the problem. Both cases
+say the same thing: `license: CC0` is one input to the decision, not the decision.
+The twelve-view render exists precisely so that a human — or an agent acting like
+a careful one — actually looks at the object before it enters the catalog.
+
+Two smaller notes worth keeping. First, the resolution picker earned its place:
+several of these scans would have been 30–40 MB at 4K, and the budget-aware
+fallback kept the whole batch near 160 MB while staying at 2K throughout. Second,
+I fixed the duplicated-bullet bug in the category pages rather than leaving it as
+a known cosmetic wart. Small generated-output defects are the kind of thing that
+quietly trains readers to distrust the rest of the documentation.

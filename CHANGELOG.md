@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- **Added 29 new photorealistic CC0 assets across 13 new categories** (expansion-07): hand tools, power tools, measuring instruments, cookware, tableware, vegetables, baked goods, vases, books, storage furniture, beds, desks and lamps. The library now holds 56 approved assets in 25 categories, all saved with 2K textures, twelve inspection views and full provenance.
+- Rejected the leather binder notebook at the visual gate despite excellent model quality: the full-size top view shows an embossed manufacturer emblem, and CC0 does not grant trademark rights. Rejection evidence is preserved under `reports/rejected/`.
+- Fixed a duplicated link line in the generated category pages; each asset now emits exactly one links row.
 - **Retired all six KayKit assets** (4 characters, a chair and a table; 18.2 MB of payloads deleted) to respect Kay Lousberg's request that unmodified copies not be resold or claimed as one's own. Added `retire` as an auditable CLI operation with per-asset records under `reports/retired/`, and closed the KayKit sources to future intake.
 - Made an author's stated request a blocking policy in `config/license-terms.json` and its schema, rather than a footnote: a source whose creator asks that copies not be redistributed is no longer eligible even though CC0 would allow it.
 - Registered 20 new categories across tools, kitchen, food, decor, storage furniture, beds, desks, lighting, computing, optical science, music, watercraft, safety and office supplies.

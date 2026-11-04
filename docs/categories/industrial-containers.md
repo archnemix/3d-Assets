@@ -10,5 +10,5 @@ Approved assets: **1**
 
 - Creator: Jorge Camacho; style: realistic; CC0-1.0
 - 2,682 triangles; 3 texture images
-- [Asset folder](../../assets/industrial/containers/ph-red-barrel/) · [Metadata](../../assets/industrial/containers/ph-red-barrel/asset.json)
 - [Asset folder](../../assets/industrial/containers/ph-red-barrel/) · [Metadata](../../assets/industrial/containers/ph-red-barrel/asset.json) · [All inspection views](../../assets/industrial/containers/ph-red-barrel/previews/contact-sheet.jpg)
+

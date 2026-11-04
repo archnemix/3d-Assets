@@ -1,0 +1,349 @@
+{
+  "schema_version": 1,
+  "id": "ph-croissant",
+  "title": "Flaky butter croissant",
+  "category": "food/baked-goods",
+  "style": "realistic",
+  "tags": [
+    "food",
+    "pastry",
+    "croissant",
+    "bakery",
+    "breakfast",
+    "photoscan",
+    "pbr"
+  ],
+  "batch": "expansion-07",
+  "acquired_at": "2026-11-04T16:45:11.286686+00:00",
+  "review": {
+    "id": "ph-croissant",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. The laminated layer structure is modelled, not just textured, and reads clearly in the side-on orbit views. The top view shows the correct crescent roll and the bottom view shows the flattened baked underside with a distinct crust colour. Clay confirms a closed manifold with no open edges.",
+    "limitations": [
+      "Underside is a single flattened bake surface, so it should sit on a plate rather than float.",
+      "Fixed shape; no bite or torn variants."
+    ],
+    "contact_sheet_sha256": "d9df78ecf485a1645f7dbad9f43cf4eccc6c24e582e96355614fec75937ed4d2",
+    "reviewer": "arena-agent-visual-review",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/croissant_2k.gltf",
+    "creator": "Greg Zaal, Dario Barresi",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/croissant",
+    "source_id": "croissant",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/croissant/croissant_2k.gltf",
+        "bytes": 2680,
+        "sha256": "568ead4f5e173198f4c7650b51d6e5ebf0b9df64d58f413400647c3935a74407"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/croissant/croissant_diff_2k.jpg",
+        "bytes": 1825723,
+        "sha256": "b7965b3b90b7885cb6117b0f70139cfcae3edce7a17200b7cbd06e7724030263"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/croissant/croissant.bin",
+        "bytes": 44932,
+        "sha256": "d770a5ab7e3bcf3572343d74c7941e87eda87349fe414dd4ab206fa5e1e1524a"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/croissant/croissant_nor_gl_2k.jpg",
+        "bytes": 2925439,
+        "sha256": "2a25fbd103c703797a05b48357fabafe7e865b29d3767431be1b545260e28c6f"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/croissant/croissant_arm_2k.jpg",
+        "bytes": 2133588,
+        "sha256": "12ff3af92f3716f285771b58aded8d0dd5a417bdea49c433c58144596ad6380c"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/croissant_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/croissant_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "croissant_nor_gl"
+    },
+    {
+      "path": "model/textures/croissant_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "croissant_diff"
+    },
+    {
+      "path": "model/textures/croissant_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "croissant_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 1031,
+    "triangles": 1990,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "croissant_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-croissant/model/textures/croissant_diff_2k.jpg"
+      },
+      {
+        "name": "croissant_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-croissant/model/textures/croissant_nor_gl_2k.jpg"
+      },
+      {
+        "name": "croissant_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-croissant/model/textures/croissant_arm_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1266,
+      "sha256": "d0a0c0b057b907843244a72344fb1dc44858e1cd47c46d9d4eb76b46b2f244b3",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67477,
+      "sha256": "33c4a8eea9c383ae443b9ba9a0187b60263ecd2fcc0c8c1f1adfde58bde81edf",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/croissant.bin",
+      "bytes": 44932,
+      "sha256": "d770a5ab7e3bcf3572343d74c7941e87eda87349fe414dd4ab206fa5e1e1524a",
+      "role": "model"
+    },
+    {
+      "path": "model/croissant_2k.gltf",
+      "bytes": 2680,
+      "sha256": "568ead4f5e173198f4c7650b51d6e5ebf0b9df64d58f413400647c3935a74407",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/croissant_arm_2k.jpg",
+      "bytes": 2133588,
+      "sha256": "12ff3af92f3716f285771b58aded8d0dd5a417bdea49c433c58144596ad6380c",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/croissant_diff_2k.jpg",
+      "bytes": 1825723,
+      "sha256": "b7965b3b90b7885cb6117b0f70139cfcae3edce7a17200b7cbd06e7724030263",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/croissant_nor_gl_2k.jpg",
+      "bytes": 2925439,
+      "sha256": "2a25fbd103c703797a05b48357fabafe7e865b29d3767431be1b545260e28c6f",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 29267,
+      "sha256": "7e168e93ebe5f50895996e923ec3c12d582a75d398e7f5cbbbd92d7c43ab813f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 13992,
+      "sha256": "9afb2aadbb47023edf96fa6430abb1cd36dc2b413bf44c01ef71a7f2d230d200",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 254662,
+      "sha256": "d9df78ecf485a1645f7dbad9f43cf4eccc6c24e582e96355614fec75937ed4d2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1104,
+      "sha256": "544fbcc8c156d64861893590666202bc8b25524d2e61c069e3328533426a9e8e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 30219,
+      "sha256": "3d2318f74c4fed6f148508189a4130b869dc9f506906faa420d709cf071418c0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 38290,
+      "sha256": "3c7cd875886f9920bea5aa77f753db855e1cff59bca5eeb8a9b584c8b2edd35a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 57540,
+      "sha256": "6aac2bc56fce9d92e5475dcce34a8f92c75651116a1a3cd40a352b06bb038a2c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 35769,
+      "sha256": "722582721b0d03e62a88a3af3337eddf7790bd0ca6c0cdb97d10a3262d484edb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 28593,
+      "sha256": "21bd4080a78f188845874442c327709c5f59d82ed888953493365b6ca8aa86f0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 35685,
+      "sha256": "595163b9f8b6b72ba3fad88eec7341753684d219fe35c08f7245e743aa65a266",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 52021,
+      "sha256": "c44c50c52d00c7010d9695bf707317af0c91f56ea21562ef568a45c436f79699",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 38692,
+      "sha256": "75e8725e9c5ee23429cc4d9b06d74e280637595e170f5478eee586e710b77265",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 28532,
+      "sha256": "fc7b9451c1ebb344bd24675dd0a19fb6589f96b5cec83e56fb289fd656e380f7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 37319,
+      "sha256": "a245828c959aa28f381bda7b5d72175929da2b7a11452ea445b03461f49726e8",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1176,
+      "sha256": "9fa5dc6479124f91bcde90f36731755e6bc5cd86b3209f375fb4d4e13566f36b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3014,
+      "sha256": "7f19d26de6e334caa3a91eef060aa5d1b7a714bda136552771d8b10396a3cc53",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1034,
+      "sha256": "79946c95ab8fa5f2fbf5ceace462b48264c5a62a1570cdc62151468b21490d38",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 943,
+      "sha256": "44e9d5a41ed5de97f3cb80d27cdfaa0973bb68c83094bf22e1abe857f76f2168",
+      "role": "documentation"
+    }
+  ]
+}

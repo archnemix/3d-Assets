@@ -1,0 +1,21 @@
+{
+  "id": "ph-carrot-cake",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Inspected all 12 views. Ring cake with a real through-hole, confirmed in both top and bottom views. The frosting layer is separate geometry sitting on the crumb, and the crumb texture holds up at close range with convincing pore detail. Crumb scatter on top is modelled. Wireframe is dense but even, appropriate for a scan.",
+  "limitations": [
+    "12.3 MB package, the largest in this batch, because of the dense scan geometry.",
+    "No slice cut; the cake is whole."
+  ],
+  "contact_sheet_sha256": "4cd098dc7cb79296f5825f4d05da3fbccb6084a365feb3cef4a8c009205ca15b",
+  "reviewer": "arena-agent-visual-review",
+  "reviewed_at": "2026-11-04",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

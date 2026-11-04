@@ -76,6 +76,11 @@ def write_category_pages(entries: list[dict]) -> None:
         assets = [entry for entry in entries if entry["category"] == category]
         lines = [f"# {category}", "", description, "", f"Approved assets: **{len(assets)}**", ""]
         for entry in assets:
+            links = (
+                f"- [Asset folder](../../{entry['directory']}/) · "
+                f"[Metadata](../../{entry['metadata']}) · "
+                f"[All inspection views](../../{entry['contact_sheet']})"
+            )
             lines += [
                 f"## {entry['title']}",
                 "",
@@ -83,14 +88,9 @@ def write_category_pages(entries: list[dict]) -> None:
                 "",
                 f"- Creator: {entry['creator']}; style: {entry['style']}; CC0-1.0",
                 f"- {entry['triangles']:,} triangles; {entry['texture_count']} texture images",
-                f"- [Asset folder](../../{entry['directory']}/) · [Metadata](../../{entry['metadata']})",
+                links,
                 "",
             ]
-            lines[-1] = (
-                f"- [Asset folder](../../{entry['directory']}/) · "
-                f"[Metadata](../../{entry['metadata']}) · "
-                f"[All inspection views](../../{entry['contact_sheet']})"
-            )
         filename = category.replace("/", "-") + ".md"
         (root / filename).write_text("\n".join(lines) + "\n", encoding="utf-8")
 

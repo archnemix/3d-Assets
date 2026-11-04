@@ -1,0 +1,349 @@
+{
+  "schema_version": 1,
+  "id": "ph-tea-set",
+  "title": "Antique floral tea set",
+  "category": "kitchen/tableware",
+  "style": "realistic",
+  "tags": [
+    "tableware",
+    "tea",
+    "ceramic",
+    "floral",
+    "victorian",
+    "set",
+    "pbr"
+  ],
+  "batch": "expansion-07",
+  "acquired_at": "2026-11-04T16:45:27.638039+00:00",
+  "review": {
+    "id": "ph-tea-set",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected plus a full-size left orbit to check the small pieces. Teapot, lidded sugar bowl, creamer, cups and plates are each individually modelled with hollow interiors and correct rims; the close orbit confirms the grey floral transfer and gold rim lines stay sharp at 2k. Topology is heavier than needed on the plates, hence the 4.",
+    "limitations": [
+      "Supplied as a wide display layout of many pieces; the whole-set framing makes individual items small on the contact sheet.",
+      "40k triangles for the full set; separate and decimate the plates if you only need one piece."
+    ],
+    "contact_sheet_sha256": "5e8800e575af2ddac9b9b0b8d3cc0e0aaf7c1804cbed50933dca08b28ed7b73e",
+    "reviewer": "arena-agent-visual-review",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/tea_set_01_2k.gltf",
+    "creator": "James Ray Cock, Rico Cilliers, Jurita Burger",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/tea_set_01",
+    "source_id": "tea_set_01",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/tea_set_01/tea_set_01_2k.gltf",
+        "bytes": 15836,
+        "sha256": "c75b639cc1327c9bf44fee11b1e50ac7fd1c4ea8b56eb0ff98c5bc93d9d76c26"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/tea_set_01/tea_set_01.bin",
+        "bytes": 941776,
+        "sha256": "5ddd90f031a71832842f9030c2f7f0aa07b2c96f3d3cc4aa5cfaa5dbb14aa7b0"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/tea_set_01/tea_set_01_arm_2k.jpg",
+        "bytes": 1741151,
+        "sha256": "f74ea16141becbcea8ab9aad02dd7e077c8acab307d126ff73750cf127e62bc7"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/tea_set_01/tea_set_01_diff_2k.jpg",
+        "bytes": 1677311,
+        "sha256": "3ee0b64baddfe9fe19883a323629785a4914d64313a0b9eb4375058f4786fcc4"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/tea_set_01/tea_set_01_nor_gl_2k.jpg",
+        "bytes": 805167,
+        "sha256": "79aa99b7e50d47cc2854f57ca57979722d110b998d126d5b058239ae61a85bef"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/tea_set_01_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 10,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/tea_set_01_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "tea_set_01_nor_gl"
+    },
+    {
+      "path": "model/textures/tea_set_01_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "tea_set_01_diff"
+    },
+    {
+      "path": "model/textures/tea_set_01_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "tea_set_01_metal-tea_set_01_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 10,
+    "hidden_mesh_objects": 0,
+    "vertices": 21875,
+    "triangles": 40296,
+    "material_slots": 10,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "tea_set_01_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-tea-set/model/textures/tea_set_01_diff_2k.jpg"
+      },
+      {
+        "name": "tea_set_01_metal-tea_set_01_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-tea-set/model/textures/tea_set_01_arm_2k.jpg"
+      },
+      {
+        "name": "tea_set_01_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-tea-set/model/textures/tea_set_01_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 10,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1375,
+      "sha256": "929f1f2b6661278b13c99e2f4e1be8c113c9647db0adfcc76fa87e89e6c71faf",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 82177,
+      "sha256": "0ce93e040c64524ea18f45b69887ce9b63620589a91edc07fa3fad038abef220",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "0df9a03cb7a3e3457020aa4300c644d8f683529351f01c8cb6ff96b99671d444",
+      "role": "logs"
+    },
+    {
+      "path": "model/tea_set_01.bin",
+      "bytes": 941776,
+      "sha256": "5ddd90f031a71832842f9030c2f7f0aa07b2c96f3d3cc4aa5cfaa5dbb14aa7b0",
+      "role": "model"
+    },
+    {
+      "path": "model/tea_set_01_2k.gltf",
+      "bytes": 15836,
+      "sha256": "c75b639cc1327c9bf44fee11b1e50ac7fd1c4ea8b56eb0ff98c5bc93d9d76c26",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/tea_set_01_arm_2k.jpg",
+      "bytes": 1741151,
+      "sha256": "f74ea16141becbcea8ab9aad02dd7e077c8acab307d126ff73750cf127e62bc7",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/tea_set_01_diff_2k.jpg",
+      "bytes": 1677311,
+      "sha256": "3ee0b64baddfe9fe19883a323629785a4914d64313a0b9eb4375058f4786fcc4",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/tea_set_01_nor_gl_2k.jpg",
+      "bytes": 805167,
+      "sha256": "79aa99b7e50d47cc2854f57ca57979722d110b998d126d5b058239ae61a85bef",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 18373,
+      "sha256": "eaf72f4d314f255c2c108f8ff2e54824c81223c3cc2623ca7bf3c52b9ca3e60a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 14016,
+      "sha256": "37c869cb1d066362ca911a2005cae6a70cd59ef6c602dcf0cacab12050ee6603",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 151099,
+      "sha256": "5e8800e575af2ddac9b9b0b8d3cc0e0aaf7c1804cbed50933dca08b28ed7b73e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1125,
+      "sha256": "bae6a29099cdbe67cab2c1ddebe853c786bd3bffa9a2eb364c8baada3d9913f6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 14833,
+      "sha256": "28124c90efc042342bd3078c08ec50099273a42eb896a81873111003cde1d80e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 17235,
+      "sha256": "24560888ff2c040d2387e67736e74a40d0f0231416cc68c16a5fa926c8236719",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 30484,
+      "sha256": "a0a8ad71d1f5c80f6d405637b265fe2ba9b12f9e85386588d1b9266de12b259b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 17984,
+      "sha256": "afc0b1e86246097c6a4ec2c7636cbf226da3837ad075b32b74aba42ae7eb1153",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 16074,
+      "sha256": "df89f85f152439876972f20193d5c78bb4151ac7c4189f95c775c849062129c7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 17961,
+      "sha256": "f277c749d9af7622ed843521481ba642ac006f8ac6fad979a2c0c334d8e31b3e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 30256,
+      "sha256": "d55cf005cebfcfc48bc4853cf011b5bdcc173d5e580af87090094ada19833fd4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 17041,
+      "sha256": "f735e246e7ec42aca5bab5fd71751c06633aca0a2d4bede8ffd02e48770bdd5c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 20767,
+      "sha256": "68d53f4d94e25d8a88738e4504de621939dbc03d7c31dff6aa3b315c23c0508f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 22022,
+      "sha256": "ce57ae3254115b10cd5162735a879223233b2e3be0847f7e3b6797b0e3a4161f",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1345,
+      "sha256": "8008b14d8708de93df1e78c3d5a73b9a4d23d7abff3b0c0bd26d6f669b6c448a",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 14140,
+      "sha256": "76cd7ce4b2bbfc27f41edbd1e9a4f83bf7f26306d0855d06b18ae685e791acd8",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1049,
+      "sha256": "0a653212a0c84fcabb3ea61536a4113eddc6a2de8d6f837e397152f4913f4342",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1058,
+      "sha256": "ed3d0b87eaa3bfd627d286e69b37090c4cfb4fa97544850b36f0a641f7e1de93",
+      "role": "documentation"
+    }
+  ]
+}

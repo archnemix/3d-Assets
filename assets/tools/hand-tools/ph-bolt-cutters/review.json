@@ -1,0 +1,21 @@
+{
+  "id": "ph-bolt-cutters",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Inspected all 12 views. The compound-lever linkage is modelled as separate plates and pins rather than a fused blob, which holds up in the top and bottom views. Rust and paint loss are consistent between front and back; 3.4k tris is excellent for the silhouette. Clay shows clean, closed jaws.",
+  "limitations": [
+    "Very thin in the side-on views, as a real bolt cutter is; not a framing defect.",
+    "Handles are closed, so the tool cannot be posed open without editing."
+  ],
+  "contact_sheet_sha256": "30975436f50afd3eafab970d94fd9d00562e827d5761498d0f27c4c02ec093da",
+  "reviewer": "arena-agent-visual-review",
+  "reviewed_at": "2026-11-04",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}
