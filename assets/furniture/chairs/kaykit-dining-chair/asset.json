@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "id": "kaykit-dining-chair",
+  "title": "KayKit wooden dining chair",
+  "category": "furniture/chairs",
+  "style": "stylized",
+  "tags": [
+    "chair",
+    "dining",
+    "wood",
+    "game-ready"
+  ],
+  "batch": "foundation-01-r2",
+  "acquired_at": "2026-11-03T14:51:39.636849+00:00",
+  "review": {
+    "id": "kaykit-dining-chair",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "KayKit wooden dining chair is a clean stylized chair variant with intact atlas texture and external glTF dependencies preserved. All views are coherent, no degenerate triangles and no validator errors. Pairs well with the realistic chairs as a style variant.",
+    "limitations": [
+      "Stylized atlas rather than realistic PBR maps.",
+      "Static model; no collision mesh supplied."
+    ],
+    "contact_sheet_sha256": "c526f14bef864df97ebcaa9391c6e56ceb77c29c604f635a0cc19421e5399ea9",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "kaykit-furniture",
+    "model": "model/chair_A_wood.gltf",
+    "creator": "Kay Lousberg",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/96d5930a8dbdb363409bbc2d3341718b00e17c9c/LICENSE.txt",
+    "source_url": "https://github.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/blob/96d5930a8dbdb363409bbc2d3341718b00e17c9c/addons/kaykit_furniture_bits/Assets/gltf/chair_A_wood.gltf",
+    "source_id": "addons/kaykit_furniture_bits/Assets/gltf/chair_A_wood.gltf",
+    "revision": "96d5930a8dbdb363409bbc2d3341718b00e17c9c",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/96d5930a8dbdb363409bbc2d3341718b00e17c9c/addons/kaykit_furniture_bits/Assets/gltf/chair_A_wood.gltf",
+        "bytes": 3032,
+        "sha256": "e17a16127b9a3e44ef8888c9d52fe7ec09a06b348934627816a538720793af8d"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/96d5930a8dbdb363409bbc2d3341718b00e17c9c/addons/kaykit_furniture_bits/Assets/gltf/chair_A_wood.bin",
+        "bytes": 16504,
+        "sha256": "726ea8962909becf3d925d272928a8e26a1f345fc9f8f165e7424221c69be733"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/96d5930a8dbdb363409bbc2d3341718b00e17c9c/addons/kaykit_furniture_bits/Assets/gltf/furniturebits_texture.png",
+        "bytes": 15605,
+        "sha256": "de62db37a80d1801c3d9eb674890ae04b04469e0c149481a51fa250562c628dc"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/96d5930a8dbdb363409bbc2d3341718b00e17c9c/LICENSE.txt"
+  },
+  "model": "model/chair_A_wood.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 1,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/furniturebits_texture.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "furniturebits_texture"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 458,
+    "triangles": 308,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "furniturebits_texture",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/foundation-01-r2/kaykit-dining-chair/model/furniturebits_texture.png"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 0,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 827,
+      "sha256": "cd675f2adc31eb5fedaedc1072d8ddc27b917f523682f0561837c03dc56393cb",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1347,
+      "sha256": "e6907ce0204131f4310066a2e9f91dbacf0966690666325fd2762934c17373d6",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 63205,
+      "sha256": "e8a07e7912f107c978dc67ad0a92096ac1e31bfb37c7968ee5ac3997aad7aced",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "082e951724014468ff5480fb2a42b17b945a390940b3476599aaaa9a77b8ecc1",
+      "role": "logs"
+    },
+    {
+      "path": "model/chair_A_wood.bin",
+      "bytes": 16504,
+      "sha256": "726ea8962909becf3d925d272928a8e26a1f345fc9f8f165e7424221c69be733",
+      "role": "model"
+    },
+    {
+      "path": "model/chair_A_wood.gltf",
+      "bytes": 3032,
+      "sha256": "e17a16127b9a3e44ef8888c9d52fe7ec09a06b348934627816a538720793af8d",
+      "role": "model"
+    },
+    {
+      "path": "model/furniturebits_texture.png",
+      "bytes": 15605,
+      "sha256": "de62db37a80d1801c3d9eb674890ae04b04469e0c149481a51fa250562c628dc",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 25474,
+      "sha256": "6b0e3dacca8f9e70ba81a228d57c707e02d2583691c93686c61673d71f3fd11f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 17890,
+      "sha256": "e5c259c2cf2b9d5401dcebe3d50a89b6f6f7c2276d16b56cb5a93ca2614f45d6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 175130,
+      "sha256": "c526f14bef864df97ebcaa9391c6e56ceb77c29c604f635a0cc19421e5399ea9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 597,
+      "sha256": "7da09e3e6379038ef80b30cdeb56b60e6932d5b92f514df3aa649c595e0aa2c2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 21267,
+      "sha256": "054f16e7c4712a55004beec7f0aaeac409fc876cf6ebde38bab362eeaa95761f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 22688,
+      "sha256": "9eb4e0a67f9dac4bf349f8e798b984626e273a30e6ab4d2810db40ad2bd77a01",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 16567,
+      "sha256": "e05905ab0c96e2bcddaf7acb673b464b378e8617169f8464caf2e7f483b92188",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 23742,
+      "sha256": "abeec2321396e1244d62bfd04f792dd0edc294bee70904d1daab1b922032ab7c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 21838,
+      "sha256": "bae8de8dba13aa72d99833277eabaa8323af2c8ca8213282e45d8211b2e9665f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 23884,
+      "sha256": "bf5aee862a3fa1f861e14767106164affc4248c29df73304b3c7966df2e6c1d9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 17967,
+      "sha256": "3cc2abb600c2dbfee9ae9ab12f30b415268d39259766ad90bd159126ae4eb5bc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 23522,
+      "sha256": "2dd4b58180d1466ebc054625a8b6ba1d384ab75a74da2799f8e8dc9ef30a0abb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 20721,
+      "sha256": "17dbe3b747a7b57feec6d377ca786a3653be8a58ba8c8d86c331643bddb3dd74",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 27709,
+      "sha256": "20b8ead87ad498147b21417d36f72e70adb7469431ce73903973ac88ac2d2fca",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/github-source.json",
+      "bytes": 377,
+      "sha256": "ef7706fed981d06399e166918e3732f775be9e44b5162e3d74ac6a913fad9801",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1251,
+      "sha256": "6d30af8facbb0c97b9a7044b1c6bfb5f433a487d797f89fdbf09b42985e096a3",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 837,
+      "sha256": "119e50f325d436da4c0e2b72bc57168c3cf612ac9d5a3999d21f5405f5306122",
+      "role": "documentation"
+    }
+  ]
+}

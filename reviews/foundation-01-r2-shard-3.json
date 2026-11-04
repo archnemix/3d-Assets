@@ -1,0 +1,47 @@
+{
+  "batch": "foundation-01-r2",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-04",
+  "decisions": [
+    {
+      "id": "ph-victorian-sofa",
+      "decision": "approved",
+      "scores": {"silhouette": 5, "materials": 5, "topology": 5, "completeness": 5, "style_fit": 5},
+      "notes": "Victorian leather sofa is coherent from every orbit, top and underside. Leather and wood materials read clearly, UVs are intact, no degenerate triangles and no validator errors. Strong realistic sofa variant.",
+      "limitations": ["Generated tangent-space warnings are informational.", "Static hero prop; no collision mesh or LODs supplied."],
+      "contact_sheet_sha256": "ea9d2319b2bcde8fb54669503aafad8d83d6623fc33ace7a88d980c510511ff3"
+    },
+    {
+      "id": "ph-cash-register",
+      "decision": "approved",
+      "scores": {"silhouette": 5, "materials": 5, "topology": 5, "completeness": 5, "style_fit": 5},
+      "notes": "Vintage cash register is complete and readable from all sides, including keys, drawer and rear housing. PBR maps are intact, topology is clean and the validator reports no errors. Useful realistic retail prop.",
+      "limitations": ["Generated tangent-space and buffer-view-target warnings are non-visual.", "Static model; drawer/keys are not animated."],
+      "contact_sheet_sha256": "9f8d879f69a0fea8a9a7fc90c93430f074b0cb5ac4d3362d9666034a782d9dec"
+    },
+    {
+      "id": "kaykit-rogue",
+      "decision": "approved",
+      "scores": {"silhouette": 5, "materials": 5, "topology": 5, "completeness": 5, "style_fit": 5},
+      "notes": "Hooded rogue reads cleanly from every angle with hood, cape and weapon attachments intact. Atlas texture is preserved, rig is present, no zero-area triangles and no validator errors. Consistent stylized human variant.",
+      "limitations": ["Skinned-mesh non-root and buffer-view-target warnings are non-visual.", "Rest-pose inspection only; animation import must be tested in the target engine."],
+      "contact_sheet_sha256": "acb41411fb4a27e551c160e5fb3cde28eb69045fd9613152e03ce11b9bcf4300"
+    },
+    {
+      "id": "kenney-lounge-sofa",
+      "decision": "approved",
+      "scores": {"silhouette": 5, "materials": 4, "topology": 4, "completeness": 5, "style_fit": 5},
+      "notes": "Lounge sofa is a clean low-poly variant for kids' scenes. Corrected framing shows the full sofa from every angle. Flat-color materials are intentional; five zero-area triangles are minor and do not affect the visible silhouette.",
+      "limitations": ["No image textures; flat-color materials are intentional.", "Five zero-area triangles retained from upstream."],
+      "contact_sheet_sha256": "212b172c07b43c996d7ad724b3558d1e52369621f0a6a874bd89f1875a05f2e2"
+    },
+    {
+      "id": "kenney-teddy-bear",
+      "decision": "rejected",
+      "scores": {"silhouette": 3, "materials": 3, "topology": 4, "completeness": 2, "style_fit": 2},
+      "notes": "The upstream 'bear' is a flat-backed wall trophy/decoration, not a plush toy or soft toy. It is mislabeled for toys/soft-toys and would mislead users browsing the toy category. Rejected rather than silently recategorized; a genuine rubber duck toy is requested in the expansion batch.",
+      "limitations": ["Flat-backed wall decor, not a freestanding plush toy.", "No image textures; category mismatch is the primary rejection reason."],
+      "contact_sheet_sha256": "8f5d3d29790244d9703d79385a3827f8262dc9cb7916010e7a6cb59d00fb6dc2"
+    }
+  ]
+}

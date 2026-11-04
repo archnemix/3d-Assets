@@ -1,0 +1,21 @@
+{
+  "id": "kaykit-rogue",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Hooded rogue reads cleanly from every angle with hood, cape and weapon attachments intact. Atlas texture is preserved, rig is present, no zero-area triangles and no validator errors. Consistent stylized human variant.",
+  "limitations": [
+    "Skinned-mesh non-root and buffer-view-target warnings are non-visual.",
+    "Rest-pose inspection only; animation import must be tested in the target engine."
+  ],
+  "contact_sheet_sha256": "acb41411fb4a27e551c160e5fb3cde28eb69045fd9613152e03ce11b9bcf4300",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-04",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

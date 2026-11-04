@@ -1,0 +1,346 @@
+{
+  "schema_version": 1,
+  "id": "ph-red-barrel",
+  "title": "Worn red industrial barrel",
+  "category": "industrial/containers",
+  "style": "realistic",
+  "tags": [
+    "barrel",
+    "industrial",
+    "metal",
+    "pbr"
+  ],
+  "batch": "foundation-01-r2",
+  "acquired_at": "2026-11-03T14:50:11.947251+00:00",
+  "review": {
+    "id": "ph-red-barrel",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Worn red industrial barrel is complete and readable from all sides, top and bottom. Metal wear and PBR maps are intact, topology is clean and the validator reports no errors. Strong realistic industrial prop.",
+    "limitations": [
+      "Generated tangent-space warning is informational.",
+      "Static model; no collision mesh or LODs supplied."
+    ],
+    "contact_sheet_sha256": "9c9ae50a34f238f85fa280a4017f3fb4859064010382ea75e070d9455a79bf07",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/Barrel_01_2k.gltf",
+    "creator": "Jorge Camacho",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/Barrel_01",
+    "source_id": "Barrel_01",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/Barrel_01/Barrel_01_2k.gltf",
+        "bytes": 2711,
+        "sha256": "1b9f9774879a071146045bb0d3557b06a97f4f9c360e3c57664cfe723e1c55e9"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/Barrel_01/Barrel_01.bin",
+        "bytes": 81756,
+        "sha256": "fe8369c1ac796059b62a091c0db7367dc420aa2cee212672e48f991f4208da98"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/Barrel_01/Barrel_01_explosive_arm_2k.jpg",
+        "bytes": 814101,
+        "sha256": "3f6fdb68391e4369e551d90f8577b0899c30589b532ebd416e996170279cd852"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/Barrel_01/Barrel_01_explosive_diff_2k.jpg",
+        "bytes": 613078,
+        "sha256": "09da9d519d87d34c0318da3bb293296071ce2e09c78415befe1157949a644b8b"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/Barrel_01/Barrel_01_explosive_nor_gl_2k.jpg",
+        "bytes": 875565,
+        "sha256": "050d5dfcf86b37172708637d1c1939010dd1837ed503b7e5561b5b1e67cb0379"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/Barrel_01_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/Barrel_01_explosive_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "Barrel_01_explosive_nor_gl"
+    },
+    {
+      "path": "model/textures/Barrel_01_explosive_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "Barrel_01_explosive_diff"
+    },
+    {
+      "path": "model/textures/Barrel_01_explosive_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "Barrel_01_explosive_metallic-Barrel_01_explosive_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 2052,
+    "triangles": 2682,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "Barrel_01_explosive_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/foundation-01-r2/ph-red-barrel/model/textures/Barrel_01_explosive_diff_2k.jpg"
+      },
+      {
+        "name": "Barrel_01_explosive_metallic-Barrel_01_explosive_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/foundation-01-r2/ph-red-barrel/model/textures/Barrel_01_explosive_arm_2k.jpg"
+      },
+      {
+        "name": "Barrel_01_explosive_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/foundation-01-r2/ph-red-barrel/model/textures/Barrel_01_explosive_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1232,
+      "sha256": "317d18fa27372fa565015659fd4137575bc07d69259cf1f62df987fc1ae42c8b",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68330,
+      "sha256": "f65c8011cd47f9c8e350ca5d966917fd6899cc39dbc218fdf832b639bb971a34",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/Barrel_01.bin",
+      "bytes": 81756,
+      "sha256": "fe8369c1ac796059b62a091c0db7367dc420aa2cee212672e48f991f4208da98",
+      "role": "model"
+    },
+    {
+      "path": "model/Barrel_01_2k.gltf",
+      "bytes": 2711,
+      "sha256": "1b9f9774879a071146045bb0d3557b06a97f4f9c360e3c57664cfe723e1c55e9",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/Barrel_01_explosive_arm_2k.jpg",
+      "bytes": 814101,
+      "sha256": "3f6fdb68391e4369e551d90f8577b0899c30589b532ebd416e996170279cd852",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/Barrel_01_explosive_diff_2k.jpg",
+      "bytes": 613078,
+      "sha256": "09da9d519d87d34c0318da3bb293296071ce2e09c78415befe1157949a644b8b",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/Barrel_01_explosive_nor_gl_2k.jpg",
+      "bytes": 875565,
+      "sha256": "050d5dfcf86b37172708637d1c1939010dd1837ed503b7e5561b5b1e67cb0379",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 36070,
+      "sha256": "de195e8e33eac3890bee7af788051ce0af6e9d31c342756efe88d1df577c3330",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 15321,
+      "sha256": "d41de2e3f017c64d3e94975d30c294ff1a8ed1a5dcc8524dcc4f9592dfd901d1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 315123,
+      "sha256": "9c9ae50a34f238f85fa280a4017f3fb4859064010382ea75e070d9455a79bf07",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1212,
+      "sha256": "e065fbc7be9a9bc2c12928cf69706b9e799e4668c59646af14ed73e096619a19",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 49746,
+      "sha256": "5a9a5ec39ee7c0021332958af209c3b6e0ee20c9dc0277eba1cc57ac8c3befe8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 49955,
+      "sha256": "77dee111a24fe84ab72d15e3a94a067863b9af456b23863592791b4d85d33205",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 49519,
+      "sha256": "f78f78bc8b7802dd14ff9835242a17dc9320548b130e653e534ead39fb5577a5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 51459,
+      "sha256": "787caeacfcb31bb3c4949f7bffb59d1d1c69301b8b8470fb1d040c0805ab186f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 51860,
+      "sha256": "b93c36986ebe1370c2c8f8e8495fedc428b85d496d2840c533d3f41548f4f0ed",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 47866,
+      "sha256": "853374a10aed5c0113ba2caecdd6fc055eb04a0bb3c141a497eec264847c3c6e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 45072,
+      "sha256": "b75c7ea88b75aa35a6363c7c4e2ee1ca125b7bd165e1152970ca4bdf258eff08",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 48125,
+      "sha256": "b63e40cdf2f23817113778f75aeb7ca5c35ffb65412c2e274d9fdc308317f261",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 60894,
+      "sha256": "08a6960371869f81e829d442d490479d7bace6e4f4eacf4c7a5cb277f00eb83b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 33843,
+      "sha256": "47e49726a10a0e4f1876f618cf42ead54c547387a5657bb8e9e55f9c7632d3a3",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1291,
+      "sha256": "c081185465c4f24ea5539e2941ae4ca634995b2b954c6b73265762da342d9989",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3044,
+      "sha256": "9563514272cc5146a3e8469d77f75b7ae1b6928c4c1e441937c2d71023b7169c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1091,
+      "sha256": "014c656a04a6febd7a1dd24a16c879df0e5eb2f0ec47c5330a380ca4a20e4114",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 792,
+      "sha256": "2a65cc5f3049eb107185d0cdaa434d2105a145dbfbbe0bb17b9e3b1bff811fb1",
+      "role": "documentation"
+    }
+  ]
+}
