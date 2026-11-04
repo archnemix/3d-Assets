@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "id": "ph-enamel-pot",
+  "title": "Enamel cooking pot with lid",
+  "category": "kitchen/cookware",
+  "style": "realistic",
+  "tags": [
+    "kitchen",
+    "pot",
+    "cookware",
+    "enamel",
+    "lid",
+    "pbr"
+  ],
+  "batch": "expansion-07",
+  "acquired_at": "2026-11-04T16:43:31.656350+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/pot_enamel_01_2k.gltf",
+    "creator": "Kuutti Siitonen",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/pot_enamel_01",
+    "source_id": "pot_enamel_01",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/pot_enamel_01/pot_enamel_01_2k.gltf",
+        "bytes": 4018,
+        "sha256": "8a3be956ce81841cc5bcb54f37087a3745fefa8ef7a63964611938f812426907"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pot_enamel_01/pot_enamel_01_diff_2k.jpg",
+        "bytes": 1950047,
+        "sha256": "c269317af0bb2ca32a3ff0a53bbf85806063d68883f4c9c4202f816d9343ea79"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pot_enamel_01/pot_enamel_01_nor_gl_2k.jpg",
+        "bytes": 1902299,
+        "sha256": "2210d30c882ab6f76d5013c91c47e437b8b17468104791a3fb06f9aa2c371e9c"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pot_enamel_01/pot_enamel_01_arm_2k.jpg",
+        "bytes": 1776502,
+        "sha256": "6621c0caba158b53ba9b16518b3a8095461b85c1861348d44556ef6f0a191866"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/pot_enamel_01/pot_enamel_01.bin",
+        "bytes": 270448,
+        "sha256": "134771c9f71269f791ad9e52910f25542e94b5e83adff1c9acc620c93d486d13"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/pot_enamel_01_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 2,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/pot_enamel_01_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "pot_enamel_01_nor_gl"
+    },
+    {
+      "path": "model/textures/pot_enamel_01_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "pot_enamel_01_diff"
+    },
+    {
+      "path": "model/textures/pot_enamel_01_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "pot_enamel_01_metal-pot_enamel_01_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 2,
+    "hidden_mesh_objects": 0,
+    "vertices": 6311,
+    "triangles": 11416,
+    "material_slots": 2,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "pot_enamel_01_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-enamel-pot/model/textures/pot_enamel_01_diff_2k.jpg"
+      },
+      {
+        "name": "pot_enamel_01_metal-pot_enamel_01_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-enamel-pot/model/textures/pot_enamel_01_arm_2k.jpg"
+      },
+      {
+        "name": "pot_enamel_01_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-enamel-pot/model/textures/pot_enamel_01_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 69862,
+      "sha256": "7472b1e3d278123d14b329342f18345e294619deb7923dc39eac4278887ceb24",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "2a9a229f8bb2ed821581e94782406b1f4a42c4f9a9e024e1cc719a6265cfa1b4",
+      "role": "logs"
+    },
+    {
+      "path": "model/pot_enamel_01.bin",
+      "bytes": 270448,
+      "sha256": "134771c9f71269f791ad9e52910f25542e94b5e83adff1c9acc620c93d486d13",
+      "role": "model"
+    },
+    {
+      "path": "model/pot_enamel_01_2k.gltf",
+      "bytes": 4018,
+      "sha256": "8a3be956ce81841cc5bcb54f37087a3745fefa8ef7a63964611938f812426907",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/pot_enamel_01_arm_2k.jpg",
+      "bytes": 1776502,
+      "sha256": "6621c0caba158b53ba9b16518b3a8095461b85c1861348d44556ef6f0a191866",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/pot_enamel_01_diff_2k.jpg",
+      "bytes": 1950047,
+      "sha256": "c269317af0bb2ca32a3ff0a53bbf85806063d68883f4c9c4202f816d9343ea79",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/pot_enamel_01_nor_gl_2k.jpg",
+      "bytes": 1902299,
+      "sha256": "2210d30c882ab6f76d5013c91c47e437b8b17468104791a3fb06f9aa2c371e9c",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 31020,
+      "sha256": "fc78ad4cb13197bcd3f9ef823558481b807b8c50af4d4e39bdbe1d941dc5dd30",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 17202,
+      "sha256": "48183ad328ce97fe2fb7cf7873850363fb5783d1ae45353e24fafe2f10eabbaa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 297879,
+      "sha256": "12ca532b311afbd3d22f4a54e0df2ff4b7a3c8e8c265f85adb97a526d4b7a2cb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1152,
+      "sha256": "75367ce787f97332de8882dc6be9f733a26622df89dae728e71d751c563ae4ad",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 39607,
+      "sha256": "e38f35d2042af378849448d4184970a32d66801df5bde90d3dfe24cd08cb6dae",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 44654,
+      "sha256": "01dbe61e866509d83d561f61faa1f62104ffd4bd301070eb1f9edeb10ad7a3d7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 51808,
+      "sha256": "1cfd99c8308b6e66ffa38ee3379fcaeb61182ca5f41a76210a98b230804b1447",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 45356,
+      "sha256": "9e3275e8039d9810472c353541ea19d81fcdc37cc93c807376fa6644dd725873",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 40476,
+      "sha256": "1b1867fe6651e42e0698f946d877944c7b29da92d4457a34149d6396388afa81",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 41844,
+      "sha256": "4cc93ce285f143678ad35c7b52483744f84105eadae70266b7eaa6957293a5ec",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 47076,
+      "sha256": "d4fcb3853a9d8d5b734ec9c4862202c83f1444d8467c489cfce35c75826a2cd8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 41209,
+      "sha256": "5b3eca036b86b6e55109809d7c6fc0c4576c420553e6923446e18e495467462a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 34551,
+      "sha256": "8b1d959997d25e9aa5dc3b9abfd6cdb2bb46a3d294d11e51cc410769f8b6a7e1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 54660,
+      "sha256": "ee564ce6fcfd0fca07b8eaa7b7cf7b2f03aa232f890e689d1ec7079ecfddfb52",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1219,
+      "sha256": "fb1ec06fe4919089c19ccae7ad028a944b35430d4a2c99dd6185d4a53627523f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 4271,
+      "sha256": "3e20c248a669ca658ad11fd1158722ed7da8cdeb070ce920931a569a25488f3b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1091,
+      "sha256": "6a31ebf740fccb60cdcb3dd5fe934b715d78f075ffff039b961e865628075c29",
+      "role": "provenance"
+    }
+  ]
+}
