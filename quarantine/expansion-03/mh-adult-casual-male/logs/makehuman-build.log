@@ -1,0 +1,45 @@
+Loading MPFB as Blender extension package
+Blender 4.2.9 LTS (hash a10f621e649a built 2025-04-15 01:46:41)
+Traceback (most recent call last):
+  File "/home/runner/work/3d-Assets/3d-Assets/rendering/build_makehuman.py", line 219, in <module>
+    main(*arguments)
+  File "/home/runner/work/3d-Assets/3d-Assets/rendering/build_makehuman.py", line 173, in main
+    setup_mpfb(Path(mpfb_src), pack)
+  File "/home/runner/work/3d-Assets/3d-Assets/rendering/build_makehuman.py", line 52, in setup_mpfb
+    module.register()
+  File "/home/runner/work/3d-Assets/3d-Assets/.work/cache/makehuman/mpfb2-b50c69cea33c/mpfb2-d0a32e57a7f915cb2f2b95410e2117648c7bbb7e/src/mpfb/__init__.py", line 198, in register
+    from .services import LogService  # This will also cascade import the other services
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/3d-Assets/3d-Assets/.work/cache/makehuman/mpfb2-b50c69cea33c/mpfb2-d0a32e57a7f915cb2f2b95410e2117648c7bbb7e/src/mpfb/services/__init__.py", line 27, in <module>
+    from .uiservice import UiService
+  File "/home/runner/work/3d-Assets/3d-Assets/.work/cache/makehuman/mpfb2-b50c69cea33c/mpfb2-d0a32e57a7f915cb2f2b95410e2117648c7bbb7e/src/mpfb/services/uiservice.py", line 335, in <module>
+    UiService = _UiService()  # pylint: disable=C0103
+                ^^^^^^^^^^^^
+  File "/home/runner/work/3d-Assets/3d-Assets/.work/cache/makehuman/mpfb2-b50c69cea33c/mpfb2-d0a32e57a7f915cb2f2b95410e2117648c7bbb7e/src/mpfb/services/uiservice.py", line 48, in __init__
+    label = get_preference("mpfb_shelf_label")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/3d-Assets/3d-Assets/.work/cache/makehuman/mpfb2-b50c69cea33c/mpfb2-d0a32e57a7f915cb2f2b95410e2117648c7bbb7e/src/mpfb/__init__.py", line 111, in get_preference
+    raise ValueError("I don't seem to exist")
+ValueError: I don't seem to exist
+
+Error: script failed, file: '/home/runner/work/3d-Assets/3d-Assets/rendering/build_makehuman.py', exiting.
+The 'bl_ext.user_default.mpfb' addon does not exist!?
+Could not read preference mpfb_user_data
+Log config does not exist. Creating empty template.
+Will rewrite log config /home/runner/.config/blender/4.2/mpfb/config/log_levels.json
+The 'bl_ext.user_default.mpfb' addon does not exist!?
+[WARN ] services.locationservice ...............: Could not read preference mpfb_user_data
+The 'bl_ext.user_default.mpfb' addon does not exist!?
+[WARN ] services.locationservice ...............: Could not read preference mpfb_second_root
+The 'bl_ext.user_default.mpfb' addon does not exist!?
+[WARN ] services.locationservice ...............: Could not read preference mh_user_data
+The 'bl_ext.user_default.mpfb' addon does not exist!?
+[WARN ] services.locationservice ...............: Could not read preference mh_auto_user_data
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] services.locationservice ...............: Creating relevant directory: /home/runner/.config/blender/4.2/extensions/.user/user_default/mpfb/data
+[INFO ] services.locationservice ...............: Creating relevant directory: /home/runner/.config/blender/4.2/extensions/.user/user_default/mpfb/config
+[INFO ] services.locationservice ...............: Creating relevant directory: /home/runner/.config/blender/4.2/extensions/.user/user_default/mpfb/cache
+[INFO ] services.locationservice ...............: Creating relevant directory: /home/runner/.config/blender/4.2/extensions/.user/user_default/mpfb/logs
+The 'bl_ext.user_default.mpfb' addon does not exist!?
+
+Blender quit
