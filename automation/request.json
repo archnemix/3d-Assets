@@ -1,180 +1,403 @@
 {
   "revision": 1,
-  "batch_id": "expansion-08",
+  "batch_id": "expansion-09",
   "candidates": [
     {
-      "id": "ph-ukulele",
-      "title": "Worn wooden ukulele",
-      "category": "music/instruments",
+      "id": "ph-alarm-clock",
+      "title": "Retro twin-bell alarm clock",
+      "category": "electronics/clocks",
       "source": "polyhaven",
       "style": "realistic",
       "tags": [
-        "music",
-        "instrument",
-        "ukulele",
-        "guitar",
-        "wood",
-        "strings",
-        "pbr"
-      ],
-      "upstream_id": "Ukulele_01",
-      "resolution": "2k"
-    },
-    {
-      "id": "ph-vintage-microscope",
-      "title": "Vintage brass microscope",
-      "category": "science/optical",
-      "source": "polyhaven",
-      "style": "realistic",
-      "tags": [
-        "science",
-        "microscope",
-        "brass",
-        "optical",
-        "laboratory",
-        "vintage",
-        "pbr"
-      ],
-      "upstream_id": "vintage_microscope",
-      "resolution": "2k"
-    },
-    {
-      "id": "ph-vintage-binoculars",
-      "title": "Vintage brass binoculars",
-      "category": "science/optical",
-      "source": "polyhaven",
-      "style": "realistic",
-      "tags": [
-        "optical",
-        "binoculars",
-        "brass",
-        "leather",
-        "glass",
-        "vintage",
-        "pbr"
-      ],
-      "upstream_id": "vintage_binocular",
-      "resolution": "2k"
-    },
-    {
-      "id": "ph-classic-laptop",
-      "title": "Retro beige laptop computer",
-      "category": "electronics/computing",
-      "source": "polyhaven",
-      "style": "realistic",
-      "tags": [
-        "electronics",
-        "computer",
-        "laptop",
+        "clock",
+        "alarm",
         "retro",
-        "beige",
-        "keyboard",
-        "pbr"
-      ],
-      "upstream_id": "classic_laptop",
-      "resolution": "2k"
-    },
-    {
-      "id": "ph-boombox",
-      "title": "Eighties portable boombox",
-      "category": "electronics/audio",
-      "source": "polyhaven",
-      "style": "realistic",
-      "tags": [
-        "electronics",
-        "audio",
-        "boombox",
-        "radio",
-        "cassette",
-        "retro",
-        "pbr"
-      ],
-      "upstream_id": "boombox",
-      "resolution": "2k"
-    },
-    {
-      "id": "ph-megaphone",
-      "title": "Handheld megaphone",
-      "category": "electronics/audio",
-      "source": "polyhaven",
-      "style": "realistic",
-      "tags": [
-        "electronics",
-        "audio",
-        "megaphone",
-        "loudspeaker",
-        "plastic",
-        "pbr"
-      ],
-      "upstream_id": "Megaphone_01",
-      "resolution": "2k"
-    },
-    {
-      "id": "ph-ceiling-fan",
-      "title": "Modern ceiling fan with light",
-      "category": "electronics/appliances",
-      "source": "polyhaven",
-      "style": "realistic",
-      "tags": [
-        "appliance",
-        "fan",
-        "ceiling",
-        "cooling",
-        "modern",
-        "light",
-        "pbr"
-      ],
-      "upstream_id": "ceiling_fan",
-      "resolution": "2k"
-    },
-    {
-      "id": "ph-electric-stove",
-      "title": "Compact electric stove",
-      "category": "electronics/appliances",
-      "source": "polyhaven",
-      "style": "realistic",
-      "tags": [
-        "appliance",
-        "stove",
-        "oven",
-        "kitchen",
-        "hotplate",
-        "rigged",
-        "pbr"
-      ],
-      "upstream_id": "electric_stove",
-      "resolution": "2k"
-    },
-    {
-      "id": "ph-drill-press",
-      "title": "Vintage workshop drill press",
-      "category": "tools/power-tools",
-      "source": "polyhaven",
-      "style": "realistic",
-      "tags": [
-        "tool",
-        "drill-press",
-        "machinery",
-        "workshop",
         "metal",
+        "glass",
+        "rigged",
+        "animatable",
+        "pbr"
+      ],
+      "upstream_id": "alarm_clock_01",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-mantel-clock",
+      "title": "Ornate wooden mantel clock",
+      "category": "electronics/clocks",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "clock",
+        "mantel",
+        "antique",
+        "wood",
+        "brass",
+        "rigged",
+        "animatable",
+        "pbr"
+      ],
+      "upstream_id": "mantel_clock_01",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-grandfather-clock",
+      "title": "Vintage grandfather clock",
+      "category": "electronics/clocks",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "clock",
+        "grandfather",
+        "antique",
+        "wood",
+        "brass",
+        "moonphase",
+        "rigged",
+        "animatable",
+        "pbr"
+      ],
+      "upstream_id": "vintage_grandfather_clock_01",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-security-camera-wall",
+      "title": "Wall-mounted CCTV camera",
+      "category": "electronics/security",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "cctv",
+        "camera",
+        "surveillance",
+        "metal",
+        "weathered",
+        "rigged",
+        "animatable",
+        "pbr"
+      ],
+      "upstream_id": "security_camera_01",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-security-camera-hood",
+      "title": "Hooded CCTV surveillance camera",
+      "category": "electronics/security",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "cctv",
+        "camera",
+        "surveillance",
+        "hood",
+        "metal",
+        "rigged",
+        "animatable",
+        "pbr"
+      ],
+      "upstream_id": "security_camera_02",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-tool-chest",
+      "title": "Rusted steel tool chest",
+      "category": "tools/storage",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "toolbox",
+        "chest",
+        "steel",
+        "drawers",
+        "rusted",
+        "workshop",
+        "rigged",
+        "animatable",
+        "pbr"
+      ],
+      "upstream_id": "metal_tool_chest",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-power-box",
+      "title": "Industrial electrical power box",
+      "category": "industrial/electrical",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "electrical",
+        "breakers",
+        "wiring",
+        "utility",
+        "metal",
+        "rigged",
+        "animatable",
+        "pbr"
+      ],
+      "upstream_id": "power_box_01",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-ratchet-wrench",
+      "title": "Chrome ratchet socket wrench",
+      "category": "tools/hand-tools",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "wrench",
+        "ratchet",
+        "chrome",
+        "mechanic",
+        "socket",
+        "rigged",
+        "animatable",
+        "pbr"
+      ],
+      "upstream_id": "ratchet_wrench",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-hand-drill",
+      "title": "Vintage crank hand drill",
+      "category": "tools/hand-tools",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "drill",
+        "crank",
+        "wood",
+        "vintage",
+        "carpentry",
+        "rigged",
+        "animatable",
+        "pbr"
+      ],
+      "upstream_id": "vintage_hand_drill",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-desk-lamp-arm",
+      "title": "Articulated industrial lamp arm",
+      "category": "lighting/lamps",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "lamp",
+        "articulated",
+        "clamp",
+        "spring",
+        "industrial",
+        "rigged",
+        "animatable",
+        "pbr"
+      ],
+      "upstream_id": "desk_lamp_arm_01",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-cannon",
+      "title": "Colonial ship cannon",
+      "category": "weapons/artillery",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "cannon",
+        "artillery",
+        "iron",
+        "carriage",
+        "naval",
+        "pirate",
+        "rigged",
+        "animatable",
+        "pbr"
+      ],
+      "upstream_id": "cannon_01",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-ship-pinnace",
+      "title": "Rigged colonial sailing pinnace",
+      "category": "vehicles/watercraft",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "ship",
+        "boat",
+        "sailing",
+        "wood",
+        "rigging",
+        "colonial",
+        "rigged",
+        "animatable",
+        "pbr"
+      ],
+      "upstream_id": "ship_pinnace",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-bolt-action-rifle",
+      "title": "Weathered bolt-action 7.62 rifle",
+      "category": "weapons/firearms",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "rifle",
+        "firearm",
+        "wood",
+        "scope",
+        "weathered",
+        "pbr"
+      ],
+      "upstream_id": "bolt_action_rifle_7_62",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-service-pistol",
+      "title": "Worn semi-automatic service pistol",
+      "category": "weapons/firearms",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "pistol",
+        "handgun",
+        "firearm",
+        "metal",
+        "magazine",
+        "pbr"
+      ],
+      "upstream_id": "service_pistol",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-stick-grenade",
+      "title": "WW2 wooden stick grenade",
+      "category": "weapons/explosives",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "grenade",
+        "ordnance",
+        "wood",
+        "metal",
+        "weathered",
+        "pbr"
+      ],
+      "upstream_id": "stick_grenade",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-street-rat",
+      "title": "Realistic street rat",
+      "category": "nature/wildlife",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "rat",
+        "rodent",
+        "animal",
+        "fur",
+        "realistic",
+        "pbr"
+      ],
+      "upstream_id": "street_rat",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-film-projector",
+      "title": "Vintage 8mm film projector",
+      "category": "electronics/av",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "projector",
+        "film",
+        "8mm",
+        "cinema",
         "vintage",
         "pbr"
       ],
-      "upstream_id": "drill_press_01",
+      "upstream_id": "filmstrip_projector_8mm",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-aircon-unit",
+      "title": "Exterior air conditioning unit",
+      "category": "electronics/appliances",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "aircon",
+        "hvac",
+        "condenser",
+        "exterior",
+        "metal",
+        "pbr"
+      ],
+      "upstream_id": "exterior_aircon_unit",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-field-binoculars",
+      "title": "Modern field binoculars",
+      "category": "science/optical",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "binoculars",
+        "optical",
+        "rubber",
+        "glass",
+        "field",
+        "pbr"
+      ],
+      "upstream_id": "binoculars",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-chinese-commode",
+      "title": "Carved Chinese wooden commode",
+      "category": "furniture/storage",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "commode",
+        "cabinet",
+        "wood",
+        "carved",
+        "antique",
+        "pbr"
+      ],
+      "upstream_id": "chinese_commode",
+      "resolution": "2k"
+    },
+    {
+      "id": "ph-farmhouse-cabinet",
+      "title": "Small painted farmhouse cabinet",
+      "category": "furniture/storage",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "cabinet",
+        "farmhouse",
+        "painted",
+        "wood",
+        "worn",
+        "pbr"
+      ],
+      "upstream_id": "painted_wooden_cabinet_02",
       "resolution": "2k"
     },
     {
       "id": "ph-caged-hanging-light",
-      "title": "Industrial caged hanging light",
+      "title": "Industrial caged pendant light",
       "category": "lighting/ceiling",
       "source": "polyhaven",
       "style": "realistic",
       "tags": [
         "lighting",
         "pendant",
-        "industrial",
         "caged",
-        "warehouse",
+        "industrial",
         "metal",
         "pbr"
       ],
@@ -182,364 +405,172 @@
       "resolution": "2k"
     },
     {
-      "id": "ph-chinese-chandelier",
-      "title": "Carved Chinese wooden chandelier",
-      "category": "lighting/chandeliers",
-      "source": "polyhaven",
+      "id": "grab3d-pirate-captain",
+      "title": "Pirate captain with cutlass",
+      "category": "characters/humans",
+      "source": "grab3d",
       "style": "realistic",
       "tags": [
-        "lighting",
-        "chandelier",
-        "wood",
-        "carved",
-        "silk",
-        "traditional",
+        "pirate",
+        "captain",
+        "coat",
+        "tricorn",
+        "cutlass",
+        "rigged",
+        "character",
+        "humanoid",
+        "walk",
+        "run",
         "pbr"
       ],
-      "upstream_id": "chinese_chandelier",
-      "resolution": "2k"
+      "upstream_id": "pirate-rigged"
     },
     {
-      "id": "ph-brass-diya-lantern",
-      "title": "Hanging brass diya lantern",
-      "category": "lighting/lamps",
-      "source": "polyhaven",
+      "id": "grab3d-soldier",
+      "title": "Modern soldier in digital camouflage",
+      "category": "characters/humans",
+      "source": "grab3d",
       "style": "realistic",
       "tags": [
-        "lighting",
-        "lantern",
-        "diya",
-        "brass",
-        "glass",
-        "hanging",
-        "pbr"
-      ],
-      "upstream_id": "brass_diya_lantern",
-      "resolution": "2k"
-    },
-    {
-      "id": "ph-brass-candleholders",
-      "title": "Ornate brass candleholders",
-      "category": "lighting/lamps",
-      "source": "polyhaven",
-      "style": "realistic",
-      "tags": [
-        "lighting",
-        "candlestick",
-        "brass",
-        "ornate",
-        "candles",
-        "vintage",
-        "pbr"
-      ],
-      "upstream_id": "brass_candleholders",
-      "resolution": "2k"
-    },
-    {
-      "id": "ph-chinese-cabinet",
-      "title": "Antique Chinese wooden cabinet",
-      "category": "furniture/storage",
-      "source": "polyhaven",
-      "style": "realistic",
-      "tags": [
-        "furniture",
-        "cabinet",
-        "storage",
-        "wood",
-        "brass",
-        "traditional",
-        "pbr"
-      ],
-      "upstream_id": "chinese_cabinet",
-      "resolution": "2k"
-    },
-    {
-      "id": "ph-gothic-commode",
-      "title": "Gothic carved wooden commode",
-      "category": "furniture/storage",
-      "source": "polyhaven",
-      "style": "realistic",
-      "tags": [
-        "furniture",
-        "commode",
-        "drawers",
-        "wood",
-        "gothic",
-        "carved",
-        "pbr"
-      ],
-      "upstream_id": "GothicCommode_01",
-      "resolution": "2k"
-    },
-    {
-      "id": "ph-painted-shelves",
-      "title": "Painted farmhouse wall shelves",
-      "category": "furniture/storage",
-      "source": "polyhaven",
-      "style": "realistic",
-      "tags": [
-        "furniture",
-        "shelves",
-        "storage",
-        "wood",
-        "farmhouse",
-        "worn",
-        "pbr"
-      ],
-      "upstream_id": "painted_wooden_shelves",
-      "resolution": "2k"
-    },
-    {
-      "id": "ph-old-bed-frame",
-      "title": "Vintage metal bed frame",
-      "category": "furniture/beds",
-      "source": "polyhaven",
-      "style": "realistic",
-      "tags": [
-        "furniture",
-        "bed",
-        "frame",
-        "metal",
-        "rusty",
-        "vintage",
-        "pbr"
-      ],
-      "upstream_id": "old_bed_frame",
-      "resolution": "2k"
-    },
-    {
-      "id": "ph-coffee-cart",
-      "title": "Industrial coffee cart",
-      "category": "furniture/carts",
-      "source": "polyhaven",
-      "style": "realistic",
-      "tags": [
-        "furniture",
-        "cart",
-        "trolley",
-        "coffee",
-        "metal",
-        "wheels",
-        "pbr"
-      ],
-      "upstream_id": "CoffeeCart_01",
-      "resolution": "2k"
-    },
-    {
-      "id": "ph-wet-floor-sign",
-      "title": "Yellow wet floor caution sign",
-      "category": "industrial/safety",
-      "source": "polyhaven",
-      "style": "realistic",
-      "tags": [
-        "safety",
-        "sign",
-        "caution",
-        "plastic",
-        "yellow",
-        "workplace",
-        "pbr"
-      ],
-      "upstream_id": "WetFloorSign_01",
-      "resolution": "2k"
-    },
-    {
-      "id": "ph-fire-alarm",
-      "title": "Red fire alarm pull station",
-      "category": "industrial/safety",
-      "source": "polyhaven",
-      "style": "realistic",
-      "tags": [
-        "safety",
-        "alarm",
-        "fire",
-        "red",
-        "wall",
-        "emergency",
-        "pbr"
-      ],
-      "upstream_id": "fire_alarm",
-      "resolution": "2k"
-    },
-    {
-      "id": "ph-ammo-box",
-      "title": "Weathered metal ammo box",
-      "category": "industrial/containers",
-      "source": "polyhaven",
-      "style": "realistic",
-      "tags": [
-        "container",
-        "box",
-        "crate",
-        "metal",
+        "soldier",
         "military",
-        "rusted",
+        "camouflage",
+        "helmet",
+        "plate-carrier",
+        "rigged",
+        "character",
+        "humanoid",
+        "walk",
+        "run",
         "pbr"
       ],
-      "upstream_id": "ammo_box",
-      "resolution": "2k"
+      "upstream_id": "soldier-rigged"
     },
     {
-      "id": "ph-plastic-container",
-      "title": "Industrial plastic storage container",
-      "category": "industrial/containers",
-      "source": "polyhaven",
+      "id": "grab3d-samurai",
+      "title": "Samurai in lacquered armour",
+      "category": "characters/humans",
+      "source": "grab3d",
       "style": "realistic",
       "tags": [
-        "container",
-        "bin",
-        "storage",
-        "plastic",
-        "industrial",
-        "worn",
+        "samurai",
+        "armour",
+        "katana",
+        "helmet",
+        "japan",
+        "rigged",
+        "character",
+        "humanoid",
+        "walk",
+        "run",
         "pbr"
       ],
-      "upstream_id": "industrial_pastic_container",
-      "resolution": "2k"
+      "upstream_id": "samurai-rigged"
     },
     {
-      "id": "ph-blue-barrel",
-      "title": "Blue plastic industrial drum",
-      "category": "industrial/containers",
-      "source": "polyhaven",
+      "id": "grab3d-orc",
+      "title": "Orc steppe rider with tusks",
+      "category": "characters/fantasy",
+      "source": "grab3d",
       "style": "realistic",
       "tags": [
-        "container",
-        "barrel",
-        "drum",
-        "plastic",
-        "blue",
-        "industrial",
+        "orc",
+        "fantasy",
+        "tusks",
+        "beard",
+        "coat",
+        "rigged",
+        "character",
+        "humanoid",
+        "walk",
+        "run",
         "pbr"
       ],
-      "upstream_id": "Barrel_02",
-      "resolution": "2k"
+      "upstream_id": "orc-rigged"
     },
     {
-      "id": "ph-steel-frame-shelves",
-      "title": "Industrial steel-frame shelving unit",
-      "category": "furniture/storage",
-      "source": "polyhaven",
+      "id": "grab3d-dwarf",
+      "title": "Dwarf gem cutter with loupe",
+      "category": "characters/fantasy",
+      "source": "grab3d",
       "style": "realistic",
       "tags": [
-        "shelf",
-        "shelving",
-        "storage",
-        "steel",
-        "wood",
-        "industrial",
-        "warehouse",
+        "dwarf",
+        "fantasy",
+        "beard",
+        "apron",
+        "craftsman",
+        "rigged",
+        "character",
+        "humanoid",
+        "walk",
+        "run",
         "pbr"
       ],
-      "upstream_id": "steel_frame_shelves_01",
-      "resolution": "2k"
+      "upstream_id": "dwarf-rigged"
     },
     {
-      "id": "ph-spacecraft-instrument",
-      "title": "Vintage spacecraft instrument panel",
-      "category": "tools/measuring",
-      "source": "polyhaven",
+      "id": "grab3d-armored-knight",
+      "title": "Knight in silver and gold plate",
+      "category": "characters/fantasy",
+      "source": "grab3d",
       "style": "realistic",
       "tags": [
-        "instrument",
-        "panel",
-        "gauge",
-        "retro",
-        "space",
-        "analog",
+        "knight",
+        "armour",
+        "plate",
+        "sword",
+        "tabard",
+        "rigged",
+        "character",
+        "humanoid",
+        "walk",
+        "run",
         "pbr"
       ],
-      "upstream_id": "vintage_spacecraft_instrument",
-      "resolution": "2k"
+      "upstream_id": "armored-knight-rigged"
     },
     {
-      "id": "ph-brass-pot",
-      "title": "Worn brass cooking pot",
-      "category": "kitchen/cookware",
-      "source": "polyhaven",
+      "id": "grab3d-cyborg",
+      "title": "Cyborg with prosthetic limbs",
+      "category": "characters/scifi",
+      "source": "grab3d",
       "style": "realistic",
       "tags": [
-        "kitchen",
-        "pot",
-        "cookware",
-        "brass",
-        "wood",
+        "cyborg",
+        "prosthetic",
+        "scifi",
+        "jacket",
+        "robotic",
+        "rigged",
+        "character",
+        "humanoid",
+        "walk",
+        "run",
         "pbr"
       ],
-      "upstream_id": "brass_pot_02",
-      "resolution": "2k"
+      "upstream_id": "cyborg-rigged"
     },
     {
-      "id": "ph-brass-vase",
-      "title": "Engraved antique brass vase",
-      "category": "decor/vases",
-      "source": "polyhaven",
+      "id": "grab3d-astronaut",
+      "title": "Astronaut in EVA spacesuit",
+      "category": "characters/scifi",
+      "source": "grab3d",
       "style": "realistic",
       "tags": [
-        "decor",
-        "vase",
-        "brass",
-        "engraved",
-        "antique",
-        "metal",
+        "astronaut",
+        "spacesuit",
+        "visor",
+        "eva",
+        "scifi",
+        "rigged",
+        "character",
+        "humanoid",
+        "walk",
+        "run",
         "pbr"
       ],
-      "upstream_id": "brass_vase_03",
-      "resolution": "2k"
-    },
-    {
-      "id": "ph-ceramic-vase-painted",
-      "title": "Painted clay ceramic vase",
-      "category": "decor/vases",
-      "source": "polyhaven",
-      "style": "realistic",
-      "tags": [
-        "decor",
-        "vase",
-        "ceramic",
-        "clay",
-        "painted",
-        "modern",
-        "pbr"
-      ],
-      "upstream_id": "ceramic_vase_02",
-      "resolution": "2k"
-    },
-    {
-      "id": "ph-lime",
-      "title": "Photoscanned fresh lime",
-      "category": "food/fruit",
-      "source": "polyhaven",
-      "style": "realistic",
-      "tags": [
-        "food",
-        "fruit",
-        "lime",
-        "citrus",
-        "organic",
-        "photoscan",
-        "pbr"
-      ],
-      "upstream_id": "food_lime_01",
-      "resolution": "2k"
-    },
-    {
-      "id": "ph-lychee",
-      "title": "Photoscanned lychee fruit",
-      "category": "food/fruit",
-      "source": "polyhaven",
-      "style": "realistic",
-      "tags": [
-        "food",
-        "fruit",
-        "lychee",
-        "tropical",
-        "organic",
-        "photoscan",
-        "pbr"
-      ],
-      "upstream_id": "food_lychee_01",
-      "resolution": "2k"
+      "upstream_id": "astronaut-in-spacesuit-rigged"
     }
   ]
 }

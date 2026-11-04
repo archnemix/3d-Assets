@@ -18,9 +18,20 @@ def package_base(source: dict, slug: str) -> str:
     return f"{source['download_base'].rstrip('/')}/{slug}"
 
 
-def page_url(source: dict, slug: str) -> str:
+def page_url(source: dict, slug: str, category: str = "characters/humans") -> str:
+    """Build the human-facing page URL for a package.
+
+    Grab3D groups pages by section (``/models/characters/<slug>/``,
+    ``/models/vehicles/<slug>/`` and so on), so the section has to come from the
+    candidate's category rather than being hard-coded to characters. The mapping
+    lives in ``config/sources.json`` so a new section is a config change.
+    """
     page_slug = slug.removesuffix("-rigged").removesuffix("-light")
-    return f"{source['page'].rstrip('/')}/{page_slug}/"
+    sections = source.get("page_sections", {})
+    root = category.split("/")[0]
+    section = sections.get(root, sections.get("default", "characters"))
+    base = source["page"].rstrip("/")
+    return f"{base}/{section}/{page_slug}/"
 
 
 def verify_cc0(manifest: dict, license_text: str) -> None:
@@ -57,7 +68,7 @@ def fetch_grab3d(source: dict, candidate: dict, directory: Path) -> dict:
         directory / "provenance" / "grab3d-package.json",
         {
             "slug": slug,
-            "page_url": page_url(source, slug),
+            "page_url": page_url(source, slug, candidate["category"]),
             "manifest_url": manifest_url,
             "license_url": license_url,
             "model_url": model_url,
@@ -70,7 +81,7 @@ def fetch_grab3d(source: dict, candidate: dict, directory: Path) -> dict:
         "license": "CC0-1.0",
         "license_evidence": license_url,
         "license_page": source["license_page"],
-        "source_url": page_url(source, slug),
+        "source_url": page_url(source, slug, candidate["category"]),
         "source_id": slug,
         "revision": repair["repaired_sha256"],
         "downloads": [record],

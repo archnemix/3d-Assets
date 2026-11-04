@@ -6,7 +6,8 @@ from asset_library.sources import grab3d
 
 SOURCE = {
     "download_base": "https://grab3d.com/dl",
-    "page": "https://grab3d.com/models/characters",
+    "page": "https://grab3d.com/models",
+    "page_sections": {"default": "characters", "vehicles": "vehicles", "weapons": "weapons"},
     "license_page": "https://grab3d.com/license/",
     "creator": "Grab3D",
 }
@@ -21,8 +22,26 @@ LICENSE = "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
 
 def test_page_url_uses_the_human_model_page_for_rigged_packages():
     assert (
-        grab3d.page_url(SOURCE, "man-base-character-rigged")
+        grab3d.page_url(SOURCE, "man-base-character-rigged", "characters/humans")
         == "https://grab3d.com/models/characters/man-base-character/"
+    )
+
+
+def test_page_url_follows_the_candidate_category_section():
+    assert (
+        grab3d.page_url(SOURCE, "muscle-car", "vehicles/cars")
+        == "https://grab3d.com/models/vehicles/muscle-car/"
+    )
+    assert (
+        grab3d.page_url(SOURCE, "broadsword", "weapons/melee")
+        == "https://grab3d.com/models/weapons/broadsword/"
+    )
+
+
+def test_page_url_falls_back_to_characters_for_unmapped_roots():
+    assert (
+        grab3d.page_url(SOURCE, "android-rigged", "unmapped/thing")
+        == "https://grab3d.com/models/characters/android/"
     )
 
 
@@ -52,7 +71,11 @@ def test_fetch_preserves_license_manifest_and_origin(tmp_path, monkeypatch):
         return {"url": url, "bytes": 4, "sha256": "a" * 64}
 
     monkeypatch.setattr(grab3d, "download", fake_download)
-    result = grab3d.fetch_grab3d(SOURCE, {"upstream_id": "man-base-character-rigged"}, tmp_path)
+    result = grab3d.fetch_grab3d(
+        SOURCE,
+        {"upstream_id": "man-base-character-rigged", "category": "characters/humans"},
+        tmp_path,
+    )
     assert result["model"] == "model/man-base-character-rigged.glb"
     assert result["license"] == "CC0-1.0"
     assert result["origin"]["ai_content"] is True
@@ -73,4 +96,8 @@ def test_fetch_rejects_changed_package_size(tmp_path, monkeypatch):
 
     monkeypatch.setattr(grab3d, "download", fake_download)
     with pytest.raises(ValueError, match="size changed"):
-        grab3d.fetch_grab3d(SOURCE, {"upstream_id": "man-base-character-rigged"}, tmp_path)
+        grab3d.fetch_grab3d(
+            SOURCE,
+            {"upstream_id": "man-base-character-rigged", "category": "characters/humans"},
+            tmp_path,
+        )

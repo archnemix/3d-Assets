@@ -24,9 +24,20 @@
     "creator": "Grab3D",
     "license": "CC0-1.0",
     "download_base": "https://grab3d.com/dl",
-    "page": "https://grab3d.com/models/characters",
+    "page": "https://grab3d.com/models",
     "license_page": "https://grab3d.com/license/",
-    "note": "Direct per-package manifest, LICENSE.txt and GLB. Packages disclose AI-assisted origin; generic characters only."
+    "note": "Direct per-package manifest, LICENSE.txt and GLB. Rigged variants ship a 24-bone humanoid skeleton with walk/run clips at 300k triangles. Characters disclose AI-assisted origin; the procedural prop kits do not. Generic subjects only.",
+    "page_sections": {
+      "default": "characters",
+      "characters": "characters",
+      "vehicles": "vehicles",
+      "weapons": "weapons",
+      "nature": "animals",
+      "tools": "tools",
+      "furniture": "furniture",
+      "food": "food",
+      "props": "props"
+    }
   },
   "makehuman": {
     "kind": "makehuman",
