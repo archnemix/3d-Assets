@@ -49,6 +49,7 @@ The library accepts only assets that can be used, modified, and redistributed wi
 - Grab3D discloses that many models are AI-assisted: a Meshy image-to-3D draft is cleaned up, scaled, textured and checked in Blender; rigged packages add Meshy Auto-Rig skeletons and clips.
 - The pipeline preserves the package origin disclosure and tags candidates `ai-assisted`; visual approval is still required.
 - Grab3D waives only its own rights. Subjects are described as generic, with no brands, logos or real people.
+- The first rigged packages failed the Khronos validator because auto-rigged skin-weight sums drifted by about `1.7e-4`. The adapter applies a bounded, recorded normalization repair (divide each weight vector by its sum) and stores both upstream and repaired checksums. After repair the same packages report zero validator errors.
 
 ## Rejected or deferred candidates
 

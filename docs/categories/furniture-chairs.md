@@ -2,7 +2,7 @@
 
 Dining chairs, armchairs, stools and lounge chairs
 
-Approved assets: **5**
+Approved assets: **6**
 
 ## KayKit wooden dining chair
 
@@ -20,6 +20,14 @@ Approved assets: **5**
 - 198 triangles; 0 texture images
 - [Asset folder](../../assets/furniture/chairs/kenney-cushion-chair/) · [Metadata](../../assets/furniture/chairs/kenney-cushion-chair/asset.json)
 - [Asset folder](../../assets/furniture/chairs/kenney-cushion-chair/) · [Metadata](../../assets/furniture/chairs/kenney-cushion-chair/asset.json) · [All inspection views](../../assets/furniture/chairs/kenney-cushion-chair/previews/contact-sheet.jpg)
+## Vintage barber shop chair
+
+![Vintage barber shop chair](../../assets/furniture/chairs/ph-barber-shop-chair/previews/orbit-01.jpg)
+
+- Creator: Fernando Quinn; style: realistic; CC0-1.0
+- 4,280 triangles; 3 texture images
+- [Asset folder](../../assets/furniture/chairs/ph-barber-shop-chair/) · [Metadata](../../assets/furniture/chairs/ph-barber-shop-chair/asset.json)
+- [Asset folder](../../assets/furniture/chairs/ph-barber-shop-chair/) · [Metadata](../../assets/furniture/chairs/ph-barber-shop-chair/asset.json) · [All inspection views](../../assets/furniture/chairs/ph-barber-shop-chair/previews/contact-sheet.jpg)
 ## Modern leather armchair
 
 ![Modern leather armchair](../../assets/furniture/chairs/ph-modern-armchair/previews/orbit-01.jpg)

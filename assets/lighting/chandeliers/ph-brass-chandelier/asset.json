@@ -15,8 +15,27 @@
   "batch": "expansion-05",
   "acquired_at": "2026-11-04T14:19:22.470439+00:00",
   "review": {
-    "status": "awaiting-visual-review",
-    "approved": false
+    "id": "ph-brass-chandelier",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Ornate brass chandelier is coherent from all eight orbits, top and underside. Six fabric shades, brass arms, ceiling mount and hanging beads are complete; PBR maps are intact and the validator reports zero errors. Strong realistic lighting-category anchor.",
+    "limitations": [
+      "Generated tangent-space warning is informational.",
+      "Static fixture; no light emitters, collision mesh or LODs supplied."
+    ],
+    "contact_sheet_sha256": "c8cfc124f5c7d13a1ca836ce4626c637c5ab55d22bf5c282d655cab9d48a97ff",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
   },
   "source": {
     "provider": "polyhaven",
@@ -162,6 +181,12 @@
       "bytes": 7048,
       "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
       "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1258,
+      "sha256": "a5ef19e19469d62726816de57b9349bb7d2bc75665f99d16b420015b59750abe",
+      "role": "documentation"
     },
     {
       "path": "logs/blender.log",
@@ -312,6 +337,12 @@
       "bytes": 1088,
       "sha256": "379dfe4aab60b0c143798b013c99ad188ce09f158d399a8f07fa499a4dd1623f",
       "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 864,
+      "sha256": "564e5bfdcdf898ca502009d509cd2bb7619c309ccc63313cf786c519351a3e9c",
+      "role": "documentation"
     }
   ]
 }

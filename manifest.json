@@ -417,6 +417,43 @@
       }
     },
     {
+      "id": "ph-barber-shop-chair",
+      "title": "Vintage barber shop chair",
+      "category": "furniture/chairs",
+      "style": "realistic",
+      "tags": [
+        "chair",
+        "barber",
+        "salon",
+        "vintage",
+        "leather",
+        "wood",
+        "pbr"
+      ],
+      "creator": "Fernando Quinn",
+      "license": "CC0-1.0",
+      "source_url": "https://polyhaven.com/a/BarberShopChair_01",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/furniture/chairs/ph-barber-shop-chair",
+      "metadata": "assets/furniture/chairs/ph-barber-shop-chair/asset.json",
+      "metadata_sha256": "6b7c68f16fea4b193f4cd04a25afba1cbf64e5df474f2267409af3af25ec3786",
+      "model": "assets/furniture/chairs/ph-barber-shop-chair/model/BarberShopChair_01_2k.gltf",
+      "preview": "assets/furniture/chairs/ph-barber-shop-chair/previews/orbit-01.jpg",
+      "contact_sheet": "assets/furniture/chairs/ph-barber-shop-chair/previews/contact-sheet.jpg",
+      "triangles": 4280,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      }
+    },
+    {
       "id": "ph-modern-armchair",
       "title": "Modern leather armchair",
       "category": "furniture/chairs",
@@ -759,6 +796,42 @@
       }
     },
     {
+      "id": "ph-brass-chandelier",
+      "title": "Vintage brass chandelier",
+      "category": "lighting/chandeliers",
+      "style": "realistic",
+      "tags": [
+        "lighting",
+        "chandelier",
+        "ceiling",
+        "brass",
+        "vintage",
+        "pbr"
+      ],
+      "creator": "Kirill Sannikov",
+      "license": "CC0-1.0",
+      "source_url": "https://polyhaven.com/a/Chandelier_01",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/lighting/chandeliers/ph-brass-chandelier",
+      "metadata": "assets/lighting/chandeliers/ph-brass-chandelier/asset.json",
+      "metadata_sha256": "4a07966f6f0ff5138db28f3c0b3668341538fa1bc5374d63502b5c3fa5318266",
+      "model": "assets/lighting/chandeliers/ph-brass-chandelier/model/Chandelier_01_2k.gltf",
+      "preview": "assets/lighting/chandeliers/ph-brass-chandelier/previews/orbit-01.jpg",
+      "contact_sheet": "assets/lighting/chandeliers/ph-brass-chandelier/previews/contact-sheet.jpg",
+      "triangles": 26860,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      }
+    },
+    {
       "id": "ph-potted-plant",
       "title": "Potted leafy plant",
       "category": "nature/potted-plants",
@@ -966,24 +1039,25 @@
     }
   ],
   "totals": {
-    "assets": 28,
-    "categories": 11,
+    "assets": 30,
+    "categories": 12,
     "by_category": {
       "characters/humans": 6,
       "electronics/retail": 1,
       "food/fruit": 2,
       "food/snacks": 1,
-      "furniture/chairs": 5,
+      "furniture/chairs": 6,
       "furniture/sofas": 2,
       "furniture/tables": 4,
       "industrial/containers": 1,
+      "lighting/chandeliers": 1,
       "nature/potted-plants": 2,
       "toys/figures": 1,
       "vehicles/cars": 3
     },
     "by_style": {
       "low-poly": 10,
-      "realistic": 12,
+      "realistic": 14,
       "stylized": 6
     }
   }

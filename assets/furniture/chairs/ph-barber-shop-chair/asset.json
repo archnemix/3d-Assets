@@ -16,8 +16,27 @@
   "batch": "expansion-05",
   "acquired_at": "2026-11-04T14:20:12.530743+00:00",
   "review": {
-    "status": "awaiting-visual-review",
-    "approved": false
+    "id": "ph-barber-shop-chair",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Vintage barber chair reads clearly from every angle, including underside, footrest and rear upholstery. Tufted leather, wood and brass materials are intact, topology is clean and the validator reports zero errors. Adds a realistic specialist chair variant.",
+    "limitations": [
+      "Generated tangent-space warning is informational.",
+      "Static model; no collision mesh or LODs supplied."
+    ],
+    "contact_sheet_sha256": "55f688cbc42e4d5668bad503569edde6ccfe3a51835c7f7a6dda0750034affc4",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
   },
   "source": {
     "provider": "polyhaven",
@@ -163,6 +182,12 @@
       "bytes": 7048,
       "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
       "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1245,
+      "sha256": "8c5334ece033c194fa5d9d4c7054a5a9f722da5722880257005f3d4891053c93",
+      "role": "documentation"
     },
     {
       "path": "logs/blender.log",
@@ -313,6 +338,12 @@
       "bytes": 1158,
       "sha256": "b9f0c21cc3081038bfd4fb12b4ed45ddecc46de241c06dd69eca51b5ab6eda8a",
       "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 847,
+      "sha256": "273cfe064693c2718f4be832d2fc1dea2e367bd5c75efc7d0e69b50e0d0bb297",
+      "role": "documentation"
     }
   ]
 }

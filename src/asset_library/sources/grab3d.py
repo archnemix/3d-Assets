@@ -8,6 +8,7 @@ license before downloading and preserves the package's AI-origin disclosure.
 from pathlib import Path
 
 from asset_library.files import write_json
+from asset_library.gltf_repair import normalize_skin_weights
 from asset_library.http import download, json, text
 
 HOSTS = {"grab3d.com"}
@@ -48,8 +49,10 @@ def fetch_grab3d(source: dict, candidate: dict, directory: Path) -> dict:
     record = download(model_url, model, HOSTS)
     if record["bytes"] != glb["bytes"]:
         raise ValueError(f"Grab3D package size changed while downloading: {slug}")
+    repair = normalize_skin_weights(model)
     (directory / "LICENSE.txt").write_text(license_text, encoding="utf-8")
     write_json(directory / "provenance" / "grab3d-manifest.json", manifest)
+    write_json(directory / "provenance" / "grab3d-repair.json", repair)
     write_json(
         directory / "provenance" / "grab3d-package.json",
         {
@@ -69,7 +72,8 @@ def fetch_grab3d(source: dict, candidate: dict, directory: Path) -> dict:
         "license_page": source["license_page"],
         "source_url": page_url(source, slug),
         "source_id": slug,
-        "revision": record["sha256"],
+        "revision": repair["repaired_sha256"],
         "downloads": [record],
+        "repairs": [repair] if repair["normalized_vertices"] else [],
         "origin": manifest.get("origin", {}),
     }

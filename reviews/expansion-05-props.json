@@ -1,0 +1,23 @@
+{
+  "batch": "expansion-05",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-04",
+  "decisions": [
+    {
+      "id": "ph-brass-chandelier",
+      "decision": "approved",
+      "scores": {"silhouette": 5, "materials": 5, "topology": 5, "completeness": 5, "style_fit": 5},
+      "notes": "Ornate brass chandelier is coherent from all eight orbits, top and underside. Six fabric shades, brass arms, ceiling mount and hanging beads are complete; PBR maps are intact and the validator reports zero errors. Strong realistic lighting-category anchor.",
+      "limitations": ["Generated tangent-space warning is informational.", "Static fixture; no light emitters, collision mesh or LODs supplied."],
+      "contact_sheet_sha256": "c8cfc124f5c7d13a1ca836ce4626c637c5ab55d22bf5c282d655cab9d48a97ff"
+    },
+    {
+      "id": "ph-barber-shop-chair",
+      "decision": "approved",
+      "scores": {"silhouette": 5, "materials": 5, "topology": 5, "completeness": 5, "style_fit": 5},
+      "notes": "Vintage barber chair reads clearly from every angle, including underside, footrest and rear upholstery. Tufted leather, wood and brass materials are intact, topology is clean and the validator reports zero errors. Adds a realistic specialist chair variant.",
+      "limitations": ["Generated tangent-space warning is informational.", "Static model; no collision mesh or LODs supplied."],
+      "contact_sheet_sha256": "55f688cbc42e4d5668bad503569edde6ccfe3a51835c7f7a6dda0750034affc4"
+    }
+  ]
+}

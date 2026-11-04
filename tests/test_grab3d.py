@@ -34,9 +34,17 @@ def test_verify_cc0_requires_both_manifest_and_package_dedication():
         grab3d.verify_cc0(MANIFEST, "All rights reserved")
 
 
+REPAIR = {
+    "repair": "normalize-skin-weights",
+    "normalized_vertices": 0,
+    "repaired_sha256": "a" * 64,
+}
+
+
 def test_fetch_preserves_license_manifest_and_origin(tmp_path, monkeypatch):
     monkeypatch.setattr(grab3d, "json", lambda url, hosts: MANIFEST)
     monkeypatch.setattr(grab3d, "text", lambda url, hosts: LICENSE)
+    monkeypatch.setattr(grab3d, "normalize_skin_weights", lambda path: REPAIR)
 
     def fake_download(url, path, hosts):
         path.parent.mkdir(parents=True, exist_ok=True)
@@ -56,6 +64,7 @@ def test_fetch_preserves_license_manifest_and_origin(tmp_path, monkeypatch):
 def test_fetch_rejects_changed_package_size(tmp_path, monkeypatch):
     monkeypatch.setattr(grab3d, "json", lambda url, hosts: MANIFEST)
     monkeypatch.setattr(grab3d, "text", lambda url, hosts: LICENSE)
+    monkeypatch.setattr(grab3d, "normalize_skin_weights", lambda path: REPAIR)
 
     def fake_download(url, path, hosts):
         path.parent.mkdir(parents=True, exist_ok=True)
