@@ -92,7 +92,11 @@ def bake_export_meshes(root, human, subdivision: int):
     TargetService = mpfb_services().TargetService
 
     TargetService.bake_targets(human)
-    meshes = [obj for obj in [root, *root.children_recursive] if obj.type == "MESH"]
+    meshes = [
+        obj
+        for obj in [root, *root.children_recursive]
+        if obj.type == "MESH" and not obj.hide_render and obj.visible_get()
+    ]
     for obj in meshes:
         if obj == human and subdivision and not any(mod.type == "SUBSURF" for mod in obj.modifiers):
             modifier = obj.modifiers.new("Export subdivision", "SUBSURF")
@@ -142,9 +146,9 @@ def tune_materials(meshes: list):
                     material.surface_render_method = "DITHERED"
 
 
-def export_glb(root, output: Path):
+def export_glb(root, output: Path, meshes: list):
     bpy.ops.object.select_all(action="DESELECT")
-    objects = [root, *root.children_recursive]
+    objects = [root, *meshes]
     for obj in objects:
         obj.select_set(True)
     bpy.context.view_layer.objects.active = root
@@ -189,7 +193,7 @@ def main(recipe_path: str, pack_data: str, mpfb_src: str, output: str) -> None:
     meshes = bake_export_meshes(rig, human, recipe["subdivision"])
     tune_materials(meshes)
     print("Exporting GLB", flush=True)
-    objects = export_glb(rig, Path(output))
+    objects = export_glb(rig, Path(output), meshes)
     report = {
         "blender_version": bpy.app.version_string,
         "recipe": recipe["id"],

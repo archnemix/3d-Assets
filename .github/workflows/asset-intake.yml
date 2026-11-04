@@ -72,6 +72,11 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends libxi6 libxrender1 libxxf86vm1 libxfixes3 libxkbcommon0 libsm6 libgl1
       - uses: ./.github/actions/blender
+      - name: Cache MakeHuman source archives
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
+        with:
+          path: .work/cache/makehuman/*.zip
+          key: makehuman-archives-${{ hashFiles('config/sources.json') }}
       - name: Acquire and render quarantine candidates
         id: intake
         continue-on-error: true
