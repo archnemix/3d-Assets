@@ -32,6 +32,7 @@ def refresh_request(tmp_path, monkeypatch):
         paths.append(value)
     path = tmp_path / "refresh.json"
     document = {
+        "revision": 1,
         "batch": "test-batch",
         "reason": "Correct hidden-helper framing and regenerate every inspection view.",
         "requested_at": "2026-11-04",
