@@ -46,14 +46,16 @@ def mpfb_services():
 def setup_mpfb(mpfb_src: Path, pack_data: Path):
     if hasattr(bpy.context.preferences.system, "use_online_access"):
         bpy.context.preferences.system.use_online_access = False
+    print("Loading MPFB as Blender extension package", flush=True)
     module = load_mpfb_extension(mpfb_src)
     bpy.utils.extension_path_user(MPFB_PACKAGE, create=True)
     module.register()
+    print("MPFB registered; installing CC0 system pack", flush=True)
     services = mpfb_services()
     services.LocationService.ensure_relevant_directories_exist()
     user_data = Path(services.LocationService.get_user_data())
     shutil.copytree(pack_data, user_data, dirs_exist_ok=True)
-    services.AssetService.update_all_asset_lists()
+    # Recipes load explicit pack paths, so the UI asset-list cache is unnecessary.
     return module
 
 
@@ -171,6 +173,7 @@ def main(recipe_path: str, pack_data: str, mpfb_src: str, output: str) -> None:
     setup_mpfb(Path(mpfb_src), pack)
     HumanService = mpfb_services().HumanService
 
+    print("Creating base human", flush=True)
     human = HumanService.create_human(
         mask_helpers=True,
         detailed_helpers=False,
@@ -180,9 +183,12 @@ def main(recipe_path: str, pack_data: str, mpfb_src: str, output: str) -> None:
         macro_detail_dict=recipe["macro"],
     )
     human.name = recipe["id"]
+    print("Adding rig, body parts, clothes and skin", flush=True)
     rig = add_assets(recipe, pack, human)
+    print("Baking export meshes", flush=True)
     meshes = bake_export_meshes(rig, human, recipe["subdivision"])
     tune_materials(meshes)
+    print("Exporting GLB", flush=True)
     objects = export_glb(rig, Path(output))
     report = {
         "blender_version": bpy.app.version_string,
