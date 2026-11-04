@@ -40,7 +40,25 @@ The library accepts only assets that can be used, modified, and redistributed wi
 - Exported candidates contain only CC0 base mesh, targets, clothes, and textures from the official system pack.
 - Generated humans are not approved until they pass the same visual and technical gates as downloaded assets.
 
+### Grab3D
+
+- Every published model is dedicated to the public domain under CC0 1.0.
+- The license page explicitly allows commercial use, modification and redistribution without attribution, account or fees.
+- Each download package ships its own `manifest.json` and `LICENSE.txt`; the adapter verifies both before downloading the GLB.
+- Selected realistic human packages are rigged base characters with walk/run clips and 2K PBR textures.
+- Grab3D discloses that many models are AI-assisted: a Meshy image-to-3D draft is cleaned up, scaled, textured and checked in Blender; rigged packages add Meshy Auto-Rig skeletons and clips.
+- The pipeline preserves the package origin disclosure and tags candidates `ai-assisted`; visual approval is still required.
+- Grab3D waives only its own rights. Subjects are described as generic, with no brands, logos or real people.
+
 ## Rejected or deferred candidates
+
+### MB-Lab / ManuelbastioniLAB
+
+MB-Lab data is AGPL-3.0, and generated characters are treated as AGPL derivatives. That is incompatible with the library’s no-strings/unrestricted-use policy, so it was rejected despite being a realistic human generator.
+
+### avatar-studio prebuilt MPFB GLBs
+
+`memoriesrohit/avatar-studio` contains realistic rigged MakeHuman/MPFB-derived GLBs, but the repository `LICENSE` is MIT for code and the CC0 claim for models is README-level. Deferred in favor of sources with explicit per-package CC0 dedications or the official MakeHuman system pack.
 
 ### Kenney “teddy bear”
 

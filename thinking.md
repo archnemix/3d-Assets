@@ -64,3 +64,11 @@ The failed candidates remain unapproved. Their payloads will be replaced by a cl
 **Next gate.** Generated humans must render cleanly from all angles, pass the validator, and receive explicit visual approval before they are saved into `assets/characters/humans/`.
 
 **Follow-up.** The first extension-package retry did not fail fast; it remained in the acquisition/render step long enough to be unhelpful. The pipeline was made cancellable, the build script now prints stage progress, and the unnecessary MPFB UI asset-list cache was removed because recipes load explicit CC0 pack paths. The next retry uses those changes rather than silently waiting on a stuck job.
+
+## 2026-11-04 — Realistic humans need a second source, not only a generator
+
+**Observation.** MakeHuman/MPFB is the cleanest CC0 realistic-human path, but the headless Blender integration has required several CI-only fixes. While the latest preference-registration retry runs, the realistic-human requirement should not depend on a single fragile build path.
+
+**Decision.** Add Grab3D as a direct-download source. Its packages expose a manifest, a package-level CC0 dedication and a GLB. The adapter verifies the manifest license and package license before download, checks the advertised byte count, and preserves the AI-origin disclosure. The first candidates are realistic rigged male/female base characters, not cartoon humans. The same batch also adds a new lighting category and a realistic barber chair so the library keeps broadening.
+
+**Trade-off.** Grab3D models are AI-assisted. That is not hidden: candidates are tagged `ai-assisted`, provenance keeps the upstream disclosure, and approval still requires the same all-angle visual gate. MB-Lab was rejected because AGPL-generated characters conflict with the no-strings policy.

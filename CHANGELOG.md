@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Added a Grab3D source adapter with per-package CC0 manifest/license verification and AI-origin disclosure preservation.
+- Added expansion batch `expansion-05`: realistic rigged male/female base characters, a vintage brass chandelier and a barber shop chair; introduced the `lighting/chandeliers` category.
 - Added a live static library gallery with category chips, search, style/rig filters, sorting, category grouping, auto-refresh, asset detail views, downloads and source/license links.
 - Approved and promoted 28 CC0 assets into the organized `assets/` library, with manifest, category pages, checksums, licenses, previews, logs and review evidence.
 - Added realistic and stylized variants for chairs, tables, sofas, fruit, humans, vehicles, plants, toys, industrial props and retail props.
