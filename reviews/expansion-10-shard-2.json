@@ -1,0 +1,111 @@
+{
+  "batch": "expansion-10",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "decisions": [
+    {
+      "id": "grab3d-goblin",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Goblin tinkerer with oversized pointed ears, brow goggles with separate lenses and strap, patchwork coat with turned cuffs, tool-laden belt, cropped trousers and laced boots. Ear interiors, goggle rims and the rear belt pouches are modelled rather than painted. Facial wrinkles and teeth read clearly at full size. Rigged: 24-bone humanoid armature, walk and run clips, zero unweighted skinned vertices.",
+      "limitations": [
+        "AI-assisted origin (Meshy) is disclosed upstream; some storefronts require AI-content disclosure.",
+        "Goggles are fused to the head and cannot be repositioned.",
+        "Belt tools are part of the single skinned mesh."
+      ],
+      "contact_sheet_sha256": "e2c91429e6e2455d8d60831feab31ab2ac6fad8c5da257af651dd43093238956"
+    },
+    {
+      "id": "grab3d-android",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Feminine android with white porcelain shell panels over dark joint mechanisms at the shoulders, elbows, hips, knees and ankles, a segmented spine channel down the back, and a smooth faceless-calm head with recessed ear discs. Panel gaps and the rear spine are real geometry, not texture. Rigged: 24-bone humanoid armature, walk and run clips, zero unweighted skinned vertices.",
+      "limitations": [
+        "AI-assisted origin (Meshy) is disclosed upstream; some storefronts require AI-content disclosure.",
+        "Shell panels are skinned to the body rather than separately articulated.",
+        "The face has no expression blendshapes."
+      ],
+      "contact_sheet_sha256": "98475ee33c8d1e920e1228e481f57664cda2d2b50a201fedcd90da9362107fab"
+    },
+    {
+      "id": "ph-crystal-chandelier",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Six-arm brass chandelier with pleated fabric shades on curved arms, glass rods and drops between the arms, a turned central column, a long downrod and a ceiling rose. The top and bottom views confirm all six sockets, the central bowl and the underside finial. Title corrected: the shades are pleated fabric and the crystal is in the rods and drops.",
+      "limitations": [
+        "Shades do not emit light by default; add emitters at the six sockets.",
+        "Not rigged: the arms and downrod are fixed.",
+        "Glass rods use simple transparency rather than full dispersion."
+      ],
+      "contact_sheet_sha256": "be0b86db7d75ddd05b9d6814ce764c777d7eeef1ae7814bbc43293e767144aed"
+    },
+    {
+      "id": "ph-ceramic-vase-patterned",
+      "decision": "rejected",
+      "scores": {
+        "silhouette": 4,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 4
+      },
+      "notes": "All 12 views inspected. Rejected on quality, not rights. The piece is a plain square-section tapered vase with an undecorated warm off-white glaze: there is no pattern anywhere on it despite the upstream name. Geometry is clean and the interior and foot ring are correct, but silhouette and material interest both score 4 and the mean of 4.4 falls below the library's 4.6 approval threshold. The library already holds stronger ceramic vases, so this adds volume rather than value.",
+      "limitations": [],
+      "contact_sheet_sha256": "70bf089a2a2b0ba0ba293dab3063febf64974935a7785b7ee6ba9a576fd9ac5a"
+    },
+    {
+      "id": "g3-electric-car",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 4
+      },
+      "notes": "All 12 views inspected. The glass roof and windows are translucent rather than physically refractive.. Panel gaps, glazing, lamp lenses, wheel arches and the underside floorpan are all modelled, and the top and bottom views confirm a closed body with no missing faces. No brand badge, wordmark or number plate appears anywhere.",
+      "limitations": [
+        "Stylized, not photoreal: this is a Cozy-kit vehicle with a simplified pastel palette.",
+        "Wheels are separate objects pivoted on their hubs, so they can be rolled; the body itself is not rigged.",
+        "Interior is simplified; not suitable for a close-up cabin shot."
+      ],
+      "contact_sheet_sha256": "4267461f6e88d727ecdbc5bf604434f8c55c7220b2c52aa257497ef2c98594a1"
+    },
+    {
+      "id": "g3-car-engine",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 4
+      },
+      "notes": "All 12 views inspected. Inline-four engine assembly with a rocker cover, four intake runners, four exhaust headers merging into a downpipe, a belt drive with crank and accessory pulleys, a distributor, dipstick, oil filter, flywheel with a bolt circle, and a sump with a drain plug. Both sides, the top and the sump underside are fully modelled with no open shells.",
+      "limitations": [
+        "Stylized, not photoreal: this is a Cozy-kit vehicle with a simplified pastel palette.",
+        "Static assembly: the crank, pulleys and belt do not animate.",
+        "Stylized rather than a dimensionally accurate replica of any real engine."
+      ],
+      "contact_sheet_sha256": "492dd55f8d0622b40b46da6e5487b8c333607d2aab63541cdb42e592d837472d"
+    }
+  ]
+}

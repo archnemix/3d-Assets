@@ -1,0 +1,459 @@
+{
+  "schema_version": 1,
+  "id": "g3-car-transporter",
+  "title": "Double-deck car transporter",
+  "category": "vehicles/trucks",
+  "style": "stylized",
+  "tags": [
+    "truck",
+    "transporter",
+    "trailer",
+    "haulage",
+    "stylized"
+  ],
+  "batch": "expansion-10",
+  "acquired_at": "2026-11-04T22:48:19.194682+00:00",
+  "review": {
+    "id": "g3-car-transporter",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 4
+    },
+    "notes": "All 12 views inspected. Cab-over tractor with a two-deck lattice trailer carrying two small cars. The trailer is a separate object pivoted on the kingpin so it can articulate, its four wheels are parented to it, all eight wheels roll on their axles and the front pair also steer. Cab windows are translucent with seats, dashboard and steering wheel behind them. No brand or text anywhere.",
+    "limitations": [
+      "Stylized, not photoreal: this is a Cozy-kit vehicle with a simplified pastel palette.",
+      "The two cargo cars are static and cannot be driven off the deck.",
+      "The loading ramps are fixed in the raised position."
+    ],
+    "contact_sheet_sha256": "5fdc57b59d56f94e3bcd7079c4e00077e6dc64cefdb0b6be42bbef4e06812d99",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/car-transporter.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/car-transporter/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/car-transporter/",
+    "source_id": "car-transporter",
+    "revision": "c55ad3eb2a4570a3aa1b591478d4227ac69f6f8747199968500dc974cac27288",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/car-transporter/car-transporter.glb",
+        "bytes": 2385396,
+        "sha256": "c55ad3eb2a4570a3aa1b591478d4227ac69f6f8747199968500dc974cac27288"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/car-transporter/LICENSE.txt"
+  },
+  "model": "model/car-transporter.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 11,
+    "materials": 27,
+    "images": 8,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/car-transporter_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "car-transporter_body_normal"
+    },
+    {
+      "path": "textures/car-transporter_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "car-transporter_body_basecolor"
+    },
+    {
+      "path": "textures/car-transporter_body_metallic-car-transporter_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "car-transporter_body_metallic-car-transporter_body_roughness"
+    },
+    {
+      "path": "textures/car-transporter_tire_normal.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "car-transporter_tire_normal"
+    },
+    {
+      "path": "textures/car-transporter_tire_color.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "car-transporter_tire_color"
+    },
+    {
+      "path": "textures/car-transporter_trailer_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "car-transporter_trailer_normal"
+    },
+    {
+      "path": "textures/car-transporter_trailer_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "car-transporter_trailer_basecolor"
+    },
+    {
+      "path": "textures/car-transporter_trailer_metallic-car-transporter_trailer_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "car-transporter_trailer_metallic-car-transporter_trailer_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 11,
+    "hidden_mesh_objects": 0,
+    "vertices": 27193,
+    "triangles": 29970,
+    "material_slots": 27,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 7,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "car-transporter_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "car-transporter_body_metallic-car-transporter_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "car-transporter_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "car-transporter_tire_color",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "car-transporter_tire_normal",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "car-transporter_trailer_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "car-transporter_trailer_metallic-car-transporter_trailer_roughn",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "car-transporter_trailer_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 10,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1346,
+      "sha256": "adced4d5c1a4f93569a5f67cdfd44841f6f80f93ebb3f17947bc7585209268e4",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 93593,
+      "sha256": "1ff9b22501a6b394589ea07040e4cfd5984ae9f81e356721b6011419b1dd1208",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 32,
+      "sha256": "cef3e32b17cc85b68f251e83ff08de91638ffdd640785357cde40b9059b15d44",
+      "role": "logs"
+    },
+    {
+      "path": "model/car-transporter.glb",
+      "bytes": 2385396,
+      "sha256": "c55ad3eb2a4570a3aa1b591478d4227ac69f6f8747199968500dc974cac27288",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 19595,
+      "sha256": "53d004603a15a760352f63dcf9890f4f42674747f0a8617e342eef0753a21e5a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 27615,
+      "sha256": "f8834366c476fa0d9abb14299e1c362757d54615151f7cf074b9d0e38d5dd245",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 204334,
+      "sha256": "5fdc57b59d56f94e3bcd7079c4e00077e6dc64cefdb0b6be42bbef4e06812d99",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1679,
+      "sha256": "7a9be662e6acf687677c4bacac70e1113e011bc76e4929a04108ef0055967137",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 27581,
+      "sha256": "5bf2a41edc4858b8125d7555513b02ada9b67b25153d37c3e0a80d0b573dec57",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 32853,
+      "sha256": "445dd2c643f9ebb74308cb1bd3f0f94986e821d7c01934fcf8e7ac99e0fc05eb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 24961,
+      "sha256": "ac2a8a5abeb789f0db3d0581afd76b6a6af523a88b3f17a6eab83e71aa147bf4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 30763,
+      "sha256": "4a22e68fe489186a809535038e5c2e797f0ade168bdd8efc2d8be6e3a8ba7a0e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 25655,
+      "sha256": "25eddbd1fb60745f8c12839c8985a197f5b9f270fcf01f4aa1969cdf6d2a791e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 31287,
+      "sha256": "898164028d7a9f84f7225123b3a9370fca64b315602790802129524f02de9623",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 25606,
+      "sha256": "99b01c553d36691dd39999bc3423ee2d7e425c979bebf7daf3f63f71ed96c53e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 33207,
+      "sha256": "72cc43394e27d219a8bf87ff347e129b3f8d79ca3d3f01a2214235ea8b58a7ac",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 17522,
+      "sha256": "d808f407c83b61d731cb5410cecc58fe900189dd4409b9087f3b8ea6960ed282",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 42838,
+      "sha256": "c569a98b228e6157cae832dc4ec5092517702f12364b169184535555f81282d5",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 9296,
+      "sha256": "75ea9e166bc0881519c5211c480a7161b8d7873d66d8310d253dc086ebf76d0b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1983,
+      "sha256": "078627dbc4f6b183a8940796c39dbfbe56e8f72ca246f72734d972f92c001896",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 516,
+      "sha256": "31a8f70f960186e2dbf8b6facdd43b2e21bab45d490c5b274d9f0fb4cdbb6f87",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "7fd3edf10a2f46aa8fe66a3ec13732a9eeded26636b36e99ec8ed6d77559b14f",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1087,
+      "sha256": "d92ff951cdc462722d89346e351ef86527a92636523813834f76fe3f80b23e1e",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/car-transporter_body_basecolor.jpg",
+      "bytes": 334346,
+      "sha256": "c7c11aced37c96a4f4c2f548165ea88f220b01167326b587d1d709c840b30530",
+      "role": "textures"
+    },
+    {
+      "path": "textures/car-transporter_body_metallic-car-transporter_body_roughness.jpg",
+      "bytes": 286256,
+      "sha256": "d83fe743445de6c8beb39ca2ebf2ebce97df3bbaad4d7e59aa44863ffde30aa6",
+      "role": "textures"
+    },
+    {
+      "path": "textures/car-transporter_body_normal.jpg",
+      "bytes": 67736,
+      "sha256": "8b1602f166361f40791cfdfef9041d9f0fd73902ee1d589c8521c057ac4533a5",
+      "role": "textures"
+    },
+    {
+      "path": "textures/car-transporter_tire_color.jpg",
+      "bytes": 1541,
+      "sha256": "e06aed30af9f6cdcf4c5b48c00ddb50f4df636392976d72e0049ca9ed36be0c4",
+      "role": "textures"
+    },
+    {
+      "path": "textures/car-transporter_tire_normal.jpg",
+      "bytes": 2142,
+      "sha256": "ed320a0e6b5a408fb76e508cbf92a33cfd2b8c49642f900804239d9a47ee497f",
+      "role": "textures"
+    },
+    {
+      "path": "textures/car-transporter_trailer_basecolor.jpg",
+      "bytes": 319623,
+      "sha256": "26ddd2ca5837841d5ea0d766eb9751669306d208682c8b6023d7c99c713b1509",
+      "role": "textures"
+    },
+    {
+      "path": "textures/car-transporter_trailer_metallic-car-transporter_trailer_roughness.jpg",
+      "bytes": 263488,
+      "sha256": "25b20d37cce1c84c8260f72da3eb383a78d54168f3a5cdb5ddd9d8c3c45d4c94",
+      "role": "textures"
+    },
+    {
+      "path": "textures/car-transporter_trailer_normal.jpg",
+      "bytes": 66821,
+      "sha256": "9b8e54643a0c4455a5dbaf2cafc0cedb6cac8fec06d7af9d6d6a7903e1816c67",
+      "role": "textures"
+    }
+  ]
+}

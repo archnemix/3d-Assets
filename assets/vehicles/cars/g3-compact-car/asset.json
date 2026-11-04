@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "id": "g3-compact-car",
+  "title": "Small hatchback compact car",
+  "category": "vehicles/cars",
+  "style": "stylized",
+  "tags": [
+    "car",
+    "hatchback",
+    "compact",
+    "city",
+    "stylized"
+  ],
+  "batch": "expansion-10",
+  "acquired_at": "2026-11-04T22:51:18.473192+00:00",
+  "review": {
+    "id": "g3-compact-car",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 4
+    },
+    "notes": "All 12 views inspected. The cabin is a simplified shell without a full dashboard.. Panel gaps, glazing, lamp lenses, wheel arches and the underside floorpan are all modelled, and the top and bottom views confirm a closed body with no missing faces. No brand badge, wordmark or number plate appears anywhere.",
+    "limitations": [
+      "Stylized, not photoreal: this is a Cozy-kit vehicle with a simplified pastel palette.",
+      "Wheels are separate objects pivoted on their hubs, so they can be rolled; the body itself is not rigged.",
+      "Interior is simplified; not suitable for a close-up cabin shot."
+    ],
+    "contact_sheet_sha256": "0c6b83f1937c685ee44964b66a8a393e82232ca29240e1b3dc62e72a67965f57",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/compact-car.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/compact-car/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/compact-car/",
+    "source_id": "compact-car",
+    "revision": "485a12d20e17cd5688f65b9a6ee6325e2d7089dde79553f65ee473f55a38a79f",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/compact-car/compact-car.glb",
+        "bytes": 1156756,
+        "sha256": "485a12d20e17cd5688f65b9a6ee6325e2d7089dde79553f65ee473f55a38a79f"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/compact-car/LICENSE.txt"
+  },
+  "model": "model/compact-car.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 6,
+    "materials": 18,
+    "images": 5,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/compact-car_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "compact-car_body_normal"
+    },
+    {
+      "path": "textures/compact-car_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "compact-car_body_basecolor"
+    },
+    {
+      "path": "textures/compact-car_body_metallic-compact-car_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "compact-car_body_metallic-compact-car_body_roughness"
+    },
+    {
+      "path": "textures/compact-car_tire_normal.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "compact-car_tire_normal"
+    },
+    {
+      "path": "textures/compact-car_tire_color.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "compact-car_tire_color"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 6,
+    "hidden_mesh_objects": 0,
+    "vertices": 13897,
+    "triangles": 17338,
+    "material_slots": 18,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 4,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "compact-car_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "compact-car_body_metallic-compact-car_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "compact-car_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "compact-car_tire_color",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "compact-car_tire_normal",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 5,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1387,
+      "sha256": "2d4d30f74f0ab049e0a23b118427f6d8a981056afe9612dfd321df28334e3b1d",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 77338,
+      "sha256": "d2d4e9f95eaf0dea049218beccfce9df5771219cf61f8c62fa207dbc02a02589",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "998ef207bb56a5da54cfc753f6cf05bd6985e629781c1ba33f1562c902587ed1",
+      "role": "logs"
+    },
+    {
+      "path": "model/compact-car.glb",
+      "bytes": 1156756,
+      "sha256": "485a12d20e17cd5688f65b9a6ee6325e2d7089dde79553f65ee473f55a38a79f",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 19622,
+      "sha256": "97fb5cfd91d5d90605cf9b5645d43ceec675cf847a48aabf0bf314c32066e900",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18528,
+      "sha256": "ca6a7d19b34ff6f7f707442aefe8ba780330bf1d357f5cb59a2d47f9e8794a21",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 195562,
+      "sha256": "0c6b83f1937c685ee44964b66a8a393e82232ca29240e1b3dc62e72a67965f57",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1132,
+      "sha256": "65e44c9ee870f93ddbc302d9f38fd36473c5bc5d120b77ac97220dea14014466",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 27719,
+      "sha256": "addbc7e022e04787b2124985648948618941a4b70bac83dd8ff2903f375f2e21",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 24292,
+      "sha256": "c081baae575d3efd5f51ab84b33f9ad306ab388abca54b251a1dadcc49c96b06",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 22366,
+      "sha256": "1268fa263954d282b622f14967545fc51092045fcce2bd6e9080c9ea8a51e7ff",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 23022,
+      "sha256": "a1d4ab0541b0eb125099665b84e46528b173ae9b3248ef7e7ab5f456733ebdc3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 29644,
+      "sha256": "407592b9e0bf26f721073599169ac39b77522d897cdccaf5b9d0f519081719fc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 24430,
+      "sha256": "7b1d9da7bbdc01b2e7cdedfe3b574e0fa24b8df4240a62c66c236514f0222b4a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 24029,
+      "sha256": "325658a25996c4befc5ac55b130749c2149d40bff184f8f9a6e693faaf023e3a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 26071,
+      "sha256": "c614d6c565ada50435c32382d0c16187162bcdefffa4967189ceac30dd21092f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 19153,
+      "sha256": "d406883cdf9eda1b3b28fce0014b20678ec8b5fbd43ac3b56a71527d68179d69",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 46208,
+      "sha256": "53e606fe2dc4714cd3671697d6ef025017150840b0b4909aa616864c1ba9ca1c",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 6171,
+      "sha256": "89b8ff7b5af744e23ce69d94d886ada9ce3b4ac26c27d077c2cf28eeeea4227c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1495,
+      "sha256": "800cd144709689b802217da01f2e33953c8777224ea01bb27776978e6bb7298c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 484,
+      "sha256": "372732ae191a8ec09524b4d1b30e577638bd14c97ec5a290eeb462111f304f8b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "242d11a9870ab45954473db28a3f833a8dff3f02b255ae346e9afc9ac910cf87",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1054,
+      "sha256": "6d75d11d5a026026f90cdc2858f0c0633489fd48500a3187bdef10e91459d9c9",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/compact-car_body_basecolor.jpg",
+      "bytes": 276117,
+      "sha256": "fc888bbe3ad802984f9a9917d6cb7c103ae22e186bf5d7b56b111bd46743dc94",
+      "role": "textures"
+    },
+    {
+      "path": "textures/compact-car_body_metallic-compact-car_body_roughness.jpg",
+      "bytes": 262975,
+      "sha256": "04ec66f0014a54686e1a7cfd89b7f28d5bb50839127681380b106113c6978852",
+      "role": "textures"
+    },
+    {
+      "path": "textures/compact-car_body_normal.jpg",
+      "bytes": 66908,
+      "sha256": "26438d0084adeb432954e09df42d38c37ed6815b26494625b97cef487520c74f",
+      "role": "textures"
+    },
+    {
+      "path": "textures/compact-car_tire_color.jpg",
+      "bytes": 1539,
+      "sha256": "9a26cd08e0224cc42916de18d402a711edeee7659c6a944e67dae2b4e9b09f91",
+      "role": "textures"
+    },
+    {
+      "path": "textures/compact-car_tire_normal.jpg",
+      "bytes": 2114,
+      "sha256": "1ac12a81a5ccc3fb6b78601a0b9665ecb4251b6a18602b230f6c025b54cd930c",
+      "role": "textures"
+    }
+  ]
+}

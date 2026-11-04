@@ -2,7 +2,39 @@
 
 Human characters, including stylized game characters and realistic proportioned people
 
-Approved assets: **8**
+Approved assets: **14**
+
+## Toddler in knitted romper
+
+![Toddler in knitted romper](../../assets/characters/humans/grab3d-baby-toddler/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: realistic; CC0-1.0
+- 299,999 triangles; 3 texture images
+- [Asset folder](../../assets/characters/humans/grab3d-baby-toddler/) · [Metadata](../../assets/characters/humans/grab3d-baby-toddler/asset.json) · [All inspection views](../../assets/characters/humans/grab3d-baby-toddler/previews/contact-sheet.jpg)
+
+## Businessman in pinstripe suit
+
+![Businessman in pinstripe suit](../../assets/characters/humans/grab3d-businessman/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 233,099 triangles; 3 texture images
+- [Asset folder](../../assets/characters/humans/grab3d-businessman/) · [Metadata](../../assets/characters/humans/grab3d-businessman/asset.json) · [All inspection views](../../assets/characters/humans/grab3d-businessman/previews/contact-sheet.jpg)
+
+## Casual man in bomber jacket
+
+![Casual man in bomber jacket](../../assets/characters/humans/grab3d-casual-man/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 244,257 triangles; 3 texture images
+- [Asset folder](../../assets/characters/humans/grab3d-casual-man/) · [Metadata](../../assets/characters/humans/grab3d-casual-man/asset.json) · [All inspection views](../../assets/characters/humans/grab3d-casual-man/previews/contact-sheet.jpg)
+
+## Desert queen with headdress
+
+![Desert queen with headdress](../../assets/characters/humans/grab3d-desert-queen/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: realistic; CC0-1.0
+- 300,000 triangles; 3 texture images
+- [Asset folder](../../assets/characters/humans/grab3d-desert-queen/) · [Metadata](../../assets/characters/humans/grab3d-desert-queen/asset.json) · [All inspection views](../../assets/characters/humans/grab3d-desert-queen/previews/contact-sheet.jpg)
 
 ## Realistic elderly woman, rigged
 
@@ -19,6 +51,14 @@ Approved assets: **8**
 - Creator: Grab3D; style: realistic; CC0-1.0
 - 262,348 triangles; 3 texture images
 - [Asset folder](../../assets/characters/humans/grab3d-man-base-character/) · [Metadata](../../assets/characters/humans/grab3d-man-base-character/asset.json) · [All inspection views](../../assets/characters/humans/grab3d-man-base-character/previews/contact-sheet.jpg)
+
+## Ninja in indigo wraps
+
+![Ninja in indigo wraps](../../assets/characters/humans/grab3d-ninja/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: realistic; CC0-1.0
+- 300,000 triangles; 3 texture images
+- [Asset folder](../../assets/characters/humans/grab3d-ninja/) · [Metadata](../../assets/characters/humans/grab3d-ninja/asset.json) · [All inspection views](../../assets/characters/humans/grab3d-ninja/previews/contact-sheet.jpg)
 
 ## Pirate captain with cutlass
 
@@ -43,6 +83,14 @@ Approved assets: **8**
 - Creator: Grab3D; style: realistic; CC0-1.0
 - 278,969 triangles; 3 texture images
 - [Asset folder](../../assets/characters/humans/grab3d-soldier/) · [Metadata](../../assets/characters/humans/grab3d-soldier/asset.json) · [All inspection views](../../assets/characters/humans/grab3d-soldier/previews/contact-sheet.jpg)
+
+## Winter king in ermine cape
+
+![Winter king in ermine cape](../../assets/characters/humans/grab3d-winter-king/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: realistic; CC0-1.0
+- 300,000 triangles; 3 texture images
+- [Asset folder](../../assets/characters/humans/grab3d-winter-king/) · [Metadata](../../assets/characters/humans/grab3d-winter-king/asset.json) · [All inspection views](../../assets/characters/humans/grab3d-winter-king/previews/contact-sheet.jpg)
 
 ## Realistic adult female base character, rigged
 

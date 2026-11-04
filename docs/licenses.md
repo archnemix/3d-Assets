@@ -2,7 +2,7 @@
 
 Checked on 2026-11-04. Scope: approved assets under assets/ only.
 
-**110 of 110 approved assets pass every check.**
+**139 of 139 approved assets pass every check.**
 
 Every approved asset is dedicated to the public domain under CC0 1.0. For each one
 that means: no cost, no attribution, commercial use allowed, use and redistribution
@@ -21,22 +21,38 @@ standalone. "Display" means showing the model and our own renders publicly.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Knight in silver and gold plate](../assets/characters/fantasy/grab3d-armored-knight/README.md) | `characters/fantasy` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Dwarf gem cutter with loupe](../assets/characters/fantasy/grab3d-dwarf/README.md) | `characters/fantasy` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Elf cartographer with map tube](../assets/characters/fantasy/grab3d-elf/README.md) | `characters/fantasy` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Goblin tinkerer with goggles](../assets/characters/fantasy/grab3d-goblin/README.md) | `characters/fantasy` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Orc warrior in steppe coat with quiver](../assets/characters/fantasy/grab3d-orc/README.md) | `characters/fantasy` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Mossy bridge troll](../assets/characters/fantasy/grab3d-troll/README.md) | `characters/fantasy` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Herbalist witch with potion jars](../assets/characters/fantasy/grab3d-witch/README.md) | `characters/fantasy` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Toddler in knitted romper](../assets/characters/humans/grab3d-baby-toddler/README.md) | `characters/humans` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Businessman in pinstripe suit](../assets/characters/humans/grab3d-businessman/README.md) | `characters/humans` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Casual man in bomber jacket](../assets/characters/humans/grab3d-casual-man/README.md) | `characters/humans` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Desert queen with headdress](../assets/characters/humans/grab3d-desert-queen/README.md) | `characters/humans` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Realistic elderly woman, rigged](../assets/characters/humans/grab3d-elderly-woman/README.md) | `characters/humans` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Realistic adult male base character, rigged](../assets/characters/humans/grab3d-man-base-character/README.md) | `characters/humans` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Ninja in indigo wraps](../assets/characters/humans/grab3d-ninja/README.md) | `characters/humans` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Pirate captain with cutlass](../assets/characters/humans/grab3d-pirate-captain/README.md) | `characters/humans` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Samurai in lacquered armour](../assets/characters/humans/grab3d-samurai/README.md) | `characters/humans` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Modern soldier in digital camouflage](../assets/characters/humans/grab3d-soldier/README.md) | `characters/humans` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Winter king in ermine cape](../assets/characters/humans/grab3d-winter-king/README.md) | `characters/humans` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Realistic adult female base character, rigged](../assets/characters/humans/grab3d-woman-base-character/README.md) | `characters/humans` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Kenney mini female character](../assets/characters/humans/kenney-female-character/README.md) | `characters/humans` | Kenney (kenney) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Kenney mini male character](../assets/characters/humans/kenney-male-character/README.md) | `characters/humans` | Kenney (kenney) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Porcelain shell android](../assets/characters/scifi/grab3d-android/README.md) | `characters/scifi` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Astronaut in EVA spacesuit](../assets/characters/scifi/grab3d-astronaut/README.md) | `characters/scifi` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Cyborg with prosthetic limbs](../assets/characters/scifi/grab3d-cyborg/README.md) | `characters/scifi` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Grey alien in fitted suit](../assets/characters/scifi/grab3d-grey-alien/README.md) | `characters/scifi` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Leather-bound encyclopedia set](../assets/decor/books/ph-encyclopedia-set/README.md) | `decor/books` | John Malcolm (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Blue floral antique ceramic vase](../assets/decor/vases/ph-antique-ceramic-vase/README.md) | `decor/vases` | James Ray Cock (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Engraved antique brass vase](../assets/decor/vases/ph-brass-vase/README.md) | `decor/vases` | Rico Cilliers (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Long-necked brass ewer with handle](../assets/decor/vases/ph-brass-vase-bulb/README.md) | `decor/vases` | Rico Cilliers (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Flared antique brass vase](../assets/decor/vases/ph-brass-vase-flared/README.md) | `decor/vases` | Rico Cilliers (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Brass handled pitcher with pour notch](../assets/decor/vases/ph-brass-vase-tapered/README.md) | `decor/vases` | Rico Cilliers (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Modern fluted white ceramic vase](../assets/decor/vases/ph-ceramic-vase/README.md) | `decor/vases` | James Ray Cock (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Painted clay ceramic vase](../assets/decor/vases/ph-ceramic-vase-painted/README.md) | `decor/vases` | James Ray Cock (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Stone-finish ceramic vase](../assets/decor/vases/ph-ceramic-vase-stone/README.md) | `decor/vases` | James Ray Cock (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Exterior air conditioning unit](../assets/electronics/appliances/ph-aircon-unit/README.md) | `electronics/appliances` | Monsta3D (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Modern ceiling fan with light](../assets/electronics/appliances/ph-ceiling-fan/README.md) | `electronics/appliances` | Ulan Cabanilla (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Eighties portable boombox](../assets/electronics/audio/ph-boombox/README.md) | `electronics/audio` | Thomas Paul Mouilleron (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -99,6 +115,8 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Industrial caged fluorescent pendant](../assets/lighting/ceiling/ph-caged-hanging-light/README.md) | `lighting/ceiling` | Ulan Cabanilla (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Vintage brass chandelier](../assets/lighting/chandeliers/ph-brass-chandelier/README.md) | `lighting/chandeliers` | Kirill Sannikov (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Carved Chinese wooden chandelier](../assets/lighting/chandeliers/ph-chinese-chandelier/README.md) | `lighting/chandeliers` | Kirill Sannikov (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Six-arm brass chandelier with pleated shades](../assets/lighting/chandeliers/ph-crystal-chandelier/README.md) | `lighting/chandeliers` | Kirill Sannikov (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Ornate bronze chandelier](../assets/lighting/chandeliers/ph-ornate-chandelier/README.md) | `lighting/chandeliers` | Kirill Sannikov (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Ornate brass candleholders](../assets/lighting/lamps/ph-brass-candleholders/README.md) | `lighting/lamps` | Tina (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Hanging brass diya lantern](../assets/lighting/lamps/ph-brass-diya-lantern/README.md) | `lighting/lamps` | Bhargav Kubal (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Articulated industrial lamp arm](../assets/lighting/lamps/ph-desk-lamp-arm/README.md) | `lighting/lamps` | Yann Kervran, Kuutti Siitonen (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -122,9 +140,20 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Vintage workshop drill press](../assets/tools/power-tools/ph-drill-press/README.md) | `tools/power-tools` | Viktor (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Rusted steel tool chest](../assets/tools/storage/ph-tool-chest/README.md) | `tools/storage` | Yann Kervran, John Hutcheson (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Worn rubber duck toy](../assets/toys/figures/ph-rubber-duck-toy/README.md) | `toys/figures` | Plat251 (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [1960s sports car](../assets/vehicles/cars/g3-1960s-sports-car/README.md) | `vehicles/cars` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [1980s wedge sports car](../assets/vehicles/cars/g3-1980s-sports-car/README.md) | `vehicles/cars` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [1990s police patrol car](../assets/vehicles/cars/g3-1990s-police-car/README.md) | `vehicles/cars` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Small hatchback compact car](../assets/vehicles/cars/g3-compact-car/README.md) | `vehicles/cars` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Compact electric city car](../assets/vehicles/cars/g3-electric-car/README.md) | `vehicles/cars` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Classic fastback muscle car](../assets/vehicles/cars/g3-muscle-car/README.md) | `vehicles/cars` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Rally car with roof scoop](../assets/vehicles/cars/g3-rally-car/README.md) | `vehicles/cars` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Kenney go-kart](../assets/vehicles/cars/kenney-go-kart/README.md) | `vehicles/cars` | Kenney (kenney) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Kenney sports hatchback](../assets/vehicles/cars/kenney-sports-hatchback/README.md) | `vehicles/cars` | Kenney (kenney) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Kenney sports sedan](../assets/vehicles/cars/kenney-sports-sedan/README.md) | `vehicles/cars` | Kenney (kenney) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Car engine block assembly](../assets/vehicles/parts/g3-car-engine/README.md) | `vehicles/parts` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Car tyre with tread pattern](../assets/vehicles/parts/g3-car-tire/README.md) | `vehicles/parts` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Double-deck car transporter](../assets/vehicles/trucks/g3-car-transporter/README.md) | `vehicles/trucks` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Dutch merchant sailing ship](../assets/vehicles/watercraft/ph-dutch-merchant-ship/README.md) | `vehicles/watercraft` | James Ray Cock, Rico Cilliers, Nicolò Zubbini (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Colonial ship cannon](../assets/weapons/artillery/ph-cannon/README.md) | `weapons/artillery` | Yann Kervran, James Ray Cock (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [WW2 wooden stick grenade](../assets/weapons/explosives/ph-stick-grenade/README.md) | `weapons/explosives` | singaii (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Weathered bolt-action 7.62 rifle](../assets/weapons/firearms/ph-bolt-action-rifle/README.md) | `weapons/firearms` | Mateusz Sadek (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -143,7 +172,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 
 ### Grab3D — `grab3d`
 
-11 approved assets. Status: **verified**.
+33 approved assets. Status: **verified**.
 
 - Terms: <https://grab3d.com/license/>
 - Pinned evidence: <https://grab3d.com/license/>
@@ -168,7 +197,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 
 ### Poly Haven — `polyhaven`
 
-89 approved assets. Status: **verified**.
+96 approved assets. Status: **verified**.
 
 - Terms: <https://polyhaven.com/license>
 - Pinned evidence: <https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md>
@@ -182,16 +211,38 @@ standalone. "Display" means showing the model and our own renders publicly.
 
 | Asset | Note |
 | --- | --- |
+| [1960s sports car](../assets/vehicles/cars/g3-1960s-sports-car/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [1980s wedge sports car](../assets/vehicles/cars/g3-1980s-sports-car/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [1990s police patrol car](../assets/vehicles/cars/g3-1990s-police-car/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Car engine block assembly](../assets/vehicles/parts/g3-car-engine/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Car tyre with tread pattern](../assets/vehicles/parts/g3-car-tire/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Double-deck car transporter](../assets/vehicles/trucks/g3-car-transporter/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Small hatchback compact car](../assets/vehicles/cars/g3-compact-car/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Compact electric city car](../assets/vehicles/cars/g3-electric-car/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Classic fastback muscle car](../assets/vehicles/cars/g3-muscle-car/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Rally car with roof scoop](../assets/vehicles/cars/g3-rally-car/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Porcelain shell android](../assets/characters/scifi/grab3d-android/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Knight in silver and gold plate](../assets/characters/fantasy/grab3d-armored-knight/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Astronaut in EVA spacesuit](../assets/characters/scifi/grab3d-astronaut/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Toddler in knitted romper](../assets/characters/humans/grab3d-baby-toddler/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Businessman in pinstripe suit](../assets/characters/humans/grab3d-businessman/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Casual man in bomber jacket](../assets/characters/humans/grab3d-casual-man/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Cyborg with prosthetic limbs](../assets/characters/scifi/grab3d-cyborg/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Desert queen with headdress](../assets/characters/humans/grab3d-desert-queen/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Dwarf gem cutter with loupe](../assets/characters/fantasy/grab3d-dwarf/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Realistic elderly woman, rigged](../assets/characters/humans/grab3d-elderly-woman/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Elf cartographer with map tube](../assets/characters/fantasy/grab3d-elf/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Goblin tinkerer with goggles](../assets/characters/fantasy/grab3d-goblin/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Grey alien in fitted suit](../assets/characters/scifi/grab3d-grey-alien/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Realistic adult male base character, rigged](../assets/characters/humans/grab3d-man-base-character/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Ninja in indigo wraps](../assets/characters/humans/grab3d-ninja/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Orc warrior in steppe coat with quiver](../assets/characters/fantasy/grab3d-orc/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Pirate captain with cutlass](../assets/characters/humans/grab3d-pirate-captain/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Samurai in lacquered armour](../assets/characters/humans/grab3d-samurai/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Modern soldier in digital camouflage](../assets/characters/humans/grab3d-soldier/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Mossy bridge troll](../assets/characters/fantasy/grab3d-troll/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Winter king in ermine cape](../assets/characters/humans/grab3d-winter-king/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Herbalist witch with potion jars](../assets/characters/fantasy/grab3d-witch/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Realistic adult female base character, rigged](../assets/characters/humans/grab3d-woman-base-character/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Kenney stylized apple](../assets/food/fruit/kenney-apple/README.md) | Third-party GLB conversion of a Kenney pack; conversion and embedded textures are also CC0. |
 | [Kenney coffee table](../assets/furniture/tables/kenney-coffee-table/README.md) | Third-party GLB conversion of a Kenney pack; conversion and embedded textures are also CC0. |
@@ -210,19 +261,19 @@ Every check below is machine-verified by `python -m asset_library license-audit`
 
 | Check | Passing |
 | --- | --- |
-| `cc0_spdx` | 110/110 |
-| `cc0_text_present` | 110/110 |
-| `commercial_use_allowed` | 110/110 |
-| `evidence_recorded` | 110/110 |
-| `free_of_charge` | 110/110 |
-| `license_file_checksummed` | 110/110 |
-| `no_attribution_required` | 110/110 |
-| `no_trademark_warning` | 110/110 |
-| `redistribution_allowed` | 110/110 |
-| `source_terms_verified` | 110/110 |
-| `standalone_resale_permitted` | 110/110 |
-| `textures_included` | 110/110 |
-| `visually_approved` | 110/110 |
+| `cc0_spdx` | 139/139 |
+| `cc0_text_present` | 139/139 |
+| `commercial_use_allowed` | 139/139 |
+| `evidence_recorded` | 139/139 |
+| `free_of_charge` | 139/139 |
+| `license_file_checksummed` | 139/139 |
+| `no_attribution_required` | 139/139 |
+| `no_trademark_warning` | 139/139 |
+| `redistribution_allowed` | 139/139 |
+| `source_terms_verified` | 139/139 |
+| `standalone_resale_permitted` | 139/139 |
+| `textures_included` | 139/139 |
+| `visually_approved` | 139/139 |
 
 ## Evidence per asset
 
@@ -231,16 +282,38 @@ Each row links to the license file stored beside the model and to the exact
 
 | Asset | License file | SHA-256 (first 12) | Source | Evidence |
 | --- | --- | --- | --- | --- |
+| g3-1960s-sports-car | [LICENSE.txt](../assets/vehicles/cars/g3-1960s-sports-car/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/1960s-sports-car/) | [evidence](https://grab3d.com/dl/1960s-sports-car/LICENSE.txt) |
+| g3-1980s-sports-car | [LICENSE.txt](../assets/vehicles/cars/g3-1980s-sports-car/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/1980s-sports-car/) | [evidence](https://grab3d.com/dl/1980s-sports-car/LICENSE.txt) |
+| g3-1990s-police-car | [LICENSE.txt](../assets/vehicles/cars/g3-1990s-police-car/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/1990s-police-car/) | [evidence](https://grab3d.com/dl/1990s-police-car/LICENSE.txt) |
+| g3-car-engine | [LICENSE.txt](../assets/vehicles/parts/g3-car-engine/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/car-engine/) | [evidence](https://grab3d.com/dl/car-engine/LICENSE.txt) |
+| g3-car-tire | [LICENSE.txt](../assets/vehicles/parts/g3-car-tire/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/car-tire/) | [evidence](https://grab3d.com/dl/car-tire/LICENSE.txt) |
+| g3-car-transporter | [LICENSE.txt](../assets/vehicles/trucks/g3-car-transporter/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/car-transporter/) | [evidence](https://grab3d.com/dl/car-transporter/LICENSE.txt) |
+| g3-compact-car | [LICENSE.txt](../assets/vehicles/cars/g3-compact-car/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/compact-car/) | [evidence](https://grab3d.com/dl/compact-car/LICENSE.txt) |
+| g3-electric-car | [LICENSE.txt](../assets/vehicles/cars/g3-electric-car/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/electric-car/) | [evidence](https://grab3d.com/dl/electric-car/LICENSE.txt) |
+| g3-muscle-car | [LICENSE.txt](../assets/vehicles/cars/g3-muscle-car/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/muscle-car/) | [evidence](https://grab3d.com/dl/muscle-car/LICENSE.txt) |
+| g3-rally-car | [LICENSE.txt](../assets/vehicles/cars/g3-rally-car/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/rally-car/) | [evidence](https://grab3d.com/dl/rally-car/LICENSE.txt) |
+| grab3d-android | [LICENSE.txt](../assets/characters/scifi/grab3d-android/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/android/) | [evidence](https://grab3d.com/dl/android-rigged/LICENSE.txt) |
 | grab3d-armored-knight | [LICENSE.txt](../assets/characters/fantasy/grab3d-armored-knight/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/armored-knight/) | [evidence](https://grab3d.com/dl/armored-knight-rigged/LICENSE.txt) |
 | grab3d-astronaut | [LICENSE.txt](../assets/characters/scifi/grab3d-astronaut/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/astronaut-in-spacesuit/) | [evidence](https://grab3d.com/dl/astronaut-in-spacesuit-rigged/LICENSE.txt) |
+| grab3d-baby-toddler | [LICENSE.txt](../assets/characters/humans/grab3d-baby-toddler/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/baby-character/) | [evidence](https://grab3d.com/dl/baby-character-rigged/LICENSE.txt) |
+| grab3d-businessman | [LICENSE.txt](../assets/characters/humans/grab3d-businessman/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/businessman/) | [evidence](https://grab3d.com/dl/businessman-rigged/LICENSE.txt) |
+| grab3d-casual-man | [LICENSE.txt](../assets/characters/humans/grab3d-casual-man/LICENSE.txt) | `3e198bc4f11d` | [source](https://grab3d.com/models/characters/man/) | [evidence](https://grab3d.com/dl/man-rigged/LICENSE.txt) |
 | grab3d-cyborg | [LICENSE.txt](../assets/characters/scifi/grab3d-cyborg/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/cyborg/) | [evidence](https://grab3d.com/dl/cyborg-rigged/LICENSE.txt) |
+| grab3d-desert-queen | [LICENSE.txt](../assets/characters/humans/grab3d-desert-queen/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/queen/) | [evidence](https://grab3d.com/dl/queen-rigged/LICENSE.txt) |
 | grab3d-dwarf | [LICENSE.txt](../assets/characters/fantasy/grab3d-dwarf/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/dwarf/) | [evidence](https://grab3d.com/dl/dwarf-rigged/LICENSE.txt) |
 | grab3d-elderly-woman | [LICENSE.txt](../assets/characters/humans/grab3d-elderly-woman/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/elderly-woman/) | [evidence](https://grab3d.com/dl/elderly-woman-rigged/LICENSE.txt) |
+| grab3d-elf | [LICENSE.txt](../assets/characters/fantasy/grab3d-elf/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/elf/) | [evidence](https://grab3d.com/dl/elf-rigged/LICENSE.txt) |
+| grab3d-goblin | [LICENSE.txt](../assets/characters/fantasy/grab3d-goblin/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/goblin/) | [evidence](https://grab3d.com/dl/goblin-rigged/LICENSE.txt) |
+| grab3d-grey-alien | [LICENSE.txt](../assets/characters/scifi/grab3d-grey-alien/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/alien-grey/) | [evidence](https://grab3d.com/dl/alien-grey-rigged/LICENSE.txt) |
 | grab3d-man-base-character | [LICENSE.txt](../assets/characters/humans/grab3d-man-base-character/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/man-base-character/) | [evidence](https://grab3d.com/dl/man-base-character-rigged/LICENSE.txt) |
+| grab3d-ninja | [LICENSE.txt](../assets/characters/humans/grab3d-ninja/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/ninja/) | [evidence](https://grab3d.com/dl/ninja-rigged/LICENSE.txt) |
 | grab3d-orc | [LICENSE.txt](../assets/characters/fantasy/grab3d-orc/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/orc/) | [evidence](https://grab3d.com/dl/orc-rigged/LICENSE.txt) |
 | grab3d-pirate-captain | [LICENSE.txt](../assets/characters/humans/grab3d-pirate-captain/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/pirate/) | [evidence](https://grab3d.com/dl/pirate-rigged/LICENSE.txt) |
 | grab3d-samurai | [LICENSE.txt](../assets/characters/humans/grab3d-samurai/LICENSE.txt) | `3e198bc4f11d` | [source](https://grab3d.com/models/characters/samurai/) | [evidence](https://grab3d.com/dl/samurai-rigged/LICENSE.txt) |
 | grab3d-soldier | [LICENSE.txt](../assets/characters/humans/grab3d-soldier/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/soldier/) | [evidence](https://grab3d.com/dl/soldier-rigged/LICENSE.txt) |
+| grab3d-troll | [LICENSE.txt](../assets/characters/fantasy/grab3d-troll/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/troll/) | [evidence](https://grab3d.com/dl/troll-rigged/LICENSE.txt) |
+| grab3d-winter-king | [LICENSE.txt](../assets/characters/humans/grab3d-winter-king/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/king/) | [evidence](https://grab3d.com/dl/king-rigged/LICENSE.txt) |
+| grab3d-witch | [LICENSE.txt](../assets/characters/fantasy/grab3d-witch/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/witch/) | [evidence](https://grab3d.com/dl/witch-rigged/LICENSE.txt) |
 | grab3d-woman-base-character | [LICENSE.txt](../assets/characters/humans/grab3d-woman-base-character/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/woman-base-character/) | [evidence](https://grab3d.com/dl/woman-base-character-rigged/LICENSE.txt) |
 | kenney-apple | [LICENSE.txt](../assets/food/fruit/kenney-apple/LICENSE.txt) | `6913dd72bdc2` | [source](https://github.com/Hidencod/tge-assets/blob/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/food-kit/apple.glb) | [evidence](https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE) |
 | kenney-coffee-table | [LICENSE.txt](../assets/furniture/tables/kenney-coffee-table/LICENSE.txt) | `6913dd72bdc2` | [source](https://github.com/Hidencod/tge-assets/blob/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/furniture-kit/tablecoffee.glb) | [evidence](https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE) |
@@ -272,6 +345,9 @@ Each row links to the license file stored beside the model and to the exact
 | ph-brass-pan | [LICENSE.txt](../assets/kitchen/cookware/ph-brass-pan/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/brass_pan_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-brass-pot | [LICENSE.txt](../assets/kitchen/cookware/ph-brass-pot/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/brass_pot_02) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-brass-vase | [LICENSE.txt](../assets/decor/vases/ph-brass-vase/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/brass_vase_03) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-brass-vase-bulb | [LICENSE.txt](../assets/decor/vases/ph-brass-vase-bulb/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/brass_vase_02) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-brass-vase-flared | [LICENSE.txt](../assets/decor/vases/ph-brass-vase-flared/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/brass_vase_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-brass-vase-tapered | [LICENSE.txt](../assets/decor/vases/ph-brass-vase-tapered/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/brass_vase_04) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-caged-hanging-light | [LICENSE.txt](../assets/lighting/ceiling/ph-caged-hanging-light/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/caged_hanging_light) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-cannon | [LICENSE.txt](../assets/weapons/artillery/ph-cannon/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/cannon_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-carrot-cake | [LICENSE.txt](../assets/food/baked-goods/ph-carrot-cake/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/carrot_cake) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
@@ -282,6 +358,7 @@ Each row links to the license file stored beside the model and to the exact
 | ph-ceramic-pot | [LICENSE.txt](../assets/kitchen/cookware/ph-ceramic-pot/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/ceramic_pot) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-ceramic-vase | [LICENSE.txt](../assets/decor/vases/ph-ceramic-vase/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/ceramic_vase_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-ceramic-vase-painted | [LICENSE.txt](../assets/decor/vases/ph-ceramic-vase-painted/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/ceramic_vase_02) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-ceramic-vase-stone | [LICENSE.txt](../assets/decor/vases/ph-ceramic-vase-stone/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/ceramic_vase_04) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-chinese-cabinet | [LICENSE.txt](../assets/furniture/storage/ph-chinese-cabinet/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/chinese_cabinet) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-chinese-chandelier | [LICENSE.txt](../assets/lighting/chandeliers/ph-chinese-chandelier/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/chinese_chandelier) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-chinese-commode | [LICENSE.txt](../assets/furniture/storage/ph-chinese-commode/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/chinese_commode) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
@@ -289,9 +366,11 @@ Each row links to the license file stored beside the model and to the exact
 | ph-coffee-cart | [LICENSE.txt](../assets/furniture/carts/ph-coffee-cart/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/CoffeeCart_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-cordless-drill | [LICENSE.txt](../assets/tools/power-tools/ph-cordless-drill/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/Drill_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-croissant | [LICENSE.txt](../assets/food/baked-goods/ph-croissant/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/croissant) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-crystal-chandelier | [LICENSE.txt](../assets/lighting/chandeliers/ph-crystal-chandelier/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/Chandelier_02) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-day-bed | [LICENSE.txt](../assets/furniture/beds/ph-day-bed/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/vintage_day_bed) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-desk-lamp-arm | [LICENSE.txt](../assets/lighting/lamps/ph-desk-lamp-arm/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/desk_lamp_arm_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-drill-press | [LICENSE.txt](../assets/tools/power-tools/ph-drill-press/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/drill_press_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-dutch-merchant-ship | [LICENSE.txt](../assets/vehicles/watercraft/ph-dutch-merchant-ship/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/dutch_ship_medium) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-enamel-pot | [LICENSE.txt](../assets/kitchen/cookware/ph-enamel-pot/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/pot_enamel_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-encyclopedia-set | [LICENSE.txt](../assets/decor/books/ph-encyclopedia-set/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/book_encyclopedia_set_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-farmhouse-cabinet | [LICENSE.txt](../assets/furniture/storage/ph-farmhouse-cabinet/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/painted_wooden_cabinet_02) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
@@ -313,6 +392,7 @@ Each row links to the license file stored beside the model and to the exact
 | ph-modern-coffee-table | [LICENSE.txt](../assets/furniture/tables/ph-modern-coffee-table/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/modern_coffee_table_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-office-desk | [LICENSE.txt](../assets/furniture/desks/ph-office-desk/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/metal_office_desk) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-old-bed-frame | [LICENSE.txt](../assets/furniture/beds/ph-old-bed-frame/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/old_bed_frame) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-ornate-chandelier | [LICENSE.txt](../assets/lighting/chandeliers/ph-ornate-chandelier/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/Chandelier_03) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-painted-cabinet | [LICENSE.txt](../assets/furniture/storage/ph-painted-cabinet/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/painted_wooden_cabinet) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-painted-dining-chair | [LICENSE.txt](../assets/furniture/chairs/ph-painted-dining-chair/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/painted_wooden_chair_02) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-painted-shelves | [LICENSE.txt](../assets/furniture/storage/ph-painted-shelves/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/painted_wooden_shelves) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |

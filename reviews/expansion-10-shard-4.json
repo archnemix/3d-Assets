@@ -1,0 +1,114 @@
+{
+  "batch": "expansion-10",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "decisions": [
+    {
+      "id": "grab3d-ninja",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Hooded ninja in indigo wraps with a face mask, layered tabard with woven spiderweb embroidery, red sash, arm and shin bindings, split-toe footwear and a sheathed sword across the back. The 1024px portrait shows individually shaded eyes, fabric weave and the embroidery pattern clearly. Rear views confirm the scabbard, strap buckle and sash knot are complete. Rigged: 24-bone humanoid armature, walk and run clips, zero unweighted skinned vertices.",
+      "limitations": [
+        "AI-assisted origin (Meshy) is disclosed upstream; some storefronts require AI-content disclosure.",
+        "The face is masked, so only the eyes are visible.",
+        "The sword is fused to the skinned mesh and cannot be unequipped."
+      ],
+      "contact_sheet_sha256": "b875a4fa10f7174c986db3234a6d6c2a1c3bdea4a833d119adb4de8389c43501"
+    },
+    {
+      "id": "grab3d-baby-toddler",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Toddler in a sage cable-knit romper with a buttoned placket and contrast cuffs, bare feet with individually modelled toes, and curly hair built from real strands. The knit cable pattern is consistent across the front, back and sleeves and the sole geometry is complete. Rigged: 24-bone humanoid armature, walk and run clips, zero unweighted skinned vertices.",
+      "limitations": [
+        "AI-assisted origin (Meshy) is disclosed upstream; some storefronts require AI-content disclosure.",
+        "A 24-bone adult-proportioned auto-rig on a toddler body; expect to adjust the walk clip for the shorter legs.",
+        "Hair is geometry, not simulated."
+      ],
+      "contact_sheet_sha256": "b909903a059c4016d8198c4e9171698c8f558faeba0534586f5618e3ed61eb29"
+    },
+    {
+      "id": "ph-brass-vase-flared",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Goblet-form brass vase with a flared trumpet mouth, a faceted shoulder, a slim stem and a spread foot. The top view shows a genuinely hollow interior with tarnish gradient down the throat and the underside shows a closed foot ring. Hammered micro-relief and warm tarnish vary convincingly around the body.",
+      "limitations": [
+        "Interior is modelled but shallow relative to the outer height.",
+        "No maker's stamp on the base."
+      ],
+      "contact_sheet_sha256": "96ef6ec18c4a1cf928296597247435200716bce88a483938e7fb3f8902237262"
+    },
+    {
+      "id": "ph-dutch-merchant-ship",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Realistic three-masted Dutch merchant ship with a planked hull, wales, bowsprit, carved beakhead, stern gallery, deck fittings, capstan, hatches, channels and shrouds, three masts with yards, tops and partially furled canvas sails, and standing rigging. Hull planking and rigging read correctly from both sides, the deck is fully fitted from above and the underwater hull and rudder are complete.",
+      "limitations": [
+        "Very large real-world scale; check scene units before placing next to characters.",
+        "Sails are static geometry in a fixed partially-furled state, not simulated cloth.",
+        "Not rigged in the shipped glTF; masts and yards do not articulate."
+      ],
+      "contact_sheet_sha256": "3041ee5580c58830548fd5317c45053c1fb403af23fcd5a3fdfa11e39a6156ad"
+    },
+    {
+      "id": "g3-1960s-sports-car",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 4
+      },
+      "notes": "All 12 views inspected. Generic period styling with no marque badge.. Panel gaps, glazing, lamp lenses, wheel arches and the underside floorpan are all modelled, and the top and bottom views confirm a closed body with no missing faces. No brand badge, wordmark or number plate appears anywhere.",
+      "limitations": [
+        "Stylized, not photoreal: this is a Cozy-kit vehicle with a simplified pastel palette.",
+        "Wheels are separate objects pivoted on their hubs, so they can be rolled; the body itself is not rigged.",
+        "Interior is simplified; not suitable for a close-up cabin shot."
+      ],
+      "contact_sheet_sha256": "ffee551e82533a3c57fa2bc9e32c6818f4e6a6d99e37d90b263b1dc12b89bf25"
+    },
+    {
+      "id": "g3-car-transporter",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 4
+      },
+      "notes": "All 12 views inspected. Cab-over tractor with a two-deck lattice trailer carrying two small cars. The trailer is a separate object pivoted on the kingpin so it can articulate, its four wheels are parented to it, all eight wheels roll on their axles and the front pair also steer. Cab windows are translucent with seats, dashboard and steering wheel behind them. No brand or text anywhere.",
+      "limitations": [
+        "Stylized, not photoreal: this is a Cozy-kit vehicle with a simplified pastel palette.",
+        "The two cargo cars are static and cannot be driven off the deck.",
+        "The loading ramps are fixed in the raised position."
+      ],
+      "contact_sheet_sha256": "5fdc57b59d56f94e3bcd7079c4e00077e6dc64cefdb0b6be42bbef4e06812d99"
+    }
+  ]
+}

@@ -113,8 +113,13 @@ CC0 waives the creator's copyright. It does not waive trademark rights, and it d
 | What the render shows | Decision | Examples |
 | --- | --- | --- |
 | A legible real manufacturer's mark | **Reject** | `binder_notebook` (embossed cover emblem), `electric_stove` (ARINA badge) |
-| An obviously invented brand | Approve, record it as a limitation | `classic_laptop` (SENNETZ MIKROPER), `CoffeeCart_01` (DUNN), `fire_alarm` (HOTRESCUE) |
-| Generic text, specifications or ornament | Approve | `Drill_01` (18V 1.3Ah), `ammo_box` (7.62 MM stencil), caution signage, floral transfers |
+| A device that imitates a famous mark's trade dress | **Reject** | `security_camera_02` (red/blue split-circle bezel badge copying the Pepsi globe) |
+| An obviously invented brand | Approve, record it as a limitation | `classic_laptop` (SENNETZ MIKROPER), `CoffeeCart_01` (DUNN), `fire_alarm` (HOTRESCUE), `power_box_01` (POWERHAVEN), `security_camera_01` (FocusSpy), `filmstrip_projector_8mm` (SIRIUS steerling) |
+| Generic text, specifications or ornament | Approve | `Drill_01` (18V 1.3Ah), `ammo_box` (7.62 MM stencil), `metal_tool_chest` (ball-bearing drawer plate), `binoculars` (8x30 field figures), caution signage, floral transfers |
+
+A substituted word does not cure an imitated device. The hooded camera's badge carried invented lettering, but its red upper arc, blue lower arc and white central band reproduce the Pepsi globe closely enough that the asset was refused. The test is the whole device, not just the text.
+
+Unbranded real-world weapon patterns are accepted on rights grounds — the service pistol and rifle carry no maker's mark, proof stamp or serial — but each records that individual marketplaces restrict weapons content regardless of licence.
 
 Upstream's `tmwarn` API flag is a useful first filter and is refused automatically at intake, but it is not sufficient: none of the rejected assets carried that flag. Descriptions help too — `clipboard` was dropped from the queue before intake because upstream described an engraved logo — but a description saying "logo" does not tell you how legible the mark actually is, so the render still decides.
 

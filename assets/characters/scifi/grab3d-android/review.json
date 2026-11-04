@@ -1,0 +1,22 @@
+{
+  "id": "grab3d-android",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "All 12 views inspected. Feminine android with white porcelain shell panels over dark joint mechanisms at the shoulders, elbows, hips, knees and ankles, a segmented spine channel down the back, and a smooth faceless-calm head with recessed ear discs. Panel gaps and the rear spine are real geometry, not texture. Rigged: 24-bone humanoid armature, walk and run clips, zero unweighted skinned vertices.",
+  "limitations": [
+    "AI-assisted origin (Meshy) is disclosed upstream; some storefronts require AI-content disclosure.",
+    "Shell panels are skinned to the body rather than separately articulated.",
+    "The face has no expression blendshapes."
+  ],
+  "contact_sheet_sha256": "98475ee33c8d1e920e1228e481f57664cda2d2b50a201fedcd90da9362107fab",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}
