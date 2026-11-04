@@ -59,8 +59,9 @@ HINGE_CLIPS = [
     ("lid_open", lambda n: n.endswith("_lid") and "hinge" not in n, "X", 0.0, -105.0, 60),
 ]
 HINGE_CALIBRATION = {
-    # Rest pose is ~50 deg open; -50 shuts it, so play -50 -> +40 for a 90 deg swing.
-    "power_box_01_door": ("Z", -50.0, 40.0),
+    # Measured from the upstream node quaternion: rest yaw is -109.2 deg, i.e. the
+    # door is modelled already open. +109.2 brings it shut, so play that back to 0.
+    "power_box_01_door": ("Z", 109.2, 0.0),
     # Rest pose is closed and the free edge swings toward -Y, which is +Z rotation.
     "painted_wooden_cabinet_02_door": ("Z", 0.0, 100.0),
     # Both of these are modelled with the cover already raised.
