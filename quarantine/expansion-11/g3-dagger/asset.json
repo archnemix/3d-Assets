@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "id": "g3-dagger",
+  "title": "Dagger with gemmed pommel",
+  "category": "weapons/melee",
+  "style": "stylized",
+  "tags": [
+    "dagger",
+    "knife",
+    "gem",
+    "brass",
+    "weapon",
+    "pbr",
+    "game-ready"
+  ],
+  "batch": "expansion-11",
+  "acquired_at": "2026-11-04T23:11:02.645546+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/dagger.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/dagger/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/weapons/dagger/",
+    "source_id": "dagger",
+    "revision": "137a1b92b601812d08257fda5953ad1bc8dc8598f0a6cdbb508e48ef366a433a",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/dagger/dagger.glb",
+        "bytes": 650724,
+        "sha256": "137a1b92b601812d08257fda5953ad1bc8dc8598f0a6cdbb508e48ef366a433a"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/dagger/LICENSE.txt"
+  },
+  "model": "model/dagger.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/dagger_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "dagger_body_normal"
+    },
+    {
+      "path": "textures/dagger_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "dagger_body_basecolor"
+    },
+    {
+      "path": "textures/dagger_body_metallic-dagger_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "dagger_body_metallic-dagger_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 6308,
+    "triangles": 9468,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "dagger_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "dagger_body_metallic-dagger_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "dagger_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67844,
+      "sha256": "2b22c888223bffdec3abddb85938b0207c373f3316016861e987f35a873b7212",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/dagger.glb",
+      "bytes": 650724,
+      "sha256": "137a1b92b601812d08257fda5953ad1bc8dc8598f0a6cdbb508e48ef366a433a",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 13586,
+      "sha256": "b6a5a6ec476d80578ea8b0099f4eaf2b5d817196a77b4bb5e0ee20e8dd8de260",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 12650,
+      "sha256": "5729531eac9c3590ac79aefc3ec6c28af503531d3e34982b394f1ee6f515b4c5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 118049,
+      "sha256": "38235f51e02e1dbbc7ccc80d532d8c2295b4847c7da20c4eee314632f6ed928b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 806,
+      "sha256": "6248ffd97fd08cf80d753ffa595673f0210f442f3b2f995a218dece97dbeac3b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 12727,
+      "sha256": "00c68a8cfedccf40d0eedd95eee45d2f1f6ed212312bc217f4e097c5daf246cd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 15176,
+      "sha256": "7c0ca5713a8322e66242f283f75a36b5df6fafa3083f216571fd68eed64450a3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 17925,
+      "sha256": "9e34c9ffd85e8eae39938524d14704142bdc1c7ce1f9e44e2d59fda70e56f1ce",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 15293,
+      "sha256": "0b8c0cb45841e84f9bdda226741b5f920b396cb04d2f1f06f0d1fe5b88c52733",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 12355,
+      "sha256": "e4fad34c46bc44930115e42920e632bcdfd02c159dc7b71b39f80c2c82dccf6d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 14813,
+      "sha256": "8a9371cae58d2f95309feeece705553e6aee9fffee25252ede18a101592b0a8e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 22352,
+      "sha256": "7a21b451d7e44309e02a7ee71c84aadb15e3b56d4b14ccb2695ce5b49e7ba18e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 14740,
+      "sha256": "5d0035d24e4b6bf13adc582e647686e47847a6e7439f66f2300d8a89504abb1d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 13042,
+      "sha256": "fbea35b981b76120ec89e3bb4a47792274e6f92ed99b6c458c53bbec19282c30",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 18452,
+      "sha256": "09c79aab449805c5c1a72264b781782039bf4208cad7afb05d120535775a787b",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1926,
+      "sha256": "63ad392949607afa862e143d8f7ce4af01cbd11758bab94e79849597afdbbed8",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1506,
+      "sha256": "095875b2857ae54f5aeba56849578df95a24453aaa499d45b9510c082327b26b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 442,
+      "sha256": "c1697f4044ec25d35391549c31abef1135647ec3dec36b89b6dc26035680c9bf",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "5e4ba8fbf164e14ef2aca81453d30b50fda7a635744a361d4bccd7e7b9faabb9",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/dagger_body_basecolor.jpg",
+      "bytes": 154258,
+      "sha256": "bb5e796a386a7e34fabb4368a8736d76d1282d5a96070e7ad0d113585cb94c45",
+      "role": "textures"
+    },
+    {
+      "path": "textures/dagger_body_metallic-dagger_body_roughness.jpg",
+      "bytes": 168931,
+      "sha256": "ff91bb9202b370f274d3c20b8017f66318f15e727008b9d0c4add9202ec715c0",
+      "role": "textures"
+    },
+    {
+      "path": "textures/dagger_body_normal.jpg",
+      "bytes": 66368,
+      "sha256": "1d468764101d82d269e0836d9f76c9cbbbaa84b49a4eb24dd78c66f6ae67cc27",
+      "role": "textures"
+    }
+  ]
+}
