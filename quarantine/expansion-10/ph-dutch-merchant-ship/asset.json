@@ -1,0 +1,497 @@
+{
+  "schema_version": 1,
+  "id": "ph-dutch-merchant-ship",
+  "title": "Dutch merchant sailing ship",
+  "category": "vehicles/watercraft",
+  "style": "realistic",
+  "tags": [
+    "ship",
+    "boat",
+    "sailing",
+    "wood",
+    "dutch",
+    "pbr"
+  ],
+  "batch": "expansion-10",
+  "acquired_at": "2026-11-04T22:46:53.283725+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/dutch_ship_medium_1k.gltf",
+    "creator": "James Ray Cock, Rico Cilliers, Nicolò Zubbini",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/dutch_ship_medium",
+    "source_id": "dutch_ship_medium",
+    "resolution": "1k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/dutch_ship_medium/dutch_ship_medium_1k.gltf",
+        "bytes": 7494,
+        "sha256": "208112252d4f83a9c404563371053820a90963a53b465fd6c745b16868f4bade"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/dutch_ship_medium/dutch_ship_medium_hull_arm_1k.jpg",
+        "bytes": 992318,
+        "sha256": "10274d6f3815b73f559a920d01a7e9df8feba2ee2e3f574fdc106cedd769106b"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/dutch_ship_medium/dutch_ship_medium_sails_diff_1k.jpg",
+        "bytes": 579788,
+        "sha256": "0a877ee5b446ee5fe624618b3bc7224bd4555a077804c4f1afe61d8ae4600147"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/dutch_ship_medium/dutch_ship_medium_rigging_arm_1k.jpg",
+        "bytes": 556896,
+        "sha256": "7429a00828ab899e00460c128e06dcd8fb291ab906f4af9a5bd49568e6d3062e"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/dutch_ship_medium/dutch_ship_medium.bin",
+        "bytes": 2480380,
+        "sha256": "7ff5d886d3baea1f60afdc17c50b99029d7abca159db10212c89c95e39c5437e"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/dutch_ship_medium/dutch_ship_medium_hull_nor_gl_1k.jpg",
+        "bytes": 967533,
+        "sha256": "9f2c281b1b34182a8487cb2358d5e926bd1b2a5b898e8a22d17e0c4a5de9fb23"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/dutch_ship_medium/dutch_ship_medium_rigging_nor_gl_1k.jpg",
+        "bytes": 535119,
+        "sha256": "1a6c2fd46ba46239c6fe8d19b7462d86252f161d2dc21954780c12addbb6622c"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/dutch_ship_medium/dutch_ship_medium_sails_arm_1k.jpg",
+        "bytes": 532281,
+        "sha256": "ecc0c3b7903ae642cd74214d6a20e6804386cab98759c2f0738a6b0268f825c5"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/dutch_ship_medium/dutch_ship_medium_hull_diff_1k.jpg",
+        "bytes": 745169,
+        "sha256": "8bb56d0a31b08c5ca133041cf703daa33d6742d6df0d267c7fe5eced45c9d605"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/dutch_ship_medium/dutch_ship_medium_sails_nor_gl_1k.jpg",
+        "bytes": 770917,
+        "sha256": "3ba665979b047c91386e89a855d1b9038f1c2e5cda116ecea1a54f976cf12fa4"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/dutch_ship_medium/dutch_ship_medium_rigging_diff_1k.jpg",
+        "bytes": 567644,
+        "sha256": "e88492e5cceef5b17e31d727b7d67ddce07ca58418e86581d845b949df2cb2d7"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/dutch_ship_medium_1k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 3,
+    "materials": 3,
+    "images": 9,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/dutch_ship_medium_rigging_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "dutch_ship_medium_rigging_nor_gl"
+    },
+    {
+      "path": "model/textures/dutch_ship_medium_rigging_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "dutch_ship_medium_rigging_diff"
+    },
+    {
+      "path": "model/textures/dutch_ship_medium_rigging_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "dutch_ship_medium_rigging_metal-dutch_ship_medium_rigging_rough"
+    },
+    {
+      "path": "model/textures/dutch_ship_medium_hull_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "dutch_ship_medium_hull_nor_gl"
+    },
+    {
+      "path": "model/textures/dutch_ship_medium_hull_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "dutch_ship_medium_hull_diff"
+    },
+    {
+      "path": "model/textures/dutch_ship_medium_hull_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "dutch_ship_medium_hull_metal-dutch_ship_medium_hull_rough"
+    },
+    {
+      "path": "model/textures/dutch_ship_medium_sails_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "dutch_ship_medium_sails_nor_gl"
+    },
+    {
+      "path": "model/textures/dutch_ship_medium_sails_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "dutch_ship_medium_sails_diff-dutch_ship_medium_sails_alpha"
+    },
+    {
+      "path": "model/textures/dutch_ship_medium_sails_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "dutch_ship_medium_sails_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 3,
+    "hidden_mesh_objects": 0,
+    "vertices": 64544,
+    "triangles": 69162,
+    "material_slots": 3,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "dutch_ship_medium_hull_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-10/ph-dutch-merchant-ship/model/textures/dutch_ship_medium_hull_diff_1k.jpg"
+      },
+      {
+        "name": "dutch_ship_medium_hull_metal-dutch_ship_medium_hull_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-10/ph-dutch-merchant-ship/model/textures/dutch_ship_medium_hull_arm_1k.jpg"
+      },
+      {
+        "name": "dutch_ship_medium_hull_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-10/ph-dutch-merchant-ship/model/textures/dutch_ship_medium_hull_nor_gl_1k.jpg"
+      },
+      {
+        "name": "dutch_ship_medium_rigging_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-10/ph-dutch-merchant-ship/model/textures/dutch_ship_medium_rigging_diff_1k.jpg"
+      },
+      {
+        "name": "dutch_ship_medium_rigging_metal-dutch_ship_medium_rigging_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-10/ph-dutch-merchant-ship/model/textures/dutch_ship_medium_rigging_arm_1k.jpg"
+      },
+      {
+        "name": "dutch_ship_medium_rigging_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-10/ph-dutch-merchant-ship/model/textures/dutch_ship_medium_rigging_nor_gl_1k.jpg"
+      },
+      {
+        "name": "dutch_ship_medium_sails_diff-dutch_ship_medium_sails_alpha",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-10/ph-dutch-merchant-ship/model/textures/dutch_ship_medium_sails_diff_1k.jpg"
+      },
+      {
+        "name": "dutch_ship_medium_sails_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-10/ph-dutch-merchant-ship/model/textures/dutch_ship_medium_sails_nor_gl_1k.jpg"
+      },
+      {
+        "name": "dutch_ship_medium_sails_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-10/ph-dutch-merchant-ship/model/textures/dutch_ship_medium_sails_arm_1k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 3,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 80902,
+      "sha256": "928f3442b36175f99325182f84f324a2bb11e084b38865c66cdc37f9c616084b",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "13a8b99793ba089c84f4df144fa4bf72282f0ff6e6d5c1cb98630ea56b0eec8e",
+      "role": "logs"
+    },
+    {
+      "path": "model/dutch_ship_medium.bin",
+      "bytes": 2480380,
+      "sha256": "7ff5d886d3baea1f60afdc17c50b99029d7abca159db10212c89c95e39c5437e",
+      "role": "model"
+    },
+    {
+      "path": "model/dutch_ship_medium_1k.gltf",
+      "bytes": 7494,
+      "sha256": "208112252d4f83a9c404563371053820a90963a53b465fd6c745b16868f4bade",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/dutch_ship_medium_hull_arm_1k.jpg",
+      "bytes": 992318,
+      "sha256": "10274d6f3815b73f559a920d01a7e9df8feba2ee2e3f574fdc106cedd769106b",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/dutch_ship_medium_hull_diff_1k.jpg",
+      "bytes": 745169,
+      "sha256": "8bb56d0a31b08c5ca133041cf703daa33d6742d6df0d267c7fe5eced45c9d605",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/dutch_ship_medium_hull_nor_gl_1k.jpg",
+      "bytes": 967533,
+      "sha256": "9f2c281b1b34182a8487cb2358d5e926bd1b2a5b898e8a22d17e0c4a5de9fb23",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/dutch_ship_medium_rigging_arm_1k.jpg",
+      "bytes": 556896,
+      "sha256": "7429a00828ab899e00460c128e06dcd8fb291ab906f4af9a5bd49568e6d3062e",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/dutch_ship_medium_rigging_diff_1k.jpg",
+      "bytes": 567644,
+      "sha256": "e88492e5cceef5b17e31d727b7d67ddce07ca58418e86581d845b949df2cb2d7",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/dutch_ship_medium_rigging_nor_gl_1k.jpg",
+      "bytes": 535119,
+      "sha256": "1a6c2fd46ba46239c6fe8d19b7462d86252f161d2dc21954780c12addbb6622c",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/dutch_ship_medium_sails_arm_1k.jpg",
+      "bytes": 532281,
+      "sha256": "ecc0c3b7903ae642cd74214d6a20e6804386cab98759c2f0738a6b0268f825c5",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/dutch_ship_medium_sails_diff_1k.jpg",
+      "bytes": 579788,
+      "sha256": "0a877ee5b446ee5fe624618b3bc7224bd4555a077804c4f1afe61d8ae4600147",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/dutch_ship_medium_sails_nor_gl_1k.jpg",
+      "bytes": 770917,
+      "sha256": "3ba665979b047c91386e89a855d1b9038f1c2e5cda116ecea1a54f976cf12fa4",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 19084,
+      "sha256": "73e8acbeae57cd1aeeb56268794a57b54e2ab65c022df95071fe57dc07cef102",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 34114,
+      "sha256": "e4c3179dbc317814eaa76c060a142f8c70afc56b791ee03e0ec5699470faef9e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 251520,
+      "sha256": "3041ee5580c58830548fd5317c45053c1fb403af23fcd5a3fdfa11e39a6156ad",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 3095,
+      "sha256": "8273402d01cfeddfa111dca7a290649d1c749b8db279d84e16e4c0c78f83f5a6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 45769,
+      "sha256": "155738493d57c57fa3f13d7bd2f0c51b04b41095c19a8f3379cf777474366f0e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 41094,
+      "sha256": "89c3f7722dc5bc64221e0a264cff2e259c4be0daeb4f6642575d130b8a594889",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 23682,
+      "sha256": "4143ac93c738452a82438f779102231d188ba2238bd7d0767706f44d9fa73a3c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 42795,
+      "sha256": "8ea4831ed8579b9c73ae15c3ef0a1c6585320b50bdfe61d96b46b701e8a5af35",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 44881,
+      "sha256": "13a154977426cdfe48a77f6ed1785a6349a72e85248e40ee3041429efeefdaf5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 41562,
+      "sha256": "766df593196aa7424373d5b51b4ae648e6d1d5c2c361120bb57383074c6d5169",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 24879,
+      "sha256": "f552800decfd566cd3fff788b3bc016f71be2ccecc9205c816abd0973895ab13",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 43159,
+      "sha256": "735095c27af943b0b7bac48d340f371a9f926166da2996294bc5ca11d44deb09",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 23070,
+      "sha256": "8ebd8277a73e061f37c39a63d6205667cd4468f78a5e4558cb3347b045537dbf",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 51110,
+      "sha256": "356becd78ec4cb5e49322445ed68b50a776bc0676695682c91820e7961af2e5e",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1413,
+      "sha256": "fb904496c03223e6840c1b3d104482173a10748aca57d50b1f17798fa65abe7b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 7376,
+      "sha256": "6fe80a7d35c5fbafe4aa59aec97ba2dbb661bfd67558bf48ecd66b703663a994",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 2721,
+      "sha256": "f208c1d03a799b39b220eb3c9326ea7fc994413f17ba6eaebbf0f3e7fb2fd376",
+      "role": "provenance"
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "id": "ph-brass-vase-flared",
+  "title": "Flared antique brass vase",
+  "category": "decor/vases",
+  "style": "realistic",
+  "tags": [
+    "vase",
+    "brass",
+    "engraved",
+    "antique",
+    "decor",
+    "pbr"
+  ],
+  "batch": "expansion-10",
+  "acquired_at": "2026-11-04T22:46:13.914146+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/brass_vase_01_2k.gltf",
+    "creator": "Rico Cilliers",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/brass_vase_01",
+    "source_id": "brass_vase_01",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/brass_vase_01/brass_vase_01_2k.gltf",
+        "bytes": 2693,
+        "sha256": "e06292d066d3440a57a043149a9ee27f636f41b20318f63fca7db7d38ccc7eae"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/brass_vase_01/brass_vase_01_arm_2k.jpg",
+        "bytes": 419285,
+        "sha256": "4c57b8076885c117205ea125a57b13ff2caf90ebb55bbbe5efd55c93562587d4"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/brass_vase_01/brass_vase_01.bin",
+        "bytes": 498240,
+        "sha256": "acc32719ee7c42c5b5fd07507a3dd7779e95445754759876bdbc133cebefa8ff"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/brass_vase_01/brass_vase_01_diff_2k.jpg",
+        "bytes": 520722,
+        "sha256": "3d1455113398211ca010ec836c67faf418100175e99da875002334364fb81b40"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/brass_vase_01/brass_vase_01_nor_gl_2k.jpg",
+        "bytes": 295687,
+        "sha256": "b8fb1da280897b51a576b615bcba608692d00f5cbb148f8917ea431002dce098"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/brass_vase_01_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/brass_vase_01_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "brass_vase_01_nor_gl"
+    },
+    {
+      "path": "model/textures/brass_vase_01_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "brass_vase_01_diff"
+    },
+    {
+      "path": "model/textures/brass_vase_01_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "brass_vase_01_metal-brass_vase_01_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 11550,
+    "triangles": 21440,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "brass_vase_01_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-10/ph-brass-vase-flared/model/textures/brass_vase_01_diff_2k.jpg"
+      },
+      {
+        "name": "brass_vase_01_metal-brass_vase_01_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-10/ph-brass-vase-flared/model/textures/brass_vase_01_arm_2k.jpg"
+      },
+      {
+        "name": "brass_vase_01_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-10/ph-brass-vase-flared/model/textures/brass_vase_01_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67963,
+      "sha256": "40a1ba0455162767790e2ba07d7d48d6505c04571e2ce391ea41ed96443c2ebf",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/brass_vase_01.bin",
+      "bytes": 498240,
+      "sha256": "acc32719ee7c42c5b5fd07507a3dd7779e95445754759876bdbc133cebefa8ff",
+      "role": "model"
+    },
+    {
+      "path": "model/brass_vase_01_2k.gltf",
+      "bytes": 2693,
+      "sha256": "e06292d066d3440a57a043149a9ee27f636f41b20318f63fca7db7d38ccc7eae",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/brass_vase_01_arm_2k.jpg",
+      "bytes": 419285,
+      "sha256": "4c57b8076885c117205ea125a57b13ff2caf90ebb55bbbe5efd55c93562587d4",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/brass_vase_01_diff_2k.jpg",
+      "bytes": 520722,
+      "sha256": "3d1455113398211ca010ec836c67faf418100175e99da875002334364fb81b40",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/brass_vase_01_nor_gl_2k.jpg",
+      "bytes": 295687,
+      "sha256": "b8fb1da280897b51a576b615bcba608692d00f5cbb148f8917ea431002dce098",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 41151,
+      "sha256": "3f8907ab332c92a32cbe88f2442f9e09339139273a88db0cc1d7433b557a35e9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 13573,
+      "sha256": "d0ed4bec2465c5651fd42bbfa945344373b25fd018c34a97cddd1b2001a8122e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 188756,
+      "sha256": "96ef6ec18c4a1cf928296597247435200716bce88a483938e7fb3f8902237262",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1174,
+      "sha256": "83c745e42689dcbe97fd596ed99bbf0fd0756e738668b29e45f8fe16836bc97e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 21399,
+      "sha256": "8e0769c6a8d46203bd46b12ed96e1ff29c97eea01519d761cc9951eba25fa2c0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 21463,
+      "sha256": "d267c15d6c139cdd235edb6e8de7540d9512b6a07f1fa6ad6946bc853f7c7081",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 21734,
+      "sha256": "93ac3149ddc7433d6548e246266eb1ea7cf90433ab3584403e716c625778a2f4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 21224,
+      "sha256": "34831b220fab9092f528066cfa0a55923e818be973ee613928a703f95d384cfb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 21446,
+      "sha256": "06b23356bb3c187090ecb901ed172bdae38f4351bb9a0b90612954c9e8b8347f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 21754,
+      "sha256": "126366ae2caaad5f483198ded2852975dc31c05432d161159fd1f0ba8ee67ad2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 21352,
+      "sha256": "01becb1233217ea2b150b21e5776bd90219d60e78735f06bea41b917d7075a19",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 21696,
+      "sha256": "d3a2ee5adc434dbb11edd773bce1a907c3109272652dc15da034e65ba3982be1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 50060,
+      "sha256": "273194a4fca0df0dd8a596868a1ac2cd1d396b152392b0d8296055f015ea65b9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 27505,
+      "sha256": "9b2ce5812d2cd3971b3ca839ea2b9853132f81ce4a4bc4aca37adddf7b9d6302",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1182,
+      "sha256": "2841a0891bf04be9206a3e529340355c65ba10871082e741592f9b949772ffb7",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3037,
+      "sha256": "3ee6b9dfdd89c7b0db4741ab8470c90a1095ad905d3d681d0e755f7b0e4a67bb",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1088,
+      "sha256": "1947fc541d443bf8ccedd8f1f57b69c1a25330c3b6052911a080255c8ee00278",
+      "role": "provenance"
+    }
+  ]
+}
