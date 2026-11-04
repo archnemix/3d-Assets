@@ -4,16 +4,25 @@ import shutil
 import traceback
 from datetime import UTC, datetime
 
-from .config import ROOT, sources
+from .config import ROOT, read_json, sources
 from .files import write_json
-from .inspection import inspect
+from .inspection import inspect, reinspect
 from .sources import fetch
 
 
 def candidate(candidate: dict, batch: str) -> dict:
     directory = ROOT / "quarantine" / batch / candidate["id"]
     if directory.exists():
-        raise ValueError(f"Quarantine destination already exists: {directory}")
+        existing = read_json(directory / "asset.json")
+        if existing["review"]["status"] != "awaiting-visual-review":
+            raise ValueError(f"Quarantine destination already exists: {directory}")
+        reinspect(directory)
+        return {
+            "id": candidate["id"],
+            "status": "awaiting-visual-review",
+            "path": str(directory.relative_to(ROOT)),
+            "reinspected": True,
+        }
     directory.mkdir(parents=True)
     started = datetime.now(UTC).isoformat()
     manifest = {
@@ -28,12 +37,7 @@ def candidate(candidate: dict, batch: str) -> dict:
         "review": {"status": "pending", "approved": False},
     }
     try:
-        if candidate["source"] == "makehuman":
-            from .sources.makehuman import fetch_makehuman
-
-            provenance = fetch_makehuman(candidate, directory)
-        else:
-            provenance = fetch(sources()[candidate["source"]], candidate, directory)
+        provenance = fetch(sources()[candidate["source"]], candidate, directory)
         manifest["source"] = {"provider": candidate["source"], **provenance}
         manifest["license"] = {
             "spdx": "CC0-1.0",
@@ -69,7 +73,13 @@ def run_shard(batch: str, candidates: list[dict], shard: int) -> int:
     results = []
     for item in candidates:
         print(f"[shard {shard}] inspecting {item['id']}", flush=True)
-        result = candidate(item, batch)
+        try:
+            result = candidate(item, batch)
+        except Exception as error:
+            result = {"id": item["id"], "status": "intake-failed", "error": str(error)}
+            log = ROOT / "reports" / "intake" / batch / f"shard-{shard}-error.txt"
+            log.parent.mkdir(parents=True, exist_ok=True)
+            log.write_text(traceback.format_exc(), encoding="utf-8")
         print(f"[shard {shard}] {result['status']}: {item['id']}", flush=True)
         results.append(result)
     report = {

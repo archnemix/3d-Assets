@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "description", "macro", "skin", "clothes", "bodyparts", "subdivision"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "description": {"type": "string", "minLength": 20},
+    "subdivision": {"type": "integer", "minimum": 0, "maximum": 2},
+    "macro": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["gender", "age", "muscle", "weight", "proportions", "height", "cupsize", "firmness", "race"],
+      "properties": {
+        "gender": {"type": "number", "minimum": 0, "maximum": 1},
+        "age": {"type": "number", "minimum": 0, "maximum": 1},
+        "muscle": {"type": "number", "minimum": 0, "maximum": 1},
+        "weight": {"type": "number", "minimum": 0, "maximum": 1},
+        "proportions": {"type": "number", "minimum": 0, "maximum": 1},
+        "height": {"type": "number", "minimum": 0, "maximum": 1},
+        "cupsize": {"type": "number", "minimum": 0, "maximum": 1},
+        "firmness": {"type": "number", "minimum": 0, "maximum": 1},
+        "race": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["asian", "caucasian", "african"],
+          "properties": {
+            "asian": {"type": "number", "minimum": 0, "maximum": 1},
+            "caucasian": {"type": "number", "minimum": 0, "maximum": 1},
+            "african": {"type": "number", "minimum": 0, "maximum": 1}
+          }
+        }
+      }
+    },
+    "skin": {"type": "string", "pattern": "^skins/[a-z0-9_-]+/[a-z0-9_-]+\\.mhmat$"},
+    "clothes": {
+      "type": "array", "minItems": 1, "maxItems": 6, "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^clothes/[a-z0-9_-]+/[a-z0-9_-]+\\.mhclo$"}
+    },
+    "bodyparts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["eyes", "eyebrows", "hair", "teeth", "tongue"],
+      "properties": {
+        "eyes": {"type": "string", "pattern": "^eyes/"},
+        "eyebrows": {"type": "string", "pattern": "^eyebrows/"},
+        "eyelashes": {"type": "string", "pattern": "^eyelashes/"},
+        "hair": {"type": "string", "pattern": "^hair/"},
+        "teeth": {"type": "string", "pattern": "^teeth/"},
+        "tongue": {"type": "string", "pattern": "^tongue/"}
+      }
+    }
+  }
+}

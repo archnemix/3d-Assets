@@ -1,8 +1,9 @@
 import json
+import zipfile
 
 import pytest
 
-from asset_library.files import destination, inventory, safe_relative_path, sha256
+from asset_library.files import destination, extract_zip, inventory, safe_relative_path, sha256
 
 
 @pytest.mark.parametrize(
@@ -30,3 +31,22 @@ def test_inventory_excludes_self_referential_manifest(tmp_path):
     assert [item["path"] for item in records] == ["model/scene.gltf"]
     assert records[0]["sha256"] == sha256(tmp_path / "model" / "scene.gltf")
     assert json.loads((tmp_path / "model" / "scene.gltf").read_text()) == {}
+
+
+def test_extract_zip_writes_regular_files(tmp_path):
+    archive = tmp_path / "pack.zip"
+    with zipfile.ZipFile(archive, "w") as package:
+        package.writestr("clothes/test.txt", "cc0")
+    target = tmp_path / "extracted"
+    result = extract_zip(archive, target)
+    assert result == {"files": 1, "bytes": 3}
+    assert (target / "clothes" / "test.txt").read_text() == "cc0"
+
+
+def test_extract_zip_rejects_traversal(tmp_path):
+    archive = tmp_path / "bad.zip"
+    with zipfile.ZipFile(archive, "w") as package:
+        package.writestr("../escape.txt", "no")
+    with pytest.raises(ValueError, match="Unsafe"):
+        extract_zip(archive, tmp_path / "extracted")
+    assert not (tmp_path / "escape.txt").exists()

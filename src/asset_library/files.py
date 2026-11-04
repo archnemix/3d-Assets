@@ -3,7 +3,10 @@
 import hashlib
 import json
 import os
+import shutil
+import stat
 import tempfile
+import zipfile
 from pathlib import Path
 from urllib.parse import unquote, urlparse
 
@@ -42,6 +45,30 @@ def destination(root: Path, relative: Path) -> Path:
     if not target.is_relative_to(root.resolve()):
         raise ValueError(f"Path escapes asset directory: {relative}")
     return target
+
+
+def extract_zip(archive: Path, target: Path, max_total_bytes: int = 2 * 1024**3) -> dict:
+    """Extract only regular files beneath target; reject traversal and symlinks."""
+    target.mkdir(parents=True, exist_ok=True)
+    files = 0
+    total = 0
+    with zipfile.ZipFile(archive) as package:
+        for member in package.infolist():
+            relative = safe_relative_path(member.filename)
+            if stat.S_ISLNK(member.external_attr >> 16):
+                raise ValueError(f"Zip symlinks are not allowed: {member.filename}")
+            total += member.file_size
+            if total > max_total_bytes:
+                raise ValueError(f"Zip expands beyond {max_total_bytes} bytes")
+            path = destination(target, relative)
+            if member.is_dir():
+                path.mkdir(parents=True, exist_ok=True)
+                continue
+            path.parent.mkdir(parents=True, exist_ok=True)
+            with package.open(member) as source, path.open("wb") as output:
+                shutil.copyfileobj(source, output, length=1024 * 1024)
+            files += 1
+    return {"files": files, "bytes": total}
 
 
 def inventory(root: Path) -> list[dict]:
