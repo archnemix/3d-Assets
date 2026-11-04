@@ -1,0 +1,320 @@
+{
+  "schema_version": 1,
+  "id": "ph-rubber-duck-toy",
+  "title": "Worn rubber duck toy",
+  "category": "toys/figures",
+  "style": "realistic",
+  "tags": [
+    "toy",
+    "duck",
+    "rubber",
+    "plastic",
+    "kids",
+    "pbr"
+  ],
+  "batch": "expansion-01",
+  "acquired_at": "2026-11-04T10:49:25.328723+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/rubber_duck_toy_2k.gltf",
+    "creator": "Plat251",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/rubber_duck_toy",
+    "source_id": "rubber_duck_toy",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/rubber_duck_toy/rubber_duck_toy_2k.gltf",
+        "bytes": 3180,
+        "sha256": "d10f8a5f4d7416c62d67cb5d8cd480d93d5750c5cc911128729ae47c5ee05466"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/rubber_duck_toy/rubber_duck_toy_arm_2k.jpg",
+        "bytes": 1098944,
+        "sha256": "87cd18f544e579fb9a5bb42076abf731a5dcd629486d2cdd34f3378716e1eeda"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/rubber_duck_toy/rubber_duck_toy.bin",
+        "bytes": 105376,
+        "sha256": "381e1373b99a4ff23d5ee02cb66bfb5e7d897eaa280581f19b652c38ffd83314"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/rubber_duck_toy/rubber_duck_toy_nor_gl_2k.jpg",
+        "bytes": 170721,
+        "sha256": "2c2cdbaa3a46a1d3f577d510ba3bc999c4fbfd188985ee65e851b6c9b2bbd231"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/rubber_duck_toy/rubber_duck_toy_diff_2k.jpg",
+        "bytes": 789401,
+        "sha256": "6abc199fd0249ff906ddb977510c6f6527887aadc976dbede2ec67bda64b0f92"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/rubber_duck_toy_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_materials_specular",
+      "KHR_materials_ior"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/rubber_duck_toy_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "rubber_duck_toy_nor_gl"
+    },
+    {
+      "path": "model/textures/rubber_duck_toy_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "rubber_duck_toy_diff"
+    },
+    {
+      "path": "model/textures/rubber_duck_toy_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "rubber_duck_toy_metal-rubber_duck_toy_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 2489,
+    "triangles": 4288,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "rubber_duck_toy_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-01/ph-rubber-duck-toy/model/textures/rubber_duck_toy_diff_2k.jpg"
+      },
+      {
+        "name": "rubber_duck_toy_metal-rubber_duck_toy_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-01/ph-rubber-duck-toy/model/textures/rubber_duck_toy_arm_2k.jpg"
+      },
+      {
+        "name": "rubber_duck_toy_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-01/ph-rubber-duck-toy/model/textures/rubber_duck_toy_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68028,
+      "sha256": "775450d2b10f7d3bcb91c631ed24e20a0945d402e0657a5caa5723cd8e243694",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/rubber_duck_toy.bin",
+      "bytes": 105376,
+      "sha256": "381e1373b99a4ff23d5ee02cb66bfb5e7d897eaa280581f19b652c38ffd83314",
+      "role": "model"
+    },
+    {
+      "path": "model/rubber_duck_toy_2k.gltf",
+      "bytes": 3180,
+      "sha256": "d10f8a5f4d7416c62d67cb5d8cd480d93d5750c5cc911128729ae47c5ee05466",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/rubber_duck_toy_arm_2k.jpg",
+      "bytes": 1098944,
+      "sha256": "87cd18f544e579fb9a5bb42076abf731a5dcd629486d2cdd34f3378716e1eeda",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/rubber_duck_toy_diff_2k.jpg",
+      "bytes": 789401,
+      "sha256": "6abc199fd0249ff906ddb977510c6f6527887aadc976dbede2ec67bda64b0f92",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/rubber_duck_toy_nor_gl_2k.jpg",
+      "bytes": 170721,
+      "sha256": "2c2cdbaa3a46a1d3f577d510ba3bc999c4fbfd188985ee65e851b6c9b2bbd231",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 18836,
+      "sha256": "9d193a1f034ad89b75b2c409f749bc2e91faf28db593b65cb9bad990ba730986",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 16425,
+      "sha256": "0b4f1d3cec86741b2d2aaebf9aeb09891f265135b5d746bdc5d8840b28ce808f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 197336,
+      "sha256": "e90b044d995192917c6286191e414c15f8c45f02e70058541067edab7b9121ac",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1180,
+      "sha256": "07c46dd190431a4a09696e599c223c7f20b5c6a271c497f372d4900324c2ce2f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 22114,
+      "sha256": "b7631ae45f46903130a7d6717e38722c8f37476ddf360ca3831b7e04218c02ec",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 24534,
+      "sha256": "be498ededd6ba8981219a5d053b4eac2ebd97fbf89d6e58aff8472ff81e73b63",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 24757,
+      "sha256": "6af9019d3bdda287c8bd3b4da6765eb4361b783ef4266a22e7adb48cef1581cc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 21576,
+      "sha256": "d09fbcfb09dfce45f742af6030982726331a15c16c10489be9bf4fdba1011525",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 19850,
+      "sha256": "32d860c1ddc9598a178bce7897788a7191b207cd34c8a93a0aca11d269cca11b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 23012,
+      "sha256": "33c044f9dc090a4440554256af352af1fec7e2461160cb7fa095d9001cbd46a8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 26593,
+      "sha256": "39a9078de16fe26fd05b2a47e025b784f9dbd6044e2e527f6f5aaf5118b5de7b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 25630,
+      "sha256": "313884493efc584d93bc56e946ff9681e302db13e4de873e172977ee4d740786",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 20763,
+      "sha256": "ef5a9161d08f3d302a73d3d0e76a9339a56f8fa708d7a72968e93fbb6f6ab560",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 53429,
+      "sha256": "5972d1b8316c589be99c119098d7d5d5541f9082557b5ea5d2193f07b05c7966",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1333,
+      "sha256": "58e7fdb02a619d5385d0baf4b73ff49e895dc960ed8f6b23c3aaf380dfff79df",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2226,
+      "sha256": "9aaa631ec745ecbed45cc9cff9aba0e79f79d31703d23d0f3b640f94bad4427a",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1117,
+      "sha256": "013a4a658c8125da84cd522b31525ac6dea5d83c8496ed4972dfddd7c93bfe1e",
+      "role": "provenance"
+    }
+  ]
+}
