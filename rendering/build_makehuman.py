@@ -50,7 +50,10 @@ def setup_mpfb(mpfb_src: Path, pack_data: Path):
     module = load_mpfb_extension(mpfb_src)
     bpy.utils.extension_path_user(MPFB_PACKAGE, create=True)
     if MPFB_PACKAGE not in bpy.context.preferences.addons:
-        bpy.context.preferences.addons.new(MPFB_PACKAGE)
+        # Blender 4.2's Addons.new() creates an empty entry; the module name is
+        # assigned afterwards. Passing it as an argument raises TypeError.
+        addon = bpy.context.preferences.addons.new()
+        addon.module = MPFB_PACKAGE
     module.register()
     print("MPFB registered; installing CC0 system pack", flush=True)
     services = mpfb_services()
