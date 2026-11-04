@@ -1,0 +1,33 @@
+Blender 4.2.9 LTS (hash a10f621e649a built 2025-04-15 01:46:41)
+Traceback (most recent call last):
+  File "/home/runner/work/3d-Assets/3d-Assets/rendering/build_makehuman.py", line 185, in <module>
+    main(*arguments)
+  File "/home/runner/work/3d-Assets/3d-Assets/rendering/build_makehuman.py", line 143, in main
+    setup_mpfb(Path(mpfb_src), pack)
+  File "/home/runner/work/3d-Assets/3d-Assets/rendering/build_makehuman.py", line 22, in setup_mpfb
+    mpfb.register()
+  File "/home/runner/work/3d-Assets/3d-Assets/.work/cache/makehuman/mpfb2-b50c69cea33c/mpfb2-d0a32e57a7f915cb2f2b95410e2117648c7bbb7e/src/mpfb/__init__.py", line 198, in register
+    from .services import LogService  # This will also cascade import the other services
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/3d-Assets/3d-Assets/.work/cache/makehuman/mpfb2-b50c69cea33c/mpfb2-d0a32e57a7f915cb2f2b95410e2117648c7bbb7e/src/mpfb/services/__init__.py", line 11, in <module>
+    from .locationservice import LocationService
+  File "/home/runner/work/3d-Assets/3d-Assets/.work/cache/makehuman/mpfb2-b50c69cea33c/mpfb2-d0a32e57a7f915cb2f2b95410e2117648c7bbb7e/src/mpfb/services/locationservice.py", line 377, in <module>
+    LocationService = _LocationService()  # pylint: disable=C0103
+                      ^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/3d-Assets/3d-Assets/.work/cache/makehuman/mpfb2-b50c69cea33c/mpfb2-d0a32e57a7f915cb2f2b95410e2117648c7bbb7e/src/mpfb/services/locationservice.py", line 29, in __init__
+    self._user_home = bpy.utils.extension_path_user(MPFB_CONTEXTUAL_INFORMATION["__package__"])
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/blender/4.2/scripts/modules/bpy/utils/__init__.py", line 902, in extension_path_user
+    repo_module, pkg_idname = _extension_module_name_decompose(package)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/blender/4.2/scripts/modules/addon_utils.py", line 1412, in _extension_module_name_decompose
+    raise ValueError("The \"package\" does not name an extension")
+ValueError: The "package" does not name an extension
+
+Error: script failed, file: '/home/runner/work/3d-Assets/3d-Assets/rendering/build_makehuman.py', exiting.
+The 'mpfb' addon does not exist!?
+Could not read preference mpfb_user_data
+Log config does not exist. Creating empty template.
+Will rewrite log config /home/runner/.config/blender/4.2/mpfb/config/log_levels.json
+
+Blender quit

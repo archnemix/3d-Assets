@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/runner/work/3d-Assets/3d-Assets/src/asset_library/intake.py", line 40, in candidate
+    provenance = fetch(sources()[candidate["source"]], candidate, directory)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/3d-Assets/3d-Assets/src/asset_library/sources/__init__.py", line 18, in fetch
+    return adapter(source, candidate, directory)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/3d-Assets/3d-Assets/src/asset_library/sources/makehuman.py", line 118, in fetch_makehuman
+    run(
+  File "/home/runner/work/3d-Assets/3d-Assets/src/asset_library/inspection.py", line 41, in run
+    raise RuntimeError(f"Command failed ({result.returncode}); see {log.relative_to(ROOT)}")
+RuntimeError: Command failed (1); see quarantine/expansion-01/mh-adult-casual-female/logs/makehuman-build.log
