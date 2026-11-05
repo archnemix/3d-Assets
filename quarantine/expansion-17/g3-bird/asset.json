@@ -1,0 +1,312 @@
+{
+  "schema_version": 1,
+  "id": "g3-bird",
+  "title": "European Robin",
+  "category": "nature/wildlife",
+  "style": "realistic",
+  "tags": [
+    "robin",
+    "bird",
+    "wildlife",
+    "pbr"
+  ],
+  "batch": "expansion-17",
+  "acquired_at": "2026-11-05T08:50:50.157500+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/bird.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/bird/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/animals/bird/",
+    "source_id": "bird",
+    "revision": "13491a46ebaa407e3cd6c3bdb183b7edc63c51ed38a868f6c4787e3ff2978685",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/bird/bird.glb",
+        "bytes": 29451772,
+        "sha256": "13491a46ebaa407e3cd6c3bdb183b7edc63c51ed38a868f6c4787e3ff2978685"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "ai-assisted",
+      "detail": "Base mesh and textures generated with an AI image-to-3D tool (Meshy), then cleaned up, scaled, textured and checked in Blender.",
+      "ai_content": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/bird/LICENSE.txt"
+  },
+  "model": "model/bird.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/Image_2.jpg",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "Image_2"
+    },
+    {
+      "path": "textures/Image_0.jpg",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "Image_0"
+    },
+    {
+      "path": "textures/Image_1.jpg",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "Image_1"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 441482,
+    "triangles": 799999,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 4,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "Image_0",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "Image_1",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "Image_2",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 665,
+      "sha256": "a15412842aa03ed7746551767e80808a9303edbbca02a06cfbcf354dfbd0ad27",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 279,
+      "sha256": "5e7e187623e143c475a7afd612a9f63e67fa1f67e47b973a664c3778a9cb946b",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67601,
+      "sha256": "56e3b5cb6f16a72294e056c5734f7c307b69c49680b6bf49cd12a4d08909edf6",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/bird.glb",
+      "bytes": 29451772,
+      "sha256": "13491a46ebaa407e3cd6c3bdb183b7edc63c51ed38a868f6c4787e3ff2978685",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 23225,
+      "sha256": "d0dfad1bc97dc71774adec16eed74d41c188a61db38f2f724c507471f9a44690",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 26977,
+      "sha256": "1b1bbee883726619adf6cb3bca7b44c4f2a5ff0884925e12db0e458fde1356a1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 246921,
+      "sha256": "7f95361d63ec0801f9fbfcec6dafd802c2a14480dbca3dbb4e2727a596052140",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 750,
+      "sha256": "d39a6bc6c1d9fb8c1939b04c9a81f29293722ca5330b2d1e7f99dfa01c8dc1e9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 30249,
+      "sha256": "b96347ba8c653fff917781ede2cb6bf2fcaa4db54f01e60033abcec7730d62f5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 35775,
+      "sha256": "d4272d81235bfc77f4f7ffa3984eedffcc66db77edf64302daf945a5862e7508",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 29187,
+      "sha256": "9a098375f77f9b88c8bc4d41876ed98c5de2f5065238ccbd3877dae6f6975c3a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 42377,
+      "sha256": "97ede79c3406c15a5c8361d97b75b2f34bd0e82c3ffe73ce569a9ed3bae7431c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 32583,
+      "sha256": "62e37936ec1c764f50b7eabcfcb3cbe3bcdc1d963983160476e9bbbd21c6e1e3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 44490,
+      "sha256": "f6f68fe718ab726af67a68724db2488291968d1fcfb769b3a67577daf7ca8ed1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 31860,
+      "sha256": "caf02f9fd5491850e9250b126c9673ea142b1340c4c8bf8c8b718b7ebdb2b2b4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 37271,
+      "sha256": "8511e1d688f0428826f9d999dcfc801971379505b34ee854d3197f0e8704e5ec",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 25045,
+      "sha256": "605e16d98409b73b83b4279c89ca5e7e1e00f89d22852eb00dd05aac740980e2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 60844,
+      "sha256": "cbbc8b555b601a5b00fc9bc7f1761e93825221c8e86656b3bf34d749e050fe78",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 150,
+      "sha256": "c3992a8fff49662fd7054dd33e80457a66f3cdccabe545c0daca1b07a65b09d8",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1919,
+      "sha256": "35568bff08ec877a5bb54a347d4dc5c8434d673caec73e7eecdc3570310810c7",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1116,
+      "sha256": "e7dd2773af1762f32b2c786ae423a1e013c2af33ba262107f1f37a13ff3954cb",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 449,
+      "sha256": "74156cfcd0b283b5d7005386cf9d8d0a2337a2de8213ee50e5881098e678f838",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "6567fa7e22710aad71525773a7f7658dd0a4caf0ee66e91eeb28f2bf2fa865ac",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/Image_0.jpg",
+      "bytes": 2266486,
+      "sha256": "df796ed02f843f51371e4b4fc01b2220ec14066c36f508d7ddbee5a13a6614d5",
+      "role": "textures"
+    },
+    {
+      "path": "textures/Image_1.jpg",
+      "bytes": 377857,
+      "sha256": "23e733d5da2c99bf3fdf5ac60433df498f0142b44b3e2dba286935b936135016",
+      "role": "textures"
+    },
+    {
+      "path": "textures/Image_2.jpg",
+      "bytes": 3078122,
+      "sha256": "03b389a2c756d1c3719b299af34c1f303e7d4f9ef05aa8f8d3c9ea2549c02523",
+      "role": "textures"
+    }
+  ]
+}
