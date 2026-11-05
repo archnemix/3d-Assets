@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "id": "g3-buckler",
+  "title": "Round buckler with sun boss",
+  "category": "armour/shields",
+  "style": "stylized",
+  "tags": [
+    "buckler",
+    "shield",
+    "boss",
+    "brass",
+    "armour",
+    "pbr",
+    "game-ready"
+  ],
+  "batch": "expansion-12",
+  "acquired_at": "2026-11-05T00:10:23.098696+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/buckler.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/buckler/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/weapons/buckler/",
+    "source_id": "buckler",
+    "revision": "f01049f5866cf5184b83ebb76125418be674d2f0521745b9f7cacc66e42ef71d",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/buckler/buckler.glb",
+        "bytes": 807444,
+        "sha256": "f01049f5866cf5184b83ebb76125418be674d2f0521745b9f7cacc66e42ef71d"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/buckler/LICENSE.txt"
+  },
+  "model": "model/buckler.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/buckler_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "buckler_body_normal"
+    },
+    {
+      "path": "textures/buckler_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "buckler_body_basecolor"
+    },
+    {
+      "path": "textures/buckler_body_metallic-buckler_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "buckler_body_metallic-buckler_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 9977,
+    "triangles": 13920,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "buckler_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "buckler_body_metallic-buckler_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "buckler_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 287,
+      "sha256": "fdbcf1c56622120ca9df5f853a1aa6b9c9e91082d2b230c89bebe79f109cb95c",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67772,
+      "sha256": "647b6e3ab89db4d30c08bc98a3b35752c045c8680a3ad39221f8073256e35d28",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/buckler.glb",
+      "bytes": 807444,
+      "sha256": "f01049f5866cf5184b83ebb76125418be674d2f0521745b9f7cacc66e42ef71d",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 24938,
+      "sha256": "2f44449212e804ee611213495dd90184bf471decdd91dbe71b53180ed4083668",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 15152,
+      "sha256": "6b6defd69f2d8f9f4b357f99dfe83e6d0375d07647ee56414608833e387fe383",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 196409,
+      "sha256": "9d40dc0acbe80aa8a43ef6cb835d73b64fa536a0b01a6afc52eaf160842c9b32",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 811,
+      "sha256": "0247c3cddd89c75baeb1d43427b1ce8b6c39e353c735ca3582a73ecc6c651f63",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 25191,
+      "sha256": "3af33af45fab94970d3566948357627033019d7d7c3e28284324ee1c92f4ebfa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 23001,
+      "sha256": "5a8ac6e62629651bb672ad35a41acbd9c2bd85ed89a224c71b85eb36c76f4994",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 22826,
+      "sha256": "57b3eecc29dc32c20767b458f8ee28be2351177415ed2b5de30c1671f2521d53",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 23645,
+      "sha256": "a6ba15ede888d029e1690866d16775be95e6f70f64d38b720a99304c951b67a7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 23177,
+      "sha256": "1367bf7e22c83d364b5031e7de7568b2a9ac4379aa5ca0c0b53d405ec8d09d22",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 23429,
+      "sha256": "e94182b4621f22e99ea8b4ac7f27e5941f39a2982908735c2a7b610f1e7f7e8e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 25031,
+      "sha256": "7f7a97ee49db17fa4f6276b6e68d7bc053016dc3a7c3c6e7926b79ec7bc7f0b1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 23846,
+      "sha256": "2a5a8b641c525423fcef18c4e55c4830d6869a9f9fdc4a776767a7cf4fc27fde",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 41534,
+      "sha256": "b18fb2b70a5fc6bc0c5147877e64ee0b5c14dd2be02b583c24bccf447bbfca26",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 32924,
+      "sha256": "f9a220be6ccb731fa648098d0ac9e335f827a6312858a6ddd19dd22a43d95f64",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 153,
+      "sha256": "f73f0035c383268d33d3a586d43716e6599cb88f56a84575deebc0c34fe7611e",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1928,
+      "sha256": "665c30c54c8d6d0c21757c67328d82613edcf02031d21e6b1d81db6985ff8bb4",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1542,
+      "sha256": "5d8c56c5b5793d3250526c36dff2cffd52ed25f82980bd94d7dea3dfcc9adf2a",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 450,
+      "sha256": "26e3fd7807bb7429fa8927ca13fe49ed73f0b88badd8a83d01310022912d819b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "0900fd8cdaeced9386c6e3a3ec8dbf73e60b28f1f9ea6305a24f7d22cb60fb90",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/buckler_body_basecolor.jpg",
+      "bytes": 160291,
+      "sha256": "afd7e99b1172616458e33456b5d404592dde6ce1b4e923364cfe70766331f7bc",
+      "role": "textures"
+    },
+    {
+      "path": "textures/buckler_body_metallic-buckler_body_roughness.jpg",
+      "bytes": 175364,
+      "sha256": "7c20588d5b4606a30a1e449f9e0b557405b995e150e6ef3d681e0eddd78925b1",
+      "role": "textures"
+    },
+    {
+      "path": "textures/buckler_body_normal.jpg",
+      "bytes": 66504,
+      "sha256": "fc76a6c39d165d503c75dd7f24790c73c1dac145237e716ad32341f64cd48411",
+      "role": "textures"
+    }
+  ]
+}
