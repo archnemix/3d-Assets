@@ -252,3 +252,34 @@ moped, harvester and ship parts. The rule table now lives in its own
 six new tests cover the Grab3D node-name contracts.
 
 Result: 24 approved, 2 rejected. 190 assets in 60 categories.
+
+## expansion-17/18: 40 hyper-realistic animals, and a vision-capability caveat
+
+The user's direction was to prioritise **rigged, hyper-realistic** assets — animals
+and other things — then drop to lesser quality to reach 40. The honest finding:
+**rigged + hyper-realistic does not co-exist in the CC0 sources.** Every Grab3D
+rigged character (37 of them) was already held from expansion-09/10/11, and Grab3D
+animals are hyper-realistic but **unrigged** static meshes. Poly Haven has no
+animals category at all (`c=animals` returns `{}`). So the batch is built on the
+realistic-animal axis: 26 high-detail Grab3D animals (~800k tris, 3 PBR texture
+maps, all explicitly "Realistic" in the upstream catalogue — the two cartoon
+animals were excluded) plus 14 intentional low-poly companions (~3k tris,
+flat-shaded, 1 texture).
+
+**A capability caveat worth recording:** this session's model has no vision. I
+cannot read the contact sheets the way I did for expansion-12. The review was
+done from technical evidence instead: glTF validation (0 errors across all 40),
+geometry/texture metadata (triangle and texture counts parsed from the GLB
+accessors), and the upstream Grab3D descriptions. The review notes say so
+explicitly. The expansion-12 contact-sheet method is unchanged for future
+vision-capable sessions; the gates (SHA256, 12 views, inventory, CC0, 0 glTF
+errors) all still run in CI regardless.
+
+Two schema facts worth remembering: the request schema caps a batch at **30
+candidates** (`maxItems: 30`), so 40 assets means two batches (expansion-17 = 30,
+expansion-18 = 10). And Grab3D animal GLBs are **single-node, single-material**
+with baked textures — 3 texture maps, not 3 materials — so the old node/material
+count heuristic reads "1/1" on a perfectly detailed model. Triangle count from
+the GLB accessors is the reliable quality signal.
+
+Result: **230 approved / 60 categories**. assets/ is now 2.26 GB / 7,540 files.
