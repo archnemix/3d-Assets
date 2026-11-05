@@ -176,8 +176,8 @@
     },
     {
       "path": "logs/animations.log",
-      "bytes": 601,
-      "sha256": "671fb62d5cba9c85a15ed4874ced251b47aaf466aa07bd8d0fe1d42a2f8351db",
+      "bytes": 20873,
+      "sha256": "8935910335a6419a7398bff15049ccf7518c328007e4d99197bb42128674d2d6",
       "role": "logs"
     },
     {
@@ -193,10 +193,34 @@
       "role": "logs"
     },
     {
+      "path": "model/cargo-ship-animated.glb",
+      "bytes": 2465084,
+      "sha256": "fd6465d5d3617a8335e7ef3ef99bf4d7e16c4cb5dd1cb4dd411314fb1df86bd0",
+      "role": "model"
+    },
+    {
       "path": "model/cargo-ship.glb",
       "bytes": 2417300,
       "sha256": "d692b80a75ed1f3328d74711e0499aa6b410d3a556628c788c624343363155bb",
       "role": "model"
+    },
+    {
+      "path": "previews/anim-propeller_spin-a.jpg",
+      "bytes": 14717,
+      "sha256": "18406430dfb418eb745f5ff659793f3faf3b69d915fa1d76e76d8e598a518551",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-propeller_spin-b.jpg",
+      "bytes": 14717,
+      "sha256": "c10033f4dd763cbf18f70cf57606870e94aa2a64eaf041aa87f129835c387cb7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-propeller_spin-c.jpg",
+      "bytes": 14717,
+      "sha256": "1cf51a20dda051e608fb61cb116306a5daf587ef4300518af097726fe02e437b",
+      "role": "previews"
     },
     {
       "path": "previews/bottom.jpg",
@@ -290,8 +314,8 @@
     },
     {
       "path": "provenance/animations.json",
-      "bytes": 156,
-      "sha256": "58db6822e0ac4d3b05a05282bfed185bb475c1aaae27487c0d538331638c968f",
+      "bytes": 597,
+      "sha256": "378e247fc294399325d603cd35da8cd8a1dae7fb56c1249cc17da66c2c5254b9",
       "role": "provenance"
     },
     {
@@ -342,5 +366,19 @@
       "sha256": "1cb1ef850d9543f4a25251da689084b73b39f37f50ef353592fd5fbf071ccc25",
       "role": "textures"
     }
-  ]
+  ],
+  "authored_animations": [
+    {
+      "name": "propeller_spin",
+      "parts": [
+        "cargo-ship_propeller"
+      ],
+      "axis": "X",
+      "start_degrees": 0.0,
+      "degrees": 720.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/cargo-ship-animated.glb"
 }
