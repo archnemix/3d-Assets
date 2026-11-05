@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "id": "g3-low-poly-bear",
+  "title": "Low Poly Bear",
+  "category": "nature/wildlife",
+  "style": "low-poly",
+  "tags": [
+    "bear",
+    "low-poly",
+    "wildlife",
+    "stylized"
+  ],
+  "batch": "expansion-18",
+  "acquired_at": "2026-11-05T09:15:03.343303+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/low-poly-bear.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/low-poly-bear/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/animals/low-poly-bear/",
+    "source_id": "low-poly-bear",
+    "revision": "bcab69b5ec73a744f25e4c8a9654eef630dd2da779e56239dc7a464765f03f95",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/low-poly-bear/low-poly-bear.glb",
+        "bytes": 307968,
+        "sha256": "bcab69b5ec73a744f25e4c8a9654eef630dd2da779e56239dc7a464765f03f95"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "ai-assisted",
+      "detail": "Derived in Blender from the AI-assisted model \"bear\", whose base mesh and textures were generated with an AI image-to-3D tool (Meshy). This version was reduced to low poly and given a palette texture in Blender.",
+      "ai_content": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/low-poly-bear/LICENSE.txt"
+  },
+  "model": "model/low-poly-bear.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 1,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/low-poly-bear_palette.png",
+      "dimensions": [
+        24,
+        24
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "low-poly-bear_palette"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 8998,
+    "triangles": 3000,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "low-poly-bear_palette",
+        "dimensions": [
+          24,
+          24
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 0,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 749,
+      "sha256": "3e23d190243a332803435080fa3e2765c57524f097142ed6fe26f783740eb8e5",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 288,
+      "sha256": "2fb02e8e8394439a5d276136af5c102b66fde47130d8febb99a859b77fc70886",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 63138,
+      "sha256": "3c1d963d2d15be776875b7258a0415deddcf458f1bbf3e15719efe316d664727",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "3629b738db9a859e28c3be3ca3f30737a293067d742f1bb7f0d75f7f8b36e9e2",
+      "role": "logs"
+    },
+    {
+      "path": "model/low-poly-bear.glb",
+      "bytes": 307968,
+      "sha256": "bcab69b5ec73a744f25e4c8a9654eef630dd2da779e56239dc7a464765f03f95",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 22759,
+      "sha256": "f62ff51e4b462d4476b518362db36c22f3a9a0886b8dc87822e71689014e7484",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 23670,
+      "sha256": "2a7513af2d01805d3e8c8195db0eb8078e32a965b3bf2ae3817ddc0aaa797e77",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 230459,
+      "sha256": "02710a815eac3a87a757d93e57add030ae8eefe4e5e8d45df322999fd27bd5fe",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 478,
+      "sha256": "cc6a73362ef5c5569baa1e10976003b8ed29b3ac8936f453411d5017f332ceea",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 29550,
+      "sha256": "905cc2fb734ab0a828495d4be123dd4fc550abcb5ebda4445b0a44af7bfde691",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 32703,
+      "sha256": "b69deab1923c176f863e00cf57f2cda4538771c7a2c9a4405981fb61cca3f877",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 25588,
+      "sha256": "6f39e5d1181b57e348238c7ad06b89a2044629bb05c33f32cfe2875deffb7761",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 29220,
+      "sha256": "4f79f06be0bffec6461be0cb20317d125e0e04cac425eea426fa52149c1d1b02",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 23834,
+      "sha256": "4fd7a9369bd4d22d6e20df22849f7df0d5023be448b06dd4e692018ac6f29714",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 32309,
+      "sha256": "7c2661c3bc3f1f5c2328f29d1a57ac205504ec44645dadeec8e3ebb2c1d2200c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 26312,
+      "sha256": "e07a61aca861e447ac03ea252bb488f8898da57d764f2864e354465320c8e35a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 29432,
+      "sha256": "84229d67972b99a3d866d7aef604a1e342c663c454378c832887613ff0a4107d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 20369,
+      "sha256": "e5ce0f5b9e65f4b9d2771eae8d55164d61c02561597a4432c0a446c2dbd5cd3a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 56049,
+      "sha256": "16bdb1df58cc862322339b9c4f20a37216e8826ac797e200cdd1897c007f8d98",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 159,
+      "sha256": "a28a665a9569e21f3627fdae87bdf97bb40e315cce401c03f45b7332620bc77f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1354,
+      "sha256": "7c0ffe22996236d65ed30f5d8a769f88cd4fc6bddb38cfb665e61955f5398e81",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1156,
+      "sha256": "58d5e255f143962985183f839cf899aac44de848f5cdf1de9d8e7e8a66236124",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 519,
+      "sha256": "edd838d82dff28111dcdbe1044d97047a9b41a93297cf15d8d0aba8482bdf407",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "ba1a87241da6e441c63a305b435a41c9a6da70873688b4483816e556e5b9104e",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/low-poly-bear_palette.png",
+      "bytes": 342,
+      "sha256": "3b9501932b9fb4f2976f88d5e994cd1858b1613de401673fb38ed1e2694a0f7a",
+      "role": "textures"
+    }
+  ]
+}
