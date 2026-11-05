@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "id": "g3-neuschwanstein",
+  "title": "Hilltop castle with spires",
+  "category": "buildings/landmarks",
+  "style": "stylized",
+  "tags": [
+    "castle",
+    "spires",
+    "slate",
+    "hilltop",
+    "building",
+    "architecture",
+    "pbr",
+    "game-ready"
+  ],
+  "batch": "expansion-13",
+  "acquired_at": "2026-11-05T10:27:21.166643+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/neuschwanstein-castle.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/neuschwanstein-castle/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/buildings/neuschwanstein-castle/",
+    "source_id": "neuschwanstein-castle",
+    "revision": "64d7a0ec2304c4ef91983c617e0673db9430eae1af5965412656ea7ddcc30a30",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/neuschwanstein-castle/neuschwanstein-castle.glb",
+        "bytes": 3181108,
+        "sha256": "64d7a0ec2304c4ef91983c617e0673db9430eae1af5965412656ea7ddcc30a30"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/neuschwanstein-castle/LICENSE.txt"
+  },
+  "model": "model/neuschwanstein-castle.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 4,
+    "materials": 10,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/neuschwanstein-castle_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "neuschwanstein-castle_body_normal"
+    },
+    {
+      "path": "textures/neuschwanstein-castle_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "neuschwanstein-castle_body_basecolor"
+    },
+    {
+      "path": "textures/neuschwanstein-castle_body_metallic-neuschwanstein-castle_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "neuschwanstein-castle_body_metallic-neuschwanstein-castle_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 4,
+    "hidden_mesh_objects": 0,
+    "vertices": 70240,
+    "triangles": 48264,
+    "material_slots": 10,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "neuschwanstein-castle_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "neuschwanstein-castle_body_metallic-neuschwanstein-castle_body_",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "neuschwanstein-castle_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 525,
+      "sha256": "7b84a012cf80c73ac497ec821cc82974dc80fac9e93b3366c2136889d7372361",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 71118,
+      "sha256": "797ffb1315d83624520a8cbca48fdf6c7d75c120cfd366cf667e08f377199cd7",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "ef6a02932eee6888ce102b3ddadcdce98b75b5cc02ab922779185a101b9d0eac",
+      "role": "logs"
+    },
+    {
+      "path": "model/neuschwanstein-castle.glb",
+      "bytes": 3181108,
+      "sha256": "64d7a0ec2304c4ef91983c617e0673db9430eae1af5965412656ea7ddcc30a30",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 17019,
+      "sha256": "a9d39ff45d7382783c65df52d3b93d4768f332d75c92a785e629a9af7cfbd414",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18477,
+      "sha256": "5dbc2688bbcb66b69e96ca7439cdf3849d3a17c634b6ab4e55884f23becb4948",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 202689,
+      "sha256": "fe351451978262b6226abe01ffcec24d0f3cc2c5bf33596d946cceb0deda29aa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 860,
+      "sha256": "a06da918a1d9ab686b002dbd13f16da5da9cee269ec16bd782f053513a8e65a3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 25048,
+      "sha256": "9e8e00150c762d38b2bfcdf2cd3d541c0e887042b585b5c59eb3e8dbc7cb096e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 24575,
+      "sha256": "d457298733d4697d76ed02bb267ed2085ae8fa0f4b3e03e04b0394c88b144f1a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 35128,
+      "sha256": "909ded015f6061cbdea65e9bc73ebe1fb47f0c064d9de7c0676050d931f5bc63",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 23325,
+      "sha256": "84850d51fbfec826391eaaef675a4a56b66a513bf6b63933add6d8098a198e50",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 22650,
+      "sha256": "440d088d50ad7f8cf8937168393e2a2b2d89e7aab8bd7c2c1e1777c1a8550deb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 23442,
+      "sha256": "966360b9455593eb4b33ee48403e63195913e74d7fb450c323d8885f132b565d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 44520,
+      "sha256": "a90636c209313ba2ce3f163175041d3c466b9df27f49cdf326503343a918e896",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 23889,
+      "sha256": "b35bc15f9edaa0b482d77f31e5f5933910801c429f67ba0c98b577c1f49e1cc7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 28102,
+      "sha256": "f73b8a689d262f96dd9c87cb2be52b4fbc9ceeb306bbc6ae17e51e6f45eeb811",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 31204,
+      "sha256": "1fec525671eada5afb619a98e24d40b73e703a41e001851d3ce6614bcd7f7ea8",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 167,
+      "sha256": "ffdb0f79e171f3777150e2c8bbae6c140f366f8423c990d6d7e10959e911b6c9",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3638,
+      "sha256": "c508e7f15ef0c48859a38b60ce460f031f7ffa95c14a3a77214a02b4fd025ddd",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1819,
+      "sha256": "eef2aed51e261d252c14f0645f3e21eb1100c19835e5af28d86cb46b5d4e4724",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 586,
+      "sha256": "daa8facca75ed989a14e2fb921c6aab324221c09c9e240f37bd7807711163c4f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "52cc0e1cb5133877771b97fbd2d89957eefc5d6f6386669215820c529488a3b1",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/neuschwanstein-castle_body_basecolor.jpg",
+      "bytes": 292238,
+      "sha256": "bdff8701411063862e6dcac4e2072f0d2e61fb9f62e3840c4b632111fe5c3c13",
+      "role": "textures"
+    },
+    {
+      "path": "textures/neuschwanstein-castle_body_metallic-neuschwanstein-castle_body_roughness.jpg",
+      "bytes": 270852,
+      "sha256": "5ff4a1d263f67bd6ccc9f98fb1e11e4bd1cba4e2e3b8eae8f22324347fbdaea1",
+      "role": "textures"
+    },
+    {
+      "path": "textures/neuschwanstein-castle_body_normal.jpg",
+      "bytes": 69150,
+      "sha256": "0b7fa8e03ed190cd2a53b201b28c53025f47f00cb925067088b51d8484dc5116",
+      "role": "textures"
+    }
+  ]
+}
