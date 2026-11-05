@@ -289,8 +289,8 @@
     },
     {
       "path": "logs/animations.log",
-      "bytes": 418,
-      "sha256": "d8714773557fbf065e2f68dce4315ec9a2a37c2c91e4878c3ecceaebe863bd9e",
+      "bytes": 22130,
+      "sha256": "058b75d67eea56dd7398e22f80958721f8e81adae13c5a936cfcd3818b3d3a12",
       "role": "logs"
     },
     {
@@ -306,10 +306,34 @@
       "role": "logs"
     },
     {
+      "path": "model/differential-animated.glb",
+      "bytes": 2875588,
+      "sha256": "3e4a3ee1ff1495fb05ed36b324e6f2c09bf39e21353ed5d83da4c7331d2fd29e",
+      "role": "model"
+    },
+    {
       "path": "model/differential.glb",
       "bytes": 2871124,
       "sha256": "6715a55688ca3374b101f772707232c0588282ed9855a4445b7ebe8277b60835",
       "role": "model"
+    },
+    {
+      "path": "previews/anim-rotor_spin-a.jpg",
+      "bytes": 10901,
+      "sha256": "0bc57dd90bb57213030e1c4cccfe666a3d8b6c0da765bcbfc13102564f4e8507",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-rotor_spin-b.jpg",
+      "bytes": 10667,
+      "sha256": "a2bce882c7be88b2e353d28e500efc792dda972b29efd7264bd0a0a251de4876",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-rotor_spin-c.jpg",
+      "bytes": 10891,
+      "sha256": "3fe086c82cb98fe17c7362399aea34e33033a8fab02a292e2abf8c039f1427e2",
+      "role": "previews"
     },
     {
       "path": "previews/bottom.jpg",
@@ -403,8 +427,8 @@
     },
     {
       "path": "provenance/animations.json",
-      "bytes": 158,
-      "sha256": "8f1d2e509dac227d5f2d5c40e3c0105a5fe6c56399c8f64ef626fd3350d88d20",
+      "bytes": 613,
+      "sha256": "a860d2255e5dca971cf06ebdffb2fac6e419b808da02edb8c95da5dfe93fe51a",
       "role": "provenance"
     },
     {
@@ -491,5 +515,20 @@
       "sha256": "805aa98349c461d02e392d8f841e256d01894dcff9c7c46919f9cbfdfc9ef680",
       "role": "textures"
     }
-  ]
+  ],
+  "authored_animations": [
+    {
+      "name": "rotor_spin",
+      "parts": [
+        "differential_rotor_a",
+        "differential_rotor_b"
+      ],
+      "axis": "X",
+      "start_degrees": 0.0,
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/differential-animated.glb"
 }
