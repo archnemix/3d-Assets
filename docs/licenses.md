@@ -2,7 +2,7 @@
 
 Checked on 2026-11-04. Scope: approved assets under assets/ only.
 
-**230 of 230 approved assets pass every check.**
+**260 of 260 approved assets pass every check.**
 
 Every approved asset is dedicated to the public domain under CC0 1.0. For each one
 that means: no cost, no attribution, commercial use allowed, use and redistribution
@@ -19,11 +19,40 @@ standalone. "Display" means showing the model and our own renders publicly.
 
 | Asset | Category | Creator / source | License | Free | Credit | Sell with it | Use as-is | Display |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Medieval arched double castle door](../assets/architecture/doors/ph-castle-door/README.md) | `architecture/doors` | Tina (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Modular chainlink fence](../assets/architecture/fences/ph-chainlink-fence/README.md) | `architecture/fences` | James Ray Cock, Amal Kumar (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Forged farm gate latch](../assets/architecture/gates/ph-gate-latch/README.md) | `architecture/gates` | Desktoy (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Ornate cast-iron double gate](../assets/architecture/gates/ph-iron-gate/README.md) | `architecture/gates` | Josh Dean (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Steel breastplate with brass trim](../assets/armour/body/g3-breastplate/README.md) | `armour/body` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Great helm with breathing rosettes](../assets/armour/head/g3-great-helm/README.md) | `armour/head` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Plated steel gauntlet](../assets/armour/limbs/g3-gauntlet/README.md) | `armour/limbs` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Steel pauldron with lames](../assets/armour/limbs/g3-pauldron/README.md) | `armour/limbs` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Round buckler with sun boss](../assets/armour/shields/g3-buckler/README.md) | `armour/shields` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Airport terminal with control tower](../assets/buildings/commercial/g3-airport-terminal/README.md) | `buildings/commercial` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Neoclassical bank with vault door](../assets/buildings/commercial/g3-bank/README.md) | `buildings/commercial` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Retro cinema with marquee](../assets/buildings/commercial/g3-cinema/README.md) | `buildings/commercial` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Four-storey city block](../assets/buildings/commercial/g3-city-block/README.md) | `buildings/commercial` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Western general store](../assets/buildings/commercial/g3-general-store/README.md) | `buildings/commercial` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Carnival game booth](../assets/buildings/entertainment/g3-carnival-booth/README.md) | `buildings/entertainment` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Striped circus big top](../assets/buildings/entertainment/g3-circus-tent/README.md) | `buildings/entertainment` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Fun house facade with mirrors](../assets/buildings/entertainment/g3-fun-house/README.md) | `buildings/entertainment` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Theme park entrance with turnstiles](../assets/buildings/entertainment/g3-park-entrance/README.md) | `buildings/entertainment` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Octagonal ticket booth](../assets/buildings/entertainment/g3-ticket-booth/README.md) | `buildings/entertainment` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Slatted corn crib on stilts](../assets/buildings/farm/g3-corn-crib/README.md) | `buildings/farm` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Roadside farm produce stand](../assets/buildings/farm/g3-farm-stand/README.md) | `buildings/farm` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Corrugated grain bin](../assets/buildings/farm/g3-grain-bin/README.md) | `buildings/farm` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Modern beach villa with pool](../assets/buildings/houses/g3-beach-house/README.md) | `buildings/houses` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Fantasy mushroom house](../assets/buildings/houses/g3-mushroom-house/README.md) | `buildings/houses` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Crooked witch cottage](../assets/buildings/houses/g3-witch-cottage/README.md) | `buildings/houses` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Fairy-tale castle with towers](../assets/buildings/landmarks/g3-castle/README.md) | `buildings/landmarks` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Roman colosseum](../assets/buildings/landmarks/g3-colosseum/README.md) | `buildings/landmarks` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Lattice iron tower](../assets/buildings/landmarks/g3-eiffel-tower/README.md) | `buildings/landmarks` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Hilltop castle with spires](../assets/buildings/landmarks/g3-neuschwanstein/README.md) | `buildings/landmarks` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Leaning campanile](../assets/buildings/landmarks/g3-pisa-tower/README.md) | `buildings/landmarks` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Stepped mudbrick ziggurat](../assets/buildings/landmarks/g3-ziggurat/README.md) | `buildings/landmarks` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Modular glass elevator shaft](../assets/buildings/modular/g3-elevator/README.md) | `buildings/modular` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Escalator with glass balustrades](../assets/buildings/modular/g3-escalator/README.md) | `buildings/modular` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Revolving door with glass drum](../assets/buildings/modular/g3-revolving-door/README.md) | `buildings/modular` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Knight in silver and gold plate](../assets/characters/fantasy/grab3d-armored-knight/README.md) | `characters/fantasy` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Dwarf gem cutter with loupe](../assets/characters/fantasy/grab3d-dwarf/README.md) | `characters/fantasy` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Elf cartographer with map tube](../assets/characters/fantasy/grab3d-elf/README.md) | `characters/fantasy` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -121,6 +150,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Industrial plastic storage container](../assets/industrial/containers/ph-plastic-container/README.md) | `industrial/containers` | Galo Benivegna (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Worn red industrial barrel](../assets/industrial/containers/ph-red-barrel/README.md) | `industrial/containers` | Jorge Camacho (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Industrial electrical power box](../assets/industrial/electrical/ph-power-box/README.md) | `industrial/electrical` | Rico Cilliers, Yann Kervran (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Street fire hydrant](../assets/industrial/infrastructure/ph-fire-hydrant/README.md) | `industrial/infrastructure` | Gonçalo Felício (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Red fire alarm pull station](../assets/industrial/safety/ph-fire-alarm/README.md) | `industrial/safety` | Slinc (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Yellow wet floor caution sign](../assets/industrial/safety/ph-wet-floor-sign/README.md) | `industrial/safety` | Fran Calvente (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Worn brass frying pan](../assets/kitchen/cookware/ph-brass-pan/README.md) | `kitchen/cookware` | Rico Cilliers (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -263,7 +293,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 
 ### Grab3D — `grab3d`
 
-124 approved assets. Status: **verified**.
+149 approved assets. Status: **verified**.
 
 - Terms: <https://grab3d.com/license/>
 - Pinned evidence: <https://grab3d.com/license/>
@@ -288,7 +318,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 
 ### Poly Haven — `polyhaven`
 
-96 approved assets. Status: **verified**.
+101 approved assets. Status: **verified**.
 
 - Terms: <https://polyhaven.com/license>
 - Pinned evidence: <https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md>
@@ -305,6 +335,9 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [1960s sports car](../assets/vehicles/cars/g3-1960s-sports-car/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [1980s wedge sports car](../assets/vehicles/cars/g3-1980s-sports-car/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [1990s police patrol car](../assets/vehicles/cars/g3-1990s-police-car/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Airport terminal with control tower](../assets/buildings/commercial/g3-airport-terminal/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Neoclassical bank with vault door](../assets/buildings/commercial/g3-bank/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Modern beach villa with pool](../assets/buildings/houses/g3-beach-house/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Brown Bear](../assets/nature/wildlife/g3-bear/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Bicolor Sphynx Cat](../assets/nature/wildlife/g3-bicolor-sphynx-cat/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [European Robin](../assets/nature/wildlife/g3-bird/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
@@ -319,10 +352,17 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Car tyre with tread pattern](../assets/vehicles/parts/g3-car-tire/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Double-deck car transporter](../assets/vehicles/trucks/g3-car-transporter/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Container cargo ship](../assets/vehicles/watercraft/g3-cargo-ship/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Carnival game booth](../assets/buildings/entertainment/g3-carnival-booth/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Fairy-tale castle with towers](../assets/buildings/landmarks/g3-castle/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [King Cheetah](../assets/nature/wildlife/g3-cheetah/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Chicken](../assets/nature/wildlife/g3-chicken/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Retro cinema with marquee](../assets/buildings/commercial/g3-cinema/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Striped circus big top](../assets/buildings/entertainment/g3-circus-tent/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Four-storey city block](../assets/buildings/commercial/g3-city-block/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Roman colosseum](../assets/buildings/landmarks/g3-colosseum/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Combine harvester](../assets/vehicles/farm/g3-combine-harvester/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Small hatchback compact car](../assets/vehicles/cars/g3-compact-car/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Slatted corn crib on stilts](../assets/buildings/farm/g3-corn-crib/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Holstein Cow](../assets/nature/wildlife/g3-cow/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Red Rock Crab](../assets/nature/aquatic/g3-crab/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Crocodile](../assets/nature/wildlife/g3-crocodile/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
@@ -332,16 +372,23 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Differential cutaway](../assets/vehicles/parts/g3-differential/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Bottlenose Dolphin](../assets/nature/aquatic/g3-dolphin/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Bald Eagle](../assets/nature/wildlife/g3-eagle/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Lattice iron tower](../assets/buildings/landmarks/g3-eiffel-tower/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Compact electric city car](../assets/vehicles/cars/g3-electric-car/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Electric locomotive with pantographs](../assets/vehicles/rail/g3-electric-locomotive/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [African Elephant](../assets/nature/wildlife/g3-elephant/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Modular glass elevator shaft](../assets/buildings/modular/g3-elevator/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Enchanted sword in a plinth](../assets/weapons/melee/g3-enchanted-sword/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Escalator with glass balustrades](../assets/buildings/modular/g3-escalator/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Roadside farm produce stand](../assets/buildings/farm/g3-farm-stand/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Farm tipping trailer with hay](../assets/vehicles/farm/g3-farm-trailer/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Chain flail](../assets/weapons/melee/g3-flail/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Flywheel with clutch face](../assets/vehicles/parts/g3-flywheel/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Fun house facade with mirrors](../assets/buildings/entertainment/g3-fun-house/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Three-masted galleon](../assets/vehicles/watercraft/g3-galleon/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Plated steel gauntlet](../assets/armour/limbs/g3-gauntlet/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Western general store](../assets/buildings/commercial/g3-general-store/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Giraffe](../assets/nature/wildlife/g3-giraffe/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Corrugated grain bin](../assets/buildings/farm/g3-grain-bin/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Great helm with breathing rosettes](../assets/armour/head/g3-great-helm/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Great White Shark](../assets/nature/aquatic/g3-great-white-shark/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Halberd with tassel](../assets/weapons/melee/g3-halberd/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
@@ -376,16 +423,24 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Retro moped](../assets/vehicles/bikes/g3-moped/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Mountain bike](../assets/vehicles/bikes/g3-mountain-bike/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Classic fastback muscle car](../assets/vehicles/cars/g3-muscle-car/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Fantasy mushroom house](../assets/buildings/houses/g3-mushroom-house/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Hilltop castle with spires](../assets/buildings/landmarks/g3-neuschwanstein/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Theme park entrance with turnstiles](../assets/buildings/entertainment/g3-park-entrance/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Steel pauldron with lames](../assets/armour/limbs/g3-pauldron/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Leaning campanile](../assets/buildings/landmarks/g3-pisa-tower/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Bernese Mountain Dog Puppy](../assets/nature/wildlife/g3-puppy/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Brass-capped quarterstaff](../assets/weapons/melee/g3-quarterstaff/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Leather quiver with arrows](../assets/weapons/ranged/g3-quiver/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Raccoon](../assets/nature/wildlife/g3-raccoon/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Rally car with roof scoop](../assets/vehicles/cars/g3-rally-car/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Rapier with swept brass hilt](../assets/weapons/melee/g3-rapier/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Revolving door with glass drum](../assets/buildings/modular/g3-revolving-door/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Sphynx Cat](../assets/nature/wildlife/g3-sphynx-cat/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Red Squirrel](../assets/nature/wildlife/g3-squirrel/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Railway tank car](../assets/vehicles/rail/g3-tank-car/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Octagonal ticket booth](../assets/buildings/entertainment/g3-ticket-booth/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Crooked witch cottage](../assets/buildings/houses/g3-witch-cottage/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Stepped mudbrick ziggurat](../assets/buildings/landmarks/g3-ziggurat/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Porcelain shell android](../assets/characters/scifi/grab3d-android/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Knight in silver and gold plate](../assets/characters/fantasy/grab3d-armored-knight/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Astronaut in EVA spacesuit](../assets/characters/scifi/grab3d-astronaut/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
@@ -443,19 +498,19 @@ Every check below is machine-verified by `python -m asset_library license-audit`
 
 | Check | Passing |
 | --- | --- |
-| `cc0_spdx` | 230/230 |
-| `cc0_text_present` | 230/230 |
-| `commercial_use_allowed` | 230/230 |
-| `evidence_recorded` | 230/230 |
-| `free_of_charge` | 230/230 |
-| `license_file_checksummed` | 230/230 |
-| `no_attribution_required` | 230/230 |
-| `no_trademark_warning` | 230/230 |
-| `redistribution_allowed` | 230/230 |
-| `source_terms_verified` | 230/230 |
-| `standalone_resale_permitted` | 230/230 |
-| `textures_included` | 230/230 |
-| `visually_approved` | 230/230 |
+| `cc0_spdx` | 260/260 |
+| `cc0_text_present` | 260/260 |
+| `commercial_use_allowed` | 260/260 |
+| `evidence_recorded` | 260/260 |
+| `free_of_charge` | 260/260 |
+| `license_file_checksummed` | 260/260 |
+| `no_attribution_required` | 260/260 |
+| `no_trademark_warning` | 260/260 |
+| `redistribution_allowed` | 260/260 |
+| `source_terms_verified` | 260/260 |
+| `standalone_resale_permitted` | 260/260 |
+| `textures_included` | 260/260 |
+| `visually_approved` | 260/260 |
 
 ## Evidence per asset
 
@@ -467,6 +522,9 @@ Each row links to the license file stored beside the model and to the exact
 | g3-1960s-sports-car | [LICENSE.txt](../assets/vehicles/cars/g3-1960s-sports-car/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/1960s-sports-car/) | [evidence](https://grab3d.com/dl/1960s-sports-car/LICENSE.txt) |
 | g3-1980s-sports-car | [LICENSE.txt](../assets/vehicles/cars/g3-1980s-sports-car/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/1980s-sports-car/) | [evidence](https://grab3d.com/dl/1980s-sports-car/LICENSE.txt) |
 | g3-1990s-police-car | [LICENSE.txt](../assets/vehicles/cars/g3-1990s-police-car/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/1990s-police-car/) | [evidence](https://grab3d.com/dl/1990s-police-car/LICENSE.txt) |
+| g3-airport-terminal | [LICENSE.txt](../assets/buildings/commercial/g3-airport-terminal/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/airport-terminal/) | [evidence](https://grab3d.com/dl/airport-terminal/LICENSE.txt) |
+| g3-bank | [LICENSE.txt](../assets/buildings/commercial/g3-bank/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/bank/) | [evidence](https://grab3d.com/dl/bank/LICENSE.txt) |
+| g3-beach-house | [LICENSE.txt](../assets/buildings/houses/g3-beach-house/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/luxury-beach-house/) | [evidence](https://grab3d.com/dl/luxury-beach-house/LICENSE.txt) |
 | g3-bear | [LICENSE.txt](../assets/nature/wildlife/g3-bear/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/bear/) | [evidence](https://grab3d.com/dl/bear/LICENSE.txt) |
 | g3-bicolor-sphynx-cat | [LICENSE.txt](../assets/nature/wildlife/g3-bicolor-sphynx-cat/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/bicolor-sphynx-cat/) | [evidence](https://grab3d.com/dl/bicolor-sphynx-cat/LICENSE.txt) |
 | g3-bird | [LICENSE.txt](../assets/nature/wildlife/g3-bird/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/bird/) | [evidence](https://grab3d.com/dl/bird/LICENSE.txt) |
@@ -481,10 +539,17 @@ Each row links to the license file stored beside the model and to the exact
 | g3-car-tire | [LICENSE.txt](../assets/vehicles/parts/g3-car-tire/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/car-tire/) | [evidence](https://grab3d.com/dl/car-tire/LICENSE.txt) |
 | g3-car-transporter | [LICENSE.txt](../assets/vehicles/trucks/g3-car-transporter/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/car-transporter/) | [evidence](https://grab3d.com/dl/car-transporter/LICENSE.txt) |
 | g3-cargo-ship | [LICENSE.txt](../assets/vehicles/watercraft/g3-cargo-ship/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/cargo-ship/) | [evidence](https://grab3d.com/dl/cargo-ship/LICENSE.txt) |
+| g3-carnival-booth | [LICENSE.txt](../assets/buildings/entertainment/g3-carnival-booth/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/carnival-booth/) | [evidence](https://grab3d.com/dl/carnival-booth/LICENSE.txt) |
+| g3-castle | [LICENSE.txt](../assets/buildings/landmarks/g3-castle/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/castle/) | [evidence](https://grab3d.com/dl/castle/LICENSE.txt) |
 | g3-cheetah | [LICENSE.txt](../assets/nature/wildlife/g3-cheetah/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/cheetah/) | [evidence](https://grab3d.com/dl/cheetah/LICENSE.txt) |
 | g3-chicken | [LICENSE.txt](../assets/nature/wildlife/g3-chicken/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/chicken/) | [evidence](https://grab3d.com/dl/chicken/LICENSE.txt) |
+| g3-cinema | [LICENSE.txt](../assets/buildings/commercial/g3-cinema/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/cinema/) | [evidence](https://grab3d.com/dl/cinema/LICENSE.txt) |
+| g3-circus-tent | [LICENSE.txt](../assets/buildings/entertainment/g3-circus-tent/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/circus-tent/) | [evidence](https://grab3d.com/dl/circus-tent/LICENSE.txt) |
+| g3-city-block | [LICENSE.txt](../assets/buildings/commercial/g3-city-block/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/city-block-filler/) | [evidence](https://grab3d.com/dl/city-block-filler/LICENSE.txt) |
+| g3-colosseum | [LICENSE.txt](../assets/buildings/landmarks/g3-colosseum/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/colosseum/) | [evidence](https://grab3d.com/dl/colosseum/LICENSE.txt) |
 | g3-combine-harvester | [LICENSE.txt](../assets/vehicles/farm/g3-combine-harvester/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/combine-harvester/) | [evidence](https://grab3d.com/dl/combine-harvester/LICENSE.txt) |
 | g3-compact-car | [LICENSE.txt](../assets/vehicles/cars/g3-compact-car/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/compact-car/) | [evidence](https://grab3d.com/dl/compact-car/LICENSE.txt) |
+| g3-corn-crib | [LICENSE.txt](../assets/buildings/farm/g3-corn-crib/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/corn-crib/) | [evidence](https://grab3d.com/dl/corn-crib/LICENSE.txt) |
 | g3-cow | [LICENSE.txt](../assets/nature/wildlife/g3-cow/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/cow/) | [evidence](https://grab3d.com/dl/cow/LICENSE.txt) |
 | g3-crab | [LICENSE.txt](../assets/nature/aquatic/g3-crab/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/crab/) | [evidence](https://grab3d.com/dl/crab/LICENSE.txt) |
 | g3-crocodile | [LICENSE.txt](../assets/nature/wildlife/g3-crocodile/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/crocodile/) | [evidence](https://grab3d.com/dl/crocodile/LICENSE.txt) |
@@ -494,16 +559,23 @@ Each row links to the license file stored beside the model and to the exact
 | g3-differential | [LICENSE.txt](../assets/vehicles/parts/g3-differential/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/differential/) | [evidence](https://grab3d.com/dl/differential/LICENSE.txt) |
 | g3-dolphin | [LICENSE.txt](../assets/nature/aquatic/g3-dolphin/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/dolphin/) | [evidence](https://grab3d.com/dl/dolphin/LICENSE.txt) |
 | g3-eagle | [LICENSE.txt](../assets/nature/wildlife/g3-eagle/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/eagle/) | [evidence](https://grab3d.com/dl/eagle/LICENSE.txt) |
+| g3-eiffel-tower | [LICENSE.txt](../assets/buildings/landmarks/g3-eiffel-tower/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/eiffel-tower/) | [evidence](https://grab3d.com/dl/eiffel-tower/LICENSE.txt) |
 | g3-electric-car | [LICENSE.txt](../assets/vehicles/cars/g3-electric-car/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/electric-car/) | [evidence](https://grab3d.com/dl/electric-car/LICENSE.txt) |
 | g3-electric-locomotive | [LICENSE.txt](../assets/vehicles/rail/g3-electric-locomotive/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/electric-locomotive/) | [evidence](https://grab3d.com/dl/electric-locomotive/LICENSE.txt) |
 | g3-elephant | [LICENSE.txt](../assets/nature/wildlife/g3-elephant/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/elephant/) | [evidence](https://grab3d.com/dl/elephant/LICENSE.txt) |
+| g3-elevator | [LICENSE.txt](../assets/buildings/modular/g3-elevator/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/elevator/) | [evidence](https://grab3d.com/dl/elevator/LICENSE.txt) |
 | g3-enchanted-sword | [LICENSE.txt](../assets/weapons/melee/g3-enchanted-sword/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/weapons/enchanted-sword/) | [evidence](https://grab3d.com/dl/enchanted-sword/LICENSE.txt) |
+| g3-escalator | [LICENSE.txt](../assets/buildings/modular/g3-escalator/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/escalator/) | [evidence](https://grab3d.com/dl/escalator/LICENSE.txt) |
+| g3-farm-stand | [LICENSE.txt](../assets/buildings/farm/g3-farm-stand/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/farm-stand/) | [evidence](https://grab3d.com/dl/farm-stand/LICENSE.txt) |
 | g3-farm-trailer | [LICENSE.txt](../assets/vehicles/farm/g3-farm-trailer/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/farm-trailer/) | [evidence](https://grab3d.com/dl/farm-trailer/LICENSE.txt) |
 | g3-flail | [LICENSE.txt](../assets/weapons/melee/g3-flail/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/weapons/flail/) | [evidence](https://grab3d.com/dl/flail/LICENSE.txt) |
 | g3-flywheel | [LICENSE.txt](../assets/vehicles/parts/g3-flywheel/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/flywheel/) | [evidence](https://grab3d.com/dl/flywheel/LICENSE.txt) |
+| g3-fun-house | [LICENSE.txt](../assets/buildings/entertainment/g3-fun-house/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/fun-house/) | [evidence](https://grab3d.com/dl/fun-house/LICENSE.txt) |
 | g3-galleon | [LICENSE.txt](../assets/vehicles/watercraft/g3-galleon/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/galleon/) | [evidence](https://grab3d.com/dl/galleon/LICENSE.txt) |
 | g3-gauntlet | [LICENSE.txt](../assets/armour/limbs/g3-gauntlet/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/weapons/gauntlet/) | [evidence](https://grab3d.com/dl/gauntlet/LICENSE.txt) |
+| g3-general-store | [LICENSE.txt](../assets/buildings/commercial/g3-general-store/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/general-store/) | [evidence](https://grab3d.com/dl/general-store/LICENSE.txt) |
 | g3-giraffe | [LICENSE.txt](../assets/nature/wildlife/g3-giraffe/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/giraffe/) | [evidence](https://grab3d.com/dl/giraffe/LICENSE.txt) |
+| g3-grain-bin | [LICENSE.txt](../assets/buildings/farm/g3-grain-bin/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/grain-bin/) | [evidence](https://grab3d.com/dl/grain-bin/LICENSE.txt) |
 | g3-great-helm | [LICENSE.txt](../assets/armour/head/g3-great-helm/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/characters/great-helm/) | [evidence](https://grab3d.com/dl/great-helm/LICENSE.txt) |
 | g3-great-white-shark | [LICENSE.txt](../assets/nature/aquatic/g3-great-white-shark/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/great-white-shark/) | [evidence](https://grab3d.com/dl/great-white-shark/LICENSE.txt) |
 | g3-halberd | [LICENSE.txt](../assets/weapons/melee/g3-halberd/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/weapons/halberd/) | [evidence](https://grab3d.com/dl/halberd/LICENSE.txt) |
@@ -538,16 +610,24 @@ Each row links to the license file stored beside the model and to the exact
 | g3-moped | [LICENSE.txt](../assets/vehicles/bikes/g3-moped/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/moped/) | [evidence](https://grab3d.com/dl/moped/LICENSE.txt) |
 | g3-mountain-bike | [LICENSE.txt](../assets/vehicles/bikes/g3-mountain-bike/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/mountain-bike/) | [evidence](https://grab3d.com/dl/mountain-bike/LICENSE.txt) |
 | g3-muscle-car | [LICENSE.txt](../assets/vehicles/cars/g3-muscle-car/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/muscle-car/) | [evidence](https://grab3d.com/dl/muscle-car/LICENSE.txt) |
+| g3-mushroom-house | [LICENSE.txt](../assets/buildings/houses/g3-mushroom-house/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/fantasy-mushroom-house/) | [evidence](https://grab3d.com/dl/fantasy-mushroom-house/LICENSE.txt) |
+| g3-neuschwanstein | [LICENSE.txt](../assets/buildings/landmarks/g3-neuschwanstein/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/neuschwanstein-castle/) | [evidence](https://grab3d.com/dl/neuschwanstein-castle/LICENSE.txt) |
+| g3-park-entrance | [LICENSE.txt](../assets/buildings/entertainment/g3-park-entrance/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/theme-park-entrance/) | [evidence](https://grab3d.com/dl/theme-park-entrance/LICENSE.txt) |
 | g3-pauldron | [LICENSE.txt](../assets/armour/limbs/g3-pauldron/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/weapons/pauldron/) | [evidence](https://grab3d.com/dl/pauldron/LICENSE.txt) |
+| g3-pisa-tower | [LICENSE.txt](../assets/buildings/landmarks/g3-pisa-tower/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/leaning-tower-of-pisa/) | [evidence](https://grab3d.com/dl/leaning-tower-of-pisa/LICENSE.txt) |
 | g3-puppy | [LICENSE.txt](../assets/nature/wildlife/g3-puppy/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/puppy/) | [evidence](https://grab3d.com/dl/puppy/LICENSE.txt) |
 | g3-quarterstaff | [LICENSE.txt](../assets/weapons/melee/g3-quarterstaff/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/weapons/staff/) | [evidence](https://grab3d.com/dl/staff/LICENSE.txt) |
 | g3-quiver | [LICENSE.txt](../assets/weapons/ranged/g3-quiver/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/weapons/quiver/) | [evidence](https://grab3d.com/dl/quiver/LICENSE.txt) |
 | g3-raccoon | [LICENSE.txt](../assets/nature/wildlife/g3-raccoon/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/raccoon/) | [evidence](https://grab3d.com/dl/raccoon/LICENSE.txt) |
 | g3-rally-car | [LICENSE.txt](../assets/vehicles/cars/g3-rally-car/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/rally-car/) | [evidence](https://grab3d.com/dl/rally-car/LICENSE.txt) |
 | g3-rapier | [LICENSE.txt](../assets/weapons/melee/g3-rapier/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/weapons/rapier/) | [evidence](https://grab3d.com/dl/rapier/LICENSE.txt) |
+| g3-revolving-door | [LICENSE.txt](../assets/buildings/modular/g3-revolving-door/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/revolving-door/) | [evidence](https://grab3d.com/dl/revolving-door/LICENSE.txt) |
 | g3-sphynx-cat | [LICENSE.txt](../assets/nature/wildlife/g3-sphynx-cat/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/sphynx-cat/) | [evidence](https://grab3d.com/dl/sphynx-cat/LICENSE.txt) |
 | g3-squirrel | [LICENSE.txt](../assets/nature/wildlife/g3-squirrel/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/squirrel/) | [evidence](https://grab3d.com/dl/squirrel/LICENSE.txt) |
 | g3-tank-car | [LICENSE.txt](../assets/vehicles/rail/g3-tank-car/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/tank-car/) | [evidence](https://grab3d.com/dl/tank-car/LICENSE.txt) |
+| g3-ticket-booth | [LICENSE.txt](../assets/buildings/entertainment/g3-ticket-booth/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/ticket-booth/) | [evidence](https://grab3d.com/dl/ticket-booth/LICENSE.txt) |
+| g3-witch-cottage | [LICENSE.txt](../assets/buildings/houses/g3-witch-cottage/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/witch-cottage/) | [evidence](https://grab3d.com/dl/witch-cottage/LICENSE.txt) |
+| g3-ziggurat | [LICENSE.txt](../assets/buildings/landmarks/g3-ziggurat/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/ziggurat/) | [evidence](https://grab3d.com/dl/ziggurat/LICENSE.txt) |
 | grab3d-android | [LICENSE.txt](../assets/characters/scifi/grab3d-android/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/android/) | [evidence](https://grab3d.com/dl/android-rigged/LICENSE.txt) |
 | grab3d-armored-knight | [LICENSE.txt](../assets/characters/fantasy/grab3d-armored-knight/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/armored-knight/) | [evidence](https://grab3d.com/dl/armored-knight-rigged/LICENSE.txt) |
 | grab3d-astronaut | [LICENSE.txt](../assets/characters/scifi/grab3d-astronaut/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/astronaut-in-spacesuit/) | [evidence](https://grab3d.com/dl/astronaut-in-spacesuit-rigged/LICENSE.txt) |
@@ -626,12 +706,14 @@ Each row links to the license file stored beside the model and to the exact
 | ph-carrot-cake | [LICENSE.txt](../assets/food/baked-goods/ph-carrot-cake/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/carrot_cake) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-carved-wooden-plate | [LICENSE.txt](../assets/kitchen/tableware/ph-carved-wooden-plate/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/carved_wooden_plate) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-cash-register | [LICENSE.txt](../assets/electronics/retail/ph-cash-register/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/CashRegister_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-castle-door | [LICENSE.txt](../assets/architecture/doors/ph-castle-door/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/large_castle_door) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-ceiling-fan | [LICENSE.txt](../assets/electronics/appliances/ph-ceiling-fan/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/ceiling_fan) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-ceramic-jug | [LICENSE.txt](../assets/kitchen/tableware/ph-ceramic-jug/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/jug_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-ceramic-pot | [LICENSE.txt](../assets/kitchen/cookware/ph-ceramic-pot/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/ceramic_pot) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-ceramic-vase | [LICENSE.txt](../assets/decor/vases/ph-ceramic-vase/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/ceramic_vase_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-ceramic-vase-painted | [LICENSE.txt](../assets/decor/vases/ph-ceramic-vase-painted/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/ceramic_vase_02) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-ceramic-vase-stone | [LICENSE.txt](../assets/decor/vases/ph-ceramic-vase-stone/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/ceramic_vase_04) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-chainlink-fence | [LICENSE.txt](../assets/architecture/fences/ph-chainlink-fence/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/modular_chainlink_fence) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-chinese-cabinet | [LICENSE.txt](../assets/furniture/storage/ph-chinese-cabinet/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/chinese_cabinet) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-chinese-chandelier | [LICENSE.txt](../assets/lighting/chandeliers/ph-chinese-chandelier/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/chinese_chandelier) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-chinese-commode | [LICENSE.txt](../assets/furniture/storage/ph-chinese-commode/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/chinese_commode) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
@@ -650,12 +732,15 @@ Each row links to the license file stored beside the model and to the exact
 | ph-field-binoculars | [LICENSE.txt](../assets/science/optical/ph-field-binoculars/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/binoculars) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-film-projector | [LICENSE.txt](../assets/electronics/av/ph-film-projector/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/filmstrip_projector_8mm) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-fire-alarm | [LICENSE.txt](../assets/industrial/safety/ph-fire-alarm/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/fire_alarm) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-fire-hydrant | [LICENSE.txt](../assets/industrial/infrastructure/ph-fire-hydrant/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/fire_hydrant) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-gate-latch | [LICENSE.txt](../assets/architecture/gates/ph-gate-latch/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/gate_latch_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-ginger-root | [LICENSE.txt](../assets/food/vegetables/ph-ginger-root/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/food_ginger_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-gothic-bed | [LICENSE.txt](../assets/furniture/beds/ph-gothic-bed/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/GothicBed_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-gothic-cabinet | [LICENSE.txt](../assets/furniture/storage/ph-gothic-cabinet/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/GothicCabinet_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-gothic-commode | [LICENSE.txt](../assets/furniture/storage/ph-gothic-commode/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/GothicCommode_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-hand-drill | [LICENSE.txt](../assets/tools/hand-tools/ph-hand-drill/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/vintage_hand_drill) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-hurricane-lantern | [LICENSE.txt](../assets/lighting/lamps/ph-hurricane-lantern/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/Lantern_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-iron-gate | [LICENSE.txt](../assets/architecture/gates/ph-iron-gate/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/large_iron_gate) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-kiwi | [LICENSE.txt](../assets/food/fruit/ph-kiwi/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/food_kiwi_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-lime | [LICENSE.txt](../assets/food/fruit/ph-lime/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/food_lime_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-lychee | [LICENSE.txt](../assets/food/fruit/ph-lychee/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/food_lychee_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |

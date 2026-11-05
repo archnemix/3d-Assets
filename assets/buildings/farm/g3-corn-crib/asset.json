@@ -1,0 +1,350 @@
+{
+  "schema_version": 1,
+  "id": "g3-corn-crib",
+  "title": "Slatted corn crib on stilts",
+  "category": "buildings/farm",
+  "style": "stylized",
+  "tags": [
+    "corn",
+    "crib",
+    "farm",
+    "stilts",
+    "building",
+    "architecture",
+    "pbr",
+    "game-ready"
+  ],
+  "batch": "expansion-13",
+  "acquired_at": "2026-11-05T10:27:58.665211+00:00",
+  "review": {
+    "id": "g3-corn-crib",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Stylized corn crib — ventilated wooden grain store. Stylized Grab3D building: glTF validation clean (0 errors), single fused mesh with PBR texture maps. Human-modeled upstream (origin.ai_content: false), not AI-generated. Free-standing complete building, no brand marks expected on generic/fantasy subjects.",
+    "limitations": [
+      "Human-modeled upstream (origin.ai_content: false), not AI-generated.",
+      "Stylized style rather than photoreal — textured but not 8K PBR.",
+      "Single fused mesh; cannot be disassembled or animated without separation.",
+      "Unrigged: no skeleton or animation clips."
+    ],
+    "contact_sheet_sha256": "6370666ef61267c68720581bd7e22573982d2f002e7b2ed06d001c07aa7d3aba",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/corn-crib.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/corn-crib/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/buildings/corn-crib/",
+    "source_id": "corn-crib",
+    "revision": "82d518cc7126dd093da0eb527b5a32cb5282dc3e193826c9cec339754116a72b",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/corn-crib/corn-crib.glb",
+        "bytes": 1958284,
+        "sha256": "82d518cc7126dd093da0eb527b5a32cb5282dc3e193826c9cec339754116a72b"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/corn-crib/LICENSE.txt"
+  },
+  "model": "model/corn-crib.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/corn-crib_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "corn-crib_body_normal"
+    },
+    {
+      "path": "textures/corn-crib_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "corn-crib_body_basecolor"
+    },
+    {
+      "path": "textures/corn-crib_body_metallic-corn-crib_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "corn-crib_body_metallic-corn-crib_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 23330,
+    "triangles": 18684,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "corn-crib_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "corn-crib_body_metallic-corn-crib_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "corn-crib_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1383,
+      "sha256": "dcbf0095929fe46913d429b56259c85a36556a06175e416678a211313806a727",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 289,
+      "sha256": "96747dd711e871d2cb7958e0cf49e99b5efbc24e9857fa7f5e747dce23d3ef7e",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68313,
+      "sha256": "2c61a995a729ed88b47b12e43dd80ae13a302dfc5ffe455740fa831b5ede0d2b",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/corn-crib.glb",
+      "bytes": 1958284,
+      "sha256": "82d518cc7126dd093da0eb527b5a32cb5282dc3e193826c9cec339754116a72b",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 28462,
+      "sha256": "212dd22f3f7f742549b6ba6eda0088f49b3653f1990850a622981a0f4ced98bc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 42759,
+      "sha256": "0cc1aa59874165c514903c5bea47e9d289378c65f8d6c844e7f32fe67f758dd5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 308031,
+      "sha256": "6370666ef61267c68720581bd7e22573982d2f002e7b2ed06d001c07aa7d3aba",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 820,
+      "sha256": "212e2217bf6f01884bd0f526286f28298b8d1d77d3b98790768e235797ed36a5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 42713,
+      "sha256": "05118ae1697c6363e4c431c96e816c0170fb010258f7d13d1fc66f438a17fb42",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 62026,
+      "sha256": "786a26a4054be32730d3b0165b51965cfb56cf4c3b9af2ab63658deb33c3b846",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 27593,
+      "sha256": "df6f92f123cedba1555fb1a251f31a9b1166d59d585f7b859874162ced44cf38",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 58599,
+      "sha256": "fc76ab502dc0537637465905fe56f8abea7e5109ba9c3d97d96ebacc6490f034",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 43318,
+      "sha256": "956d5b40e934e2ae645b5c69fb61aa22ff2fda3c6d9aaed190bd8d420bc7e18f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 59800,
+      "sha256": "c4dd1a59b52ed10548fd8a86612749cf5e73ec6ba8337e2fa4d0e64e59fe43d7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 29398,
+      "sha256": "395b2a3bf60f6e22ea07eb008f75a3f2d438352cfa7ef92e94811c937c9156a0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 56406,
+      "sha256": "42a70e281618ded135fdb1f66dbbae0cad221e13a0769476ae48401f6a790630",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 22216,
+      "sha256": "1953fe32816d597e4501417acfac6313cf4d73047ba89af752ea08d6120cdded",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 72692,
+      "sha256": "43788de3487ac33adbd498619e867f86ba79dbb6a47ce460f93ed580fe457957",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 155,
+      "sha256": "152ee7338cfda02fc0f77fd6e32d0ac374d2140f0015ba8543d304aaca57f3e5",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1932,
+      "sha256": "c39414d1c108a8fa85f4cb572ff71a9373acf48f5e2e882d54688227007fc0f1",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1575,
+      "sha256": "49cf1d851c46826e5c42db17ad063b79129964414ef111ead985ee1fb12a47ad",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 490,
+      "sha256": "06604bfcd2136dce32494841d40f62e767544d16bd40f339aeae88e545d0671a",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "4f202072370c1738e0ebd24795da533a99c50848ba3f0a5fcc0f6e512ca50021",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1057,
+      "sha256": "397a882ffdc59c14e05c0118b5d3d1cb551eb6c43ddc1d12f8f046164d42a218",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/corn-crib_body_basecolor.jpg",
+      "bytes": 432062,
+      "sha256": "9988333bb695830876f3022863a60ec2e34daf771cadcf3f867cf3661b366580",
+      "role": "textures"
+    },
+    {
+      "path": "textures/corn-crib_body_metallic-corn-crib_body_roughness.jpg",
+      "bytes": 472894,
+      "sha256": "e709b35f95737828b3c1fc164b7b4972cfb6b73de8a385e195cdf31a4077f116",
+      "role": "textures"
+    },
+    {
+      "path": "textures/corn-crib_body_normal.jpg",
+      "bytes": 192108,
+      "sha256": "646617c30b337fb3324cd18a6f9c075e9fc66c9c7940f53efbe9f917720fda06",
+      "role": "textures"
+    }
+  ]
+}

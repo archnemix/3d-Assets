@@ -1,0 +1,350 @@
+{
+  "schema_version": 1,
+  "id": "g3-farm-stand",
+  "title": "Roadside farm produce stand",
+  "category": "buildings/farm",
+  "style": "stylized",
+  "tags": [
+    "farm",
+    "stand",
+    "produce",
+    "crates",
+    "building",
+    "architecture",
+    "pbr",
+    "game-ready"
+  ],
+  "batch": "expansion-13",
+  "acquired_at": "2026-11-05T10:26:09.662773+00:00",
+  "review": {
+    "id": "g3-farm-stand",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Stylized farm stand / market stall with awning. Stylized Grab3D building: glTF validation clean (0 errors), single fused mesh with PBR texture maps. Human-modeled upstream (origin.ai_content: false), not AI-generated. Free-standing complete building, no brand marks expected on generic/fantasy subjects.",
+    "limitations": [
+      "Human-modeled upstream (origin.ai_content: false), not AI-generated.",
+      "Stylized style rather than photoreal — textured but not 8K PBR.",
+      "Single fused mesh; cannot be disassembled or animated without separation.",
+      "Unrigged: no skeleton or animation clips."
+    ],
+    "contact_sheet_sha256": "9d2b0b9de0ca9d979a072c0b6974e6f571cf49fd1cb78ca3fb4f5f62f77dcf95",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/farm-stand.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/farm-stand/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/buildings/farm-stand/",
+    "source_id": "farm-stand",
+    "revision": "7cb0fa285cccaa2ddb1c9d253f9aa43a3efa7723c2ce26369a69f3208e3683d3",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/farm-stand/farm-stand.glb",
+        "bytes": 2231748,
+        "sha256": "7cb0fa285cccaa2ddb1c9d253f9aa43a3efa7723c2ce26369a69f3208e3683d3"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/farm-stand/LICENSE.txt"
+  },
+  "model": "model/farm-stand.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/farm-stand_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "farm-stand_body_normal"
+    },
+    {
+      "path": "textures/farm-stand_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "farm-stand_body_basecolor"
+    },
+    {
+      "path": "textures/farm-stand_body_metallic-farm-stand_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "farm-stand_body_metallic-farm-stand_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 35477,
+    "triangles": 33568,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "farm-stand_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "farm-stand_body_metallic-farm-stand_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "farm-stand_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1385,
+      "sha256": "f8f18187638ae75d6d051f373823cfc2673ca1122cf9fad9857a95b65cb48268",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 290,
+      "sha256": "899c75625a92e1fa9351a710ca9835b2bfd76b74a6fa04bf2ad3bf5ff542b679",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68123,
+      "sha256": "24f38d032f2fd303ae52c3fda6dbc9aec68c0874c36a5526985d86c3e47d25b1",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/farm-stand.glb",
+      "bytes": 2231748,
+      "sha256": "7cb0fa285cccaa2ddb1c9d253f9aa43a3efa7723c2ce26369a69f3208e3683d3",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 37614,
+      "sha256": "58e4b5b6356776392ef500822340fc81fcc4584dbe35db089771ca2b09d7ac65",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 37863,
+      "sha256": "b7ab5d8a2605ba5cdd8c355dd97e3765776a468c6a50106a2d94ee080992d411",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 310127,
+      "sha256": "9d2b0b9de0ca9d979a072c0b6974e6f571cf49fd1cb78ca3fb4f5f62f77dcf95",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 824,
+      "sha256": "0180255648d8bbe3429829ed3e9379bb6567e7d7b79454db333329a6e6ff773b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 56543,
+      "sha256": "56af73f3bc940c618592f48b9944bd0b59b6570ccd86d89719ede50766a92ce5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 50951,
+      "sha256": "991fe2afa6d3542cbfdb6f90782c06081955667ae0c055eb1388c2028004b020",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 28799,
+      "sha256": "c9de8c8c3d7227b328df700eea3659aa1c54238eacad8367e368cf1b3f14ef98",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 39383,
+      "sha256": "4be44ebb7e268d7247a6b541cd6ffae27e594442972f9f681561290cb9740bc9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 40348,
+      "sha256": "b2e41d4c5a55b3d461029674e1383634fd10a62f1c1dc99ec055ea926935fb5f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 40632,
+      "sha256": "6e1fbf8c3180f3029b977c3927d46de7af8b7c62bf3ed7ff86ca1e8d46da9804",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 34208,
+      "sha256": "846a89d00131d7fd7f63decba0d5a42428ecbf994d7b19cd81ecda5401312a23",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 47370,
+      "sha256": "f3ad7062ae6b2c9c4faaae140a2741f5b53afbd105b130bf155bd29f34893f6c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 37990,
+      "sha256": "7d694255ccbc18a5c237da5d85251108a58da6bb8799ec1631555c931317ae2b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 75333,
+      "sha256": "a091980716bb034993dc988bde058ada1643074707d3badf456aa1fe826468b9",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 156,
+      "sha256": "fbbede0473939b38f17c128e9608db610375dd14b62804d3805e53e04a71ccb7",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1933,
+      "sha256": "b5d687726729b5c85e6693a9073a15bb009ae7de62757d0daacd4ef7f856aa24",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1858,
+      "sha256": "3ec53d766b69764cc9b706a33c6f99c2d46e20395a7eaa8ee36a4702231430dc",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 498,
+      "sha256": "44376be919084004e086fb2e4cccdba17c21a10461fa105bedeb7bc728baa94d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "39abef716d3edc7b11d776b97bb81b4f684ab718f9d469124a5d72aa7f970cc8",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1052,
+      "sha256": "794db9e2ec38c2cf9e513547b0b9c7a4352cb83a429d2f518b32b7430d44b950",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/farm-stand_body_basecolor.jpg",
+      "bytes": 399266,
+      "sha256": "7922fc3d8b8c59f75dc3cdde3753e7e4ebd870d3c02e6f861a4534c87f579c29",
+      "role": "textures"
+    },
+    {
+      "path": "textures/farm-stand_body_metallic-farm-stand_body_roughness.jpg",
+      "bytes": 366834,
+      "sha256": "7fe9e90464474b19e110d5d368025e54cfc3fda40749d70ca35422230da28b83",
+      "role": "textures"
+    },
+    {
+      "path": "textures/farm-stand_body_normal.jpg",
+      "bytes": 126283,
+      "sha256": "8431920423e3d1c131fe1ec0666c80b521625c2bdb750caa454674a88a384283",
+      "role": "textures"
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+{
+  "schema_version": 1,
+  "id": "ph-fire-hydrant",
+  "title": "Street fire hydrant",
+  "category": "industrial/infrastructure",
+  "style": "realistic",
+  "tags": [
+    "hydrant",
+    "street",
+    "emergency",
+    "red",
+    "pbr"
+  ],
+  "batch": "expansion-13",
+  "acquired_at": "2026-11-05T10:29:34.042619+00:00",
+  "review": {
+    "id": "ph-fire-hydrant",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Photoreal fire hydrant with cap and valve. Photoreal Poly Haven asset: glTF validation clean (0 errors), high-detail geometry with PBR texture maps. No tmwarn flagged upstream. CC0 licensed with LODs where applicable.",
+    "limitations": [
+      "Unrigged static prop; no animation clips.",
+      "May have small surface markings from real-world scanning (e.g. stamps, numbers); none flagged as trademarked."
+    ],
+    "contact_sheet_sha256": "67e50cd1499dc72e1996b1f74c39544d32217bf25178f532f56bfc48b4609927",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/fire_hydrant_1k.gltf",
+    "creator": "Gonçalo Felício",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/fire_hydrant",
+    "source_id": "fire_hydrant",
+    "resolution": "1k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/fire_hydrant/fire_hydrant_1k.gltf",
+        "bytes": 20926,
+        "sha256": "aaca81b2904e6e5f1fb10a854c7b9a921232624387d1f8757b5c6bdaedcd9eb0"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/fire_hydrant/fire_hydrant.bin",
+        "bytes": 1928772,
+        "sha256": "a3c7ed023bc4aff190902764326e7f83ae1a108f6bac2a1b637c38a8e03eb516"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fire_hydrant/fire_hydrant_nor_gl_1k.jpg",
+        "bytes": 490552,
+        "sha256": "f6786775276c7b48f0582fdd7c43984b63b15b7a8e0ea0e2f2af8cdab98c06d7"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fire_hydrant/fire_hydrant_aged_diff_1k.jpg",
+        "bytes": 629331,
+        "sha256": "3198cabcaf5107e59109bd07dfe8e4c87b3f0533173d10fafdaf86f8024a291e"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fire_hydrant/fire_hydrant_aged_arm_1k.jpg",
+        "bytes": 665642,
+        "sha256": "9c46b014735a4e8df5a80e4c030ddb321c9aeaa715ad4ea3eb60e6f0909c9d0a"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fire_hydrant/fire_hydrant_aged_nor_gl_1k.jpg",
+        "bytes": 543768,
+        "sha256": "6fadc78fd5d696bf594ff021aaf93a0c6aced761830f9aa6971c51b17c869c35"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fire_hydrant/fire_hydrant_diff_1k.jpg",
+        "bytes": 570746,
+        "sha256": "a3d0b8b6fcd8a39c8d5067f8ef95e3290053131887398f89baf57c1f8d24ab45"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fire_hydrant/fire_hydrant_arm_1k.jpg",
+        "bytes": 671743,
+        "sha256": "d15bf8fc6389ae48a1060a38057c2093469e62f585c8033d300b80af81d40f9d"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/fire_hydrant_1k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 10,
+    "materials": 2,
+    "images": 6,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/fire_hydrant_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "fire_hydrant_nor_gl"
+    },
+    {
+      "path": "model/textures/fire_hydrant_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "fire_hydrant_diff"
+    },
+    {
+      "path": "model/textures/fire_hydrant_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "fire_hydrant_metal-fire_hydrant_rough"
+    },
+    {
+      "path": "model/textures/fire_hydrant_aged_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "fire_hydrant_aged_nor_gl"
+    },
+    {
+      "path": "model/textures/fire_hydrant_aged_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "fire_hydrant_aged_diff"
+    },
+    {
+      "path": "model/textures/fire_hydrant_aged_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "fire_hydrant_aged_metal-fire_hydrant_aged_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 10,
+    "hidden_mesh_objects": 0,
+    "vertices": 52182,
+    "triangles": 86316,
+    "material_slots": 10,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "fire_hydrant_aged_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-13/ph-fire-hydrant/model/textures/fire_hydrant_aged_diff_1k.jpg"
+      },
+      {
+        "name": "fire_hydrant_aged_metal-fire_hydrant_aged_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-13/ph-fire-hydrant/model/textures/fire_hydrant_aged_arm_1k.jpg"
+      },
+      {
+        "name": "fire_hydrant_aged_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-13/ph-fire-hydrant/model/textures/fire_hydrant_aged_nor_gl_1k.jpg"
+      },
+      {
+        "name": "fire_hydrant_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-13/ph-fire-hydrant/model/textures/fire_hydrant_diff_1k.jpg"
+      },
+      {
+        "name": "fire_hydrant_metal-fire_hydrant_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-13/ph-fire-hydrant/model/textures/fire_hydrant_arm_1k.jpg"
+      },
+      {
+        "name": "fire_hydrant_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-13/ph-fire-hydrant/model/textures/fire_hydrant_nor_gl_1k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 14,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1293,
+      "sha256": "07f2b2db270f68418ad9d8fe037dbf81b914a229b3c503daadcf57e170b1f86f",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 788,
+      "sha256": "e869d6efa9595f6b0458b3ec15b4465bd8c75f8096bda5764c27b707c6c49325",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 85595,
+      "sha256": "44a3eaee0c59d8f42d7e8e9ddab91198db06f3f7a83e03c3dcc0861e58f05e61",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "0064aebd23d67b5c19ea956df72e8bbbf735612a5753ce63e9a10be04d264df8",
+      "role": "logs"
+    },
+    {
+      "path": "model/fire_hydrant.bin",
+      "bytes": 1928772,
+      "sha256": "a3c7ed023bc4aff190902764326e7f83ae1a108f6bac2a1b637c38a8e03eb516",
+      "role": "model"
+    },
+    {
+      "path": "model/fire_hydrant_1k.gltf",
+      "bytes": 20926,
+      "sha256": "aaca81b2904e6e5f1fb10a854c7b9a921232624387d1f8757b5c6bdaedcd9eb0",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/fire_hydrant_aged_arm_1k.jpg",
+      "bytes": 665642,
+      "sha256": "9c46b014735a4e8df5a80e4c030ddb321c9aeaa715ad4ea3eb60e6f0909c9d0a",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/fire_hydrant_aged_diff_1k.jpg",
+      "bytes": 629331,
+      "sha256": "3198cabcaf5107e59109bd07dfe8e4c87b3f0533173d10fafdaf86f8024a291e",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/fire_hydrant_aged_nor_gl_1k.jpg",
+      "bytes": 543768,
+      "sha256": "6fadc78fd5d696bf594ff021aaf93a0c6aced761830f9aa6971c51b17c869c35",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/fire_hydrant_arm_1k.jpg",
+      "bytes": 671743,
+      "sha256": "d15bf8fc6389ae48a1060a38057c2093469e62f585c8033d300b80af81d40f9d",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/fire_hydrant_diff_1k.jpg",
+      "bytes": 570746,
+      "sha256": "a3d0b8b6fcd8a39c8d5067f8ef95e3290053131887398f89baf57c1f8d24ab45",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/fire_hydrant_nor_gl_1k.jpg",
+      "bytes": 490552,
+      "sha256": "f6786775276c7b48f0582fdd7c43984b63b15b7a8e0ea0e2f2af8cdab98c06d7",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 24681,
+      "sha256": "02266ff39a7a7d41731b2e47471dab81059bbb3f13bb14c834f4a483ce2ad26c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 23262,
+      "sha256": "83cefbe27316bcd96c6640ec723cdf6d1e839e1cb8190436f94474b98d09ce1b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 240386,
+      "sha256": "67e50cd1499dc72e1996b1f74c39544d32217bf25178f532f56bfc48b4609927",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 2010,
+      "sha256": "c204ba900615559067e3774b8c35a32c2b9f3649f3fb0a1e6de89c294d9dca7b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 39350,
+      "sha256": "97a54168f98441f99f9a044668bcd778eb8e4b064299a1f1b80e6056682c269a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 36732,
+      "sha256": "1c8db367e573106725f86a34c97aba50747e135b4659cfeda6018fd4fc8c8b64",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 26096,
+      "sha256": "1b1d66e68f22281d3e93707f3cb252d7f1f100c874a4f8e03b101d4e6b171e17",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 33902,
+      "sha256": "8c4493ea62e061cd42eba65aa8426f000e298727231f7359cb644639eeb5930f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 34688,
+      "sha256": "f09f24947899f17210b912215333648843386fb4bf91302142e38c719575797f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 33171,
+      "sha256": "e204c0324a49502f65264e01d338274bcc97154016b8d2ec56c0f16ac8048974",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 26362,
+      "sha256": "0f06e8115fc1064a1e5d96c7527bcc5ec3481166c2b88875fda371ae0ad05487",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 35566,
+      "sha256": "de46689bc2fa5f2746b0f0d13b0bad856d90857c36f7e72620edc03d86e1086b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 24408,
+      "sha256": "2f818c424be309291b32b9aac8a3723685e81f3c0fd5f6b2781c7068d46b68bc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 57483,
+      "sha256": "bac98196dbb9b12a1c33f77fa9a288df39d6ed42ed87f85b3dd0b518cabdacad",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 162,
+      "sha256": "a50890532a955cb237ae08c2d69ae973078ee6382933771586581ef06dc92435",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1337,
+      "sha256": "52490bcbe9e160d7ec785843066346a10c66639819e836f9d46036f72f4133c7",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 7273,
+      "sha256": "aeef8c3460bf0526d10e5dca17c05e3755469d7c9c7d073fc82407121926624c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1792,
+      "sha256": "21d099446e53012b1b2f216eac1ea5888fc41818277ff5440887d87fcc602843",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 855,
+      "sha256": "b57ed08130118efc476c736f45483e6029abab66aea9ff72693bcee4ddb4a3d2",
+      "role": "documentation"
+    }
+  ]
+}

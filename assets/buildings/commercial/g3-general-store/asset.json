@@ -1,0 +1,475 @@
+{
+  "schema_version": 1,
+  "id": "g3-general-store",
+  "title": "Western general store",
+  "category": "buildings/commercial",
+  "style": "stylized",
+  "tags": [
+    "store",
+    "western",
+    "awning",
+    "boardwalk",
+    "building",
+    "architecture",
+    "pbr",
+    "game-ready"
+  ],
+  "batch": "expansion-13",
+  "acquired_at": "2026-11-05T10:24:58.704475+00:00",
+  "review": {
+    "id": "g3-general-store",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Stylized general store with porch and signage. Stylized Grab3D building: glTF validation clean (0 errors), single fused mesh with PBR texture maps. Human-modeled upstream (origin.ai_content: false), not AI-generated. Free-standing complete building, no brand marks expected on generic/fantasy subjects.",
+    "limitations": [
+      "Human-modeled upstream (origin.ai_content: false), not AI-generated.",
+      "Stylized style rather than photoreal — textured but not 8K PBR.",
+      "Single fused mesh; cannot be disassembled or animated without separation.",
+      "Unrigged: no skeleton or animation clips."
+    ],
+    "contact_sheet_sha256": "b070a451139d5d7646a6b5dce525cc60dddac8113b30347ed0959e6b0eeb845f",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/general-store.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/general-store/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/buildings/general-store/",
+    "source_id": "general-store",
+    "revision": "3f38c502cf382975d41ae3ef5a1631649edda68a6e6dcc7af569bb2000e3e368",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/general-store/general-store.glb",
+        "bytes": 3123436,
+        "sha256": "3f38c502cf382975d41ae3ef5a1631649edda68a6e6dcc7af569bb2000e3e368"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/general-store/LICENSE.txt"
+  },
+  "model": "model/general-store.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 4,
+    "materials": 31,
+    "images": 8,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/general-store_wood_salbei_w_55.jpg",
+      "dimensions": [
+        512,
+        1024
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "general-store_wood_salbei_w_55"
+    },
+    {
+      "path": "textures/general-store_wood_holz_sonne.jpg",
+      "dimensions": [
+        512,
+        1024
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "general-store_wood_holz_sonne"
+    },
+    {
+      "path": "textures/general-store_wood_holz_dunkel_w.jpg",
+      "dimensions": [
+        512,
+        1024
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "general-store_wood_holz_dunkel_w"
+    },
+    {
+      "path": "textures/general-store_wood_holz_grau.jpg",
+      "dimensions": [
+        512,
+        1024
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "general-store_wood_holz_grau"
+    },
+    {
+      "path": "textures/general-store_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "general-store_body_normal"
+    },
+    {
+      "path": "textures/general-store_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "general-store_body_basecolor"
+    },
+    {
+      "path": "textures/general-store_body_metallic-general-store_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "general-store_body_metallic-general-store_body_roughness"
+    },
+    {
+      "path": "textures/general-store_wood_stoff_creme_50.jpg",
+      "dimensions": [
+        512,
+        1024
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "general-store_wood_stoff_creme_50"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 4,
+    "hidden_mesh_objects": 0,
+    "vertices": 63402,
+    "triangles": 37266,
+    "material_slots": 33,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 20,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "general-store_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "general-store_body_metallic-general-store_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "general-store_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "general-store_wood_holz_dunkel_w",
+        "dimensions": [
+          512,
+          1024
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "general-store_wood_holz_grau",
+        "dimensions": [
+          512,
+          1024
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "general-store_wood_holz_sonne",
+        "dimensions": [
+          512,
+          1024
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "general-store_wood_salbei_w_55",
+        "dimensions": [
+          512,
+          1024
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "general-store_wood_stoff_creme_50",
+        "dimensions": [
+          512,
+          1024
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1391,
+      "sha256": "1e0e58d03347f1f0ecbded1a893d3ececa8c3739db7941f1e387058ca4f3feae",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 479,
+      "sha256": "d344eed6a3577f28cd1bcf2458537ad613d3d0672e97714280d265b44ce44c26",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 79092,
+      "sha256": "42c43d77f6d2a5fb4a11c5bd6f2107f0231270f73958c3129e4d6d44128aa4c2",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "d91e3bb29adbe10a77d3142969bb5776d6442bd0fbdcd5b7177949a802162c49",
+      "role": "logs"
+    },
+    {
+      "path": "model/general-store.glb",
+      "bytes": 3123436,
+      "sha256": "3f38c502cf382975d41ae3ef5a1631649edda68a6e6dcc7af569bb2000e3e368",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 42475,
+      "sha256": "68cf434e6af067b0ab31e49d7e8d65a2de89acd4593078581e90a97140ac773f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 35354,
+      "sha256": "77a6d379863a51050da63977fb44d496f801987a6108c71b02383a202e8eb3fb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 327048,
+      "sha256": "b070a451139d5d7646a6b5dce525cc60dddac8113b30347ed0959e6b0eeb845f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1645,
+      "sha256": "e863b0cae5e1372ba54f2ac2379ba2bad09877d71b9681614318ccdfdba6d6f4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 61122,
+      "sha256": "80946dc395693954e59664e028ed4952979ebb9d8b94e61e397e4f7c25cc868a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 48846,
+      "sha256": "91cad999d0eb39fdb840bd378d00b1a1c9667a222852b622a766f39e38320930",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 46606,
+      "sha256": "6682b40a7ff695fc77cc7e083ea8831a8d2dc743b330a1c8efa90bd05c5766d0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 42383,
+      "sha256": "6df926951168e56be2b4abbc163b94789eb92749bf18b0a5b010645d14740f99",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 57562,
+      "sha256": "14997294888c6b7c4425251516ae3407232f33c719f8bd54c24ab5279702c602",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 45842,
+      "sha256": "f45290bd111f375ce96107d959ac32a4ae4a3ac63e01cef48dd5ed34abac9ea0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 51479,
+      "sha256": "afc2c6b054bd3a723dff41eef48360de4b60127dc0d89f5a37d8cbf80a1b0b76",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 50453,
+      "sha256": "df75507401090991754472bbcaaf90e8c8600d8d41e301e4b8269a462f344a39",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 48807,
+      "sha256": "1939fd23f1cdb851bbfcc3ac09c187912df37b0db0b68b9ebb2dcddf1425549d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 63190,
+      "sha256": "e06c3b450f7ba21b19ad272d990e5365163fdc8a90fe47b4167b9abd1394df85",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 159,
+      "sha256": "c403cb8d97c802d9ffc051f43674d6dd52781fe5b0c7870573e04181bd15fe93",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 7115,
+      "sha256": "6738bf1caf8224b3a8ddfc4986b17feff176b31d479d9a491efffd44fe05e2c6",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1732,
+      "sha256": "469468788af0e476a0216e93f6919120bdc4c46b021f92edb55f27e0fbaebfcf",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 522,
+      "sha256": "5279e10cb50cea4c471ef81bf83b1f14687d42618ff0b2545bf88531cc10ab1e",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "3ef3023c6aa1fb255f1e402253acc3f39239421fda0050fbefad0bd91197b5ea",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1054,
+      "sha256": "77da303970c90a2e0e4904af2daae6a8178f70785de97c07e8d894a4d4d07a13",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/general-store_body_basecolor.jpg",
+      "bytes": 304154,
+      "sha256": "d43fb9777955c80d3ba407b370f28410a24becac009a655d13eef21d4eef62e4",
+      "role": "textures"
+    },
+    {
+      "path": "textures/general-store_body_metallic-general-store_body_roughness.jpg",
+      "bytes": 249106,
+      "sha256": "9f8e7fdd1f6484c312d073e4a6d3f5d4533fa5f35f56e0697ca8f710ba8e9a82",
+      "role": "textures"
+    },
+    {
+      "path": "textures/general-store_body_normal.jpg",
+      "bytes": 83033,
+      "sha256": "fa14e01b26ea5ffff92cbd9dea2dee688304fbd588b5d64530a61b3f838e34e8",
+      "role": "textures"
+    },
+    {
+      "path": "textures/general-store_wood_holz_dunkel_w.jpg",
+      "bytes": 35663,
+      "sha256": "b6ce5999aebe189bcd9d16a5b29eb506f4e1adfbfd8ac0deaf2ecb0e82f8fed9",
+      "role": "textures"
+    },
+    {
+      "path": "textures/general-store_wood_holz_grau.jpg",
+      "bytes": 45034,
+      "sha256": "495876f3e737abecda2ceb4a330aa23ad7c1c5d0ff632ae25b2a1fbe1d09dc9b",
+      "role": "textures"
+    },
+    {
+      "path": "textures/general-store_wood_holz_sonne.jpg",
+      "bytes": 47132,
+      "sha256": "32435674e71439fd9a452d9cf22a7b16053ecee38288a3daa2d194a317fa3848",
+      "role": "textures"
+    },
+    {
+      "path": "textures/general-store_wood_salbei_w_55.jpg",
+      "bytes": 34650,
+      "sha256": "09dd78e8cbb97b9418d248da8ea29594736b5b8219975426e526f0934d12446b",
+      "role": "textures"
+    },
+    {
+      "path": "textures/general-store_wood_stoff_creme_50.jpg",
+      "bytes": 38596,
+      "sha256": "13cf382f796ea58ba19acd67d4d4b69fec51de41bd7073fc8bb160a12654a2e0",
+      "role": "textures"
+    }
+  ]
+}

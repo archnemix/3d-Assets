@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+## expansion-13: buildings and architecture
+
+- **Added 30 further CC0 assets**, bringing the library to **260 approved assets in 70 categories**.
+- **25 stylized buildings** from Grab3D: castle, colosseum, Eiffel Tower, Neuschwanstein, leaning tower of Pisa, ziggurat, witch's cottage, mushroom house, beach house, airport terminal, bank, cinema, city-block filler, farm stand, general store, corn crib, grain bin, carnival booth, circus tent, funhouse, ticket booth, theme-park entrance, elevator, escalator and revolving door. All are **human-modeled** (origin.ai_content: false), not AI-generated — unlike the Grab3D characters and animals.
+- **5 photoreal architecture props** from Poly Haven: medieval castle door, iron gate, gate latch, chainlink fence and fire hydrant. These carry 8K PBR textures and no tmwarn flags.
+- **Source balance**: this batch adds 25 Grab3D + 5 Poly Haven, continuing the shift toward Poly Haven's photoreal quality for architecture.
+
 ## expansion-18: low-poly animal companions
 
 - **Added 10 further CC0 assets**, bringing the library to **230 approved assets in 60 categories**.
