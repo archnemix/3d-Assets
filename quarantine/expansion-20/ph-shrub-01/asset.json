@@ -1,0 +1,328 @@
+{
+  "schema_version": 1,
+  "id": "ph-shrub-01",
+  "title": "Shrub 01",
+  "category": "nature/flowers",
+  "style": "realistic",
+  "tags": [
+    "shrub",
+    "foliage",
+    "groundcover",
+    "meadow",
+    "garden"
+  ],
+  "batch": "expansion-20",
+  "acquired_at": "2026-11-05T11:01:43.060335+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/shrub_01_2k.gltf",
+    "creator": "Rico Cilliers",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/shrub_01",
+    "source_id": "shrub_01",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/shrub_01/shrub_01_2k.gltf",
+        "bytes": 2895,
+        "sha256": "21f6db42b2e8948b44f635cfc26bdd8c00b91f11c6a3bd46c7c27d789168009b"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/shrub_01/shrub_01_nor_gl_2k.jpg",
+        "bytes": 2628947,
+        "sha256": "1b2f8631a66ef35c876238d6269f2cd2d1603102b7422f2cc57e3ec9ab209b62"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/shrub_01/shrub_01_arm_2k.jpg",
+        "bytes": 1232008,
+        "sha256": "0c984bae6f587aba20eadc44e5a4de8c950c8246d1c0da234a4d6043d5a688e4"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/shrub_01/shrub_01.bin",
+        "bytes": 5239664,
+        "sha256": "a8646f51386c84b12a6be8324dd0c2357c393c9108aac911847a203cf490b426"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/shrub_01/shrub_01_diff_2k.jpg",
+        "bytes": 1651989,
+        "sha256": "d464a823982b28832a92d3edacc62461adfb3f99117829127e79eb253051e940"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/shrub_01_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/shrub_01_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "shrub_01_nor_gl"
+    },
+    {
+      "path": "model/textures/shrub_01_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "shrub_01_diff"
+    },
+    {
+      "path": "model/textures/shrub_01_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "shrub_01_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 105235,
+    "triangles": 156012,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "shrub_01_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-20/ph-shrub-01/model/textures/shrub_01_diff_2k.jpg"
+      },
+      {
+        "name": "shrub_01_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-20/ph-shrub-01/model/textures/shrub_01_nor_gl_2k.jpg"
+      },
+      {
+        "name": "shrub_01_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-20/ph-shrub-01/model/textures/shrub_01_arm_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 285,
+      "sha256": "51a8b0c0252a611a459469bcd395ed1eee3a6f3032a961b34a720d1dad52a140",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67834,
+      "sha256": "a6fe9f6ed376d8ea7cf323a92baa0c7091f04de9ec1f679d912b6b161f2a0b4b",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/shrub_01.bin",
+      "bytes": 5239664,
+      "sha256": "a8646f51386c84b12a6be8324dd0c2357c393c9108aac911847a203cf490b426",
+      "role": "model"
+    },
+    {
+      "path": "model/shrub_01_2k.gltf",
+      "bytes": 2895,
+      "sha256": "21f6db42b2e8948b44f635cfc26bdd8c00b91f11c6a3bd46c7c27d789168009b",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/shrub_01_arm_2k.jpg",
+      "bytes": 1232008,
+      "sha256": "0c984bae6f587aba20eadc44e5a4de8c950c8246d1c0da234a4d6043d5a688e4",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/shrub_01_diff_2k.jpg",
+      "bytes": 1651989,
+      "sha256": "d464a823982b28832a92d3edacc62461adfb3f99117829127e79eb253051e940",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/shrub_01_nor_gl_2k.jpg",
+      "bytes": 2628947,
+      "sha256": "1b2f8631a66ef35c876238d6269f2cd2d1603102b7422f2cc57e3ec9ab209b62",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 12832,
+      "sha256": "7f0ff298bd0e2ea4cf597b75e94e405701b623dd10c41305ca8fa7358122fe1c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 16577,
+      "sha256": "cdda248d47c1d86c1090027b95c37e20e36f1296c35b5812046858016ec73f55",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 123595,
+      "sha256": "b836492a10c7423be93f590c78bf6bc010ac6e122ab2e17c6fae5db3817c2e56",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1099,
+      "sha256": "20bd7248c2d05e6dcf0d648c8bafab607ebfd8ae7e32b6c4ddece674f908126c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 14325,
+      "sha256": "2ca7a025da88373a56482a53f91b7af7ea28ce1a3cdfa66b3569f1d05ce97213",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 18188,
+      "sha256": "6f1a13c0c5957818e1d981563ab9415421aec029d704d3905422e6def941a780",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 21956,
+      "sha256": "d5ee51e283eae6a740ee3ca0973989ce4ca056b8b880161f5232dc9c71a5926f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 18154,
+      "sha256": "b2e690473163c563009c5ab705c90f9ccee5493c261825ec9093a644bc3dab70",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 14206,
+      "sha256": "662afeb590e45ff9613e23a8660621674e823a88c0e3190484ad2f606120e2ec",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 19114,
+      "sha256": "3de4262914cef4349b8033819a0b6139bfb2f3f2803e3c625e8523dc0ba02c13",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 23677,
+      "sha256": "8e710b18174a0f1a497e67c4e1d2a4d66adfc996f84a530381d26dd1c5c5baa5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 18423,
+      "sha256": "cd72fbce7d0b47f8c6031bada6f08678a0caa18eab1e07042724c1d21e375b22",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 12002,
+      "sha256": "28aebea8c16f56d23ae2ddd577ff39b53e124caa4b2632101643d03d9ba1ccca",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 18269,
+      "sha256": "26e90a4e562cc2f61c94bf9eb8a8a85cccb1afad0bcb47aa8a17326a34cd501b",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 158,
+      "sha256": "0423f8949837683c5962c4436933a35461e2df7ca01fef7a63e6ae0f20d7f04b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1501,
+      "sha256": "e2f57b2ab918fed4dd75a5319e00482e9c73d8a82214ef913f19f7932e0763ef",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2107,
+      "sha256": "70b358fa84729c0a71ffe7e5f19dc19a5c9ea81c6895da88e755fc2e22a6a3bc",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1022,
+      "sha256": "fac60d19a019942bddc9dc7d34c7e944dff9c4fe728e0276e697b7773dc3d902",
+      "role": "provenance"
+    }
+  ]
+}
