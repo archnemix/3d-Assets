@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/runner/work/3d-Assets/3d-Assets/src/asset_library/intake.py", line 40, in candidate
+    provenance = fetch(sources()[candidate["source"]], candidate, directory)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/3d-Assets/3d-Assets/src/asset_library/sources/__init__.py", line 20, in fetch
+    return adapter(source, candidate, directory)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/3d-Assets/3d-Assets/src/asset_library/sources/polyhaven.py", line 56, in fetch_polyhaven
+    resolution, package = select_package(
+                          ^^^^^^^^^^^^^^^
+  File "/home/runner/work/3d-Assets/3d-Assets/src/asset_library/sources/polyhaven.py", line 39, in select_package
+    raise ValueError(f"No glTF package for {preferred} or lower fits {budget} bytes")
+ValueError: No glTF package for 2k or lower fits 12582912 bytes
