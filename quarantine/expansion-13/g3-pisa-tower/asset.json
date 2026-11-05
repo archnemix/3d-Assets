@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "id": "g3-pisa-tower",
+  "title": "Leaning campanile",
+  "category": "buildings/landmarks",
+  "style": "stylized",
+  "tags": [
+    "tower",
+    "pisa",
+    "leaning",
+    "marble",
+    "building",
+    "architecture",
+    "pbr",
+    "game-ready"
+  ],
+  "batch": "expansion-13",
+  "acquired_at": "2026-11-05T10:30:29.914209+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/leaning-tower-of-pisa.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/leaning-tower-of-pisa/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/buildings/leaning-tower-of-pisa/",
+    "source_id": "leaning-tower-of-pisa",
+    "revision": "a26fc710a45cfd3b9bd3a1841f3ff50c1581f1934c856cb5d609b5f0726441be",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/leaning-tower-of-pisa/leaning-tower-of-pisa.glb",
+        "bytes": 2814668,
+        "sha256": "a26fc710a45cfd3b9bd3a1841f3ff50c1581f1934c856cb5d609b5f0726441be"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/leaning-tower-of-pisa/LICENSE.txt"
+  },
+  "model": "model/leaning-tower-of-pisa.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/leaning-tower-of-pisa_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "leaning-tower-of-pisa_body_normal"
+    },
+    {
+      "path": "textures/leaning-tower-of-pisa_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "leaning-tower-of-pisa_body_basecolor"
+    },
+    {
+      "path": "textures/leaning-tower-of-pisa_body_metallic-leaning-tower-of-pisa_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "leaning-tower-of-pisa_body_metallic-leaning-tower-of-pisa_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 59336,
+    "triangles": 46052,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "leaning-tower-of-pisa_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "leaning-tower-of-pisa_body_metallic-leaning-tower-of-pisa_body_",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "leaning-tower-of-pisa_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 301,
+      "sha256": "822e85649a90a3e5f8e257f709b4734ce44d00f1241365238c1c9a639eb5e887",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68275,
+      "sha256": "ac783ea7ed80a83f3b7f18893b1e00d2bd5de0092a54d83209419bef57b0fa71",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/leaning-tower-of-pisa.glb",
+      "bytes": 2814668,
+      "sha256": "a26fc710a45cfd3b9bd3a1841f3ff50c1581f1934c856cb5d609b5f0726441be",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 24145,
+      "sha256": "30385fb126b8b46d4cb6ceaba551b4001d32d55805f18b607fed7f3dc141e323",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 23661,
+      "sha256": "5758580dd6602ce075dd7e34e83ff953e90fec84bf2dbccd1f15fa3fafde262e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 207598,
+      "sha256": "52f8b4a4c1b06ebf8abc8ff1eaf2478659fb434057c6b78482df00b5ab8de4d8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 859,
+      "sha256": "11cd7cd48eac9732dab2ad4116f1ea7b95c50947255a3f8f6bab346d1267e0c5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 26817,
+      "sha256": "9b8f2a980bb5587feaf51e08456346df7126b9ba0646606e06109787e49b813f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 25854,
+      "sha256": "6f1c0d24073d740490a2704353c32f15076c89ceb0818132c68c80cfec8b8d0c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 24448,
+      "sha256": "3da6fc1b9e7c3b3bc7b7dbc92c127e1d0df7e5ad747e580c622369e3046ea00b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 26081,
+      "sha256": "0bfa6b5392e55de188149569e59041a0ac8521a19d75a5eaa674dfb5575479e5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 26281,
+      "sha256": "79f1dc1e1c89de5ff78da4fba85327bd7ea70da3a7380bc5db8ab693bfdb4ec8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 27690,
+      "sha256": "8cb919bd7cfda0d9a780d6c29d65853a6c07264efdb0099bd24cffea85e7ca53",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 28057,
+      "sha256": "4031695749cce468142562baf8e7772707508011e33bce2bb79e4e6513212ce0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 26999,
+      "sha256": "4d1f33b6b2a7a98cbfbc31cdd17e7aa022edc438460dda18301c177081081ec9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 23433,
+      "sha256": "7eb40bbf1aac29486f18de5a11e0cd3c5ec010a2e88209489d4560c82f70d155",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 41952,
+      "sha256": "37649f1374cc80644469375fc5d7acb3c8c0f380ece28bd1d1daf6c3cddd58bb",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 167,
+      "sha256": "78b55870287418416a80b1e96b5573b9459ca7be314d5f5228c7497534bd9b70",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1944,
+      "sha256": "11fd2c1d8acce5d1fda3d6469399782a753a9fe7d06f3096e8887678a07c17bc",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1754,
+      "sha256": "a5ed73284f10c46c99c7bb624dcfad0aa937361b320cc990067c78a21ec8f4cc",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 586,
+      "sha256": "a6dd98b61d5bc3612f4928039fe16987b49e033bdfa5c207844b04152fd71753",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "3bb25bf56113a7dc42e1cdc574518050dfc212e325f6f8c7abb53b00c5a416e2",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/leaning-tower-of-pisa_body_basecolor.jpg",
+      "bytes": 287323,
+      "sha256": "97dc2dd5003b67fbc5bc17ac8111318071daeb7f62e2cedc05a163a47a8a145a",
+      "role": "textures"
+    },
+    {
+      "path": "textures/leaning-tower-of-pisa_body_metallic-leaning-tower-of-pisa_body_roughness.jpg",
+      "bytes": 278248,
+      "sha256": "144fd331135c0c05ea3afff9bb40239ca1301d7115a17f8fcb674a04f9850dcd",
+      "role": "textures"
+    },
+    {
+      "path": "textures/leaning-tower-of-pisa_body_normal.jpg",
+      "bytes": 71572,
+      "sha256": "7e17053d1a4ab389e350b0d869102df5074bb7f7ffe473669b75db45ef27e692",
+      "role": "textures"
+    }
+  ]
+}
