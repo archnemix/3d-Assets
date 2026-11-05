@@ -14,8 +14,28 @@
   "batch": "expansion-20",
   "acquired_at": "2026-11-05T11:01:31.096845+00:00",
   "review": {
-    "status": "awaiting-visual-review",
-    "approved": false
+    "id": "ph-dandelion-01",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Photoreal dandelion rosettes — serrated green leaves and bright yellow flower heads. Photoreal Poly Haven asset: glTF validation clean (0 errors), PBR texture maps, no tmwarn. Wildflower/ground-cover scale — small footprint, suitable for meadow and garden scenes.",
+    "limitations": [
+      "Unrigged static mesh; no animation clips.",
+      "Small ground-cover scale; not a standalone hero asset.",
+      "May have small surface markings from real-world scanning; none flagged as trademarked."
+    ],
+    "contact_sheet_sha256": "c1bb97dfabf3647b2a23af6a6881a7ddee017a74691e5029fe79674770c899f9",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
   },
   "source": {
     "provider": "polyhaven",
@@ -161,6 +181,12 @@
       "bytes": 7048,
       "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
       "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1316,
+      "sha256": "dad97332fb2c5a97635be1038a79026dcdb98c8e5e90fd4e1587b41f021613dd",
+      "role": "documentation"
     },
     {
       "path": "logs/animations.log",
@@ -323,6 +349,12 @@
       "bytes": 1078,
       "sha256": "bc53de8ffab8a9fdb190f0b1d9c021387184300d150c4b5add0c010137d35a5c",
       "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 944,
+      "sha256": "662f64306a61dc8d60969ebbefa5eb9862d6ea9bbb50ee3f90eee11d6617be6c",
+      "role": "documentation"
     }
   ]
 }

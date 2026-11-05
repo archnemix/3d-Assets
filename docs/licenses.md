@@ -2,7 +2,7 @@
 
 Checked on 2026-11-04. Scope: approved assets under assets/ only.
 
-**263 of 263 approved assets pass every check.**
+**270 of 270 approved assets pass every check.**
 
 Every approved asset is dedicated to the public domain under CC0 1.0. For each one
 that means: no cost, no attribution, commercial use allowed, use and redistribution
@@ -181,6 +181,13 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Clownfish](../assets/nature/aquatic/grab3d-clownfish/README.md) | `nature/aquatic` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Blue Morpho Butterfly](../assets/nature/creatures/g3-butterfly/README.md) | `nature/creatures` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Brachiosaurus](../assets/nature/creatures/grab3d-brachiosaurus/README.md) | `nature/creatures` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Dandelion 01](../assets/nature/flowers/ph-dandelion-01/README.md) | `nature/flowers` | Rob Tuytel, Rico Cilliers (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Flower Empodium](../assets/nature/flowers/ph-flower-empodium/README.md) | `nature/flowers` | Jenelle van Heerden, Rico Cilliers (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Flower Gazania](../assets/nature/flowers/ph-flower-gazania/README.md) | `nature/flowers` | James Ray Cock, Jenelle van Heerden (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Flower Stinkkruid](../assets/nature/flowers/ph-flower-stinkkruid/README.md) | `nature/flowers` | Jenelle van Heerden, Rico Cilliers (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Flower Ursinia](../assets/nature/flowers/ph-flower-ursinia/README.md) | `nature/flowers` | Jenelle van Heerden, Rico Cilliers (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Periwinkle Plant](../assets/nature/flowers/ph-periwinkle-plant/README.md) | `nature/flowers` | Amal Kumar (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Shrub 01](../assets/nature/flowers/ph-shrub-01/README.md) | `nature/flowers` | Rico Cilliers (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Potted leafy plant](../assets/nature/potted-plants/ph-potted-plant/README.md) | `nature/potted-plants` | Rico Cilliers (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Potted zebra succulent](../assets/nature/potted-plants/ph-potted-succulent/README.md) | `nature/potted-plants` | James Ray Cock (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Boulder 01](../assets/nature/rocks/ph-boulder-01/README.md) | `nature/rocks` | Rico Cilliers (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -321,7 +328,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 
 ### Poly Haven — `polyhaven`
 
-104 approved assets. Status: **verified**.
+111 approved assets. Status: **verified**.
 
 - Terms: <https://polyhaven.com/license>
 - Pinned evidence: <https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md>
@@ -501,19 +508,19 @@ Every check below is machine-verified by `python -m asset_library license-audit`
 
 | Check | Passing |
 | --- | --- |
-| `cc0_spdx` | 263/263 |
-| `cc0_text_present` | 263/263 |
-| `commercial_use_allowed` | 263/263 |
-| `evidence_recorded` | 263/263 |
-| `free_of_charge` | 263/263 |
-| `license_file_checksummed` | 263/263 |
-| `no_attribution_required` | 263/263 |
-| `no_trademark_warning` | 263/263 |
-| `redistribution_allowed` | 263/263 |
-| `source_terms_verified` | 263/263 |
-| `standalone_resale_permitted` | 263/263 |
-| `textures_included` | 263/263 |
-| `visually_approved` | 263/263 |
+| `cc0_spdx` | 270/270 |
+| `cc0_text_present` | 270/270 |
+| `commercial_use_allowed` | 270/270 |
+| `evidence_recorded` | 270/270 |
+| `free_of_charge` | 270/270 |
+| `license_file_checksummed` | 270/270 |
+| `no_attribution_required` | 270/270 |
+| `no_trademark_warning` | 270/270 |
+| `redistribution_allowed` | 270/270 |
+| `source_terms_verified` | 270/270 |
+| `standalone_resale_permitted` | 270/270 |
+| `textures_included` | 270/270 |
+| `visually_approved` | 270/270 |
 
 ## Evidence per asset
 
@@ -726,6 +733,7 @@ Each row links to the license file stored beside the model and to the exact
 | ph-cordless-drill | [LICENSE.txt](../assets/tools/power-tools/ph-cordless-drill/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/Drill_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-croissant | [LICENSE.txt](../assets/food/baked-goods/ph-croissant/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/croissant) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-crystal-chandelier | [LICENSE.txt](../assets/lighting/chandeliers/ph-crystal-chandelier/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/Chandelier_02) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-dandelion-01 | [LICENSE.txt](../assets/nature/flowers/ph-dandelion-01/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/dandelion_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-day-bed | [LICENSE.txt](../assets/furniture/beds/ph-day-bed/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/vintage_day_bed) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-dead-quiver-trunk | [LICENSE.txt](../assets/nature/trees/ph-dead-quiver-trunk/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/dead_quiver_trunk) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-dead-tree-trunk-02 | [LICENSE.txt](../assets/nature/trees/ph-dead-tree-trunk-02/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/dead_tree_trunk_02) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
@@ -739,6 +747,10 @@ Each row links to the license file stored beside the model and to the exact
 | ph-film-projector | [LICENSE.txt](../assets/electronics/av/ph-film-projector/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/filmstrip_projector_8mm) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-fire-alarm | [LICENSE.txt](../assets/industrial/safety/ph-fire-alarm/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/fire_alarm) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-fire-hydrant | [LICENSE.txt](../assets/industrial/infrastructure/ph-fire-hydrant/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/fire_hydrant) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-flower-empodium | [LICENSE.txt](../assets/nature/flowers/ph-flower-empodium/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/flower_empodium) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-flower-gazania | [LICENSE.txt](../assets/nature/flowers/ph-flower-gazania/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/flower_gazania) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-flower-stinkkruid | [LICENSE.txt](../assets/nature/flowers/ph-flower-stinkkruid/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/flower_stinkkruid) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-flower-ursinia | [LICENSE.txt](../assets/nature/flowers/ph-flower-ursinia/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/flower_ursinia) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-gate-latch | [LICENSE.txt](../assets/architecture/gates/ph-gate-latch/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/gate_latch_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-ginger-root | [LICENSE.txt](../assets/food/vegetables/ph-ginger-root/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/food_ginger_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-gothic-bed | [LICENSE.txt](../assets/furniture/beds/ph-gothic-bed/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/GothicBed_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
@@ -760,6 +772,7 @@ Each row links to the license file stored beside the model and to the exact
 | ph-painted-cabinet | [LICENSE.txt](../assets/furniture/storage/ph-painted-cabinet/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/painted_wooden_cabinet) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-painted-dining-chair | [LICENSE.txt](../assets/furniture/chairs/ph-painted-dining-chair/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/painted_wooden_chair_02) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-painted-shelves | [LICENSE.txt](../assets/furniture/storage/ph-painted-shelves/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/painted_wooden_shelves) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-periwinkle-plant | [LICENSE.txt](../assets/nature/flowers/ph-periwinkle-plant/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/periwinkle_plant) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-plastic-container | [LICENSE.txt](../assets/industrial/containers/ph-plastic-container/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/industrial_pastic_container) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-potted-plant | [LICENSE.txt](../assets/nature/potted-plants/ph-potted-plant/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/potted_plant_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-potted-succulent | [LICENSE.txt](../assets/nature/potted-plants/ph-potted-succulent/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/potted_plant_04) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
@@ -771,6 +784,7 @@ Each row links to the license file stored beside the model and to the exact
 | ph-rubber-duck-toy | [LICENSE.txt](../assets/toys/figures/ph-rubber-duck-toy/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/rubber_duck_toy) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-security-camera-wall | [LICENSE.txt](../assets/electronics/security/ph-security-camera-wall/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/security_camera_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-service-pistol | [LICENSE.txt](../assets/weapons/firearms/ph-service-pistol/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/service_pistol) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-shrub-01 | [LICENSE.txt](../assets/nature/flowers/ph-shrub-01/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/shrub_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-side-table | [LICENSE.txt](../assets/furniture/tables/ph-side-table/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/side_table_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-spacecraft-instrument | [LICENSE.txt](../assets/tools/measuring/ph-spacecraft-instrument/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/vintage_spacecraft_instrument) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-steel-frame-shelves | [LICENSE.txt](../assets/furniture/storage/ph-steel-frame-shelves/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/steel_frame_shelves_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |

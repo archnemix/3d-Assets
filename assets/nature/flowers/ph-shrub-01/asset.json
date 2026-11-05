@@ -14,8 +14,28 @@
   "batch": "expansion-20",
   "acquired_at": "2026-11-05T11:01:43.060335+00:00",
   "review": {
-    "status": "awaiting-visual-review",
-    "approved": false
+    "id": "ph-shrub-01",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Photoreal shrub — green foliage ground cover with small flowers. Photoreal Poly Haven asset: glTF validation clean (0 errors), PBR texture maps, no tmwarn. Wildflower/ground-cover scale — small footprint, suitable for meadow and garden scenes.",
+    "limitations": [
+      "Unrigged static mesh; no animation clips.",
+      "Small ground-cover scale; not a standalone hero asset.",
+      "May have small surface markings from real-world scanning; none flagged as trademarked."
+    ],
+    "contact_sheet_sha256": "b836492a10c7423be93f590c78bf6bc010ac6e122ab2e17c6fae5db3817c2e56",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
   },
   "source": {
     "provider": "polyhaven",
@@ -161,6 +181,12 @@
       "bytes": 7048,
       "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
       "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1293,
+      "sha256": "a30767e775893c5d56a8661c9e2011d9d8b1f3934007cb8230a0fe5cc56a12a2",
+      "role": "documentation"
     },
     {
       "path": "logs/animations.log",
@@ -323,6 +349,12 @@
       "bytes": 1022,
       "sha256": "fac60d19a019942bddc9dc7d34c7e944dff9c4fe728e0276e697b7773dc3d902",
       "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 920,
+      "sha256": "63a7dc328dc1e2eafa14e370b7cbecf32df8fcf88b4b1a7c50ae2c5d20ddaaf8",
+      "role": "documentation"
     }
   ]
 }

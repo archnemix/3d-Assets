@@ -15,8 +15,28 @@
   "batch": "expansion-20",
   "acquired_at": "2026-11-05T11:01:09.678677+00:00",
   "review": {
-    "status": "awaiting-visual-review",
-    "approved": false
+    "id": "ph-flower-gazania",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Photoreal Gazania wildflower — orange daisy-like groundcover from Namaqualand. Photoreal Poly Haven asset: glTF validation clean (0 errors), PBR texture maps, no tmwarn. Wildflower/ground-cover scale — small footprint, suitable for meadow and garden scenes.",
+    "limitations": [
+      "Unrigged static mesh; no animation clips.",
+      "Small ground-cover scale; not a standalone hero asset.",
+      "May have small surface markings from real-world scanning; none flagged as trademarked."
+    ],
+    "contact_sheet_sha256": "55a5fdf3240a36510a0797591f16ca8cbcc90ec546efe905f628a9203cd9ba08",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
   },
   "source": {
     "provider": "polyhaven",
@@ -162,6 +182,12 @@
       "bytes": 7048,
       "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
       "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1332,
+      "sha256": "a60d323a686d8b6f2b96187895b5f6a596c6bfd0028e75e87067d44821404f49",
+      "role": "documentation"
     },
     {
       "path": "logs/animations.log",
@@ -324,6 +350,12 @@
       "bytes": 1106,
       "sha256": "c6572f384165ef3da9e4e7a820deea3df917a2d10d6bc7e4d0889d478f01c381",
       "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 940,
+      "sha256": "0e34c714910b41048b6e7922c54ea07420d7f95069412a2f1e3b8e2a318ec8a5",
+      "role": "documentation"
     }
   ]
 }

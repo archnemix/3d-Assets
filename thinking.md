@@ -283,3 +283,34 @@ count heuristic reads "1/1" on a perfectly detailed model. Triangle count from
 the GLB accessors is the reliable quality signal.
 
 Result: **230 approved / 60 categories**. assets/ is now 2.26 GB / 7,540 files.
+
+## The byte budget wall, and why Grab3D is 55% of the library
+
+The user asked why Grab3D dominates and whether there are better sources. The
+honest answer is structural, not a preference.
+
+**Grab3D is the only CC0 source with rigged glTF content.** Poly Haven's "rigged"
+label describes the `.blend` file, never the exported glTF — every PH prop labelled
+rigged arrived as a static mesh. Grab3D ships 54-bone armatures with walk/run clips
+in glTF directly. That alone makes Grab3D indispensable for characters.
+
+**Grab3D is also the only CC0 source with realistic animals.** Poly Haven's
+`c=animals` returns `{}`. Kenney has animals but they're stylized. So the entire
+animal axis (brachiosaurus, lion, cheetah, etc.) is Grab3D by necessity.
+
+**For architecture and props, Poly Haven is genuinely better** — 8K photoreal
+textures, LODs, scanned from real-world materials. The library holds 111 Poly Haven
+assets now (was 96), and expansion-19/20 added 10 more. The 5 Poly Haven architecture
+props in expansion-13 (castle door, iron gate, chainlink fence, fire hydrant) are
+photoreal while the 25 Grab3D buildings are stylized.
+
+**The byte budget is the new constraint.** 7 Poly Haven trees/rocks failed intake
+because no glTF package at 2K or lower fits 12MB. fir_tree_01 is 7.8M polygons;
+even at 1K the textures alone exceed the budget. The budget-aware resolver tried
+every resolution and gave up. These are the highest-quality assets available and
+they can't be acquired without raising the budget.
+
+**Source strategy going forward:** Poly Haven for photoreal architecture/props/nature,
+Grab3D for rigged characters/animals/vehicles/buildings, Kenney for stylized games.
+No other CC0 model source exists at this quality — KayKit retired, Quaternius QAL,
+Sketchfab auth+drift, MB-Lab AGPL, NASA non-blanket, Smithsonian no cars.

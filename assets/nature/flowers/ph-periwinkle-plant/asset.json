@@ -15,8 +15,28 @@
   "batch": "expansion-20",
   "acquired_at": "2026-11-05T11:01:13.799119+00:00",
   "review": {
-    "status": "awaiting-visual-review",
-    "approved": false
+    "id": "ph-periwinkle-plant",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Photoreal periwinkle plant — small pink flowers with realistic leaves. Photoreal Poly Haven asset: glTF validation clean (0 errors), PBR texture maps, no tmwarn. Wildflower/ground-cover scale — small footprint, suitable for meadow and garden scenes.",
+    "limitations": [
+      "Unrigged static mesh; no animation clips.",
+      "Small ground-cover scale; not a standalone hero asset.",
+      "May have small surface markings from real-world scanning; none flagged as trademarked."
+    ],
+    "contact_sheet_sha256": "55f19ab0720db1b0598d1a8d4f3022f69caa27a036060d3bc7702f41b2841a5b",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
   },
   "source": {
     "provider": "polyhaven",
@@ -162,6 +182,12 @@
       "bytes": 7048,
       "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
       "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1313,
+      "sha256": "25a0da967b62dc2dece4d11eb1fe6639f7aa4a6e15c636491162911ea0444fbd",
+      "role": "documentation"
     },
     {
       "path": "logs/animations.log",
@@ -324,6 +350,12 @@
       "bytes": 1134,
       "sha256": "8c29017d011af1453efa659c5e3d5d96ae7a5e65592999507088c60012a18824",
       "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 934,
+      "sha256": "0dba1309dba660880d9e32c524d2c200c5022cd38046e5bd10120e78cbf47179",
+      "role": "documentation"
     }
   ]
 }

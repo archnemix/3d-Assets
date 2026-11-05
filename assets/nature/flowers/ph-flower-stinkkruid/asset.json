@@ -14,8 +14,28 @@
   "batch": "expansion-20",
   "acquired_at": "2026-11-05T11:02:13.827651+00:00",
   "review": {
-    "status": "awaiting-visual-review",
-    "approved": false
+    "id": "ph-flower-stinkkruid",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Photoreal stinkkruid wildflower — grey-green leaves, thin stems and yellow button blooms. Photoreal Poly Haven asset: glTF validation clean (0 errors), PBR texture maps, no tmwarn. Wildflower/ground-cover scale — small footprint, suitable for meadow and garden scenes.",
+    "limitations": [
+      "Unrigged static mesh; no animation clips.",
+      "Small ground-cover scale; not a standalone hero asset.",
+      "May have small surface markings from real-world scanning; none flagged as trademarked."
+    ],
+    "contact_sheet_sha256": "12ccb972de26c4fb89d141c809564c7e6ad732d2db5f7c367cc701b82791ea58",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
   },
   "source": {
     "provider": "polyhaven",
@@ -161,6 +181,12 @@
       "bytes": 7048,
       "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
       "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1340,
+      "sha256": "1293fb4c689a59f35e9bf7923bd8034b39d7ba60461dbf3dd0b628c6bd525b31",
+      "role": "documentation"
     },
     {
       "path": "logs/animations.log",
@@ -323,6 +349,12 @@
       "bytes": 1148,
       "sha256": "4fdaac7a347b5223a2e969c5aa08fb345c1e402c9d3de35c243a7830e66361b3",
       "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 954,
+      "sha256": "6aaede243cb5d3565477ac834ac31ba646c92dbc11233f3fce66cba87d7c462c",
+      "role": "documentation"
     }
   ]
 }

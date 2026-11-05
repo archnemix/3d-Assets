@@ -2,6 +2,14 @@
 
 ## Unreleased
 
+## expansion-19/20: Poly Haven nature — and the byte budget wall
+
+- **Added 10 further CC0 assets**, bringing the library to **270 approved assets in 73 categories**.
+- **3 photoreal nature assets** from Poly Haven (expansion-19): dead tree trunk, dead quiver-tree trunk and a weathered boulder. All 8K-scanned with LODs, auto-downgraded to 1K–2K to fit the 12MB per-package budget.
+- **7 photoreal wildflowers** from Poly Haven (expansion-20): Empodium, Gazania, Ursinia, Stinkkruid, dandelion, periwinkle and a flowering shrub. Small ground-cover scale, 4K–8K textures with LODs.
+- **7 Poly Haven trees/rocks failed intake** on the byte budget: fir trees (7.8M polys), island trees, coast rocks — no glTF package at 2K or lower fits 12MB. The budget-aware resolver tried 1K and still failed. These remain available at higher budget if the user wants to raise it.
+- **Source rebalance**: Poly Haven is now 111 assets (was 96), closing the gap with Grab3D at 149. The 40-asset expansion (expansion-13 + 19 + 20) added 25 Grab3D buildings + 15 Poly Haven nature/architecture, deliberately shifting toward Poly Haven's photoreal quality.
+
 ## expansion-13: buildings and architecture
 
 - **Added 30 further CC0 assets**, bringing the library to **260 approved assets in 70 categories**.
