@@ -2,6 +2,7 @@
 
 from .github import fetch_github
 from .grab3d import fetch_grab3d
+from .innerscene import fetch_innerscene
 from .makehuman import fetch_makehuman
 from .polyhaven import fetch_polyhaven
 
@@ -12,6 +13,7 @@ def fetch(source: dict, candidate: dict, directory) -> dict:
         "github": fetch_github,
         "makehuman": fetch_makehuman,
         "grab3d": fetch_grab3d,
+        "innerscene": fetch_innerscene,
     }
     try:
         adapter = adapters[source["kind"]]

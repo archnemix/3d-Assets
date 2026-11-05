@@ -34,18 +34,30 @@ def request(url: str, allowed_hosts: set[str], headers: dict | None = None) -> r
     Transport errors and the statuses in ``RETRY_STATUSES`` are worth another
     attempt. A permanent client error such as 404 or 403 is not: retrying it just
     delays the real error, so it propagates on the first attempt.
+
+    Redirects are followed manually so that each redirect target is checked
+    against the host allowlist before the response body is consumed.
     """
     check_url(url, allowed_hosts)
     session = requests.Session()
     session.headers.update({"User-Agent": USER_AGENT, **(headers or {})})
+    current = url
     for attempt in range(MAX_ATTEMPTS):
         last = attempt == MAX_ATTEMPTS - 1
         try:
-            response = session.get(url, timeout=(15, 120), stream=True)
+            response = session.get(current, timeout=(15, 120), stream=True, allow_redirects=False)
         except requests.RequestException:
             if last:
                 raise
             time.sleep(2 ** (attempt + 1))
+            continue
+        if response.status_code in (301, 302, 303, 307, 308):
+            location = response.headers.get("Location", "")
+            response.close()
+            if not location:
+                raise DownloadError(f"Redirect without Location header: {current}")
+            check_url(location, allowed_hosts)
+            current = location
             continue
         if response.status_code in RETRY_STATUSES and not last:
             response.close()
