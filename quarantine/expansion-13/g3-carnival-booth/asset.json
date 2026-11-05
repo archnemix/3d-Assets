@@ -1,0 +1,319 @@
+{
+  "schema_version": 1,
+  "id": "g3-carnival-booth",
+  "title": "Carnival game booth",
+  "category": "buildings/entertainment",
+  "style": "stylized",
+  "tags": [
+    "carnival",
+    "booth",
+    "canopy",
+    "prizes",
+    "building",
+    "architecture",
+    "pbr",
+    "game-ready"
+  ],
+  "batch": "expansion-13",
+  "acquired_at": "2026-11-05T10:31:20.937379+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/carnival-booth.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/carnival-booth/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/buildings/carnival-booth/",
+    "source_id": "carnival-booth",
+    "revision": "ae3b3bdd14a046324d47b0220c6ab57b97b6a3230a8a8dc97a13fd554d3e8595",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/carnival-booth/carnival-booth.glb",
+        "bytes": 1600060,
+        "sha256": "ae3b3bdd14a046324d47b0220c6ab57b97b6a3230a8a8dc97a13fd554d3e8595"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/carnival-booth/LICENSE.txt"
+  },
+  "model": "model/carnival-booth.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 2,
+    "materials": 2,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_materials_emissive_strength"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/carnival-booth_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "carnival-booth_body_normal"
+    },
+    {
+      "path": "textures/carnival-booth_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "carnival-booth_body_basecolor"
+    },
+    {
+      "path": "textures/carnival-booth_body_metallic-carnival-booth_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "carnival-booth_body_metallic-carnival-booth_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 2,
+    "hidden_mesh_objects": 0,
+    "vertices": 23720,
+    "triangles": 26120,
+    "material_slots": 2,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 702,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "carnival-booth_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "carnival-booth_body_metallic-carnival-booth_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "carnival-booth_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 357,
+      "sha256": "d538f63bc9678e1ff70ae228057ad993715228671e39b60ac6448eb692c6f79e",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 69914,
+      "sha256": "4afb0aac949e6277dc44263412d553023dbbf67195d69adc7ad370e88917bf64",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "a7bd174aca67fdd44852b7c25e401fa22379da95c70a5c6e1b180613fc9a99df",
+      "role": "logs"
+    },
+    {
+      "path": "model/carnival-booth.glb",
+      "bytes": 1600060,
+      "sha256": "ae3b3bdd14a046324d47b0220c6ab57b97b6a3230a8a8dc97a13fd554d3e8595",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 18021,
+      "sha256": "b52dfd007cac7278602d3c4f7c842a8ef2efee93e6c72762e3c99bc8c5f33584",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 31935,
+      "sha256": "d3403d7520ef33e4e6dbc0d3c19cd86eb16c71cdd4fa3364bcf7ad5ce5fc21f4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 258419,
+      "sha256": "3cecdfc0dce2e3c118cbaca7d622abd10b724d7111b141c00e2e674962b7e73d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 842,
+      "sha256": "d1b79d91cd21f08a0b022933ec961d8679dbb7578d7a91ad2cf7755077fe056b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 42882,
+      "sha256": "6328dd1f8a1336e86b32c396ffa840b1184853106672711472fc858c84c82c34",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 43516,
+      "sha256": "5f9842dbe2b6b57aa26c3d36f6d3fbc54725d2ab9b6661ef5a90b2144d99b568",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 27803,
+      "sha256": "91dd97192621b531ff6da90cf682d87cd3bb76f01e589b137b48e12a5c7ac159",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 33907,
+      "sha256": "fe345b45bab8eec4d8f65e3a26bbac464c59a934188b0d4f27ffe7536bf5ee2f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 28879,
+      "sha256": "8f4f74629e04b6e949ef4cdccb99bb5c68e904645b4da408918307d2270c3323",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 33905,
+      "sha256": "85490e6acc0757a422d5ec6b127c7ef2088a2d53d0b1e9fc0278e8dec2b35345",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 29327,
+      "sha256": "c39a14d9e754025f8850c9e210496a18778d860dd3f13a705fd520eaad963963",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 44703,
+      "sha256": "45a79d5b7c16c235d7441f38feab686610a43b9823990a395be76b049f72f4c5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 24171,
+      "sha256": "97ac9ec2b4c023a2093b3da603be11f32fce283022ef31778b5d1c8867d11d16",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 55281,
+      "sha256": "2cbfdb8c2f8fe88573e937f78d7a84ef0255676d74439d92ef1af84825a040cb",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 160,
+      "sha256": "3b1fb42a2460d0dc12de55f95574cb1c0da36a00cee42401956a07b63c76bb68",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2196,
+      "sha256": "41f2007cdbd9e3766da16bbc775dc6bb2470e90da7d4cad99bf8fb7d2ea9554c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1975,
+      "sha256": "e6c50e3535ece5209d98d8dae0cb3a68694977a55b8421e49bd52bb7b5dda565",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 530,
+      "sha256": "ccd648ce40495c77f7286f2276783cc357ad2cbec41a5cc9584102477e0d98d3",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "2d20db8b3aac3bf9169ce55c24d3722edd7ec789219f05dcfa34cc7c51c7ad34",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/carnival-booth_body_basecolor.jpg",
+      "bytes": 334942,
+      "sha256": "50c828a4d7fb9bbd446ee2d9927c081141d8aa398ed442e10a6664685648ab8d",
+      "role": "textures"
+    },
+    {
+      "path": "textures/carnival-booth_body_metallic-carnival-booth_body_roughness.jpg",
+      "bytes": 265726,
+      "sha256": "7395a6fb785544a4745403c471c8909f7ccc98ffbb60a4f6e6ce69be2c48c92b",
+      "role": "textures"
+    },
+    {
+      "path": "textures/carnival-booth_body_normal.jpg",
+      "bytes": 79567,
+      "sha256": "a4252af1bd92d3b9452dbe4dce4a19f8f20c6245e969d7b5b4fbf3a34a1f821b",
+      "role": "textures"
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "id": "g3-airport-terminal",
+  "title": "Airport terminal with control tower",
+  "category": "buildings/commercial",
+  "style": "stylized",
+  "tags": [
+    "airport",
+    "terminal",
+    "tower",
+    "jetbridge",
+    "building",
+    "architecture",
+    "pbr",
+    "game-ready"
+  ],
+  "batch": "expansion-13",
+  "acquired_at": "2026-11-05T10:27:44.625877+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/airport-terminal.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/airport-terminal/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/buildings/airport-terminal/",
+    "source_id": "airport-terminal",
+    "revision": "56f6cc1b1500a4fa8f4adecd78dba81b6a9c2b245aa958267726e2bc5eddb025",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/airport-terminal/airport-terminal.glb",
+        "bytes": 982692,
+        "sha256": "56f6cc1b1500a4fa8f4adecd78dba81b6a9c2b245aa958267726e2bc5eddb025"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/airport-terminal/LICENSE.txt"
+  },
+  "model": "model/airport-terminal.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 3,
+    "materials": 13,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/airport-terminal_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "airport-terminal_body_normal"
+    },
+    {
+      "path": "textures/airport-terminal_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "airport-terminal_body_basecolor"
+    },
+    {
+      "path": "textures/airport-terminal_body_metallic-airport-terminal_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "airport-terminal_body_metallic-airport-terminal_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 3,
+    "hidden_mesh_objects": 0,
+    "vertices": 14667,
+    "triangles": 11268,
+    "material_slots": 13,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 32,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "airport-terminal_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "airport-terminal_body_metallic-airport-terminal_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "airport-terminal_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 429,
+      "sha256": "ca31ed581ec15845ef98b22c5bd2b35ef8be7bcd0c0f92eca583956c6752e353",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 70766,
+      "sha256": "980cfb4d97f16398f561ac8b864e391874b25444b363ad3a11b70ad45be6279c",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "98e238bcb9af43e2826f240aa4666da957ecca96b6e2bd1b166d4bdcf846690a",
+      "role": "logs"
+    },
+    {
+      "path": "model/airport-terminal.glb",
+      "bytes": 982692,
+      "sha256": "56f6cc1b1500a4fa8f4adecd78dba81b6a9c2b245aa958267726e2bc5eddb025",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 16812,
+      "sha256": "4d623b65841519363649f17d4a7891703f5b6990a7f37d7e7cb6903fb28d76ec",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 19156,
+      "sha256": "de8eca65129cad687be85ef9d6d41767b60757f4c8aca70f0a5433db4fe62466",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 198835,
+      "sha256": "087d3c59439244b012ca618b343a33cc9b8bfa360907b620d3e6ed6ef55321fd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 850,
+      "sha256": "fb78f235e6d830ad0fa1ceeba26814f38a815cf9b135a1315f3e4c2cdeff0038",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 28088,
+      "sha256": "602ab707a397b488a0576d7128d9df75c179151a4f20658aeb070bc007cbe43c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 28210,
+      "sha256": "764af01a6fb32fca6afc20b9af8341cfff9804b28f58d41e0489dbbd859bafb1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 25565,
+      "sha256": "a7dea9f3f09a151f4b7c62eb0f78980b72fcc5d5a4eb4f0647ad994e7fbc59af",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 26505,
+      "sha256": "50b97aef464932a5e92885aea86bad2ed76ee628f417e8bc9d55012cb0d33df3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 26377,
+      "sha256": "3c13fee378971a661b9816a10afe1f02273d2064d3e71d11db0f85b8028c44fd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 27744,
+      "sha256": "a875516ef2601c568f62713a01693d8f653e8746eff17a07d0afd94ce0eb05f2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 29221,
+      "sha256": "341b878bf25a0fe1799d0e80a7d0b41377303ebbd472508f1aeb55f930e99740",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 28110,
+      "sha256": "9156c26dbf4f8d670c01cb26ee9c8275955550d2484c024a86f236363cc2d88c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 20895,
+      "sha256": "fbc7f98a420cf482c112b61192597caac1a8e4b2cc3c2cd49021991000fd1b5d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 31087,
+      "sha256": "467f86630d1ec819de3b384eb9249e14e13e3338e063bcd19c293df6572464aa",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 162,
+      "sha256": "cc7e3cad46f36aa000c8df8cdf7f1d40db54f9747944fb5b4bf7093bbdf79aa2",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 4197,
+      "sha256": "24aeec64e79e0e742b9a9d2d22185dfca98f660700b34ed9fa8fe38f94eee083",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1608,
+      "sha256": "a5bd12f8c742cfd40d9adc666c8def7d1a78c59efb4eb26689fca66e35d5f295",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 545,
+      "sha256": "495b9ef2480204a2c73cc7497c78cc3bc97b455bb23f6a5ef01c0b68f13f903d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "2b6b2b5ccd35bbc0aba51579aef49a9993dbcec59732c3cadb9ee9efc9e7ddce",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/airport-terminal_body_basecolor.jpg",
+      "bytes": 178627,
+      "sha256": "d5526cf99445cba17b082df3f2a28044b50e78d9e84393b63d3be02e504baaac",
+      "role": "textures"
+    },
+    {
+      "path": "textures/airport-terminal_body_metallic-airport-terminal_body_roughness.jpg",
+      "bytes": 183762,
+      "sha256": "ed6443fdac0f39253cae596b92cc60c7196f7d66fad8ccb204c6b64141cea3fd",
+      "role": "textures"
+    },
+    {
+      "path": "textures/airport-terminal_body_normal.jpg",
+      "bytes": 69398,
+      "sha256": "54107377d13f1f6a7c327e43550392ee814aaee5f7f1a0e950d66050606b3e83",
+      "role": "textures"
+    }
+  ]
+}
