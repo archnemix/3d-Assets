@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "id": "g3-chainmail",
+  "title": "Chainmail shirt on a stand",
+  "category": "armour/body",
+  "style": "stylized",
+  "tags": [
+    "chainmail",
+    "mail",
+    "shirt",
+    "knight",
+    "armour",
+    "pbr",
+    "game-ready"
+  ],
+  "batch": "expansion-12",
+  "acquired_at": "2026-11-05T00:04:35.041098+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/chainmail.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/chainmail/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/weapons/chainmail/",
+    "source_id": "chainmail",
+    "revision": "00d187c34adbd4430d07a0b7ecbb24b47454cab5c36857d72381e33c25f9e549",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/chainmail/chainmail.glb",
+        "bytes": 2155600,
+        "sha256": "00d187c34adbd4430d07a0b7ecbb24b47454cab5c36857d72381e33c25f9e549"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/chainmail/LICENSE.txt"
+  },
+  "model": "model/chainmail.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/chainmail_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "chainmail_body_normal"
+    },
+    {
+      "path": "textures/chainmail_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "chainmail_body_basecolor"
+    },
+    {
+      "path": "textures/chainmail_body_metallic-chainmail_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "chainmail_body_metallic-chainmail_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 10293,
+    "triangles": 14432,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "chainmail_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "chainmail_body_metallic-chainmail_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "chainmail_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 289,
+      "sha256": "262442d8c2bed921d795c5e31f455f29ef0668d26669077afdfbf40b2c40f034",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68337,
+      "sha256": "634ff84a8201e29c36f5358a579d7c8c4bd869ee6edfede5bc143847ce70a088",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/chainmail.glb",
+      "bytes": 2155600,
+      "sha256": "00d187c34adbd4430d07a0b7ecbb24b47454cab5c36857d72381e33c25f9e549",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 20489,
+      "sha256": "8d584389eeb34663d49c00b59686bb4607224154e423bc2be0c054f94663d272",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 16885,
+      "sha256": "eff2727cdda465807585413bfa420aebdf5d53356db5a878707221431a0287ee",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 268989,
+      "sha256": "cd3275d76b5211f1799e57777ccb19c043c7c486ab825633b04cbb0161f83542",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 820,
+      "sha256": "7cece4419d2dfee2e93ee902b526f70af0da638b311fa12ce58bc616064e710e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 55235,
+      "sha256": "1210ece34a2616ed9878813f32043834d2cd1742a2d37c108d212dadc07b5a9d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 42840,
+      "sha256": "78098dc7a4b73bba05bab14075d8e902c8f8888cb36820c93eec1bf9a8da57a1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 23770,
+      "sha256": "814dac87f0cbfc7aee72534bbb3da08e3e0ee837026eaf19985c19c6d06e78aa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 43148,
+      "sha256": "d89b7740f3e2cc9da6df92121391f7bc0e1236907f8a848a826857d982a8e9e1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 58057,
+      "sha256": "7e87f8240f6e2b3384d54a6a4be4561004c01a442afda50bfbb186bf3e18dae8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 49981,
+      "sha256": "0848733ca6318931f373f87ccb56a73f48dc55e6e507120f6043d402a03d28d1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 25191,
+      "sha256": "5efafe1e78b15d83192df4bf4f66cb94719a8c8af64ec53323ab6f3f75043fc8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 47085,
+      "sha256": "fda3abf6c3ad2ce71374c8df98b5468cb117503bd305f4d8af6cc2bdb71b3daa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 23259,
+      "sha256": "992ca3c2481a53d22f5d1a8419050b3a051121b21792b88e5abd90c96adb4a86",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 55775,
+      "sha256": "ae97d7e01cf15ccb6297050bc885b7fa4fe569254949c132ad11de8609476d45",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 155,
+      "sha256": "73adcabc00137d6263e890d312c94ad385d375301cd2a28ce300e670a1c333b0",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1932,
+      "sha256": "1e94cf22f71305fef12261fb5e873faa8b6a2a202db90b55eb83d0e5f51d1655",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1645,
+      "sha256": "92c0f5d032c2233ae19513fd0aba278767ca15eca981eecb3bff305379d13c72",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 467,
+      "sha256": "405ecd9b0f0e06ed2b4416acb947202ca3ce877e5552f5612c0f3ee60ad1d089",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "9e2e69b70907069786265f2448fc4132a192266d85bf1b3042f644b36b39af51",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/chainmail_body_basecolor.jpg",
+      "bytes": 504691,
+      "sha256": "eeff8d97bd593b54efe284bc5b4dd6cf424f15cd4bec4d144d8b5b92e9d07f51",
+      "role": "textures"
+    },
+    {
+      "path": "textures/chainmail_body_metallic-chainmail_body_roughness.jpg",
+      "bytes": 693932,
+      "sha256": "f6bc91fe39007b5aaa126c3b1470514c1782a99024bc74482deeea3188119156",
+      "role": "textures"
+    },
+    {
+      "path": "textures/chainmail_body_normal.jpg",
+      "bytes": 538382,
+      "sha256": "24d5298f605d61455aebe33c2c7f0dbc7c27b3c50f8df926c9bf07b122f9f355",
+      "role": "textures"
+    }
+  ]
+}
