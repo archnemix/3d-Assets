@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "id": "g3-shield-wall",
+  "title": "Four painted round shields",
+  "category": "armour/shields",
+  "style": "stylized",
+  "tags": [
+    "shields",
+    "round",
+    "viking",
+    "painted",
+    "armour",
+    "pbr",
+    "game-ready"
+  ],
+  "batch": "expansion-12",
+  "acquired_at": "2026-11-04T23:59:33.556634+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/shield-wall.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/shield-wall/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/weapons/shield-wall/",
+    "source_id": "shield-wall",
+    "revision": "9aeb8940af5c7db039dd6d82102e96cad3aa711c6719b40c01ece01fa6ce520a",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/shield-wall/shield-wall.glb",
+        "bytes": 1224792,
+        "sha256": "9aeb8940af5c7db039dd6d82102e96cad3aa711c6719b40c01ece01fa6ce520a"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/shield-wall/LICENSE.txt"
+  },
+  "model": "model/shield-wall.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/shield-wall_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "shield-wall_body_normal"
+    },
+    {
+      "path": "textures/shield-wall_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "shield-wall_body_basecolor"
+    },
+    {
+      "path": "textures/shield-wall_body_metallic-shield-wall_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "shield-wall_body_metallic-shield-wall_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 15471,
+    "triangles": 18608,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 16,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "shield-wall_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "shield-wall_body_metallic-shield-wall_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "shield-wall_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 291,
+      "sha256": "4ee0d0777aa079ce3e8c01bd3bbfd243719578f1fcfb0bec523c011f5ad62977",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68044,
+      "sha256": "73c2d897a8afbea6da393bfce02e5a1a4deacc86a854554d5befe42e59945eb0",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/shield-wall.glb",
+      "bytes": 1224792,
+      "sha256": "9aeb8940af5c7db039dd6d82102e96cad3aa711c6719b40c01ece01fa6ce520a",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 17047,
+      "sha256": "9876d7957ab2e9c0c48dd0fbf07abfcbafc0bc02cc2ea4863bae0defcdbc44d0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18451,
+      "sha256": "e6bc542c61e68623841137a8a35073e144e8c69c74fb5536e5630d46af9f5e29",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 193986,
+      "sha256": "457b31abea40a03a4f591cd466f3d532b3a49861d2e3cb62c2a524c96bc7cd70",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 829,
+      "sha256": "e711952db6ff5612bb7f9746069e4069d3bcce18ab85446bb8e155fabc9a8af7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 26988,
+      "sha256": "78d9f18f712c8fc1991905f9fc26b931127daefaf36646b3aac83792c729a3f9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 27629,
+      "sha256": "779dd1588130d965783ea6f59171a93978ab170fb72d7fffc6726c1b1717ab8f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 24243,
+      "sha256": "a30c40a86541dcd61d529f1bc3bb8e583dd812ec47715d540286112c5cca7bfa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 29369,
+      "sha256": "7cdc4b0ee4aa536564cef03c995f2daf8f0eb88ba1f2e939f695b7aaae6ad265",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 25040,
+      "sha256": "14acc04bba3bd3fd420ae01e040a9542c8fe2eb0c760c20e6a2d9cf798aae0bd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 29796,
+      "sha256": "68bc221e58a54d0ef0fad3c0ecd5348a603042f4a52464ec6b4b48498073bd1b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 27156,
+      "sha256": "f0c9eccd0f0b767194fa82943ac7fde02345b35dd23e9d5795fe99cc253c7be1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 28755,
+      "sha256": "502ad0ebade528959c48f73ca620044faf778f9c2911df9884099c6cd9c08720",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 18085,
+      "sha256": "531aa9a79d655a5a38442d7de6f1eec920ef30b650353372bd2fcb35e582330f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 41568,
+      "sha256": "23e90477f32d11f236f6aa1cb95acec2d4b9f9448ba241c979edbe11c91ea6e4",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 157,
+      "sha256": "e497af2c095f2e19ad7e421dd88e937a762e8e53e34348caebf9c2be8be8615b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1934,
+      "sha256": "89c582603df6f8f32339917979f929038368d19d8c26812041a95e7c5dec3985",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1780,
+      "sha256": "bf325b1105a393d383cddb6f0d2bc962985b318c7e2160a3f361e968fb7fbe06",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 483,
+      "sha256": "d11982817b5da15899d042873b4a2d9e7e85d0ff017e9978875e5cc35e241ca2",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "4a82fc17749d06d43f1c1ac0689d2bd3783523d8447fd0aef485bc9a83dc6221",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/shield-wall_body_basecolor.jpg",
+      "bytes": 244365,
+      "sha256": "f0d8a43f17a1843404f800f3bb19ea4dd106b0852aa03638da3e567ae8b253af",
+      "role": "textures"
+    },
+    {
+      "path": "textures/shield-wall_body_metallic-shield-wall_body_roughness.jpg",
+      "bytes": 302980,
+      "sha256": "2b3e1e2b55f7b88292acea3be48af5e6fd703972a9357d3865772623ea02fa9c",
+      "role": "textures"
+    },
+    {
+      "path": "textures/shield-wall_body_normal.jpg",
+      "bytes": 67962,
+      "sha256": "e12774318e0756a54c0289179ec07433727169225fd2971ba9f3497a9d647f49",
+      "role": "textures"
+    }
+  ]
+}
