@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "id": "g3-revolving-door",
+  "title": "Revolving door with glass drum",
+  "category": "buildings/modular",
+  "style": "stylized",
+  "tags": [
+    "revolving",
+    "door",
+    "entrance",
+    "glass",
+    "building",
+    "architecture",
+    "pbr",
+    "game-ready"
+  ],
+  "batch": "expansion-13",
+  "acquired_at": "2026-11-05T10:23:52.823132+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/revolving-door.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/revolving-door/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/buildings/revolving-door/",
+    "source_id": "revolving-door",
+    "revision": "763a9fdc7a76955ab36aba1887b6ad69674d18405f1330734690c297c8e46e0d",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/revolving-door/revolving-door.glb",
+        "bytes": 1137260,
+        "sha256": "763a9fdc7a76955ab36aba1887b6ad69674d18405f1330734690c297c8e46e0d"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/revolving-door/LICENSE.txt"
+  },
+  "model": "model/revolving-door.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 4,
+    "materials": 4,
+    "images": 6,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/revolving-door_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "revolving-door_body_normal"
+    },
+    {
+      "path": "textures/revolving-door_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "revolving-door_body_basecolor"
+    },
+    {
+      "path": "textures/revolving-door_body_metallic-revolving-door_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "revolving-door_body_metallic-revolving-door_body_roughness"
+    },
+    {
+      "path": "textures/revolving-door_wings_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "revolving-door_wings_normal"
+    },
+    {
+      "path": "textures/revolving-door_wings_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "revolving-door_wings_basecolor"
+    },
+    {
+      "path": "textures/revolving-door_wings_metallic-revolving-door_wings_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "revolving-door_wings_metallic-revolving-door_wings_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 4,
+    "hidden_mesh_objects": 0,
+    "vertices": 9990,
+    "triangles": 9212,
+    "material_slots": 4,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 130,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "revolving-door_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "revolving-door_body_metallic-revolving-door_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "revolving-door_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "revolving-door_wings_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "revolving-door_wings_metallic-revolving-door_wings_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "revolving-door_wings_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 494,
+      "sha256": "5bb6364237f06809dd4cc3f2324d95060433643433f00fbc1ec4114aef4e6aa0",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 75617,
+      "sha256": "2957910b073f4f0c1d830f164cdba10c3cc15c17dcd5c69e3ee9ed111203726b",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "2aba577f75cf99f75b5cb0e0420c55e2a5e8c902365462a45451193520e80e6a",
+      "role": "logs"
+    },
+    {
+      "path": "model/revolving-door.glb",
+      "bytes": 1137260,
+      "sha256": "763a9fdc7a76955ab36aba1887b6ad69674d18405f1330734690c297c8e46e0d",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 17185,
+      "sha256": "1f52138e9a7061b4ad5c63f16901ecf57091fb9d3e099f562bb3f6ce82f28f87",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 20504,
+      "sha256": "a7ee3c8c92119d31e07fd7bd5b261b60ddbdd4208f4f2dd45100ffca7385013a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 198176,
+      "sha256": "b53ca8d032e2bdbd29a5cb26226e3494f16ee92ac8e4a192732d89b0f45ed444",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1353,
+      "sha256": "24fea2393ef72dfebe35c11039db6a789d8bead7026a94a0d221e67b921539a4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 30823,
+      "sha256": "8ec129493669bccdbd56e6ba613dcdc5f2a43f11940cdfa3680db967d123e307",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 27018,
+      "sha256": "0b6f0a73811b4e1744a2e350034c54660a0562b2bd749f5a1d39f589b4dcbe2e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 21839,
+      "sha256": "a6f35c202819e3c8a6f6e03733436618bc5391d4df25106b098abca6baeb948e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 27070,
+      "sha256": "ba42887bf35c7d6bc6057058279c4d2274921f40d835f6f2aca3e8c713e4ebc4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 29615,
+      "sha256": "836faa054888fbb69ed437d973fa7df4ddee227ff5286326914371646c3b6c12",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 29009,
+      "sha256": "56cbeefae7192a7c6dce7b452910bc864e2c83e2dc2a88e5f8168f0e5f7a4196",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 26224,
+      "sha256": "d95f8a8093cb7e8dd5d615d9e2e6b73245a30d3081583920417f8e89d549c9d4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 28687,
+      "sha256": "f01a60bab17a06455332635c25dc4e8bafd8a3bf20a807ca3e2db3b8b26f9c97",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 14902,
+      "sha256": "367e2a46de43f79f7d68e93be92af2beabceffb2b14c863032f12301524461ba",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 43036,
+      "sha256": "d48fc1ea8f1caadee84f3a535b40cc6f12d5be8c10363e0378aa53a6208bfe78",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 160,
+      "sha256": "ed6cbe6c8b9e0acc9f2f0f737d1cce1c9abf12ae44f51ced54e87aa80673c477",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3370,
+      "sha256": "cc46a9c26b31bd7b47a55193c1e63cdf75645e22c985710c5ce97b0457c42b12",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1723,
+      "sha256": "90e69f175b53988379c32f3d6b8c583d81c4dfbe4549940a52b0768ac2351dd8",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 530,
+      "sha256": "6fd9bc90ea5123d473b241e6237d77835579b010e7a2028cf0b8c8e291508442",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "8bae70dae3aa7b29841948b39afd85880637f4d388d9cdfb33436c2f9c69b5eb",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/revolving-door_body_basecolor.jpg",
+      "bytes": 200893,
+      "sha256": "60df8c29d9d82c2eb0379364479ef9629ac8100131c5c5acd109e0f093e62442",
+      "role": "textures"
+    },
+    {
+      "path": "textures/revolving-door_body_metallic-revolving-door_body_roughness.jpg",
+      "bytes": 149350,
+      "sha256": "33372159b10e36d3d55886d5ea9752cc5243d4389beba3083afc8c2be4fccd20",
+      "role": "textures"
+    },
+    {
+      "path": "textures/revolving-door_body_normal.jpg",
+      "bytes": 76929,
+      "sha256": "2a2d39f294511d600f916fd67dc910c0aea55d5498a84dfd748c4e8d1752f751",
+      "role": "textures"
+    },
+    {
+      "path": "textures/revolving-door_wings_basecolor.jpg",
+      "bytes": 111287,
+      "sha256": "a00417e877f4f2effb2e7cd5c291d27733d18948e73b232ffb0d204e7b7f9bca",
+      "role": "textures"
+    },
+    {
+      "path": "textures/revolving-door_wings_metallic-revolving-door_wings_roughness.jpg",
+      "bytes": 149876,
+      "sha256": "69f7e985acf3227afae1408ce5d56405594d3566d490dacd52ec82aef68e6566",
+      "role": "textures"
+    },
+    {
+      "path": "textures/revolving-door_wings_normal.jpg",
+      "bytes": 67612,
+      "sha256": "5f4d7ea507e13528ee3b23058600f2411d3842f5149a4a8cd4bcef8d50e6b9c4",
+      "role": "textures"
+    }
+  ]
+}
