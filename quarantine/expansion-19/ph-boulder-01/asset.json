@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "id": "ph-boulder-01",
+  "title": "Boulder 01",
+  "category": "nature/rocks",
+  "style": "realistic",
+  "tags": [
+    "boulder",
+    "rock",
+    "stone",
+    "landscape",
+    "weathered",
+    "lichen",
+    "8k",
+    "lod"
+  ],
+  "batch": "expansion-19",
+  "acquired_at": "2026-11-05T10:48:14.386496+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/boulder_01_1k.gltf",
+    "creator": "Rico Cilliers",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/boulder_01",
+    "source_id": "boulder_01",
+    "resolution": "1k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/boulder_01/boulder_01_1k.gltf",
+        "bytes": 2773,
+        "sha256": "51487934db898b4c24072780a451e34eca5c02e3ada24a62bbc600bbc4019e92"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/boulder_01/boulder_01_arm_1k.jpg",
+        "bytes": 659386,
+        "sha256": "c57187c5746b6be913fa53846cb44ff78743e7ca5000f131c9627b99563c2b87"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/boulder_01/boulder_01_diff_1k.jpg",
+        "bytes": 987467,
+        "sha256": "c38f0e918f6dc16b8d386ba3cdd89805c78320c119a1ceec85856f82b09a65b8"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/boulder_01/boulder_01.bin",
+        "bytes": 2938808,
+        "sha256": "7f5b06503d62bd95bfe9c6b8a354a5cc8ff04a4d271a8cf87a3e3125db4232d7"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/boulder_01/boulder_01_nor_gl_1k.jpg",
+        "bytes": 1183552,
+        "sha256": "0810cf6e89d89bb6eb065b4d2e2855288f5dcbd2c15c6e40ab90d462021b50aa"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/boulder_01_1k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/boulder_01_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "boulder_01_nor_gl"
+    },
+    {
+      "path": "model/textures/boulder_01_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "boulder_01_diff"
+    },
+    {
+      "path": "model/textures/boulder_01_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "boulder_01_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 67042,
+    "triangles": 66122,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "boulder_01_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-19/ph-boulder-01/model/textures/boulder_01_diff_1k.jpg"
+      },
+      {
+        "name": "boulder_01_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-19/ph-boulder-01/model/textures/boulder_01_nor_gl_1k.jpg"
+      },
+      {
+        "name": "boulder_01_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-19/ph-boulder-01/model/textures/boulder_01_arm_1k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 292,
+      "sha256": "1244598f6bf67e52bd7a7d9a2560b15f01d897ac4aaee540dffa6eaeaa61672a",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 66645,
+      "sha256": "75c4163e2cb43565a9ca628724fd4bb7ba6e899a832fee7b3529056dc3f5ef73",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/boulder_01.bin",
+      "bytes": 2938808,
+      "sha256": "7f5b06503d62bd95bfe9c6b8a354a5cc8ff04a4d271a8cf87a3e3125db4232d7",
+      "role": "model"
+    },
+    {
+      "path": "model/boulder_01_1k.gltf",
+      "bytes": 2773,
+      "sha256": "51487934db898b4c24072780a451e34eca5c02e3ada24a62bbc600bbc4019e92",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/boulder_01_arm_1k.jpg",
+      "bytes": 659386,
+      "sha256": "c57187c5746b6be913fa53846cb44ff78743e7ca5000f131c9627b99563c2b87",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/boulder_01_diff_1k.jpg",
+      "bytes": 987467,
+      "sha256": "c38f0e918f6dc16b8d386ba3cdd89805c78320c119a1ceec85856f82b09a65b8",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/boulder_01_nor_gl_1k.jpg",
+      "bytes": 1183552,
+      "sha256": "0810cf6e89d89bb6eb065b4d2e2855288f5dcbd2c15c6e40ab90d462021b50aa",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 38364,
+      "sha256": "de8dde8db7b3473c69ac08640064c7fd21c57f989bd1839f453fbe178851f5d7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 26861,
+      "sha256": "e82813223b21f0229289a7ff7b4dcd0041eca821485e64c51859489c5a549650",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 387535,
+      "sha256": "b9c2ad26b877486800afa24d66acd4f2991d34d3473920616499823073d20382",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1115,
+      "sha256": "bdb63add0ab445c608308f04a31d73942ca366a3c4d829f2fea0bddb6be31dbe",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 58766,
+      "sha256": "8d92e58af1d951315002658572b22f56c9a3a6720392cc6b3a51232fcfbf6734",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 60705,
+      "sha256": "dcee12761810cac064b7ff910b7322a911fbfbbf9d917a747d5709b0b08f5138",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 56774,
+      "sha256": "a0c81a0ca2895c9aa64f2456050469003d14cae7799007ba1ab6628adb2e12bf",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 68018,
+      "sha256": "e1aaeb5639714c304a9edb2eba061406b65b4dbc375064857233d82275711874",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 70288,
+      "sha256": "a5824b8d86651a5263ea2dfab8c55c18e01b9229de65d1d29ca129b155645715",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 60907,
+      "sha256": "29785f1987877401d2d88fdfea97fe5fe74e0b55ededf4e7a96ecdf900af0f83",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 46951,
+      "sha256": "958fcf7799b360c2f5962efc0f14e271d1afad710c67735b0aa4caba6e8ded40",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 47686,
+      "sha256": "c23dbaa228c471f0fea3d2cada7de3bd702c57d7ace9589f5df3a5111ddb9b40",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 58838,
+      "sha256": "36f578c3fff8720ea20a12992a99255f4b493d83843407c7340044b0a96d4af8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 72620,
+      "sha256": "009e40c7ffc2caa34fd84a4993e28125df46a5116221d974c4608443e77136ef",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 160,
+      "sha256": "e4a1f61e2e7c28576ba38acdb2ad66ee230267a33e0ef14573b70712e1c0c266",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1384,
+      "sha256": "497cbae1d914de77b1931ceb20551289ce3e75ab3b3ed74af0e476a7f0f37555",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2115,
+      "sha256": "dfa28179e2411cdf171d16536479476f4846ade3fc62bdc26e0e8e1e9ca174c9",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1048,
+      "sha256": "56d4bc175da55b0f7dd5a3b99124ea1ee86946847eddc986832c448dba126b65",
+      "role": "provenance"
+    }
+  ]
+}
