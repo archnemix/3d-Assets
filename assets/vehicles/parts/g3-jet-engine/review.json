@@ -1,0 +1,22 @@
+{
+  "id": "g3-jet-engine",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "All 12 views inspected. Turbofan cutaway on a yellow maintenance cradle: a fan with individually modelled swept blades, a spinner, a nacelle cut away along one side, multi-stage compressor and turbine discs with blades, an annular combustor in red, a core casing and an exhaust cone. The cut faces are capped and coloured rather than left open, and the internal blade rows are real geometry. The fan and core are a SEPARATE `_rotor` node, so a spin clip can be authored. The cutaway and cradle are intentional for a teaching/display model and the rotor is separable.",
+  "limitations": [
+    "Stylised Cozy-kit palette rather than photoreal materials.",
+    "The nacelle is deliberately cut away; this is not a complete closed engine.",
+    "Stage counts are illustrative, not a specific engine model."
+  ],
+  "contact_sheet_sha256": "5ba824607891651a25add0531f764097d06888c328c24b903f4405f12edeb84f",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

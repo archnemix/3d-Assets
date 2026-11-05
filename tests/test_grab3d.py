@@ -120,3 +120,56 @@ def test_page_url_prefers_a_full_category_override_over_the_root():
         grab3d.page_url(source, "lynx", "nature/wildlife")
         == "https://grab3d.com/models/animals/lynx/"
     )
+
+
+def test_light_variant_is_a_file_key_in_the_base_manifest(tmp_path, monkeypatch):
+    """`<slug>-light` is not a package. The light build is files.glb_light."""
+    manifest = {
+        **MANIFEST,
+        "slug": "crystal-dragon",
+        "files": {
+            "glb": {"name": "crystal-dragon.glb", "bytes": 31},
+            "glb_light": {"name": "crystal-dragon-light.glb", "bytes": 4},
+        },
+    }
+    seen = []
+    monkeypatch.setattr(grab3d, "json", lambda url, hosts: seen.append(url) or manifest)
+    monkeypatch.setattr(grab3d, "text", lambda url, hosts: LICENSE)
+    monkeypatch.setattr(grab3d, "normalize_skin_weights", lambda path: REPAIR)
+
+    def fake_download(url, path, hosts):
+        seen.append(url)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_bytes(b"glb!")
+        return {"url": url, "bytes": 4, "sha256": "a" * 64}
+
+    monkeypatch.setattr(grab3d, "download", fake_download)
+    result = grab3d.fetch_grab3d(
+        SOURCE,
+        {
+            "upstream_id": "crystal-dragon",
+            "category": "nature/creatures",
+            "variant": "light",
+        },
+        tmp_path,
+    )
+    assert result["model"] == "model/crystal-dragon-light.glb"
+    assert any(u.endswith("/crystal-dragon/manifest.json") for u in seen)
+    assert not any("-light/manifest.json" in u for u in seen)
+
+
+def test_missing_light_build_fails_with_the_key_it_looked_for(tmp_path, monkeypatch):
+    import pytest
+
+    monkeypatch.setattr(grab3d, "json", lambda url, hosts: MANIFEST)
+    monkeypatch.setattr(grab3d, "text", lambda url, hosts: LICENSE)
+    with pytest.raises(ValueError, match="glb_light"):
+        grab3d.fetch_grab3d(
+            SOURCE,
+            {
+                "upstream_id": "man-base-character-rigged",
+                "category": "characters/humans",
+                "variant": "light",
+            },
+            tmp_path,
+        )

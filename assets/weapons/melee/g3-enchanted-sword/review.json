@@ -1,0 +1,22 @@
+{
+  "id": "g3-enchanted-sword",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "All 12 views inspected. Sword-in-the-stone set piece: an octagonal stepped plinth with glowing rune inlays, moss and crystal shards, and a pale blade sunk into the top with a brass crossguard, a blue cord grip and a gold pommel. Two glowing rings and sparkle cards orbit the blade. Unlike the rejected display-stand weapons, the GLB exposes a SEPARATE `enchanted-sword_weapon` node alongside the plinth body and three glow nodes, so the sword can be lifted out and used as a handheld weapon or the whole thing used as a set piece. That separability is why this passes where the cutlass, machete and pike did not.",
+  "limitations": [
+    "Stylised Cozy-kit palette rather than photoreal materials.",
+    "The glow rings and sparkles are emissive geometry, not particles; they will not animate without a rig.",
+    "The plinth and sword are separate nodes but each is internally fused."
+  ],
+  "contact_sheet_sha256": "2759e3f2ea14c790c027c25950209a4cb1c783bbef5ffe200c437aa213bdcf7f",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

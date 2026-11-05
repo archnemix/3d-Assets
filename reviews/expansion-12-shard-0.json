@@ -1,0 +1,110 @@
+{
+  "batch": "expansion-12",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "decisions": [
+    {
+      "id": "g3-boomerang",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Returning boomerang with a correctly aerofoiled asymmetric cross-section, rounded tips, pastel painted bands on both arms and a small star motif at the elbow. The top and bottom views confirm the two arms have opposite twist, which is what makes a boomerang return, rather than being a flat bent plank. Free-standing weapon, unrigged. Materials score 4 for the flat painted finish.",
+      "limitations": [
+        "Stylised Cozy-kit palette rather than photoreal materials.",
+        "Painted decoration is generic; it is not a reproduction of any specific cultural artwork."
+      ],
+      "contact_sheet_sha256": "67601d9d750bf855d0c209d1d4cad04fdd9fff95dfe46c5adfef3da77a080458"
+    },
+    {
+      "id": "g3-chainmail",
+      "decision": "rejected",
+      "scores": {
+        "silhouette": 4,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 2,
+        "style_fit": 3
+      },
+      "notes": "All 12 views inspected. Rejected on usability, not rights, under the same rule that rejected the cutlass, machete and pike. The chainmail shirt is welded to a full-height garment stand with a round weighted base, an upright post and a hanger. The GLB is a single mesh with a single material and no separate node for the furniture, so the stand cannot be hidden, deleted or unparented without destructive mesh surgery. Armour in this library has to be separable so it can be worn or carried; a shirt permanently fused to a coat stand and shields permanently fused to a rack are set dressing, not equippable armour. The sculpt and the chainmail weave itself are clean, and the enchanted sword in the same batch passes precisely because its weapon IS a separate node.",
+      "limitations": [],
+      "contact_sheet_sha256": "cd3275d76b5211f1799e57777ccb19c043c7c486ab825633b04cbb0161f83542"
+    },
+    {
+      "id": "g3-enchanted-sword",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Sword-in-the-stone set piece: an octagonal stepped plinth with glowing rune inlays, moss and crystal shards, and a pale blade sunk into the top with a brass crossguard, a blue cord grip and a gold pommel. Two glowing rings and sparkle cards orbit the blade. Unlike the rejected display-stand weapons, the GLB exposes a SEPARATE `enchanted-sword_weapon` node alongside the plinth body and three glow nodes, so the sword can be lifted out and used as a handheld weapon or the whole thing used as a set piece. That separability is why this passes where the cutlass, machete and pike did not.",
+      "limitations": [
+        "Stylised Cozy-kit palette rather than photoreal materials.",
+        "The glow rings and sparkles are emissive geometry, not particles; they will not animate without a rig.",
+        "The plinth and sword are separate nodes but each is internally fused."
+      ],
+      "contact_sheet_sha256": "2759e3f2ea14c790c027c25950209a4cb1c783bbef5ffe200c437aa213bdcf7f"
+    },
+    {
+      "id": "g3-high-speed-train",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. High-speed power car with a long aerodynamic nose, wrap-around cab glazing, a single roof pantograph with a fairing, recessed skirted bogies, a blue window band and a green waist stripe, and a full gangway with bellows and tail lights at the rear. The underside shows skirted equipment bays and both bogies. The nose, roof and rear are all complete. The blue/green banding is generic and carries no operator marks, though the silhouette clearly evokes Japanese high-speed stock.",
+      "limitations": [
+        "Stylised Cozy-kit palette rather than photoreal materials.",
+        "Styling evokes real Japanese high-speed trains; no logos or numbers are present, but it is not a licensed depiction of any specific service.",
+        "Wheels, bogies and pantograph are fused to the body.",
+        "This is a single power car, not a complete train set."
+      ],
+      "contact_sheet_sha256": "cc1575a97bf6d4a5c05d3d9133b8c9b32fc5246927c7e2d81a6a45de41c34fd5"
+    },
+    {
+      "id": "g3-quarterstaff",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Quarterstaff with a pale hardwood shaft, alternating leather grip bands, a pink central grip section and brass ferrules and end caps at both ends. The staff is straight in every orthographic view and both ends are capped and finished, so either end can be presented as the striking end. Free-standing weapon, unrigged. Materials score 4 for flat wood and leather colour.",
+      "limitations": [
+        "Stylised Cozy-kit palette rather than photoreal materials.",
+        "Single fused body mesh; the parts cannot be disassembled."
+      ],
+      "contact_sheet_sha256": "f11222b50e4425937a7e8fc1e98ba357d5c2450f3189f01a379f67e14f1cc76a"
+    },
+    {
+      "id": "grab3d-hedgehog",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Realistic European hedgehog with a dense dome of individually modelled banded spines with pale tips, cream belly fur, a pointed muzzle with a black nose, small dark eyes, rounded ears, whiskers and four feet with modelled claws and pads. The spine field is continuous over the whole back and rump with no bald patches or seams in any of the eight orbits, and the bottom view shows a furred belly and four complete paws. Roughly 400k triangles. Unrigged.",
+      "limitations": [
+        "AI-assisted origin is disclosed upstream (origin.ai_content); some storefronts require an AI-content disclosure when you resell.",
+        "Unrigged: the walking pose is baked in and the spines are geometry, so they will not flex.",
+        "Very dense spine geometry; consider decimation for distant or mobile use."
+      ],
+      "contact_sheet_sha256": "0258eb37a2aed8f6b5e2db3f28262ad62d750c0d4a615c45ea401d4c140f6151"
+    }
+  ]
+}

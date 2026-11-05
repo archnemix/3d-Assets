@@ -23,6 +23,7 @@ import bpy
 from mathutils import Vector
 
 sys.path.insert(0, str(Path(__file__).parent))
+from animation_rules import ROTATION_CLIPS  # noqa: E402
 from scene import (  # noqa: E402
     add_studio_lights,
     bounds,
@@ -34,19 +35,6 @@ from scene import (  # noqa: E402
 )
 
 FPS = 30
-
-# clip name -> (part matcher, rotation axis, degrees, frames)
-# Axes are local. Grab3D's vehicle manifests state the roll and steer axes
-# explicitly; hinge parts rotate about the axis their name implies.
-ROTATION_CLIPS = [
-    ("wheel_roll", lambda n: "wheel" in n, "X", 360.0, 60),
-    ("steer", lambda n: "wheel_f" in n or n.endswith("_fl") or n.endswith("_fr"), "Z", 32.0, 45),
-    ("trailer_swing", lambda n: n.endswith("_trailer"), "Z", 35.0, 60),
-    ("crank_turn", lambda n: n.endswith("_crank"), "X", 360.0, 60),
-    ("gear_spin", lambda n: "_cog" in n or "_gear_" in n, "X", 360.0, 60),
-    ("bit_spin", lambda n: n.endswith("_bit"), "Z", 720.0, 60),
-    ("reel_spin", lambda n: "_spool" in n and "arm" not in n and "holder" not in n, "X", 360.0, 60),
-]
 
 # Hinged parts need a calibrated swing, not a blanket angle. Several upstream
 # models are modelled with the hinge ALREADY OPEN, so a clip that starts at the

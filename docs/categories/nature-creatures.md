@@ -2,5 +2,13 @@
 
 Dragons, dinosaurs and other non-human creatures
 
-Approved assets: **0**
+Approved assets: **1**
+
+## Brachiosaurus
+
+![Brachiosaurus](../../assets/nature/creatures/grab3d-brachiosaurus/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: realistic; CC0-1.0
+- 181,914 triangles; 3 texture images
+- [Asset folder](../../assets/nature/creatures/grab3d-brachiosaurus/) · [Metadata](../../assets/nature/creatures/grab3d-brachiosaurus/asset.json) · [All inspection views](../../assets/nature/creatures/grab3d-brachiosaurus/previews/contact-sheet.jpg)
 

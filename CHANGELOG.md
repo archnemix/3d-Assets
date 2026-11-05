@@ -2,6 +2,16 @@
 
 ## Unreleased
 
+## expansion-12: vehicles, armour and creatures
+
+- **Added 24 further CC0 assets**, bringing the library to **190 approved assets in 60 categories**.
+- **Vehicles and rolling stock**: diesel and electric locomotives, a high-speed power car, a boxcar, a tank car, a container cargo ship, a galleon, a combine harvester, a farm trailer, a mountain bike and a retro moped. None carry operator livery, reporting marks or badges.
+- **More weapons and armour**: enchanted sword (blade is a separate node, so it is equippable), buckler, gauntlet, pauldron, boomerang and quarterstaff.
+- **First creatures**: a brachiosaurus, a hedgehog and a clownfish, all unrigged static meshes.
+- **Mechanical cutaways that are actually useful**: a camshaft, a differential and a jet engine, each with the spinning element as its own node.
+- **Rejected 2 on usability, not rights**: `g3-chainmail` (shirt welded to a garment stand) and `g3-shield-wall` (shields welded to a rack). Both are single meshes with single materials, so the furniture cannot be separated without destructive mesh surgery. Same rule that rejected the cutlass, machete and pike.
+- Extended the animation rule table with `rotor_spin` (Grab3D `<slug>_rotor` assemblies), `propeller_spin`, and steering/reel matches for the new bike, moped, harvester and ship parts, and moved the table into a testable `rendering/animation_rules.py`.
+
 ## expansion-11 and authored animations
 
 - **Added 27 further CC0 assets**, bringing the library to **166 approved assets in 53 categories**.

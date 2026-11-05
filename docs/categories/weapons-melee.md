@@ -2,7 +2,15 @@
 
 Swords, axes, maces and other hand weapons
 
-Approved assets: **8**
+Approved assets: **11**
+
+## Painted boomerang
+
+![Painted boomerang](../../assets/weapons/melee/g3-boomerang/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 5,440 triangles; 3 texture images
+- [Asset folder](../../assets/weapons/melee/g3-boomerang/) · [Metadata](../../assets/weapons/melee/g3-boomerang/asset.json) · [All inspection views](../../assets/weapons/melee/g3-boomerang/previews/contact-sheet.jpg)
 
 ## Dagger with gemmed pommel
 
@@ -11,6 +19,14 @@ Approved assets: **8**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 9,468 triangles; 3 texture images
 - [Asset folder](../../assets/weapons/melee/g3-dagger/) · [Metadata](../../assets/weapons/melee/g3-dagger/asset.json) · [All inspection views](../../assets/weapons/melee/g3-dagger/previews/contact-sheet.jpg)
+
+## Enchanted sword in a plinth
+
+![Enchanted sword in a plinth](../../assets/weapons/melee/g3-enchanted-sword/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 19,840 triangles; 6 texture images
+- [Asset folder](../../assets/weapons/melee/g3-enchanted-sword/) · [Metadata](../../assets/weapons/melee/g3-enchanted-sword/asset.json) · [All inspection views](../../assets/weapons/melee/g3-enchanted-sword/previews/contact-sheet.jpg)
 
 ## Chain flail
 
@@ -59,6 +75,14 @@ Approved assets: **8**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 9,402 triangles; 3 texture images
 - [Asset folder](../../assets/weapons/melee/g3-mace/) · [Metadata](../../assets/weapons/melee/g3-mace/asset.json) · [All inspection views](../../assets/weapons/melee/g3-mace/previews/contact-sheet.jpg)
+
+## Brass-capped quarterstaff
+
+![Brass-capped quarterstaff](../../assets/weapons/melee/g3-quarterstaff/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 8,114 triangles; 3 texture images
+- [Asset folder](../../assets/weapons/melee/g3-quarterstaff/) · [Metadata](../../assets/weapons/melee/g3-quarterstaff/asset.json) · [All inspection views](../../assets/weapons/melee/g3-quarterstaff/previews/contact-sheet.jpg)
 
 ## Rapier with swept brass hilt
 

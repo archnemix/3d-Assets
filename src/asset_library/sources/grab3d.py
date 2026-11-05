@@ -51,10 +51,15 @@ def fetch_grab3d(source: dict, candidate: dict, directory: Path) -> dict:
         raise ValueError(f"Grab3D manifest slug mismatch: expected {slug}")
     license_text = text(license_url, HOSTS)
     verify_cc0(manifest, license_text)
+    # High-detail models publish a decimated "light" build inside the SAME
+    # manifest rather than under a `<slug>-light` package of their own, so the
+    # variant is a file key, not a different slug.
+    variant = candidate.get("variant")
+    key = "glb_light" if variant == "light" else "glb"
     try:
-        glb = manifest["files"]["glb"]
+        glb = manifest["files"][key]
     except KeyError as error:
-        raise ValueError(f"Grab3D package has no GLB download: {slug}") from error
+        raise ValueError(f"Grab3D package has no {key} download: {slug}") from error
     model = directory / "model" / Path(glb["name"]).name
     model_url = f"{base}/{glb['name']}"
     record = download(model_url, model, HOSTS)
@@ -68,6 +73,7 @@ def fetch_grab3d(source: dict, candidate: dict, directory: Path) -> dict:
         directory / "provenance" / "grab3d-package.json",
         {
             "slug": slug,
+            "variant": variant or "full",
             "page_url": page_url(source, slug, candidate["category"]),
             "manifest_url": manifest_url,
             "license_url": license_url,

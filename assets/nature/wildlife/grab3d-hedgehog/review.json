@@ -1,0 +1,22 @@
+{
+  "id": "grab3d-hedgehog",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "All 12 views inspected. Realistic European hedgehog with a dense dome of individually modelled banded spines with pale tips, cream belly fur, a pointed muzzle with a black nose, small dark eyes, rounded ears, whiskers and four feet with modelled claws and pads. The spine field is continuous over the whole back and rump with no bald patches or seams in any of the eight orbits, and the bottom view shows a furred belly and four complete paws. Roughly 400k triangles. Unrigged.",
+  "limitations": [
+    "AI-assisted origin is disclosed upstream (origin.ai_content); some storefronts require an AI-content disclosure when you resell.",
+    "Unrigged: the walking pose is baked in and the spines are geometry, so they will not flex.",
+    "Very dense spine geometry; consider decimation for distant or mobile use."
+  ],
+  "contact_sheet_sha256": "0258eb37a2aed8f6b5e2db3f28262ad62d750c0d4a615c45ea401d4c140f6151",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

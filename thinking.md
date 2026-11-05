@@ -225,3 +225,30 @@ clean and the licence is fine, but the stand cannot be hidden, deleted or
 unparented without destructive mesh surgery, so the weapon cannot be equipped.
 A sword permanently fused to a wall plaque is a different product from a sword.
 Rejected on usability, with the reason recorded so nobody re-intakes them.
+
+## expansion-12 review: the separability test, and 24 more assets
+
+Twenty-six candidates came back from intake. Four had failed on a Grab3D URL
+assumption (light variants live inside the base manifest, not as `<slug>-light`);
+the rest were reviewed across all twelve views.
+
+The decision that decided most of them was the separability test. Two weapons in
+the batch looked good on the first orbit and were rejected on the eighth: chainmail
+and shield-wall both weld the armour to its own furniture. The chainmail shirt is
+frozen to a full-height garment stand as a single mesh with a single material; the
+shield-wall is four shields fused into a braced rack. Neither can be worn, carried
+or re-arranged without destructive mesh surgery. The enchanted sword in the same
+batch passes precisely because its blade is a separate `_weapon` node alongside
+the stone plinth — you can lift the sword out, or leave it as a set piece. Same
+rule that rejected the cutlass, machete and pike in expansion-11. Armour in this
+library has to be separable to be equippable; set dressing is a different product.
+
+The cutaways (camshaft, differential, jet engine) pass because the stand and the
+cutaway *are* the deliverable, and in every case the spinning element is a
+separate `_rotor` node — which let me extend the animation rule table with
+`rotor_spin` and `propeller_spin` and add steering/reel matches for the new bike,
+moped, harvester and ship parts. The rule table now lives in its own
+`rendering/animation_rules.py` so it can be unit-tested without importing Blender;
+six new tests cover the Grab3D node-name contracts.
+
+Result: 24 approved, 2 rejected. 190 assets in 60 categories.

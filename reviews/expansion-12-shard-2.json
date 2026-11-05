@@ -1,0 +1,96 @@
+{
+  "batch": "expansion-12",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "decisions": [
+    {
+      "id": "g3-buckler",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Round buckler with a domed steel boss carrying a punched sun motif, three concentric brass rings, a rivet row and a rolled brass rim. The bottom view confirms a real leather-lined grip bar with metal loops on the reverse, so it can actually be held or strapped to a forearm. Free-standing with no display furniture. Unrigged static prop.",
+      "limitations": [
+        "Stylised Cozy-kit palette rather than photoreal materials.",
+        "The grip is fused to the shell.",
+        "No arm straps are modelled, only the central grip."
+      ],
+      "contact_sheet_sha256": "9d40dc0acbe80aa8a43ef6cb835d73b64fa536a0b01a6afc52eaf160842c9b32"
+    },
+    {
+      "id": "g3-diesel-locomotive",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Centre-cab diesel shunter with two long hoods, cream cab roof, body-side louvre grilles, walkway handrails on both sides, roof fans and horns, headlight and marker lenses, buffers and couplers at both ends, and two three-axle bogies with modelled brake gear. The underside view shows a complete chassis, fuel tank and bogie frames rather than a hollow shell. Both ends are fully modelled and the model is symmetric as a centre-cab unit should be. No operator name, number or logo anywhere.",
+      "limitations": [
+        "Stylised Cozy-kit palette rather than photoreal materials.",
+        "Wheels and bogies are part of the single body mesh, so unlike the Grab3D road vehicles this cannot be given a wheel-roll clip without separating the mesh.",
+        "Cab interior is not modelled; the window glass is a separate opaque-ish lens node."
+      ],
+      "contact_sheet_sha256": "4c5654179dcc54d86501e5f64693f21bd8d98f4ea530dde4821e0c5e98dac2f2"
+    },
+    {
+      "id": "g3-flywheel",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Flywheel with a machined clutch face, a bolt-circle of six dowel holes, a central pilot bore, a ring gear with individually cut starter teeth around the full circumference, and dowel pins on the reverse. Both faces are modelled and different, and the ring-gear teeth are real geometry visible in the edge-on views. The disc is a SEPARATE `_rotor` node, so a spin clip can be authored.",
+      "limitations": [
+        "Stylised Cozy-kit palette rather than photoreal materials.",
+        "Tooth count and bolt pattern are illustrative rather than matched to a real engine."
+      ],
+      "contact_sheet_sha256": "d226c25d161adc2e35625ed981ff0c28d815596c7bf1d94b45e2f0ef85010df7"
+    },
+    {
+      "id": "g3-moped",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Retro step-through moped with a pressed frame, a finned single-cylinder engine, an exhaust and silencer, a chain case, telescopic front forks, twin rear shocks with modelled springs, spoked wheels, valanced mudguards, a headlamp and lens, mirrors, a bench seat, a rear luggage rack, a kickstand and a BLANK number plate. No manufacturer badge, script or wordmark appears on the tank, side panels or plate. Front and rear wheels, the crank and a steering node are SEPARATE, so motion clips can be authored.",
+      "limitations": [
+        "Stylised Cozy-kit palette rather than photoreal materials.",
+        "The number plate is deliberately blank; add your own registration if needed.",
+        "The chain and rear suspension are static."
+      ],
+      "contact_sheet_sha256": "16ec8a0f45ace9b340a2ca6903dd7ead272c3fd6bc77598d76468748829b4dd8"
+    },
+    {
+      "id": "g3-tank-car",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Welded tank car with a dished-end cylindrical tank, saddle bands, a top walkway with handrails and a domed manway, an access ladder, a flat underframe with buffers and couplers, and two bogies. The top view shows the manway and valve detail and the underside shows a complete frame. No hazardous-material placards, reporting marks or logos.",
+      "limitations": [
+        "Stylised Cozy-kit palette rather than photoreal materials.",
+        "Wheels are fused to the body.",
+        "No placards are modelled; add your own if the scene needs them."
+      ],
+      "contact_sheet_sha256": "4c9db8f44bfa176449ed42e8e7e1705715166fc7fbec0142ca6aded4522323e0"
+    }
+  ]
+}

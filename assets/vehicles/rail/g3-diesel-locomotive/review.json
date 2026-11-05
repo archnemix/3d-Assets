@@ -1,0 +1,22 @@
+{
+  "id": "g3-diesel-locomotive",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "All 12 views inspected. Centre-cab diesel shunter with two long hoods, cream cab roof, body-side louvre grilles, walkway handrails on both sides, roof fans and horns, headlight and marker lenses, buffers and couplers at both ends, and two three-axle bogies with modelled brake gear. The underside view shows a complete chassis, fuel tank and bogie frames rather than a hollow shell. Both ends are fully modelled and the model is symmetric as a centre-cab unit should be. No operator name, number or logo anywhere.",
+  "limitations": [
+    "Stylised Cozy-kit palette rather than photoreal materials.",
+    "Wheels and bogies are part of the single body mesh, so unlike the Grab3D road vehicles this cannot be given a wheel-roll clip without separating the mesh.",
+    "Cab interior is not modelled; the window glass is a separate opaque-ish lens node."
+  ],
+  "contact_sheet_sha256": "4c5654179dcc54d86501e5f64693f21bd8d98f4ea530dde4821e0c5e98dac2f2",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

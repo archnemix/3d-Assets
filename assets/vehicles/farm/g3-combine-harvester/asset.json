@@ -1,0 +1,492 @@
+{
+  "schema_version": 1,
+  "id": "g3-combine-harvester",
+  "title": "Combine harvester",
+  "category": "vehicles/farm",
+  "style": "stylized",
+  "tags": [
+    "farm",
+    "harvester",
+    "combine",
+    "header",
+    "agriculture"
+  ],
+  "batch": "expansion-12",
+  "acquired_at": "2026-11-05T00:06:16.578081+00:00",
+  "review": {
+    "id": "g3-combine-harvester",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. Combine harvester with a wide cutter bar carrying a modelled reel with bats and tines, a feeder house, a glazed cab with a roof, a grain tank, an unloading auger swung out to one side, an engine bay with a cooling fan and grilles, an access ladder, and four wheels with agricultural tread. The underside shows the chassis, drive axles and the underside of the cutter bar. The reel and all four wheels are SEPARATE nodes with correct pivots, so reel-spin, wheel-roll and steering clips can be authored.",
+    "limitations": [
+      "Stylised Cozy-kit palette rather than photoreal materials.",
+      "The unloading auger is fused in the extended position and cannot be folded.",
+      "Cab interior is not modelled."
+    ],
+    "contact_sheet_sha256": "f4d3e4e9b063fd45cea72b5f6173b88d2f2de00529d2838014fe3c95337c026e",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/combine-harvester.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/combine-harvester/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/combine-harvester/",
+    "source_id": "combine-harvester",
+    "revision": "445c94d8446e893932d921c5be90f5b1f2c8c4950634155824d413c23a315e79",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/combine-harvester/combine-harvester.glb",
+        "bytes": 2322956,
+        "sha256": "445c94d8446e893932d921c5be90f5b1f2c8c4950634155824d413c23a315e79"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/combine-harvester/LICENSE.txt"
+  },
+  "model": "model/combine-harvester.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 7,
+    "materials": 15,
+    "images": 6,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/combine-harvester_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "combine-harvester_body_normal"
+    },
+    {
+      "path": "textures/combine-harvester_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "combine-harvester_body_basecolor"
+    },
+    {
+      "path": "textures/combine-harvester_body_metallic-combine-harvester_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "combine-harvester_body_metallic-combine-harvester_body_roughness"
+    },
+    {
+      "path": "textures/combine-harvester_reel_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "combine-harvester_reel_normal"
+    },
+    {
+      "path": "textures/combine-harvester_reel_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "combine-harvester_reel_basecolor"
+    },
+    {
+      "path": "textures/combine-harvester_reel_metallic-combine-harvester_reel_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "combine-harvester_reel_metallic-combine-harvester_reel_roughness"
+    }
+  ],
+  "authored_animations": [
+    {
+      "name": "wheel_roll",
+      "parts": [
+        "combine-harvester_wheel_fl",
+        "combine-harvester_wheel_fr",
+        "combine-harvester_wheel_rl",
+        "combine-harvester_wheel_rr"
+      ],
+      "axis": "X",
+      "start_degrees": 0.0,
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    },
+    {
+      "name": "steer",
+      "parts": [
+        "combine-harvester_wheel_fl",
+        "combine-harvester_wheel_fr"
+      ],
+      "axis": "Z",
+      "start_degrees": 0.0,
+      "degrees": 32.0,
+      "frames": 45,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/combine-harvester-animated.glb",
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 7,
+    "hidden_mesh_objects": 0,
+    "vertices": 35006,
+    "triangles": 34488,
+    "material_slots": 15,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "combine-harvester_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "combine-harvester_body_metallic-combine-harvester_body_roughnes",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "combine-harvester_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "combine-harvester_reel_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "combine-harvester_reel_metallic-combine-harvester_reel_roughnes",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "combine-harvester_reel_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1299,
+      "sha256": "40d1a82a1f4bf79038c79324f4512c05225c90ef3924ea68e7b3b6678bcffc30",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 43473,
+      "sha256": "29c9f050f804e45f07caa6b019d71a2ccc3742a04462c99df5317903e3bf44f9",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 82590,
+      "sha256": "993b48d6b2a67ff7c25a46d91fadf61c2f1a483bf61c23326b87ec8c759bfa20",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "c053c1067c4bff53b886585d2757a77b310f7d61471914c0f89f1de7baa19612",
+      "role": "logs"
+    },
+    {
+      "path": "model/combine-harvester-animated.glb",
+      "bytes": 2334800,
+      "sha256": "9aa0c6e60c4458addc3bc94444df8dbdb2239fd8e8897f9030589b12c4f2607e",
+      "role": "model"
+    },
+    {
+      "path": "model/combine-harvester.glb",
+      "bytes": 2322956,
+      "sha256": "445c94d8446e893932d921c5be90f5b1f2c8c4950634155824d413c23a315e79",
+      "role": "model"
+    },
+    {
+      "path": "previews/anim-steer-a.jpg",
+      "bytes": 10629,
+      "sha256": "587126b950f6004d97d90c0e290bfe6bca18b256ce4846c92cf5489dce3886fc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-steer-b.jpg",
+      "bytes": 10578,
+      "sha256": "001770ce94b27ce16fdc25ef1f95c31db2de2b3316d042f3dd0075022fb7c23b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-steer-c.jpg",
+      "bytes": 10523,
+      "sha256": "ed3637abe5e7925d641ddf35b79133392d71e91dbb16d9466413c45156563e4f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-a.jpg",
+      "bytes": 10629,
+      "sha256": "701a50f496ded40003a02932cf539c67e60578dfa58a3566f4efc59c66a35a45",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-b.jpg",
+      "bytes": 10643,
+      "sha256": "a219ef83e0c53d8dade8124015510ff5ee6384375f29fb8b41795671b017cacb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-c.jpg",
+      "bytes": 10629,
+      "sha256": "3f54000266ad1e966283b075861a9638988291f43f4f143df2042f301cbfe984",
+      "role": "previews"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 26506,
+      "sha256": "90efc2a4654eb3986eda81dd52f296ed44484de8a43e328b5bf91aa9929319f1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 24150,
+      "sha256": "d4440be5eb96db2799739fdb0b41bcf61fd69028648a15a1c739420d5fca6855",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 230336,
+      "sha256": "f4d3e4e9b063fd45cea72b5f6173b88d2f2de00529d2838014fe3c95337c026e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1372,
+      "sha256": "c628bcd410e7cc70e3e7ac17d4cc147cb7b7fd5c4114f8bdeb73933335234c58",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 34569,
+      "sha256": "80c714e18291fe50ab60a5c159c4e3c4be9de29f94d4c2ee0bdecb542eafc6ed",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 32419,
+      "sha256": "f4fa80fddb99dbe2ccc13aa8483d7d5017d11872db8cefcec78aba18d57cd5d8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 30028,
+      "sha256": "49764d5c9d0d7a4d248b8def03d812e5d722d207b086632c812d82e25418d5aa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 32514,
+      "sha256": "5b67710ef03b6ec428a0513315505a050efe1e86ff7574ad0d6a48e3d93f3985",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 26600,
+      "sha256": "6fe4cb5c4f93c8f1f8d4437eef6af0a8a096ec6e95b0df302687747a9f4d943d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 30136,
+      "sha256": "f757ec8d15379c84e69890b1850436a3e2df7775f117d54aba49c255d16a4daa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 31423,
+      "sha256": "f778d810983156e5a416b6c3644a94338c0e7b22605b790063ba01731ff1b68c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 37738,
+      "sha256": "52c9552cf6d2c38128f8e9ade63a6670a036d28a40492fc1083de672ceefa460",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 29827,
+      "sha256": "0af108ada0597a50d6896d8d5eb10e025df82dffd2a035dd5295436f1b083547",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 38164,
+      "sha256": "292d7508e3d473e0836c303af65cf26fcd87c967b9fe320777f2e198224c51ae",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 1099,
+      "sha256": "d318d155dd74620f474afe42788276ea57a94959ab476da9384065738eca8bde",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 5446,
+      "sha256": "4d9acd5cd702de164de4b1e568ddca6e229b3303eb37f7f36f18040199944c94",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1847,
+      "sha256": "ef9de2eaabd8c6a3604a75b75511fb3f5ff417ce4b3fb5da1230db7461bfa26d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 532,
+      "sha256": "315191b40c1f5467d067d1a2ad1607d584726ed1e769e26cda725e9bf0a83883",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "d6467b4a18255106fc54203d6ca28a6d89a596e2f083daf5eb7e51b6f827ade1",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1188,
+      "sha256": "df49b907330cdaca856bf4528e0b49cd10890a20d5a0bc4545d2fdea2fa4e0a9",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/combine-harvester_body_basecolor.jpg",
+      "bytes": 295467,
+      "sha256": "d37137478a91961e35bbf9459cf44d56d9b634f26a3c11b3c38dfd30aadfc397",
+      "role": "textures"
+    },
+    {
+      "path": "textures/combine-harvester_body_metallic-combine-harvester_body_roughness.jpg",
+      "bytes": 256925,
+      "sha256": "eeed7cfaba855ab2b92678133004fa05bf3db4d29201fe3a808e170f314ca79b",
+      "role": "textures"
+    },
+    {
+      "path": "textures/combine-harvester_body_normal.jpg",
+      "bytes": 99594,
+      "sha256": "c7ed32359c431cd6a4a6f398304107d8048b884221f1a76a00de5341159384a3",
+      "role": "textures"
+    },
+    {
+      "path": "textures/combine-harvester_reel_basecolor.jpg",
+      "bytes": 131285,
+      "sha256": "f8e06f3b97530e25d12b8c5212075fadc887a590fbbc93627b356ce7902644a1",
+      "role": "textures"
+    },
+    {
+      "path": "textures/combine-harvester_reel_metallic-combine-harvester_reel_roughness.jpg",
+      "bytes": 129585,
+      "sha256": "c62467af4a35ce8b0abc2fc0353b43d480c49e7c53f46e0525f75494ded3676c",
+      "role": "textures"
+    },
+    {
+      "path": "textures/combine-harvester_reel_normal.jpg",
+      "bytes": 67758,
+      "sha256": "09f3f165ec26be7f01be3b26f14454ad147e651bd2212c487decada8f530bdf3",
+      "role": "textures"
+    }
+  ]
+}

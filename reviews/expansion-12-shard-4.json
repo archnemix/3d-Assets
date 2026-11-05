@@ -1,0 +1,97 @@
+{
+  "batch": "expansion-12",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "decisions": [
+    {
+      "id": "g3-cargo-ship",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Small container feeder with a raked bow, anchors and hawse pipes, a pastel container stack, two deck cranes with jibs, hooks and cable runs, a multi-deck accommodation block with bridge glazing, a funnel, lifeboats, mast and radar, and a painted boot-top and antifouling line. The bottom view confirms a complete hull with rudder, propeller and bilge keels rather than a flat cut-off. The propeller is a SEPARATE node, so it can be given a spin clip.",
+      "limitations": [
+        "Stylised Cozy-kit palette rather than photoreal materials.",
+        "Containers carry no shipping-line marks.",
+        "The deck cranes are fused and cannot be slewed without separation."
+      ],
+      "contact_sheet_sha256": "3d71446f6156b3a98f0804aba4b15720723b90240f3b13852373b29a2ff36c07"
+    },
+    {
+      "id": "g3-electric-locomotive",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Bo-Bo electric locomotive in pale blue with a cream roof, two roof pantographs with modelled scissor arms and contact shoes, roof insulators and cable runs, body-side grilles and windows, headlight and marker lenses, buffers and couplers at both ends, and two bogies with brake detail. The underside is a complete chassis. Both cabs are modelled. No operator livery, number or logo.",
+      "limitations": [
+        "Stylised Cozy-kit palette rather than photoreal materials.",
+        "Pantographs and wheels are fused into the body mesh, so the pantographs cannot be raised or lowered without mesh separation.",
+        "Cab interior is not modelled."
+      ],
+      "contact_sheet_sha256": "6bf7f3b17715ab07596104206e5329d41b668cc54f46db94fef1187d9564f0e3"
+    },
+    {
+      "id": "g3-gauntlet",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Plated gauntlet with four articulated-looking finger plates, a thumb plate, a laminated back-of-hand defence with brass edges and a star punch, a tan leather glove, and a flared cuff with a buckled strap. The bottom view confirms the cuff is genuinely hollow with a modelled interior, so a hand can be placed inside. Free-standing, no stand. Unrigged.",
+      "limitations": [
+        "Stylised Cozy-kit palette rather than photoreal materials.",
+        "The finger plates are fused and will not curl with a hand rig without separation.",
+        "Modelled as a right hand only; mirror it for the left."
+      ],
+      "contact_sheet_sha256": "32c70f293c502946d1e06d67d1894fa8917e05ac5597e9099cc6123953232b60"
+    },
+    {
+      "id": "g3-pauldron",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Shoulder pauldron with a domed cap, a brass spiral ornament, four overlapping lames with brass edges and rivets, a dark inner lining and two leather straps with brass buckles. The top and bottom views confirm a hollow shell with real wall thickness and an open armhole, so it can be fitted over a shoulder. Free-standing, no stand. Unrigged.",
+      "limitations": [
+        "Stylised Cozy-kit palette rather than photoreal materials.",
+        "The lames are fused and will not articulate independently.",
+        "Modelled for one shoulder; mirror it for the other."
+      ],
+      "contact_sheet_sha256": "31367b88d83179f1cbae0884b921cb22c824d4062612b63a7f362c286fcf547a"
+    },
+    {
+      "id": "grab3d-clownfish",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Clownfish with the correct three black-edged white bands, orange body with a fine scale pattern, black-margined dorsal, anal, pectoral and caudal fins with modelled fin rays, rounded glossy eyes and a shaped mouth. The band placement and the fin ray detail are consistent on both flanks and from above and below, and the dorsal fin runs the correct length of the back. Roughly 518k triangles. Unrigged.",
+      "limitations": [
+        "AI-assisted origin is disclosed upstream (origin.ai_content); some storefronts require an AI-content disclosure when you resell.",
+        "Unrigged: the fins are static geometry and will not undulate without a rig.",
+        "High triangle count for a small subject; decimate for crowd or mobile use."
+      ],
+      "contact_sheet_sha256": "d54f2bfc4ed3a5db38ecdba7d34156343b3147e79ab8d90601920ffa5da204a3"
+    }
+  ]
+}

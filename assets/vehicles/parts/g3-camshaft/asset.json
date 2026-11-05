@@ -1,0 +1,420 @@
+{
+  "schema_version": 1,
+  "id": "g3-camshaft",
+  "title": "Camshaft in bearing blocks",
+  "category": "vehicles/parts",
+  "style": "stylized",
+  "tags": [
+    "camshaft",
+    "engine",
+    "bearings",
+    "mechanical"
+  ],
+  "batch": "expansion-12",
+  "acquired_at": "2026-11-05T00:05:56.479968+00:00",
+  "review": {
+    "id": "g3-camshaft",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. Camshaft demonstration assembly on a bolted base plate: a shaft with eight correctly phased egg-shaped cam lobes, two pedestal bearing blocks with caps, and a brass timing gear with cut teeth and a bolted hub. The lobes are genuine 3D cams, not discs, and the gear teeth are cut geometry. The shaft and gear are a SEPARATE `_rotor` node from the base and bearings, so a rotation clip can be authored. Presented on a base by design as a teaching cutaway, and the rotor is separable.",
+    "limitations": [
+      "Stylised Cozy-kit palette rather than photoreal materials.",
+      "The bearing blocks are fused to the base plate.",
+      "Cam lobes are stylised rather than dimensioned to any real engine."
+    ],
+    "contact_sheet_sha256": "6e5ad47bab9b93501d68965b4c2ac90277262e73c697f191d66dac680733a9be",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/camshaft.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/camshaft/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/camshaft/",
+    "source_id": "camshaft",
+    "revision": "de7386d0c178a38da1d41d3f487e4add397708e447dd4e11f1fc22becd231dab",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/camshaft/camshaft.glb",
+        "bytes": 1527300,
+        "sha256": "de7386d0c178a38da1d41d3f487e4add397708e447dd4e11f1fc22becd231dab"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/camshaft/LICENSE.txt"
+  },
+  "model": "model/camshaft.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 2,
+    "materials": 2,
+    "images": 6,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/camshaft_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "camshaft_body_normal"
+    },
+    {
+      "path": "textures/camshaft_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "camshaft_body_basecolor"
+    },
+    {
+      "path": "textures/camshaft_body_metallic-camshaft_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "camshaft_body_metallic-camshaft_body_roughness"
+    },
+    {
+      "path": "textures/camshaft_rotor_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "camshaft_rotor_normal"
+    },
+    {
+      "path": "textures/camshaft_rotor_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "camshaft_rotor_basecolor"
+    },
+    {
+      "path": "textures/camshaft_rotor_metallic-camshaft_rotor_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "camshaft_rotor_metallic-camshaft_rotor_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 2,
+    "hidden_mesh_objects": 0,
+    "vertices": 21376,
+    "triangles": 19312,
+    "material_slots": 2,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "camshaft_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "camshaft_body_metallic-camshaft_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "camshaft_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "camshaft_rotor_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "camshaft_rotor_metallic-camshaft_rotor_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "camshaft_rotor_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1300,
+      "sha256": "74126da3eea8f9481ad4cbb4765ca4d760524bb0aa60e34655a07664e18b209a",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 345,
+      "sha256": "c05e0967865a23a6fe3f4a09a396e4bd668f0b5e4dea2383b9bc30f9a6c65806",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 74173,
+      "sha256": "91bde711559d737acc7f2581090906f2bb6a7d837dd6c546aa243aa1f83b886a",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "2a9a229f8bb2ed821581e94782406b1f4a42c4f9a9e024e1cc719a6265cfa1b4",
+      "role": "logs"
+    },
+    {
+      "path": "model/camshaft.glb",
+      "bytes": 1527300,
+      "sha256": "de7386d0c178a38da1d41d3f487e4add397708e447dd4e11f1fc22becd231dab",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 11454,
+      "sha256": "0fcd83d170da08d04035db069dfedaf736d575c79fc7eda3b498f4cc9d76fb05",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18446,
+      "sha256": "7ce0e599939981f6525291134e9bbf85485d088b8918f960ff185615607a83e1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 172838,
+      "sha256": "6e5ad47bab9b93501d68965b4c2ac90277262e73c697f191d66dac680733a9be",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1305,
+      "sha256": "1a0b7ebdbaf9414b349873dd1d7677d5ac49a847a11d6f666d5fc0e74f7f96a0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 19757,
+      "sha256": "b4ceb289e1b50c2f4c5b5f36eba5c8d3e4883004ffe02ac02b12bf4f1359ca75",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 23982,
+      "sha256": "6bdbcd61b401887e6b4d839771e23499a8f9b79362a763215178a4b290fecce7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 26944,
+      "sha256": "148fbf198b825832d09b28f74244499640b963fdae64c0c872d1c8c8951dc3c2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 23241,
+      "sha256": "39d8f3d70a822c486d1d6a5104abc5d6fc31e8e74622d20e180eeafc2cb7ec97",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 19130,
+      "sha256": "0f7dc7a6620d37ed04a6b88d14607e00ac1dfe4998bad7f182b5911ac689082e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 24389,
+      "sha256": "d2515fa79c754b68dcadcffbc1452b3888b12c23cbb43f3e7432f9f95c6ec8e1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 33648,
+      "sha256": "026e645c1ab9a15ab71a476c9503ef7ad43c18dc336aaa9e94a34e7e89914fff",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 24521,
+      "sha256": "2dab02cc51a4626ff4d33f49b137d7af6b7aaad72514e541ea312927acee689e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 18914,
+      "sha256": "7554aff02ab8044d4beae3cbb54d229f233341c8f1cf35124b98eef20e6b7e71",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 27518,
+      "sha256": "7d6b2e1cad3a67c60cbff93a9ecd624305e05d38fdb0d0a3fad7fe036e369f07",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 154,
+      "sha256": "4c6a6f89cff0cbe0267b76b36d026fc02f4401aee2ce5f103873a2459ee55d43",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2990,
+      "sha256": "94f7097f8648cff8dff2f564e188346a37187477feb3f93a340552c76ac8b1e9",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1654,
+      "sha256": "5777b4c4ac398774e86b32f561a48f44f5037bae20ffca622507559442e976f5",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 460,
+      "sha256": "c73f2cfbcd6fe836e4ec68f1072718c8032f5ee2c22bb6f60be8ddfc014200a9",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "14f3f4b5d7e66870a5c0564ecb0b130df218350008a46040c8d5294797f3dce5",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1168,
+      "sha256": "1aeddb1ae46178a9d9b396cf25ffb9411e9d56ace9aa883c91e251dc6e736db2",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/camshaft_body_basecolor.jpg",
+      "bytes": 121687,
+      "sha256": "e6a1a8bc43156d383a4a6b6a7cf88b48668008ae70666a04f84caecf22f26b1e",
+      "role": "textures"
+    },
+    {
+      "path": "textures/camshaft_body_metallic-camshaft_body_roughness.jpg",
+      "bytes": 133827,
+      "sha256": "5479287f7a2f8792cae68c1e493bb0f6f75cb8223309c9fa101703c1170fa1c9",
+      "role": "textures"
+    },
+    {
+      "path": "textures/camshaft_body_normal.jpg",
+      "bytes": 66353,
+      "sha256": "7c2c7f92c9a3dee3c539f1fedd2a77083b97743b74d9779701016e336f043f37",
+      "role": "textures"
+    },
+    {
+      "path": "textures/camshaft_rotor_basecolor.jpg",
+      "bytes": 158156,
+      "sha256": "63ecb8056e2e444fc1595be4d1043b7e19f9d2264b9fd550a5e466398abdea22",
+      "role": "textures"
+    },
+    {
+      "path": "textures/camshaft_rotor_metallic-camshaft_rotor_roughness.jpg",
+      "bytes": 176822,
+      "sha256": "6a277c88b24a23f252fba36b1bc4856ec0a5f9138df7225ad647e7d72521d076",
+      "role": "textures"
+    },
+    {
+      "path": "textures/camshaft_rotor_normal.jpg",
+      "bytes": 66365,
+      "sha256": "2a86f5a4355721bd7bd0ba83ce7167e24ece48e2892e7e6dcff8bab32e6e13df",
+      "role": "textures"
+    }
+  ]
+}

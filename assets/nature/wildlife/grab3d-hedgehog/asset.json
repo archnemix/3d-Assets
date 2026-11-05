@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "id": "grab3d-hedgehog",
+  "title": "Hedgehog",
+  "category": "nature/wildlife",
+  "style": "realistic",
+  "tags": [
+    "hedgehog",
+    "spines",
+    "animal",
+    "realistic",
+    "pbr"
+  ],
+  "batch": "expansion-12",
+  "acquired_at": "2026-11-05T00:02:48.342602+00:00",
+  "review": {
+    "id": "grab3d-hedgehog",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. Realistic European hedgehog with a dense dome of individually modelled banded spines with pale tips, cream belly fur, a pointed muzzle with a black nose, small dark eyes, rounded ears, whiskers and four feet with modelled claws and pads. The spine field is continuous over the whole back and rump with no bald patches or seams in any of the eight orbits, and the bottom view shows a furred belly and four complete paws. Roughly 400k triangles. Unrigged.",
+    "limitations": [
+      "AI-assisted origin is disclosed upstream (origin.ai_content); some storefronts require an AI-content disclosure when you resell.",
+      "Unrigged: the walking pose is baked in and the spines are geometry, so they will not flex.",
+      "Very dense spine geometry; consider decimation for distant or mobile use."
+    ],
+    "contact_sheet_sha256": "0258eb37a2aed8f6b5e2db3f28262ad62d750c0d4a615c45ea401d4c140f6151",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/hedgehog.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/hedgehog/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/animals/hedgehog/",
+    "source_id": "hedgehog",
+    "revision": "883d161327a8d8c858b073e3b61e295a1152a5696caaca09c7205ac4698de616",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/hedgehog/hedgehog.glb",
+        "bytes": 29223548,
+        "sha256": "883d161327a8d8c858b073e3b61e295a1152a5696caaca09c7205ac4698de616"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "ai-assisted",
+      "detail": "Base mesh and textures generated with an AI image-to-3D tool (Meshy), then cleaned up, scaled, textured and checked in Blender.",
+      "ai_content": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/hedgehog/LICENSE.txt"
+  },
+  "model": "model/hedgehog.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/Image_2.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "Image_2"
+    },
+    {
+      "path": "textures/Image_0.jpg",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "Image_0"
+    },
+    {
+      "path": "textures/Image_1.jpg",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "Image_1"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 574285,
+    "triangles": 399997,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 3,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "Image_0",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "Image_1",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "Image_2",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 665,
+      "sha256": "a15412842aa03ed7746551767e80808a9303edbbca02a06cfbcf354dfbd0ad27",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1404,
+      "sha256": "baa924a63767199443a9aa9d21d19fec8f23aa350c3da48d99b74492babf3f26",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 283,
+      "sha256": "3ce6a35eeea7697a8ab69a853cc46a5ed2cc1c0ad4756d2bd61da40cc01b5c4b",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68005,
+      "sha256": "4e4c915e0ea725d66875f4284eedd3852f637d522a80ebbe73b539ff1fce8545",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/hedgehog.glb",
+      "bytes": 29223548,
+      "sha256": "883d161327a8d8c858b073e3b61e295a1152a5696caaca09c7205ac4698de616",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 54894,
+      "sha256": "b21cc55a02b4f9f1176e697b15b21f77a9d7bdbdd28ed031023354030957574c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 51356,
+      "sha256": "720a5aca5f97df0d8c4ddd9b66afd64ea8b0e0de1303a409af4899dfe4596df0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 588228,
+      "sha256": "0258eb37a2aed8f6b5e2db3f28262ad62d750c0d4a615c45ea401d4c140f6151",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 750,
+      "sha256": "f0971870c85dcd2fd957316e96191cebe6fa9346460c1ecbd63c873c7e59a1c0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 91407,
+      "sha256": "f9923bc1f7a4da3f5a97313b857453a66aad7ae7bd73dbfbc9ecbdfb74ab33e1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 97099,
+      "sha256": "55e9e1695140e4499be871912584bed5a44abe5bdb65bf15d540abcaa0238faf",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 88939,
+      "sha256": "cb1be21243a989526d78c875c7db209ac36456ecf5e30004bce9f5ecd896bf39",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 101170,
+      "sha256": "ac1aa8e1fb8f3a83a3278487ceb337948222bb37f780f3dbbcc6bf50886bc5d5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 116169,
+      "sha256": "56bb632798f39d8190a4f7620bbf27bf8c475862303ee2fdea7c040279f4ac6e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 114598,
+      "sha256": "7d26007b015c68f46624f80d30943c2f276dcd7959c926888a2ab29eb237a60a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 89778,
+      "sha256": "a1b926515ba23a28696aba40e3c55e52678a96a099bb4632705d65183eaa3077",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 86570,
+      "sha256": "0982d27d8458d744f16fa321ae3f48b7be1847a4be4b6f688e1e4b1c53182485",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 97512,
+      "sha256": "82a06c0b5a0115f2072a14c1c52bfcfed009c03fb861dd5d9e64f29265d809cc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 100882,
+      "sha256": "61fccc871912a78e97e5c37937a0f3f54ab5497ed356b831eceffa9f8a991c45",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 154,
+      "sha256": "848602577d0f26442b96ff089955bedd0d24e5126b529ddc1661c71ebf41526b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1923,
+      "sha256": "a172a0c36adb98f58ac84120d8c60fed59c9329c6ec28418ab8b97e5119bfc14",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1148,
+      "sha256": "ceaef2aea93a7fe3cd9c29f37857cef3cfc3647c5f07b6b44a78d0925184f4f4",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 460,
+      "sha256": "6692497b9161cf2def79467d6c70b3e8754f75a71016fed4a82240dbd112abad",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "6d22db686b5122b9673fc8e2b85899a54992f058a06f99c0be51d133bc6bb711",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1264,
+      "sha256": "9c396571d6470fb7206493861cbaf74cc7f5ee140728dd4cd4008cd715411a85",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/Image_0.jpg",
+      "bytes": 4692555,
+      "sha256": "3ddd38f53c86c8491bf52e7a6851ef6cc2eb3dc9a14a98c55653f681773780e2",
+      "role": "textures"
+    },
+    {
+      "path": "textures/Image_1.jpg",
+      "bytes": 275911,
+      "sha256": "9734c3f8eb6312e68d576f95b7c945e744fc6dc8c604b8d6ed156494062e7961",
+      "role": "textures"
+    },
+    {
+      "path": "textures/Image_2.jpg",
+      "bytes": 1076098,
+      "sha256": "0401408611f38463d8473fca80fce715295d5136631d8aebebaab71041c2ea8e",
+      "role": "textures"
+    }
+  ]
+}

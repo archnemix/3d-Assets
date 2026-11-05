@@ -2,7 +2,23 @@
 
 Boats and sailing ships
 
-Approved assets: **1**
+Approved assets: **3**
+
+## Container cargo ship
+
+![Container cargo ship](../../assets/vehicles/watercraft/g3-cargo-ship/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 37,716 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/watercraft/g3-cargo-ship/) · [Metadata](../../assets/vehicles/watercraft/g3-cargo-ship/asset.json) · [All inspection views](../../assets/vehicles/watercraft/g3-cargo-ship/previews/contact-sheet.jpg)
+
+## Three-masted galleon
+
+![Three-masted galleon](../../assets/vehicles/watercraft/g3-galleon/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 39,876 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/watercraft/g3-galleon/) · [Metadata](../../assets/vehicles/watercraft/g3-galleon/asset.json) · [All inspection views](../../assets/vehicles/watercraft/g3-galleon/previews/contact-sheet.jpg)
 
 ## Dutch merchant sailing ship
 

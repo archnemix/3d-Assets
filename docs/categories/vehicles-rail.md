@@ -2,5 +2,45 @@
 
 Locomotives, wagons and railway rolling stock
 
-Approved assets: **0**
+Approved assets: **5**
+
+## Ribbed railway boxcar
+
+![Ribbed railway boxcar](../../assets/vehicles/rail/g3-boxcar/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 20,690 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/rail/g3-boxcar/) · [Metadata](../../assets/vehicles/rail/g3-boxcar/asset.json) · [All inspection views](../../assets/vehicles/rail/g3-boxcar/previews/contact-sheet.jpg)
+
+## Centre-cab diesel locomotive
+
+![Centre-cab diesel locomotive](../../assets/vehicles/rail/g3-diesel-locomotive/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 34,616 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/rail/g3-diesel-locomotive/) · [Metadata](../../assets/vehicles/rail/g3-diesel-locomotive/asset.json) · [All inspection views](../../assets/vehicles/rail/g3-diesel-locomotive/previews/contact-sheet.jpg)
+
+## Electric locomotive with pantographs
+
+![Electric locomotive with pantographs](../../assets/vehicles/rail/g3-electric-locomotive/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 34,940 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/rail/g3-electric-locomotive/) · [Metadata](../../assets/vehicles/rail/g3-electric-locomotive/asset.json) · [All inspection views](../../assets/vehicles/rail/g3-electric-locomotive/previews/contact-sheet.jpg)
+
+## High-speed train power car
+
+![High-speed train power car](../../assets/vehicles/rail/g3-high-speed-train/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 29,487 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/rail/g3-high-speed-train/) · [Metadata](../../assets/vehicles/rail/g3-high-speed-train/asset.json) · [All inspection views](../../assets/vehicles/rail/g3-high-speed-train/previews/contact-sheet.jpg)
+
+## Railway tank car
+
+![Railway tank car](../../assets/vehicles/rail/g3-tank-car/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 18,884 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/rail/g3-tank-car/) · [Metadata](../../assets/vehicles/rail/g3-tank-car/asset.json) · [All inspection views](../../assets/vehicles/rail/g3-tank-car/previews/contact-sheet.jpg)
 
