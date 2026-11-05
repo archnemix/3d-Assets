@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "id": "ph-periwinkle-plant",
+  "title": "Periwinkle Plant",
+  "category": "nature/flowers",
+  "style": "realistic",
+  "tags": [
+    "periwinkle",
+    "pink",
+    "flower",
+    "garden",
+    "groundcover",
+    "4k"
+  ],
+  "batch": "expansion-20",
+  "acquired_at": "2026-11-05T11:01:13.799119+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/periwinkle_plant_2k.gltf",
+    "creator": "Amal Kumar",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/periwinkle_plant",
+    "source_id": "periwinkle_plant",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/periwinkle_plant/periwinkle_plant_2k.gltf",
+        "bytes": 15189,
+        "sha256": "cda329e19910e9db4ba9917fbd011747932e56c200caa6a857ceccceeaa0ffc2"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/periwinkle_plant/periwinkle_plant_nor_gl_2k.jpg",
+        "bytes": 1321652,
+        "sha256": "79de7d76a4c25fc2676fb831abe850420c10834539557da895fa9299a237df05"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/periwinkle_plant/periwinkle_plant_diff_2k.jpg",
+        "bytes": 1025276,
+        "sha256": "015ae7b001fa72a2be9a4297590e30d9e29ec4d686ca1f19d8a313671ac3d137"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/periwinkle_plant/periwinkle_plant_arm_2k.jpg",
+        "bytes": 923660,
+        "sha256": "af1d10211821e872a98f4496c40311bdd84793b96ca7b5b09ec782d0bf057f22"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/periwinkle_plant/periwinkle_plant.bin",
+        "bytes": 1859752,
+        "sha256": "f039855d84d59f764838285c2b041a5cf255d103afc856e219a62482826d9655"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/periwinkle_plant_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 6,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/periwinkle_plant_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "periwinkle_plant_nor_gl"
+    },
+    {
+      "path": "model/textures/periwinkle_plant_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "periwinkle_plant_diff-periwinkle_plant_opacity"
+    },
+    {
+      "path": "model/textures/periwinkle_plant_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "periwinkle_plant_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 6,
+    "hidden_mesh_objects": 0,
+    "vertices": 31801,
+    "triangles": 34350,
+    "material_slots": 6,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "periwinkle_plant_diff-periwinkle_plant_opacity",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-20/ph-periwinkle-plant/model/textures/periwinkle_plant_diff_2k.jpg"
+      },
+      {
+        "name": "periwinkle_plant_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-20/ph-periwinkle-plant/model/textures/periwinkle_plant_nor_gl_2k.jpg"
+      },
+      {
+        "name": "periwinkle_plant_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-20/ph-periwinkle-plant/model/textures/periwinkle_plant_arm_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 6,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 534,
+      "sha256": "ffba650d6d937a2bb8862438e9c30b5fb8c89b8d4e41ae649690d76cf7b50ce3",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 74853,
+      "sha256": "871982a5b6d560c5eee925c964602ccd0b55fc230382ea7b90838fc4cf1bde88",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "7cb748210f52602d66a997445f4e3553b285ab2de9324295e71b35e9caf15763",
+      "role": "logs"
+    },
+    {
+      "path": "model/periwinkle_plant.bin",
+      "bytes": 1859752,
+      "sha256": "f039855d84d59f764838285c2b041a5cf255d103afc856e219a62482826d9655",
+      "role": "model"
+    },
+    {
+      "path": "model/periwinkle_plant_2k.gltf",
+      "bytes": 15189,
+      "sha256": "cda329e19910e9db4ba9917fbd011747932e56c200caa6a857ceccceeaa0ffc2",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/periwinkle_plant_arm_2k.jpg",
+      "bytes": 923660,
+      "sha256": "af1d10211821e872a98f4496c40311bdd84793b96ca7b5b09ec782d0bf057f22",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/periwinkle_plant_diff_2k.jpg",
+      "bytes": 1025276,
+      "sha256": "015ae7b001fa72a2be9a4297590e30d9e29ec4d686ca1f19d8a313671ac3d137",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/periwinkle_plant_nor_gl_2k.jpg",
+      "bytes": 1321652,
+      "sha256": "79de7d76a4c25fc2676fb831abe850420c10834539557da895fa9299a237df05",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 20984,
+      "sha256": "98c07d10fabfa2c37d10e569135aef8d5f7082751acd27288ee0e886f7db1bfc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 22025,
+      "sha256": "6773d604726f0a97c10f54329a253575f0e4a375dd539dd3c030755957f34e64",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 173384,
+      "sha256": "55f19ab0720db1b0598d1a8d4f3022f69caa27a036060d3bc7702f41b2841a5b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1194,
+      "sha256": "591ec7acd730ced024b512b52414a71555a80efc8064028645508f54dc198e45",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 19286,
+      "sha256": "3e522d13c47c3c60d2a559364d82a62906e38d3faaf94be67c8181f0ee48311e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 24359,
+      "sha256": "dc4176ab4a1b2f80a4bb5a386d417ca1ead197abce663da8f9bdd37cde40b964",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 36345,
+      "sha256": "0959374b183de9b4b1e0671e9b88ede864bdc76efc7a66e5fb600a46a36667c1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 25984,
+      "sha256": "09fd6f1baf39d544284763e940356e3124a051cf9d77f1cea7289d643d6342ce",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 19289,
+      "sha256": "e30dc14af51c4b8d54e3cd6e374310737a50b6c0d75cf1007d337990c7db80fa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 24412,
+      "sha256": "9ba7bfaf063ca9ab48eab93db3f2d31490ea2f5b4486253b69693849c04a2802",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 29558,
+      "sha256": "d98e6bdafab9c1f37245e0f6286a9047369ba27fbd8302910776dfa2e43e0389",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 26016,
+      "sha256": "8f20fd1d74ab2f0b1479f71d09af940efe082779aa261daef32bae8de5b0185d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 19112,
+      "sha256": "a45ef133a3258765c876750876aca740941c7c58d51dd40de3f94138a0d11254",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 22267,
+      "sha256": "715412ecf469f93d8d17768a3774047840cc66fc76bfbb8207efe02530780c98",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 166,
+      "sha256": "235d65e0c12933c60f14026ddfbf6894c83cfb0479f70615c8a1eba498a5ffab",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1293,
+      "sha256": "ce2cdc561d80ca9a11924acb95b9b17839b733242ddc75e219c72cf4f68b49e3",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 4908,
+      "sha256": "8eec5eeb5842f5a32fb939b5870cb06767a32fa83e45997adb6ee21b7aada85d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1134,
+      "sha256": "8c29017d011af1453efa659c5e3d5d96ae7a5e65592999507088c60012a18824",
+      "role": "provenance"
+    }
+  ]
+}
