@@ -1,0 +1,314 @@
+{
+  "schema_version": 1,
+  "id": "g3-bicolor-sphynx-cat",
+  "title": "Bicolor Sphynx Cat",
+  "category": "nature/wildlife",
+  "style": "realistic",
+  "tags": [
+    "sphynx",
+    "cat",
+    "wildlife",
+    "mammal",
+    "hairless",
+    "pbr"
+  ],
+  "batch": "expansion-17",
+  "acquired_at": "2026-11-05T08:47:20.999739+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/bicolor-sphynx-cat.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/bicolor-sphynx-cat/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/animals/bicolor-sphynx-cat/",
+    "source_id": "bicolor-sphynx-cat",
+    "revision": "f54d29020fdcd9119fb136c1cb220576571452d8fa57ecd6d4267697a35e9ca4",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/bicolor-sphynx-cat/bicolor-sphynx-cat.glb",
+        "bytes": 23570528,
+        "sha256": "f54d29020fdcd9119fb136c1cb220576571452d8fa57ecd6d4267697a35e9ca4"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "ai-assisted",
+      "detail": "Base mesh and textures generated with an AI image-to-3D tool (Meshy), then cleaned up, scaled, textured and checked in Blender.",
+      "ai_content": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/bicolor-sphynx-cat/LICENSE.txt"
+  },
+  "model": "model/bicolor-sphynx-cat.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/Image_2.jpg",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "Image_2"
+    },
+    {
+      "path": "textures/Image_0.jpg",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "Image_0"
+    },
+    {
+      "path": "textures/Image_1.jpg",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "Image_1"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 319281,
+    "triangles": 593712,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 2,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "Image_0",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "Image_1",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "Image_2",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 665,
+      "sha256": "a15412842aa03ed7746551767e80808a9303edbbca02a06cfbcf354dfbd0ad27",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 293,
+      "sha256": "bea012a5469b25ae94adc89a3db33ef53f36039157985fdce59dc39c33ad2fd8",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68335,
+      "sha256": "173c93a6f93a6382b4dbdc4fc3ed4e24a94bc5b706a12e2b4c7eecb1ac7ca0a1",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/bicolor-sphynx-cat.glb",
+      "bytes": 23570528,
+      "sha256": "f54d29020fdcd9119fb136c1cb220576571452d8fa57ecd6d4267697a35e9ca4",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 21508,
+      "sha256": "0e0fbd35fc6797c0ff839bfd7280ef95a0c62079636eba0c30738c96a7190139",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 23223,
+      "sha256": "cd673a7947110b4860e97c766ce2a35e2156e8f725cfdc89f59c8530850c15d6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 210600,
+      "sha256": "a52ebb1b7fdbfe9a436581fadec80a213fe9d838df27fffc53cceb338866e817",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 750,
+      "sha256": "34412ac3325a350aee32893965499248c99c895a3de3bf73683629833c89066e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 27931,
+      "sha256": "cea0d3c81ca7d04e8ab1c9b5f218e74664d297ebb9bc4227704913c35a405f34",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 33520,
+      "sha256": "4aa21fe5665c3dcaaef99231de88688aeb6a8a1eb13a084c6dd3a8bdd3787fe0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 24078,
+      "sha256": "16192b0471eb13bb58101fe83513af8ef66741d127ba9bfd5432507f31ac1d11",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 29306,
+      "sha256": "0eae64d8a9d95c526abc4f37a05d3173c8bd467e7f3778d500abe3b976f70630",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 21250,
+      "sha256": "233cca78c6f34d5a39dfb73e4479811c576243475ddb46248b973d55bea41f1b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 29287,
+      "sha256": "c410976fc36720169035a2454de780e73e9d6f9eab499a4db819534f09bac540",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 27895,
+      "sha256": "310d124009b34ae57b66310994ac6f9f1de47ba3009a4287543876ba35dad47d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 33713,
+      "sha256": "c87a283f6b7734fb04953f3f332fb34d473c4b875fdf7064de5a91ace4022973",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 17265,
+      "sha256": "354fdfb8c2d82bf5db427404d665e185979052afa8c79783e2e058c974deef3a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 52160,
+      "sha256": "c878861b8dcbe729ce8bc57c8932a384bc6b9b3e763c5806adaf5eb87140f0b9",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 164,
+      "sha256": "280b2fb8de62ff03052cfe48918c109641bf4a3d9cd81fb092915b8d84c135ce",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1933,
+      "sha256": "4e6b52b6ecd962e64e1c2b61c7f28e079eb63ecc63837a518bd165d4b3e12a37",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1227,
+      "sha256": "19c9a9f7dd52043bb50d8aa36f7f192e48bd63fca8eed89de531909141bb4702",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 561,
+      "sha256": "5e4e95822a8d5e292b9cad71765e33e57d7eaee33ce4298da3a1c75f008692b7",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "f6304e5972152e936cc03fd3796cf3da237fe60f6ed24687cf5b5c9c9a53c915",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/Image_0.jpg",
+      "bytes": 2523189,
+      "sha256": "39a9595ea706e98e93385939ae0e96c6bd05545cc46120010418c2d403659697",
+      "role": "textures"
+    },
+    {
+      "path": "textures/Image_1.jpg",
+      "bytes": 263263,
+      "sha256": "362dfaad2a50ace54c58d69adbbde0fb45db8ba86923390c78a4118c222b9431",
+      "role": "textures"
+    },
+    {
+      "path": "textures/Image_2.jpg",
+      "bytes": 3440619,
+      "sha256": "4b59a12665716b1d6f65b8c02f78866918570253c0c16eaad0ff96835f3b670d",
+      "role": "textures"
+    }
+  ]
+}
