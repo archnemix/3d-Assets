@@ -1,0 +1,28 @@
+{
+  "source_model": "fantasy-mushroom-house.glb",
+  "authored": [
+    {
+      "name": "door_open",
+      "parts": [
+        "fantasy-mushroom-house_front_door"
+      ],
+      "axis": "Z",
+      "start_degrees": 0.0,
+      "degrees": 100.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "verification": [
+    {
+      "clip": "door_open",
+      "frames": [
+        "anim-door_open-a.jpg",
+        "anim-door_open-b.jpg",
+        "anim-door_open-c.jpg"
+      ]
+    }
+  ],
+  "note": "Clips authored by this library, not upstream. Dedicated to CC0.",
+  "animated_model": "fantasy-mushroom-house-animated.glb"
+}

@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "id": "g3-colosseum",
+  "title": "Roman colosseum",
+  "category": "buildings/landmarks",
+  "style": "stylized",
+  "tags": [
+    "colosseum",
+    "roman",
+    "arena",
+    "arcade",
+    "building",
+    "architecture",
+    "pbr",
+    "game-ready"
+  ],
+  "batch": "expansion-13",
+  "acquired_at": "2026-11-05T10:27:53.260467+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/colosseum.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/colosseum/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/buildings/colosseum/",
+    "source_id": "colosseum",
+    "revision": "65ff8b8f12d484b34c9650abebb3c6ed12afed22d3cfc2f0dc6263dede5488c4",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/colosseum/colosseum.glb",
+        "bytes": 3044436,
+        "sha256": "65ff8b8f12d484b34c9650abebb3c6ed12afed22d3cfc2f0dc6263dede5488c4"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/colosseum/LICENSE.txt"
+  },
+  "model": "model/colosseum.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/colosseum_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "colosseum_body_normal"
+    },
+    {
+      "path": "textures/colosseum_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "colosseum_body_basecolor"
+    },
+    {
+      "path": "textures/colosseum_body_metallic-colosseum_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "colosseum_body_metallic-colosseum_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 65402,
+    "triangles": 46188,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "colosseum_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "colosseum_body_metallic-colosseum_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "colosseum_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 289,
+      "sha256": "539c00cdcfa49384eab4c4fc542b2b004a5d6a19fc83b8e4955cf70762e90cd0",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67884,
+      "sha256": "8595df0fa3cba56fb0198f53886c2945a4d735fc9cb786e0d4d548c8a7eb09b0",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/colosseum.glb",
+      "bytes": 3044436,
+      "sha256": "65ff8b8f12d484b34c9650abebb3c6ed12afed22d3cfc2f0dc6263dede5488c4",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 13404,
+      "sha256": "da95cdbc6a813186824f4620a3bb42a3ed323eef16cb62e30e65f3638321ae90",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 22341,
+      "sha256": "29c7d4243236894086884a5956e6188439d04c2d258fe83d2e3099d56ddcc643",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 211609,
+      "sha256": "96ab11fd11115a9c6584e46b3e6b62e90b9bd35d6823f756fa58c20862edf1a4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 820,
+      "sha256": "550d292f8fa0cab98dbbde6393710c136fbfd00a4aefb8041c626612a4f0b586",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 33058,
+      "sha256": "6506dcceecd827dec07410ed56d53e0aa7855c7b606e1a1c2a50cbcb81d5c9d3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 24945,
+      "sha256": "5a15da620b5037a92a694d082f78f47ca875d0de335357ede7a144a6c9b6ea5f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 34265,
+      "sha256": "108e2400b56ef6a93453d968b03408d4a9fa1bac27331a60f60111b8702ac3aa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 23368,
+      "sha256": "62286a843ec5de592b9918f8932cb53d3bcfd443625d565b61c08da115dc7817",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 29509,
+      "sha256": "ba1fe3ea2b03e74ac84fd840ddecb77f02c075d51a7e3b59657e50eeb02b58a9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 24833,
+      "sha256": "2761197dac74a54a050270096917f46713c8a4a4a8da1b4e67c3752f6c0a7687",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 39483,
+      "sha256": "15a3bcd1876f13febeaea76b1614cf83258d195aae975dbc69d1bbecf228bffe",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 25727,
+      "sha256": "7a6eca10fc71a1c29a4e09bf96f084c787304ebaee59ff0bbb5bdbe397060f9f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 35533,
+      "sha256": "8b647610eb58e269558da7791027dbf28af3b0fad46438f4b1dce0fadd0f55d9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 36507,
+      "sha256": "d76c09521512ab439ba8069852aa1710cfa229deb7e066ac28f71a7b7c025829",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 155,
+      "sha256": "d14f3577ce73f2a7ecba56bd41e63943e1500a201af8530a11bd782a5a3ac91f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1932,
+      "sha256": "33b73ba0d94362fc3e3f3de3c2cc5392c0a9620d8ef14640a30dec90e34479d7",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1665,
+      "sha256": "eb1a9440493ab53928f82d85abf96fa4dfc6f65126ba95f237a488d2d874842e",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 490,
+      "sha256": "74e8e9c0b2b076f0db9d547c7364f0d7c3f8e79ef91ebbdb1758e8bf7a1f14d4",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "bb7e82313fe046f9f8599eb617ff72b5dad99aa3bdaef5daa39f0f5a2dd7e2eb",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/colosseum_body_basecolor.jpg",
+      "bytes": 290650,
+      "sha256": "38b0c3d8c0ac115cced84b439ac3e19f89d9e3760f805bbac634aadd2c14ab27",
+      "role": "textures"
+    },
+    {
+      "path": "textures/colosseum_body_metallic-colosseum_body_roughness.jpg",
+      "bytes": 312683,
+      "sha256": "5e1553aece25b7b4414bed52cf42941faead3165059372f1358c379f38a03af0",
+      "role": "textures"
+    },
+    {
+      "path": "textures/colosseum_body_normal.jpg",
+      "bytes": 68733,
+      "sha256": "471e71b2d0e071a0b15a5611ae44b8ee7e729b96bbc1591137af3434011914c0",
+      "role": "textures"
+    }
+  ]
+}

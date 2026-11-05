@@ -1,0 +1,47 @@
+{
+  "slug": "elevator",
+  "triangles": 3748,
+  "texture_px": 2048,
+  "triangles_light": null,
+  "texture_px_light": null,
+  "files": {
+    "glb": {
+      "name": "elevator.glb",
+      "bytes": 1387856
+    },
+    "blend": {
+      "name": "elevator.blend",
+      "bytes": 590599
+    },
+    "fbx": {
+      "name": "elevator.fbx",
+      "bytes": 2088316
+    },
+    "obj": {
+      "name": "elevator-obj.zip",
+      "bytes": 721846
+    },
+    "usdz": {
+      "name": "elevator.usdz",
+      "bytes": 2030743
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "2.200 x 2.225 x 3.000",
+    "triangles": 3748,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-10-26",
+    "real_size": "elevator module for one 2 m grid cell and one storey, 2.2 x 2.2 x 3.0 m incl. corner posts",
+    "notes": "occupies one 2 m grid cell: corner posts (0.2 m) on the four grid nodes, glass shaft on the sides and the back, plaster front wall centred on the grid line (local y = -1, door side -Y) with the kit door opening 1.0 x 2.2 m, steel frame and threshold (top 0.105 like the kit thresholds); the grid cell centre lies 1.2 cm behind the origin (Blender +Y / glTF -Z) because the call panel and frame stick out at the front; stack modules every 3.0 m; landing door leaves 'elevator_slide_left' / 'elevator_slide_right' slide 0.47 m outwards along X behind the wall; the cabin ('elevator_cabin', with glass and ceiling light) moves along Z, 3.0 m per storey; call buttons and indicator show arrows only, no numbers; no text",
+    "set": "Cozy Modular Building Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}
