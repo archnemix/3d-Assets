@@ -233,8 +233,8 @@
     },
     {
       "path": "logs/animations.log",
-      "bytes": 349,
-      "sha256": "13bbe4358cd6644f60bbc367f90ae6e3e5ea6472dad4842b4f0793355f33b84e",
+      "bytes": 19791,
+      "sha256": "a793436665a3285fb5a091c402e746587b1e074bf73a47e78d8247480ef6445a",
       "role": "logs"
     },
     {
@@ -250,10 +250,34 @@
       "role": "logs"
     },
     {
+      "path": "model/jet-engine-animated.glb",
+      "bytes": 2876396,
+      "sha256": "f7d3b93fb9b740e27e4ca34913c903282edf9e7c63fe7153c0b3ea6fb9e66fb8",
+      "role": "model"
+    },
+    {
       "path": "model/jet-engine.glb",
       "bytes": 2767124,
       "sha256": "4566253964da18a7a4efd51f517494f0114441e01b2e24c833d4b5430f6d95da",
       "role": "model"
+    },
+    {
+      "path": "previews/anim-rotor_spin-a.jpg",
+      "bytes": 13584,
+      "sha256": "e32db2a318090dffa57602a85d8ddced53071c667e1711ab68cb7faf03e7095d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-rotor_spin-b.jpg",
+      "bytes": 13616,
+      "sha256": "2ae976707b6e15867f577a91a34a1f5ab8591cfc3db7e3a01dd0c34c9777dcfa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-rotor_spin-c.jpg",
+      "bytes": 13585,
+      "sha256": "95e4f8013139a56f4535440c1ea605dbf700d639ca5fda3429118c6c2a0fa88f",
+      "role": "previews"
     },
     {
       "path": "previews/bottom.jpg",
@@ -347,8 +371,8 @@
     },
     {
       "path": "provenance/animations.json",
-      "bytes": 156,
-      "sha256": "f817ff72c4cbc54469b5e483991509235c33df81a9d3fdb017276fde852dcc64",
+      "bytes": 573,
+      "sha256": "5ff9b04e1f733f07ff890a3ec3b9f8c37fb160c6a4a2ff111eafc72ce02beab4",
       "role": "provenance"
     },
     {
@@ -417,5 +441,19 @@
       "sha256": "0907eebe58f86089d364dfacdca4691c494bd372ddace4b8ec4f4f77ae9c5c28",
       "role": "textures"
     }
-  ]
+  ],
+  "authored_animations": [
+    {
+      "name": "rotor_spin",
+      "parts": [
+        "jet-engine_rotor"
+      ],
+      "axis": "X",
+      "start_degrees": 0.0,
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/jet-engine-animated.glb"
 }
