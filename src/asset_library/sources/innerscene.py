@@ -12,7 +12,9 @@ from asset_library.files import write_json
 from asset_library.gltf_repair import normalize_skin_weights
 from asset_library.http import download, text
 
-HOSTS = {"www.innerscene.com", "innerscene.com"}
+HOSTS = {"www.innerscene.com", "innerscene.com", "cdn.innerscene.com", "storage.googleapis.com", "objects.githubusercontent.com"}
+
+_license_cache: str | None = None
 
 
 def page_url(source: dict, slug: str) -> str:
@@ -28,10 +30,13 @@ def license_url(source: dict) -> str:
 
 
 def fetch_innerscene(source: dict, candidate: dict, directory: Path) -> dict:
+    global _license_cache
     slug = candidate["upstream_id"]
-    license_text = text(license_url(source), HOSTS)
-    if "CC0 1.0 Universal" not in license_text:
-        raise ValueError("Innerscene library terms do not confirm CC0 1.0")
+    if _license_cache is None:
+        _license_cache = text(license_url(source), HOSTS)
+        if "CC0 1.0 Universal" not in _license_cache:
+            raise ValueError("Innerscene library terms do not confirm CC0 1.0")
+    license_text = _license_cache
     (directory / "LICENSE.txt").write_text(license_text, encoding="utf-8")
     model = directory / "model" / f"{slug}.glb"
     record = download(download_url(source, slug), model, HOSTS)
