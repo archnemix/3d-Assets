@@ -1,0 +1,22 @@
+{
+  "id": "g3-llama",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Llama with a cream neck, chocolate brown woolly body, red and cream patterned saddle blanket and knitted pompoms on the ears. Hyper-detailed Grab3D animal: glTF validation clean (0 errors), single fused mesh at ~800k triangles with three PBR texture maps (basecolor, normal, roughness/metallic). Upstream lists it as a realistic (non-cartoon) high-detail model. Unrigged static mesh.",
+  "limitations": [
+    "AI-assisted origin is disclosed upstream (origin.ai_content); some storefronts require an AI-content disclosure when you resell.",
+    "Unrigged: the walking/standing pose is baked into the mesh, so it cannot be re-posed or animated without adding a skeleton.",
+    "Single fused mesh with baked textures; no separate parts to animate."
+  ],
+  "contact_sheet_sha256": "c9dc7ad6d15ebf45aa1666d7a2298c9c2be0bc5c34fe1a1439c765f1da0e0f02",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

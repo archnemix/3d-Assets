@@ -1,0 +1,22 @@
+{
+  "id": "g3-elephant",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Realistic African elephant with wrinkled grey skin, large ears and long ivory tusks, trunk hanging down. Hyper-detailed Grab3D animal: glTF validation clean (0 errors), single fused mesh at ~800k triangles with three PBR texture maps (basecolor, normal, roughness/metallic). Upstream lists it as a realistic (non-cartoon) high-detail model. Unrigged static mesh.",
+  "limitations": [
+    "AI-assisted origin is disclosed upstream (origin.ai_content); some storefronts require an AI-content disclosure when you resell.",
+    "Unrigged: the walking/standing pose is baked into the mesh, so it cannot be re-posed or animated without adding a skeleton.",
+    "Single fused mesh with baked textures; no separate parts to animate."
+  ],
+  "contact_sheet_sha256": "3d8433133d013ad69b5bc0bc783c7d8f97b2c280df513f364bbfa308881cac0c",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

@@ -2,7 +2,15 @@
 
 Dragons, dinosaurs and other non-human creatures
 
-Approved assets: **1**
+Approved assets: **2**
+
+## Blue Morpho Butterfly
+
+![Blue Morpho Butterfly](../../assets/nature/creatures/g3-butterfly/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: realistic; CC0-1.0
+- 520,874 triangles; 3 texture images
+- [Asset folder](../../assets/nature/creatures/g3-butterfly/) · [Metadata](../../assets/nature/creatures/g3-butterfly/asset.json) · [All inspection views](../../assets/nature/creatures/g3-butterfly/previews/contact-sheet.jpg)
 
 ## Brachiosaurus
 

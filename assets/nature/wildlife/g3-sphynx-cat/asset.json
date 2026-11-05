@@ -1,0 +1,346 @@
+{
+  "schema_version": 1,
+  "id": "g3-sphynx-cat",
+  "title": "Sphynx Cat",
+  "category": "nature/wildlife",
+  "style": "realistic",
+  "tags": [
+    "sphynx",
+    "cat",
+    "wildlife",
+    "mammal",
+    "hairless",
+    "pbr"
+  ],
+  "batch": "expansion-17",
+  "acquired_at": "2026-11-05T08:48:29.231926+00:00",
+  "review": {
+    "id": "g3-sphynx-cat",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Realistic pale pink hairless Sphynx cat with large ears and green eyes, standing on all four legs with a thin curled tail. Hyper-detailed Grab3D animal: glTF validation clean (0 errors), single fused mesh at ~800k triangles with three PBR texture maps (basecolor, normal, roughness/metallic). Upstream lists it as a realistic (non-cartoon) high-detail model. Unrigged static mesh.",
+    "limitations": [
+      "AI-assisted origin is disclosed upstream (origin.ai_content); some storefronts require an AI-content disclosure when you resell.",
+      "Unrigged: the walking/standing pose is baked into the mesh, so it cannot be re-posed or animated without adding a skeleton.",
+      "Single fused mesh with baked textures; no separate parts to animate."
+    ],
+    "contact_sheet_sha256": "f921b3f30fbbddbb4a74eb5338849d38073db07e540f2e8a619cd21471eaf429",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/sphynx-cat.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/sphynx-cat/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/animals/sphynx-cat/",
+    "source_id": "sphynx-cat",
+    "revision": "4d41e896f59429b91c91fc79e37360f8f9c6aee1cbf0f69aa820d8e20032cafc",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/sphynx-cat/sphynx-cat.glb",
+        "bytes": 19465844,
+        "sha256": "4d41e896f59429b91c91fc79e37360f8f9c6aee1cbf0f69aa820d8e20032cafc"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "ai-assisted",
+      "detail": "Base mesh and textures generated with an AI image-to-3D tool (Meshy), then cleaned up, scaled, textured and checked in Blender.",
+      "ai_content": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/sphynx-cat/LICENSE.txt"
+  },
+  "model": "model/sphynx-cat.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/Image_2.jpg",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "Image_2"
+    },
+    {
+      "path": "textures/Image_0.jpg",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "Image_0"
+    },
+    {
+      "path": "textures/Image_1.jpg",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "Image_1"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 310467,
+    "triangles": 579774,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 1,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "Image_0",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "Image_1",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "Image_2",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 665,
+      "sha256": "a15412842aa03ed7746551767e80808a9303edbbca02a06cfbcf354dfbd0ad27",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1438,
+      "sha256": "a479f5cacae9d08e88779ce8b71f4be2cb1e72ba051d3eff6d7eadeedc47e875",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 285,
+      "sha256": "8aea2ea703d6f895a6d4835b694b152693c68ae12d294c9e5e23e431e888a977",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68007,
+      "sha256": "862749ff244459f9c4fc1d0193594174fae05be3140110400bf249f3a6449a91",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/sphynx-cat.glb",
+      "bytes": 19465844,
+      "sha256": "4d41e896f59429b91c91fc79e37360f8f9c6aee1cbf0f69aa820d8e20032cafc",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 21349,
+      "sha256": "77bc6a2a98ac50f75d21e479c35f73ddaf9f048905ec9297b27aabdcdef74b93",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 24490,
+      "sha256": "cb1c82a274c0560b782f0c585c02909ed11481141a4ecb5fa8af3acd0000b61f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 205094,
+      "sha256": "f921b3f30fbbddbb4a74eb5338849d38073db07e540f2e8a619cd21471eaf429",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 750,
+      "sha256": "5f534736bea4540c1b2e6fcba87ee062f74afdf894c529e4d98579ed84627430",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 28376,
+      "sha256": "0c0b3ffa8e87a5c1c1822225eb897aea1016047b4df66d99158c764721e05a18",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 26938,
+      "sha256": "752f491f51c7c02cadc884d63a0469429d93889499d845b8d241dca5fbe1b1f6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 22179,
+      "sha256": "f47ae0af7723cd42d37df312d98651117b8f08d2eb036375f9e529762df5ef6d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 23897,
+      "sha256": "e147067b96e1b9fc1c71696b2306ad2b1f9ea1c96fe05bb8ab0e607666df84bc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 20231,
+      "sha256": "c9964c8e41567cbe7b88cab4bd81e1edf10ebd70300ab0c75b41e3fd412bdd2f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 27043,
+      "sha256": "14337c1cea95c138000d92ea6815a4ab72e93ad7b8f3f5a18c77a847f19b9eda",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 23295,
+      "sha256": "ee877bbc240317e27f1c2bbd505e04e31e40eb08a80ad4cb8972737bbb2154c5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 31654,
+      "sha256": "65f50a4595b4a596536eb88db81ca321c2b74e3e064a1c90ff4a086fe7f6efd1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 16454,
+      "sha256": "9949133ed59b500d21aa444bed6a066724ec3b1b2e358ba93460506bb6345f0a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 57577,
+      "sha256": "0a839a6fac359e57aa4ec9e7b2ab13ff88eca2bdfa684f1b333d486eb76c1bc5",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 156,
+      "sha256": "18431512a674f8ab0155f01af5d97429d1f96b649d44cf07971c0c47161a4706",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1925,
+      "sha256": "fef3e69c3f05fbd1f6e18a203e35d08ee7c39d26273ed0eb4fd9336e39412bff",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1163,
+      "sha256": "a3835f4e8c5f8cbd713690bd73683cb4ace88e8dc7ee1229d6d6922390f3dc6f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 497,
+      "sha256": "e116d85434e350f4ca3252c3e2e6fea4fbae9e8d41e48240ce46e7f86022c54e",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "9a0281be629216fcde12bf2294c81768c6258b2b525fd5212fea1e99d938edc2",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1193,
+      "sha256": "75056972f097c94f157916bc9a4e48ad159f14c1b54f00bb68440a4b46a95758",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/Image_0.jpg",
+      "bytes": 1041538,
+      "sha256": "1b47367ec7c5260ef5d78b05c78fb70694a81140a542f41ff8c95271d9442095",
+      "role": "textures"
+    },
+    {
+      "path": "textures/Image_1.jpg",
+      "bytes": 247970,
+      "sha256": "6e866ed8f453000074eb572f30a6bb843891a34a96db90bbb9bfb1f835e23ac2",
+      "role": "textures"
+    },
+    {
+      "path": "textures/Image_2.jpg",
+      "bytes": 1282195,
+      "sha256": "a91f1a5c27e2c03e05344c96f82622e31ab9579fe048819ea006a5ecb3cc4237",
+      "role": "textures"
+    }
+  ]
+}

@@ -1,456 +1,146 @@
 {
   "revision": 1,
-  "batch_id": "expansion-17",
+  "batch_id": "expansion-18",
   "candidates": [
     {
-      "id": "g3-cheetah",
-      "title": "King Cheetah",
+      "id": "g3-low-poly-rhino",
+      "title": "Low Poly Rhino",
       "category": "nature/wildlife",
       "source": "grab3d",
-      "style": "realistic",
+      "style": "low-poly",
       "tags": [
-        "cheetah",
-        "cat",
+        "rhino",
+        "low-poly",
         "wildlife",
-        "mammal",
-        "africa",
-        "pbr"
+        "stylized"
       ],
-      "upstream_id": "cheetah"
+      "upstream_id": "low-poly-rhino"
     },
     {
-      "id": "g3-kitten",
-      "title": "Calico Kitten",
+      "id": "g3-low-poly-bear",
+      "title": "Low Poly Bear",
       "category": "nature/wildlife",
       "source": "grab3d",
-      "style": "realistic",
-      "tags": [
-        "kitten",
-        "cat",
-        "wildlife",
-        "mammal",
-        "pbr"
-      ],
-      "upstream_id": "kitten"
-    },
-    {
-      "id": "g3-llama",
-      "title": "Llama",
-      "category": "nature/wildlife",
-      "source": "grab3d",
-      "style": "realistic",
-      "tags": [
-        "llama",
-        "wildlife",
-        "mammal",
-        "woolly",
-        "pbr"
-      ],
-      "upstream_id": "llama"
-    },
-    {
-      "id": "g3-moose",
-      "title": "Moose",
-      "category": "nature/wildlife",
-      "source": "grab3d",
-      "style": "realistic",
-      "tags": [
-        "moose",
-        "deer",
-        "wildlife",
-        "mammal",
-        "antlers",
-        "pbr"
-      ],
-      "upstream_id": "moose"
-    },
-    {
-      "id": "g3-puppy",
-      "title": "Bernese Mountain Dog Puppy",
-      "category": "nature/wildlife",
-      "source": "grab3d",
-      "style": "realistic",
-      "tags": [
-        "puppy",
-        "dog",
-        "wildlife",
-        "mammal",
-        "bernese",
-        "pbr"
-      ],
-      "upstream_id": "puppy"
-    },
-    {
-      "id": "g3-raccoon",
-      "title": "Raccoon",
-      "category": "nature/wildlife",
-      "source": "grab3d",
-      "style": "realistic",
-      "tags": [
-        "raccoon",
-        "wildlife",
-        "mammal",
-        "pbr"
-      ],
-      "upstream_id": "raccoon"
-    },
-    {
-      "id": "g3-crab",
-      "title": "Red Rock Crab",
-      "category": "nature/aquatic",
-      "source": "grab3d",
-      "style": "realistic",
-      "tags": [
-        "crab",
-        "aquatic",
-        "marine",
-        "wildlife",
-        "pbr"
-      ],
-      "upstream_id": "crab"
-    },
-    {
-      "id": "g3-squirrel",
-      "title": "Red Squirrel",
-      "category": "nature/wildlife",
-      "source": "grab3d",
-      "style": "realistic",
-      "tags": [
-        "squirrel",
-        "wildlife",
-        "mammal",
-        "pbr"
-      ],
-      "upstream_id": "squirrel"
-    },
-    {
-      "id": "g3-bicolor-sphynx-cat",
-      "title": "Bicolor Sphynx Cat",
-      "category": "nature/wildlife",
-      "source": "grab3d",
-      "style": "realistic",
-      "tags": [
-        "sphynx",
-        "cat",
-        "wildlife",
-        "mammal",
-        "hairless",
-        "pbr"
-      ],
-      "upstream_id": "bicolor-sphynx-cat"
-    },
-    {
-      "id": "g3-sphynx-cat",
-      "title": "Sphynx Cat",
-      "category": "nature/wildlife",
-      "source": "grab3d",
-      "style": "realistic",
-      "tags": [
-        "sphynx",
-        "cat",
-        "wildlife",
-        "mammal",
-        "hairless",
-        "pbr"
-      ],
-      "upstream_id": "sphynx-cat"
-    },
-    {
-      "id": "g3-eagle",
-      "title": "Bald Eagle",
-      "category": "nature/wildlife",
-      "source": "grab3d",
-      "style": "realistic",
-      "tags": [
-        "eagle",
-        "bird",
-        "wildlife",
-        "raptor",
-        "pbr"
-      ],
-      "upstream_id": "eagle"
-    },
-    {
-      "id": "g3-horse",
-      "title": "Bay Horse",
-      "category": "nature/wildlife",
-      "source": "grab3d",
-      "style": "realistic",
-      "tags": [
-        "horse",
-        "wildlife",
-        "mammal",
-        "equine",
-        "pbr"
-      ],
-      "upstream_id": "horse"
-    },
-    {
-      "id": "g3-bull",
-      "title": "Black Bull",
-      "category": "nature/wildlife",
-      "source": "grab3d",
-      "style": "realistic",
-      "tags": [
-        "bull",
-        "wildlife",
-        "mammal",
-        "cattle",
-        "horns",
-        "pbr"
-      ],
-      "upstream_id": "bull"
-    },
-    {
-      "id": "g3-butterfly",
-      "title": "Blue Morpho Butterfly",
-      "category": "nature/creatures",
-      "source": "grab3d",
-      "style": "realistic",
-      "tags": [
-        "butterfly",
-        "insect",
-        "creature",
-        "wings",
-        "pbr"
-      ],
-      "upstream_id": "butterfly"
-    },
-    {
-      "id": "g3-dolphin",
-      "title": "Bottlenose Dolphin",
-      "category": "nature/aquatic",
-      "source": "grab3d",
-      "style": "realistic",
-      "tags": [
-        "dolphin",
-        "aquatic",
-        "marine",
-        "wildlife",
-        "mammal",
-        "pbr"
-      ],
-      "upstream_id": "dolphin"
-    },
-    {
-      "id": "g3-bear",
-      "title": "Brown Bear",
-      "category": "nature/wildlife",
-      "source": "grab3d",
-      "style": "realistic",
+      "style": "low-poly",
       "tags": [
         "bear",
+        "low-poly",
         "wildlife",
-        "mammal",
-        "pbr"
+        "stylized"
       ],
-      "upstream_id": "bear"
+      "upstream_id": "low-poly-bear"
     },
     {
-      "id": "g3-chicken",
-      "title": "Chicken",
+      "id": "g3-low-poly-chicken",
+      "title": "Low Poly Chicken",
       "category": "nature/wildlife",
       "source": "grab3d",
-      "style": "realistic",
+      "style": "low-poly",
       "tags": [
         "chicken",
+        "low-poly",
         "bird",
-        "wildlife",
-        "poultry",
-        "pbr"
+        "stylized"
       ],
-      "upstream_id": "chicken"
+      "upstream_id": "low-poly-chicken"
     },
     {
-      "id": "g3-crocodile",
-      "title": "Crocodile",
+      "id": "g3-low-poly-cow",
+      "title": "Low Poly Cow",
       "category": "nature/wildlife",
       "source": "grab3d",
-      "style": "realistic",
-      "tags": [
-        "crocodile",
-        "wildlife",
-        "reptile",
-        "predator",
-        "pbr"
-      ],
-      "upstream_id": "crocodile"
-    },
-    {
-      "id": "g3-elephant",
-      "title": "African Elephant",
-      "category": "nature/wildlife",
-      "source": "grab3d",
-      "style": "realistic",
-      "tags": [
-        "elephant",
-        "wildlife",
-        "mammal",
-        "tusks",
-        "pbr"
-      ],
-      "upstream_id": "elephant"
-    },
-    {
-      "id": "g3-bird",
-      "title": "European Robin",
-      "category": "nature/wildlife",
-      "source": "grab3d",
-      "style": "realistic",
-      "tags": [
-        "robin",
-        "bird",
-        "wildlife",
-        "pbr"
-      ],
-      "upstream_id": "bird"
-    },
-    {
-      "id": "g3-giraffe",
-      "title": "Giraffe",
-      "category": "nature/wildlife",
-      "source": "grab3d",
-      "style": "realistic",
-      "tags": [
-        "giraffe",
-        "wildlife",
-        "mammal",
-        "africa",
-        "pbr"
-      ],
-      "upstream_id": "giraffe"
-    },
-    {
-      "id": "g3-great-white-shark",
-      "title": "Great White Shark",
-      "category": "nature/aquatic",
-      "source": "grab3d",
-      "style": "realistic",
-      "tags": [
-        "shark",
-        "aquatic",
-        "marine",
-        "predator",
-        "pbr"
-      ],
-      "upstream_id": "great-white-shark"
-    },
-    {
-      "id": "g3-hippo",
-      "title": "Hippopotamus",
-      "category": "nature/wildlife",
-      "source": "grab3d",
-      "style": "realistic",
-      "tags": [
-        "hippo",
-        "wildlife",
-        "mammal",
-        "pbr"
-      ],
-      "upstream_id": "hippo"
-    },
-    {
-      "id": "g3-cow",
-      "title": "Holstein Cow",
-      "category": "nature/wildlife",
-      "source": "grab3d",
-      "style": "realistic",
+      "style": "low-poly",
       "tags": [
         "cow",
+        "low-poly",
         "wildlife",
-        "mammal",
-        "cattle",
-        "pbr"
+        "stylized"
       ],
-      "upstream_id": "cow"
+      "upstream_id": "low-poly-cow"
     },
     {
-      "id": "g3-humpback-whale",
-      "title": "Humpback Whale",
+      "id": "g3-low-poly-deer",
+      "title": "Low Poly Deer",
+      "category": "nature/wildlife",
+      "source": "grab3d",
+      "style": "low-poly",
+      "tags": [
+        "deer",
+        "low-poly",
+        "wildlife",
+        "stylized"
+      ],
+      "upstream_id": "low-poly-deer"
+    },
+    {
+      "id": "g3-low-poly-dolphin",
+      "title": "Low Poly Dolphin",
       "category": "nature/aquatic",
       "source": "grab3d",
-      "style": "realistic",
+      "style": "low-poly",
+      "tags": [
+        "dolphin",
+        "low-poly",
+        "aquatic",
+        "stylized"
+      ],
+      "upstream_id": "low-poly-dolphin"
+    },
+    {
+      "id": "g3-low-poly-elephant",
+      "title": "Low Poly Elephant",
+      "category": "nature/wildlife",
+      "source": "grab3d",
+      "style": "low-poly",
+      "tags": [
+        "elephant",
+        "low-poly",
+        "wildlife",
+        "stylized"
+      ],
+      "upstream_id": "low-poly-elephant"
+    },
+    {
+      "id": "g3-low-poly-fox",
+      "title": "Low Poly Fox",
+      "category": "nature/wildlife",
+      "source": "grab3d",
+      "style": "low-poly",
+      "tags": [
+        "fox",
+        "low-poly",
+        "wildlife",
+        "stylized"
+      ],
+      "upstream_id": "low-poly-fox"
+    },
+    {
+      "id": "g3-low-poly-horse",
+      "title": "Low Poly Horse",
+      "category": "nature/wildlife",
+      "source": "grab3d",
+      "style": "low-poly",
+      "tags": [
+        "horse",
+        "low-poly",
+        "wildlife",
+        "stylized"
+      ],
+      "upstream_id": "low-poly-horse"
+    },
+    {
+      "id": "g3-low-poly-humpback-whale",
+      "title": "Low Poly Humpback Whale",
+      "category": "nature/aquatic",
+      "source": "grab3d",
+      "style": "low-poly",
       "tags": [
         "whale",
-        "aquatic",
-        "marine",
-        "wildlife",
-        "mammal",
-        "pbr"
-      ],
-      "upstream_id": "humpback-whale"
-    },
-    {
-      "id": "g3-lion",
-      "title": "Lion",
-      "category": "nature/wildlife",
-      "source": "grab3d",
-      "style": "realistic",
-      "tags": [
-        "lion",
-        "wildlife",
-        "mammal",
-        "predator",
-        "africa",
-        "pbr"
-      ],
-      "upstream_id": "lion"
-    },
-    {
-      "id": "g3-low-poly-crab",
-      "title": "Low Poly Crab",
-      "category": "nature/aquatic",
-      "source": "grab3d",
-      "style": "low-poly",
-      "tags": [
-        "crab",
         "low-poly",
         "aquatic",
         "stylized"
       ],
-      "upstream_id": "low-poly-crab"
-    },
-    {
-      "id": "g3-low-poly-bull",
-      "title": "Low Poly Bull",
-      "category": "nature/wildlife",
-      "source": "grab3d",
-      "style": "low-poly",
-      "tags": [
-        "bull",
-        "low-poly",
-        "wildlife",
-        "stylized"
-      ],
-      "upstream_id": "low-poly-bull"
-    },
-    {
-      "id": "g3-low-poly-hippo",
-      "title": "Low Poly Hippo",
-      "category": "nature/wildlife",
-      "source": "grab3d",
-      "style": "low-poly",
-      "tags": [
-        "hippo",
-        "low-poly",
-        "wildlife",
-        "stylized"
-      ],
-      "upstream_id": "low-poly-hippo"
-    },
-    {
-      "id": "g3-low-poly-parrot",
-      "title": "Low Poly Parrot",
-      "category": "nature/wildlife",
-      "source": "grab3d",
-      "style": "low-poly",
-      "tags": [
-        "parrot",
-        "low-poly",
-        "bird",
-        "stylized"
-      ],
-      "upstream_id": "low-poly-parrot"
+      "upstream_id": "low-poly-humpback-whale"
     }
   ]
 }

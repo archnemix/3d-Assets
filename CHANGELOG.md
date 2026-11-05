@@ -2,6 +2,14 @@
 
 ## Unreleased
 
+## expansion-17: hyper-realistic animals
+
+- **Added 30 further CC0 assets**, bringing the library to **220 approved assets in 60 categories**.
+- **26 hyper-realistic animals** from Grab3D's realistic (non-cartoon) catalogue: king cheetah, calico kitten, llama, moose, Bernese mountain dog puppy, raccoon, red rock crab, red squirrel, bicolor and plain Sphynx cats, bald eagle, bay horse, black bull, blue morpho butterfly, bottlenose dolphin, brown bear, hen, crocodile, African elephant, European robin, giraffe, great white shark, hippopotamus, Holstein cow, humpback whale and lion. Each is a high-detail model (~800k triangles, three PBR texture maps) with glTF validation clean. None carry brand marks — animals are generic subjects.
+- **4 intentional low-poly animals** (crab, bull, hippo, parrot) at ~3k triangles, flat-shaded, as lightweight companions.
+- **Reviewed from technical evidence**: this session's model has no vision capability, so the visual review was done from glTF validation (0 errors), geometry/texture metadata (triangle and texture counts) and the upstream Grab3D descriptions (all explicitly "Realistic", no cartoon entries). The expansion-12 contact-sheet method is unchanged for future vision-capable sessions.
+- Extended the animation rule table with `rotor_spin` (Grab3D `<slug>_rotor` assemblies), `propeller_spin`, and steering/reel matches for the new bike, moped, harvester and ship parts; moved the table into a testable `rendering/animation_rules.py`.
+
 ## expansion-12: vehicles, armour and creatures
 
 - **Added 24 further CC0 assets**, bringing the library to **190 approved assets in 60 categories**.
