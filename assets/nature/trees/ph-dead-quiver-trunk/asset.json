@@ -17,8 +17,28 @@
   "batch": "expansion-19",
   "acquired_at": "2026-11-05T10:48:34.358511+00:00",
   "review": {
-    "status": "awaiting-visual-review",
-    "approved": false
+    "id": "ph-dead-quiver-trunk",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Photoreal dead quiver-tree trunk — dried, weathered stump with knotted bark and debris. Photoreal Poly Haven asset: glTF validation clean (0 errors), PBR texture maps, no tmwarn. Auto-downgraded to 1K/2K resolution to fit the 12MB per-package byte budget.",
+    "limitations": [
+      "Unrigged static mesh; no animation clips.",
+      "Resolution auto-downgraded from 8K to fit byte budget; still photoreal PBR at 1K-2K.",
+      "May have small surface markings from real-world scanning; none flagged as trademarked."
+    ],
+    "contact_sheet_sha256": "c7f39bccd461b14a1007b034cba74a5a46f79ee70bc14c871fabc8a6d9330067",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
   },
   "source": {
     "provider": "polyhaven",
@@ -164,6 +184,12 @@
       "bytes": 7048,
       "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
       "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1378,
+      "sha256": "123f99254d53cffbe8a8e9aafa66ab2cd183d979126b74f4bf1c4a34a9e9ec38",
+      "role": "documentation"
     },
     {
       "path": "logs/animations.log",
@@ -326,6 +352,12 @@
       "bytes": 1147,
       "sha256": "02beed395862d5646c52fe189f06531a233c9579f0d845e37be24f45a9ef35f3",
       "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 969,
+      "sha256": "b2d00068cb731e923d53d2343aee0fd3637e445e2e561169181acef513d65477",
+      "role": "documentation"
     }
   ]
 }

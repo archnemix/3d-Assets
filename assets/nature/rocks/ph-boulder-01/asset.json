@@ -17,8 +17,28 @@
   "batch": "expansion-19",
   "acquired_at": "2026-11-05T10:48:14.386496+00:00",
   "review": {
-    "status": "awaiting-visual-review",
-    "approved": false
+    "id": "ph-boulder-01",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Photoreal boulder — weathered jagged stone with lichen and rusty mineral streaks. Photoreal Poly Haven asset: glTF validation clean (0 errors), PBR texture maps, no tmwarn. Auto-downgraded to 1K/2K resolution to fit the 12MB per-package byte budget.",
+    "limitations": [
+      "Unrigged static mesh; no animation clips.",
+      "Resolution auto-downgraded from 8K to fit byte budget; still photoreal PBR at 1K-2K.",
+      "May have small surface markings from real-world scanning; none flagged as trademarked."
+    ],
+    "contact_sheet_sha256": "b9c2ad26b877486800afa24d66acd4f2991d34d3473920616499823073d20382",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
   },
   "source": {
     "provider": "polyhaven",
@@ -164,6 +184,12 @@
       "bytes": 7048,
       "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
       "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1326,
+      "sha256": "a4d99e4a191e43885963e41141abc21139555bd91d22ee7917b5f2be807581eb",
+      "role": "documentation"
     },
     {
       "path": "logs/animations.log",
@@ -326,6 +352,12 @@
       "bytes": 1048,
       "sha256": "56d4bc175da55b0f7dd5a3b99124ea1ee86946847eddc986832c448dba126b65",
       "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 956,
+      "sha256": "2964a7fdf99a0c2a218ec8646cd445767f429b6f8696c23ad490c8a1b81adae1",
+      "role": "documentation"
     }
   ]
 }

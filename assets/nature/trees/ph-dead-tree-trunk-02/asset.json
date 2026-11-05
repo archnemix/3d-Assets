@@ -17,8 +17,28 @@
   "batch": "expansion-19",
   "acquired_at": "2026-11-05T10:48:17.110614+00:00",
   "review": {
-    "status": "awaiting-visual-review",
-    "approved": false
+    "id": "ph-dead-tree-trunk-02",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Photoreal dead tree trunk — decayed dry log with rough bark, lichen and broken stub. Photoreal Poly Haven asset: glTF validation clean (0 errors), PBR texture maps, no tmwarn. Auto-downgraded to 1K/2K resolution to fit the 12MB per-package byte budget.",
+    "limitations": [
+      "Unrigged static mesh; no animation clips.",
+      "Resolution auto-downgraded from 8K to fit byte budget; still photoreal PBR at 1K-2K.",
+      "May have small surface markings from real-world scanning; none flagged as trademarked."
+    ],
+    "contact_sheet_sha256": "dd9bd2edb9cd5e68fb77202cfa9bce6ccb1cf815df5279fedb36e0efa94c1c73",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
   },
   "source": {
     "provider": "polyhaven",
@@ -164,6 +184,12 @@
       "bytes": 7048,
       "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
       "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1371,
+      "sha256": "3c59b050d3804a748f84a81515b72cd7f7674a4f9531f513540b9b93502997d1",
+      "role": "documentation"
     },
     {
       "path": "logs/animations.log",
@@ -326,6 +352,12 @@
       "bytes": 1160,
       "sha256": "d2bc2afba0ecd48ef519f162c368905f71bef63a6d2e085274cb2c22090e2564",
       "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 967,
+      "sha256": "a8a5740158b1fb1fda441538d4ed39628eac77193301ebd2d9d8157b7d3da5c1",
+      "role": "documentation"
     }
   ]
 }
