@@ -2,7 +2,7 @@
 
 Checked on 2026-11-04. Scope: approved assets under assets/ only.
 
-**220 of 220 approved assets pass every check.**
+**230 of 230 approved assets pass every check.**
 
 Every approved asset is dedicated to the public domain under CC0 1.0. For each one
 that means: no cost, no attribution, commercial use allowed, use and redistribution
@@ -146,6 +146,8 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Great White Shark](../assets/nature/aquatic/g3-great-white-shark/README.md) | `nature/aquatic` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Humpback Whale](../assets/nature/aquatic/g3-humpback-whale/README.md) | `nature/aquatic` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Low Poly Crab](../assets/nature/aquatic/g3-low-poly-crab/README.md) | `nature/aquatic` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Low Poly Dolphin](../assets/nature/aquatic/g3-low-poly-dolphin/README.md) | `nature/aquatic` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Low Poly Humpback Whale](../assets/nature/aquatic/g3-low-poly-humpback-whale/README.md) | `nature/aquatic` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Clownfish](../assets/nature/aquatic/grab3d-clownfish/README.md) | `nature/aquatic` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Blue Morpho Butterfly](../assets/nature/creatures/g3-butterfly/README.md) | `nature/creatures` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Brachiosaurus](../assets/nature/creatures/grab3d-brachiosaurus/README.md) | `nature/creatures` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -167,9 +169,17 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Calico Kitten](../assets/nature/wildlife/g3-kitten/README.md) | `nature/wildlife` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Lion](../assets/nature/wildlife/g3-lion/README.md) | `nature/wildlife` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Llama](../assets/nature/wildlife/g3-llama/README.md) | `nature/wildlife` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Low Poly Bear](../assets/nature/wildlife/g3-low-poly-bear/README.md) | `nature/wildlife` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Low Poly Bull](../assets/nature/wildlife/g3-low-poly-bull/README.md) | `nature/wildlife` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Low Poly Chicken](../assets/nature/wildlife/g3-low-poly-chicken/README.md) | `nature/wildlife` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Low Poly Cow](../assets/nature/wildlife/g3-low-poly-cow/README.md) | `nature/wildlife` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Low Poly Deer](../assets/nature/wildlife/g3-low-poly-deer/README.md) | `nature/wildlife` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Low Poly Elephant](../assets/nature/wildlife/g3-low-poly-elephant/README.md) | `nature/wildlife` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Low Poly Fox](../assets/nature/wildlife/g3-low-poly-fox/README.md) | `nature/wildlife` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Low Poly Hippo](../assets/nature/wildlife/g3-low-poly-hippo/README.md) | `nature/wildlife` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Low Poly Horse](../assets/nature/wildlife/g3-low-poly-horse/README.md) | `nature/wildlife` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Low Poly Parrot](../assets/nature/wildlife/g3-low-poly-parrot/README.md) | `nature/wildlife` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Low Poly Rhino](../assets/nature/wildlife/g3-low-poly-rhino/README.md) | `nature/wildlife` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Moose](../assets/nature/wildlife/g3-moose/README.md) | `nature/wildlife` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Bernese Mountain Dog Puppy](../assets/nature/wildlife/g3-puppy/README.md) | `nature/wildlife` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Raccoon](../assets/nature/wildlife/g3-raccoon/README.md) | `nature/wildlife` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -253,7 +263,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 
 ### Grab3D — `grab3d`
 
-114 approved assets. Status: **verified**.
+124 approved assets. Status: **verified**.
 
 - Terms: <https://grab3d.com/license/>
 - Pinned evidence: <https://grab3d.com/license/>
@@ -347,10 +357,20 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Llama](../assets/nature/wildlife/g3-llama/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Ash longbow](../assets/weapons/ranged/g3-longbow/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Longsword with brass crossguard](../assets/weapons/melee/g3-longsword/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Low Poly Bear](../assets/nature/wildlife/g3-low-poly-bear/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Low Poly Bull](../assets/nature/wildlife/g3-low-poly-bull/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Low Poly Chicken](../assets/nature/wildlife/g3-low-poly-chicken/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Low Poly Cow](../assets/nature/wildlife/g3-low-poly-cow/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Low Poly Crab](../assets/nature/aquatic/g3-low-poly-crab/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Low Poly Deer](../assets/nature/wildlife/g3-low-poly-deer/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Low Poly Dolphin](../assets/nature/aquatic/g3-low-poly-dolphin/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Low Poly Elephant](../assets/nature/wildlife/g3-low-poly-elephant/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Low Poly Fox](../assets/nature/wildlife/g3-low-poly-fox/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Low Poly Hippo](../assets/nature/wildlife/g3-low-poly-hippo/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Low Poly Horse](../assets/nature/wildlife/g3-low-poly-horse/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Low Poly Humpback Whale](../assets/nature/aquatic/g3-low-poly-humpback-whale/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Low Poly Parrot](../assets/nature/wildlife/g3-low-poly-parrot/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Low Poly Rhino](../assets/nature/wildlife/g3-low-poly-rhino/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Flanged mace](../assets/weapons/melee/g3-mace/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Moose](../assets/nature/wildlife/g3-moose/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Retro moped](../assets/vehicles/bikes/g3-moped/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
@@ -423,19 +443,19 @@ Every check below is machine-verified by `python -m asset_library license-audit`
 
 | Check | Passing |
 | --- | --- |
-| `cc0_spdx` | 220/220 |
-| `cc0_text_present` | 220/220 |
-| `commercial_use_allowed` | 220/220 |
-| `evidence_recorded` | 220/220 |
-| `free_of_charge` | 220/220 |
-| `license_file_checksummed` | 220/220 |
-| `no_attribution_required` | 220/220 |
-| `no_trademark_warning` | 220/220 |
-| `redistribution_allowed` | 220/220 |
-| `source_terms_verified` | 220/220 |
-| `standalone_resale_permitted` | 220/220 |
-| `textures_included` | 220/220 |
-| `visually_approved` | 220/220 |
+| `cc0_spdx` | 230/230 |
+| `cc0_text_present` | 230/230 |
+| `commercial_use_allowed` | 230/230 |
+| `evidence_recorded` | 230/230 |
+| `free_of_charge` | 230/230 |
+| `license_file_checksummed` | 230/230 |
+| `no_attribution_required` | 230/230 |
+| `no_trademark_warning` | 230/230 |
+| `redistribution_allowed` | 230/230 |
+| `source_terms_verified` | 230/230 |
+| `standalone_resale_permitted` | 230/230 |
+| `textures_included` | 230/230 |
+| `visually_approved` | 230/230 |
 
 ## Evidence per asset
 
@@ -499,10 +519,20 @@ Each row links to the license file stored beside the model and to the exact
 | g3-llama | [LICENSE.txt](../assets/nature/wildlife/g3-llama/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/llama/) | [evidence](https://grab3d.com/dl/llama/LICENSE.txt) |
 | g3-longbow | [LICENSE.txt](../assets/weapons/ranged/g3-longbow/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/weapons/longbow/) | [evidence](https://grab3d.com/dl/longbow/LICENSE.txt) |
 | g3-longsword | [LICENSE.txt](../assets/weapons/melee/g3-longsword/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/weapons/longsword/) | [evidence](https://grab3d.com/dl/longsword/LICENSE.txt) |
+| g3-low-poly-bear | [LICENSE.txt](../assets/nature/wildlife/g3-low-poly-bear/LICENSE.txt) | `3e23d190243a` | [source](https://grab3d.com/models/animals/low-poly-bear/) | [evidence](https://grab3d.com/dl/low-poly-bear/LICENSE.txt) |
 | g3-low-poly-bull | [LICENSE.txt](../assets/nature/wildlife/g3-low-poly-bull/LICENSE.txt) | `819fe97c061e` | [source](https://grab3d.com/models/animals/low-poly-bull/) | [evidence](https://grab3d.com/dl/low-poly-bull/LICENSE.txt) |
+| g3-low-poly-chicken | [LICENSE.txt](../assets/nature/wildlife/g3-low-poly-chicken/LICENSE.txt) | `25dfff6a46a1` | [source](https://grab3d.com/models/animals/low-poly-chicken/) | [evidence](https://grab3d.com/dl/low-poly-chicken/LICENSE.txt) |
+| g3-low-poly-cow | [LICENSE.txt](../assets/nature/wildlife/g3-low-poly-cow/LICENSE.txt) | `791a5c91abc5` | [source](https://grab3d.com/models/animals/low-poly-cow/) | [evidence](https://grab3d.com/dl/low-poly-cow/LICENSE.txt) |
 | g3-low-poly-crab | [LICENSE.txt](../assets/nature/aquatic/g3-low-poly-crab/LICENSE.txt) | `b022246cea84` | [source](https://grab3d.com/models/animals/low-poly-crab/) | [evidence](https://grab3d.com/dl/low-poly-crab/LICENSE.txt) |
+| g3-low-poly-deer | [LICENSE.txt](../assets/nature/wildlife/g3-low-poly-deer/LICENSE.txt) | `d103d1330715` | [source](https://grab3d.com/models/animals/low-poly-deer/) | [evidence](https://grab3d.com/dl/low-poly-deer/LICENSE.txt) |
+| g3-low-poly-dolphin | [LICENSE.txt](../assets/nature/aquatic/g3-low-poly-dolphin/LICENSE.txt) | `0fb2d7c6f861` | [source](https://grab3d.com/models/animals/low-poly-dolphin/) | [evidence](https://grab3d.com/dl/low-poly-dolphin/LICENSE.txt) |
+| g3-low-poly-elephant | [LICENSE.txt](../assets/nature/wildlife/g3-low-poly-elephant/LICENSE.txt) | `d7ed0a57744c` | [source](https://grab3d.com/models/animals/low-poly-elephant/) | [evidence](https://grab3d.com/dl/low-poly-elephant/LICENSE.txt) |
+| g3-low-poly-fox | [LICENSE.txt](../assets/nature/wildlife/g3-low-poly-fox/LICENSE.txt) | `50243428d7de` | [source](https://grab3d.com/models/animals/low-poly-fox/) | [evidence](https://grab3d.com/dl/low-poly-fox/LICENSE.txt) |
 | g3-low-poly-hippo | [LICENSE.txt](../assets/nature/wildlife/g3-low-poly-hippo/LICENSE.txt) | `4e4f0116d26b` | [source](https://grab3d.com/models/animals/low-poly-hippo/) | [evidence](https://grab3d.com/dl/low-poly-hippo/LICENSE.txt) |
+| g3-low-poly-horse | [LICENSE.txt](../assets/nature/wildlife/g3-low-poly-horse/LICENSE.txt) | `bd661765d64c` | [source](https://grab3d.com/models/animals/low-poly-horse/) | [evidence](https://grab3d.com/dl/low-poly-horse/LICENSE.txt) |
+| g3-low-poly-humpback-whale | [LICENSE.txt](../assets/nature/aquatic/g3-low-poly-humpback-whale/LICENSE.txt) | `8d07fd4df967` | [source](https://grab3d.com/models/animals/low-poly-humpback-whale/) | [evidence](https://grab3d.com/dl/low-poly-humpback-whale/LICENSE.txt) |
 | g3-low-poly-parrot | [LICENSE.txt](../assets/nature/wildlife/g3-low-poly-parrot/LICENSE.txt) | `c3f0afb03c33` | [source](https://grab3d.com/models/animals/low-poly-parrot/) | [evidence](https://grab3d.com/dl/low-poly-parrot/LICENSE.txt) |
+| g3-low-poly-rhino | [LICENSE.txt](../assets/nature/wildlife/g3-low-poly-rhino/LICENSE.txt) | `0121bda2e8a8` | [source](https://grab3d.com/models/animals/low-poly-rhino/) | [evidence](https://grab3d.com/dl/low-poly-rhino/LICENSE.txt) |
 | g3-mace | [LICENSE.txt](../assets/weapons/melee/g3-mace/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/weapons/mace/) | [evidence](https://grab3d.com/dl/mace/LICENSE.txt) |
 | g3-moose | [LICENSE.txt](../assets/nature/wildlife/g3-moose/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/moose/) | [evidence](https://grab3d.com/dl/moose/LICENSE.txt) |
 | g3-moped | [LICENSE.txt](../assets/vehicles/bikes/g3-moped/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/moped/) | [evidence](https://grab3d.com/dl/moped/LICENSE.txt) |

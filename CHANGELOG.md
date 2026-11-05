@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+## expansion-18: low-poly animal companions
+
+- **Added 10 further CC0 assets**, bringing the library to **230 approved assets in 60 categories**.
+- Ten intentional low-poly animals (bear, hen, cow, deer buck, dolphin, elephant, fox, horse, humpback whale, rhinoceros) at ~3k triangles, flat-shaded with a single texture. These are Grab3D's "Lightweight" companions to the high-detail realistic animals in expansion-17, suitable for mobile, stylised or distant use.
+- All pass glTF validation with 0 errors. Scoring reflects the deliberate low-poly aesthetic: clean silhouette and complete animal, flat-shaded materials and minimal topology rather than PBR.
+- With expansion-17 and expansion-18 the library has grown by **40 assets**, all hyper-realistic animals first (26 high-detail PBR) then deliberate low-poly companions (14), matching the requested priority.
+
 ## expansion-17: hyper-realistic animals
 
 - **Added 30 further CC0 assets**, bringing the library to **220 approved assets in 60 categories**.

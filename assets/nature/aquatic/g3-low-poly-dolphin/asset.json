@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "id": "g3-low-poly-dolphin",
+  "title": "Low Poly Dolphin",
+  "category": "nature/aquatic",
+  "style": "low-poly",
+  "tags": [
+    "dolphin",
+    "low-poly",
+    "aquatic",
+    "stylized"
+  ],
+  "batch": "expansion-18",
+  "acquired_at": "2026-11-05T09:16:32.322901+00:00",
+  "review": {
+    "id": "g3-low-poly-dolphin",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Faceted low poly grey bottlenose dolphin swimming with pectoral fins spread and a pale belly. Intentional low-poly style: glTF validation clean (0 errors), faceted flat-shaded mesh at ~3k triangles with a single texture. Grab3D ships these as 'Lightweight' companions to the high-detail animals. Scoring reflects the deliberate low-poly aesthetic: clean silhouette and complete animal, but flat-shaded materials and minimal topology rather than PBR.",
+    "limitations": [
+      "AI-assisted origin is disclosed upstream (origin.ai_content); some storefronts require an AI-content disclosure when you resell.",
+      "Deliberately low-detail (~3k triangles, flat-shaded, single texture) for mobile/stylised use; not PBR.",
+      "Unrigged static mesh with baked pose."
+    ],
+    "contact_sheet_sha256": "c456fbcc7c9c6cc80d1dce4f08f91072dc7c97972b112c1b4f0989f912582256",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/low-poly-dolphin.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/low-poly-dolphin/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/animals/low-poly-dolphin/",
+    "source_id": "low-poly-dolphin",
+    "revision": "eb54d08e3d316dc34be43eb82c810cf122ab0478b6a891e193f6d2e705586f90",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/low-poly-dolphin/low-poly-dolphin.glb",
+        "bytes": 308048,
+        "sha256": "eb54d08e3d316dc34be43eb82c810cf122ab0478b6a891e193f6d2e705586f90"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "ai-assisted",
+      "detail": "Derived in Blender from the AI-assisted model \"dolphin\", whose base mesh and textures were generated with an AI image-to-3D tool (Meshy). This version was reduced to low poly and given a palette texture in Blender.",
+      "ai_content": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/low-poly-dolphin/LICENSE.txt"
+  },
+  "model": "model/low-poly-dolphin.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 1,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/low-poly-dolphin_palette.png",
+      "dimensions": [
+        24,
+        24
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "low-poly-dolphin_palette"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 9000,
+    "triangles": 3000,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "low-poly-dolphin_palette",
+        "dimensions": [
+          24,
+          24
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 0,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 752,
+      "sha256": "0fb2d7c6f8610eb77afb09ffe768ecf909a5de7517df9d24b7ecda8e9b089ac2",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1400,
+      "sha256": "e52e81b6dc5821f13288223c14359d4fd0ad29cd0eddbac7633a5decfc50e3a2",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 291,
+      "sha256": "205cdc212cdc6e3dc8e2c74b0720d68fa426945f378dfc9a5ead254eec5fd0f2",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 63249,
+      "sha256": "d7e5b00e465aae399891bfbdcb861b75caa311cffc1c2c9c441cad9e362d38bb",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "3629b738db9a859e28c3be3ca3f30737a293067d742f1bb7f0d75f7f8b36e9e2",
+      "role": "logs"
+    },
+    {
+      "path": "model/low-poly-dolphin.glb",
+      "bytes": 308048,
+      "sha256": "eb54d08e3d316dc34be43eb82c810cf122ab0478b6a891e193f6d2e705586f90",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 14604,
+      "sha256": "2b5fc7e7ff7969fef3c9a2283188b4dc3cf00bc22b7ad28f0a2ed60203834f05",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 14612,
+      "sha256": "4ce033c33b1900fec52002ff06bd4abbcebda613e2b38dc003341f669bbf7dbb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 130488,
+      "sha256": "c456fbcc7c9c6cc80d1dce4f08f91072dc7c97972b112c1b4f0989f912582256",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 481,
+      "sha256": "54b52e544cab53dab449806eadf283a132f6641c8af7418df81342b641cd121a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 20183,
+      "sha256": "2999bd5a75a1cc71290931cc7d1d7a0e82694536e5ead061b616fffac84e21d3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 15661,
+      "sha256": "e1a59a59eb5885782db8e0090612baea5456df11c59073e7b3ae3b41fc836c5c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 14507,
+      "sha256": "e5f03668c04833ea13c19bd0143e2635edae99af5180e063b5fd9046812f6bee",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 16045,
+      "sha256": "5583f27fafe8421043ae7beca0594a7da5028924cb79cfada9e07953872f29b1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 20332,
+      "sha256": "9eadc8fd99c709aab46357c2bf3095f84a9898c191918ed5bb8be479bcc7b1bc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 16950,
+      "sha256": "fe202c3680470163c1bed55fa7dc8dbd37d4d31012dcc34fb89acd8185350c3e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 15394,
+      "sha256": "95d805ad18f60d5c83024a7387bbb1ec767b1b6d5fca772b075b4c814c607eab",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 16852,
+      "sha256": "314e793192626985ef5c10dd799faf51e94d76d60d715d72b9fbb327f7a3ef54",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 13896,
+      "sha256": "090d4ec7915ac66db7d9568897a9be993b76f130a31af47a89d78af5f8764aca",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 26229,
+      "sha256": "1a40adc52f99635599a931f5f5ccc81acc3ba77f0afc2ab9db4ee86382e30794",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 162,
+      "sha256": "5bf7dd531d43faeb67694c9f5b93b2bd9ba225bcf36b2d6de76f888e00fa169e",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1357,
+      "sha256": "1da4aacd0d9025d4a5b382b15973f68f0424d0666d02306d70fa3c148e3713ef",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1180,
+      "sha256": "a231d5cb0f0f3a14705ae9f9d09fa82f5450e69ef429d37eb0631dac1db62526",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 543,
+      "sha256": "16e1def07e3229edaa89e495f7246e33a74ef39964994c5781910fc8585094e0",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "97a402f5607d082d205147cfe4305d208655227f095304d46aa97f6eaa0e0c1e",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1216,
+      "sha256": "e0b6283c864da25eae94f8bcf424ec537df4e9d1595d01d074719ff6a0fc3654",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/low-poly-dolphin_palette.png",
+      "bytes": 342,
+      "sha256": "f0f4ef50eeb08e5a23631a8148be9d071a2d588624fc6e2874a591ac08c0e3ec",
+      "role": "textures"
+    }
+  ]
+}

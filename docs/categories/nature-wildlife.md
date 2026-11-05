@@ -2,7 +2,7 @@
 
 Realistic wild animals and vermin
 
-Approved assets: **26**
+Approved assets: **34**
 
 ## Brown Bear
 
@@ -132,6 +132,14 @@ Approved assets: **26**
 - 800,000 triangles; 3 texture images
 - [Asset folder](../../assets/nature/wildlife/g3-llama/) · [Metadata](../../assets/nature/wildlife/g3-llama/asset.json) · [All inspection views](../../assets/nature/wildlife/g3-llama/previews/contact-sheet.jpg)
 
+## Low Poly Bear
+
+![Low Poly Bear](../../assets/nature/wildlife/g3-low-poly-bear/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: low-poly; CC0-1.0
+- 3,000 triangles; 1 texture images
+- [Asset folder](../../assets/nature/wildlife/g3-low-poly-bear/) · [Metadata](../../assets/nature/wildlife/g3-low-poly-bear/asset.json) · [All inspection views](../../assets/nature/wildlife/g3-low-poly-bear/previews/contact-sheet.jpg)
+
 ## Low Poly Bull
 
 ![Low Poly Bull](../../assets/nature/wildlife/g3-low-poly-bull/previews/orbit-01.jpg)
@@ -139,6 +147,46 @@ Approved assets: **26**
 - Creator: Grab3D; style: low-poly; CC0-1.0
 - 2,999 triangles; 1 texture images
 - [Asset folder](../../assets/nature/wildlife/g3-low-poly-bull/) · [Metadata](../../assets/nature/wildlife/g3-low-poly-bull/asset.json) · [All inspection views](../../assets/nature/wildlife/g3-low-poly-bull/previews/contact-sheet.jpg)
+
+## Low Poly Chicken
+
+![Low Poly Chicken](../../assets/nature/wildlife/g3-low-poly-chicken/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: low-poly; CC0-1.0
+- 2,997 triangles; 1 texture images
+- [Asset folder](../../assets/nature/wildlife/g3-low-poly-chicken/) · [Metadata](../../assets/nature/wildlife/g3-low-poly-chicken/asset.json) · [All inspection views](../../assets/nature/wildlife/g3-low-poly-chicken/previews/contact-sheet.jpg)
+
+## Low Poly Cow
+
+![Low Poly Cow](../../assets/nature/wildlife/g3-low-poly-cow/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: low-poly; CC0-1.0
+- 2,999 triangles; 1 texture images
+- [Asset folder](../../assets/nature/wildlife/g3-low-poly-cow/) · [Metadata](../../assets/nature/wildlife/g3-low-poly-cow/asset.json) · [All inspection views](../../assets/nature/wildlife/g3-low-poly-cow/previews/contact-sheet.jpg)
+
+## Low Poly Deer
+
+![Low Poly Deer](../../assets/nature/wildlife/g3-low-poly-deer/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: low-poly; CC0-1.0
+- 2,996 triangles; 1 texture images
+- [Asset folder](../../assets/nature/wildlife/g3-low-poly-deer/) · [Metadata](../../assets/nature/wildlife/g3-low-poly-deer/asset.json) · [All inspection views](../../assets/nature/wildlife/g3-low-poly-deer/previews/contact-sheet.jpg)
+
+## Low Poly Elephant
+
+![Low Poly Elephant](../../assets/nature/wildlife/g3-low-poly-elephant/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: low-poly; CC0-1.0
+- 3,000 triangles; 1 texture images
+- [Asset folder](../../assets/nature/wildlife/g3-low-poly-elephant/) · [Metadata](../../assets/nature/wildlife/g3-low-poly-elephant/asset.json) · [All inspection views](../../assets/nature/wildlife/g3-low-poly-elephant/previews/contact-sheet.jpg)
+
+## Low Poly Fox
+
+![Low Poly Fox](../../assets/nature/wildlife/g3-low-poly-fox/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: low-poly; CC0-1.0
+- 2,999 triangles; 1 texture images
+- [Asset folder](../../assets/nature/wildlife/g3-low-poly-fox/) · [Metadata](../../assets/nature/wildlife/g3-low-poly-fox/asset.json) · [All inspection views](../../assets/nature/wildlife/g3-low-poly-fox/previews/contact-sheet.jpg)
 
 ## Low Poly Hippo
 
@@ -148,6 +196,14 @@ Approved assets: **26**
 - 3,000 triangles; 1 texture images
 - [Asset folder](../../assets/nature/wildlife/g3-low-poly-hippo/) · [Metadata](../../assets/nature/wildlife/g3-low-poly-hippo/asset.json) · [All inspection views](../../assets/nature/wildlife/g3-low-poly-hippo/previews/contact-sheet.jpg)
 
+## Low Poly Horse
+
+![Low Poly Horse](../../assets/nature/wildlife/g3-low-poly-horse/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: low-poly; CC0-1.0
+- 2,996 triangles; 1 texture images
+- [Asset folder](../../assets/nature/wildlife/g3-low-poly-horse/) · [Metadata](../../assets/nature/wildlife/g3-low-poly-horse/asset.json) · [All inspection views](../../assets/nature/wildlife/g3-low-poly-horse/previews/contact-sheet.jpg)
+
 ## Low Poly Parrot
 
 ![Low Poly Parrot](../../assets/nature/wildlife/g3-low-poly-parrot/previews/orbit-01.jpg)
@@ -155,6 +211,14 @@ Approved assets: **26**
 - Creator: Grab3D; style: low-poly; CC0-1.0
 - 2,980 triangles; 1 texture images
 - [Asset folder](../../assets/nature/wildlife/g3-low-poly-parrot/) · [Metadata](../../assets/nature/wildlife/g3-low-poly-parrot/asset.json) · [All inspection views](../../assets/nature/wildlife/g3-low-poly-parrot/previews/contact-sheet.jpg)
+
+## Low Poly Rhino
+
+![Low Poly Rhino](../../assets/nature/wildlife/g3-low-poly-rhino/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: low-poly; CC0-1.0
+- 2,998 triangles; 1 texture images
+- [Asset folder](../../assets/nature/wildlife/g3-low-poly-rhino/) · [Metadata](../../assets/nature/wildlife/g3-low-poly-rhino/asset.json) · [All inspection views](../../assets/nature/wildlife/g3-low-poly-rhino/previews/contact-sheet.jpg)
 
 ## Moose
 

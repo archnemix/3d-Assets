@@ -2,7 +2,7 @@
 
 Fish and marine life
 
-Approved assets: **6**
+Approved assets: **8**
 
 ## Red Rock Crab
 
@@ -43,6 +43,22 @@ Approved assets: **6**
 - Creator: Grab3D; style: low-poly; CC0-1.0
 - 5,994 triangles; 1 texture images
 - [Asset folder](../../assets/nature/aquatic/g3-low-poly-crab/) · [Metadata](../../assets/nature/aquatic/g3-low-poly-crab/asset.json) · [All inspection views](../../assets/nature/aquatic/g3-low-poly-crab/previews/contact-sheet.jpg)
+
+## Low Poly Dolphin
+
+![Low Poly Dolphin](../../assets/nature/aquatic/g3-low-poly-dolphin/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: low-poly; CC0-1.0
+- 3,000 triangles; 1 texture images
+- [Asset folder](../../assets/nature/aquatic/g3-low-poly-dolphin/) · [Metadata](../../assets/nature/aquatic/g3-low-poly-dolphin/asset.json) · [All inspection views](../../assets/nature/aquatic/g3-low-poly-dolphin/previews/contact-sheet.jpg)
+
+## Low Poly Humpback Whale
+
+![Low Poly Humpback Whale](../../assets/nature/aquatic/g3-low-poly-humpback-whale/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: low-poly; CC0-1.0
+- 2,000 triangles; 1 texture images
+- [Asset folder](../../assets/nature/aquatic/g3-low-poly-humpback-whale/) · [Metadata](../../assets/nature/aquatic/g3-low-poly-humpback-whale/asset.json) · [All inspection views](../../assets/nature/aquatic/g3-low-poly-humpback-whale/previews/contact-sheet.jpg)
 
 ## Clownfish
 
