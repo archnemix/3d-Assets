@@ -232,8 +232,8 @@
     },
     {
       "path": "logs/animations.log",
-      "bytes": 345,
-      "sha256": "c05e0967865a23a6fe3f4a09a396e4bd668f0b5e4dea2383b9bc30f9a6c65806",
+      "bytes": 19848,
+      "sha256": "2311c2bc5bb7bfb6bd17b5b7d790887a02eb2410ca0a7bb9b152ccf790c67b3a",
       "role": "logs"
     },
     {
@@ -249,10 +249,34 @@
       "role": "logs"
     },
     {
+      "path": "model/camshaft-animated.glb",
+      "bytes": 1540636,
+      "sha256": "ff67128b90d6bd117ffbd25f89225e53cc93b00c9dc87a93a4c8bbb2a5facf58",
+      "role": "model"
+    },
+    {
       "path": "model/camshaft.glb",
       "bytes": 1527300,
       "sha256": "de7386d0c178a38da1d41d3f487e4add397708e447dd4e11f1fc22becd231dab",
       "role": "model"
+    },
+    {
+      "path": "previews/anim-rotor_spin-a.jpg",
+      "bytes": 8150,
+      "sha256": "35d5d08fc74200459f066643b048c4cb7f8adc173f7e4cbcf458d0d7632811ab",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-rotor_spin-b.jpg",
+      "bytes": 8103,
+      "sha256": "4ce36c2076ccc3b9af62c5fd79034182f0cbe539bc08cfb6c6c7617f1efa0623",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-rotor_spin-c.jpg",
+      "bytes": 8150,
+      "sha256": "d209386b9e1fe01f97b43ff43e1f8c534283e7a6280143b107e34692d01b1023",
+      "role": "previews"
     },
     {
       "path": "previews/bottom.jpg",
@@ -346,8 +370,8 @@
     },
     {
       "path": "provenance/animations.json",
-      "bytes": 154,
-      "sha256": "4c6a6f89cff0cbe0267b76b36d026fc02f4401aee2ce5f103873a2459ee55d43",
+      "bytes": 567,
+      "sha256": "f61d3a734bcd4426af49f353ba4963f1c6333262b83a7a26e1ffdc0da30d4d21",
       "role": "provenance"
     },
     {
@@ -416,5 +440,19 @@
       "sha256": "2a86f5a4355721bd7bd0ba83ce7167e24ece48e2892e7e6dcff8bab32e6e13df",
       "role": "textures"
     }
-  ]
+  ],
+  "authored_animations": [
+    {
+      "name": "rotor_spin",
+      "parts": [
+        "camshaft_rotor"
+      ],
+      "axis": "X",
+      "start_degrees": 0.0,
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/camshaft-animated.glb"
 }
