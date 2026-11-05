@@ -2,7 +2,7 @@
 
 Checked on 2026-11-04. Scope: approved assets under assets/ only.
 
-**260 of 260 approved assets pass every check.**
+**263 of 263 approved assets pass every check.**
 
 Every approved asset is dedicated to the public domain under CC0 1.0. For each one
 that means: no cost, no attribution, commercial use allowed, use and redistribution
@@ -183,6 +183,9 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Brachiosaurus](../assets/nature/creatures/grab3d-brachiosaurus/README.md) | `nature/creatures` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Potted leafy plant](../assets/nature/potted-plants/ph-potted-plant/README.md) | `nature/potted-plants` | Rico Cilliers (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Potted zebra succulent](../assets/nature/potted-plants/ph-potted-succulent/README.md) | `nature/potted-plants` | James Ray Cock (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Boulder 01](../assets/nature/rocks/ph-boulder-01/README.md) | `nature/rocks` | Rico Cilliers (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Dead Quiver Trunk](../assets/nature/trees/ph-dead-quiver-trunk/README.md) | `nature/trees` | James Ray Cock, Dario Barresi, Rico Cilliers (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Dead Tree Trunk 02](../assets/nature/trees/ph-dead-tree-trunk-02/README.md) | `nature/trees` | Jenelle van Heerden, Rico Cilliers (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Brown Bear](../assets/nature/wildlife/g3-bear/README.md) | `nature/wildlife` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Bicolor Sphynx Cat](../assets/nature/wildlife/g3-bicolor-sphynx-cat/README.md) | `nature/wildlife` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [European Robin](../assets/nature/wildlife/g3-bird/README.md) | `nature/wildlife` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -318,7 +321,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 
 ### Poly Haven — `polyhaven`
 
-101 approved assets. Status: **verified**.
+104 approved assets. Status: **verified**.
 
 - Terms: <https://polyhaven.com/license>
 - Pinned evidence: <https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md>
@@ -498,19 +501,19 @@ Every check below is machine-verified by `python -m asset_library license-audit`
 
 | Check | Passing |
 | --- | --- |
-| `cc0_spdx` | 260/260 |
-| `cc0_text_present` | 260/260 |
-| `commercial_use_allowed` | 260/260 |
-| `evidence_recorded` | 260/260 |
-| `free_of_charge` | 260/260 |
-| `license_file_checksummed` | 260/260 |
-| `no_attribution_required` | 260/260 |
-| `no_trademark_warning` | 260/260 |
-| `redistribution_allowed` | 260/260 |
-| `source_terms_verified` | 260/260 |
-| `standalone_resale_permitted` | 260/260 |
-| `textures_included` | 260/260 |
-| `visually_approved` | 260/260 |
+| `cc0_spdx` | 263/263 |
+| `cc0_text_present` | 263/263 |
+| `commercial_use_allowed` | 263/263 |
+| `evidence_recorded` | 263/263 |
+| `free_of_charge` | 263/263 |
+| `license_file_checksummed` | 263/263 |
+| `no_attribution_required` | 263/263 |
+| `no_trademark_warning` | 263/263 |
+| `redistribution_allowed` | 263/263 |
+| `source_terms_verified` | 263/263 |
+| `standalone_resale_permitted` | 263/263 |
+| `textures_included` | 263/263 |
+| `visually_approved` | 263/263 |
 
 ## Evidence per asset
 
@@ -690,6 +693,7 @@ Each row links to the license file stored beside the model and to the exact
 | ph-bolt-action-rifle | [LICENSE.txt](../assets/weapons/firearms/ph-bolt-action-rifle/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/bolt_action_rifle_7_62) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-bolt-cutters | [LICENSE.txt](../assets/tools/hand-tools/ph-bolt-cutters/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/bolt_cutters_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-boombox | [LICENSE.txt](../assets/electronics/audio/ph-boombox/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/boombox) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-boulder-01 | [LICENSE.txt](../assets/nature/rocks/ph-boulder-01/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/boulder_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-brass-blowtorch | [LICENSE.txt](../assets/tools/power-tools/ph-brass-blowtorch/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/brass_blowtorch) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-brass-candleholders | [LICENSE.txt](../assets/lighting/lamps/ph-brass-candleholders/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/brass_candleholders) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-brass-chandelier | [LICENSE.txt](../assets/lighting/chandeliers/ph-brass-chandelier/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/Chandelier_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
@@ -723,6 +727,8 @@ Each row links to the license file stored beside the model and to the exact
 | ph-croissant | [LICENSE.txt](../assets/food/baked-goods/ph-croissant/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/croissant) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-crystal-chandelier | [LICENSE.txt](../assets/lighting/chandeliers/ph-crystal-chandelier/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/Chandelier_02) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-day-bed | [LICENSE.txt](../assets/furniture/beds/ph-day-bed/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/vintage_day_bed) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-dead-quiver-trunk | [LICENSE.txt](../assets/nature/trees/ph-dead-quiver-trunk/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/dead_quiver_trunk) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-dead-tree-trunk-02 | [LICENSE.txt](../assets/nature/trees/ph-dead-tree-trunk-02/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/dead_tree_trunk_02) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-desk-lamp-arm | [LICENSE.txt](../assets/lighting/lamps/ph-desk-lamp-arm/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/desk_lamp_arm_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-drill-press | [LICENSE.txt](../assets/tools/power-tools/ph-drill-press/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/drill_press_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-dutch-merchant-ship | [LICENSE.txt](../assets/vehicles/watercraft/ph-dutch-merchant-ship/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/dutch_ship_medium) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
