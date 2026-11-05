@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "id": "ph-dead-quiver-trunk",
+  "title": "Dead Quiver Trunk",
+  "category": "nature/trees",
+  "style": "realistic",
+  "tags": [
+    "quiver",
+    "tree",
+    "dead",
+    "trunk",
+    "stump",
+    "dry",
+    "karoo",
+    "8k"
+  ],
+  "batch": "expansion-19",
+  "acquired_at": "2026-11-05T10:48:34.358511+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/dead_quiver_trunk_2k.gltf",
+    "creator": "James Ray Cock, Dario Barresi, Rico Cilliers",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/dead_quiver_trunk",
+    "source_id": "dead_quiver_trunk",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/dead_quiver_trunk/dead_quiver_trunk_2k.gltf",
+        "bytes": 2833,
+        "sha256": "994cae8a9909a3d1e819c644a2eaa0e9b0958e50d236a7874009643cad8979e2"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/dead_quiver_trunk/dead_quiver_trunk.bin",
+        "bytes": 411388,
+        "sha256": "2f2a74458c071801cde2287970a396d503ffe0ebf4dedc3c5f3b39024186c00a"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/dead_quiver_trunk/dead_quiver_trunk_diff_2k.jpg",
+        "bytes": 2863084,
+        "sha256": "0c289c01e78fa2907cc63ef46ba6564f7fb04491d251f6c7640ffa87c1041320"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/dead_quiver_trunk/dead_quiver_trunk_arm_2k.jpg",
+        "bytes": 1923694,
+        "sha256": "cb28a582b2b45fb4cf3f259e4b036958a9c204e516431c99e20d2829e8c28c57"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/dead_quiver_trunk/dead_quiver_trunk_nor_gl_2k.jpg",
+        "bytes": 2099470,
+        "sha256": "ce75eb7301c3ff7aa81cbfbe930008da8d420b85e94aa350c70760ed6c407aba"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/dead_quiver_trunk_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/dead_quiver_trunk_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "dead_quiver_trunk_nor_gl"
+    },
+    {
+      "path": "model/textures/dead_quiver_trunk_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "dead_quiver_trunk_diff"
+    },
+    {
+      "path": "model/textures/dead_quiver_trunk_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "dead_quiver_trunk_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 9485,
+    "triangles": 17978,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "dead_quiver_trunk_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-19/ph-dead-quiver-trunk/model/textures/dead_quiver_trunk_diff_2k.jpg"
+      },
+      {
+        "name": "dead_quiver_trunk_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-19/ph-dead-quiver-trunk/model/textures/dead_quiver_trunk_nor_gl_2k.jpg"
+      },
+      {
+        "name": "dead_quiver_trunk_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-19/ph-dead-quiver-trunk/model/textures/dead_quiver_trunk_arm_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 290,
+      "sha256": "9dc405bff248dc1b082aeb09035d860c01c9a8d5b9f983515f01a4c322077ac9",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67681,
+      "sha256": "8c51698fe6f24e1a9e777e80a5bc418b967821b97d0fe2650c5c2b467274c4f3",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/dead_quiver_trunk.bin",
+      "bytes": 411388,
+      "sha256": "2f2a74458c071801cde2287970a396d503ffe0ebf4dedc3c5f3b39024186c00a",
+      "role": "model"
+    },
+    {
+      "path": "model/dead_quiver_trunk_2k.gltf",
+      "bytes": 2833,
+      "sha256": "994cae8a9909a3d1e819c644a2eaa0e9b0958e50d236a7874009643cad8979e2",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/dead_quiver_trunk_arm_2k.jpg",
+      "bytes": 1923694,
+      "sha256": "cb28a582b2b45fb4cf3f259e4b036958a9c204e516431c99e20d2829e8c28c57",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/dead_quiver_trunk_diff_2k.jpg",
+      "bytes": 2863084,
+      "sha256": "0c289c01e78fa2907cc63ef46ba6564f7fb04491d251f6c7640ffa87c1041320",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/dead_quiver_trunk_nor_gl_2k.jpg",
+      "bytes": 2099470,
+      "sha256": "ce75eb7301c3ff7aa81cbfbe930008da8d420b85e94aa350c70760ed6c407aba",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 43609,
+      "sha256": "45ebe10b8897c5fd5b2e336a069433235d4601275e5fa2ac9415dcf1ae1e2e09",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 12364,
+      "sha256": "216364df764b07001affb87ee33e0a34634f3103990a62e9d1db12119498255d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 154531,
+      "sha256": "c7f39bccd461b14a1007b034cba74a5a46f79ee70bc14c871fabc8a6d9330067",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1177,
+      "sha256": "d32485358e64a6161edc6f5ef7b2809fefe29a915d2536a9c6d020a7adc9a810",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 16061,
+      "sha256": "0705e213c648b83597b1d1b90fb6b82068528324b71646821800bb29faf8a96d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 16290,
+      "sha256": "d1a3868bbacada53bd6ecd020b3943f2fa18ee35ca784bdbbf64ab897f5b739a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 16500,
+      "sha256": "93054d226ae0b1e56219766e1ec4a6b6b4d06a4071744b5cbe789c2c129524ae",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 15921,
+      "sha256": "53348226fd5facded0a0e1712a7fc69455351a8d28f45f4ac11782ef0646eb96",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 15523,
+      "sha256": "b3816668842ed34b9a1914b3d62a6cbf8be882792f9a5e02370e3bede5c4230a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 15800,
+      "sha256": "df33eead3c6b4cf2f9dc4727e4a15b760d16cf66874593acdc1f82e72af10862",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 16134,
+      "sha256": "1893d40269a79a2d0bc4dc3545b9882514e6f3b12ef6b18a7a778ae70c1c252d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 15727,
+      "sha256": "713ab8b0a51ffdf18f1b2f0fed440cbc2d8861fcc375372109be334fc692a8fd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 47716,
+      "sha256": "14dd80e34905afaef24ef418ab125037aacd3462ebd75ba1266a6d4114c2a223",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 21414,
+      "sha256": "4cf743860ca6e147fe506c4e9de11e7f75547bbf4e91214e8cc80c52b6f53129",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 167,
+      "sha256": "9a5ea7c2365dc8a124dd0d15fb281665c56266ddb4a675d1b49a5a5453cdde25",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1384,
+      "sha256": "32231a7f8055feafdf22878837498fef48666c29f2df611047b72c3c391000ec",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2148,
+      "sha256": "58bc7eafbf3c63053b050336b02e1f91c449d473063b5822c7c8d04a060597b3",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1147,
+      "sha256": "02beed395862d5646c52fe189f06531a233c9579f0d845e37be24f45a9ef35f3",
+      "role": "provenance"
+    }
+  ]
+}
