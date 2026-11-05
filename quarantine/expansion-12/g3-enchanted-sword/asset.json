@@ -1,0 +1,394 @@
+{
+  "schema_version": 1,
+  "id": "g3-enchanted-sword",
+  "title": "Enchanted sword in a plinth",
+  "category": "weapons/melee",
+  "style": "stylized",
+  "tags": [
+    "sword",
+    "magic",
+    "glow",
+    "plinth",
+    "fantasy",
+    "weapon",
+    "pbr",
+    "game-ready"
+  ],
+  "batch": "expansion-12",
+  "acquired_at": "2026-11-05T00:01:39.198592+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/enchanted-sword.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/enchanted-sword/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/weapons/enchanted-sword/",
+    "source_id": "enchanted-sword",
+    "revision": "b56a1af1135432aa1f26e9c64cb1e673e6fc73da8af5cf1d25b08ca881815f49",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/enchanted-sword/enchanted-sword.glb",
+        "bytes": 1373592,
+        "sha256": "b56a1af1135432aa1f26e9c64cb1e673e6fc73da8af5cf1d25b08ca881815f49"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/enchanted-sword/LICENSE.txt"
+  },
+  "model": "model/enchanted-sword.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 5,
+    "materials": 5,
+    "images": 6,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_materials_emissive_strength"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/enchanted-sword_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "enchanted-sword_body_normal"
+    },
+    {
+      "path": "textures/enchanted-sword_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "enchanted-sword_body_basecolor"
+    },
+    {
+      "path": "textures/enchanted-sword_body_metallic-enchanted-sword_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "enchanted-sword_body_metallic-enchanted-sword_body_roughness"
+    },
+    {
+      "path": "textures/enchanted-sword_weapon_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "enchanted-sword_weapon_normal"
+    },
+    {
+      "path": "textures/enchanted-sword_weapon_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "enchanted-sword_weapon_basecolor"
+    },
+    {
+      "path": "textures/enchanted-sword_weapon_metallic-enchanted-sword_weapon_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "enchanted-sword_weapon_metallic-enchanted-sword_weapon_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 5,
+    "hidden_mesh_objects": 0,
+    "vertices": 16070,
+    "triangles": 19840,
+    "material_slots": 5,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "enchanted-sword_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "enchanted-sword_body_metallic-enchanted-sword_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "enchanted-sword_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "enchanted-sword_weapon_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "enchanted-sword_weapon_metallic-enchanted-sword_weapon_roughnes",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "enchanted-sword_weapon_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 575,
+      "sha256": "b1bbed9778bec3853a0771efd0ba47e08f523027170c4866fb7fdb54436a760e",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 79191,
+      "sha256": "7b271ec02d2a25ec18a9f58d411fb509e2af5c8e0fcbf43263a5a90af394b032",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "64d3c81786cb74349df7562a5854eb253311fc14c511c9653abecd8ba50cf79f",
+      "role": "logs"
+    },
+    {
+      "path": "model/enchanted-sword.glb",
+      "bytes": 1373592,
+      "sha256": "b56a1af1135432aa1f26e9c64cb1e673e6fc73da8af5cf1d25b08ca881815f49",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 15707,
+      "sha256": "f9e848bf8ebb4368c3c764f5de251850dbc51a52fdf0187a9fc26ba8b7706eed",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 15383,
+      "sha256": "b602f395c0e91c56a95513c31b814843347c1b00e51a4beec7411f6570103db5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 143663,
+      "sha256": "2759e3f2ea14c790c027c25950209a4cb1c783bbef5ffe200c437aa213bdcf7f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1364,
+      "sha256": "84f70a22cc73213c097aeecf04c5ccff891b53f88c819de8a58ff657bc66ea99",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 17302,
+      "sha256": "60e8fa8ae2152d8f2a4dd1a225a61c890b1b34a0f291c92496692912f9ec613a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 17014,
+      "sha256": "2c7ba2a599b7c42272ab4f30073100a7bc10acd28465f138e36899231c3b551c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 16303,
+      "sha256": "721a2a0ade4b59033739385b678e72d865496d847fbd4609197682ca3ba1d06c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 16814,
+      "sha256": "c84fa75b6175d2e01a38bc246d157c2fb2194b4cd43fdc58505e3671f33cd519",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 16953,
+      "sha256": "d94388390fc7038eaec77b56fd25fc2cf705022028ff74c8d40c82d87ccd4b85",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 17485,
+      "sha256": "807f412b895deaf6ba1b355b3f644c7baf689ed05428b319b80cd89089aedd01",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 17385,
+      "sha256": "904a9f9fdf5bc33f80b282c39ddb1d54bd7e7436e643a2eea3c3883f766dda48",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 17809,
+      "sha256": "6e6546a17ca855d907193c7bc0de41e657b060b60c865607c1c1c9f61c797be2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 28902,
+      "sha256": "0b091de86d15d7c6950b4a832a9618b0e3db41ee887b1af9088934c05551c599",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 23656,
+      "sha256": "eac014c629e7f8843c2e7367959ee45aa3fb4baa5de12c6a3139a13ae2df5867",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 161,
+      "sha256": "e24576c5603682d1104699375ec76a8cbb926c7bef1b327a592c07ab1ce40a32",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3632,
+      "sha256": "9f6b02f1e6958b6d2aa62e66c0dc5ae70c32e186f3250e6151239f9fd8bb41ed",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1967,
+      "sha256": "1068bdf6b1a815e1cc491a079e47b74a5c800780842bb1fe256fafc752b24c2d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 515,
+      "sha256": "8d02dcf3428b83adef5c347cdf1216856a32db2db2c194297600eb26656895bd",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "8ebb8cc2e46418bf010460120ca1fffa837bd611fe233716745e92ba0036ed7b",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/enchanted-sword_body_basecolor.jpg",
+      "bytes": 98803,
+      "sha256": "0edb73297a51e47f5559e8b55495c9fc1252ccf4f74124b47b7db1e55d69a69c",
+      "role": "textures"
+    },
+    {
+      "path": "textures/enchanted-sword_body_metallic-enchanted-sword_body_roughness.jpg",
+      "bytes": 122558,
+      "sha256": "0c54c92c823fbe51d141d78a851e9ef61af9281391e1dd801a4b4e32a801b9c7",
+      "role": "textures"
+    },
+    {
+      "path": "textures/enchanted-sword_body_normal.jpg",
+      "bytes": 66378,
+      "sha256": "1b2772ec92880ed1dc9d479354aec012d7411efd35348a237beb95f29cdda503",
+      "role": "textures"
+    },
+    {
+      "path": "textures/enchanted-sword_weapon_basecolor.jpg",
+      "bytes": 181270,
+      "sha256": "420656327cb8bcd4d840ee68054334fdf29cdcf86909d0ea86fd0cc341d9ab35",
+      "role": "textures"
+    },
+    {
+      "path": "textures/enchanted-sword_weapon_metallic-enchanted-sword_weapon_roughness.jpg",
+      "bytes": 196440,
+      "sha256": "2e63f01cfdefcc837cc0d3a9d4e86189775f5bbc035ad4fe4c526c3d6b1a9450",
+      "role": "textures"
+    },
+    {
+      "path": "textures/enchanted-sword_weapon_normal.jpg",
+      "bytes": 66425,
+      "sha256": "8e80eeb6a050f2453bcdf27b0a5ccdd5964ecc2c5db79d82caa5a87a86386b1b",
+      "role": "textures"
+    }
+  ]
+}
