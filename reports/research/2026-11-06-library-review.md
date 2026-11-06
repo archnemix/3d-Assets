@@ -147,3 +147,13 @@ model has approximately 1.98 million triangles in 1,442 mesh objects, 145 zero-a
 triangles, and the glTF validator reports zero errors but 144 generated-tangent-space
 warnings. It remains quarantined; the job's technical pass is not a quality approval.
 The original 30.7 MB GLB and extracted textures are retained as source evidence.
+
+## Additional outpost interior views
+
+Run `42184851260` produced a roof-hidden cutaway and two eye-level renders under
+`reports/interior/modkit-industrial-outpost/`, without modifying the source GLB. The
+cutaway shows a simple room with a stair, wall openings and a static door. The eye-level
+renders show dark gaps between ceiling panels and a visibly raised stair base. They do
+not test entry, stairs, collision or gameplay. Together with its 215 zero-area triangles,
+these assembly issues keep the scene quarantined; it is not presented as a complete,
+enterable map. The twelve separately approved kit pieces remain available independently.
