@@ -1,0 +1,362 @@
+{
+  "schema_version": 1,
+  "id": "ph-rockingchair-01",
+  "title": "Rockingchair 01",
+  "category": "furniture/chairs",
+  "style": "realistic",
+  "tags": [
+    "chair",
+    "vintage",
+    "prop",
+    "wood",
+    "furniture",
+    "rocking chair",
+    "polyhaven"
+  ],
+  "batch": "realistic-textures-01",
+  "acquired_at": "2026-11-06T10:13:32.110780+00:00",
+  "review": {
+    "id": "ph-rockingchair-01",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Wooden rocking chair with grain on seat and back, arms, spindles and curved runners; all twelve views inspected.",
+    "limitations": [
+      "Static model only; rocking motion is not included.",
+      "The shipped diffuse, normal and material maps are 2K (2048 × 2048); higher-resolution upstream maps are not included.",
+      "glTF validator reports 1 warning(s); inspect the included validator report for renderer compatibility."
+    ],
+    "contact_sheet_sha256": "4ba433537ec14c197221ce46d6d48c41c77661ccf4d7c2a6de9848b201c61192",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/Rockingchair_01_2k.gltf",
+    "creator": "Jorge Camacho",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/Rockingchair_01",
+    "source_id": "Rockingchair_01",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/Rockingchair_01/Rockingchair_01_2k.gltf",
+        "bytes": 2712,
+        "sha256": "56d775f66b94589152d303d70ca1d80850fcb48b393c56f792b641916de11d49"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/Rockingchair_01/Rockingchair_01_diff_2k.jpg",
+        "bytes": 476830,
+        "sha256": "dbfac1542de3426b62753596f699a861c9e88c22b1a896ad4ddf5b617f8d0cba"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/Rockingchair_01/Rockingchair_01_arm_2k.jpg",
+        "bytes": 421071,
+        "sha256": "5759c485c14b9c2da383e963c2e81285fbc0a293433065e9b106f369580b5d5a"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/Rockingchair_01/Rockingchair_01_nor_gl_2k.jpg",
+        "bytes": 517877,
+        "sha256": "15941c542d5f70d3ba12e2f263f39793bca6ca77cfcd3ca1455873ab46096d3d"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/Rockingchair_01/Rockingchair_01.bin",
+        "bytes": 391740,
+        "sha256": "6c7c3c32a033a3697d9adf3e8c9d966265cf11b519717d92c1eb5a9cffe736e2"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/Rockingchair_01_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/Rockingchair_01_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "Rockingchair_01_nor_gl"
+    },
+    {
+      "path": "model/textures/Rockingchair_01_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "Rockingchair_01_diff"
+    },
+    {
+      "path": "model/textures/Rockingchair_01_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "Rockingchair_01_metallic-Rockingchair_01_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 10017,
+    "triangles": 11866,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "Rockingchair_01_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-rockingchair-01/model/textures/Rockingchair_01_diff_2k.jpg"
+      },
+      {
+        "name": "Rockingchair_01_metallic-Rockingchair_01_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-rockingchair-01/model/textures/Rockingchair_01_arm_2k.jpg"
+      },
+      {
+        "name": "Rockingchair_01_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-rockingchair-01/model/textures/Rockingchair_01_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1404,
+      "sha256": "b49f571366a8a27cf20947abf5cd5783cd73fb15645b4dd857cd168dece91336",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 283,
+      "sha256": "712665c5cda26e1fcb94eee9b5f9605e0457ab49bce6bb032933763d59582e32",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68102,
+      "sha256": "b470046dce8e0ac09405eb258d651fe9f56ba55220c2ec0fc5ada3760936afee",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/Rockingchair_01.bin",
+      "bytes": 391740,
+      "sha256": "6c7c3c32a033a3697d9adf3e8c9d966265cf11b519717d92c1eb5a9cffe736e2",
+      "role": "model"
+    },
+    {
+      "path": "model/Rockingchair_01_2k.gltf",
+      "bytes": 2712,
+      "sha256": "56d775f66b94589152d303d70ca1d80850fcb48b393c56f792b641916de11d49",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/Rockingchair_01_arm_2k.jpg",
+      "bytes": 421071,
+      "sha256": "5759c485c14b9c2da383e963c2e81285fbc0a293433065e9b106f369580b5d5a",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/Rockingchair_01_diff_2k.jpg",
+      "bytes": 476830,
+      "sha256": "dbfac1542de3426b62753596f699a861c9e88c22b1a896ad4ddf5b617f8d0cba",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/Rockingchair_01_nor_gl_2k.jpg",
+      "bytes": 517877,
+      "sha256": "15941c542d5f70d3ba12e2f263f39793bca6ca77cfcd3ca1455873ab46096d3d",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 29192,
+      "sha256": "a2595dac0824470ddbd06b1644e2120451e1e74b284296e707401785729d45f3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 24792,
+      "sha256": "c757290a5519c3575a907bd01468c8f604d85d3a2f19084a712b7df8c157dc63",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 265372,
+      "sha256": "4ba433537ec14c197221ce46d6d48c41c77661ccf4d7c2a6de9848b201c61192",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1216,
+      "sha256": "82b5cba484c168fa5986b52aa13c0bdd65a3b8156fc560d2037c7a3781a9d0dd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 31891,
+      "sha256": "33700a3620fb73c3e583886a8b7a8fd85e6aa4b99d52bf722da95751d5899cb5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 38382,
+      "sha256": "564816911a59813f1262430a6e900b62d896c0aa50edeb59636ad35f7a751a83",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 33780,
+      "sha256": "3306d0db99397fa4b8085371b1b091b41bdb7e982158b86728b3cdf12d9ba812",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 40786,
+      "sha256": "a5a90cd561b599a9103d97fa45e25ca50294d2dde88d738465fc677c91fb5ff9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 38321,
+      "sha256": "9bad88f45e572c522265866caacb95066a069299a85bb53bde97f5e542f4cc4c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 40207,
+      "sha256": "0f81a764ced86418a38201241c2b4262ef324accc7a43aa11b625d43c359a893",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 35237,
+      "sha256": "4745cb0b8d3c5dd4c435d46b664ca358bf986a3cafaadf9ab667a121dfee3fa0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 37845,
+      "sha256": "747be75b95f4fa1c2e3c3adbe3d39ad23cf3b225fb8b44e00d793b8b953b6ec9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 39057,
+      "sha256": "d28784e9ce5d6c57327734aafd0149280ce332f37a317d3104e27ed03b5f6f2f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 38340,
+      "sha256": "f929083ae8e7261e960e786fe69553cb9637851bf0aca9b84d021f6c55fe28f9",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 165,
+      "sha256": "559eba03dfc4e117173141efb05f7ecb5a252badc2132d9b8818029c48f58bbb",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1243,
+      "sha256": "d13fb5d6e88138f3bef8f7f3753360ec9a4fa8646cb3264ec1fb729f1a862e0d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3047,
+      "sha256": "1aee6425e4b807ea90f4601a6e1610fc35575a5125aec5acf7709feec80615a3",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1116,
+      "sha256": "8e40cbeb5c99a858cf968550ba5cb3414448c3e8e7347b2fcdcb8004cb0f3482",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 881,
+      "sha256": "8ddf295b66e11aadccd6da4924c1e0a66a0e2638696ec04fd869397063c1208a",
+      "role": "documentation"
+    }
+  ]
+}

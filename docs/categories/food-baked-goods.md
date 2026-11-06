@@ -2,7 +2,7 @@
 
 Bread, pastry, cakes and other baked food
 
-Approved assets: **2**
+Approved assets: **4**
 
 ## Frosted carrot cake
 
@@ -19,3 +19,19 @@ Approved assets: **2**
 - Creator: Greg Zaal, Dario Barresi; style: realistic; CC0-1.0
 - 1,990 triangles; 3 texture images
 - [Asset folder](../../assets/food/baked-goods/ph-croissant/) · [Metadata](../../assets/food/baked-goods/ph-croissant/asset.json) · [All inspection views](../../assets/food/baked-goods/ph-croissant/previews/contact-sheet.jpg)
+
+## Hamburger Buns
+
+![Hamburger Buns](../../assets/food/baked-goods/ph-hamburger-buns/previews/orbit-01.jpg)
+
+- Creator: Alexander Shulha; style: realistic; CC0-1.0
+- 11,588 triangles; 3 texture images
+- [Asset folder](../../assets/food/baked-goods/ph-hamburger-buns/) · [Metadata](../../assets/food/baked-goods/ph-hamburger-buns/asset.json) · [All inspection views](../../assets/food/baked-goods/ph-hamburger-buns/previews/contact-sheet.jpg)
+
+## Strawberry Chocolate Cake
+
+![Strawberry Chocolate Cake](../../assets/food/baked-goods/ph-strawberry-chocolate-cake/previews/orbit-01.jpg)
+
+- Creator: Kuutti Siitonen; style: realistic; CC0-1.0
+- 27,054 triangles; 3 texture images
+- [Asset folder](../../assets/food/baked-goods/ph-strawberry-chocolate-cake/) · [Metadata](../../assets/food/baked-goods/ph-strawberry-chocolate-cake/asset.json) · [All inspection views](../../assets/food/baked-goods/ph-strawberry-chocolate-cake/previews/contact-sheet.jpg)

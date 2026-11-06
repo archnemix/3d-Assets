@@ -1,0 +1,362 @@
+{
+  "schema_version": 1,
+  "id": "ph-wooden-spoon",
+  "title": "Wooden Spoon",
+  "category": "kitchen/utensils",
+  "style": "realistic",
+  "tags": [
+    "cutlery",
+    "spoon",
+    "kitchen",
+    "cookware",
+    "cooking",
+    "serving spoon",
+    "polyhaven"
+  ],
+  "batch": "realistic-textures-01",
+  "acquired_at": "2026-11-06T10:15:11.226857+00:00",
+  "review": {
+    "id": "ph-wooden-spoon",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Pale worn wooden spoon with shallow bowl and rounded handle, inspected from twelve views.",
+    "limitations": [
+      "Static utensil; wear and wood grain are subtle in the supplied render.",
+      "The shipped diffuse, normal and material maps are 2K (2048 × 2048); higher-resolution upstream maps are not included.",
+      "glTF validator reports 1 warning(s); inspect the included validator report for renderer compatibility."
+    ],
+    "contact_sheet_sha256": "8813a5788f6181e8cffc38d22b22f4f533661c18329c5c0d90e2a7e3af278f92",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/wooden_spoon_2k.gltf",
+    "creator": "Ronnie Barter",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/wooden_spoon",
+    "source_id": "wooden_spoon",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/wooden_spoon/wooden_spoon_2k.gltf",
+        "bytes": 2773,
+        "sha256": "0d1642fa9ce80680a51fbd00367d9b2b59543560a8db360249f6afbf150a3692"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_spoon/wooden_spoon_diff_2k.jpg",
+        "bytes": 1467757,
+        "sha256": "546ca2bd96383a411ae1019760bedb6a4f3042b187fb80f2f85e502cbbd62a14"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_spoon/wooden_spoon_nor_gl_2k.jpg",
+        "bytes": 3763297,
+        "sha256": "1187f3849f4afe5780742eb88c02acf689d10fdf29cf2b603b86418322e0a4b2"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/wooden_spoon/wooden_spoon.bin",
+        "bytes": 153184,
+        "sha256": "c5127424529569f326cdd5290ebce748f2e2947a584df28c6d8f01cb63a93535"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_spoon/wooden_spoon_arm_2k.jpg",
+        "bytes": 2005583,
+        "sha256": "9b27747be8a733221cb0a27c75de202c72b55945c06b1923abc193862880b6c6"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/wooden_spoon_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/wooden_spoon_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "wooden_spoon_nor_gl"
+    },
+    {
+      "path": "model/textures/wooden_spoon_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "wooden_spoon_diff"
+    },
+    {
+      "path": "model/textures/wooden_spoon_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "wooden_spoon_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 3554,
+    "triangles": 6576,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "wooden_spoon_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-wooden-spoon/model/textures/wooden_spoon_diff_2k.jpg"
+      },
+      {
+        "name": "wooden_spoon_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-wooden-spoon/model/textures/wooden_spoon_nor_gl_2k.jpg"
+      },
+      {
+        "name": "wooden_spoon_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-wooden-spoon/model/textures/wooden_spoon_arm_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1414,
+      "sha256": "1e7c4aa1e4b71559fe916f3b2f2f4d32fa9d2c251f3814c72e0c54b9733a6e6f",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 280,
+      "sha256": "629db79442d7d17341571cc2ef828b4bb0773742fb5958ca7b38ed41ffbdba26",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67858,
+      "sha256": "a4085f85d5cb22f385f5d3f7275acbfaf3d2ac40b79756875fc3db1c43693818",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/textures/wooden_spoon_arm_2k.jpg",
+      "bytes": 2005583,
+      "sha256": "9b27747be8a733221cb0a27c75de202c72b55945c06b1923abc193862880b6c6",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/wooden_spoon_diff_2k.jpg",
+      "bytes": 1467757,
+      "sha256": "546ca2bd96383a411ae1019760bedb6a4f3042b187fb80f2f85e502cbbd62a14",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/wooden_spoon_nor_gl_2k.jpg",
+      "bytes": 3763297,
+      "sha256": "1187f3849f4afe5780742eb88c02acf689d10fdf29cf2b603b86418322e0a4b2",
+      "role": "model"
+    },
+    {
+      "path": "model/wooden_spoon.bin",
+      "bytes": 153184,
+      "sha256": "c5127424529569f326cdd5290ebce748f2e2947a584df28c6d8f01cb63a93535",
+      "role": "model"
+    },
+    {
+      "path": "model/wooden_spoon_2k.gltf",
+      "bytes": 2773,
+      "sha256": "0d1642fa9ce80680a51fbd00367d9b2b59543560a8db360249f6afbf150a3692",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 15429,
+      "sha256": "94542c94167e7c4f681e088e3cf0fc9ae13cc6ad2a6596df1f952d98236458e0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 12201,
+      "sha256": "b1dbff8d651648facf9477cb92ed5b80a4b28ebec6d8a9859928e44939e1816b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 129570,
+      "sha256": "8813a5788f6181e8cffc38d22b22f4f533661c18329c5c0d90e2a7e3af278f92",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1158,
+      "sha256": "cd6c59aa3a47342f29600eaae0f0ed4dc4105af00a84e4b3dfbb6726646a4998",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 29298,
+      "sha256": "fd02d5e7e45cea7b66106ba99ed42b1273e0547e832678603843ff1903aeb70c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 14724,
+      "sha256": "bd1b027bac7ac1d8dc4e35a42278f10785663186f765baaf0de5fe3c76ed611e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 13306,
+      "sha256": "7f8eb5e78727a441828e7f88f55bf3a080fe857b0298e637066413b3ca1aed5c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 16199,
+      "sha256": "5fbd3b4145f3e6053560c43dd7d887867bac5aa08285fc7ec20143bd6466dfc3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 27925,
+      "sha256": "3f5359e04e374a3036ff2bdeb500d19ecf0b8c6edcf303ba60924cf9a9d74c44",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 15913,
+      "sha256": "6face32b0bbe198816abb09b3b50c82b15cb3637476a281fa93a07650fe9ef7c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 13879,
+      "sha256": "0f083cc2c0c5e1f615eca84279a3803d04c3893cd579b637739b11098e9cee15",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 16237,
+      "sha256": "751ae3a11949bbfb5af7164b5aa4fd9fd5ecdbb427dc455e3b54e90ec1180f79",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 15629,
+      "sha256": "83cf815179146c622724e1c721b5a640a0e60dd706516d204964d8958e9277f5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 19680,
+      "sha256": "79da802f1590755aa277bca1a076b156a69083f158a6ef059275ccc2c7e8fd7d",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 162,
+      "sha256": "605fcc95034861f8544d5d2fee5fdc702aef30e5a02b087657bffcefc52e8986",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1192,
+      "sha256": "9b22548761c8da5f2bbcfe26c5214cae0d03039cac9d89d08f126ccdd9271111",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2122,
+      "sha256": "6c5a463af616f04e32ae2361feefd5b2102c84dff7f998218527ba182a1c4114",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1077,
+      "sha256": "ee5b719e9618e2b9777d98b8518fec29fdceaff692c98b7f2549e69e6e70cc93",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 875,
+      "sha256": "f93f23843e5c6603bfd70022cafda8ac7e4c89ca77d1955f80beafed3f19385c",
+      "role": "documentation"
+    }
+  ]
+}

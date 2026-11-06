@@ -2,7 +2,7 @@
 
 Wrenches, cutters, hammers and other manually operated tools
 
-Approved assets: **7**
+Approved assets: **8**
 
 ## Vintage adjustable wrench
 
@@ -27,6 +27,14 @@ Approved assets: **7**
 - Creator: Yann Kervran, Antanas Kep; style: realistic; CC0-1.0
 - 3,410 triangles; 3 texture images
 - [Asset folder](../../assets/tools/hand-tools/ph-bolt-cutters/) · [Metadata](../../assets/tools/hand-tools/ph-bolt-cutters/asset.json) · [All inspection views](../../assets/tools/hand-tools/ph-bolt-cutters/previews/contact-sheet.jpg)
+
+## Cross Pein Hammer
+
+![Cross Pein Hammer](../../assets/tools/hand-tools/ph-cross-pein-hammer/previews/orbit-01.jpg)
+
+- Creator: Tics; style: realistic; CC0-1.0
+- 2,124 triangles; 3 texture images
+- [Asset folder](../../assets/tools/hand-tools/ph-cross-pein-hammer/) · [Metadata](../../assets/tools/hand-tools/ph-cross-pein-hammer/asset.json) · [All inspection views](../../assets/tools/hand-tools/ph-cross-pein-hammer/previews/contact-sheet.jpg)
 
 ## Vintage crank hand drill
 

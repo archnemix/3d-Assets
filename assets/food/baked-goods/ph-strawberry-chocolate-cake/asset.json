@@ -1,0 +1,362 @@
+{
+  "schema_version": 1,
+  "id": "ph-strawberry-chocolate-cake",
+  "title": "Strawberry Chocolate Cake",
+  "category": "food/baked-goods",
+  "style": "realistic",
+  "tags": [
+    "cooking",
+    "culinary",
+    "cake",
+    "baked goods",
+    "bakery",
+    "treat",
+    "polyhaven"
+  ],
+  "batch": "realistic-textures-01",
+  "acquired_at": "2026-11-06T10:14:19.801548+00:00",
+  "review": {
+    "id": "ph-strawberry-chocolate-cake",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Round chocolate-frosted cake with strawberry slices, leaves and crumbs, inspected from all twelve views.",
+    "limitations": [
+      "Flat, very dark underside; no individual slices or cutting animation.",
+      "The shipped diffuse, normal and material maps are 2K (2048 × 2048); higher-resolution upstream maps are not included.",
+      "glTF validator reports 1 warning(s); inspect the included validator report for renderer compatibility."
+    ],
+    "contact_sheet_sha256": "9c7f32b0b0a7c0ea9f1017d9ea18966a857177a77e2706d33f009c79a2385e35",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/strawberry_chocolate_cake_2k.gltf",
+    "creator": "Kuutti Siitonen",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/strawberry_chocolate_cake",
+    "source_id": "strawberry_chocolate_cake",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/strawberry_chocolate_cake/strawberry_chocolate_cake_2k.gltf",
+        "bytes": 2933,
+        "sha256": "58e88c06ea03ad7eac5c22f971e57752b785cca41a2401fc31243a42c687940d"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/strawberry_chocolate_cake/strawberry_chocolate_cake_diff_2k.jpg",
+        "bytes": 3101714,
+        "sha256": "a187d52076fa82dffc6c42f95f895b7b54157c48972c4e196986721d05a1fce6"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/strawberry_chocolate_cake/strawberry_chocolate_cake.bin",
+        "bytes": 661780,
+        "sha256": "c7245b0f1aaefc170631d7fd2c4a32321334df0ae72a0adddf55a2b008776d61"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/strawberry_chocolate_cake/strawberry_chocolate_cake_arm_2k.jpg",
+        "bytes": 2356898,
+        "sha256": "7e9fbc775255fabe1ae1cdb8722c1c995b0935a43bef253156141af944d6eb52"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/strawberry_chocolate_cake/strawberry_chocolate_cake_nor_gl_2k.jpg",
+        "bytes": 3856601,
+        "sha256": "2b04b2fa41329b2429eb94e48437c81e5edb60ee71be58386346dea7ef918fe6"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/strawberry_chocolate_cake_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/strawberry_chocolate_cake_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "strawberry_chocolate_cake_nor_gl"
+    },
+    {
+      "path": "model/textures/strawberry_chocolate_cake_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "strawberry_chocolate_cake_diff"
+    },
+    {
+      "path": "model/textures/strawberry_chocolate_cake_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "strawberry_chocolate_cake_metal-strawberry_chocolate_cake_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 15608,
+    "triangles": 27054,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "strawberry_chocolate_cake_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-strawberry-chocolate-cake/model/textures/strawberry_chocolate_cake_diff_2k.jpg"
+      },
+      {
+        "name": "strawberry_chocolate_cake_metal-strawberry_chocolate_cake_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-strawberry-chocolate-cake/model/textures/strawberry_chocolate_cake_arm_2k.jpg"
+      },
+      {
+        "name": "strawberry_chocolate_cake_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-strawberry-chocolate-cake/model/textures/strawberry_chocolate_cake_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1455,
+      "sha256": "cf63452da03a1143439b139a142ac794db6141799ec18ab66be301957e34c964",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 304,
+      "sha256": "393fdc0277632743acac13fa9b7b456d7c1c2683d8b0dd904e1f93ddb08f0d8f",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68312,
+      "sha256": "b7b4df787dc82cc6bd34d1d28e0736e9602706089cfc1dad49f97ce0dbfe790d",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/strawberry_chocolate_cake.bin",
+      "bytes": 661780,
+      "sha256": "c7245b0f1aaefc170631d7fd2c4a32321334df0ae72a0adddf55a2b008776d61",
+      "role": "model"
+    },
+    {
+      "path": "model/strawberry_chocolate_cake_2k.gltf",
+      "bytes": 2933,
+      "sha256": "58e88c06ea03ad7eac5c22f971e57752b785cca41a2401fc31243a42c687940d",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/strawberry_chocolate_cake_arm_2k.jpg",
+      "bytes": 2356898,
+      "sha256": "7e9fbc775255fabe1ae1cdb8722c1c995b0935a43bef253156141af944d6eb52",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/strawberry_chocolate_cake_diff_2k.jpg",
+      "bytes": 3101714,
+      "sha256": "a187d52076fa82dffc6c42f95f895b7b54157c48972c4e196986721d05a1fce6",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/strawberry_chocolate_cake_nor_gl_2k.jpg",
+      "bytes": 3856601,
+      "sha256": "2b04b2fa41329b2429eb94e48437c81e5edb60ee71be58386346dea7ef918fe6",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 39970,
+      "sha256": "803342a702bc37ff8b7928d6355829b66b728beeb371ec2488a93d134eb9a6c1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 23076,
+      "sha256": "7e060829af9d174da6e15a4450372c50565af1f783f8e7f40bd6598b8fa0aa14",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 383997,
+      "sha256": "9c7f32b0b0a7c0ea9f1017d9ea18966a857177a77e2706d33f009c79a2385e35",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1309,
+      "sha256": "03d4396d7078cebb943136f24b78e14b67ae34a03fedcf3897d0e0674830fb48",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 57762,
+      "sha256": "5688a4937d03861c3d5fd78418cb5c5a325c4f0a8f766fb8b33e4d76824f5f44",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 57516,
+      "sha256": "807d98f63ed2a962e5ef6b61ad11b0792bc1b3b1daef5b4829cb50a924e6f899",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 54005,
+      "sha256": "8dea3132257a476b218b417aac0d415b87d12a84a54b2f45080b7ba3f2478386",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 52713,
+      "sha256": "f9dbb6a15f74f2a25aa0b4bd3ac88e15c3681138da01489c16f13a48d74221f0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 54098,
+      "sha256": "9435c222f0b0a6c9b0e0658fb3a23ab73782edced61688bc356d90bc504ccc5c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 59242,
+      "sha256": "7d930e2c90849772c44e3c6e802907a7d3925a298307cffeeb82b3fda2d14b58",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 58589,
+      "sha256": "d06802ffffd99df3eb028e95893e19d95ddaa6d1480653906c43243b10cd876e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 58236,
+      "sha256": "848181b18bc0b4f24bde2d7133399b0bcc4b6d89715b59dc3abb19bc14d1e48e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 96420,
+      "sha256": "f1bc94b39a392fa1cb00649213caaabe56675e77ad95c145d2e7b92d38191140",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 56750,
+      "sha256": "fceaf7ed7f631bbc12dc6c3ed95144b972bf26c4f818bb3e90c07aa038f73826",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 175,
+      "sha256": "b2449b95b9ac0917762b3a287dff27481077d3d6ce80ee7b143e20aad8550c7f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1134,
+      "sha256": "d66fbb07c7f4477898369ca31909620013b6cc60765590957f57e44a283f0745",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2189,
+      "sha256": "aaac6ccac61cfd452a2c705a53583a318e2cfcb253d17d62d362d4a14065050b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1259,
+      "sha256": "c9955169c4b0ee3f4dde5d9d303fe50f7855cf00fdd602ff0fac28bdce8b32b7",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 902,
+      "sha256": "dc3c1eaff1e2f32ca751114712b158fa0c03777a45f00dae0b755bcddbdf4692",
+      "role": "documentation"
+    }
+  ]
+}
