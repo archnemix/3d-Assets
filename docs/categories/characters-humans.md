@@ -8,7 +8,7 @@ Approved assets: **19**
 
 ![Toddler in knitted romper](../../assets/characters/humans/grab3d-baby-toddler/previews/orbit-01.jpg)
 
-- Creator: Grab3D; style: realistic; CC0-1.0
+- Creator: Grab3D; style: stylized; CC0-1.0
 - 299,999 triangles; 3 texture images
 - [Asset folder](../../assets/characters/humans/grab3d-baby-toddler/) · [Metadata](../../assets/characters/humans/grab3d-baby-toddler/asset.json) · [All inspection views](../../assets/characters/humans/grab3d-baby-toddler/previews/contact-sheet.jpg)
 
@@ -40,7 +40,7 @@ Approved assets: **19**
 
 ![Child in yellow raincoat and rain boots](../../assets/characters/humans/grab3d-child-raincoat/previews/orbit-01.jpg)
 
-- Creator: Grab3D; style: realistic; CC0-1.0
+- Creator: Grab3D; style: stylized; CC0-1.0
 - 246,162 triangles; 3 texture images
 - [Asset folder](../../assets/characters/humans/grab3d-child-raincoat/) · [Metadata](../../assets/characters/humans/grab3d-child-raincoat/asset.json) · [All inspection views](../../assets/characters/humans/grab3d-child-raincoat/previews/contact-sheet.jpg)
 
@@ -48,7 +48,7 @@ Approved assets: **19**
 
 ![Desert queen with headdress](../../assets/characters/humans/grab3d-desert-queen/previews/orbit-01.jpg)
 
-- Creator: Grab3D; style: realistic; CC0-1.0
+- Creator: Grab3D; style: stylized; CC0-1.0
 - 300,000 triangles; 3 texture images
 - [Asset folder](../../assets/characters/humans/grab3d-desert-queen/) · [Metadata](../../assets/characters/humans/grab3d-desert-queen/asset.json) · [All inspection views](../../assets/characters/humans/grab3d-desert-queen/previews/contact-sheet.jpg)
 

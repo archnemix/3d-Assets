@@ -4,7 +4,7 @@
 - Source: https://grab3d.com/models/characters/queen/
 - License: CC0-1.0; no attribution required; commercial use and redistribution allowed.
 - Category: `characters/humans`
-- Intended style: realistic
+- Intended style: stylized
 - Import: `model/queen-rigged.glb`
 - Triangles: 300,000; mesh objects: 1
 - Rig: True; animation clips: 2
@@ -20,6 +20,7 @@ These are inspection renders, not a guarantee of identical shading in every engi
 - AI-assisted origin (Meshy) is disclosed upstream; some storefronts require AI-content disclosure.
 - Design is an invented ceremonial style inspired by ancient Egyptian dress, not a reproduction of a specific artefact.
 - Crown and collar are fused to the body mesh.
+- The static inspection views were rechecked on 2026-11-06: the proportions and/or costume presentation are stylized rather than photorealistic.
 
 Texture handling is recorded per image in `asset.json`. GLB files retain embedded
 textures; sidecar copies are byte-for-byte extracts for inspection and DCC workflows,
