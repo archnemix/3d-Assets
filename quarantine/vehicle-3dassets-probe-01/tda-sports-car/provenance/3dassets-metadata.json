@@ -1,0 +1,102 @@
+{
+  "id": "32495",
+  "slug": "car-park-and-road-vehicle-fleet-sports-car-900de487",
+  "title": "Mid-engine sports car (Car Park and Road Vehicle Fleet)",
+  "summary": "A mid engine two seat sports car: low nose, cab forward glasshouse, wide rear track and a slatted engine deck. Premium realistic road vehicle for modern city, driving and parking scenes.",
+  "description": "A mid engine two seat sports car: low nose, cab forward glasshouse, wide rear track and a slatted engine deck. Dimensions 2.14 x 1.33 x 4.62 m (X x Y x Z). Origin centred on the footprint with the tyres resting at ground level; metre units, +Y up, +Z forward, wheel axles along X. Named pivots: steering at (0.4, 0.64, 0.06); door-front-right at (1.02, 0.52, 0.43); door-front-left at (-1.02, 0.52, 0.43); bonnet at (0, 0.79, 0.48); boot at (0, 0.79, -0.76); wheel-front-right at (0.83, 0.38, 1.33); wheel-front-left at (-0.83, 0.38, 1.33); wheel-rear-right at (0.83, 0.38, -1.33); wheel-rear-left at (-0.83, 0.38, -1.33). Wiper arms, suspension travel and any convertible roof mechanism are static: none is reachable with a single rigid node transform. Rigid node-transform clips door-open, door-close, bonnet-open, bonnet-close, boot-open, boot-close, steer, wheel-roll drive named nodes on their own pivots. No skinning and no skeleton. Original generic design: no manufacturer, model, badge, grille signature or wheel design is referenced and every number plate is blank. Realistic road palette of silver, deep blue, signal red, fleet white and graphite paint over dark rubber and plastic trim, tinted glazing, bright alloy, structural steel, grey cabin cloth and poured concrete, with emissive white, red, amber, blue and green lamp surfaces. Free 3D model for Unity, Godot, Unreal, three.js and Blender. No collision or navigation data.",
+  "status": "published",
+  "url": "https://3dassets.dev/assets/car-park-and-road-vehicle-fleet-sports-car-900de487",
+  "cdnUrl": "https://cdn.3dassets.dev/assets/32495/v1/model.glb",
+  "downloadUrl": "https://3dassets.dev/download/car-park-and-road-vehicle-fleet-sports-car-900de487",
+  "thumbnailUrl": "https://cdn.3dassets.dev/assets/32495/v1/thumb.webp",
+  "posterUrl": "https://cdn.3dassets.dev/assets/32495/v1/poster.webp",
+  "blurhash": "U8BU%k$*0yEf#nACNa$*0KI:}Z-BFw}Z-BAC",
+  "category": {
+    "slug": "vehicles",
+    "title": "Vehicles"
+  },
+  "tags": [
+    {
+      "slug": "modern",
+      "title": "Modern"
+    },
+    {
+      "slug": "realistic",
+      "title": "Realistic"
+    },
+    {
+      "slug": "exterior",
+      "title": "Exterior"
+    },
+    {
+      "slug": "animated",
+      "title": "Animated"
+    }
+  ],
+  "license": {
+    "slug": "cc0-1.0",
+    "name": "CC0 1.0 Universal",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false
+  },
+  "contributor": {
+    "username": "3dassets",
+    "name": "3D Assets",
+    "url": "https://3dassets.dev/u/3dassets"
+  },
+  "stats": {
+    "fileSize": 1522008,
+    "triangles": 48688,
+    "vertices": 97788,
+    "meshes": 21,
+    "materials": 8,
+    "textures": 0,
+    "animations": [
+      "door-open",
+      "door-close",
+      "bonnet-open",
+      "bonnet-close",
+      "boot-open",
+      "boot-close",
+      "steer",
+      "wheel-roll"
+    ],
+    "boundingBox": {
+      "min": [
+        -1.0721999406814575,
+        2.128396242473407e-06,
+        -2.305999994277954
+      ],
+      "max": [
+        1.0721999406814575,
+        1.330001406886383,
+        2.315999984741211
+      ]
+    },
+    "sizeMeters": [
+      2.144,
+      1.33,
+      4.622
+    ],
+    "hasDraco": false,
+    "hasMeshopt": false,
+    "hasKTX2": false,
+    "extensionsUsed": [
+      "KHR_materials_transmission",
+      "KHR_mesh_quantization"
+    ]
+  },
+  "aiGenerated": true,
+  "aiModel": "claude-opus-5",
+  "downloads": 128,
+  "publishedAt": "2026-09-08T12:30:24.779Z",
+  "updatedAt": "2026-11-05T18:04:05.999Z",
+  "usage": {
+    "threejs": "import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'\nimport { AnimationMixer } from 'three'\n\nlet mixer\n\nconst loader = new GLTFLoader()\nloader.load('https://cdn.3dassets.dev/assets/32495/v1/model.glb', (gltf) => {\n  scene.add(gltf.scene)\n  mixer = new AnimationMixer(gltf.scene)\n  mixer.clipAction(gltf.animations[0]).play()\n})\n\n// Call from your render loop; deltaSeconds is time since the previous frame.\nfunction updateAssetAnimation(deltaSeconds) {\n  mixer?.update(deltaSeconds)\n}",
+    "r3f": "import { useGLTF, useAnimations } from '@react-three/drei'\nimport { useEffect } from 'react'\n\nexport function MidEngineSportsCarCarParkAndRoadVehicleFleet(props) {\n  const { scene, animations } = useGLTF('https://cdn.3dassets.dev/assets/32495/v1/model.glb')\n  const { actions, names } = useAnimations(animations, scene)\n  useEffect(() => {\n    const action = actions[names[0]]\n    action?.reset().play()\n    return () => { action?.stop() }\n  }, [actions, names])\n  return <primitive object={scene} {...props} />\n}\nuseGLTF.preload('https://cdn.3dassets.dev/assets/32495/v1/model.glb')",
+    "modelViewer": "<model-viewer src=\"https://cdn.3dassets.dev/assets/32495/v1/model.glb\" alt=\"Mid-engine sports car (Car Park and Road Vehicle Fleet)\" camera-controls auto-rotate autoplay></model-viewer>",
+    "blender": "# Blender 4.x: File > Import > glTF 2.0, or from the Python console after downloading the file.\nimport bpy\nbpy.ops.import_scene.gltf(filepath='model.glb')  # from https://cdn.3dassets.dev/assets/32495/v1/model.glb\n# Metres and +Y up are converted to Blender's Z-up scene automatically.\n# Clips arrive as actions; play them from the Dope Sheet > Action Editor.",
+    "godot": "# Godot 4: copy model.glb into res://models/ and the editor imports it as a scene.\nvar packed := load(\"res://models/model.glb\") as PackedScene\nvar model := packed.instantiate()\nadd_child(model)\nvar player := model.find_child(\"AnimationPlayer\", true, false) as AnimationPlayer\nplayer.play(player.get_animation_list()[0])",
+    "unity": "// Unity: import model.glb with glTFast (Package Manager: com.unity.cloud.gltfast) and drag the prefab in,\n// or load it at runtime straight from the CDN:\nusing GLTFast;\nvar gltf = new GltfImport();\nif (await gltf.Load(\"https://cdn.3dassets.dev/assets/32495/v1/model.glb\")) await gltf.InstantiateMainSceneAsync(transform);\n// Clips import as legacy AnimationClips on the root; GetComponent<Animation>().Play() starts the first."
+  }
+}
