@@ -1,0 +1,463 @@
+{
+  "schema_version": 1,
+  "id": "ph-vintage-oil-lamp",
+  "title": "Vintage Oil Lamp",
+  "category": "lighting/lamps",
+  "style": "realistic",
+  "tags": [
+    "lamp",
+    "oil",
+    "antique",
+    "victorian",
+    "manor",
+    "historic",
+    "polyhaven"
+  ],
+  "batch": "realistic-diverse-01",
+  "acquired_at": "2026-11-06T09:53:25.088820+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/vintage_oil_lamp_1k.gltf",
+    "creator": "Monsta3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/vintage_oil_lamp",
+    "source_id": "vintage_oil_lamp",
+    "resolution": "1k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/vintage_oil_lamp/vintage_oil_lamp_1k.gltf",
+        "bytes": 7786,
+        "sha256": "ae570b98ea30b0337f62d8e7f551c03a05de00b238f3fac8f1ca5a1f1dbd1add"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_oil_lamp/vintage_oil_lamp_glass_diff_1k.jpg",
+        "bytes": 39058,
+        "sha256": "dbe33017c012a00c74419bb8f05b16a2eeee5e06e2ceab49a80462d25c7a7c0a"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_oil_lamp/vintage_oil_lamp_nor_gl_1k.jpg",
+        "bytes": 227296,
+        "sha256": "54db7efff64c4117782e25851544a0eb4881e5e28a13a06917a16d15ce26b1db"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_oil_lamp/vintage_oil_lamp_flame_diff_1k.jpg",
+        "bytes": 92425,
+        "sha256": "827c6a4fa9274141636cee9415f416a32937f2f257901bbe8488b22b862509f1"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_oil_lamp/vintage_oil_lamp_diff_1k.jpg",
+        "bytes": 536650,
+        "sha256": "a96cc1383fb056618eca80a0cf4ae192286c8752f8e83cb52f9fec02ca94a471"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/vintage_oil_lamp/vintage_oil_lamp.bin",
+        "bytes": 186096,
+        "sha256": "4064065c8e288beaa58639c139c801db337bfc6183e73378a9177157f0587167"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_oil_lamp/vintage_oil_lamp_glass_nor_gl_1k.jpg",
+        "bytes": 42123,
+        "sha256": "2752589c8f6c7724bf2aa5d097010bd9257fff8ca0f85add13ec2ac702909df0"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_oil_lamp/vintage_oil_lamp_arm_1k.jpg",
+        "bytes": 655961,
+        "sha256": "004b7b6238632e4fc9e2ad7e76529caa292cfd96f5a42d6564531207f25c3e92"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_oil_lamp/vintage_oil_lamp_glass_arm_1k.jpg",
+        "bytes": 282607,
+        "sha256": "0ef2b0eb2087895851be979afc5ccb2c11076f71bc667f9e586b7f8038efc158"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/vintage_oil_lamp_1k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 3,
+    "materials": 3,
+    "images": 8,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_materials_specular",
+      "KHR_materials_ior"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/vintage_oil_lamp_glass_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "vintage_oil_lamp_glass_nor_gl"
+    },
+    {
+      "path": "model/textures/vintage_oil_lamp_glass_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "vintage_oil_lamp_glass_diff-vintage_oil_lamp_glass_alpha"
+    },
+    {
+      "path": "model/textures/vintage_oil_lamp_glass_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "vintage_oil_lamp_glass_metal-vintage_oil_lamp_glass_rough"
+    },
+    {
+      "path": "model/textures/vintage_oil_lamp_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "vintage_oil_lamp_nor_gl"
+    },
+    {
+      "path": "model/textures/vintage_oil_lamp_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "vintage_oil_lamp_diff"
+    },
+    {
+      "path": "model/textures/vintage_oil_lamp_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "vintage_oil_lamp_metal-vintage_oil_lamp_rough"
+    },
+    {
+      "path": "model/textures/vintage_oil_lamp_flame_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "vintage_oil_lamp_flame_diff"
+    },
+    {
+      "path": "model/textures/vintage_oil_lamp_flame_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "vintage_oil_lamp_flame_diff-vintage_oil_lamp_flame_alpha"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 3,
+    "hidden_mesh_objects": 0,
+    "vertices": 4464,
+    "triangles": 7208,
+    "material_slots": 3,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "vintage_oil_lamp_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-vintage-oil-lamp/model/textures/vintage_oil_lamp_diff_1k.jpg"
+      },
+      {
+        "name": "vintage_oil_lamp_flame_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-vintage-oil-lamp/model/textures/vintage_oil_lamp_flame_diff_1k.jpg"
+      },
+      {
+        "name": "vintage_oil_lamp_glass_diff-vintage_oil_lamp_glass_alpha",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-vintage-oil-lamp/model/textures/vintage_oil_lamp_glass_diff_1k.jpg"
+      },
+      {
+        "name": "vintage_oil_lamp_glass_metal-vintage_oil_lamp_glass_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-vintage-oil-lamp/model/textures/vintage_oil_lamp_glass_arm_1k.jpg"
+      },
+      {
+        "name": "vintage_oil_lamp_glass_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-vintage-oil-lamp/model/textures/vintage_oil_lamp_glass_nor_gl_1k.jpg"
+      },
+      {
+        "name": "vintage_oil_lamp_metal-vintage_oil_lamp_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-vintage-oil-lamp/model/textures/vintage_oil_lamp_arm_1k.jpg"
+      },
+      {
+        "name": "vintage_oil_lamp_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-vintage-oil-lamp/model/textures/vintage_oil_lamp_nor_gl_1k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 389,
+      "sha256": "90da5fa9c5fd0c4aa7e0517776ca5c56b7861ead20c5e724717ad39f6f6cd409",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 75353,
+      "sha256": "e2b82e57a3ae150476e7ec506c07200045dd9957e4079002a978224a7ce012a9",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "2a9a229f8bb2ed821581e94782406b1f4a42c4f9a9e024e1cc719a6265cfa1b4",
+      "role": "logs"
+    },
+    {
+      "path": "model/textures/vintage_oil_lamp_arm_1k.jpg",
+      "bytes": 655961,
+      "sha256": "004b7b6238632e4fc9e2ad7e76529caa292cfd96f5a42d6564531207f25c3e92",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/vintage_oil_lamp_diff_1k.jpg",
+      "bytes": 536650,
+      "sha256": "a96cc1383fb056618eca80a0cf4ae192286c8752f8e83cb52f9fec02ca94a471",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/vintage_oil_lamp_flame_diff_1k.jpg",
+      "bytes": 92425,
+      "sha256": "827c6a4fa9274141636cee9415f416a32937f2f257901bbe8488b22b862509f1",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/vintage_oil_lamp_glass_arm_1k.jpg",
+      "bytes": 282607,
+      "sha256": "0ef2b0eb2087895851be979afc5ccb2c11076f71bc667f9e586b7f8038efc158",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/vintage_oil_lamp_glass_diff_1k.jpg",
+      "bytes": 39058,
+      "sha256": "dbe33017c012a00c74419bb8f05b16a2eeee5e06e2ceab49a80462d25c7a7c0a",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/vintage_oil_lamp_glass_nor_gl_1k.jpg",
+      "bytes": 42123,
+      "sha256": "2752589c8f6c7724bf2aa5d097010bd9257fff8ca0f85add13ec2ac702909df0",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/vintage_oil_lamp_nor_gl_1k.jpg",
+      "bytes": 227296,
+      "sha256": "54db7efff64c4117782e25851544a0eb4881e5e28a13a06917a16d15ce26b1db",
+      "role": "model"
+    },
+    {
+      "path": "model/vintage_oil_lamp.bin",
+      "bytes": 186096,
+      "sha256": "4064065c8e288beaa58639c139c801db337bfc6183e73378a9177157f0587167",
+      "role": "model"
+    },
+    {
+      "path": "model/vintage_oil_lamp_1k.gltf",
+      "bytes": 7786,
+      "sha256": "ae570b98ea30b0337f62d8e7f551c03a05de00b238f3fac8f1ca5a1f1dbd1add",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 30576,
+      "sha256": "4d1dff49ba119b8f149c32316f78c29df46dfa7b203e6530b6aee5e77df33561",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 12722,
+      "sha256": "b5ca5c4154d54ac2cc4f618d56d3c08b1d8f3c301e03e7c6dbd10ec745a5ae68",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 184962,
+      "sha256": "542f45358e4db1937ccb61fa75d7714b7f054ba26979dd93848b59c7507fcc90",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 2468,
+      "sha256": "65ecadc181e4b973c87d9bd1579096888e1099b2ba7221990b574ceaa73ac10b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 20671,
+      "sha256": "73a7c532cb6f94f2828e7ee812e5789356f6050ffb85d86bae5d8719a42c4ef5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 20622,
+      "sha256": "31f5f24cc1a4d296412c6c59f72e939f6893e608dfc3ffa4c0da17f8f20accbb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 20979,
+      "sha256": "8b1d075a326511ccf39aa59b09a6d638118df381a067e8b6b3f0b844b6a99e39",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 20891,
+      "sha256": "b78ec79124db29cf5cd81a7f895b994b06f3346c94db0ebf311ef81272a2c34a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 21149,
+      "sha256": "b9381ba021518d10899df7f782e38cf4f2bc69c683b3b8cf618b2309d64fc19c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 20501,
+      "sha256": "4f8b5ccda46df513b3d218fba8bd83363113815ec25c8fc5adb17548cb5cdab0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 20574,
+      "sha256": "8c061938ef7a42b2e077914b8afca2f898c25c4042d5d1543eb34a7db4afd864",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 20884,
+      "sha256": "ce7a959b3ee0a8a69cb9b87a10df2c3de9348c735289cbeead06017246521a7c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 68446,
+      "sha256": "4cd2a6cd1b925f686b51eb46757684950df19c467c4f16e4a2e0921e535b6174",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 21482,
+      "sha256": "ce4b35b06adc74870aa5ad68ccfd6992c0ecfea8dfd10602f007797af35e06be",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 166,
+      "sha256": "1bc0c5c04edb45ae1e3debb314ed7ef813e8c79d94a7e52c100e2ffe518e6938",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1229,
+      "sha256": "fec310f229e2bb5df060469097dd3abbd8c57b52f8d58173e166dffcd648fd8a",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 4074,
+      "sha256": "05174093057187d696a2c83c30dfae57e2d5133bf4741e921e6b3798903e404a",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 2137,
+      "sha256": "e6e4800a706b262651fc65183fce59064f8f43340b049e6ee32b56e7497a9008",
+      "role": "provenance"
+    }
+  ]
+}

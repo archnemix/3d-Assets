@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "id": "ph-seadogs-compass",
+  "title": "Seadogs Compass",
+  "category": "tools/measuring",
+  "style": "realistic",
+  "tags": [
+    "old",
+    "vintage",
+    "antique",
+    "brass",
+    "nautical",
+    "compass",
+    "polyhaven"
+  ],
+  "batch": "realistic-diverse-01",
+  "acquired_at": "2026-11-06T09:41:16.390000+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/seadogs_compass_1k.gltf",
+    "creator": "Benny Weimer",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/seadogs_compass",
+    "source_id": "seadogs_compass",
+    "resolution": "1k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/seadogs_compass/seadogs_compass_1k.gltf",
+        "bytes": 6060,
+        "sha256": "eb43affaa88dcf40d47318d096f14b709d8ddc34bad46b67ed038b807e56df07"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/seadogs_compass/seadogs_compass_nor_gl_1k.jpg",
+        "bytes": 674750,
+        "sha256": "f5bdeb37f58d2967b9b31e9665e234be1b9f9e694ca35a4ca3ced17187de0ed5"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/seadogs_compass/seadogs_compass_diff_1k.jpg",
+        "bytes": 727504,
+        "sha256": "f5bd77e551b00fcc5886cc5d13978a79447ce0be770277a116943e2ed635db27"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/seadogs_compass/seadogs_compass_arm_1k.jpg",
+        "bytes": 901867,
+        "sha256": "3a4dd86ffb9e3d3d3423fc399011a91f69a2bfb1ab9d181672e735b8aa0a48bb"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/seadogs_compass/seadogs_compass.bin",
+        "bytes": 385520,
+        "sha256": "59089793269ffa10d7d180de5611b2bb276288f929fde93b2b705f7e83b246b5"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/seadogs_compass_1k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 3,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/seadogs_compass_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "seadogs_compass_nor_gl"
+    },
+    {
+      "path": "model/textures/seadogs_compass_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "seadogs_compass_diff"
+    },
+    {
+      "path": "model/textures/seadogs_compass_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "seadogs_compass_metal-seadogs_compass_rough"
+    }
+  ],
+  "authored_animations": [
+    {
+      "name": "lid_open",
+      "parts": [
+        "seadogs_compass_lid"
+      ],
+      "axis": "X",
+      "start_degrees": 0.0,
+      "degrees": -105.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/seadogs_compass_1k-animated.glb",
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 3,
+    "hidden_mesh_objects": 0,
+    "vertices": 9864,
+    "triangles": 11645,
+    "material_slots": 3,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "seadogs_compass_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-seadogs-compass/model/textures/seadogs_compass_diff_1k.jpg"
+      },
+      {
+        "name": "seadogs_compass_metal-seadogs_compass_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-seadogs-compass/model/textures/seadogs_compass_arm_1k.jpg"
+      },
+      {
+        "name": "seadogs_compass_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-seadogs-compass/model/textures/seadogs_compass_nor_gl_1k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 3,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 18480,
+      "sha256": "7ef88db0cf77434f523b5e0661f66d4cd5847ae8bc704ddd306c81c36f88b98b",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 69269,
+      "sha256": "83100a725673d72522c7bdeac33806252203d1c6005bddbfdae01c9e793ca6f6",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "13a8b99793ba089c84f4df144fa4bf72282f0ff6e6d5c1cb98630ea56b0eec8e",
+      "role": "logs"
+    },
+    {
+      "path": "model/seadogs_compass.bin",
+      "bytes": 385520,
+      "sha256": "59089793269ffa10d7d180de5611b2bb276288f929fde93b2b705f7e83b246b5",
+      "role": "model"
+    },
+    {
+      "path": "model/seadogs_compass_1k-animated.glb",
+      "bytes": 2699584,
+      "sha256": "b750236a4906011b06fc7b40ea6b84dd40205b3b958b6bf6e776d513f8c57ab5",
+      "role": "model"
+    },
+    {
+      "path": "model/seadogs_compass_1k.gltf",
+      "bytes": 6060,
+      "sha256": "eb43affaa88dcf40d47318d096f14b709d8ddc34bad46b67ed038b807e56df07",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/seadogs_compass_arm_1k.jpg",
+      "bytes": 901867,
+      "sha256": "3a4dd86ffb9e3d3d3423fc399011a91f69a2bfb1ab9d181672e735b8aa0a48bb",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/seadogs_compass_diff_1k.jpg",
+      "bytes": 727504,
+      "sha256": "f5bd77e551b00fcc5886cc5d13978a79447ce0be770277a116943e2ed635db27",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/seadogs_compass_nor_gl_1k.jpg",
+      "bytes": 674750,
+      "sha256": "f5bdeb37f58d2967b9b31e9665e234be1b9f9e694ca35a4ca3ced17187de0ed5",
+      "role": "model"
+    },
+    {
+      "path": "previews/anim-lid_open-a.jpg",
+      "bytes": 15574,
+      "sha256": "40b54ace88123f1327ae5af42a18c54a57a1b2a2dfced938d647acfcc14b5663",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-lid_open-b.jpg",
+      "bytes": 12017,
+      "sha256": "11418f7dcaef7a96448b798a292213a407399f6155a4dd92db96093509cb494e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-lid_open-c.jpg",
+      "bytes": 10500,
+      "sha256": "8b757bea36e7cb3d17b24097fedef07750866bf6218d3cc491a38986779f89c6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 33528,
+      "sha256": "82e33df28412b750b2b204612aa8f7979f9ead236573ec31e40d34ef7e2cf0e0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 22648,
+      "sha256": "d34604b47ca95c6ad6fff60e57aa56f14a8bcc3c060dbc9764bfb7eb29331c60",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 273956,
+      "sha256": "b215d25a67b2dc3794da2690aa79fa623bf78b7d911b73f04152805e1a038eec",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1205,
+      "sha256": "3bdb1ddefcf2fc3c9cbed5fb2ddfbeb8465ddc556140bb437cee1570f368adcd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 46027,
+      "sha256": "07a72c76c67d8058481d0f0f1bdfa2d3b8e6b8345375f2164ab2ab4d07bff0af",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 43823,
+      "sha256": "d5187863f675eab7a4e9789e57aae27e6102eaf217f6a07021610c35f5044ad3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 27652,
+      "sha256": "fd7e110f9443a68044bf016d47d5650014ede7de8d890a9f8401eced9a881d17",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 34286,
+      "sha256": "267eb0c1e596bb3e368b852dab54798d30451cbfc7ecd350a024b25f828b46bd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 46919,
+      "sha256": "7c548b7a2380611126aa8c93bf7f539780bcb4d4ed47c2e00f9190262d74a58f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 32429,
+      "sha256": "3bd2abddbc074d79618b0054d9579a7588300c3e6ad2af6129007398de96149f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 30251,
+      "sha256": "ee89c0b9cadb1d65159cd631e246aec8994f626160b627e068ed2c24d0440408",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 44432,
+      "sha256": "7c122949bcb20e2f29cc66a4f94f1a03ea8d039f5bf322c934dd1e9f0c079c77",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 52598,
+      "sha256": "8a4cf8dda171023278c11469d073d00c7c0a404d80a0a804e63fff60b09d7b32",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 46613,
+      "sha256": "bcb7c27d5a3e497802f0df0e933638e75d67faa08f85a4fd8cff8961c9c72e51",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 584,
+      "sha256": "f8543546d6acfa0af026a864b306f866c4515024f7d2ded7cfb54b5146f6a635",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1384,
+      "sha256": "ed732017b5ea84b5327cb534284099ca2aa9f1f18703534ee25e4c5d462b74c1",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2792,
+      "sha256": "d28eb1c80eebf5b42b1271325560528bc45d5d7cf92aa1176aa8deeea5dcc8f5",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1116,
+      "sha256": "5de5ca11f0bc45117fd016449d8c0f0aad8c62ec4e7b3b44aa2a6344d2d8e64a",
+      "role": "provenance"
+    }
+  ]
+}

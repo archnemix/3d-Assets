@@ -1,0 +1,85 @@
+{
+  "source_model": "chemistry_set_2k.gltf",
+  "authored": [
+    {
+      "name": "lid_open",
+      "parts": [
+        "chemistry_set_bottle_clear_c_lid"
+      ],
+      "axis": "X",
+      "start_degrees": 0.0,
+      "degrees": -105.0,
+      "frames": 60,
+      "fps": 30
+    },
+    {
+      "name": "lid_open",
+      "parts": [
+        "chemistry_set_bottle_clear_lid"
+      ],
+      "axis": "X",
+      "start_degrees": 0.0,
+      "degrees": -105.0,
+      "frames": 60,
+      "fps": 30
+    },
+    {
+      "name": "lid_open",
+      "parts": [
+        "chemistry_set_bottle_dark_a_lid"
+      ],
+      "axis": "X",
+      "start_degrees": 0.0,
+      "degrees": -105.0,
+      "frames": 60,
+      "fps": 30
+    },
+    {
+      "name": "lid_open",
+      "parts": [
+        "chemistry_set_bottle_dark_c_lid"
+      ],
+      "axis": "X",
+      "start_degrees": 0.0,
+      "degrees": -105.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "verification": [
+    {
+      "clip": "lid_open",
+      "frames": [
+        "anim-lid_open-a.jpg",
+        "anim-lid_open-b.jpg",
+        "anim-lid_open-c.jpg"
+      ]
+    },
+    {
+      "clip": "lid_open",
+      "frames": [
+        "anim-lid_open-a.jpg",
+        "anim-lid_open-b.jpg",
+        "anim-lid_open-c.jpg"
+      ]
+    },
+    {
+      "clip": "lid_open",
+      "frames": [
+        "anim-lid_open-a.jpg",
+        "anim-lid_open-b.jpg",
+        "anim-lid_open-c.jpg"
+      ]
+    },
+    {
+      "clip": "lid_open",
+      "frames": [
+        "anim-lid_open-a.jpg",
+        "anim-lid_open-b.jpg",
+        "anim-lid_open-c.jpg"
+      ]
+    }
+  ],
+  "note": "Clips authored by this library, not upstream. Dedicated to CC0.",
+  "animated_model": "chemistry_set_2k-animated.glb"
+}

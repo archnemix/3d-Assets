@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "id": "ph-stationery-supplies",
+  "title": "Stationery Supplies",
+  "category": "office/supplies",
+  "style": "realistic",
+  "tags": [
+    "pen",
+    "pencil",
+    "eraser",
+    "stationery",
+    "art supplies",
+    "writing",
+    "polyhaven"
+  ],
+  "batch": "realistic-diverse-01",
+  "acquired_at": "2026-11-06T09:56:55.107931+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/stationery_supplies_1k.gltf",
+    "creator": "Mateusz Sadek",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/stationery_supplies",
+    "source_id": "stationery_supplies",
+    "resolution": "1k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/stationery_supplies/stationery_supplies_1k.gltf",
+        "bytes": 15220,
+        "sha256": "9f5ef7799af1193e5d794cc02eb6add2d2eb7e80bc1974930fae76b3cd7ce9a9"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/stationery_supplies/stationery_supplies_nor_gl_1k.jpg",
+        "bytes": 475821,
+        "sha256": "23c332f95ca9cafc24f51a1ad54ca81548d3ab60559401e793fdec00cbe7952c"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/stationery_supplies/stationery_supplies_diff_1k.jpg",
+        "bytes": 646389,
+        "sha256": "a70e92052b2da3457a6059aec0fa83bc01bf0d376be814661cee0b49e4abb9ad"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/stationery_supplies/stationery_supplies_arm_1k.jpg",
+        "bytes": 720443,
+        "sha256": "b7b00e07f043d9928aa4b6dc6a3feede9c870e6e810ae75b54692171cfba6052"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/stationery_supplies/stationery_supplies.bin",
+        "bytes": 128940,
+        "sha256": "475d839c3569551710607cfc71416aa50a3715cd02d56da8c86271982feacb6e"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/stationery_supplies_1k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 9,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/stationery_supplies_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "stationery_supplies_nor_gl"
+    },
+    {
+      "path": "model/textures/stationery_supplies_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "stationery_supplies_diff"
+    },
+    {
+      "path": "model/textures/stationery_supplies_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "stationery_supplies_metal-stationery_supplies_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 9,
+    "hidden_mesh_objects": 0,
+    "vertices": 3202,
+    "triangles": 4412,
+    "material_slots": 9,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "stationery_supplies_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-stationery-supplies/model/textures/stationery_supplies_diff_1k.jpg"
+      },
+      {
+        "name": "stationery_supplies_metal-stationery_supplies_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-stationery-supplies/model/textures/stationery_supplies_arm_1k.jpg"
+      },
+      {
+        "name": "stationery_supplies_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-stationery-supplies/model/textures/stationery_supplies_nor_gl_1k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 9,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 721,
+      "sha256": "e1f0309d56f8bc8b980de3f55ba1b0a04e37dc369fa8806acef872429e8248be",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 80256,
+      "sha256": "c9ee92febe8c0a456a95bb5ffce0465c74306ff2950a15f365be390e9923ef18",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "714c27ac804a376c91eb0d81250cb67d7bc1333594b2663fd290e46faf49126e",
+      "role": "logs"
+    },
+    {
+      "path": "model/stationery_supplies.bin",
+      "bytes": 128940,
+      "sha256": "475d839c3569551710607cfc71416aa50a3715cd02d56da8c86271982feacb6e",
+      "role": "model"
+    },
+    {
+      "path": "model/stationery_supplies_1k.gltf",
+      "bytes": 15220,
+      "sha256": "9f5ef7799af1193e5d794cc02eb6add2d2eb7e80bc1974930fae76b3cd7ce9a9",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/stationery_supplies_arm_1k.jpg",
+      "bytes": 720443,
+      "sha256": "b7b00e07f043d9928aa4b6dc6a3feede9c870e6e810ae75b54692171cfba6052",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/stationery_supplies_diff_1k.jpg",
+      "bytes": 646389,
+      "sha256": "a70e92052b2da3457a6059aec0fa83bc01bf0d376be814661cee0b49e4abb9ad",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/stationery_supplies_nor_gl_1k.jpg",
+      "bytes": 475821,
+      "sha256": "23c332f95ca9cafc24f51a1ad54ca81548d3ab60559401e793fdec00cbe7952c",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 14951,
+      "sha256": "ed9315b8e937a2f714a27fa462302d5259b3d00449e4eeb0eece0c9b9ca92f3d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 20611,
+      "sha256": "d7d0649bc5917900779352f0647a6b18470923f86790b6f1adfa164d803a0c64",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 195663,
+      "sha256": "cc56374d6f5b77076099edbcf690860655e32bebc95a3f94a3208409808201d5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1244,
+      "sha256": "a62994ea2f226cf70bc19a762c6018faba35c304becb116d6a4deb9f3fbebc86",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 26550,
+      "sha256": "d0cbe33a213bc2ea7d17538ca5e45dfb4a9689c54e8b9fe914d8d0231ef748b1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 34826,
+      "sha256": "95586d1079bc0a644743cf6f9e702eb046f68c993b2cf3e152e78fb9adf27261",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 18827,
+      "sha256": "5573ccf441771173cbe2a30ac0efa9365482765797cae6ebbd7e47b030a73f2a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 34788,
+      "sha256": "4cea3df22b0fc1257efd997165c4225935e9b58ffb8b7d34e200805bc1ba2190",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 26132,
+      "sha256": "8482f1ef43198eee5d80683f4c8662ba9bfed10f9a9ea4d8e528a9740d6cf047",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 34950,
+      "sha256": "124fe644fd26c3b5eb92a51c47ccef764f37b3fd572d1f76931fd3c597d319e6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 22124,
+      "sha256": "296a6cafd4b6d21e29235d5c625c97d7fe19a4fbe6ff3eae36ee590d67fe774d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 34370,
+      "sha256": "d6a8dd0a7f12a90f97f3e6b3a595218aa6ebd03171b154b6b93dccbc85ae6156",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 17344,
+      "sha256": "2d449fcb1956cd96c38530d7d3c552a06198f72a09b560e04addc3879ff4d0dc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 32615,
+      "sha256": "4a224afd08b7959cbc7311e1935645805469d19998ed98793e376979ea85c19a",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 169,
+      "sha256": "d51f404d2eaaa3efd91663139f15de4779634fe5b8a14cbbe9d828d7c8cb94c6",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1374,
+      "sha256": "a8a772a0f29a66cb2eb6c5656808e19e1c3af3b30d47ff9a1f505de102ad6606",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 4773,
+      "sha256": "f899dcd157858967a1102eb7616354a4367ee8e28124dfcd41b618d2509db463",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1173,
+      "sha256": "92914783d39b3518c5cec028c95d23509e816558497ef9303fefab32bd530fe3",
+      "role": "provenance"
+    }
+  ]
+}

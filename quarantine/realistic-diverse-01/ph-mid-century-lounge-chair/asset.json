@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "id": "ph-mid-century-lounge-chair",
+  "title": "Mid Century Lounge Chair",
+  "category": "furniture/chairs",
+  "style": "realistic",
+  "tags": [
+    "wooden",
+    "leather",
+    "couch",
+    "lounge",
+    "architecture",
+    "modern",
+    "polyhaven"
+  ],
+  "batch": "realistic-diverse-01",
+  "acquired_at": "2026-11-06T09:49:50.118945+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/mid_century_lounge_chair_2k.gltf",
+    "creator": "Kuutti Siitonen",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/mid_century_lounge_chair",
+    "source_id": "mid_century_lounge_chair",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/mid_century_lounge_chair/mid_century_lounge_chair_2k.gltf",
+        "bytes": 2884,
+        "sha256": "c626222ebe4bc2b98bc1f5ca0cb6ae6f649d995a8f2cee6a6c1d78f060859baa"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/mid_century_lounge_chair/mid_century_lounge_chair_nor_gl_2k.jpg",
+        "bytes": 2646290,
+        "sha256": "3228f6785de5f4f06149a03dab95cf68f6c85f42ecbba8e33f48e40d941d9b96"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/mid_century_lounge_chair/mid_century_lounge_chair_diff_2k.jpg",
+        "bytes": 2444450,
+        "sha256": "8129cc8c7c7c8db652aad062545a9f776b7ff4c00c4d9ab8387f3ad98315a932"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/mid_century_lounge_chair/mid_century_lounge_chair_arm_2k.jpg",
+        "bytes": 2476056,
+        "sha256": "74ffb5899e592f842bf39b8a62a01ae7f737de5980790598fc0f4d587d53bf4a"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/mid_century_lounge_chair/mid_century_lounge_chair.bin",
+        "bytes": 171384,
+        "sha256": "26346cdc548ad74b1b6db5734c8c231c3c740656b012de2cc3bbc2b3b975200c"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/mid_century_lounge_chair_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/mid_century_lounge_chair_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "mid_century_lounge_chair_nor_gl"
+    },
+    {
+      "path": "model/textures/mid_century_lounge_chair_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "mid_century_lounge_chair_diff"
+    },
+    {
+      "path": "model/textures/mid_century_lounge_chair_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "mid_century_lounge_chair_metal-mid_century_lounge_chair_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 4203,
+    "triangles": 6148,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "mid_century_lounge_chair_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-mid-century-lounge-chair/model/textures/mid_century_lounge_chair_diff_2k.jpg"
+      },
+      {
+        "name": "mid_century_lounge_chair_metal-mid_century_lounge_chair_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-mid-century-lounge-chair/model/textures/mid_century_lounge_chair_arm_2k.jpg"
+      },
+      {
+        "name": "mid_century_lounge_chair_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-mid-century-lounge-chair/model/textures/mid_century_lounge_chair_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 287,
+      "sha256": "8a7966a2fba3c524fe9ac8428c20d687de391776e3b798d3a584d285e5e3e7df",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 69057,
+      "sha256": "cb5b553ff285eab6bb21f1628ce6160bfd56f7418b0fe1e5a2e3f6ef195efc91",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/mid_century_lounge_chair.bin",
+      "bytes": 171384,
+      "sha256": "26346cdc548ad74b1b6db5734c8c231c3c740656b012de2cc3bbc2b3b975200c",
+      "role": "model"
+    },
+    {
+      "path": "model/mid_century_lounge_chair_2k.gltf",
+      "bytes": 2884,
+      "sha256": "c626222ebe4bc2b98bc1f5ca0cb6ae6f649d995a8f2cee6a6c1d78f060859baa",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/mid_century_lounge_chair_arm_2k.jpg",
+      "bytes": 2476056,
+      "sha256": "74ffb5899e592f842bf39b8a62a01ae7f737de5980790598fc0f4d587d53bf4a",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/mid_century_lounge_chair_diff_2k.jpg",
+      "bytes": 2444450,
+      "sha256": "8129cc8c7c7c8db652aad062545a9f776b7ff4c00c4d9ab8387f3ad98315a932",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/mid_century_lounge_chair_nor_gl_2k.jpg",
+      "bytes": 2646290,
+      "sha256": "3228f6785de5f4f06149a03dab95cf68f6c85f42ecbba8e33f48e40d941d9b96",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 50735,
+      "sha256": "7d54ddbcc9fc216fbc261a52d2869c724699c3dcf76bc8e706575df96addc99e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 19660,
+      "sha256": "8a60a442819d6fdbb9bf1f8aeef706165191a9b6b450428c934084d2c582bf3d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 299401,
+      "sha256": "caa1ee23be607890559af17bb7dd9fe4d3b10c09681a06236290ed42b31ccc6c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1294,
+      "sha256": "291290d0dce9caece016192a5c957381625874ec3dc364c31e57e7451e3a1e3c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 41787,
+      "sha256": "085aa6e3ee94242bd9cc52110806d73c1cca9e5dea2fe8dd75ffbc4ae474ac07",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 42244,
+      "sha256": "b165b69e3787a81d5fe45439737b197bd86590baa77a3ad146bdf116fe021430",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 36277,
+      "sha256": "8c963b43d1f2e3506c99779eaf34a845d0607a165e12b57dfc2bd54489dce089",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 39286,
+      "sha256": "588d612d7bc7190602066b02ae6aa6ecb324d97c0cc401fcb01b440af5cacd50",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 46320,
+      "sha256": "21c6166cfa23f6009eab7024a8a47b99c6421972bc87f7d2b16db9dd55b932b1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 38214,
+      "sha256": "384d7c8e48a3a1f6f122ad549037ab53ea087bfab619cf37288f651a4b4f1cab",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 37662,
+      "sha256": "bf8dbd14ae823315e8f45164e66ca96d9e74beb800fe63cdbdfa716e4db079e8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 43044,
+      "sha256": "c70eae8c93cbeb9c1003960c651c2954772a0d8798ce5e3067df07c2ab945297",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 52226,
+      "sha256": "4054b7da9ad64582f679de334778bb1c8a87bc60fffe53cd730f478b60e96479",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 49504,
+      "sha256": "705ad4e304c45dc2c55a69a5c3b3afb8b830e9854d95892d710a200fe3cc5b28",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 174,
+      "sha256": "598442171415fbb1fd14c17e6b9ed7d17999f5d05aefdf48c83b80a5612ec410",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1355,
+      "sha256": "2854d3089d6c15ee1886a680e23dffce265ffce487f35a3d1cfb9a282f9eea58",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2182,
+      "sha256": "8b190755dbdda436cc12d7afe8d978cb0c7bc109e2979e1fe629ba0bb80ba064",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1245,
+      "sha256": "7d90ab7c0e377cb2789d16b08d86b98c22fd06dd2d6adb8f1f13439f0eb3744b",
+      "role": "provenance"
+    }
+  ]
+}

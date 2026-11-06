@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "id": "ph-sweet-potato",
+  "title": "Sweet Potato",
+  "category": "food/vegetables",
+  "style": "realistic",
+  "tags": [
+    "potato",
+    "root",
+    "vegetable",
+    "dirty",
+    "raw",
+    "organic",
+    "polyhaven"
+  ],
+  "batch": "realistic-diverse-01",
+  "acquired_at": "2026-11-06T09:48:04.098456+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/sweet_potato_1k.gltf",
+    "creator": "Jan Martens",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/sweet_potato",
+    "source_id": "sweet_potato",
+    "resolution": "1k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/sweet_potato/sweet_potato_1k.gltf",
+        "bytes": 2778,
+        "sha256": "36a226b95a63b2e22711d75e17818f33f99a17e54737e5469a8c7d2a41896097"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/sweet_potato/sweet_potato.bin",
+        "bytes": 50044,
+        "sha256": "37608ecca6f9a9c2d25bc166819fb56f2a61076247e732852239662d75295f82"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/sweet_potato/sweet_potato_diff_1k.jpg",
+        "bytes": 633542,
+        "sha256": "f236b36b78fd82fa6861c7e256435885bb72c4f4d7c8137989061cdda14a3d69"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/sweet_potato/sweet_potato_nor_gl_1k.jpg",
+        "bytes": 617315,
+        "sha256": "58e724f0cd776b898ab479f49edfae441b5f97d02a4941112f91106898135140"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/sweet_potato/sweet_potato_arm_1k.jpg",
+        "bytes": 465796,
+        "sha256": "74e4d5b33dd0ffa0217a3c65e99e7464d72b16d2c00aafe88d837dd606a6a37a"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/sweet_potato_1k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/sweet_potato_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "sweet_potato_nor_gl"
+    },
+    {
+      "path": "model/textures/sweet_potato_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "sweet_potato_diff"
+    },
+    {
+      "path": "model/textures/sweet_potato_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "sweet_potato_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 1181,
+    "triangles": 2042,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "sweet_potato_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-sweet-potato/model/textures/sweet_potato_diff_1k.jpg"
+      },
+      {
+        "name": "sweet_potato_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-sweet-potato/model/textures/sweet_potato_nor_gl_1k.jpg"
+      },
+      {
+        "name": "sweet_potato_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-sweet-potato/model/textures/sweet_potato_arm_1k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 287,
+      "sha256": "dff4dee949490ece2455d5a686652822485185662d3337c2b835b21398ec7b3d",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 66664,
+      "sha256": "284d97e6c8a899b40bf24ac97bd76b380f4da227dc6d72c0769f8c4faa2c7d91",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/sweet_potato.bin",
+      "bytes": 50044,
+      "sha256": "37608ecca6f9a9c2d25bc166819fb56f2a61076247e732852239662d75295f82",
+      "role": "model"
+    },
+    {
+      "path": "model/sweet_potato_1k.gltf",
+      "bytes": 2778,
+      "sha256": "36a226b95a63b2e22711d75e17818f33f99a17e54737e5469a8c7d2a41896097",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/sweet_potato_arm_1k.jpg",
+      "bytes": 465796,
+      "sha256": "74e4d5b33dd0ffa0217a3c65e99e7464d72b16d2c00aafe88d837dd606a6a37a",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/sweet_potato_diff_1k.jpg",
+      "bytes": 633542,
+      "sha256": "f236b36b78fd82fa6861c7e256435885bb72c4f4d7c8137989061cdda14a3d69",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/sweet_potato_nor_gl_1k.jpg",
+      "bytes": 617315,
+      "sha256": "58e724f0cd776b898ab479f49edfae441b5f97d02a4941112f91106898135140",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 44288,
+      "sha256": "79ecf150ea96811af54ef6472bf37ab66d1812159500ae4811114889ebf215d2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 13711,
+      "sha256": "25a2eb883ec023275fd5c6f209fe5f4110d6c64e2ad2525764aabf5e1e93235f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 264175,
+      "sha256": "85a23146090d363f5825d6e74c1298444397e44bc69685af7a49a201d59184ae",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1155,
+      "sha256": "7fd04dd2d7509fd09cc1ca35a39dccd3e155a5f88ed6075fb41f4cdc6c095139",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 34938,
+      "sha256": "87559216149a35d2dd5a0214405a4a595cd176a7a92098cfc6aea8278810b351",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 36797,
+      "sha256": "4e10c2c8ea1cd7ad01d16beba8d7bb57f566fa1789101a1aeb62f838c12e6036",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 34975,
+      "sha256": "aca7ea8de9ffe9ab1bc297292e19e829be206d74702360b8792cce1461540c20",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 34422,
+      "sha256": "97bc49ac86d4c08ce2f465e9a0cef952bdf0eb265361b6d9c72ebe0bfb1961d8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 37013,
+      "sha256": "53ec9efd7a1ec1e20ba24c2fc985a06d4b443bf19a80f5ae46f9519ddf15a5e2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 38320,
+      "sha256": "a2125ae27bca5feb1b8bfb982b289d3fb629dcdcbcac6a00583d24da016ae6c0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 36944,
+      "sha256": "347592c19d16d76791769652349f5230f6d7ce6dac8835f97f892c16a7d59128",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 33895,
+      "sha256": "18ba9b6c924fda01cad49dcb16241be7cdfef8744c8c821d0790d5f5d42475e4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 41244,
+      "sha256": "f265b79f569603890b92fdefd31d59488ae47760f7f0f3d6d688f655dbc9fad9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 52788,
+      "sha256": "0e5b9dd446040864b25699929476f44f1da5585c364d571a4e9ce38bfe1bd548",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 162,
+      "sha256": "6963ec424a7e0a2efa711f3f8a12d41fd69db548b8f93b11e7e5db18d1d71fcb",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1187,
+      "sha256": "4e5e79e699df375568de98af8430d3099c0d2354f5d82d2243710543e60f7906",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2121,
+      "sha256": "361ed5aee6ee69070a16dd586a6c3cfc0fb77d3e4ffb2a70f6e04a5e1600c2b8",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1073,
+      "sha256": "550dd0f9418cbcc845abd46307063d0656d5c52af807ccb7f16ceb2c9f76d3a7",
+      "role": "provenance"
+    }
+  ]
+}

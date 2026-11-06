@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "id": "ph-life-jacket",
+  "title": "Life Jacket",
+  "category": "industrial/safety",
+  "style": "realistic",
+  "tags": [
+    "flotation device",
+    "life preserver",
+    "ocean",
+    "boat",
+    "single-seat",
+    "fishing",
+    "polyhaven"
+  ],
+  "batch": "realistic-diverse-01",
+  "acquired_at": "2026-11-06T09:43:03.376259+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/life_jacket_1k.gltf",
+    "creator": "PierreB3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/life_jacket",
+    "source_id": "life_jacket",
+    "resolution": "1k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/life_jacket/life_jacket_1k.gltf",
+        "bytes": 2754,
+        "sha256": "675e35acc1cc5de1800a232c11e43692503e3a9e11c4b54435743e74d3f40d6c"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/life_jacket/life_jacket_nor_gl_1k.jpg",
+        "bytes": 770170,
+        "sha256": "66bd07867087a9e8be2af72faa75c5398a4d99c69aef1361fa80429be5dd0ddf"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/life_jacket/life_jacket_diff_1k.jpg",
+        "bytes": 602199,
+        "sha256": "79d3c06a0eeda11f7efecacd4181dfe2bcad51fb55e7d19d608c8c384d406289"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/life_jacket/life_jacket_arm_1k.jpg",
+        "bytes": 695651,
+        "sha256": "318b7769c9a3580ad6477959a505e1e1514bd4b17387e465140683da546d94ad"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/life_jacket/life_jacket.bin",
+        "bytes": 254896,
+        "sha256": "9783682ac219fb4af29e70a1c67d00e80173e9064aee46a97f73e26b7426f94f"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/life_jacket_1k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/life_jacket_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "life_jacket_nor_gl"
+    },
+    {
+      "path": "model/textures/life_jacket_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "life_jacket_diff"
+    },
+    {
+      "path": "model/textures/life_jacket_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "life_jacket_metal-life_jacket_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 6284,
+    "triangles": 8968,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "life_jacket_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-life-jacket/model/textures/life_jacket_diff_1k.jpg"
+      },
+      {
+        "name": "life_jacket_metal-life_jacket_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-life-jacket/model/textures/life_jacket_arm_1k.jpg"
+      },
+      {
+        "name": "life_jacket_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-life-jacket/model/textures/life_jacket_nor_gl_1k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 286,
+      "sha256": "3b6fbe876749f4351ba5d0b85c146fbe8d1c48a222609949d89fa1ade6388cf9",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 66694,
+      "sha256": "68330c37e59d2875b047f97eb6ba4249a38ad0b517c01b6ed67dbd75564645d3",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/life_jacket.bin",
+      "bytes": 254896,
+      "sha256": "9783682ac219fb4af29e70a1c67d00e80173e9064aee46a97f73e26b7426f94f",
+      "role": "model"
+    },
+    {
+      "path": "model/life_jacket_1k.gltf",
+      "bytes": 2754,
+      "sha256": "675e35acc1cc5de1800a232c11e43692503e3a9e11c4b54435743e74d3f40d6c",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/life_jacket_arm_1k.jpg",
+      "bytes": 695651,
+      "sha256": "318b7769c9a3580ad6477959a505e1e1514bd4b17387e465140683da546d94ad",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/life_jacket_diff_1k.jpg",
+      "bytes": 602199,
+      "sha256": "79d3c06a0eeda11f7efecacd4181dfe2bcad51fb55e7d19d608c8c384d406289",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/life_jacket_nor_gl_1k.jpg",
+      "bytes": 770170,
+      "sha256": "66bd07867087a9e8be2af72faa75c5398a4d99c69aef1361fa80429be5dd0ddf",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 25045,
+      "sha256": "8250becf9f32ddb282b2d64cc9b8fc8a70284b97878d860292a5f9734845697f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18574,
+      "sha256": "a19502524b38bd44b3e229a7d3dbc20cd564176b093b522ce5dd727554e5d897",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 197836,
+      "sha256": "125a8ccdecfb17a08538fc2d49bdb9ab367bc0011e6c0f05cfd34814bf0f26fa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1164,
+      "sha256": "c571b04c7cb9c74da4832586b71e8e224df7caec90cd24596554b51d13ba3f8e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 35017,
+      "sha256": "91c090755acb7475f376661aa49a25385efd8a4b048cfe0c1f8a9ba03721e04c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 26792,
+      "sha256": "7b3bea97251f97b93efed3f8151f739becff3e0f2bb31c561d7d547f232d34ec",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 15344,
+      "sha256": "415083590f512a56ce28263e9e368c62f735f1e7af6f6289a1dee4d64c293cb4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 26203,
+      "sha256": "260c74a41ec770fa0673c21eefb2506d68bfbb5b88ee67a13dc35fdbdf0a2dac",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 33528,
+      "sha256": "d9364cb783b7c34e3c09bcb802ef47fd2853133ac578deb83962f0d4f542c3ed",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 26879,
+      "sha256": "2ee34f2415a4e4270502606a2949810cc5d3ee117078bee9e591168832261889",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 16896,
+      "sha256": "ddadb03a40203f3355490d43cec9e89f43cffef5f37672c246919095b379b3bb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 27588,
+      "sha256": "e1394b4fd1be9b0dc930cd0c418fa38197137af2116bd77aa94ffc89a5a9042f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 17189,
+      "sha256": "039dd09e62578712a503d438b48a9e0cfe84516ea1225634ab430859ddf0ffe5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 51360,
+      "sha256": "6b2924e508f722411486da155475d0be546127a8b1cb1f1609a14cb5f14dd503",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 161,
+      "sha256": "4053657d25b22f1c398e098085aa39d3de93f0fd8b0c23d1a1b23ae9502797b0",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1421,
+      "sha256": "32a6ddd395b667fede6c048c502c99aa69c94eb308d08499e33a3c5d99f02fdc",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2117,
+      "sha256": "a3ef2d8e60edf56a79a303966edf783dc40c3eae9999d1080d0207bb8ac6a5e6",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1060,
+      "sha256": "0aa112586e1cad7da6e7ea07d6a7394b3ab717558087d44171d341f541f8a2e6",
+      "role": "provenance"
+    }
+  ]
+}
