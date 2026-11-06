@@ -1,0 +1,55 @@
+{
+  "slug": "excavator",
+  "triangles": 33059,
+  "texture_px": 2048,
+  "triangles_light": 20891,
+  "texture_px_light": 1024,
+  "files": {
+    "glb": {
+      "name": "excavator.glb",
+      "bytes": 2441436
+    },
+    "blend": {
+      "name": "excavator.blend",
+      "bytes": 1997633
+    },
+    "fbx": {
+      "name": "excavator.fbx",
+      "bytes": 4149948
+    },
+    "obj": {
+      "name": "excavator-obj.zip",
+      "bytes": 2272931
+    },
+    "usdz": {
+      "name": "excavator.usdz",
+      "bytes": 3974160
+    },
+    "glb_light": {
+      "name": "excavator-light.glb",
+      "bytes": 1224304
+    },
+    "fbx_light": {
+      "name": "excavator-light.fbx",
+      "bytes": 2296380
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "2.930 x 8.402 x 3.703",
+    "triangles": 33059,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-09-26",
+    "real_size": "crawler excavator (approx. 20 t class), approx. 8.4 x 2.9 x 3.7 m (L x W x H) in this pose, track length 3.9 m",
+    "notes": "front (boom) faces -Y; 'excavator_upper' (house, cab, counterweight) is a separate object with its origin in the slewing ring (rotate around local Z); 'excavator_boom', 'excavator_arm' and 'excavator_bucket' are separate objects with their origins on the joint pins (rotate around local X; a negative angle raises the boom); boom, arm, bucket and the cab windows are children of the upper structure (flat hierarchy: boom, arm and bucket do not follow each other); hydraulic cylinders are split: barrel on the carrying part, rod on the moving part; tracks are static; opaque tinted windows, no interior; no brand, no text",
+    "set": "Cozy Vehicles Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}

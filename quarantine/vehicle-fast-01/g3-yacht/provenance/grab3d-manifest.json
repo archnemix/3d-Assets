@@ -1,0 +1,55 @@
+{
+  "slug": "yacht",
+  "triangles": 23812,
+  "texture_px": 2048,
+  "triangles_light": 14016,
+  "texture_px_light": 1024,
+  "files": {
+    "glb": {
+      "name": "yacht.glb",
+      "bytes": 1426372
+    },
+    "blend": {
+      "name": "yacht.blend",
+      "bytes": 1420446
+    },
+    "fbx": {
+      "name": "yacht.fbx",
+      "bytes": 2810076
+    },
+    "obj": {
+      "name": "yacht-obj.zip",
+      "bytes": 1571165
+    },
+    "usdz": {
+      "name": "yacht.usdz",
+      "bytes": 2444469
+    },
+    "glb_light": {
+      "name": "yacht-light.glb",
+      "bytes": 724092
+    },
+    "fbx_light": {
+      "name": "yacht-light.fbx",
+      "bytes": 1520028
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "5.040 x 19.269 x 9.040",
+    "triangles": 23812,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-09-26",
+    "real_size": "motor yacht with flybridge, approx. 19.2 x 5.0 x 10.2 m (L x W x H incl. swim platform and hardtop)",
+    "notes": "bow faces -Y; sits on its keel at z = 0, add your own water (waterline at 1.0 m: blue boot stripe above the antifouling; swim platform just above the waterline); separate moving parts with origin on their axis: yacht_propeller_port / _starboard (spin around the shafts), yacht_rudder_port / _starboard (turn around Z); opaque tinted windows, no interior; no brand, no text, no name, no flag",
+    "set": "Cozy Boats & Aircraft Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}
