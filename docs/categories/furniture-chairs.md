@@ -2,7 +2,7 @@
 
 Dining chairs, armchairs, stools and lounge chairs
 
-Approved assets: **6**
+Approved assets: **7**
 
 ## Kenney cushioned dining chair
 
@@ -19,6 +19,14 @@ Approved assets: **6**
 - Creator: Fernando Quinn; style: realistic; CC0-1.0
 - 4,280 triangles; 3 texture images
 - [Asset folder](../../assets/furniture/chairs/ph-barber-shop-chair/) · [Metadata](../../assets/furniture/chairs/ph-barber-shop-chair/asset.json) · [All inspection views](../../assets/furniture/chairs/ph-barber-shop-chair/previews/contact-sheet.jpg)
+
+## Mid Century Lounge Chair
+
+![Mid Century Lounge Chair](../../assets/furniture/chairs/ph-mid-century-lounge-chair/previews/orbit-01.jpg)
+
+- Creator: Kuutti Siitonen; style: realistic; CC0-1.0
+- 6,148 triangles; 3 texture images
+- [Asset folder](../../assets/furniture/chairs/ph-mid-century-lounge-chair/) · [Metadata](../../assets/furniture/chairs/ph-mid-century-lounge-chair/asset.json) · [All inspection views](../../assets/furniture/chairs/ph-mid-century-lounge-chair/previews/contact-sheet.jpg)
 
 ## Modern leather armchair
 

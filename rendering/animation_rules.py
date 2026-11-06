@@ -11,6 +11,21 @@ fires for every node whose name it accepts.
 
 import re
 
+# Known hinged node names verified against rendered poses. A generic `_lid`
+# can be a screw cap, and an already-open hinged lid can have a different pivot.
+HINGED_LIDS = frozenset({"drill_press_01_lid", "medical_box_lid", "metal_tool_chest_lid"})
+HINGED_DOORS = frozenset(
+    {
+        "fantasy-mushroom-house_front_door",
+        "large_iron_gate_left_door",
+        "large_iron_gate_right_door",
+        "painted_wooden_cabinet_02_door",
+        "power_box_01_door",
+        "witch-cottage_door",
+    }
+)
+
+
 # Grab3D vehicle manifests document "rotate around local X to roll" and
 # "rotate around local Z to articulate"; hinge parts rotate about the axis their
 # name implies.

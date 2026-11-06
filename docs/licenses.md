@@ -2,7 +2,7 @@
 
 Checked on 2026-11-04. Scope: approved assets under assets/ only.
 
-**308 of 308 approved assets pass every check.**
+**315 of 315 approved assets pass every check.**
 
 Every approved asset is dedicated to the public domain under CC0 1.0. For each one
 that means: no cost, no attribution, commercial use allowed, use and redistribution
@@ -24,6 +24,8 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Modular chainlink fence](../assets/architecture/fences/ph-chainlink-fence/README.md) | `architecture/fences` | James Ray Cock, Amal Kumar (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Forged farm gate latch](../assets/architecture/gates/ph-gate-latch/README.md) | `architecture/gates` | Desktoy (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Ornate cast-iron double gate](../assets/architecture/gates/ph-iron-gate/README.md) | `architecture/gates` | Josh Dean (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Modular Fire Escape](../assets/architecture/outdoor/fire-escapes/ph-modular-fire-escape/README.md) | `architecture/outdoor/fire-escapes` | Juniix (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Modular Wooden Pier](../assets/architecture/outdoor/piers/ph-modular-wooden-pier/README.md) | `architecture/outdoor/piers` | Rico Cilliers (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Steel breastplate with brass trim](../assets/armour/body/g3-breastplate/README.md) | `armour/body` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Great helm with breathing rosettes](../assets/armour/head/g3-great-helm/README.md) | `armour/head` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Plated steel gauntlet](../assets/armour/limbs/g3-gauntlet/README.md) | `armour/limbs` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -136,6 +138,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Realistic red apple](../assets/food/fruit/ph-red-apple/README.md) | `food/fruit` | Oliver Harries (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Kenney sprinkled donut](../assets/food/snacks/kenney-sprinkled-donut/README.md) | `food/snacks` | Kenney (kenney) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Photoscanned ginger root](../assets/food/vegetables/ph-ginger-root/README.md) | `food/vegetables` | Oliver Harries (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Sweet Potato](../assets/food/vegetables/ph-sweet-potato/README.md) | `food/vegetables` | Jan Martens (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Yellow Onion](../assets/food/vegetables/ph-yellow-onion/README.md) | `food/vegetables` | Kuutti Siitonen (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Vintage day bed with quilt](../assets/furniture/beds/ph-day-bed/README.md) | `furniture/beds` | Aron Łyczek (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Gothic four-poster wooden bed](../assets/furniture/beds/ph-gothic-bed/README.md) | `furniture/beds` | Kirill Sannikov (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -144,11 +147,13 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Hand Truck](../assets/furniture/carts/ph-hand-truck/README.md) | `furniture/carts` | Mutanzom3D (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Kenney cushioned dining chair](../assets/furniture/chairs/kenney-cushion-chair/README.md) | `furniture/chairs` | Kenney (kenney) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Vintage barber shop chair](../assets/furniture/chairs/ph-barber-shop-chair/README.md) | `furniture/chairs` | Fernando Quinn (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Mid Century Lounge Chair](../assets/furniture/chairs/ph-mid-century-lounge-chair/README.md) | `furniture/chairs` | Kuutti Siitonen (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Modern leather armchair](../assets/furniture/chairs/ph-modern-armchair/README.md) | `furniture/chairs` | Vibrant Nordic (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Painted wooden dining chair](../assets/furniture/chairs/ph-painted-dining-chair/README.md) | `furniture/chairs` | Kirill Sannikov (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [School Chair 01](../assets/furniture/chairs/ph-schoolchair-01/README.md) | `furniture/chairs` | Ethan Place (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Victorian armchair](../assets/furniture/chairs/ph-victorian-armchair/README.md) | `furniture/chairs` | Kirill Sannikov (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Metal pedestal office desk](../assets/furniture/desks/ph-office-desk/README.md) | `furniture/desks` | Ulan Cabanilla (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [School Desk 01](../assets/furniture/desks/ph-schooldesk-01/README.md) | `furniture/desks` | Ethan Place (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Kenney lounge sofa](../assets/furniture/sofas/kenney-lounge-sofa/README.md) | `furniture/sofas` | Kenney (kenney) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Painted Wooden Sofa](../assets/furniture/sofas/ph-painted-wooden-sofa/README.md) | `furniture/sofas` | Kirill Sannikov (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Victorian leather sofa](../assets/furniture/sofas/ph-victorian-sofa/README.md) | `furniture/sofas` | Fran Calvente (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -157,7 +162,6 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Small painted farmhouse cabinet](../assets/furniture/storage/ph-farmhouse-cabinet/README.md) | `furniture/storage` | Kirill Sannikov (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Carved gothic wooden cabinet](../assets/furniture/storage/ph-gothic-cabinet/README.md) | `furniture/storage` | Kirill Sannikov (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Gothic carved wooden commode](../assets/furniture/storage/ph-gothic-commode/README.md) | `furniture/storage` | Kirill Sannikov (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
-| [Modern Wooden Cabinet](../assets/furniture/storage/ph-modern-wooden-cabinet/README.md) | `furniture/storage` | Patrik Pangerl (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Weathered painted farmhouse cabinet](../assets/furniture/storage/ph-painted-cabinet/README.md) | `furniture/storage` | Kirill Sannikov (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Painted farmhouse wall shelves](../assets/furniture/storage/ph-painted-shelves/README.md) | `furniture/storage` | Kirill Sannikov (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Industrial steel-frame shelving unit](../assets/furniture/storage/ph-steel-frame-shelves/README.md) | `furniture/storage` | James Ray Cock (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -173,10 +177,12 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Industrial plastic storage container](../assets/industrial/containers/ph-plastic-container/README.md) | `industrial/containers` | Galo Benivegna (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Worn red industrial barrel](../assets/industrial/containers/ph-red-barrel/README.md) | `industrial/containers` | Jorge Camacho (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Industrial electrical power box](../assets/industrial/electrical/ph-power-box/README.md) | `industrial/electrical` | Rico Cilliers, Yann Kervran (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Utility Box 01](../assets/industrial/electrical/ph-utility-box-01/README.md) | `industrial/electrical` | James Ray Cock (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Modular Airduct Circular 01](../assets/industrial/hvac/ph-modular-airduct-circular-01/README.md) | `industrial/hvac` | Riley Queen (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Street fire hydrant](../assets/industrial/infrastructure/ph-fire-hydrant/README.md) | `industrial/infrastructure` | Gonçalo Felício (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Ocean Buoy](../assets/industrial/infrastructure/marine/ph-ocean-buoy/README.md) | `industrial/infrastructure/marine` | Mateusz Sadek (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Red fire alarm pull station](../assets/industrial/safety/ph-fire-alarm/README.md) | `industrial/safety` | Slinc (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Life Jacket](../assets/industrial/safety/ph-life-jacket/README.md) | `industrial/safety` | PierreB3D (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Yellow wet floor caution sign](../assets/industrial/safety/ph-wet-floor-sign/README.md) | `industrial/safety` | Fran Calvente (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Worn brass frying pan](../assets/kitchen/cookware/ph-brass-pan/README.md) | `kitchen/cookware` | Rico Cilliers (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Worn brass cooking pot](../assets/kitchen/cookware/ph-brass-pot/README.md) | `kitchen/cookware` | Rico Cilliers (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -265,6 +271,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Vintage brass binoculars](../assets/science/optical/ph-vintage-binoculars/README.md) | `science/optical` | Luke (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Vintage brass microscope](../assets/science/optical/ph-vintage-microscope/README.md) | `science/optical` | Luis José Fernández Rodríguez (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Baseball Bat](../assets/sports/equipment/ph-baseball-bat/README.md) | `sports/equipment` | Enrique Martín (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Garden Hose Wall Mounted 01](../assets/tools/garden/ph-garden-hose-wall-mounted-01/README.md) | `tools/garden` | Kuutti Siitonen (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Vintage adjustable wrench](../assets/tools/hand-tools/ph-adjustable-wrench/README.md) | `tools/hand-tools` | Mateusz Sadek (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Workshop bench vice](../assets/tools/hand-tools/ph-bench-vice/README.md) | `tools/hand-tools` | Yann Kervran, Antanas Kep (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Heavy bolt cutters](../assets/tools/hand-tools/ph-bolt-cutters/README.md) | `tools/hand-tools` | Yann Kervran, Antanas Kep (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -388,7 +395,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 
 ### Poly Haven — `polyhaven`
 
-133 approved assets. Status: **verified**.
+140 approved assets. Status: **verified**.
 
 - Terms: <https://polyhaven.com/license>
 - Pinned evidence: <https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md>
@@ -584,19 +591,19 @@ Every check below is machine-verified by `python -m asset_library license-audit`
 
 | Check | Passing |
 | --- | --- |
-| `cc0_spdx` | 308/308 |
-| `cc0_text_present` | 308/308 |
-| `commercial_use_allowed` | 308/308 |
-| `evidence_recorded` | 308/308 |
-| `free_of_charge` | 308/308 |
-| `license_file_checksummed` | 308/308 |
-| `no_attribution_required` | 308/308 |
-| `no_trademark_warning` | 308/308 |
-| `redistribution_allowed` | 308/308 |
-| `source_terms_verified` | 308/308 |
-| `standalone_resale_permitted` | 308/308 |
-| `textures_included` | 308/308 |
-| `visually_approved` | 308/308 |
+| `cc0_spdx` | 315/315 |
+| `cc0_text_present` | 315/315 |
+| `commercial_use_allowed` | 315/315 |
+| `evidence_recorded` | 315/315 |
+| `free_of_charge` | 315/315 |
+| `license_file_checksummed` | 315/315 |
+| `no_attribution_required` | 315/315 |
+| `no_trademark_warning` | 315/315 |
+| `redistribution_allowed` | 315/315 |
+| `source_terms_verified` | 315/315 |
+| `standalone_resale_permitted` | 315/315 |
+| `textures_included` | 315/315 |
+| `visually_approved` | 315/315 |
 
 ## Evidence per asset
 
@@ -848,6 +855,7 @@ Each row links to the license file stored beside the model and to the exact
 | ph-flower-stinkkruid | [LICENSE.txt](../assets/nature/flowers/ph-flower-stinkkruid/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/flower_stinkkruid) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-flower-ursinia | [LICENSE.txt](../assets/nature/flowers/ph-flower-ursinia/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/flower_ursinia) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-food-pomegranate-01 | [LICENSE.txt](../assets/food/fruit/ph-food-pomegranate-01/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/food_pomegranate_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-garden-hose-wall-mounted-01 | [LICENSE.txt](../assets/tools/garden/ph-garden-hose-wall-mounted-01/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/garden_hose_wall_mounted_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-gate-latch | [LICENSE.txt](../assets/architecture/gates/ph-gate-latch/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/gate_latch_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-ginger-root | [LICENSE.txt](../assets/food/vegetables/ph-ginger-root/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/food_ginger_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-gothic-bed | [LICENSE.txt](../assets/furniture/beds/ph-gothic-bed/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/GothicBed_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
@@ -860,16 +868,19 @@ Each row links to the license file stored beside the model and to the exact
 | ph-iron-gate | [LICENSE.txt](../assets/architecture/gates/ph-iron-gate/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/large_iron_gate) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-kiwi | [LICENSE.txt](../assets/food/fruit/ph-kiwi/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/food_kiwi_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-lemon | [LICENSE.txt](../assets/food/fruit/ph-lemon/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/lemon) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-life-jacket | [LICENSE.txt](../assets/industrial/safety/ph-life-jacket/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/life_jacket) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-lime | [LICENSE.txt](../assets/food/fruit/ph-lime/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/food_lime_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-lychee | [LICENSE.txt](../assets/food/fruit/ph-lychee/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/food_lychee_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-magnifying-glass-01 | [LICENSE.txt](../assets/science/optical/ph-magnifying-glass-01/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/magnifying_glass_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-mantel-clock | [LICENSE.txt](../assets/electronics/clocks/ph-mantel-clock/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/mantel_clock_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-medical-box | [LICENSE.txt](../assets/medical/equipment/ph-medical-box/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/medical_box) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-megaphone | [LICENSE.txt](../assets/electronics/audio/ph-megaphone/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/Megaphone_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-mid-century-lounge-chair | [LICENSE.txt](../assets/furniture/chairs/ph-mid-century-lounge-chair/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/mid_century_lounge_chair) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-modern-armchair | [LICENSE.txt](../assets/furniture/chairs/ph-modern-armchair/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/modern_arm_chair_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-modern-coffee-table | [LICENSE.txt](../assets/furniture/tables/ph-modern-coffee-table/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/modern_coffee_table_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
-| ph-modern-wooden-cabinet | [LICENSE.txt](../assets/furniture/storage/ph-modern-wooden-cabinet/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/modern_wooden_cabinet) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-modular-airduct-circular-01 | [LICENSE.txt](../assets/industrial/hvac/ph-modular-airduct-circular-01/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/modular_airduct_circular_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-modular-fire-escape | [LICENSE.txt](../assets/architecture/outdoor/fire-escapes/ph-modular-fire-escape/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/modular_fire_escape) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-modular-wooden-pier | [LICENSE.txt](../assets/architecture/outdoor/piers/ph-modular-wooden-pier/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/modular_wooden_pier) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-ocean-buoy | [LICENSE.txt](../assets/industrial/infrastructure/marine/ph-ocean-buoy/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/ocean_buoy) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-office-desk | [LICENSE.txt](../assets/furniture/desks/ph-office-desk/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/metal_office_desk) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-old-bed-frame | [LICENSE.txt](../assets/furniture/beds/ph-old-bed-frame/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/old_bed_frame) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
@@ -891,6 +902,7 @@ Each row links to the license file stored beside the model and to the exact
 | ph-rubber-duck-toy | [LICENSE.txt](../assets/toys/figures/ph-rubber-duck-toy/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/rubber_duck_toy) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-rusted-hacksaw | [LICENSE.txt](../assets/tools/hand-tools/ph-rusted-hacksaw/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/rusted_hacksaw) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-schoolchair-01 | [LICENSE.txt](../assets/furniture/chairs/ph-schoolchair-01/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/SchoolChair_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-schooldesk-01 | [LICENSE.txt](../assets/furniture/desks/ph-schooldesk-01/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/SchoolDesk_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-security-camera-wall | [LICENSE.txt](../assets/electronics/security/ph-security-camera-wall/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/security_camera_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-service-pistol | [LICENSE.txt](../assets/weapons/firearms/ph-service-pistol/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/service_pistol) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-shrub-01 | [LICENSE.txt](../assets/nature/flowers/ph-shrub-01/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/shrub_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
@@ -901,9 +913,11 @@ Each row links to the license file stored beside the model and to the exact
 | ph-stick-grenade | [LICENSE.txt](../assets/weapons/explosives/ph-stick-grenade/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/stick_grenade) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-street-lamp-01 | [LICENSE.txt](../assets/lighting/street/ph-street-lamp-01/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/street_lamp_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-street-rat | [LICENSE.txt](../assets/nature/wildlife/ph-street-rat/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/street_rat) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-sweet-potato | [LICENSE.txt](../assets/food/vegetables/ph-sweet-potato/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/sweet_potato) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-tea-set | [LICENSE.txt](../assets/kitchen/tableware/ph-tea-set/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/tea_set_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-tool-chest | [LICENSE.txt](../assets/tools/storage/ph-tool-chest/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/metal_tool_chest) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-ukulele | [LICENSE.txt](../assets/music/instruments/ph-ukulele/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/Ukulele_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-utility-box-01 | [LICENSE.txt](../assets/industrial/electrical/ph-utility-box-01/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/utility_box_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-victorian-armchair | [LICENSE.txt](../assets/furniture/chairs/ph-victorian-armchair/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/ArmChair_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-victorian-sofa | [LICENSE.txt](../assets/furniture/sofas/ph-victorian-sofa/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/sofa_03) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-vintage-binoculars | [LICENSE.txt](../assets/science/optical/ph-vintage-binoculars/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/vintage_binocular) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |

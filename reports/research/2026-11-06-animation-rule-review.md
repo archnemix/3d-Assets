@@ -14,3 +14,15 @@ The existing published `g3-flywheel` has one legacy `wheel_roll` clip targeting
 separate road-wheel action. Its limitation is now exposed in the catalog. Other
 published `wheel_roll` metadata identifies separate wheel nodes, but this check
 alone does not verify their actual animation behavior.
+
+Two other untrusted candidates exposed the same problem in hinge rules: the
+compass lid rotates away from its hinge in the three verification renders, and
+the chemistry set has bottle caps incorrectly treated as hinged lids, with
+multiple clips sharing one name. Both remain quarantined. Hinged-door and lid
+rules now use explicit, previously reviewed part names instead of guessing from
+suffixes. A name match still requires visual motion review.
+
+The `ph-modern-wooden-cabinet` was initially promoted as an exterior prop, but its
+upstream glTF contains three animation tracks. Its motion has not yet been
+inspected, so it was returned to quarantine rather than count an unreviewed
+animated file as approved. The initial review record was corrected accordingly.

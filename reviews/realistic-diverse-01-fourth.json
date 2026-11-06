@@ -1,0 +1,62 @@
+{
+  "batch": "realistic-diverse-01",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "decisions": [
+    {
+      "id": "ph-schooldesk-01",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "A school desk with a wood top, storage shelf and metal legs; all twelve exterior, clay and wireframe views inspected. The silhouette is intact in the supplied renders.",
+      "limitations": [
+        "The geometry report found three zero-area triangles; no visible effect was apparent in the inspection renders.",
+        "The shelf interior is visible from the back, but no interactive adjustment was tested.",
+        "The distributed texture maps are 2K; higher-resolution upstream files are not included.",
+        "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+      ],
+      "contact_sheet_sha256": "462132ab8e109603fc45ab41bc7d47c78c0a4f4583c1bc08364cba87ee901023"
+    },
+    {
+      "id": "ph-modular-wooden-pier",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Modular weathered wooden pier pieces, including planks, posts and an arch; all twelve rendered views show a partial example and separate components.",
+      "limitations": [
+        "This is a modular parts scene with loose pieces, not a single finished watertight pier. Assembly, collisions and navigation have not been tested.",
+        "The distributed texture maps are 1K; higher-resolution upstream files are not included.",
+        "glTF validator reports 12 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+      ],
+      "contact_sheet_sha256": "e0e9af87286e93f80f5298605d86bab7b837541c11de2573a7709af1669ecb6a"
+    },
+    {
+      "id": "ph-modular-fire-escape",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "A set of fire-escape platforms, ladders and railings arranged separately; all twelve rendered inspection views and technical reports reviewed.",
+      "limitations": [
+        "Parts are displayed separately rather than as an assembled escape. Fit, attachment, collisions and navigation have not been tested.",
+        "The distributed texture maps are 1K; higher-resolution upstream files are not included.",
+        "glTF validator reports 7 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+      ],
+      "contact_sheet_sha256": "c69e38571822d8467f6379451b21ea9bc876207e1b0dd94a06074f45df7b527a"
+    }
+  ]
+}

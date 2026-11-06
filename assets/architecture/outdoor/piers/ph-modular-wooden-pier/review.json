@@ -1,0 +1,22 @@
+{
+  "id": "ph-modular-wooden-pier",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Modular weathered wooden pier pieces, including planks, posts and an arch; all twelve rendered views show a partial example and separate components.",
+  "limitations": [
+    "This is a modular parts scene with loose pieces, not a single finished watertight pier. Assembly, collisions and navigation have not been tested.",
+    "The distributed texture maps are 1K; higher-resolution upstream files are not included.",
+    "glTF validator reports 12 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+  ],
+  "contact_sheet_sha256": "e0e9af87286e93f80f5298605d86bab7b837541c11de2573a7709af1669ecb6a",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

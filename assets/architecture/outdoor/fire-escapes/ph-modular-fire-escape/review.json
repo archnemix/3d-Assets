@@ -1,0 +1,22 @@
+{
+  "id": "ph-modular-fire-escape",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "A set of fire-escape platforms, ladders and railings arranged separately; all twelve rendered inspection views and technical reports reviewed.",
+  "limitations": [
+    "Parts are displayed separately rather than as an assembled escape. Fit, attachment, collisions and navigation have not been tested.",
+    "The distributed texture maps are 1K; higher-resolution upstream files are not included.",
+    "glTF validator reports 7 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+  ],
+  "contact_sheet_sha256": "c69e38571822d8467f6379451b21ea9bc876207e1b0dd94a06074f45df7b527a",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

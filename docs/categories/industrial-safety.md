@@ -2,7 +2,7 @@
 
 Signs, alarms and workplace safety equipment
 
-Approved assets: **2**
+Approved assets: **3**
 
 ## Red fire alarm pull station
 
@@ -11,6 +11,14 @@ Approved assets: **2**
 - Creator: Slinc; style: realistic; CC0-1.0
 - 2,705 triangles; 3 texture images
 - [Asset folder](../../assets/industrial/safety/ph-fire-alarm/) · [Metadata](../../assets/industrial/safety/ph-fire-alarm/asset.json) · [All inspection views](../../assets/industrial/safety/ph-fire-alarm/previews/contact-sheet.jpg)
+
+## Life Jacket
+
+![Life Jacket](../../assets/industrial/safety/ph-life-jacket/previews/orbit-01.jpg)
+
+- Creator: PierreB3D; style: realistic; CC0-1.0
+- 8,968 triangles; 3 texture images
+- [Asset folder](../../assets/industrial/safety/ph-life-jacket/) · [Metadata](../../assets/industrial/safety/ph-life-jacket/asset.json) · [All inspection views](../../assets/industrial/safety/ph-life-jacket/previews/contact-sheet.jpg)
 
 ## Yellow wet floor caution sign
 

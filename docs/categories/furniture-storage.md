@@ -2,7 +2,7 @@
 
 Cabinets, commodes, shelving and bookcases
 
-Approved assets: **10**
+Approved assets: **9**
 
 ## Antique Chinese wooden cabinet
 
@@ -43,14 +43,6 @@ Approved assets: **10**
 - Creator: Kirill Sannikov; style: realistic; CC0-1.0
 - 3,897 triangles; 3 texture images
 - [Asset folder](../../assets/furniture/storage/ph-gothic-commode/) · [Metadata](../../assets/furniture/storage/ph-gothic-commode/asset.json) · [All inspection views](../../assets/furniture/storage/ph-gothic-commode/previews/contact-sheet.jpg)
-
-## Modern Wooden Cabinet
-
-![Modern Wooden Cabinet](../../assets/furniture/storage/ph-modern-wooden-cabinet/previews/orbit-01.jpg)
-
-- Creator: Patrik Pangerl; style: realistic; CC0-1.0
-- 24,976 triangles; 3 texture images
-- [Asset folder](../../assets/furniture/storage/ph-modern-wooden-cabinet/) · [Metadata](../../assets/furniture/storage/ph-modern-wooden-cabinet/asset.json) · [All inspection views](../../assets/furniture/storage/ph-modern-wooden-cabinet/previews/contact-sheet.jpg)
 
 ## Weathered painted farmhouse cabinet
 

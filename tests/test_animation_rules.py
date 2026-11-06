@@ -5,7 +5,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "rendering"))
 
-from animation_rules import ROTATION_CLIPS  # noqa: E402
+from animation_rules import HINGED_DOORS, HINGED_LIDS, ROTATION_CLIPS  # noqa: E402
 
 RULES = {name: matcher for name, matcher, _axis, _deg, _frames in ROTATION_CLIPS}
 
@@ -58,3 +58,12 @@ def test_crank_and_gear_and_bit_rules():
     assert RULES["crank_turn"]("moped_crank")
     assert RULES["gear_spin"]("flywheel_gear_ring")
     assert RULES["bit_spin"]("drill_bit")
+
+
+def test_hinged_part_allowlists_exclude_screw_caps_and_unverified_pivots():
+    assert "medical_box_lid" in HINGED_LIDS
+    assert "metal_tool_chest_lid" in HINGED_LIDS
+    assert "chemistry_set_bottle_clear_lid" not in HINGED_LIDS
+    assert "seadogs_compass_lid" not in HINGED_LIDS
+    assert "power_box_01_door" in HINGED_DOORS
+    assert "unknown_box_door" not in HINGED_DOORS

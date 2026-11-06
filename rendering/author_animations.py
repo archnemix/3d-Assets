@@ -7,7 +7,7 @@ self-contained animated GLB beside the untouched original.
 
 Nothing here guesses a skeleton. Every rule below is keyed to an explicit
 upstream contract (Grab3D documents "rotate around local X to roll" and "rotate
-around local Z to articulate") or to an unambiguous hinge part name. Each
+around local Z to articulate") or to a previously verified hinged part name. Each
 authored clip is rendered as a three-frame verification strip so a human can
 confirm the motion before the asset is approved.
 
@@ -23,7 +23,7 @@ import bpy
 from mathutils import Vector
 
 sys.path.insert(0, str(Path(__file__).parent))
-from animation_rules import ROTATION_CLIPS  # noqa: E402
+from animation_rules import HINGED_DOORS, HINGED_LIDS, ROTATION_CLIPS  # noqa: E402
 from scene import (  # noqa: E402
     add_studio_lights,
     bounds,
@@ -43,8 +43,8 @@ FPS = 30
 # against the rendered verification frames. Where the rest pose is open the clip
 # runs from the closed offset back to rest, so it always plays closed -> open.
 HINGE_CLIPS = [
-    ("door_open", lambda n: n.endswith("_door"), "Z", 0.0, 100.0, 60),
-    ("lid_open", lambda n: n.endswith("_lid") and "hinge" not in n, "X", 0.0, -105.0, 60),
+    ("door_open", lambda n: n in HINGED_DOORS, "Z", 0.0, 100.0, 60),
+    ("lid_open", lambda n: n in HINGED_LIDS, "X", 0.0, -105.0, 60),
 ]
 HINGE_CALIBRATION = {
     # Measured from the upstream node quaternion: rest yaw is -109.2 deg, i.e. the
