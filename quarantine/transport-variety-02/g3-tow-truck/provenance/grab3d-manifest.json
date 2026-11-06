@@ -1,0 +1,47 @@
+{
+  "slug": "tow-truck",
+  "triangles": 21468,
+  "texture_px": 2048,
+  "triangles_light": null,
+  "texture_px_light": null,
+  "files": {
+    "glb": {
+      "name": "tow-truck.glb",
+      "bytes": 2159412
+    },
+    "blend": {
+      "name": "tow-truck.blend",
+      "bytes": 1480277
+    },
+    "fbx": {
+      "name": "tow-truck.fbx",
+      "bytes": 3566332
+    },
+    "obj": {
+      "name": "tow-truck-obj.zip",
+      "bytes": 1682606
+    },
+    "usdz": {
+      "name": "tow-truck.usdz",
+      "bytes": 3314906
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "2.689 x 7.910 x 3.239",
+    "triangles": 21468,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-10-06",
+    "real_size": "light tow truck (approx. 7.5 t) with rear crane boom and wheel lift, approx. 7.3 x 2.3 x 2.9 m (L x W x H), wheel diameter 0.9 m",
+    "notes": "front faces -Y; 'tow-truck_boom' (crane boom with cylinder rod) is a separate object with its origin on the boom pin (rotate around local X, a positive angle raises it; the winch rope belongs to the boom); 'tow-truck_hook' (rope, hook block, hook) has its origin at the boom sheave and can be kept hanging; 'tow-truck_underlift' (wheel lift arm with spectacle cradles) is a separate object with its origin on the hinge at the rear frame (rotate around local X, a positive angle raises it); the lift cylinder is split (barrel on the bed, rod on the boom); 4 wheels (rear dual) are separate objects with origin on the axle; two amber beacons on the light bar glow softly; opaque tinted windows, no interior; no brand, no text",
+    "set": "Cozy Construction Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}

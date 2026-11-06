@@ -1,0 +1,47 @@
+{
+  "slug": "crane-truck",
+  "triangles": 29915,
+  "texture_px": 2048,
+  "triangles_light": null,
+  "texture_px_light": null,
+  "files": {
+    "glb": {
+      "name": "crane-truck.glb",
+      "bytes": 2599200
+    },
+    "blend": {
+      "name": "crane-truck.blend",
+      "bytes": 1871518
+    },
+    "fbx": {
+      "name": "crane-truck.fbx",
+      "bytes": 4302316
+    },
+    "obj": {
+      "name": "crane-truck-obj.zip",
+      "bytes": 2158420
+    },
+    "usdz": {
+      "name": "crane-truck.usdz",
+      "bytes": 3938595
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "3.129 x 9.710 x 5.086",
+    "triangles": 29915,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-10-06",
+    "real_size": "3-axle truck-mounted telescopic crane, approx. 10.1 m carrier length, 11.6 x 2.9 x 5.1 m (L x W x H) in this pose, boom 7.4 m retracted, wheel diameter 1.1 m",
+    "notes": "front faces -Y; 'crane-truck_upper' (slewing superstructure with operator cab, engine house, counterweight, luffing cylinder barrel) is a separate object with its origin in the slewing ring (rotate around local Z); 'crane-truck_boom' (telescopic boom with cylinder rod) is a separate object with its origin on the boom foot pin (rotate around local X, a negative angle raises the boom); 'crane-truck_hook' (rope, hook block and hook) has its origin at the head sheave so it can be kept hanging vertically; flat hierarchy (boom and hook do not follow the slewing superstructure automatically, the operator cab windows do); outriggers are shown retracted and static; 6 wheels are separate objects with origin on the axle (rotate around local X to roll); amber beacons glow softly; no brand, no text",
+    "set": "Cozy Construction Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}

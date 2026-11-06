@@ -1,0 +1,47 @@
+{
+  "slug": "e-scooter",
+  "triangles": 14318,
+  "texture_px": 2048,
+  "triangles_light": null,
+  "texture_px_light": null,
+  "files": {
+    "glb": {
+      "name": "e-scooter.glb",
+      "bytes": 774020
+    },
+    "blend": {
+      "name": "e-scooter.blend",
+      "bytes": 616141
+    },
+    "fbx": {
+      "name": "e-scooter.fbx",
+      "bytes": 1391884
+    },
+    "obj": {
+      "name": "e-scooter-obj.zip",
+      "bytes": 553223
+    },
+    "usdz": {
+      "name": "e-scooter.usdz",
+      "bytes": 1245962
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "0.520 x 1.247 x 1.117",
+    "triangles": 14318,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-10-25",
+    "real_size": "electric kick scooter, approx. 1.25 x 0.5 x 1.1 m (L x W x H), 10 in air tires",
+    "notes": "front faces -Y; stands upright on both wheels and its side stand; wheels are separate objects with origin on the axle (rotate around local X to roll); e-scooter_steering (stem, folding hinge, T-bar, grips, display, headlight, fork, front fender) has its origin on the steering axis, tilted 16 deg: rotate around (0, 0.276, 0.961) in Blender Z-up = (0, 0.961, -0.276) in glTF Y-up; e-scooter_kickstand folds up around local X (about +60 deg) at its pivot; display shows abstract bars only, no digits, no brand, no text",
+    "set": "Cozy Vehicles Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}
