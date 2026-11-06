@@ -135,3 +135,15 @@ records 215 zero-area triangles; it requires closer review before any approval. 
 crate-stack preview shows three bare, simple cuboids and should not be represented as
 a richly detailed crate asset. The approved modules are static, untextured and
 stylized; they do not solve the realistic vehicle or enterable building gaps.
+
+## Skyborn caretaker hut: quarantine review
+
+Run `42184203079` downloaded the pinned release payload and rendered it successfully.
+The contact sheet and enlarged oblique show a detailed textured timber-and-stone hut,
+but the render presents the model sideways: the nominal bottom view shows its front
+facade. This orientation needs investigation and correction before publication. The
+interior and actual walkability are not demonstrated by these exterior renders. The
+model has approximately 1.98 million triangles in 1,442 mesh objects, 145 zero-area
+triangles, and the glTF validator reports zero errors but 144 generated-tangent-space
+warnings. It remains quarantined; the job's technical pass is not a quality approval.
+The original 30.7 MB GLB and extracted textures are retained as source evidence.
