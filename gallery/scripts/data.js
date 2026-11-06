@@ -18,9 +18,7 @@ export function filterAssets(assets, filters) {
       .toLowerCase();
     return (
       (!query || text.includes(query)) &&
-      (!filters.category ||
-        asset.category === filters.category ||
-        asset.category.startsWith(`${filters.category}/`)) &&
+      (!filters.category || asset.category === filters.category) &&
       (!filters.style || asset.style === filters.style) &&
       (!filters.rigged || asset.rigged) &&
       (!filters.animated || hasAnimation(asset))
@@ -65,11 +63,7 @@ export function groupByCategory(assets) {
 export function categoryCounts(assets) {
   const counts = new Map();
   for (const asset of assets) {
-    const parts = asset.category.split("/");
-    for (let i = 1; i <= parts.length; i++) {
-      const path = parts.slice(0, i).join("/");
-      counts.set(path, (counts.get(path) ?? 0) + 1);
-    }
+    counts.set(asset.category, (counts.get(asset.category) ?? 0) + 1);
   }
   return new Map([...counts.entries()].sort(([a], [b]) => a.localeCompare(b)));
 }

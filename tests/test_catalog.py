@@ -30,6 +30,7 @@ def library(tmp_path, monkeypatch):
         "geometry": {"triangles": 100, "armatures": []},
         "source": {
             "provider": "polyhaven",
+            "source_id": "test-chair",
             "creator": "Tester",
             "source_url": "https://example.com/test-chair",
         },
@@ -138,3 +139,40 @@ def test_category_page_collision_is_rejected(library, monkeypatch):
     monkeypatch.setattr(catalog, "categories", lambda: {"a/b-c": "One", "a-b/c": "Two"})
     with pytest.raises(ValueError, match="overwrite"):
         catalog.write_category_pages([])
+
+
+def test_catalog_rejects_category_path_disagreement(library, monkeypatch):
+    root, directory, manifest = library
+    manifest["category"] = "furniture/tables"
+    monkeypatch.setattr(catalog, "categories", lambda: {"furniture/tables": "Tables"})
+    write_json(directory / "asset.json", manifest)
+    with pytest.raises(ValueError, match="single category"):
+        catalog.collect()
+
+
+def test_catalog_rejects_duplicate_id_in_another_category(library, monkeypatch):
+    import shutil
+
+    root, directory, manifest = library
+    other = root / "assets" / "furniture" / "tables" / "test-chair"
+    other.parent.mkdir(parents=True)
+    shutil.copytree(directory, other)
+    manifest["category"] = "furniture/tables"
+    write_json(other / "asset.json", manifest)
+    monkeypatch.setattr(
+        catalog, "categories", lambda: {"furniture/chairs": "Chairs", "furniture/tables": "Tables"}
+    )
+    with pytest.raises(ValueError, match="Duplicate asset id"):
+        catalog.collect()
+
+
+def test_catalog_rejects_duplicate_source_under_another_id(library):
+    import shutil
+
+    root, directory, manifest = library
+    other = directory.parent / "test-chair-copy"
+    shutil.copytree(directory, other)
+    manifest["id"] = "test-chair-copy"
+    write_json(other / "asset.json", manifest)
+    with pytest.raises(ValueError, match="Duplicate source asset"):
+        catalog.collect()

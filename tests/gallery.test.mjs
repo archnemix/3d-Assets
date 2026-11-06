@@ -150,7 +150,7 @@ test("manifest carries per-asset license rights and caveats", async () => {
   );
 });
 
-test("parent category filters include descendants but not sibling prefixes", () => {
+test("each category filter counts and returns only its exact subcategory", () => {
   const nested = [
     { ...assets[0], category: "furniture/chairs/office" },
     { ...assets[0], category: "furniture/chairs-extra" },
@@ -161,11 +161,20 @@ test("parent category filters include descendants but not sibling prefixes", () 
     style: "",
     rigged: false,
   };
-  assert.equal(filterAssets(nested, filters).length, 1);
+  assert.equal(filterAssets(nested, filters).length, 0);
+  assert.equal(
+    filterAssets(nested, { ...filters, category: "furniture/chairs/office" })
+      .length,
+    1,
+  );
   const counts = categoryCounts(nested);
-  assert.equal(counts.get("furniture"), 2);
-  assert.equal(counts.get("furniture/chairs"), 1);
+  assert.equal(counts.has("furniture"), false);
+  assert.equal(counts.has("furniture/chairs"), false);
   assert.equal(counts.get("furniture/chairs/office"), 1);
+  assert.equal(
+    [...counts.values()].reduce((sum, count) => sum + count, 0),
+    2,
+  );
 });
 
 test("animated filter includes embedded and separately authored clips", () => {

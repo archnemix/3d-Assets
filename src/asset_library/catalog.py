@@ -65,8 +65,25 @@ def summary(directory, manifest: dict, provider_terms: dict) -> dict:
 def collect() -> list[dict]:
     result = []
     providers = terms()["providers"]
+    known_categories = categories()
+    seen_ids = set()
+    seen_sources = set()
     for path in sorted((ROOT / "assets").rglob("asset.json")):
         manifest = read_json(path)
+        asset_id = manifest["id"]
+        category = manifest["category"]
+        source = manifest["source"]
+        source_key = (source["provider"], source["source_id"])
+        if asset_id in seen_ids:
+            raise ValueError(f"Duplicate asset id in approved catalog: {asset_id}")
+        if source_key in seen_sources:
+            raise ValueError(f"Duplicate source asset in approved catalog: {source_key}")
+        if category not in known_categories:
+            raise ValueError(f"Unknown approved category: {category}")
+        if path.parent != ROOT / "assets" / category / asset_id:
+            raise ValueError(f"Asset directory does not match its single category: {path}")
+        seen_ids.add(asset_id)
+        seen_sources.add(source_key)
         check_review(path.parent, manifest)
         if manifest["license"]["spdx"] != "CC0-1.0":
             raise ValueError(f"Non-CC0 asset inside assets/: {path}")
