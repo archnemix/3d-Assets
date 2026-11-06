@@ -6,6 +6,7 @@ from .grab3d import fetch_grab3d
 from .innerscene import fetch_innerscene
 from .makehuman import fetch_makehuman
 from .oga_locomotive import fetch_oga_locomotive
+from .oga_submersible import fetch_oga_submersible
 from .polyhaven import fetch_polyhaven
 from .research_vintage import fetch_research_vintage
 from .smithsonian_flyer import fetch_smithsonian_flyer
@@ -25,6 +26,7 @@ def fetch(source: dict, candidate: dict, directory) -> dict:
         "grab3d": fetch_grab3d,
         "innerscene": fetch_innerscene,
         "oga-locomotive": fetch_oga_locomotive,
+        "oga-submersible": fetch_oga_submersible,
         "three-d-assets": fetch_three_d_assets,
     }
     try:
