@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "id": "gobkit-jellyfish",
+  "title": "Stylized Jellyfish",
+  "category": "nature/aquatic/stylized",
+  "style": "low-poly",
+  "tags": [
+    "animal",
+    "low-poly",
+    "gobkit",
+    "animated"
+  ],
+  "batch": "gobkit-animals-01",
+  "acquired_at": "2026-11-06T08:56:39.371444+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "gobkit-free",
+    "model": "model/Jellyfish.glb",
+    "creator": "Gobkit / Alsomind Tech Co., Ltd.",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Ariescar/gobkit-free-assets/4e73c68fa6e8ca9d948fcc0ce7215c830a022c3b/LICENSE",
+    "source_url": "https://github.com/Ariescar/gobkit-free-assets/blob/4e73c68fa6e8ca9d948fcc0ce7215c830a022c3b/animal/Jellyfish.glb",
+    "source_id": "animal/Jellyfish.glb",
+    "revision": "4e73c68fa6e8ca9d948fcc0ce7215c830a022c3b",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/Ariescar/gobkit-free-assets/4e73c68fa6e8ca9d948fcc0ce7215c830a022c3b/animal/Jellyfish.glb",
+        "bytes": 66972,
+        "sha256": "b0625fa8a726c594afc47a317b997d98da97b163fe551b15e32262854c99ea46"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Ariescar/gobkit-free-assets/4e73c68fa6e8ca9d948fcc0ce7215c830a022c3b/LICENSE"
+  },
+  "model": "model/Jellyfish.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 1,
+    "skins": 1,
+    "animations": [
+      "clip"
+    ],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/texture-00.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "texture-00"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 1,
+    "vertices": 413,
+    "triangles": 428,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 16,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [
+      {
+        "name": "Root.001",
+        "bones": 16
+      }
+    ],
+    "actions": [
+      "clip_Root.001"
+    ],
+    "images": [
+      {
+        "name": "Image_0",
+        "dimensions": [
+          512,
+          512
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 3,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 628,
+      "sha256": "9c841187ead66a563971fcffe3a92cf2f8d5d4eda0a77cbb695204298bda6f43",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 284,
+      "sha256": "c895c314965f6b19bd983e82ea8fcba590a82e69725cb6dfda4da6b0b85587f4",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 62978,
+      "sha256": "5e8e53d86221e2662b0effcf85c8d4d1783e3f7089cea047e69626fcbe32eaf9",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "13a8b99793ba089c84f4df144fa4bf72282f0ff6e6d5c1cb98630ea56b0eec8e",
+      "role": "logs"
+    },
+    {
+      "path": "model/Jellyfish.glb",
+      "bytes": 66972,
+      "sha256": "b0625fa8a726c594afc47a317b997d98da97b163fe551b15e32262854c99ea46",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 26039,
+      "sha256": "b5598fcccc2ea62c716e201a2f232947b21bf396becf497745a2d6321fb552d6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 19273,
+      "sha256": "33d8f50faaa6d1d2a5ac57541ab994a22e01e069109f487e59075202aded0944",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 185426,
+      "sha256": "9b26be78224e537ecbabff1db200aebc71423608cd4cd7eb5446a40f045ccfbb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 547,
+      "sha256": "964650ea44291ff1706e288a49efe5864094dd27e225ac60ea0d82c570351440",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 23865,
+      "sha256": "24c2cca97efada035ccb6d87ae3036f816fca99c16ec659e262acbc94dc6bbb8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 23555,
+      "sha256": "d1ff5325df3e381decbd9cf6217a06eb6bd95a782c9a5e1cf77bf8b724269694",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 19883,
+      "sha256": "7b430fea61e750ce70bd3f0dc5e29ca8bac8fe59ce24bfa3df9aacbddc409d0c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 20126,
+      "sha256": "b0be2f0dda6e6e74f9ef06b15b518e98740f348b94f6560b9d6a6490b6f5aaa5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 19660,
+      "sha256": "de310efc46f9859de79608b7b2263cdcf328c37d76f082c7da875f35e51d654a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 21448,
+      "sha256": "60e74b5924040d3768b031053470bee891ef25527f8262862a004e338e455eb3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 21746,
+      "sha256": "e680742121c0a135c8b36a6b191d55be1b16be9a0d28c1faac7cce1a44296c81",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 24842,
+      "sha256": "51b86f4a40972e1f8d5a4c030fc75994c8be8cb7f3c69009450a0f2f857ef69c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 16351,
+      "sha256": "e1cf3687260f2054d632573ed0ac85b287d9571f21611a0bedd71765b13bbc17",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 33537,
+      "sha256": "13432f5ac57cf302a693e2c944f6922db2ecd3fa19fa14788768a5f9a07a35ce",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 155,
+      "sha256": "da026b3cfb3af272220c74084df53e49de474fed70173aca8baf184da9b53586",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/github-source.json",
+      "bytes": 350,
+      "sha256": "f60d19e714b774c8ae9656f145214e560ca0cee2a8be2d4848fc10f19518a3b1",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1819,
+      "sha256": "be760084e832c0686f6ae801bc1c1739673fefdb3e65a291d38e9aa3c955ff06",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/upstream-terms.md",
+      "bytes": 4466,
+      "sha256": "40d20f34a905f8e678ad558a33bf2d4e1d83c99748cf5ca1c72661ce18e30ad2",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/texture-00.png",
+      "bytes": 12488,
+      "sha256": "5c9930aba1b78f18551c2df4d9c250d0a7d72eafa6ca72d0d856aec62124ed04",
+      "role": "textures"
+    }
+  ]
+}

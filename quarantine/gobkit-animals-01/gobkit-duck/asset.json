@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "id": "gobkit-duck",
+  "title": "Stylized Duck",
+  "category": "nature/animals/domestic",
+  "style": "low-poly",
+  "tags": [
+    "animal",
+    "low-poly",
+    "gobkit",
+    "animated"
+  ],
+  "batch": "gobkit-animals-01",
+  "acquired_at": "2026-11-06T08:57:32.404078+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "gobkit-free",
+    "model": "model/Duck.glb",
+    "creator": "Gobkit / Alsomind Tech Co., Ltd.",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Ariescar/gobkit-free-assets/4e73c68fa6e8ca9d948fcc0ce7215c830a022c3b/LICENSE",
+    "source_url": "https://github.com/Ariescar/gobkit-free-assets/blob/4e73c68fa6e8ca9d948fcc0ce7215c830a022c3b/animal/Duck.glb",
+    "source_id": "animal/Duck.glb",
+    "revision": "4e73c68fa6e8ca9d948fcc0ce7215c830a022c3b",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/Ariescar/gobkit-free-assets/4e73c68fa6e8ca9d948fcc0ce7215c830a022c3b/animal/Duck.glb",
+        "bytes": 70104,
+        "sha256": "6550a5807bc83edbadec0759155b3d9242b6ce6b980213a3872b49db80dfd579"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Ariescar/gobkit-free-assets/4e73c68fa6e8ca9d948fcc0ce7215c830a022c3b/LICENSE"
+  },
+  "model": "model/Duck.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 1,
+    "skins": 1,
+    "animations": [
+      "clip"
+    ],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/texture-00.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "texture-00"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 1,
+    "vertices": 452,
+    "triangles": 508,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [
+      {
+        "name": "Root.001",
+        "bones": 16
+      }
+    ],
+    "actions": [
+      "clip_Root.001"
+    ],
+    "images": [
+      {
+        "name": "Image_0",
+        "dimensions": [
+          512,
+          512
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 3,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 628,
+      "sha256": "9c841187ead66a563971fcffe3a92cf2f8d5d4eda0a77cbb695204298bda6f43",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 279,
+      "sha256": "e5e6774d9af884701f9e3c86702a6c7bc096712d01f06d6be70aed0345228441",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 62853,
+      "sha256": "b07d8efd0e8a66dc22897f4a2f205c97bc2f5624be634c4b4ca1c4400e299ab5",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "13a8b99793ba089c84f4df144fa4bf72282f0ff6e6d5c1cb98630ea56b0eec8e",
+      "role": "logs"
+    },
+    {
+      "path": "model/Duck.glb",
+      "bytes": 70104,
+      "sha256": "6550a5807bc83edbadec0759155b3d9242b6ce6b980213a3872b49db80dfd579",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 22556,
+      "sha256": "6ba81f9b2e7d07c864fd6490a4bc0eb1e99694de5e81a22ab308616931c984d9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18094,
+      "sha256": "53d3f507d1daa3b95607826f39ff996f40b3166cacd67c9b09f000fc21167381",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 192923,
+      "sha256": "4c15578e8c691314e20b08edd84662624f9bd4f164ac15ba8087c4909b8891e8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 546,
+      "sha256": "6570ad08cb352f01467bc534dff1c36b9fd90efdd10283547133d15802dd5bb6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 27837,
+      "sha256": "1dbd51cc7b58879fca4aea265d19ab6cae4d8aef8eab70907a1c475a84a3d6d0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 25320,
+      "sha256": "2b13adfbaa74f705be1cd1f0dc09904ec1c4ae7a2a95550d75939ef765eb972f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 22754,
+      "sha256": "de34a8f56430293f8764f031b1b458b8d42ce48382cbf54d6709c6298bba7670",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 21770,
+      "sha256": "a102a4371d723ebc2bd6ac02de3f9338cac3a096f6733d0871797080c3320f91",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 22657,
+      "sha256": "551f7496779d508e8e3eac78bbeb581c9fa440beee86dc29c9616a92afcec82c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 23366,
+      "sha256": "bad334f4ded30081182e6a35269061ff1fb9a18558f7f2789a834a6dfbb035e2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 23889,
+      "sha256": "e548ae99783007a8146c78224de5bbb8cc4f62b9f8a4285b4ffe481da299d31e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 26392,
+      "sha256": "dbc39641a3aec50e1c829d788b7f55e63629632cfa4fa6fe4293309d9e0caa9f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 20589,
+      "sha256": "fa5ca44f56d8d2c6cae35bb86d0f7cf900c54ff07996b9e5e0ac8b02a3bb0d2e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 30501,
+      "sha256": "f66077f3ded8f01f30f7ce24a419a74615744616f6da32d98b77897a06f8b95c",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 150,
+      "sha256": "cd63dd0a242f36e1fe5a270703fd1ee0621b454eb08bb3a3f4c2c07fbe3d796c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/github-source.json",
+      "bytes": 345,
+      "sha256": "36faa2432d9b7da9c5502e7c7b6d66f408048a3d69409490027e38214dab2a0f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1814,
+      "sha256": "3403e0c6ed1f6ada527bd5c82768b32e304c3e8f0a7d7403f89a9bdaee8b930e",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/upstream-terms.md",
+      "bytes": 4466,
+      "sha256": "40d20f34a905f8e678ad558a33bf2d4e1d83c99748cf5ca1c72661ce18e30ad2",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/texture-00.png",
+      "bytes": 12488,
+      "sha256": "5c9930aba1b78f18551c2df4d9c250d0a7d72eafa6ca72d0d856aec62124ed04",
+      "role": "textures"
+    }
+  ]
+}
