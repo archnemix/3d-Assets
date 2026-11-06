@@ -1,0 +1,55 @@
+{
+  "slug": "helicopter",
+  "triangles": 38420,
+  "texture_px": 2048,
+  "triangles_light": 23001,
+  "texture_px_light": 1024,
+  "files": {
+    "glb": {
+      "name": "helicopter.glb",
+      "bytes": 1863192
+    },
+    "blend": {
+      "name": "helicopter.blend",
+      "bytes": 1974656
+    },
+    "fbx": {
+      "name": "helicopter.fbx",
+      "bytes": 3843964
+    },
+    "obj": {
+      "name": "helicopter-obj.zip",
+      "bytes": 1915839
+    },
+    "usdz": {
+      "name": "helicopter.usdz",
+      "bytes": 3183948
+    },
+    "glb_light": {
+      "name": "helicopter-light.glb",
+      "bytes": 964264
+    },
+    "fbx_light": {
+      "name": "helicopter-light.fbx",
+      "bytes": 2162412
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "8.848 x 9.503 x 2.935",
+    "triangles": 38420,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-09-26",
+    "real_size": "light helicopter, approx. 9.4 x 2.1 x 2.9 m (L x W x H, fuselage incl. tail boom and skids), main rotor diameter 10.0 m, tail rotor diameter 1.44 m",
+    "notes": "front faces -Y; main rotor (helicopter_main_rotor) is a separate object with origin on the rotor mast axis, spins around Z; tail rotor (helicopter_tail_rotor) is a separate object with origin on its hub, spins around X (mounted on the left side); skids stand on the ground; opaque tinted windows, no interior; neutral emblem, no brand, no text",
+    "set": "Cozy Vehicles Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}

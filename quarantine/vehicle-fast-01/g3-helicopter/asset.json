@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "id": "g3-helicopter",
+  "title": "Light helicopter",
+  "category": "vehicles/aircraft",
+  "style": "stylized",
+  "tags": [
+    "helicopter",
+    "aircraft",
+    "rotor"
+  ],
+  "batch": "vehicle-fast-01",
+  "acquired_at": "2026-11-06T14:07:14.203839+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/helicopter.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/helicopter/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/helicopter/",
+    "source_id": "helicopter",
+    "revision": "8c0d91e0dd9c95a7a3db0bc24fe06a63186fd01aa0dc8e62b167842bc2ecd3aa",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/helicopter/helicopter.glb",
+        "bytes": 1863192,
+        "sha256": "8c0d91e0dd9c95a7a3db0bc24fe06a63186fd01aa0dc8e62b167842bc2ecd3aa"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/helicopter/LICENSE.txt"
+  },
+  "model": "model/helicopter.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 8,
+    "materials": 13,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/helicopter_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "helicopter_body_normal"
+    },
+    {
+      "path": "textures/helicopter_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "helicopter_body_basecolor"
+    },
+    {
+      "path": "textures/helicopter_body_metallic-helicopter_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "helicopter_body_metallic-helicopter_body_roughness"
+    }
+  ],
+  "authored_animations": [
+    {
+      "name": "rotor_spin",
+      "parts": [
+        "helicopter_main_rotor",
+        "helicopter_tail_rotor"
+      ],
+      "axis": "X",
+      "start_degrees": 0.0,
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/helicopter-animated.glb",
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 8,
+    "hidden_mesh_objects": 0,
+    "vertices": 25108,
+    "triangles": 38420,
+    "material_slots": 13,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "helicopter_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "helicopter_body_metallic-helicopter_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "helicopter_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 21816,
+      "sha256": "83e0b7139d2b930ef225982d30142c2f989304dbbdf28f668b15016fbd34ade8",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 78871,
+      "sha256": "46be3a2a343009f619ca5bf4e5abf3a14c6567f2fde2088832252fe4c777a8a7",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "98e238bcb9af43e2826f240aa4666da957ecca96b6e2bd1b166d4bdcf846690a",
+      "role": "logs"
+    },
+    {
+      "path": "model/helicopter-animated.glb",
+      "bytes": 1871420,
+      "sha256": "aa875701657cdec9aaaeecb6c0dac7df270cd43c9d65c9971f45e8609e501607",
+      "role": "model"
+    },
+    {
+      "path": "model/helicopter.glb",
+      "bytes": 1863192,
+      "sha256": "8c0d91e0dd9c95a7a3db0bc24fe06a63186fd01aa0dc8e62b167842bc2ecd3aa",
+      "role": "model"
+    },
+    {
+      "path": "previews/anim-rotor_spin-a.jpg",
+      "bytes": 9250,
+      "sha256": "944ad9b10f4b38e9525ca621c0abed9d133758e14f8a03080c6c1c6bb7cda70f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-rotor_spin-b.jpg",
+      "bytes": 8997,
+      "sha256": "08ed874b054602aac34a195c2de0f0a1796ce87c81e777b18e84d5752300f777",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-rotor_spin-c.jpg",
+      "bytes": 9260,
+      "sha256": "585e9a020529a1e4ab2bf2819f5bcce7fad8aeaaa8dbe7470b83d401b9c4d4ba",
+      "role": "previews"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 19052,
+      "sha256": "8060c1679d2e29dd88878c7f8bf07a66a3fb4f4da88c1de55e2a7281a1a392cb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 19246,
+      "sha256": "92e06becb63aa075d15b214732d1bff21b2e34861c6a03e7ff5029974b5e2bfc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 148727,
+      "sha256": "445f793e18443c3098c17a1431871fa0a5d89f54e2ff27af1c81cb2bdbf0cfcb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 825,
+      "sha256": "ead6fa5461dcd456519173aa36d20a368c454e176c131099fee9b7ef97be91ab",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 16557,
+      "sha256": "f2f550893885dbfe3e3b507c23a9302e2d099fa0aacc274c4b150a0819867e3c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 22043,
+      "sha256": "cd74bdf743e59bb37a8bbf35a5189a686c3a182e60f906639f8078f86297dae9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 18411,
+      "sha256": "056e0fb91c60351d0647ee788bb439b6ab0ddff02de580d977b491fae2cc8ca8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 17715,
+      "sha256": "16dc9faf5dfab89c67d7d7622dc3289d4451db05565b3ed88a73b97b74dcbcc4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 14974,
+      "sha256": "31c3564748661ec55ba5e7a3549c1605ac774d929629304ddc5ea8e9e7a7bdaa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 21044,
+      "sha256": "f0d265cea9d5dd273174e0be7cfb7c227b8c5e66be5192607756b867ff0813ab",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 19854,
+      "sha256": "cd2fe32d9a743b8e2fd8f8773d261b246eeb61ef0c8f52be7b8dd771d8b3270e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 18516,
+      "sha256": "0eb221187f3f51ca418aca8cf913fca84c89f61c13bc429d9b813c39061be9a5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 18294,
+      "sha256": "4800842f6372bf5216e9296af75da19fecb8cf23c4cc5c676bd8a38910454c6a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 30358,
+      "sha256": "737a5852adb90ffc9d5cb3670a8576943b8c2d7c59160f7330543dfd988a2663",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 611,
+      "sha256": "129b73a41ca13698175a97e95b6faf01840d9b77fff16c97adfd0f7a452025e0",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 4192,
+      "sha256": "8808e83b68e7a11197983e041f45e3a79569c7705b4a2ec75844858bd0bf7280",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1841,
+      "sha256": "4b54ad9022d4b28c9266d3fb8dfa42ea146e12b03cd620002554ab8b29293030",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 497,
+      "sha256": "bc9bbf19f0961275374526fad70c6a35b5e46ebe7f97cfd87043073a5522f694",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "580d2429e674e4c320dded5707e4c437473c4eaf48ca0385598eca04456cb8aa",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/helicopter_body_basecolor.jpg",
+      "bytes": 398776,
+      "sha256": "7e6710d8c4aac1134b28856f4df7ac7a7e9c5f44519d07419622531f14dfa0f2",
+      "role": "textures"
+    },
+    {
+      "path": "textures/helicopter_body_metallic-helicopter_body_roughness.jpg",
+      "bytes": 349004,
+      "sha256": "40416a42c55ff2f055800470b162ce9cbeb5f01c4165f75b3edfcacdca73956f",
+      "role": "textures"
+    },
+    {
+      "path": "textures/helicopter_body_normal.jpg",
+      "bytes": 67416,
+      "sha256": "f31b46d1944aed91cec7bf6056100cad45b934a21ad9e92cd2387a46dc694348",
+      "role": "textures"
+    }
+  ]
+}
