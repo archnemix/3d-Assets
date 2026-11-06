@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "id": "si-wright-flyer-1903",
+  "title": "1903 Wright Flyer",
+  "category": "vehicles/aircraft",
+  "style": "realistic",
+  "tags": [
+    "historic",
+    "airplane",
+    "biplane",
+    "museum-scan"
+  ],
+  "batch": "vehicle-flyer-innerscene-02",
+  "acquired_at": "2026-11-06T13:45:14.793431+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "smithsonian-innerscene",
+    "model": "model/wright-flyer.glb",
+    "creator": "Smithsonian Institution (NASM)",
+    "license": "CC0-1.0",
+    "license_evidence": "https://www.innerscene.com/tools/library/3d-parts/1903-wright-flyer-8a6fc0b0",
+    "source_url": "https://www.si.edu/object/nasm_A19610048000",
+    "source_id": "1903-wright-flyer-8a6fc0b0",
+    "revision": "67ef55d50b5c78c11eb7262470728c50d1ce5a6d345ba158ee404c1d5f9514f4",
+    "downloads": [
+      {
+        "url": "https://www.innerscene.com/api/library/1903-wright-flyer-8a6fc0b0/download",
+        "bytes": 6147564,
+        "sha256": "67ef55d50b5c78c11eb7262470728c50d1ce5a6d345ba158ee404c1d5f9514f4"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://www.innerscene.com/tools/library/3d-parts/1903-wright-flyer-8a6fc0b0"
+  },
+  "model": "model/wright-flyer.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 2,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/Image_1.jpg",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "Image_1"
+    },
+    {
+      "path": "textures/Image_0.jpg",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "Image_0"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 130436,
+    "triangles": 149980,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "Image_0",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "Image_1",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 35970,
+      "sha256": "37730fd0be2dba33ff35ffb720f40380a0741590c6756244a9538fc805715741",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 285,
+      "sha256": "6de715e36ff28501bb131b071915e4e37101eb1522ba7a72ef8aa2ba77730bdc",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67335,
+      "sha256": "bd934277ea50d7eef4a8a03363c8f34e3a9b8325f8f51bbfb2795e523631aee1",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/wright-flyer.glb",
+      "bytes": 6147564,
+      "sha256": "67ef55d50b5c78c11eb7262470728c50d1ce5a6d345ba158ee404c1d5f9514f4",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 12745,
+      "sha256": "e38dcda709103288f10e5ba0ac2ceff82165eb27c884cd89f67f7aab5e733424",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 22887,
+      "sha256": "9750fe006fac8352996b9494d7e776fb996f27f1579369a4326d2aa261d8a9fc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 170182,
+      "sha256": "079c334c2ea06eff025edc9e39b52aed7f1db0bf2b87b85064fcda1bc5ffda5e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 611,
+      "sha256": "9609caadcc39d672086be60e75fe9f565d5bebc616d85f186e947adc40144266",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 21141,
+      "sha256": "f91ddae21b6c89651eb461e489acfc47612c78339f71d6cf7a0c22d129ff0d1c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 28020,
+      "sha256": "23f8608d3c483443c6a54682f86849b43b7a7a7a9d2ce59f65cf271b908f33d3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 23460,
+      "sha256": "1762cb9136b85019220d8c94f210020c82c9ec8e66aee5decf7c49cd8455ae84",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 22588,
+      "sha256": "05aab01cbe0738576f2919a2e05ba22b4df8ebb7d1553d78cbafc5fc1cc81f89",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 17938,
+      "sha256": "66f8be9e22d675a5f069a9d47923612aa0bba9f846fc47003e7c07df43fc269d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 21894,
+      "sha256": "6910d812891922ff44a31eb3bb3f9e7cd4028773ce47dfdfadd775e9b7ee19c1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 22980,
+      "sha256": "97b760795a6609e916fc01ced240a964d75bd3ea342d39debf7b408faef306fc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 28132,
+      "sha256": "4aced725831c3d5b1bd10bdd81d050ebd142b0358fc9b2eebfc34dc359dfbc23",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 14771,
+      "sha256": "93bc59eab6816f97b8efb36043653be8b3951ccbe6583cc33a90464ea05af1f8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 32782,
+      "sha256": "557a674b3491fd70a647f1e2996fa1043ec5f3a0b8185dba769d0b81863183f6",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 158,
+      "sha256": "da3c5726c032963270b21986650ab8b6c22211ff78fcf853875369c7d3b3187a",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1699,
+      "sha256": "b588b18b84109bca87aeae867f2dd44a6b0d66f0a82e03416046d24303220101",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/innerscene-page.html",
+      "bytes": 53326,
+      "sha256": "edd54e9eb906e129138fba44612d1ff4644a737166851c834725da98b2e4c4bb",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/mirror.json",
+      "bytes": 367,
+      "sha256": "37353f4b13fd46036e81f2aa381e04abdea0dac233a53f6d8f46c1bad4de882f",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/Image_0.jpg",
+      "bytes": 67378,
+      "sha256": "384cf472d8e6440900a1d063e54f5cc710eb695185eee5cc276f5ce5809472c2",
+      "role": "textures"
+    },
+    {
+      "path": "textures/Image_1.jpg",
+      "bytes": 104870,
+      "sha256": "e74095ec882b1201c1a53a8662b8050d8831cd5115977220419e9620fd0a8e68",
+      "role": "textures"
+    }
+  ]
+}
