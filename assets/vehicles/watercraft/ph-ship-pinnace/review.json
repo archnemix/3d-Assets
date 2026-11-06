@@ -1,0 +1,23 @@
+{
+  "id": "ph-ship-pinnace",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Individually inspected all twelve views: colorful weathered plank hull, carved stern, three masts, furled and billowed sails, rigging, and fitted upper deck. Distinct from the other Dutch merchant ship.",
+  "limitations": [
+    "Uses 1K texture maps, not the upstream 4K version.",
+    "Static shipped glTF contains no animation clips or armature even though upstream may offer a separately rigged format.",
+    "The furnished interior and enterability have not been verified.",
+    "Khronos validator reports seven warnings; see the packaged report."
+  ],
+  "contact_sheet_sha256": "3dfe2ac6179f411f85e01e08dfadcecc3d96bbb38f1a589664dbf071c6e63312",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

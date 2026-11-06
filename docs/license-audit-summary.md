@@ -125,7 +125,7 @@ and they do not replace testing in your target engine.
 The one request this audit could not satisfy. No vetted CC0 provider currently offers
 **photoreal** cars:
 
-- **Poly Haven** has no vehicles category at all (521 models, zero cars).
+- **Poly Haven** offers historical watercraft and vehicle parts, but its reviewed catalog did not yield modern cars.
 - **Grab3D** has 229 vehicles but every one is a stylized "Cozy" kit.
 - **Kenney** vehicles are deliberately low-poly.
 - **Sketchfab** has CC0 concept cars, but downloads need an account and the licence label on

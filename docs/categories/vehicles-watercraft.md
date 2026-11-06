@@ -2,7 +2,7 @@
 
 Boats and sailing ships
 
-Approved assets: **3**
+Approved assets: **5**
 
 ## Container cargo ship
 
@@ -27,3 +27,19 @@ Approved assets: **3**
 - Creator: James Ray Cock, Rico Cilliers, Nicolò Zubbini; style: realistic; CC0-1.0
 - 69,162 triangles; 9 texture images
 - [Asset folder](../../assets/vehicles/watercraft/ph-dutch-merchant-ship/) · [Metadata](../../assets/vehicles/watercraft/ph-dutch-merchant-ship/asset.json) · [All inspection views](../../assets/vehicles/watercraft/ph-dutch-merchant-ship/previews/contact-sheet.jpg)
+
+## Dutch large sailing ship 01
+
+![Dutch large sailing ship 01](../../assets/vehicles/watercraft/ph-dutch-ship-large-01/previews/orbit-01.jpg)
+
+- Creator: James Ray Cock, Rico Cilliers, Nicolò Zubbini; style: realistic; CC0-1.0
+- 110,616 triangles; 9 texture images
+- [Asset folder](../../assets/vehicles/watercraft/ph-dutch-ship-large-01/) · [Metadata](../../assets/vehicles/watercraft/ph-dutch-ship-large-01/asset.json) · [All inspection views](../../assets/vehicles/watercraft/ph-dutch-ship-large-01/previews/contact-sheet.jpg)
+
+## Colonial sailing pinnace
+
+![Colonial sailing pinnace](../../assets/vehicles/watercraft/ph-ship-pinnace/previews/orbit-01.jpg)
+
+- Creator: James Ray Cock, Rico Cilliers, Nicolò Zubbini, Yann Kervran; style: realistic; CC0-1.0
+- 168,317 triangles; 21 texture images
+- [Asset folder](../../assets/vehicles/watercraft/ph-ship-pinnace/) · [Metadata](../../assets/vehicles/watercraft/ph-ship-pinnace/asset.json) · [All inspection views](../../assets/vehicles/watercraft/ph-ship-pinnace/previews/contact-sheet.jpg)

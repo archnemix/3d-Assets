@@ -15,8 +15,29 @@
   "batch": "vehicle-ships-01",
   "acquired_at": "2026-11-06T11:12:21.828929+00:00",
   "review": {
-    "status": "awaiting-visual-review",
-    "approved": false
+    "id": "ph-ship-pinnace",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Individually inspected all twelve views: colorful weathered plank hull, carved stern, three masts, furled and billowed sails, rigging, and fitted upper deck. Distinct from the other Dutch merchant ship.",
+    "limitations": [
+      "Uses 1K texture maps, not the upstream 4K version.",
+      "Static shipped glTF contains no animation clips or armature even though upstream may offer a separately rigged format.",
+      "The furnished interior and enterability have not been verified.",
+      "Khronos validator reports seven warnings; see the packaged report."
+    ],
+    "contact_sheet_sha256": "3dfe2ac6179f411f85e01e08dfadcecc3d96bbb38f1a589664dbf071c6e63312",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
   },
   "source": {
     "provider": "polyhaven",
@@ -596,6 +617,12 @@
       "role": "license"
     },
     {
+      "path": "README.md",
+      "bytes": 1489,
+      "sha256": "a5410b523edf0e3d21e7072144d9adb7d45c47ddbec1d5593f5b75f9aa6ca9b7",
+      "role": "documentation"
+    },
+    {
       "path": "logs/animations.log",
       "bytes": 599,
       "sha256": "c85af096ed379c103a6d75acc4000e613b76f8fa8b414fca7c32638c0682fcfd",
@@ -864,6 +891,12 @@
       "bytes": 5462,
       "sha256": "585470079dbf3aea7c0f1238659f9f824568028e897f55cb5aa7c504b36870cb",
       "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1003,
+      "sha256": "e7687586f24ae7953196107434c5958c06c02a3162b5b53bff31036ba705290c",
+      "role": "documentation"
     }
   ]
 }

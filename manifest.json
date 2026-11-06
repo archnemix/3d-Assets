@@ -15007,6 +15007,100 @@
       ]
     },
     {
+      "id": "ph-dutch-ship-large-01",
+      "title": "Dutch large sailing ship 01",
+      "category": "vehicles/watercraft",
+      "style": "realistic",
+      "tags": [
+        "sailing",
+        "ship",
+        "wooden",
+        "maritime",
+        "historical",
+        "pbr"
+      ],
+      "creator": "James Ray Cock, Rico Cilliers, Nicolò Zubbini",
+      "license": "CC0-1.0",
+      "license_notes": [],
+      "resale_as_is": "The license page states the assets can be redistributed, including inside a product you sell.",
+      "source_url": "https://polyhaven.com/a/dutch_ship_large_01",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/vehicles/watercraft/ph-dutch-ship-large-01",
+      "metadata": "assets/vehicles/watercraft/ph-dutch-ship-large-01/asset.json",
+      "metadata_sha256": "ebc26621e3de0b507597900362d577aac1a8a1852e272cd1edfe476c777bca22",
+      "model": "assets/vehicles/watercraft/ph-dutch-ship-large-01/model/dutch_ship_large_01_1k.gltf",
+      "preview": "assets/vehicles/watercraft/ph-dutch-ship-large-01/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/watercraft/ph-dutch-ship-large-01/previews/contact-sheet.jpg",
+      "triangles": 110616,
+      "texture_count": 9,
+      "max_texture_resolution": 1024,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Uses 1K texture maps, not the upstream 4K version.",
+        "Static shipped glTF: no animation clips or armature; sail and rigging are fixed.",
+        "No interior access or onboard controls were verified.",
+        "Khronos validator reports three warnings; see the packaged report."
+      ]
+    },
+    {
+      "id": "ph-ship-pinnace",
+      "title": "Colonial sailing pinnace",
+      "category": "vehicles/watercraft",
+      "style": "realistic",
+      "tags": [
+        "sailing",
+        "ship",
+        "wooden",
+        "maritime",
+        "historical",
+        "pbr"
+      ],
+      "creator": "James Ray Cock, Rico Cilliers, Nicolò Zubbini, Yann Kervran",
+      "license": "CC0-1.0",
+      "license_notes": [],
+      "resale_as_is": "The license page states the assets can be redistributed, including inside a product you sell.",
+      "source_url": "https://polyhaven.com/a/ship_pinnace",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/vehicles/watercraft/ph-ship-pinnace",
+      "metadata": "assets/vehicles/watercraft/ph-ship-pinnace/asset.json",
+      "metadata_sha256": "7b4252dca49f99daf418fc2c856c6d339d93458a27c3fae87f684a6009dd59f6",
+      "model": "assets/vehicles/watercraft/ph-ship-pinnace/model/ship_pinnace_1k.gltf",
+      "preview": "assets/vehicles/watercraft/ph-ship-pinnace/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/watercraft/ph-ship-pinnace/previews/contact-sheet.jpg",
+      "triangles": 168317,
+      "texture_count": 21,
+      "max_texture_resolution": 1024,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Uses 1K texture maps, not the upstream 4K version.",
+        "Static shipped glTF contains no animation clips or armature even though upstream may offer a separately rigged format.",
+        "The furnished interior and enterability have not been verified.",
+        "Khronos validator reports seven warnings; see the packaged report."
+      ]
+    },
+    {
       "id": "ph-cannon",
       "title": "Colonial ship cannon",
       "category": "weapons/artillery",
@@ -15869,7 +15963,7 @@
     }
   ],
   "totals": {
-    "assets": 333,
+    "assets": 335,
     "categories": 96,
     "by_category": {
       "apparel/accessories": 1,
@@ -15962,7 +16056,7 @@
       "vehicles/parts": 6,
       "vehicles/rail": 5,
       "vehicles/trucks": 1,
-      "vehicles/watercraft": 3,
+      "vehicles/watercraft": 5,
       "weapons/artillery": 1,
       "weapons/explosives": 1,
       "weapons/firearms": 2,
@@ -15971,7 +16065,7 @@
     },
     "by_style": {
       "low-poly": 26,
-      "realistic": 214,
+      "realistic": 216,
       "stylized": 93
     }
   }

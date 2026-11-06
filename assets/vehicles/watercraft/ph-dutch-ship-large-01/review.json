@@ -1,0 +1,23 @@
+{
+  "id": "ph-dutch-ship-large-01",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Individually inspected all twelve views: detailed wood-planked hull, high stern gallery, bowsprit, rigging and weathered sails. Distinct larger, higher-stern design compared with the existing medium merchant ship.",
+  "limitations": [
+    "Uses 1K texture maps, not the upstream 4K version.",
+    "Static shipped glTF: no animation clips or armature; sail and rigging are fixed.",
+    "No interior access or onboard controls were verified.",
+    "Khronos validator reports three warnings; see the packaged report."
+  ],
+  "contact_sheet_sha256": "d520231550957c75ee87de6a176ce21d863bc2caf4876fef9f9295f319870196",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

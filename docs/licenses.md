@@ -2,7 +2,7 @@
 
 Checked on 2026-11-04. Scope: approved assets under assets/ only.
 
-**333 of 333 approved assets pass every check.**
+**335 of 335 approved assets pass every check.**
 
 Every approved asset is dedicated to the public domain under CC0 1.0. For each one
 that means: no cost, no attribution, commercial use allowed, use and redistribution
@@ -334,6 +334,8 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Container cargo ship](../assets/vehicles/watercraft/g3-cargo-ship/README.md) | `vehicles/watercraft` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Three-masted galleon](../assets/vehicles/watercraft/g3-galleon/README.md) | `vehicles/watercraft` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Dutch merchant sailing ship](../assets/vehicles/watercraft/ph-dutch-merchant-ship/README.md) | `vehicles/watercraft` | James Ray Cock, Rico Cilliers, Nicolò Zubbini (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Dutch large sailing ship 01](../assets/vehicles/watercraft/ph-dutch-ship-large-01/README.md) | `vehicles/watercraft` | James Ray Cock, Rico Cilliers, Nicolò Zubbini (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Colonial sailing pinnace](../assets/vehicles/watercraft/ph-ship-pinnace/README.md) | `vehicles/watercraft` | James Ray Cock, Rico Cilliers, Nicolò Zubbini, Yann Kervran (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Colonial ship cannon](../assets/weapons/artillery/ph-cannon/README.md) | `weapons/artillery` | Yann Kervran, James Ray Cock (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [WW2 wooden stick grenade](../assets/weapons/explosives/ph-stick-grenade/README.md) | `weapons/explosives` | singaii (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Weathered bolt-action 7.62 rifle](../assets/weapons/firearms/ph-bolt-action-rifle/README.md) | `weapons/firearms` | Mateusz Sadek (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -413,7 +415,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 
 ### Poly Haven — `polyhaven`
 
-158 approved assets. Status: **verified**.
+160 approved assets. Status: **verified**.
 
 - Terms: <https://polyhaven.com/license>
 - Pinned evidence: <https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md>
@@ -609,19 +611,19 @@ Every check below is machine-verified by `python -m asset_library license-audit`
 
 | Check | Passing |
 | --- | --- |
-| `cc0_spdx` | 333/333 |
-| `cc0_text_present` | 333/333 |
-| `commercial_use_allowed` | 333/333 |
-| `evidence_recorded` | 333/333 |
-| `free_of_charge` | 333/333 |
-| `license_file_checksummed` | 333/333 |
-| `no_attribution_required` | 333/333 |
-| `no_trademark_warning` | 333/333 |
-| `redistribution_allowed` | 333/333 |
-| `source_terms_verified` | 333/333 |
-| `standalone_resale_permitted` | 333/333 |
-| `textures_included` | 333/333 |
-| `visually_approved` | 333/333 |
+| `cc0_spdx` | 335/335 |
+| `cc0_text_present` | 335/335 |
+| `commercial_use_allowed` | 335/335 |
+| `evidence_recorded` | 335/335 |
+| `free_of_charge` | 335/335 |
+| `license_file_checksummed` | 335/335 |
+| `no_attribution_required` | 335/335 |
+| `no_trademark_warning` | 335/335 |
+| `redistribution_allowed` | 335/335 |
+| `source_terms_verified` | 335/335 |
+| `standalone_resale_permitted` | 335/335 |
+| `textures_included` | 335/335 |
+| `visually_approved` | 335/335 |
 
 ## Evidence per asset
 
@@ -866,6 +868,7 @@ Each row links to the license file stored beside the model and to the exact
 | ph-dining-table | [LICENSE.txt](../assets/furniture/tables/ph-dining-table/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/dining_table) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-drill-press | [LICENSE.txt](../assets/tools/power-tools/ph-drill-press/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/drill_press_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-dutch-merchant-ship | [LICENSE.txt](../assets/vehicles/watercraft/ph-dutch-merchant-ship/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/dutch_ship_medium) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-dutch-ship-large-01 | [LICENSE.txt](../assets/vehicles/watercraft/ph-dutch-ship-large-01/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/dutch_ship_large_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-enamel-pot | [LICENSE.txt](../assets/kitchen/cookware/ph-enamel-pot/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/pot_enamel_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-encyclopedia-set | [LICENSE.txt](../assets/decor/books/ph-encyclopedia-set/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/book_encyclopedia_set_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-farmhouse-cabinet | [LICENSE.txt](../assets/furniture/storage/ph-farmhouse-cabinet/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/painted_wooden_cabinet_02) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
@@ -935,6 +938,7 @@ Each row links to the license file stored beside the model and to the exact
 | ph-schooldesk-01 | [LICENSE.txt](../assets/furniture/desks/ph-schooldesk-01/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/SchoolDesk_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-security-camera-wall | [LICENSE.txt](../assets/electronics/security/ph-security-camera-wall/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/security_camera_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-service-pistol | [LICENSE.txt](../assets/weapons/firearms/ph-service-pistol/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/service_pistol) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-ship-pinnace | [LICENSE.txt](../assets/vehicles/watercraft/ph-ship-pinnace/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/ship_pinnace) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-shrub-01 | [LICENSE.txt](../assets/nature/flowers/ph-shrub-01/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/shrub_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-side-table | [LICENSE.txt](../assets/furniture/tables/ph-side-table/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/side_table_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-sledgehammer-01 | [LICENSE.txt](../assets/tools/hand-tools/ph-sledgehammer-01/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/sledgehammer_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
