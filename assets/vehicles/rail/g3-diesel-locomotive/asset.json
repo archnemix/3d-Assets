@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "id": "g3-diesel-locomotive",
+  "title": "Centre-cab diesel locomotive",
+  "category": "vehicles/rail",
+  "style": "stylized",
+  "tags": [
+    "train",
+    "locomotive",
+    "diesel",
+    "rail",
+    "bogie"
+  ],
+  "batch": "expansion-12",
+  "acquired_at": "2026-11-05T00:06:35.344961+00:00",
+  "review": {
+    "id": "g3-diesel-locomotive",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. Centre-cab diesel shunter with two long hoods, cream cab roof, body-side louvre grilles, walkway handrails on both sides, roof fans and horns, headlight and marker lenses, buffers and couplers at both ends, and two three-axle bogies with modelled brake gear. The underside view shows a complete chassis, fuel tank and bogie frames rather than a hollow shell. Both ends are fully modelled and the model is symmetric as a centre-cab unit should be. No operator name, number or logo anywhere.",
+    "limitations": [
+      "Stylised Cozy-kit palette rather than photoreal materials.",
+      "Wheels and bogies are part of the single body mesh, so unlike the Grab3D road vehicles this cannot be given a wheel-roll clip without separating the mesh.",
+      "Cab interior is not modelled; the window glass is a separate opaque-ish lens node."
+    ],
+    "contact_sheet_sha256": "4c5654179dcc54d86501e5f64693f21bd8d98f4ea530dde4821e0c5e98dac2f2",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/diesel-locomotive.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/diesel-locomotive/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/diesel-locomotive/",
+    "source_id": "diesel-locomotive",
+    "revision": "efadda3c9e42c4f39bac0c7e334a2075aad2b543309d575a65a44a3c86ea1935",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/diesel-locomotive/diesel-locomotive.glb",
+        "bytes": 2130196,
+        "sha256": "efadda3c9e42c4f39bac0c7e334a2075aad2b543309d575a65a44a3c86ea1935"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/diesel-locomotive/LICENSE.txt"
+  },
+  "model": "model/diesel-locomotive.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 4,
+    "materials": 4,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_materials_emissive_strength"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/diesel-locomotive_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "diesel-locomotive_body_normal"
+    },
+    {
+      "path": "textures/diesel-locomotive_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "diesel-locomotive_body_basecolor"
+    },
+    {
+      "path": "textures/diesel-locomotive_body_metallic-diesel-locomotive_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "diesel-locomotive_body_metallic-diesel-locomotive_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 4,
+    "hidden_mesh_objects": 0,
+    "vertices": 34917,
+    "triangles": 34616,
+    "material_slots": 4,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 144,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "diesel-locomotive_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "diesel-locomotive_body_metallic-diesel-locomotive_body_roughnes",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "diesel-locomotive_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1442,
+      "sha256": "a05dec36324e6299a5c8e83857f9c4aaf07c95c2032007980253586abc6dd966",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 510,
+      "sha256": "be0937a95d3f7ac7442c8e60f398a82ceb4822444354d57e89ff3e8ee0615d87",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 71677,
+      "sha256": "2586cca95a38703ba0058c9654bc9ab592038a7d0c86838ce0210b7ccb1bb9d4",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "c2c7e1623cc8de0ed1fe35ab328504d5a1e7fa61bee9e68fa9c82b310a1975f2",
+      "role": "logs"
+    },
+    {
+      "path": "model/diesel-locomotive.glb",
+      "bytes": 2130196,
+      "sha256": "efadda3c9e42c4f39bac0c7e334a2075aad2b543309d575a65a44a3c86ea1935",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 16955,
+      "sha256": "36b002e4fae6ccc701afdee6c81d462937b6670908db50b8401b56732fe683e5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 22038,
+      "sha256": "accd160ef708247301e52aebd4f236a94c20a19573b0780bc258a8d41a009d21",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 206555,
+      "sha256": "4c5654179dcc54d86501e5f64693f21bd8d98f4ea530dde4821e0c5e98dac2f2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 853,
+      "sha256": "408e85e11c9c7d9ef0db5d9b2dcd3d5242c822f6213983a4fe0cc21b439f14ea",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 30114,
+      "sha256": "cbf7016b5faf707915eb258e4387673b9c9889e9def871d0e0edb86fd6282cf5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 33548,
+      "sha256": "396965c93cdaabdfc6c0f1b0ce06177effb8bc39dc5af67af1b897e4f1cecc1a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 24416,
+      "sha256": "47e16c226782ab31eca91a9fd5cd7e96a6c8dbbc93bf5cc0fde3f268eb98b50d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 33534,
+      "sha256": "15ae55bb0bcf90a3758c900a3ca99069de75de34b708d03898e5e06223d72e00",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 28946,
+      "sha256": "1221fcf9e423e2ac5ad2862ff512c8c1d606d5c232b66278c12d66b5b42716e1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 34062,
+      "sha256": "402aadf39ceeb4fdc806a9fc515dd210c1ecf137fc82f4796a69f8bf73fa7187",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 25667,
+      "sha256": "d624a0dba9ae49a9d573c5c413abe4f3c47cc078c6362d5b53744bcc10b86845",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 34326,
+      "sha256": "1b73228e0506ca0bed7166a2577b1bd04185270b75abbaf258dc8c7ede8c2482",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 17684,
+      "sha256": "f116498137469a065834755902d285b20ab9f20157f0e500a4091092ae2f2512",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 42395,
+      "sha256": "814ad0d971232955a6f76c74bcd906d8ca2a48dc49d4d117c1fc67ade14e2b46",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 163,
+      "sha256": "753f9cd20aa018a65ac2d44599de9d7a2cdc5bfa36140f4793dcbe791abfe9d8",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2575,
+      "sha256": "148e125860f2a3cfe4a4042142f6640339a9167fe6700b8cb3f5a766c8b82a59",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1796,
+      "sha256": "dc62f059bb1f0fc867c5a97cd22b2f118382659f3cb257a08eb835d2b8389de8",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 532,
+      "sha256": "b369139fca572c5449c35069107cf734e1973b06eaa4db9e758ba71feb27fbba",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "173f16c96f49cc991a35925dd03ac269835b6593a8a9c40860c4daf3e0fef97c",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1308,
+      "sha256": "91d617db1c38c782ab16d7e9f61c79422cfe9b99ec1fa282f95977cb0e10a939",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/diesel-locomotive_body_basecolor.jpg",
+      "bytes": 410077,
+      "sha256": "c77492f891fecfd47240171f308b6ce2864c1316f21df490379a15d5561628c8",
+      "role": "textures"
+    },
+    {
+      "path": "textures/diesel-locomotive_body_metallic-diesel-locomotive_body_roughness.jpg",
+      "bytes": 303792,
+      "sha256": "18e78686f06942ae3b3f6194ad87006b0169dfefe1e396dc6f6a4501f11b9818",
+      "role": "textures"
+    },
+    {
+      "path": "textures/diesel-locomotive_body_normal.jpg",
+      "bytes": 85203,
+      "sha256": "4480ad4ebd239701b2fb2b5d69bc835a8525fb8b2a5135f88021490fa9ff6ddd",
+      "role": "textures"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "grab3d-samurai",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "All 12 views inspected. Samurai in red lacquered lamellar armour with gold trim: crested kabuto helmet, shoulder guards, cuirass, skirt plates, armoured sleeves, greaves and split-toe footwear, plus a sheathed katana at the hip. Individual lacing rows and plate overlaps stay legible from the rear and top. Face is visible beneath the helmet with moustache and beard. 295k tris. Rig is stronger than the others: 54 bones including fingers, with walk and run clips and zero unweighted vertices.",
+  "limitations": [
+    "AI-assisted origin (Meshy) is disclosed upstream.",
+    "Armour plates are skinned to the body rather than separately articulated, so plates will deform with the limbs.",
+    "The katana is part of the skinned mesh and is not a separate prop."
+  ],
+  "contact_sheet_sha256": "05161f3accfb7d1b7560f801f6bfec545217ebe760e531aa48d33cbb7bd9b471",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

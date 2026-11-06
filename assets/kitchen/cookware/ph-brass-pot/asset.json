@@ -1,0 +1,360 @@
+{
+  "schema_version": 1,
+  "id": "ph-brass-pot",
+  "title": "Worn brass cooking pot",
+  "category": "kitchen/cookware",
+  "style": "realistic",
+  "tags": [
+    "kitchen",
+    "pot",
+    "cookware",
+    "brass",
+    "wood",
+    "pbr"
+  ],
+  "batch": "expansion-08",
+  "acquired_at": "2026-11-04T17:22:20.102819+00:00",
+  "review": {
+    "id": "ph-brass-pot",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. Wide brass pot with a genuinely hollow copper-lined interior, confirmed in the top view, two modelled side lugs and a rolled rim. The copper interior and tarnished brass exterior read as clearly different metals in every orbit, and the bottom view shows a properly closed base. 3.3k tris.",
+    "limitations": [
+      "No lid is included.",
+      "Interior copper is highly reflective and needs an environment map."
+    ],
+    "contact_sheet_sha256": "91b506b492a94b027510d7e558e77d7d4bef9fba7f77a07ca50443b2eddb44d5",
+    "reviewer": "arena-agent-visual-review",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/brass_pot_02_2k.gltf",
+    "creator": "Rico Cilliers",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/brass_pot_02",
+    "source_id": "brass_pot_02",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/brass_pot_02/brass_pot_02_2k.gltf",
+        "bytes": 2683,
+        "sha256": "0fa2ff912920d0f6448fa36a7fd18294e3670521390d98abbee12fa7a71c680b"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/brass_pot_02/brass_pot_02.bin",
+        "bytes": 86816,
+        "sha256": "11f32d175485d541850f96e7a84fedd057ba564bfbf7c25d471b67db0a7b85d9"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/brass_pot_02/brass_pot_02_diff_2k.jpg",
+        "bytes": 1884685,
+        "sha256": "766cfaf73bd3dc8cf24de764d06cf002f1c5a06b4cf8e962e6e5f720ba2236f9"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/brass_pot_02/brass_pot_02_arm_2k.jpg",
+        "bytes": 1589716,
+        "sha256": "39fd42ac4bfd7b67d01155d47a3fa96a4afb03d4e699d847ec8b785d24e6cf0d"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/brass_pot_02/brass_pot_02_nor_gl_2k.jpg",
+        "bytes": 1199123,
+        "sha256": "80c65eb7cc2da07b57cc46cb0ed4d805ae2c43085ef27643015aa637e132703c"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/brass_pot_02_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/brass_pot_02_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "brass_pot_02_nor_gl"
+    },
+    {
+      "path": "model/textures/brass_pot_02_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "brass_pot_02_diff"
+    },
+    {
+      "path": "model/textures/brass_pot_02_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "brass_pot_02_metal-brass_pot_02_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 2086,
+    "triangles": 3344,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "brass_pot_02_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-brass-pot/model/textures/brass_pot_02_diff_2k.jpg"
+      },
+      {
+        "name": "brass_pot_02_metal-brass_pot_02_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-brass-pot/model/textures/brass_pot_02_arm_2k.jpg"
+      },
+      {
+        "name": "brass_pot_02_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-brass-pot/model/textures/brass_pot_02_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1216,
+      "sha256": "deb17bf3671ae19a6658d138e5ad063c02b05f955ed118698acbebd335bd0317",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 287,
+      "sha256": "15c6e4160d2fc57d1ef3b9f3dda92054d2557ed394fa786600929f47b684b76b",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67521,
+      "sha256": "357dbeaa79768c0d5abf951883837ad01ff269b6d76d1a94b350e4d01ee12369",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/brass_pot_02.bin",
+      "bytes": 86816,
+      "sha256": "11f32d175485d541850f96e7a84fedd057ba564bfbf7c25d471b67db0a7b85d9",
+      "role": "model"
+    },
+    {
+      "path": "model/brass_pot_02_2k.gltf",
+      "bytes": 2683,
+      "sha256": "0fa2ff912920d0f6448fa36a7fd18294e3670521390d98abbee12fa7a71c680b",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/brass_pot_02_arm_2k.jpg",
+      "bytes": 1589716,
+      "sha256": "39fd42ac4bfd7b67d01155d47a3fa96a4afb03d4e699d847ec8b785d24e6cf0d",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/brass_pot_02_diff_2k.jpg",
+      "bytes": 1884685,
+      "sha256": "766cfaf73bd3dc8cf24de764d06cf002f1c5a06b4cf8e962e6e5f720ba2236f9",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/brass_pot_02_nor_gl_2k.jpg",
+      "bytes": 1199123,
+      "sha256": "80c65eb7cc2da07b57cc46cb0ed4d805ae2c43085ef27643015aa637e132703c",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 37065,
+      "sha256": "0595e668ffb891771aba8272f362d826b2b796fe71725f847952771586f91100",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 15176,
+      "sha256": "dafe0f753600c970ea3f98814a19052902f70069d8e7e31f6d4be033fb7b71a9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 245173,
+      "sha256": "91b506b492a94b027510d7e558e77d7d4bef9fba7f77a07ca50443b2eddb44d5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1141,
+      "sha256": "7002162e703c901747fdec4241718f238b94ea59f90dfea9de4b68e531186db2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 29120,
+      "sha256": "d616e93b6570030ac4726223547cf6b3349eb34ce2c6ad0c52198ec3b06b78d7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 34737,
+      "sha256": "8eab7e5cd566d5a083a24c3c636e7ffd1a505116a24e9b08681f9efe5e4391c7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 34979,
+      "sha256": "99e1a7bf82127687a468e383e48e28b55d270c4b48b6f7917876b0b0460ada86",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 35420,
+      "sha256": "25b60108d9b537ac6755cb2330f00b6c19be81790008f0cb9a7203a1ec1644de",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 29367,
+      "sha256": "7f6c9d780235a9613456a0f8a2e94bfd0efa4f9ae2a0ae8ec0300049429dbda8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 36191,
+      "sha256": "4b48297b15708c78a2da0065dbeec40ba5b7140dd3689d51fe9e941b68d901c3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 37160,
+      "sha256": "7c7fd44621e407254d646a58ac546703b1cf09ee2f9b80da14daa95bd23c817a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 35177,
+      "sha256": "d7e6690b1ea965894a5620440c7f4b6222c4bf94152ccc1071dcbe50ccbaa890",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 38122,
+      "sha256": "b305f38a07c78730e4aede3406ca649402756b9bd9a2291c49855117161369d1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 38668,
+      "sha256": "21e30c6d595b4347f383301d76bb935e018484e37695c5ccef2f15ce8b070f11",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 162,
+      "sha256": "3b1430ab2e61f83f542f5e41dd664b6c7dee12896bea734ac85d0a7c1d81842c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1182,
+      "sha256": "6fb32f7df28fb677bba22927d0504103b7dcbfc172bac5b56c00761394932eff",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3029,
+      "sha256": "94b2674a75b0c1763378c49f176dc971a2a995ed4c260978bb53ddd92afd06bc",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1076,
+      "sha256": "309fdff4a49f51a229e961ac5af0c7c5809b6e413d1aa260c8fc6e81e210445e",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 896,
+      "sha256": "dfbaf7cd134c7a56b48257c47cee607e0412a70a68b6998db94471c148afa1b5",
+      "role": "documentation"
+    }
+  ]
+}

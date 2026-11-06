@@ -1,0 +1,335 @@
+{
+  "schema_version": 1,
+  "id": "g3-halberd",
+  "title": "Halberd with tassel",
+  "category": "weapons/melee",
+  "style": "stylized",
+  "tags": [
+    "halberd",
+    "polearm",
+    "axe",
+    "spear",
+    "weapon",
+    "pbr",
+    "game-ready"
+  ],
+  "batch": "expansion-11",
+  "acquired_at": "2026-11-04T23:10:32.450232+00:00",
+  "review": {
+    "id": "g3-halberd",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. Halberd with a long banded haft, an axe blade, a rear spike, a top thrusting point and a pink cloth tassel bound below the head. The blade, spike and point are all present and correctly aligned in the end-on views, and the tassel is modelled geometry rather than a card. Materials score 4 for flat colour. Free-standing weapon, unrigged.",
+    "limitations": [
+      "Stylised palette.",
+      "The tassel is static geometry and will not sway."
+    ],
+    "contact_sheet_sha256": "69b898922f34792343e6749321e3e2ec0653531720ff100c74ad48e5391f9dff",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/halberd.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/halberd/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/weapons/halberd/",
+    "source_id": "halberd",
+    "revision": "90cf14e10ccdf982a8e100c29ac7d1cb15ed066109474441a51910a91d6f71b6",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/halberd/halberd.glb",
+        "bytes": 596224,
+        "sha256": "90cf14e10ccdf982a8e100c29ac7d1cb15ed066109474441a51910a91d6f71b6"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/halberd/LICENSE.txt"
+  },
+  "model": "model/halberd.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/halberd_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "halberd_body_normal"
+    },
+    {
+      "path": "textures/halberd_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "halberd_body_basecolor"
+    },
+    {
+      "path": "textures/halberd_body_metallic-halberd_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "halberd_body_metallic-halberd_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 7034,
+    "triangles": 9614,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "halberd_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "halberd_body_metallic-halberd_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "halberd_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1179,
+      "sha256": "62fcfedf34127c103f6f777fd5c4321e8f27ac8355d84074df3918d1e90ee316",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68336,
+      "sha256": "825dbab0c07c7583a78b4c31472d7d5d39c08838b0e7f523142ba31426edafed",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/halberd.glb",
+      "bytes": 596224,
+      "sha256": "90cf14e10ccdf982a8e100c29ac7d1cb15ed066109474441a51910a91d6f71b6",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 11810,
+      "sha256": "0924fdd5fc1f5bfa4608fe828e3305cdb21b3de74ad3ed01bf14e44f9ba5b67a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 11471,
+      "sha256": "9bd33d15120d737c7279a9492d0d7ffa2ae445099b7018c063e87c46d98f22ed",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 92757,
+      "sha256": "69b898922f34792343e6749321e3e2ec0653531720ff100c74ad48e5391f9dff",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 810,
+      "sha256": "025402c1948456eb39c51d12125fd92892871776317e188b786eeb12fa662b6a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 11088,
+      "sha256": "d2fe2a6142f0f64f90b397d820b5b46137287b2f898fcea1d920fbe4f4a6b794",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 12854,
+      "sha256": "5aa772c9c8da0f16f00abcc404f935a14af8ad61b4c869cb68d2a92ebe2398b1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 14378,
+      "sha256": "15fbc1ab4d22ed45b726ad258fb0d4cb53e135285a272681f1e8a482c86cb477",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 12738,
+      "sha256": "18be9a92a22cfaa1f2793502a72ddde9eabf5ca9dbee0a015c81aa46fe69e24c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 11222,
+      "sha256": "67c49ce34b39d716cad8d672068db1acdd3dba25aa36ada61ea0356ad0918594",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 12834,
+      "sha256": "87f3d95565ca1632632f425a0ae2ff477fbd15888edba0144077a4f142b6d595",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 15386,
+      "sha256": "dd303b230c7bcab259ac033e56ffaaf941049a9aea4c5f827bf9ebd1a6142a1d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 12898,
+      "sha256": "b54cb9c9a0f5d81a4420b6b0803cc5f5d94b0a67c6fa655365cd50db9aa53161",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 11545,
+      "sha256": "4c5dde4a8690fb15c6f86d530a26e49d172ecc5af358e8b41c56a33d195333a0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 12225,
+      "sha256": "fac58ab2a2b6fd0b2fdc445d040a83cd1854dd9f52098e320743bc0f27ec5ff2",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1927,
+      "sha256": "d83b2e9a0f9905f565e0a2bfb2df61a1d377966422615dbdfc10e6bfb83969bb",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1682,
+      "sha256": "53a0130c1c3ba4a53c6b236ab7d96012e50d46a5ffcf89ae95c0b842faea34f5",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 450,
+      "sha256": "a483ce2beeddae62fdd1d1a3739d78fd418a28e7a6cb8399e76a667b4785b68d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "c64f559f91ff49f30d54b1dd6def6f8e9149684b5c079700a109b3cc90db8a5c",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 909,
+      "sha256": "1459ea966ef7c1d51bcb45eb1c0c88fa24e41a90a616c834efa220940f9f253b",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/halberd_body_basecolor.jpg",
+      "bytes": 114536,
+      "sha256": "c59d0c80c9152a472964883f6c58c301a28f528a163c53cbfc22f40a021f379f",
+      "role": "textures"
+    },
+    {
+      "path": "textures/halberd_body_metallic-halberd_body_roughness.jpg",
+      "bytes": 129460,
+      "sha256": "c22409c4d78a803956c1d87656198908099fa57bde8f1e5a219333becb6c69fb",
+      "role": "textures"
+    },
+    {
+      "path": "textures/halberd_body_normal.jpg",
+      "bytes": 66782,
+      "sha256": "15b07c5590cfd013e34418ddaf94153f2a2297755c3d2e4ffd3632a8611d2e07",
+      "role": "textures"
+    }
+  ]
+}

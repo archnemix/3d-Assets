@@ -1,0 +1,374 @@
+{
+  "schema_version": 1,
+  "id": "grab3d-scifi-soldier",
+  "title": "Sci-fi soldier in powered armour",
+  "category": "characters/scifi",
+  "style": "realistic",
+  "tags": [
+    "scifi",
+    "armour",
+    "visor",
+    "soldier",
+    "cyan",
+    "rigged",
+    "character",
+    "humanoid",
+    "walk",
+    "run",
+    "pbr"
+  ],
+  "batch": "expansion-11",
+  "acquired_at": "2026-11-04T23:08:27.762201+00:00",
+  "review": {
+    "id": "grab3d-scifi-soldier",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. Female sci-fi soldier in white powered armour with teal accent channels, graphite under-suit panels at the joints, segmented pauldrons, articulated knee and elbow guards, armoured boots and a full helmet with a teal visor. The panel lines and accent channels line up across the front, sides and back, the spine of the suit carries a matching detail strip, and the visor is opaque so no face is required underneath. Clean closed geometry in the top and bottom views. Rigged: 54-bone humanoid armature (24 body + 30 finger bones), walk and run clips, zero unweighted skinned vertices.",
+    "limitations": [
+      "AI-assisted origin is disclosed upstream (origin.ai_content); some storefronts require an AI-content disclosure when you resell.",
+      "The helmet cannot be removed and there is no head geometry beneath the visor.",
+      "No weapon is included."
+    ],
+    "contact_sheet_sha256": "4687dfa76df198ddba5101951a2b8b230d43d76719b267b62a9789d3a87c63b2",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/sci-fi-soldier-rigged.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/sci-fi-soldier-rigged/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/characters/sci-fi-soldier/",
+    "source_id": "sci-fi-soldier-rigged",
+    "revision": "bf63be7172211e203c86e19c24d219e544ed9c196c92ee29091a20b8e4bb40d6",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/sci-fi-soldier-rigged/sci-fi-soldier-rigged.glb",
+        "bytes": 12766580,
+        "sha256": "db5d7336f896483da0a7d0904a6c02218f607525d47c94d864db4b784a0cab4f"
+      }
+    ],
+    "repairs": [
+      {
+        "repair": "normalize-skin-weights",
+        "checked_vertices": 169701,
+        "normalized_vertices": 4795,
+        "max_sum_delta": 0.00018005073070526123,
+        "accessors": [
+          4
+        ],
+        "original_sha256": "db5d7336f896483da0a7d0904a6c02218f607525d47c94d864db4b784a0cab4f",
+        "repaired_sha256": "bf63be7172211e203c86e19c24d219e544ed9c196c92ee29091a20b8e4bb40d6"
+      }
+    ],
+    "origin": {
+      "method": "ai-assisted",
+      "detail": "Base mesh and textures generated with an AI image-to-3D tool (Meshy), then cleaned up, scaled, textured and checked in Blender. Skeleton, skinning and the walk and run clips were added automatically with Meshy Auto-Rig.",
+      "ai_content": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/sci-fi-soldier-rigged/LICENSE.txt"
+  },
+  "model": "model/sci-fi-soldier-rigged.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 1,
+    "animations": [
+      "run",
+      "walk"
+    ],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/rig_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "rig_normal"
+    },
+    {
+      "path": "textures/rig_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "rig_basecolor"
+    },
+    {
+      "path": "textures/rig_metallic-rig_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "rig_metallic-rig_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 1,
+    "vertices": 169701,
+    "triangles": 238850,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [
+      {
+        "name": "Armature",
+        "bones": 24
+      }
+    ],
+    "actions": [
+      "run_Armature",
+      "walk_Armature"
+    ],
+    "images": [
+      {
+        "name": "rig_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "rig_metallic-rig_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "rig_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 758,
+      "sha256": "66eda0cadb138a0b94a4c7b850ee0e074b537d66368cd41cd312ba8f23d65347",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1386,
+      "sha256": "15485dd9174a230080ab92403a39b839788ed4abae518546aeb9ab884f31167a",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 78822,
+      "sha256": "5f7e8c5c58668539a2471cdd2c54a35b070dd2e6aa9259bd7f73884dad846e61",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "2a9a229f8bb2ed821581e94782406b1f4a42c4f9a9e024e1cc719a6265cfa1b4",
+      "role": "logs"
+    },
+    {
+      "path": "model/sci-fi-soldier-rigged.glb",
+      "bytes": 12766580,
+      "sha256": "bf63be7172211e203c86e19c24d219e544ed9c196c92ee29091a20b8e4bb40d6",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 23189,
+      "sha256": "4965c954534a8d7a530db65e3323927bc0f0d99932c265e241fb644e8d29c9bc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 19987,
+      "sha256": "7bad8b180660dce565ffb41fbb254a68199fba88edd480e8e5fc0d9a3804f89a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 202988,
+      "sha256": "4687dfa76df198ddba5101951a2b8b230d43d76719b267b62a9789d3a87c63b2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 880,
+      "sha256": "3f768c4bbb0c4d4c36600a0518087e7ff452763699ef7fdab8d15e06ca064c06",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 30429,
+      "sha256": "ad54b70e2d6bd6da00ae54af5536ba382742cd268c83efd1b472228fb3fdd226",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 29171,
+      "sha256": "e986572e543c52aebbcfac9e489d7ff51ba90f4584d499c1b27b93d6865a4620",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 21454,
+      "sha256": "0aeae5ba7ee397b1549569a215a108e1c117db11e011686e82e16259a9fc8863",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 27947,
+      "sha256": "eacc94a39b477923ee1f9dffd5bcd8e5e57ec143d708fd5bc0c51b980fbf793a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 28599,
+      "sha256": "79bdd36a6a293894f5b988449cffb508d411a835ba5ee2bfd7104c2f2f95b021",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 28175,
+      "sha256": "b915d7df720d9ac9aa6f2bf76e323a2c2492beb65016017865e95898a9b40357",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 22123,
+      "sha256": "59b3eae747418c0e1e6cb01419a6058995ad9158bd1b4e1f65aaaf010f127a54",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 29538,
+      "sha256": "de816bfefd846ea85a8db502fb2ef46b890e0c5c64f159f553ec91f7af732fcd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/portrait-front.jpg",
+      "bytes": 76728,
+      "sha256": "95ca399a989c9e762563675fbb6cbabc318ab7d49b855a5a845da018e40d6c35",
+      "role": "previews"
+    },
+    {
+      "path": "previews/portrait-three-quarter.jpg",
+      "bytes": 75875,
+      "sha256": "ababe8d94345a4ecacd43edd8652da06b08425399fd71b53b2110d3bd90ee72e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 22049,
+      "sha256": "ac3d4372836036cfac81191b6b978435940eb6062d297ed08cc9f1b0ff0381a6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 605,
+      "sha256": "17cecff55276c72770bd0180bda17de448577e84122c101e86167c75d8d98afd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 42306,
+      "sha256": "825619bd998c4bbed91bce85a6dd74b045da0c9764f5bc025099bf1c049503c7",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2162,
+      "sha256": "d7efd8be34e61eb438c113fa843b8f02b7f5a7f2d3645bd7e4e90f5075effa58",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1105,
+      "sha256": "d0139503c53dc3ca9bd19c69b41a8d16e44bf85247cf7bf05253172a0c26076b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 560,
+      "sha256": "98f1b90d863b378d8cc65022098ba063b08dcd168082fb7a3bc17448a9127a39",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 351,
+      "sha256": "1d03d602acc2949da3074171ee552dd3c2ae274acf26ba307379ecc32796d963",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1334,
+      "sha256": "77dee95b1525028e72d47335ddbd26621ed5c9c97dd6758db438feca24123de9",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/rig_basecolor.jpg",
+      "bytes": 558180,
+      "sha256": "1200023750754f90b1896145358c9638235f010276a73c0a2a1442f4248724d5",
+      "role": "textures"
+    },
+    {
+      "path": "textures/rig_metallic-rig_roughness.jpg",
+      "bytes": 154207,
+      "sha256": "8cf66cf3f2323034871f3e62fc8a586b8fbee5d8357e25a6e6bd6ecc69d9bffb",
+      "role": "textures"
+    },
+    {
+      "path": "textures/rig_normal.jpg",
+      "bytes": 309162,
+      "sha256": "39b5d67551daf9d45b83598667b2ec40ed51dc37a158ddfdeb7d71ba04225ab3",
+      "role": "textures"
+    }
+  ]
+}

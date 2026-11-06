@@ -1,0 +1,28 @@
+{
+  "source_model": "metal_tool_chest_2k.gltf",
+  "authored": [
+    {
+      "name": "lid_open",
+      "parts": [
+        "metal_tool_chest_lid"
+      ],
+      "axis": "X",
+      "start_degrees": 100.0,
+      "degrees": 0.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "verification": [
+    {
+      "clip": "lid_open",
+      "frames": [
+        "anim-lid_open-a.jpg",
+        "anim-lid_open-b.jpg",
+        "anim-lid_open-c.jpg"
+      ]
+    }
+  ],
+  "note": "Clips authored by this library, not upstream. Dedicated to CC0.",
+  "animated_model": "metal_tool_chest_2k-animated.glb"
+}

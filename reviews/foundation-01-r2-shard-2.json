@@ -1,0 +1,47 @@
+{
+  "batch": "foundation-01-r2",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-04",
+  "decisions": [
+    {
+      "id": "ph-painted-dining-chair",
+      "decision": "approved",
+      "scores": {"silhouette": 5, "materials": 5, "topology": 5, "completeness": 5, "style_fit": 5},
+      "notes": "Painted wooden dining chair is complete and coherent from every orbit, top and underside. Worn paint material reads well, UVs are present, topology is clean and the validator reports no errors. Good realistic chair variant.",
+      "limitations": ["Generated tangent-space warning is informational.", "Static model; no collision mesh or LODs supplied."],
+      "contact_sheet_sha256": "b69acc7614d8c3ed7760b2520614c6fb58b20723bb2cfe464771fc202564e956"
+    },
+    {
+      "id": "ph-red-apple",
+      "decision": "approved",
+      "scores": {"silhouette": 5, "materials": 5, "topology": 5, "completeness": 5, "style_fit": 5},
+      "notes": "Realistic apple has a clean closed silhouette, stem detail and intact 2K PBR maps. All views are coherent, with no degenerate triangles or validator errors. Strong realistic food prop and a useful contrast to the stylized apple.",
+      "limitations": ["Generated tangent-space warning is informational.", "Hero-prop density; decimate or LOD for large crowds."],
+      "contact_sheet_sha256": "9698061f9545ac77ee10eedf09d35dd5c7a989550505d6008f1dbee2bd6a07d8"
+    },
+    {
+      "id": "kaykit-mage",
+      "decision": "approved",
+      "scores": {"silhouette": 5, "materials": 5, "topology": 5, "completeness": 5, "style_fit": 5},
+      "notes": "Stylized mage reads clearly from all sides with staff, hat and robe attachments intact. Atlas texture is preserved, rig is present, no zero-area triangles and no validator errors. Consistent with the approved knight as a kids'/fantasy human variant.",
+      "limitations": ["Skinned-mesh non-root and buffer-view-target warnings are non-visual.", "Rest-pose inspection only; animation import must be tested in the target engine."],
+      "contact_sheet_sha256": "19c5cfc85a98856fb4399b0eef703e41eed7dbb15906063799cbe64043b508e3"
+    },
+    {
+      "id": "kenney-cushion-chair",
+      "decision": "approved",
+      "scores": {"silhouette": 5, "materials": 4, "topology": 4, "completeness": 5, "style_fit": 5},
+      "notes": "Cushioned dining chair is a clean, readable low-poly variant for kids' scenes. Corrected framing shows the full chair from every angle. It intentionally uses flat-color materials rather than image textures; eight zero-area triangles are minor and do not break the silhouette.",
+      "limitations": ["No image textures; flat-color materials are intentional.", "Eight zero-area triangles retained from upstream."],
+      "contact_sheet_sha256": "32ef85f3af77feeadad1a2da599bdb7c79cb643b294fe2727c47bfe4fa430393"
+    },
+    {
+      "id": "kenney-go-kart",
+      "decision": "approved",
+      "scores": {"silhouette": 5, "materials": 4, "topology": 5, "completeness": 5, "style_fit": 5},
+      "notes": "Go-kart is complete from front, back, sides, top and underside, with wheels and driver/seat elements coherent. Flat-color atlas suits the stylized vehicle category. Two zero-area triangles are negligible and the validator reports no errors.",
+      "limitations": ["Flat-color atlas rather than PBR maps.", "Two zero-area triangles retained from upstream."],
+      "contact_sheet_sha256": "5832714b901b29f579afe4a3fc71f05fe07587a068bb1cd62e5b915c4f0c3151"
+    }
+  ]
+}

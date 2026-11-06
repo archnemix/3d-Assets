@@ -1,0 +1,47 @@
+{
+  "batch": "foundation-01-r2",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-04",
+  "decisions": [
+    {
+      "id": "ph-modern-coffee-table",
+      "decision": "approved",
+      "scores": {"silhouette": 5, "materials": 5, "topology": 4, "completeness": 5, "style_fit": 5},
+      "notes": "Modern coffee table is coherent from every orbit, top and underside. Wood/stone materials read clearly and PBR maps are intact. Twelve zero-area triangles are minor for a static realistic prop and do not affect the visible silhouette.",
+      "limitations": ["Twelve zero-area triangles retained from upstream.", "Generated tangent-space warning is informational."],
+      "contact_sheet_sha256": "6355954112f884ddb3fffd3d19cf023f93048eb0411fd11082cd9be05fb9424d"
+    },
+    {
+      "id": "ph-red-barrel",
+      "decision": "approved",
+      "scores": {"silhouette": 5, "materials": 5, "topology": 5, "completeness": 5, "style_fit": 5},
+      "notes": "Worn red industrial barrel is complete and readable from all sides, top and bottom. Metal wear and PBR maps are intact, topology is clean and the validator reports no errors. Strong realistic industrial prop.",
+      "limitations": ["Generated tangent-space warning is informational.", "Static model; no collision mesh or LODs supplied."],
+      "contact_sheet_sha256": "9c9ae50a34f238f85fa280a4017f3fb4859064010382ea75e070d9455a79bf07"
+    },
+    {
+      "id": "kaykit-dining-chair",
+      "decision": "approved",
+      "scores": {"silhouette": 5, "materials": 4, "topology": 5, "completeness": 5, "style_fit": 5},
+      "notes": "KayKit wooden dining chair is a clean stylized chair variant with intact atlas texture and external glTF dependencies preserved. All views are coherent, no degenerate triangles and no validator errors. Pairs well with the realistic chairs as a style variant.",
+      "limitations": ["Stylized atlas rather than realistic PBR maps.", "Static model; no collision mesh supplied."],
+      "contact_sheet_sha256": "c526f14bef864df97ebcaa9391c6e56ceb77c29c604f635a0cc19421e5399ea9"
+    },
+    {
+      "id": "kenney-coffee-table",
+      "decision": "approved",
+      "scores": {"silhouette": 5, "materials": 4, "topology": 4, "completeness": 5, "style_fit": 5},
+      "notes": "Kenney coffee table is a clean low-poly variant for kids' scenes. Corrected framing shows the full table from every angle. Flat-color materials are intentional; eight zero-area triangles are minor and do not affect the visible silhouette.",
+      "limitations": ["No image textures; flat-color materials are intentional.", "Eight zero-area triangles retained from upstream."],
+      "contact_sheet_sha256": "346006ca3507f01a060089572e804678f224d193b539e21503f44a82fc523fe3"
+    },
+    {
+      "id": "kenney-apple",
+      "decision": "approved",
+      "scores": {"silhouette": 5, "materials": 4, "topology": 5, "completeness": 5, "style_fit": 5},
+      "notes": "Stylized apple is complete and readable from every angle, with stem and leaf intact. Flat-color atlas suits the kids' food category and provides a deliberate style contrast to the realistic apple. No degenerate triangles or validator errors.",
+      "limitations": ["Flat-color atlas rather than PBR maps.", "Intentionally low-poly; not a realistic food substitute."],
+      "contact_sheet_sha256": "df29431ff027c562dc7de9fd3e37dfa06912c881a7a8c248127831d18a634fd6"
+    }
+  ]
+}

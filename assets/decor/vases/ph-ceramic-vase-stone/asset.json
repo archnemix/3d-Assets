@@ -1,0 +1,360 @@
+{
+  "schema_version": 1,
+  "id": "ph-ceramic-vase-stone",
+  "title": "Stone-finish ceramic vase",
+  "category": "decor/vases",
+  "style": "realistic",
+  "tags": [
+    "vase",
+    "ceramic",
+    "stone",
+    "matte",
+    "decor",
+    "pbr"
+  ],
+  "batch": "expansion-10",
+  "acquired_at": "2026-11-04T22:49:37.414043+00:00",
+  "review": {
+    "id": "ph-ceramic-vase-stone",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 4,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. Rounded stoneware jug with a short narrow neck, a rolled lip and a small loop handle from neck to shoulder. Matte stone-white surface with fine speckling, a hollow throat and a closed base with an unglazed foot ring. A worn retail barcode sticker remains on the underside.",
+    "limitations": [
+      "A worn retail barcode sticker is baked into the base texture. No brand name or legible digits remain, but clone it out for product renders where the underside is visible.",
+      "Handle is thin geometry and may alias at distance."
+    ],
+    "contact_sheet_sha256": "f4b06d3ba629b037b555c9f29e7cd344541da75f6942c3c6e993a3060f89f819",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/ceramic_vase_04_2k.gltf",
+    "creator": "James Ray Cock",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/ceramic_vase_04",
+    "source_id": "ceramic_vase_04",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/ceramic_vase_04/ceramic_vase_04_2k.gltf",
+        "bytes": 2716,
+        "sha256": "6f49dd22e89a4b2a64f18d1bd08cfd59e70f5e60ac1ee35484aefe5122fcbbd1"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/ceramic_vase_04/ceramic_vase_04.bin",
+        "bytes": 239728,
+        "sha256": "00d6b5743358cba4bc78d25010b1bfc262d6cb313de8cbeffa570bb95387dfc7"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/ceramic_vase_04/ceramic_vase_04_diff_2k.jpg",
+        "bytes": 327838,
+        "sha256": "26587afe56343ca633f846807b7475b3c11f240b748eeba7bdcaf2ba93cdfa47"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/ceramic_vase_04/ceramic_vase_04_rough_2k.jpg",
+        "bytes": 460441,
+        "sha256": "2c2cc15a501841d387e753b3f40f86d453abd11b3d8de9be2489fe2726b90447"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/ceramic_vase_04/ceramic_vase_04_nor_gl_2k.jpg",
+        "bytes": 568869,
+        "sha256": "134af4ceadffa009abd75f5ad8faed7f18501d93b3008f37956b64aec4a89274"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/ceramic_vase_04_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/ceramic_vase_04_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "ceramic_vase_04_nor_gl"
+    },
+    {
+      "path": "model/textures/ceramic_vase_04_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "ceramic_vase_04_diff"
+    },
+    {
+      "path": "model/textures/ceramic_vase_04_rough_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "ceramic_vase_04_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 5804,
+    "triangles": 9000,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "ceramic_vase_04_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-10/ph-ceramic-vase-stone/model/textures/ceramic_vase_04_diff_2k.jpg"
+      },
+      {
+        "name": "ceramic_vase_04_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-10/ph-ceramic-vase-stone/model/textures/ceramic_vase_04_nor_gl_2k.jpg"
+      },
+      {
+        "name": "ceramic_vase_04_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-10/ph-ceramic-vase-stone/model/textures/ceramic_vase_04_rough_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1356,
+      "sha256": "32c16859e08a5601c754456634df5e84fff2b1a3b31fe0c3a71738f500e93072",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 287,
+      "sha256": "eb683c674c65463a207760b3a6f636752a4f45d71afa8c68cf0516246ebccb8a",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67824,
+      "sha256": "063b2d2ce4aac00408e12b6f0f0c82b0bd9ff5ee306473f56b681b35e834dd40",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/ceramic_vase_04.bin",
+      "bytes": 239728,
+      "sha256": "00d6b5743358cba4bc78d25010b1bfc262d6cb313de8cbeffa570bb95387dfc7",
+      "role": "model"
+    },
+    {
+      "path": "model/ceramic_vase_04_2k.gltf",
+      "bytes": 2716,
+      "sha256": "6f49dd22e89a4b2a64f18d1bd08cfd59e70f5e60ac1ee35484aefe5122fcbbd1",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/ceramic_vase_04_diff_2k.jpg",
+      "bytes": 327838,
+      "sha256": "26587afe56343ca633f846807b7475b3c11f240b748eeba7bdcaf2ba93cdfa47",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/ceramic_vase_04_nor_gl_2k.jpg",
+      "bytes": 568869,
+      "sha256": "134af4ceadffa009abd75f5ad8faed7f18501d93b3008f37956b64aec4a89274",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/ceramic_vase_04_rough_2k.jpg",
+      "bytes": 460441,
+      "sha256": "2c2cc15a501841d387e753b3f40f86d453abd11b3d8de9be2489fe2726b90447",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 34322,
+      "sha256": "3f0cb4345f25b88e623691ba5dbba81303fcd59753f936b1f267ba35659e6579",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 13985,
+      "sha256": "7d5f519663a8727ed521a53a4641a9fbbfc4469d0d9ff22e8643cb16173f7e2e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 162705,
+      "sha256": "f4b06d3ba629b037b555c9f29e7cd344541da75f6942c3c6e993a3060f89f819",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1169,
+      "sha256": "7b2366ca5e612fd8b4badf02c56b4168e4234bd7ee1ca0285bf55eecf68d1f8f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 17294,
+      "sha256": "0746bfbb35ff6a2d0615e1cdb02cad3acdd02ad330ec975e7209a0d22454ca66",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 16912,
+      "sha256": "2590c1fafa739c789f41be1b6d38a4674d89c479cb6862f60896c2eb7daa329f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 16340,
+      "sha256": "d61b600b7aa281d53b2fe093fe4d96941a60d653b006c32a2fa3187ec462e991",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 16722,
+      "sha256": "520b085082f1ed193d38ba7345d17a7eb4e7a75f83feb64d1d89b41bf4bbb949",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 17507,
+      "sha256": "77aad40f563a36fbf9a605d40de90bed97338fc568cd4d679d0031e6bd9105bd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 18140,
+      "sha256": "b0c41e691b3594315d8cb26f1fdafc7c9cbddaa00183be0a52d04a69cd004b7f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 17261,
+      "sha256": "13618da8fbb2821cff32acf84cec96460f28e3305bdfdf25b76cd57c04772b02",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 17431,
+      "sha256": "74cf743ae96287f04dca46dbc8804238aa662168401c2d124521e99261df37e1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 24318,
+      "sha256": "11b0cf4bb325ba673122bce695a6f80592d510a47341a8fba21b8b8a5fcd611c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 44218,
+      "sha256": "a8a0db633a8dacc6effcc6ad35acf4d7be177f3f51a63e3c975c8c398ed146df",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 165,
+      "sha256": "4d2b345c9c9dd77ba202a1f74196cbd1e656a5b151da975caf385662499243ab",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1172,
+      "sha256": "87b494e083f44b23e16a1c62217708d6e12e3a5bf028e2514bbc1dd4f076840d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3053,
+      "sha256": "5030512247f28084695f6395f96961805a3c8cfbbf0e6545551f394cb67c195d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1120,
+      "sha256": "a0a434b6bdd8da2655ac316932b976e395c97152873a3ed1ff69c19cd7e219b7",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1010,
+      "sha256": "7d9a64e82fe185833e541a0480f8f1bf9466494afae130319d3bdea08429c0cf",
+      "role": "documentation"
+    }
+  ]
+}

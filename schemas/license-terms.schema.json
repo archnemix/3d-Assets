@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Recorded source license terms",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "checked_on", "policy", "universal_caveats", "providers"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "checked_on": { "type": "string", "format": "date" },
+    "policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "accepted_spdx",
+        "attribution_required",
+        "commercial_use",
+        "standalone_use",
+        "redistribution_allowed",
+        "public_display",
+        "respect_author_requests",
+        "author_request_blocks_intake"
+      ],
+      "properties": {
+        "accepted_spdx": { "type": "array", "items": { "const": "CC0-1.0" }, "minItems": 1 },
+        "attribution_required": { "const": false },
+        "commercial_use": { "const": true },
+        "standalone_use": { "const": true },
+        "redistribution_allowed": { "const": true },
+        "public_display": { "const": true },
+        "respect_author_requests": { "const": true },
+        "author_request_blocks_intake": { "const": true }
+      }
+    },
+    "universal_caveats": { "type": "array", "items": { "type": "string", "minLength": 20 } },
+    "providers": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": { "$ref": "#/$defs/provider" }
+    }
+  },
+  "$defs": {
+    "provider": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "spdx",
+        "status",
+        "free_of_charge",
+        "terms_url",
+        "evidence_url",
+        "resale_as_is",
+        "asset_notes",
+        "caveats"
+      ],
+      "properties": {
+        "name": { "type": "string", "minLength": 2 },
+        "spdx": { "const": "CC0-1.0" },
+        "status": { "const": "verified" },
+        "free_of_charge": { "const": true },
+        "terms_url": { "type": "string", "pattern": "^https://" },
+        "evidence_url": { "type": "string", "pattern": "^https://" },
+        "resale_as_is": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["permitted", "explicit", "note"],
+          "properties": {
+            "permitted": { "const": true },
+            "explicit": { "type": "boolean" },
+            "note": { "type": "string", "minLength": 20 }
+          }
+        },
+        "asset_notes": { "type": "array", "items": { "type": "string", "minLength": 10 } },
+        "caveats": { "type": "array", "items": { "type": "string", "minLength": 20 }, "minItems": 1 }
+      }
+    }
+  }
+}

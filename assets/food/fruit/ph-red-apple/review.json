@@ -1,0 +1,21 @@
+{
+  "id": "ph-red-apple",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Realistic apple has a clean closed silhouette, stem detail and intact 2K PBR maps. All views are coherent, with no degenerate triangles or validator errors. Strong realistic food prop and a useful contrast to the stylized apple.",
+  "limitations": [
+    "Generated tangent-space warning is informational.",
+    "Hero-prop density; decimate or LOD for large crowds."
+  ],
+  "contact_sheet_sha256": "9698061f9545ac77ee10eedf09d35dd5c7a989550505d6008f1dbee2bd6a07d8",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-04",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

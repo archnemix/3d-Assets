@@ -1,0 +1,21 @@
+{
+  "id": "ph-lime",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Inspected all 12 views. Pitted citrus rind is carried in geometry and normal map and stays convincing from every angle, with a correctly modelled stem scar on top and blossom nub underneath rather than a mirrored sphere. Green-to-yellow ripeness variation is photographic. 8.1k tris and only 2.8 MB.",
+  "limitations": [
+    "Whole fruit only; no cut or wedged variant.",
+    "Rind has a baked specular sheen that can look waxy under a hard key light."
+  ],
+  "contact_sheet_sha256": "6ec8b5cbeb9a3cf0bad26a792103fe548c1a52873f830f097bd9ed6bcb2e0339",
+  "reviewer": "arena-agent-visual-review",
+  "reviewed_at": "2026-11-04",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

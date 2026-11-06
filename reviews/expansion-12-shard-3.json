@@ -1,0 +1,97 @@
+{
+  "batch": "expansion-12",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "decisions": [
+    {
+      "id": "g3-camshaft",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Camshaft demonstration assembly on a bolted base plate: a shaft with eight correctly phased egg-shaped cam lobes, two pedestal bearing blocks with caps, and a brass timing gear with cut teeth and a bolted hub. The lobes are genuine 3D cams, not discs, and the gear teeth are cut geometry. The shaft and gear are a SEPARATE `_rotor` node from the base and bearings, so a rotation clip can be authored. Presented on a base by design as a teaching cutaway, and the rotor is separable.",
+      "limitations": [
+        "Stylised Cozy-kit palette rather than photoreal materials.",
+        "The bearing blocks are fused to the base plate.",
+        "Cam lobes are stylised rather than dimensioned to any real engine."
+      ],
+      "contact_sheet_sha256": "6e5ad47bab9b93501d68965b4c2ac90277262e73c697f191d66dac680733a9be"
+    },
+    {
+      "id": "g3-differential",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Rear-axle differential cutaway on a bolted stand: a banjo housing cut open to reveal a brass crown wheel, pinion, and spider and side gears, half shafts, wheel flanges with studs, and an input flange. The gear teeth are cut geometry and the internal gear train is genuinely modelled rather than painted. Two SEPARATE rotor nodes carry the spinning elements, so a rotation clip can be authored. The cutaway and stand are intentional for a teaching model and the rotors are separable.",
+      "limitations": [
+        "Stylised Cozy-kit palette rather than photoreal materials.",
+        "The housing is deliberately cut away, so this is not usable as a complete sealed axle.",
+        "Gear ratios are illustrative, not dimensioned to a real vehicle."
+      ],
+      "contact_sheet_sha256": "1cf2e38cc8b0ea0c7f8558caa36e5a2a6564a804db1862c861c4d27722d236f3"
+    },
+    {
+      "id": "g3-galleon",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Three-masted galleon with a planked hull, wales, gunports with red lids, a raised sterncastle with glazed lantern windows, a beakhead bow, three masts with yards and furled-and-set square sails, a bowsprit with jib, standing rigging and shrouds, a rudder and a painted waterline. The bottom view shows a complete hull with keel rather than an open shell, and the stern decoration is present and symmetrical. Sails are modelled as curved surfaces with visible seams.",
+      "limitations": [
+        "Stylised Cozy-kit palette rather than photoreal materials.",
+        "Sails and rigging are static geometry; they will not billow or sway without a rig or cloth simulation.",
+        "No crew, cargo or armament is included."
+      ],
+      "contact_sheet_sha256": "73b93425fab085d99e752feecd3f7f30d5b6f4e4548b9549bb8acf89246031fb"
+    },
+    {
+      "id": "g3-mountain-bike",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Hardtail mountain bike with a sage frame, a suspension fork with stanchions and lowers, knobby tyres on rims with individually modelled spokes, disc brake rotors and calipers front and rear, a chainring with cranks and pedals, a chain run, a rear cassette, a saddle and seatpost, and flat bars with grips and a stem. The spokes are real geometry rather than a texture, which the close side views confirm. Front and rear wheels, the crank and a steering node are all SEPARATE, so wheel-roll, steering and crank clips can be authored.",
+      "limitations": [
+        "Stylised Cozy-kit palette rather than photoreal materials.",
+        "The chain is static geometry and will not travel with the crank clip.",
+        "No rider is included."
+      ],
+      "contact_sheet_sha256": "8bf6a5b286c7773ff853a704b28f31899c84d4be2078a27e2c70a2a178483677"
+    },
+    {
+      "id": "grab3d-brachiosaurus",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Realistic brachiosaurus in a walking pose with the long neck raised, sandy-ochre skin with slate-blue dorsal mottling, a cream underside, believable skin folds at the joints, columnar limbs with modelled toes and nails, and a tapering tail. The mottling continues consistently across the back, flanks and tail in every rear view, and the bottom view shows a complete belly and four closed feet. 181,914 triangles with 2K-class textures. Unrigged.",
+      "limitations": [
+        "AI-assisted origin is disclosed upstream (origin.ai_content); some storefronts require an AI-content disclosure when you resell.",
+        "Unrigged and unposed: the walking stance is baked into the mesh, so it cannot be re-posed or animated without adding a skeleton.",
+        "No blend shapes or LODs are included."
+      ],
+      "contact_sheet_sha256": "4d7b8a1f6b6fee2e6180b1f0f7858d4a71bec93c9228c7f7e2d81f42fc63a9b9"
+    }
+  ]
+}

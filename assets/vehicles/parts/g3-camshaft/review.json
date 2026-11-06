@@ -1,0 +1,22 @@
+{
+  "id": "g3-camshaft",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "All 12 views inspected. Camshaft demonstration assembly on a bolted base plate: a shaft with eight correctly phased egg-shaped cam lobes, two pedestal bearing blocks with caps, and a brass timing gear with cut teeth and a bolted hub. The lobes are genuine 3D cams, not discs, and the gear teeth are cut geometry. The shaft and gear are a SEPARATE `_rotor` node from the base and bearings, so a rotation clip can be authored. Presented on a base by design as a teaching cutaway, and the rotor is separable.",
+  "limitations": [
+    "Stylised Cozy-kit palette rather than photoreal materials.",
+    "The bearing blocks are fused to the base plate.",
+    "Cam lobes are stylised rather than dimensioned to any real engine."
+  ],
+  "contact_sheet_sha256": "6e5ad47bab9b93501d68965b4c2ac90277262e73c697f191d66dac680733a9be",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

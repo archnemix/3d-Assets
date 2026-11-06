@@ -1,0 +1,55 @@
+{
+  "slug": "car-transporter",
+  "triangles": 29970,
+  "texture_px": 2048,
+  "triangles_light": 19710,
+  "texture_px_light": 1024,
+  "files": {
+    "glb": {
+      "name": "car-transporter.glb",
+      "bytes": 2385396
+    },
+    "blend": {
+      "name": "car-transporter.blend",
+      "bytes": 1871143
+    },
+    "fbx": {
+      "name": "car-transporter.fbx",
+      "bytes": 4094876
+    },
+    "obj": {
+      "name": "car-transporter-obj.zip",
+      "bytes": 2218051
+    },
+    "usdz": {
+      "name": "car-transporter.usdz",
+      "bytes": 3706285
+    },
+    "glb_light": {
+      "name": "car-transporter-light.glb",
+      "bytes": 1208892
+    },
+    "fbx_light": {
+      "name": "car-transporter-light.fbx",
+      "bytes": 2307068
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "2.897 x 16.333 x 3.980",
+    "triangles": 29970,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-10-19",
+    "real_size": "car transporter semi (cab-over tractor + two-deck trailer) with two small cars, approx. 16.3 x 2.6 x 4.2 m (L x W x H), wheel diameter 0.96 m",
+    "notes": "front faces -Y; the trailer 'car-transporter_trailer' (incl. the rear cargo car) is a separate object with its origin on the kingpin (rotate around local Z to articulate); its 4 wheel objects are children of the trailer; 8 wheels are separate objects with origin on the axle (rotate around local X to roll), the 2 front wheels can also steer; the cargo cars are static; translucent cab windows with seats, dashboard and steering wheel; no brand, no text",
+    "set": "Cozy Cars Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ph-electric-stove",
+  "decision": "rejected",
+  "scores": {
+    "silhouette": 4,
+    "materials": 4,
+    "topology": 5,
+    "completeness": 3,
+    "style_fit": 5
+  },
+  "notes": "Rejected on two grounds. The full-size front view shows a clearly legible ARINA manufacturer wordmark on the control panel, and CC0 does not waive trademark rights, so we cannot promise clean as-is resale. Separately, the rear orbits and back view show an unfinished open cavity with no back panel, which fails the completeness bar for a library asset. Modelling of the front is otherwise good.",
+  "limitations": [
+    "Legible ARINA manufacturer badge; CC0 does not grant trademark rights.",
+    "Rear of the appliance is an open unfinished cavity with no back panel.",
+    "20 non-blocking glTF warnings."
+  ],
+  "contact_sheet_sha256": "c399eaa86ab832686bcc8b001166b0e0622a5c77d91cf9785d49c1cf6ff723de",
+  "reviewer": "arena-agent-visual-review",
+  "reviewed_at": "2026-11-04",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports",
+  "status": "rejected",
+  "approved": false
+}

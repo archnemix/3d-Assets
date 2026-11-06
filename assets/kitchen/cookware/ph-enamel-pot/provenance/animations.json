@@ -1,0 +1,32 @@
+{
+  "source_model": "pot_enamel_01_2k.gltf",
+  "authored": [
+    {
+      "name": "lid_lift",
+      "parts": [
+        "pot_enamel_01_lid"
+      ],
+      "motion": "lift",
+      "detail": [
+        {
+          "part": "pot_enamel_01_lid",
+          "rise_metres": 0.0791
+        }
+      ],
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "verification": [
+    {
+      "clip": "lid_lift",
+      "frames": [
+        "anim-lid_lift-a.jpg",
+        "anim-lid_lift-b.jpg",
+        "anim-lid_lift-c.jpg"
+      ]
+    }
+  ],
+  "note": "Clips authored by this library, not upstream. Dedicated to CC0.",
+  "animated_model": "pot_enamel_01_2k-animated.glb"
+}

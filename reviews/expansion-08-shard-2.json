@@ -1,0 +1,111 @@
+{
+  "batch": "expansion-08",
+  "reviewer": "arena-agent-visual-review",
+  "reviewed_at": "2026-11-04",
+  "decisions": [
+    {
+      "id": "ph-vintage-binoculars",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Twin barrels, central hinge, knurled focus wheel labelled FOCUS, dioptre ring and both eyecups are separately modelled. Leather body covering with worn-through brass edges is consistent across all eight orbits, and the objective lenses show correct recessed depth. Top and bottom views confirm the hinge geometry.",
+      "limitations": [
+        "Lenses are dark and non-transmissive in the inspection render.",
+        "Faint stamped markings on the barrel are illegible at 2k and carry no readable brand."
+      ],
+      "contact_sheet_sha256": "2c835c5f4454ef69e20fbeb638b8636bce20095892da801648bd3ca66ca6840b"
+    },
+    {
+      "id": "ph-electric-stove",
+      "decision": "rejected",
+      "scores": {
+        "silhouette": 4,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 3,
+        "style_fit": 5
+      },
+      "notes": "Rejected on two grounds. The full-size front view shows a clearly legible ARINA manufacturer wordmark on the control panel, and CC0 does not waive trademark rights, so we cannot promise clean as-is resale. Separately, the rear orbits and back view show an unfinished open cavity with no back panel, which fails the completeness bar for a library asset. Modelling of the front is otherwise good.",
+      "limitations": [
+        "Legible ARINA manufacturer badge; CC0 does not grant trademark rights.",
+        "Rear of the appliance is an open unfinished cavity with no back panel.",
+        "20 non-blocking glTF warnings."
+      ],
+      "contact_sheet_sha256": "c399eaa86ab832686bcc8b001166b0e0622a5c77d91cf9785d49c1cf6ff723de"
+    },
+    {
+      "id": "ph-brass-candleholders",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Three graduated candelabra with turned stems, scrolled arms, modelled candle sockets and separate candles with wicks. The top view confirms correct radial arm spacing and the bottom view shows closed weighted bases. The 4 is for materials: the package exceeded the 2K budget across fourteen maps, so the picker correctly fell back to 1K.",
+      "limitations": [
+        "Textures are 1K, not 2K: fourteen maps exceeded the per-package storage budget and the picker logged the fallback.",
+        "Three holders ship as one laid-out scene; separate them to place individually.",
+        "Candles are unlit with no flame geometry."
+      ],
+      "contact_sheet_sha256": "bd569242e0791d98e6d7b2f063b55d268c473771e8b0dbcdca34ee16ae59ff5e"
+    },
+    {
+      "id": "ph-coffee-cart",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Inspected all 12 views plus a full-size front-right orbit. Stainless cart with four casters, sliding doors, lower wire shelf, bus tub, plus a twin-burner coffee machine with three glass carafes, mugs, canisters and a trailing power lead. The top view confirms the whole load-out is modelled, not textured on. 27.7k tris.",
+      "limitations": [
+        "Coffee machine and carafes carry an invented DUNN badge, a stand-in for a real brand rather than an actual manufacturer mark.",
+        "Supplied fully loaded; remove the props if you need an empty cart."
+      ],
+      "contact_sheet_sha256": "484191f90769a60b0d534610cf873ca3a98982e7fc86c46c44b0e1699e6e4c22"
+    },
+    {
+      "id": "ph-blue-barrel",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Plastic drum with moulded rolling hoops, recessed hand grip, an embossed generic recycling mark and a separate steel locking ring with a detailed lid, clearly resolved in the top view. The bottom view shows a properly closed dished base. Only 2.7k tris and 1.9 MB.",
+      "limitations": [
+        "Lid and locking ring are modelled fitted; separate them to show the drum open.",
+        "Blue is highly saturated and may need desaturating for muted scenes."
+      ],
+      "contact_sheet_sha256": "ba00bfcff8034f06f5c3338858cd2b697737e8baaa9e07bde60652fdeae01bfd"
+    },
+    {
+      "id": "ph-ceramic-vase-painted",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Simple shouldered clay vase with a real hollow neck and an unglazed brown interior visible in the top view, plus a correctly finished foot ring in the bottom view. Clean even topology in the wireframe. The 4 is for materials: the matte off-white surface is very plain with only faint mottling, so it reads flat under diffuse light.",
+      "limitations": [
+        "Very plain matte white surface with little tonal variation.",
+        "Interior is unglazed brown clay, which is visible from directly above."
+      ],
+      "contact_sheet_sha256": "399c51eba2dcf5f53657f8f5d85db75cb4a268899456a981c958521c03cb386d"
+    }
+  ]
+}

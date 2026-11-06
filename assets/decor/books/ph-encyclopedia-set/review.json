@@ -1,0 +1,22 @@
+{
+  "id": "ph-encyclopedia-set",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Inspected all 12 views. Twenty-two leather-bound volumes with readable gilded spine lettering and per-volume letter tabs; front and back orbits both resolve individual books rather than a fused block. Page blocks are separate from covers. The 4 is for topology: 67k tris and 40 validator warnings, mostly non-critical, make this the heaviest item in the batch.",
+  "limitations": [
+    "67k triangles and 40 non-blocking glTF warnings; check the validator log if your pipeline is strict.",
+    "Spine text reads ENCYCLOPEDIA with volume letters, a generic title rather than a real publication.",
+    "Books are a fixed row; individual volumes must be separated to shelve them differently."
+  ],
+  "contact_sheet_sha256": "0d4e0a3781f583daf47b04403a84406620473483b283e04b9c4016e556608589",
+  "reviewer": "arena-agent-visual-review",
+  "reviewed_at": "2026-11-04",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

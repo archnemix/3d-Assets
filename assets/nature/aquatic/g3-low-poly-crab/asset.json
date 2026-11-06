@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "id": "g3-low-poly-crab",
+  "title": "Low Poly Crab",
+  "category": "nature/aquatic",
+  "style": "low-poly",
+  "tags": [
+    "crab",
+    "low-poly",
+    "aquatic",
+    "stylized"
+  ],
+  "batch": "expansion-17",
+  "acquired_at": "2026-11-05T08:52:36.520927+00:00",
+  "review": {
+    "id": "g3-low-poly-crab",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Faceted low poly crab in red and orange with raised claws and eight spread legs. Intentional low-poly style: glTF validation clean (0 errors), faceted flat-shaded mesh at ~3k triangles with a single texture. Grab3D ships these as 'Lightweight' companions to the high-detail animals. Scoring reflects the deliberate low-poly aesthetic: clean silhouette and complete animal, but flat-shaded materials and minimal topology rather than PBR.",
+    "limitations": [
+      "AI-assisted origin is disclosed upstream (origin.ai_content); some storefronts require an AI-content disclosure when you resell.",
+      "Deliberately low-detail (~3k triangles, flat-shaded, single texture) for mobile/stylised use; not PBR.",
+      "Unrigged static mesh with baked pose."
+    ],
+    "contact_sheet_sha256": "fabb04e1df45dece771f5d50bdc7d9e00b1224c0703e1048f9928e80574ba876",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/low-poly-crab.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/low-poly-crab/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/animals/low-poly-crab/",
+    "source_id": "low-poly-crab",
+    "revision": "e41d6baa65d6ae3131c019fc89741024e0e568db665bee80f10c8ea75b6999c6",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/low-poly-crab/low-poly-crab.glb",
+        "bytes": 613364,
+        "sha256": "e41d6baa65d6ae3131c019fc89741024e0e568db665bee80f10c8ea75b6999c6"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "ai-assisted",
+      "detail": "Derived in Blender from the AI-assisted model \"crab\", whose base mesh and textures were generated with an AI image-to-3D tool (Meshy). This version was reduced to low poly and given a palette texture in Blender.",
+      "ai_content": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/low-poly-crab/LICENSE.txt"
+  },
+  "model": "model/low-poly-crab.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 1,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/low-poly-crab_palette.png",
+      "dimensions": [
+        24,
+        24
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "low-poly-crab_palette"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 17980,
+    "triangles": 5994,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "low-poly-crab_palette",
+        "dimensions": [
+          24,
+          24
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 0,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 749,
+      "sha256": "b022246cea84c2e02108795ea57b245d3c3720387163589b5a2730a5370a9355",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1391,
+      "sha256": "d33757c76c993f662edda1e232ed1d50d33bc712839ff1905aa318c6880f2ba0",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 288,
+      "sha256": "9854a1df0f32b2b20e91c2ef96c303dfd244fb1ac1b8e1d2294235adf8fdd593",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 63138,
+      "sha256": "d42e011d3b05fb250b20fc1d698e1fe3e722d1073edb66687a7b9a71d290f507",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "3629b738db9a859e28c3be3ca3f30737a293067d742f1bb7f0d75f7f8b36e9e2",
+      "role": "logs"
+    },
+    {
+      "path": "model/low-poly-crab.glb",
+      "bytes": 613364,
+      "sha256": "e41d6baa65d6ae3131c019fc89741024e0e568db665bee80f10c8ea75b6999c6",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 35717,
+      "sha256": "65ec599bf318b7b60f44b6c9c8876839e7108ab8462847b205b3853cf85750a8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 23374,
+      "sha256": "bc4761c7f599c6b9d172b6a4627b554ba1b97b30b583bd6c61520eb994d9ed18",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 226950,
+      "sha256": "fabb04e1df45dece771f5d50bdc7d9e00b1224c0703e1048f9928e80574ba876",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 479,
+      "sha256": "3b05c5194c873eaff7da8f456025fe7ac2cd6bd81fa409261fc6f7d22e3ef25f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 31585,
+      "sha256": "b2ec853581c29527e79caf3a78e22e139004bff8d60424bc154966f807c039d8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 32683,
+      "sha256": "d0a86a98a6b80086694d35d776680630a96f5cacd41ced6b1c93eb32d253d30d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 33757,
+      "sha256": "262151b272fa07cafbff5e2253d594a5189909a3bf7dabbb7fa57cf0e8a27c70",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 24185,
+      "sha256": "1d8a2f988400c5c3d392d269f6f811bfa12dd21bb5dc047622735e220c005353",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 23680,
+      "sha256": "10df072ce3a720dbecfe7a95d95667bb480b54192660ca8943e00037e88bb8eb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 26503,
+      "sha256": "d90b1ddc933759f6b0d965ed9e1e4d856a53b70ddaea10aff65c195383f28302",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 35665,
+      "sha256": "9170a1153f5fc3fcbc0e19e3f794f489ee61d064f1f6a277b9d1a79bae2c8364",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 30452,
+      "sha256": "36557a9728b4273abc30544ef99e0f1b099a04371e341a9bc0c17a65d5a937dc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 30981,
+      "sha256": "95111d181741697de2781bc909cbc85c7d4a316eab33983caaacee5955f1eac6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 36848,
+      "sha256": "fd6a45c94e5cc668cc27955454ea79a9d78aa70c27ed840de850ad8ca737121b",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 159,
+      "sha256": "6e50bc930acf5b2e4c68510ecb18fe0d3eb2c5b4d5a6f01d93eaf79c33725dfa",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1355,
+      "sha256": "91acadf10d7a49090bc37533e843342bed33952ec871e9b3bfa1eceb24055221",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1157,
+      "sha256": "e7c620b94cc6f38a526fa05c580364a8b1783317e9eae570f9e71418ed1a32e7",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 519,
+      "sha256": "9025575080d70f1c9d7e76ad6b28657952c30ee6b8de6a827b39b3235931ecd1",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "47072112223fecb0510dc8ecb61342cb2c570e354ff34e2c8723946c95e6c58c",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1200,
+      "sha256": "b777e105890f58a09af6141ffb820aa796add5db23edf0bdc1adef00d3d7aad4",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/low-poly-crab_palette.png",
+      "bytes": 341,
+      "sha256": "d62f575344c74ac8d7f98dd083a859913e0a491195178cd684beff92a64066a8",
+      "role": "textures"
+    }
+  ]
+}

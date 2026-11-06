@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "id": "ph-carved-wooden-plate",
+  "title": "Hand-carved wooden plate",
+  "category": "kitchen/tableware",
+  "style": "realistic",
+  "tags": [
+    "tableware",
+    "plate",
+    "bowl",
+    "wood",
+    "carved",
+    "rustic",
+    "pbr"
+  ],
+  "batch": "expansion-07",
+  "acquired_at": "2026-11-04T16:44:38.347630+00:00",
+  "review": {
+    "id": "ph-carved-wooden-plate",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. The carved geometric border is carried in both geometry and normal map, and the top view shows the pattern running continuously around the full circumference. The underside in the bottom view is properly shaped with a recessed foot, not a flat disc. Just 2.1k tris.",
+    "limitations": [
+      "Very pale bleached wood; may need a colour tweak to sit beside warmer timbers.",
+      "Shallow profile means side-on views show little detail."
+    ],
+    "contact_sheet_sha256": "6bf3a256c4ee279bb1107d686962d77b6ada6509d1b4d01e20b6ede4f456e586",
+    "reviewer": "arena-agent-visual-review",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/carved_wooden_plate_2k.gltf",
+    "creator": "Jan Martens",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/carved_wooden_plate",
+    "source_id": "carved_wooden_plate",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/carved_wooden_plate/carved_wooden_plate_2k.gltf",
+        "bytes": 2836,
+        "sha256": "f456a068bef31ee6510b5ee3077a5380d34c04a8fcc1f9f3f2776f4f64400206"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/carved_wooden_plate/carved_wooden_plate_nor_gl_2k.jpg",
+        "bytes": 1859515,
+        "sha256": "527718d0aac0353e916a45e3a4b02aedb6423035de4a6a9a36efbb619f15e431"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/carved_wooden_plate/carved_wooden_plate_diff_2k.jpg",
+        "bytes": 1766314,
+        "sha256": "83c8f8f3372adaf00692f6a1e88567bf69d74d44f94d81362513e7467bdc247a"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/carved_wooden_plate/carved_wooden_plate_arm_2k.jpg",
+        "bytes": 1586665,
+        "sha256": "55f0b5d77b7dadd137bb5a2b33b0add07f030c55acc81ed15a742c176640603f"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/carved_wooden_plate/carved_wooden_plate.bin",
+        "bytes": 52160,
+        "sha256": "4a605b576b1e79968f668c8624733e2e0fff073ae9fc1107b55ad4d976b99787"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/carved_wooden_plate_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/carved_wooden_plate_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "carved_wooden_plate_nor_gl"
+    },
+    {
+      "path": "model/textures/carved_wooden_plate_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "carved_wooden_plate_diff"
+    },
+    {
+      "path": "model/textures/carved_wooden_plate_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "carved_wooden_plate_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 1234,
+    "triangles": 2112,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "carved_wooden_plate_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-carved-wooden-plate/model/textures/carved_wooden_plate_diff_2k.jpg"
+      },
+      {
+        "name": "carved_wooden_plate_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-carved-wooden-plate/model/textures/carved_wooden_plate_nor_gl_2k.jpg"
+      },
+      {
+        "name": "carved_wooden_plate_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-carved-wooden-plate/model/textures/carved_wooden_plate_arm_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1279,
+      "sha256": "1607f15c966ab9ef17b96cc55e3278a5f0c566ab9f5a54c13f32f67efe549114",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 285,
+      "sha256": "b841e8c6da8eb2cd5158c203d25250838f390e54d4ac38bd6641595217934062",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68297,
+      "sha256": "6d04d9d2128f391ca74117c574032778725f444f219f13b8d9da0eede31c23ee",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/carved_wooden_plate.bin",
+      "bytes": 52160,
+      "sha256": "4a605b576b1e79968f668c8624733e2e0fff073ae9fc1107b55ad4d976b99787",
+      "role": "model"
+    },
+    {
+      "path": "model/carved_wooden_plate_2k.gltf",
+      "bytes": 2836,
+      "sha256": "f456a068bef31ee6510b5ee3077a5380d34c04a8fcc1f9f3f2776f4f64400206",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/carved_wooden_plate_arm_2k.jpg",
+      "bytes": 1586665,
+      "sha256": "55f0b5d77b7dadd137bb5a2b33b0add07f030c55acc81ed15a742c176640603f",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/carved_wooden_plate_diff_2k.jpg",
+      "bytes": 1766314,
+      "sha256": "83c8f8f3372adaf00692f6a1e88567bf69d74d44f94d81362513e7467bdc247a",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/carved_wooden_plate_nor_gl_2k.jpg",
+      "bytes": 1859515,
+      "sha256": "527718d0aac0353e916a45e3a4b02aedb6423035de4a6a9a36efbb619f15e431",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 30815,
+      "sha256": "2921f3ab68a5e1dc7af7d069ff8a305ae1b3b658df82ceac7f396b6cdb848cc4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 12552,
+      "sha256": "80411de23c686b75ed0840c5400bc279d68597ef075dbf9e3c25bc8828efdaf5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 176809,
+      "sha256": "6bf3a256c4ee279bb1107d686962d77b6ada6509d1b4d01e20b6ede4f456e586",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1194,
+      "sha256": "573e67ecb57baa6d3924592bf7c517b579191638fb7a71dedc48f0666de9abfb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 22644,
+      "sha256": "889260d9de489af0a060bba2603c1142b4d460d705eae379082e754e3fad46cb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 22457,
+      "sha256": "f8ff44e6dfb744a253ce6ac286907e1459db0ab9739752e6361393db20e0539b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 21349,
+      "sha256": "aa4ebf96e19b3eb17192e72d870323ea00df436fc7f393f3889743a34f6f3bdc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 20640,
+      "sha256": "9b6679542e35c2d56c87ebc2d3cf854f6671ba6e19776327e2d1b526c08701b3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 21015,
+      "sha256": "456e98251bb0c152fc78ccf8c6eaab3fa31c07a17f03f6ff90c9012161752c28",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 22334,
+      "sha256": "2bfb2274ebd26bfcc6d37f93ece1ce8ebb8588aeaf2799edc354a6267d26fd68",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 22453,
+      "sha256": "3ad5ed699a8cdbeda685c337447b5ec2acbe361fddd6898749bc1ac3ad92ccda",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 20787,
+      "sha256": "8495f75f05e0a2ea5e74d3e52180245acb3d41f7d53e7f1ee5e458b9caf5d788",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 42926,
+      "sha256": "13e47c4c244409b64b0f042bf02d05df15fb91359bb1cefa2f28acae15959eb7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 24488,
+      "sha256": "e7f8812335716bac8671da533093439b531e1c4404d969d6751d739b5f7ef593",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 169,
+      "sha256": "6f17e42c3f33194314f6edebafc0e7dab1ff543f9e39305f38b7d3bc09926eaf",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1180,
+      "sha256": "10558bb7b755e17ed4355caa3edcf6b38e84ff6824fad4ffe2fd178e3910c636",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2156,
+      "sha256": "a2afd86ba5f45bcf35154d3d18057eb985db3021e3456557a22293d485f0422c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1174,
+      "sha256": "8b4b53a7ca8373c5c51583cf3e414b424746d064cb720bbb1c1d24d7ad6e6518",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 931,
+      "sha256": "2da603eb01358c8a4703be37045e1cd0fede7aae1620249352508849807197cb",
+      "role": "documentation"
+    }
+  ]
+}

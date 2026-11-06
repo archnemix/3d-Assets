@@ -1,0 +1,22 @@
+{
+  "id": "ph-security-camera-wall",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "All 12 views inspected. Wall-bracket CCTV camera with a sunshield hood, recessed dark lens port, two-part housing, an articulated bracket arm and a screwed mounting plate. Rear views show the housing seam and cable route. Carries an invented FocusSpy wordmark on the housing side.",
+  "limitations": [
+    "Invented FocusSpy brand mark is baked into the texture; remove it for brand-sensitive use.",
+    "Not rigged in the shipped glTF; the bracket does not pan or tilt at runtime.",
+    "The lens port is an opaque dark disc, not optical glass."
+  ],
+  "contact_sheet_sha256": "021a849883d9367e27e4614b32b61b7587796685f588c55d1f3c7c9383c7c80b",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

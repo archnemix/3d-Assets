@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "id": "g3-high-speed-train",
+  "title": "High-speed train power car",
+  "category": "vehicles/rail",
+  "style": "stylized",
+  "tags": [
+    "train",
+    "high-speed",
+    "rail",
+    "nose"
+  ],
+  "batch": "expansion-12",
+  "acquired_at": "2026-11-05T00:05:12.123330+00:00",
+  "review": {
+    "id": "g3-high-speed-train",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. High-speed power car with a long aerodynamic nose, wrap-around cab glazing, a single roof pantograph with a fairing, recessed skirted bogies, a blue window band and a green waist stripe, and a full gangway with bellows and tail lights at the rear. The underside shows skirted equipment bays and both bogies. The nose, roof and rear are all complete. The blue/green banding is generic and carries no operator marks, though the silhouette clearly evokes Japanese high-speed stock.",
+    "limitations": [
+      "Stylised Cozy-kit palette rather than photoreal materials.",
+      "Styling evokes real Japanese high-speed trains; no logos or numbers are present, but it is not a licensed depiction of any specific service.",
+      "Wheels, bogies and pantograph are fused to the body.",
+      "This is a single power car, not a complete train set."
+    ],
+    "contact_sheet_sha256": "cc1575a97bf6d4a5c05d3d9133b8c9b32fc5246927c7e2d81a6a45de41c34fd5",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/high-speed-train.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/high-speed-train/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/high-speed-train/",
+    "source_id": "high-speed-train",
+    "revision": "4c1a7fe942dc8211e6641eabb5660a7ec4f4f022a95e567606711047edf559c4",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/high-speed-train/high-speed-train.glb",
+        "bytes": 1794332,
+        "sha256": "4c1a7fe942dc8211e6641eabb5660a7ec4f4f022a95e567606711047edf559c4"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/high-speed-train/LICENSE.txt"
+  },
+  "model": "model/high-speed-train.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 4,
+    "materials": 4,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_materials_emissive_strength"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/high-speed-train_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "high-speed-train_body_normal"
+    },
+    {
+      "path": "textures/high-speed-train_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "high-speed-train_body_basecolor"
+    },
+    {
+      "path": "textures/high-speed-train_body_metallic-high-speed-train_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "high-speed-train_body_metallic-high-speed-train_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 4,
+    "hidden_mesh_objects": 0,
+    "vertices": 26333,
+    "triangles": 29487,
+    "material_slots": 4,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 80,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "high-speed-train_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "high-speed-train_body_metallic-high-speed-train_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "high-speed-train_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1450,
+      "sha256": "090ea8992ef2f8dbcfe0297f108493e4b64c2e3d3fee95a70cc97504ba4ec646",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 506,
+      "sha256": "2aec63251763cea6e81269cdf2ac8c3d5f2df2fc2615c4fa51b3bc9eb3579a8a",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 71346,
+      "sha256": "e3cbcb6cd2036b58e221bd3697e3529624f3dec0ebea330431cddea0dbf24327",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "c2c7e1623cc8de0ed1fe35ab328504d5a1e7fa61bee9e68fa9c82b310a1975f2",
+      "role": "logs"
+    },
+    {
+      "path": "model/high-speed-train.glb",
+      "bytes": 1794332,
+      "sha256": "4c1a7fe942dc8211e6641eabb5660a7ec4f4f022a95e567606711047edf559c4",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 14448,
+      "sha256": "1066ecffde43c4498559296936118cf7c4836f8ba6bae34e251acc47acfb3567",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18718,
+      "sha256": "ce1f832ca3c0433477cf51da3d2a85c24efddf28085bcebd9d6c5a79fb7ab717",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 159955,
+      "sha256": "cc1575a97bf6d4a5c05d3d9133b8c9b32fc5246927c7e2d81a6a45de41c34fd5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 849,
+      "sha256": "e93e0159de0442940225601ae099dfa088ee569937e4c1fea8d149c4356b6a4f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 18707,
+      "sha256": "89775b245bf887756646d3d7af38d2abff753b93c60364fcff1bde951a6b9eb9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 22213,
+      "sha256": "00173c11d377a3c5365888e2917d7a7e6f5aa9556b66eb24aa53649f49aa1699",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 17702,
+      "sha256": "c8bb2b4fc5516b235336d5b8416288381200a829e52f38c788addcc2722920b3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 22426,
+      "sha256": "dabd6cf07d30495a33776a3d4a00b1020e73bf508ebb205d7f6854901d0c865a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 20878,
+      "sha256": "768a30af519d0c6fd0370e1dba6d7f0e4e5b89605b1608b3f53672021487bbbe",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 23554,
+      "sha256": "3d8a921737e8d7d8f719ff195f52d6b9636aaf94caf5ef53e63324678700aa3a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 18606,
+      "sha256": "d4bc3697878b22a01fc96db103f392db1f35cc5f674c4747f081b1491212b7f7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 23846,
+      "sha256": "c73604d7eae7b284d3874cbb2fbcfa892ef912423b56234dc0bc4cde9ad965f6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 14267,
+      "sha256": "06613071ac88bf20b513fbf7b0c5949d98483806108b6bf6540be80bbd9167ad",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 38183,
+      "sha256": "e585e2628aed73b65af6c0efd5f5e1b5d53ec2f494fec2cbe377f52b5b99cf32",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 162,
+      "sha256": "c044cead511cd8282f6eefde38f1e0570eaf9c9634b6b79a6efbd03ca9ace921",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2574,
+      "sha256": "2123c8f7fcd36ab7b801237c5b35b4f11ae11fc300ea210e9eb182e3e0a9b0cf",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1944,
+      "sha256": "4abcfeac5e4d3bdb7118bcc30dfbd0dee874b5e4ca4b859d1e389b9393dad364",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 524,
+      "sha256": "63b6c67a40ffef5e505770ccfba475a1275851217b32b777d0b529670828356f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "f7e55b1fd699c5eccdf05dd33c4b27aff02e19cf50aec752189633e22d377f9f",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1313,
+      "sha256": "a00fdf396e5f64adfa4aaf9ba0aa2ccf108921e96edcc1cdba61a24ca76db9d1",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/high-speed-train_body_basecolor.jpg",
+      "bytes": 373244,
+      "sha256": "b1763e2a08091604fa9d4da78ea8f968c5c5864fe0d982758f558e75d2bf8fed",
+      "role": "textures"
+    },
+    {
+      "path": "textures/high-speed-train_body_metallic-high-speed-train_body_roughness.jpg",
+      "bytes": 322042,
+      "sha256": "c532b6388e6ad7d0d8b23cb5714dbdf38ee144cd477685742b0e5492fd7b8288",
+      "role": "textures"
+    },
+    {
+      "path": "textures/high-speed-train_body_normal.jpg",
+      "bytes": 73071,
+      "sha256": "49ed0f7dc6c1d04cf1a187555c2088add91876acc4d08fd78bcf0f1d297a4f4d",
+      "role": "textures"
+    }
+  ]
+}

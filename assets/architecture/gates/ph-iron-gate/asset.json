@@ -1,0 +1,409 @@
+{
+  "schema_version": 1,
+  "id": "ph-iron-gate",
+  "title": "Ornate cast-iron double gate",
+  "category": "architecture/gates",
+  "style": "realistic",
+  "tags": [
+    "gate",
+    "iron",
+    "ornate",
+    "finials",
+    "rusted",
+    "pbr"
+  ],
+  "batch": "expansion-13",
+  "acquired_at": "2026-11-05T10:33:38.081238+00:00",
+  "review": {
+    "id": "ph-iron-gate",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Photoreal large iron gate with decorative scrollwork. Photoreal Poly Haven asset: glTF validation clean (0 errors), high-detail geometry with PBR texture maps. No tmwarn flagged upstream. CC0 licensed with LODs where applicable.",
+    "limitations": [
+      "Unrigged static prop; no animation clips.",
+      "May have small surface markings from real-world scanning (e.g. stamps, numbers); none flagged as trademarked."
+    ],
+    "contact_sheet_sha256": "266214e38de9da41d723573003ed4381d37165afe468f91bddadd395efc96b0a",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/large_iron_gate_2k.gltf",
+    "creator": "Josh Dean",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/large_iron_gate",
+    "source_id": "large_iron_gate",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/large_iron_gate/large_iron_gate_2k.gltf",
+        "bytes": 7101,
+        "sha256": "a9058e591152941fab38f9951964526e2e263b0c7a1ab992462ab0c56e5bbe8c"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/large_iron_gate/large_iron_gate_diff_2k.jpg",
+        "bytes": 2170270,
+        "sha256": "0847dc0f2c7dd84bb4fed6b546cd34790899a59c4cb1e59102c0f174eef5e6a6"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/large_iron_gate/large_iron_gate.bin",
+        "bytes": 971848,
+        "sha256": "973f9f7b7e968a5b22bcf07aac03312af5b74bac125750c887934ee30d986c8f"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/large_iron_gate/large_iron_gate_nor_gl_2k.jpg",
+        "bytes": 2786152,
+        "sha256": "6c033e1c6e42d60dc8754b85d9ecd8cccda70b412fa1112fc8a2cbf79c36bd21"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/large_iron_gate/large_iron_gate_arm_2k.jpg",
+        "bytes": 2862243,
+        "sha256": "bcb48c54914ec87e0d3358d758e9c4ad7cb7e10f6851910de4b39b508fbb894b"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/large_iron_gate_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 4,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/large_iron_gate_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "large_iron_gate_nor_gl"
+    },
+    {
+      "path": "model/textures/large_iron_gate_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "large_iron_gate_diff"
+    },
+    {
+      "path": "model/textures/large_iron_gate_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "large_iron_gate_metal-large_iron_gate_rough"
+    }
+  ],
+  "authored_animations": [
+    {
+      "name": "door_open",
+      "parts": [
+        "large_iron_gate_left_door"
+      ],
+      "axis": "Z",
+      "start_degrees": 0.0,
+      "degrees": 100.0,
+      "frames": 60,
+      "fps": 30
+    },
+    {
+      "name": "door_open",
+      "parts": [
+        "large_iron_gate_right_door"
+      ],
+      "axis": "Z",
+      "start_degrees": 0.0,
+      "degrees": 100.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/large_iron_gate_2k-animated.glb",
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 4,
+    "hidden_mesh_objects": 0,
+    "vertices": 23219,
+    "triangles": 38140,
+    "material_slots": 4,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "large_iron_gate_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-13/ph-iron-gate/model/textures/large_iron_gate_diff_2k.jpg"
+      },
+      {
+        "name": "large_iron_gate_metal-large_iron_gate_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-13/ph-iron-gate/model/textures/large_iron_gate_arm_2k.jpg"
+      },
+      {
+        "name": "large_iron_gate_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-13/ph-iron-gate/model/textures/large_iron_gate_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 4,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1292,
+      "sha256": "2fdad07575bb034afca4ad11f683031199d1cb3444c0a1768c904a4db26e7031",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 37070,
+      "sha256": "0a08dc6b7eb61c7af2c068c5d75b8c7461c93aaca2a32c79c0f5320c9f4e63eb",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 70587,
+      "sha256": "14d60c971a7a089617991adcba27466d52c02869339f43a44515dc9749649849",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "a99759f362377291a7bb056ad797ad31a9826d4cf0cce6cd08add7590b8520d0",
+      "role": "logs"
+    },
+    {
+      "path": "model/large_iron_gate.bin",
+      "bytes": 971848,
+      "sha256": "973f9f7b7e968a5b22bcf07aac03312af5b74bac125750c887934ee30d986c8f",
+      "role": "model"
+    },
+    {
+      "path": "model/large_iron_gate_2k-animated.glb",
+      "bytes": 8797644,
+      "sha256": "73a8cc5f340583fd6cb2d8d3e3c6786d62d3e7b44c0bfa1041c375266f90ec39",
+      "role": "model"
+    },
+    {
+      "path": "model/large_iron_gate_2k.gltf",
+      "bytes": 7101,
+      "sha256": "a9058e591152941fab38f9951964526e2e263b0c7a1ab992462ab0c56e5bbe8c",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/large_iron_gate_arm_2k.jpg",
+      "bytes": 2862243,
+      "sha256": "bcb48c54914ec87e0d3358d758e9c4ad7cb7e10f6851910de4b39b508fbb894b",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/large_iron_gate_diff_2k.jpg",
+      "bytes": 2170270,
+      "sha256": "0847dc0f2c7dd84bb4fed6b546cd34790899a59c4cb1e59102c0f174eef5e6a6",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/large_iron_gate_nor_gl_2k.jpg",
+      "bytes": 2786152,
+      "sha256": "6c033e1c6e42d60dc8754b85d9ecd8cccda70b412fa1112fc8a2cbf79c36bd21",
+      "role": "model"
+    },
+    {
+      "path": "previews/anim-door_open-a.jpg",
+      "bytes": 18289,
+      "sha256": "0256870c6d83b70570636c668764dd25a9b68be58ec6463c0c21a28425f791a5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-door_open-b.jpg",
+      "bytes": 20443,
+      "sha256": "11606c5b373b3dd275ac533eee430ecf6d18c3f72068b91f38c4d45bed954890",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-door_open-c.jpg",
+      "bytes": 13213,
+      "sha256": "13db47f728a4868ee9620f154c41d120ab4f63c29ced8fdc721ca1d82e10027c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 11452,
+      "sha256": "d0ba9bf74eceaa3f9bd01ea1885ef22945baaaad799649737803be21ea28755c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 46928,
+      "sha256": "9e15824a1d539c6d521661624f2ad4564b29cbaae5231b67544f12ca4be9e8f4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 274839,
+      "sha256": "266214e38de9da41d723573003ed4381d37165afe468f91bddadd395efc96b0a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1164,
+      "sha256": "bf729d5aac4d9e6c3fac03607fd5706b21ee0b4d2057bc4c9806eadd7d7f686d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 64967,
+      "sha256": "dab9b503750aeeb65c67a42b5d3f269504186f7dd840f38beaebed290bab3ace",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 52787,
+      "sha256": "350b368fe24751e78fef8077d84b567b744e09f3e3509b1729eb5c284d0457e8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 10537,
+      "sha256": "d9db2891c8bf3172ca7116c023beaf3ea2c36db6054502e2a27b7890b042365d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 52300,
+      "sha256": "657a30fc47bf2cfdb1e50a2146348dec74b5aa4a40b61ab21e0420f18dcd8e30",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 63991,
+      "sha256": "b17a16822201da85394a111674de4b5293b580d737333b0233aaa858a8759c71",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 52949,
+      "sha256": "1ebe7de5126c675a19d434cba7ce6538b5d8f2fe487945df07dadb7796d6a60e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 10688,
+      "sha256": "2fdf798ca35b8b580696314414372e27a8d95b793785012f1d2c70f0ce723c7d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 53285,
+      "sha256": "16f7165b45796b270eea22d779178caaae4d95998fe2e374adc66a8926841df2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 10882,
+      "sha256": "cb75955c74333876cfde1b1c5fa135631699cd88fb454a50555a91ce1d8dd3c5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 56435,
+      "sha256": "9d7de3c4c8ae83617dfb68dfa22756b625a9305100ba919c4c1ff948ceb7d74b",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 965,
+      "sha256": "26bcf8479f05f6b439460f360016fc05dd8b54d9c9a58e64b846145e062d3c45",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1231,
+      "sha256": "e4b18e7ac8be9f0b12ecbc446f693b72812e1484968e05d100770c62753157b0",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3120,
+      "sha256": "50075c7cc1ef2ff1fbad1771f3dbbc6400ccee6e6b5f42b49e27f3fc12221a0c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1119,
+      "sha256": "0c245c18d7db75c696371874b0af9013b63caa2fb7a3e596801de9e0af833757",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 863,
+      "sha256": "067fe2a23e10d1cec5132b9653de3570974c98710bdd9eb9aa9a8b9eda547bf0",
+      "role": "documentation"
+    }
+  ]
+}

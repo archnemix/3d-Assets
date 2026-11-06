@@ -1,0 +1,110 @@
+{
+  "batch": "expansion-11",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "decisions": [
+    {
+      "id": "g3-breastplate",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Steel cuirass with brass edge trim, a raised brass star on the chest, three articulated lame bands at the waist, leather shoulder straps with brass buckles and paired side straps with buckles. The top and bottom views confirm it is a hollow shell with real wall thickness and open neck and arm holes, so it can be fitted over a torso. The back plate and all strap runs are complete. Unrigged static prop.",
+      "limitations": [
+        "The waist lames are fused and will not articulate independently.",
+        "Sized as a standalone prop; it may need scaling to fit a specific character torso."
+      ],
+      "contact_sheet_sha256": "d99d0a638b240b2b92a361d32226163d2f64742da9126fe296f66ccff2443ae8"
+    },
+    {
+      "id": "g3-great-helm",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Cylindrical great helm with a domed top, brass top and bottom bands with rivet rows, two reinforced eye slits, two perforated breathing rosettes and brass side bosses. The bottom view confirms the helm is genuinely hollow with a modelled interior wall thickness rather than a solid cap, so it can be worn by a character. Rivet rows and bands continue correctly around the back. Unrigged static prop.",
+      "limitations": [
+        "No interior padding or arming cap is modelled.",
+        "Sized as a standalone prop; it may need scaling to fit a specific character head."
+      ],
+      "contact_sheet_sha256": "e62eaaaf4e33a3c09972ad4f1c96b843f4968ca6fe341fac9400f7b014a47873"
+    },
+    {
+      "id": "g3-longsword",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Hand-and-a-half sword with a straight double-fullered steel blade, a swept brass crossguard with swollen terminals, a ribbed leather-bound grip and a disc pommel set with a pale cabochon. The fuller runs the correct length down both faces, the blade tapers to a real point in the top view, and the grip ribbing and pommel gem are present on both sides. Free-standing weapon with no display furniture. Unrigged static prop.",
+      "limitations": [
+        "Stylised Cozy-kit palette rather than photoreal metal.",
+        "Blade, guard and grip are one fused mesh and cannot be disassembled."
+      ],
+      "contact_sheet_sha256": "94f44b79fd6b90734ed19fd9ec13af4536505304a9ac2f12bf57d2566125f7dc"
+    },
+    {
+      "id": "g3-rapier",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Rapier with a long slender tapering blade and an elaborate swept brass hilt: a knuckle bow, two curved side rings, straight quillons with ball finials, a ribbed grip and an ovoid pommel. The swept guard is genuine open tube geometry, not a flat cut-out, which the top and left views confirm. Free-standing weapon, unrigged.",
+      "limitations": [
+        "Stylised palette.",
+        "The guard rings are thin tubes; they will alias at small on-screen sizes."
+      ],
+      "contact_sheet_sha256": "058ebcf18489b7b4a7f9665e3a928ce5fd7dbd2062c5f8cfab1f8b598706567d"
+    },
+    {
+      "id": "grab3d-elderly-man",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Elderly gentleman with a tweed flat cap, white hair and moustache, round wire spectacles, a mustard bow tie, an olive knitted cardigan with a ribbed hem, buttons and suede elbow patches, rust corduroy trousers and brown leather shoes. The knit and corduroy both read as directional fabric rather than flat colour, the elbow patches are present on both arms, and the rear views confirm the cardigan ribbing and cap seams continue correctly. Rigged: 54-bone humanoid armature (24 body + 30 finger bones), walk and run clips, zero unweighted skinned vertices.",
+      "limitations": [
+        "AI-assisted origin is disclosed upstream (origin.ai_content); some storefronts require an AI-content disclosure when you resell.",
+        "Spectacles are fused to the face and cannot be removed."
+      ],
+      "contact_sheet_sha256": "b4a4f35d9109bede8bb52fbf0cb2407268ba42b590036233c2e09f694369df82"
+    },
+    {
+      "id": "grab3d-police-officer",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Officer in a navy uniform with a black plate carrier holding modelled magazine pouches, a shoulder radio, a duty belt with holster and pouches, cargo trousers and black boots. A high-resolution crop of the head confirms the peaked cap is completely plain: no cap badge, force crest, shoulder patch or legible POLICE lettering anywhere, so there is no real-world insignia to clear. The carrier webbing, belt and rear trouser pockets are complete from all sides. Rigged: 54-bone humanoid armature (24 body + 30 finger bones), walk and run clips, zero unweighted skinned vertices.",
+      "limitations": [
+        "AI-assisted origin is disclosed upstream (origin.ai_content); some storefronts require an AI-content disclosure when you resell.",
+        "Generic uniform with no insignia; it does not depict any specific real police force.",
+        "The vest and holster are fused to the body; the sidearm cannot be drawn."
+      ],
+      "contact_sheet_sha256": "9d9737f59e24011ae28afcec425987d95165eecb0a80be74a46ad8d6a1680987"
+    }
+  ]
+}

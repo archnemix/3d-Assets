@@ -1,0 +1,31 @@
+{
+  "source_model": "cannon_01_2k.gltf",
+  "authored": [
+    {
+      "name": "wheel_roll",
+      "parts": [
+        "cannon_01_wheel_01",
+        "cannon_01_wheel_02",
+        "cannon_01_wheel_03",
+        "cannon_01_wheel_04"
+      ],
+      "axis": "X",
+      "start_degrees": 0.0,
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "verification": [
+    {
+      "clip": "wheel_roll",
+      "frames": [
+        "anim-wheel_roll-a.jpg",
+        "anim-wheel_roll-b.jpg",
+        "anim-wheel_roll-c.jpg"
+      ]
+    }
+  ],
+  "note": "Clips authored by this library, not upstream. Dedicated to CC0.",
+  "animated_model": "cannon_01_2k-animated.glb"
+}

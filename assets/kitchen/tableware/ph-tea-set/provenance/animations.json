@@ -1,0 +1,37 @@
+{
+  "source_model": "tea_set_01_2k.gltf",
+  "authored": [
+    {
+      "name": "lid_lift",
+      "parts": [
+        "tea_set_01_sugar_cup_01_lid",
+        "tea_set_01_teapot_01_lid"
+      ],
+      "motion": "lift",
+      "detail": [
+        {
+          "part": "tea_set_01_sugar_cup_01_lid",
+          "rise_metres": 0.054
+        },
+        {
+          "part": "tea_set_01_teapot_01_lid",
+          "rise_metres": 0.0793
+        }
+      ],
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "verification": [
+    {
+      "clip": "lid_lift",
+      "frames": [
+        "anim-lid_lift-a.jpg",
+        "anim-lid_lift-b.jpg",
+        "anim-lid_lift-c.jpg"
+      ]
+    }
+  ],
+  "note": "Clips authored by this library, not upstream. Dedicated to CC0.",
+  "animated_model": "tea_set_01_2k-animated.glb"
+}

@@ -1,0 +1,442 @@
+{
+  "schema_version": 1,
+  "id": "g3-mountain-bike",
+  "title": "Mountain bike",
+  "category": "vehicles/bikes",
+  "style": "stylized",
+  "tags": [
+    "bicycle",
+    "mountain",
+    "suspension",
+    "disc-brake"
+  ],
+  "batch": "expansion-12",
+  "acquired_at": "2026-11-05T00:01:08.543400+00:00",
+  "review": {
+    "id": "g3-mountain-bike",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. Hardtail mountain bike with a sage frame, a suspension fork with stanchions and lowers, knobby tyres on rims with individually modelled spokes, disc brake rotors and calipers front and rear, a chainring with cranks and pedals, a chain run, a rear cassette, a saddle and seatpost, and flat bars with grips and a stem. The spokes are real geometry rather than a texture, which the close side views confirm. Front and rear wheels, the crank and a steering node are all SEPARATE, so wheel-roll, steering and crank clips can be authored.",
+    "limitations": [
+      "Stylised Cozy-kit palette rather than photoreal materials.",
+      "The chain is static geometry and will not travel with the crank clip.",
+      "No rider is included."
+    ],
+    "contact_sheet_sha256": "8bf6a5b286c7773ff853a704b28f31899c84d4be2078a27e2c70a2a178483677",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/mountain-bike.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/mountain-bike/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/mountain-bike/",
+    "source_id": "mountain-bike",
+    "revision": "7fab87be7fab8604141d13094dd3ecd902622fbbfd574c426946ba71201791d9",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/mountain-bike/mountain-bike.glb",
+        "bytes": 1377464,
+        "sha256": "7fab87be7fab8604141d13094dd3ecd902622fbbfd574c426946ba71201791d9"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/mountain-bike/LICENSE.txt"
+  },
+  "model": "model/mountain-bike.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 5,
+    "materials": 15,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/mountain-bike_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "mountain-bike_body_normal"
+    },
+    {
+      "path": "textures/mountain-bike_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "mountain-bike_body_basecolor"
+    },
+    {
+      "path": "textures/mountain-bike_body_metallic-mountain-bike_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "mountain-bike_body_metallic-mountain-bike_body_roughness"
+    }
+  ],
+  "authored_animations": [
+    {
+      "name": "wheel_roll",
+      "parts": [
+        "mountain-bike_wheel_front",
+        "mountain-bike_wheel_rear"
+      ],
+      "axis": "X",
+      "start_degrees": 0.0,
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    },
+    {
+      "name": "steer",
+      "parts": [
+        "mountain-bike_wheel_front"
+      ],
+      "axis": "Z",
+      "start_degrees": 0.0,
+      "degrees": 32.0,
+      "frames": 45,
+      "fps": 30
+    },
+    {
+      "name": "crank_turn",
+      "parts": [
+        "mountain-bike_crank"
+      ],
+      "axis": "X",
+      "start_degrees": 0.0,
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/mountain-bike-animated.glb",
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 5,
+    "hidden_mesh_objects": 0,
+    "vertices": 22982,
+    "triangles": 28020,
+    "material_slots": 15,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "mountain-bike_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "mountain-bike_body_metallic-mountain-bike_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "mountain-bike_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1274,
+      "sha256": "00ca68e90d72daf72730c66395ebdf6450fe66736fb4ffefbb93dff1e9247330",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 57056,
+      "sha256": "0e4d159eedfb03717d25aa79ca4be6c24604d699964dce5ce785c1d7a3892d72",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 73752,
+      "sha256": "bea546c3ddc02d83bc5fb5af68faed55b39e98c01ca52c449c0443fe0aa90618",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "65d5c317f20dedae097e3bbb798153f9f9c0f52d3c5517af9908fe7615cf49e0",
+      "role": "logs"
+    },
+    {
+      "path": "model/mountain-bike-animated.glb",
+      "bytes": 1384184,
+      "sha256": "ecf45959fe0e5455ce653a194e4676b3c435bc57410174ea6b5f42c1896ac24c",
+      "role": "model"
+    },
+    {
+      "path": "model/mountain-bike.glb",
+      "bytes": 1377464,
+      "sha256": "7fab87be7fab8604141d13094dd3ecd902622fbbfd574c426946ba71201791d9",
+      "role": "model"
+    },
+    {
+      "path": "previews/anim-crank_turn-a.jpg",
+      "bytes": 13100,
+      "sha256": "165e7438b57e99b82a302d9fe5e3bedc4e055ea0f205c990a78cd367f7135a27",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-crank_turn-b.jpg",
+      "bytes": 12945,
+      "sha256": "f39e6e62fafb3d0ab6dfeb28e3dae05fe1080b514c26e186d547efb05958e9c4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-crank_turn-c.jpg",
+      "bytes": 13100,
+      "sha256": "4a1a475eea6fc2346fbffcf26033bf749f453bec940c87e8250866a7cd8c0793",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-steer-a.jpg",
+      "bytes": 16105,
+      "sha256": "09e711ec84ff8b604d30268042d66a231b4a95eb7cbcb8980bfe8982eadc2ef2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-steer-b.jpg",
+      "bytes": 14696,
+      "sha256": "ad875a2d9fc048572aadafd1733904010611cd7ee8b28884fbd65ce7a782d925",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-steer-c.jpg",
+      "bytes": 13100,
+      "sha256": "3de8f07eb4f207c029887ae0f1c8c3cbb715eacbe90d853465ea78f09f77db5a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-a.jpg",
+      "bytes": 16113,
+      "sha256": "671432616237ec888c8023e015ce4600a5ac73ee6ce45c733f837504415d5e03",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-b.jpg",
+      "bytes": 16271,
+      "sha256": "328000c857ed8467994c4ed6d18f927b14294682655743dd39c71eb5fca510ca",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-c.jpg",
+      "bytes": 16101,
+      "sha256": "b3cee0e313526a04545ff7a7f6951e2dad27f1abbe50461b83b78b2f32569716",
+      "role": "previews"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 16082,
+      "sha256": "b536cfcf017f28579bff0bf232e79ff4b38994e764011554bb00a1f43a0caa36",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 35957,
+      "sha256": "375c4f22997aee53d6686f65fe2806b93e2514ae0067b1ffccbbd54eee7626af",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 248140,
+      "sha256": "8bf6a5b286c7773ff853a704b28f31899c84d4be2078a27e2c70a2a178483677",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 837,
+      "sha256": "4524a8030bd17c4f7e875a81e4776ed309f2d402880fd4c6a3ebe0cacdd0991e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 17232,
+      "sha256": "511e7870c19305ec8db103e8da3144386bd7754e22335238077eb4d130a8b2b8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 44423,
+      "sha256": "af0aef9f206113ce1c140f58b5955cdf72ecf89d01c7887cbaebe588217ce2d1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 35459,
+      "sha256": "2065b1acecd00fd61af87a5b12804b8fa6ede794d0f2dc2566ac8ad8c99e0ce0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 44613,
+      "sha256": "b7b9b5df55ffe447fe6590e9a0cc42887cb2a65ee019c92176f243a8fb46441d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 17867,
+      "sha256": "a96ef33efbb7a2ede6168f912bf6e30b2d14ebd26676091caaf0603cca1bfffa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 43741,
+      "sha256": "d70ce38e64f3ab752c80a6a61d4b75e0f009c3b0fc361896a96f95c6025eadcd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 33504,
+      "sha256": "f9232ab1fc715541de2db31c62756f61e5d21738d8af75c8076496b9da5ff140",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 43058,
+      "sha256": "82940a3ba62224e365787db78f9b2d12b75f818eb796510cd2ea7f90830d038c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 14926,
+      "sha256": "c6722a8c5266ccb1a9de3604d74cd51a51e92926524dad9519e52bc0217a472d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 56938,
+      "sha256": "76b5737dae1e016744c684360f70d0cdaeb84f7aaf8a3b393e52e0e87e7c7c59",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 1342,
+      "sha256": "cf9c255e1c3fd51152722a55947092f292888aac6230311e34fe4800004ed262",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 4571,
+      "sha256": "0a42b03d0492af750551ca5d1e7ec43075fb2e75f0c95c6276dd6a9d316ab159",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1812,
+      "sha256": "5bb7653689afdaebe7a1ebca2b6a3ac62d414a2ee272eeacbd2500d0ea7662aa",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 500,
+      "sha256": "535a7b9fdcc0030b9c5470875d61a85940fb7977a866de350c4950259c08cbce",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "2d0b1a4a6092fa1ec275b0185ba486f6faa605c3a76cb284571d387b9d74587e",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1201,
+      "sha256": "17056346acb734b4d44033339f08bc776c2726e425ec9d8e59466b15c515eb20",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/mountain-bike_body_basecolor.jpg",
+      "bytes": 224364,
+      "sha256": "325fd77b9f594550e92e286861a425314736ecaa1b14521cbeeee3fa5c977a44",
+      "role": "textures"
+    },
+    {
+      "path": "textures/mountain-bike_body_metallic-mountain-bike_body_roughness.jpg",
+      "bytes": 186900,
+      "sha256": "a3b219b3eeaf8aa17a68fe94652c797a78b2be6c8623b7d337401730e55ada59",
+      "role": "textures"
+    },
+    {
+      "path": "textures/mountain-bike_body_normal.jpg",
+      "bytes": 66407,
+      "sha256": "d6719193377238718177223f7755edf2a310392ecfa361f2cb529a8be1631ab5",
+      "role": "textures"
+    }
+  ]
+}

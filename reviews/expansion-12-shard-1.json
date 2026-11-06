@@ -1,0 +1,92 @@
+{
+  "batch": "expansion-12",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "decisions": [
+    {
+      "id": "g3-boxcar",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Ribbed steel boxcar with a curved cream roof and running board, vertical body ribs, a sliding door with track and handle on each side, end ladders and grab irons, a brake wheel on one end, buffers and couplers, and two bogies with brake gear. The underside is a complete underframe with cross-bearers. Doors are modelled closed on both sides. No reporting marks or logos.",
+      "limitations": [
+        "Stylised Cozy-kit palette rather than photoreal materials.",
+        "The sliding doors and wheels are fused into the body mesh and cannot be opened or rolled without separation."
+      ],
+      "contact_sheet_sha256": "75210dc4d74308e06c1b81b568fafb98bff883627e4e62d62dc86e970c5f8659"
+    },
+    {
+      "id": "g3-combine-harvester",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Combine harvester with a wide cutter bar carrying a modelled reel with bats and tines, a feeder house, a glazed cab with a roof, a grain tank, an unloading auger swung out to one side, an engine bay with a cooling fan and grilles, an access ladder, and four wheels with agricultural tread. The underside shows the chassis, drive axles and the underside of the cutter bar. The reel and all four wheels are SEPARATE nodes with correct pivots, so reel-spin, wheel-roll and steering clips can be authored.",
+      "limitations": [
+        "Stylised Cozy-kit palette rather than photoreal materials.",
+        "The unloading auger is fused in the extended position and cannot be folded.",
+        "Cab interior is not modelled."
+      ],
+      "contact_sheet_sha256": "f4d3e4e9b063fd45cea72b5f6173b88d2f2de00529d2838014fe3c95337c026e"
+    },
+    {
+      "id": "g3-farm-trailer",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Twin-axle tipping farm trailer with ribbed red side and end boards, a load of modelled hay, rear lights, a drawbar with a towing eye and a jack stand, mudguards, and four wheels with tractor-pattern tread. The underside view shows a complete chassis with a tipping ram, springs and axles. All four wheels are SEPARATE nodes with correct pivots, so wheel-roll clips can be authored.",
+      "limitations": [
+        "Stylised Cozy-kit palette rather than photoreal materials.",
+        "The tipping body is fused and cannot actually tip without separation.",
+        "The hay load is fused into the body and cannot be removed."
+      ],
+      "contact_sheet_sha256": "630a71644dd68cf283be21e9c3becd235cd76d4df9d68f426952f2c2f965a23b"
+    },
+    {
+      "id": "g3-jet-engine",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Turbofan cutaway on a yellow maintenance cradle: a fan with individually modelled swept blades, a spinner, a nacelle cut away along one side, multi-stage compressor and turbine discs with blades, an annular combustor in red, a core casing and an exhaust cone. The cut faces are capped and coloured rather than left open, and the internal blade rows are real geometry. The fan and core are a SEPARATE `_rotor` node, so a spin clip can be authored. The cutaway and cradle are intentional for a teaching/display model and the rotor is separable.",
+      "limitations": [
+        "Stylised Cozy-kit palette rather than photoreal materials.",
+        "The nacelle is deliberately cut away; this is not a complete closed engine.",
+        "Stage counts are illustrative, not a specific engine model."
+      ],
+      "contact_sheet_sha256": "5ba824607891651a25add0531f764097d06888c328c24b903f4405f12edeb84f"
+    },
+    {
+      "id": "g3-shield-wall",
+      "decision": "rejected",
+      "scores": {
+        "silhouette": 4,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 2,
+        "style_fit": 3
+      },
+      "notes": "All 12 views inspected. Rejected on usability, not rights, under the same rule that rejected the cutlass, machete and pike. The set of four round shields is welded to a braced wooden armoury rack. The GLB is a single mesh with a single material and no separate node for the furniture, so the stand cannot be hidden, deleted or unparented without destructive mesh surgery. Armour in this library has to be separable so it can be worn or carried; a shirt permanently fused to a coat stand and shields permanently fused to a rack are set dressing, not equippable armour. The sculpt and the chainmail weave itself are clean, and the enchanted sword in the same batch passes precisely because its weapon IS a separate node.",
+      "limitations": [],
+      "contact_sheet_sha256": "457b31abea40a03a4f591cd466f3d532b3a49861d2e3cb62c2a524c96bc7cd70"
+    }
+  ]
+}

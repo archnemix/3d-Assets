@@ -1,0 +1,109 @@
+{
+  "batch": "expansion-08",
+  "reviewer": "arena-agent-visual-review",
+  "reviewed_at": "2026-11-04",
+  "decisions": [
+    {
+      "id": "ph-classic-laptop",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Inspected all 12 views plus a full-size rear orbit to read the badge. Individually modelled keycaps with legends, trackball, floppy slot, screen bezel and a full rear I/O panel with parallel, serial and VGA ports. The underside shows a proper service-panel layout with vents. Yellowed beige plastic is convincingly period-correct.",
+      "limitations": [
+        "Lid badge reads SENNETZ MIKROPER, an invented brand rather than a real manufacturer; underside carries generic inventory labels.",
+        "Screen is blank and the hinge is fixed at one open angle."
+      ],
+      "contact_sheet_sha256": "04c13ad04b0ce169a0f4a610f0f1c2c3dd86fa08488f1440b73a1127d889f1f8"
+    },
+    {
+      "id": "ph-drill-press",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Inspected all 12 views. Opening belt cover reveals modelled stepped pulleys and a belt, the top view shows the full drive train, and the chuck, drill bit, three-spoke feed handle, adjustable table, motor and coiled power cable are all separate. Cast green enamel with edge wear is consistent all round. 58.5k tris, the heaviest in this batch.",
+      "limitations": [
+        "58.5k triangles; decimate if you need it as a background prop.",
+        "Belt cover is modelled open and the feed handle is in a fixed position."
+      ],
+      "contact_sheet_sha256": "0ff5a82256e4a2f43781fc590cb474675f40066c5e7397dcf8c87835044fd7c4"
+    },
+    {
+      "id": "ph-chinese-cabinet",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Inspected all 12 views. Open upper shelving with pierced geometric galleries, two drawers and a cupboard with a cast brass ring pull below. Carved detail is real geometry, visible in the raking orbits. Back and bottom views confirm a properly closed carcass with plausible plain rear panelling. 15.7k tris.",
+      "limitations": [
+        "Rear panel is deliberately plain, so avoid placing it facing camera.",
+        "Drawers and cupboard door are closed and not rigged."
+      ],
+      "contact_sheet_sha256": "2a852248dbcb239dfab8e76766481d159340be7b46a9b8389d588f55a136c3ae"
+    },
+    {
+      "id": "ph-wet-floor-sign",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Folding A-frame with a real hinge, carry handle cut-out and printed panels on both faces, confirmed in the top view. Generic CAUTION / WET FLOOR text and a standard slip pictogram with no branding. The 4 is for materials: the underside in the bottom view shows smeared scan texture.",
+      "limitations": [
+        "Underside texture is visibly smeared from the scan; it is hidden when the sign stands normally.",
+        "Only 228 triangles, so the hinge and handle cut-out are hard-edged."
+      ],
+      "contact_sheet_sha256": "3038bf0046df528879ae5d86cf0e4ea25a6f7659ef11a69146f892e7010c94d0"
+    },
+    {
+      "id": "ph-steel-frame-shelves",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Five pale timber planks in a welded black steel frame with a lower stretcher; every board has real thickness, confirmed in the front-left orbit and the top view. The bottom view shows the plank undersides and frame feet properly closed. Clean modern lines with convincing wood grain. Only 4.3k tris.",
+      "limitations": [
+        "Shelves are fixed and cannot be re-spaced without editing the mesh.",
+        "Frame welds are not modelled, so extreme close-ups look simplified."
+      ],
+      "contact_sheet_sha256": "1cfa657acc34feb045e55c70f83e1682c8d0fe78e3515d7e524a76643494dcfb"
+    },
+    {
+      "id": "ph-lime",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Inspected all 12 views. Pitted citrus rind is carried in geometry and normal map and stays convincing from every angle, with a correctly modelled stem scar on top and blossom nub underneath rather than a mirrored sphere. Green-to-yellow ripeness variation is photographic. 8.1k tris and only 2.8 MB.",
+      "limitations": [
+        "Whole fruit only; no cut or wedged variant.",
+        "Rind has a baked specular sheen that can look waxy under a hard key light."
+      ],
+      "contact_sheet_sha256": "6ec8b5cbeb9a3cf0bad26a792103fe548c1a52873f830f097bd9ed6bcb2e0339"
+    }
+  ]
+}

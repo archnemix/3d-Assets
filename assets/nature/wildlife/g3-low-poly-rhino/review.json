@@ -1,0 +1,22 @@
+{
+  "id": "g3-low-poly-rhino",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Faceted low poly grey white rhinoceros standing with lowered head, large front horn and smaller rear horn. Intentional low-poly style: glTF validation clean (0 errors), faceted flat-shaded mesh at ~3k triangles with a single texture. Grab3D ships these as 'Lightweight' companions to the high-detail animals. Scoring reflects the deliberate low-poly aesthetic: clean silhouette and complete animal, but flat-shaded materials and minimal topology rather than PBR.",
+  "limitations": [
+    "AI-assisted origin is disclosed upstream (origin.ai_content); some storefronts require an AI-content disclosure when you resell.",
+    "Deliberately low-detail (~3k triangles, flat-shaded, single texture) for mobile/stylised use; not PBR.",
+    "Unrigged static mesh with baked pose."
+  ],
+  "contact_sheet_sha256": "0b79fca5dd44bd9ca1affc0894bcc3bf723ea5e9343b4b76a3dbb666733c8883",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

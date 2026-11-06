@@ -1,0 +1,55 @@
+{
+  "slug": "moped",
+  "triangles": 23800,
+  "texture_px": 2048,
+  "triangles_light": 14926,
+  "texture_px_light": 1024,
+  "files": {
+    "glb": {
+      "name": "moped.glb",
+      "bytes": 1457184
+    },
+    "blend": {
+      "name": "moped.blend",
+      "bytes": 1306864
+    },
+    "fbx": {
+      "name": "moped.fbx",
+      "bytes": 2536700
+    },
+    "obj": {
+      "name": "moped-obj.zip",
+      "bytes": 1268587
+    },
+    "usdz": {
+      "name": "moped.usdz",
+      "bytes": 2273764
+    },
+    "glb_light": {
+      "name": "moped-light.glb",
+      "bytes": 805828
+    },
+    "fbx_light": {
+      "name": "moped-light.fbx",
+      "bytes": 1511900
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "0.710 x 1.909 x 1.295",
+    "triangles": 23800,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-10-25",
+    "real_size": "retro moped (50 cc), approx. 1.9 x 0.7 x 1.3 m (L x W x H, incl. rack and mirror), 17 in spoked wheels",
+    "notes": "front faces -Y; stands upright on its center stand; wheels are separate objects with origin on the axle (rotate around local X to roll); moped_steering (telescopic fork, handlebar, headlight, round speedometer with tick scale only, mirror, front fender) has its origin on the steering axis, tilted 26 deg: rotate around (0, 0.438, 0.899) in Blender Z-up = (0, 0.899, -0.438) in glTF Y-up; moped_crank (pedal arms, sprocket, rubber pedals) has its origin in the crank axle, rotate around local X; blank plate; no brand, no text",
+    "set": "Cozy Vehicles Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}

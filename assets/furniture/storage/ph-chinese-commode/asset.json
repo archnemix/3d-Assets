@@ -1,0 +1,360 @@
+{
+  "schema_version": 1,
+  "id": "ph-chinese-commode",
+  "title": "Carved Chinese wooden commode",
+  "category": "furniture/storage",
+  "style": "realistic",
+  "tags": [
+    "commode",
+    "cabinet",
+    "wood",
+    "carved",
+    "antique",
+    "pbr"
+  ],
+  "batch": "expansion-09",
+  "acquired_at": "2026-11-04T22:25:59.088778+00:00",
+  "review": {
+    "id": "ph-chinese-commode",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. Long carved hardwood commode with an overhanging cleated top, three drawers with brass medallion pulls, fielded lower panels, shaped apron and splayed legs. Grain runs continuously around the case, the back is a finished panel, and the underside shows the leg joinery and drawer runners. Brass medallions carry ornamental relief, not lettering.",
+    "limitations": [
+      "Not rigged: the drawers do not open in the shipped glTF.",
+      "Drawer interiors are shallow shells without contents."
+    ],
+    "contact_sheet_sha256": "47a4cf94c9148435cf9cbfca4eae8558b8cf04dade2bf3c34b7533c55d998ae8",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/chinese_commode_2k.gltf",
+    "creator": "Kirill Sannikov",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/chinese_commode",
+    "source_id": "chinese_commode",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/chinese_commode/chinese_commode_2k.gltf",
+        "bytes": 7067,
+        "sha256": "b89a10f24ab533a554abae1326f35bfbacefdfbaab4f332c3d3cdecc02ca66fe"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/chinese_commode/chinese_commode_nor_gl_2k.jpg",
+        "bytes": 1702387,
+        "sha256": "35856527bb17337605387c78c7322ea885730754e3f03cee2e1ac50aeee1471b"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/chinese_commode/chinese_commode_diff_2k.jpg",
+        "bytes": 2016367,
+        "sha256": "5ced3a43a9a814abc0e4b6f615cf81b1e32b307b5a01e0fbb8c06b57d7570bfc"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/chinese_commode/chinese_commode.bin",
+        "bytes": 215792,
+        "sha256": "90d1bd352c559418fc070546d02dafeee9f14889bc7538abbfd517ab28b81b9a"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/chinese_commode/chinese_commode_arm_2k.jpg",
+        "bytes": 2388120,
+        "sha256": "fa947dfcf0d7e46338207314abc0c17ee89ab2125993df7cafd5d5794536a11e"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/chinese_commode_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 4,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/chinese_commode_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "chinese_commode_nor_gl"
+    },
+    {
+      "path": "model/textures/chinese_commode_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "chinese_commode_diff"
+    },
+    {
+      "path": "model/textures/chinese_commode_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "chinese_commode_metal-chinese_commode_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 4,
+    "hidden_mesh_objects": 0,
+    "vertices": 5473,
+    "triangles": 6775,
+    "material_slots": 4,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "chinese_commode_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-chinese-commode/model/textures/chinese_commode_diff_2k.jpg"
+      },
+      {
+        "name": "chinese_commode_metal-chinese_commode_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-chinese-commode/model/textures/chinese_commode_arm_2k.jpg"
+      },
+      {
+        "name": "chinese_commode_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-chinese-commode/model/textures/chinese_commode_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 4,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1256,
+      "sha256": "0040b070047a8bef36e3f682d592f6d3ff7dd6942520aeea90f19b681d9f338f",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 440,
+      "sha256": "08ba72b1217cf695f1df10c530974890c51325455d50846c4e76eaeaac4623af",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 70723,
+      "sha256": "4416b6df3bf57b08b740b9ec7953032d2ce45b27c118c83c6ed34a9e76e0397c",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "a99759f362377291a7bb056ad797ad31a9826d4cf0cce6cd08add7590b8520d0",
+      "role": "logs"
+    },
+    {
+      "path": "model/chinese_commode.bin",
+      "bytes": 215792,
+      "sha256": "90d1bd352c559418fc070546d02dafeee9f14889bc7538abbfd517ab28b81b9a",
+      "role": "model"
+    },
+    {
+      "path": "model/chinese_commode_2k.gltf",
+      "bytes": 7067,
+      "sha256": "b89a10f24ab533a554abae1326f35bfbacefdfbaab4f332c3d3cdecc02ca66fe",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/chinese_commode_arm_2k.jpg",
+      "bytes": 2388120,
+      "sha256": "fa947dfcf0d7e46338207314abc0c17ee89ab2125993df7cafd5d5794536a11e",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/chinese_commode_diff_2k.jpg",
+      "bytes": 2016367,
+      "sha256": "5ced3a43a9a814abc0e4b6f615cf81b1e32b307b5a01e0fbb8c06b57d7570bfc",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/chinese_commode_nor_gl_2k.jpg",
+      "bytes": 1702387,
+      "sha256": "35856527bb17337605387c78c7322ea885730754e3f03cee2e1ac50aeee1471b",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 17466,
+      "sha256": "eee20e3c96352a3f40c43e88308056f6e09132fea1db806ec30f20f0b99ff052",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 21193,
+      "sha256": "f29c5c5e1e1f16d02353c94e7d7b5a8324033ed7e9ccc9f6574f7f3bd3459405",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 194628,
+      "sha256": "47a4cf94c9148435cf9cbfca4eae8558b8cf04dade2bf3c34b7533c55d998ae8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1180,
+      "sha256": "adb2976f659e9fdb1c4ff5abfff585c218c1d2b21f78156994ba4d7147f27a2c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 26523,
+      "sha256": "ecedbbb156823b3ba54a5d7fccfe024a2cf7fb9708f86e3a41711fcc9f85273c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 34215,
+      "sha256": "dbde6928a0eff1b58ff6cbddf766acd5adb032b4eacdf30dc57d002788e3285a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 24097,
+      "sha256": "5b4e28ad61e0251c20bb5893edeea5cf229fc22dff6a0589a22eaf507174eef8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 29229,
+      "sha256": "bf703b522433a4c440094ed3189dd980ae3ecead4411553c271703a305a58938",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 24198,
+      "sha256": "5030609141d92f1f98fce9a4c110166326d1fe3ade1197969c8be1927c576677",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 29604,
+      "sha256": "ec932e730cbda4b6b2d13338bba69f89d813197bc957ebcc4390d7f6ae3cdbcf",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 19074,
+      "sha256": "034cca1203d131f5c96a6b1b28ef9f5e66605007a5e2ad60228ff6519ef9eb77",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 33009,
+      "sha256": "07b6114a837cacecab07ac1802b5c162f77bbcb16de2c81a821a6f7fb9eb93ca",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 22595,
+      "sha256": "97762d16bf425f94c081cc6161449f19f40c50b34f0d257917a3378ae2632002",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 31305,
+      "sha256": "6c878ccbaf0ff9badc0b6b7d31bfa814c00596085745b2665ca44d2c6aa5d4f3",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 165,
+      "sha256": "30236e534418c6f011809680371ad3fa176839a2955508109d23220345f847fa",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1154,
+      "sha256": "241994e940a77e11725b1557570b91ef764fe9857070c0c55c234088d755dbe4",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3118,
+      "sha256": "81b2a56b6d5aaf19e9f883670a0ec61cf9d39de2a677cfd474fe1e38b24092aa",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1119,
+      "sha256": "f2d59d57fc1dc8df5ad9df3bf67e509fbd16d2dec7629c3765b0a50af24bd6dd",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 968,
+      "sha256": "326166be331a75c1dea990dae5b9fe7da216306108ab793847aef7384f3b244a",
+      "role": "documentation"
+    }
+  ]
+}

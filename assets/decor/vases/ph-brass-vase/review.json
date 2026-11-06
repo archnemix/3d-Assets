@@ -1,0 +1,21 @@
+{
+  "id": "ph-brass-vase",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Inspected all 12 views. Shouldered vase on a splayed foot with three bands of engraved scrollwork carried in both geometry and normal map. The top view shows a real hollow neck and interior, and the bottom view a closed foot. Engraving stays registered around the full orbit with no UV seam. Just 2.6k tris.",
+  "limitations": [
+    "Interior is dark below the neck, so top-down cameras see a black cavity.",
+    "Polished brass will look flat without an environment map."
+  ],
+  "contact_sheet_sha256": "f683e8143f997179b582013cf0378263e2adfc78d05ae6538c73a2b349eda2fc",
+  "reviewer": "arena-agent-visual-review",
+  "reviewed_at": "2026-11-04",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

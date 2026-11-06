@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "id": "g3-tank-car",
+  "title": "Railway tank car",
+  "category": "vehicles/rail",
+  "style": "stylized",
+  "tags": [
+    "train",
+    "tanker",
+    "wagon",
+    "rail"
+  ],
+  "batch": "expansion-12",
+  "acquired_at": "2026-11-05T00:00:20.220852+00:00",
+  "review": {
+    "id": "g3-tank-car",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. Welded tank car with a dished-end cylindrical tank, saddle bands, a top walkway with handrails and a domed manway, an access ladder, a flat underframe with buffers and couplers, and two bogies. The top view shows the manway and valve detail and the underside shows a complete frame. No hazardous-material placards, reporting marks or logos.",
+    "limitations": [
+      "Stylised Cozy-kit palette rather than photoreal materials.",
+      "Wheels are fused to the body.",
+      "No placards are modelled; add your own if the scene needs them."
+    ],
+    "contact_sheet_sha256": "4c9db8f44bfa176449ed42e8e7e1705715166fc7fbec0142ca6aded4522323e0",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/tank-car.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/tank-car/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/tank-car/",
+    "source_id": "tank-car",
+    "revision": "85cc440716d259e0573119b35bb279fbd9a6b8fd7ed4eb85a78d14c3630d85fb",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/tank-car/tank-car.glb",
+        "bytes": 1554956,
+        "sha256": "85cc440716d259e0573119b35bb279fbd9a6b8fd7ed4eb85a78d14c3630d85fb"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/tank-car/LICENSE.txt"
+  },
+  "model": "model/tank-car.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/tank-car_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tank-car_body_normal"
+    },
+    {
+      "path": "textures/tank-car_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tank-car_body_basecolor"
+    },
+    {
+      "path": "textures/tank-car_body_metallic-tank-car_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tank-car_body_metallic-tank-car_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 21100,
+    "triangles": 18884,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 80,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "tank-car_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "tank-car_body_metallic-tank-car_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "tank-car_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1268,
+      "sha256": "dcebc57c89d7d87d2fed10d0766b9dc85a4bb34f0623760e9c62beeefd4a956d",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 288,
+      "sha256": "88b36a05afca453a77478256add293c8ecebe946542326f0fe17e44644d9f208",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68243,
+      "sha256": "3d411caa1978083d3d1c97d6f16a5385fbfb6ecac06144aab34d4dbfa90563e9",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/tank-car.glb",
+      "bytes": 1554956,
+      "sha256": "85cc440716d259e0573119b35bb279fbd9a6b8fd7ed4eb85a78d14c3630d85fb",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 20274,
+      "sha256": "c1e221a07ce9b398145c5230008699e10e1b51d4fb844e7f7a29385e8117986d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 23351,
+      "sha256": "3f12de05b1c5c4f874608f302cc883de8c70c66cc2f4064d5187244e9e91686a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 210865,
+      "sha256": "4c9db8f44bfa176449ed42e8e7e1705715166fc7fbec0142ca6aded4522323e0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 817,
+      "sha256": "562bd6c2f2aa98fd784f6985804460677a7a608b90381b7920d704c681120346",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 27720,
+      "sha256": "391d9a4a975bf74e90e4a5ec2d863d747ab7ec6da05a5b62e76bc3ea8f6ec0a2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 31674,
+      "sha256": "65ce16b93c391f233fc7b8da3aae225bb6c59d36be9c8af858aeebff82f817c8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 24007,
+      "sha256": "ab45971c8b65e451185b1d4b3dbb00f9a6f1269de70203959ccaa172b24f7cf3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 31912,
+      "sha256": "5c0e70d03e67c6de809581008db09b497d0ec6b201d34569d9c0bdaf326cdf1e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 27067,
+      "sha256": "2ff85c0f31a1b35288cb79e88dd2e1c37d9cf8f089f705305580343beceebc6d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 32604,
+      "sha256": "50fa203e6b2104b26cb9a06488d5162f49052f5908d7bd85db64913e5a9f1cfe",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 25446,
+      "sha256": "41de2bbf58f9a349df53b7de1b50b8b110966badc3c7255c1be333c8e018771e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 32515,
+      "sha256": "212d31c485547aff7c619bac90f72a009cf3e9f6474b02c6ee81e767efb364bb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 20065,
+      "sha256": "ce1dc32c81084d25517ed0d07dda117dc88f9394a1d53bd1ce4fa7cedad3a8d7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 45771,
+      "sha256": "ae92b0d9c1c9bbc89a9fb9d718411b3ddeeb9b505abc78ab87c8b8986526f844",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 154,
+      "sha256": "e14139d0251d161bbdd09bf97419cb1fe2fe12d2ac823a6d6a7b7391c328476a",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1931,
+      "sha256": "fa1101d4eb08d90519af45fff17f8857a813e505d26c44c004ec34b8bf1355e3",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1631,
+      "sha256": "5aee623bc7c0e7e1d998214345c46ca034fb6632088e2edc8a3d00ed1ee844da",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 460,
+      "sha256": "9d0db96c962acc42e835e694eab2bd019a8047e97f6f2e0180f773487d996b80",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "f93bec4562a0b1f428c732d1ebe3951225dff91b6bc016bcb6f53989e88d6ff6",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1006,
+      "sha256": "93e2a17d00421bc90c2495fde619a44b376cde45fe2b5ff29d2b7c8dea1e3307",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/tank-car_body_basecolor.jpg",
+      "bytes": 387196,
+      "sha256": "ff0f2f9c900213d4007fae9f304bebb4584cdcb7ef657fc4140946378e39a63a",
+      "role": "textures"
+    },
+    {
+      "path": "textures/tank-car_body_metallic-tank-car_body_roughness.jpg",
+      "bytes": 306072,
+      "sha256": "1f63c2c1ba8bee2bcb60ee5e45923a0d66342b311004ddfda4d7a9f435314972",
+      "role": "textures"
+    },
+    {
+      "path": "textures/tank-car_body_normal.jpg",
+      "bytes": 70648,
+      "sha256": "7af281b0b4396006def7aacabc87f0abd893c6288062175b81ecfdd39b779140",
+      "role": "textures"
+    }
+  ]
+}

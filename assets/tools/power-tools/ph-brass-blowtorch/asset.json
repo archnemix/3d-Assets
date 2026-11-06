@@ -1,0 +1,360 @@
+{
+  "schema_version": 1,
+  "id": "ph-brass-blowtorch",
+  "title": "Brass blowtorch",
+  "category": "tools/power-tools",
+  "style": "realistic",
+  "tags": [
+    "tool",
+    "blowtorch",
+    "brass",
+    "welding",
+    "workshop",
+    "pbr"
+  ],
+  "batch": "expansion-07",
+  "acquired_at": "2026-11-04T16:41:34.524980+00:00",
+  "review": {
+    "id": "ph-brass-blowtorch",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. The burner tube, valve wheels, filler cap, pump and wooden handle are all separately resolved and read clearly in the top and bottom views. Tarnished brass with green patina is consistent all the way around the reservoir. Wireframe confirms a clean revolved body with no pole artefacts.",
+    "limitations": [
+      "Faint stamped text on the reservoir is illegible at 2k and carries no readable brand.",
+      "Flame is not included; the burner is cold."
+    ],
+    "contact_sheet_sha256": "e6679b021b51f1fcccc7fe2decfbb751fd9173d06ffe7f88ac0be9409340585d",
+    "reviewer": "arena-agent-visual-review",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/brass_blowtorch_2k.gltf",
+    "creator": "Ulan Cabanilla",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/brass_blowtorch",
+    "source_id": "brass_blowtorch",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/brass_blowtorch/brass_blowtorch_2k.gltf",
+        "bytes": 2779,
+        "sha256": "c89ef1dbd56ac1f2def7b46f741bd556de484a088d0d519d556096f9e501780b"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/brass_blowtorch/brass_blowtorch_nor_gl_2k.jpg",
+        "bytes": 2288522,
+        "sha256": "6c4ed764d03865cbb259cb8e30f7ba4df2fe03a3b1f7876328787c853dfed06e"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/brass_blowtorch/brass_blowtorch_diff_2k.jpg",
+        "bytes": 2296687,
+        "sha256": "154a4677c8fa8d5eaeffdd2785ec81220592e81636891e0731f6145344755455"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/brass_blowtorch/brass_blowtorch_arm_2k.jpg",
+        "bytes": 2984215,
+        "sha256": "b97d51bc8bc5f4af52eb44a4c655a2a9b4b6b3d7f77bdd641dd68c7582724299"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/brass_blowtorch/brass_blowtorch.bin",
+        "bytes": 328420,
+        "sha256": "c788d94d011abafba648d5a92fe57652f2f8d166f2bfb4f9bbba7f25db9145ad"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/brass_blowtorch_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/brass_blowtorch_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "brass_blowtorch_nor_gl"
+    },
+    {
+      "path": "model/textures/brass_blowtorch_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "brass_blowtorch_diff"
+    },
+    {
+      "path": "model/textures/brass_blowtorch_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "brass_blowtorch_metal-brass_blowtorch_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 8060,
+    "triangles": 11750,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "brass_blowtorch_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-brass-blowtorch/model/textures/brass_blowtorch_diff_2k.jpg"
+      },
+      {
+        "name": "brass_blowtorch_metal-brass_blowtorch_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-brass-blowtorch/model/textures/brass_blowtorch_arm_2k.jpg"
+      },
+      {
+        "name": "brass_blowtorch_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-brass-blowtorch/model/textures/brass_blowtorch_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1260,
+      "sha256": "632ac3127341fe0ec889a01ccc1b3b42d079fbfd577d8dfc3b680c0b73347d9e",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 287,
+      "sha256": "f48cb5adbbeda9f8b131988b0b382000a6ec223fef5cfb4519ef9b6acce21e23",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67497,
+      "sha256": "dc5b5aa8a31640e68a78d3fa032fa7f1ac8b0d1d99c118b235ec46a6e3a84ebf",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/brass_blowtorch.bin",
+      "bytes": 328420,
+      "sha256": "c788d94d011abafba648d5a92fe57652f2f8d166f2bfb4f9bbba7f25db9145ad",
+      "role": "model"
+    },
+    {
+      "path": "model/brass_blowtorch_2k.gltf",
+      "bytes": 2779,
+      "sha256": "c89ef1dbd56ac1f2def7b46f741bd556de484a088d0d519d556096f9e501780b",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/brass_blowtorch_arm_2k.jpg",
+      "bytes": 2984215,
+      "sha256": "b97d51bc8bc5f4af52eb44a4c655a2a9b4b6b3d7f77bdd641dd68c7582724299",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/brass_blowtorch_diff_2k.jpg",
+      "bytes": 2296687,
+      "sha256": "154a4677c8fa8d5eaeffdd2785ec81220592e81636891e0731f6145344755455",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/brass_blowtorch_nor_gl_2k.jpg",
+      "bytes": 2288522,
+      "sha256": "6c4ed764d03865cbb259cb8e30f7ba4df2fe03a3b1f7876328787c853dfed06e",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 17870,
+      "sha256": "156142492205f6a8d75c158de8fd2868a78ccf6d0ee9fbaf9df823ca28fbc8f1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 19041,
+      "sha256": "5a4736f72ee4f03eaf1dd2dd56c10a478add50eae0df78d28c6bcc5b6327ab5b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 233082,
+      "sha256": "e6679b021b51f1fcccc7fe2decfbb751fd9173d06ffe7f88ac0be9409340585d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1181,
+      "sha256": "a57f7cfc0e1901f130324c9eaf94e10aca49835ce97cc2872375b7cc59dc1df9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 29877,
+      "sha256": "48a60627de4a351b5ab9c6d8474aeeafdb719dd43bc3202766250d2be9f2171f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 40197,
+      "sha256": "83d3cef06b5f3a9841819bf7dfba3fd961b4becc830e63fa7998bd80846b2946",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 34353,
+      "sha256": "c21d719342cf231c20027ca309861a39edb707092f354c023c7c9e98c35df657",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 36310,
+      "sha256": "0c54cf2c5eb9694711aefbc3919f02ad27a500856da9d4c834f9e254eca29e0a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 27187,
+      "sha256": "0c93a912c8901ed7bc04603b620ffc0299e08e070d54866cec39881844d72177",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 34507,
+      "sha256": "5b47c99315733008c978b2fca6b86eb948fe2d1f61664315d3cf790cbecd6e27",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 32270,
+      "sha256": "50e9a8b5e741b5c2e5b7c74cb42892f0ed32559f7cc7643e9312b1f10f2f213d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 37498,
+      "sha256": "d215034af2021a04a171960ae0f0c16dbaae40a277c09d149743f6681c637878",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 26348,
+      "sha256": "9ce00f9928771ace3719e16db873c6f20987bbc690ccde5d0142ac735d77ba01",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 43930,
+      "sha256": "bc5f6f3da41b3fb7733894c958dfc1371953468b2d9daa8d9fa4da655848ef04",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 165,
+      "sha256": "3c4e6d66bae11c39e973f46c6871567ff4091e257f7605d0a3935057d090a10b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1244,
+      "sha256": "57107aa2f2fce748dbb6a8fad1fc5807efb59958d1b73c829415199e8af93d26",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2138,
+      "sha256": "72aa56883d8ff6f64e874897c8d77c6e7c6c52d55a527fadc3a293c1fab6447d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1119,
+      "sha256": "00c6077763a685c8cbccfac1c594754fa279b9244e9b4a5b0276c11f8d6106f5",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 942,
+      "sha256": "d4a45c959ea2bc95518b1e24057b89b02a338e6664944b927439842c4a0aa686",
+      "role": "documentation"
+    }
+  ]
+}

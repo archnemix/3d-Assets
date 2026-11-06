@@ -1,0 +1,458 @@
+{
+  "schema_version": 1,
+  "id": "ph-drill-press",
+  "title": "Vintage workshop drill press",
+  "category": "tools/power-tools",
+  "style": "realistic",
+  "tags": [
+    "tool",
+    "drill-press",
+    "machinery",
+    "workshop",
+    "metal",
+    "vintage",
+    "pbr"
+  ],
+  "batch": "expansion-08",
+  "acquired_at": "2026-11-04T17:14:58.477830+00:00",
+  "review": {
+    "id": "ph-drill-press",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Inspected all 12 views. Opening belt cover reveals modelled stepped pulleys and a belt, the top view shows the full drive train, and the chuck, drill bit, three-spoke feed handle, adjustable table, motor and coiled power cable are all separate. Cast green enamel with edge wear is consistent all round. 58.5k tris, the heaviest in this batch.",
+    "limitations": [
+      "58.5k triangles; decimate if you need it as a background prop.",
+      "Belt cover is modelled open and the feed handle is in a fixed position."
+    ],
+    "contact_sheet_sha256": "0ff5a82256e4a2f43781fc590cb474675f40066c5e7397dcf8c87835044fd7c4",
+    "reviewer": "arena-agent-visual-review",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/drill_press_01_2k.gltf",
+    "creator": "Viktor",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/drill_press_01",
+    "source_id": "drill_press_01",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/drill_press_01/drill_press_01_2k.gltf",
+        "bytes": 21382,
+        "sha256": "6e571b9f644f5095d3e201efabfed29e7be12eee34d5445c22ae30b7f5389789"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/drill_press_01/drill_press_01_nor_gl_2k.jpg",
+        "bytes": 2585573,
+        "sha256": "d0afa4be93caba253defcea91b11885f7616316df02f229030df946baa8e0036"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/drill_press_01/drill_press_01_diff_2k.jpg",
+        "bytes": 2230040,
+        "sha256": "0cc01376306d6231c79bd0c6e87764871479489094c34984644015456473be02"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/drill_press_01/drill_press_01_arm_2k.jpg",
+        "bytes": 2865889,
+        "sha256": "5acb3962a4edfe30a478cca2c877937b2c558ecf63d2d4bdc81528df28f88da2"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/drill_press_01/drill_press_01.bin",
+        "bytes": 1911136,
+        "sha256": "3c786cf21c206d1edb7df970067421fa692bbc1a941b279cd21605c33057f9ad"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/drill_press_01_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 13,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/drill_press_01_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "drill_press_01_nor_gl"
+    },
+    {
+      "path": "model/textures/drill_press_01_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "drill_press_01_diff"
+    },
+    {
+      "path": "model/textures/drill_press_01_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "drill_press_01_metal-drill_press_01_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 13,
+    "hidden_mesh_objects": 0,
+    "vertices": 48755,
+    "triangles": 58526,
+    "material_slots": 13,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 17,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "drill_press_01_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-drill-press/model/textures/drill_press_01_diff_2k.jpg"
+      },
+      {
+        "name": "drill_press_01_metal-drill_press_01_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-drill-press/model/textures/drill_press_01_arm_2k.jpg"
+      },
+      {
+        "name": "drill_press_01_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-drill-press/model/textures/drill_press_01_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 13,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1270,
+      "sha256": "ae3f68877fd1db0967db75eed43184e976940458317f022035f6a48e9ef1a007",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 67622,
+      "sha256": "aba1b71b660d538be7567e07c73f28fdf37db5a943e7f0f6ca749229ae31bd81",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 86609,
+      "sha256": "b113cbfe8badb5e78be7030a2ff292ad5ee0758ade956beabf786ebe0bc2b74c",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "164e7e0d33094013ebbcb5ffc681a0d34c4ec6a5973bddc787689a154feed648",
+      "role": "logs"
+    },
+    {
+      "path": "model/drill_press_01.bin",
+      "bytes": 1911136,
+      "sha256": "3c786cf21c206d1edb7df970067421fa692bbc1a941b279cd21605c33057f9ad",
+      "role": "model"
+    },
+    {
+      "path": "model/drill_press_01_2k-animated.glb",
+      "bytes": 9655208,
+      "sha256": "5498a6d5c9023a54abbfd56ca5657e0fe348679913fa77853f5d248dc891e4fc",
+      "role": "model"
+    },
+    {
+      "path": "model/drill_press_01_2k.gltf",
+      "bytes": 21382,
+      "sha256": "6e571b9f644f5095d3e201efabfed29e7be12eee34d5445c22ae30b7f5389789",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/drill_press_01_arm_2k.jpg",
+      "bytes": 2865889,
+      "sha256": "5acb3962a4edfe30a478cca2c877937b2c558ecf63d2d4bdc81528df28f88da2",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/drill_press_01_diff_2k.jpg",
+      "bytes": 2230040,
+      "sha256": "0cc01376306d6231c79bd0c6e87764871479489094c34984644015456473be02",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/drill_press_01_nor_gl_2k.jpg",
+      "bytes": 2585573,
+      "sha256": "d0afa4be93caba253defcea91b11885f7616316df02f229030df946baa8e0036",
+      "role": "model"
+    },
+    {
+      "path": "previews/anim-bit_spin-a.jpg",
+      "bytes": 9699,
+      "sha256": "32e8586b75a08e4b45d7523c59da250d99f0616a967e55ce930c2bc0c3bc9ed9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-bit_spin-b.jpg",
+      "bytes": 9680,
+      "sha256": "31b109c962a74e5b55b1c49dceecd2240999902aa076e6f2c03dc1a178a7c937",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-bit_spin-c.jpg",
+      "bytes": 9699,
+      "sha256": "25d4b7e0f65f4b5348a7ea8b7d755403b98cf9a2fc9fa75054a4dc93d578b3de",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-gear_spin-a.jpg",
+      "bytes": 9701,
+      "sha256": "146ce1aef0ee22921df2707b3296ae65b5eb4221e1817d46872c8927ed1a7396",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-gear_spin-b.jpg",
+      "bytes": 9754,
+      "sha256": "15af934e5a22a49bd893aa1cca3433d76c8d2eca827a16166eee30812ff0d3d5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-gear_spin-c.jpg",
+      "bytes": 9699,
+      "sha256": "982d675dc006e2f86fc62d98b21116959d784de11596fd2d0fb93e5d1d6cff8e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-lid_open-a.jpg",
+      "bytes": 9537,
+      "sha256": "63300abc701c7a5f1d836cbbe339419e57f46bf37ded5f2a5e1baebb571a981f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-lid_open-b.jpg",
+      "bytes": 9163,
+      "sha256": "30d31b51cf9a1f855b8f50ded813929bb5cac78a9645882a268c3db9373c0dd9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-lid_open-c.jpg",
+      "bytes": 9701,
+      "sha256": "3111084e44168b04f4fc41dc5cedac2120f47f8d41c02cf98d86669cfb7be0e0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 30603,
+      "sha256": "de2e9050f0daa09300494905f9e766c273abc66a8858887daf2f25f27fed071d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 20632,
+      "sha256": "807d216e62f27e7495525eaab13f88359233c2cb7c7e4b4eb3dfcba7b2eb0532",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 218955,
+      "sha256": "0ff5a82256e4a2f43781fc590cb474675f40066c5e7397dcf8c87835044fd7c4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1166,
+      "sha256": "099d09e54b26a73d6049b6ea2d1bfe1d6aaad818fc8baa6ef61ef12a2d52c79f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 23999,
+      "sha256": "ec23f80c61bb460437e629da0c2f6e4c16bfeba1976843ecd70ec0a6c7b4f618",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 29933,
+      "sha256": "db1ef47383d8e16b7cfcb0ebf33fcf2d757acbfa45540888dd4b066113ae9f91",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 32045,
+      "sha256": "48de6934ab718325affcddce66d6c26d0a8e87f3560653559ab8acfc09c5921e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 30643,
+      "sha256": "3892d486cb63d1b49c35359e010123dfe22d91df8022dcc67f3b8ffb81a93f18",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 23065,
+      "sha256": "5fa6adf70b83018c491733ccdb39f9f32ad2d91f6bc6810b63467a17f64d98e6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 29417,
+      "sha256": "da76626de5729e3c21ae521751a8bed1830a2c41f18a1f97f3ff7b17be39658e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 31820,
+      "sha256": "b5875f7dd11951ea9abb73dab7f34196d65772f5ecf297c2fbb73db03b8064ad",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 28971,
+      "sha256": "b4696bd432a13a96c27bf3784c7041b2150de02b553349f246aa2ce2e23d1f64",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 33542,
+      "sha256": "cb7df11e0e9ec291b03278cee99eefc1e51930681ef223aac4e6b53211bf6c75",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 38458,
+      "sha256": "e340729c7bd5161a67ef5ac8fad1f09fbf12b4907607eed6f6dcadf885934ac9",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 1337,
+      "sha256": "bfb07f5b687b8c910b7d22c6384abb6e5e3622588f9d1662bddc5a3625083362",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1267,
+      "sha256": "328b481435ade36b5746f7143567a4501ec8523bfa6177d837d062da075954d8",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 6064,
+      "sha256": "bfbdfc4051c7c625bc3844b19f24daf6ffa1c9f653b2f171bc040ff70af81f82",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1107,
+      "sha256": "7abd8b1f872d4423dfba3a7fedcf4035ac4718dd69cdc1939cb3dd6bddb81b40",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 976,
+      "sha256": "bab46214a6bf2ec732a0327e0d8a4992e554b1b4a224832e1692cb60b165b26e",
+      "role": "documentation"
+    }
+  ],
+  "authored_animations": [
+    {
+      "name": "lid_open",
+      "parts": [
+        "drill_press_01_lid"
+      ],
+      "axis": "X",
+      "start_degrees": 100.0,
+      "degrees": 0.0,
+      "frames": 60,
+      "fps": 30
+    },
+    {
+      "name": "gear_spin",
+      "parts": [
+        "drill_press_01_gear_a",
+        "drill_press_01_gear_b"
+      ],
+      "axis": "X",
+      "start_degrees": 0.0,
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    },
+    {
+      "name": "bit_spin",
+      "parts": [
+        "drill_press_01_bit"
+      ],
+      "axis": "Z",
+      "start_degrees": 0.0,
+      "degrees": 720.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/drill_press_01_2k-animated.glb"
+}

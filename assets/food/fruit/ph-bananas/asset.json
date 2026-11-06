@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "id": "ph-bananas",
+  "title": "Ripe bananas, bunch and singles",
+  "category": "food/fruit",
+  "style": "realistic",
+  "tags": [
+    "food",
+    "fruit",
+    "banana",
+    "bunch",
+    "organic",
+    "photoscan",
+    "pbr"
+  ],
+  "batch": "expansion-07",
+  "acquired_at": "2026-11-04T16:45:27.643669+00:00",
+  "review": {
+    "id": "ph-bananas",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. A four-banana hand plus four loose fingers, each a closed solid with modelled stem and tip. Skin shows correct ripeness speckling that stays registered around every orbit angle, and the top and bottom views confirm the bunch is assembled rather than intersecting. 46.9k tris across all eight pieces.",
+    "limitations": [
+      "Bunch and loose bananas ship in one laid-out scene; separate them for individual use.",
+      "No peeled variant."
+    ],
+    "contact_sheet_sha256": "2799dddcfecb61054f6ea94b06f2248fe3bd94e48114bc6905357786566c00bb",
+    "reviewer": "arena-agent-visual-review",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/bananas_2k.gltf",
+    "creator": "Alexander Shulha",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/bananas",
+    "source_id": "bananas",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/bananas/bananas_2k.gltf",
+        "bytes": 8796,
+        "sha256": "fc2aef01104e4bf7d1738a80c8ccbf0c5006175533c68ef29d1b073c426781d8"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/bananas/bananas_nor_gl_2k.jpg",
+        "bytes": 937611,
+        "sha256": "e3df19df3911ef00ce4158ff9587463e70510ffe9d0ef74f60f1c9b1829ae472"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/bananas/bananas_diff_2k.jpg",
+        "bytes": 1698730,
+        "sha256": "d0727524b53b5a6f5aa5f661eed95269ed563252d0b022097ae6f5f219af1bb2"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/bananas/bananas_arm_2k.jpg",
+        "bytes": 1835465,
+        "sha256": "46cd08e7965ce2da88c68eee128571b600fe2563808dcbca667d9b25548e20fa"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/bananas/bananas.bin",
+        "bytes": 1088376,
+        "sha256": "c98b7dbabd8ceb70c9b8ea92611c7c7833dd86c118c8013b941eb379bee26774"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/bananas_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 5,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/bananas_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "bananas_nor_gl"
+    },
+    {
+      "path": "model/textures/bananas_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "bananas_diff"
+    },
+    {
+      "path": "model/textures/bananas_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "bananas_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 5,
+    "hidden_mesh_objects": 0,
+    "vertices": 25224,
+    "triangles": 46868,
+    "material_slots": 5,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "bananas_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-bananas/model/textures/bananas_diff_2k.jpg"
+      },
+      {
+        "name": "bananas_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-bananas/model/textures/bananas_nor_gl_2k.jpg"
+      },
+      {
+        "name": "bananas_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-07/ph-bananas/model/textures/bananas_arm_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 5,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1231,
+      "sha256": "226c0a311607664bef1125f4423948ac5181897191cc1b4f09f9c245b0c15292",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 487,
+      "sha256": "8ae2fdd909aa561ec51bb61427e20c3e5921937a8a12a35456c0852a6af8556b",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 71862,
+      "sha256": "a8d2e1b30480853e59d8c2c624a7f0bf892ff7e21be04698d5d271aef0fedcb0",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "4a1ac31e02299efa77ae3b810565b7859ed55e6bb96e9664c8420d2f29890ce8",
+      "role": "logs"
+    },
+    {
+      "path": "model/bananas.bin",
+      "bytes": 1088376,
+      "sha256": "c98b7dbabd8ceb70c9b8ea92611c7c7833dd86c118c8013b941eb379bee26774",
+      "role": "model"
+    },
+    {
+      "path": "model/bananas_2k.gltf",
+      "bytes": 8796,
+      "sha256": "fc2aef01104e4bf7d1738a80c8ccbf0c5006175533c68ef29d1b073c426781d8",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/bananas_arm_2k.jpg",
+      "bytes": 1835465,
+      "sha256": "46cd08e7965ce2da88c68eee128571b600fe2563808dcbca667d9b25548e20fa",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/bananas_diff_2k.jpg",
+      "bytes": 1698730,
+      "sha256": "d0727524b53b5a6f5aa5f661eed95269ed563252d0b022097ae6f5f219af1bb2",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/bananas_nor_gl_2k.jpg",
+      "bytes": 937611,
+      "sha256": "e3df19df3911ef00ce4158ff9587463e70510ffe9d0ef74f60f1c9b1829ae472",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 23932,
+      "sha256": "ada5d35cd4ce2de396243fd911eb39f7bcac20cdeb0ae3ee6934d6381727e283",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 15712,
+      "sha256": "1c526cfb81234f2fc31fe3a8c0f33c7e45497904e167f2c9722fdd0763a2293e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 181730,
+      "sha256": "2799dddcfecb61054f6ea94b06f2248fe3bd94e48114bc6905357786566c00bb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1088,
+      "sha256": "dc6dd4065f08715bc617b840ca388123e43ebe86e068e11ac7d5ed2a38a66de0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 18714,
+      "sha256": "6cd581397ea1f0a4572d1444125763c1c4f65356e7bada70318af923d7f7f8b7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 21446,
+      "sha256": "198a43fee64683b5eeaaa5ce0977836ebff3583171c84eefa835dc0db4388bd1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 39415,
+      "sha256": "556ad54ab8ad24eccee2383bb80cd8b0db765e9db957fbe05876c15a57bff16f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 19949,
+      "sha256": "d1a453de3790133616acbefc132bb52a5e2b69e232353e28a13144c1a4c1050d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 17648,
+      "sha256": "89ea3a7aa798a4583b089b9b79c1904ccf94363e1e6849c92e4badf0620e562e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 21704,
+      "sha256": "4153a3f3c1baab5cf73871231f0e7dc3ebcba0620d6db4d9d3e52534f595a1a2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 35125,
+      "sha256": "50eacb593f8619805aac005d742e55d21f343a5eeb2dd694e642f167e27dceb2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 20909,
+      "sha256": "6d8f56ca3eec8ed6360b4478ca95fd19b96f774cdd7dcd0e8323b0bb04be6861",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 21515,
+      "sha256": "84801e9fae1c16dc2a53a60880bd3e7bac8a378ab2a46b30be49c9ab5121fc46",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 25881,
+      "sha256": "f704d0dab134ffc0c6fe4ee8c4171f68b4fd81bf2ec19b6b9c71d5ca29e32ce7",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 157,
+      "sha256": "f155e10bf6eda705437faf0a5f8eb0aab321db2bf599a3fdb37e272321993fc7",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1185,
+      "sha256": "4e09ec340db56ce350fccf84aeb77f2a4dc6aa48ba91691ee37a197cfb49f95b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3408,
+      "sha256": "82adb7fce719f20478c6d80085bf754573d3600287ae6c9bb5ca1ef3734a3309",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1007,
+      "sha256": "b215decef35d09184ea240241f3a5446f833b4f1cef5240b107b8a7b1385c591",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 923,
+      "sha256": "eec8d7d3210b2148f9e61c57c40922e8c20c3b78fe8dfa9fcec466911f5b0339",
+      "role": "documentation"
+    }
+  ]
+}

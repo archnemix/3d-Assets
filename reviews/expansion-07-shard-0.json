@@ -1,0 +1,109 @@
+{
+  "batch": "expansion-07",
+  "reviewer": "arena-agent-visual-review",
+  "reviewed_at": "2026-11-04",
+  "decisions": [
+    {
+      "id": "ph-adjustable-wrench",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Cast-steel head reads correctly from both faces, the knurled adjuster worm and jaw teeth survive the silhouette at 5.4k tris, and the worn wooden handle shows continuous grain around the full orbit. Clay and wireframe confirm even quad-derived triangulation with no shading pinch at the jaw pivot.",
+      "limitations": [
+        "Faint embossed lettering on the shank is a generic size marking, not a readable brand.",
+        "Baked-in studio lighting in the albedo makes the steel read slightly flat under strong directional light."
+      ],
+      "contact_sheet_sha256": "1dd0d2284fa9dbf07a690277fdda5c59d2aa79c67885912e13d9fa57b5a453b2"
+    },
+    {
+      "id": "ph-retro-multimeter",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Inspected all 12 views including a full-size front orbit. Range dial legends, the V/mA/kOhm scale, buttons, terminals and the rear schematic label are all sharp and legible at 2k. Test leads are modelled as swept geometry with proper plug bodies and metal probes, and they read correctly from top and bottom. Four texture maps including the printed panels.",
+      "limitations": [
+        "The analogue needle sits behind a dark tinted window and is hard to read at gallery scale.",
+        "Leads are in a fixed coiled pose."
+      ],
+      "contact_sheet_sha256": "990996a2238d0de4babf5f5a3d21a47d24b4cd95c775a9acf010be2aa4c5c4ff"
+    },
+    {
+      "id": "ph-carved-wooden-plate",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. The carved geometric border is carried in both geometry and normal map, and the top view shows the pattern running continuously around the full circumference. The underside in the bottom view is properly shaped with a recessed foot, not a flat disc. Just 2.1k tris.",
+      "limitations": [
+        "Very pale bleached wood; may need a colour tweak to sit beside warmer timbers.",
+        "Shallow profile means side-on views show little detail."
+      ],
+      "contact_sheet_sha256": "6bf3a256c4ee279bb1107d686962d77b6ada6509d1b4d01e20b6ede4f456e586"
+    },
+    {
+      "id": "ph-carrot-cake",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Inspected all 12 views. Ring cake with a real through-hole, confirmed in both top and bottom views. The frosting layer is separate geometry sitting on the crumb, and the crumb texture holds up at close range with convincing pore detail. Crumb scatter on top is modelled. Wireframe is dense but even, appropriate for a scan.",
+      "limitations": [
+        "12.3 MB package, the largest in this batch, because of the dense scan geometry.",
+        "No slice cut; the cake is whole."
+      ],
+      "contact_sheet_sha256": "4cd098dc7cb79296f5825f4d05da3fbccb6084a365feb3cef4a8c009205ca15b"
+    },
+    {
+      "id": "ph-ceramic-vase",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Clean modern flared form with a real hollow neck and interior, confirmed in the top view. The wireframe shows exceptionally regular quad-derived topology around the flare with no pinching. Glazed ceramic reads correctly with soft specular highlights that track the orbit. Only 1.1 MB.",
+      "limitations": [
+        "A small barcode sticker is visible on the underside in the bottom view; it is a retail artefact, not a brand.",
+        "Plain white glaze shows faceting if the renderer does not smooth normals."
+      ],
+      "contact_sheet_sha256": "00f97d77d5e56717cd8dfef5ee29d337c70dee7aefb679642b3cd0f0cf78ea0c"
+    },
+    {
+      "id": "ph-wooden-shelf",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Eight-shelf bookcase at just 182 triangles, which is an excellent budget for a background prop. Every shelf is a real board with thickness, confirmed in the front-left orbit and the top view. Distressed white paint with grime at the base reads consistently across all angles. Bottom view shows a closed plinth.",
+      "limitations": [
+        "At 182 triangles the edges are hard and unbrvelled; it will look faceted in extreme close-up.",
+        "Shelves are fixed; they cannot be repositioned without editing the mesh."
+      ],
+      "contact_sheet_sha256": "6d27098c96e4058024ee755a717776f8e0b03f5dc1bf35f45ba34a0bf46e7d73"
+    }
+  ]
+}

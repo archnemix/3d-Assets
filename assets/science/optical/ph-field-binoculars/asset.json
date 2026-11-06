@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "id": "ph-field-binoculars",
+  "title": "Leather-bodied field binoculars",
+  "category": "science/optical",
+  "style": "realistic",
+  "tags": [
+    "binoculars",
+    "optical",
+    "rubber",
+    "glass",
+    "field",
+    "pbr"
+  ],
+  "batch": "expansion-09",
+  "acquired_at": "2026-11-04T22:26:01.632500+00:00",
+  "review": {
+    "id": "ph-field-binoculars",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 4
+    },
+    "notes": "All 12 views inspected. Porro-prism binoculars with textured leatherette body cladding, chrome bridge and hinge, knurled centre focus wheel, individual eyecups, objective rims and a long leather neck strap. Both objective and eyepiece glass are recessed correctly and the underside shows the tripod boss. Zoomed crops show specification-style text (8x30 and field figures) rather than a manufacturer wordmark.",
+    "limitations": [
+      "The neck strap is a fixed drape and is not rigged or simulated.",
+      "Not rigged: the focus wheel and hinge do not articulate.",
+      "The strap leather renders pale; darken it if your scene needs a darker tone."
+    ],
+    "contact_sheet_sha256": "9e0665d06088e01662115d0d664ffea810d1b86ff8ae70688ef7262ecacc3a30",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/binoculars_2k.gltf",
+    "creator": "Derek Wight",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/binoculars",
+    "source_id": "binoculars",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/binoculars/binoculars_2k.gltf",
+        "bytes": 11141,
+        "sha256": "bf1fd2260824768ae03daabef796d4af638de51c0193304dda1ebe703a45e0ae"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/binoculars/binoculars_nor_gl_2k.jpg",
+        "bytes": 967030,
+        "sha256": "5487f28e9d139dea45ece7b34abf11ddc6b0014b1fbdd928e55116bc170c85b0"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/binoculars/binoculars_diff_2k.jpg",
+        "bytes": 976195,
+        "sha256": "56c7e5169591f1bf55488ef45f67b1866a8e933a33cae1d3a693f03e13e56446"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/binoculars/binoculars_arm_2k.jpg",
+        "bytes": 2613232,
+        "sha256": "17b640f114d3077df82355d9cba0351da4c261a321e3a3b92fc72c0beb1975af"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/binoculars/binoculars.bin",
+        "bytes": 635656,
+        "sha256": "79e17906e47ef698c39448769113ecce3a6fc825c44364e0e5eb9f3a6dd0c19c"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/binoculars_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 4,
+    "materials": 2,
+    "images": 4,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/binoculars_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "binoculars_nor_gl"
+    },
+    {
+      "path": "model/textures/binoculars_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "binoculars_diff"
+    },
+    {
+      "path": "model/textures/binoculars_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "binoculars_metal-binoculars_rough"
+    },
+    {
+      "path": "model/textures/binoculars_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "binoculars_diff-binoculars_alpha"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 4,
+    "hidden_mesh_objects": 0,
+    "vertices": 15726,
+    "triangles": 19248,
+    "material_slots": 6,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "binoculars_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-field-binoculars/model/textures/binoculars_diff_2k.jpg"
+      },
+      {
+        "name": "binoculars_metal-binoculars_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-field-binoculars/model/textures/binoculars_arm_2k.jpg"
+      },
+      {
+        "name": "binoculars_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-field-binoculars/model/textures/binoculars_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 6,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1332,
+      "sha256": "84df31784f4579c6afbc235220aeee314ecf508e36e9fdeef3f32c37c12c3066",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 456,
+      "sha256": "5ad1a932b66119a783a4e1df8e63b4d821ed14895f5a9aff170f788d820ab35b",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 70528,
+      "sha256": "91b048feb76a9977c325e272eec2465d2260230f0bfdec19dbc6a2c84dc7794c",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "776c98a5331c94c06fbe0cfe2c76c0cc6d7b5497ea13a45b782371be9eda180c",
+      "role": "logs"
+    },
+    {
+      "path": "model/binoculars.bin",
+      "bytes": 635656,
+      "sha256": "79e17906e47ef698c39448769113ecce3a6fc825c44364e0e5eb9f3a6dd0c19c",
+      "role": "model"
+    },
+    {
+      "path": "model/binoculars_2k.gltf",
+      "bytes": 11141,
+      "sha256": "bf1fd2260824768ae03daabef796d4af638de51c0193304dda1ebe703a45e0ae",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/binoculars_arm_2k.jpg",
+      "bytes": 2613232,
+      "sha256": "17b640f114d3077df82355d9cba0351da4c261a321e3a3b92fc72c0beb1975af",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/binoculars_diff_2k.jpg",
+      "bytes": 976195,
+      "sha256": "56c7e5169591f1bf55488ef45f67b1866a8e933a33cae1d3a693f03e13e56446",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/binoculars_nor_gl_2k.jpg",
+      "bytes": 967030,
+      "sha256": "5487f28e9d139dea45ece7b34abf11ddc6b0014b1fbdd928e55116bc170c85b0",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 27023,
+      "sha256": "5d567f462b6e303a33a0d68574c311a93aac8b0d84419ed776b640da8cff5a18",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 16944,
+      "sha256": "56ab58004b2547e71f804feb3163ae90336f22ca4ef67c089525357596eb5529",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 196615,
+      "sha256": "9e0665d06088e01662115d0d664ffea810d1b86ff8ae70688ef7262ecacc3a30",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1150,
+      "sha256": "4aa8b5505031a0dd197533ae2e483ec994c7c5bd965405d27fc14795a68ab4b8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 31038,
+      "sha256": "af01c5536cba2b075e52bae1c4ca5ec54d50d574099c36f0db390d933fb7cd96",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 22823,
+      "sha256": "845999db26ece2f6f63de46342b7be49bd8ee80c032e5f72d668833a4eea22c3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 21999,
+      "sha256": "cf53e7457b7454ac8196673ad4889dc5f346a1d8acdcab20faeaa42f99c12b61",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 28453,
+      "sha256": "5a3db43414b0ad260973202b904eecdcf9f302660197f31812f0b6f61c3ca678",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 46703,
+      "sha256": "30101d8d49f974fa0336e09cb702e83e04311ceefb7cc7155140273bc5621cb4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 26825,
+      "sha256": "0ad07cebb2f98821e105e708cc3478bb6802e9c0f059b3cc4f6cc8fd78befcd7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 21529,
+      "sha256": "f381cb48de2b1f35d668cc03d2b61b9f9ee5e0844ec93963c39ff2f12a48a5b2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 23807,
+      "sha256": "115de024775f97a901570f5599d667b6cc7a875d0debc4c9741d047ba072a4a0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 30329,
+      "sha256": "d6d3c983c8f2b61371d871546dbee65800e8d87bb301cf23a1a25e59ed065bd1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 29068,
+      "sha256": "f8ac00d5d7f1c66ef97f37be56bc0b7483a85b7ada310d3f6d2b3cbd125c5941",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 160,
+      "sha256": "249991fcb1c91f339e2d15b3e6fc9cbc35d2b9a4869f6b97a44c09c6c6977f24",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1258,
+      "sha256": "9779ef93c9263fcdfe12ef97e18aa3beb9cabd2f889c96a80f4e57d4d49ff7be",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 4228,
+      "sha256": "fb93b01b7becbb0693e32bd428aa8d406b8d74409de52a76512a044860db1cde",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1048,
+      "sha256": "0d2a4ae84da86e33c348d858951d92af702658287f22bc8816cf298c23d261d1",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1104,
+      "sha256": "c8f318bb89dd83f79f00008a61c51a87e555094167618d190ff9b866e28629b5",
+      "role": "documentation"
+    }
+  ]
+}

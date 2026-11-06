@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "id": "kenney-cushion-chair",
+  "title": "Kenney cushioned dining chair",
+  "category": "furniture/chairs",
+  "style": "low-poly",
+  "tags": [
+    "chair",
+    "dining",
+    "kids",
+    "game-ready"
+  ],
+  "batch": "foundation-01-r2",
+  "acquired_at": "2026-11-03T14:52:38.961691+00:00",
+  "review": {
+    "id": "kenney-cushion-chair",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Cushioned dining chair is a clean, readable low-poly variant for kids' scenes. Corrected framing shows the full chair from every angle. It intentionally uses flat-color materials rather than image textures; eight zero-area triangles are minor and do not break the silhouette.",
+    "limitations": [
+      "No image textures; flat-color materials are intentional.",
+      "Eight zero-area triangles retained from upstream."
+    ],
+    "contact_sheet_sha256": "32ef85f3af77feeadad1a2da599bdb7c79cb643b294fe2727c47bfe4fa430393",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "kenney",
+    "model": "model/chaircushion.glb",
+    "creator": "Kenney",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE",
+    "source_url": "https://github.com/Hidencod/tge-assets/blob/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/furniture-kit/chaircushion.glb",
+    "source_id": "packs/furniture-kit/chaircushion.glb",
+    "revision": "d92c6e923bbef8649d4e5be3ab375a40f88672b0",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/furniture-kit/chaircushion.glb",
+        "bytes": 12588,
+        "sha256": "33544228984857f2cb502b58452fed72157335f9b1caf29e96da5c9094c53fdc"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE"
+  },
+  "model": "model/chaircushion.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 2,
+    "images": 0,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_materials_unlit"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 274,
+    "triangles": 198,
+    "material_slots": 2,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 8,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 0,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 510,
+      "sha256": "6913dd72bdc20532b7f02d86469058f45d886c9dabf60831275ed16927aa523b",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1314,
+      "sha256": "936b2236cf8dfb8f5ed5b3a5b41bbfc93890b6e9bc4a2fb0d7a02781f09ce96a",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 292,
+      "sha256": "9e4bf64a6341f5ca0c5870c23a29301b087916f3cb62c41a61f6b1691a0f1c59",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 61630,
+      "sha256": "8afac04106a72456fa2040c24d3da49eceb5f19622eb51344f99debdd146c0a4",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "e7040e3bf05438a7ca6aac251c6fe9710aa659243a0514755c103e4cac54790e",
+      "role": "logs"
+    },
+    {
+      "path": "model/chaircushion.glb",
+      "bytes": 12588,
+      "sha256": "33544228984857f2cb502b58452fed72157335f9b1caf29e96da5c9094c53fdc",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 18097,
+      "sha256": "7d110b2c6637d679b63ef81cc9b774eb9493b78bdb0ee4c3a2c7790a1b597fa2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 17086,
+      "sha256": "b21a1c140e73fdd3b65a2f3e93a7c42741b7d0e182eb2b8d920e97f9fbb30456",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 142552,
+      "sha256": "32ef85f3af77feeadad1a2da599bdb7c79cb643b294fe2727c47bfe4fa430393",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 325,
+      "sha256": "05ed6e7e1cfb19b370e9d8a2142634c115627bf22af419ecdfada5267545ffdd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 16147,
+      "sha256": "40fad554a67dc94e1192a2854f39a5a9e479d15a9d3eefe5101229fb1e1b2ad0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 18899,
+      "sha256": "f7d9e825526bf5a404ce26300291725ec6a4de4b6cde966fe5539de34ccdab2b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 14328,
+      "sha256": "867dd39316344a257890583c9d19b12fef071d3c97608d37c1db801d0807a204",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 18927,
+      "sha256": "12b7666650a57eaf0869a06e98cf9b1cf3191797ea440d34ca99303a09b9d4b0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 15480,
+      "sha256": "8eb0d1a6576ac57c2b9fa3b6361f419afca0d03b93780247d6edf29a8cfc379a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 19377,
+      "sha256": "85ad897e3c3b2e84b3fbebed01d59a130f014b4deb28dd1f1e62852b2f3a9c56",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 14406,
+      "sha256": "4d061fb936dbf929fdbd6baed95f918afab84e2a34f4d98ade93c0a3895a2761",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 19113,
+      "sha256": "bd78e6eadb6d870532c3db5b2d8559802d46d078a9d543471ee2957d2e95d6bb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 15733,
+      "sha256": "de058daf1e2712667de45a580ef471e14fec64b0b287c5c72aa5197d76c72ebe",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 24668,
+      "sha256": "e5c9cb8f3737e7b68d06bdcb7a8931e546e9153d7c492936f6fe994fbf431388",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 158,
+      "sha256": "c028f7adcd23395902f8b34b2981289082cf965687dc7b423e0935c3e5a8a146",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/github-source.json",
+      "bytes": 425,
+      "sha256": "58d32f011972884bd41ea55219cfe55efcec8333d4376283b93526640bb44f84",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1286,
+      "sha256": "65610241bece1d3d8c69f356f15e3ac8e75c8f3c1feda5a5ea7adc5b8031b134",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 873,
+      "sha256": "e8055f83f076730ae097a656aaf1466d948afcaa2121aa185570f6825aef4cea",
+      "role": "documentation"
+    }
+  ]
+}

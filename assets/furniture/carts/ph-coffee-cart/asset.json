@@ -1,0 +1,451 @@
+{
+  "schema_version": 1,
+  "id": "ph-coffee-cart",
+  "title": "Industrial coffee cart",
+  "category": "furniture/carts",
+  "style": "realistic",
+  "tags": [
+    "furniture",
+    "cart",
+    "trolley",
+    "coffee",
+    "metal",
+    "wheels",
+    "pbr"
+  ],
+  "batch": "expansion-08",
+  "acquired_at": "2026-11-04T17:16:12.234817+00:00",
+  "review": {
+    "id": "ph-coffee-cart",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Inspected all 12 views plus a full-size front-right orbit. Stainless cart with four casters, sliding doors, lower wire shelf, bus tub, plus a twin-burner coffee machine with three glass carafes, mugs, canisters and a trailing power lead. The top view confirms the whole load-out is modelled, not textured on. 27.7k tris.",
+    "limitations": [
+      "Coffee machine and carafes carry an invented DUNN badge, a stand-in for a real brand rather than an actual manufacturer mark.",
+      "Supplied fully loaded; remove the props if you need an empty cart."
+    ],
+    "contact_sheet_sha256": "484191f90769a60b0d534610cf873ca3a98982e7fc86c46c44b0e1699e6e4c22",
+    "reviewer": "arena-agent-visual-review",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/CoffeeCart_01_2k.gltf",
+    "creator": "Joe Seabuhr",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/CoffeeCart_01",
+    "source_id": "CoffeeCart_01",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/CoffeeCart_01/CoffeeCart_01_2k.gltf",
+        "bytes": 6637,
+        "sha256": "40297334141f062db2b3b1921572c4b147ebd306eb708e87f0621e2bc450ea0c"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/CoffeeCart_01/CoffeeCart_01_cart_diff_2k.jpg",
+        "bytes": 401955,
+        "sha256": "d41aab7a31063452abf70678d29b198be1cdcb3b011bc42325b9882f6177b78d"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/CoffeeCart_01/CoffeeCart_01_props_nor_gl_2k.jpg",
+        "bytes": 439426,
+        "sha256": "84b10d206a9967fb7fc2d7658f704f304cf341ffaef02eaab1a98eddb4259f45"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/CoffeeCart_01/CoffeeCart_01.bin",
+        "bytes": 865700,
+        "sha256": "0c0f9ed417ba85208c7f42b674ee3ce99a7e6fb63e67c7ea8d312304c470db50"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/CoffeeCart_01/CoffeeCart_01_cart_nor_gl_2k.jpg",
+        "bytes": 496228,
+        "sha256": "887bd8df2c6993e7d9ee75b25fdc06ec5bc5c1042faa40d1537f32095f3b8611"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/CoffeeCart_01/CoffeeCart_01_cart_arm_2k.jpg",
+        "bytes": 511101,
+        "sha256": "ecfc46f9e4cb6beb919f9ed2227f0d7c3780d0461f6ab7c735bf90ef464c36c1"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/CoffeeCart_01/CoffeeCart_01_props_arm_2k.jpg",
+        "bytes": 620502,
+        "sha256": "c9d14e8e95c57f4c509b210e1e12055b688b7685e3c5e66fe0cea194e1c154ef"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/CoffeeCart_01/CoffeeCart_01_props_diff_2k.jpg",
+        "bytes": 492206,
+        "sha256": "aca06e7bb4aeb994deef7a93a6e8f29733ca2b5ab64467974d6d02ea434f3646"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/CoffeeCart_01_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 3,
+    "materials": 3,
+    "images": 6,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/CoffeeCart_01_cart_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "CoffeeCart_01_cart_nor_gl"
+    },
+    {
+      "path": "model/textures/CoffeeCart_01_cart_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "CoffeeCart_01_cart_diff"
+    },
+    {
+      "path": "model/textures/CoffeeCart_01_cart_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "CoffeeCart_01_cart_metallic-CoffeeCart_01_cart_roughness"
+    },
+    {
+      "path": "model/textures/CoffeeCart_01_props_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "CoffeeCart_01_props_nor_gl"
+    },
+    {
+      "path": "model/textures/CoffeeCart_01_props_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "CoffeeCart_01_props_diff"
+    },
+    {
+      "path": "model/textures/CoffeeCart_01_props_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "CoffeeCart_01_props_metallic-CoffeeCart_01_props_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 3,
+    "hidden_mesh_objects": 0,
+    "vertices": 21867,
+    "triangles": 27659,
+    "material_slots": 3,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "CoffeeCart_01_cart_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-coffee-cart/model/textures/CoffeeCart_01_cart_diff_2k.jpg"
+      },
+      {
+        "name": "CoffeeCart_01_cart_metallic-CoffeeCart_01_cart_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-coffee-cart/model/textures/CoffeeCart_01_cart_arm_2k.jpg"
+      },
+      {
+        "name": "CoffeeCart_01_cart_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-coffee-cart/model/textures/CoffeeCart_01_cart_nor_gl_2k.jpg"
+      },
+      {
+        "name": "CoffeeCart_01_props_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-coffee-cart/model/textures/CoffeeCart_01_props_diff_2k.jpg"
+      },
+      {
+        "name": "CoffeeCart_01_props_metallic-CoffeeCart_01_props_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-coffee-cart/model/textures/CoffeeCart_01_props_arm_2k.jpg"
+      },
+      {
+        "name": "CoffeeCart_01_props_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-coffee-cart/model/textures/CoffeeCart_01_props_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1322,
+      "sha256": "b59ab7645eb0ed0edb3cbe2c4f06d9965dc32cd2c627236b7efc8d339bf382a2",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 384,
+      "sha256": "2291a8588843e0802d3034a5010807b5cef85787735cdc486edb21bb69717909",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 74621,
+      "sha256": "74fec910a1a2781f34e566ab123d5081cd0dbc4e675826be4b35499ecb77705c",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "7b592c5cb4f4067f3712947d3351dc08ba247e27f1ccafc5b80c3d6d93a99e68",
+      "role": "logs"
+    },
+    {
+      "path": "model/CoffeeCart_01.bin",
+      "bytes": 865700,
+      "sha256": "0c0f9ed417ba85208c7f42b674ee3ce99a7e6fb63e67c7ea8d312304c470db50",
+      "role": "model"
+    },
+    {
+      "path": "model/CoffeeCart_01_2k.gltf",
+      "bytes": 6637,
+      "sha256": "40297334141f062db2b3b1921572c4b147ebd306eb708e87f0621e2bc450ea0c",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/CoffeeCart_01_cart_arm_2k.jpg",
+      "bytes": 511101,
+      "sha256": "ecfc46f9e4cb6beb919f9ed2227f0d7c3780d0461f6ab7c735bf90ef464c36c1",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/CoffeeCart_01_cart_diff_2k.jpg",
+      "bytes": 401955,
+      "sha256": "d41aab7a31063452abf70678d29b198be1cdcb3b011bc42325b9882f6177b78d",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/CoffeeCart_01_cart_nor_gl_2k.jpg",
+      "bytes": 496228,
+      "sha256": "887bd8df2c6993e7d9ee75b25fdc06ec5bc5c1042faa40d1537f32095f3b8611",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/CoffeeCart_01_props_arm_2k.jpg",
+      "bytes": 620502,
+      "sha256": "c9d14e8e95c57f4c509b210e1e12055b688b7685e3c5e66fe0cea194e1c154ef",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/CoffeeCart_01_props_diff_2k.jpg",
+      "bytes": 492206,
+      "sha256": "aca06e7bb4aeb994deef7a93a6e8f29733ca2b5ab64467974d6d02ea434f3646",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/CoffeeCart_01_props_nor_gl_2k.jpg",
+      "bytes": 439426,
+      "sha256": "84b10d206a9967fb7fc2d7658f704f304cf341ffaef02eaab1a98eddb4259f45",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 26275,
+      "sha256": "4cc7078bf8812a57b686fff21395f7d9101eea8d02553a65f135660141de114a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 32955,
+      "sha256": "d0be55a4afad33e2a821f963598c7e786c3a0d42e86fefef7aa0a070a19b7415",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 258160,
+      "sha256": "484191f90769a60b0d534610cf873ca3a98982e7fc86c46c44b0e1699e6e4c22",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 2072,
+      "sha256": "8e4ec3349b11dd40a361aaa92251698dbb36e317687cb7fe2ac9ceba540f364f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 39022,
+      "sha256": "6c0190f2d193c2c3e11ed7a919ccf6370e73305a941e04ecdf4cdc8b21371a8e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 46066,
+      "sha256": "70302878dc51c31f2650edaf251d80296e5eb44497b9c4b9193b682fae27e4d7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 32488,
+      "sha256": "c42c871f3d7d4d65637e9e3f75be4e4caad401b2b76e12eb7ef3d9883fc233a5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 36099,
+      "sha256": "e2565564fb2baebe9544668681350aba7616542d6599d900b7ae357cebfc33ea",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 33759,
+      "sha256": "99c3652e7bb10ff5478aca8d4cf7d59ad126c23e12faced2be8fe5254e16a8a1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 44275,
+      "sha256": "95e846585720748f4f457377857d25ae88ecf8517b4c4da02d5dd0349ef5b369",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 31404,
+      "sha256": "b0c25b6b874d6b8446c873d25ecc395535bf1d4d0da2d2eea587e9f7adc5ec49",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 38259,
+      "sha256": "96991710980930c82161fa3a74669846ced9bbba03fbd8ed3eb7324d9b137035",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 23303,
+      "sha256": "40cfa48e0bbfda6aae1ce655c749ced69dae5e968c0b07d3fc9228965b4fa351",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 52728,
+      "sha256": "247bf2fda131cc79ce567102ad745777a40a6d2d62ee91bacb24689156accabf",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 163,
+      "sha256": "3c4142e581172c4ba4e254f792e5d966aea9cb3296755b24f3fef3d695012913",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1325,
+      "sha256": "bae44a4392b47e8c023b15a7f23ea6aacc85dc73917e08885cf38171e05f46e6",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 6285,
+      "sha256": "c2b0c2f0b1cd1e78b115fb89245c5554bd2665e043c77cda4a84f00ac4e27a7a",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1849,
+      "sha256": "f7339435de5cfdfd87b74082237d8e90e6251af7ad4dbe70d04f8a9448773a23",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1012,
+      "sha256": "a87c4206fc970a52dbeab95aa0879d764dd2e7871f33f415ee372ec2f907807d",
+      "role": "documentation"
+    }
+  ]
+}

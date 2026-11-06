@@ -1,0 +1,50 @@
+{
+  "provider": "Grab3D",
+  "license": "CC0-1.0",
+  "license_page": "https://grab3d.com/license/",
+  "reviewed_at": "2026-11-04",
+  "terms_summary": "Every published model is dedicated to the public domain under CC0 1.0. Commercial use, modification and redistribution are allowed without attribution, account or fees. Grab3D waives only its own rights; trademark/patent and depicted-subject rights are not waived. Subjects are described as generic, with no brands, logos or real people.",
+  "origin_policy": "Many packages are AI-assisted: a Meshy image-to-3D draft is cleaned up, scaled, textured and checked in Blender. Rigged packages add Meshy Auto-Rig skeletons and clips. Each package LICENSE.txt and manifest.json disclose the method; the intake adapter preserves both and tags candidates ai-assisted.",
+  "download_pattern": {
+    "manifest": "https://grab3d.com/dl/{slug}/manifest.json",
+    "license": "https://grab3d.com/dl/{slug}/LICENSE.txt",
+    "glb": "https://grab3d.com/dl/{slug}/{files.glb.name}"
+  },
+  "selected_packages": [
+    {
+      "slug": "man-base-character-rigged",
+      "page": "https://grab3d.com/models/characters/man-base-character/",
+      "triangles": 262348,
+      "texture_px": 2048,
+      "glb_bytes": 11354468,
+      "dimensions_m": "1.081 x 0.342 x 1.800",
+      "animations": "walk, run",
+      "bones": 24
+    },
+    {
+      "slug": "woman-base-character-rigged",
+      "page": "https://grab3d.com/models/characters/woman-base-character/",
+      "triangles": 300000,
+      "texture_px": 2048,
+      "glb_bytes": 12902608,
+      "dimensions_m": "0.904 x 0.303 x 1.680",
+      "animations": "walk, run",
+      "bones": 24
+    }
+  ],
+  "approved_packages": [
+    "man-base-character-rigged",
+    "woman-base-character-rigged",
+    "elderly-woman-rigged"
+  ],
+  "rejected_packages": {
+    "teen-character-rigged": "Technically clean, but anime/stylized face and hair; rejected for the realistic-human category."
+  },
+  "deferred_packages": [
+    "astronaut-in-spacesuit-rigged"
+  ],
+  "rejected_alternatives": {
+    "mb-lab": "AGPL-3.0 data and generated characters are treated as AGPL derivatives; incompatible with the no-strings policy.",
+    "avatar-studio": "Realistic MPFB-derived GLBs exist, but the repository LICENSE is MIT for code and the CC0 claim for models is README-level; prefer packages with explicit per-package CC0 dedications."
+  }
+}

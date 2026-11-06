@@ -1,0 +1,350 @@
+{
+  "schema_version": 1,
+  "id": "g3-ziggurat",
+  "title": "Stepped mudbrick ziggurat",
+  "category": "buildings/landmarks",
+  "style": "stylized",
+  "tags": [
+    "ziggurat",
+    "mesopotamia",
+    "stepped",
+    "temple",
+    "building",
+    "architecture",
+    "pbr",
+    "game-ready"
+  ],
+  "batch": "expansion-13",
+  "acquired_at": "2026-11-05T10:29:29.571574+00:00",
+  "review": {
+    "id": "g3-ziggurat",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Stylized ziggurat — stepped pyramid temple tower. Stylized Grab3D building: glTF validation clean (0 errors), single fused mesh with PBR texture maps. Human-modeled upstream (origin.ai_content: false), not AI-generated. Free-standing complete building, no brand marks expected on generic/fantasy subjects.",
+    "limitations": [
+      "Human-modeled upstream (origin.ai_content: false), not AI-generated.",
+      "Stylized style rather than photoreal — textured but not 8K PBR.",
+      "Single fused mesh; cannot be disassembled or animated without separation.",
+      "Unrigged: no skeleton or animation clips."
+    ],
+    "contact_sheet_sha256": "29ead5eae9437a2dc4212c580401c7c1d041920d8e4c33b6e273fb3fb1093c31",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/ziggurat.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/ziggurat/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/buildings/ziggurat/",
+    "source_id": "ziggurat",
+    "revision": "c0efadee2bf924feb44156dea27e814d1850e58ed2f181a8eb3f9d22abf20b4c",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/ziggurat/ziggurat.glb",
+        "bytes": 1805232,
+        "sha256": "c0efadee2bf924feb44156dea27e814d1850e58ed2f181a8eb3f9d22abf20b4c"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/ziggurat/LICENSE.txt"
+  },
+  "model": "model/ziggurat.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/ziggurat_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ziggurat_body_normal"
+    },
+    {
+      "path": "textures/ziggurat_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ziggurat_body_basecolor"
+    },
+    {
+      "path": "textures/ziggurat_body_metallic-ziggurat_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ziggurat_body_metallic-ziggurat_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 30234,
+    "triangles": 19124,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "ziggurat_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "ziggurat_body_metallic-ziggurat_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "ziggurat_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1384,
+      "sha256": "fb5c34df2d6fd2ab0cdfe519c43b67a38c0a6fb8cde08a78a1a47184c3a71af1",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 288,
+      "sha256": "80f58c814af05b41d27923eeae783d4349991a529e367fd2d5e47fe07a0dae6b",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67652,
+      "sha256": "7e992ccff2fceb8466381a628f2c46a5d462033919d21199f21093b0a26aa74a",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/ziggurat.glb",
+      "bytes": 1805232,
+      "sha256": "c0efadee2bf924feb44156dea27e814d1850e58ed2f181a8eb3f9d22abf20b4c",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 21336,
+      "sha256": "581f53cfece64f0110efba97a5b7ac6cfae8899deb3a8e4c36704a803f6a191b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 19153,
+      "sha256": "32b2b38b7cee3320fb6725565c77442faaddbf2f523d01305ecc83b0b60c8d21",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 198728,
+      "sha256": "29ead5eae9437a2dc4212c580401c7c1d041920d8e4c33b6e273fb3fb1093c31",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 816,
+      "sha256": "028f4f9184ad10bc477261974f5c000f5679b99a77a94c367aeac0b7515e1457",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 28441,
+      "sha256": "3b7ce69ba8b8e440787c89460add1ded9ab11386457d9c44df40ea421f221a19",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 22990,
+      "sha256": "466052f19912e7043734e4f04f8078fa0e50d9ff03e1c89b08d735a338b4ad5b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 27169,
+      "sha256": "ca679cb929a56518fc30c7f7e3566b4dad55884f182cf12e703cfedfd698c68b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 23077,
+      "sha256": "656ef1a42c0248db54f3d3a619302b4d3389ac4d3f7617618b58aaa26fc2ad09",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 25530,
+      "sha256": "86053993f8932c2b132f1eee47c5c6d8f8c52cc5d1fd82d65e41d5193b628284",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 24195,
+      "sha256": "3f68c2c10f2cad3782d04f89439de7fb4050dc03b390b35dc812cb31d5196448",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 30948,
+      "sha256": "514d999b17c760d75c7161aa6a4c5b222eed9ae45765325383683ab46321f7b1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 23921,
+      "sha256": "749a91579b78e183498ad8d548b21be7339d81bf6ea3b47f01da0ac5da9c8a8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 36650,
+      "sha256": "735071dbd8d8cad542aee6c62d48a5d58b9d185fdd8e33de107cac643121ae91",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 29803,
+      "sha256": "e75be63ff01b658bd9d569a2102f73e9352629005a91c266ef5ed1e0736f53fc",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 154,
+      "sha256": "ea5762e939c108bb90293edf7407a8e9a9c3544c5dbdf4c050596a98a9fba009",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1931,
+      "sha256": "757b7c91b689bcc06782c01e6d0dd46c1180d92b577416a4669417bb67a6778d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1460,
+      "sha256": "b4a5c03559a6fca10b9fb9819ef47607b5c80746a97dd00f8f0ffa38b948c30f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 482,
+      "sha256": "26890152bcfac4d9e928ee5da402a2996ef9a78f8cdec3b5973eeb4cafbd1ff4",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "3156164ee3631ff2046513f5cac8f11adb1c2e40aab7f88dc228892753675b03",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1054,
+      "sha256": "a7a15d258a7b3705cf7ff2a342a5d82b82c6d2abb96f6b82617d6b67526d1e2b",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/ziggurat_body_basecolor.jpg",
+      "bytes": 367137,
+      "sha256": "84bded99fae014a4d85746e0ff72f07824d8f80827672e905b848e3d83a4b640",
+      "role": "textures"
+    },
+    {
+      "path": "textures/ziggurat_body_metallic-ziggurat_body_roughness.jpg",
+      "bytes": 277959,
+      "sha256": "dd8bfda986cbee5953b1381cd1f02ab83066b526b36f7bbb53d0f39d5d0b9d33",
+      "role": "textures"
+    },
+    {
+      "path": "textures/ziggurat_body_normal.jpg",
+      "bytes": 75537,
+      "sha256": "457a48ba9d27f4c171a22e77c9251445dfce903c51787b1075c6000752fd8dc2",
+      "role": "textures"
+    }
+  ]
+}

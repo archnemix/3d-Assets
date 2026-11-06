@@ -1,0 +1,124 @@
+{
+  "uri": "modern_arm_chair_01_2k.gltf",
+  "mimeType": "model/gltf+json",
+  "validatorVersion": "2.0.0-dev.3.10",
+  "validatedAt": "2026-11-04T10:38:38.271Z",
+  "issues": {
+    "numErrors": 0,
+    "numWarnings": 2,
+    "numInfos": 0,
+    "numHints": 0,
+    "messages": [
+      {
+        "code": "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE",
+        "message": "Material requires a tangent space but the mesh primitive does not provide it. Runtime-generated tangent space may be non-portable across implementations.",
+        "severity": 1,
+        "pointer": "/meshes/0/primitives/0/material"
+      },
+      {
+        "code": "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE",
+        "message": "Material requires a tangent space but the mesh primitive does not provide it. Runtime-generated tangent space may be non-portable across implementations.",
+        "severity": 1,
+        "pointer": "/meshes/0/primitives/1/material"
+      }
+    ],
+    "truncated": false
+  },
+  "info": {
+    "version": "2.0",
+    "generator": "Khronos glTF Blender I/O v3.3.32",
+    "resources": [
+      {
+        "pointer": "/buffers/0",
+        "mimeType": "application/gltf-buffer",
+        "storage": "external",
+        "uri": "modern_arm_chair_01.bin",
+        "byteLength": 240728
+      },
+      {
+        "pointer": "/images/0",
+        "mimeType": "image/jpeg",
+        "storage": "external",
+        "uri": "textures/modern_arm_chair_01_legs_nor_gl_2k.jpg",
+        "image": {
+          "width": 2048,
+          "height": 2048,
+          "format": "rgb",
+          "bits": 8
+        }
+      },
+      {
+        "pointer": "/images/1",
+        "mimeType": "image/jpeg",
+        "storage": "external",
+        "uri": "textures/modern_arm_chair_01_legs_diff_2k.jpg",
+        "image": {
+          "width": 2048,
+          "height": 2048,
+          "format": "rgb",
+          "bits": 8
+        }
+      },
+      {
+        "pointer": "/images/2",
+        "mimeType": "image/jpeg",
+        "storage": "external",
+        "uri": "textures/modern_arm_chair_01_legs_arm_2k.jpg",
+        "image": {
+          "width": 2048,
+          "height": 2048,
+          "format": "rgb",
+          "bits": 8
+        }
+      },
+      {
+        "pointer": "/images/3",
+        "mimeType": "image/jpeg",
+        "storage": "external",
+        "uri": "textures/modern_arm_chair_01_pillow_nor_gl_2k.jpg",
+        "image": {
+          "width": 2048,
+          "height": 2048,
+          "format": "rgb",
+          "bits": 8
+        }
+      },
+      {
+        "pointer": "/images/4",
+        "mimeType": "image/jpeg",
+        "storage": "external",
+        "uri": "textures/modern_arm_chair_01_pillow_diff_2k.jpg",
+        "image": {
+          "width": 2048,
+          "height": 2048,
+          "format": "rgb",
+          "bits": 8
+        }
+      },
+      {
+        "pointer": "/images/5",
+        "mimeType": "image/jpeg",
+        "storage": "external",
+        "uri": "textures/modern_arm_chair_01_pillow_arm_2k.jpg",
+        "image": {
+          "width": 2048,
+          "height": 2048,
+          "format": "rgb",
+          "bits": 8
+        }
+      }
+    ],
+    "animationCount": 0,
+    "materialCount": 2,
+    "hasMorphTargets": false,
+    "hasSkins": false,
+    "hasTextures": true,
+    "hasDefaultScene": true,
+    "drawCallCount": 2,
+    "totalVertexCount": 5851,
+    "totalTriangleCount": 8916,
+    "maxUVs": 1,
+    "maxInfluences": 0,
+    "maxAttributes": 3
+  }
+}

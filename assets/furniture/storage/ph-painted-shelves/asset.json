@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "id": "ph-painted-shelves",
+  "title": "Painted farmhouse wall shelves",
+  "category": "furniture/storage",
+  "style": "realistic",
+  "tags": [
+    "furniture",
+    "shelves",
+    "storage",
+    "wood",
+    "farmhouse",
+    "worn",
+    "pbr"
+  ],
+  "batch": "expansion-08",
+  "acquired_at": "2026-11-04T17:18:43.527008+00:00",
+  "review": {
+    "id": "ph-painted-shelves",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Inspected all 12 views. Small wall-hung spice shelf with a shaped back, hanging hole, two curved shelves and a lower bin. Distressed red paint over bare wood is consistent on front, back and sides. Top and bottom views confirm real board thickness throughout. Only 524 triangles.",
+    "limitations": [
+      "At 524 triangles the shaped back facets under grazing light.",
+      "Shelves are fixed and cannot be re-spaced without editing."
+    ],
+    "contact_sheet_sha256": "1dea5a3258b5f4cda1e6d349d70b3bc40c946291b41408a2919a4d85338f05f8",
+    "reviewer": "arena-agent-visual-review",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/painted_wooden_shelves_2k.gltf",
+    "creator": "Kirill Sannikov",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/painted_wooden_shelves",
+    "source_id": "painted_wooden_shelves",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/painted_wooden_shelves/painted_wooden_shelves_2k.gltf",
+        "bytes": 2858,
+        "sha256": "340b722222e0074df89c504d5dc4a49f2978a165051c40514e925d732f2658ef"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/painted_wooden_shelves/painted_wooden_shelves_nor_gl_2k.jpg",
+        "bytes": 3626263,
+        "sha256": "141683fbda8e3995e52e71ced621565b29dfb629890fec63d313dd38f45e2602"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/painted_wooden_shelves/painted_wooden_shelves_arm_2k.jpg",
+        "bytes": 2626989,
+        "sha256": "221c8fb3db7fb9c1fce42a2a91dd82dc44058263d62e874ea88a80e39916e014"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/painted_wooden_shelves/painted_wooden_shelves.bin",
+        "bytes": 20680,
+        "sha256": "894c032cda1c5668014c87b15ddcc42bccaede15e369e59f628d5219d38edf5f"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/painted_wooden_shelves/painted_wooden_shelves_diff_2k.jpg",
+        "bytes": 2074155,
+        "sha256": "eb6ce67975168d1f850c991747108d6444aab2680dd6d7e15d69512da4d6c197"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/painted_wooden_shelves_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/painted_wooden_shelves_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "painted_wooden_shelves_nor_gl"
+    },
+    {
+      "path": "model/textures/painted_wooden_shelves_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "painted_wooden_shelves_diff"
+    },
+    {
+      "path": "model/textures/painted_wooden_shelves_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "painted_wooden_shelves_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 548,
+    "triangles": 524,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "painted_wooden_shelves_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-painted-shelves/model/textures/painted_wooden_shelves_diff_2k.jpg"
+      },
+      {
+        "name": "painted_wooden_shelves_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-painted-shelves/model/textures/painted_wooden_shelves_nor_gl_2k.jpg"
+      },
+      {
+        "name": "painted_wooden_shelves_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-painted-shelves/model/textures/painted_wooden_shelves_arm_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1278,
+      "sha256": "26c8993cf55db688918134757617ee35a4482459ef367a14724c4d84290f311d",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 286,
+      "sha256": "d9e29e24c7b0e7014b0d0c9e740ceb32f6b3e7312dcd92e6205db68809567e4d",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67658,
+      "sha256": "49b024438455481934971e3f982c4301ea85867d15c498ae36cdc2639ad29ebd",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/painted_wooden_shelves.bin",
+      "bytes": 20680,
+      "sha256": "894c032cda1c5668014c87b15ddcc42bccaede15e369e59f628d5219d38edf5f",
+      "role": "model"
+    },
+    {
+      "path": "model/painted_wooden_shelves_2k.gltf",
+      "bytes": 2858,
+      "sha256": "340b722222e0074df89c504d5dc4a49f2978a165051c40514e925d732f2658ef",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/painted_wooden_shelves_arm_2k.jpg",
+      "bytes": 2626989,
+      "sha256": "221c8fb3db7fb9c1fce42a2a91dd82dc44058263d62e874ea88a80e39916e014",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/painted_wooden_shelves_diff_2k.jpg",
+      "bytes": 2074155,
+      "sha256": "eb6ce67975168d1f850c991747108d6444aab2680dd6d7e15d69512da4d6c197",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/painted_wooden_shelves_nor_gl_2k.jpg",
+      "bytes": 3626263,
+      "sha256": "141683fbda8e3995e52e71ced621565b29dfb629890fec63d313dd38f45e2602",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 38980,
+      "sha256": "3087979bab3b3f10a87f95942bf2a63556b3ee2a9b93a792994f8a27a792ddbc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 17511,
+      "sha256": "347847371ca60b36d93a31da0f47421ab0b97ea484e0ad71196a5f4b4f2a413d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 213614,
+      "sha256": "1dea5a3258b5f4cda1e6d349d70b3bc40c946291b41408a2919a4d85338f05f8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1198,
+      "sha256": "714df91fdcf2f06fbe8de84127737349b9321c50dc4277af7322d83ed81f02a8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 25178,
+      "sha256": "e56daf5adcab2193c56a74c4b8ea6d2471b730554a05e02b6d4d7bc98329d2b4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 28162,
+      "sha256": "444c309d174516eca44e9c101c3ad36d2abb9d58c2360ae7910e23f4c15f376f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 22491,
+      "sha256": "b532081e2216fc59d92a00c5a6cc6c18c28c934ac2610a9e6980207051345215",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 34614,
+      "sha256": "94e9fc700e6883dc7dff14a24f29777e627248deccb696b4cfc011f1999c290f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 40216,
+      "sha256": "a76105bdc34f46a1302e87abd52748a57b282eefba568b86f49ea488c91749e8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 34677,
+      "sha256": "12078ea84e30b6fdf376d10d8bc3bcd071e910d691329827b520315d74bb4c25",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 21017,
+      "sha256": "87afc2de41426307a4aa869b5b25aaedeed24f1ea9a6e9db18e35387f9a45c55",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 27637,
+      "sha256": "70e73e110bace3530ad62f1bac8dc116db7a2508e291976a5d2c8ed775899c89",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 39616,
+      "sha256": "b5f07aaf50bfb8d9679a82bed3b95336d55774c77c79631f9101a817a1c6570c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 28541,
+      "sha256": "681ebd20c3e7bcfeb0d7a9f0e97e3e6192ea60842dd9694e5acdc94b767bc812",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 172,
+      "sha256": "01ff0fa939636f515bca1ede0433714232e3223906382561dbd4013456755e1f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1153,
+      "sha256": "425e207f6939ec2bc784cf18eb06cd232a6d373177a45c249a980ef7700b1730",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2169,
+      "sha256": "2f362dd832cf6f8786d19cfb3877c76f43c114a2e849629ba082b8126c62e323",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1216,
+      "sha256": "aa312b10d272586346cf19ef1a738bce9b23b04f57594147e85b0dd98877415f",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 902,
+      "sha256": "452fe2dbe145032ec8e1f651f6afd2894634c2d1a5d58f37b29c0efff594c32d",
+      "role": "documentation"
+    }
+  ]
+}

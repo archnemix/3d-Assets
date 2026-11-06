@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "id": "kenney-sports-sedan",
+  "title": "Kenney sports sedan",
+  "category": "vehicles/cars",
+  "style": "low-poly",
+  "tags": [
+    "car",
+    "sedan",
+    "kids",
+    "game-ready"
+  ],
+  "batch": "foundation-01-r2",
+  "acquired_at": "2026-11-03T14:54:00.413913+00:00",
+  "review": {
+    "id": "kenney-sports-sedan",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Sports sedan is complete from front, back, sides, top and underside, with wheels and body coherent. Flat-color atlas suits the stylized vehicle category. Thirteen zero-area triangles are minor for a low-poly static prop and do not break the silhouette.",
+    "limitations": [
+      "Thirteen zero-area triangles retained from upstream.",
+      "Flat-color atlas rather than PBR maps."
+    ],
+    "contact_sheet_sha256": "54590825fa2272d7ca4eb606a3ed21326918015ddf3917d5187946f422514bbf",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "kenney",
+    "model": "model/sedan-sports.glb",
+    "creator": "Kenney",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE",
+    "source_url": "https://github.com/Hidencod/tge-assets/blob/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/car-kit/sedan-sports.glb",
+    "source_id": "packs/car-kit/sedan-sports.glb",
+    "revision": "d92c6e923bbef8649d4e5be3ab375a40f88672b0",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/car-kit/sedan-sports.glb",
+        "bytes": 189920,
+        "sha256": "aba8186e85d3aa828cb9af5c735f640c893315fb45662cf1eabf1ed9676fa99f"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE"
+  },
+  "model": "model/sedan-sports.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 6,
+    "materials": 1,
+    "images": 1,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_texture_transform"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/colormap.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "colormap"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 6,
+    "hidden_mesh_objects": 0,
+    "vertices": 3268,
+    "triangles": 2088,
+    "material_slots": 6,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 13,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "colormap",
+        "dimensions": [
+          512,
+          512
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 0,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 510,
+      "sha256": "6913dd72bdc20532b7f02d86469058f45d886c9dabf60831275ed16927aa523b",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1282,
+      "sha256": "dccfa288fb7b9af805c3a0dff3c9c35afcb59876f51413ad7c0f7dfd245da2d9",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 18715,
+      "sha256": "fed5731e88431480a1a754ed4e4ead9f43f76c0abd84e1f9e362f04d123b01b7",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 69727,
+      "sha256": "014b572d42ddaa89b08c91128324ed5d2651ea5717d756fea70e7113fd92fdd7",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "c2ae86616c8fe7d9ebe6549b823cc4f71e1ebddaee59234e4b9fb1b79e57c2b9",
+      "role": "logs"
+    },
+    {
+      "path": "model/sedan-sports-animated.glb",
+      "bytes": 136980,
+      "sha256": "dc4fdebfb55d7033163ba61d307cb87cec016047fdc6229dd1bd19ec45adbc38",
+      "role": "model"
+    },
+    {
+      "path": "model/sedan-sports.glb",
+      "bytes": 189920,
+      "sha256": "aba8186e85d3aa828cb9af5c735f640c893315fb45662cf1eabf1ed9676fa99f",
+      "role": "model"
+    },
+    {
+      "path": "previews/anim-wheel_roll-a.jpg",
+      "bytes": 10516,
+      "sha256": "bacc3f88122de31baaa052515f6d5cea7c63415d89cba68aa6b8c7d9c5eaed97",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-b.jpg",
+      "bytes": 10518,
+      "sha256": "a9a40271e1445d5e9e2b247e3a1f2dc689ca0f42e485bd2022ae56e92eff1b01",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-c.jpg",
+      "bytes": 10516,
+      "sha256": "ab23638aa9647aae6311311345610f6f3f36b90365761627682c156bfaa8bcfc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 15468,
+      "sha256": "091ebd6c5b90b277f7f8963aa31e108582878e899bb4f668041d083489baf972",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 17584,
+      "sha256": "9a5155885bf964e8693743c7f84ff7ae284959e34d4b1936cb4d61a739af8c7a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 202000,
+      "sha256": "54590825fa2272d7ca4eb606a3ed21326918015ddf3917d5187946f422514bbf",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 468,
+      "sha256": "5e70488909afc3cb4a7a211c09c80b5598641ad389e309c1590c7a8c5302b23b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 25456,
+      "sha256": "0191df412f26677a7c18d451e9cfe78df481ccba49e7bcf03fb1e7c7037dd464",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 25878,
+      "sha256": "cec2789820ded28b7c30dbbe185411d9d273d5c784742846567b45eb8c7074c5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 25278,
+      "sha256": "a3aca0ec8f5ba023874602f1573a1d69e124b46c2c1928725f7c7630d827c508",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 26521,
+      "sha256": "d7fc2526d7b538d28c40f7d947a226f0afe8435d8fb252c2728cd80def72691e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 29156,
+      "sha256": "6e8f258a318a70baa9de949e8d37138d5271cb37319b8d2af730166bbd289d88",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 28561,
+      "sha256": "56fc86b458fceaf9b7994ba52faa25b9dd6caf2c5644ce196d5ccaaa481ea771",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 28021,
+      "sha256": "25b6eb75df49f4395efd8d9d2a8c7b049050f25d76e0503c9e014b839bf84f50",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 28193,
+      "sha256": "5ae688eb354ee18856cd05da8d4c1730b0edb878f2e6e9144e46be07acd86e13",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 20363,
+      "sha256": "20c112b8f864745591663b5eb4cc41480495ab0ffd61450d15ee8b60e0514003",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 31438,
+      "sha256": "61de1d58cbb49dfbb276b8a56dc9ff5465eb8d1fed73d391d78e5869a226c378",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 661,
+      "sha256": "ec6f98e9385c368a74438c2587b095fb0c79fd59d0157bdd5a1b0cfd4ed5c319",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/github-source.json",
+      "bytes": 419,
+      "sha256": "2f822560a84179e157dbc74934bc2ee0620f67acc552ff16e015126a50f6626b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2594,
+      "sha256": "f9d53852dd521af9d4dfbec7c3cd14a1636526a0bf327a9fb376b7ab30e3a2f8",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 834,
+      "sha256": "779b42eac36eab2b4bc909df686b9bed1d6477c26b9b1f170cbb65285addcee3",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/colormap.png",
+      "bytes": 12371,
+      "sha256": "f3622a03a20c6696065cae9cbe391351be873508af190c2ebd1d420c055787a5",
+      "role": "textures"
+    }
+  ],
+  "authored_animations": [
+    {
+      "name": "wheel_roll",
+      "parts": [
+        "wheel-back-left",
+        "wheel-back-right",
+        "wheel-front-left",
+        "wheel-front-right"
+      ],
+      "axis": "X",
+      "start_degrees": 0.0,
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/sedan-sports-animated.glb"
+}

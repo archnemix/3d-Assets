@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "id": "g3-kitten",
+  "title": "Calico Kitten",
+  "category": "nature/wildlife",
+  "style": "realistic",
+  "tags": [
+    "kitten",
+    "cat",
+    "wildlife",
+    "mammal",
+    "pbr"
+  ],
+  "batch": "expansion-17",
+  "acquired_at": "2026-11-05T08:46:52.845951+00:00",
+  "review": {
+    "id": "g3-kitten",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Blue-cream calico kitten sitting with one front paw raised, green-gold eyes, white bib and grey apricot banded tail. Hyper-detailed Grab3D animal: glTF validation clean (0 errors), single fused mesh at ~800k triangles with three PBR texture maps (basecolor, normal, roughness/metallic). Upstream lists it as a realistic (non-cartoon) high-detail model. Unrigged static mesh.",
+    "limitations": [
+      "AI-assisted origin is disclosed upstream (origin.ai_content); some storefronts require an AI-content disclosure when you resell.",
+      "Unrigged: the walking/standing pose is baked into the mesh, so it cannot be re-posed or animated without adding a skeleton.",
+      "Single fused mesh with baked textures; no separate parts to animate."
+    ],
+    "contact_sheet_sha256": "6eacb9e992a2774fb33163e1c73bc60b2e64f887c4da726a9ac85d1b769939cb",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/kitten.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/kitten/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/animals/kitten/",
+    "source_id": "kitten",
+    "revision": "68b7ea10ca5cf15a9cf18302e9662f1543af4429b91d0c215987f19448798d04",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/kitten/kitten.glb",
+        "bytes": 31357780,
+        "sha256": "68b7ea10ca5cf15a9cf18302e9662f1543af4429b91d0c215987f19448798d04"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "ai-assisted",
+      "detail": "Base mesh and textures generated with an AI image-to-3D tool (Meshy), then cleaned up, scaled, textured and checked in Blender.",
+      "ai_content": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/kitten/LICENSE.txt"
+  },
+  "model": "model/kitten.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/Image_2.jpg",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "Image_2"
+    },
+    {
+      "path": "textures/Image_0.jpg",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "Image_0"
+    },
+    {
+      "path": "textures/Image_1.jpg",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "Image_1"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 461609,
+    "triangles": 799998,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "Image_0",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "Image_1",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "Image_2",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 665,
+      "sha256": "a15412842aa03ed7746551767e80808a9303edbbca02a06cfbcf354dfbd0ad27",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1433,
+      "sha256": "82f2fa2722df083a64b8a1944bac28727fa65a3d86f2a08ccb41e0c4bbb1f456",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 281,
+      "sha256": "2c819bd7aff0a4c5530a489b2f1e21e0f9c01ee9f02ef22f81544e40e4165a92",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67651,
+      "sha256": "2490d0ec814765568d578cb315e253c87b7c175ebf527ebfdf8081889dfd1473",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/kitten.glb",
+      "bytes": 31357780,
+      "sha256": "68b7ea10ca5cf15a9cf18302e9662f1543af4429b91d0c215987f19448798d04",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 53030,
+      "sha256": "7f4a55e5d7eda05afc54f71762ca29d4e4f3db86b4754b0d61000bd9b5a2bc4a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 40132,
+      "sha256": "2b131822632003457538c95122903e1b61a91ad5ab778aaa2f0e50bb147acd0b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 379259,
+      "sha256": "6eacb9e992a2774fb33163e1c73bc60b2e64f887c4da726a9ac85d1b769939cb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 750,
+      "sha256": "6d577ce74f249f87777e3f701a7582add3cfefe1d0fd7af2b10b23c375d4e251",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 56613,
+      "sha256": "a6a97dede3c23a39351f01db2877def6a321a3f47703e6dd8278926f25281ee4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 55293,
+      "sha256": "c9f2d65b62ae5b8b7ff632770ac001553cb9188ae3c03cdedf6ef7a0914e76ab",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 47405,
+      "sha256": "41093c8ed27099ae41c3b891e1c1dcbf82311387a5927c4eda1437b2a64498b8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 46374,
+      "sha256": "44a23b3166bee689a3fa0ad1ec153df8f125c56633fb42513e5759ac464ac832",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 51710,
+      "sha256": "9f259b134613465cc2a4df258970d0680ac08e1fc1f2c290348a752eee54eafd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 61772,
+      "sha256": "eb53bf4cdc441b8eefa2f00cea4ffeffb55d715be1e6675161d94b57efe1caac",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 61444,
+      "sha256": "db311aefe85d6092254ed254181d1045079d9fcae66ef770911c9e8acc338a93",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 58530,
+      "sha256": "1ec4b2d5b234c1e0057851a72028ca4dc17a2db34399372dbced1fb4fc2451a4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 57440,
+      "sha256": "c683a44f68734327c28df126e047c520a857dfbbe8a84cda81bf15b22de89e74",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 90121,
+      "sha256": "bcd9af87409560be6da8ce9d598307f154c9168053c828dccc772552563f5a27",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 152,
+      "sha256": "5c5c67ef38ef39deadbd05a51829024783118b88771a56786665ea49ddbff2fb",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1921,
+      "sha256": "298534bcd81659e26f8de2572915f8174cf8476bc0a7a9d2ac01fa0bf5c159e3",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1132,
+      "sha256": "459e5f55649bd66ce440f8987806b17e135ed6294add553cb22f6b101ffdc17b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 465,
+      "sha256": "274546e6c96dab578d3d7df32ccbda8ccf435782b379d4d77df0e24d80808e0a",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "0401e6f7d12d4e3c0f7e6ad3025f8da331605eadb1213292a06774870a5cee1a",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1183,
+      "sha256": "828de2e5c23a153095f73f863228f810eba4be5a64830f0b23c3631e1706d6bd",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/Image_0.jpg",
+      "bytes": 3340148,
+      "sha256": "04c433d1ed2c404bc6fda75177240335d0c0e2d835addb1ce1430072f0d8f863",
+      "role": "textures"
+    },
+    {
+      "path": "textures/Image_1.jpg",
+      "bytes": 306894,
+      "sha256": "bc888339eadff893de5a7e7426408b9b599d66a48be519307a1dca617b72497e",
+      "role": "textures"
+    },
+    {
+      "path": "textures/Image_2.jpg",
+      "bytes": 3337381,
+      "sha256": "66c602df2169ba95637cb1637485fa13772812fbc02d30319b01bd4428ebafbb",
+      "role": "textures"
+    }
+  ]
+}

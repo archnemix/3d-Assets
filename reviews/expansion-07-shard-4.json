@@ -1,0 +1,109 @@
+{
+  "batch": "expansion-07",
+  "reviewer": "arena-agent-visual-review",
+  "reviewed_at": "2026-11-04",
+  "decisions": [
+    {
+      "id": "ph-brass-blowtorch",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. The burner tube, valve wheels, filler cap, pump and wooden handle are all separately resolved and read clearly in the top and bottom views. Tarnished brass with green patina is consistent all the way around the reservoir. Wireframe confirms a clean revolved body with no pole artefacts.",
+      "limitations": [
+        "Faint stamped text on the reservoir is illegible at 2k and carries no readable brand.",
+        "Flame is not included; the burner is cold."
+      ],
+      "contact_sheet_sha256": "e6679b021b51f1fcccc7fe2decfbb751fd9173d06ffe7f88ac0be9409340585d"
+    },
+    {
+      "id": "ph-brass-goblets",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Inspected all 12 views. Three distinct goblet designs share one atlas; each has a genuinely hollow bowl, confirmed in the top view where the copper interior is visible, and a properly closed foot in the bottom view. Engraved rim bands and turned stems read clearly in the orbit views. Wireframe shows clean lathe topology.",
+      "limitations": [
+        "Three goblets are supplied as one scene laid out side by side; separate them before use.",
+        "Polished brass is highly reflective and will need an environment map to look right."
+      ],
+      "contact_sheet_sha256": "6064d7d563b423bc39b5c210851989b78aa19032941a97f2d1841b0a2b8f5a70"
+    },
+    {
+      "id": "ph-croissant",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. The laminated layer structure is modelled, not just textured, and reads clearly in the side-on orbit views. The top view shows the correct crescent roll and the bottom view shows the flattened baked underside with a distinct crust colour. Clay confirms a closed manifold with no open edges.",
+      "limitations": [
+        "Underside is a single flattened bake surface, so it should sit on a plate rather than float.",
+        "Fixed shape; no bite or torn variants."
+      ],
+      "contact_sheet_sha256": "d9df78ecf485a1645f7dbad9f43cf4eccc6c24e582e96355614fec75937ed4d2"
+    },
+    {
+      "id": "ph-antique-ceramic-vase",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Inspected all 12 views. Genuinely hollow with a modelled interior wall, clearly visible in the top view, and a properly finished foot in the bottom view. The blue floral pattern wraps continuously with no visible UV seam across the eight orbit views, and the rim and foot banding stay concentric. 9.4k tris.",
+      "limitations": [
+        "Interior is dark and untextured below the rim, so top-down cameras will see a black cavity.",
+        "Pattern is a generic blue-and-white transfer with no maker's mark."
+      ],
+      "contact_sheet_sha256": "ea1de92409f1710adf99b77deb2e7f05f8a9d87fe9e7669c79c98d94802d25c7"
+    },
+    {
+      "id": "ph-painted-cabinet",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Inspected all 12 views. Distressed white paint over bare wood with wear concentrated correctly on edges and around the knobs. Both drawers, both doors and the metal pulls are separate solids, and the bottom view shows a properly closed carcass. Back panel has a plausible scraped-paint texture. Only 2.2k tris.",
+      "limitations": [
+        "Doors and drawers are modelled slightly open.",
+        "Wear pattern is baked, so it cannot be re-aged procedurally without retexturing."
+      ],
+      "contact_sheet_sha256": "e728723668409ba60d8b97f1714551f193e2a387166cebc4da177dd5ce5dc38c"
+    },
+    {
+      "id": "ph-hurricane-lantern",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Wire guard, bail handle, chimney cap, burner collar and fuel font are all distinct solids, and the top and bottom views confirm the handle pivots and base are properly closed. Aged brass reads consistently around the full orbit. 33.9k tris, mostly in the wire guard and glass globe.",
+      "limitations": [
+        "Glass globe is dark and non-transmissive in the inspection render; enable transmission in your engine.",
+        "No flame or light source is included."
+      ],
+      "contact_sheet_sha256": "ca24c17f86938e0dd5887cd7e5bd6f4ea82bc7571def9e19c3526031c29309fb"
+    }
+  ]
+}

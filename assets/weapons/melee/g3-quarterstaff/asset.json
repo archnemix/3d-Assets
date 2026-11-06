@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "id": "g3-quarterstaff",
+  "title": "Brass-capped quarterstaff",
+  "category": "weapons/melee",
+  "style": "stylized",
+  "tags": [
+    "staff",
+    "quarterstaff",
+    "wood",
+    "brass",
+    "weapon",
+    "pbr",
+    "game-ready"
+  ],
+  "batch": "expansion-12",
+  "acquired_at": "2026-11-05T00:05:25.040814+00:00",
+  "review": {
+    "id": "g3-quarterstaff",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. Quarterstaff with a pale hardwood shaft, alternating leather grip bands, a pink central grip section and brass ferrules and end caps at both ends. The staff is straight in every orthographic view and both ends are capped and finished, so either end can be presented as the striking end. Free-standing weapon, unrigged. Materials score 4 for flat wood and leather colour.",
+    "limitations": [
+      "Stylised Cozy-kit palette rather than photoreal materials.",
+      "Single fused body mesh; the parts cannot be disassembled."
+    ],
+    "contact_sheet_sha256": "f11222b50e4425937a7e8fc1e98ba357d5c2450f3189f01a379f67e14f1cc76a",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/staff.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/staff/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/weapons/staff/",
+    "source_id": "staff",
+    "revision": "b119bf4d74a03b3e6d030fb55675da4e70114396c67aee5ada3c18a3f0a9c4c3",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/staff/staff.glb",
+        "bytes": 501364,
+        "sha256": "b119bf4d74a03b3e6d030fb55675da4e70114396c67aee5ada3c18a3f0a9c4c3"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/staff/LICENSE.txt"
+  },
+  "model": "model/staff.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/staff_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "staff_body_normal"
+    },
+    {
+      "path": "textures/staff_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "staff_body_basecolor"
+    },
+    {
+      "path": "textures/staff_body_metallic-staff_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "staff_body_metallic-staff_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 5745,
+    "triangles": 8114,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "staff_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "staff_body_metallic-staff_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "staff_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1231,
+      "sha256": "cc8e2bc74c9b09501ea629f8047af4cb6912152bc3ba04a93a49e1c912e222df",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 285,
+      "sha256": "8612c7e6ee9dcc8179251d37fda42c4681416092804edb0778b25f2a3d35eae0",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67839,
+      "sha256": "bd3d65f8abf8dbf2f1975eedf467469ae134f36a220374b5da3ec6bbebc5c1ee",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/staff.glb",
+      "bytes": 501364,
+      "sha256": "b119bf4d74a03b3e6d030fb55675da4e70114396c67aee5ada3c18a3f0a9c4c3",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 10928,
+      "sha256": "dd354389b657297a8fde65e3eaab304e054f8828fb4eb2926dda9f034937f31a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 11208,
+      "sha256": "7d3ac51cd6ba6cb7f869a2c27fea49d99b7beff1d44e50b089fd9b58be88a692",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 90676,
+      "sha256": "f11222b50e4425937a7e8fc1e98ba357d5c2450f3189f01a379f67e14f1cc76a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 802,
+      "sha256": "feffa7f0ae91d31a5be7e5a4d3fbbad88b3dfff76f362122f43ec062fb1d0d6b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 10836,
+      "sha256": "b75f0ea1a2b9110ecdbb322aac52e7765a5be0e09c31c89dd29f9cbd93159492",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 12847,
+      "sha256": "6b6c60b7fd61a7d2d020391208bf59c1dee25991b8fea361c00a555fd96ae394",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 12724,
+      "sha256": "08ff3048fbd4cc43af4a37ab4c4a22c720a189818236fe962786a5e89d6c627c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 12636,
+      "sha256": "4544aca1aa7b529ca72bab85617b53a8a5293c9a19aee6eac298bc1ec619aadd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 10790,
+      "sha256": "85bad0ef279121a661ef865a163409f660a2e7fbc1413bff1c147041edda7fa2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 12724,
+      "sha256": "74229ea2e3f57af2c4fde8249532ea3f0ae00ca462b5ec2b054d6b3062d9f157",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 13296,
+      "sha256": "8a3c01fbe854dad46f915477bb1e5d458933a886a0f60c212ef775bd8ca592fd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 12792,
+      "sha256": "e32e295ba80f90ec23caabda484dcd13ed5236b211246f6fb7e130e62c857841",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 10522,
+      "sha256": "c69bdf119add563a3cd0d56f52134024e06b08eeac13275b81db617549f1ba2e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 13770,
+      "sha256": "218f6155e486637ed5320c1e2c60a73fe16886b787ce8d6afb19e74b70bb4949",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 151,
+      "sha256": "6cb3fd7edd5deefb9becfe0e3cbd80907590909e46676c261fd86d3cf643ba6d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1925,
+      "sha256": "4bad994b7d23cc818aa0f4b43a8d774660e94139a75991676d49185f2d986fc5",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1454,
+      "sha256": "7835e47877bced9b842401c8068bebf42c3d5cbe340bcb72fdb469979706fa1d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 434,
+      "sha256": "6e0defb4e460f3b5135d7bfad14bda05ae3825b4a04f6c739494eb98ab21a0c4",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "8f85919802247240a6f4b86986b99a8ebc5efc8f4034725076438a861d0983e1",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 997,
+      "sha256": "6b7252267b21ec8816e55548f8fed82d17e4c91c28ec271eb599841a680c9ce6",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/staff_body_basecolor.jpg",
+      "bytes": 92634,
+      "sha256": "3ffa1eb496c001fb4263122990ed4d261600ca524c33c1eda65e01f3f8b887c0",
+      "role": "textures"
+    },
+    {
+      "path": "textures/staff_body_metallic-staff_body_roughness.jpg",
+      "bytes": 107177,
+      "sha256": "9db060a521f8e9acb181bfe47b7928946b9b2e00ba0939f8f41ead2bf8bdc264",
+      "role": "textures"
+    },
+    {
+      "path": "textures/staff_body_normal.jpg",
+      "bytes": 66580,
+      "sha256": "aa270b322a3fd5add6dca7cb2bf8ab1d59796e483baa1cf94d2bdb296c062d58",
+      "role": "textures"
+    }
+  ]
+}

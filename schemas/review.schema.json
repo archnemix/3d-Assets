@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["batch", "reviewer", "reviewed_at", "decisions"],
+  "properties": {
+    "batch": {"type": "string"},
+    "reviewer": {"type": "string", "minLength": 3},
+    "reviewed_at": {"type": "string", "format": "date"},
+    "decisions": {"type": "array", "minItems": 1, "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "decision", "scores", "notes", "limitations", "contact_sheet_sha256"],
+      "properties": {
+        "id": {"type": "string"},
+        "decision": {"enum": ["approved", "rejected"]},
+        "scores": {"type": "object", "additionalProperties": false,
+          "required": ["silhouette", "materials", "topology", "completeness", "style_fit"],
+          "properties": {
+            "silhouette": {"type": "integer", "minimum": 1, "maximum": 5},
+            "materials": {"type": "integer", "minimum": 1, "maximum": 5},
+            "topology": {"type": "integer", "minimum": 1, "maximum": 5},
+            "completeness": {"type": "integer", "minimum": 1, "maximum": 5},
+            "style_fit": {"type": "integer", "minimum": 1, "maximum": 5}
+          }
+        },
+        "notes": {"type": "string", "minLength": 30},
+        "limitations": {"type": "array", "items": {"type": "string"}},
+        "contact_sheet_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      }
+    }}
+  }
+}

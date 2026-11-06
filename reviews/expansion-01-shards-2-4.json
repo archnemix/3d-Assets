@@ -1,0 +1,31 @@
+{
+  "batch": "expansion-01",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-04",
+  "decisions": [
+    {
+      "id": "ph-rubber-duck-toy",
+      "decision": "approved",
+      "scores": {"silhouette": 5, "materials": 5, "topology": 5, "completeness": 5, "style_fit": 5},
+      "notes": "Worn rubber duck toy is a genuine freestanding toy, complete from every orbit, top and underside. Plastic wear reads well, PBR maps are intact, topology is clean and the validator reports no errors. It replaces the rejected mislabeled wall-decor bear as the toy figure candidate.",
+      "limitations": ["Generated tangent-space warning is informational.", "Static hero prop; no collision mesh or LODs supplied."],
+      "contact_sheet_sha256": "e90b044d995192917c6286191e414c15f8c45f02e70058541067edab7b9121ac"
+    },
+    {
+      "id": "ph-side-table",
+      "decision": "approved",
+      "scores": {"silhouette": 5, "materials": 5, "topology": 5, "completeness": 5, "style_fit": 5},
+      "notes": "Oak side table with shelves is coherent from every angle, including underside and shelf interiors. Wood PBR maps are intact, no zero-area triangles and no validator errors. Strong realistic table variant.",
+      "limitations": ["Generated tangent-space warning is informational.", "Static model; no collision mesh or LODs supplied."],
+      "contact_sheet_sha256": "b37d0e89001a3e11afa52d2c460595b9dffef33c3ef1d67f5cd0979dd74963cf"
+    },
+    {
+      "id": "kaykit-table-medium",
+      "decision": "approved",
+      "scores": {"silhouette": 5, "materials": 4, "topology": 5, "completeness": 5, "style_fit": 5},
+      "notes": "KayKit medium wooden table is a clean stylized table variant with intact atlas texture and external glTF dependencies preserved. All views are coherent, no degenerate triangles and no validator errors. Pairs with the realistic tables as a style variant.",
+      "limitations": ["Stylized atlas rather than realistic PBR maps.", "Static model; no collision mesh supplied."],
+      "contact_sheet_sha256": "5792e39f6e63ffff8a404edf015f1422e690403e3bede39b6e936d9d77f8edac"
+    }
+  ]
+}

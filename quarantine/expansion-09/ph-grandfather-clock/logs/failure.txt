@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/runner/work/3d-Assets/3d-Assets/src/asset_library/intake.py", line 40, in candidate
+    provenance = fetch(sources()[candidate["source"]], candidate, directory)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/3d-Assets/3d-Assets/src/asset_library/sources/__init__.py", line 20, in fetch
+    return adapter(source, candidate, directory)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/3d-Assets/3d-Assets/src/asset_library/sources/polyhaven.py", line 65, in fetch_polyhaven
+    records.append(download(entry["url"], path, HOSTS, entry.get("md5"), headers))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/3d-Assets/3d-Assets/src/asset_library/http.py", line 91, in download
+    raise DownloadError(f"Upstream MD5 mismatch: {url}")
+asset_library.http.DownloadError: Upstream MD5 mismatch: https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/vintage_grandfather_clock_01/vintage_grandfather_clock_01.bin

@@ -1,0 +1,48 @@
+{
+  "source_model": "vintage_hand_drill_2k.gltf",
+  "authored": [
+    {
+      "name": "crank_turn",
+      "parts": [
+        "vintage_hand_drill_crank"
+      ],
+      "axis": "X",
+      "start_degrees": 0.0,
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    },
+    {
+      "name": "gear_spin",
+      "parts": [
+        "vintage_hand_drill_cog1",
+        "vintage_hand_drill_cog2"
+      ],
+      "axis": "X",
+      "start_degrees": 0.0,
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "verification": [
+    {
+      "clip": "crank_turn",
+      "frames": [
+        "anim-crank_turn-a.jpg",
+        "anim-crank_turn-b.jpg",
+        "anim-crank_turn-c.jpg"
+      ]
+    },
+    {
+      "clip": "gear_spin",
+      "frames": [
+        "anim-gear_spin-a.jpg",
+        "anim-gear_spin-b.jpg",
+        "anim-gear_spin-c.jpg"
+      ]
+    }
+  ],
+  "note": "Clips authored by this library, not upstream. Dedicated to CC0.",
+  "animated_model": "vintage_hand_drill_2k-animated.glb"
+}

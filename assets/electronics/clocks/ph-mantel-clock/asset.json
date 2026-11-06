@@ -1,0 +1,376 @@
+{
+  "schema_version": 1,
+  "id": "ph-mantel-clock",
+  "title": "Ornate wooden mantel clock",
+  "category": "electronics/clocks",
+  "style": "realistic",
+  "tags": [
+    "clock",
+    "mantel",
+    "antique",
+    "wood",
+    "brass",
+    "rigged",
+    "animatable",
+    "pbr"
+  ],
+  "batch": "expansion-09",
+  "acquired_at": "2026-11-04T22:22:38.128535+00:00",
+  "review": {
+    "id": "ph-mantel-clock",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. Wooden mantel clock with a swept arched case, moulded base, brass bezel and a cream dial with minute track and two hands. A zoomed crop of the dial confirms tick marks and hands only, with no maker's name. Rear views show a finished back panel with a winding hole rather than an open cavity, and the base is fully closed.",
+    "limitations": [
+      "Not rigged in the shipped glTF; the hands cannot be driven without re-parenting them.",
+      "The dial is a texture, so the displayed time cannot be changed without editing the texture."
+    ],
+    "contact_sheet_sha256": "1f76d234de5c0b629e30488f96946c3289b811c97199f2f12cd99dc4fb6456ed",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/mantel_clock_01_2k.gltf",
+    "creator": "Yann Kervran, Rico Cilliers",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/mantel_clock_01",
+    "source_id": "mantel_clock_01",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/mantel_clock_01/mantel_clock_01_2k.gltf",
+        "bytes": 5628,
+        "sha256": "e817cf5e3c9e0c8bb161431c1be7f0e66a7ec364b04a9647143fa96091a8f228"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/mantel_clock_01/mantel_clock_01_nor_gl_2k.jpg",
+        "bytes": 1962601,
+        "sha256": "4934cfc7ae8d65270336b542a7129c9e98a4f8e3f3969dbbea13065cdcfd299a"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/mantel_clock_01/mantel_clock_01_arm_2k.jpg",
+        "bytes": 2424945,
+        "sha256": "8dc8b4ac0af1f2005255638782c759035f4e21853e59682ae039e2d00a6b95d9"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/mantel_clock_01/mantel_clock_01_diff_2k.jpg",
+        "bytes": 1918545,
+        "sha256": "2004f57093b768e4c2868b5ab697c41456b46a5d640100f17d81f6afccca7e49"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/mantel_clock_01/mantel_clock_01.bin",
+        "bytes": 641880,
+        "sha256": "95e2b4820daaea592aa3e354bb06aa78c2e747fb89939b54eaf51140294d40c7"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/mantel_clock_01_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 2,
+    "materials": 2,
+    "images": 4,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_materials_clearcoat",
+      "KHR_materials_specular",
+      "KHR_materials_ior"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/mantel_clock_01_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "mantel_clock_01_nor_gl"
+    },
+    {
+      "path": "model/textures/mantel_clock_01_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "mantel_clock_01_diff"
+    },
+    {
+      "path": "model/textures/mantel_clock_01_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "mantel_clock_01_metal-mantel_clock_01_rough"
+    },
+    {
+      "path": "model/textures/mantel_clock_01_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "mantel_clock_01_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 2,
+    "hidden_mesh_objects": 0,
+    "vertices": 15236,
+    "triangles": 25721,
+    "material_slots": 2,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "mantel_clock_01_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-mantel-clock/model/textures/mantel_clock_01_diff_2k.jpg"
+      },
+      {
+        "name": "mantel_clock_01_metal-mantel_clock_01_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-mantel-clock/model/textures/mantel_clock_01_arm_2k.jpg"
+      },
+      {
+        "name": "mantel_clock_01_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-mantel-clock/model/textures/mantel_clock_01_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1334,
+      "sha256": "8532696f2167febc2078a970bf261e690b90a1ee89f602b218eb22579a69e3cc",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 336,
+      "sha256": "ac171691937c66132da0042d2d2a543410f843f36a4e89ca8e3c8852675caef5",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 69525,
+      "sha256": "2c3ecb62e61dbc33b776674db0bf56e4b71ea069e4783f47f74d177701185db6",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "2a9a229f8bb2ed821581e94782406b1f4a42c4f9a9e024e1cc719a6265cfa1b4",
+      "role": "logs"
+    },
+    {
+      "path": "model/mantel_clock_01.bin",
+      "bytes": 641880,
+      "sha256": "95e2b4820daaea592aa3e354bb06aa78c2e747fb89939b54eaf51140294d40c7",
+      "role": "model"
+    },
+    {
+      "path": "model/mantel_clock_01_2k.gltf",
+      "bytes": 5628,
+      "sha256": "e817cf5e3c9e0c8bb161431c1be7f0e66a7ec364b04a9647143fa96091a8f228",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/mantel_clock_01_arm_2k.jpg",
+      "bytes": 2424945,
+      "sha256": "8dc8b4ac0af1f2005255638782c759035f4e21853e59682ae039e2d00a6b95d9",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/mantel_clock_01_diff_2k.jpg",
+      "bytes": 1918545,
+      "sha256": "2004f57093b768e4c2868b5ab697c41456b46a5d640100f17d81f6afccca7e49",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/mantel_clock_01_nor_gl_2k.jpg",
+      "bytes": 1962601,
+      "sha256": "4934cfc7ae8d65270336b542a7129c9e98a4f8e3f3969dbbea13065cdcfd299a",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 16312,
+      "sha256": "ebc87d77cacf6d695fe175615e1fc5fb08512f60d3fcea228abec036f465df3e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18663,
+      "sha256": "3c1e187557a5b1b44f51efd6a15b58708b92fa31660023e65e692be72ffe72ed",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 213065,
+      "sha256": "1f76d234de5c0b629e30488f96946c3289b811c97199f2f12cd99dc4fb6456ed",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1173,
+      "sha256": "0bf8e44a9e839382525b2511d8c017a3a5d37f475cb9d98cdaa08adbf7211864",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 30860,
+      "sha256": "4e94b8a711d8b0c7fca6f815f824f7aaf9322107f9c29ec541e9946efa47bf54",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 33151,
+      "sha256": "1641d425f1928c3811a1b0f451fe8f10510e4777bf4d9d956dbd9097bf3cb6d2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 34080,
+      "sha256": "813543220ec510fb0ca2314ae8c45b935fcad35191b27fc152aa050f6f1a0e2e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 27543,
+      "sha256": "6a8623fe49e5f12c4538bd88092964d9d4e19973f9621dbb60ce080c9074cd15",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 26196,
+      "sha256": "fe8d5ec67d38d516ba50f0b2430870cf7bb15bb38d97c0219d3ed786990e15ad",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 28435,
+      "sha256": "091ad7a363c930d7f73dda8b2d5888fc248f2faeeb35500e74fa2e0986afc207",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 31331,
+      "sha256": "a9fd4a77796eb48390b070b44912db177d49bd9972bde2e618f54bc602ac4558",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 33364,
+      "sha256": "ddd3a50c69497bf27f626ca3f736209a7f25e76476bf364384864f8d976370b5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 26733,
+      "sha256": "d486f3b3a1ddc96868ff54ac3a56188c95c33e2fdb44ca02cc15ffce01117842",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 44573,
+      "sha256": "4bebbd1c3b6e1bff3c6c860af67835f11975787df242df27e509527e08f49b2b",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 165,
+      "sha256": "e3134e8b57b1345fad8b25adef47ca44a45eb3c221e8bfbaa8e866ee54ce1cb2",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1350,
+      "sha256": "0d8dc4846fe05796f655e90f69f4b7c8444385f9a05649d684f3a0b6c573466a",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2883,
+      "sha256": "7f2eb5ebcdcaddf9f2394e7973535f0a1e40de6b2d1d8bb499300023fe79e9de",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1119,
+      "sha256": "2c8afcf90abe572e30081ccf343619df8d687f463a8561006cb1792dd7d43260",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1009,
+      "sha256": "8ac7e91ed288c454917a16e33b3aded5bd1e2c6eb2e171131172b7b48f363bfb",
+      "role": "documentation"
+    }
+  ]
+}

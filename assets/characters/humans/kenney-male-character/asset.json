@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "id": "kenney-male-character",
+  "title": "Kenney mini male character",
+  "category": "characters/humans",
+  "style": "low-poly",
+  "tags": [
+    "human",
+    "male",
+    "rigged",
+    "animated",
+    "kids"
+  ],
+  "batch": "foundation-01-r2",
+  "acquired_at": "2026-11-03T14:52:59.861677+00:00",
+  "review": {
+    "id": "kenney-male-character",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Mini male character is complete and readable from all sides, with simple rig and colormap intact. No zero-area triangles and no validator errors. Good low-poly human variant for kids' games and a deliberate contrast to realistic humans.",
+    "limitations": [
+      "Skinned-mesh non-root warning is non-visual.",
+      "Flat-color colormap rather than PBR maps."
+    ],
+    "contact_sheet_sha256": "45a65f11bdb4a350adc7895445763c77c82f3d07a8eb26e534887219bb0745f4",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "kenney",
+    "model": "model/character-male-a.glb",
+    "creator": "Kenney",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE",
+    "source_url": "https://github.com/Hidencod/tge-assets/blob/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/mini-characters/character-male-a.glb",
+    "source_id": "packs/mini-characters/character-male-a.glb",
+    "revision": "d92c6e923bbef8649d4e5be3ab375a40f88672b0",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/mini-characters/character-male-a.glb",
+        "bytes": 253400,
+        "sha256": "b9e4a5e2c7761f08c759ca9e013a2f57b986ac4e46961569f634d80084c3e5d7"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE"
+  },
+  "model": "model/character-male-a.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 2,
+    "materials": 1,
+    "images": 1,
+    "skins": 2,
+    "animations": [
+      "attack-kick-left",
+      "attack-kick-right",
+      "attack-melee-left",
+      "attack-melee-right",
+      "crouch",
+      "die",
+      "drive",
+      "emote-no",
+      "emote-yes",
+      "fall",
+      "holding-both",
+      "holding-both-shoot",
+      "holding-left",
+      "holding-left-shoot",
+      "holding-right",
+      "holding-right-shoot",
+      "idle",
+      "interact-left",
+      "interact-right",
+      "jump",
+      "pick-up",
+      "sit",
+      "sprint",
+      "static",
+      "walk",
+      "wheelchair-look-left",
+      "wheelchair-look-right",
+      "wheelchair-move-back",
+      "wheelchair-move-forward",
+      "wheelchair-move-left",
+      "wheelchair-move-right",
+      "wheelchair-sit"
+    ],
+    "extensions": [
+      "KHR_texture_transform"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/colormap.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "colormap"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 2,
+    "hidden_mesh_objects": 1,
+    "vertices": 1259,
+    "triangles": 723,
+    "material_slots": 2,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [
+      {
+        "name": "character-male-a",
+        "bones": 7
+      }
+    ],
+    "actions": [
+      "attack-kick-left_character-male-a",
+      "attack-kick-right_character-male-a",
+      "attack-melee-left_character-male-a",
+      "attack-melee-right_character-male-a",
+      "crouch_character-male-a",
+      "die_character-male-a",
+      "drive_character-male-a",
+      "emote-no_character-male-a",
+      "emote-yes_character-male-a",
+      "fall_character-male-a",
+      "holding-both-shoot_character-male-a",
+      "holding-both_character-male-a",
+      "holding-left-shoot_character-male-a",
+      "holding-left_character-male-a",
+      "holding-right-shoot_character-male-a",
+      "holding-right_character-male-a",
+      "idle_character-male-a",
+      "interact-left_character-male-a",
+      "interact-right_character-male-a",
+      "jump_character-male-a",
+      "pick-up_character-male-a",
+      "sit_character-male-a",
+      "sprint_character-male-a",
+      "static_character-male-a",
+      "walk_character-male-a",
+      "wheelchair-look-left_character-male-a",
+      "wheelchair-look-right_character-male-a",
+      "wheelchair-move-back_character-male-a",
+      "wheelchair-move-forward_character-male-a",
+      "wheelchair-move-left_character-male-a",
+      "wheelchair-move-right_character-male-a",
+      "wheelchair-sit_character-male-a"
+    ],
+    "images": [
+      {
+        "name": "colormap",
+        "dimensions": [
+          512,
+          512
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 510,
+      "sha256": "6913dd72bdc20532b7f02d86469058f45d886c9dabf60831275ed16927aa523b",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1302,
+      "sha256": "798acb4ea2136b117de13b85173ab23238be219beaa41666f0958fc31e0ff4bc",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 336,
+      "sha256": "c5731a47bead430536ad809f5d6d4aa953b0114a1cfe2e7d3ad88cb7c604bb86",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 64590,
+      "sha256": "9cd7d4dd63d6b9cf7a9953a4f15aa41de1819bdd11b17932b221cdbaf3dfc1f8",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "8092b37bcdff0477d961eb1ef4ce3b2266b682dcf10a3778c5077f1ae8275816",
+      "role": "logs"
+    },
+    {
+      "path": "model/character-male-a.glb",
+      "bytes": 253400,
+      "sha256": "b9e4a5e2c7761f08c759ca9e013a2f57b986ac4e46961569f634d80084c3e5d7",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 21021,
+      "sha256": "142926725478550d913e363a007e01b3c60d9667a16bfd6fcc267833e527e51d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 22960,
+      "sha256": "59895d95bca40f0220e09b5e1dc255ecc13bb21388d91bee43a9ee100070159a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 209210,
+      "sha256": "45a65f11bdb4a350adc7895445763c77c82f3d07a8eb26e534887219bb0745f4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1729,
+      "sha256": "60faea4dbd9c62ac4c4898aa9f510b1961dd7a4947039dd3fcb2fd960f71934e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 30659,
+      "sha256": "75073f6914a2d8e45b3ed60d7cf782890c9340e3c360ddd888984d0a397ee402",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 30171,
+      "sha256": "6ff25bdda4e46c5b41f5178ee11b07ba6354344ab7b9d4454c94c001c46d9e53",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 21355,
+      "sha256": "c0ff870ce4fe77b6db757a11ffe2efe751fb49ae0c2a85549c512b6b0e7fc123",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 27751,
+      "sha256": "d51135d3aa0f6cca50e5c0070099b68b8bf9c3a1b8cd17a0814242f2dea1bf46",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 27361,
+      "sha256": "3b2526a69610ca1209b60aeb820b07a669258c4837844cb9dfce1c86030a8bb1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 28306,
+      "sha256": "bb73e3bc701e9632fcd2998cd018e5b265cd5ea5663030c871f723218a78df84",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 22798,
+      "sha256": "b0a05e74cc5d61083467a5b7f4e08cedee5eb4247b1201f1849916b717878e30",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 30571,
+      "sha256": "9ecad0dcbbcc302f815560810b59dc1ea9863321a8fa57f4a9be4cc1bec23117",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 15717,
+      "sha256": "e69a9bfd73cc078285e6851c9e2b41bef1262c46ef1583ac832f3ea9aa31feab",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 38173,
+      "sha256": "3a7d5c3d15bf1a57f0c76ae053d1e807c69962ed8659ea69dfdfd0d722a100de",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 162,
+      "sha256": "1dd8eb2529eb5040b25b6cc1c28f90f3abe6cb39b5c1f9fc86a828b9a6df75d8",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/github-source.json",
+      "bytes": 431,
+      "sha256": "6da49e97225fcc2eb64fd2bdf92bee285372c7fb3e35a7fcae35f9e60494721d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2504,
+      "sha256": "639484569d3d781dd0ff681d11e8f1b243a2a7d0e0cdbaa8592be44da53da6df",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 815,
+      "sha256": "f2963fc1508150b503894910a3fae3d42f8df84342c6599026133c9b23347b6b",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/colormap.png",
+      "bytes": 8706,
+      "sha256": "0d4947d34ff32acf4a359c7f22ca784e057e7e72f622170a9a77b6fc88fdb70e",
+      "role": "textures"
+    }
+  ]
+}

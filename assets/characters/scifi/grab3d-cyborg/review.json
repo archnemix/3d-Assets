@@ -1,0 +1,22 @@
+{
+  "id": "grab3d-cyborg",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "All 12 views inspected. Cyborg with an orange prosthetic right arm and left lower leg against a dark tactical jacket, harness and cargo trousers. Mechanical joints, actuator housings and cabling are modelled in the round, and the rear views show a complete backpack and harness rather than a flat back. Close-up of the head shows defined hair, brow and ear with a small facial mole. 300k tris. Rigged: 24-bone humanoid armature with walk and run clips, zero unweighted skinned vertices.",
+  "limitations": [
+    "AI-assisted origin (Meshy) is disclosed upstream.",
+    "No facial scar: a close-up of the face shows only a small mole near the ear.",
+    "Prosthetic limbs are part of the single skinned mesh, not swappable parts."
+  ],
+  "contact_sheet_sha256": "f992c99979c43793d91861ebd4715776d236c2de74a269d074d69c22e10da12a",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

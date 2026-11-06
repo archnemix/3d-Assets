@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "id": "g3-low-poly-cow",
+  "title": "Low Poly Cow",
+  "category": "nature/wildlife",
+  "style": "low-poly",
+  "tags": [
+    "cow",
+    "low-poly",
+    "wildlife",
+    "stylized"
+  ],
+  "batch": "expansion-18",
+  "acquired_at": "2026-11-05T09:15:05.147654+00:00",
+  "review": {
+    "id": "g3-low-poly-cow",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Faceted low poly black and white dairy cow standing with pink muzzle and ears held out sideways. Intentional low-poly style: glTF validation clean (0 errors), faceted flat-shaded mesh at ~3k triangles with a single texture. Grab3D ships these as 'Lightweight' companions to the high-detail animals. Scoring reflects the deliberate low-poly aesthetic: clean silhouette and complete animal, but flat-shaded materials and minimal topology rather than PBR.",
+    "limitations": [
+      "AI-assisted origin is disclosed upstream (origin.ai_content); some storefronts require an AI-content disclosure when you resell.",
+      "Deliberately low-detail (~3k triangles, flat-shaded, single texture) for mobile/stylised use; not PBR.",
+      "Unrigged static mesh with baked pose."
+    ],
+    "contact_sheet_sha256": "fe2d125b72b5cb13411e8cb6d3caee0217decc40cfccd37ac5ffe59aa5e8f170",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/low-poly-cow.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/low-poly-cow/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/animals/low-poly-cow/",
+    "source_id": "low-poly-cow",
+    "revision": "8831ac9c395826b1d01043e656084fd7ee9df1839e0f8be6b22e336b469f7232",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/low-poly-cow/low-poly-cow.glb",
+        "bytes": 307860,
+        "sha256": "8831ac9c395826b1d01043e656084fd7ee9df1839e0f8be6b22e336b469f7232"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "ai-assisted",
+      "detail": "Derived in Blender from the AI-assisted model \"cow\", whose base mesh and textures were generated with an AI image-to-3D tool (Meshy). This version was reduced to low poly and given a palette texture in Blender.",
+      "ai_content": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/low-poly-cow/LICENSE.txt"
+  },
+  "model": "model/low-poly-cow.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 1,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/low-poly-cow_palette.png",
+      "dimensions": [
+        24,
+        24
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "low-poly-cow_palette"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 8995,
+    "triangles": 2999,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "low-poly-cow_palette",
+        "dimensions": [
+          24,
+          24
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 0,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 748,
+      "sha256": "791a5c91abc5bfc0d4970a2bcbedf861500698962863ee53f16c7f43d1e15344",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1389,
+      "sha256": "98d3e415678a707de870941a915adc287ba7d3b52c7903be9af86d0ff87fbb27",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 287,
+      "sha256": "365efcc0788781e1078edb03b74d82bb9695f67e1273c2192971144b7efb0747",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 63101,
+      "sha256": "5012ab6170b841257c4f89783dfb3243272a06dd20f89bcaea625c1771eaccc6",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "3629b738db9a859e28c3be3ca3f30737a293067d742f1bb7f0d75f7f8b36e9e2",
+      "role": "logs"
+    },
+    {
+      "path": "model/low-poly-cow.glb",
+      "bytes": 307860,
+      "sha256": "8831ac9c395826b1d01043e656084fd7ee9df1839e0f8be6b22e336b469f7232",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 19395,
+      "sha256": "a8ff49230da4cabf6e5dfe6780c2a6df4f9283df478872261f446ee7ba739b4d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 20868,
+      "sha256": "1f6adb889db21363fe5e32cedfb67c08449c91e542e6e8afdba6a0ca327dbe64",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 206191,
+      "sha256": "fe2d125b72b5cb13411e8cb6d3caee0217decc40cfccd37ac5ffe59aa5e8f170",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 477,
+      "sha256": "20138b38f22c15200a499b6e4cf82f4136cc4b6f9334adddeb81b66e6eea6a4a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 26655,
+      "sha256": "bcf6906495d5319d4b2bd9330791766df9ecdba1468692d2f395e8389f4c2893",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 30908,
+      "sha256": "cb200555fe60b03a172bd288a56cea7468ae949c89cfcfda89dab2a7b04acc3e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 24561,
+      "sha256": "db65124658919fb0ab97d9d2302804f6de0650dd0c8eb6c7b7ea0b41afd5042d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 28964,
+      "sha256": "2cc2122943494377e016d7fb2f0fa85365ce83388defa5a99da4bfdf6b742355",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 24511,
+      "sha256": "9afe9c46d211df653d348dac11911b9e9e9a5c76d923816d350f18f92c37e916",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 31036,
+      "sha256": "c91383809e3c13349c7cf89ef4e543837426e97319c782941fdf4064428f4533",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 24183,
+      "sha256": "7781891efdcb784510c84ee8a7f61e088384f4c3b627e0eb6d5b78b9d77a2adf",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 27437,
+      "sha256": "36567d2c43b38c74ac608bac90dcf2fa3e1ea9306a1384b4cb9871e8ecb2fb5e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 19385,
+      "sha256": "29ae8eb1bb7a09a2858a15bb742a29f25e736b66a007331b703e8e266223a8fe",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 42718,
+      "sha256": "5f2d5ca89c932fbcb824a252d1a6c2422eca221a72ffca4aae9c0d6210601898",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 158,
+      "sha256": "166ce84fcca6d051f673e96276ad3c493388388c92d8e528ea6d9b6aaf8efacc",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1353,
+      "sha256": "c7953bde8eb49f6e5ae8a72873905a8f7c3ef37641b48d429d1c6e49343f0e2e",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1148,
+      "sha256": "c1b06d893f32694cfa7a9a993e96335e9fd5c4e469ec07451941ca6420a675d4",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 511,
+      "sha256": "ce5cf95759d933d1122f5fa466d5e2a4ac21b5fb1a75491962db3d64555a6600",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "2e269c95345ec9d2f9bf3a2ec4669e689e74e7d8b3e1e18af2ec891b7f743335",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1215,
+      "sha256": "8aea579fde299ffbe208c85ba2c8dc3c0028fef7cce9b36d723c88a716d172fb",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/low-poly-cow_palette.png",
+      "bytes": 340,
+      "sha256": "dadf784997af94d93efaa5f0fa26f6bc29c456ef79438ab034cbccc99b5b5e33",
+      "role": "textures"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+name: Review CC0 asset candidates
+
+on:
+  push:
+    branches: ['arena/6f1c607a-3d-assets']
+    paths: ['automation/request.json']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: asset-pipeline-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  PYTHONUNBUFFERED: '1'
+  PYTHONPATH: src
+
+jobs:
+  plan:
+    if: github.ref == 'refs/heads/arena/6f1c607a-3d-assets'
+    runs-on: ubuntu-24.04
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+      batch: ${{ steps.plan.outputs.batch }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: pip install -r requirements.txt
+      - run: npm ci --ignore-scripts
+      - run: ruff check src tests rendering scripts
+      - run: pytest
+      - run: npm run test:gallery
+      - run: npm run check:web
+      - run: python -m asset_library catalog --check
+      - run: python -m asset_library license-audit --check
+      - id: plan
+        run: |
+          python -m asset_library plan automation/request.json
+          echo "matrix=$(python -m asset_library matrix automation/request.json)" >> "$GITHUB_OUTPUT"
+          echo "batch=$(python -c 'import json; print(json.load(open("automation/request.json"))["batch_id"])')" >> "$GITHUB_OUTPUT"
+
+  inspect:
+    needs: plan
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      max-parallel: 5
+      matrix:
+        include: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Install pinned validation and imaging tools
+        run: |
+          pip install -r requirements.txt
+          npm ci --ignore-scripts
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends libxi6 libxrender1 libxxf86vm1 libxfixes3 libxkbcommon0 libsm6 libgl1
+      - uses: ./.github/actions/blender
+      - name: Cache MakeHuman source archives
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
+        with:
+          path: .work/cache/makehuman/*.zip
+          key: makehuman-archives-${{ hashFiles('config/sources.json') }}
+      - name: Acquire and render quarantine candidates
+        id: intake
+        continue-on-error: true
+        env:
+          BATCH: ${{ needs.plan.outputs.batch }}
+          SHARD: ${{ matrix.shard }}
+        run: |
+          mkdir -p "reports/intake/$BATCH"
+          set +e
+          python -m asset_library intake automation/request.json --shard "$SHARD" 2>&1 | tee "reports/intake/$BATCH/worker-$SHARD.log"
+          result=${PIPESTATUS[0]}
+          echo "exit_code=$result" >> "$GITHUB_OUTPUT"
+          exit "$result"
+      - name: Commit candidate files and logs to this branch
+        if: always()
+        env:
+          BATCH: ${{ needs.plan.outputs.batch }}
+          SHARD: ${{ matrix.shard }}
+        run: bash scripts/publish-shard.sh "$BATCH" "$SHARD"
+      - name: Reflect intake result
+        if: steps.intake.outputs.exit_code != '0'
+        run: exit 1

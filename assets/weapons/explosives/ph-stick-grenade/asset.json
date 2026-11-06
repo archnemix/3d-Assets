@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "id": "ph-stick-grenade",
+  "title": "WW2 wooden stick grenade",
+  "category": "weapons/explosives",
+  "style": "realistic",
+  "tags": [
+    "grenade",
+    "ordnance",
+    "wood",
+    "metal",
+    "weathered",
+    "pbr"
+  ],
+  "batch": "expansion-09",
+  "acquired_at": "2026-11-04T22:24:57.031970+00:00",
+  "review": {
+    "id": "ph-stick-grenade",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 4
+    },
+    "notes": "All 12 views inspected. Stick grenade with a weathered olive steel head, retaining clip, wooden handle with turned grip profile and a threaded base cap. The bottom view shows the star-shaped detonator cap and the top view the crimped head seam. Handle carries faint generic ordnance stencilling, not a maker's mark.",
+    "limitations": [
+      "Weapons/ordnance content may be restricted by individual marketplaces.",
+      "Static single piece; the head does not unscrew from the handle.",
+      "Handle stencilling is decorative and not a legible real unit marking."
+    ],
+    "contact_sheet_sha256": "bd919eddf4d80b7afc7136884687bdc5c958b588492b64b8b23821f5908dc419",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/stick_grenade_2k.gltf",
+    "creator": "singaii",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/stick_grenade",
+    "source_id": "stick_grenade",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/stick_grenade/stick_grenade_2k.gltf",
+        "bytes": 2785,
+        "sha256": "5ae5e4d76816147f935f5c3ecb92ab237bda7a09d4dc7e8adfd446545c4cb0e7"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/stick_grenade/stick_grenade_nor_gl_2k.jpg",
+        "bytes": 3569371,
+        "sha256": "ded3d441ce508cfb54f4e5b2bde131babffd18fe2435572d3433db16ccf8b40c"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/stick_grenade/stick_grenade_diff_2k.jpg",
+        "bytes": 2122848,
+        "sha256": "1696b02c4e15037febc5c6ee6b840809f164695852f00549d99bd9a317cb9246"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/stick_grenade/stick_grenade_arm_2k.jpg",
+        "bytes": 1542892,
+        "sha256": "258325fcd831851e5aacc13dbc544b6a8c3b0e6ab5b3cb5e816ba3b062348ef3"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/stick_grenade/stick_grenade.bin",
+        "bytes": 121592,
+        "sha256": "239b287bd831629014cc2eeb679deb5ba4c4ce13aaa57f7f6378b42a8d1cf8c8"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/stick_grenade_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/stick_grenade_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "stick_grenade_nor_gl"
+    },
+    {
+      "path": "model/textures/stick_grenade_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "stick_grenade_diff"
+    },
+    {
+      "path": "model/textures/stick_grenade_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "stick_grenade_metal-stick_grenade_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 2935,
+    "triangles": 4612,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "stick_grenade_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-stick-grenade/model/textures/stick_grenade_diff_2k.jpg"
+      },
+      {
+        "name": "stick_grenade_metal-stick_grenade_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-stick-grenade/model/textures/stick_grenade_arm_2k.jpg"
+      },
+      {
+        "name": "stick_grenade_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-stick-grenade/model/textures/stick_grenade_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1336,
+      "sha256": "e59b58970d5401a01d7ed1936db1905e14c6da965e08ef8b8fdd8c1734be6122",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 297,
+      "sha256": "aecaf2d5eff75b3119a64507693fc8863452aadc58e4c01bcead323d5f373443",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67790,
+      "sha256": "c5eb520f3d3c17bfbb3583eab39f8554273fd463e2afa548fe7f396600cbee88",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/stick_grenade.bin",
+      "bytes": 121592,
+      "sha256": "239b287bd831629014cc2eeb679deb5ba4c4ce13aaa57f7f6378b42a8d1cf8c8",
+      "role": "model"
+    },
+    {
+      "path": "model/stick_grenade_2k.gltf",
+      "bytes": 2785,
+      "sha256": "5ae5e4d76816147f935f5c3ecb92ab237bda7a09d4dc7e8adfd446545c4cb0e7",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/stick_grenade_arm_2k.jpg",
+      "bytes": 1542892,
+      "sha256": "258325fcd831851e5aacc13dbc544b6a8c3b0e6ab5b3cb5e816ba3b062348ef3",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/stick_grenade_diff_2k.jpg",
+      "bytes": 2122848,
+      "sha256": "1696b02c4e15037febc5c6ee6b840809f164695852f00549d99bd9a317cb9246",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/stick_grenade_nor_gl_2k.jpg",
+      "bytes": 3569371,
+      "sha256": "ded3d441ce508cfb54f4e5b2bde131babffd18fe2435572d3433db16ccf8b40c",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 40007,
+      "sha256": "c9da1d9adfff693d59684d13b5232d8549baf7286bcc02da7f9b82a45bda7a7f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 11745,
+      "sha256": "896fb03d851c72aa192b5ab29609ba5b58ba0a8db53c96c36194425d866bada3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 166018,
+      "sha256": "bd919eddf4d80b7afc7136884687bdc5c958b588492b64b8b23821f5908dc419",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1160,
+      "sha256": "f8b0a2df36001cd3f66a7177dac04f4f43cf7f5eb070dba07a15d3bbd2bdf67e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 16967,
+      "sha256": "39bc2c521379485d3731068aada4fd70f0304aa2ace73a13477aec67234b440a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 16513,
+      "sha256": "9eb6363797883e78720f8adab61dfdc19dc7f9699ce652e7a063891b4ef355c0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 16959,
+      "sha256": "f553e3b4fd29001adbe53810cfe088d9ae535e60516a49a1ee7e1f14d88f948a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 17717,
+      "sha256": "e6897bedc7006a6e56b67e3cac4cdaca3b536864d809d474a4e710a2dfbc306b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 17376,
+      "sha256": "1aed46ca53670fe04f074dd549bb2b775119c1c1de62ebda2ab961d711c78b07",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 17078,
+      "sha256": "e9c2556a4ca0eec9656f6ff34a85787a943a8c9e53c8423472d47138cdba1377",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 17389,
+      "sha256": "861331da6aad4ad104299d2849aa44755a16e4f209105070f3e122184e478329",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 17149,
+      "sha256": "687a5944cced7098109e0749e0720adab1c8fc062194d210740c1063e9c50c15",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 62771,
+      "sha256": "70059546f60eebe79a4e20e5d91c872b8ffbd587bbe1160e08e4d5bf8993fbe5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 19207,
+      "sha256": "1d8f6608a8e47e4d2198d078814b93da1adf6dee7b21e52fa6f6235317e6fe09",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 163,
+      "sha256": "c676d7e121613a4d19b8ddd972f3a9d5852a6cb88ee1d2a105d43a7fb05fc566",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1221,
+      "sha256": "6d9557cda4e3eb717f376c825e928e025d639ab191a86290265453161187b2c8",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2127,
+      "sha256": "b60a9dc8806496eb34d5fe992688f97edce10830ac778568857c9cf6c460eba2",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1091,
+      "sha256": "08c68db6571c75c172da86b5dbd112392569756dcfcc9609482a7addde0a4761",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1014,
+      "sha256": "a24d41cb00b0d8f90fdcb9fa963da150d9957e5e4c9c59795d8c2be8ad3d6279",
+      "role": "documentation"
+    }
+  ]
+}

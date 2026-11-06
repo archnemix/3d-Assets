@@ -1,0 +1,16 @@
+{
+  "name": "cc0-asset-library-tools",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Pinned glTF validation for the asset review pipeline",
+  "scripts": {
+    "validate": "gltf-validator",
+    "test:gallery": "node --test tests/gallery.test.mjs",
+    "format:web": "prettier --write index.html gallery tests/gallery.test.mjs",
+    "check:web": "prettier --check index.html gallery tests/gallery.test.mjs"
+  },
+  "devDependencies": {
+    "gltf-validator": "2.0.0-dev.3.10",
+    "prettier": "3.6.2"
+  }
+}

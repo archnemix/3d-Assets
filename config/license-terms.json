@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-11-04",
+  "policy": {
+    "accepted_spdx": [
+      "CC0-1.0"
+    ],
+    "attribution_required": false,
+    "commercial_use": true,
+    "standalone_use": true,
+    "redistribution_allowed": true,
+    "public_display": true,
+    "respect_author_requests": true,
+    "author_request_blocks_intake": true
+  },
+  "universal_caveats": [
+    "An author's stated request is honoured even where CC0 would legally allow more. A source whose creator asks that copies not be redistributed or resold is not accepted, and any already-published asset from such a source is retired. KayKit was withdrawn on exactly this basis.",
+    "CC0 waives copyright and related rights. It does not waive trademark or patent rights, and it does not clear rights a third party may hold in a depicted subject.",
+    "CC0 offers no warranty. The library's own technical and visual checks are the quality guarantee, not the license.",
+    "Nothing here is exclusive. The same files are available to everyone else under the same terms.",
+    "A provider can change future terms, but a CC0 dedication already applied to a published work is irrevocable. Every asset folder keeps the license text and evidence URL that applied at acquisition time.",
+    "Storefronts have their own submission rules. AI-assisted assets may need a content disclosure (for example on Steam) even though the license permits the use."
+  ],
+  "providers": {
+    "polyhaven": {
+      "name": "Poly Haven",
+      "spdx": "CC0-1.0",
+      "status": "verified",
+      "free_of_charge": true,
+      "terms_url": "https://polyhaven.com/license",
+      "evidence_url": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "resale_as_is": {
+        "permitted": true,
+        "explicit": true,
+        "note": "The license page states the assets can be redistributed, including inside a product you sell."
+      },
+      "asset_notes": [],
+      "caveats": [
+        "Only the assets are CC0. Site content such as the Poly Haven logo, staff avatars, example renders and page text stays protected, so this library renders its own previews instead of copying promotional imagery.",
+        "Using the live discovery API is covered by separate API terms. They ask for a visible 'Powered by Poly Haven' service credit in software that calls the API. The same terms state explicitly that downloaded or self-hosted CC0 assets carry no attribution requirement whatsoever; this gallery serves local files and keeps the credit as a courtesy.",
+        "A few Poly Haven assets carry a trademark warning flag in their API metadata. None of the approved assets in this library carry that flag; each asset stores the API metadata it was selected from."
+      ]
+    },
+    "kenney": {
+      "name": "Kenney",
+      "spdx": "CC0-1.0",
+      "status": "verified",
+      "free_of_charge": true,
+      "terms_url": "https://kenney.nl/support",
+      "evidence_url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE",
+      "resale_as_is": {
+        "permitted": true,
+        "explicit": false,
+        "note": "The CC0 dedication places no restriction on resale, and the creator has publicly confirmed that as-is resale is permitted. Editorial note from this library, not a creator request and not a licence condition: repackaging a free pack as a paid product is a poor way to treat a creator who released it for free."
+      },
+      "asset_notes": [
+        "Third-party GLB conversion of a Kenney pack; conversion and embedded textures are also CC0."
+      ],
+      "caveats": [
+        "The standalone page https://kenney.nl/license returned 404 when checked on 2026-11-04. The evidence used instead is the support page (all asset-page assets are CC0, attribution not required) plus the license file pinned in the exact source revision each asset came from.",
+        "Kenney reserves its studio logo for official projects. The logo is not part of any asset here and must not be used to imply endorsement.",
+        "Files come from a pinned third-party mirror that converts Kenney's packs to GLB. That mirror's license explicitly releases its conversions, embedded textures and thumbnails under CC0 as well. Kenney remains the original creator and is recorded as such."
+      ]
+    },
+    "grab3d": {
+      "name": "Grab3D",
+      "spdx": "CC0-1.0",
+      "status": "verified",
+      "free_of_charge": true,
+      "terms_url": "https://grab3d.com/license/",
+      "evidence_url": "https://grab3d.com/license/",
+      "resale_as_is": {
+        "permitted": true,
+        "explicit": true,
+        "note": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves."
+      },
+      "asset_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "caveats": [
+        "Every download package ships its own LICENSE.txt and manifest.json, and the adapter verifies both before fetching the model. No attribution, account or fee is required, and the license file does not have to ship with your product.",
+        "Grab3D waives only its own rights. Subjects are described as generic, with no brands, logos or real people.",
+        "The Grab3D name may not be used to imply endorsement.",
+        "Models generally start as an AI image-to-3D draft that is then cleaned up, scaled, textured and checked in Blender; rigged packages add an auto-generated skeleton and clips. This is recorded per asset as origin.ai_content and the ai-assisted tag."
+      ]
+    },
+    "makehuman": {
+      "name": "MakeHuman Community",
+      "spdx": "CC0-1.0",
+      "status": "verified",
+      "free_of_charge": true,
+      "terms_url": "https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html",
+      "evidence_url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/LICENSE.ASSETS.md",
+      "resale_as_is": {
+        "permitted": true,
+        "explicit": true,
+        "note": "The system asset pack is dedicated to CC0, so exported characters may be used, sold and redistributed without attribution."
+      },
+      "asset_notes": [
+        "Built from the CC0 MakeHuman system asset pack."
+      ],
+      "caveats": [
+        "Only the official CC0 system asset pack is used. The MPFB2 Blender add-on is GPL-3.0-or-later code used as a build tool; none of its code ships inside an asset.",
+        "MakeHuman-branded clothing is excluded: it carries a logo, which CC0 does not license as a trademark.",
+        "No MakeHuman-built asset is currently approved. Both casual human builds were rejected on visual quality, so this provider contributes zero rows to the audit."
+      ]
+    }
+  }
+}

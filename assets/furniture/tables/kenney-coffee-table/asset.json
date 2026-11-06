@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "id": "kenney-coffee-table",
+  "title": "Kenney coffee table",
+  "category": "furniture/tables",
+  "style": "low-poly",
+  "tags": [
+    "table",
+    "coffee-table",
+    "kids",
+    "game-ready"
+  ],
+  "batch": "foundation-01-r2",
+  "acquired_at": "2026-11-03T14:53:00.087604+00:00",
+  "review": {
+    "id": "kenney-coffee-table",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Kenney coffee table is a clean low-poly variant for kids' scenes. Corrected framing shows the full table from every angle. Flat-color materials are intentional; eight zero-area triangles are minor and do not affect the visible silhouette.",
+    "limitations": [
+      "No image textures; flat-color materials are intentional.",
+      "Eight zero-area triangles retained from upstream."
+    ],
+    "contact_sheet_sha256": "346006ca3507f01a060089572e804678f224d193b539e21503f44a82fc523fe3",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "kenney",
+    "model": "model/tablecoffee.glb",
+    "creator": "Kenney",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE",
+    "source_url": "https://github.com/Hidencod/tge-assets/blob/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/furniture-kit/tablecoffee.glb",
+    "source_id": "packs/furniture-kit/tablecoffee.glb",
+    "revision": "d92c6e923bbef8649d4e5be3ab375a40f88672b0",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/furniture-kit/tablecoffee.glb",
+        "bytes": 8256,
+        "sha256": "e38bea760fbd514efbb75528d09b4752c91af44677bbb97e6d4386c263525179"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE"
+  },
+  "model": "model/tablecoffee.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 0,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_materials_unlit"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 168,
+    "triangles": 124,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 8,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 0,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 510,
+      "sha256": "6913dd72bdc20532b7f02d86469058f45d886c9dabf60831275ed16927aa523b",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1302,
+      "sha256": "18594ba22e3323922c152d695453d266959a4e67663d4d10341fb425d4d45402",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 291,
+      "sha256": "7193544a0ab853b17c7f21a15d720379eff70689460ef4eda90c4676f1da45d8",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 61605,
+      "sha256": "febe3a0b8038eafc248df1ee090be41b56087f4ab068df081330ee786c76f044",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "3629b738db9a859e28c3be3ca3f30737a293067d742f1bb7f0d75f7f8b36e9e2",
+      "role": "logs"
+    },
+    {
+      "path": "model/tablecoffee.glb",
+      "bytes": 8256,
+      "sha256": "e38bea760fbd514efbb75528d09b4752c91af44677bbb97e6d4386c263525179",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 15979,
+      "sha256": "3dad95a03266a7ae56a186e662b0a48f1461fcbe2918bf3c3a2b5caba86e3ddd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 17639,
+      "sha256": "f5ccbfcfcde9933eed0de4500fccf9d67668e78dc291041242b4f525effe6d61",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 140451,
+      "sha256": "346006ca3507f01a060089572e804678f224d193b539e21503f44a82fc523fe3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 325,
+      "sha256": "8401e82cddef55c0d734af195a3bdc8f9e688fcc07e2113f8c2d67a4235b95ea",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 15945,
+      "sha256": "129dd62bdcf5d5181dc601354f1979cc8fbf467ae3ecf4fa76c36bd1728d1467",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 19619,
+      "sha256": "a156422ec16b7fa68259dcd5975f2b91aa7ad418e7f0a5589ce226dfb7d35c2b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 16231,
+      "sha256": "d92493766b4c87590a164898aa483da19922acb6afdf0327c157a788a1c04782",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 19768,
+      "sha256": "dcf5e9982c63a58e7802894bccb1963bbc34c3152e31f74e90cba89a4143ab33",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 16258,
+      "sha256": "61637edac29df543fdd1f784998e8261b205b9e72fe696cfab7603ae578531a4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 19968,
+      "sha256": "07ec287855d7538ce7f13246432b74b244d6beb80c154660e702167d73cd37d1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 16050,
+      "sha256": "4d09bda6a2a3068ec826eba1466311149ae41bff790c626c41a0652a0bbcbb3c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 19869,
+      "sha256": "b4d788aecfbe626335c87852395428cc1ed9665b501c5200ea7484fabe00acd2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 11937,
+      "sha256": "edc213b9878c8c900350a2698e22d112b917b9806ef9decc70a435d0cc40b063",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 21933,
+      "sha256": "7e1d3c2b1a984d8f0dc67f3c4da6568b224538b27cb938acfe8cd04bb391c27d",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 157,
+      "sha256": "decb97ae9e1ba7b8687aa95d0cb7c96b646f35861b6d5fc193c827dd89d4e8e9",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/github-source.json",
+      "bytes": 424,
+      "sha256": "e212b1f3e15c30c4db7fd709112755eb3dc05ce864ef751008ce6493c6506ba6",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1096,
+      "sha256": "556121d95b18139e7e9f70e08e19464fceff53ff7bbc851def197fc0fa91ca0e",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 835,
+      "sha256": "20c16393eb5d0e2893247c92cb53f2549c299c4ec978b492264486a06db2ad89",
+      "role": "documentation"
+    }
+  ]
+}

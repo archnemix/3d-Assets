@@ -1,0 +1,21 @@
+{
+  "id": "ph-caged-hanging-light",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "All 12 views inspected. Linear industrial fluorescent pendant with a green enamelled housing, protective wire cage, two chain suspensions with ceiling roses, end caps and a central junction box. Cage wires are real geometry and the underside diffuser and top mounting detail are both modelled. Retry of the expansion-08 candidate that failed on a transient CDN error; the texture set downloaded intact this time.",
+  "limitations": [
+    "Not rigged: the chains are static geometry and will not swing.",
+    "The diffuser does not emit light by default; add an emitter in your scene."
+  ],
+  "contact_sheet_sha256": "550a0389f64a94f4b5260c96a9de5ad169cf8db7c2b4f1945294cd335454e720",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

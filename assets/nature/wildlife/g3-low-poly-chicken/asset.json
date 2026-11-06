@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "id": "g3-low-poly-chicken",
+  "title": "Low Poly Chicken",
+  "category": "nature/wildlife",
+  "style": "low-poly",
+  "tags": [
+    "chicken",
+    "low-poly",
+    "bird",
+    "stylized"
+  ],
+  "batch": "expansion-18",
+  "acquired_at": "2026-11-05T09:14:56.842801+00:00",
+  "review": {
+    "id": "g3-low-poly-chicken",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Faceted low poly brown hen with red comb and wattles, raised tail feathers and yellow feet. Intentional low-poly style: glTF validation clean (0 errors), faceted flat-shaded mesh at ~3k triangles with a single texture. Grab3D ships these as 'Lightweight' companions to the high-detail animals. Scoring reflects the deliberate low-poly aesthetic: clean silhouette and complete animal, but flat-shaded materials and minimal topology rather than PBR.",
+    "limitations": [
+      "AI-assisted origin is disclosed upstream (origin.ai_content); some storefronts require an AI-content disclosure when you resell.",
+      "Deliberately low-detail (~3k triangles, flat-shaded, single texture) for mobile/stylised use; not PBR.",
+      "Unrigged static mesh with baked pose."
+    ],
+    "contact_sheet_sha256": "922ae04bd2af4545506ce7a353e5395ec9655bfb3a3a249db20be8517e35fe7f",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/low-poly-chicken.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/low-poly-chicken/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/animals/low-poly-chicken/",
+    "source_id": "low-poly-chicken",
+    "revision": "f58174905035b529e6c612b8a4c52b69e96be304e3a130925de2a62fcc99cca7",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/low-poly-chicken/low-poly-chicken.glb",
+        "bytes": 307680,
+        "sha256": "f58174905035b529e6c612b8a4c52b69e96be304e3a130925de2a62fcc99cca7"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "ai-assisted",
+      "detail": "Derived in Blender from the AI-assisted model \"chicken\", whose base mesh and textures were generated with an AI image-to-3D tool (Meshy). This version was reduced to low poly and given a palette texture in Blender.",
+      "ai_content": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/low-poly-chicken/LICENSE.txt"
+  },
+  "model": "model/low-poly-chicken.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 1,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/low-poly-chicken_palette.png",
+      "dimensions": [
+        24,
+        24
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "low-poly-chicken_palette"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 8989,
+    "triangles": 2997,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "low-poly-chicken_palette",
+        "dimensions": [
+          24,
+          24
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 0,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 752,
+      "sha256": "25dfff6a46a13c4e407cce956a729ed6212f3ca28b91752fa070145c63565d19",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1401,
+      "sha256": "87fe07a5f85e7598c650d4b949e982002785cf34514de27a96bdf634763d878a",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 291,
+      "sha256": "7c09a349209c73b760551189bb35cc502ab6f4004aa62bf9e43a51674c098500",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 63249,
+      "sha256": "9e9962eda4898df7d539ad6b308fce54ab3a9d4a7c886a8f89f0bd1671caa068",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "3629b738db9a859e28c3be3ca3f30737a293067d742f1bb7f0d75f7f8b36e9e2",
+      "role": "logs"
+    },
+    {
+      "path": "model/low-poly-chicken.glb",
+      "bytes": 307680,
+      "sha256": "f58174905035b529e6c612b8a4c52b69e96be304e3a130925de2a62fcc99cca7",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 29093,
+      "sha256": "8317445d1675b9e2ca633eb1104a951b95b3fa00a070adb983bc9b3a6cc43090",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 20216,
+      "sha256": "ec48e1b46387ef4b57c18aae871545a467cb3a7a1e7e6564f06e4730447d4110",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 217560,
+      "sha256": "922ae04bd2af4545506ce7a353e5395ec9655bfb3a3a249db20be8517e35fe7f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 481,
+      "sha256": "717740e183c3e2a06a4fe9dbe232575334a91000f8e8311d29cdfe861809af88",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 23839,
+      "sha256": "db99f4c2a4d378ae6e3bf5e46dcdfe461fce24057a3d1108f62533e1912bbe04",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 29476,
+      "sha256": "d17021e5f1d76b79b6214c2ffc89528dc906d7c2ef64641495368c548bdb02c2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 28861,
+      "sha256": "c5521a28be4e46a7e4615adf045e6280aa1727aadc36ceea89e2637b2a99e2ad",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 27872,
+      "sha256": "e0ea1cb558aa3ab4c539537b29cebb5f7767400b558d5f0e56e7bc122f40b64d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 24677,
+      "sha256": "f68e6d5d4a2f347c55b4e34b40dff8ac50e3dec4af1e6ec6e1e09a3f2235db61",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 28866,
+      "sha256": "d050349b481004952e8ab3703cc39e32cf6e0a900ffea7c6e7957c087149fb24",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 30491,
+      "sha256": "7e36113f7590346662fcdae1eb4edaf055c23206395c079f776a8d782daf6938",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 30492,
+      "sha256": "45a19bb23898c0aeca090075ea5347d2b63f3b45022e34d03c0156bd1aa3925f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 21851,
+      "sha256": "732d8e8ee72a72d4cbad80e34d910c4893b0974bcbd20222c449ac8e50e967f5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 39988,
+      "sha256": "953de8d7d2486ceabac99dbfceedb6452ed0e201ba419f7bf25ebf0c35452ce9",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 162,
+      "sha256": "3c7caa60a90c4c21253ef306a357c5ec0a635d27c66843b808e2901267094b4a",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1357,
+      "sha256": "2be4aaabbf40218d8713a94bad2c86930c33af090df1896bd65c15c64798879a",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1180,
+      "sha256": "8b40ad2a9da302d4d1ed2aaa4b025846efa9dfe3e18c2ba004fa73ad920cfdbb",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 543,
+      "sha256": "190269de256365ff76b8376b466794ed8f664845a760f991b117df7886ef1ab1",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "1191cec1c45ee7c2cc0afd1b77015ce71c08eaf201b73707584ce6db2a14503b",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1214,
+      "sha256": "47c239c14efc43536be3b53a88f5a0f2eac3c89e265ad6cb3d1cb55e7314c2c5",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/low-poly-chicken_palette.png",
+      "bytes": 340,
+      "sha256": "6998e7a816be9dca13d593d167c69abe33ca274b06b34168e3f776db2aa09844",
+      "role": "textures"
+    }
+  ]
+}

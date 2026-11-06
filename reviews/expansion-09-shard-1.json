@@ -1,0 +1,96 @@
+{
+  "batch": "expansion-09",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "decisions": [
+    {
+      "id": "ph-mantel-clock",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Wooden mantel clock with a swept arched case, moulded base, brass bezel and a cream dial with minute track and two hands. A zoomed crop of the dial confirms tick marks and hands only, with no maker's name. Rear views show a finished back panel with a winding hole rather than an open cavity, and the base is fully closed.",
+      "limitations": [
+        "Not rigged in the shipped glTF; the hands cannot be driven without re-parenting them.",
+        "The dial is a texture, so the displayed time cannot be changed without editing the texture."
+      ],
+      "contact_sheet_sha256": "1f76d234de5c0b629e30488f96946c3289b811c97199f2f12cd99dc4fb6456ed"
+    },
+    {
+      "id": "ph-power-box",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Wall distribution box shown with its door open: three DIN rows of breakers, a red main isolator group, terminals, gland plate, hinges, door latch and a warning label. Rear and side views show a fully closed enclosure with mounting flange. Carries an invented POWERHAVEN wordmark on the back panel plus generic hazard and specification labels.",
+      "limitations": [
+        "Invented POWERHAVEN brand mark is baked into the texture; remove or overpaint it for brand-sensitive use.",
+        "Not rigged in the shipped glTF; the door cannot be opened or closed at runtime.",
+        "Breaker toggles are static geometry."
+      ],
+      "contact_sheet_sha256": "f8f1b5841b4e37ccac978ae5930d253fa30635d3d3ad108139ad67375a47fa00"
+    },
+    {
+      "id": "ph-film-projector",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 4
+      },
+      "notes": "All 12 views inspected. 8mm film projector with two spoked reels (red feed, black take-up), a film strip threaded through the gate, lamp housing, ventilation grilles, control knobs, focus barrel, carry handle and a separate mains lead with plug. Rear and bottom views show finished panels and feet. Badge reads SIRIUS above a nonsense descriptor (steerling), matching the invented-brand pattern used elsewhere in this provider's catalogue.",
+      "limitations": [
+        "Invented SIRIUS steerling badge is baked into the texture; remove it for brand-sensitive use.",
+        "Not rigged: the reels do not turn and the film does not advance.",
+        "The mains plug is a specific regional type and may not match your scene's locale."
+      ],
+      "contact_sheet_sha256": "9df1f443c6bc08438448a69cb06d272755a8d903a929e734df2d67f3559e1a73"
+    },
+    {
+      "id": "ph-caged-hanging-light",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Linear industrial fluorescent pendant with a green enamelled housing, protective wire cage, two chain suspensions with ceiling roses, end caps and a central junction box. Cage wires are real geometry and the underside diffuser and top mounting detail are both modelled. Retry of the expansion-08 candidate that failed on a transient CDN error; the texture set downloaded intact this time.",
+      "limitations": [
+        "Not rigged: the chains are static geometry and will not swing.",
+        "The diffuser does not emit light by default; add an emitter in your scene.",
+        "Title corrected: this is a linear fluorescent bulkhead, not a single-bulb cage pendant."
+      ],
+      "contact_sheet_sha256": "550a0389f64a94f4b5260c96a9de5ad169cf8db7c2b4f1945294cd335454e720"
+    },
+    {
+      "id": "grab3d-dwarf",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Dwarf craftsman with a heavily braided red beard and hair, brow-mounted loupe, blue rolled-sleeve shirt, leather apron with tool loops holding chisels, belt, trousers and strapped boots. The braid strands, apron back ties and rear tool pouches are all modelled and survive the top and rear views. 300k tris. Rigged: 24-bone humanoid armature with walk and run clips, zero unweighted skinned vertices.",
+      "limitations": [
+        "AI-assisted origin (Meshy) is disclosed upstream.",
+        "Tools in the apron loops are fused to the mesh and cannot be removed individually.",
+        "24-bone rig; no finger or facial bones."
+      ],
+      "contact_sheet_sha256": "5fd8c2e73970f60decd10d0e8bb5071569ec7f66716fb6bc40e1b5bc0453365a"
+    }
+  ]
+}

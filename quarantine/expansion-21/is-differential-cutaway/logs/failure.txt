@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/home/runner/work/3d-Assets/3d-Assets/src/asset_library/intake.py", line 40, in candidate
+    provenance = fetch(sources()[candidate["source"]], candidate, directory)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/3d-Assets/3d-Assets/src/asset_library/sources/__init__.py", line 22, in fetch
+    return adapter(source, candidate, directory)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/3d-Assets/3d-Assets/src/asset_library/sources/innerscene.py", line 42, in fetch_innerscene
+    record = download(download_url(source, slug), model, HOSTS)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/3d-Assets/3d-Assets/src/asset_library/http.py", line 94, in download
+    with request(url, allowed_hosts, headers) as response, temporary.open("wb") as stream:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/3d-Assets/3d-Assets/src/asset_library/http.py", line 59, in request
+    check_url(location, allowed_hosts)
+  File "/home/runner/work/3d-Assets/3d-Assets/src/asset_library/http.py", line 26, in check_url
+    raise DownloadError(f"URL is outside the source allowlist: {url}")
+asset_library.http.DownloadError: URL is outside the source allowlist: https://files.innerscene.com/library/open-differential-cutaway-showing-the-gears-b2983a71/6f07471cd45355f14d91/open-differential-cutaway-showing-the-gears.glb

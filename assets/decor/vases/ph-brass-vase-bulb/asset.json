@@ -1,0 +1,360 @@
+{
+  "schema_version": 1,
+  "id": "ph-brass-vase-bulb",
+  "title": "Long-necked brass ewer with handle",
+  "category": "decor/vases",
+  "style": "realistic",
+  "tags": [
+    "vase",
+    "brass",
+    "engraved",
+    "bulbous",
+    "decor",
+    "pbr"
+  ],
+  "batch": "expansion-10",
+  "acquired_at": "2026-11-04T22:51:11.192516+00:00",
+  "review": {
+    "id": "ph-brass-vase-bulb",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. Long-necked brass ewer with a squat bulbous base, a tall tapering neck, a pinched pouring lip and a thin strap handle from lip to shoulder. Engraved floral bands run around the neck, shoulder and base and the top view confirms the open throat and spout. Title corrected: this is a handled ewer, not a bulbous vase.",
+    "limitations": [
+      "The handle is slender geometry and may alias at distance.",
+      "Engraving is ornament only, with no lettering or maker's mark."
+    ],
+    "contact_sheet_sha256": "3ccb491e66a2566f1d410dc6fe3cd98d9ee1a49f602f000b3a7e40304d09fbbf",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/brass_vase_02_2k.gltf",
+    "creator": "Rico Cilliers",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/brass_vase_02",
+    "source_id": "brass_vase_02",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/brass_vase_02/brass_vase_02_2k.gltf",
+        "bytes": 2672,
+        "sha256": "89396aa8442dbc809d36e179c1492e7529f9c41fa0f175fc70c7d206bc2ebd86"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/brass_vase_02/brass_vase_02.bin",
+        "bytes": 164508,
+        "sha256": "9b922c73a5bc3012f904f6236fecf99ac5e9c71e0645dab0fdad5943cdf2ae35"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/brass_vase_02/brass_vase_02_diff_2k.jpg",
+        "bytes": 2252897,
+        "sha256": "3d0795cad3223f7e4a00dd4f564ff78eb24f90e292a9c8657ac0e09e9014e410"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/brass_vase_02/brass_vase_02_arm_2k.jpg",
+        "bytes": 1920125,
+        "sha256": "868976c805a76126ccd0ab3a3a11eb32dd0fcbfab685b690f142ed834fa846cc"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/brass_vase_02/brass_vase_02_nor_gl_2k.jpg",
+        "bytes": 1565094,
+        "sha256": "ec870392e17851903c9a8f13845df884f5b1902e033ce5d26c7922be3d981dec"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/brass_vase_02_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/brass_vase_02_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "brass_vase_02_nor_gl"
+    },
+    {
+      "path": "model/textures/brass_vase_02_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "brass_vase_02_diff"
+    },
+    {
+      "path": "model/textures/brass_vase_02_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "brass_vase_02_arm"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 3849,
+    "triangles": 6890,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "brass_vase_02_arm",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-10/ph-brass-vase-bulb/model/textures/brass_vase_02_arm_2k.jpg"
+      },
+      {
+        "name": "brass_vase_02_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-10/ph-brass-vase-bulb/model/textures/brass_vase_02_diff_2k.jpg"
+      },
+      {
+        "name": "brass_vase_02_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-10/ph-brass-vase-bulb/model/textures/brass_vase_02_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1259,
+      "sha256": "7947aaed01b470c7561d9eac662bce72ee55cf7a9975bfaaab01b64c88791fc2",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 297,
+      "sha256": "bb9964a8e3510ed32801f96ad7c09686504355435af5c33a1345fbede06ebce9",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67550,
+      "sha256": "1ad173eb2d13e6e0e2f1dc5d945e6d5e35947b12bad06f6bc6dca783122daa20",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/brass_vase_02.bin",
+      "bytes": 164508,
+      "sha256": "9b922c73a5bc3012f904f6236fecf99ac5e9c71e0645dab0fdad5943cdf2ae35",
+      "role": "model"
+    },
+    {
+      "path": "model/brass_vase_02_2k.gltf",
+      "bytes": 2672,
+      "sha256": "89396aa8442dbc809d36e179c1492e7529f9c41fa0f175fc70c7d206bc2ebd86",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/brass_vase_02_arm_2k.jpg",
+      "bytes": 1920125,
+      "sha256": "868976c805a76126ccd0ab3a3a11eb32dd0fcbfab685b690f142ed834fa846cc",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/brass_vase_02_diff_2k.jpg",
+      "bytes": 2252897,
+      "sha256": "3d0795cad3223f7e4a00dd4f564ff78eb24f90e292a9c8657ac0e09e9014e410",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/brass_vase_02_nor_gl_2k.jpg",
+      "bytes": 1565094,
+      "sha256": "ec870392e17851903c9a8f13845df884f5b1902e033ce5d26c7922be3d981dec",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 53404,
+      "sha256": "91088ebf223739a10167ae3e436d7235282a74ad48fe14ce3ea6d4dd322fa5c4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 14153,
+      "sha256": "94eb1b1bb91a342fc88cdc796cac07ca74e82431fedce4ac363befa28c4945ab",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 213039,
+      "sha256": "3ccb491e66a2566f1d410dc6fe3cd98d9ee1a49f602f000b3a7e40304d09fbbf",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1144,
+      "sha256": "7a030a178c70059b61bc26ce14d2ffc6331540a931ac3982b3e99f35aa518215",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 23787,
+      "sha256": "7d7819010243381554825370ee5f970a8025e40a66a1170f8a82b43e3cdeacdb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 24170,
+      "sha256": "63b0a66492221591626b0a349e5c17cad9b98c141969d4dc75e7566ea456c01a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 21627,
+      "sha256": "d78aada44c9849bd01c3ba22e3bdcf28c8b49da7d85b8c5f15e559f0862096c4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 24446,
+      "sha256": "9c6428866f7d0da596fcd94aa3f0d6d649749f25ec7da60c5043073d6c231b8d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 23964,
+      "sha256": "068a076cae1efc0856ad6f014ff957f1b855c5968c8a1938198cf978fe010f03",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 24103,
+      "sha256": "9ae005124f563f6dbdb30f9867ce189e46559e355b27ad29fb2791d52ad082fb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 21809,
+      "sha256": "6d15d320c1dd646e1e5910011ac54959088b09d3de5800ba35cb921a97788b14",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 24317,
+      "sha256": "75f5739ac5b9e4e608101c44098d6a9a8083f91d41e3c48295309d3c64587ce6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 67876,
+      "sha256": "1ab0213628ce9d0af0d22f29d3a25cd275bb7d17e8c8b7a427f4f37bb531e038",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 26346,
+      "sha256": "cc0a0e13f89ca4d9b41631df93d3b5576a8de6190970f9e2c0e96b87cc78a8ae",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 163,
+      "sha256": "9312b87181a5f39b27d9b806e838319bdd38d2d400a5bc5db0aaae5fda6dc554",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1246,
+      "sha256": "587869aa2e1f588154af2b8d0f7c1b4040b0429da6fb52d73b48e2adccec1ae4",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3035,
+      "sha256": "3bb55b8ee2bded6ca45a0344fe76684a266f2f35d8213f434807b38afed2c76f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1091,
+      "sha256": "eeb9a3b33962a15aeb9df92db11aa5c18eb317a3c44ee516764ab71e9ddf5c5c",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 948,
+      "sha256": "fabc0fdafb9fa6c4de79b7d9d0f442e42036b71df618701a741a3bdd588cde28",
+      "role": "documentation"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "batch": "expansion-10",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "decisions": [
+    {
+      "id": "grab3d-witch",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Herbalist witch with a wide herb-trimmed hat, long side braid, fitted bodice, leather belt carrying stoppered potion jars and a pouch, layered skirt with a contrast apron panel and ruffled hem, striped stockings and buckled boots. The top view shows the hat crown and dried herb sprigs as real geometry and the rear confirms the belt and skirt layers continue around. Rigged: 24-bone humanoid armature, walk and run clips, zero unweighted skinned vertices.",
+      "limitations": [
+        "AI-assisted origin (Meshy) is disclosed upstream; some storefronts require AI-content disclosure.",
+        "Potion jars are fused to the belt and cannot be removed individually.",
+        "Skirt and braid are skinned, not cloth-simulated."
+      ],
+      "contact_sheet_sha256": "14506376fa41f07177c53fb9db83f004691f2adc5e3b73b6c424b847a14528ed"
+    },
+    {
+      "id": "grab3d-desert-queen",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Ceremonial desert queen with a tall striped crown, a blue-and-gold broad collar, layered terracotta shoulder pieces, a cream wrapped tunic with a front panel, sash, arm bands, fitted leggings and strapped sandals. Collar and shoulder layers continue around the back and the crown is modelled in the round. Rigged: 24-bone humanoid armature, walk and run clips, zero unweighted skinned vertices.",
+      "limitations": [
+        "AI-assisted origin (Meshy) is disclosed upstream; some storefronts require AI-content disclosure.",
+        "Design is an invented ceremonial style inspired by ancient Egyptian dress, not a reproduction of a specific artefact.",
+        "Crown and collar are fused to the body mesh."
+      ],
+      "contact_sheet_sha256": "82dd8cb749faa1023a516127cbfffdb6d0c0058d7715d08a38cf8e0f6e1325aa"
+    },
+    {
+      "id": "grab3d-casual-man",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 4
+      },
+      "notes": "All 12 views inspected. Man in an olive bomber jacket with ribbed collar, cuffs and hem over a cream tee, blue jeans with back pockets and belt loops, and white low-top sneakers. Jacket seams, pocket welts and the jeans' rear yoke are modelled. Strongest rig in the batch: 54 bones including 30 finger bones with a relaxed hand pose, plus walk and run clips and zero unweighted vertices.",
+      "limitations": [
+        "AI-assisted origin (Meshy) is disclosed upstream; some storefronts require AI-content disclosure.",
+        "Semi-stylized proportions rather than a photoreal scan.",
+        "Finger bones are present but no hand-pose clips ship beyond walk and run."
+      ],
+      "contact_sheet_sha256": "7f5c978d3edf9208a56b6cf565a966ebd6bfd6b8a6a87e080ae5f2e4221e53b6"
+    },
+    {
+      "id": "ph-brass-vase-tapered",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Cylindrical brass pitcher with a rounded base, a flared foot, a double-loop side handle and a notched pouring lip. Chased foliate ornament runs down one side and the top view shows the open mouth and hollow interior. Title corrected: the piece is a handled pitcher with a pour notch rather than a tapered vase.",
+      "limitations": [
+        "Heavily tarnished finish; polish the roughness map if you need bright brass.",
+        "Ornament is decorative only, with no lettering."
+      ],
+      "contact_sheet_sha256": "09e670f673bb5da9138001f6037de2834f55b5f25cb71d4a26f6c373f000d4b3"
+    },
+    {
+      "id": "g3-rally-car",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 4
+      },
+      "notes": "All 12 views inspected. No sponsor decals or race numbers are present.. Panel gaps, glazing, lamp lenses, wheel arches and the underside floorpan are all modelled, and the top and bottom views confirm a closed body with no missing faces. No brand badge, wordmark or number plate appears anywhere.",
+      "limitations": [
+        "Stylized, not photoreal: this is a Cozy-kit vehicle with a simplified pastel palette.",
+        "Wheels are separate objects pivoted on their hubs, so they can be rolled; the body itself is not rigged.",
+        "Interior is simplified; not suitable for a close-up cabin shot."
+      ],
+      "contact_sheet_sha256": "544dd20947789080e9d6a281926d5e9f75d8ab63fa569946acb04a43dcd956d6"
+    },
+    {
+      "id": "g3-1990s-police-car",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 4
+      },
+      "notes": "All 12 views inspected. Deliberately carries no POLICE lettering, force crest or registration plate.. Panel gaps, glazing, lamp lenses, wheel arches and the underside floorpan are all modelled, and the top and bottom views confirm a closed body with no missing faces. No brand badge, wordmark or number plate appears anywhere.",
+      "limitations": [
+        "Stylized, not photoreal: this is a Cozy-kit vehicle with a simplified pastel palette.",
+        "Wheels are separate objects pivoted on their hubs, so they can be rolled; the body itself is not rigged.",
+        "Interior is simplified; not suitable for a close-up cabin shot."
+      ],
+      "contact_sheet_sha256": "a04ed9a90d8d601c8bb0e4ab445083c4479b749867155763c93921a202418519"
+    }
+  ]
+}

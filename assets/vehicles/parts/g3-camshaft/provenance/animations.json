@@ -1,0 +1,28 @@
+{
+  "source_model": "camshaft.glb",
+  "authored": [
+    {
+      "name": "rotor_spin",
+      "parts": [
+        "camshaft_rotor"
+      ],
+      "axis": "X",
+      "start_degrees": 0.0,
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "verification": [
+    {
+      "clip": "rotor_spin",
+      "frames": [
+        "anim-rotor_spin-a.jpg",
+        "anim-rotor_spin-b.jpg",
+        "anim-rotor_spin-c.jpg"
+      ]
+    }
+  ],
+  "note": "Clips authored by this library, not upstream. Dedicated to CC0.",
+  "animated_model": "camshaft-animated.glb"
+}

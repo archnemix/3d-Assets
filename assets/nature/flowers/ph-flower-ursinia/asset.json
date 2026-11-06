@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "id": "ph-flower-ursinia",
+  "title": "Flower Ursinia",
+  "category": "nature/flowers",
+  "style": "realistic",
+  "tags": [
+    "wildflower",
+    "orange",
+    "groundcover",
+    "karoo",
+    "desert",
+    "4k"
+  ],
+  "batch": "expansion-20",
+  "acquired_at": "2026-11-05T11:01:17.419138+00:00",
+  "review": {
+    "id": "ph-flower-ursinia",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Photoreal Ursinia wildflower — low sprawling orange desert groundcover. Photoreal Poly Haven asset: glTF validation clean (0 errors), PBR texture maps, no tmwarn. Wildflower/ground-cover scale — small footprint, suitable for meadow and garden scenes.",
+    "limitations": [
+      "Unrigged static mesh; no animation clips.",
+      "Small ground-cover scale; not a standalone hero asset.",
+      "May have small surface markings from real-world scanning; none flagged as trademarked."
+    ],
+    "contact_sheet_sha256": "bb33f5ee924739da9426dd4a8f55e7af27d8f73fce4ee3f33bb2dccc646c078e",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/flower_ursinia_2k.gltf",
+    "creator": "Jenelle van Heerden, Rico Cilliers",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/flower_ursinia",
+    "source_id": "flower_ursinia",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/flower_ursinia/flower_ursinia_2k.gltf",
+        "bytes": 8902,
+        "sha256": "0bca33893025bf18adcf6b813b714f1d6d6e3497bd34af637189824efca7fe1a"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/flower_ursinia/flower_ursinia_nor_gl_2k.jpg",
+        "bytes": 2064581,
+        "sha256": "7257dbfdfadd05bb72e75f9faa43d1fc7e7be394ded622071825dc2d1adf6393"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/flower_ursinia/flower_ursinia.bin",
+        "bytes": 768644,
+        "sha256": "40ff08d800264713ef4895c01fbb1cdf1979d8d27a80e392e8669623da2c2ab8"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/flower_ursinia/flower_ursinia_diff_2k.jpg",
+        "bytes": 1090834,
+        "sha256": "ff00510db3d794f1cdf36e547a673a740404ea2e8733345d2db4c340893bafa5"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/flower_ursinia/flower_ursinia_arm_2k.jpg",
+        "bytes": 1075329,
+        "sha256": "55b18452d3d204467dee85cf0fff7ba533d55f06f0edc0cbdf681534a7a3bc41"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/flower_ursinia_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 5,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/flower_ursinia_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "flower_ursinia_nor_gl"
+    },
+    {
+      "path": "model/textures/flower_ursinia_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "flower_ursinia_diff-flower_ursinia_alpha"
+    },
+    {
+      "path": "model/textures/flower_ursinia_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "flower_ursinia_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 5,
+    "hidden_mesh_objects": 0,
+    "vertices": 19345,
+    "triangles": 24917,
+    "material_slots": 5,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "flower_ursinia_diff-flower_ursinia_alpha",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-20/ph-flower-ursinia/model/textures/flower_ursinia_diff_2k.jpg"
+      },
+      {
+        "name": "flower_ursinia_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-20/ph-flower-ursinia/model/textures/flower_ursinia_nor_gl_2k.jpg"
+      },
+      {
+        "name": "flower_ursinia_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-20/ph-flower-ursinia/model/textures/flower_ursinia_arm_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 5,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1331,
+      "sha256": "ec87ea3c05e9c400c8292ed42a02b422c2ba5ee8e23bb407fdbd9f3801d5af8d",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 492,
+      "sha256": "e0b52a13430db1a33c9175d4f8d35ed8668a86f4c41daa0fe326a882166601fe",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 72252,
+      "sha256": "5a66a81e691146d8c1cd709c29fd1988871575447e402d2ebac9ee5bc8760748",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "4a1ac31e02299efa77ae3b810565b7859ed55e6bb96e9664c8420d2f29890ce8",
+      "role": "logs"
+    },
+    {
+      "path": "model/flower_ursinia.bin",
+      "bytes": 768644,
+      "sha256": "40ff08d800264713ef4895c01fbb1cdf1979d8d27a80e392e8669623da2c2ab8",
+      "role": "model"
+    },
+    {
+      "path": "model/flower_ursinia_2k.gltf",
+      "bytes": 8902,
+      "sha256": "0bca33893025bf18adcf6b813b714f1d6d6e3497bd34af637189824efca7fe1a",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/flower_ursinia_arm_2k.jpg",
+      "bytes": 1075329,
+      "sha256": "55b18452d3d204467dee85cf0fff7ba533d55f06f0edc0cbdf681534a7a3bc41",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/flower_ursinia_diff_2k.jpg",
+      "bytes": 1090834,
+      "sha256": "ff00510db3d794f1cdf36e547a673a740404ea2e8733345d2db4c340893bafa5",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/flower_ursinia_nor_gl_2k.jpg",
+      "bytes": 2064581,
+      "sha256": "7257dbfdfadd05bb72e75f9faa43d1fc7e7be394ded622071825dc2d1adf6393",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 16267,
+      "sha256": "1c99033f29ef09caf0973b98dd20ae53a09fb1929372ea680e99a56eaef6a18a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 13589,
+      "sha256": "fbc192ca36d9895c42f921548c3affe026b2143b2c96ef96c12ad6507de10482",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 130482,
+      "sha256": "bb33f5ee924739da9426dd4a8f55e7af27d8f73fce4ee3f33bb2dccc646c078e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1172,
+      "sha256": "a3d3a224fa9660ebc902cce5c2848123deb36b69f02b361aade509d1f60317bd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 12883,
+      "sha256": "89c65aed8bb9b54893da14b948aa7f8843ac4868bfb5d8db13d9f9420d37c417",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 16140,
+      "sha256": "9a625273e8b69480d797bcfd0685bbbfa2e5db5e6e7af84c1fb2ee70ad9e1e0e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 35108,
+      "sha256": "2a8c11a83df755087498453a5d474b6cad3d7eb17fda1c25e70cb7d37f5afda6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 15787,
+      "sha256": "8d549de986ac937fbfdf4bfab53b9e16668da82a86e3fe69891153246345f44d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 12412,
+      "sha256": "f03d4d394ee9451115d35f8885f70638a59e1ac99a804d93a0adefb55b4752d5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 15791,
+      "sha256": "9296b5db58e5fde23140a0b252bd43a5519914a5ab2154cb1be3fd5641ce37c9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 41433,
+      "sha256": "101085fbd89584b1e582621be27eaf341c82a0ff629aac2fd51405a3272efc4b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 16447,
+      "sha256": "4b261de1dae3dda1fb98f8e9397b2ca87e13a412f5f7ae081c06de5f7a4549f7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 15154,
+      "sha256": "fdbbb6ada8180e24b124d2cdf22569feac5ebfd9d2574362810ffaceb56ccc16",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 14511,
+      "sha256": "bb5a46b07b21637b8ed9cafb3c862bcc3a9ac2d7da78b0448691acb4a992f967",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 164,
+      "sha256": "6d58ab62e1949bba2adc1dbe258705622f51f4e7ba5b0183909e26c243e26728",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1313,
+      "sha256": "77f066e82d0c70e8d9e4aea3776c1ce96ed0a5d27af7014a316970f8b7af6622",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3442,
+      "sha256": "8c62dae076b68c1623957f00f53a69c99aea66626b91fa5aebfb24b6ca473190",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1105,
+      "sha256": "87b4c161e41ad8bdd27fc17e9c846dde1afdabcad4a04f5687336f2d2e3ad16c",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 933,
+      "sha256": "3b4384db5939aaf246fdad64e6c9cb3102c5ae4f5c997e61a4fe73dda2517961",
+      "role": "documentation"
+    }
+  ]
+}

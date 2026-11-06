@@ -1,0 +1,117 @@
+"""Small command surface for humans and CI; implementation lives in task modules."""
+
+import argparse
+import json
+import sys
+from pathlib import Path
+
+from jsonschema.exceptions import ValidationError as SchemaError
+
+from .requests import describe, shards
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(prog="asset-library")
+    commands = parser.add_subparsers(dest="command", required=True)
+    plan = commands.add_parser("plan", help="Validate a request and print its category counts")
+    plan.add_argument("request", type=Path)
+    matrix = commands.add_parser("matrix", help="Emit at most five disjoint worker assignments")
+    matrix.add_argument("request", type=Path)
+    intake = commands.add_parser("intake", help="Download and inspect candidates into quarantine")
+    intake.add_argument("request", type=Path)
+    intake.add_argument("--shard", type=int, required=True)
+    review = commands.add_parser("review", help="Apply explicit per-asset visual review decisions")
+    review.add_argument("decisions", type=Path)
+    retire = commands.add_parser(
+        "retire", help="Withdraw published assets and record why; payloads are deleted"
+    )
+    retire.add_argument("decisions", type=Path)
+    reinspect = commands.add_parser(
+        "reinspect", help="Recheck an already acquired quarantine candidate"
+    )
+    reinspect.add_argument("candidate", type=Path)
+    for command, help_text in [
+        ("refresh-plan", "Validate a quarantine refresh request"),
+        ("refresh-matrix", "Emit at most five refresh worker assignments"),
+        ("refresh", "Refresh inspection evidence for one worker assignment"),
+    ]:
+        refresh = commands.add_parser(command, help=help_text)
+        refresh.add_argument("request", type=Path)
+        if command == "refresh":
+            refresh.add_argument("--shard", type=int, required=True)
+    for command, help_text in (
+        ("animate-plan", "List approved assets eligible for authored animation"),
+        ("animate-matrix", "Emit at most five animation worker assignments"),
+        ("animate", "Author mechanical animation clips for one worker assignment"),
+    ):
+        animate = commands.add_parser(command, help=help_text)
+        animate.add_argument("request", type=Path)
+        if command == "animate":
+            animate.add_argument("--shard", type=int, required=True)
+    catalog = commands.add_parser("catalog", help="Rebuild the approved-only catalog")
+    catalog.add_argument("--check", action="store_true")
+    licensing = commands.add_parser(
+        "license-audit", help="Audit every approved asset against its recorded CC0 terms"
+    )
+    licensing.add_argument("--check", action="store_true")
+    args = parser.parse_args()
+    try:
+        if args.command == "plan":
+            describe(args.request)
+        elif args.command == "matrix":
+            print(json.dumps(shards(args.request)))
+        elif args.command == "intake":
+            from .intake import run_shard
+
+            assignment = shards(args.request)[args.shard]
+            return run_shard(
+                assignment["batch_id"], json.loads(assignment["candidates"]), args.shard
+            )
+        elif args.command == "reinspect":
+            from .inspection import reinspect
+
+            reinspect(args.candidate.resolve())
+        elif args.command in {"animate-plan", "animate-matrix", "animate"}:
+            from . import animate
+
+            request = json.loads(args.request.read_text())
+            if args.command == "animate-plan":
+                animate.describe(request)
+            elif args.command == "animate-matrix":
+                print(json.dumps(animate.shards(request)))
+            else:
+                return animate.run_shard(request, args.shard)
+        elif args.command in {"refresh-plan", "refresh-matrix", "refresh"}:
+            from . import refresh
+
+            if args.command == "refresh-plan":
+                refresh.describe(args.request)
+            elif args.command == "refresh-matrix":
+                print(json.dumps(refresh.shards(args.request)))
+            else:
+                return refresh.run_shard(args.request, args.shard)
+        elif args.command == "review":
+            from .review import apply
+
+            apply(args.decisions)
+        elif args.command == "retire":
+            from .retire import apply as retire_apply
+
+            retire_apply(args.decisions)
+        elif args.command == "catalog":
+            from .catalog import build, verify
+
+            verify() if args.check else build()
+        elif args.command == "license-audit":
+            from .licensing import build as audit_build
+            from .licensing import verify as audit_verify
+
+            audit_verify() if args.check else audit_build()
+        return 0
+    except (ValueError, KeyError, IndexError, RuntimeError, OSError, SchemaError) as error:
+        print(f"error: {error}", file=sys.stderr)
+        return 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

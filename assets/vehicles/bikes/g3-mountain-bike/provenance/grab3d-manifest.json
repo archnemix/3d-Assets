@@ -1,0 +1,47 @@
+{
+  "slug": "mountain-bike",
+  "triangles": 28020,
+  "texture_px": 2048,
+  "triangles_light": null,
+  "texture_px_light": null,
+  "files": {
+    "glb": {
+      "name": "mountain-bike.glb",
+      "bytes": 1377464
+    },
+    "blend": {
+      "name": "mountain-bike.blend",
+      "bytes": 1223105
+    },
+    "fbx": {
+      "name": "mountain-bike.fbx",
+      "bytes": 2344556
+    },
+    "obj": {
+      "name": "mountain-bike-obj.zip",
+      "bytes": 1061181
+    },
+    "usdz": {
+      "name": "mountain-bike.usdz",
+      "bytes": 2221879
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "0.780 x 1.885 x 1.083",
+    "triangles": 28020,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-10-25",
+    "real_size": "hardtail mountain bike, approx. 1.9 x 0.8 x 1.1 m (L x W x H), 27.5 in wheels with 2.4 in knobby tires",
+    "notes": "front faces -Y; stands on both wheels, no kickstand; wheels (with brake rotor, rear with cassette) are separate objects with origin on the axle (rotate around local X to roll); mountain-bike_steering (suspension fork, stem, riser bar, grips, brake levers) has its origin on the steering axis, tilted 24 deg: rotate around (0, 0.407, 0.914) in Blender Z-up = (0, 0.914, -0.407) in glTF Y-up; mountain-bike_crank (arms, chainring, pedals) has its origin in the bottom bracket, rotate around local X; no brand, no text",
+    "set": "Cozy Vehicles Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}

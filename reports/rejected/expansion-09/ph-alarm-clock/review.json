@@ -1,0 +1,20 @@
+{
+  "id": "ph-alarm-clock",
+  "decision": "rejected",
+  "scores": {
+    "silhouette": 5,
+    "materials": 2,
+    "topology": 4,
+    "completeness": 1,
+    "style_fit": 3
+  },
+  "notes": "All 12 views inspected. Rejected: the clock face renders as an opaque black disc in every one of the eight orbit views, so the dial, numerals and hands are invisible. This is an upstream glTF material defect, not a render setup problem. The dial artwork does exist in the diffuse atlas (cream face with Roman numerals), but the front glass primitive is exported with alphaMode BLEND referencing the same JPEG diffuse map, and JPEG carries no alpha channel, so the glass resolves fully opaque over the black UV island. A clock whose time cannot be read fails the completeness and materials gate as shipped.",
+  "limitations": [],
+  "contact_sheet_sha256": "6cb786f47d6e65da41b94d9d744ae0f23ff1f90132522bf4baf3af39435c0cd8",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports",
+  "status": "rejected",
+  "approved": false
+}

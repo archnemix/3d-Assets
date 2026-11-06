@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A visually reviewed, CC0-only 3D asset library."
+    />
+    <title>3D Assets — CC0 Library</title>
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/components.css" />
+    <script type="module" src="scripts/app.js"></script>
+  </head>
+  <body>
+    <header class="masthead">
+      <a class="wordmark" href="./" aria-label="3D Assets home"
+        >3D<span>Assets</span></a
+      >
+      <span class="license-badge">CC0 only · No attribution required</span>
+    </header>
+    <main>
+      <section class="intro">
+        <p class="eyebrow">THE REVIEWED COLLECTION</p>
+        <h1>Good assets.<br /><span>No strings attached.</span></h1>
+        <p>
+          Realistic details. Playful worlds. Every model checked from every
+          side, with its textures and source evidence included. New approved
+          assets appear here automatically.
+        </p>
+        <div class="stats" id="stats" aria-live="polite"></div>
+      </section>
+      <section aria-label="Asset browser">
+        <form class="filters" id="filters" role="search">
+          <label class="search-label"
+            ><span>Find an asset</span
+            ><input
+              id="search"
+              type="search"
+              placeholder="Chair, human, apple…"
+              autocomplete="off"
+          /></label>
+          <label
+            ><span>Category</span
+            ><select id="category">
+              <option value="">All categories</option>
+            </select></label
+          >
+          <label
+            ><span>Style</span
+            ><select id="style">
+              <option value="">All styles</option>
+              <option value="realistic">Realistic</option>
+              <option value="stylized">Stylized</option>
+              <option value="low-poly">Low-poly</option>
+            </select></label
+          >
+          <label class="check-label"
+            ><input id="rigged" type="checkbox" /> Rigged only</label
+          >
+        </form>
+        <div class="browser-toolbar">
+          <div
+            class="category-chips"
+            id="category-chips"
+            aria-label="Quick categories"
+          ></div>
+          <div class="toolbar-controls">
+            <label
+              ><span>Sort</span
+              ><select id="sort">
+                <option value="title">Name A–Z</option>
+                <option value="category">Category</option>
+                <option value="triangles-asc">Triangles: low to high</option>
+                <option value="triangles-desc">Triangles: high to low</option>
+              </select></label
+            >
+            <label class="check-label"
+              ><input id="group" type="checkbox" /> Group by category</label
+            >
+            <button class="refresh-button" id="refresh" type="button">
+              Refresh
+            </button>
+          </div>
+        </div>
+        <div class="results-bar">
+          <p id="result-count" aria-live="polite">Loading approved assets…</p>
+          <p class="last-updated" id="last-updated" aria-live="polite"></p>
+          <button class="text-button" id="reset" type="button">
+            Reset filters
+          </button>
+        </div>
+        <div class="asset-grid" id="asset-grid"></div>
+        <div class="empty-state" id="empty" hidden>
+          <h2>No matching assets</h2>
+          <p>Try a broader search or reset the filters.</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>
+        Only visually approved assets appear here. Candidates stay outside the
+        catalog.
+      </p>
+      <p>
+        Discovery API credit:
+        <a href="https://polyhaven.com">Powered by Poly Haven</a>. Asset use
+        does not require this credit.
+      </p>
+      <a href="../README.md">Usage guide</a> ·
+      <a href="../manifest.json">Manifest</a> ·
+      <a href="../docs/licenses.md">License audit</a> ·
+      <a href="../docs/rigging.md">Rigging guide</a>
+      <a href="../docs/research.md">Source research</a>
+    </footer>
+    <dialog id="asset-dialog" aria-labelledby="detail-title">
+      <div id="detail-content"></div>
+    </dialog>
+    <noscript
+      >This gallery needs JavaScript. You can also browse the asset folders and
+      manifest.json directly.</noscript
+    >
+  </body>
+</html>

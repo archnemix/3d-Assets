@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "id": "kenney-female-character",
+  "title": "Kenney mini female character",
+  "category": "characters/humans",
+  "style": "low-poly",
+  "tags": [
+    "human",
+    "female",
+    "rigged",
+    "animated",
+    "kids"
+  ],
+  "batch": "foundation-01-r2",
+  "acquired_at": "2026-11-03T14:51:45.108236+00:00",
+  "review": {
+    "id": "kenney-female-character",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Mini female character is now correctly framed and readable from every orbit. Simple flat-color atlas, clean low-poly silhouette, 7-bone rig and no degenerate triangles. Appropriate as a lightweight kids'/prototype human variant alongside realistic humans.",
+    "limitations": [
+      "512px flat-color atlas rather than PBR maps; intentionally low-poly.",
+      "Unused-object/tangent and skinned-mesh warnings are non-visual validator notes."
+    ],
+    "contact_sheet_sha256": "e24728c0e03204f8c52108020260437272d0a44f6c10b40bfa6eed9c973b1e2c",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "kenney",
+    "model": "model/character-female-a.glb",
+    "creator": "Kenney",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE",
+    "source_url": "https://github.com/Hidencod/tge-assets/blob/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/mini-characters/character-female-a.glb",
+    "source_id": "packs/mini-characters/character-female-a.glb",
+    "revision": "d92c6e923bbef8649d4e5be3ab375a40f88672b0",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/mini-characters/character-female-a.glb",
+        "bytes": 279936,
+        "sha256": "7a7f1015ebbb22d515babf6ce36fc41f5b0ce91c4886d5d963764585f709faa6"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE"
+  },
+  "model": "model/character-female-a.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 2,
+    "materials": 1,
+    "images": 1,
+    "skins": 2,
+    "animations": [
+      "attack-kick-left",
+      "attack-kick-right",
+      "attack-melee-left",
+      "attack-melee-right",
+      "crouch",
+      "die",
+      "drive",
+      "emote-no",
+      "emote-yes",
+      "fall",
+      "holding-both",
+      "holding-both-shoot",
+      "holding-left",
+      "holding-left-shoot",
+      "holding-right",
+      "holding-right-shoot",
+      "idle",
+      "interact-left",
+      "interact-right",
+      "jump",
+      "pick-up",
+      "sit",
+      "sprint",
+      "static",
+      "walk",
+      "wheelchair-look-left",
+      "wheelchair-look-right",
+      "wheelchair-move-back",
+      "wheelchair-move-forward",
+      "wheelchair-move-left",
+      "wheelchair-move-right",
+      "wheelchair-sit"
+    ],
+    "extensions": [
+      "KHR_texture_transform"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/colormap.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "colormap"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 2,
+    "hidden_mesh_objects": 1,
+    "vertices": 1576,
+    "triangles": 876,
+    "material_slots": 2,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [
+      {
+        "name": "character-female-a",
+        "bones": 7
+      }
+    ],
+    "actions": [
+      "attack-kick-left_character-female-a",
+      "attack-kick-right_character-female-a",
+      "attack-melee-left_character-female-a",
+      "attack-melee-right_character-female-a",
+      "crouch_character-female-a",
+      "die_character-female-a",
+      "drive_character-female-a",
+      "emote-no_character-female-a",
+      "emote-yes_character-female-a",
+      "fall_character-female-a",
+      "holding-both-shoot_character-female-a",
+      "holding-both_character-female-a",
+      "holding-left-shoot_character-female-a",
+      "holding-left_character-female-a",
+      "holding-right-shoot_character-female-a",
+      "holding-right_character-female-a",
+      "idle_character-female-a",
+      "interact-left_character-female-a",
+      "interact-right_character-female-a",
+      "jump_character-female-a",
+      "pick-up_character-female-a",
+      "sit_character-female-a",
+      "sprint_character-female-a",
+      "static_character-female-a",
+      "walk_character-female-a",
+      "wheelchair-look-left_character-female-a",
+      "wheelchair-look-right_character-female-a",
+      "wheelchair-move-back_character-female-a",
+      "wheelchair-move-forward_character-female-a",
+      "wheelchair-move-left_character-female-a",
+      "wheelchair-move-right_character-female-a",
+      "wheelchair-sit_character-female-a"
+    ],
+    "images": [
+      {
+        "name": "colormap",
+        "dimensions": [
+          512,
+          512
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 510,
+      "sha256": "6913dd72bdc20532b7f02d86469058f45d886c9dabf60831275ed16927aa523b",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1370,
+      "sha256": "19b36c414e710a61878c5799d8957cac2d47eadeebc32ed540d85e668f688496",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 336,
+      "sha256": "62483bb72a1ca86678860c068a0f5f28541e12a02c7453042ffaffaa8e448986",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 64614,
+      "sha256": "8d53dbb871b19f554be85d0e07499441b946d4b410cdd98f064a0222fd099940",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "8092b37bcdff0477d961eb1ef4ce3b2266b682dcf10a3778c5077f1ae8275816",
+      "role": "logs"
+    },
+    {
+      "path": "model/character-female-a.glb",
+      "bytes": 279936,
+      "sha256": "7a7f1015ebbb22d515babf6ce36fc41f5b0ce91c4886d5d963764585f709faa6",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 21719,
+      "sha256": "22f433a7ae61f82c38cbc8648b2fff792d246269a3f7f4c632c192b958e72e2d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 22163,
+      "sha256": "1d6c5fc6667fe7e93b05d2335be357ce238f0f5038272e9d57be51231567ac5c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 205566,
+      "sha256": "e24728c0e03204f8c52108020260437272d0a44f6c10b40bfa6eed9c973b1e2c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1795,
+      "sha256": "ed9eeaac04052aae0a117f69f81cefac6f9705927e1966e9ee94fdd2b0d6e18c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 24708,
+      "sha256": "451deae0c650e0e5ba7065673f2ff3c982d2e5856dd398a6d7d0cfa2e80dc9f4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 30707,
+      "sha256": "50e3fd11bded89ff47539ff67ac0a0b7461749c55665bfcbc128bef8f4864876",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 22441,
+      "sha256": "a89d410f0ece10b9e9635f59e24562582c12d1b47f019df58f4f89356bc3ce30",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 30138,
+      "sha256": "c57bf1f3845f98233f6f7b48973d10337e62b15aa6380545e1e493a7ae955162",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 22962,
+      "sha256": "abfa91072dd9b2bc972bf4c25f0eb73165efef45db31b64c935183a33a5bfed7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 30780,
+      "sha256": "7c6b4ab908ac5a3976d0dc8c2f24549d12f07ced628f255ea589ea8bc69f6a29",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 23710,
+      "sha256": "cfc78af5af53d7d8bd64e6f9e00883f9cdff1b5aab97bddbc0c527051ed15abc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 30565,
+      "sha256": "dea2ddf6886206efe2c56234fcc63bcc86eb2e38bf394efc9e1ff68653117ea6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 17096,
+      "sha256": "7af99ab7e50d67065ea5ff952ec846b5bc37d71f8bd34098b3a9a09ed39b0c42",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 35119,
+      "sha256": "bc200108d0d5583601404dc6b3871d4fa87e0861acc4f9b51c7685d69ebf8c02",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 164,
+      "sha256": "1860c5f54768c81b4056e0525e329d7b4dae1000d4b61bd163b284049d331da6",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/github-source.json",
+      "bytes": 433,
+      "sha256": "48aac55f607b26d4936cad051af5fdee61111e85963f3a71cbcde5eaf6f138fb",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2506,
+      "sha256": "a596215bc3ddda449235d22259b7803ed8a2e41528f4a34a2c0cbcfa826fe121",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 898,
+      "sha256": "0a6660bab136d555d76927ab018f313524f9207c270fa998b7174e733be83829",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/colormap.png",
+      "bytes": 8706,
+      "sha256": "0d4947d34ff32acf4a359c7f22ca784e057e7e72f622170a9a77b6fc88fdb70e",
+      "role": "textures"
+    }
+  ]
+}

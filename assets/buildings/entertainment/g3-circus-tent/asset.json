@@ -1,0 +1,502 @@
+{
+  "schema_version": 1,
+  "id": "g3-circus-tent",
+  "title": "Striped circus big top",
+  "category": "buildings/entertainment",
+  "style": "stylized",
+  "tags": [
+    "circus",
+    "tent",
+    "striped",
+    "big-top",
+    "building",
+    "architecture",
+    "pbr",
+    "game-ready"
+  ],
+  "batch": "expansion-13",
+  "acquired_at": "2026-11-05T10:28:54.786021+00:00",
+  "review": {
+    "id": "g3-circus-tent",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Stylized circus big top with striped tent canopy. Stylized Grab3D building: glTF validation clean (0 errors), single fused mesh with PBR texture maps. Human-modeled upstream (origin.ai_content: false), not AI-generated. Free-standing complete building, no brand marks expected on generic/fantasy subjects.",
+    "limitations": [
+      "Human-modeled upstream (origin.ai_content: false), not AI-generated.",
+      "Stylized style rather than photoreal — textured but not 8K PBR.",
+      "Single fused mesh; cannot be disassembled or animated without separation.",
+      "Unrigged: no skeleton or animation clips."
+    ],
+    "contact_sheet_sha256": "adb185679653a79b9578621e3180e35a63a4e149dc1639e25d6ad200754c0d5b",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/circus-tent.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/circus-tent/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/buildings/circus-tent/",
+    "source_id": "circus-tent",
+    "revision": "5eb05da4507667b8b77a52713fabf3ce5f0e2e68b3c71e55362177acc01f90bc",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/circus-tent/circus-tent.glb",
+        "bytes": 2676572,
+        "sha256": "5eb05da4507667b8b77a52713fabf3ce5f0e2e68b3c71e55362177acc01f90bc"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/circus-tent/LICENSE.txt"
+  },
+  "model": "model/circus-tent.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 4,
+    "materials": 4,
+    "images": 9,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_materials_emissive_strength"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/circus-tent_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "circus-tent_body_normal"
+    },
+    {
+      "path": "textures/circus-tent_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "circus-tent_body_basecolor"
+    },
+    {
+      "path": "textures/circus-tent_body_metallic-circus-tent_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "circus-tent_body_metallic-circus-tent_body_roughness"
+    },
+    {
+      "path": "textures/circus-tent_flap_l_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "circus-tent_flap_l_normal"
+    },
+    {
+      "path": "textures/circus-tent_flap_l_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "circus-tent_flap_l_basecolor"
+    },
+    {
+      "path": "textures/circus-tent_flap_l_metallic-circus-tent_flap_l_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "circus-tent_flap_l_metallic-circus-tent_flap_l_roughness"
+    },
+    {
+      "path": "textures/circus-tent_flap_r_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "circus-tent_flap_r_normal"
+    },
+    {
+      "path": "textures/circus-tent_flap_r_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "circus-tent_flap_r_basecolor"
+    },
+    {
+      "path": "textures/circus-tent_flap_r_metallic-circus-tent_flap_r_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "circus-tent_flap_r_metallic-circus-tent_flap_r_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 4,
+    "hidden_mesh_objects": 0,
+    "vertices": 35980,
+    "triangles": 35688,
+    "material_slots": 4,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 264,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "circus-tent_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "circus-tent_body_metallic-circus-tent_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "circus-tent_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "circus-tent_flap_l_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "circus-tent_flap_l_metallic-circus-tent_flap_l_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "circus-tent_flap_l_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "circus-tent_flap_r_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "circus-tent_flap_r_metallic-circus-tent_flap_r_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "circus-tent_flap_r_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 3,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1391,
+      "sha256": "f19c20c3f6d8cec14779befde1d7bc58f83790971fbcd8d78e9242f929018485",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 473,
+      "sha256": "cdceb99b4b386d757fea93cdd1e4fbefe2419b37981a25bf644bdba268d97bd8",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 82483,
+      "sha256": "d9aa7715f388ff65343e82110222eed828ae3d760255724fadcb199a20800f2d",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "8de7ec594efcb01d5ecf96470aed66593ab3867462184ff3fa48c2111813f9da",
+      "role": "logs"
+    },
+    {
+      "path": "model/circus-tent.glb",
+      "bytes": 2676572,
+      "sha256": "5eb05da4507667b8b77a52713fabf3ce5f0e2e68b3c71e55362177acc01f90bc",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 44022,
+      "sha256": "6269b8635db684c2d6e150b5b009b12cc396b270662b7505f3a42555d28f8fdf",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 20785,
+      "sha256": "472d54bc7137fee87a6bda8569abf99547ca15a71ea7dc7fc603d4219442901e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 265547,
+      "sha256": "adb185679653a79b9578621e3180e35a63a4e149dc1639e25d6ad200754c0d5b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1840,
+      "sha256": "62f5a950bbf9d086ba856b96403b0d5e1d70df422a5150ab40d95d016cfa8e10",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 34627,
+      "sha256": "0b74d9ed6fd0aa4272d413754fe54526924768aa4ecb0a723ef8ff043197c13b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 34074,
+      "sha256": "570e7e9390027a76eb246f6e6aab5d7012fa823f5c98bf35380338d1a85c5732",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 31736,
+      "sha256": "08132df0825509dab1722fd7b4f6d7d1bcf72143b315c9dc46d3a8803cfb015d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 33563,
+      "sha256": "2279c33c07d6523d3897fac8b8245fa1361836c1caaf963bac7440719255dddc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 33358,
+      "sha256": "ac01351d249f61c9611eabec8a9656f3adfa739a5b677ad6a97009987629777e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 35123,
+      "sha256": "da2bf8ce745aa628616089ad747a88c83d193a934561fa239b649420905f32c7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 33840,
+      "sha256": "6fe4851a9bcd255eb4a002601843b80206ebb31e45b9dd344427c23885e3ac88",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 36019,
+      "sha256": "ba7708c75b16b0abcead2b6ef85e5e91713636068e8f3f2846a612ff092f5696",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 36258,
+      "sha256": "c3aedf8bc97006cd12262ddce1a4c72ef5a8afc842c31d1d4dd7e846d368d8af",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 45985,
+      "sha256": "6ad304f92abc04564613c88422ccb2b5817f61ae9e0f7284e9f0472c01cb3f6e",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 157,
+      "sha256": "885dfb5bcb17fd2d6afb702aa2446895b9a7edab8079a453e2942045b49286e4",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 4311,
+      "sha256": "13f77c59f185517c872771dd01104c82bbeb9d6df82f2dff753213627a1f2df2",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 2084,
+      "sha256": "4af7c459730675c68587a5cd8f5189f14b0292fe28a237bcef588f9a131bc20d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 506,
+      "sha256": "67b138defc3715c796ad734f1a03b2eef80d6b6188a8fd4f8e65cb3090d6ea47",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "76aa23f0f20ddc75baa687b87bd82347f5527bce464eadaf847126c355b435c1",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1055,
+      "sha256": "b6a07a17995e7aba26715e230318f89fbdcd7c3e0eb7e79c8a244c057cff3624",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/circus-tent_body_basecolor.jpg",
+      "bytes": 449116,
+      "sha256": "ddf42761e838f00ebb588c8f9a0ccdd056ab2ac7959290d4693b18215861fcb5",
+      "role": "textures"
+    },
+    {
+      "path": "textures/circus-tent_body_metallic-circus-tent_body_roughness.jpg",
+      "bytes": 293071,
+      "sha256": "c8b6753d52d80f47aa9b1b1163a85f9efcc6e25950f02d84e7af721cc1f75ee3",
+      "role": "textures"
+    },
+    {
+      "path": "textures/circus-tent_body_normal.jpg",
+      "bytes": 73507,
+      "sha256": "0c6f25ed6b2966ebab5f64f1c1c2b48e7a0b4ef3b4ed4374c993f06f3fc71268",
+      "role": "textures"
+    },
+    {
+      "path": "textures/circus-tent_flap_l_basecolor.jpg",
+      "bytes": 102743,
+      "sha256": "d427b6a22a10db6dde2f363182f2ee18d27f0e15f9a0b98d5eb27147c21072f3",
+      "role": "textures"
+    },
+    {
+      "path": "textures/circus-tent_flap_l_metallic-circus-tent_flap_l_roughness.jpg",
+      "bytes": 74509,
+      "sha256": "f2399be283ede893cef3a14acdc310756e7a638800a50442eaea3cc4993aa5bf",
+      "role": "textures"
+    },
+    {
+      "path": "textures/circus-tent_flap_l_normal.jpg",
+      "bytes": 66874,
+      "sha256": "a8f1879a5be1d608512833aa43b5113472bcc541e819e28c8e012149a819eef7",
+      "role": "textures"
+    },
+    {
+      "path": "textures/circus-tent_flap_r_basecolor.jpg",
+      "bytes": 102862,
+      "sha256": "556c3e11b66b18d2738c2e51267451094d211a3c6f5141f7c228be23821ee970",
+      "role": "textures"
+    },
+    {
+      "path": "textures/circus-tent_flap_r_metallic-circus-tent_flap_r_roughness.jpg",
+      "bytes": 74607,
+      "sha256": "13388126ea107cbdc52813ca8fd469c4b21b58ccfd474cd461e657dea7f87122",
+      "role": "textures"
+    },
+    {
+      "path": "textures/circus-tent_flap_r_normal.jpg",
+      "bytes": 66526,
+      "sha256": "dfff59093cb82b04b12ff7e4a74d1e46d09a2613e31cb4117356619a370e0c73",
+      "role": "textures"
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "id": "ph-flower-gazania",
+  "title": "Flower Gazania",
+  "category": "nature/flowers",
+  "style": "realistic",
+  "tags": [
+    "wildflower",
+    "orange",
+    "daisy",
+    "groundcover",
+    "namaqualand",
+    "8k"
+  ],
+  "batch": "expansion-20",
+  "acquired_at": "2026-11-05T11:01:09.678677+00:00",
+  "review": {
+    "id": "ph-flower-gazania",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Photoreal Gazania wildflower — orange daisy-like groundcover from Namaqualand. Photoreal Poly Haven asset: glTF validation clean (0 errors), PBR texture maps, no tmwarn. Wildflower/ground-cover scale — small footprint, suitable for meadow and garden scenes.",
+    "limitations": [
+      "Unrigged static mesh; no animation clips.",
+      "Small ground-cover scale; not a standalone hero asset.",
+      "May have small surface markings from real-world scanning; none flagged as trademarked."
+    ],
+    "contact_sheet_sha256": "55a5fdf3240a36510a0797591f16ca8cbcc90ec546efe905f628a9203cd9ba08",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/flower_gazania_2k.gltf",
+    "creator": "James Ray Cock, Jenelle van Heerden",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/flower_gazania",
+    "source_id": "flower_gazania",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/flower_gazania/flower_gazania_2k.gltf",
+        "bytes": 19686,
+        "sha256": "a92ff97fd582aed5ad14450febf834cc034d5e134d95c77f1586254b6be0c4e4"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/flower_gazania/flower_gazania_diff_2k.jpg",
+        "bytes": 1313843,
+        "sha256": "46f0a1a7dde2c3f7e9fb09f674bea7841484a3b21c1b184daccd441256741080"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/flower_gazania/flower_gazania.bin",
+        "bytes": 848136,
+        "sha256": "a3864c51fce2dacb01629a0c364730e5988ac5a7a937acc0e2635c946d786797"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/flower_gazania/flower_gazania_arm_2k.jpg",
+        "bytes": 2297432,
+        "sha256": "afe21f44b21d2a51b54f699e88df80c552f16e64d6dd4569c7416c76b40a3153"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/flower_gazania/flower_gazania_nor_gl_2k.jpg",
+        "bytes": 2997513,
+        "sha256": "76acffaebc7197d807b2481021a6077b3c20d079574545af94b0157443afd37a"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/flower_gazania_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 8,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/flower_gazania_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "flower_gazania_nor_gl"
+    },
+    {
+      "path": "model/textures/flower_gazania_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "flower_gazania_diff"
+    },
+    {
+      "path": "model/textures/flower_gazania_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "flower_gazania_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 8,
+    "hidden_mesh_objects": 0,
+    "vertices": 15877,
+    "triangles": 14340,
+    "material_slots": 8,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "flower_gazania_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-20/ph-flower-gazania/model/textures/flower_gazania_diff_2k.jpg"
+      },
+      {
+        "name": "flower_gazania_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-20/ph-flower-gazania/model/textures/flower_gazania_nor_gl_2k.jpg"
+      },
+      {
+        "name": "flower_gazania_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-20/ph-flower-gazania/model/textures/flower_gazania_arm_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 8,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1332,
+      "sha256": "a60d323a686d8b6f2b96187895b5f6a596c6bfd0028e75e87067d44821404f49",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 648,
+      "sha256": "ca898b5a453ff36a5fef9355010c8b5d34fb7d7ec94d155ff6889604037f1f6f",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 78451,
+      "sha256": "84c213e492f2e69c395a44e362465306387a28212a06dee0af4b4ac21d4dd72f",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "0fd0a746503a9ff6f79a306915bb1f4bb48046785cdaf1ae7215409244a4fbf0",
+      "role": "logs"
+    },
+    {
+      "path": "model/flower_gazania.bin",
+      "bytes": 848136,
+      "sha256": "a3864c51fce2dacb01629a0c364730e5988ac5a7a937acc0e2635c946d786797",
+      "role": "model"
+    },
+    {
+      "path": "model/flower_gazania_2k.gltf",
+      "bytes": 19686,
+      "sha256": "a92ff97fd582aed5ad14450febf834cc034d5e134d95c77f1586254b6be0c4e4",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/flower_gazania_arm_2k.jpg",
+      "bytes": 2297432,
+      "sha256": "afe21f44b21d2a51b54f699e88df80c552f16e64d6dd4569c7416c76b40a3153",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/flower_gazania_diff_2k.jpg",
+      "bytes": 1313843,
+      "sha256": "46f0a1a7dde2c3f7e9fb09f674bea7841484a3b21c1b184daccd441256741080",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/flower_gazania_nor_gl_2k.jpg",
+      "bytes": 2997513,
+      "sha256": "76acffaebc7197d807b2481021a6077b3c20d079574545af94b0157443afd37a",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 27127,
+      "sha256": "2df53be3cb84b3887f65552ebb588457f33b4e9f3c13c07ccff5bb319679daa9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 16383,
+      "sha256": "89fa0f3a58280b24b19d8303804d83f4470ed4371b09726736a666908b4d53c9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 173036,
+      "sha256": "55a5fdf3240a36510a0797591f16ca8cbcc90ec546efe905f628a9203cd9ba08",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1151,
+      "sha256": "d22b939d98a1a80cd3eb79aed84421d15dc7abf88b5847110e993c5b15b9a6c1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 18647,
+      "sha256": "25754c625e71cb936454f0d1dccf59684845493efef5092e76aab7d7c3796a12",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 19629,
+      "sha256": "957816153c3fdaebd7eb62334eda254ba3887e94daa398a2df6d71239feff8dc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 41625,
+      "sha256": "162ddc94e103622306d6cd8d2d1e85d5f0038a8d38b7e81cc74ad7b5f59ef004",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 19713,
+      "sha256": "19b2324826efd49337423bb1dbcdbf7ed9ccc360013a3408cb9ea652d6428ce6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 17818,
+      "sha256": "7ab4c361a1a67081f0671fc7222ef90764ea95f532177f51ced64b1c00310732",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 20675,
+      "sha256": "02ed30c890089a738905e54882e466f490ce2060526cc99750b4b2214a90b6ca",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 41743,
+      "sha256": "feb09385445b329320d8cc2be7a700faa29911541fa4110bf03a56dfa1dbbe8f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 19963,
+      "sha256": "86b0fbb3f589221ba223406c0609a41334a81cb07e8f84d13c8eef45fd72d08b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 29733,
+      "sha256": "c4f26be68c409560ca22dfcba5b8b8833c8587e65444f276e43468998770f1ca",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 17398,
+      "sha256": "6cc39cad9ededfa85fd5a4f11f860a2462cb9ca47d73455e048103269a75b049",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 164,
+      "sha256": "3bba551d293d93bf60a210b27004ec1f0e90ab5593504c886928eb911fcf920f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1353,
+      "sha256": "37a77d1abb9253a70fc55c125fa7bff4de327ba8182350eb39585e0822383ee7",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 4423,
+      "sha256": "777ab501d155474aafaafb4daae1b312be74906215cc3a8e67e5fbd6dc776985",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1106,
+      "sha256": "c6572f384165ef3da9e4e7a820deea3df917a2d10d6bc7e4d0889d478f01c381",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 940,
+      "sha256": "0e34c714910b41048b6e7922c54ea07420d7f95069412a2f1e3b8e2a318ec8a5",
+      "role": "documentation"
+    }
+  ]
+}

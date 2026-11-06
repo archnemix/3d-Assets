@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "id": "g3-castle",
+  "title": "Fairy-tale castle with towers",
+  "category": "buildings/landmarks",
+  "style": "stylized",
+  "tags": [
+    "castle",
+    "towers",
+    "flags",
+    "gate",
+    "fantasy",
+    "building",
+    "architecture",
+    "pbr",
+    "game-ready"
+  ],
+  "batch": "expansion-13",
+  "acquired_at": "2026-11-05T10:23:39.911305+00:00",
+  "review": {
+    "id": "g3-castle",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Stylized medieval castle with towers, battlements and a gatehouse. Stylized Grab3D building: glTF validation clean (0 errors), single fused mesh with PBR texture maps. Human-modeled upstream (origin.ai_content: false), not AI-generated. Free-standing complete building, no brand marks expected on generic/fantasy subjects.",
+    "limitations": [
+      "Human-modeled upstream (origin.ai_content: false), not AI-generated.",
+      "Stylized style rather than photoreal — textured but not 8K PBR.",
+      "Single fused mesh; cannot be disassembled or animated without separation.",
+      "Unrigged: no skeleton or animation clips."
+    ],
+    "contact_sheet_sha256": "7a396190458ab3679adf4ff72aff479fb8d10946907884d9fe518d3210d326b2",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/castle.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/castle/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/buildings/castle/",
+    "source_id": "castle",
+    "revision": "d76c7702e19e3b23d6e132afb6120a2b9e79e87da1959ca3de7fe2b38ad99106",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/castle/castle.glb",
+        "bytes": 2919956,
+        "sha256": "d76c7702e19e3b23d6e132afb6120a2b9e79e87da1959ca3de7fe2b38ad99106"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/castle/LICENSE.txt"
+  },
+  "model": "model/castle.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 3,
+    "materials": 5,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/castle_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "castle_body_normal"
+    },
+    {
+      "path": "textures/castle_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "castle_body_basecolor"
+    },
+    {
+      "path": "textures/castle_body_metallic-castle_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "castle_body_metallic-castle_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 3,
+    "hidden_mesh_objects": 0,
+    "vertices": 57392,
+    "triangles": 48980,
+    "material_slots": 5,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 164,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "castle_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "castle_body_metallic-castle_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "castle_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1384,
+      "sha256": "a3843cdbd85e03f031556beb76885fa7fbb441b573618ec0a93e3ec7aedfeac3",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 415,
+      "sha256": "756d136b81a7612c276c84567b23689d296ac1d6b67b073997f9f10146559285",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 69316,
+      "sha256": "660b5d60ff8d5b85c70845967dc09da3e8ff455814ad11b15ab593df61f017a8",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "9b218ff0c7d3ae3393d4c152be34e97abbcb40bb0dd1f243e90fd6977e803b32",
+      "role": "logs"
+    },
+    {
+      "path": "model/castle.glb",
+      "bytes": 2919956,
+      "sha256": "d76c7702e19e3b23d6e132afb6120a2b9e79e87da1959ca3de7fe2b38ad99106",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 36364,
+      "sha256": "46276d209b292487da13e37320fd9db0487cdf77f77587acafc72c84db39976c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 31431,
+      "sha256": "0561777e9a093662d32415c8d5532ee81ecc95992865b11494178c887ff30fa6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 286123,
+      "sha256": "7a396190458ab3679adf4ff72aff479fb8d10946907884d9fe518d3210d326b2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 810,
+      "sha256": "a39e603e63838df20e7101042a9642ed254cd48775ff7abe959a4f442d1082ea",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 36943,
+      "sha256": "0166e6a312c38aa0fec769190bbefd0786ecf0fbe6c3dfae4ba740de7ca76ae9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 36323,
+      "sha256": "22f8ac077d266af51b08715ef0e1724a33d2825974731b586b96c10e50bd8fbc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 30462,
+      "sha256": "1335fec1d63b4b88eede778289785d15a83990df5b7ed47ee04a85636b1a1d6c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 36258,
+      "sha256": "0c084425391781169fdcb8507f138189dd535bc9fda2978105c90557690ff5a1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 36204,
+      "sha256": "2aa255dce254bead679d31cba191afb24bb236f35155e5e107024398f4918b54",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 38863,
+      "sha256": "6dec637ec794296d31419af2f8a629ce66905e6f2b44298e06b4c5951216e8cb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 31159,
+      "sha256": "c5ffcb00842c8b4b977b5fbec8650338c9352d8cc8cb54b546e9b78113411426",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 35880,
+      "sha256": "370dcf75b80c810b825fe9ba38d339cdc971db21f02c99d32cbbee2de9ab25d0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 33753,
+      "sha256": "d0183ecfa3ff2137d286bfb03e9df49e4c05ce3fff823b5956a487ef9d6b96c0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 68620,
+      "sha256": "7fe9c1911c833459d564f9f7870ed80e39dca5f5fce2bff6e19db19a9c73b5ba",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 152,
+      "sha256": "afd11b06bec1c742c74121a3dd6a7340efad9776776a679207e318f4c2dd391e",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2681,
+      "sha256": "4c011b3badb6bb87e31bf213807b1d28e3cf5b0a897f3ddafdc58ed915e9ec38",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1830,
+      "sha256": "d8d52df3d368f7c09edb4cc20a69c342950b7803027fb71772b4b352a0d47c89",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 466,
+      "sha256": "b9e0b14b61b906823ab3eadbddf0bd8864d0c2c2edd42f25edeb45b8dd8c3a76",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "048b2bda3f53482b174d0900e2eb8d334cbe49a2c7d2e4307ffe94823a89f7d9",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1067,
+      "sha256": "82b9522000044ef5ffe40d475f96aa121c8097b932ba369c1eb30d59ab91b59f",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/castle_body_basecolor.jpg",
+      "bytes": 325547,
+      "sha256": "6f3034b327837e4e82eb6a8dad993625cf8cf0db02200baae8044a7b7cb3be95",
+      "role": "textures"
+    },
+    {
+      "path": "textures/castle_body_metallic-castle_body_roughness.jpg",
+      "bytes": 379228,
+      "sha256": "de5980d57774e883d99f8747cee0676192f52a508559604757b9395f68815870",
+      "role": "textures"
+    },
+    {
+      "path": "textures/castle_body_normal.jpg",
+      "bytes": 78064,
+      "sha256": "5a75d34ad18dec2f428299cef30e6d1a9c08bb2306e65c54a4afcc0a5ea6beb8",
+      "role": "textures"
+    }
+  ]
+}

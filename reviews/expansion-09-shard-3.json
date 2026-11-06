@@ -1,0 +1,114 @@
+{
+  "batch": "expansion-09",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "decisions": [
+    {
+      "id": "ph-security-camera-wall",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Wall-bracket CCTV camera with a sunshield hood, recessed dark lens port, two-part housing, an articulated bracket arm and a screwed mounting plate. Rear views show the housing seam and cable route. Carries an invented FocusSpy wordmark on the housing side.",
+      "limitations": [
+        "Invented FocusSpy brand mark is baked into the texture; remove it for brand-sensitive use.",
+        "Not rigged in the shipped glTF; the bracket does not pan or tilt at runtime.",
+        "The lens port is an opaque dark disc, not optical glass."
+      ],
+      "contact_sheet_sha256": "021a849883d9367e27e4614b32b61b7587796685f588c55d1f3c7c9383c7c80b"
+    },
+    {
+      "id": "ph-hand-drill",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Crank hand drill with a turned wooden head grip, cast frame, red-painted main gear wheel, pinion, side crank with wooden knob, chuck and a modelled twist bit. Gear teeth are real geometry, visible in the top and bottom views, and rust and chipped paint are consistent across the frame. No cast-in maker's name.",
+      "limitations": [
+        "Not rigged in the shipped glTF: the crank and chuck do not rotate.",
+        "The drill bit is fused to the chuck rather than interchangeable."
+      ],
+      "contact_sheet_sha256": "fc56d8b66965c1976e141f9a3362bcda6555967e163150b9347ef357edd7f312"
+    },
+    {
+      "id": "ph-service-pistol",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Two complete grip variants (wood panels and blue-tape wrap) plus a separate magazine and a single cartridge. Slide serrations, ejection port, sights, trigger guard, safety lever and grip screws are modelled; top and bottom views show the bore, chamber and magazine well correctly. A high-zoom crop of the receiver, slide and grip confirms there is no manufacturer wordmark, logo or serial anywhere on the weapon.",
+      "limitations": [
+        "Recognisable real-world service-pistol pattern; the design is unbranded but some marketplaces restrict weapons content regardless of licence.",
+        "Static assembly: the slide, trigger and magazine do not articulate in the shipped glTF.",
+        "The cartridge is a loose prop, not chambered."
+      ],
+      "contact_sheet_sha256": "1cdfcafe7dc15cf410c4a4e6c8e506180eff8867a0ea1f51459395aec3104aa9"
+    },
+    {
+      "id": "ph-field-binoculars",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 4
+      },
+      "notes": "All 12 views inspected. Porro-prism binoculars with textured leatherette body cladding, chrome bridge and hinge, knurled centre focus wheel, individual eyecups, objective rims and a long leather neck strap. Both objective and eyepiece glass are recessed correctly and the underside shows the tripod boss. Zoomed crops show specification-style text (8x30 and field figures) rather than a manufacturer wordmark.",
+      "limitations": [
+        "The neck strap is a fixed drape and is not rigged or simulated.",
+        "Not rigged: the focus wheel and hinge do not articulate.",
+        "The strap leather renders pale; darken it if your scene needs a darker tone."
+      ],
+      "contact_sheet_sha256": "9e0665d06088e01662115d0d664ffea810d1b86ff8ae70688ef7262ecacc3a30"
+    },
+    {
+      "id": "grab3d-soldier",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Modern soldier in digital camouflage fatigues with a plate carrier, magazine pouches, admin pouch, knee pads, gloves, helmet with mount and laced boots. Pouch webbing, helmet rails and carrier straps are modelled in the round and the rear views show a complete carrier back panel. No unit patch, name tape, flag or manufacturer mark appears on the uniform or equipment. 279k tris. Rigged: 24-bone humanoid armature with walk and run clips, zero unweighted skinned vertices.",
+      "limitations": [
+        "AI-assisted origin (Meshy) is disclosed upstream.",
+        "Unarmed: no weapon is included.",
+        "24-bone rig; the helmet and pouches are skinned to the body, not separate objects."
+      ],
+      "contact_sheet_sha256": "61be43423a7a61261755f037899d100ce2590ed5461d27c1e56d593983a5630f"
+    },
+    {
+      "id": "grab3d-cyborg",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "All 12 views inspected. Cyborg with an orange prosthetic right arm and left lower leg against a dark tactical jacket, harness and cargo trousers. Mechanical joints, actuator housings and cabling are modelled in the round, and the rear views show a complete backpack and harness rather than a flat back. Close-up of the head shows defined hair, brow and ear with a small facial mole. 300k tris. Rigged: 24-bone humanoid armature with walk and run clips, zero unweighted skinned vertices.",
+      "limitations": [
+        "AI-assisted origin (Meshy) is disclosed upstream.",
+        "No facial scar: a close-up of the face shows only a small mole near the ear.",
+        "Prosthetic limbs are part of the single skinned mesh, not swappable parts."
+      ],
+      "contact_sheet_sha256": "f992c99979c43793d91861ebd4715776d236c2de74a269d074d69c22e10da12a"
+    }
+  ]
+}

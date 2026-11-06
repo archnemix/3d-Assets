@@ -1,0 +1,20 @@
+{
+  "id": "g3-chainmail",
+  "decision": "rejected",
+  "scores": {
+    "silhouette": 4,
+    "materials": 4,
+    "topology": 5,
+    "completeness": 2,
+    "style_fit": 3
+  },
+  "notes": "All 12 views inspected. Rejected on usability, not rights, under the same rule that rejected the cutlass, machete and pike. The chainmail shirt is welded to a full-height garment stand with a round weighted base, an upright post and a hanger. The GLB is a single mesh with a single material and no separate node for the furniture, so the stand cannot be hidden, deleted or unparented without destructive mesh surgery. Armour in this library has to be separable so it can be worn or carried; a shirt permanently fused to a coat stand and shields permanently fused to a rack are set dressing, not equippable armour. The sculpt and the chainmail weave itself are clean, and the enchanted sword in the same batch passes precisely because its weapon IS a separate node.",
+  "limitations": [],
+  "contact_sheet_sha256": "cd3275d76b5211f1799e57777ccb19c043c7c486ab825633b04cbb0161f83542",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-05",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports",
+  "status": "rejected",
+  "approved": false
+}

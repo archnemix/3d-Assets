@@ -1,0 +1,21 @@
+{
+  "id": "ph-wet-floor-sign",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "All 12 views inspected. Folding A-frame with a real hinge, carry handle cut-out and printed panels on both faces, confirmed in the top view. Generic CAUTION / WET FLOOR text and a standard slip pictogram with no branding. The 4 is for materials: the underside in the bottom view shows smeared scan texture.",
+  "limitations": [
+    "Underside texture is visibly smeared from the scan; it is hidden when the sign stands normally.",
+    "Only 228 triangles, so the hinge and handle cut-out are hard-edged."
+  ],
+  "contact_sheet_sha256": "3038bf0046df528879ae5d86cf0e4ea25a6f7659ef11a69146f892e7010c94d0",
+  "reviewer": "arena-agent-visual-review",
+  "reviewed_at": "2026-11-04",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

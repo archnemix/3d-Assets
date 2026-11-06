@@ -1,0 +1,442 @@
+{
+  "schema_version": 1,
+  "id": "g3-moped",
+  "title": "Retro moped",
+  "category": "vehicles/bikes",
+  "style": "stylized",
+  "tags": [
+    "moped",
+    "scooter",
+    "retro",
+    "engine"
+  ],
+  "batch": "expansion-12",
+  "acquired_at": "2026-11-05T00:08:12.215599+00:00",
+  "review": {
+    "id": "g3-moped",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. Retro step-through moped with a pressed frame, a finned single-cylinder engine, an exhaust and silencer, a chain case, telescopic front forks, twin rear shocks with modelled springs, spoked wheels, valanced mudguards, a headlamp and lens, mirrors, a bench seat, a rear luggage rack, a kickstand and a BLANK number plate. No manufacturer badge, script or wordmark appears on the tank, side panels or plate. Front and rear wheels, the crank and a steering node are SEPARATE, so motion clips can be authored.",
+    "limitations": [
+      "Stylised Cozy-kit palette rather than photoreal materials.",
+      "The number plate is deliberately blank; add your own registration if needed.",
+      "The chain and rear suspension are static."
+    ],
+    "contact_sheet_sha256": "16ec8a0f45ace9b340a2ca6903dd7ead272c3fd6bc77598d76468748829b4dd8",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/moped.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/moped/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/moped/",
+    "source_id": "moped",
+    "revision": "7b1b10c9a0ccf8e61cd5b2fe23db3b2c5e184782069cc8d2d67fd038c06e80ca",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/moped/moped.glb",
+        "bytes": 1457184,
+        "sha256": "7b1b10c9a0ccf8e61cd5b2fe23db3b2c5e184782069cc8d2d67fd038c06e80ca"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/moped/LICENSE.txt"
+  },
+  "model": "model/moped.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 5,
+    "materials": 19,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/moped_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "moped_body_normal"
+    },
+    {
+      "path": "textures/moped_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "moped_body_basecolor"
+    },
+    {
+      "path": "textures/moped_body_metallic-moped_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "moped_body_metallic-moped_body_roughness"
+    }
+  ],
+  "authored_animations": [
+    {
+      "name": "wheel_roll",
+      "parts": [
+        "moped_wheel_front",
+        "moped_wheel_rear"
+      ],
+      "axis": "X",
+      "start_degrees": 0.0,
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    },
+    {
+      "name": "steer",
+      "parts": [
+        "moped_wheel_front"
+      ],
+      "axis": "Z",
+      "start_degrees": 0.0,
+      "degrees": 32.0,
+      "frames": 45,
+      "fps": 30
+    },
+    {
+      "name": "crank_turn",
+      "parts": [
+        "moped_crank"
+      ],
+      "axis": "X",
+      "start_degrees": 0.0,
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/moped-animated.glb",
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 5,
+    "hidden_mesh_objects": 0,
+    "vertices": 21642,
+    "triangles": 23800,
+    "material_slots": 19,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 16,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "moped_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "moped_body_metallic-moped_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "moped_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1283,
+      "sha256": "96451ffb87f5620c97fb4185a60becaee50ecc08d9aab256efbe32135f705861",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 55920,
+      "sha256": "8a848b368505b7243d391093a59a1e606149851c5fae89401393c1f302faa14b",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 73017,
+      "sha256": "72d63637e469d750c6fff5394e5d82205ee4891b825dcf5372abd0b76bf87e19",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "e1f98c380b787ebe2fabc1c707bb1a5695ce46934266062b661ad6972ea67ddb",
+      "role": "logs"
+    },
+    {
+      "path": "model/moped-animated.glb",
+      "bytes": 1468052,
+      "sha256": "808f31061ad09e530dd4942b41be5837194b91dc87f4a836cf1209720a8f3dc2",
+      "role": "model"
+    },
+    {
+      "path": "model/moped.glb",
+      "bytes": 1457184,
+      "sha256": "7b1b10c9a0ccf8e61cd5b2fe23db3b2c5e184782069cc8d2d67fd038c06e80ca",
+      "role": "model"
+    },
+    {
+      "path": "previews/anim-crank_turn-a.jpg",
+      "bytes": 15291,
+      "sha256": "dbf791d152234891305dfa70a5dc9736a7dc4d024f4278d7766c62c2849d82fa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-crank_turn-b.jpg",
+      "bytes": 15290,
+      "sha256": "75002157b5310f2a2ca1f591bccf1d820603c6310ca10d1213a8014afcc16f20",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-crank_turn-c.jpg",
+      "bytes": 15290,
+      "sha256": "f8ca070dcea93d3ff0d2c72d0ee9ad4bf0ab167ec9a315fc5d1dca2754b08501",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-steer-a.jpg",
+      "bytes": 16535,
+      "sha256": "34eef5219e54a1f97dc803c3c71c3ba9f19a6010e814f88661a3f7dd7268c9f1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-steer-b.jpg",
+      "bytes": 16025,
+      "sha256": "0a453edfadbcaffbf88374921cea00393bee6a0807e8c93202d8a6c522a88bf6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-steer-c.jpg",
+      "bytes": 15291,
+      "sha256": "8bdd55c7ae77b6d0fb1a0ab555d621910bf940b2ff70b82b1f5f1f5551c05e8e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-a.jpg",
+      "bytes": 16540,
+      "sha256": "de2700d9fc39f3b57095359813f1e5812b4ea086875b9f4eb62c87e0a3f61489",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-b.jpg",
+      "bytes": 16526,
+      "sha256": "8c918fd878ce438e8c83d5474968c89cebb4f475819ab6a4a7e983aab240d642",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-c.jpg",
+      "bytes": 16532,
+      "sha256": "019b70ae892b3c74af157476137c7c1c21bbf79301937a4878d254f95ef2907e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 20838,
+      "sha256": "82bc10a1bfff5a9e1c5dd5993da2521e2934f66fb90a30bdb5586d420f972249",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 33714,
+      "sha256": "2e09d4d42dcfa4f566db8553c0f73c06204fb98d1b25719222b1cf541c7d826e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 264858,
+      "sha256": "16ec8a0f45ace9b340a2ca6903dd7ead272c3fd6bc77598d76468748829b4dd8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 806,
+      "sha256": "90355bd8d768beef1e709667a47a0830ba2d13337cca5e73aecb43041fa6daae",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 21230,
+      "sha256": "34a1844156592919932e1d7525e54b939932cd376269d2530ed8491d2a4fccd6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 45227,
+      "sha256": "afb6b1623edc124944fae9aff13508576980b8bbd0370bde6aaa98e578fc4747",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 36952,
+      "sha256": "d1c7011a40e09b8363e626d77816bb2f574a9907ef25469d15ba3d0c544f86e5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 48500,
+      "sha256": "42a9dbb5efbb69d1a9a80748649fdbe2307d31ad7fd7f591410a34d8f93d7389",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 20283,
+      "sha256": "dcbfd9954ed3a91ee98fb8ac1521bfcec23ad6090e61b7df0a7d5647ab057789",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 44802,
+      "sha256": "ce66a6a0305555dde3b1fbf0453071a04e5de09eb4968b6454f3ccb874a7185b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 36193,
+      "sha256": "73c1dc407f055710c9f96408f091414303becd8b378d968916afabe92ef9d616",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 46235,
+      "sha256": "ba6d4a8491cec628586f929b609c24300908f04789dc9ab37f2d8ad26f31cb5e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 16869,
+      "sha256": "c219ff87ac0deec95b9f7976c47216b71954d42a5b97b11656f669cd89615791",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 58820,
+      "sha256": "f55bbc099e95dc6bf6590f91f98ef09a676d7351398c90493a9c8ed59d4fcafb",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 1294,
+      "sha256": "b71fc0f3fc86ed5d87011977275d09e7eb1a54a733a4938bc5c00496475915bb",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 5315,
+      "sha256": "f28ad0206ecae74144072fc35d4e4bb92ab32e6eb72747e12004a425dc7d9709",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1939,
+      "sha256": "1e327186355d72af7b71dd581a052ec3d5f57364770f0ab87cd3a378cbf9accf",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 436,
+      "sha256": "1fbd4970bbd428141fd19a8071350311e76886f982d223f26f1834774cea306b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "dea48403c69ca3de1e30cf6b8625146fbaf335bceacb4ada08a8e486e0d86cf4",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1193,
+      "sha256": "3e6bc359e7f1c8b390a4f959f6519cf70f45da4bbeacfd56de6e2308a7618c39",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/moped_body_basecolor.jpg",
+      "bytes": 289540,
+      "sha256": "335bf8f6725e985062537fb23838c66fe48ae1c43b6ed95fd05cfea39a1166a9",
+      "role": "textures"
+    },
+    {
+      "path": "textures/moped_body_metallic-moped_body_roughness.jpg",
+      "bytes": 256005,
+      "sha256": "ddcd9cb5ac6f86d52d708c55b68cc3d8144c90df28f50cbe03604352ab6d018a",
+      "role": "textures"
+    },
+    {
+      "path": "textures/moped_body_normal.jpg",
+      "bytes": 67362,
+      "sha256": "a40ce7fd55b24d39b450d23ee3805421bc89eece5b37a8adc7157023c01bbd7a",
+      "role": "textures"
+    }
+  ]
+}

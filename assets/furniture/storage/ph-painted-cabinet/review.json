@@ -1,0 +1,21 @@
+{
+  "id": "ph-painted-cabinet",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Inspected all 12 views. Distressed white paint over bare wood with wear concentrated correctly on edges and around the knobs. Both drawers, both doors and the metal pulls are separate solids, and the bottom view shows a properly closed carcass. Back panel has a plausible scraped-paint texture. Only 2.2k tris.",
+  "limitations": [
+    "Doors and drawers are modelled slightly open.",
+    "Wear pattern is baked, so it cannot be re-aged procedurally without retexturing."
+  ],
+  "contact_sheet_sha256": "e728723668409ba60d8b97f1714551f193e2a387166cebc4da177dd5ce5dc38c",
+  "reviewer": "arena-agent-visual-review",
+  "reviewed_at": "2026-11-04",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

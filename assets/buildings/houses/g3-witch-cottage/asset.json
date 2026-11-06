@@ -1,0 +1,465 @@
+{
+  "schema_version": 1,
+  "id": "g3-witch-cottage",
+  "title": "Crooked witch cottage",
+  "category": "buildings/houses",
+  "style": "stylized",
+  "tags": [
+    "cottage",
+    "witch",
+    "halloween",
+    "chimney",
+    "building",
+    "architecture",
+    "pbr",
+    "game-ready"
+  ],
+  "batch": "expansion-13",
+  "acquired_at": "2026-11-05T10:23:37.102016+00:00",
+  "review": {
+    "id": "g3-witch-cottage",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Stylized witch's cottage with thatched roof and crooked chimney. Stylized Grab3D building: glTF validation clean (0 errors), single fused mesh with PBR texture maps. Human-modeled upstream (origin.ai_content: false), not AI-generated. Free-standing complete building, no brand marks expected on generic/fantasy subjects.",
+    "limitations": [
+      "Human-modeled upstream (origin.ai_content: false), not AI-generated.",
+      "Stylized style rather than photoreal — textured but not 8K PBR.",
+      "Single fused mesh; cannot be disassembled or animated without separation.",
+      "Unrigged: no skeleton or animation clips."
+    ],
+    "contact_sheet_sha256": "9f716ca89988e46f42f97cc730216f415c187ca3f04786fa50d5178f065648e5",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/witch-cottage.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/witch-cottage/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/buildings/witch-cottage/",
+    "source_id": "witch-cottage",
+    "revision": "eb1baa5444e921da81f47bae309ee5e5c5ef1276a44e0f59039be0039659d73d",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/witch-cottage/witch-cottage.glb",
+        "bytes": 1970420,
+        "sha256": "eb1baa5444e921da81f47bae309ee5e5c5ef1276a44e0f59039be0039659d73d"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/witch-cottage/LICENSE.txt"
+  },
+  "model": "model/witch-cottage.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 3,
+    "materials": 3,
+    "images": 6,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_materials_emissive_strength"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/witch-cottage_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "witch-cottage_body_normal"
+    },
+    {
+      "path": "textures/witch-cottage_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "witch-cottage_body_basecolor"
+    },
+    {
+      "path": "textures/witch-cottage_body_metallic-witch-cottage_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "witch-cottage_body_metallic-witch-cottage_body_roughness"
+    },
+    {
+      "path": "textures/witch-cottage_door_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "witch-cottage_door_normal"
+    },
+    {
+      "path": "textures/witch-cottage_door_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "witch-cottage_door_basecolor"
+    },
+    {
+      "path": "textures/witch-cottage_door_metallic-witch-cottage_door_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "witch-cottage_door_metallic-witch-cottage_door_roughness"
+    }
+  ],
+  "authored_animations": [
+    {
+      "name": "door_open",
+      "parts": [
+        "witch-cottage_door"
+      ],
+      "axis": "Z",
+      "start_degrees": 0.0,
+      "degrees": 100.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/witch-cottage-animated.glb",
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 3,
+    "hidden_mesh_objects": 0,
+    "vertices": 26184,
+    "triangles": 27380,
+    "material_slots": 3,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 126,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "witch-cottage_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "witch-cottage_body_metallic-witch-cottage_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "witch-cottage_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "witch-cottage_door_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "witch-cottage_door_metallic-witch-cottage_door_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "witch-cottage_door_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1387,
+      "sha256": "59936ad2cfb65f97942e83dd363f837a6f302373ef5f72e56225ae486b495cba",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 20192,
+      "sha256": "9135a699009950a80fc8477f25e8541e398a507d851df4ee2963760a561b66c6",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 74841,
+      "sha256": "7c5465c7c901193f592994be8b6c5172fba9f229e042734795d0556e82c2afc5",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "7b592c5cb4f4067f3712947d3351dc08ba247e27f1ccafc5b80c3d6d93a99e68",
+      "role": "logs"
+    },
+    {
+      "path": "model/witch-cottage-animated.glb",
+      "bytes": 1974720,
+      "sha256": "3fea7750a138d9bfe61363c57052848f426e8314f1f66922b10e01929abddd37",
+      "role": "model"
+    },
+    {
+      "path": "model/witch-cottage.glb",
+      "bytes": 1970420,
+      "sha256": "eb1baa5444e921da81f47bae309ee5e5c5ef1276a44e0f59039be0039659d73d",
+      "role": "model"
+    },
+    {
+      "path": "previews/anim-door_open-a.jpg",
+      "bytes": 17898,
+      "sha256": "f01ed6618c30ede8be5a21ddd3a93693a5cc2af8200b220d3f7c31acde740df2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-door_open-b.jpg",
+      "bytes": 17548,
+      "sha256": "4afa6c9800109d6371a09c3aee52a79ab228e360f4c137e409447d363ef03c07",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-door_open-c.jpg",
+      "bytes": 17530,
+      "sha256": "73cb3ea7f5fe3a19337630293a45e54905802173157a5dfc5a74ab8b9fe6b4de",
+      "role": "previews"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 24207,
+      "sha256": "b74370366d90dd980c9d4b5c66b5f5f07622a2c6522ab0c00eeb9a351d96af36",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 35110,
+      "sha256": "ad3572299d60d285e95f48d9beedd830bef58f02818ccb5fc15f22bba2e45ffa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 321378,
+      "sha256": "9f716ca89988e46f42f97cc730216f415c187ca3f04786fa50d5178f065648e5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1343,
+      "sha256": "4be0d193143e52a38b31c3a78bf56991f20bf9080582da4a26ce0cdd6760a812",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 47183,
+      "sha256": "e65ede30484ce56374bae1bdfbaf092595a2b0ef424e392189b1217390463d2b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 49216,
+      "sha256": "b8511f715a11b6c211b95f08441ef4ac235daea056921214729ed8e6f34c4e43",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 36255,
+      "sha256": "e35f58e2bfbae0a41959d764c428b0b4a9e48605e3b8f4db8b9d6a19972e5774",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 43588,
+      "sha256": "15e5d35d5af6d1abb8fbe9193344911d43bc4a4c6353a297fd2d5d761b3ab8e1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 43466,
+      "sha256": "a69563616de1bd9f4d75a7eefeb6c5c9431bceea73f2824cc654b1139bcafe02",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 44056,
+      "sha256": "6148cfebb1b1ab9f26f41032b5b7ed3bc2a5b09fa7b55ce4322ee8c43aeea36d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 35583,
+      "sha256": "b8d720f6a2f543b6f9942272c8202df519bdb1630ccafb4917b9664055407903",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 50003,
+      "sha256": "052164b1f533b8636a91b6888f8faa242e49da91c6ad1390df93cd867ba4cb59",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 44284,
+      "sha256": "59ed46da5576d1b729d6c0c82e62b51df50344fbee73f4dfbac140a015300974",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 68691,
+      "sha256": "34464697d438a75f33520145813f6d959ad8870a94fb555d95dcf6ca8d82a6a1",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 576,
+      "sha256": "5e58b5af75ad59de5a42199e10000a66a28db3ab879b377c6e5ed2c9d508d4f2",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3254,
+      "sha256": "594b349e24392c8810c698ee278df224b1f3caa14498dd20ea1d7e7ec05e8d6b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 2067,
+      "sha256": "89382f0d7e53f0c64ae260d3559ee0f6954055c31a2b7fb6749de710dcc44450",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 522,
+      "sha256": "84d1bb748697e5cffd6cffde1b0d3789d9d7d90d56e84f80e56b23867cf8d7a9",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "7896e5bc78ac0581207ef628a2942aa39334cc52fc4d49ffb72e0afcb84f00f8",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1072,
+      "sha256": "af430230c09cf3038529f32c11670a75b63b52a866a86f989e343094ec4f01d2",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/witch-cottage_body_basecolor.jpg",
+      "bytes": 369327,
+      "sha256": "32128b5ca27c63cbe3ab783836e3251bb95f8ad85682a5faa8e4760e141665cd",
+      "role": "textures"
+    },
+    {
+      "path": "textures/witch-cottage_body_metallic-witch-cottage_body_roughness.jpg",
+      "bytes": 248362,
+      "sha256": "3876eb98dec9db4983dfd29639714ca9f7356d682e23359855a1541df0f2e772",
+      "role": "textures"
+    },
+    {
+      "path": "textures/witch-cottage_body_normal.jpg",
+      "bytes": 73302,
+      "sha256": "9533db621c5ee6e3c880173a7ed9ecf362addda30de9e78009b841aef497ba8a",
+      "role": "textures"
+    },
+    {
+      "path": "textures/witch-cottage_door_basecolor.jpg",
+      "bytes": 96545,
+      "sha256": "5d3b4e93ce3da8917af302dd90d4a23504082668ee01616bd51f43cf5152076e",
+      "role": "textures"
+    },
+    {
+      "path": "textures/witch-cottage_door_metallic-witch-cottage_door_roughness.jpg",
+      "bytes": 108494,
+      "sha256": "91fd7cff39ab47584097c7cddc40a4319527dac13df2961f7e9a3ff0d7e0f882",
+      "role": "textures"
+    },
+    {
+      "path": "textures/witch-cottage_door_normal.jpg",
+      "bytes": 66443,
+      "sha256": "56d2d650ff4d09a52385ec609aaac3985ced5fd0330b161f4dca71528b341525",
+      "role": "textures"
+    }
+  ]
+}

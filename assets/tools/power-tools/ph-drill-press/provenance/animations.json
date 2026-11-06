@@ -1,0 +1,67 @@
+{
+  "source_model": "drill_press_01_2k.gltf",
+  "authored": [
+    {
+      "name": "lid_open",
+      "parts": [
+        "drill_press_01_lid"
+      ],
+      "axis": "X",
+      "start_degrees": 100.0,
+      "degrees": 0.0,
+      "frames": 60,
+      "fps": 30
+    },
+    {
+      "name": "gear_spin",
+      "parts": [
+        "drill_press_01_gear_a",
+        "drill_press_01_gear_b"
+      ],
+      "axis": "X",
+      "start_degrees": 0.0,
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    },
+    {
+      "name": "bit_spin",
+      "parts": [
+        "drill_press_01_bit"
+      ],
+      "axis": "Z",
+      "start_degrees": 0.0,
+      "degrees": 720.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "verification": [
+    {
+      "clip": "lid_open",
+      "frames": [
+        "anim-lid_open-a.jpg",
+        "anim-lid_open-b.jpg",
+        "anim-lid_open-c.jpg"
+      ]
+    },
+    {
+      "clip": "gear_spin",
+      "frames": [
+        "anim-gear_spin-a.jpg",
+        "anim-gear_spin-b.jpg",
+        "anim-gear_spin-c.jpg"
+      ]
+    },
+    {
+      "clip": "bit_spin",
+      "frames": [
+        "anim-bit_spin-a.jpg",
+        "anim-bit_spin-b.jpg",
+        "anim-bit_spin-c.jpg"
+      ]
+    }
+  ],
+  "note": "Clips authored by this library, not upstream. Dedicated to CC0.",
+  "animated_model": "drill_press_01_2k-animated.glb"
+}

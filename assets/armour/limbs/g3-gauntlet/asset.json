@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "id": "g3-gauntlet",
+  "title": "Plated steel gauntlet",
+  "category": "armour/limbs",
+  "style": "stylized",
+  "tags": [
+    "gauntlet",
+    "glove",
+    "plate",
+    "brass",
+    "armour",
+    "pbr",
+    "game-ready"
+  ],
+  "batch": "expansion-12",
+  "acquired_at": "2026-11-04T23:59:44.922721+00:00",
+  "review": {
+    "id": "g3-gauntlet",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. Plated gauntlet with four articulated-looking finger plates, a thumb plate, a laminated back-of-hand defence with brass edges and a star punch, a tan leather glove, and a flared cuff with a buckled strap. The bottom view confirms the cuff is genuinely hollow with a modelled interior, so a hand can be placed inside. Free-standing, no stand. Unrigged.",
+    "limitations": [
+      "Stylised Cozy-kit palette rather than photoreal materials.",
+      "The finger plates are fused and will not curl with a hand rig without separation.",
+      "Modelled as a right hand only; mirror it for the left."
+    ],
+    "contact_sheet_sha256": "32c70f293c502946d1e06d67d1894fa8917e05ac5597e9099cc6123953232b60",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/gauntlet.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/gauntlet/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/weapons/gauntlet/",
+    "source_id": "gauntlet",
+    "revision": "4234274a6a7b2c62eb42c384dab8439e2381a82d5132fdfe64cf3c2041313d51",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/gauntlet/gauntlet.glb",
+        "bytes": 1134764,
+        "sha256": "4234274a6a7b2c62eb42c384dab8439e2381a82d5132fdfe64cf3c2041313d51"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/gauntlet/LICENSE.txt"
+  },
+  "model": "model/gauntlet.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/gauntlet_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "gauntlet_body_normal"
+    },
+    {
+      "path": "textures/gauntlet_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "gauntlet_body_basecolor"
+    },
+    {
+      "path": "textures/gauntlet_body_metallic-gauntlet_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "gauntlet_body_metallic-gauntlet_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 12776,
+    "triangles": 14926,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "gauntlet_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "gauntlet_body_metallic-gauntlet_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "gauntlet_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1314,
+      "sha256": "d6069ae5843c3dca93b0c469535bb3f2725c9fb92cf435e5b93bb1d5751ed7f9",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 288,
+      "sha256": "5dd4562cd642394b175f13eef92e9b03d7d9084bf5a9e4da80c85c183ebb23de",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67629,
+      "sha256": "f16b09d97af832c5b3fa7ee606a1664898189880441b20bcc1512b17c535fc1a",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/gauntlet.glb",
+      "bytes": 1134764,
+      "sha256": "4234274a6a7b2c62eb42c384dab8439e2381a82d5132fdfe64cf3c2041313d51",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 25682,
+      "sha256": "fd27dfff97df7d73390d28db85be8f1af64885f8802b1191d06fac81d89f02c6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 20411,
+      "sha256": "ef0bed82f1e530c608a42fa177d1503df463f8e1fc721bdcf2a4a8d7c669edfd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 197383,
+      "sha256": "32c70f293c502946d1e06d67d1894fa8917e05ac5597e9099cc6123953232b60",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 816,
+      "sha256": "0872c4f238d502e1c237a69d5a0059892b3e36fbbfa762c4ff313f97f3ee1b92",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 26908,
+      "sha256": "6109ce0d230c42b479f37ea69eabf8740bd287fa570d09677aa507806dc8c0b1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 25169,
+      "sha256": "32f130360c5063ab8d6508388a5e996532d1385703773902a93a4f03097f5103",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 19111,
+      "sha256": "97198608d088c5f6234014d72dd664d88c2e02f319ce5bf7e903269c63ce293d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 20599,
+      "sha256": "1d015bb06cbbefe34e9e2ee312ef31fc4948e171a7f9f79123aeea1fe7c3fcd9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 22640,
+      "sha256": "1b0ef64169f683f70834923d9f1dcaa57b6c118992f620611b67e7688db61078",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 20781,
+      "sha256": "4692a385667f5932edb1e3bc9299d1c708074f263d8778dee77db4629769590e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 21037,
+      "sha256": "9e56602faf41ddce0314e4d5d1f631b9d296a19c871053fa59edb2f0978e4547",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 26161,
+      "sha256": "4b032146ce8e5132197f7cbe41cfcb9104fad8242d9aed17902145a4a9ed1dd0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 36216,
+      "sha256": "7df9182d5307e4a5289e51ed101e9c7fa62323fe265fa0511197c07408a831e9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 46080,
+      "sha256": "6ebba7b736dfbdb2ed3ca01df05bb0585577a2853e54f39376eb6be4dcb1ee31",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 154,
+      "sha256": "22e8b008f354c6296add00b9c883926e2b28d81754435aa469ae861df0ce4eba",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1931,
+      "sha256": "364d52c71894675779b68cc715adc46f3c3cbb0e7f15981eef99278cfed3ba06",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1626,
+      "sha256": "4d271904d8f7049714d1f369cae97336801af240b26221403d914c925024dd6f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 459,
+      "sha256": "80bf4922d8c05de69d2a85ad78b925aa183a4c5dbc43a85978c6c58a4692b652",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "f73620922cfea8906d1ee52c129a821e02ff41634b1bb79b59c030e34c255e2e",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1060,
+      "sha256": "fbe742d419803d11db04fb8ab7cdf349decd976a3e4c6984b82827a68f098eca",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/gauntlet_body_basecolor.jpg",
+      "bytes": 287297,
+      "sha256": "c0588afe680ade24a880a8aef726b8ca71dfd7eda411ee57e97c736e75a7ab7d",
+      "role": "textures"
+    },
+    {
+      "path": "textures/gauntlet_body_metallic-gauntlet_body_roughness.jpg",
+      "bytes": 279985,
+      "sha256": "7fe4f61cc8be3588528c4826c9ee037577f07a21d8f4eda7d7946a70155fa795",
+      "role": "textures"
+    },
+    {
+      "path": "textures/gauntlet_body_normal.jpg",
+      "bytes": 66459,
+      "sha256": "175e34a2177d2f5a61c47ad8ad5e03c01b617dba7460696be85446170c2d262e",
+      "role": "textures"
+    }
+  ]
+}

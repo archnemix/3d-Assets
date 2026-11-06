@@ -1,0 +1,401 @@
+{
+  "schema_version": 1,
+  "id": "ph-tool-chest",
+  "title": "Rusted steel tool chest",
+  "category": "tools/storage",
+  "style": "realistic",
+  "tags": [
+    "toolbox",
+    "chest",
+    "steel",
+    "drawers",
+    "rusted",
+    "workshop",
+    "rigged",
+    "animatable",
+    "pbr"
+  ],
+  "batch": "expansion-09",
+  "acquired_at": "2026-11-04T22:23:58.273608+00:00",
+  "review": {
+    "id": "ph-tool-chest",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "All 12 views inspected. Red steel tool chest with an open lid on two stays, a lidded upper tray, four drawers with chrome pulls, side carry handles, a lock barrel and a riveted body. Interior tray walls, hinge hardware and the underside are all modelled, and rust and scratches wrap continuously across panels. A zoomed crop of the front plate reads as descriptive text about ball-bearing drawer runners, not a manufacturer wordmark.",
+    "limitations": [
+      "Not rigged in the shipped glTF: drawers and lid are fixed in the shown open position.",
+      "Drawers are shells without individual contents."
+    ],
+    "contact_sheet_sha256": "76e36b846c4c9a8e55ebbfd7329050fea7c21f4b123523706183b591d937783a",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-05",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/metal_tool_chest_2k.gltf",
+    "creator": "Yann Kervran, John Hutcheson",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/metal_tool_chest",
+    "source_id": "metal_tool_chest",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/metal_tool_chest/metal_tool_chest_2k.gltf",
+        "bytes": 12256,
+        "sha256": "dda470438a6e81abd26b37a763a07e11f986c051d3ed55efb129030d2b633b02"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/metal_tool_chest/metal_tool_chest_diff_2k.jpg",
+        "bytes": 2086113,
+        "sha256": "5f7a86356df60972a369734e8faeb955e2ff7f5914416059721cbfee3442d975"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/metal_tool_chest/metal_tool_chest_arm_2k.jpg",
+        "bytes": 2758131,
+        "sha256": "8887f2f4a1e080294196918a29d6d8a7efa9fc164b9a9a502fcac412eb3de8f4"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/metal_tool_chest/metal_tool_chest.bin",
+        "bytes": 434496,
+        "sha256": "c2bde4e96af4aad171e57e00ff78f0aa9e3b603286a2c74cd6d7c2a20c487342"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/metal_tool_chest/metal_tool_chest_nor_gl_2k.jpg",
+        "bytes": 2456895,
+        "sha256": "9275d16e87fadd4d282b684e7dabe41cd139c15fae8257c7b43f2f8943e7e3b5"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/metal_tool_chest_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 7,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/metal_tool_chest_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "metal_tool_chest_nor_gl"
+    },
+    {
+      "path": "model/textures/metal_tool_chest_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "metal_tool_chest_diff"
+    },
+    {
+      "path": "model/textures/metal_tool_chest_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "metal_tool_chest_metal-metal_tool_chest_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 7,
+    "hidden_mesh_objects": 0,
+    "vertices": 11073,
+    "triangles": 13360,
+    "material_slots": 7,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "metal_tool_chest_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-tool-chest/model/textures/metal_tool_chest_diff_2k.jpg"
+      },
+      {
+        "name": "metal_tool_chest_metal-metal_tool_chest_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-tool-chest/model/textures/metal_tool_chest_arm_2k.jpg"
+      },
+      {
+        "name": "metal_tool_chest_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-09/ph-tool-chest/model/textures/metal_tool_chest_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 7,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1285,
+      "sha256": "dd3c5bdca0ec0c6f90963a2cb91bb68bc58284c497e63ca74ffb60d07f2cc34c",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 20984,
+      "sha256": "3a114a0064b2f87c9522f028f63cf4ee50481b835b56c3dd8cb5b2ae949f0339",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 77183,
+      "sha256": "0b56c8c1530b28f5715b6ea182fd0496453c0437b1279add02fd8e80ceb5536c",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "a7895248c078f69b9ec394c8c816e7a6d50cd4d472d5ef578ced0beb076b22e0",
+      "role": "logs"
+    },
+    {
+      "path": "model/metal_tool_chest.bin",
+      "bytes": 434496,
+      "sha256": "c2bde4e96af4aad171e57e00ff78f0aa9e3b603286a2c74cd6d7c2a20c487342",
+      "role": "model"
+    },
+    {
+      "path": "model/metal_tool_chest_2k-animated.glb",
+      "bytes": 7769452,
+      "sha256": "e66b8be68ba73728436952569bba5149977a82a215ad3acf997e1ae5a7c63e48",
+      "role": "model"
+    },
+    {
+      "path": "model/metal_tool_chest_2k.gltf",
+      "bytes": 12256,
+      "sha256": "dda470438a6e81abd26b37a763a07e11f986c051d3ed55efb129030d2b633b02",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/metal_tool_chest_arm_2k.jpg",
+      "bytes": 2758131,
+      "sha256": "8887f2f4a1e080294196918a29d6d8a7efa9fc164b9a9a502fcac412eb3de8f4",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/metal_tool_chest_diff_2k.jpg",
+      "bytes": 2086113,
+      "sha256": "5f7a86356df60972a369734e8faeb955e2ff7f5914416059721cbfee3442d975",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/metal_tool_chest_nor_gl_2k.jpg",
+      "bytes": 2456895,
+      "sha256": "9275d16e87fadd4d282b684e7dabe41cd139c15fae8257c7b43f2f8943e7e3b5",
+      "role": "model"
+    },
+    {
+      "path": "previews/anim-lid_open-a.jpg",
+      "bytes": 18094,
+      "sha256": "bb3372c962dbddd983c026dfe0e5d5257570c6a3276470a0f23d0048b3d3f5f6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-lid_open-b.jpg",
+      "bytes": 21394,
+      "sha256": "f91b05e5f97eac02d66e31ef49bfa3a9c33b47de46b4cf305687fa77d445975f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-lid_open-c.jpg",
+      "bytes": 21166,
+      "sha256": "ce5bb24c375aedbff4083149e7ede5ee88d0396de5c9ab1688a91eda15acdd8e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 26985,
+      "sha256": "2d3496006cfdd504398d7a2123fa153002847ecc535fc4843552ec90a84c7589",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 31725,
+      "sha256": "b42f983db4be1783e91be11c7c71e714e86effb43a754452f0fdadfebf6f1cca",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 307424,
+      "sha256": "76e36b846c4c9a8e55ebbfd7329050fea7c21f4b123523706183b591d937783a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1174,
+      "sha256": "a906f8bfa1bf7d82d983702cb1d4b15338a56cfac4f0858d15b6499dc3ef8f26",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 61038,
+      "sha256": "1a4728c13916ddc59a1c5275b994f8e6a5a5c8ace7f2059bd717a9714b339225",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 55076,
+      "sha256": "96e6615f99281b32a88ae2062efb061a4c5b3bacd5cbf0024db4c60afeab5a3e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 26640,
+      "sha256": "76ed4c409a8a23db7888b6ee9bb64332c45b3dcd2c08eac799a6b77bb3c9166b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 43669,
+      "sha256": "f2343715c2e29b084023aeefa2b693c496dd317b7820d79e943e4b34fd30bc08",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 48395,
+      "sha256": "141cb1da4aa171d74ff23fafd138899979123ba1ba35cfbf12f54788218168c2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 43053,
+      "sha256": "8e19b51cb43997a31d5a6e16d53d17aaf533c4f9d5867de86d21fb3b86409e62",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 27931,
+      "sha256": "a5154ac77c436aebb953e7d050cd0daebb4269e4526849abdfddcb44346999d6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 54094,
+      "sha256": "17acfc1d3fb0a26a61b4f0812f3c21e60d87648a20938067e9b844fd08eec69b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 37807,
+      "sha256": "3173e2c8b8ed0c85c7ad3fda554582424f2e5470f4fb5cd5f94eb2bf16233454",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 52825,
+      "sha256": "37a2662b1fa4f46f87b00adc47fa1ad31e23712dc85e4a4426123a19682d68a1",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 586,
+      "sha256": "b33f5d95595038f74d5efed5b6029a6fa605d3cc39819f881739719190d981d4",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1487,
+      "sha256": "0102d33a196ebd77920b3bf4df741296ce70707b6ee8b374a5990519aa0a9d02",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 4106,
+      "sha256": "d93a5b0775b077ab171ca2d6c10d59247cf669ea7c01d4690fa9f2e93837bb1a",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1134,
+      "sha256": "33135204232210a018281961bbe20db445a7ca5842fb2ebd499634f193d04b27",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1051,
+      "sha256": "e7c7c38e8dce2dbe1bb61165d65d2e11452dd6dedb978706f43115e3a5fbd7c1",
+      "role": "documentation"
+    }
+  ],
+  "authored_animations": [
+    {
+      "name": "lid_open",
+      "parts": [
+        "metal_tool_chest_lid"
+      ],
+      "axis": "X",
+      "start_degrees": 100.0,
+      "degrees": 0.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/metal_tool_chest_2k-animated.glb"
+}

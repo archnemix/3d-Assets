@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "id": "ph-chinese-cabinet",
+  "title": "Antique Chinese wooden cabinet",
+  "category": "furniture/storage",
+  "style": "realistic",
+  "tags": [
+    "furniture",
+    "cabinet",
+    "storage",
+    "wood",
+    "brass",
+    "traditional",
+    "pbr"
+  ],
+  "batch": "expansion-08",
+  "acquired_at": "2026-11-04T17:16:17.519013+00:00",
+  "review": {
+    "id": "ph-chinese-cabinet",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Inspected all 12 views. Open upper shelving with pierced geometric galleries, two drawers and a cupboard with a cast brass ring pull below. Carved detail is real geometry, visible in the raking orbits. Back and bottom views confirm a properly closed carcass with plausible plain rear panelling. 15.7k tris.",
+    "limitations": [
+      "Rear panel is deliberately plain, so avoid placing it facing camera.",
+      "Drawers and cupboard door are closed and not rigged."
+    ],
+    "contact_sheet_sha256": "2a852248dbcb239dfab8e76766481d159340be7b46a9b8389d588f55a136c3ae",
+    "reviewer": "arena-agent-visual-review",
+    "reviewed_at": "2026-11-04",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/chinese_cabinet_2k.gltf",
+    "creator": "Kirill Sannikov",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/chinese_cabinet",
+    "source_id": "chinese_cabinet",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/chinese_cabinet/chinese_cabinet_2k.gltf",
+        "bytes": 8975,
+        "sha256": "20e99d90bdcff55426a50643b9f9ecd21b5f618e0b6969929a999c9d5d52a41f"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/chinese_cabinet/chinese_cabinet_arm_2k.jpg",
+        "bytes": 2572169,
+        "sha256": "d32e9b4c24719306d069f5b8788d168816ded09e25552f94c2e18ce0d395fe01"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/chinese_cabinet/chinese_cabinet.bin",
+        "bytes": 492960,
+        "sha256": "e0fa721a1536b426e70d2427f5068cd6b7467aac77cea92617862d05d981918f"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/chinese_cabinet/chinese_cabinet_nor_gl_2k.jpg",
+        "bytes": 1891330,
+        "sha256": "bf8715989fea712b7b1d6b38ee09ff3206f7d8a04cb149f8e6eaa231b18edcc9"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/chinese_cabinet/chinese_cabinet_diff_2k.jpg",
+        "bytes": 2255095,
+        "sha256": "a5ed497441a89aca93aae6b61f2cf6a65a5db6ff51cd418ac6a98d27d407728f"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/chinese_cabinet_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 5,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/chinese_cabinet_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "chinese_cabinet_nor_gl"
+    },
+    {
+      "path": "model/textures/chinese_cabinet_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "chinese_cabinet_diff"
+    },
+    {
+      "path": "model/textures/chinese_cabinet_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "chinese_cabinet_metal-chinese_cabinet_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 5,
+    "hidden_mesh_objects": 0,
+    "vertices": 12467,
+    "triangles": 15668,
+    "material_slots": 5,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "chinese_cabinet_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-chinese-cabinet/model/textures/chinese_cabinet_diff_2k.jpg"
+      },
+      {
+        "name": "chinese_cabinet_metal-chinese_cabinet_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-chinese-cabinet/model/textures/chinese_cabinet_arm_2k.jpg"
+      },
+      {
+        "name": "chinese_cabinet_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/expansion-08/ph-chinese-cabinet/model/textures/chinese_cabinet_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 5,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1269,
+      "sha256": "77d44e95d8067287da3af82d3b91fa4686b473c5d580d26ee9608e890214ff43",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 487,
+      "sha256": "b18afc6c4a05a66b06fd5f9e5b25ceffbc2910eee7909b0dc67972fdfc3069e1",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 73444,
+      "sha256": "76bd5b126ef071a87f1f05135ae78a7c64d5ab13d0eb699678fce2122a8b5ba4",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "4a1ac31e02299efa77ae3b810565b7859ed55e6bb96e9664c8420d2f29890ce8",
+      "role": "logs"
+    },
+    {
+      "path": "model/chinese_cabinet.bin",
+      "bytes": 492960,
+      "sha256": "e0fa721a1536b426e70d2427f5068cd6b7467aac77cea92617862d05d981918f",
+      "role": "model"
+    },
+    {
+      "path": "model/chinese_cabinet_2k.gltf",
+      "bytes": 8975,
+      "sha256": "20e99d90bdcff55426a50643b9f9ecd21b5f618e0b6969929a999c9d5d52a41f",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/chinese_cabinet_arm_2k.jpg",
+      "bytes": 2572169,
+      "sha256": "d32e9b4c24719306d069f5b8788d168816ded09e25552f94c2e18ce0d395fe01",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/chinese_cabinet_diff_2k.jpg",
+      "bytes": 2255095,
+      "sha256": "a5ed497441a89aca93aae6b61f2cf6a65a5db6ff51cd418ac6a98d27d407728f",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/chinese_cabinet_nor_gl_2k.jpg",
+      "bytes": 1891330,
+      "sha256": "bf8715989fea712b7b1d6b38ee09ff3206f7d8a04cb149f8e6eaa231b18edcc9",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 19174,
+      "sha256": "c4ac3bd74302241b1a3de91b3cc5a891035d1652e0e8ae1ba62de379713fc123",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 21656,
+      "sha256": "aa7b44a9106d913962a8aee0598c537dec19553d6966fee0f008914d6021cfd2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 206581,
+      "sha256": "2a852248dbcb239dfab8e76766481d159340be7b46a9b8389d588f55a136c3ae",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1182,
+      "sha256": "a72fe5e7ae48c69377210050e1841fda7f2cd416c73638c42468de28eb84b890",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 34635,
+      "sha256": "9cc96d1827241789703bffe5a71aa1835d37b5599cf3de3334993fbceb2ac457",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 34501,
+      "sha256": "529c028630747642f1b6b1dc1c400d86c7446c091ae22939133b47cea14faba6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 20556,
+      "sha256": "462bf7d18589a693ccc31ae461bd4b719145e91c99fac82d32c162dee6386270",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 32131,
+      "sha256": "5cb799e0348ca30c4743adf7ed971d588e4e8d3e7f728dbc0915e3d8858d37c6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 29608,
+      "sha256": "f44e900bcfc621322a7378ce429f801cddbf56926907ef6d0b008f7091576a52",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 30835,
+      "sha256": "74362e9606c716d0d1689725a09d34969b3b04594739cdfc2b027f80cd29f38d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 20819,
+      "sha256": "41b9171c859fb1bd2d1f08defd6d2b846180174eac9f2bff63bb41cbac6d78e3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 33580,
+      "sha256": "89187aa301455dc01868b52f4aee806c7bd0800c617eee940d8c502a246c90f0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 27769,
+      "sha256": "e759ba998b2277523935eb32eefa0a2d8bf0b8c118fe1fa26a908bf685e011ee",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 475,
+      "sha256": "0f4a2fca11575a1ebb1b89c1be68e100bb8916955fd18c090fc946a8fd2cb304",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 34529,
+      "sha256": "1628e270d3eebf2c18af2beb72ad9f249e06a5d23328ef38431208697712f5bc",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 165,
+      "sha256": "5e7b942130ad54b05b7ccda3ee4954744e5d233bc309d88729a2d90cc9b36510",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1205,
+      "sha256": "36fa60eacfb16e34a4558023085a6ae9cc453d438439b0a51583eab4ac34ab66",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3447,
+      "sha256": "21faa8ecffece3f682986e491aef2e4b8ad802fb5da55010e3ef16f625950766",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1119,
+      "sha256": "c344962831aa04953ac3b9b47ce42bc82ef23b64b3be5585e5e39aad923d3604",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 931,
+      "sha256": "5dd925d1f2814b10bd3ce6d5550b199376e2fd2ed922834c17f5d502d450f23c",
+      "role": "documentation"
+    }
+  ]
+}
