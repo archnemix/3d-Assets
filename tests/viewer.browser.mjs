@@ -123,6 +123,30 @@ try {
     0,
     "subcategories are not duplicated as main categories",
   );
+  const vehicles = catalog.assets.filter(
+    (asset) => asset.category.split("/")[0] === "vehicles",
+  );
+  assert.ok(vehicles.length > 4, "fixture contains more than four vehicles");
+  await page.locator("#main-category").selectOption("vehicles");
+  assert.equal(
+    await page.locator(".asset-card").count(),
+    vehicles.length,
+    "vehicles category includes all styles by default",
+  );
+  assert.match(
+    await page.locator("#result-count").textContent(),
+    new RegExp(
+      `Showing ${vehicles.length} of ${vehicles.length} matching assets`,
+    ),
+    "vehicle result count matches the actual card count",
+  );
+  await page.locator("#style").selectOption("realistic");
+  assert.equal(
+    await page.locator(".asset-card").count(),
+    vehicles.filter((asset) => asset.style === "realistic").length,
+    "realistic-only vehicles appear only when deliberately selected",
+  );
+  await page.locator("#style").selectOption("");
   await page.locator("#main-category").selectOption("buildings");
   assert.match(
     await page.locator("#result-count").textContent(),
