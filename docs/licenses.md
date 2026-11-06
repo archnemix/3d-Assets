@@ -2,7 +2,7 @@
 
 Checked on 2026-11-04. Scope: approved assets under assets/ only.
 
-**284 of 284 approved assets pass every check.**
+**286 of 286 approved assets pass every check.**
 
 Every approved asset is dedicated to the public domain under CC0 1.0. For each one
 that means: no cost, no attribution, commercial use allowed, use and redistribution
@@ -193,6 +193,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Low Poly Dolphin](../assets/nature/aquatic/g3-low-poly-dolphin/README.md) | `nature/aquatic` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Low Poly Humpback Whale](../assets/nature/aquatic/g3-low-poly-humpback-whale/README.md) | `nature/aquatic` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Clownfish](../assets/nature/aquatic/grab3d-clownfish/README.md) | `nature/aquatic` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Stylized Anglerfish](../assets/nature/aquatic/stylized/gobkit-anglerfish/README.md) | `nature/aquatic/stylized` | Gobkit / Alsomind Tech Co., Ltd. (gobkit-free) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Blue Morpho Butterfly](../assets/nature/creatures/g3-butterfly/README.md) | `nature/creatures` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Brachiosaurus](../assets/nature/creatures/grab3d-brachiosaurus/README.md) | `nature/creatures` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Dandelion 01](../assets/nature/flowers/ph-dandelion-01/README.md) | `nature/flowers` | Rob Tuytel, Rico Cilliers (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -241,6 +242,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Red Squirrel](../assets/nature/wildlife/g3-squirrel/README.md) | `nature/wildlife` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Hedgehog](../assets/nature/wildlife/grab3d-hedgehog/README.md) | `nature/wildlife` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Realistic street rat](../assets/nature/wildlife/ph-street-rat/README.md) | `nature/wildlife` | Sean Buckley (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Stylized Bat](../assets/nature/wildlife/stylized/gobkit-bat/README.md) | `nature/wildlife/stylized` | Gobkit / Alsomind Tech Co., Ltd. (gobkit-free) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Leather-bodied field binoculars](../assets/science/optical/ph-field-binoculars/README.md) | `science/optical` | Derek Wight (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Vintage brass binoculars](../assets/science/optical/ph-vintage-binoculars/README.md) | `science/optical` | Luke (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Vintage brass microscope](../assets/science/optical/ph-vintage-microscope/README.md) | `science/optical` | Luis José Fernández Rodríguez (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -314,6 +316,17 @@ standalone. "Display" means showing the model and our own renders publicly.
 - Storefronts have their own submission rules. AI-assisted assets may need a content disclosure (for example on Steam) even though the license permits the use.
 
 ## Source terms and caveats
+
+### Gobkit free assets — `gobkit-free`
+
+2 approved assets. Status: **verified**.
+
+- Terms: <https://github.com/Ariescar/gobkit-free-assets/blob/4e73c68fa6e8ca9d948fcc0ce7215c830a022c3b/README.md>
+- Pinned evidence: <https://raw.githubusercontent.com/Ariescar/gobkit-free-assets/4e73c68fa6e8ca9d948fcc0ce7215c830a022c3b/LICENSE>
+- Reselling the files themselves: The creator dedicates the free assets to CC0 1.0, allowing redistribution and standalone resale.
+
+- The repository provides only the first releases, not the separate named clips mentioned on the live service.
+- Check each asset and motion before publication; trademark and other third-party rights are not waived by CC0.
 
 ### Grab3D — `grab3d`
 
@@ -476,6 +489,8 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Octagonal ticket booth](../assets/buildings/entertainment/g3-ticket-booth/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Crooked witch cottage](../assets/buildings/houses/fantasy/g3-witch-cottage/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Stepped mudbrick ziggurat](../assets/buildings/landmarks/g3-ziggurat/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Stylized Anglerfish](../assets/nature/aquatic/stylized/gobkit-anglerfish/README.md) | Original free low-poly models; animation uses one continuous track. Upstream describes frame ranges at 24 fps: idle 0–29, attack 30–59, dead 60–89, walk 90–119. The dead segment should not loop. Playback and loop boundaries require engine-specific setup. |
+| [Stylized Bat](../assets/nature/wildlife/stylized/gobkit-bat/README.md) | Original free low-poly models; animation uses one continuous track. Upstream describes frame ranges at 24 fps: idle 0–29, attack 30–59, dead 60–89, walk 90–119. The dead segment should not loop. Playback and loop boundaries require engine-specific setup. |
 | [Porcelain shell android](../assets/characters/scifi/grab3d-android/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Knight in silver and gold plate](../assets/characters/fantasy/grab3d-armored-knight/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Astronaut in EVA spacesuit](../assets/characters/scifi/grab3d-astronaut/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
@@ -547,19 +562,19 @@ Every check below is machine-verified by `python -m asset_library license-audit`
 
 | Check | Passing |
 | --- | --- |
-| `cc0_spdx` | 284/284 |
-| `cc0_text_present` | 284/284 |
-| `commercial_use_allowed` | 284/284 |
-| `evidence_recorded` | 284/284 |
-| `free_of_charge` | 284/284 |
-| `license_file_checksummed` | 284/284 |
-| `no_attribution_required` | 284/284 |
-| `no_trademark_warning` | 284/284 |
-| `redistribution_allowed` | 284/284 |
-| `source_terms_verified` | 284/284 |
-| `standalone_resale_permitted` | 284/284 |
-| `textures_included` | 284/284 |
-| `visually_approved` | 284/284 |
+| `cc0_spdx` | 286/286 |
+| `cc0_text_present` | 286/286 |
+| `commercial_use_allowed` | 286/286 |
+| `evidence_recorded` | 286/286 |
+| `free_of_charge` | 286/286 |
+| `license_file_checksummed` | 286/286 |
+| `no_attribution_required` | 286/286 |
+| `no_trademark_warning` | 286/286 |
+| `redistribution_allowed` | 286/286 |
+| `source_terms_verified` | 286/286 |
+| `standalone_resale_permitted` | 286/286 |
+| `textures_included` | 286/286 |
+| `visually_approved` | 286/286 |
 
 ## Evidence per asset
 
@@ -677,6 +692,8 @@ Each row links to the license file stored beside the model and to the exact
 | g3-ticket-booth | [LICENSE.txt](../assets/buildings/entertainment/g3-ticket-booth/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/ticket-booth/) | [evidence](https://grab3d.com/dl/ticket-booth/LICENSE.txt) |
 | g3-witch-cottage | [LICENSE.txt](../assets/buildings/houses/fantasy/g3-witch-cottage/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/witch-cottage/) | [evidence](https://grab3d.com/dl/witch-cottage/LICENSE.txt) |
 | g3-ziggurat | [LICENSE.txt](../assets/buildings/landmarks/g3-ziggurat/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/ziggurat/) | [evidence](https://grab3d.com/dl/ziggurat/LICENSE.txt) |
+| gobkit-anglerfish | [LICENSE.txt](../assets/nature/aquatic/stylized/gobkit-anglerfish/LICENSE.txt) | `9c841187ead6` | [source](https://github.com/Ariescar/gobkit-free-assets/blob/4e73c68fa6e8ca9d948fcc0ce7215c830a022c3b/animal/Anglerfish.glb) | [evidence](https://raw.githubusercontent.com/Ariescar/gobkit-free-assets/4e73c68fa6e8ca9d948fcc0ce7215c830a022c3b/LICENSE) |
+| gobkit-bat | [LICENSE.txt](../assets/nature/wildlife/stylized/gobkit-bat/LICENSE.txt) | `9c841187ead6` | [source](https://github.com/Ariescar/gobkit-free-assets/blob/4e73c68fa6e8ca9d948fcc0ce7215c830a022c3b/animal/Bat.glb) | [evidence](https://raw.githubusercontent.com/Ariescar/gobkit-free-assets/4e73c68fa6e8ca9d948fcc0ce7215c830a022c3b/LICENSE) |
 | grab3d-android | [LICENSE.txt](../assets/characters/scifi/grab3d-android/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/android/) | [evidence](https://grab3d.com/dl/android-rigged/LICENSE.txt) |
 | grab3d-armored-knight | [LICENSE.txt](../assets/characters/fantasy/grab3d-armored-knight/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/armored-knight/) | [evidence](https://grab3d.com/dl/armored-knight-rigged/LICENSE.txt) |
 | grab3d-astronaut | [LICENSE.txt](../assets/characters/scifi/grab3d-astronaut/LICENSE.txt) | `66eda0cadb13` | [source](https://grab3d.com/models/characters/astronaut-in-spacesuit/) | [evidence](https://grab3d.com/dl/astronaut-in-spacesuit-rigged/LICENSE.txt) |

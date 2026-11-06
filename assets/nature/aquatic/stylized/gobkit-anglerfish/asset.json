@@ -13,8 +13,28 @@
   "batch": "gobkit-animals-01",
   "acquired_at": "2026-11-06T08:57:00.655762+00:00",
   "review": {
-    "status": "awaiting-visual-review",
-    "approved": false
+    "id": "gobkit-anglerfish",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Rounded pink anglerfish with lure, fins, tail and eyes. Reviewed all twelve inspection views, enlarged oblique view and sampled animation sheet; fins change position in later frames. The attack/death portion moves partly outside the sample camera. Motion sheet SHA-256: c29c68ce42ed36d7b25f01019c24b762b2932e180efd0a45c3d78600e0a6ad2f.",
+    "limitations": [
+      "One continuous baked track, not four separate named clips. Sampled motion was inspected but seamless loops and individual actions were not verified.",
+      "glTF validator reports three warnings concerning skinned-node transforms and image features; verify behavior in the target engine.",
+      "Simple low-poly cartoon style; this is not a realistic animal."
+    ],
+    "contact_sheet_sha256": "432af89de84c14cd8d0e0e67913885f4d0d04647d7dc9fca5e525b141ed0d173",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
   },
   "source": {
     "provider": "gobkit-free",
@@ -109,6 +129,12 @@
       "bytes": 628,
       "sha256": "9c841187ead66a563971fcffe3a92cf2f8d5d4eda0a77cbb695204298bda6f43",
       "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1565,
+      "sha256": "b2a2d5c889c7a70d0db1847090a95bd78e6bc3f4db51940b28e9fc3f8d3a5823",
+      "role": "documentation"
     },
     {
       "path": "logs/animations.log",
@@ -247,6 +273,12 @@
       "bytes": 4466,
       "sha256": "40d20f34a905f8e678ad558a33bf2d4e1d83c99748cf5ca1c72661ce18e30ad2",
       "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1173,
+      "sha256": "82beaa79b06413d962564313cc3951da878aa856c67b9ecb5394d347396cbfc9",
+      "role": "documentation"
     },
     {
       "path": "textures/texture-00.png",

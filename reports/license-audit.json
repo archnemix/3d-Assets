@@ -15,10 +15,11 @@
     "author_request_blocks_intake": true
   },
   "totals": {
-    "assets": 284,
-    "passed": 284,
+    "assets": 286,
+    "passed": 286,
     "failed": 0,
     "by_provider": {
+      "gobkit-free": 2,
       "grab3d": 149,
       "kenney": 10,
       "modkit-industrial": 14,
@@ -26,6 +27,26 @@
     }
   },
   "providers": {
+    "gobkit-free": {
+      "name": "Gobkit free assets",
+      "spdx": "CC0-1.0",
+      "status": "verified",
+      "free_of_charge": true,
+      "terms_url": "https://github.com/Ariescar/gobkit-free-assets/blob/4e73c68fa6e8ca9d948fcc0ce7215c830a022c3b/README.md",
+      "evidence_url": "https://raw.githubusercontent.com/Ariescar/gobkit-free-assets/4e73c68fa6e8ca9d948fcc0ce7215c830a022c3b/LICENSE",
+      "resale_as_is": {
+        "permitted": true,
+        "explicit": false,
+        "note": "The creator dedicates the free assets to CC0 1.0, allowing redistribution and standalone resale."
+      },
+      "asset_notes": [
+        "Original free low-poly models; animation uses one continuous track. Upstream describes frame ranges at 24 fps: idle 0–29, attack 30–59, dead 60–89, walk 90–119. The dead segment should not loop. Playback and loop boundaries require engine-specific setup."
+      ],
+      "caveats": [
+        "The repository provides only the first releases, not the separate named clips mentioned on the live service.",
+        "Check each asset and motion before publication; trademark and other third-party rights are not waived by CC0."
+      ]
+    },
     "grab3d": {
       "name": "Grab3D",
       "spdx": "CC0-1.0",
@@ -5879,6 +5900,40 @@
       "pass": true
     },
     {
+      "id": "gobkit-anglerfish",
+      "title": "Stylized Anglerfish",
+      "category": "nature/aquatic/stylized",
+      "creator": "Gobkit / Alsomind Tech Co., Ltd.",
+      "provider": "gobkit-free",
+      "spdx": "CC0-1.0",
+      "directory": "assets/nature/aquatic/stylized/gobkit-anglerfish",
+      "source_url": "https://github.com/Ariescar/gobkit-free-assets/blob/4e73c68fa6e8ca9d948fcc0ce7215c830a022c3b/animal/Anglerfish.glb",
+      "license_evidence": "https://raw.githubusercontent.com/Ariescar/gobkit-free-assets/4e73c68fa6e8ca9d948fcc0ce7215c830a022c3b/LICENSE",
+      "license_file": "assets/nature/aquatic/stylized/gobkit-anglerfish/LICENSE.txt",
+      "license_file_sha256": "9c841187ead66a563971fcffe3a92cf2f8d5d4eda0a77cbb695204298bda6f43",
+      "ai_assisted": false,
+      "notes": [
+        "Original free low-poly models; animation uses one continuous track. Upstream describes frame ranges at 24 fps: idle 0–29, attack 30–59, dead 60–89, walk 90–119. The dead segment should not loop. Playback and loop boundaries require engine-specific setup."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
       "id": "g3-butterfly",
       "title": "Blue Morpho Butterfly",
       "category": "nature/creatures",
@@ -7466,6 +7521,40 @@
       "license_file_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
       "ai_assisted": false,
       "notes": [],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "gobkit-bat",
+      "title": "Stylized Bat",
+      "category": "nature/wildlife/stylized",
+      "creator": "Gobkit / Alsomind Tech Co., Ltd.",
+      "provider": "gobkit-free",
+      "spdx": "CC0-1.0",
+      "directory": "assets/nature/wildlife/stylized/gobkit-bat",
+      "source_url": "https://github.com/Ariescar/gobkit-free-assets/blob/4e73c68fa6e8ca9d948fcc0ce7215c830a022c3b/animal/Bat.glb",
+      "license_evidence": "https://raw.githubusercontent.com/Ariescar/gobkit-free-assets/4e73c68fa6e8ca9d948fcc0ce7215c830a022c3b/LICENSE",
+      "license_file": "assets/nature/wildlife/stylized/gobkit-bat/LICENSE.txt",
+      "license_file_sha256": "9c841187ead66a563971fcffe3a92cf2f8d5d4eda0a77cbb695204298bda6f43",
+      "ai_assisted": false,
+      "notes": [
+        "Original free low-poly models; animation uses one continuous track. Upstream describes frame ranges at 24 fps: idle 0–29, attack 30–59, dead 60–89, walk 90–119. The dead segment should not loop. Playback and loop boundaries require engine-specific setup."
+      ],
       "checks": {
         "free_of_charge": true,
         "cc0_spdx": true,

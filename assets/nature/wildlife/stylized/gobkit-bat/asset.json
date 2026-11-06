@@ -13,8 +13,28 @@
   "batch": "gobkit-animals-01",
   "acquired_at": "2026-11-06T08:56:52.338336+00:00",
   "review": {
-    "status": "awaiting-visual-review",
-    "approved": false
+    "id": "gobkit-bat",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "A stylized yellow bat with pointed ears, wings, feet and nose; reviewed all twelve views, enlarged oblique view and sampled animation sheet. Wing positions vary in the later frames; some frames move partly outside the sample camera. Motion sheet SHA-256: d37b9d32be7f776e40c74f2bbc46b7e350b51bb251ce983e1a4b2ef1d44da2a6.",
+    "limitations": [
+      "One continuous baked track, not separate named clips. Sampled wing poses were inspected but seamless loops and individual actions were not verified.",
+      "glTF validator reports three warnings concerning skinned-node transforms and image features; verify behavior in the target engine.",
+      "Simple low-poly cartoon style; this is not a realistic animal."
+    ],
+    "contact_sheet_sha256": "625cfeb91e6e81d473b6ffce34d5b23fd38f508ebb930c42658d6e3c0a929588",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
   },
   "source": {
     "provider": "gobkit-free",
@@ -109,6 +129,12 @@
       "bytes": 628,
       "sha256": "9c841187ead66a563971fcffe3a92cf2f8d5d4eda0a77cbb695204298bda6f43",
       "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1545,
+      "sha256": "c1989f4da21d4d6b9db0e437b86ab084e23c44e9469613272897597105461392",
+      "role": "documentation"
     },
     {
       "path": "logs/animations.log",
@@ -247,6 +273,12 @@
       "bytes": 4466,
       "sha256": "40d20f34a905f8e678ad558a33bf2d4e1d83c99748cf5ca1c72661ce18e30ad2",
       "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1151,
+      "sha256": "d24784c06415a1f476bd1883ec9c7ae3998b49934dfad6c053b227a9de6cc694",
+      "role": "documentation"
     },
     {
       "path": "textures/texture-00.png",

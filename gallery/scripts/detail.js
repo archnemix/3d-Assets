@@ -210,6 +210,14 @@ export function showDetail(dialog, container, asset) {
       "detail-note",
     ),
   );
+  if (asset.review_limitations?.length) {
+    const limitations = node("section", "", "detail-limitations");
+    limitations.append(node("h3", "Review limitations"));
+    const items = node("ul");
+    for (const note of asset.review_limitations) items.append(node("li", note));
+    limitations.append(items);
+    facts.append(limitations);
+  }
   if (asset.tags?.length) {
     const tags = node("div", "", "tag-row");
     for (const tag of asset.tags) tags.append(node("span", tag, "pill"));

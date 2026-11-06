@@ -187,3 +187,16 @@ test("animated filter includes embedded and separately authored clips", () => {
   });
   assert.equal(filtered.length, 2);
 });
+
+test("catalog exposes per-asset review limitations", async () => {
+  const { readFile } = await import("node:fs/promises");
+  const catalog = JSON.parse(
+    await readFile(new URL("../manifest.json", import.meta.url), "utf8"),
+  );
+  const bat = catalog.assets.find((asset) => asset.id === "gobkit-bat");
+  assert.ok(
+    bat.review_limitations.some((note) =>
+      note.includes("continuous baked track"),
+    ),
+  );
+});

@@ -58,6 +58,7 @@ def summary(directory, manifest: dict, provider_terms: dict) -> dict:
             f"{base}/{manifest['animated_model']}" if manifest.get("animated_model") else None
         ),
         "review_scores": manifest["review"]["scores"],
+        "review_limitations": manifest["review"].get("limitations", []),
     }
 
 

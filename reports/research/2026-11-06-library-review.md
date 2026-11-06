@@ -175,3 +175,11 @@ Seven distinct stylized animals were requested for quarantine review. These orig
 repository exports have one continuous baked animation track with action frame ranges,
 not separate named clips; the later named-clip files advertised on the live site have
 not been acquired. Animation quality and suitability must be inspected before approval.
+
+The five-worker intake run `42191042578` downloaded and rendered all seven models.
+The anglerfish and bat were approved after their still views and sampled motion frames
+were inspected; each contains one continuous baked track, not individually named actions.
+Samples show fin or wing pose changes but do not establish smooth or seamless looping,
+and some action frames leave the static inspection camera. Both carry three glTF
+warnings about skin transforms and image features, documented as limitations. The
+other five remain quarantined, including the jellyfish (16 zero-area triangles).

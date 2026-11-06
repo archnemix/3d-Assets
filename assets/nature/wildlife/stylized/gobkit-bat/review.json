@@ -1,0 +1,22 @@
+{
+  "id": "gobkit-bat",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "A stylized yellow bat with pointed ears, wings, feet and nose; reviewed all twelve views, enlarged oblique view and sampled animation sheet. Wing positions vary in the later frames; some frames move partly outside the sample camera. Motion sheet SHA-256: d37b9d32be7f776e40c74f2bbc46b7e350b51bb251ce983e1a4b2ef1d44da2a6.",
+  "limitations": [
+    "One continuous baked track, not separate named clips. Sampled wing poses were inspected but seamless loops and individual actions were not verified.",
+    "glTF validator reports three warnings concerning skinned-node transforms and image features; verify behavior in the target engine.",
+    "Simple low-poly cartoon style; this is not a realistic animal."
+  ],
+  "contact_sheet_sha256": "625cfeb91e6e81d473b6ffce34d5b23fd38f508ebb930c42658d6e3c0a929588",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}
