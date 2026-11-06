@@ -1,0 +1,25 @@
+{
+  "batch": "vehicle-locomotive-01",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "decisions": [
+    {
+      "id": "oga-32kda-locomotive",
+      "decision": "rejected",
+      "scores": {
+        "silhouette": 4,
+        "materials": 3,
+        "topology": 4,
+        "completeness": 4,
+        "style_fit": 3
+      },
+      "notes": "Individually inspected the twelve-view sheet. Recognizable and distinctive locomotive with bogie detail, but flat colors, simplified side and roof features, and opaque cab windows fall short of the high-realism priority.",
+      "limitations": [
+        "Creator describes it as fictional and notes possible technical inaccuracies.",
+        "No animation clips or armatures found; interior was not verified.",
+        "One glTF validator warning; CC0 evidence does not independently establish ownership or clear third-party rights."
+      ],
+      "contact_sheet_sha256": "dc00893b94b31e0bd4f0c78646ebaf41559c787550560b76d480264cac38249f"
+    }
+  ]
+}
