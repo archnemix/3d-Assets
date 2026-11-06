@@ -7,12 +7,14 @@ from .innerscene import fetch_innerscene
 from .makehuman import fetch_makehuman
 from .oga_locomotive import fetch_oga_locomotive
 from .polyhaven import fetch_polyhaven
+from .research_vintage import fetch_research_vintage
 from .three_d_assets import fetch_three_d_assets
 
 
 def fetch(source: dict, candidate: dict, directory) -> dict:
     adapters = {
         "polyhaven": fetch_polyhaven,
+        "research-vintage": fetch_research_vintage,
         "github": fetch_github,
         "github-release": fetch_github_release,
         "makehuman": fetch_makehuman,
