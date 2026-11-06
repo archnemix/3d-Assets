@@ -1,0 +1,88 @@
+{
+  "id": "32423",
+  "slug": "bicycle-shop-and-repair-cafe-step-through-commuter-bic-8eeea2cf",
+  "title": "Step Through Commuter Bicycle (Bicycle Shop and Repair Cafe)",
+  "summary": "Low step-through commuter with curved low frame, swept bars, chain guard, mudguards and luggage carrier; complete static cycle with kickstand.",
+  "description": "Low step-through commuter with curved low frame, swept bars, chain guard, mudguards and luggage carrier; complete static cycle with kickstand. Dimensions 1.83 × 1.10 × 0.59 m (X × Y × Z). Metre units, +Y up, +Z front; origin on the ground at the footprint centre unless stated. Original petrol blue, steel, pale birch and black rubber bicycle workshop palette. Static geometry; no rig, animation, collision or navigation data. Static original bicycle service scenery only; no maintenance instructions or safety certification.",
+  "status": "published",
+  "url": "https://3dassets.dev/assets/bicycle-shop-and-repair-cafe-step-through-commuter-bic-8eeea2cf",
+  "cdnUrl": "https://cdn.3dassets.dev/assets/32423/v1/model.glb",
+  "downloadUrl": "https://3dassets.dev/download/bicycle-shop-and-repair-cafe-step-through-commuter-bic-8eeea2cf",
+  "thumbnailUrl": "https://cdn.3dassets.dev/assets/32423/v1/thumb.webp",
+  "posterUrl": "https://cdn.3dassets.dev/assets/32423/v1/poster.webp",
+  "blurhash": "U48Xa:%M8wtS?v~qVsD%00t7%$V@8^00x]-;",
+  "category": {
+    "slug": "props",
+    "title": "Props & Furniture"
+  },
+  "tags": [
+    {
+      "slug": "kit",
+      "title": "Kit / Set"
+    },
+    {
+      "slug": "modern",
+      "title": "Modern"
+    },
+    {
+      "slug": "realistic",
+      "title": "Realistic"
+    }
+  ],
+  "license": {
+    "slug": "cc0-1.0",
+    "name": "CC0 1.0 Universal",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false
+  },
+  "contributor": {
+    "username": "3dassets",
+    "name": "3D Assets",
+    "url": "https://3dassets.dev/u/3dassets"
+  },
+  "stats": {
+    "fileSize": 1302972,
+    "triangles": 64660,
+    "vertices": 56948,
+    "meshes": 4,
+    "materials": 4,
+    "textures": 0,
+    "animations": [],
+    "boundingBox": {
+      "min": [
+        -0.9159808158874512,
+        -4.454609981552338e-06,
+        -0.2957809360880736
+      ],
+      "max": [
+        0.9159808158874512,
+        1.1004355354160074,
+        0.2957809360880736
+      ]
+    },
+    "sizeMeters": [
+      1.832,
+      1.1,
+      0.592
+    ],
+    "hasDraco": false,
+    "hasMeshopt": false,
+    "hasKTX2": false,
+    "extensionsUsed": [
+      "KHR_mesh_quantization"
+    ]
+  },
+  "aiGenerated": true,
+  "aiModel": "GPT-6",
+  "downloads": 21,
+  "publishedAt": "2026-09-08T10:56:19.210Z",
+  "updatedAt": "2026-11-02T13:22:01.825Z",
+  "usage": {
+    "threejs": "import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'\n\nconst loader = new GLTFLoader()\nloader.load('https://cdn.3dassets.dev/assets/32423/v1/model.glb', (gltf) => {\n  scene.add(gltf.scene)\n})",
+    "r3f": "import { useGLTF } from '@react-three/drei'\n\nexport function StepThroughCommuterBicycleBicycleShopAndRepairCafe(props) {\n  const { scene } = useGLTF('https://cdn.3dassets.dev/assets/32423/v1/model.glb')\n  return <primitive object={scene} {...props} />\n}\nuseGLTF.preload('https://cdn.3dassets.dev/assets/32423/v1/model.glb')",
+    "modelViewer": "<model-viewer src=\"https://cdn.3dassets.dev/assets/32423/v1/model.glb\" alt=\"Step Through Commuter Bicycle (Bicycle Shop and Repair Cafe)\" camera-controls auto-rotate></model-viewer>",
+    "blender": "# Blender 4.x: File > Import > glTF 2.0, or from the Python console after downloading the file.\nimport bpy\nbpy.ops.import_scene.gltf(filepath='model.glb')  # from https://cdn.3dassets.dev/assets/32423/v1/model.glb\n# Metres and +Y up are converted to Blender's Z-up scene automatically.",
+    "godot": "# Godot 4: copy model.glb into res://models/ and the editor imports it as a scene.\nvar packed := load(\"res://models/model.glb\") as PackedScene\nvar model := packed.instantiate()\nadd_child(model)",
+    "unity": "// Unity: import model.glb with glTFast (Package Manager: com.unity.cloud.gltfast) and drag the prefab in,\n// or load it at runtime straight from the CDN:\nusing GLTFast;\nvar gltf = new GltfImport();\nif (await gltf.Load(\"https://cdn.3dassets.dev/assets/32423/v1/model.glb\")) await gltf.InstantiateMainSceneAsync(transform);"
+  }
+}
