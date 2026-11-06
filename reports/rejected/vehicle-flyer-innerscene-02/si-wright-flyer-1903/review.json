@@ -1,0 +1,24 @@
+{
+  "id": "si-wright-flyer-1903",
+  "decision": "rejected",
+  "scores": {
+    "silhouette": 5,
+    "materials": 2,
+    "topology": 4,
+    "completeness": 4,
+    "style_fit": 3
+  },
+  "notes": "Individually inspected the twelve views and the 4K base-color image: the aircraft and rigging are recognizable, but the model renders almost uniformly white and lacks useful material variation. It does not meet the desired realistic appearance.",
+  "limitations": [
+    "The two embedded 4K images include an almost entirely white base-color map; dimensions alone do not imply detail.",
+    "Static model, no animation or armature; scale not independently verified.",
+    "One glTF validator warning for generated tangent space."
+  ],
+  "contact_sheet_sha256": "079c334c2ea06eff025edc9e39b52aed7f1db0bf2b87b85064fcda1bc5ffda5e",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports",
+  "status": "rejected",
+  "approved": false
+}
