@@ -1,0 +1,383 @@
+{
+  "schema_version": 1,
+  "id": "g3-city-bus",
+  "title": "City bus",
+  "category": "vehicles/cars",
+  "style": "stylized",
+  "tags": [
+    "bus",
+    "public-transport",
+    "city"
+  ],
+  "batch": "vehicle-fast-01",
+  "acquired_at": "2026-11-06T14:02:42.201689+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/city-bus.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/city-bus/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/city-bus/",
+    "source_id": "city-bus",
+    "revision": "42ad77fe1d2b5c4843299057e926be4cf088138ed984d966a8073b7e2c7a49f4",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/city-bus/city-bus.glb",
+        "bytes": 1301920,
+        "sha256": "42ad77fe1d2b5c4843299057e926be4cf088138ed984d966a8073b7e2c7a49f4"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/city-bus/LICENSE.txt"
+  },
+  "model": "model/city-bus.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 10,
+    "materials": 19,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/city-bus_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "city-bus_body_normal"
+    },
+    {
+      "path": "textures/city-bus_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "city-bus_body_basecolor"
+    },
+    {
+      "path": "textures/city-bus_body_metallic-city-bus_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "city-bus_body_metallic-city-bus_body_roughness"
+    }
+  ],
+  "authored_animations": [
+    {
+      "name": "wheel_roll",
+      "parts": [
+        "city-bus_wheel_fl",
+        "city-bus_wheel_fr",
+        "city-bus_wheel_rl",
+        "city-bus_wheel_rr"
+      ],
+      "axis": "X",
+      "start_degrees": 0.0,
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    },
+    {
+      "name": "steer",
+      "parts": [
+        "city-bus_wheel_fl",
+        "city-bus_wheel_fr"
+      ],
+      "axis": "Z",
+      "start_degrees": 0.0,
+      "degrees": 32.0,
+      "frames": 45,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/city-bus-animated.glb",
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 10,
+    "hidden_mesh_objects": 0,
+    "vertices": 21259,
+    "triangles": 29866,
+    "material_slots": 19,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "city-bus_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "city-bus_body_metallic-city-bus_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "city-bus_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 42785,
+      "sha256": "a8d2a64a95893027eee334d803d41d5d8ee1bdf66ecb87dabda74a7c038dfdf9",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 81128,
+      "sha256": "2ee27db9b8f6188df1818e1206f5ee2d93cb4ae84e052366f38aacfb486f9d9b",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "e1f98c380b787ebe2fabc1c707bb1a5695ce46934266062b661ad6972ea67ddb",
+      "role": "logs"
+    },
+    {
+      "path": "model/city-bus-animated.glb",
+      "bytes": 1328568,
+      "sha256": "cb8f8dee6bb2575b50a872020a62517dd7bfc40c97e163f46dc17ce1ae1dd937",
+      "role": "model"
+    },
+    {
+      "path": "model/city-bus.glb",
+      "bytes": 1301920,
+      "sha256": "42ad77fe1d2b5c4843299057e926be4cf088138ed984d966a8073b7e2c7a49f4",
+      "role": "model"
+    },
+    {
+      "path": "previews/anim-steer-a.jpg",
+      "bytes": 9906,
+      "sha256": "ec7f7f97be84101740d6b0f4935584b4dcd64ad2664e4cd4e7b1a06576ae54bd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-steer-b.jpg",
+      "bytes": 9896,
+      "sha256": "d38a173036f75794df3ab70dc82c7e85a12a72c48c3c22ea5e29786599666086",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-steer-c.jpg",
+      "bytes": 9839,
+      "sha256": "647e562a9c344cb0fd13f66d6ba71a30ce5cd1288972415a9fd588735b3757d8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-a.jpg",
+      "bytes": 9906,
+      "sha256": "2932bf4835718500d5aba399c996bbee405d2201eab05ba1e485eef4b68fa45d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-b.jpg",
+      "bytes": 9904,
+      "sha256": "750cda29ed8992e7d6eb04ea3acf61ca581b45dee08e6c0a7702f46ed63af4d2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-c.jpg",
+      "bytes": 9906,
+      "sha256": "e5eabd1e781a39c3bbc182312d254e01962a253de87b9c1162ae3ab3ced52355",
+      "role": "previews"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 14678,
+      "sha256": "db8b3b87debf3d288e2de8f723c07ad98c978f65c2170297ab2c68dc8a54c225",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 19000,
+      "sha256": "9913547e3cee22df613f59d941872a13fd9ff1a97a334a51f7c7414526cb2aa7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 177042,
+      "sha256": "b471418ef827b0562862610f6679f3344cec2f73a6d7c5bf292bf577384c0cf6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 818,
+      "sha256": "3954a22ce4c43c7710dda5a64e9e1b56212fc0fa76632e9bc322ae9a30e68e0a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 21092,
+      "sha256": "7247b65364921425253b48da51d9a98ed61ff73945fe2223305d1e6c9cb7ba89",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 24427,
+      "sha256": "b6a18c6d5a0b2af5a11df6091700e75d1485091e3e877db37df1f29382c942f2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 20745,
+      "sha256": "113fdcf66e4072003486be52da17e7156ef52762c428a7f73113e8c2663799cc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 24160,
+      "sha256": "da19a241794cf003d6e07a7451c397bb39d1d3b283046d1c41de9ea5d6b41d99",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 21144,
+      "sha256": "b1e79c4a95b2f6d55e5a7fe0f49c8b7614cb926cf7683efda41b815fc447998e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 28449,
+      "sha256": "7368ff6898eb69760e31d7397c88dbcf9912ae9e310cb47a59ec4bf31fedc45c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 23447,
+      "sha256": "1d210a71e55e8a29dbd112ffa24a7977902d4de799af588e2d5751c5d0d4254e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 28178,
+      "sha256": "f72b461f56217ce4e7f80b6524a7da5bd10e2acb2f77b6d215182ba9503cde43",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 14798,
+      "sha256": "93ca2407d2d5dd548ec732b0658f79f27f66bca52437ef252600d7366d7bd9ca",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 46106,
+      "sha256": "b138177b842c8b30c793feda7c386ca0d2a130999ed94fe1cb95e8e1eb186cf0",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 1027,
+      "sha256": "3114a769bb93520a635043581b88493aac58ffa60577a2a865360badd188c967",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 5318,
+      "sha256": "aacf5cf2eaf5dddc4a9282a5dab15bded8d40897479bbdb21e83bf13c9cbb72e",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1622,
+      "sha256": "e490056cf17fd271703620cc1a163b3810bcbbb4d438abab7c9d566469fb2351",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 481,
+      "sha256": "5dd8159bb44d5aeb422d65ec490bbeefd6898c93557d6a6c1b52f22dee4b3cd3",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "139245c46acdb315b6c90b25f486a385c915cd4ceb20210fc3a82e0f1b9ec466",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/city-bus_body_basecolor.jpg",
+      "bytes": 169560,
+      "sha256": "3e46fbb7e182abf2be69125d1dee80802e3d1307f1254132b9f175dc1d77a620",
+      "role": "textures"
+    },
+    {
+      "path": "textures/city-bus_body_metallic-city-bus_body_roughness.jpg",
+      "bytes": 193939,
+      "sha256": "c42786717b1e4ff82cc41c6478ddb3b097c289b1a2d485176d91237d9df5f484",
+      "role": "textures"
+    },
+    {
+      "path": "textures/city-bus_body_normal.jpg",
+      "bytes": 70281,
+      "sha256": "cce87484bc4120fb514b69fb555f35a46f964fc824a7e2f7f3ce0dd0fa9173e1",
+      "role": "textures"
+    }
+  ]
+}

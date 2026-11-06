@@ -1,0 +1,47 @@
+{
+  "slug": "sailboat",
+  "triangles": 19799,
+  "texture_px": 2048,
+  "triangles_light": null,
+  "texture_px_light": null,
+  "files": {
+    "glb": {
+      "name": "sailboat.glb",
+      "bytes": 1382660
+    },
+    "blend": {
+      "name": "sailboat.blend",
+      "bytes": 1360210
+    },
+    "fbx": {
+      "name": "sailboat.fbx",
+      "bytes": 2701564
+    },
+    "obj": {
+      "name": "sailboat-obj.zip",
+      "bytes": 1583580
+    },
+    "usdz": {
+      "name": "sailboat.usdz",
+      "bytes": 2370375
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "3.040 x 9.000 x 13.180",
+    "triangles": 19799,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-09-26",
+    "real_size": "cruising sailboat (sloop), approx. 9.0 x 3.0 x 13.2 m (L x W x H incl. mast), draft 1.55 m, mast 10.4 m above deck",
+    "notes": "bow faces -Y; stands on its keel bulb at z = 0, add your own water (waterline at 1.55 m: blue boot stripe above the antifouling); separate moving parts with origin on their axis: sailboat_rudder (turns around Z), sailboat_helm_wheel (turns around its shaft), sailboat_boom_mainsail (boom + mainsail swing around the mast axis Z); sails are solid cambered shells with thickness; opaque tinted windows, no interior; no brand, no text, no sail number",
+    "set": "Cozy Boats & Aircraft Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}
