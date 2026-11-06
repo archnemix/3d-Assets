@@ -176,3 +176,17 @@ def test_audit_detects_stale_page(asset, monkeypatch):
 
 def test_recorded_terms_match_the_schema():
     assert licensing.terms()["policy"]["attribution_required"] is False
+
+
+def test_audit_discovers_nested_categories(asset, monkeypatch):
+    directory, manifest = asset
+    nested = directory.parent / "office" / directory.name
+    nested.parent.mkdir()
+    directory.rename(nested)
+    manifest["category"] = "furniture/chairs/office"
+    save(nested, manifest)
+    monkeypatch.setattr(licensing, "terms", lambda: TERMS)
+    report = licensing.build()
+    assert report["totals"]["assets"] == 1
+    assert report["assets"][0]["category"] == "furniture/chairs/office"
+    licensing.verify()

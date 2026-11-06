@@ -1,12 +1,12 @@
-# Modern beach villa with pool
+# Fantasy mushroom house
 
 - Creator: Grab3D
-- Source: https://grab3d.com/models/buildings/luxury-beach-house/
+- Source: https://grab3d.com/models/buildings/fantasy-mushroom-house/
 - License: CC0-1.0; no attribution required; commercial use and redistribution allowed.
-- Category: `buildings/houses`
+- Category: `buildings/houses/fantasy`
 - Intended style: stylized
-- Import: `model/luxury-beach-house.glb`
-- Triangles: 26,132; mesh objects: 14
+- Import: `model/fantasy-mushroom-house.glb`
+- Triangles: 27,798; mesh objects: 4
 - Rig: False; animation clips: 0
 - Texture images: 3
 

@@ -149,3 +149,21 @@ test("manifest carries per-asset license rights and caveats", async () => {
     "KayKit was retired at the author's request and must not reappear",
   );
 });
+
+test("parent category filters include descendants but not sibling prefixes", () => {
+  const nested = [
+    { ...assets[0], category: "furniture/chairs/office" },
+    { ...assets[0], category: "furniture/chairs-extra" },
+  ];
+  const filters = {
+    query: "",
+    category: "furniture/chairs",
+    style: "",
+    rigged: false,
+  };
+  assert.equal(filterAssets(nested, filters).length, 1);
+  const counts = categoryCounts(nested);
+  assert.equal(counts.get("furniture"), 2);
+  assert.equal(counts.get("furniture/chairs"), 1);
+  assert.equal(counts.get("furniture/chairs/office"), 1);
+});

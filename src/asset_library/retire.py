@@ -10,7 +10,7 @@ from pathlib import Path
 
 from jsonschema import FormatChecker, validate
 
-from .config import ROOT, read_json
+from .config import ROOT, read_json, require_slug
 from .files import write_json
 from .inspection import validate_inventory
 
@@ -31,7 +31,10 @@ def load(path: Path) -> dict:
 
 
 def locate(asset_id: str) -> Path:
-    matches = sorted((ROOT / "assets").glob(f"*/*/{asset_id}/asset.json"))
+    require_slug(asset_id)
+    matches = sorted(
+        path for path in (ROOT / "assets").rglob("asset.json") if path.parent.name == asset_id
+    )
     if not matches:
         raise ValueError(f"No published asset with id {asset_id!r}")
     if len(matches) > 1:

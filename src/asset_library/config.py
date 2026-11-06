@@ -30,5 +30,7 @@ def require_slug(value: str) -> str:
 def asset_directory(base: Path, category: str, asset_id: str) -> Path:
     if category not in categories():
         raise ValueError(f"Unknown category: {category}")
+    for part in category.split("/"):
+        require_slug(part)
     require_slug(asset_id)
     return base / category / asset_id

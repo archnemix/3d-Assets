@@ -21,7 +21,17 @@ def fetch_github(source: dict, candidate: dict, directory: Path) -> dict:
     if "Creative Commons Zero" not in license_text and "CC0 1.0 Universal" not in license_text:
         raise ValueError("Pinned upstream license is not explicitly CC0")
     (directory / "LICENSE.txt").write_text(license_text, encoding="utf-8")
-    upstream = candidate["path"]
+    if source.get("terms_path"):
+        terms_path = safe_relative_path(source["terms_path"]).as_posix()
+        terms_text = text(raw_url(source, terms_path), HOSTS)
+        if "CC0" not in terms_text:
+            raise ValueError("Pinned upstream terms do not confirm CC0")
+        evidence = directory / "provenance" / "upstream-terms.md"
+        evidence.parent.mkdir(parents=True, exist_ok=True)
+        evidence.write_text(terms_text, encoding="utf-8")
+    upstream = safe_relative_path(candidate["path"]).as_posix()
+    if PurePosixPath(upstream).suffix.lower() not in {".glb", ".gltf"}:
+        raise ValueError("GitHub model must be GLB or glTF")
     model = directory / "model" / Path(upstream).name
     records = [download(raw_url(source, upstream), model, HOSTS)]
     parent = PurePosixPath(upstream).parent
@@ -42,6 +52,7 @@ def fetch_github(source: dict, candidate: dict, directory: Path) -> dict:
             "commit": source["commit"],
             "path": upstream,
             "license_path": source["license_path"],
+            "terms_path": source.get("terms_path"),
             "original_creator": source["creator"],
             "original_page": source["page"],
             "mirror_notice": source.get("mirror_notice"),

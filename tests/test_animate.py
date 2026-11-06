@@ -65,3 +65,9 @@ def test_no_clip_assets_still_get_their_inventory_refreshed(tmp_path, monkeypatc
     manifest = json.loads((root / "asset.json").read_text())
     assert "provenance/animations.json" in {f["path"] for f in manifest["files"]}
     assert "animated_model" not in manifest
+
+
+def test_targets_find_nested_categories(tmp_path, monkeypatch):
+    write_asset(tmp_path, "nested", category="vehicles/cars/realistic")
+    monkeypatch.setattr(animate, "ROOT", tmp_path)
+    assert len(animate.targets({"batch": "b", "ids": ["nested"]})) == 1

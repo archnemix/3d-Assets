@@ -12,7 +12,13 @@ from asset_library.files import write_json
 from asset_library.gltf_repair import normalize_skin_weights
 from asset_library.http import download, text
 
-HOSTS = {"www.innerscene.com", "innerscene.com", "cdn.innerscene.com", "storage.googleapis.com", "objects.githubusercontent.com"}
+HOSTS = {
+    "www.innerscene.com",
+    "innerscene.com",
+    "cdn.innerscene.com",
+    "storage.googleapis.com",
+    "objects.githubusercontent.com",
+}
 
 _license_cache: str | None = None
 

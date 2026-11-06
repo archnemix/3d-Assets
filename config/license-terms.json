@@ -104,6 +104,26 @@
         "MakeHuman-branded clothing is excluded: it carries a logo, which CC0 does not license as a trademark.",
         "No MakeHuman-built asset is currently approved. Both casual human builds were rejected on visual quality, so this provider contributes zero rows to the audit."
       ]
+    },
+    "modkit-industrial": {
+      "name": "ModKit by Jaron Bragg",
+      "spdx": "CC0-1.0",
+      "status": "verified",
+      "free_of_charge": true,
+      "terms_url": "https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/README.md",
+      "evidence_url": "https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE",
+      "resale_as_is": {
+        "permitted": true,
+        "explicit": false,
+        "note": "The pinned README dedicates meshes and the assembled example to CC0 1.0; CC0 permits redistribution and resale of the files themselves."
+      },
+      "asset_notes": [
+        "Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR."
+      ],
+      "caveats": [
+        "The example scene and individual components are from the same pinned upstream repository. Confirm in-engine navigation, collisions, scale and visual quality before assuming it is a complete playable map.",
+        "CC0 does not clear trademarks, patents or third-party rights; inspect all models and source evidence individually."
+      ]
     }
   }
 }

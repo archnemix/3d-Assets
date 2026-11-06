@@ -11,7 +11,7 @@
     "candidates": {
       "type": "array",
       "minItems": 1,
-      "maxItems": 30,
+      "maxItems": 50,
       "uniqueItems": true,
       "items": {"type": "string", "pattern": "^quarantine/[a-z0-9-]+/[a-z0-9-]+$"}
     }

@@ -107,3 +107,13 @@ def test_kaykit_is_closed_to_future_intake():
     assert not any("kaykit" in name for name in sources())
     assert not any("kaykit" in name for name in terms()["providers"])
     assert terms()["policy"]["author_request_blocks_intake"] is True
+
+
+def test_locate_finds_nested_category_and_rejects_unsafe_id(published):
+    root, directory = published
+    nested = directory.parent / "office" / directory.name
+    nested.parent.mkdir()
+    directory.rename(nested)
+    assert retire.locate("test-chair") == nested
+    with pytest.raises(ValueError):
+        retire.locate("../test-chair")

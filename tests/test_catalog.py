@@ -119,3 +119,22 @@ def test_catalog_rejects_disagreement_with_review_record(library):
     write_json(directory / "asset.json", manifest)
     with pytest.raises(ValueError, match="disagree"):
         catalog.collect()
+
+
+def test_nested_category_is_cataloged(library, monkeypatch):
+    root, directory, manifest = library
+    nested = root / "assets" / "furniture" / "chairs" / "office" / "test-chair"
+    nested.parent.mkdir(parents=True)
+    directory.rename(nested)
+    manifest["category"] = "furniture/chairs/office"
+    write_json(nested / "asset.json", manifest)
+    monkeypatch.setattr(catalog, "categories", lambda: {"furniture/chairs/office": "Office chairs"})
+    result = catalog.build()
+    assert result["assets"][0]["category"] == "furniture/chairs/office"
+    catalog.verify()
+
+
+def test_category_page_collision_is_rejected(library, monkeypatch):
+    monkeypatch.setattr(catalog, "categories", lambda: {"a/b-c": "One", "a-b/c": "Two"})
+    with pytest.raises(ValueError, match="overwrite"):
+        catalog.write_category_pages([])

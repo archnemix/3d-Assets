@@ -86,3 +86,23 @@ def test_refresh_writes_result_even_when_one_render_fails(refresh_request, tmp_p
         "awaiting-visual-review",
     ]
     assert (tmp_path / document["candidates"][0] / "logs" / "refresh-failure.txt").exists()
+
+
+def test_refresh_schema_accepts_fifty_but_rejects_fifty_one():
+    from jsonschema import ValidationError, validate
+
+    schema = json.loads(
+        (
+            refresh.Path(__file__).resolve().parents[1] / "schemas" / "refresh.schema.json"
+        ).read_text()
+    )
+    document = {
+        "batch": "test-batch",
+        "reason": "Regenerate inspection renders for all candidate assets.",
+        "requested_at": "2026-11-06",
+        "candidates": [f"quarantine/test-batch/candidate-{i}" for i in range(50)],
+    }
+    validate(document, schema)
+    document["candidates"].append("quarantine/test-batch/candidate-50")
+    with pytest.raises(ValidationError):
+        validate(document, schema)

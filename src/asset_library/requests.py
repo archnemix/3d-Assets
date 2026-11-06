@@ -13,6 +13,7 @@ def load_request(path: Path) -> dict:
     validate(value, read_json(ROOT / "schemas" / "request.schema.json"))
     seen = set()
     registered = sources()
+    published_ids = {path.parent.name for path in (ROOT / "assets").rglob("asset.json")}
     for candidate in value["candidates"]:
         if candidate["id"] in seen:
             raise ValueError(f"Duplicate candidate: {candidate['id']}")
@@ -20,7 +21,7 @@ def load_request(path: Path) -> dict:
         asset_directory(ROOT / "assets", candidate["category"], candidate["id"])
         if candidate["source"] not in registered:
             raise ValueError(f"Unregistered source: {candidate['source']}")
-        if (ROOT / "assets" / candidate["category"] / candidate["id"]).exists():
+        if candidate["id"] in published_ids:
             raise ValueError(f"Already published; use a new revision request: {candidate['id']}")
     return value
 

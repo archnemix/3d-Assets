@@ -89,7 +89,7 @@ def record(directory, manifest: dict, provider: dict) -> dict:
 
 def collect(terms_document: dict) -> list[dict]:
     records = []
-    for path in sorted((ROOT / "assets").glob("*/*/*/asset.json")):
+    for path in sorted((ROOT / "assets").rglob("asset.json")):
         manifest = read_json(path)
         name = manifest["source"]["provider"]
         provider = terms_document["providers"].get(name)

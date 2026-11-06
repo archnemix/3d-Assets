@@ -64,7 +64,7 @@ def summary(directory, manifest: dict, provider_terms: dict) -> dict:
 def collect() -> list[dict]:
     result = []
     providers = terms()["providers"]
-    for path in sorted((ROOT / "assets").glob("*/*/*/asset.json")):
+    for path in sorted((ROOT / "assets").rglob("asset.json")):
         manifest = read_json(path)
         check_review(path.parent, manifest)
         if manifest["license"]["spdx"] != "CC0-1.0":
@@ -77,6 +77,9 @@ def collect() -> list[dict]:
 def write_category_pages(entries: list[dict]) -> None:
     root = ROOT / "docs" / "categories"
     root.mkdir(parents=True, exist_ok=True)
+    names = [category.replace("/", "-") + ".md" for category in categories()]
+    if len(names) != len(set(names)):
+        raise ValueError("Category paths would overwrite a category page")
     for category, description in categories().items():
         assets = [entry for entry in entries if entry["category"] == category]
         lines = [f"# {category}", "", description, "", f"Approved assets: **{len(assets)}**", ""]
@@ -97,7 +100,7 @@ def write_category_pages(entries: list[dict]) -> None:
                 "",
             ]
         filename = category.replace("/", "-") + ".md"
-        (root / filename).write_text("\n".join(lines) + "\n", encoding="utf-8")
+        (root / filename).write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
 
 
 def document(entries: list[dict]) -> dict:

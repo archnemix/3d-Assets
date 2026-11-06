@@ -4,7 +4,7 @@ A curated library of free, public-domain 3D assets for games, renders and protot
 
 ## Current status
 
-The library currently contains **270 approved CC0 assets** in **73 categories**, saved as real files under `assets/` and organized by category and subject. **Only entries in `manifest.json` are approved.** Files under `quarantine/` are review candidates, not recommendations.
+The library currently contains **270 approved CC0 assets** in **75 categories**, saved as real files under `assets/` and organized by category and subject. **Only entries in `manifest.json` are approved.** Files under `quarantine/` are review candidates, not recommendations.
 
 Approved subjects span realistic rigged humans, low-poly game characters, chairs, sofas, tables, beds, cabinets and shelving, desks, hand and power tools, measuring instruments, optical and scientific instruments, cookware and tableware, fruit, vegetables and baked goods, vases, books, potted plants, vehicles, toys, computers and audio, appliances, safety equipment, industrial containers, carts and lighting. The realistic-human set currently includes an adult male base character, an adult female base character and an elderly woman, each with embedded PBR textures and walk/run animation clips. MakeHuman/MPFB generation is working through the same quarantine/review pipeline, but generated characters are only added after they pass inspection and visual review.
 
@@ -23,7 +23,6 @@ assets/
   furniture/
     chairs/
       ph-victorian-armchair/
-      kaykit-dining-chair/
       kenney-cushion-chair/
 ```
 
@@ -37,7 +36,7 @@ Import the file identified by `model` into Blender, Godot or another glTF-compat
 python -m http.server 8000 --bind 0.0.0.0
 ```
 
-Open `http://localhost:8000/` on your own computer. It redirects to the live gallery at `/gallery/`. The gallery reads the approved-only manifest, refreshes automatically, and lets you browse all assets or filter by category, style, search text, and rigging.
+Open `http://localhost:8000/` on your own computer. It redirects to the live gallery at `/gallery/`. The gallery reads the approved-only manifest, refreshes automatically, and lets you browse all assets or filter by category (including parent categories), style, search text, and rigging.
 
 ## Documentation
 

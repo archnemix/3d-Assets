@@ -976,55 +976,9 @@
       }
     },
     {
-      "id": "g3-beach-house",
-      "title": "Modern beach villa with pool",
-      "category": "buildings/houses",
-      "style": "stylized",
-      "tags": [
-        "villa",
-        "beach",
-        "pool",
-        "modern",
-        "glass",
-        "building",
-        "architecture",
-        "pbr",
-        "game-ready"
-      ],
-      "creator": "Grab3D",
-      "license": "CC0-1.0",
-      "license_notes": [
-        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
-      ],
-      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
-      "source_url": "https://grab3d.com/models/buildings/luxury-beach-house/",
-      "license_evidence": "https://grab3d.com/dl/luxury-beach-house/LICENSE.txt",
-      "directory": "assets/buildings/houses/g3-beach-house",
-      "metadata": "assets/buildings/houses/g3-beach-house/asset.json",
-      "metadata_sha256": "cade45cb0f752fd5eb4411851f131bccbdd605059d8130c1bccbcd6561cba129",
-      "model": "assets/buildings/houses/g3-beach-house/model/luxury-beach-house.glb",
-      "preview": "assets/buildings/houses/g3-beach-house/previews/orbit-01.jpg",
-      "contact_sheet": "assets/buildings/houses/g3-beach-house/previews/contact-sheet.jpg",
-      "triangles": 26132,
-      "texture_count": 3,
-      "max_texture_resolution": 2048,
-      "rigged": false,
-      "animation_count": 0,
-      "authored_animation_count": 0,
-      "authored_animations": [],
-      "animated_model": null,
-      "review_scores": {
-        "silhouette": 5,
-        "materials": 4,
-        "topology": 5,
-        "completeness": 5,
-        "style_fit": 5
-      }
-    },
-    {
       "id": "g3-mushroom-house",
       "title": "Fantasy mushroom house",
-      "category": "buildings/houses",
+      "category": "buildings/houses/fantasy",
       "style": "stylized",
       "tags": [
         "mushroom",
@@ -1044,12 +998,12 @@
       "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
       "source_url": "https://grab3d.com/models/buildings/fantasy-mushroom-house/",
       "license_evidence": "https://grab3d.com/dl/fantasy-mushroom-house/LICENSE.txt",
-      "directory": "assets/buildings/houses/g3-mushroom-house",
-      "metadata": "assets/buildings/houses/g3-mushroom-house/asset.json",
-      "metadata_sha256": "6799eb28a1b164762a8c96c7d59c5a269fc6fc8b0cccb6cb120df8af4ae3c04c",
-      "model": "assets/buildings/houses/g3-mushroom-house/model/fantasy-mushroom-house.glb",
-      "preview": "assets/buildings/houses/g3-mushroom-house/previews/orbit-01.jpg",
-      "contact_sheet": "assets/buildings/houses/g3-mushroom-house/previews/contact-sheet.jpg",
+      "directory": "assets/buildings/houses/fantasy/g3-mushroom-house",
+      "metadata": "assets/buildings/houses/fantasy/g3-mushroom-house/asset.json",
+      "metadata_sha256": "18605a8ae29e76b49a0039b4aec48d3a0f98f2972c0838a3f7cd4ae46f8c68ae",
+      "model": "assets/buildings/houses/fantasy/g3-mushroom-house/model/fantasy-mushroom-house.glb",
+      "preview": "assets/buildings/houses/fantasy/g3-mushroom-house/previews/orbit-01.jpg",
+      "contact_sheet": "assets/buildings/houses/fantasy/g3-mushroom-house/previews/contact-sheet.jpg",
       "triangles": 27798,
       "texture_count": 3,
       "max_texture_resolution": 2048,
@@ -1059,7 +1013,7 @@
       "authored_animations": [
         "door_open"
       ],
-      "animated_model": "assets/buildings/houses/g3-mushroom-house/model/fantasy-mushroom-house-animated.glb",
+      "animated_model": "assets/buildings/houses/fantasy/g3-mushroom-house/model/fantasy-mushroom-house-animated.glb",
       "review_scores": {
         "silhouette": 5,
         "materials": 4,
@@ -1107,6 +1061,52 @@
         "door_open"
       ],
       "animated_model": "assets/buildings/houses/g3-witch-cottage/model/witch-cottage-animated.glb",
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      }
+    },
+    {
+      "id": "g3-beach-house",
+      "title": "Modern beach villa with pool",
+      "category": "buildings/houses/modern",
+      "style": "stylized",
+      "tags": [
+        "villa",
+        "beach",
+        "pool",
+        "modern",
+        "glass",
+        "building",
+        "architecture",
+        "pbr",
+        "game-ready"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/buildings/luxury-beach-house/",
+      "license_evidence": "https://grab3d.com/dl/luxury-beach-house/LICENSE.txt",
+      "directory": "assets/buildings/houses/modern/g3-beach-house",
+      "metadata": "assets/buildings/houses/modern/g3-beach-house/asset.json",
+      "metadata_sha256": "f8cf11aeedc63001616b1b5ff5f02e92c02221a6ba40c5ba08237b84f4920041",
+      "model": "assets/buildings/houses/modern/g3-beach-house/model/luxury-beach-house.glb",
+      "preview": "assets/buildings/houses/modern/g3-beach-house/previews/orbit-01.jpg",
+      "contact_sheet": "assets/buildings/houses/modern/g3-beach-house/previews/contact-sheet.jpg",
+      "triangles": 26132,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
       "review_scores": {
         "silhouette": 5,
         "materials": 4,
@@ -11681,7 +11681,7 @@
   ],
   "totals": {
     "assets": 270,
-    "categories": 73,
+    "categories": 75,
     "by_category": {
       "architecture/doors": 1,
       "architecture/fences": 1,
@@ -11693,7 +11693,9 @@
       "buildings/commercial": 5,
       "buildings/entertainment": 5,
       "buildings/farm": 3,
-      "buildings/houses": 3,
+      "buildings/houses": 1,
+      "buildings/houses/fantasy": 1,
+      "buildings/houses/modern": 1,
       "buildings/landmarks": 6,
       "buildings/modular": 3,
       "characters/fantasy": 8,

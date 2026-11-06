@@ -41,9 +41,9 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Slatted corn crib on stilts](../assets/buildings/farm/g3-corn-crib/README.md) | `buildings/farm` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Roadside farm produce stand](../assets/buildings/farm/g3-farm-stand/README.md) | `buildings/farm` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Corrugated grain bin](../assets/buildings/farm/g3-grain-bin/README.md) | `buildings/farm` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
-| [Modern beach villa with pool](../assets/buildings/houses/g3-beach-house/README.md) | `buildings/houses` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
-| [Fantasy mushroom house](../assets/buildings/houses/g3-mushroom-house/README.md) | `buildings/houses` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Crooked witch cottage](../assets/buildings/houses/g3-witch-cottage/README.md) | `buildings/houses` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Fantasy mushroom house](../assets/buildings/houses/fantasy/g3-mushroom-house/README.md) | `buildings/houses/fantasy` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Modern beach villa with pool](../assets/buildings/houses/modern/g3-beach-house/README.md) | `buildings/houses/modern` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Fairy-tale castle with towers](../assets/buildings/landmarks/g3-castle/README.md) | `buildings/landmarks` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Roman colosseum](../assets/buildings/landmarks/g3-colosseum/README.md) | `buildings/landmarks` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Lattice iron tower](../assets/buildings/landmarks/g3-eiffel-tower/README.md) | `buildings/landmarks` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -347,7 +347,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [1990s police patrol car](../assets/vehicles/cars/g3-1990s-police-car/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Airport terminal with control tower](../assets/buildings/commercial/g3-airport-terminal/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Neoclassical bank with vault door](../assets/buildings/commercial/g3-bank/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
-| [Modern beach villa with pool](../assets/buildings/houses/g3-beach-house/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Modern beach villa with pool](../assets/buildings/houses/modern/g3-beach-house/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Brown Bear](../assets/nature/wildlife/g3-bear/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Bicolor Sphynx Cat](../assets/nature/wildlife/g3-bicolor-sphynx-cat/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [European Robin](../assets/nature/wildlife/g3-bird/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
@@ -433,7 +433,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Retro moped](../assets/vehicles/bikes/g3-moped/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Mountain bike](../assets/vehicles/bikes/g3-mountain-bike/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Classic fastback muscle car](../assets/vehicles/cars/g3-muscle-car/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
-| [Fantasy mushroom house](../assets/buildings/houses/g3-mushroom-house/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Fantasy mushroom house](../assets/buildings/houses/fantasy/g3-mushroom-house/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Hilltop castle with spires](../assets/buildings/landmarks/g3-neuschwanstein/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Theme park entrance with turnstiles](../assets/buildings/entertainment/g3-park-entrance/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Steel pauldron with lames](../assets/armour/limbs/g3-pauldron/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
@@ -534,7 +534,7 @@ Each row links to the license file stored beside the model and to the exact
 | g3-1990s-police-car | [LICENSE.txt](../assets/vehicles/cars/g3-1990s-police-car/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/1990s-police-car/) | [evidence](https://grab3d.com/dl/1990s-police-car/LICENSE.txt) |
 | g3-airport-terminal | [LICENSE.txt](../assets/buildings/commercial/g3-airport-terminal/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/airport-terminal/) | [evidence](https://grab3d.com/dl/airport-terminal/LICENSE.txt) |
 | g3-bank | [LICENSE.txt](../assets/buildings/commercial/g3-bank/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/bank/) | [evidence](https://grab3d.com/dl/bank/LICENSE.txt) |
-| g3-beach-house | [LICENSE.txt](../assets/buildings/houses/g3-beach-house/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/luxury-beach-house/) | [evidence](https://grab3d.com/dl/luxury-beach-house/LICENSE.txt) |
+| g3-beach-house | [LICENSE.txt](../assets/buildings/houses/modern/g3-beach-house/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/luxury-beach-house/) | [evidence](https://grab3d.com/dl/luxury-beach-house/LICENSE.txt) |
 | g3-bear | [LICENSE.txt](../assets/nature/wildlife/g3-bear/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/bear/) | [evidence](https://grab3d.com/dl/bear/LICENSE.txt) |
 | g3-bicolor-sphynx-cat | [LICENSE.txt](../assets/nature/wildlife/g3-bicolor-sphynx-cat/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/bicolor-sphynx-cat/) | [evidence](https://grab3d.com/dl/bicolor-sphynx-cat/LICENSE.txt) |
 | g3-bird | [LICENSE.txt](../assets/nature/wildlife/g3-bird/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/bird/) | [evidence](https://grab3d.com/dl/bird/LICENSE.txt) |
@@ -620,7 +620,7 @@ Each row links to the license file stored beside the model and to the exact
 | g3-moped | [LICENSE.txt](../assets/vehicles/bikes/g3-moped/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/moped/) | [evidence](https://grab3d.com/dl/moped/LICENSE.txt) |
 | g3-mountain-bike | [LICENSE.txt](../assets/vehicles/bikes/g3-mountain-bike/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/mountain-bike/) | [evidence](https://grab3d.com/dl/mountain-bike/LICENSE.txt) |
 | g3-muscle-car | [LICENSE.txt](../assets/vehicles/cars/g3-muscle-car/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/muscle-car/) | [evidence](https://grab3d.com/dl/muscle-car/LICENSE.txt) |
-| g3-mushroom-house | [LICENSE.txt](../assets/buildings/houses/g3-mushroom-house/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/fantasy-mushroom-house/) | [evidence](https://grab3d.com/dl/fantasy-mushroom-house/LICENSE.txt) |
+| g3-mushroom-house | [LICENSE.txt](../assets/buildings/houses/fantasy/g3-mushroom-house/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/fantasy-mushroom-house/) | [evidence](https://grab3d.com/dl/fantasy-mushroom-house/LICENSE.txt) |
 | g3-neuschwanstein | [LICENSE.txt](../assets/buildings/landmarks/g3-neuschwanstein/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/neuschwanstein-castle/) | [evidence](https://grab3d.com/dl/neuschwanstein-castle/LICENSE.txt) |
 | g3-park-entrance | [LICENSE.txt](../assets/buildings/entertainment/g3-park-entrance/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/theme-park-entrance/) | [evidence](https://grab3d.com/dl/theme-park-entrance/LICENSE.txt) |
 | g3-pauldron | [LICENSE.txt](../assets/armour/limbs/g3-pauldron/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/weapons/pauldron/) | [evidence](https://grab3d.com/dl/pauldron/LICENSE.txt) |

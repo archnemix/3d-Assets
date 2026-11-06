@@ -1,476 +1,553 @@
 {
-  "revision": 2,
-  "batch_id": "expansion-21",
+  "revision": 1,
+  "batch_id": "modkit-industrial-01",
   "candidates": [
     {
-      "id": "is-belt-cvt-low",
-      "title": "Belt CVT variable sheave pulleys low ratio",
-      "category": "vehicles/parts",
-      "source": "innerscene",
-      "style": "realistic",
+      "id": "modkit-industrial-outpost",
+      "title": "Industrial outpost modular example scene",
+      "category": "environments/industrial",
+      "source": "modkit-industrial",
+      "style": "stylized",
       "tags": [
-        "cvt",
-        "belt",
-        "pulley",
-        "drivetrain",
-        "mechanical",
-        "cutaway"
+        "industrial",
+        "modkit-industrial",
+        "environment",
+        "modular",
+        "scene"
       ],
-      "upstream_id": "belt-cvt-variable-sheave-pulleys-low-ratio-d091e05e"
+      "path": "examples/industrial_outpost/ModKit_Industrial_Outpost.glb"
     },
     {
-      "id": "is-belt-cvt-high",
-      "title": "Belt CVT variable sheave pulleys high ratio",
-      "category": "vehicles/parts",
-      "source": "innerscene",
-      "style": "realistic",
+      "id": "modkit-barrel",
+      "title": "Industrial barrel",
+      "category": "industrial/containers",
+      "source": "modkit-industrial",
+      "style": "stylized",
       "tags": [
-        "cvt",
-        "belt",
-        "pulley",
-        "drivetrain",
-        "mechanical",
-        "cutaway"
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
       ],
-      "upstream_id": "belt-cvt-variable-sheave-pulleys-high-ratio-181bc8e8"
+      "path": "exports/GLTF/SM_Barrel.glb"
     },
     {
-      "id": "is-differential-cutaway",
-      "title": "Open differential cutaway showing the gears",
-      "category": "vehicles/parts",
-      "source": "innerscene",
-      "style": "realistic",
+      "id": "modkit-barrel-dented",
+      "title": "Industrial barrel dented",
+      "category": "industrial/containers",
+      "source": "modkit-industrial",
+      "style": "stylized",
       "tags": [
-        "differential",
-        "gears",
-        "cutaway",
-        "drivetrain",
-        "mechanical"
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
       ],
-      "upstream_id": "open-differential-cutaway-showing-the-gears-b2983a71"
+      "path": "exports/GLTF/SM_Barrel_Dented.glb"
     },
     {
-      "id": "is-bsp-tee",
-      "title": "BSP equal tee G1/4 brass",
+      "id": "modkit-barrel-open",
+      "title": "Industrial barrel open",
+      "category": "industrial/containers",
+      "source": "modkit-industrial",
+      "style": "stylized",
+      "tags": [
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
+      ],
+      "path": "exports/GLTF/SM_Barrel_Open.glb"
+    },
+    {
+      "id": "modkit-beam-4m",
+      "title": "Industrial beam 4m",
+      "category": "buildings/modular/industrial",
+      "source": "modkit-industrial",
+      "style": "stylized",
+      "tags": [
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
+      ],
+      "path": "exports/GLTF/SM_Beam_4m.glb"
+    },
+    {
+      "id": "modkit-ceiling-4m",
+      "title": "Industrial ceiling 4m",
+      "category": "buildings/modular/industrial",
+      "source": "modkit-industrial",
+      "style": "stylized",
+      "tags": [
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
+      ],
+      "path": "exports/GLTF/SM_Ceiling_4m.glb"
+    },
+    {
+      "id": "modkit-crate-broken",
+      "title": "Industrial crate broken",
+      "category": "industrial/containers",
+      "source": "modkit-industrial",
+      "style": "stylized",
+      "tags": [
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
+      ],
+      "path": "exports/GLTF/SM_Crate_Broken.glb"
+    },
+    {
+      "id": "modkit-crate-large",
+      "title": "Industrial crate large",
+      "category": "industrial/containers",
+      "source": "modkit-industrial",
+      "style": "stylized",
+      "tags": [
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
+      ],
+      "path": "exports/GLTF/SM_Crate_Large.glb"
+    },
+    {
+      "id": "modkit-crate-small",
+      "title": "Industrial crate small",
+      "category": "industrial/containers",
+      "source": "modkit-industrial",
+      "style": "stylized",
+      "tags": [
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
+      ],
+      "path": "exports/GLTF/SM_Crate_Small.glb"
+    },
+    {
+      "id": "modkit-crate-stack",
+      "title": "Industrial crate stack",
+      "category": "industrial/containers",
+      "source": "modkit-industrial",
+      "style": "stylized",
+      "tags": [
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
+      ],
+      "path": "exports/GLTF/SM_Crate_Stack.glb"
+    },
+    {
+      "id": "modkit-debris-scatter",
+      "title": "Industrial debris scatter",
       "category": "industrial/infrastructure",
-      "source": "innerscene",
-      "style": "realistic",
+      "source": "modkit-industrial",
+      "style": "stylized",
       "tags": [
-        "bsp",
-        "tee",
-        "pipe",
-        "plumbing",
-        "brass",
-        "fitting",
-        "small"
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
       ],
-      "upstream_id": "bsp-equal-tee-g1-1-4-brass-5b1c3f2e"
+      "path": "exports/GLTF/SM_Debris_Scatter.glb"
     },
     {
-      "id": "is-roof-bay-trap",
-      "title": "Roof bay cut-away rafters Z purlins trap profile",
-      "category": "buildings/modular",
-      "source": "innerscene",
-      "style": "realistic",
+      "id": "modkit-door-panel",
+      "title": "Industrial door panel",
+      "category": "buildings/modular/industrial",
+      "source": "modkit-industrial",
+      "style": "stylized",
       "tags": [
-        "roof",
-        "rafters",
-        "purlins",
-        "cutaway",
-        "structural",
-        "modular"
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
       ],
-      "upstream_id": "roof-bay-cut-away-rafters-z-purlins-puf-sandwich-panels-trap-16f80e12"
+      "path": "exports/GLTF/SM_Door_Panel.glb"
     },
     {
-      "id": "is-roof-bay-tile",
-      "title": "Roof bay cut-away rafters Z purlins tile profile",
-      "category": "buildings/modular",
-      "source": "innerscene",
-      "style": "realistic",
+      "id": "modkit-doorframe",
+      "title": "Industrial doorframe",
+      "category": "buildings/modular/industrial",
+      "source": "modkit-industrial",
+      "style": "stylized",
       "tags": [
-        "roof",
-        "rafters",
-        "purlins",
-        "cutaway",
-        "structural",
-        "tile"
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
       ],
-      "upstream_id": "roof-bay-cut-away-rafters-z-purlins-puf-panels-with-tile-pro-ebef0acb"
+      "path": "exports/GLTF/SM_Doorframe.glb"
     },
     {
-      "id": "is-car-park",
-      "title": "Apartment basement car park level 30x20m",
-      "category": "buildings/commercial",
-      "source": "innerscene",
-      "style": "realistic",
+      "id": "modkit-floor-4m",
+      "title": "Industrial floor 4m",
+      "category": "buildings/modular/industrial",
+      "source": "modkit-industrial",
+      "style": "stylized",
       "tags": [
-        "car-park",
-        "basement",
-        "apartment",
-        "architecture",
-        "structural"
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
       ],
-      "upstream_id": "apartment-basement-car-park-level-about-30-x-20-m-e7036853"
+      "path": "exports/GLTF/SM_Floor_4m.glb"
     },
     {
-      "id": "is-mlx90640",
-      "title": "MLX90640 32x24 thermal camera breakout",
-      "category": "electronics/security",
-      "source": "innerscene",
-      "style": "realistic",
+      "id": "modkit-floor-hatch",
+      "title": "Industrial floor hatch",
+      "category": "buildings/modular/industrial",
+      "source": "modkit-industrial",
+      "style": "stylized",
       "tags": [
-        "thermal",
-        "camera",
-        "sensor",
-        "breakout",
-        "electronics",
-        "ic"
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
       ],
-      "upstream_id": "mlx90640-32-x-24-thermal-camera-breakout-to39-sensor-a0e086f3"
+      "path": "exports/GLTF/SM_Floor_Hatch.glb"
     },
     {
-      "id": "is-bmp180",
-      "title": "BMP180 barometric pressure sensor breakout",
-      "category": "electronics/computing",
-      "source": "innerscene",
-      "style": "realistic",
+      "id": "modkit-pallet",
+      "title": "Industrial pallet",
+      "category": "industrial/containers",
+      "source": "modkit-industrial",
+      "style": "stylized",
       "tags": [
-        "barometric",
-        "pressure",
-        "sensor",
-        "breakout",
-        "electronics"
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
       ],
-      "upstream_id": "bmp180-barometric-pressure-sensor-breakout-gy-68-size-884ac801"
+      "path": "exports/GLTF/SM_Pallet.glb"
     },
     {
-      "id": "is-rp2040",
-      "title": "RP2040 microcontroller board castellated USB-C",
-      "category": "electronics/computing",
-      "source": "innerscene",
-      "style": "realistic",
+      "id": "modkit-parapet-4m",
+      "title": "Industrial parapet 4m",
+      "category": "buildings/modular/industrial",
+      "source": "modkit-industrial",
+      "style": "stylized",
       "tags": [
-        "microcontroller",
-        "rp2040",
-        "board",
-        "castellated",
-        "electronics",
-        "ic"
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
       ],
-      "upstream_id": "rp2040-microcontroller-board-castellated-usb-c-ed61a322"
+      "path": "exports/GLTF/SM_Parapet_4m.glb"
     },
     {
-      "id": "is-tv-remote",
-      "title": "TV remote control generic rubber keypad",
-      "category": "electronics/appliances",
-      "source": "innerscene",
-      "style": "realistic",
+      "id": "modkit-pillar-3m",
+      "title": "Industrial pillar 3m",
+      "category": "buildings/modular/industrial",
+      "source": "modkit-industrial",
+      "style": "stylized",
       "tags": [
-        "remote",
-        "tv",
-        "keypad",
-        "electronics",
-        "prop"
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
       ],
-      "upstream_id": "tv-remote-control-generic-rubber-key-pad-300c0333"
+      "path": "exports/GLTF/SM_Pillar_3m.glb"
     },
     {
-      "id": "is-string-lights",
-      "title": "String lights warm white bulbs on a cable",
-      "category": "lighting/lamps",
-      "source": "innerscene",
-      "style": "realistic",
+      "id": "modkit-pipe-2m",
+      "title": "Industrial pipe 2m",
+      "category": "buildings/modular/industrial",
+      "source": "modkit-industrial",
+      "style": "stylized",
       "tags": [
-        "string-lights",
-        "outdoor",
-        "warm",
-        "bulbs",
-        "lighting",
-        "garden"
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
       ],
-      "upstream_id": "string-lights-warm-white-bulbs-on-a-cable-90982d40"
+      "path": "exports/GLTF/SM_Pipe_2m.glb"
     },
     {
-      "id": "is-diwali-diya",
-      "title": "Diwali diya clay oil lamp with flame",
-      "category": "lighting/lamps",
-      "source": "innerscene",
-      "style": "realistic",
+      "id": "modkit-railing-4m",
+      "title": "Industrial railing 4m",
+      "category": "buildings/modular/industrial",
+      "source": "modkit-industrial",
+      "style": "stylized",
       "tags": [
-        "diya",
-        "lamp",
-        "oil",
-        "clay",
-        "lighting",
-        "cultural"
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
       ],
-      "upstream_id": "diwali-diya-clay-oil-lamp-with-flame-c7590741"
+      "path": "exports/GLTF/SM_Railing_4m.glb"
     },
     {
-      "id": "is-surgical-light",
-      "title": "Surgical light hospital operating room",
-      "category": "lighting/ceiling",
-      "source": "innerscene",
-      "style": "realistic",
+      "id": "modkit-roof-corner-4m",
+      "title": "Industrial roof corner 4m",
+      "category": "buildings/modular/industrial",
+      "source": "modkit-industrial",
+      "style": "stylized",
       "tags": [
-        "surgical",
-        "light",
-        "hospital",
-        "medical",
-        "lighting",
-        "equipment"
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
       ],
-      "upstream_id": "surgical-light-fc364be9"
+      "path": "exports/GLTF/SM_Roof_Corner_4m.glb"
     },
     {
-      "id": "is-hook-rail",
-      "title": "Wall hook rail 600mm 5 double hooks",
-      "category": "furniture/storage",
-      "source": "innerscene",
-      "style": "realistic",
+      "id": "modkit-roof-flat-4m",
+      "title": "Industrial roof flat 4m",
+      "category": "buildings/modular/industrial",
+      "source": "modkit-industrial",
+      "style": "stylized",
       "tags": [
-        "hook",
-        "rail",
-        "wall",
-        "storage",
-        "furniture",
-        "hallway"
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
       ],
-      "upstream_id": "wall-hook-rail-600-mm-5-double-hooks-476c1c83"
+      "path": "exports/GLTF/SM_Roof_Flat_4m.glb"
     },
     {
-      "id": "is-coat-rack",
-      "title": "Freestanding coat rack 1.8m 6 hooks",
-      "category": "furniture/storage",
-      "source": "innerscene",
-      "style": "realistic",
+      "id": "modkit-roof-pitched-4m",
+      "title": "Industrial roof pitched 4m",
+      "category": "buildings/modular/industrial",
+      "source": "modkit-industrial",
+      "style": "stylized",
       "tags": [
-        "coat",
-        "rack",
-        "freestanding",
-        "storage",
-        "furniture",
-        "hallway"
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
       ],
-      "upstream_id": "freestanding-coat-rack-1-8-m-6-hooks-217cf3b5"
+      "path": "exports/GLTF/SM_Roof_Pitched_4m.glb"
     },
     {
-      "id": "is-pooja-shrine",
-      "title": "Wooden home shrine pooja mandir no figures",
-      "category": "furniture/storage",
-      "source": "innerscene",
-      "style": "realistic",
+      "id": "modkit-roof-ridge-4m",
+      "title": "Industrial roof ridge 4m",
+      "category": "buildings/modular/industrial",
+      "source": "modkit-industrial",
+      "style": "stylized",
       "tags": [
-        "shrine",
-        "pooja",
-        "mandir",
-        "wooden",
-        "decor",
-        "cultural"
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
       ],
-      "upstream_id": "wooden-home-shrine-pooja-mandir-no-figures-14562e03"
+      "path": "exports/GLTF/SM_Roof_Ridge_4m.glb"
     },
     {
-      "id": "is-earrings",
-      "title": "Earrings hoops and drop earrings",
-      "category": "toys/figures",
-      "source": "innerscene",
-      "style": "realistic",
+      "id": "modkit-roof-trim-4m",
+      "title": "Industrial roof trim 4m",
+      "category": "buildings/modular/industrial",
+      "source": "modkit-industrial",
+      "style": "stylized",
       "tags": [
-        "earrings",
-        "jewelry",
-        "gold",
-        "decor",
-        "props"
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
       ],
-      "upstream_id": "earrings-hoops-and-drop-earrings-d584129f"
+      "path": "exports/GLTF/SM_Roof_Trim_4m.glb"
     },
     {
-      "id": "is-menorah",
-      "title": "Menorah nine branches with candles",
-      "category": "lighting/lamps",
-      "source": "innerscene",
-      "style": "realistic",
+      "id": "modkit-roof-valley-4m",
+      "title": "Industrial roof valley 4m",
+      "category": "buildings/modular/industrial",
+      "source": "modkit-industrial",
+      "style": "stylized",
       "tags": [
-        "menorah",
-        "candles",
-        "decor",
-        "cultural",
-        "lighting"
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
       ],
-      "upstream_id": "menorah-nine-branches-with-candles-ecd62952"
+      "path": "exports/GLTF/SM_Roof_Valley_4m.glb"
     },
     {
-      "id": "is-statue-liberty",
-      "title": "Statue of Liberty on its pedestal",
-      "category": "buildings/landmarks",
-      "source": "innerscene",
-      "style": "realistic",
+      "id": "modkit-rubble-pile",
+      "title": "Industrial rubble pile",
+      "category": "industrial/infrastructure",
+      "source": "modkit-industrial",
+      "style": "stylized",
       "tags": [
-        "statue",
-        "liberty",
-        "landmark",
-        "pedestal",
-        "architecture",
-        "sculpture"
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
       ],
-      "upstream_id": "statue-of-liberty-on-its-pedestal-c8a7318f"
+      "path": "exports/GLTF/SM_Rubble_Pile.glb"
     },
     {
-      "id": "is-tugboat",
-      "title": "Tugboat harbor vessel",
-      "category": "vehicles/watercraft",
-      "source": "innerscene",
-      "style": "realistic",
+      "id": "modkit-sign-wall",
+      "title": "Industrial sign wall",
+      "category": "industrial/safety",
+      "source": "modkit-industrial",
+      "style": "stylized",
       "tags": [
-        "tugboat",
-        "boat",
-        "vessel",
-        "watercraft",
-        "harbor",
-        "vehicles"
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
       ],
-      "upstream_id": "tugboat-9ee89198"
+      "path": "exports/GLTF/SM_Sign_Wall.glb"
     },
     {
-      "id": "is-speedboat",
-      "title": "Speedboat motorboat",
-      "category": "vehicles/watercraft",
-      "source": "innerscene",
-      "style": "realistic",
+      "id": "modkit-stairs-4m",
+      "title": "Industrial stairs 4m",
+      "category": "buildings/modular/industrial",
+      "source": "modkit-industrial",
+      "style": "stylized",
       "tags": [
-        "speedboat",
-        "boat",
-        "motorboat",
-        "watercraft",
-        "vehicles"
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
       ],
-      "upstream_id": "speedboat-436b0fd0"
+      "path": "exports/GLTF/SM_Stairs_4m.glb"
     },
     {
-      "id": "is-spanner-double",
-      "title": "Double open-end spanner 13x17mm",
-      "category": "tools/hand-tools",
-      "source": "innerscene",
-      "style": "realistic",
+      "id": "modkit-support-column-3m",
+      "title": "Industrial support column 3m",
+      "category": "buildings/modular/industrial",
+      "source": "modkit-industrial",
+      "style": "stylized",
       "tags": [
-        "spanner",
-        "wrench",
-        "hand-tools",
-        "mechanical",
-        "tools"
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
       ],
-      "upstream_id": "double-open-end-spanner-13-x-17-mm-14f04a04"
+      "path": "exports/GLTF/SM_Support_Column_3m.glb"
     },
     {
-      "id": "is-spanner-comb-19",
-      "title": "Combination spanner 19mm",
-      "category": "tools/hand-tools",
-      "source": "innerscene",
-      "style": "realistic",
+      "id": "modkit-vent-wall",
+      "title": "Industrial vent wall",
+      "category": "industrial/hvac",
+      "source": "modkit-industrial",
+      "style": "stylized",
       "tags": [
-        "spanner",
-        "wrench",
-        "hand-tools",
-        "mechanical",
-        "tools"
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
       ],
-      "upstream_id": "combination-spanner-19-mm-fea6d252"
+      "path": "exports/GLTF/SM_Vent_Wall.glb"
     },
     {
-      "id": "is-spanner-comb-17",
-      "title": "Combination spanner 17mm",
-      "category": "tools/hand-tools",
-      "source": "innerscene",
-      "style": "realistic",
+      "id": "modkit-wall-arch-4m",
+      "title": "Industrial wall arch 4m",
+      "category": "buildings/modular/industrial",
+      "source": "modkit-industrial",
+      "style": "stylized",
       "tags": [
-        "spanner",
-        "wrench",
-        "hand-tools",
-        "mechanical",
-        "tools"
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
       ],
-      "upstream_id": "combination-spanner-17-mm-2c14abda"
+      "path": "exports/GLTF/SM_Wall_Arch_4m.glb"
     },
     {
-      "id": "is-fidget-dice",
-      "title": "Push-pop fidget dice 40mm silicone",
-      "category": "toys/games",
-      "source": "innerscene",
-      "style": "realistic",
+      "id": "modkit-wall-corner-4m",
+      "title": "Industrial wall corner 4m",
+      "category": "buildings/modular/industrial",
+      "source": "modkit-industrial",
+      "style": "stylized",
       "tags": [
-        "fidget",
-        "dice",
-        "silicone",
-        "toys",
-        "props",
-        "desk"
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
       ],
-      "upstream_id": "push-pop-fidget-dice-40-mm-silicone-3d456520"
+      "path": "exports/GLTF/SM_Wall_Corner_4m.glb"
     },
     {
-      "id": "is-chocolate-bar",
-      "title": "Chocolate bar 100g half unwrapped plain wrapper",
-      "category": "food/snacks",
-      "source": "innerscene",
-      "style": "realistic",
+      "id": "modkit-wall-damaged-4m",
+      "title": "Industrial wall damaged 4m",
+      "category": "buildings/modular/industrial",
+      "source": "modkit-industrial",
+      "style": "stylized",
       "tags": [
-        "chocolate",
-        "bar",
-        "food",
-        "wrapper",
-        "props"
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
       ],
-      "upstream_id": "chocolate-bar-100-g-half-unwrapped-plain-wrapper-bda937f0"
+      "path": "exports/GLTF/SM_Wall_Damaged_4m.glb"
     },
     {
-      "id": "is-pizza-oven",
-      "title": "Wood-fired pizza oven on block stand with peel",
-      "category": "electronics/appliances",
-      "source": "innerscene",
-      "style": "realistic",
+      "id": "modkit-wall-doorway-4m",
+      "title": "Industrial wall doorway 4m",
+      "category": "buildings/modular/industrial",
+      "source": "modkit-industrial",
+      "style": "stylized",
       "tags": [
-        "pizza",
-        "oven",
-        "wood-fired",
-        "food",
-        "outdoor",
-        "props"
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
       ],
-      "upstream_id": "wood-fired-pizza-oven-on-a-block-stand-with-peel-0645427c"
+      "path": "exports/GLTF/SM_Wall_Doorway_4m.glb"
     },
     {
-      "id": "is-electric-pizza-oven",
-      "title": "Countertop electric pizza oven with pizza",
-      "category": "electronics/appliances",
-      "source": "innerscene",
-      "style": "realistic",
+      "id": "modkit-wall-half-2m",
+      "title": "Industrial wall half 2m",
+      "category": "buildings/modular/industrial",
+      "source": "modkit-industrial",
+      "style": "stylized",
       "tags": [
-        "pizza",
-        "oven",
-        "electric",
-        "countertop",
-        "food",
-        "appliance"
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
       ],
-      "upstream_id": "countertop-electric-pizza-oven-with-a-pizza-inside-f7a9e9b1"
+      "path": "exports/GLTF/SM_Wall_Half_2m.glb"
     },
     {
-      "id": "is-bullion-bar",
-      "title": "Bullion bar 400oz class plain no stamps",
-      "category": "decor/vases",
-      "source": "innerscene",
-      "style": "realistic",
+      "id": "modkit-wall-reinforced-4m",
+      "title": "Industrial wall reinforced 4m",
+      "category": "buildings/modular/industrial",
+      "source": "modkit-industrial",
+      "style": "stylized",
       "tags": [
-        "bullion",
-        "gold",
-        "bar",
-        "decor",
-        "props",
-        "vault"
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
       ],
-      "upstream_id": "bullion-bar-400-oz-class-plain-no-stamps-a5950ccc"
+      "path": "exports/GLTF/SM_Wall_Reinforced_4m.glb"
+    },
+    {
+      "id": "modkit-wall-straight-4m",
+      "title": "Industrial wall straight 4m",
+      "category": "buildings/modular/industrial",
+      "source": "modkit-industrial",
+      "style": "stylized",
+      "tags": [
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
+      ],
+      "path": "exports/GLTF/SM_Wall_Straight_4m.glb"
+    },
+    {
+      "id": "modkit-wall-window-4m",
+      "title": "Industrial wall window 4m",
+      "category": "buildings/modular/industrial",
+      "source": "modkit-industrial",
+      "style": "stylized",
+      "tags": [
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
+      ],
+      "path": "exports/GLTF/SM_Wall_Window_4m.glb"
     }
   ]
 }
