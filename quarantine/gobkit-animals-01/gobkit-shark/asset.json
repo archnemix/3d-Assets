@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "id": "gobkit-shark",
+  "title": "Stylized Shark",
+  "category": "nature/aquatic/stylized",
+  "style": "low-poly",
+  "tags": [
+    "animal",
+    "low-poly",
+    "gobkit",
+    "animated"
+  ],
+  "batch": "gobkit-animals-01",
+  "acquired_at": "2026-11-06T08:56:52.693542+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "gobkit-free",
+    "model": "model/Shark.glb",
+    "creator": "Gobkit / Alsomind Tech Co., Ltd.",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Ariescar/gobkit-free-assets/4e73c68fa6e8ca9d948fcc0ce7215c830a022c3b/LICENSE",
+    "source_url": "https://github.com/Ariescar/gobkit-free-assets/blob/4e73c68fa6e8ca9d948fcc0ce7215c830a022c3b/animal/Shark.glb",
+    "source_id": "animal/Shark.glb",
+    "revision": "4e73c68fa6e8ca9d948fcc0ce7215c830a022c3b",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/Ariescar/gobkit-free-assets/4e73c68fa6e8ca9d948fcc0ce7215c830a022c3b/animal/Shark.glb",
+        "bytes": 61616,
+        "sha256": "0fc450c99f0fd9f2e5d774ef58cd42b8d8d927bed138444254204b366595dc42"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Ariescar/gobkit-free-assets/4e73c68fa6e8ca9d948fcc0ce7215c830a022c3b/LICENSE"
+  },
+  "model": "model/Shark.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 1,
+    "skins": 1,
+    "animations": [
+      "clip"
+    ],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/texture-00.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "texture-00"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 1,
+    "vertices": 348,
+    "triangles": 286,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [
+      {
+        "name": "Root.001",
+        "bones": 16
+      }
+    ],
+    "actions": [
+      "clip_Root.001"
+    ],
+    "images": [
+      {
+        "name": "Image_0",
+        "dimensions": [
+          512,
+          512
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 3,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 628,
+      "sha256": "9c841187ead66a563971fcffe3a92cf2f8d5d4eda0a77cbb695204298bda6f43",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 280,
+      "sha256": "2496cb79c15e687141a0753a305a0a6de88e3e4028e6d359cfd7c76775809ee4",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 62878,
+      "sha256": "55dfd9fd5a2be6d77f88b58d1373907c438ad51f98d83ff8dab6080041d7cf35",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "13a8b99793ba089c84f4df144fa4bf72282f0ff6e6d5c1cb98630ea56b0eec8e",
+      "role": "logs"
+    },
+    {
+      "path": "model/Shark.glb",
+      "bytes": 61616,
+      "sha256": "0fc450c99f0fd9f2e5d774ef58cd42b8d8d927bed138444254204b366595dc42",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 15699,
+      "sha256": "c6583684ea179f6bc851a17a8994fa7636027bdb806b07080821e05763ae5a80",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 19923,
+      "sha256": "0fcf3b3b0f3268906ca043386a3c41330445a11bece7eacad260788f01c9a0f4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 159197,
+      "sha256": "2997108cba6415a64b4b68ad98b6e965023553cdb0dd64f86bc8c11e070e6825",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 546,
+      "sha256": "5b82bb1afcf391bf04c2e4cad077eade37877ed9f316f0cd1e4254462c507317",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 21330,
+      "sha256": "c9957a6a168caa7ed7120c87981523949266472171fada0380a4bf03739ddf9b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 21875,
+      "sha256": "d4f3924f815e07a6712239c90ad63a4e104133d49d11925fcf57c7fd898f92dd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 16677,
+      "sha256": "890098dbd67a295daf7f7d1a818ee5d9bcc33ea9a76caa1d0d714ed55d8942d6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 18434,
+      "sha256": "5f95613d465572fd3669f0e0bc08a515ed7e6ba6df4055381e77cea760c5a124",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 16448,
+      "sha256": "b2d3413d551e4d759fb9ca9f88c004c09149686d0c4a3729a12792207d2aeaa8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 19268,
+      "sha256": "2afeeb2688fad8f4fc6d4281475410d523a41a2f5228890072181d95946cc3a8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 17856,
+      "sha256": "acde6f9873e71b89332c1bd3bb5bf41831477ccd20973e46ee4459c7dc359bce",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 22590,
+      "sha256": "d05a24b4649156bf0effc304cac36ccdfcf8dc6ea85e18bb9ae0f29b23fb5ab3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 15261,
+      "sha256": "484fcbd2dcf80321cdb2d55a5ec57d6ed44103ed6d2e7c854803fae8e046302e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 32010,
+      "sha256": "c9d43e8957154c9cded0379e260640cea9556bac7af58b702b8e9fdce88123b8",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 151,
+      "sha256": "40767b0d4e4779ee14c5e4bbf5e89cf8c35e27a7f7e0aef6f148db9814c3c61b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/github-source.json",
+      "bytes": 346,
+      "sha256": "5321936fff178f7479e7330c2aa848e04a88a5f06f0ce53b8f0e468ab0058455",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1815,
+      "sha256": "578908b8e4d6433d0e9bc2f74c1821b5a82168c6f512393b99f5ceccb69e7597",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/upstream-terms.md",
+      "bytes": 4466,
+      "sha256": "40d20f34a905f8e678ad558a33bf2d4e1d83c99748cf5ca1c72661ce18e30ad2",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/texture-00.png",
+      "bytes": 12488,
+      "sha256": "5c9930aba1b78f18551c2df4d9c250d0a7d72eafa6ca72d0d856aec62124ed04",
+      "role": "textures"
+    }
+  ]
+}
