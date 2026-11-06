@@ -1,0 +1,55 @@
+{
+  "slug": "fishing-boat",
+  "triangles": 20910,
+  "texture_px": 2048,
+  "triangles_light": 13617,
+  "texture_px_light": 1024,
+  "files": {
+    "glb": {
+      "name": "fishing-boat.glb",
+      "bytes": 1494884
+    },
+    "blend": {
+      "name": "fishing-boat.blend",
+      "bytes": 1425658
+    },
+    "fbx": {
+      "name": "fishing-boat.fbx",
+      "bytes": 2700860
+    },
+    "obj": {
+      "name": "fishing-boat-obj.zip",
+      "bytes": 1518592
+    },
+    "usdz": {
+      "name": "fishing-boat.usdz",
+      "bytes": 2407240
+    },
+    "glb_light": {
+      "name": "fishing-boat-light.glb",
+      "bytes": 770940
+    },
+    "fbx_light": {
+      "name": "fishing-boat-light.fbx",
+      "bytes": 1536828
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "3.119 x 8.049 x 6.350",
+    "triangles": 20910,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-09-26",
+    "real_size": "small fishing boat (cutter), approx. 8.0 x 2.8 x 6.3 m (L x W x H incl. mast), hull depth 2.0 m",
+    "notes": "front (bow) faces -Y; sits on its keel on z = 0, add your own water (waterline at 0.88 m, white boot stripe above the coral antifouling); separate moving parts with origin on their axis: fishing-boat_propeller (spins around the shaft, local Y in Blender), fishing-boat_rudder (turns around Z), fishing-boat_net_drum (rolls around X in Blender); opaque tinted windows, no interior; no brand, no text, no name",
+    "set": "Cozy Vehicles Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}

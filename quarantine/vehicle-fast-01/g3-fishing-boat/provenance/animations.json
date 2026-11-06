@@ -1,0 +1,28 @@
+{
+  "source_model": "fishing-boat.glb",
+  "authored": [
+    {
+      "name": "propeller_spin",
+      "parts": [
+        "fishing-boat_propeller"
+      ],
+      "axis": "X",
+      "start_degrees": 0.0,
+      "degrees": 720.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "verification": [
+    {
+      "clip": "propeller_spin",
+      "frames": [
+        "anim-propeller_spin-a.jpg",
+        "anim-propeller_spin-b.jpg",
+        "anim-propeller_spin-c.jpg"
+      ]
+    }
+  ],
+  "note": "Clips authored by this library, not upstream. Dedicated to CC0.",
+  "animated_model": "fishing-boat-animated.glb"
+}
