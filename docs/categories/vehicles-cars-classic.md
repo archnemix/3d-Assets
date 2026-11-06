@@ -2,7 +2,15 @@
 
 Classic and historical cars
 
-Approved assets: **2**
+Approved assets: **3**
+
+## 1950s open roadster
+
+![1950s open roadster](../../assets/vehicles/cars/classic/g3-1950s-roadster/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 15,801 triangles; 5 texture images
+- [Asset folder](../../assets/vehicles/cars/classic/g3-1950s-roadster/) · [Metadata](../../assets/vehicles/cars/classic/g3-1950s-roadster/asset.json) · [All inspection views](../../assets/vehicles/cars/classic/g3-1950s-roadster/previews/contact-sheet.jpg)
 
 ## 1960s sports car
 

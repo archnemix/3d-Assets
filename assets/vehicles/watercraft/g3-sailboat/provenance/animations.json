@@ -1,0 +1,29 @@
+{
+  "source_model": "sailboat.glb",
+  "authored": [
+    {
+      "name": "wheel_roll",
+      "parts": [
+        "sailboat_helm_wheel"
+      ],
+      "axis": "X",
+      "start_degrees": 0.0,
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "verification": [
+    {
+      "clip": "wheel_roll",
+      "frames": [
+        "anim-wheel_roll-a.jpg",
+        "anim-wheel_roll-b.jpg",
+        "anim-wheel_roll-c.jpg"
+      ]
+    }
+  ],
+  "note": "Clips authored by this library, not upstream. Dedicated to CC0.",
+  "excluded_animated_model": "sailboat-animated.glb",
+  "publication": "Experimental generated GLB excluded from this static-only approval; verification frames and authored clip descriptions retained as intake evidence, not verified animation."
+}

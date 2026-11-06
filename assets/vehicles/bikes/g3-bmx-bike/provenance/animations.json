@@ -1,0 +1,69 @@
+{
+  "source_model": "bmx-bike.glb",
+  "authored": [
+    {
+      "name": "wheel_roll",
+      "parts": [
+        "bmx-bike_wheel_front",
+        "bmx-bike_wheel_rear"
+      ],
+      "axis": "X",
+      "start_degrees": 0.0,
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    },
+    {
+      "name": "steer",
+      "parts": [
+        "bmx-bike_steering",
+        "bmx-bike_wheel_front"
+      ],
+      "axis": "Z",
+      "start_degrees": 0.0,
+      "degrees": 32.0,
+      "frames": 45,
+      "fps": 30
+    },
+    {
+      "name": "crank_turn",
+      "parts": [
+        "bmx-bike_crank"
+      ],
+      "axis": "X",
+      "start_degrees": 0.0,
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "verification": [
+    {
+      "clip": "wheel_roll",
+      "frames": [
+        "anim-wheel_roll-a.jpg",
+        "anim-wheel_roll-b.jpg",
+        "anim-wheel_roll-c.jpg"
+      ]
+    },
+    {
+      "clip": "steer",
+      "frames": [
+        "anim-steer-a.jpg",
+        "anim-steer-b.jpg",
+        "anim-steer-c.jpg"
+      ]
+    },
+    {
+      "clip": "crank_turn",
+      "frames": [
+        "anim-crank_turn-a.jpg",
+        "anim-crank_turn-b.jpg",
+        "anim-crank_turn-c.jpg"
+      ]
+    }
+  ],
+  "note": "Clips authored by this library, not upstream. Dedicated to CC0.",
+  "excluded_animated_model": "bmx-bike-animated.glb",
+  "publication": "Experimental generated GLB excluded from this static-only approval; verification frames and authored clip descriptions retained as intake evidence, not verified animation."
+}

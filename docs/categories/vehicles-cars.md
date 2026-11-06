@@ -2,7 +2,7 @@
 
 Road vehicles and go-karts
 
-Approved assets: **8**
+Approved assets: **9**
 
 ## 1980s wedge sports car
 
@@ -19,6 +19,14 @@ Approved assets: **8**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 19,930 triangles; 5 texture images
 - [Asset folder](../../assets/vehicles/cars/g3-1990s-police-car/) · [Metadata](../../assets/vehicles/cars/g3-1990s-police-car/asset.json) · [All inspection views](../../assets/vehicles/cars/g3-1990s-police-car/previews/contact-sheet.jpg)
+
+## City bus
+
+![City bus](../../assets/vehicles/cars/g3-city-bus/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 29,866 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/cars/g3-city-bus/) · [Metadata](../../assets/vehicles/cars/g3-city-bus/asset.json) · [All inspection views](../../assets/vehicles/cars/g3-city-bus/previews/contact-sheet.jpg)
 
 ## Small hatchback compact car
 

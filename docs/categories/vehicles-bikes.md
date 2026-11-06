@@ -2,7 +2,15 @@
 
 Bicycles, mopeds and scooters
 
-Approved assets: **2**
+Approved assets: **3**
+
+## BMX bike
+
+![BMX bike](../../assets/vehicles/bikes/g3-bmx-bike/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 17,810 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/bikes/g3-bmx-bike/) · [Metadata](../../assets/vehicles/bikes/g3-bmx-bike/asset.json) · [All inspection views](../../assets/vehicles/bikes/g3-bmx-bike/previews/contact-sheet.jpg)
 
 ## Retro moped
 

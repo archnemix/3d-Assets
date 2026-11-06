@@ -2,7 +2,7 @@
 
 Boats and sailing ships
 
-Approved assets: **5**
+Approved assets: **8**
 
 ## Container cargo ship
 
@@ -12,6 +12,14 @@ Approved assets: **5**
 - 37,716 triangles; 3 texture images
 - [Asset folder](../../assets/vehicles/watercraft/g3-cargo-ship/) · [Metadata](../../assets/vehicles/watercraft/g3-cargo-ship/asset.json) · [All inspection views](../../assets/vehicles/watercraft/g3-cargo-ship/previews/contact-sheet.jpg)
 
+## Fishing boat
+
+![Fishing boat](../../assets/vehicles/watercraft/g3-fishing-boat/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 20,910 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/watercraft/g3-fishing-boat/) · [Metadata](../../assets/vehicles/watercraft/g3-fishing-boat/asset.json) · [All inspection views](../../assets/vehicles/watercraft/g3-fishing-boat/previews/contact-sheet.jpg)
+
 ## Three-masted galleon
 
 ![Three-masted galleon](../../assets/vehicles/watercraft/g3-galleon/previews/orbit-01.jpg)
@@ -19,6 +27,22 @@ Approved assets: **5**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 39,876 triangles; 3 texture images
 - [Asset folder](../../assets/vehicles/watercraft/g3-galleon/) · [Metadata](../../assets/vehicles/watercraft/g3-galleon/asset.json) · [All inspection views](../../assets/vehicles/watercraft/g3-galleon/previews/contact-sheet.jpg)
+
+## Cruising sailboat
+
+![Cruising sailboat](../../assets/vehicles/watercraft/g3-sailboat/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 19,799 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/watercraft/g3-sailboat/) · [Metadata](../../assets/vehicles/watercraft/g3-sailboat/asset.json) · [All inspection views](../../assets/vehicles/watercraft/g3-sailboat/previews/contact-sheet.jpg)
+
+## Motor yacht
+
+![Motor yacht](../../assets/vehicles/watercraft/g3-yacht/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 23,812 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/watercraft/g3-yacht/) · [Metadata](../../assets/vehicles/watercraft/g3-yacht/asset.json) · [All inspection views](../../assets/vehicles/watercraft/g3-yacht/previews/contact-sheet.jpg)
 
 ## Dutch merchant sailing ship
 

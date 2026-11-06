@@ -2,7 +2,7 @@
 
 Locomotives, wagons and railway rolling stock
 
-Approved assets: **5**
+Approved assets: **7**
 
 ## Ribbed railway boxcar
 
@@ -11,6 +11,14 @@ Approved assets: **5**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 20,690 triangles; 3 texture images
 - [Asset folder](../../assets/vehicles/rail/g3-boxcar/) · [Metadata](../../assets/vehicles/rail/g3-boxcar/asset.json) · [All inspection views](../../assets/vehicles/rail/g3-boxcar/previews/contact-sheet.jpg)
+
+## Railway caboose
+
+![Railway caboose](../../assets/vehicles/rail/g3-caboose/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 25,764 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/rail/g3-caboose/) · [Metadata](../../assets/vehicles/rail/g3-caboose/asset.json) · [All inspection views](../../assets/vehicles/rail/g3-caboose/previews/contact-sheet.jpg)
 
 ## Centre-cab diesel locomotive
 
@@ -35,6 +43,14 @@ Approved assets: **5**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 29,487 triangles; 3 texture images
 - [Asset folder](../../assets/vehicles/rail/g3-high-speed-train/) · [Metadata](../../assets/vehicles/rail/g3-high-speed-train/asset.json) · [All inspection views](../../assets/vehicles/rail/g3-high-speed-train/previews/contact-sheet.jpg)
+
+## Subway train car
+
+![Subway train car](../../assets/vehicles/rail/g3-subway-train/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 30,092 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/rail/g3-subway-train/) · [Metadata](../../assets/vehicles/rail/g3-subway-train/asset.json) · [All inspection views](../../assets/vehicles/rail/g3-subway-train/previews/contact-sheet.jpg)
 
 ## Railway tank car
 

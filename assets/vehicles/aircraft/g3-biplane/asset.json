@@ -1,0 +1,381 @@
+{
+  "schema_version": 1,
+  "id": "g3-biplane",
+  "title": "Propeller biplane",
+  "category": "vehicles/aircraft",
+  "style": "stylized",
+  "tags": [
+    "biplane",
+    "aircraft",
+    "propeller"
+  ],
+  "batch": "vehicle-fast-01",
+  "acquired_at": "2026-11-06T14:05:48.027760+00:00",
+  "review": {
+    "id": "g3-biplane",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed the twelve-view contact sheet. Two-seat biplane with double wings, braces, radial engine, propeller and landing gear. Appropriate for a stylized vehicle library.",
+    "limitations": [
+      "Stylized procedural model, not photorealistic; surfaces and dimensions are simplified.",
+      "Static source GLB has no animation clips; functional operation and movable parts have not been verified.",
+      "Khronos validator: zero errors, 1 warning(s) for runtime-generated tangent space; normal-map shading may differ between engines.",
+      "Automatically authored experimental animation was not reviewed and its generated GLB is excluded; preview frames and report remain as intake evidence."
+    ],
+    "contact_sheet_sha256": "12b3dcff06bf35dfb4b7db7d2ac16254cc2810fdf202bafde59a45b2f63831a5",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/biplane.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/biplane/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/biplane/",
+    "source_id": "biplane",
+    "revision": "4dda6beabb3c0a587dbd7d28c9dbabaf39f23f263fd9c79156715213961386c9",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/biplane/biplane.glb",
+        "bytes": 1313500,
+        "sha256": "4dda6beabb3c0a587dbd7d28c9dbabaf39f23f263fd9c79156715213961386c9"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/biplane/LICENSE.txt"
+  },
+  "model": "model/biplane.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 6,
+    "materials": 14,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/biplane_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "biplane_body_normal"
+    },
+    {
+      "path": "textures/biplane_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "biplane_body_basecolor"
+    },
+    {
+      "path": "textures/biplane_body_metallic-biplane_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "biplane_body_metallic-biplane_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 6,
+    "hidden_mesh_objects": 0,
+    "vertices": 17792,
+    "triangles": 19942,
+    "material_slots": 14,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "biplane_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "biplane_body_metallic-biplane_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "biplane_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1592,
+      "sha256": "cd649e686fb4a91fd460faafd4954023a0be669dbd5cf5ab3c7862977fd1fcd1",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 38912,
+      "sha256": "8127a7eb20d51207bf6b7ec67aec83009e7d4b741b6691f6aedc5e21748e0f3e",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 74470,
+      "sha256": "9f0be34fd8affc197a2b185bef09503f27cf36c135f9b1b61b5ff4f49186b55c",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "e02a7fa229a734196dc3af270c1563d47091c7b03a396a6dd17acdc64201004a",
+      "role": "logs"
+    },
+    {
+      "path": "model/biplane.glb",
+      "bytes": 1313500,
+      "sha256": "4dda6beabb3c0a587dbd7d28c9dbabaf39f23f263fd9c79156715213961386c9",
+      "role": "model"
+    },
+    {
+      "path": "previews/anim-propeller_spin-a.jpg",
+      "bytes": 8793,
+      "sha256": "7e72eafba98c2fc77a7027751499d43a917a275d94622aca61bf1acefecbb664",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-propeller_spin-b.jpg",
+      "bytes": 8805,
+      "sha256": "863b122c0611eb62acc37f5066c47712caba87c56a7cb58909f894ad626d5005",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-propeller_spin-c.jpg",
+      "bytes": 8793,
+      "sha256": "8fbceb6db67c6bc09d77299f3da52d1d3da1b68eeec8f06202f2499f98e7809d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-a.jpg",
+      "bytes": 8793,
+      "sha256": "c812b6e0bddc1a4fdf36faf5bff30e61adcdd9cf4e0540dfc2d43bd7a1409982",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-b.jpg",
+      "bytes": 8799,
+      "sha256": "a2d038570f4f357d08c0dc75de77ecdd23383507030b78cae6f1d8d7d72eb1a7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-c.jpg",
+      "bytes": 8793,
+      "sha256": "5c9a86001bd05e31f2997852d89d4fe631fdd52222d6f9e306f81643b00eee03",
+      "role": "previews"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 19945,
+      "sha256": "364fd2b492bc7b6375f914cba6c2ef10a819127dba3a5fd626ce0bcde1090fad",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 20175,
+      "sha256": "9394deb5a5178694a691a38e80ff571b3648b67c1df79d6db06318b4bbcbb229",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 168520,
+      "sha256": "12b3dcff06bf35dfb4b7db7d2ac16254cc2810fdf202bafde59a45b2f63831a5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 813,
+      "sha256": "fbf72bd14c89b700bd6d7eef82f0ba2135b8d91c6bd1b6d6f9e90cfd613d7c9e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 18605,
+      "sha256": "32184256bbfb5bc6cd722a28f540ac0e73e4e47cc0e789cdc92fd9d5d3a28623",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 24272,
+      "sha256": "38b249df0b58e55e72a131929af340cea37f1408b85147e460eaa873c8e832f4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 19423,
+      "sha256": "06a9b6b5f862c97d95ecad5edac84bea8b042cc047566a4c0d1fe7d6149e5c8f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 23492,
+      "sha256": "80f7fd26b8a691a93aac0eb0b44d35af11392f7c018498bd2951ffcd41f8ddfa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 19417,
+      "sha256": "d6fbfd48c0c051b9864623b2af54c0f5b52af5bf172791cf16726d277f02c13e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 24110,
+      "sha256": "a20e27319b31b3cb1ce61091447dc69213c81f05f476f24b96729c6c1ffb388a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 20785,
+      "sha256": "7f5ab66226564d6b3ac1bbcb2cab6b021a5527239cde5d56fe5fdf27ac6d2dd5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 25003,
+      "sha256": "2f3327dc575b9c26354d0187a00a22d25535f2bec347a7effa3c6c2a36da5845",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 17422,
+      "sha256": "ad5745ad2daa2dff5835ee794a7e8b953cc486c7c16d1c3765def3dcbd55bb61",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 28881,
+      "sha256": "d970fe5a983940e073c2e11b745b26803621ac15f1a1cd84743b36392885f74e",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 1221,
+      "sha256": "cfaf8b7b17631309aba85c071cad384b3f37bb185c236fe83cd3dfd66450965b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 4377,
+      "sha256": "3037f135137d2b94388b616c74459da4301f8319d49b6e3e989b2b2b563ccdda",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1719,
+      "sha256": "1b054cda5b10e1bd5ae129a1821de726bce9396b14b3b9d6bcf88f25c488d3f7",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 473,
+      "sha256": "3d6dccf85e75d8e534a5c70bf17586325eeb81cdce9022bcb538bbb161dad111",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "fb616ade5378e8c395d55ff5053efdfd8876c02b272db4ab011d6a288398c8f4",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1137,
+      "sha256": "7974d44968c21338155b54e217b951ef02f8ec194ddbf80dde325d1514662972",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/biplane_body_basecolor.jpg",
+      "bytes": 287921,
+      "sha256": "09491528b4f67173f5282a3a5091c5f6524e0d3e2ee6ecab75b19e189caa49e6",
+      "role": "textures"
+    },
+    {
+      "path": "textures/biplane_body_metallic-biplane_body_roughness.jpg",
+      "bytes": 256351,
+      "sha256": "e4248940dded2d379f59b580505a56741631b5962086a05deb16ade971041e77",
+      "role": "textures"
+    },
+    {
+      "path": "textures/biplane_body_normal.jpg",
+      "bytes": 69626,
+      "sha256": "e9e5f80d0ba76135f6bffc82512e6f58e06e6fd8a2600e47ed6b4e40d89613b7",
+      "role": "textures"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "g3-helicopter",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed the twelve-view contact sheet. Light helicopter with main and tail rotors, landing skids and opaque blue glazing. Appropriate for a stylized vehicle library.",
+  "limitations": [
+    "Stylized procedural model, not photorealistic; surfaces and dimensions are simplified.",
+    "Static source GLB has no animation clips; functional operation and movable parts have not been verified.",
+    "Khronos validator: zero errors, 1 warning(s) for runtime-generated tangent space; normal-map shading may differ between engines.",
+    "Automatically authored experimental animation was not reviewed and its generated GLB is excluded; preview frames and report remain as intake evidence.",
+    "Windows are opaque in the inspection renders; detailed interior is not established."
+  ],
+  "contact_sheet_sha256": "445f793e18443c3098c17a1431871fa0a5d89f54e2ff27af1c81cb2bdbf0cfcb",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "id": "g3-tractor",
+  "title": "Farm tractor",
+  "category": "vehicles/farm",
+  "style": "stylized",
+  "tags": [
+    "tractor",
+    "agriculture",
+    "farm"
+  ],
+  "batch": "vehicle-fast-01",
+  "acquired_at": "2026-11-06T14:05:04.770893+00:00",
+  "review": {
+    "id": "g3-tractor",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed the twelve-view contact sheet. Green farm tractor with cab, large treaded rear wheels, exhaust and rear hitch. Appropriate for a stylized vehicle library.",
+    "limitations": [
+      "Stylized procedural model, not photorealistic; surfaces and dimensions are simplified.",
+      "Static source GLB has no animation clips; functional operation and movable parts have not been verified.",
+      "Khronos validator: zero errors, 1 warning(s) for runtime-generated tangent space; normal-map shading may differ between engines.",
+      "Automatically authored experimental animation was not reviewed and its generated GLB is excluded; preview frames and report remain as intake evidence.",
+      "Windows are opaque in the inspection renders; detailed interior is not established."
+    ],
+    "contact_sheet_sha256": "f00868648772c81759c9526bf0ee467aa7ad28155f98bda6bf7ff69cd8ab0cac",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "grab3d",
+    "model": "model/tractor.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/tractor/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/tractor/",
+    "source_id": "tractor",
+    "revision": "67eefa2748276d0554373691b4002239c66823ed84fae256793173b307d05d6f",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/tractor/tractor.glb",
+        "bytes": 1687044,
+        "sha256": "67eefa2748276d0554373691b4002239c66823ed84fae256793173b307d05d6f"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/tractor/LICENSE.txt"
+  },
+  "model": "model/tractor.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 6,
+    "materials": 14,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/tractor_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tractor_body_normal"
+    },
+    {
+      "path": "textures/tractor_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tractor_body_basecolor"
+    },
+    {
+      "path": "textures/tractor_body_metallic-tractor_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tractor_body_metallic-tractor_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 6,
+    "hidden_mesh_objects": 0,
+    "vertices": 26407,
+    "triangles": 32784,
+    "material_slots": 14,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "tractor_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "tractor_body_metallic-tractor_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "tractor_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1669,
+      "sha256": "33cedb2cc043b52accfa3a5ef521ca49f2dfd6d579ddc0da000fed4fe48f9e2b",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 38929,
+      "sha256": "d1bf677088a8aa746e957a0f80ffa2f337dd48fd4b541a0b8692f8a7a6bbe091",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 74809,
+      "sha256": "0ac0f66d1f47254f06f45989f31e1fb21ae22fe982d5a01bdd2d09685d3ec94e",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "e02a7fa229a734196dc3af270c1563d47091c7b03a396a6dd17acdc64201004a",
+      "role": "logs"
+    },
+    {
+      "path": "model/tractor.glb",
+      "bytes": 1687044,
+      "sha256": "67eefa2748276d0554373691b4002239c66823ed84fae256793173b307d05d6f",
+      "role": "model"
+    },
+    {
+      "path": "previews/anim-steer-a.jpg",
+      "bytes": 15112,
+      "sha256": "b58c54e84539d40dfa85c693aeebaf2ef5c7bb2bee4f55845945e66d29d01917",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-steer-b.jpg",
+      "bytes": 14835,
+      "sha256": "7836661f6c7568e08cabfacd1e54c6dfc16bbf675784da2c9407b383d8d8f1c9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-steer-c.jpg",
+      "bytes": 14531,
+      "sha256": "24c7543b788175961263ce920e4b1d638361033c9643c1102fe15f093ef6687d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-a.jpg",
+      "bytes": 15127,
+      "sha256": "5f15ec2ea4d0772b542bb23e550173f5cef9c47daf5cce576d806ebb791065f3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-b.jpg",
+      "bytes": 15102,
+      "sha256": "b72a71abeb08f1d9cdfdf43d970ca156da0d99bcaea7d6d4b774042eb8be6dc6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-c.jpg",
+      "bytes": 15117,
+      "sha256": "b2b13ab744674e5159f1dd93e8ffc03f850a071b78c407559b1a797a68e7feda",
+      "role": "previews"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 25819,
+      "sha256": "0f8b32e4bed6d45c694dabd44dad9f93d12f4cd2e2943f8fd58a28217f6956a0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 27430,
+      "sha256": "e4f3574076b1cbb5ce03ba6c6cf209dd93960c17e4b458974b2f22da2da740c5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 254698,
+      "sha256": "f00868648772c81759c9526bf0ee467aa7ad28155f98bda6bf7ff69cd8ab0cac",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 813,
+      "sha256": "47f029e0e55b16256677d166518fbcc2b7980329924bd15ab1a8479bd35a9aed",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 31786,
+      "sha256": "b336df38ef76e17e7a372560f90e56e3746d4d7ebd30f17a4a37bb2ebb94651a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 36477,
+      "sha256": "5ab9022fbe8fd24d4d419181bb47eb383cbfd3ee04bb3139492b86ef784ac0a2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 29879,
+      "sha256": "197d9c1b9ac319dc3058f57d6faa43cc091ae38dee428b81c22aaa8d4a344fbb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 34906,
+      "sha256": "3d38d31fd0aa66c00c4061f221c9d974099576b46b80928e6bef6acce3cdc9a0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 26290,
+      "sha256": "786107ea20a5ecc6ea51e2eab017882400e9bc3b27f64b3b6178336b861eeb33",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 36770,
+      "sha256": "147a6472bc58cf96bd3c79dd7fb771c414933c5fb4694ccd69847a035ae3e643",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 30488,
+      "sha256": "2e596cb0162a10fb9b15549c92cfcb64360647e761cbb97e4179acced2669224",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 37054,
+      "sha256": "6d30cc6eabaac5e9c01632e6e7dd11f3e5a469179ddfa8f7bb164d8f0f831d58",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 18930,
+      "sha256": "56903a35bde7df776449b34650d27dc202f2953e16b4155e836b5b8d52730e19",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 67890,
+      "sha256": "de77dbdfa5e354aa94b0539fa8fd7429d070f7b38fc2002b30bda753d90e9022",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 1220,
+      "sha256": "170948ab9f0b02ea0b8008c52bd77b0e12815d8437db176d645d2fca81601493",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 4377,
+      "sha256": "6cf74f0a62b3b107168a72b921eb5a4c5165421c7cc5fdc3afd326b219694ea2",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1471,
+      "sha256": "b56ce9577bb1f1baa6df7a265bae73a13985565bada50dcd4946361b5cee81b7",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 473,
+      "sha256": "c9cd39e2d7e3597e04f3b8d8256c785f8699925879d686f910bb1bc03caa94d0",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "7189135f097144973b62b1cf4b2f422fa0ce8db2d3992a596ed639e39996e672",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1221,
+      "sha256": "0cabb195190866b017e12769e55b7420661e091ed0112243f72407faa6ae767b",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/tractor_body_basecolor.jpg",
+      "bytes": 260847,
+      "sha256": "fc093038567efd935bdd5cc6f2f2471b535c4569cd3332af4c836677eaa498d9",
+      "role": "textures"
+    },
+    {
+      "path": "textures/tractor_body_metallic-tractor_body_roughness.jpg",
+      "bytes": 304543,
+      "sha256": "47afc71096dbc8d4609d3339abf40f9324adf339f56e8c19818934b21d016881",
+      "role": "textures"
+    },
+    {
+      "path": "textures/tractor_body_normal.jpg",
+      "bytes": 67549,
+      "sha256": "d241b57a835e4fc4f8355cb3c4d482fcd56f5e6b0dea449b9960d953b2052a7e",
+      "role": "textures"
+    }
+  ]
+}
