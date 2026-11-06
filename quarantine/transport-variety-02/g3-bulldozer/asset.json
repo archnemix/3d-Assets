@@ -1,0 +1,376 @@
+{
+  "schema_version": 1,
+  "id": "g3-bulldozer",
+  "title": "Crawler bulldozer",
+  "category": "vehicles/farm",
+  "style": "stylized",
+  "tags": [
+    "bulldozer",
+    "construction",
+    "crawler"
+  ],
+  "batch": "transport-variety-02",
+  "acquired_at": "2026-11-06T14:49:54.451367+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/bulldozer.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/bulldozer/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/bulldozer/",
+    "source_id": "bulldozer",
+    "revision": "762e0d05a3e2522dbc1c8b4bcfafc7b160313cd2a5f6f3b0f3b81e2d06d0d74b",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/bulldozer/bulldozer.glb",
+        "bytes": 2133184,
+        "sha256": "762e0d05a3e2522dbc1c8b4bcfafc7b160313cd2a5f6f3b0f3b81e2d06d0d74b"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/bulldozer/LICENSE.txt"
+  },
+  "model": "model/bulldozer.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 5,
+    "materials": 5,
+    "images": 6,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/bulldozer_blade_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "bulldozer_blade_normal"
+    },
+    {
+      "path": "textures/bulldozer_blade_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "bulldozer_blade_basecolor"
+    },
+    {
+      "path": "textures/bulldozer_blade_metallic-bulldozer_blade_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "bulldozer_blade_metallic-bulldozer_blade_roughness"
+    },
+    {
+      "path": "textures/bulldozer_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "bulldozer_body_normal"
+    },
+    {
+      "path": "textures/bulldozer_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "bulldozer_body_basecolor"
+    },
+    {
+      "path": "textures/bulldozer_body_metallic-bulldozer_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "bulldozer_body_metallic-bulldozer_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 5,
+    "hidden_mesh_objects": 0,
+    "vertices": 23216,
+    "triangles": 28610,
+    "material_slots": 5,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 64,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "bulldozer_blade_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "bulldozer_blade_metallic-bulldozer_blade_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "bulldozer_blade_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "bulldozer_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "bulldozer_body_metallic-bulldozer_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "bulldozer_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 77592,
+      "sha256": "f0651293d623f2b667ea8172f09060620760b8d448a0a591454a1c8b51cffc06",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "64d3c81786cb74349df7562a5854eb253311fc14c511c9653abecd8ba50cf79f",
+      "role": "logs"
+    },
+    {
+      "path": "model/bulldozer.glb",
+      "bytes": 2133184,
+      "sha256": "762e0d05a3e2522dbc1c8b4bcfafc7b160313cd2a5f6f3b0f3b81e2d06d0d74b",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 26949,
+      "sha256": "f846aa2477b71637f0ccacd03c5fcfd4a6bf01d3c5df41714ad48141c0871d17",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 25699,
+      "sha256": "8ba0d63ef835a8108cac632eeb4ec6338baa19487684db4cdf768eb6a3c58059",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 260832,
+      "sha256": "9756fb1c5789733b530e1cee64483585dcba03dd3c1f00d7c300313ac8514a38",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1314,
+      "sha256": "1187810893dbaf8730bd15244be9fdc6f770af46af4e2dbfa418628c425a07bb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 32408,
+      "sha256": "10b492ffcf9aeeac09e1d87fc3c9e69c75464afc95270fea6c39df04b84fcc64",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 37197,
+      "sha256": "80f369db69b6a2fe1447dfada3c4895f9401b195b858cb1c7ef7505f5ad84258",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 31736,
+      "sha256": "5cb8f12800f3da5b49d0b5706ebfbbaf4a2ef1708695810142550717314dc45f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 35456,
+      "sha256": "7ce73c8f33a37b0df5609df8db180fca3dc1558f16b67d0e9b98985299d6f65d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 34255,
+      "sha256": "995936440c560abe797e1fa38e9baf6d40e55a21fef0131e4120e8832b7a8f62",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 36559,
+      "sha256": "d19aac00dd99a10685c85f276bc396fb09cb21c77e72bc4ef591a27fc9fd10de",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 33630,
+      "sha256": "972a731c297948395fc89dc9bf1242dcdc23c690825fdea562548eeef3ad6b7e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 37955,
+      "sha256": "5066c18e09065a187c3ae70e96739c212a36809dbe86a62785a4cf7a987e05aa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 26709,
+      "sha256": "c4bfd398846ebbc623711a0519f7350a0e6b44f38e932724068f0dbe582b6dfa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 61480,
+      "sha256": "db30c0cd2dc070f9f615b37f0f83bba8ba05407c7dcc161ae9fab64dd757a182",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3555,
+      "sha256": "7afad4fd9ad8a9b962d85ed79afa2716f3b26729199b28ae397491a6dbd12182",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1930,
+      "sha256": "e0d82af643dabbb9f68407406827427e0a875016e6475054810ffd67d44c00a8",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 489,
+      "sha256": "146e46b90f03b56486e91a50d61660a88fe63508694e6bd88e32821ea8bb3f55",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "36e50d8f4e1f698386699b34ff954cbc3ebbea155c3bedf68cb8a892e29e36a9",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/bulldozer_blade_basecolor.jpg",
+      "bytes": 144780,
+      "sha256": "2cf3947fc881d98de5520b997cd4f711d2a8b24fccf6323da8f5d9c0ecaf62e9",
+      "role": "textures"
+    },
+    {
+      "path": "textures/bulldozer_blade_metallic-bulldozer_blade_roughness.jpg",
+      "bytes": 147662,
+      "sha256": "14a55c259e8037a6c761d7ec01cbd9532ae786ce97aa479b2358ecb52ba8cc41",
+      "role": "textures"
+    },
+    {
+      "path": "textures/bulldozer_blade_normal.jpg",
+      "bytes": 66490,
+      "sha256": "0f5da4d96b008adb3a42e79dde371148653ce2ef380af6c0dcb0d8e7c22d5434",
+      "role": "textures"
+    },
+    {
+      "path": "textures/bulldozer_body_basecolor.jpg",
+      "bytes": 428245,
+      "sha256": "cc53f8064a7972d187b7db597c5a40bf61d42f11b3146c78c150cb1243a400e7",
+      "role": "textures"
+    },
+    {
+      "path": "textures/bulldozer_body_metallic-bulldozer_body_roughness.jpg",
+      "bytes": 353621,
+      "sha256": "5c2a6bd6cc7d48989cfe1217d31fb2c3dd7f62ac4375bc1ce90be0528d369102",
+      "role": "textures"
+    },
+    {
+      "path": "textures/bulldozer_body_normal.jpg",
+      "bytes": 70221,
+      "sha256": "a08ca3717dd3dda1070cf561e3436132f94cbea150cd3659c27204e735ae8f1b",
+      "role": "textures"
+    }
+  ]
+}

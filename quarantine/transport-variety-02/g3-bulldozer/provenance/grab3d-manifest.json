@@ -1,0 +1,55 @@
+{
+  "slug": "bulldozer",
+  "triangles": 28610,
+  "texture_px": 2048,
+  "triangles_light": 17123,
+  "texture_px_light": 1024,
+  "files": {
+    "glb": {
+      "name": "bulldozer.glb",
+      "bytes": 2133184
+    },
+    "blend": {
+      "name": "bulldozer.blend",
+      "bytes": 1825043
+    },
+    "fbx": {
+      "name": "bulldozer.fbx",
+      "bytes": 3617148
+    },
+    "obj": {
+      "name": "bulldozer-obj.zip",
+      "bytes": 1925461
+    },
+    "usdz": {
+      "name": "bulldozer.usdz",
+      "bytes": 3370678
+    },
+    "glb_light": {
+      "name": "bulldozer-light.glb",
+      "bytes": 1030292
+    },
+    "fbx_light": {
+      "name": "bulldozer-light.fbx",
+      "bytes": 2000972
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "3.400 x 5.616 x 3.250",
+    "triangles": 28610,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-10-06",
+    "real_size": "crawler dozer (approx. 20 t class), approx. 6.1 x 3.4 x 3.2 m (L x W x H), blade width 3.4 m, track length 3.5 m",
+    "notes": "front (blade) faces -Y; the blade with its push arms and cylinder rods 'bulldozer_blade' is a separate object with its origin on the push-arm trunnions at the track frames (rotate around local X: a negative angle lifts the blade, approx. 0 to -12 degrees, a positive angle tilts it down); lift cylinders are split: barrels on the hood, rods on the blade; rear ripper and tracks are static; amber beacon glows softly; opaque tinted windows, no interior; no brand, no text",
+    "set": "Cozy Construction Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}
