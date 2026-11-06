@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "id": "ph-metal-jug",
+  "title": "Metal Jug",
+  "category": "kitchen/tableware",
+  "style": "realistic",
+  "tags": [
+    "milk jug",
+    "metal",
+    "vase",
+    "farmhouse",
+    "countryside",
+    "kitchen decor",
+    "polyhaven"
+  ],
+  "batch": "realistic-textures-01",
+  "acquired_at": "2026-11-06T10:15:49.420568+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/metal_jug_2k.gltf",
+    "creator": "Anzor Lezhava",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/metal_jug",
+    "source_id": "metal_jug",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/metal_jug/metal_jug_2k.gltf",
+        "bytes": 2752,
+        "sha256": "7e9787da2b0bf4441a13ce72018105db20dc5619a3abda310ce4f29bac422d74"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/metal_jug/metal_jug_nor_gl_2k.jpg",
+        "bytes": 2313051,
+        "sha256": "ba7e4878006618e8d07b8c7af04ed4e4f1db29217fd5006f41f221c7513d4821"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/metal_jug/metal_jug_arm_2k.jpg",
+        "bytes": 2103812,
+        "sha256": "1468d0d99c06d1442f11445d7e28fcd6acdf7845553d742c4d2fb0299636a456"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/metal_jug/metal_jug.bin",
+        "bytes": 144496,
+        "sha256": "ebc6f19187f81cacfd6546cf486474e49bf60548a72bb96cef039545f9016db9"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/metal_jug/metal_jug_diff_2k.jpg",
+        "bytes": 1774371,
+        "sha256": "dcceffd932cd3bb721cb88913c33704f1c67ae461e8f02f98b3ef72f019ee48e"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/metal_jug_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/metal_jug_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "metal_jug_nor_gl"
+    },
+    {
+      "path": "model/textures/metal_jug_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "metal_jug_diff"
+    },
+    {
+      "path": "model/textures/metal_jug_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "metal_jug_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 3383,
+    "triangles": 6040,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "metal_jug_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-metal-jug/model/textures/metal_jug_diff_2k.jpg"
+      },
+      {
+        "name": "metal_jug_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-metal-jug/model/textures/metal_jug_nor_gl_2k.jpg"
+      },
+      {
+        "name": "metal_jug_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-metal-jug/model/textures/metal_jug_arm_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 287,
+      "sha256": "a66552512a9c006e81573a09ce3ddbf88c3308ed91a320d0752ff44a047d06d0",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67960,
+      "sha256": "d989aacea19880714391a234e4a4adda475e9c7af033413e171a6687ec514f6e",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/metal_jug.bin",
+      "bytes": 144496,
+      "sha256": "ebc6f19187f81cacfd6546cf486474e49bf60548a72bb96cef039545f9016db9",
+      "role": "model"
+    },
+    {
+      "path": "model/metal_jug_2k.gltf",
+      "bytes": 2752,
+      "sha256": "7e9787da2b0bf4441a13ce72018105db20dc5619a3abda310ce4f29bac422d74",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/metal_jug_arm_2k.jpg",
+      "bytes": 2103812,
+      "sha256": "1468d0d99c06d1442f11445d7e28fcd6acdf7845553d742c4d2fb0299636a456",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/metal_jug_diff_2k.jpg",
+      "bytes": 1774371,
+      "sha256": "dcceffd932cd3bb721cb88913c33704f1c67ae461e8f02f98b3ef72f019ee48e",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/metal_jug_nor_gl_2k.jpg",
+      "bytes": 2313051,
+      "sha256": "ba7e4878006618e8d07b8c7af04ed4e4f1db29217fd5006f41f221c7513d4821",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 27957,
+      "sha256": "88f32cf998fb6ac0bd0b4b1e982977db3f34443ca53b76fcb7bdd7698ec7192e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 16549,
+      "sha256": "28ec97d9a7d34fce7f7b2aea58240bfad6cf45ae3c91435201636747b62076e9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 217583,
+      "sha256": "e0d6d07db6d3a371001c4417e7e88904c6d84ca953f449a4406ab7bba21094d4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1131,
+      "sha256": "4af875af2d0fcca360eb21f92e6d37bce7de9e07b6f714d6dccdac954d256c41",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 26339,
+      "sha256": "b53ce39a439f4978ad334ef202b57040cf7431b93e9c4a0e5360ae8378ac32f2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 25952,
+      "sha256": "ad10eeffcde0ab43147e8b5d5c35282ba65fa37f857725a7d484f875e55a1cd0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 25545,
+      "sha256": "83c0d0ebc1b3d1cefc8aad2a3235aea59b48f40be673bd83e78c6e2bdb0b223a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 26324,
+      "sha256": "0474e4bd76845a29b1c800a60a4e36c77d575624335327f43100dbf09479963f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 27596,
+      "sha256": "0712df0bdc209ed22984b625274974c99af3a2ccaacdabfb607e3e371c8ed17d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 29438,
+      "sha256": "83adef2f7449e03f35404b67cbd855ff0aa83e931a5d8c0ca09a4231f93d6079",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 29403,
+      "sha256": "1982cbff3c820ebc626ee220d1aec1d8733b14845b0f284507386ba368bbd04c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 28785,
+      "sha256": "0d1fdf48513c5e6e1acc15167ba8d020ccda040dbe9f95a7c40d07c98403102f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 35483,
+      "sha256": "8e0fa99163eb563cca21012c8f0485f6f35b90dbe2f9ec9669c9bad719abf5cf",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 51848,
+      "sha256": "8928dc8e20e00b331400468452a3f24267b26c42e24a7ceede9ee970e1f14a2e",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 159,
+      "sha256": "fb0ed9d5d76eb15f24587410a7b1ac8306fb423786ca11e4d00249b009f1935c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1234,
+      "sha256": "50397c018c8690ac7b3376f9318859de3daba36afd3568aac950bb6b710fdc34",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2107,
+      "sha256": "84fc7943422e46aabb3efb2935ebf01f6e26a008279a161eb4bc5459e6c8efb2",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1035,
+      "sha256": "c764c853102238c90e02664b33901c5e228d2f88a05b281f4300d3e61de17248",
+      "role": "provenance"
+    }
+  ]
+}

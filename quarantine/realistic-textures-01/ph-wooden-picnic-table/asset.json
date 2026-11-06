@@ -1,0 +1,420 @@
+{
+  "schema_version": 1,
+  "id": "ph-wooden-picnic-table",
+  "title": "Wooden Picnic Table",
+  "category": "furniture/tables",
+  "style": "realistic",
+  "tags": [
+    "vintage",
+    "old",
+    "worn",
+    "park",
+    "bench",
+    "outdoor",
+    "polyhaven"
+  ],
+  "batch": "realistic-textures-01",
+  "acquired_at": "2026-11-06T10:14:34.195318+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/wooden_picnic_table_1k.gltf",
+    "creator": "Ulan Cabanilla",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/wooden_picnic_table",
+    "source_id": "wooden_picnic_table",
+    "resolution": "1k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/wooden_picnic_table/wooden_picnic_table_1k.gltf",
+        "bytes": 5099,
+        "sha256": "6b0dd9916fd87dba2e5baad06e20c0badf68bc68a5761a13854fa9a215c6bd50"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_picnic_table/wooden_picnic_table_top_arm_1k.jpg",
+        "bytes": 747432,
+        "sha256": "50d2b7a0b15c56bf82bc0c918e6eaa5f590a6fd61d32311c8da85c414ace297d"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_picnic_table/wooden_picnic_table_top_nor_gl_1k.jpg",
+        "bytes": 625681,
+        "sha256": "1e65787457f9edfdd04f1ee3f777ac2d2a9d43bfbbd3cb40c1e086f939bba419"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/wooden_picnic_table/wooden_picnic_table.bin",
+        "bytes": 279116,
+        "sha256": "1efd51c292843194fbd709452d56d06c9ddc770f43a013db57ca79bfc2731b01"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_picnic_table/wooden_picnic_table_bottom_arm_1k.jpg",
+        "bytes": 699984,
+        "sha256": "555226136c1d754d4aa5da42385a9152a146c5175382c77cced611a6880efd35"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_picnic_table/wooden_picnic_table_top_diff_1k.jpg",
+        "bytes": 722582,
+        "sha256": "4aefdef35bf343410dbebd8577dfc968f1d6420ccddc601b19912e84b2accc0a"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_picnic_table/wooden_picnic_table_bottom_nor_gl_1k.jpg",
+        "bytes": 548315,
+        "sha256": "c5d6eb388eceb6d98e92ff31d3f3346d411b1bbcb15c05dc9da71e4a7e398539"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_picnic_table/wooden_picnic_table_bottom_diff_1k.jpg",
+        "bytes": 680087,
+        "sha256": "887b9a57213f87196fb090419e14d00095af8fa56c93ca6cd7d0d70ef4e5fd27"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/wooden_picnic_table_1k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 2,
+    "images": 6,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/wooden_picnic_table_bottom_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "wooden_picnic_table_bottom_nor_gl"
+    },
+    {
+      "path": "model/textures/wooden_picnic_table_bottom_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "wooden_picnic_table_bottom_diff"
+    },
+    {
+      "path": "model/textures/wooden_picnic_table_bottom_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "wooden_picnic_table_bottom_metal-wooden_picnic_table_bottom_rough"
+    },
+    {
+      "path": "model/textures/wooden_picnic_table_top_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "wooden_picnic_table_top_nor_gl"
+    },
+    {
+      "path": "model/textures/wooden_picnic_table_top_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "wooden_picnic_table_top_diff"
+    },
+    {
+      "path": "model/textures/wooden_picnic_table_top_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "wooden_picnic_table_top_metal-wooden_picnic_table_top_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 6808,
+    "triangles": 10210,
+    "material_slots": 2,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "wooden_picnic_table_bottom_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-wooden-picnic-table/model/textures/wooden_picnic_table_bottom_diff_1k.jpg"
+      },
+      {
+        "name": "wooden_picnic_table_bottom_metal-wooden_picnic_table_bottom_rou",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-wooden-picnic-table/model/textures/wooden_picnic_table_bottom_arm_1k.jpg"
+      },
+      {
+        "name": "wooden_picnic_table_bottom_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-wooden-picnic-table/model/textures/wooden_picnic_table_bottom_nor_gl_1k.jpg"
+      },
+      {
+        "name": "wooden_picnic_table_top_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-wooden-picnic-table/model/textures/wooden_picnic_table_top_diff_1k.jpg"
+      },
+      {
+        "name": "wooden_picnic_table_top_metal-wooden_picnic_table_top_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-wooden-picnic-table/model/textures/wooden_picnic_table_top_arm_1k.jpg"
+      },
+      {
+        "name": "wooden_picnic_table_top_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-wooden-picnic-table/model/textures/wooden_picnic_table_top_nor_gl_1k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 283,
+      "sha256": "942fe2b149d2ee656b7a03a34b759204094daaebdc7d4119d5e9c68b7fc13958",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 72241,
+      "sha256": "3e6418222478b720469010047a253e8f4b5e4dd66d69d36912b1d09b04c87c5f",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "2a9a229f8bb2ed821581e94782406b1f4a42c4f9a9e024e1cc719a6265cfa1b4",
+      "role": "logs"
+    },
+    {
+      "path": "model/textures/wooden_picnic_table_bottom_arm_1k.jpg",
+      "bytes": 699984,
+      "sha256": "555226136c1d754d4aa5da42385a9152a146c5175382c77cced611a6880efd35",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/wooden_picnic_table_bottom_diff_1k.jpg",
+      "bytes": 680087,
+      "sha256": "887b9a57213f87196fb090419e14d00095af8fa56c93ca6cd7d0d70ef4e5fd27",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/wooden_picnic_table_bottom_nor_gl_1k.jpg",
+      "bytes": 548315,
+      "sha256": "c5d6eb388eceb6d98e92ff31d3f3346d411b1bbcb15c05dc9da71e4a7e398539",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/wooden_picnic_table_top_arm_1k.jpg",
+      "bytes": 747432,
+      "sha256": "50d2b7a0b15c56bf82bc0c918e6eaa5f590a6fd61d32311c8da85c414ace297d",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/wooden_picnic_table_top_diff_1k.jpg",
+      "bytes": 722582,
+      "sha256": "4aefdef35bf343410dbebd8577dfc968f1d6420ccddc601b19912e84b2accc0a",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/wooden_picnic_table_top_nor_gl_1k.jpg",
+      "bytes": 625681,
+      "sha256": "1e65787457f9edfdd04f1ee3f777ac2d2a9d43bfbbd3cb40c1e086f939bba419",
+      "role": "model"
+    },
+    {
+      "path": "model/wooden_picnic_table.bin",
+      "bytes": 279116,
+      "sha256": "1efd51c292843194fbd709452d56d06c9ddc770f43a013db57ca79bfc2731b01",
+      "role": "model"
+    },
+    {
+      "path": "model/wooden_picnic_table_1k.gltf",
+      "bytes": 5099,
+      "sha256": "6b0dd9916fd87dba2e5baad06e20c0badf68bc68a5761a13854fa9a215c6bd50",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 44351,
+      "sha256": "47d7f71f388ba259387de9f796af2e6af737f18c5403c539c98955082a98826e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 17898,
+      "sha256": "1f6c9e5bdeb494b83e690737a2c03c11d4ac8f97a21e37b7bbf5447aa5cf0dd1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 217005,
+      "sha256": "f5b89698d3013f1569434335fda67d28935975a0e8964b516359df00da5e4dd8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 2241,
+      "sha256": "e29e4e10193f4a415bc28e6a9d6fc8632aa268b9f455ed8ca431baaa4b1a256b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 35772,
+      "sha256": "6d0baac0208075d57dc7e359ace4d23bc97197d191e1a25632db4a492267be77",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 23648,
+      "sha256": "20297f77459f29a4e5c27424fb9a3152f4e884f73de0d4a9f696935341b15a50",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 24475,
+      "sha256": "1d89fe532c2224eea1f5120ed332bf939f08c33d1ef6b0d28b0b9786613a1923",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 24102,
+      "sha256": "38525acf796befd7c8d383169422293b1f74e6df9c9572585a6d5f1e5a8e8bd1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 36358,
+      "sha256": "bb0974ad099d46c58fa59fe4186f904b0f7a098a38b18c0d6b31fe17b9df7aea",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 24615,
+      "sha256": "f5416c8f90b3c2f126d2b48180207e4334418d791b31b2ef21bb592b6c8d01bf",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 25482,
+      "sha256": "5b0d17a789f8f872f94d94b8997a0f6319e7dfc71eb786f08096653489274846",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 24359,
+      "sha256": "9dd7a5df2ea57b55228aa6639c73c30d184fe6c13e7382740d2e68a2f8178b5b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 43106,
+      "sha256": "e8b9a0e2bd9e69c1f392af7b18c39e17f2651cd9f0e79bd4828b37d2afdace5c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 29474,
+      "sha256": "d421987d9e392e7252be6145776f4dbb8474a14d291170038778daba24b138a1",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 169,
+      "sha256": "e5a407b85bfb02d0384e84c4e052488bf6173a07f628562defd73ee3c31d9eed",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1259,
+      "sha256": "47068882e25d936a7e3fe6a137df03ae27cf5a90d4b96378a3d3f301d71f4d5a",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3419,
+      "sha256": "4b5a8ddc035c4a67e3198be7c566681136d4a4f58526661e885a1504e72b5fab",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1987,
+      "sha256": "cd00f664b2706395c2057541515d6422b9d5faa26c34cfae3142bbe90f6faf43",
+      "role": "provenance"
+    }
+  ]
+}
