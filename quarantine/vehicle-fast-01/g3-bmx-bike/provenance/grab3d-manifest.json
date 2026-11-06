@@ -1,0 +1,47 @@
+{
+  "slug": "bmx-bike",
+  "triangles": 17810,
+  "texture_px": 2048,
+  "triangles_light": null,
+  "texture_px_light": null,
+  "files": {
+    "glb": {
+      "name": "bmx-bike.glb",
+      "bytes": 1071224
+    },
+    "blend": {
+      "name": "bmx-bike.blend",
+      "bytes": 886365
+    },
+    "fbx": {
+      "name": "bmx-bike.fbx",
+      "bytes": 1808636
+    },
+    "obj": {
+      "name": "bmx-bike-obj.zip",
+      "bytes": 870112
+    },
+    "usdz": {
+      "name": "bmx-bike.usdz",
+      "bytes": 1694464
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "0.760 x 1.454 x 1.005",
+    "triangles": 17810,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-10-25",
+    "real_size": "freestyle BMX bike, approx. 1.5 x 0.8 x 1.0 m (L x W x H), 20 in wheels",
+    "notes": "front faces -Y; stands on both wheels, no kickstand; wheels are separate objects with origin on the axle (rotate around local X to roll); bmx-bike_steering (fork, riser bar with crossbar pad, stem, grips, front pegs) has its origin on the steering axis, tilted 15 deg: rotate around (0, 0.259, 0.966) in Blender Z-up = (0, 0.966, -0.259) in glTF Y-up; bmx-bike_crank (arms, sprocket, platform pedals) has its origin in the bottom bracket, rotate around local X; rear pegs are fixed to the frame; no brand, no text",
+    "set": "Cozy Vehicles Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}
