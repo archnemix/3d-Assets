@@ -1,0 +1,885 @@
+{
+  "schema_version": 1,
+  "id": "is-wide-body-airliner",
+  "title": "Wide-body airliner",
+  "category": "vehicles/aircraft",
+  "style": "realistic",
+  "tags": [
+    "airliner",
+    "aircraft",
+    "passenger"
+  ],
+  "batch": "vehicle-vintage-01",
+  "acquired_at": "2026-11-06T13:17:47.032831+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "innerscene",
+    "model": "model/wide-body-airliner-0560b943.glb",
+    "creator": "Innerscene",
+    "license": "CC0-1.0",
+    "license_evidence": "https://www.innerscene.com/tools/library/terms",
+    "license_page": "https://www.innerscene.com/tools/library/terms",
+    "source_url": "https://www.innerscene.com/tools/library/3d-parts/wide-body-airliner-0560b943",
+    "source_id": "wide-body-airliner-0560b943",
+    "revision": "e396211877b5e0a9e9f1f14155c1d183220ce2ee148d6adcecb231803c857ea8",
+    "downloads": [
+      {
+        "url": "https://www.innerscene.com/api/library/wide-body-airliner-0560b943/download",
+        "bytes": 19109948,
+        "sha256": "e396211877b5e0a9e9f1f14155c1d183220ce2ee148d6adcecb231803c857ea8"
+      }
+    ],
+    "repairs": []
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://www.innerscene.com/tools/library/terms"
+  },
+  "model": "model/wide-body-airliner-0560b943.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 13,
+    "materials": 22,
+    "images": 26,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_materials_clearcoat",
+      "KHR_materials_emissive_strength",
+      "KHR_materials_specular"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/ac1301_col_181e26_gloss.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ac1301_col_181e26_gloss"
+    },
+    {
+      "path": "textures/ac1301_col_3c4044_satin.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ac1301_col_3c4044_satin"
+    },
+    {
+      "path": "textures/ac1301_col_1e1f22_matte.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ac1301_col_1e1f22_matte"
+    },
+    {
+      "path": "textures/ac1301_panels.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ac1301_panels"
+    },
+    {
+      "path": "textures/ac1301_n_brushed.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ac1301_n_brushed"
+    },
+    {
+      "path": "textures/ac1301_col_c4c6ca_metal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ac1301_col_c4c6ca_metal"
+    },
+    {
+      "path": "textures/ac1301_col_d2d4d6_enamel.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ac1301_col_d2d4d6_enamel"
+    },
+    {
+      "path": "textures/ac1301_col_1e1f21_matte.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ac1301_col_1e1f21_matte"
+    },
+    {
+      "path": "textures/ac1301_col_3c3e42_metal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ac1301_col_3c3e42_metal"
+    },
+    {
+      "path": "textures/ac1301_col_787c80_metal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ac1301_col_787c80_metal"
+    },
+    {
+      "path": "textures/ac1301_n_beadblast.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ac1301_n_beadblast"
+    },
+    {
+      "path": "textures/ac1301_col_605a54_metal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ac1301_col_605a54_metal"
+    },
+    {
+      "path": "textures/ac1301_col_22201e_metal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ac1301_col_22201e_metal"
+    },
+    {
+      "path": "textures/ac1301_col_a8acb0_enamel.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ac1301_col_a8acb0_enamel"
+    },
+    {
+      "path": "textures/ac1301_col_d4d6d8_enamel.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ac1301_col_d4d6d8_enamel"
+    },
+    {
+      "path": "textures/ac1301_col_163068_enamel.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ac1301_col_163068_enamel"
+    },
+    {
+      "path": "textures/ac1301_col_b8bcbe_satin.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ac1301_col_b8bcbe_satin"
+    },
+    {
+      "path": "textures/ac1301_col_c4c6c8_metal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ac1301_col_c4c6c8_metal"
+    },
+    {
+      "path": "textures/ac1301_n_rubber.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ac1301_n_rubber"
+    },
+    {
+      "path": "textures/ac1301_col_242527_rubber.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ac1301_col_242527_rubber"
+    },
+    {
+      "path": "textures/ac1301_col_b2b6bc_metal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ac1301_col_b2b6bc_metal"
+    },
+    {
+      "path": "textures/ac1301_col_1ec846_matte.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ac1301_col_1ec846_matte"
+    },
+    {
+      "path": "textures/ac1301_col_dc1e18_matte.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ac1301_col_dc1e18_matte"
+    },
+    {
+      "path": "textures/ac1301_n_paint.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ac1301_n_paint"
+    },
+    {
+      "path": "textures/ac1301_col_b0b4b8_satin.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ac1301_col_b0b4b8_satin"
+    },
+    {
+      "path": "textures/ac1301_col_babec4_metal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ac1301_col_babec4_metal"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 13,
+    "hidden_mesh_objects": 0,
+    "vertices": 75589,
+    "triangles": 119832,
+    "material_slots": 33,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "ac1301_col_163068_enamel",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "ac1301_col_181e26_gloss",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "ac1301_col_1e1f21_matte",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "ac1301_col_1e1f22_matte",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "ac1301_col_1ec846_matte",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "ac1301_col_22201e_metal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "ac1301_col_242527_rubber",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "ac1301_col_3c3e42_metal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "ac1301_col_3c4044_satin",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "ac1301_col_605a54_metal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "ac1301_col_787c80_metal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "ac1301_col_a8acb0_enamel",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "ac1301_col_b0b4b8_satin",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "ac1301_col_b2b6bc_metal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "ac1301_col_b8bcbe_satin",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "ac1301_col_babec4_metal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "ac1301_col_c4c6c8_metal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "ac1301_col_c4c6ca_metal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "ac1301_col_d2d4d6_enamel",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "ac1301_col_d4d6d8_enamel",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "ac1301_col_dc1e18_matte",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "ac1301_n_beadblast",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "ac1301_n_brushed",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "ac1301_n_paint",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "ac1301_n_rubber",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "ac1301_panels",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 9,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 35970,
+      "sha256": "0684dc94e151a9a7b5e1a80773395c22fcf87ad1138a689e035bdc061a17f86f",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 927,
+      "sha256": "94af69e7def0ef20c64577a2747763a99bd72b051d9ec5cbe3dd5cfd1e2a9a02",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 124578,
+      "sha256": "afab352a17616bcfe6f974ae22ff6193cf75bda477be4a3217198c05ea972946",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "714c27ac804a376c91eb0d81250cb67d7bc1333594b2663fd290e46faf49126e",
+      "role": "logs"
+    },
+    {
+      "path": "model/wide-body-airliner-0560b943.glb",
+      "bytes": 19109948,
+      "sha256": "e396211877b5e0a9e9f1f14155c1d183220ce2ee148d6adcecb231803c857ea8",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 17412,
+      "sha256": "04d2e1551e017b57e07992dd24405d7ceba8b17ce51387088486aaf6b01effd3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 15946,
+      "sha256": "67d7453b354d6115a1d7bfe4889b31845f2168967459423e8a362ef4a00a5950",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 141094,
+      "sha256": "08a37d8adc8862bdd5dd92a6709288bb2a1b7ecb97330ea71a71cfe73e2d3632",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 4330,
+      "sha256": "8ee43ace6c50ee21b6fb0935fae4f07cfef73a6fcfa3dca6f52910a832ef4c56",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 15564,
+      "sha256": "21a0579a3fc1849ac77dc9d940010f329c54a9ddd566d0ca9c8ed49e4d014bdc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 21255,
+      "sha256": "5608822152e67240380b6e30527cb2654211fcec96ecd592e1d4e7a227d6319e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 17173,
+      "sha256": "827167452b243ffa34154fd508d864dae49b99e34a14de31162846e56c944281",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 20838,
+      "sha256": "547816911f09063d3a14147fc2a846b670cef108550a8a37fa770782f7d8514d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 13385,
+      "sha256": "45d2495f7c9f68e4241a6e011f62c71f064affedb6e9a7f93dc98fa171b14ce4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 21038,
+      "sha256": "f6ea4d6412a8248072fdfd1ec69aa6aba140ec31bf4fa1d4beb00387c39f192c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 18531,
+      "sha256": "9988cf8daa2d8318c7813273241607f2201efaed1dd38709c62c59090345ee69",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 21705,
+      "sha256": "ef9d8a7020f377027f7db11556b6204fd1a0882e8515c90e9f3f3193e28b47ed",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 18219,
+      "sha256": "0828113ab6f35303643d9493c21cf4a377e5d040ca50291442c35842fac8feb4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 21094,
+      "sha256": "c30fb1ae1f5fc0e094ae1e0db9ed1e6986131047b59c1c618e1cf79e9c3e8b5d",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 173,
+      "sha256": "d317b75b617a4617d38410db2d2055fea8766ddbc2305c251004434e1ae836ae",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 10337,
+      "sha256": "00eddee326876a295c2091bd59c6e854c05741fccb824e696b48e2ab9d8f7d0a",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/innerscene-page.html",
+      "bytes": 53361,
+      "sha256": "bc7f1c876dd25529a6405c999225d115291fca19c17ab6d759400fe50e76ec64",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/innerscene-repair.json",
+      "bytes": 315,
+      "sha256": "f36a91c7e494f197c629a3f2f2aa5080639f5a85b03ace52e79e1aff06765b86",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/innerscene-source.json",
+      "bytes": 554,
+      "sha256": "c503eebdb3aaa93c39d62038a871a85f4d222eeaad85a38b395226cd6c4a3088",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/ac1301_col_163068_enamel.jpg",
+      "bytes": 145524,
+      "sha256": "badbb1871738fa6421cd9903b494d6997546fca3712ffeb545e4191b7a3c9bc7",
+      "role": "textures"
+    },
+    {
+      "path": "textures/ac1301_col_181e26_gloss.jpg",
+      "bytes": 80562,
+      "sha256": "2e473464f800a9bc114d0df6dfd77da014ba0c0ffea04e0e77f6768d3fe69503",
+      "role": "textures"
+    },
+    {
+      "path": "textures/ac1301_col_1e1f21_matte.jpg",
+      "bytes": 133194,
+      "sha256": "18ea6f512707796655ba6f5daa1182e58f12a1399e0334809890997d303216ec",
+      "role": "textures"
+    },
+    {
+      "path": "textures/ac1301_col_1e1f22_matte.jpg",
+      "bytes": 133715,
+      "sha256": "b7cc93ee0a11225b25854d4e46a59335e7a61cdb61920fd1ab8bd3a748da3a38",
+      "role": "textures"
+    },
+    {
+      "path": "textures/ac1301_col_1ec846_matte.jpg",
+      "bytes": 616106,
+      "sha256": "5d849d8fb255d36c6c0959044dc753cad127b7f26e1e629569870a3171c97056",
+      "role": "textures"
+    },
+    {
+      "path": "textures/ac1301_col_22201e_metal.jpg",
+      "bytes": 83350,
+      "sha256": "0f3af1741e89dd600fc8669bce2d708bbea3e0f9e7a9b18cecb182a678e298aa",
+      "role": "textures"
+    },
+    {
+      "path": "textures/ac1301_col_242527_rubber.jpg",
+      "bytes": 199934,
+      "sha256": "67d0adc57562194d32efc36edd8bfc3dfd006bb01585012ee8efdc2318161f1f",
+      "role": "textures"
+    },
+    {
+      "path": "textures/ac1301_col_3c3e42_metal.jpg",
+      "bytes": 135365,
+      "sha256": "57f14860c785b3ede15a9602c8d8609b49484dc11684b987f7b52282f35183fe",
+      "role": "textures"
+    },
+    {
+      "path": "textures/ac1301_col_3c4044_satin.jpg",
+      "bytes": 203214,
+      "sha256": "3b78de7f90e2850e343cf33f333969af32f99189c6e24b7b6935387b88d4e26f",
+      "role": "textures"
+    },
+    {
+      "path": "textures/ac1301_col_605a54_metal.jpg",
+      "bytes": 195213,
+      "sha256": "d73b43de78e0a79b17d349ee5c54051183bbe1a8cef4a9dba0b8006f55c84a47",
+      "role": "textures"
+    },
+    {
+      "path": "textures/ac1301_col_787c80_metal.jpg",
+      "bytes": 262268,
+      "sha256": "dde66efbacf53b999608c2568806ff6320e65d0040ff0a8e396d5615bbe259c8",
+      "role": "textures"
+    },
+    {
+      "path": "textures/ac1301_col_a8acb0_enamel.jpg",
+      "bytes": 346941,
+      "sha256": "9992800c8e6d9165e0a543c0b8a60cb9322b1399f1a45d6669cfd3cc38d3d0d1",
+      "role": "textures"
+    },
+    {
+      "path": "textures/ac1301_col_b0b4b8_satin.jpg",
+      "bytes": 484106,
+      "sha256": "3d554b8d5261fd4e00d62855ac83234c7ba3de13a3cca995e858ed36a75b7cb1",
+      "role": "textures"
+    },
+    {
+      "path": "textures/ac1301_col_b2b6bc_metal.jpg",
+      "bytes": 370408,
+      "sha256": "8090797edd809ddb24e672112671ce43246e300f2ef9b8ae6e3275b97a5a323c",
+      "role": "textures"
+    },
+    {
+      "path": "textures/ac1301_col_b8bcbe_satin.jpg",
+      "bytes": 502317,
+      "sha256": "e806b8fa4a20961e9dfb946afaf3f30fad2e3a251be5e37c06a9e8eab7178ef4",
+      "role": "textures"
+    },
+    {
+      "path": "textures/ac1301_col_babec4_metal.jpg",
+      "bytes": 383631,
+      "sha256": "2c806c6f64c2ab7519087b7fce5548f32fd7c3d48d8c2220651b294cbeab65cb",
+      "role": "textures"
+    },
+    {
+      "path": "textures/ac1301_col_c4c6c8_metal.jpg",
+      "bytes": 386837,
+      "sha256": "5302ef79639efd8077cd295cb19087d9458053740039779dfcdc0a87928c7c96",
+      "role": "textures"
+    },
+    {
+      "path": "textures/ac1301_col_c4c6ca_metal.jpg",
+      "bytes": 390563,
+      "sha256": "0a5bb3da3248d432190cedbe8405cd3ce883247f17df8727d60ed9b6e973e7f7",
+      "role": "textures"
+    },
+    {
+      "path": "textures/ac1301_col_d2d4d6_enamel.jpg",
+      "bytes": 406211,
+      "sha256": "1068f73ff1efcc09785b55818d6831df2f79e547e33dd6f261403cb1607b464a",
+      "role": "textures"
+    },
+    {
+      "path": "textures/ac1301_col_d4d6d8_enamel.jpg",
+      "bytes": 409638,
+      "sha256": "b09f88c78f17ac078da5b50c020601a1f00b91442cd6725f9c27329a5f6e15cc",
+      "role": "textures"
+    },
+    {
+      "path": "textures/ac1301_col_dc1e18_matte.jpg",
+      "bytes": 520038,
+      "sha256": "265c13027a24132ea91452e37f231b67e4eb0a6fda89318e3707b889ac3cdc04",
+      "role": "textures"
+    },
+    {
+      "path": "textures/ac1301_n_beadblast.jpg",
+      "bytes": 2605052,
+      "sha256": "74d1507680f54f84173acdb411d033adb85c315d027145118db460759d867d02",
+      "role": "textures"
+    },
+    {
+      "path": "textures/ac1301_n_brushed.jpg",
+      "bytes": 1434359,
+      "sha256": "771802f836d9c4061c30c39891e0ffbd5068c5679b0220ad0d4daf378216642e",
+      "role": "textures"
+    },
+    {
+      "path": "textures/ac1301_n_paint.jpg",
+      "bytes": 2239576,
+      "sha256": "5eb9c3d0ec6e935b36de6912d634571a35cdc29fa50460d24285c979fcef8cda",
+      "role": "textures"
+    },
+    {
+      "path": "textures/ac1301_n_rubber.jpg",
+      "bytes": 2631057,
+      "sha256": "59fc74df50e75f98933371c71729eccb325c973b390665c497ca733766a55dab",
+      "role": "textures"
+    },
+    {
+      "path": "textures/ac1301_panels.jpg",
+      "bytes": 636979,
+      "sha256": "df8fecd7b975a6c0c499638f857759cc81bf2a28fd10a6af9b2d01555ce18f6a",
+      "role": "textures"
+    }
+  ]
+}
