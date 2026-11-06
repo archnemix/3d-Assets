@@ -15,15 +15,16 @@
     "author_request_blocks_intake": true
   },
   "totals": {
-    "assets": 335,
-    "passed": 335,
+    "assets": 336,
+    "passed": 336,
     "failed": 0,
     "by_provider": {
       "gobkit-free": 2,
       "grab3d": 149,
       "kenney": 10,
       "modkit-industrial": 14,
-      "polyhaven": 160
+      "polyhaven": 160,
+      "research-vintage": 1
     }
   },
   "providers": {
@@ -127,6 +128,26 @@
         "Only the assets are CC0. Site content such as the Poly Haven logo, staff avatars, example renders and page text stays protected, so this library renders its own previews instead of copying promotional imagery.",
         "Using the live discovery API is covered by separate API terms. They ask for a visible 'Powered by Poly Haven' service credit in software that calls the API. The same terms state explicitly that downloaded or self-hosted CC0 assets carry no attribution requirement whatsoever; this gallery serves local files and keeps the credit as a courtesy.",
         "A few Poly Haven assets carry a trademark warning flag in their API metadata. None of the approved assets in this library carry that flag; each asset stores the API metadata it was selected from."
+      ]
+    },
+    "research-vintage": {
+      "name": "piopis vintage car via Bitterli and glTF Research Scenes",
+      "spdx": "CC0-1.0",
+      "status": "verified",
+      "free_of_charge": true,
+      "terms_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "evidence_url": "https://github.com/ErfanMo77/gltf-research-scenes/blob/f550972025ca39c7c9c05ee6bfd988ef6e0745de/scenes/vintage-car/source/LICENSE.txt",
+      "resale_as_is": {
+        "permitted": true,
+        "explicit": false,
+        "note": "The car scene is CC0; the original environment map is separately restricted and excluded."
+      },
+      "asset_notes": [
+        "Restricted to piopis vintage car; no original HDR environment included."
+      ],
+      "caveats": [
+        "CC0 documentation does not independently verify authorship or third-party rights.",
+        "The conversion is approximate and the floor and camera were removed from the active scene."
       ]
     }
   },
@@ -9640,6 +9661,40 @@
       "ai_assisted": false,
       "notes": [
         "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "research-vintage-car",
+      "title": "Old vintage car",
+      "category": "vehicles/cars/classic",
+      "creator": "piopis; scene by Benedikt Bitterli, glTF conversion by Erfan Momeni",
+      "provider": "research-vintage",
+      "spdx": "CC0-1.0",
+      "directory": "assets/vehicles/cars/classic/research-vintage-car",
+      "source_url": "https://blendswap.com/blend/14205",
+      "license_evidence": "https://raw.githubusercontent.com/ErfanMo77/gltf-research-scenes/f550972025ca39c7c9c05ee6bfd988ef6e0745de/scenes/vintage-car/source/LICENSE.txt",
+      "license_file": "assets/vehicles/cars/classic/research-vintage-car/LICENSE.txt",
+      "license_file_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "ai_assisted": false,
+      "notes": [
+        "Restricted to piopis vintage car; no original HDR environment included."
       ],
       "checks": {
         "free_of_charge": true,

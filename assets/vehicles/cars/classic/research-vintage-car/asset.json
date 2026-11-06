@@ -12,8 +12,31 @@
   "batch": "vehicle-wright-01",
   "acquired_at": "2026-11-06T13:25:04.741186+00:00",
   "review": {
-    "status": "awaiting-visual-review",
-    "approved": false
+    "id": "research-vintage-car",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Individually inspected all twelve corrected views. A complete vintage sedan with separately modeled grille, headlights, louvers, bumpers, wheels, windows and visible seats and steering wheel. Clean shaded exterior is detailed but not a photorealistic scan; no obvious logos in these views.",
+    "limitations": [
+      "Static glTF: no animation clips or armature; working wheels, doors and controls were not verified.",
+      "Seats and steering wheel are visible through windows but detailed interior, accessibility and functionality were not verified.",
+      "No image textures; the shiny paint, chrome and glass use approximate converted materials. Material appearance depends on support for glTF extensions.",
+      "Blender inspection reports 1,024 zero-area triangles among 771,640 total; zero glTF errors or warnings, 52 informational notices.",
+      "The original separately licensed HDR is excluded. The ground and camera definitions were removed; source buffer retains unused ground data.",
+      "Vintage-car reference orientation is not standard front +Z; rely on the actual geometry rather than the inspection labels."
+    ],
+    "contact_sheet_sha256": "72c15452ae6155e4a8970d48dd386fcb0531536267531d0ed747c9801b4218a4",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
   },
   "source": {
     "provider": "research-vintage",
@@ -88,6 +111,12 @@
       "bytes": 7048,
       "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
       "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1963,
+      "sha256": "c4dcf66769cffcc82935674ec9abd4432ff60e2285dc68098f950d8c1950aad1",
+      "role": "documentation"
     },
     {
       "path": "logs/animations.log",
@@ -244,6 +273,12 @@
       "bytes": 813,
       "sha256": "b78ea48e9ddc3769aca50377e2135e9fe655732c2ca4cf8ac606766559635b9d",
       "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1577,
+      "sha256": "2d4bd5f58431cf1635e09e5df51d5740c8607442e1e744c7296ae9cf37012dae",
+      "role": "documentation"
     }
   ]
 }

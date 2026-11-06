@@ -1,0 +1,25 @@
+{
+  "id": "research-vintage-car",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Individually inspected all twelve corrected views. A complete vintage sedan with separately modeled grille, headlights, louvers, bumpers, wheels, windows and visible seats and steering wheel. Clean shaded exterior is detailed but not a photorealistic scan; no obvious logos in these views.",
+  "limitations": [
+    "Static glTF: no animation clips or armature; working wheels, doors and controls were not verified.",
+    "Seats and steering wheel are visible through windows but detailed interior, accessibility and functionality were not verified.",
+    "No image textures; the shiny paint, chrome and glass use approximate converted materials. Material appearance depends on support for glTF extensions.",
+    "Blender inspection reports 1,024 zero-area triangles among 771,640 total; zero glTF errors or warnings, 52 informational notices.",
+    "The original separately licensed HDR is excluded. The ground and camera definitions were removed; source buffer retains unused ground data.",
+    "Vintage-car reference orientation is not standard front +Z; rely on the actual geometry rather than the inspection labels."
+  ],
+  "contact_sheet_sha256": "72c15452ae6155e4a8970d48dd386fcb0531536267531d0ed747c9801b4218a4",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

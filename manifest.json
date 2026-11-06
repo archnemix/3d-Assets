@@ -13751,6 +13751,54 @@
       ]
     },
     {
+      "id": "research-vintage-car",
+      "title": "Old vintage car",
+      "category": "vehicles/cars/classic",
+      "style": "realistic",
+      "tags": [
+        "car",
+        "vintage",
+        "classic"
+      ],
+      "creator": "piopis; scene by Benedikt Bitterli, glTF conversion by Erfan Momeni",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "Restricted to piopis vintage car; no original HDR environment included."
+      ],
+      "resale_as_is": "The car scene is CC0; the original environment map is separately restricted and excluded.",
+      "source_url": "https://blendswap.com/blend/14205",
+      "license_evidence": "https://raw.githubusercontent.com/ErfanMo77/gltf-research-scenes/f550972025ca39c7c9c05ee6bfd988ef6e0745de/scenes/vintage-car/source/LICENSE.txt",
+      "directory": "assets/vehicles/cars/classic/research-vintage-car",
+      "metadata": "assets/vehicles/cars/classic/research-vintage-car/asset.json",
+      "metadata_sha256": "2b65336f714f39513d636f12748837ae3b5621604b2e7dbcd7fdcbf7fbf8a12c",
+      "model": "assets/vehicles/cars/classic/research-vintage-car/model/vintage_car_extended.gltf",
+      "preview": "assets/vehicles/cars/classic/research-vintage-car/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/cars/classic/research-vintage-car/previews/contact-sheet.jpg",
+      "triangles": 771640,
+      "texture_count": 0,
+      "max_texture_resolution": 0,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static glTF: no animation clips or armature; working wheels, doors and controls were not verified.",
+        "Seats and steering wheel are visible through windows but detailed interior, accessibility and functionality were not verified.",
+        "No image textures; the shiny paint, chrome and glass use approximate converted materials. Material appearance depends on support for glTF extensions.",
+        "Blender inspection reports 1,024 zero-area triangles among 771,640 total; zero glTF errors or warnings, 52 informational notices.",
+        "The original separately licensed HDR is excluded. The ground and camera definitions were removed; source buffer retains unused ground data.",
+        "Vintage-car reference orientation is not standard front +Z; rely on the actual geometry rather than the inspection labels."
+      ]
+    },
+    {
       "id": "g3-electric-car",
       "title": "Compact electric city car",
       "category": "vehicles/cars/electric",
@@ -15963,7 +16011,7 @@
     }
   ],
   "totals": {
-    "assets": 335,
+    "assets": 336,
     "categories": 96,
     "by_category": {
       "apparel/accessories": 1,
@@ -16050,7 +16098,7 @@
       "toys/games": 1,
       "vehicles/bikes": 2,
       "vehicles/cars": 8,
-      "vehicles/cars/classic": 1,
+      "vehicles/cars/classic": 2,
       "vehicles/cars/electric": 1,
       "vehicles/farm": 2,
       "vehicles/parts": 6,
@@ -16065,7 +16113,7 @@
     },
     "by_style": {
       "low-poly": 26,
-      "realistic": 216,
+      "realistic": 217,
       "stylized": 93
     }
   }

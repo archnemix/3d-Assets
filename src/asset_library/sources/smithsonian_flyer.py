@@ -5,24 +5,27 @@ from pathlib import Path
 from asset_library.files import write_json
 from asset_library.http import download, text
 
-PAGE = "https://3d.si.edu/object/3d/1903-wright-flyer:d8c62e5e-4ebc-11ea-b77f-2e728ce88125"
-GLB = "https://3d-api.si.edu/content/document/3d_package:d8c62e5e-4ebc-11ea-b77f-2e728ce88125/resources/1903WrightFlyer-150k-4096_std.glb"
+PAGE = "https://zenodo.org/records/21290763"
+ORIGINAL = "https://sketchfab.com/3d-models/1903-wright-flyer-c91467735c6743af872e65107a79beda"
+GLB = "https://zenodo.org/api/records/21290763/files/c91467735c6743af872e65107a79beda.glb/content"
+SHA256 = "8dfbd0e9469557fe97cd7ad8fa746f125a947a441b039effd386e61f25de31eb"
 LEGAL = "https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt"
-HOSTS = {"3d.si.edu", "3d-api.si.edu", "cdn.3d-api.si.edu", "creativecommons.org"}
+HOSTS = {"zenodo.org", "creativecommons.org"}
 
 
 def verify_page(page: str) -> None:
     if not all(
-        fragment in page
+        fragment in page.lower()
         for fragment in (
-            "1903 Wright Flyer",
-            "CC0",
-            "This media file is in the public domain",
-            "1903WrightFlyer-150k-4096_std.glb",
-            "scale in cm",
+            "1903 wright flyer",
+            "cc0",
+            "smithsonian",
+            "c91467735c6743af872e65107a79beda.glb",
+            "objaverse",
+            "sketchfab",
         )
     ):
-        raise ValueError("Missing specific Smithsonian CC0 or asset evidence")
+        raise ValueError("Missing specific Zenodo mirror and CC0 evidence")
 
 
 def fetch_smithsonian_flyer(source: dict, candidate: dict, directory: Path) -> dict:
@@ -39,12 +42,15 @@ def fetch_smithsonian_flyer(source: dict, candidate: dict, directory: Path) -> d
     (provenance / "smithsonian-page.html").write_text(page, encoding="utf-8")
     model = directory / "model" / "wright-flyer.glb"
     record = download(GLB, model, HOSTS)
+    if record["sha256"] != SHA256 or record["bytes"] != 31680084:
+        raise ValueError("Zenodo source file hash/size mismatch")
     write_json(
         provenance / "smithsonian-source.json",
         {
             "page": PAGE,
+            "original": ORIGINAL,
             "download": record,
-            "description": "Low-resolution 150k mesh with 4K textures, museum scan; source describes scale in cm.",
+            "description": "Objaverse/Sketchfab original mirrored by Zenodo; source mesh 296,689 triangles. Scale and textures must be inspected.",
             "rights": "Specific 3D media marked CC0; Smithsonian attribution is suggested, not required.",
         },
     )
@@ -52,8 +58,8 @@ def fetch_smithsonian_flyer(source: dict, candidate: dict, directory: Path) -> d
         "model": model.relative_to(directory).as_posix(),
         "creator": "Smithsonian Institution",
         "license": "CC0-1.0",
-        "license_evidence": PAGE,
-        "source_url": PAGE,
+        "license_evidence": ORIGINAL,
+        "source_url": ORIGINAL,
         "source_id": "1903-wright-flyer",
         "revision": record["sha256"],
         "downloads": [record],

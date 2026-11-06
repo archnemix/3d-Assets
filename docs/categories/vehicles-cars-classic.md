@@ -2,7 +2,7 @@
 
 Classic and historical cars
 
-Approved assets: **1**
+Approved assets: **2**
 
 ## 1960s sports car
 
@@ -11,3 +11,11 @@ Approved assets: **1**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 18,555 triangles; 5 texture images
 - [Asset folder](../../assets/vehicles/cars/classic/g3-1960s-sports-car/) · [Metadata](../../assets/vehicles/cars/classic/g3-1960s-sports-car/asset.json) · [All inspection views](../../assets/vehicles/cars/classic/g3-1960s-sports-car/previews/contact-sheet.jpg)
+
+## Old vintage car
+
+![Old vintage car](../../assets/vehicles/cars/classic/research-vintage-car/previews/orbit-01.jpg)
+
+- Creator: piopis; scene by Benedikt Bitterli, glTF conversion by Erfan Momeni; style: realistic; CC0-1.0
+- 771,640 triangles; 0 texture images
+- [Asset folder](../../assets/vehicles/cars/classic/research-vintage-car/) · [Metadata](../../assets/vehicles/cars/classic/research-vintage-car/asset.json) · [All inspection views](../../assets/vehicles/cars/classic/research-vintage-car/previews/contact-sheet.jpg)

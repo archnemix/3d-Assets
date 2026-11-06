@@ -2,7 +2,7 @@
 
 Checked on 2026-11-04. Scope: approved assets under assets/ only.
 
-**335 of 335 approved assets pass every check.**
+**336 of 336 approved assets pass every check.**
 
 Every approved asset is dedicated to the public domain under CC0 1.0. For each one
 that means: no cost, no attribution, commercial use allowed, use and redistribution
@@ -316,6 +316,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Kenney sports hatchback](../assets/vehicles/cars/kenney-sports-hatchback/README.md) | `vehicles/cars` | Kenney (kenney) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Kenney sports sedan](../assets/vehicles/cars/kenney-sports-sedan/README.md) | `vehicles/cars` | Kenney (kenney) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [1960s sports car](../assets/vehicles/cars/classic/g3-1960s-sports-car/README.md) | `vehicles/cars/classic` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Old vintage car](../assets/vehicles/cars/classic/research-vintage-car/README.md) | `vehicles/cars/classic` | piopis; scene by Benedikt Bitterli, glTF conversion by Erfan Momeni (research-vintage) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Compact electric city car](../assets/vehicles/cars/electric/g3-electric-car/README.md) | `vehicles/cars/electric` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Combine harvester](../assets/vehicles/farm/g3-combine-harvester/README.md) | `vehicles/farm` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Farm tipping trailer with hay](../assets/vehicles/farm/g3-farm-trailer/README.md) | `vehicles/farm` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -424,6 +425,17 @@ standalone. "Display" means showing the model and our own renders publicly.
 - Only the assets are CC0. Site content such as the Poly Haven logo, staff avatars, example renders and page text stays protected, so this library renders its own previews instead of copying promotional imagery.
 - Using the live discovery API is covered by separate API terms. They ask for a visible 'Powered by Poly Haven' service credit in software that calls the API. The same terms state explicitly that downloaded or self-hosted CC0 assets carry no attribution requirement whatsoever; this gallery serves local files and keeps the credit as a courtesy.
 - A few Poly Haven assets carry a trademark warning flag in their API metadata. None of the approved assets in this library carry that flag; each asset stores the API metadata it was selected from.
+
+### piopis vintage car via Bitterli and glTF Research Scenes — `research-vintage`
+
+1 approved assets. Status: **verified**.
+
+- Terms: <https://creativecommons.org/publicdomain/zero/1.0/>
+- Pinned evidence: <https://github.com/ErfanMo77/gltf-research-scenes/blob/f550972025ca39c7c9c05ee6bfd988ef6e0745de/scenes/vintage-car/source/LICENSE.txt>
+- Reselling the files themselves: The car scene is CC0; the original environment map is separately restricted and excluded.
+
+- CC0 documentation does not independently verify authorship or third-party rights.
+- The conversion is approximate and the floor and camera were removed from the active scene.
 
 ## Per-asset notes
 
@@ -604,6 +616,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Industrial wall doorway 4m](../assets/buildings/modular/industrial/modkit-wall-doorway-4m/README.md) | Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR. |
 | [Industrial wall straight 4m](../assets/buildings/modular/industrial/modkit-wall-straight-4m/README.md) | Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR. |
 | [Industrial wall window 4m](../assets/buildings/modular/industrial/modkit-wall-window-4m/README.md) | Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR. |
+| [Old vintage car](../assets/vehicles/cars/classic/research-vintage-car/README.md) | Restricted to piopis vintage car; no original HDR environment included. |
 
 ## What was checked
 
@@ -611,19 +624,19 @@ Every check below is machine-verified by `python -m asset_library license-audit`
 
 | Check | Passing |
 | --- | --- |
-| `cc0_spdx` | 335/335 |
-| `cc0_text_present` | 335/335 |
-| `commercial_use_allowed` | 335/335 |
-| `evidence_recorded` | 335/335 |
-| `free_of_charge` | 335/335 |
-| `license_file_checksummed` | 335/335 |
-| `no_attribution_required` | 335/335 |
-| `no_trademark_warning` | 335/335 |
-| `redistribution_allowed` | 335/335 |
-| `source_terms_verified` | 335/335 |
-| `standalone_resale_permitted` | 335/335 |
-| `textures_included` | 335/335 |
-| `visually_approved` | 335/335 |
+| `cc0_spdx` | 336/336 |
+| `cc0_text_present` | 336/336 |
+| `commercial_use_allowed` | 336/336 |
+| `evidence_recorded` | 336/336 |
+| `free_of_charge` | 336/336 |
+| `license_file_checksummed` | 336/336 |
+| `no_attribution_required` | 336/336 |
+| `no_trademark_warning` | 336/336 |
+| `redistribution_allowed` | 336/336 |
+| `source_terms_verified` | 336/336 |
+| `standalone_resale_permitted` | 336/336 |
+| `textures_included` | 336/336 |
+| `visually_approved` | 336/336 |
 
 ## Evidence per asset
 
@@ -967,3 +980,4 @@ Each row links to the license file stored beside the model and to the exact
 | ph-wooden-shelf | [LICENSE.txt](../assets/furniture/storage/ph-wooden-shelf/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/Shelf_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-wooden-spoon | [LICENSE.txt](../assets/kitchen/utensils/ph-wooden-spoon/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/wooden_spoon) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-yellow-onion | [LICENSE.txt](../assets/food/vegetables/ph-yellow-onion/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/yellow_onion) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| research-vintage-car | [LICENSE.txt](../assets/vehicles/cars/classic/research-vintage-car/LICENSE.txt) | `a2010f343487` | [source](https://blendswap.com/blend/14205) | [evidence](https://raw.githubusercontent.com/ErfanMo77/gltf-research-scenes/f550972025ca39c7c9c05ee6bfd988ef6e0745de/scenes/vintage-car/source/LICENSE.txt) |
