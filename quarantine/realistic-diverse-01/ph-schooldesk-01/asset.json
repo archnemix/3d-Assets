@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "id": "ph-schooldesk-01",
+  "title": "School Desk 01",
+  "category": "furniture/desks",
+  "style": "realistic",
+  "tags": [
+    "table",
+    "school",
+    "desk",
+    "wood",
+    "metal",
+    "classroom",
+    "polyhaven"
+  ],
+  "batch": "realistic-diverse-01",
+  "acquired_at": "2026-11-06T09:46:59.521025+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/SchoolDesk_01_2k.gltf",
+    "creator": "Ethan Place",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/SchoolDesk_01",
+    "source_id": "SchoolDesk_01",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/SchoolDesk_01/SchoolDesk_01_2k.gltf",
+        "bytes": 2686,
+        "sha256": "98eb40d3ed2992d73d6e9150d5d5b8acd64937f4a832c1018eb668b72caabea6"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/SchoolDesk_01/SchoolDesk_01_diff_2k.jpg",
+        "bytes": 259340,
+        "sha256": "e02cca7645b4ac33aec1d13457d6346fc44bc23e31c321ff1484f32d2523fbf3"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/SchoolDesk_01/SchoolDesk_01_nor_gl_2k.jpg",
+        "bytes": 298581,
+        "sha256": "6c01d397344d262802516455a70347a668a00e4e73ae39f413ec13c1ba3f8110"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/SchoolDesk_01/SchoolDesk_01_arm_2k.jpg",
+        "bytes": 442908,
+        "sha256": "de68c0fa738d75992e36a9ae5cd1dffeed8db3fa16b1bbb3e30cbb2d754e9f40"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/SchoolDesk_01/SchoolDesk_01.bin",
+        "bytes": 127564,
+        "sha256": "80d0ece097fde9b1efe15a9babfb6bb1573d228bab6e02e3806cb5eca39c2c0c"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/SchoolDesk_01_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/SchoolDesk_01_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "SchoolDesk_01_nor_gl"
+    },
+    {
+      "path": "model/textures/SchoolDesk_01_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "SchoolDesk_01_diff"
+    },
+    {
+      "path": "model/textures/SchoolDesk_01_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "SchoolDesk_01_metallic-SchoolDesk_01_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 3206,
+    "triangles": 4162,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 3,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "SchoolDesk_01_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-schooldesk-01/model/textures/SchoolDesk_01_diff_2k.jpg"
+      },
+      {
+        "name": "SchoolDesk_01_metallic-SchoolDesk_01_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-schooldesk-01/model/textures/SchoolDesk_01_arm_2k.jpg"
+      },
+      {
+        "name": "SchoolDesk_01_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-schooldesk-01/model/textures/SchoolDesk_01_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 279,
+      "sha256": "585f09c36028f0bcd16c16a90905d221498a7757bbe24c97e40fd8b2b2a5600e",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67952,
+      "sha256": "92204b645281ce55890f06e308c80681abeea65d9ae653c6472cc1c8a786d50f",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/SchoolDesk_01.bin",
+      "bytes": 127564,
+      "sha256": "80d0ece097fde9b1efe15a9babfb6bb1573d228bab6e02e3806cb5eca39c2c0c",
+      "role": "model"
+    },
+    {
+      "path": "model/SchoolDesk_01_2k.gltf",
+      "bytes": 2686,
+      "sha256": "98eb40d3ed2992d73d6e9150d5d5b8acd64937f4a832c1018eb668b72caabea6",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/SchoolDesk_01_arm_2k.jpg",
+      "bytes": 442908,
+      "sha256": "de68c0fa738d75992e36a9ae5cd1dffeed8db3fa16b1bbb3e30cbb2d754e9f40",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/SchoolDesk_01_diff_2k.jpg",
+      "bytes": 259340,
+      "sha256": "e02cca7645b4ac33aec1d13457d6346fc44bc23e31c321ff1484f32d2523fbf3",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/SchoolDesk_01_nor_gl_2k.jpg",
+      "bytes": 298581,
+      "sha256": "6c01d397344d262802516455a70347a668a00e4e73ae39f413ec13c1ba3f8110",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 29718,
+      "sha256": "2f91929b583c3ec4281f6605ede1ea43bb547eba752fc46ea06497d3a382086a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18356,
+      "sha256": "e6e8542b4e126ed7539ee74ac6c32b71e958b870be54a23a92c901d85bcc4692",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 171681,
+      "sha256": "462132ab8e109603fc45ab41bc7d47c78c0a4f4583c1bc08364cba87ee901023",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1191,
+      "sha256": "0c7e04d951d27b1f0ecd967ed20f08c96d5bd6a96b6e195964bc15cc14ddcd1a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 18651,
+      "sha256": "65e67cfa46997c5b7e4c33f4ee83dbb18e0a9872fe32df75e2b30d6163a09f0e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 23231,
+      "sha256": "feea92f6e635a1c8bfd24fcb23421dcf58964345cc1976a0e9a9dc169313a85b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 18379,
+      "sha256": "8a7a9f99a92de2660447d8371a48bca6fdb21b4495a435f0d9781c1ad7dde387",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 23543,
+      "sha256": "a06f39c32645c9d51b0fa6f27583236853f365727545574db2230dfe6b29d259",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 21116,
+      "sha256": "743e6914a5eb5644126f9687aff17282463b9b67ec8dfe1e66d94ac8dfbe8872",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 24017,
+      "sha256": "7ec7c2b558a379b257100afcf614d77ad50c02ae5981ed2686a24fcf6c0c43ba",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 17590,
+      "sha256": "84d72c0c6c19be6395e1f0dcb42ec1b96dddbac996329d05cafe9aa4a46697be",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 23116,
+      "sha256": "1baa6f4b8b131f3e265467e1b6a33337bf707708384ee231a2433689b5181976",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 28134,
+      "sha256": "e6ce7477857736ecf723a82e9fa390de94beb7cba03ec6dd8e484262ccab6ddb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 26099,
+      "sha256": "e16c19f145d9a7d39a96dca1b1eee047c49142e927f6b1f0c7957c8ca55d329a",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 163,
+      "sha256": "a9e9cf1d01ab73c6b9ce117b12fbbfceccabf0197745686dc7160f938a1a4e67",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1244,
+      "sha256": "2af699a189b4c7b51a75872c604d3b46fa0490e6d5837fead1fdbaca431c6e13",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3035,
+      "sha256": "0fca78a390c8f943088fe2d3caf90fade8c7f0d13273ea31501a4c67e1fe12de",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1088,
+      "sha256": "a4414c853d5cbccf1b124d7bb565f3a60916d2c202d0d6442f1e8150300c1e2f",
+      "role": "provenance"
+    }
+  ]
+}

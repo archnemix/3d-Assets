@@ -1,0 +1,420 @@
+{
+  "schema_version": 1,
+  "id": "ph-rubber-boots",
+  "title": "Rubber Boots",
+  "category": "apparel/footwear",
+  "style": "realistic",
+  "tags": [
+    "clothing",
+    "shoes",
+    "outdoor",
+    "waterproof",
+    "wellies",
+    "rubber",
+    "polyhaven"
+  ],
+  "batch": "realistic-diverse-01",
+  "acquired_at": "2026-11-06T09:41:06.242992+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/rubber_boots_1k.gltf",
+    "creator": "L",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/rubber_boots",
+    "source_id": "rubber_boots",
+    "resolution": "1k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/rubber_boots/rubber_boots_1k.gltf",
+        "bytes": 6106,
+        "sha256": "28d05445827905a3ef77bdc2c9afd9d0dd0cf066b743a9ab7627dd32cb155222"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rubber_boots/rubber_boots_nor_gl_1k.jpg",
+        "bytes": 204450,
+        "sha256": "19b1adab8853b829e4e803f1c6920fe78767343e4bc49a63e59129ecaff47394"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rubber_boots/rubber_boots_diff_1k.jpg",
+        "bytes": 122413,
+        "sha256": "23785002747feb5b8042025889cdc6d9b822e7f02ef56e41605bf22fdb9e2a68"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rubber_boots/rubber_boots_arm_1k.jpg",
+        "bytes": 111952,
+        "sha256": "138bc0281bf63053b667009e3ddd68ae692e7d31d6eb9d12b145fcd586c8c090"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rubber_boots/rubber_boots_dirty_nor_gl_1k.jpg",
+        "bytes": 248492,
+        "sha256": "7ccf35399431feeb2257887e852e6bd340e958b9b7c1eb7b0ccc095faf63ffc2"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rubber_boots/rubber_boots_dirty_diff_1k.jpg",
+        "bytes": 291900,
+        "sha256": "4de29d2cfd4864cb97fcc7dd976ffc4dedb713896ffad7690086c7402c34ec85"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rubber_boots/rubber_boots_dirty_arm_1k.jpg",
+        "bytes": 373800,
+        "sha256": "a6996bfb9b003574aa244fee1f6f455c94453ad33716d601fe7b7cb3d9c8e09e"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/rubber_boots/rubber_boots.bin",
+        "bytes": 653312,
+        "sha256": "2b0aa0fcf7ed8363bdb9a7f200c64620780ef3581f44b63cc55ef5f7bc6c6a9c"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/rubber_boots_1k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 4,
+    "materials": 2,
+    "images": 6,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/rubber_boots_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "rubber_boots_nor_gl"
+    },
+    {
+      "path": "model/textures/rubber_boots_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "rubber_boots_diff"
+    },
+    {
+      "path": "model/textures/rubber_boots_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "rubber_boots_rough"
+    },
+    {
+      "path": "model/textures/rubber_boots_dirty_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "rubber_boots_dirty_nor_gl"
+    },
+    {
+      "path": "model/textures/rubber_boots_dirty_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "rubber_boots_dirty_diff"
+    },
+    {
+      "path": "model/textures/rubber_boots_dirty_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "rubber_boots_dirty_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 4,
+    "hidden_mesh_objects": 0,
+    "vertices": 30308,
+    "triangles": 56128,
+    "material_slots": 4,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "rubber_boots_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-rubber-boots/model/textures/rubber_boots_diff_1k.jpg"
+      },
+      {
+        "name": "rubber_boots_dirty_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-rubber-boots/model/textures/rubber_boots_dirty_diff_1k.jpg"
+      },
+      {
+        "name": "rubber_boots_dirty_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-rubber-boots/model/textures/rubber_boots_dirty_nor_gl_1k.jpg"
+      },
+      {
+        "name": "rubber_boots_dirty_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-rubber-boots/model/textures/rubber_boots_dirty_arm_1k.jpg"
+      },
+      {
+        "name": "rubber_boots_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-rubber-boots/model/textures/rubber_boots_nor_gl_1k.jpg"
+      },
+      {
+        "name": "rubber_boots_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-rubber-boots/model/textures/rubber_boots_arm_1k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 4,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 480,
+      "sha256": "39d278f333dad5c45a63cfbd0a33af4f61aa1294c4b5f6e4f4f23b496404ac88",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 73969,
+      "sha256": "d462c4de3f315145e4fd12387100546b994e28b98ab091976005f31d680ccd18",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "a99759f362377291a7bb056ad797ad31a9826d4cf0cce6cd08add7590b8520d0",
+      "role": "logs"
+    },
+    {
+      "path": "model/rubber_boots.bin",
+      "bytes": 653312,
+      "sha256": "2b0aa0fcf7ed8363bdb9a7f200c64620780ef3581f44b63cc55ef5f7bc6c6a9c",
+      "role": "model"
+    },
+    {
+      "path": "model/rubber_boots_1k.gltf",
+      "bytes": 6106,
+      "sha256": "28d05445827905a3ef77bdc2c9afd9d0dd0cf066b743a9ab7627dd32cb155222",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/rubber_boots_arm_1k.jpg",
+      "bytes": 111952,
+      "sha256": "138bc0281bf63053b667009e3ddd68ae692e7d31d6eb9d12b145fcd586c8c090",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/rubber_boots_diff_1k.jpg",
+      "bytes": 122413,
+      "sha256": "23785002747feb5b8042025889cdc6d9b822e7f02ef56e41605bf22fdb9e2a68",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/rubber_boots_dirty_arm_1k.jpg",
+      "bytes": 373800,
+      "sha256": "a6996bfb9b003574aa244fee1f6f455c94453ad33716d601fe7b7cb3d9c8e09e",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/rubber_boots_dirty_diff_1k.jpg",
+      "bytes": 291900,
+      "sha256": "4de29d2cfd4864cb97fcc7dd976ffc4dedb713896ffad7690086c7402c34ec85",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/rubber_boots_dirty_nor_gl_1k.jpg",
+      "bytes": 248492,
+      "sha256": "7ccf35399431feeb2257887e852e6bd340e958b9b7c1eb7b0ccc095faf63ffc2",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/rubber_boots_nor_gl_1k.jpg",
+      "bytes": 204450,
+      "sha256": "19b1adab8853b829e4e803f1c6920fe78767343e4bc49a63e59129ecaff47394",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 17457,
+      "sha256": "38643958e039aaded6010338a22ee16822c26b0d75ac07c0af13e4018bc742e6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 17097,
+      "sha256": "60fea5617ce69f0a1b9020e07f67893ce267cf00f045d803ddbde52985db17a6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 183981,
+      "sha256": "91e73b977be4ff0772d10caf6a2a7ca23eb3e064ca28666961471ee619e854fc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 2019,
+      "sha256": "cde18cc014921ff53164c88cca7ea59b1088bc70c18e83d16560dec091657d17",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 21698,
+      "sha256": "a86b42d85990e73a0ace23a8284db9c4ce6bfe0765c44a709fad68d3630373a4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 29292,
+      "sha256": "4bb6d7995ee43c2303e8e79b5dd957477040232ccda459714a2d16691d09e930",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 27183,
+      "sha256": "66a3de3720a89279ddba7b3f783523b21effe8af1b9cec571ef8034ac3ce624b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 25293,
+      "sha256": "f2c6bcec506595d37887d6d8d9d2edd4e60828758692275eaa8c0f421936f8d3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 19066,
+      "sha256": "759c919d88c9db435d1d470c15824cf7ec34e0d0a1921948a345bf48717519b6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 24847,
+      "sha256": "67f6cc6da9342a9113af5235b888bd77f71cb2618ef004a443ee3d8f73a3b008",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 25212,
+      "sha256": "6ad0194547f2bf6e86fd86f9a3b4aefe0ca459e8c72a08b1e222336befbaa8f3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 28157,
+      "sha256": "cf2821a7b60fbcd48e74c306e5a3ee41bd739a06a9646d94a377c12a4c173ab6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 17307,
+      "sha256": "562754305126aca8c828de52359da5df07403f3a571fbb2b1b05dc9f15b864f6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 41195,
+      "sha256": "72c5d172b7d7cc63ca9880d10b4f60c336429ba2a3943ea4c2d339dc64e23a44",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 162,
+      "sha256": "157de120ed1d7226e06c6a34332449e0be7350b39e7ee96cd281fdc6f33246cd",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1322,
+      "sha256": "945d9c716111249505031a48490012227339aaf39887d1e4f6e638a423ebdef4",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 4003,
+      "sha256": "16f1613ce0b2e62bd6dccb9d2137177824ff94db8e024b85f69c362f3b91aec2",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1796,
+      "sha256": "b2844e694f4363752c6e742de5883e998b105c1a7cacf1b074b455fa0be3e4fd",
+      "role": "provenance"
+    }
+  ]
+}
