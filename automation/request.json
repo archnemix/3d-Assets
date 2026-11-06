@@ -1,57 +1,62 @@
 {
   "revision": 1,
-  "batch_id": "vehicle-ships-01",
+  "batch_id": "vehicle-3dassets-probe-01",
   "candidates": [
     {
-      "id": "ph-dutch-ship-large-01",
-      "title": "Dutch large sailing ship 01",
-      "category": "vehicles/watercraft",
-      "source": "polyhaven",
+      "id": "tda-sports-car",
+      "title": "Modern sports car",
+      "category": "vehicles/cars",
+      "source": "three-d-assets",
       "style": "realistic",
       "tags": [
-        "sailing",
-        "ship",
-        "wooden",
-        "maritime",
-        "historical",
-        "pbr"
+        "sports-car",
+        "road",
+        "modern",
+        "ai-assisted"
       ],
-      "upstream_id": "dutch_ship_large_01",
-      "resolution": "1k"
+      "upstream_id": "car-park-and-road-vehicle-fleet-sports-car-900de487"
     },
     {
-      "id": "ph-dutch-ship-large-02",
-      "title": "Dutch large sailing ship 02",
-      "category": "vehicles/watercraft",
-      "source": "polyhaven",
+      "id": "tda-twin-helicopter",
+      "title": "Medium twin helicopter",
+      "category": "vehicles/aircraft",
+      "source": "three-d-assets",
       "style": "realistic",
       "tags": [
-        "sailing",
-        "ship",
-        "wooden",
-        "maritime",
-        "historical",
-        "pbr"
+        "helicopter",
+        "aircraft",
+        "modern",
+        "ai-assisted"
       ],
-      "upstream_id": "dutch_ship_large_02",
-      "resolution": "1k"
+      "upstream_id": "aircraft-fleet-and-airfield-medium-twin-helicopter-2fc3750d"
     },
     {
-      "id": "ph-ship-pinnace",
-      "title": "Colonial sailing pinnace",
-      "category": "vehicles/watercraft",
-      "source": "polyhaven",
+      "id": "tda-touring-bicycle",
+      "title": "Touring bicycle",
+      "category": "vehicles/bikes",
+      "source": "three-d-assets",
       "style": "realistic",
       "tags": [
-        "sailing",
-        "ship",
-        "wooden",
-        "maritime",
-        "historical",
-        "pbr"
+        "bicycle",
+        "touring",
+        "modern",
+        "ai-assisted"
       ],
-      "upstream_id": "ship_pinnace",
-      "resolution": "1k"
+      "upstream_id": "bicycle-shop-and-repair-cafe-touring-bicycle-fbb90426"
+    },
+    {
+      "id": "tda-commuter-bicycle",
+      "title": "Step-through commuter bicycle",
+      "category": "vehicles/bikes",
+      "source": "three-d-assets",
+      "style": "realistic",
+      "tags": [
+        "bicycle",
+        "commuter",
+        "modern",
+        "ai-assisted"
+      ],
+      "upstream_id": "bicycle-shop-and-repair-cafe-step-through-commuter-bic-8eeea2cf"
     }
   ]
 }
