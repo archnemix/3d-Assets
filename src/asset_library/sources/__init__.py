@@ -6,6 +6,7 @@ from .grab3d import fetch_grab3d
 from .innerscene import fetch_innerscene
 from .makehuman import fetch_makehuman
 from .polyhaven import fetch_polyhaven
+from .three_d_assets import fetch_three_d_assets
 
 
 def fetch(source: dict, candidate: dict, directory) -> dict:
@@ -16,6 +17,7 @@ def fetch(source: dict, candidate: dict, directory) -> dict:
         "makehuman": fetch_makehuman,
         "grab3d": fetch_grab3d,
         "innerscene": fetch_innerscene,
+        "three-d-assets": fetch_three_d_assets,
     }
     try:
         adapter = adapters[source["kind"]]
