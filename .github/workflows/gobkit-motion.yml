@@ -1,0 +1,61 @@
+name: Inspect animal animation samples
+on:
+  push:
+    branches: ['arena/d853ac80-3d-assets']
+    paths: ['automation/gobkit-motion-request.json']
+permissions:
+  contents: write
+concurrency:
+  group: asset-pipeline-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  inspect:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        candidate: [gobkit-anglerfish, gobkit-bat, gobkit-corgi, gobkit-shark]
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Install rendering dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends libxi6 libxrender1 libxxf86vm1 libxfixes3 libxkbcommon0 libsm6 libgl1
+          python3 -m pip install --break-system-packages Pillow==11.3.0
+      - uses: ./.github/actions/blender
+      - name: Render animation samples
+        id: render
+        continue-on-error: true
+        env:
+          CANDIDATE: ${{ matrix.candidate }}
+        run: |
+          dir="reports/motion/gobkit-animals-01/$CANDIDATE"
+          mkdir -p "$dir"
+          set +e
+          blender --background --factory-startup --python-exit-code 1 --python rendering/inspect_gobkit_motion.py -- "$CANDIDATE" 2>&1 | tee "$dir/blender.log"
+          result=${PIPESTATUS[0]}
+          if [ "$result" -eq 0 ]; then python3 scripts/motion_contact.py "$dir"; result=$?; fi
+          echo "exit_code=$result" >> "$GITHUB_OUTPUT"
+          exit "$result"
+      - name: Commit render evidence
+        if: always()
+        env:
+          CANDIDATE: ${{ matrix.candidate }}
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- "reports/motion/gobkit-animals-01/$CANDIDATE"
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Inspect motion: $CANDIDATE [skip ci]"
+          for attempt in 1 2 3 4 5; do
+            if git push origin "HEAD:$GITHUB_REF_NAME"; then exit 0; fi
+            git pull --rebase origin "$GITHUB_REF_NAME"
+            sleep "$attempt"
+          done
+          exit 1
+      - name: Reflect render result
+        if: steps.render.outputs.exit_code != '0'
+        run: exit 1
