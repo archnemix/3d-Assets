@@ -6,7 +6,7 @@ A curated library of free, public-domain 3D assets for games, renders and protot
 
 The library currently contains **333 approved CC0 assets** in **96 categories**, saved as real files under `assets/` and organized by category and subject. **Only entries in `manifest.json` are approved.** Files under `quarantine/` are review candidates, not recommendations.
 
-Approved subjects span realistic rigged humans, low-poly game characters, chairs, sofas, tables, beds, cabinets and shelving, desks, hand and power tools, measuring instruments, optical and scientific instruments, cookware and tableware, fruit, vegetables and baked goods, vases, books, potted plants, vehicles, toys, computers and audio, appliances, safety equipment, industrial containers, carts and lighting. The realistic-human set currently includes an adult male base character, an adult female base character and an elderly woman, each with embedded PBR textures and walk/run animation clips. MakeHuman/MPFB generation is working through the same quarantine/review pipeline, but generated characters are only added after they pass inspection and visual review.
+Approved subjects span rigged humans and fantasy characters, low-poly game characters, chairs, sofas, tables, beds, cabinets and shelving, desks, hand and power tools, measuring instruments, optical and scientific instruments, cookware and tableware, fruit, vegetables and baked goods, vases, books, potted plants, vehicles, toys, computers and audio, appliances, safety equipment, industrial containers, carts and lighting. The human-character set currently includes an adult male base character, an adult female base character and an elderly woman, each with embedded PBR textures and walk/run animation clips. MakeHuman/MPFB generation is working through the same quarantine/review pipeline, but generated characters are only added after they pass inspection and visual review.
 
 The gallery defaults to the approximate **realistic** style label; choose **All styles** to browse the whole collection. Style labels do not guarantee photorealism, and older entries still need individual reassessment. Each asset belongs to one exact subcategory. See [`reports/research/2026-11-06-texture-priority-review.md`](reports/research/2026-11-06-texture-priority-review.md) for the latest 2K-texture intake and held candidates.
 
@@ -68,7 +68,7 @@ reappear. Retirement records live in `reports/retired/`.
 Every approved asset is CC0 1.0. Per asset, that means **free**, **no attribution**, **commercial use**, **use and redistribution of the files as-is** (not only embedded in a game), and **public display**. The [license audit](docs/licenses.md) records the verdict, evidence link and license-file checksum for every asset, plus the caveats that CC0 does not remove:
 
 - CC0 waives copyright, not trademark or patent rights, and clears no third-party rights in a depicted subject.
-- The three Grab3D humans disclose an AI-assisted origin; some storefronts require an AI content disclosure.
+- Grab3D character models disclose an AI-assisted origin; some storefronts require an AI content disclosure.
 - The Kenney files come from a pinned third-party GLB conversion whose own license also releases the conversions under CC0.
 
 Re-run the audit yourself:
