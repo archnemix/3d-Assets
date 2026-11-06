@@ -1,0 +1,55 @@
+{
+  "slug": "rail-crane",
+  "triangles": 25562,
+  "texture_px": 4096,
+  "triangles_light": 12864,
+  "texture_px_light": 1024,
+  "files": {
+    "glb": {
+      "name": "rail-crane.glb",
+      "bytes": 4554540
+    },
+    "blend": {
+      "name": "rail-crane.blend",
+      "bytes": 2792556
+    },
+    "fbx": {
+      "name": "rail-crane.fbx",
+      "bytes": 7280636
+    },
+    "obj": {
+      "name": "rail-crane-obj.zip",
+      "bytes": 3990513
+    },
+    "usdz": {
+      "name": "rail-crane.usdz",
+      "bytes": 7042196
+    },
+    "glb_light": {
+      "name": "rail-crane-light.glb",
+      "bytes": 1119644
+    },
+    "fbx_light": {
+      "name": "rail-crane-light.fbx",
+      "bytes": 1990028
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "3.400 x 14.502 x 7.537",
+    "triangles": 25562,
+    "textures": "PBR 4096px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-10-25",
+    "real_size": "railway slewing crane on a 12.0 m bogie wagon, jib 8.0 m at 40 degrees, overall 14.5 m long, 3.4 m wide, 7.5 m high, standard gauge 1435 mm",
+    "notes": "front faces -Y, origin on the rail top (wheel contact plane); buffer and screw coupling axis 1.05 m above rail top (Cozy Trains kit standard). Wagon: yellow fish belly sills, steel deck, two bogies, folded yellow outriggers with jacks, slewing ring. Movable: the whole yellow slewing superstructure (machinery house with cab windows, roof beacon, A frame, counterweight with warning bands, lattice jib with ropes and red hook block) is the separate object 'rail-crane_jib', origin on the vertical slewing axis (x +0.000, y +1.251, z +1.400 m from the model origin, Z up); rotate about Z (glTF Y) to slew; the cab glass and the beacon are parented to it",
+    "set": "Cozy Trains & Railway Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}

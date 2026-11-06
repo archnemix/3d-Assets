@@ -1,0 +1,55 @@
+{
+  "slug": "snow-plow",
+  "triangles": 23411,
+  "texture_px": 2048,
+  "triangles_light": 15744,
+  "texture_px_light": 1024,
+  "files": {
+    "glb": {
+      "name": "snow-plow.glb",
+      "bytes": 1830144
+    },
+    "blend": {
+      "name": "snow-plow.blend",
+      "bytes": 1491959
+    },
+    "fbx": {
+      "name": "snow-plow.fbx",
+      "bytes": 3090940
+    },
+    "obj": {
+      "name": "snow-plow-obj.zip",
+      "bytes": 1583196
+    },
+    "usdz": {
+      "name": "snow-plow.usdz",
+      "bytes": 2821715
+    },
+    "glb_light": {
+      "name": "snow-plow-light.glb",
+      "bytes": 933180
+    },
+    "fbx_light": {
+      "name": "snow-plow-light.fbx",
+      "bytes": 1789036
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "3.060 x 8.175 x 2.975",
+    "triangles": 23411,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-10-06",
+    "real_size": "2-axle municipal winter service truck with front snow plough and rear salt spreader, approx. 7.9 x 3.1 x 2.95 m (L x W x H), plough width 3.0 m",
+    "notes": "front (plough) faces -Y; the plough blade 'snow-plow_blade' is a separate object with its origin on the vertical pivot of the push frame (rotate around local Z to angle it, approx. -30 to +30 degrees); the spreader with spinner disc is static; 4 wheels (rear dual) are separate objects with origin on the axle (rotate around local X to roll); three amber beacons glow softly; opaque tinted windows, no interior; no brand, no text",
+    "set": "Cozy Construction Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}
