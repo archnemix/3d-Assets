@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "id": "ph-yellow-onion",
+  "title": "Yellow Onion",
+  "category": "food/vegetables",
+  "style": "realistic",
+  "tags": [
+    "culinary",
+    "kitchen",
+    "cooking",
+    "vegetables",
+    "organic",
+    "produce",
+    "polyhaven"
+  ],
+  "batch": "realistic-diverse-01",
+  "acquired_at": "2026-11-06T09:43:52.195138+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/yellow_onion_1k.gltf",
+    "creator": "Kuutti Siitonen",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/yellow_onion",
+    "source_id": "yellow_onion",
+    "resolution": "1k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/yellow_onion/yellow_onion_1k.gltf",
+        "bytes": 2785,
+        "sha256": "0d4aaa4046c5b471ea7f9197c453f3d48699bc85e06fd13606c8ea09a1dce699"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/yellow_onion/yellow_onion_nor_gl_1k.jpg",
+        "bytes": 715114,
+        "sha256": "f471dbeb82baaf3d743f28a254ed94587f83bd6131f03e656655c6d48717f137"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/yellow_onion/yellow_onion_diff_1k.jpg",
+        "bytes": 455175,
+        "sha256": "ad28b9926c9190398f1006fcf0b89c44255eb41aee5d52391a41ad5fc0f13e80"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/yellow_onion/yellow_onion_arm_1k.jpg",
+        "bytes": 492495,
+        "sha256": "77398ea7072602555a86510bfe37a7427a22932efc13de799c6fe2bbe62d2b8d"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/yellow_onion/yellow_onion.bin",
+        "bytes": 139832,
+        "sha256": "586c1e459e31e0647d090df4497e88c4e905e598607e9632590fb74cce7ef5f5"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/yellow_onion_1k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/yellow_onion_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "yellow_onion_nor_gl"
+    },
+    {
+      "path": "model/textures/yellow_onion_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "yellow_onion_diff"
+    },
+    {
+      "path": "model/textures/yellow_onion_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "yellow_onion_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 3349,
+    "triangles": 5444,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "yellow_onion_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-yellow-onion/model/textures/yellow_onion_diff_1k.jpg"
+      },
+      {
+        "name": "yellow_onion_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-yellow-onion/model/textures/yellow_onion_nor_gl_1k.jpg"
+      },
+      {
+        "name": "yellow_onion_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-yellow-onion/model/textures/yellow_onion_arm_1k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 283,
+      "sha256": "3acff29801743cc0670e6207eed1a109d269590731e1bf7f6f824a0d9b4d3660",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 66937,
+      "sha256": "3371f107417734c6dfc4dfa3eb60875fa426805711fd4f17137c7f12abd45712",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/textures/yellow_onion_arm_1k.jpg",
+      "bytes": 492495,
+      "sha256": "77398ea7072602555a86510bfe37a7427a22932efc13de799c6fe2bbe62d2b8d",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/yellow_onion_diff_1k.jpg",
+      "bytes": 455175,
+      "sha256": "ad28b9926c9190398f1006fcf0b89c44255eb41aee5d52391a41ad5fc0f13e80",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/yellow_onion_nor_gl_1k.jpg",
+      "bytes": 715114,
+      "sha256": "f471dbeb82baaf3d743f28a254ed94587f83bd6131f03e656655c6d48717f137",
+      "role": "model"
+    },
+    {
+      "path": "model/yellow_onion.bin",
+      "bytes": 139832,
+      "sha256": "586c1e459e31e0647d090df4497e88c4e905e598607e9632590fb74cce7ef5f5",
+      "role": "model"
+    },
+    {
+      "path": "model/yellow_onion_1k.gltf",
+      "bytes": 2785,
+      "sha256": "0d4aaa4046c5b471ea7f9197c453f3d48699bc85e06fd13606c8ea09a1dce699",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 38137,
+      "sha256": "fd8c4e70f94ee16b2190172345b69a9e95577b253416d387449576ad51ae9945",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 15571,
+      "sha256": "9bc8190c8ce63da0e2d8839479242cf9860c5fa431f69b3678803c1a269a46f2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 252023,
+      "sha256": "ffca7a0839aa2229e5d364803c22052c35dcd3f3e55196f893800b97c7692e67",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1155,
+      "sha256": "8b8413d7ba8f7c5c121b6e6415cc8d5932d9ad85c0dd73b74d0670e2d0aa955c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 30053,
+      "sha256": "250aff01211f3167795a2a003a39f8dd48e584543938a6c5ba4859d6ad340594",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 31289,
+      "sha256": "f783bbf6c1610d502e3162c4f4404ca4e58ee46ddf8ff9b349e62b59557cb068",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 33388,
+      "sha256": "f9a95b59c748e1f4ab0a7aa078e864bf8a32ed5d751e71cb72d072173c242087",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 34998,
+      "sha256": "8a5661c462a9ee64881278a9eeaee51fed7ad3dcbbdc1e26684b815a6f68556e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 34622,
+      "sha256": "a5dbf622fb7105026680f6fed42b7a7386c4ce8996d01481bc67550f2f994980",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 33246,
+      "sha256": "97a0898b3b11f9859a06f75e5c9c28c19d6e47bd3f801043a57d0eeca3147602",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 31557,
+      "sha256": "ba97c915af9b84623c036ecf3d81e685fe6221f7002b718de03d0cdcd7de053d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 31212,
+      "sha256": "a94a670a8b138d1729a18fda0b97a891544f9bd0f818670176d93badcf0c9c59",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 38711,
+      "sha256": "93372291300f778fe12f45de30f69573d2be616cc1b56f77b80cacea43129403",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 51246,
+      "sha256": "fef92d279a1fe1948efc46080d36e82f53fa562f25fe4e4d45ae613ef4f5343d",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 162,
+      "sha256": "a77707096db5e5b3e84d7a6df34e462b9d54b34f8dfb3af249a48d5c8c6d94a8",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1126,
+      "sha256": "da59f22803ce508979a99cda852aba4c7b4f8ef841291200f89139a4011f773c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2122,
+      "sha256": "7389996ee3fd5f4dab621cfa3b2beb051f510d7fcad949ca3c1363a74a4538f4",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1074,
+      "sha256": "cd66dab859bcf5fcba935534aa30f174137bf6b404da2e2e815df22cc177de8b",
+      "role": "provenance"
+    }
+  ]
+}

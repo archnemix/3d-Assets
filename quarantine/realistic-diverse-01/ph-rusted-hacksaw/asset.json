@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "id": "ph-rusted-hacksaw",
+  "title": "Rusted Hacksaw",
+  "category": "tools/hand-tools",
+  "style": "realistic",
+  "tags": [
+    "rusted",
+    "corroded",
+    "weathered",
+    "metal",
+    "saw",
+    "woodwork",
+    "polyhaven"
+  ],
+  "batch": "realistic-diverse-01",
+  "acquired_at": "2026-11-06T09:46:25.516137+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/rusted_hacksaw_1k.gltf",
+    "creator": "Dabou Master",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/rusted_hacksaw",
+    "source_id": "rusted_hacksaw",
+    "resolution": "1k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/rusted_hacksaw/rusted_hacksaw_1k.gltf",
+        "bytes": 2783,
+        "sha256": "3bd152a8f1a690b0a4fbc2647ae3350f3bf7f4868d322173cf71561d96cd27b1"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rusted_hacksaw/rusted_hacksaw_nor_gl_1k.jpg",
+        "bytes": 411915,
+        "sha256": "f60050def8fd873dff5c668d00bd8c20903cc72b4c6c0ed231ae8b52ee8d48fd"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rusted_hacksaw/rusted_hacksaw_diff_1k.jpg",
+        "bytes": 738797,
+        "sha256": "ba56abcf31f17bc7b4568516a0c9d7e63f96a9e45f655bfbd92e960944d04378"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rusted_hacksaw/rusted_hacksaw_arm_1k.jpg",
+        "bytes": 792473,
+        "sha256": "5fbdcf717d818bd0aef9650d51331ee0038b3c09f2c4bd8bf9e563014bbd670e"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/rusted_hacksaw/rusted_hacksaw.bin",
+        "bytes": 211020,
+        "sha256": "3a0cfb36df9b3e66912fd9a9905d20270c30d1d3434a27e691c90c607e27107b"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/rusted_hacksaw_1k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/rusted_hacksaw_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "rusted_hacksaw_nor_gl"
+    },
+    {
+      "path": "model/textures/rusted_hacksaw_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "rusted_hacksaw_diff"
+    },
+    {
+      "path": "model/textures/rusted_hacksaw_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "rusted_hacksaw_metal-rusted_hacksaw_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 5367,
+    "triangles": 6546,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "rusted_hacksaw_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-rusted-hacksaw/model/textures/rusted_hacksaw_diff_1k.jpg"
+      },
+      {
+        "name": "rusted_hacksaw_metal-rusted_hacksaw_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-rusted-hacksaw/model/textures/rusted_hacksaw_arm_1k.jpg"
+      },
+      {
+        "name": "rusted_hacksaw_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-rusted-hacksaw/model/textures/rusted_hacksaw_nor_gl_1k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 283,
+      "sha256": "289eeac3e259eabb204357b8403c3dcf9985872fc73f33d6c9fc670e58870856",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67579,
+      "sha256": "a2812a04e064612a39c48088bb67acbd78a8920b0ae940ca7062ed4d872b07fa",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/rusted_hacksaw.bin",
+      "bytes": 211020,
+      "sha256": "3a0cfb36df9b3e66912fd9a9905d20270c30d1d3434a27e691c90c607e27107b",
+      "role": "model"
+    },
+    {
+      "path": "model/rusted_hacksaw_1k.gltf",
+      "bytes": 2783,
+      "sha256": "3bd152a8f1a690b0a4fbc2647ae3350f3bf7f4868d322173cf71561d96cd27b1",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/rusted_hacksaw_arm_1k.jpg",
+      "bytes": 792473,
+      "sha256": "5fbdcf717d818bd0aef9650d51331ee0038b3c09f2c4bd8bf9e563014bbd670e",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/rusted_hacksaw_diff_1k.jpg",
+      "bytes": 738797,
+      "sha256": "ba56abcf31f17bc7b4568516a0c9d7e63f96a9e45f655bfbd92e960944d04378",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/rusted_hacksaw_nor_gl_1k.jpg",
+      "bytes": 411915,
+      "sha256": "f60050def8fd873dff5c668d00bd8c20903cc72b4c6c0ed231ae8b52ee8d48fd",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 11820,
+      "sha256": "4f83e6fa32286cb8039b682525b131d053cad4e85b644fef894534bb5774854e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 14574,
+      "sha256": "a278e4df79ba88557d23d8fb1dba890be7cca3a7830715b3a18c7eca9e887eb5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 119721,
+      "sha256": "a37eb1db3857ebe770a0ab4aedb8be3eb0ac912257bb88c07b42c2f6f972efd5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1194,
+      "sha256": "600b3912a4a5061ff81f730f57f890936172537bce9918e901792503555d0c4a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 16088,
+      "sha256": "5cde1d132a1d409340bf3be4dccbc22c7aa5cca2564387794fd2ea2e7ef2f6a6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 19278,
+      "sha256": "1f2cb1e13a22c24c56798de7eb5f9d6fd6a82fe91d9f30c534144cc5df50add5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 14111,
+      "sha256": "69d50308e0087048dddf7076ccaf2fb590f6904d09d754157a32cf3c7dd826cb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 19272,
+      "sha256": "48bea749b369e4086b80051606eb6051000774f9fe56564e8806ecaabc9ceb4b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 15668,
+      "sha256": "abc919522e8b8d4cbe060d26dcf08a0d8d4b6f79c55463db9b3090147f696bfa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 19282,
+      "sha256": "76971ea74fa41b2e9098068bf638806d616dd79d122ffd6ac096344d3a295a09",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 13589,
+      "sha256": "7148ba2a91a7932c84cccb0f1aea8779b33d282521cfd8c36f058eb08152f206",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 19256,
+      "sha256": "281fd13e256c4974317808482ebf664b6650a7112504ef9f6d0fd3a4abb95f30",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 11491,
+      "sha256": "ace002d3e9d0d43bfe214deefa66348a2d22e6f59f146bf3741c0fb944df0a45",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 20982,
+      "sha256": "7e05d8de6ae8a531f5ec78a026d75d87b91ebaf8a087b57a295a66b5cadf1138",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 164,
+      "sha256": "995571283ee0ec19bc98f4d96e46c8460b916496ea8f5dbe6c1d55a35af4b4ca",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1245,
+      "sha256": "7d157e1eac489797aab3a403b51a22badc57759ed51aec33e20de7a73695c59d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2132,
+      "sha256": "fb98c4018fba29467cc8abfa73647e857c12ab8ee2df4cf94c3a0c1ccdae0461",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1102,
+      "sha256": "f5d824f2f84a52ad274bdfbbaf5ce3b2723c9ec860f8baf20ab309f70a2a710f",
+      "role": "provenance"
+    }
+  ]
+}

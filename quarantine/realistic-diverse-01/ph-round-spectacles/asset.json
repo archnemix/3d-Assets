@@ -1,0 +1,342 @@
+{
+  "schema_version": 1,
+  "id": "ph-round-spectacles",
+  "title": "Round Spectacles",
+  "category": "apparel/accessories",
+  "style": "realistic",
+  "tags": [
+    "vintage",
+    "round frame",
+    "retro",
+    "eyewear",
+    "accessories",
+    "glasses",
+    "polyhaven"
+  ],
+  "batch": "realistic-diverse-01",
+  "acquired_at": "2026-11-06T09:40:48.439664+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/round_spectacles_1k.gltf",
+    "creator": "Sean Buckley",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/round_spectacles",
+    "source_id": "round_spectacles",
+    "resolution": "1k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/round_spectacles/round_spectacles_1k.gltf",
+        "bytes": 5976,
+        "sha256": "1e3121eafce63f14d5ab4c562d1c6336c4273ff6473b3ad6d9cc295086340cb7"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/round_spectacles/round_spectacles_nor_gl_1k.jpg",
+        "bytes": 516513,
+        "sha256": "1acd700cbe6551dfc7171ad3b288b58eb96495a767a2f6058eba92f0952f4504"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/round_spectacles/round_spectacles_diff_1k.jpg",
+        "bytes": 505715,
+        "sha256": "df3198ae2848d98f55d6696370c8b9cdf0dfa8ee41db34036aaa57d3155daae3"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/round_spectacles/round_spectacles_arm_1k.jpg",
+        "bytes": 626683,
+        "sha256": "cc9d84b4fe36617162bc7354b5fd8d6a787b927d9811854477edb563523dbcaf"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/round_spectacles/round_spectacles.bin",
+        "bytes": 415028,
+        "sha256": "211ccd70fa6e46269c865921051cf77cfd19b5accf76e85e4c024b91c3347540"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/round_spectacles_1k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 2,
+    "images": 4,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_materials_transmission"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/round_spectacles_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "round_spectacles_nor_gl"
+    },
+    {
+      "path": "model/textures/round_spectacles_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "round_spectacles_diff"
+    },
+    {
+      "path": "model/textures/round_spectacles_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "round_spectacles_metal-round_spectacles_rough"
+    },
+    {
+      "path": "model/textures/round_spectacles_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "round_spectacles_diff-round_spectacles_alpha"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 7822,
+    "triangles": 11810,
+    "material_slots": 2,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "round_spectacles_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-round-spectacles/model/textures/round_spectacles_diff_1k.jpg"
+      },
+      {
+        "name": "round_spectacles_metal-round_spectacles_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-round-spectacles/model/textures/round_spectacles_arm_1k.jpg"
+      },
+      {
+        "name": "round_spectacles_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-round-spectacles/model/textures/round_spectacles_nor_gl_1k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 285,
+      "sha256": "78f8dfa2a25cbb9b17b9d616ae4028ea54ca9cca79cc265af888a25e40ed1f06",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67723,
+      "sha256": "4b2e441f419330d963c4c8cbdac7acb7c720cb6b28b5e2b89cf675f9a994277e",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "2a9a229f8bb2ed821581e94782406b1f4a42c4f9a9e024e1cc719a6265cfa1b4",
+      "role": "logs"
+    },
+    {
+      "path": "model/round_spectacles.bin",
+      "bytes": 415028,
+      "sha256": "211ccd70fa6e46269c865921051cf77cfd19b5accf76e85e4c024b91c3347540",
+      "role": "model"
+    },
+    {
+      "path": "model/round_spectacles_1k.gltf",
+      "bytes": 5976,
+      "sha256": "1e3121eafce63f14d5ab4c562d1c6336c4273ff6473b3ad6d9cc295086340cb7",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/round_spectacles_arm_1k.jpg",
+      "bytes": 626683,
+      "sha256": "cc9d84b4fe36617162bc7354b5fd8d6a787b927d9811854477edb563523dbcaf",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/round_spectacles_diff_1k.jpg",
+      "bytes": 505715,
+      "sha256": "df3198ae2848d98f55d6696370c8b9cdf0dfa8ee41db34036aaa57d3155daae3",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/round_spectacles_nor_gl_1k.jpg",
+      "bytes": 516513,
+      "sha256": "1acd700cbe6551dfc7171ad3b288b58eb96495a767a2f6058eba92f0952f4504",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 17180,
+      "sha256": "446b9c801bd7af37bd08caed2fdae21e4db8c8f66f1e657394e830d4826a0f34",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 14974,
+      "sha256": "1e6ec32bbdfb6f7442c545d21efdb8f98338da98b61826f70642eb24d99ffe6e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 137500,
+      "sha256": "541e0b0b50e5cf4dd0c028e15dcb2b3f7314a7073689039b45eeedb583cd69c8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1215,
+      "sha256": "59fed65280a9713a6c59f990d3b242d5e372a2584e54c67f6b5295ab7e7a3251",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 19771,
+      "sha256": "f18126e62f9d5d31b9660add3dddb14938973430f74dbf761b3cea97bd3ee788",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 18072,
+      "sha256": "d8476f7d33ff4f95ea4cdc498cd5920a10ad3efb09952a5d32b602a43cecdef0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 18326,
+      "sha256": "33cf5683e42846e176f9c1b839b4fff8e368b60fd5fb0f4515136a6d70cbc82c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 18484,
+      "sha256": "94210f6cc08222535cc701ca6230c116e7168dae9c915d14bdc5dca029e653e6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 20821,
+      "sha256": "66cbb14e14ec6d992d63dbd1a937692945a1c237dd29c99b92ce991cf3e19a27",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 18638,
+      "sha256": "24b701d6b7dc44bcd0d9aeb050ada7b0d77d3987ba43433b9eb0391d4ccb9127",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 19003,
+      "sha256": "433bcbc2c3c1cedafddcc28ac22f1f4fcbf20303f0b670a1125923850603ab0a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 17996,
+      "sha256": "c614edcd5556fbc01df305b30674d0e2db790c842675c6df500de3c9c4f90604",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 16330,
+      "sha256": "7779ed5e6eaca73c99a1bf0e081ff22fc077ccc9fc8278729113196de2c1ce98",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 25147,
+      "sha256": "f4654bdff323940bf5bc2485c43f04705e7ea96f497fd74db88a3f87616c8093",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 166,
+      "sha256": "3a4f1d423a270fde1e8a09c8c7968bf2484a1f75f0159e9a74ca0be9e64781ad",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1259,
+      "sha256": "09050baa442ac221f29bca2503b98e1e28b1bca65c66cc21f1967e19acde9252",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2833,
+      "sha256": "90a2d99067eaee3019b31e853932358338b2aca9d7ad1a35c6453a40e5ead79c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1130,
+      "sha256": "05219f7f830f991aadad21a2d9e5645b035cd21487218fb1f057a47bc9147e51",
+      "role": "provenance"
+    }
+  ]
+}
