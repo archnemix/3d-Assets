@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "id": "g3-station-wagon",
+  "title": "Station wagon",
+  "category": "vehicles/cars",
+  "style": "stylized",
+  "tags": [
+    "station-wagon",
+    "family",
+    "road"
+  ],
+  "batch": "transport-variety-03",
+  "acquired_at": "2026-11-06T19:17:06.125842+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/station-wagon.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/station-wagon/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/station-wagon/",
+    "source_id": "station-wagon",
+    "revision": "e8e5c05ce2ddb21d86fbee9c4ab5bfcf9ef0ed40d4bfd41862cf60b0a7eb51ef",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/station-wagon/station-wagon.glb",
+        "bytes": 1220520,
+        "sha256": "e8e5c05ce2ddb21d86fbee9c4ab5bfcf9ef0ed40d4bfd41862cf60b0a7eb51ef"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/station-wagon/LICENSE.txt"
+  },
+  "model": "model/station-wagon.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 6,
+    "materials": 18,
+    "images": 5,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/station-wagon_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "station-wagon_body_normal"
+    },
+    {
+      "path": "textures/station-wagon_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "station-wagon_body_basecolor"
+    },
+    {
+      "path": "textures/station-wagon_body_metallic-station-wagon_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "station-wagon_body_metallic-station-wagon_body_roughness"
+    },
+    {
+      "path": "textures/station-wagon_tire_normal.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "station-wagon_tire_normal"
+    },
+    {
+      "path": "textures/station-wagon_tire_color.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "station-wagon_tire_color"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 6,
+    "hidden_mesh_objects": 0,
+    "vertices": 15656,
+    "triangles": 19308,
+    "material_slots": 18,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 3,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "station-wagon_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "station-wagon_body_metallic-station-wagon_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "station-wagon_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "station-wagon_tire_color",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "station-wagon_tire_normal",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 5,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 77986,
+      "sha256": "5144a60d3cd8503455e90eaae67eaa405ac7b264451a2a0244beecec24c07c6e",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "998ef207bb56a5da54cfc753f6cf05bd6985e629781c1ba33f1562c902587ed1",
+      "role": "logs"
+    },
+    {
+      "path": "model/station-wagon.glb",
+      "bytes": 1220520,
+      "sha256": "e8e5c05ce2ddb21d86fbee9c4ab5bfcf9ef0ed40d4bfd41862cf60b0a7eb51ef",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 17902,
+      "sha256": "52e81a1a17022af9d32a00c85c5146648d1d66dcba86d6d8bfb77f3be0c038d5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18947,
+      "sha256": "9580de3c5954f7c68469428ab4d4ce70243934eb3379fcfd06a1c4529cea32da",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 189688,
+      "sha256": "c5814d9503879fa59765d2245b82e9affb049cadbed23ba456c75890020280e6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1144,
+      "sha256": "bf525fd0fd41a6471ab8fe1fe14414544d517f1f4ea3b57fe1f493150befaf60",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 26840,
+      "sha256": "a8c76557dcb27bb83d09d6646e81409652b44b791ae5006f3375e9b7b93c072a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 24689,
+      "sha256": "dc571dd3e5ff7a35f756ddba12bcf26bdbe97eae4c368b683dd154e41e2e11c9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 21791,
+      "sha256": "8bc8ada6b0d150677f7d17868e79c7c7ce8f4d09e583a836ebbd7ea032444820",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 22940,
+      "sha256": "b5a1421c1ed907c903a7f48920a311635d6b2b4cb6fd385ad347e9a67b6e661c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 30468,
+      "sha256": "dfba4c2e4e741b7568e8c12987d4824a209fde08f9fbb24c7fb90c49cdc91d12",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 24329,
+      "sha256": "c528343c55f24f8417b4d8154f1552f7888560fa1e02b06840cd5199405c87d1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 24039,
+      "sha256": "c2504738289f304248e37b84b65563f46f47049e35fa43cfbf82e1d6b540ca90",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 26494,
+      "sha256": "ae88ba6b7149c9ecc0ee43158c6a00c01a02874de0635a21c40449b75c4fc452",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 18277,
+      "sha256": "1d479ade394ac781a44df94faae19a2df294fbde63c0447462538f3752fa9f29",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 46055,
+      "sha256": "49853efaf043912f33170b962f9e9d4be29c65bf16aeb4c01c907e0c2b3be79a",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 6173,
+      "sha256": "8d2080dcd720627c68e81188d56ac1e21625a0b0618184efc02f35791d5f9ec8",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1499,
+      "sha256": "36ae32d9dd73342465bcc647ed58603b11f4810a6162db175754a066100f056d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 521,
+      "sha256": "8ed81dd897f4772af649d2ecb3c173232e6e617bea69941e2c24af42bbb407be",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "d25c06f135515364fbe40d0819cac0a56b6fd6e7022f8927a83c6bef60e85ef7",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/station-wagon_body_basecolor.jpg",
+      "bytes": 270006,
+      "sha256": "317ed0d18cf3ee2efd8101997b91125695c5f92e478727584af0d46678fa310a",
+      "role": "textures"
+    },
+    {
+      "path": "textures/station-wagon_body_metallic-station-wagon_body_roughness.jpg",
+      "bytes": 266881,
+      "sha256": "510660dd576e7306191fa50ada73112b2c8f564113cd49765c0a2f00cba98d23",
+      "role": "textures"
+    },
+    {
+      "path": "textures/station-wagon_body_normal.jpg",
+      "bytes": 67574,
+      "sha256": "4714a3eb908b49b49981400dcef91f0e66e9f84c68e11121c7c3ddf39b4d0d84",
+      "role": "textures"
+    },
+    {
+      "path": "textures/station-wagon_tire_color.jpg",
+      "bytes": 1539,
+      "sha256": "9a26cd08e0224cc42916de18d402a711edeee7659c6a944e67dae2b4e9b09f91",
+      "role": "textures"
+    },
+    {
+      "path": "textures/station-wagon_tire_normal.jpg",
+      "bytes": 2114,
+      "sha256": "1ac12a81a5ccc3fb6b78601a0b9665ecb4251b6a18602b230f6c025b54cd930c",
+      "role": "textures"
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "id": "g3-space-shuttle",
+  "title": "Space shuttle orbiter",
+  "category": "vehicles/aircraft",
+  "style": "stylized",
+  "tags": [
+    "shuttle",
+    "spacecraft",
+    "orbiter"
+  ],
+  "batch": "transport-variety-03",
+  "acquired_at": "2026-11-06T19:12:21.338533+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/space-shuttle.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/space-shuttle/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/space-shuttle/",
+    "source_id": "space-shuttle",
+    "revision": "65fa95a24663dd04be6b7bf7bc1cd8fccfc56e4dc68abe03d2c35ef20a171578",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/space-shuttle/space-shuttle.glb",
+        "bytes": 1672044,
+        "sha256": "65fa95a24663dd04be6b7bf7bc1cd8fccfc56e4dc68abe03d2c35ef20a171578"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/space-shuttle/LICENSE.txt"
+  },
+  "model": "model/space-shuttle.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 9,
+    "materials": 22,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_materials_emissive_strength"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/space-shuttle_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "space-shuttle_body_normal"
+    },
+    {
+      "path": "textures/space-shuttle_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "space-shuttle_body_basecolor"
+    },
+    {
+      "path": "textures/space-shuttle_body_metallic-space-shuttle_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "space-shuttle_body_metallic-space-shuttle_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 9,
+    "hidden_mesh_objects": 0,
+    "vertices": 25594,
+    "triangles": 28876,
+    "material_slots": 22,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "space-shuttle_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "space-shuttle_body_metallic-space-shuttle_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "space-shuttle_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 81049,
+      "sha256": "37e8fb561b2c8884e4ad1ed03b613981dad4f5deb480a00ec3feb7120b798277",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "d91e3bb29adbe10a77d3142969bb5776d6442bd0fbdcd5b7177949a802162c49",
+      "role": "logs"
+    },
+    {
+      "path": "model/space-shuttle.glb",
+      "bytes": 1672044,
+      "sha256": "65fa95a24663dd04be6b7bf7bc1cd8fccfc56e4dc68abe03d2c35ef20a171578",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 17841,
+      "sha256": "72ff2f98e3dc298e38a11e5db7cc57a4e8970e762ca9650bd6aa3af33aa853fe",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 16893,
+      "sha256": "5801c0dd408b77e17dcb9c7a3a4f52653bc9953fc06aaee46e60844b59c18f18",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 154788,
+      "sha256": "621b2119c7cb9d783db9ce7edfe38434ac1ba22c0b22440562df2a5db4b17e1f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 837,
+      "sha256": "10c0e4dfcc8015b22a769618eb94df5e31abc7f50f37e7c022b0823012050c76",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 20406,
+      "sha256": "10509504f53fbfce12ac0eaec3566dc28887f8aa4bc6d3bb3ef656b0b2bd94a8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 20026,
+      "sha256": "3c2f4f745757f426b62b18ab158cd6b7b5315c04b26682545af53a3e5ecdc2af",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 16798,
+      "sha256": "da00603f3d5e5e28681fd22b5660380772b1bc4c83c95d00bd3f12195edb3ffb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 19990,
+      "sha256": "ce78f8d676f33635d038e818edb5f562a3656845ea3d40daa50ac6e85e3b23fd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 19137,
+      "sha256": "2c1a78b3e1a43bf9426a71a839219c8b026729803d3940f062b85014126828d0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 20866,
+      "sha256": "90556ff4eabff6a122a58eddcdb87941c337801d1995db09df81e89f394e896d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 17909,
+      "sha256": "e09696d94b01c40929fecba67b4d8429bd3dbde9395cac6bf717648bb6aa89f9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 21132,
+      "sha256": "4acdc40bd716606fe5ebd245d37402c6a34d73ea3b2ca01ee0ea9f8be58ec380",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 17587,
+      "sha256": "e668279c818185d1d151e3d7dab9b8060fe494ade0f454cfd313307cfa7fcf91",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 36221,
+      "sha256": "d72f070efd751163186812ee60f10762d35028697f2796fb1cb9b3a7f381724a",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 5958,
+      "sha256": "bbdc2266cfa94f577d59d5d6b359716bb8197a2d6635cc74317ff445d4da3bb1",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1853,
+      "sha256": "34217ef99092121cc40e57ce5b9cfd21d1ec6fc343b05d5031aca78605a91260",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 521,
+      "sha256": "e71efb475d0a99c7d16dc5f91f39f74d693a129cb5a15f33bb3a8344776ffeb5",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "9c8beb13a17bcf5dda77b7881d8f1c933f42deef4a13c4ff9bb9bba5eec9387c",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/space-shuttle_body_basecolor.jpg",
+      "bytes": 330396,
+      "sha256": "26eecccbc62b2f5e6d32aa111e40368ce0becc16d16cc483083be16f103cc58e",
+      "role": "textures"
+    },
+    {
+      "path": "textures/space-shuttle_body_metallic-space-shuttle_body_roughness.jpg",
+      "bytes": 275475,
+      "sha256": "3a7872dd9eb6dbf89d32cc6c1fc1d86c51dcca132baf5c1ce4e4238e82ff9eee",
+      "role": "textures"
+    },
+    {
+      "path": "textures/space-shuttle_body_normal.jpg",
+      "bytes": 66707,
+      "sha256": "95dd6d6a9917007b67f89d2e27572481b4b920305d3ed88589f4527c1b61ceb4",
+      "role": "textures"
+    }
+  ]
+}

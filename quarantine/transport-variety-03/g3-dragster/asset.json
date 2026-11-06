@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "id": "g3-dragster",
+  "title": "Drag racing car",
+  "category": "vehicles/cars",
+  "style": "stylized",
+  "tags": [
+    "dragster",
+    "race",
+    "road"
+  ],
+  "batch": "transport-variety-03",
+  "acquired_at": "2026-11-06T19:13:50.939985+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/dragster.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/dragster/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/dragster/",
+    "source_id": "dragster",
+    "revision": "f005d70c820286a8bf3a7658c1a7095194c02cfe24acf9561e1e43de9460cd4d",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/dragster/dragster.glb",
+        "bytes": 1081760,
+        "sha256": "f005d70c820286a8bf3a7658c1a7095194c02cfe24acf9561e1e43de9460cd4d"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/dragster/LICENSE.txt"
+  },
+  "model": "model/dragster.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 6,
+    "materials": 19,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/dragster_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "dragster_body_normal"
+    },
+    {
+      "path": "textures/dragster_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "dragster_body_basecolor"
+    },
+    {
+      "path": "textures/dragster_body_metallic-dragster_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "dragster_body_metallic-dragster_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 6,
+    "hidden_mesh_objects": 0,
+    "vertices": 12774,
+    "triangles": 14380,
+    "material_slots": 19,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "dragster_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "dragster_body_metallic-dragster_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "dragster_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 75307,
+      "sha256": "b8418503e8280c790adecf3ccc7cdfe98fad5b3cddca86b99a4b249c0bdad97a",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "e1f98c380b787ebe2fabc1c707bb1a5695ce46934266062b661ad6972ea67ddb",
+      "role": "logs"
+    },
+    {
+      "path": "model/dragster.glb",
+      "bytes": 1081760,
+      "sha256": "f005d70c820286a8bf3a7658c1a7095194c02cfe24acf9561e1e43de9460cd4d",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 16368,
+      "sha256": "d656796b55c5dad37069e9f774c3aae824c82df90fe811327bb730d563f71dea",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 20321,
+      "sha256": "d0c355c77db64101cf3bc38467b3f6ce133bb6360bb188655226825f58c2129c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 168248,
+      "sha256": "7b5cec91ec863939a3f3b777354c7b517a8f0eb2df108e3f38879cf0c505a458",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 817,
+      "sha256": "a1b82b66dca1a8c1440259540f7116ea85589c87bb80ddf141b9c822107567fb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 23797,
+      "sha256": "bc7eef5d68de0468a7a525c4413732b41fe908692ce1c33155dd0ee34eac0123",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 22740,
+      "sha256": "7be609f829d95e6febf7aa8c2277a3271a7e15208b232386cc5168196e6ebe1c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 18355,
+      "sha256": "9d3f4e6bb5b31ca7d4f91f346c204991c523f863df2d818953eb1b2125971a49",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 21099,
+      "sha256": "ed8fd1555819729169d96535fabbe33469d6b93df1107deaa65b54028ee16520",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 31344,
+      "sha256": "cf013957c2511fa44efd690c8d5c5ecc2daea6a078e64c6470af8c7cecca8a94",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 21562,
+      "sha256": "a40ffc3ab24584a7ce9dba4abe6c097645ba5175347d279d52ee211e88a28d33",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 19450,
+      "sha256": "77c95fe88a11b8f88f370a7b83e5d4c2bcf45bca25a162e7722ee85fce8e3557",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 23570,
+      "sha256": "fc409bcac168d3058024a16cd00da3aadf34b14bbd5f6ef222d37573e5a038f4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 17368,
+      "sha256": "fd9246bb9208ab4970a13e9983a38eac402667ff4efc367e8a8879cdaf4f8961",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 31838,
+      "sha256": "297dacd843f99129ab43f5877a093c66492c4e35585d4f4d353a08e128eda88c",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 5318,
+      "sha256": "127cb7aecec6114fdd8d40210447332ecde771019a7c1602762cc4bcf9b127d4",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1601,
+      "sha256": "c41f2924c3c094dc156b837ae72915d36ac7824fc490c8fb1a41f346e2cdb1a8",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 481,
+      "sha256": "5ba51cd6768b693bc9126d687f5a2ee5726013b33b6f918745b5fca7898c2c81",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "fcef76fd8652a1af18cd5b44b1f5c737c0e1c76cd885feaf7f6c95817b632a15",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/dragster_body_basecolor.jpg",
+      "bytes": 250632,
+      "sha256": "deb19ee0d2311f354f3e01d60c937b9fd8122cb76f3c4b491753be875eb7cf9e",
+      "role": "textures"
+    },
+    {
+      "path": "textures/dragster_body_metallic-dragster_body_roughness.jpg",
+      "bytes": 265566,
+      "sha256": "2f625ac66b39081f484ea1c664d7785730ac3967fc52f9ca56fded328a64c3b6",
+      "role": "textures"
+    },
+    {
+      "path": "textures/dragster_body_normal.jpg",
+      "bytes": 67403,
+      "sha256": "c62b42c4d3c28bdc6b746f066cb3a494013874388086a05d5dfa38a97ac83550",
+      "role": "textures"
+    }
+  ]
+}

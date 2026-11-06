@@ -1,0 +1,55 @@
+{
+  "slug": "space-shuttle",
+  "triangles": 28876,
+  "texture_px": 2048,
+  "triangles_light": 16878,
+  "texture_px_light": 1024,
+  "files": {
+    "glb": {
+      "name": "space-shuttle.glb",
+      "bytes": 1672044
+    },
+    "blend": {
+      "name": "space-shuttle.blend",
+      "bytes": 1587990
+    },
+    "fbx": {
+      "name": "space-shuttle.fbx",
+      "bytes": 3267836
+    },
+    "obj": {
+      "name": "space-shuttle-obj.zip",
+      "bytes": 1627391
+    },
+    "usdz": {
+      "name": "space-shuttle.usdz",
+      "bytes": 2672185
+    },
+    "glb_light": {
+      "name": "space-shuttle-light.glb",
+      "bytes": 905092
+    },
+    "fbx_light": {
+      "name": "space-shuttle-light.fbx",
+      "bytes": 1842188
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "23.800 x 36.631 x 16.893",
+    "triangles": 28876,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-09-26",
+    "real_size": "space shuttle orbiter, real size approx. 37 m long, 24 m wingspan, 17 m high on its landing gear",
+    "notes": "front faces -Y; orbiter only (no external tank/boosters), stands on nose and main landing gear; 6 wheels are separate objects (space-shuttle_wheel_*) with origin on the axle, roll around local X; main engine interiors glow cyan (emissive); real inset panel seams, heat-tile grid on the belly, payload bay door seams, elevon and rudder hinge lines; no text, no flags, no agency logos",
+    "set": "Cozy Space Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}

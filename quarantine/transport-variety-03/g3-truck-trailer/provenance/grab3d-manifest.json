@@ -1,0 +1,55 @@
+{
+  "slug": "truck-trailer",
+  "triangles": 28804,
+  "texture_px": 2048,
+  "triangles_light": 18541,
+  "texture_px_light": 1024,
+  "files": {
+    "glb": {
+      "name": "truck-trailer.glb",
+      "bytes": 1826932
+    },
+    "blend": {
+      "name": "truck-trailer.blend",
+      "bytes": 1410145
+    },
+    "fbx": {
+      "name": "truck-trailer.fbx",
+      "bytes": 2963356
+    },
+    "obj": {
+      "name": "truck-trailer-obj.zip",
+      "bytes": 1456670
+    },
+    "usdz": {
+      "name": "truck-trailer.usdz",
+      "bytes": 2696946
+    },
+    "glb_light": {
+      "name": "truck-trailer-light.glb",
+      "bytes": 990220
+    },
+    "fbx_light": {
+      "name": "truck-trailer-light.fbx",
+      "bytes": 1799788
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "2.640 x 13.805 x 4.000",
+    "triangles": 28804,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-10-25",
+    "real_size": "semi-trailer (curtainsider), approx. 13.8 x 2.6 x 4.0 m (L x W x H), coupling height 1.23 m, wheel diameter 1.04 m",
+    "notes": "front faces -Y; matches the Cozy Vehicles Kit semi truck: kingpin under the floor at 1.23 m, 0.94 m behind the front wall (model coordinates x 0, y -5.84 m, z 1.23 m in Blender Z-up) (place it on the fifth wheel of semi-truck); stands level on its landing gear; 6 wheels are separate objects with origin on the hub (rotate around local X to roll); curtain sides with tension straps, rear doors and landing gear are fixed; no brand, no text",
+    "set": "Cozy Construction Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}
