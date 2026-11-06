@@ -1,0 +1,408 @@
+{
+  "schema_version": 1,
+  "id": "g3-snow-plow",
+  "title": "Snow plow truck",
+  "category": "vehicles/trucks",
+  "style": "stylized",
+  "tags": [
+    "snowplow",
+    "winter",
+    "road"
+  ],
+  "batch": "transport-variety-02",
+  "acquired_at": "2026-11-06T14:51:49.910012+00:00",
+  "review": {
+    "id": "g3-snow-plow",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Snow-clearing truck with front blade and a rear salt-spreading hopper.",
+    "limitations": [
+      "Stylized model with simplified forms and materials; not photorealistic.",
+      "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+      "Khronos validation reports zero errors and 2 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+    ],
+    "contact_sheet_sha256": "ca5bf5390680c28d4290ddb49415b63e682ec4a1cc0f00aa07896ffcdc9f1093",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/snow-plow.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/snow-plow/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/snow-plow/",
+    "source_id": "snow-plow",
+    "revision": "fa7484d210176a1feabf0fc3fe1bb17c7e97adac6de11e71930caf69510eed17",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/snow-plow/snow-plow.glb",
+        "bytes": 1830144,
+        "sha256": "fa7484d210176a1feabf0fc3fe1bb17c7e97adac6de11e71930caf69510eed17"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/snow-plow/LICENSE.txt"
+  },
+  "model": "model/snow-plow.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 11,
+    "materials": 20,
+    "images": 6,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/snow-plow_blade_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "snow-plow_blade_normal"
+    },
+    {
+      "path": "textures/snow-plow_blade_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "snow-plow_blade_basecolor"
+    },
+    {
+      "path": "textures/snow-plow_blade_metallic-snow-plow_blade_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "snow-plow_blade_metallic-snow-plow_blade_roughness"
+    },
+    {
+      "path": "textures/snow-plow_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "snow-plow_body_normal"
+    },
+    {
+      "path": "textures/snow-plow_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "snow-plow_body_basecolor"
+    },
+    {
+      "path": "textures/snow-plow_body_metallic-snow-plow_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "snow-plow_body_metallic-snow-plow_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 11,
+    "hidden_mesh_objects": 0,
+    "vertices": 20703,
+    "triangles": 23411,
+    "material_slots": 20,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "snow-plow_blade_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "snow-plow_blade_metallic-snow-plow_blade_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "snow-plow_blade_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "snow-plow_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "snow-plow_body_metallic-snow-plow_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "snow-plow_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1405,
+      "sha256": "3eb5c33b0e9aceae908ddcf09471e8d2820f787fbd7d9d9c98650509963faf3b",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 88464,
+      "sha256": "3fff416cbcb2ee3018f685aa6feb742d3ea45d7683831b797adc9e707660fce2",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "83eeabd56e9d4abd4c83268e63da7d4c575a6ed9678495e43ed35aa1b9010018",
+      "role": "logs"
+    },
+    {
+      "path": "model/snow-plow.glb",
+      "bytes": 1830144,
+      "sha256": "fa7484d210176a1feabf0fc3fe1bb17c7e97adac6de11e71930caf69510eed17",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 24253,
+      "sha256": "12ecee17cb6e209afdf55b0facd4a44e6baa9685c5cf77b407c3e96a7e74d7b0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 22420,
+      "sha256": "bdc2edbf056a824fecfcbc753c11aaf3228e9e4fe67ed4b420b54ff3f5766c28",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 225900,
+      "sha256": "ca5bf5390680c28d4290ddb49415b63e682ec4a1cc0f00aa07896ffcdc9f1093",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1315,
+      "sha256": "46c0c6e458fb66bdbaf96290c54b9ce504acef6dc4bec92c06659aff0fb49831",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 29566,
+      "sha256": "cffa616b21987c1500e98be812b1f71a2c5584950cdbc91c94ef0d5aaaa7d3d8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 31748,
+      "sha256": "5db68b94d37dbfcc6494f73b7131786ebe8f0115f03630d9fe2b4c51c890f604",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 25660,
+      "sha256": "85242a3bbe641a0fe120607e12f3ccacf43257492c13d79f9c65eaf87cdee68e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 31014,
+      "sha256": "a7680181f6bf5742a1acf8fd795620125d87cf07f2750e9aa35479f2afb76cea",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 36051,
+      "sha256": "7ec7d29c9b00276e867ddbd4bcac9dd98a2c151079e2aac262c088f1f573944d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 31637,
+      "sha256": "7e0f065d7d52a9e75873af4bea3f786e97cb60d3cbbbf5558c535e12d0e64aca",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 26855,
+      "sha256": "818d446a0fefd4593637d08a7116dfbffd467a8914e88adc43698c4dbfadf78c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 32224,
+      "sha256": "1b062d8f470114f0f25a802e704c325e6cee10de7d61700c9109a96b4dec8f7c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 21441,
+      "sha256": "88ee4d64f7e7e6cc67216cee5e9804fd5f1aad230866e1e11ec539106b29ff47",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 49751,
+      "sha256": "483ed3cf17abbceae5090befee6ddc107a66f1fc6a0018f5c0a135845673e3a9",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 6379,
+      "sha256": "02f8d99363cc1a5146efb6c66149c6d17c54ea2f1da5540ad214bcb19562ddd2",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1919,
+      "sha256": "7e42c662b37f6816d77faa8a8369a017feeb46d27949404dea0e18937154e3a2",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 489,
+      "sha256": "e90f362ad47869b31a311df91b4a275201467215fb688b4d57fac95e87c46be3",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "d176d2c3ef9d2511e2ace62b47e4f02e7127e6e2137a33fa0f0a7db2278e9fac",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 882,
+      "sha256": "f284162d1c4becd3c177f9b1a735766e70255b82cf24399cdec56ad3562d1bd4",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/snow-plow_blade_basecolor.jpg",
+      "bytes": 170940,
+      "sha256": "857289d58334b69660cbb0f67b2afd44ad596a9a9359a54a6f9245119e4f2016",
+      "role": "textures"
+    },
+    {
+      "path": "textures/snow-plow_blade_metallic-snow-plow_blade_roughness.jpg",
+      "bytes": 176468,
+      "sha256": "8b8fe309a00f24d236150cd16dc46e6cbe919c28bbb979a9f954b658c08b5acb",
+      "role": "textures"
+    },
+    {
+      "path": "textures/snow-plow_blade_normal.jpg",
+      "bytes": 67315,
+      "sha256": "79ab5daf36f3e9589929a20b3c748cd99ef2466d703eb3847ffca2d0ddd415fb",
+      "role": "textures"
+    },
+    {
+      "path": "textures/snow-plow_body_basecolor.jpg",
+      "bytes": 289598,
+      "sha256": "2cb4b5f9dd7689268b0005d572c9668465f198855b7b180756a9dabbc1542499",
+      "role": "textures"
+    },
+    {
+      "path": "textures/snow-plow_body_metallic-snow-plow_body_roughness.jpg",
+      "bytes": 243008,
+      "sha256": "3ad1203e38127720141f13e5cd47ae1559dbd7622c9d7b6b134c8a73a024e2e4",
+      "role": "textures"
+    },
+    {
+      "path": "textures/snow-plow_body_normal.jpg",
+      "bytes": 67987,
+      "sha256": "01a1011145e1fcebbd13e00d014dc37b1bf4c86230e7a4faa7d408f39696e144",
+      "role": "textures"
+    }
+  ]
+}

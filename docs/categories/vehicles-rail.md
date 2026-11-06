@@ -2,7 +2,7 @@
 
 Locomotives, wagons and railway rolling stock
 
-Approved assets: **10**
+Approved assets: **12**
 
 ## Ribbed railway boxcar
 
@@ -51,6 +51,22 @@ Approved assets: **10**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 24,612 triangles; 3 texture images
 - [Asset folder](../../assets/vehicles/rail/g3-monorail/) · [Metadata](../../assets/vehicles/rail/g3-monorail/asset.json) · [All inspection views](../../assets/vehicles/rail/g3-monorail/previews/contact-sheet.jpg)
+
+## Passenger railway coach
+
+![Passenger railway coach](../../assets/vehicles/rail/g3-passenger-car/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 27,308 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/rail/g3-passenger-car/) · [Metadata](../../assets/vehicles/rail/g3-passenger-car/asset.json) · [All inspection views](../../assets/vehicles/rail/g3-passenger-car/previews/contact-sheet.jpg)
+
+## Railway crane
+
+![Railway crane](../../assets/vehicles/rail/g3-rail-crane/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 25,562 triangles; 6 texture images
+- [Asset folder](../../assets/vehicles/rail/g3-rail-crane/) · [Metadata](../../assets/vehicles/rail/g3-rail-crane/asset.json) · [All inspection views](../../assets/vehicles/rail/g3-rail-crane/previews/contact-sheet.jpg)
 
 ## Steam locomotive and tender
 

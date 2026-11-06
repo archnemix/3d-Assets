@@ -1,0 +1,23 @@
+{
+  "id": "g3-pirate-sloop",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Traditional single-mast gaff-rigged sailing sloop with wooden hull and bowsprit.",
+  "limitations": [
+    "Stylized model with simplified forms and materials; not photorealistic.",
+    "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+    "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Simplified static sail and rigging; no sailing motion is verified."
+  ],
+  "contact_sheet_sha256": "650b165538af942ae7aef4f57de69160fabfdf94a96b828cbb9d411000cf7851",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

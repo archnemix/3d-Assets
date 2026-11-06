@@ -15,14 +15,15 @@
     "author_request_blocks_intake": true
   },
   "totals": {
-    "assets": 376,
-    "passed": 376,
+    "assets": 396,
+    "passed": 396,
     "failed": 0,
     "by_provider": {
       "gobkit-free": 2,
-      "grab3d": 189,
+      "grab3d": 208,
       "kenney": 10,
       "modkit-industrial": 14,
+      "oga-submersible": 1,
       "polyhaven": 160,
       "research-vintage": 1
     }
@@ -109,6 +110,26 @@
       "caveats": [
         "The example scene and individual components are from the same pinned upstream repository. Confirm in-engine navigation, collisions, scale and visual quality before assuming it is a complete playable map.",
         "CC0 does not clear trademarks, patents or third-party rights; inspect all models and source evidence individually."
+      ]
+    },
+    "oga-submersible": {
+      "name": "weirdybeardyman Yellow Submersible on OpenGameArt",
+      "spdx": "CC0-1.0",
+      "status": "verified",
+      "free_of_charge": true,
+      "terms_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "evidence_url": "https://opengameart.org/content/yellow-submersible",
+      "resale_as_is": {
+        "permitted": true,
+        "explicit": false,
+        "note": "The individual contributor page marks the model CC0, which permits standalone redistribution and sale."
+      },
+      "asset_notes": [
+        "Only the individually reviewed Yellow Submersible is covered by this entry."
+      ],
+      "caveats": [
+        "Page license evidence is not independent proof of authorship or third-party rights.",
+        "Blender conversion and actual appearance require review."
       ]
     },
     "polyhaven": {
@@ -9919,6 +9940,40 @@
       "pass": true
     },
     {
+      "id": "g3-e-scooter",
+      "title": "Electric kick scooter",
+      "category": "vehicles/bikes",
+      "creator": "Grab3D",
+      "provider": "grab3d",
+      "spdx": "CC0-1.0",
+      "directory": "assets/vehicles/bikes/g3-e-scooter",
+      "source_url": "https://grab3d.com/models/vehicles/e-scooter/",
+      "license_evidence": "https://grab3d.com/dl/e-scooter/LICENSE.txt",
+      "license_file": "assets/vehicles/bikes/g3-e-scooter/LICENSE.txt",
+      "license_file_sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "ai_assisted": false,
+      "notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
       "id": "g3-moped",
       "title": "Retro moped",
       "category": "vehicles/bikes",
@@ -9929,6 +9984,40 @@
       "source_url": "https://grab3d.com/models/vehicles/moped/",
       "license_evidence": "https://grab3d.com/dl/moped/LICENSE.txt",
       "license_file": "assets/vehicles/bikes/g3-moped/LICENSE.txt",
+      "license_file_sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "ai_assisted": false,
+      "notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "g3-motorcycle",
+      "title": "Cafe racer motorcycle",
+      "category": "vehicles/bikes",
+      "creator": "Grab3D",
+      "provider": "grab3d",
+      "spdx": "CC0-1.0",
+      "directory": "assets/vehicles/bikes/g3-motorcycle",
+      "source_url": "https://grab3d.com/models/vehicles/motorcycle/",
+      "license_evidence": "https://grab3d.com/dl/motorcycle/LICENSE.txt",
+      "license_file": "assets/vehicles/bikes/g3-motorcycle/LICENSE.txt",
       "license_file_sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
       "ai_assisted": false,
       "notes": [
@@ -10259,6 +10348,40 @@
       "pass": true
     },
     {
+      "id": "g3-covered-wagon",
+      "title": "Covered wagon",
+      "category": "vehicles/cars",
+      "creator": "Grab3D",
+      "provider": "grab3d",
+      "spdx": "CC0-1.0",
+      "directory": "assets/vehicles/cars/g3-covered-wagon",
+      "source_url": "https://grab3d.com/models/vehicles/covered-wagon/",
+      "license_evidence": "https://grab3d.com/dl/covered-wagon/LICENSE.txt",
+      "license_file": "assets/vehicles/cars/g3-covered-wagon/LICENSE.txt",
+      "license_file_sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "ai_assisted": false,
+      "notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
       "id": "g3-double-decker-bus",
       "title": "Double-decker bus",
       "category": "vehicles/cars",
@@ -10429,6 +10552,40 @@
       "pass": true
     },
     {
+      "id": "g3-stagecoach",
+      "title": "Stagecoach",
+      "category": "vehicles/cars",
+      "creator": "Grab3D",
+      "provider": "grab3d",
+      "spdx": "CC0-1.0",
+      "directory": "assets/vehicles/cars/g3-stagecoach",
+      "source_url": "https://grab3d.com/models/vehicles/stagecoach/",
+      "license_evidence": "https://grab3d.com/dl/stagecoach/LICENSE.txt",
+      "license_file": "assets/vehicles/cars/g3-stagecoach/LICENSE.txt",
+      "license_file_sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "ai_assisted": false,
+      "notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
       "id": "kenney-go-kart",
       "title": "Kenney go-kart",
       "category": "vehicles/cars",
@@ -10531,6 +10688,40 @@
       "pass": true
     },
     {
+      "id": "g3-bulldozer",
+      "title": "Crawler bulldozer",
+      "category": "vehicles/farm",
+      "creator": "Grab3D",
+      "provider": "grab3d",
+      "spdx": "CC0-1.0",
+      "directory": "assets/vehicles/farm/g3-bulldozer",
+      "source_url": "https://grab3d.com/models/vehicles/bulldozer/",
+      "license_evidence": "https://grab3d.com/dl/bulldozer/LICENSE.txt",
+      "license_file": "assets/vehicles/farm/g3-bulldozer/LICENSE.txt",
+      "license_file_sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "ai_assisted": false,
+      "notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
       "id": "g3-combine-harvester",
       "title": "Combine harvester",
       "category": "vehicles/farm",
@@ -10609,6 +10800,74 @@
       "source_url": "https://grab3d.com/models/vehicles/farm-trailer/",
       "license_evidence": "https://grab3d.com/dl/farm-trailer/LICENSE.txt",
       "license_file": "assets/vehicles/farm/g3-farm-trailer/LICENSE.txt",
+      "license_file_sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "ai_assisted": false,
+      "notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "g3-road-roller",
+      "title": "Road roller",
+      "category": "vehicles/farm",
+      "creator": "Grab3D",
+      "provider": "grab3d",
+      "spdx": "CC0-1.0",
+      "directory": "assets/vehicles/farm/g3-road-roller",
+      "source_url": "https://grab3d.com/models/vehicles/road-roller/",
+      "license_evidence": "https://grab3d.com/dl/road-roller/LICENSE.txt",
+      "license_file": "assets/vehicles/farm/g3-road-roller/LICENSE.txt",
+      "license_file_sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "ai_assisted": false,
+      "notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "g3-scissor-lift",
+      "title": "Scissor lift vehicle",
+      "category": "vehicles/farm",
+      "creator": "Grab3D",
+      "provider": "grab3d",
+      "spdx": "CC0-1.0",
+      "directory": "assets/vehicles/farm/g3-scissor-lift",
+      "source_url": "https://grab3d.com/models/vehicles/scissor-lift/",
+      "license_evidence": "https://grab3d.com/dl/scissor-lift/LICENSE.txt",
+      "license_file": "assets/vehicles/farm/g3-scissor-lift/LICENSE.txt",
       "license_file_sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
       "ai_assisted": false,
       "notes": [
@@ -11075,6 +11334,74 @@
       "pass": true
     },
     {
+      "id": "g3-passenger-car",
+      "title": "Passenger railway coach",
+      "category": "vehicles/rail",
+      "creator": "Grab3D",
+      "provider": "grab3d",
+      "spdx": "CC0-1.0",
+      "directory": "assets/vehicles/rail/g3-passenger-car",
+      "source_url": "https://grab3d.com/models/vehicles/passenger-car/",
+      "license_evidence": "https://grab3d.com/dl/passenger-car/LICENSE.txt",
+      "license_file": "assets/vehicles/rail/g3-passenger-car/LICENSE.txt",
+      "license_file_sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "ai_assisted": false,
+      "notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "g3-rail-crane",
+      "title": "Railway crane",
+      "category": "vehicles/rail",
+      "creator": "Grab3D",
+      "provider": "grab3d",
+      "spdx": "CC0-1.0",
+      "directory": "assets/vehicles/rail/g3-rail-crane",
+      "source_url": "https://grab3d.com/models/vehicles/rail-crane/",
+      "license_evidence": "https://grab3d.com/dl/rail-crane/LICENSE.txt",
+      "license_file": "assets/vehicles/rail/g3-rail-crane/LICENSE.txt",
+      "license_file_sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "ai_assisted": false,
+      "notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
       "id": "g3-steam-train",
       "title": "Steam locomotive and tender",
       "category": "vehicles/rail",
@@ -11347,6 +11674,40 @@
       "pass": true
     },
     {
+      "id": "g3-crane-truck",
+      "title": "Mobile crane truck",
+      "category": "vehicles/trucks",
+      "creator": "Grab3D",
+      "provider": "grab3d",
+      "spdx": "CC0-1.0",
+      "directory": "assets/vehicles/trucks/g3-crane-truck",
+      "source_url": "https://grab3d.com/models/vehicles/crane-truck/",
+      "license_evidence": "https://grab3d.com/dl/crane-truck/LICENSE.txt",
+      "license_file": "assets/vehicles/trucks/g3-crane-truck/LICENSE.txt",
+      "license_file_sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "ai_assisted": false,
+      "notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
       "id": "g3-delivery-van",
       "title": "Delivery van",
       "category": "vehicles/trucks",
@@ -11483,6 +11844,176 @@
       "pass": true
     },
     {
+      "id": "g3-garbage-truck",
+      "title": "Garbage truck",
+      "category": "vehicles/trucks",
+      "creator": "Grab3D",
+      "provider": "grab3d",
+      "spdx": "CC0-1.0",
+      "directory": "assets/vehicles/trucks/g3-garbage-truck",
+      "source_url": "https://grab3d.com/models/vehicles/garbage-truck/",
+      "license_evidence": "https://grab3d.com/dl/garbage-truck/LICENSE.txt",
+      "license_file": "assets/vehicles/trucks/g3-garbage-truck/LICENSE.txt",
+      "license_file_sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "ai_assisted": false,
+      "notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "g3-ice-cream-truck",
+      "title": "Ice cream truck",
+      "category": "vehicles/trucks",
+      "creator": "Grab3D",
+      "provider": "grab3d",
+      "spdx": "CC0-1.0",
+      "directory": "assets/vehicles/trucks/g3-ice-cream-truck",
+      "source_url": "https://grab3d.com/models/vehicles/ice-cream-truck/",
+      "license_evidence": "https://grab3d.com/dl/ice-cream-truck/LICENSE.txt",
+      "license_file": "assets/vehicles/trucks/g3-ice-cream-truck/LICENSE.txt",
+      "license_file_sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "ai_assisted": false,
+      "notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "g3-snow-plow",
+      "title": "Snow plow truck",
+      "category": "vehicles/trucks",
+      "creator": "Grab3D",
+      "provider": "grab3d",
+      "spdx": "CC0-1.0",
+      "directory": "assets/vehicles/trucks/g3-snow-plow",
+      "source_url": "https://grab3d.com/models/vehicles/snow-plow/",
+      "license_evidence": "https://grab3d.com/dl/snow-plow/LICENSE.txt",
+      "license_file": "assets/vehicles/trucks/g3-snow-plow/LICENSE.txt",
+      "license_file_sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "ai_assisted": false,
+      "notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "g3-street-sweeper",
+      "title": "Street sweeper",
+      "category": "vehicles/trucks",
+      "creator": "Grab3D",
+      "provider": "grab3d",
+      "spdx": "CC0-1.0",
+      "directory": "assets/vehicles/trucks/g3-street-sweeper",
+      "source_url": "https://grab3d.com/models/vehicles/street-sweeper/",
+      "license_evidence": "https://grab3d.com/dl/street-sweeper/LICENSE.txt",
+      "license_file": "assets/vehicles/trucks/g3-street-sweeper/LICENSE.txt",
+      "license_file_sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "ai_assisted": false,
+      "notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "g3-tow-truck",
+      "title": "Tow truck",
+      "category": "vehicles/trucks",
+      "creator": "Grab3D",
+      "provider": "grab3d",
+      "spdx": "CC0-1.0",
+      "directory": "assets/vehicles/trucks/g3-tow-truck",
+      "source_url": "https://grab3d.com/models/vehicles/tow-truck/",
+      "license_evidence": "https://grab3d.com/dl/tow-truck/LICENSE.txt",
+      "license_file": "assets/vehicles/trucks/g3-tow-truck/LICENSE.txt",
+      "license_file_sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "ai_assisted": false,
+      "notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
       "id": "g3-submarine",
       "title": "Research submarine",
       "category": "vehicles/underwater",
@@ -11497,6 +12028,40 @@
       "ai_assisted": false,
       "notes": [
         "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "oga-yellow-submersible",
+      "title": "Yellow submersible",
+      "category": "vehicles/underwater",
+      "creator": "weirdybeardyman",
+      "provider": "oga-submersible",
+      "spdx": "CC0-1.0",
+      "directory": "assets/vehicles/underwater/oga-yellow-submersible",
+      "source_url": "https://opengameart.org/content/yellow-submersible",
+      "license_evidence": "https://opengameart.org/content/yellow-submersible",
+      "license_file": "assets/vehicles/underwater/oga-yellow-submersible/LICENSE.txt",
+      "license_file_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "ai_assisted": false,
+      "notes": [
+        "Only the individually reviewed Yellow Submersible is covered by this entry."
       ],
       "checks": {
         "free_of_charge": true,
@@ -11755,6 +12320,74 @@
       "pass": true
     },
     {
+      "id": "g3-jet-ski",
+      "title": "Personal watercraft",
+      "category": "vehicles/watercraft",
+      "creator": "Grab3D",
+      "provider": "grab3d",
+      "spdx": "CC0-1.0",
+      "directory": "assets/vehicles/watercraft/g3-jet-ski",
+      "source_url": "https://grab3d.com/models/vehicles/jet-ski/",
+      "license_evidence": "https://grab3d.com/dl/jet-ski/LICENSE.txt",
+      "license_file": "assets/vehicles/watercraft/g3-jet-ski/LICENSE.txt",
+      "license_file_sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "ai_assisted": false,
+      "notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "g3-kayak",
+      "title": "Sea kayak",
+      "category": "vehicles/watercraft",
+      "creator": "Grab3D",
+      "provider": "grab3d",
+      "spdx": "CC0-1.0",
+      "directory": "assets/vehicles/watercraft/g3-kayak",
+      "source_url": "https://grab3d.com/models/vehicles/kayak/",
+      "license_evidence": "https://grab3d.com/dl/kayak/LICENSE.txt",
+      "license_file": "assets/vehicles/watercraft/g3-kayak/LICENSE.txt",
+      "license_file_sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "ai_assisted": false,
+      "notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
       "id": "g3-paddle-steamer",
       "title": "Paddle steamer",
       "category": "vehicles/watercraft",
@@ -11765,6 +12398,74 @@
       "source_url": "https://grab3d.com/models/vehicles/paddle-steamer/",
       "license_evidence": "https://grab3d.com/dl/paddle-steamer/LICENSE.txt",
       "license_file": "assets/vehicles/watercraft/g3-paddle-steamer/LICENSE.txt",
+      "license_file_sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "ai_assisted": false,
+      "notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "g3-pirate-raft",
+      "title": "Log sailing raft",
+      "category": "vehicles/watercraft",
+      "creator": "Grab3D",
+      "provider": "grab3d",
+      "spdx": "CC0-1.0",
+      "directory": "assets/vehicles/watercraft/g3-pirate-raft",
+      "source_url": "https://grab3d.com/models/vehicles/pirate-raft/",
+      "license_evidence": "https://grab3d.com/dl/pirate-raft/LICENSE.txt",
+      "license_file": "assets/vehicles/watercraft/g3-pirate-raft/LICENSE.txt",
+      "license_file_sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "ai_assisted": false,
+      "notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "g3-pirate-sloop",
+      "title": "Sailing sloop",
+      "category": "vehicles/watercraft",
+      "creator": "Grab3D",
+      "provider": "grab3d",
+      "spdx": "CC0-1.0",
+      "directory": "assets/vehicles/watercraft/g3-pirate-sloop",
+      "source_url": "https://grab3d.com/models/vehicles/pirate-sloop/",
+      "license_evidence": "https://grab3d.com/dl/pirate-sloop/LICENSE.txt",
+      "license_file": "assets/vehicles/watercraft/g3-pirate-sloop/LICENSE.txt",
       "license_file_sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
       "ai_assisted": false,
       "notes": [

@@ -1,0 +1,24 @@
+{
+  "id": "g3-rail-crane",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Railway maintenance crane on a long wheeled rail chassis with a lattice boom and hook.",
+  "limitations": [
+    "Stylized model with simplified forms and materials; not photorealistic.",
+    "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+    "Khronos validation reports zero errors and 2 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Blender inspection counted 344 zero-area triangles; these may need cleanup for topology-sensitive workflows.",
+    "Boom and hook are shown in a static pose; mechanism operation has not been tested."
+  ],
+  "contact_sheet_sha256": "8e3d1f644c3a684523661e0c7777c562518a1d21cdb090a46259b856d6bbff49",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

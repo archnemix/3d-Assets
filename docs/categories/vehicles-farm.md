@@ -2,7 +2,15 @@
 
 Tractors, harvesters and agricultural machinery
 
-Approved assets: **4**
+Approved assets: **7**
+
+## Crawler bulldozer
+
+![Crawler bulldozer](../../assets/vehicles/farm/g3-bulldozer/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 28,610 triangles; 6 texture images
+- [Asset folder](../../assets/vehicles/farm/g3-bulldozer/) · [Metadata](../../assets/vehicles/farm/g3-bulldozer/asset.json) · [All inspection views](../../assets/vehicles/farm/g3-bulldozer/previews/contact-sheet.jpg)
 
 ## Combine harvester
 
@@ -27,6 +35,22 @@ Approved assets: **4**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 31,568 triangles; 6 texture images
 - [Asset folder](../../assets/vehicles/farm/g3-farm-trailer/) · [Metadata](../../assets/vehicles/farm/g3-farm-trailer/asset.json) · [All inspection views](../../assets/vehicles/farm/g3-farm-trailer/previews/contact-sheet.jpg)
+
+## Road roller
+
+![Road roller](../../assets/vehicles/farm/g3-road-roller/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 18,794 triangles; 6 texture images
+- [Asset folder](../../assets/vehicles/farm/g3-road-roller/) · [Metadata](../../assets/vehicles/farm/g3-road-roller/asset.json) · [All inspection views](../../assets/vehicles/farm/g3-road-roller/previews/contact-sheet.jpg)
+
+## Scissor lift vehicle
+
+![Scissor lift vehicle](../../assets/vehicles/farm/g3-scissor-lift/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 17,756 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/farm/g3-scissor-lift/) · [Metadata](../../assets/vehicles/farm/g3-scissor-lift/asset.json) · [All inspection views](../../assets/vehicles/farm/g3-scissor-lift/previews/contact-sheet.jpg)
 
 ## Farm tractor
 

@@ -2,7 +2,7 @@
 
 Boats and sailing ships
 
-Approved assets: **15**
+Approved assets: **19**
 
 ## Canoe
 
@@ -60,6 +60,22 @@ Approved assets: **15**
 - 25,474 triangles; 3 texture images
 - [Asset folder](../../assets/vehicles/watercraft/g3-houseboat/) · [Metadata](../../assets/vehicles/watercraft/g3-houseboat/asset.json) · [All inspection views](../../assets/vehicles/watercraft/g3-houseboat/previews/contact-sheet.jpg)
 
+## Personal watercraft
+
+![Personal watercraft](../../assets/vehicles/watercraft/g3-jet-ski/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 13,209 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/watercraft/g3-jet-ski/) · [Metadata](../../assets/vehicles/watercraft/g3-jet-ski/asset.json) · [All inspection views](../../assets/vehicles/watercraft/g3-jet-ski/previews/contact-sheet.jpg)
+
+## Sea kayak
+
+![Sea kayak](../../assets/vehicles/watercraft/g3-kayak/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 14,528 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/watercraft/g3-kayak/) · [Metadata](../../assets/vehicles/watercraft/g3-kayak/asset.json) · [All inspection views](../../assets/vehicles/watercraft/g3-kayak/previews/contact-sheet.jpg)
+
 ## Paddle steamer
 
 ![Paddle steamer](../../assets/vehicles/watercraft/g3-paddle-steamer/previews/orbit-01.jpg)
@@ -67,6 +83,22 @@ Approved assets: **15**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 29,474 triangles; 3 texture images
 - [Asset folder](../../assets/vehicles/watercraft/g3-paddle-steamer/) · [Metadata](../../assets/vehicles/watercraft/g3-paddle-steamer/asset.json) · [All inspection views](../../assets/vehicles/watercraft/g3-paddle-steamer/previews/contact-sheet.jpg)
+
+## Log sailing raft
+
+![Log sailing raft](../../assets/vehicles/watercraft/g3-pirate-raft/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 27,726 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/watercraft/g3-pirate-raft/) · [Metadata](../../assets/vehicles/watercraft/g3-pirate-raft/asset.json) · [All inspection views](../../assets/vehicles/watercraft/g3-pirate-raft/previews/contact-sheet.jpg)
+
+## Sailing sloop
+
+![Sailing sloop](../../assets/vehicles/watercraft/g3-pirate-sloop/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 36,324 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/watercraft/g3-pirate-sloop/) · [Metadata](../../assets/vehicles/watercraft/g3-pirate-sloop/asset.json) · [All inspection views](../../assets/vehicles/watercraft/g3-pirate-sloop/previews/contact-sheet.jpg)
 
 ## Rowboat
 

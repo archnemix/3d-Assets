@@ -1,0 +1,412 @@
+{
+  "schema_version": 1,
+  "id": "g3-covered-wagon",
+  "title": "Covered wagon",
+  "category": "vehicles/cars",
+  "style": "stylized",
+  "tags": [
+    "wagon",
+    "historical",
+    "road"
+  ],
+  "batch": "transport-variety-02",
+  "acquired_at": "2026-11-06T14:54:38.056137+00:00",
+  "review": {
+    "id": "g3-covered-wagon",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Covered cargo wagon with canvas hood, wooden body, spoked wheels and draft pole.",
+    "limitations": [
+      "Stylized model with simplified forms and materials; not photorealistic.",
+      "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+      "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+      "Blender inspection counted 232 zero-area triangles; these may need cleanup for topology-sensitive workflows.",
+      "No horse or other towing animal is included."
+    ],
+    "contact_sheet_sha256": "5d1c2299874d29a811c1f885f84984e8eff803482947650936205d80a3388dd7",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/covered-wagon.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/covered-wagon/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/covered-wagon/",
+    "source_id": "covered-wagon",
+    "revision": "a5ceccdc1fd957428aefdf5a5ea1430e77a6a1e571b3a18e2d8e8ea513ca9c73",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/covered-wagon/covered-wagon.glb",
+        "bytes": 2063404,
+        "sha256": "a5ceccdc1fd957428aefdf5a5ea1430e77a6a1e571b3a18e2d8e8ea513ca9c73"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/covered-wagon/LICENSE.txt"
+  },
+  "model": "model/covered-wagon.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 9,
+    "materials": 7,
+    "images": 6,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_materials_emissive_strength"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/covered-wagon_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "covered-wagon_body_normal"
+    },
+    {
+      "path": "textures/covered-wagon_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "covered-wagon_body_basecolor"
+    },
+    {
+      "path": "textures/covered-wagon_body_metallic-covered-wagon_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "covered-wagon_body_metallic-covered-wagon_body_roughness"
+    },
+    {
+      "path": "textures/covered-wagon_wood_holz_sonne.jpg",
+      "dimensions": [
+        512,
+        1024
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "covered-wagon_wood_holz_sonne"
+    },
+    {
+      "path": "textures/covered-wagon_wood_canyon_35.jpg",
+      "dimensions": [
+        512,
+        1024
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "covered-wagon_wood_canyon_35"
+    },
+    {
+      "path": "textures/covered-wagon_wood_himmel_40.jpg",
+      "dimensions": [
+        512,
+        1024
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "covered-wagon_wood_himmel_40"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 9,
+    "hidden_mesh_objects": 0,
+    "vertices": 39882,
+    "triangles": 29112,
+    "material_slots": 17,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 232,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "covered-wagon_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "covered-wagon_body_metallic-covered-wagon_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "covered-wagon_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "covered-wagon_wood_canyon_35",
+        "dimensions": [
+          512,
+          1024
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "covered-wagon_wood_himmel_40",
+        "dimensions": [
+          512,
+          1024
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "covered-wagon_wood_holz_sonne",
+        "dimensions": [
+          512,
+          1024
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1566,
+      "sha256": "5905e8ff6e1206ce52797c5f3bcbfdaa40e1864f4778c81ed182eb0781e6e430",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 84699,
+      "sha256": "97d5c5dd542be93160bde077c4e00d452aea93b82b14a3caec926a357e5b7797",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "75b540955124f119ead4fe0fa77029c3a4732983a0add7e84bb7b15c76756a4e",
+      "role": "logs"
+    },
+    {
+      "path": "model/covered-wagon.glb",
+      "bytes": 2063404,
+      "sha256": "a5ceccdc1fd957428aefdf5a5ea1430e77a6a1e571b3a18e2d8e8ea513ca9c73",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 24185,
+      "sha256": "02298aaa2808e189f1f3873ef4dfd1ef5cd5da2d06b12d469b81538344f622a8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 30474,
+      "sha256": "907b052519e7418eaa9a1714834b04b0056658d8bbeafdac8a1806d8179a4408",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 239725,
+      "sha256": "5d1c2299874d29a811c1f885f84984e8eff803482947650936205d80a3388dd7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1317,
+      "sha256": "679eb796c2d9adcf03b926c7a652de27d87dd6fcf5fcd18cc75170dacf258398",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 23450,
+      "sha256": "030c96cd6738b508b4ea64645226bf75af05efad7aec3957841b24f3c96a4f82",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 39105,
+      "sha256": "994666f3b06281ab29d374a1bb2e5b211bc270333cd6f8d6be6c51b34e9d77dd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 28225,
+      "sha256": "f835852fa5782adc5fba3181fcca68eefb31c7ca9b066e2746ef92a4f3dbbbdf",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 39169,
+      "sha256": "e5adf2d2e4409d4dde00b705eca6a1d8d9ebe9e59a8445e1fb126da5a90a0094",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 23910,
+      "sha256": "71246fb30c861178b3fdfe6632e97d99e9f368c354ba8341e93c4f10cfe3dba8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 40705,
+      "sha256": "55f99024eba3d2e863f68d9ce88312f0e2cc4228cc27676ecfb44b2e52d54a99",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 30730,
+      "sha256": "502c54988886ce8f240d553e2d599d88db88803f39fd05585e1dcfd45cb24c3a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 41619,
+      "sha256": "c1b163c21fc2471f459a99b29e12d305a1e8fb7265491654bf60f4053bf106ff",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 15446,
+      "sha256": "605a2a3a9cedbbe63f300d8e291a4477bba178b19b535e33b0a878f60bff51d0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 55097,
+      "sha256": "766c6f631231d8759cfebfa96b210136125ab0677094cfe26e6433b60cfea996",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 4241,
+      "sha256": "05fa2c502167d690191ecb4e7ec10ba4b6c87002344961cd9e9bc3cec613a77b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1796,
+      "sha256": "9787ba8e98a38c5f9f86dbfb4b569caec95bc421fa8f3d071198ed73b0a05cc2",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 521,
+      "sha256": "b848730858b3fc1f94c89a3822b11ba43bb82222b76f32bc33768bd05d547221",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "158a2a58220908c5cc9ba9a0a5c0470ffd488f4ded70bc812b58c51f260b12c6",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1064,
+      "sha256": "cac899e0a15dfb9de88c3442ab3fe9d98d17a8bee161a8e32bfad283977b1d07",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/covered-wagon_body_basecolor.jpg",
+      "bytes": 251533,
+      "sha256": "75b809b227eac33cee4c3691dc84ab2b808ff14b0891fd171f6803d934f6de0a",
+      "role": "textures"
+    },
+    {
+      "path": "textures/covered-wagon_body_metallic-covered-wagon_body_roughness.jpg",
+      "bytes": 169794,
+      "sha256": "a4ee55674ad9b087b142813270ab61225453da08747558fd9008b85ef1e7df93",
+      "role": "textures"
+    },
+    {
+      "path": "textures/covered-wagon_body_normal.jpg",
+      "bytes": 72567,
+      "sha256": "423ad8aef1a0c260e2602f679fa7309d9eb205a939a39670608c6c2ab11a07db",
+      "role": "textures"
+    },
+    {
+      "path": "textures/covered-wagon_wood_canyon_35.jpg",
+      "bytes": 24180,
+      "sha256": "bd5d7bfc8a46257147b6d8679ca998533a46daf7f92078a6cefadd57be8b0a45",
+      "role": "textures"
+    },
+    {
+      "path": "textures/covered-wagon_wood_himmel_40.jpg",
+      "bytes": 29489,
+      "sha256": "c409c7bfbe00a01234692928445dcbcef5568a9e13ef5d807b5a6ca53aa4848a",
+      "role": "textures"
+    },
+    {
+      "path": "textures/covered-wagon_wood_holz_sonne.jpg",
+      "bytes": 47132,
+      "sha256": "32435674e71439fd9a452d9cf22a7b16053ecee38288a3daa2d194a317fa3848",
+      "role": "textures"
+    }
+  ]
+}

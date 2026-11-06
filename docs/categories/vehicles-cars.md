@@ -2,7 +2,7 @@
 
 Road vehicles and go-karts
 
-Approved assets: **12**
+Approved assets: **14**
 
 ## 1980s wedge sports car
 
@@ -35,6 +35,14 @@ Approved assets: **12**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 17,338 triangles; 5 texture images
 - [Asset folder](../../assets/vehicles/cars/g3-compact-car/) · [Metadata](../../assets/vehicles/cars/g3-compact-car/asset.json) · [All inspection views](../../assets/vehicles/cars/g3-compact-car/previews/contact-sheet.jpg)
+
+## Covered wagon
+
+![Covered wagon](../../assets/vehicles/cars/g3-covered-wagon/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 29,112 triangles; 6 texture images
+- [Asset folder](../../assets/vehicles/cars/g3-covered-wagon/) · [Metadata](../../assets/vehicles/cars/g3-covered-wagon/asset.json) · [All inspection views](../../assets/vehicles/cars/g3-covered-wagon/previews/contact-sheet.jpg)
 
 ## Double-decker bus
 
@@ -75,6 +83,14 @@ Approved assets: **12**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 44,066 triangles; 3 texture images
 - [Asset folder](../../assets/vehicles/cars/g3-school-bus/) · [Metadata](../../assets/vehicles/cars/g3-school-bus/asset.json) · [All inspection views](../../assets/vehicles/cars/g3-school-bus/previews/contact-sheet.jpg)
+
+## Stagecoach
+
+![Stagecoach](../../assets/vehicles/cars/g3-stagecoach/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 29,932 triangles; 4 texture images
+- [Asset folder](../../assets/vehicles/cars/g3-stagecoach/) · [Metadata](../../assets/vehicles/cars/g3-stagecoach/asset.json) · [All inspection views](../../assets/vehicles/cars/g3-stagecoach/previews/contact-sheet.jpg)
 
 ## Kenney go-kart
 

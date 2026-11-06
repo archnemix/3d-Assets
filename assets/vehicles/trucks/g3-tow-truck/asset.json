@@ -1,0 +1,558 @@
+{
+  "schema_version": 1,
+  "id": "g3-tow-truck",
+  "title": "Tow truck",
+  "category": "vehicles/trucks",
+  "style": "stylized",
+  "tags": [
+    "tow",
+    "road",
+    "recovery"
+  ],
+  "batch": "transport-variety-02",
+  "acquired_at": "2026-11-06T14:52:52.104773+00:00",
+  "review": {
+    "id": "g3-tow-truck",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Recovery truck with rear boom, hanging hook and lowered wheel lift.",
+    "limitations": [
+      "Stylized model with simplified forms and materials; not photorealistic.",
+      "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+      "Khronos validation reports zero errors and 4 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+    ],
+    "contact_sheet_sha256": "9b1a9248322e1ab7a2afac695686092d63f07de079fe2d4ed290229d8156428e",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/tow-truck.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/tow-truck/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/tow-truck/",
+    "source_id": "tow-truck",
+    "revision": "bba44fccdf42e4f6805d6f17209112b3256448d38e3afbd674c41cd8b0bc934d",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/tow-truck/tow-truck.glb",
+        "bytes": 2159412,
+        "sha256": "bba44fccdf42e4f6805d6f17209112b3256448d38e3afbd674c41cd8b0bc934d"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/tow-truck/LICENSE.txt"
+  },
+  "model": "model/tow-truck.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 12,
+    "materials": 21,
+    "images": 12,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/tow-truck_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tow-truck_body_normal"
+    },
+    {
+      "path": "textures/tow-truck_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tow-truck_body_basecolor"
+    },
+    {
+      "path": "textures/tow-truck_body_metallic-tow-truck_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tow-truck_body_metallic-tow-truck_body_roughness"
+    },
+    {
+      "path": "textures/tow-truck_boom_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tow-truck_boom_normal"
+    },
+    {
+      "path": "textures/tow-truck_boom_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tow-truck_boom_basecolor"
+    },
+    {
+      "path": "textures/tow-truck_boom_metallic-tow-truck_boom_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tow-truck_boom_metallic-tow-truck_boom_roughness"
+    },
+    {
+      "path": "textures/tow-truck_hook_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tow-truck_hook_normal"
+    },
+    {
+      "path": "textures/tow-truck_hook_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tow-truck_hook_basecolor"
+    },
+    {
+      "path": "textures/tow-truck_hook_metallic-tow-truck_hook_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tow-truck_hook_metallic-tow-truck_hook_roughness"
+    },
+    {
+      "path": "textures/tow-truck_underlift_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tow-truck_underlift_normal"
+    },
+    {
+      "path": "textures/tow-truck_underlift_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tow-truck_underlift_basecolor"
+    },
+    {
+      "path": "textures/tow-truck_underlift_metallic-tow-truck_underlift_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tow-truck_underlift_metallic-tow-truck_underlift_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 12,
+    "hidden_mesh_objects": 0,
+    "vertices": 18613,
+    "triangles": 21468,
+    "material_slots": 21,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "tow-truck_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "tow-truck_body_metallic-tow-truck_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "tow-truck_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "tow-truck_boom_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "tow-truck_boom_metallic-tow-truck_boom_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "tow-truck_boom_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "tow-truck_hook_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "tow-truck_hook_metallic-tow-truck_hook_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "tow-truck_hook_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "tow-truck_underlift_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "tow-truck_underlift_metallic-tow-truck_underlift_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "tow-truck_underlift_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 4,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1400,
+      "sha256": "fe5ce06632b27d636f75619803a1ca7b0ae4afb2d3e013a638de7efa240d4fb3",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 101374,
+      "sha256": "31bb6a8de59a13394d96a08e7094828a7c62848342dd5d4663a5ef69f0023504",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "c2bb90f7d41271018a074a8f4ddf57bc22c2383968a5906bcbba6a0a5743ae7b",
+      "role": "logs"
+    },
+    {
+      "path": "model/tow-truck.glb",
+      "bytes": 2159412,
+      "sha256": "bba44fccdf42e4f6805d6f17209112b3256448d38e3afbd674c41cd8b0bc934d",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 19001,
+      "sha256": "74a5b1f5fa05606bb12e6ba9555dd2a2d4fb896d65f267c9390ac4c03e6455ae",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 22351,
+      "sha256": "bccc73ceae168b1cfaa7532da66248bbd93e4e7522b7898efa73af7f5f3c024b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 204473,
+      "sha256": "9b1a9248322e1ab7a2afac695686092d63f07de079fe2d4ed290229d8156428e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 2309,
+      "sha256": "76c726e50938ca0c40781e1a5a47e0b0f46aa89a478249fcaf99a84679c748c3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 23055,
+      "sha256": "920f6ecaee76c49d6c1809680508d28832a380b4d7bf7c19e9db3004c753eb39",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 28697,
+      "sha256": "1fa1669b6be158c3dfc651cd4d6ea86ee896c5282948fba3ec64f951db3473d5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 23688,
+      "sha256": "45e1546fe0a69c18105e660aed21cbf3e52e5e34cbddf9fe0162d0968e384dc3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 28084,
+      "sha256": "997472d136d53305058394c0514c4c59804a96c617a1d2297b153d2a2297ec50",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 28490,
+      "sha256": "0fb807affc65cd6f77c23daa64b75c11032cedc984124aec99a8dae664fac196",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 29160,
+      "sha256": "fe02f978994ff152664fc5e8d05a2bbf75f26982c0b5b9094b3629c6b01247d8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 25105,
+      "sha256": "8a85c809ba91e209f76f3b93fa6875351d32b1f2f729466a3faf8509581fd2d1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 29752,
+      "sha256": "25eddbb0180ed9511aacea0534f44f0f66fa67e651ac0114b34bfcb940c4ba83",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 19458,
+      "sha256": "f5f5ab9afabdfbeda86bd6c54c99dd464845de2f3c7064a95c41212f415befbd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 46252,
+      "sha256": "288ef5070b890211a3840a1204fb26590141360f2576fcb5c719083fd42e3348",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 8314,
+      "sha256": "3526599932b6f95c0e41a186440616893a10437572804ed1ea5d3d05603e13d5",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 2026,
+      "sha256": "70684b090b2d82e06b0db151419058aecb2ba4b9a2addaafa73cbe397c7764bb",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 489,
+      "sha256": "f23a6fa0c606076c1a81598debf08038e1690110e97063f2dd80b32007c64db6",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "1cda27c1e0fb15035ecbff0939b96c4057efe0e1079b3562502b0803be17c834",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 879,
+      "sha256": "7f6711c582e1b3cd49cede3c43d8cc72e89e5fa473871e3a3bbdb3ec4429296c",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/tow-truck_body_basecolor.jpg",
+      "bytes": 256281,
+      "sha256": "f1bf8d7378b5dcc94287e9438b640d758327807e49951fee571d4d011ab0f397",
+      "role": "textures"
+    },
+    {
+      "path": "textures/tow-truck_body_metallic-tow-truck_body_roughness.jpg",
+      "bytes": 228456,
+      "sha256": "7086666af9081303515cbef2a6b33cc471f8f25ea4f78ed4be56833b41a2cc09",
+      "role": "textures"
+    },
+    {
+      "path": "textures/tow-truck_body_normal.jpg",
+      "bytes": 67789,
+      "sha256": "71ffa447218644d833088e4f11956e5d264ef4661918a9d5b7875fc3349a8ab5",
+      "role": "textures"
+    },
+    {
+      "path": "textures/tow-truck_boom_basecolor.jpg",
+      "bytes": 114879,
+      "sha256": "181728d41bac2cae26388d28fe2586540d34839afed9c9aeed999821a04cef91",
+      "role": "textures"
+    },
+    {
+      "path": "textures/tow-truck_boom_metallic-tow-truck_boom_roughness.jpg",
+      "bytes": 123610,
+      "sha256": "8ac2c4ebe729275948f1fbb71525fdb636fe8f4f2930534c3ff23f05f9fe5967",
+      "role": "textures"
+    },
+    {
+      "path": "textures/tow-truck_boom_normal.jpg",
+      "bytes": 66426,
+      "sha256": "73e78236cc9a8fd8111645b1e410fe2299275328785b5054eeb6923d2aa70570",
+      "role": "textures"
+    },
+    {
+      "path": "textures/tow-truck_hook_basecolor.jpg",
+      "bytes": 100518,
+      "sha256": "2ee28b1534cbc22d461c5f46baa9f3bdba97fc1737e780c63f76f838bc323722",
+      "role": "textures"
+    },
+    {
+      "path": "textures/tow-truck_hook_metallic-tow-truck_hook_roughness.jpg",
+      "bytes": 88593,
+      "sha256": "f065910e5674d432a337c4f2837b4ed1ad375f9a9737dc86811cc7817558f432",
+      "role": "textures"
+    },
+    {
+      "path": "textures/tow-truck_hook_normal.jpg",
+      "bytes": 66342,
+      "sha256": "28d7c616caaf7a190c63642b07ef98c6307e408a9fe2f73eb598011349b0a931",
+      "role": "textures"
+    },
+    {
+      "path": "textures/tow-truck_underlift_basecolor.jpg",
+      "bytes": 122300,
+      "sha256": "5d1f538d889de5ea61cf7dfc7def006f4479b35ddb84bdaed1151c609661fd94",
+      "role": "textures"
+    },
+    {
+      "path": "textures/tow-truck_underlift_metallic-tow-truck_underlift_roughness.jpg",
+      "bytes": 119027,
+      "sha256": "66c6e5a45ce60ed5bebce704601ac9dfddc3d15ae22194900db2001d2c15e1e3",
+      "role": "textures"
+    },
+    {
+      "path": "textures/tow-truck_underlift_normal.jpg",
+      "bytes": 66357,
+      "sha256": "34164e9eda3eb3ece4d4774d89027b2b96d1587635e8de663132542156911794",
+      "role": "textures"
+    }
+  ]
+}

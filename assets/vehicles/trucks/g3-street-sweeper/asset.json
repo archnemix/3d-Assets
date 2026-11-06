@@ -1,0 +1,483 @@
+{
+  "schema_version": 1,
+  "id": "g3-street-sweeper",
+  "title": "Street sweeper",
+  "category": "vehicles/trucks",
+  "style": "stylized",
+  "tags": [
+    "street-sweeper",
+    "road",
+    "utility"
+  ],
+  "batch": "transport-variety-02",
+  "acquired_at": "2026-11-06T14:50:54.703069+00:00",
+  "review": {
+    "id": "g3-street-sweeper",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Compact street-cleaning truck with two forward circular brushes.",
+    "limitations": [
+      "Stylized model with simplified forms and materials; not photorealistic.",
+      "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+      "Khronos validation reports zero errors and 3 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+    ],
+    "contact_sheet_sha256": "3f014dd30138e7ed3a64292b0c7456ea61336a49bc47d77c29eb51333c603d75",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/street-sweeper.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/street-sweeper/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/street-sweeper/",
+    "source_id": "street-sweeper",
+    "revision": "720b4c2638f1f3dc6a677d82a88217bd5959db9727e6a7d8a80506e0c9734fee",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/street-sweeper/street-sweeper.glb",
+        "bytes": 2001156,
+        "sha256": "720b4c2638f1f3dc6a677d82a88217bd5959db9727e6a7d8a80506e0c9734fee"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/street-sweeper/LICENSE.txt"
+  },
+  "model": "model/street-sweeper.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 12,
+    "materials": 21,
+    "images": 9,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/street-sweeper_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "street-sweeper_body_normal"
+    },
+    {
+      "path": "textures/street-sweeper_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "street-sweeper_body_basecolor"
+    },
+    {
+      "path": "textures/street-sweeper_body_metallic-street-sweeper_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "street-sweeper_body_metallic-street-sweeper_body_roughness"
+    },
+    {
+      "path": "textures/street-sweeper_brush_l_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "street-sweeper_brush_l_normal"
+    },
+    {
+      "path": "textures/street-sweeper_brush_l_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "street-sweeper_brush_l_basecolor"
+    },
+    {
+      "path": "textures/street-sweeper_brush_l_metallic-street-sweeper_brush_l_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "street-sweeper_brush_l_metallic-street-sweeper_brush_l_roughness"
+    },
+    {
+      "path": "textures/street-sweeper_brush_r_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "street-sweeper_brush_r_normal"
+    },
+    {
+      "path": "textures/street-sweeper_brush_r_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "street-sweeper_brush_r_basecolor"
+    },
+    {
+      "path": "textures/street-sweeper_brush_r_metallic-street-sweeper_brush_r_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "street-sweeper_brush_r_metallic-street-sweeper_brush_r_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 12,
+    "hidden_mesh_objects": 0,
+    "vertices": 17498,
+    "triangles": 20392,
+    "material_slots": 21,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "street-sweeper_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "street-sweeper_body_metallic-street-sweeper_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "street-sweeper_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "street-sweeper_brush_l_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "street-sweeper_brush_l_metallic-street-sweeper_brush_l_roughnes",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "street-sweeper_brush_l_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "street-sweeper_brush_r_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "street-sweeper_brush_r_metallic-street-sweeper_brush_r_roughnes",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "street-sweeper_brush_r_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 3,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1414,
+      "sha256": "e29993d539b156b2129082659553a210be2f651913e5dd380883d498f918daa7",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 97655,
+      "sha256": "f340c5b9fe8618a2dd714f6ec6f206d888915a56aa9e5847fec82a7f11469009",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "d97fb6de161aae011d8b679e0139499e688b8a29061e69e307a2f7a57dd38e03",
+      "role": "logs"
+    },
+    {
+      "path": "model/street-sweeper.glb",
+      "bytes": 2001156,
+      "sha256": "720b4c2638f1f3dc6a677d82a88217bd5959db9727e6a7d8a80506e0c9734fee",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 21894,
+      "sha256": "f7a5718f91f197a95083abc2eee0a5831b960a826e5926acd8fb4198a8f56a1d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 22238,
+      "sha256": "c83d73ca7139cb9bcd17a523aa08f3e45c5f1eabcde08423bf49659b0c15d88f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 208593,
+      "sha256": "3f014dd30138e7ed3a64292b0c7456ea61336a49bc47d77c29eb51333c603d75",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1882,
+      "sha256": "e7bddbbabd4cb902625e390c98242aec96fe812f20860ed9abfa65de88c305c8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 23488,
+      "sha256": "386a2b5b16c4c1deac3e74570578741b8f0c78e75b27941269770020874b384c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 27699,
+      "sha256": "44725dadf9e2202b5cb5aabf3fa4a1edb5a03fcd72006d05f83a517ec2038b7d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 24602,
+      "sha256": "e6cbb2e4774cfb4a077ac93373b7688aa6f5df08ae9091dd73a43d046f1f19e3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 26075,
+      "sha256": "953af4d469b73b661b3960aad76705368cd0c439afba3e81da98bbbe27be073e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 22662,
+      "sha256": "2060f57469248531a9eed54eb1c49a64ec69a4557de89302d5bdc8cdcfe1dbe7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 27405,
+      "sha256": "a26623cb2257375aafde8f8ca9c313336d41a582bd85b0f9fc9c9d9281a82d65",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 26136,
+      "sha256": "3df5d172adf31ac8ec24da0bbfa91902a0352e412cb1ac9edb2bcd1b8f3da319",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 29071,
+      "sha256": "4306322ae4a6c56ddc12f7ae04e8eec01348bb011a0d287f0f700d45d071ae66",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 19136,
+      "sha256": "796b892d9068b8f2e02f21cb9e9258034a12c80b834d4e551d34a41af5406bd7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 57826,
+      "sha256": "608381208d46ddd9ce6c1554430c5ecde076f91c127496c676eb9f947f97b5e7",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 7446,
+      "sha256": "80a5f0e8a716caa37c70c46a0c6ccd059186c5b23f479b702186cb2877b7df48",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1739,
+      "sha256": "36f528720a454a85d98eb4d56bcea86272259f6d60cfb496460a8c4967dec5cb",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 529,
+      "sha256": "74590ca883b05b1c73327b845815a376f9b773cc8b7130db9d990a16d96f21cd",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "6b7cd9fbf476d7609bd1c36ea520a22e8228659fd401018ad28af460ad754f95",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 881,
+      "sha256": "1330b1629e7ff8264f470f5390a0f16191afa3646de6f737594bdc531b3a2b15",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/street-sweeper_body_basecolor.jpg",
+      "bytes": 197029,
+      "sha256": "d60f35c0e19188a3a5b1b47187b4fd3a7b875163d7f3b49c60c12c7bdc85478e",
+      "role": "textures"
+    },
+    {
+      "path": "textures/street-sweeper_body_metallic-street-sweeper_body_roughness.jpg",
+      "bytes": 182986,
+      "sha256": "03a5ff8a067ec451c414f95e209b337c691d0d8d43b44519844ba3babf8c181d",
+      "role": "textures"
+    },
+    {
+      "path": "textures/street-sweeper_body_normal.jpg",
+      "bytes": 66810,
+      "sha256": "e75bc2f56ccf823f604cfb6d0630a36e95fdc5f73a40e2865563566de421318c",
+      "role": "textures"
+    },
+    {
+      "path": "textures/street-sweeper_brush_l_basecolor.jpg",
+      "bytes": 172179,
+      "sha256": "dc1068326d2a52604312ee7c699d74be50e2cd4cb4e9bcd576ce5b3f190f3386",
+      "role": "textures"
+    },
+    {
+      "path": "textures/street-sweeper_brush_l_metallic-street-sweeper_brush_l_roughness.jpg",
+      "bytes": 211362,
+      "sha256": "7cc1cc636c0bd20d32b63e91a16e4f43e6040ac3b4c12cf6842e39cf2b0baf11",
+      "role": "textures"
+    },
+    {
+      "path": "textures/street-sweeper_brush_l_normal.jpg",
+      "bytes": 66598,
+      "sha256": "5606856aaf22c2bac3357242a0576000c69306f7c2dbc0f96c053da4bf6a4de1",
+      "role": "textures"
+    },
+    {
+      "path": "textures/street-sweeper_brush_r_basecolor.jpg",
+      "bytes": 158141,
+      "sha256": "e2654a9b204e69a67bfd90513c1cdcf1af877b1244750d3cfa9ea3a053ff6124",
+      "role": "textures"
+    },
+    {
+      "path": "textures/street-sweeper_brush_r_metallic-street-sweeper_brush_r_roughness.jpg",
+      "bytes": 188302,
+      "sha256": "ada0c1179c90cfa107b7508c6ef7c8776a3b67cbdd53581d1263ae481cca849d",
+      "role": "textures"
+    },
+    {
+      "path": "textures/street-sweeper_brush_r_normal.jpg",
+      "bytes": 66520,
+      "sha256": "476e40c48d22c8ded5dc22f6620f7c876cb198668df6fa17373e27a8766ae531",
+      "role": "textures"
+    }
+  ]
+}

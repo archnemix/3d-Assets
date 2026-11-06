@@ -1,0 +1,23 @@
+{
+  "id": "g3-pirate-raft",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Log raft with a patched square sail, oar, lantern, crate and barrel.",
+  "limitations": [
+    "Stylized model with simplified forms and materials; not photorealistic.",
+    "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+    "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Blender inspection counted 84 zero-area triangles; these may need cleanup for topology-sensitive workflows."
+  ],
+  "contact_sheet_sha256": "ed74fc50695fff6a73e14a7bba8ff894b689e44ad10d2bd50438b23ddd4b53f4",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

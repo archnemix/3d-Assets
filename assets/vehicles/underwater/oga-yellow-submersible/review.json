@@ -1,0 +1,24 @@
+{
+  "id": "oga-yellow-submersible",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Small boxy yellow submersible with cyan front dome, twin skids and a ducted aft propeller; distinct from the existing rounded research submarine.",
+  "limitations": [
+    "Stylized model with simplified forms and materials; not photorealistic.",
+    "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+    "Blender inspection counted 40 zero-area triangles; these may need cleanup for topology-sensitive workflows.",
+    "Very simple flat-colored materials; the cyan dome is opaque and an interior is not verified.",
+    "The original Blender source is retained for provenance; open third-party files with automatic script execution disabled."
+  ],
+  "contact_sheet_sha256": "2e385b7bf39b4abf58ea6f3c9ec344f9ed42e121f2886664d014ee094ff4571d",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "id": "g3-pirate-sloop",
+  "title": "Sailing sloop",
+  "category": "vehicles/watercraft",
+  "style": "stylized",
+  "tags": [
+    "sloop",
+    "sailing",
+    "water"
+  ],
+  "batch": "transport-variety-02",
+  "acquired_at": "2026-11-06T14:49:03.630874+00:00",
+  "review": {
+    "id": "g3-pirate-sloop",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Traditional single-mast gaff-rigged sailing sloop with wooden hull and bowsprit.",
+    "limitations": [
+      "Stylized model with simplified forms and materials; not photorealistic.",
+      "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+      "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+      "Simplified static sail and rigging; no sailing motion is verified."
+    ],
+    "contact_sheet_sha256": "650b165538af942ae7aef4f57de69160fabfdf94a96b828cbb9d411000cf7851",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/pirate-sloop.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/pirate-sloop/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/pirate-sloop/",
+    "source_id": "pirate-sloop",
+    "revision": "35d03dc43e6a30c1ee6fdfe26bbf31cbdec8927d7937dfa6ea9f6231776273e9",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/pirate-sloop/pirate-sloop.glb",
+        "bytes": 2187572,
+        "sha256": "35d03dc43e6a30c1ee6fdfe26bbf31cbdec8927d7937dfa6ea9f6231776273e9"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/pirate-sloop/LICENSE.txt"
+  },
+  "model": "model/pirate-sloop.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 3,
+    "materials": 4,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_materials_emissive_strength"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/pirate-sloop_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "pirate-sloop_body_normal"
+    },
+    {
+      "path": "textures/pirate-sloop_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "pirate-sloop_body_basecolor"
+    },
+    {
+      "path": "textures/pirate-sloop_body_metallic-pirate-sloop_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "pirate-sloop_body_metallic-pirate-sloop_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 3,
+    "hidden_mesh_objects": 0,
+    "vertices": 34480,
+    "triangles": 36324,
+    "material_slots": 4,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "pirate-sloop_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "pirate-sloop_body_metallic-pirate-sloop_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "pirate-sloop_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1481,
+      "sha256": "577d965a1e4c32a8960a760fe805b0d9867b31c0b6485669c8b69b514308b358",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 70093,
+      "sha256": "931252bacdde296d41be7eaddab3786e087a2625dae911f5becef41a960f47a5",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "c2c7e1623cc8de0ed1fe35ab328504d5a1e7fa61bee9e68fa9c82b310a1975f2",
+      "role": "logs"
+    },
+    {
+      "path": "model/pirate-sloop.glb",
+      "bytes": 2187572,
+      "sha256": "35d03dc43e6a30c1ee6fdfe26bbf31cbdec8927d7937dfa6ea9f6231776273e9",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 19007,
+      "sha256": "94b6d472c8c72bbc549c891f22be7898c10e886fa60e735af217f29e9aad03a6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 24688,
+      "sha256": "56b65722755c9617d4ddaeada542de09d2d382f69b464981861c4c0eb2329475",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 215485,
+      "sha256": "650b165538af942ae7aef4f57de69160fabfdf94a96b828cbb9d411000cf7851",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 832,
+      "sha256": "5d843a08003552f8e4a6217986469bea52bef9e901169ab9dacb6e32b704a7ee",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 20376,
+      "sha256": "4058a471b22f2ff2bbe2f69e5deb6b789b3d975e0f95b9747f7c675284ccc588",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 35899,
+      "sha256": "66d0b57275fee1058a3a2827093eecacc56f43fde9af284631a3884caef1b10a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 27535,
+      "sha256": "cb3314e6bfbe67e710a0044e605dcecbf0bc2a309e0199a43a9c3b6c0042e472",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 33315,
+      "sha256": "d8a0eb8e0c3fe0b37c1252456855a11e60bc6acee9e50d1f62d75cebd6941d3a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 20431,
+      "sha256": "150e5badc54bd89037a95bef1b9199fa2dfe2df5d9725f1ac6ac81434aac24b0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 34868,
+      "sha256": "d24b150c2be7c39e8194106794e44aa88ec0f75c3f07eeb0d80d75c892988e16",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 29230,
+      "sha256": "418ced8012c985838b58842c9c5a952b0c3c2a2046885cfb92e3fc90312f0f6b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 38416,
+      "sha256": "c298d0834db35355adeae65f14d1915e5bbd82d666a3bb627970954dedb4a278",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 17648,
+      "sha256": "679407b4c544075ce3c36cf23b1502e11bacd97d8a3c37e24b8b40b1a39a4675",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 55609,
+      "sha256": "593daba852a3282a5ff8832338aa500991b1bec82db1de0a17543289a5a1ddaf",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2570,
+      "sha256": "b972779f4c2de44e56e894b5f59273d022e7c9936bf9fd4fed9d0571b72120a9",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1876,
+      "sha256": "db611e1ac4cc6da42d1119d9dadf8788ceeb09a448a93451aa1e648e862c2491",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 513,
+      "sha256": "5d08eec619e32eed4be4b3654efb8ba7d78493cb0f356fb39740ff8a88b60467",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "7657633d3184c269cda0e4f57a0d37dcdf780bf7eb9ce19fb5f65a2a9343ec81",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 969,
+      "sha256": "06ba298fa5e948a384f035b6294b008005b7aef5127c8f605da9d87d9950b82f",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/pirate-sloop_body_basecolor.jpg",
+      "bytes": 430953,
+      "sha256": "5b903a7eeed82962a30088ad9c4c7a1da8a43b795d25a1bc424a623bf4722e98",
+      "role": "textures"
+    },
+    {
+      "path": "textures/pirate-sloop_body_metallic-pirate-sloop_body_roughness.jpg",
+      "bytes": 319304,
+      "sha256": "e91fa908d5e7cfe7aafe13d7f86b4836a8ca2f7f1d88b0346f8b20b7c5ab6cd3",
+      "role": "textures"
+    },
+    {
+      "path": "textures/pirate-sloop_body_normal.jpg",
+      "bytes": 109802,
+      "sha256": "37bd9922b8d28162350b8618ae861e22d9861a388537e359dd4cc4b73f9417fe",
+      "role": "textures"
+    }
+  ]
+}

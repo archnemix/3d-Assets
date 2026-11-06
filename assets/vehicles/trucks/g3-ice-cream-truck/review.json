@@ -1,0 +1,23 @@
+{
+  "id": "g3-ice-cream-truck",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Ice cream vending truck with striped awning, serving window and cone on its roof.",
+  "limitations": [
+    "Stylized model with simplified forms and materials; not photorealistic.",
+    "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+    "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Blender inspection counted 132 zero-area triangles; these may need cleanup for topology-sensitive workflows."
+  ],
+  "contact_sheet_sha256": "bbba6d5046c3022d408e20aa2bc8a4732fd0cb53a519cb478cc6f1eed1bee300",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

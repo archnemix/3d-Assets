@@ -1,0 +1,23 @@
+{
+  "id": "g3-kayak",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Narrow enclosed-deck sea kayak with cockpit, hatch covers and double-ended paddle.",
+  "limitations": [
+    "Stylized model with simplified forms and materials; not photorealistic.",
+    "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+    "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Paddle separability has not been tested."
+  ],
+  "contact_sheet_sha256": "9092154fa615fce9232d6997fcea33b8bae1339db6cec33771e14a13f44d1f82",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}
