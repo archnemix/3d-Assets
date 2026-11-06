@@ -1,0 +1,784 @@
+{
+  "schema_version": 1,
+  "id": "is-vehicle-tugboat",
+  "title": "Harbor tugboat",
+  "category": "vehicles/watercraft",
+  "style": "realistic",
+  "tags": [
+    "tugboat",
+    "harbor",
+    "boat",
+    "unbranded"
+  ],
+  "batch": "vehicle-probe-01",
+  "acquired_at": "2026-11-06T11:02:13.591231+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "innerscene",
+    "model": "model/tugboat-9ee89198.glb",
+    "creator": "Innerscene",
+    "license": "CC0-1.0",
+    "license_evidence": "https://www.innerscene.com/tools/library/terms",
+    "license_page": "https://www.innerscene.com/tools/library/terms",
+    "source_url": "https://www.innerscene.com/tools/library/3d-parts/tugboat-9ee89198",
+    "source_id": "tugboat-9ee89198",
+    "revision": "2324f94d6549804d9aab5202bfd597f917b9d1abda4daf40e339598940082fd6",
+    "downloads": [
+      {
+        "url": "https://www.innerscene.com/api/library/tugboat-9ee89198/download",
+        "bytes": 5290504,
+        "sha256": "2324f94d6549804d9aab5202bfd597f917b9d1abda4daf40e339598940082fd6"
+      }
+    ],
+    "repairs": []
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://www.innerscene.com/tools/library/terms"
+  },
+  "model": "model/tugboat-9ee89198.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 11,
+    "materials": 19,
+    "images": 22,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_materials_emissive_strength"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/a6566186c7844aee.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "a6566186c7844aee"
+    },
+    {
+      "path": "textures/a73a7206d96b5f9b.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "a73a7206d96b5f9b"
+    },
+    {
+      "path": "textures/sh301_hull_n.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "sh301_hull_n"
+    },
+    {
+      "path": "textures/sh301_hull_black.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "sh301_hull_black"
+    },
+    {
+      "path": "textures/sh301_windows_white.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "sh301_windows_white"
+    },
+    {
+      "path": "textures/sh301_deck_n.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "sh301_deck_n"
+    },
+    {
+      "path": "textures/sh301_deck_grey.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "sh301_deck_grey"
+    },
+    {
+      "path": "textures/sh301_house_n.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "sh301_house_n"
+    },
+    {
+      "path": "textures/sh301_house_white.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "sh301_house_white"
+    },
+    {
+      "path": "textures/6f2dc12cfbbdedd1.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "6f2dc12cfbbdedd1"
+    },
+    {
+      "path": "textures/sh301_tyre_n.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "sh301_tyre_n"
+    },
+    {
+      "path": "textures/sh301_tyre.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "sh301_tyre"
+    },
+    {
+      "path": "textures/331f893227303c0b.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "331f893227303c0b"
+    },
+    {
+      "path": "textures/sh301_antifouling.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "sh301_antifouling"
+    },
+    {
+      "path": "textures/sh301_deck_red.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "sh301_deck_red"
+    },
+    {
+      "path": "textures/fc3f48446582ba96.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "fc3f48446582ba96"
+    },
+    {
+      "path": "textures/bc4cf40f098ac482.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "bc4cf40f098ac482"
+    },
+    {
+      "path": "textures/73790ea4629026f5.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "73790ea4629026f5"
+    },
+    {
+      "path": "textures/ad60cd8ba5c9d8a0.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ad60cd8ba5c9d8a0"
+    },
+    {
+      "path": "textures/0fd7421ae6fc535e.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "0fd7421ae6fc535e"
+    },
+    {
+      "path": "textures/725cba061efd6da7.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "725cba061efd6da7"
+    },
+    {
+      "path": "textures/sh301_bridge_white.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "sh301_bridge_white"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 11,
+    "hidden_mesh_objects": 0,
+    "vertices": 30681,
+    "triangles": 42052,
+    "material_slots": 26,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "0fd7421ae6fc535e",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "331f893227303c0b",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "6f2dc12cfbbdedd1",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "725cba061efd6da7",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "73790ea4629026f5",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "a6566186c7844aee",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "a73a7206d96b5f9b",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "ad60cd8ba5c9d8a0",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "bc4cf40f098ac482",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "fc3f48446582ba96",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "sh301_antifouling",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "sh301_bridge_white",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "sh301_deck_grey",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "sh301_deck_n",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "sh301_deck_red",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "sh301_house_n",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "sh301_house_white",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "sh301_hull_black",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "sh301_hull_n",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "sh301_tyre",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "sh301_tyre_n",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "sh301_windows_white",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 10,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 35970,
+      "sha256": "b4ba5282fdc51dbbd993581808786f09a5bd792a83cd1961b61bf194d91ce3e0",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 824,
+      "sha256": "854095a1d3957317fff582aea53cd7ed8c74669034b5d6f80f1fc399d510753d",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 112839,
+      "sha256": "00e7c9ae727d83a50ac120192042184cde0b5c26671aede98dbe85098e7b8d1a",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "0df9a03cb7a3e3457020aa4300c644d8f683529351f01c8cb6ff96b99671d444",
+      "role": "logs"
+    },
+    {
+      "path": "model/tugboat-9ee89198.glb",
+      "bytes": 5290504,
+      "sha256": "2324f94d6549804d9aab5202bfd597f917b9d1abda4daf40e339598940082fd6",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 20915,
+      "sha256": "85d3557c65c6dd6f394c14ce9eecbbe3a2e171611d0c0133002e0a8e8583e5a0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 19842,
+      "sha256": "05927fc72d9af1fb1ac5526282931bd3df0502ac4e7f7e489edc99a5e6b4c451",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 213506,
+      "sha256": "fbe374786b9596facb17a5d88138031e8ca405b08f2718f86a6452e8ed626b35",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 3572,
+      "sha256": "b82e246907c466b521b76268a160c9e001acd1d619b3b0ae13c60b0f7b9558f1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 24769,
+      "sha256": "d54f2ce09d3056fbc80f83926079b0594f33c84c5ac1198664ede35a2abcbe42",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 29337,
+      "sha256": "771515ee4306561c6d6a5319307bee3e4e82eda2d95f74d64a330f0edd08e823",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 31134,
+      "sha256": "bb1eb5b3158adc1d6f6ab47b652d026abe4a6849c399a0364239babaff46101a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 29197,
+      "sha256": "91a926aa6bc6bec265fa0ff92332b603e86d798878917dbc507c34bf8eb84e37",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 24285,
+      "sha256": "7c8112a77d1c1bfec0757e8979019c1fbf5d11e3faa3dc0f2dafd8f9f1ac58e0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 32735,
+      "sha256": "53f9b791b2ed13dca5f13c2d0ad8bd867be4000fafda9fb7c0e6470c815370c0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 31604,
+      "sha256": "056aa8e2907726c0f66e1b70e635309b1a89321f2421a7f4088e3739a3b5c47f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 32293,
+      "sha256": "286f69ff0202dbcfa75e8844121af0b3e23d3a29e6e0582b8a92ab9a4316fad2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 23951,
+      "sha256": "b3d87f7f1b59db3196ecfd5c4bcae007fe33280aa610b0ba0f351e6c046f61d4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 34109,
+      "sha256": "925be75d7762349b4365e33927b48958d482edc02d4a6ca050e0249a438c7458",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 162,
+      "sha256": "35819c5afb509513b1c04549919f13d7271f28e1e0bc34ecc719cb7bdc5fa6e2",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 10205,
+      "sha256": "afe5b35710469ebccde42deb264037622d41cb03f4e2ac2beef95368727b1b55",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/innerscene-page.html",
+      "bytes": 52807,
+      "sha256": "4dcdb54860b963cd34ef6a263135ca033f968d4802030087f25a0814d5daeee5",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/innerscene-repair.json",
+      "bytes": 315,
+      "sha256": "9cf5c41bbb925bd0e2f8705308d7fd0600f6506287f1a7cbbd9e25546857a2e8",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/innerscene-source.json",
+      "bytes": 509,
+      "sha256": "28800928073d4fc2a83be56e89103accbb625fef662c92b557ea02dd4608697f",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/0fd7421ae6fc535e.png",
+      "bytes": 36836,
+      "sha256": "66fc4a7d3f0c7ff64c35e66fe9d298c2f2118990ce861caf04c4fde0b213a26d",
+      "role": "textures"
+    },
+    {
+      "path": "textures/331f893227303c0b.png",
+      "bytes": 36835,
+      "sha256": "b44f2eca4d5f59b0cfc12252fc8040bc6670667bcc0bcd11b8d6a667db68fb6d",
+      "role": "textures"
+    },
+    {
+      "path": "textures/6f2dc12cfbbdedd1.png",
+      "bytes": 36888,
+      "sha256": "b0bdfea34283be21bd64ec3f73e097ee63645c0804523d4add6898e6bf84590b",
+      "role": "textures"
+    },
+    {
+      "path": "textures/725cba061efd6da7.png",
+      "bytes": 36834,
+      "sha256": "00b66067e1a42003cdf71890678ec39676a96851bba3837306e623c5b5d0cb8e",
+      "role": "textures"
+    },
+    {
+      "path": "textures/73790ea4629026f5.png",
+      "bytes": 36835,
+      "sha256": "4bb35957935928f82b1e3f17f4d5f8ba63d0d99b0c303fa56b7fe4aedaa7b4ab",
+      "role": "textures"
+    },
+    {
+      "path": "textures/a6566186c7844aee.png",
+      "bytes": 36836,
+      "sha256": "0564dfbbb56700ec04e0f917263d53870d7ac530c4b4439dd66f416e9b19fb81",
+      "role": "textures"
+    },
+    {
+      "path": "textures/a73a7206d96b5f9b.png",
+      "bytes": 36836,
+      "sha256": "3c0fde5b6b24bab852f5efa5f8423167d7c3777416d13ba2e7a0f8deef5bb405",
+      "role": "textures"
+    },
+    {
+      "path": "textures/ad60cd8ba5c9d8a0.png",
+      "bytes": 36834,
+      "sha256": "38ec37555e12bfac31ff573ad3b0cb6299cd3178d507b5c6623c436ecee8fa67",
+      "role": "textures"
+    },
+    {
+      "path": "textures/bc4cf40f098ac482.png",
+      "bytes": 36834,
+      "sha256": "ee1cfba7a48413fac9848cc6f797547ea7dd50e5298d58a057e38d7181fbec89",
+      "role": "textures"
+    },
+    {
+      "path": "textures/fc3f48446582ba96.png",
+      "bytes": 36834,
+      "sha256": "2c261fe1b2c184ee47c4b2b19631a9c483d3801ea3af2aa71775ac18498cd8d6",
+      "role": "textures"
+    },
+    {
+      "path": "textures/sh301_antifouling.jpg",
+      "bytes": 314486,
+      "sha256": "84a062de6cb17b619ec7abed32ed27dfae1f9287a3b06333b715cbc7090ac853",
+      "role": "textures"
+    },
+    {
+      "path": "textures/sh301_bridge_white.jpg",
+      "bytes": 169355,
+      "sha256": "e41a8b2da300fe433f4b9bcabf822b29700a78b07e8c5aab93deedcae6ccccc4",
+      "role": "textures"
+    },
+    {
+      "path": "textures/sh301_deck_grey.jpg",
+      "bytes": 194717,
+      "sha256": "baded1e032bf34a89102ab090d714f6cae3107b7c77ee1c7fb0273660af356d1",
+      "role": "textures"
+    },
+    {
+      "path": "textures/sh301_deck_n.jpg",
+      "bytes": 686598,
+      "sha256": "42d9b194f5a5de2f1861623e4dc2bae2b1f2fe69b7013a895afd699621b3258e",
+      "role": "textures"
+    },
+    {
+      "path": "textures/sh301_deck_red.jpg",
+      "bytes": 172089,
+      "sha256": "58fe3da3adb86d581308480b546408baeafff251fa3967a313da10f8199ccd3f",
+      "role": "textures"
+    },
+    {
+      "path": "textures/sh301_house_n.jpg",
+      "bytes": 122422,
+      "sha256": "fcc9e1e3006689069aaab8d9c1738b087881430f57443395b4168028cf54501a",
+      "role": "textures"
+    },
+    {
+      "path": "textures/sh301_house_white.jpg",
+      "bytes": 209802,
+      "sha256": "8c4a12bfb48946bb4bef56b43833f2cc34413396e0af7bbf6414487343977bd5",
+      "role": "textures"
+    },
+    {
+      "path": "textures/sh301_hull_black.jpg",
+      "bytes": 206868,
+      "sha256": "57f0f42941f58554fff62c2102e4f03a66a7dff9dd3779bab17c3c52f541f31b",
+      "role": "textures"
+    },
+    {
+      "path": "textures/sh301_hull_n.jpg",
+      "bytes": 839497,
+      "sha256": "e15016b29480431cd0cad7569323b9805c9450e37baf9fe434e3115cbcb08a80",
+      "role": "textures"
+    },
+    {
+      "path": "textures/sh301_tyre.jpg",
+      "bytes": 168544,
+      "sha256": "98d91dcc0d8e1d64c73c0b2a3344b30ae53f0c649f9a4109d2dfbee3d2a85cc4",
+      "role": "textures"
+    },
+    {
+      "path": "textures/sh301_tyre_n.jpg",
+      "bytes": 412535,
+      "sha256": "23f0dd333badd543cf392b638438b0fd84aba4fba0f373fc97001402e96c973b",
+      "role": "textures"
+    },
+    {
+      "path": "textures/sh301_windows_white.jpg",
+      "bytes": 165008,
+      "sha256": "860e6718dc934fb1a26714daca3f57f48d92e2bc6f0d272ffdb6a2435203759b",
+      "role": "textures"
+    }
+  ]
+}
