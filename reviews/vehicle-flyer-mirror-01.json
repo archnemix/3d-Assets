@@ -1,0 +1,24 @@
+{
+  "batch": "vehicle-flyer-mirror-01",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "decisions": [
+    {
+      "id": "si-wright-flyer-1903",
+      "decision": "rejected",
+      "scores": {
+        "silhouette": 5,
+        "materials": 2,
+        "topology": 4,
+        "completeness": 4,
+        "style_fit": 3
+      },
+      "notes": "All twelve views inspected: recognizable historic aircraft geometry and rigging, but the Objaverse/Zenodo source file is entirely flat white and has no image or vertex-color textures, making it unsuitable for the realism objective.",
+      "limitations": [
+        "Static scan; no clips or rig, no images or vertex colors; overall scale unverified.",
+        "This rejection applies only to this particular Objaverse/Zenodo conversion, not to all Smithsonian Wright Flyer versions."
+      ],
+      "contact_sheet_sha256": "c30ded9a963fea7ad2e78ced014e75cf8b9fe8cdb5b30f2d6e1d316d2a07de61"
+    }
+  ]
+}
