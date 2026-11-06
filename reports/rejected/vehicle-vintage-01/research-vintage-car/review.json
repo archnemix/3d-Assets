@@ -1,0 +1,22 @@
+{
+  "id": "research-vintage-car",
+  "decision": "rejected",
+  "scores": {
+    "silhouette": 2,
+    "materials": 3,
+    "topology": 3,
+    "completeness": 2,
+    "style_fit": 2
+  },
+  "notes": "The 12-view sheet is dominated by a large curved ground mesh, despite removing it from the active scene. The car is too small to assess; reject this package and fix the isolation before reinspection.",
+  "limitations": [
+    "No quality, interior, motion or logo assessment is possible from this framing."
+  ],
+  "contact_sheet_sha256": "2c68ab23085c6aef4d6da4e31eedcb7f852d970b3360da0ead8b0737e3a99324",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports",
+  "status": "rejected",
+  "approved": false
+}

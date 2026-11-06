@@ -8,6 +8,7 @@ from .makehuman import fetch_makehuman
 from .oga_locomotive import fetch_oga_locomotive
 from .polyhaven import fetch_polyhaven
 from .research_vintage import fetch_research_vintage
+from .smithsonian_flyer import fetch_smithsonian_flyer
 from .three_d_assets import fetch_three_d_assets
 
 
@@ -15,6 +16,7 @@ def fetch(source: dict, candidate: dict, directory) -> dict:
     adapters = {
         "polyhaven": fetch_polyhaven,
         "research-vintage": fetch_research_vintage,
+        "smithsonian-flyer": fetch_smithsonian_flyer,
         "github": fetch_github,
         "github-release": fetch_github_release,
         "makehuman": fetch_makehuman,

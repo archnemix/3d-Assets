@@ -28,7 +28,16 @@ def isolate_car(document: dict) -> dict:
         or nodes[49]["children"] != list(range(49))
     ):
         raise ValueError("Unexpected scene graph; manual isolation required")
-    nodes[49]["children"] = list(range(47))
+    root = nodes[49]
+    root["children"] = list(range(47))
+    document["nodes"] = nodes[:47] + [root]
+    document["scenes"][0]["nodes"] = [47]
+    # Some importers load orphan nodes even when they are outside the scene.
+    # Remove the geometry and camera definitions rather than merely unlinking them.
+    if len(document["meshes"]) != 48 or document["meshes"][47].get("name") != "47_Ground":
+        raise ValueError("Unexpected floor mesh")
+    document["meshes"] = document["meshes"][:47]
+    document.pop("cameras", None)
     return document
 
 
@@ -74,7 +83,7 @@ def fetch_research_vintage(source: dict, candidate: dict, directory: Path) -> di
             "original_blendswap": "https://blendswap.com/blend/14205",
             "original_author": "piopis",
             "conversion_revision": REVISION,
-            "change": "Removed ground node 47 and camera node 48 from active car root; source buffer otherwise unchanged.",
+            "change": "Removed ground and camera nodes, ground mesh definition and camera definitions; source buffer otherwise unchanged.",
             "environment": "No environment image downloaded or included. Original HDR has separate non-commercial terms.",
             "downloads": records,
         },

@@ -16,6 +16,8 @@ def scene():
     )
     return {
         "nodes": nodes,
+        "meshes": [{"name": str(i)} for i in range(47)] + [{"name": "47_Ground"}],
+        "cameras": [{"type": "perspective"}],
         "scenes": [{"nodes": [49]}],
         "buffers": [{"uri": "vintage_car.bin", "byteLength": 26712032}],
     }
@@ -23,7 +25,11 @@ def scene():
 
 def test_isolate_removes_floor_and_camera_from_active_scene():
     data = isolate_car(scene())
-    assert data["nodes"][49]["children"] == list(range(47))
+    assert data["nodes"][47]["children"] == list(range(47))
+    assert data["scenes"][0]["nodes"] == [47]
+    assert len(data["nodes"]) == 48
+    assert len(data["meshes"]) == 47
+    assert "cameras" not in data
 
 
 def test_fail_closed_on_external_images_or_changed_scene():

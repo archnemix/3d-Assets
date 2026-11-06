@@ -1,6 +1,6 @@
 {
   "revision": 1,
-  "batch_id": "vehicle-vintage-01",
+  "batch_id": "vehicle-wright-01",
   "candidates": [
     {
       "id": "research-vintage-car",
@@ -16,30 +16,18 @@
       "upstream_id": "vintage-car"
     },
     {
-      "id": "is-wide-body-airliner",
-      "title": "Wide-body airliner",
+      "id": "si-wright-flyer-1903",
+      "title": "1903 Wright Flyer",
       "category": "vehicles/aircraft",
-      "source": "innerscene",
+      "source": "smithsonian-flyer",
       "style": "realistic",
       "tags": [
-        "airliner",
-        "aircraft",
-        "passenger"
+        "historic",
+        "airplane",
+        "biplane",
+        "museum-scan"
       ],
-      "upstream_id": "wide-body-airliner-0560b943"
-    },
-    {
-      "id": "is-race-replica-superbike",
-      "title": "Fully faired race-replica superbike",
-      "category": "vehicles/bikes",
-      "source": "innerscene",
-      "style": "realistic",
-      "tags": [
-        "motorcycle",
-        "superbike",
-        "road"
-      ],
-      "upstream_id": "race-replica-superbike-fully-faired-badbd83b"
+      "upstream_id": "1903-wright-flyer"
     }
   ]
 }

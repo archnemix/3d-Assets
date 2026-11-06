@@ -1,0 +1,55 @@
+{
+  "batch": "vehicle-vintage-01",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "decisions": [
+    {
+      "id": "research-vintage-car",
+      "decision": "rejected",
+      "scores": {
+        "silhouette": 2,
+        "materials": 3,
+        "topology": 3,
+        "completeness": 2,
+        "style_fit": 2
+      },
+      "notes": "The 12-view sheet is dominated by a large curved ground mesh, despite removing it from the active scene. The car is too small to assess; reject this package and fix the isolation before reinspection.",
+      "limitations": [
+        "No quality, interior, motion or logo assessment is possible from this framing."
+      ],
+      "contact_sheet_sha256": "2c68ab23085c6aef4d6da4e31eedcb7f852d970b3360da0ead8b0737e3a99324"
+    },
+    {
+      "id": "is-wide-body-airliner",
+      "decision": "rejected",
+      "scores": {
+        "silhouette": 5,
+        "materials": 3,
+        "topology": 4,
+        "completeness": 3,
+        "style_fit": 3
+      },
+      "notes": "Inspected twelve views: plausible aircraft outline and engines, but flat windows and simplified clean surfaces resemble a display model; cockpit and interior are not modeled or verified.",
+      "limitations": [
+        "Static glTF; no clips or armatures, nine validator warnings; interior not verified."
+      ],
+      "contact_sheet_sha256": "08a37d8adc8862bdd5dd92a6709288bb2a1b7ecb97330ea71a71cfe73e2d3632"
+    },
+    {
+      "id": "is-race-replica-superbike",
+      "decision": "rejected",
+      "scores": {
+        "silhouette": 4,
+        "materials": 3,
+        "topology": 3,
+        "completeness": 3,
+        "style_fit": 3
+      },
+      "notes": "Inspected all twelve views: prominent faceting and simplified fairing, engine and rear suspension fall short of a convincing detailed superbike.",
+      "limitations": [
+        "Static glTF; no clips or armatures; twenty zero-area triangles were reported."
+      ],
+      "contact_sheet_sha256": "ffdfede6727d16c22ad2328e5c14e51ff5d6742fab4073b4ef16e3586e9dae19"
+    }
+  ]
+}
