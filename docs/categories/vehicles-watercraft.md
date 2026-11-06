@@ -2,7 +2,7 @@
 
 Boats and sailing ships
 
-Approved assets: **4**
+Approved assets: **3**
 
 ## Container cargo ship
 
@@ -27,11 +27,3 @@ Approved assets: **4**
 - Creator: James Ray Cock, Rico Cilliers, Nicolò Zubbini; style: realistic; CC0-1.0
 - 69,162 triangles; 9 texture images
 - [Asset folder](../../assets/vehicles/watercraft/ph-dutch-merchant-ship/) · [Metadata](../../assets/vehicles/watercraft/ph-dutch-merchant-ship/asset.json) · [All inspection views](../../assets/vehicles/watercraft/ph-dutch-merchant-ship/previews/contact-sheet.jpg)
-
-## Ocean Buoy
-
-![Ocean Buoy](../../assets/vehicles/watercraft/ph-ocean-buoy/previews/orbit-01.jpg)
-
-- Creator: Mateusz Sadek; style: realistic; CC0-1.0
-- 12,240 triangles; 4 texture images
-- [Asset folder](../../assets/vehicles/watercraft/ph-ocean-buoy/) · [Metadata](../../assets/vehicles/watercraft/ph-ocean-buoy/asset.json) · [All inspection views](../../assets/vehicles/watercraft/ph-ocean-buoy/previews/contact-sheet.jpg)

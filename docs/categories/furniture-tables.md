@@ -2,7 +2,7 @@
 
 Dining, side and coffee tables
 
-Approved assets: **3**
+Approved assets: **4**
 
 ## Kenney coffee table
 
@@ -11,6 +11,14 @@ Approved assets: **3**
 - Creator: Kenney; style: low-poly; CC0-1.0
 - 124 triangles; 0 texture images
 - [Asset folder](../../assets/furniture/tables/kenney-coffee-table/) · [Metadata](../../assets/furniture/tables/kenney-coffee-table/asset.json) · [All inspection views](../../assets/furniture/tables/kenney-coffee-table/previews/contact-sheet.jpg)
+
+## Dining Table
+
+![Dining Table](../../assets/furniture/tables/ph-dining-table/previews/orbit-01.jpg)
+
+- Creator: Aron Łyczek; style: realistic; CC0-1.0
+- 1,048 triangles; 3 texture images
+- [Asset folder](../../assets/furniture/tables/ph-dining-table/) · [Metadata](../../assets/furniture/tables/ph-dining-table/asset.json) · [All inspection views](../../assets/furniture/tables/ph-dining-table/previews/contact-sheet.jpg)
 
 ## Modern coffee table
 

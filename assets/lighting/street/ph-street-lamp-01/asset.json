@@ -16,8 +16,28 @@
   "batch": "realistic-diverse-01",
   "acquired_at": "2026-11-06T09:51:25.986470+00:00",
   "review": {
-    "status": "awaiting-visual-review",
-    "approved": false
+    "id": "ph-street-lamp-01",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Ornate street lamp with finial, lantern, post and base, inspected from twelve positions including clay and wireframe.",
+    "limitations": [
+      "The lantern appears dark in the inspection render; emissive appearance varies by target renderer.",
+      "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+      "glTF validator reports 3 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+    ],
+    "contact_sheet_sha256": "026ce332073ff896bef9c64f80d45d360a70ea8221c5478edb93ba7787603cd4",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
   },
   "source": {
     "provider": "polyhaven",
@@ -173,6 +193,12 @@
       "bytes": 7048,
       "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
       "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1425,
+      "sha256": "4690c4f24dab674f4958c008508e7afded6c46ab0284cb8fb8ef832b4bfd51a0",
+      "role": "documentation"
     },
     {
       "path": "logs/animations.log",
@@ -335,6 +361,12 @@
       "bytes": 1102,
       "sha256": "39eff61ae0bdc4eb0c3429faffb5937453e92c3f00914201a4cf2c1e2f555315",
       "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 914,
+      "sha256": "d6e95d3ce0de9d3d8732cc91ee0bcaf4f8bf09a63b95bbc19d502643ca76343f",
+      "role": "documentation"
     }
   ]
 }

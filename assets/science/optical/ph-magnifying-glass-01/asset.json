@@ -16,8 +16,28 @@
   "batch": "realistic-diverse-01",
   "acquired_at": "2026-11-06T09:44:13.246750+00:00",
   "review": {
-    "status": "awaiting-visual-review",
-    "approved": false
+    "id": "ph-magnifying-glass-01",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Complete circular lens in a dark metal rim with handle; checked the orbit, overhead, underside, clay and wireframe views.",
+    "limitations": [
+      "The glass appeared grey in these renders; actual transparency and magnification depend on the target renderer.",
+      "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+      "glTF validator reports 2 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+    ],
+    "contact_sheet_sha256": "d81d652db40d0e50f97aabade3dec647b0a4ff937823ceda879fc1a3ac5ce425",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
   },
   "source": {
     "provider": "polyhaven",
@@ -201,6 +221,12 @@
       "role": "license"
     },
     {
+      "path": "README.md",
+      "bytes": 1458,
+      "sha256": "975d44cb08db44e245a86e3ec89864c1f020d027c3d2b7e82c9e0ac77bd182bb",
+      "role": "documentation"
+    },
+    {
       "path": "logs/animations.log",
       "bytes": 285,
       "sha256": "03e25679a80608c9ea5deccfedef76b63db7143bfc92f4dbb73a6a586d676fdb",
@@ -367,6 +393,12 @@
       "bytes": 1420,
       "sha256": "4ca933f638ba86aeea8c73856c2884252d92bfde2ac1b59db0d1eaa7ac8455e5",
       "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 936,
+      "sha256": "b90be8b1ce2d564edd46e58c6abe3e94cc174e21bd395062d1fa01028376c7c6",
+      "role": "documentation"
     }
   ]
 }

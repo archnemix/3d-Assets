@@ -9,11 +9,13 @@ local to the part. The matcher is a predicate on the glTF node name; a rule
 fires for every node whose name it accepts.
 """
 
+import re
+
 # Grab3D vehicle manifests document "rotate around local X to roll" and
 # "rotate around local Z to articulate"; hinge parts rotate about the axis their
 # name implies.
 ROTATION_CLIPS = [
-    ("wheel_roll", lambda n: "wheel" in n, "X", 360.0, 60),
+    ("wheel_roll", lambda n: bool(re.search(r"(?:^|[_-])wheel(?:$|[_-])", n)), "X", 360.0, 60),
     (
         "steer",
         lambda n: "wheel_f" in n

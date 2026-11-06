@@ -15,7 +15,10 @@ def test_wheel_roll_matches_grab3d_wheel_nodes():
     assert match("mountain-bike_wheel_front")
     assert match("moped_wheel_rear")
     assert match("farm-trailer_wheel_fl")
+    assert match("wheel-front-left")
     assert not match("mountain-bike_body")
+    assert not match("wheelchair_01")
+    assert not match("flywheel_rotor")
 
 
 def test_steer_matches_fl_fr_and_steering_nodes():

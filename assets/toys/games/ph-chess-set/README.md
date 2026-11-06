@@ -17,7 +17,7 @@ These are inspection renders, not a guarantee of identical shading in every engi
 
 ## Review limitations
 
-- The selected package uses the downloaded texture resolution; higher-resolution upstream files are not included.
+- The distributed texture maps are 1K; higher-resolution upstream files are not included.
 - glTF validator reports 37 generated-tangent-space warning(s); normal-map shading can vary by renderer.
 - The pieces are positioned as a static scene; no chess rules, interactions or animations are supplied.
 

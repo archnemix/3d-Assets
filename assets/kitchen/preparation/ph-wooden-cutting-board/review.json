@@ -1,0 +1,22 @@
+{
+  "id": "ph-wooden-cutting-board",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Rectangular wooden board with rounded corners, carved recess and worn grain; complete in all inspection views.",
+  "limitations": [
+    "The model is a visual prop, not a validated physical cutting surface.",
+    "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+    "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+  ],
+  "contact_sheet_sha256": "d64b3f169e96dc260e4d2e6794e676cfc7387c4c2884478719b851978329b964",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

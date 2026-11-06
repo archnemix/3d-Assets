@@ -16,8 +16,28 @@
   "batch": "realistic-diverse-01",
   "acquired_at": "2026-11-06T09:50:04.872374+00:00",
   "review": {
-    "status": "awaiting-visual-review",
-    "approved": false
+    "id": "ph-modular-airduct-circular-01",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "A collection of circular straight and corrugated duct sections, elbows and square grille pieces; twelve views show the laid-out components.",
+    "limitations": [
+      "Modular parts are laid out separately; assembly, snap alignment and collisions have not been tested.",
+      "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+      "glTF validator reports 16 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+    ],
+    "contact_sheet_sha256": "4143f4a8a522e4839fc6c4d3b92ed8a31c896182c0b7f79cfeca62bddb6403d4",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
   },
   "source": {
     "provider": "polyhaven",
@@ -163,6 +183,12 @@
       "bytes": 7048,
       "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
       "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1471,
+      "sha256": "013965fcc5960ab396e0d326ba31acb29f6f2af135ebddf8523277a3a99828f8",
+      "role": "documentation"
     },
     {
       "path": "logs/animations.log",
@@ -325,6 +351,12 @@
       "bytes": 1285,
       "sha256": "48d60bd651f13d24a21b3081de400cd5e8a5814eb5f581a8789b6412c63aefcd",
       "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 953,
+      "sha256": "911a58e97335a59a73139ff0778b6a95328fd848c21fe0a7f96d985db4c6bac4",
+      "role": "documentation"
     }
   ]
 }

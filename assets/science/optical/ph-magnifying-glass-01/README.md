@@ -1,14 +1,14 @@
-# Ocean Buoy
+# Magnifying Glass 01
 
-- Creator: Mateusz Sadek
-- Source: https://polyhaven.com/a/ocean_buoy
+- Creator: Nazar Borodavka
+- Source: https://polyhaven.com/a/magnifying_glass_01
 - License: CC0-1.0; no attribution required; commercial use and redistribution allowed.
-- Category: `vehicles/watercraft`
+- Category: `science/optical`
 - Intended style: realistic
-- Import: `model/ocean_buoy_2k.gltf`
-- Triangles: 12,240; mesh objects: 1
+- Import: `model/magnifying_glass_01_1k.gltf`
+- Triangles: 7,240; mesh objects: 1
 - Rig: False; animation clips: 0
-- Texture images: 4
+- Texture images: 5
 
 Keep the entire folder together when importing. See `asset.json` for texture paths,
 source evidence and technical measurements. See `review.json` for the visual decision.
@@ -17,8 +17,9 @@ These are inspection renders, not a guarantee of identical shading in every engi
 
 ## Review limitations
 
-- The selected package uses the downloaded texture resolution; higher-resolution upstream files are not included.
-- glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer.
+- The glass appeared grey in these renders; actual transparency and magnification depend on the target renderer.
+- The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.
+- glTF validator reports 2 generated-tangent-space warning(s); normal-map shading can vary by renderer.
 
 Texture handling is recorded per image in `asset.json`. GLB files retain embedded
 textures; sidecar copies are byte-for-byte extracts for inspection and DCC workflows,

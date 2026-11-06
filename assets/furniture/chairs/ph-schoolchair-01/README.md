@@ -17,7 +17,7 @@ These are inspection renders, not a guarantee of identical shading in every engi
 
 ## Review limitations
 
-- The selected package uses the downloaded texture resolution; higher-resolution upstream files are not included.
+- The distributed texture maps are 2K; higher-resolution upstream files are not included.
 - glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer.
 
 Texture handling is recorded per image in `asset.json`. GLB files retain embedded

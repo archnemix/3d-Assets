@@ -25,7 +25,8 @@
     "notes": "All 12 views inspected. Flywheel with a machined clutch face, a bolt-circle of six dowel holes, a central pilot bore, a ring gear with individually cut starter teeth around the full circumference, and dowel pins on the reverse. Both faces are modelled and different, and the ring-gear teeth are real geometry visible in the edge-on views. The disc is a SEPARATE `_rotor` node, so a spin clip can be authored.",
     "limitations": [
       "Stylised Cozy-kit palette rather than photoreal materials.",
-      "Tooth count and bolt pattern are illustrative rather than matched to a real engine."
+      "Tooth count and bolt pattern are illustrative rather than matched to a real engine.",
+      "The legacy clip named wheel_roll rotates the flywheel rotor; it is not an animation of a road wheel."
     ],
     "contact_sheet_sha256": "d226c25d161adc2e35625ed981ff0c28d815596c7bf1d94b45e2f0ef85010df7",
     "reviewer": "Arena agent",
@@ -182,8 +183,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 1266,
-      "sha256": "017d7786c244629ecf7c3fd5a75dec41a7c1d731e557cfec57de25aef9ceeebb",
+      "bytes": 1369,
+      "sha256": "d422ecc5b29aeb644d8e2a09ea60cf30210aa8b01fb545a09ab420c5ba3bc631",
       "role": "documentation"
     },
     {
@@ -356,8 +357,8 @@
     },
     {
       "path": "review.json",
-      "bytes": 1033,
-      "sha256": "e39e1b17a3582aba09aec1e1b6e3cdc4dbc8edf6656062529d8e2b454e66a272",
+      "bytes": 1141,
+      "sha256": "3ae521fff484b5cf00d0d52d914e382bef16c79dfdf943be29c11b1eb31ff6ec",
       "role": "documentation"
     },
     {

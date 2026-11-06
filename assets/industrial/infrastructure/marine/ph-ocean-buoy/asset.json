@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "ph-ocean-buoy",
   "title": "Ocean Buoy",
-  "category": "vehicles/watercraft",
+  "category": "industrial/infrastructure/marine",
   "style": "realistic",
   "tags": [
     "marine buoy",
@@ -27,7 +27,7 @@
     },
     "notes": "Weathered buoy with red float, frame, light cage, suspended bell and mooring fitting; all views and geometry report reviewed.",
     "limitations": [
-      "The selected package uses the downloaded texture resolution; higher-resolution upstream files are not included.",
+      "The distributed texture maps are 2K; higher-resolution upstream files are not included.",
       "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
     ],
     "contact_sheet_sha256": "40d090f6f45aeaf11dcce2661b23c746b79189b43b6a9df4fba917682b670288",
@@ -211,8 +211,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 1331,
-      "sha256": "2a4ca51e37b2f986fc870d42448f8ab6c0eb32919f3a61ecdee90d630850d89b",
+      "bytes": 1320,
+      "sha256": "b3bd57a23a7997d0be5b1ef8c52dfa2543eafb190dbeacd90fc3395e62f3be0d",
       "role": "documentation"
     },
     {
@@ -385,8 +385,8 @@
     },
     {
       "path": "review.json",
-      "bytes": 823,
-      "sha256": "94b92dec85a02f6fabeac899542031955cfafff8f7818efe928a64848f8a3604",
+      "bytes": 799,
+      "sha256": "af9c8613d9a5093188e71ec8174d686b4d0414d1b0c77f5f52a871f030aa373b",
       "role": "documentation"
     }
   ]

@@ -6237,7 +6237,7 @@
       "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
       "directory": "assets/furniture/chairs/ph-schoolchair-01",
       "metadata": "assets/furniture/chairs/ph-schoolchair-01/asset.json",
-      "metadata_sha256": "725a7f4339da83ad269f33086183840e4ab60507a303996eb2a861cc5007ae70",
+      "metadata_sha256": "d1ec0f4e2433af2605b41bc51cb47cd82aceaf01c587158fcc1ecc7b5542e9ce",
       "model": "assets/furniture/chairs/ph-schoolchair-01/model/SchoolChair_01_2k.gltf",
       "preview": "assets/furniture/chairs/ph-schoolchair-01/previews/orbit-01.jpg",
       "contact_sheet": "assets/furniture/chairs/ph-schoolchair-01/previews/contact-sheet.jpg",
@@ -6257,7 +6257,7 @@
         "style_fit": 5
       },
       "review_limitations": [
-        "The selected package uses the downloaded texture resolution; higher-resolution upstream files are not included.",
+        "The distributed texture maps are 2K; higher-resolution upstream files are not included.",
         "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
       ]
     },
@@ -6417,7 +6417,7 @@
       "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
       "directory": "assets/furniture/sofas/ph-painted-wooden-sofa",
       "metadata": "assets/furniture/sofas/ph-painted-wooden-sofa/asset.json",
-      "metadata_sha256": "4ef6f30845c788edde79dcd437c7f2590cc32c8b1c509927c4bc6177d0d2900b",
+      "metadata_sha256": "ae98900c7082a4b5fd54f0d157357c45c6a5c8426c71e39cb262747df80aa511",
       "model": "assets/furniture/sofas/ph-painted-wooden-sofa/model/painted_wooden_sofa_2k.gltf",
       "preview": "assets/furniture/sofas/ph-painted-wooden-sofa/previews/orbit-01.jpg",
       "contact_sheet": "assets/furniture/sofas/ph-painted-wooden-sofa/previews/contact-sheet.jpg",
@@ -6437,7 +6437,7 @@
         "style_fit": 5
       },
       "review_limitations": [
-        "The selected package uses the downloaded texture resolution; higher-resolution upstream files are not included.",
+        "The distributed texture maps are 2K; higher-resolution upstream files are not included.",
         "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
       ]
     },
@@ -6993,6 +6993,53 @@
       ]
     },
     {
+      "id": "ph-dining-table",
+      "title": "Dining Table",
+      "category": "furniture/tables",
+      "style": "realistic",
+      "tags": [
+        "old",
+        "scratched",
+        "cloth-covered",
+        "rectangular",
+        "checkered-tablecloth",
+        "tapered-legs",
+        "polyhaven"
+      ],
+      "creator": "Aron Łyczek",
+      "license": "CC0-1.0",
+      "license_notes": [],
+      "resale_as_is": "The license page states the assets can be redistributed, including inside a product you sell.",
+      "source_url": "https://polyhaven.com/a/dining_table",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/furniture/tables/ph-dining-table",
+      "metadata": "assets/furniture/tables/ph-dining-table/asset.json",
+      "metadata_sha256": "7d2812114339c22d6973566fc52bcb782a4b3a33fa15503f8fc8315abe67ef7b",
+      "model": "assets/furniture/tables/ph-dining-table/model/dining_table_1k.gltf",
+      "preview": "assets/furniture/tables/ph-dining-table/previews/orbit-01.jpg",
+      "contact_sheet": "assets/furniture/tables/ph-dining-table/previews/contact-sheet.jpg",
+      "triangles": 1048,
+      "texture_count": 3,
+      "max_texture_resolution": 1024,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "The cloth is supplied in the pictured draped pose; no cloth simulation was tested.",
+        "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+        "glTF validator reports 2 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+      ]
+    },
+    {
       "id": "ph-modern-coffee-table",
       "title": "Modern coffee table",
       "category": "furniture/tables",
@@ -7402,6 +7449,99 @@
       ]
     },
     {
+      "id": "ph-modular-airduct-circular-01",
+      "title": "Modular Airduct Circular 01",
+      "category": "industrial/hvac",
+      "style": "realistic",
+      "tags": [
+        "vent",
+        "aircon",
+        "airduct",
+        "hvac",
+        "modular",
+        "pieces",
+        "polyhaven"
+      ],
+      "creator": "Riley Queen",
+      "license": "CC0-1.0",
+      "license_notes": [],
+      "resale_as_is": "The license page states the assets can be redistributed, including inside a product you sell.",
+      "source_url": "https://polyhaven.com/a/modular_airduct_circular_01",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/industrial/hvac/ph-modular-airduct-circular-01",
+      "metadata": "assets/industrial/hvac/ph-modular-airduct-circular-01/asset.json",
+      "metadata_sha256": "b298c1ddf5af98e4a1bde623853213e6168199a9b405cba9dfed34b0df5a8607",
+      "model": "assets/industrial/hvac/ph-modular-airduct-circular-01/model/modular_airduct_circular_01_1k.gltf",
+      "preview": "assets/industrial/hvac/ph-modular-airduct-circular-01/previews/orbit-01.jpg",
+      "contact_sheet": "assets/industrial/hvac/ph-modular-airduct-circular-01/previews/contact-sheet.jpg",
+      "triangles": 14280,
+      "texture_count": 3,
+      "max_texture_resolution": 1024,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Modular parts are laid out separately; assembly, snap alignment and collisions have not been tested.",
+        "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+        "glTF validator reports 16 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+      ]
+    },
+    {
+      "id": "ph-ocean-buoy",
+      "title": "Ocean Buoy",
+      "category": "industrial/infrastructure/marine",
+      "style": "realistic",
+      "tags": [
+        "marine buoy",
+        "light beacon",
+        "maritime",
+        "ship",
+        "dock",
+        "jetty",
+        "polyhaven"
+      ],
+      "creator": "Mateusz Sadek",
+      "license": "CC0-1.0",
+      "license_notes": [],
+      "resale_as_is": "The license page states the assets can be redistributed, including inside a product you sell.",
+      "source_url": "https://polyhaven.com/a/ocean_buoy",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/industrial/infrastructure/marine/ph-ocean-buoy",
+      "metadata": "assets/industrial/infrastructure/marine/ph-ocean-buoy/asset.json",
+      "metadata_sha256": "1ce2086c0b1d20f9d0ee573d67e43b6a87ef9fce8f092d96b0de5e62a315283f",
+      "model": "assets/industrial/infrastructure/marine/ph-ocean-buoy/model/ocean_buoy_2k.gltf",
+      "preview": "assets/industrial/infrastructure/marine/ph-ocean-buoy/previews/orbit-01.jpg",
+      "contact_sheet": "assets/industrial/infrastructure/marine/ph-ocean-buoy/previews/contact-sheet.jpg",
+      "triangles": 12240,
+      "texture_count": 4,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "The distributed texture maps are 2K; higher-resolution upstream files are not included.",
+        "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+      ]
+    },
+    {
       "id": "ph-fire-hydrant",
       "title": "Street fire hydrant",
       "category": "industrial/infrastructure",
@@ -7717,6 +7857,53 @@
       "review_limitations": [
         "Lid is modelled seated; lifting it requires separating the object.",
         "The flame motif is a decorative decal, not a manufacturer logo."
+      ]
+    },
+    {
+      "id": "ph-wooden-cutting-board",
+      "title": "Wooden Cutting Board",
+      "category": "kitchen/preparation",
+      "style": "realistic",
+      "tags": [
+        "culinary",
+        "cooking",
+        "kitchen",
+        "cutting",
+        "chopping",
+        "cheese",
+        "polyhaven"
+      ],
+      "creator": "Kuutti Siitonen",
+      "license": "CC0-1.0",
+      "license_notes": [],
+      "resale_as_is": "The license page states the assets can be redistributed, including inside a product you sell.",
+      "source_url": "https://polyhaven.com/a/wooden_cutting_board",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/kitchen/preparation/ph-wooden-cutting-board",
+      "metadata": "assets/kitchen/preparation/ph-wooden-cutting-board/asset.json",
+      "metadata_sha256": "23fb4159386dd7e25df7e289ead754156ba0ceaea76099cadd79b8acfd6c77f7",
+      "model": "assets/kitchen/preparation/ph-wooden-cutting-board/model/wooden_cutting_board_1k.gltf",
+      "preview": "assets/kitchen/preparation/ph-wooden-cutting-board/previews/orbit-01.jpg",
+      "contact_sheet": "assets/kitchen/preparation/ph-wooden-cutting-board/previews/contact-sheet.jpg",
+      "triangles": 3520,
+      "texture_count": 3,
+      "max_texture_resolution": 1024,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "The model is a visual prop, not a validated physical cutting surface.",
+        "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+        "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
       ]
     },
     {
@@ -8362,6 +8549,53 @@
         "style_fit": 5
       },
       "review_limitations": [
+        "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+        "glTF validator reports 3 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+      ]
+    },
+    {
+      "id": "ph-street-lamp-01",
+      "title": "Street Lamp 01",
+      "category": "lighting/street",
+      "style": "realistic",
+      "tags": [
+        "street",
+        "road",
+        "light",
+        "lamppost",
+        "outdoor",
+        "pole",
+        "polyhaven"
+      ],
+      "creator": "Josh Dean",
+      "license": "CC0-1.0",
+      "license_notes": [],
+      "resale_as_is": "The license page states the assets can be redistributed, including inside a product you sell.",
+      "source_url": "https://polyhaven.com/a/street_lamp_01",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/lighting/street/ph-street-lamp-01",
+      "metadata": "assets/lighting/street/ph-street-lamp-01/asset.json",
+      "metadata_sha256": "cc482e011178a002727ecba342371bc2cc2a38d979161b98112aba0e43cfc3e7",
+      "model": "assets/lighting/street/ph-street-lamp-01/model/street_lamp_01_1k.gltf",
+      "preview": "assets/lighting/street/ph-street-lamp-01/previews/orbit-01.jpg",
+      "contact_sheet": "assets/lighting/street/ph-street-lamp-01/previews/contact-sheet.jpg",
+      "triangles": 30610,
+      "texture_count": 4,
+      "max_texture_resolution": 1024,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "The lantern appears dark in the inspection render; emissive appearance varies by target renderer.",
         "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
         "glTF validator reports 3 generated-tangent-space warning(s); normal-map shading can vary by renderer."
       ]
@@ -11206,6 +11440,53 @@
       ]
     },
     {
+      "id": "ph-bunsen-burner",
+      "title": "Bunsen Burner",
+      "category": "science/laboratory",
+      "style": "realistic",
+      "tags": [
+        "chemistry",
+        "lab",
+        "equipment",
+        "gas",
+        "science",
+        "testing",
+        "polyhaven"
+      ],
+      "creator": "BKS",
+      "license": "CC0-1.0",
+      "license_notes": [],
+      "resale_as_is": "The license page states the assets can be redistributed, including inside a product you sell.",
+      "source_url": "https://polyhaven.com/a/bunsen_burner",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/science/laboratory/ph-bunsen-burner",
+      "metadata": "assets/science/laboratory/ph-bunsen-burner/asset.json",
+      "metadata_sha256": "54e2c8ac713dada157accdfc2071cd00fa50265290ff9076e1c7ce8dad89e521",
+      "model": "assets/science/laboratory/ph-bunsen-burner/model/bunsen_burner_1k.gltf",
+      "preview": "assets/science/laboratory/ph-bunsen-burner/previews/orbit-01.jpg",
+      "contact_sheet": "assets/science/laboratory/ph-bunsen-burner/previews/contact-sheet.jpg",
+      "triangles": 8434,
+      "texture_count": 3,
+      "max_texture_resolution": 1024,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "No flame or operational gas simulation is supplied.",
+        "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+        "glTF validator reports 2 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+      ]
+    },
+    {
       "id": "ph-field-binoculars",
       "title": "Leather-bodied field binoculars",
       "category": "science/optical",
@@ -11249,6 +11530,53 @@
         "The neck strap is a fixed drape and is not rigged or simulated.",
         "Not rigged: the focus wheel and hinge do not articulate.",
         "The strap leather renders pale; darken it if your scene needs a darker tone."
+      ]
+    },
+    {
+      "id": "ph-magnifying-glass-01",
+      "title": "Magnifying Glass 01",
+      "category": "science/optical",
+      "style": "realistic",
+      "tags": [
+        "eye",
+        "focal",
+        "lense",
+        "magnifier",
+        "magnifying lens",
+        "inspection",
+        "polyhaven"
+      ],
+      "creator": "Nazar Borodavka",
+      "license": "CC0-1.0",
+      "license_notes": [],
+      "resale_as_is": "The license page states the assets can be redistributed, including inside a product you sell.",
+      "source_url": "https://polyhaven.com/a/magnifying_glass_01",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/science/optical/ph-magnifying-glass-01",
+      "metadata": "assets/science/optical/ph-magnifying-glass-01/asset.json",
+      "metadata_sha256": "07e12352258d375c6868d27d444034787c5e8294b4b65e8d844b99ba1ae5dca7",
+      "model": "assets/science/optical/ph-magnifying-glass-01/model/magnifying_glass_01_1k.gltf",
+      "preview": "assets/science/optical/ph-magnifying-glass-01/previews/orbit-01.jpg",
+      "contact_sheet": "assets/science/optical/ph-magnifying-glass-01/previews/contact-sheet.jpg",
+      "triangles": 7240,
+      "texture_count": 5,
+      "max_texture_resolution": 1024,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "The glass appeared grey in these renders; actual transparency and magnification depend on the target renderer.",
+        "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+        "glTF validator reports 2 generated-tangent-space warning(s); normal-map shading can vary by renderer."
       ]
     },
     {
@@ -12068,7 +12396,7 @@
       "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
       "directory": "assets/toys/games/ph-chess-set",
       "metadata": "assets/toys/games/ph-chess-set/asset.json",
-      "metadata_sha256": "ac741bbb80e4f7a1525bab507589383b174f1d56dc9e21a955c7bedaff95f472",
+      "metadata_sha256": "ef7e7d1ada1ffb0c21de6b4253982d222cc90ab10be355354208f673b6f1d7df",
       "model": "assets/toys/games/ph-chess-set/model/chess_set_1k.gltf",
       "preview": "assets/toys/games/ph-chess-set/previews/orbit-01.jpg",
       "contact_sheet": "assets/toys/games/ph-chess-set/previews/contact-sheet.jpg",
@@ -12088,7 +12416,7 @@
         "style_fit": 5
       },
       "review_limitations": [
-        "The selected package uses the downloaded texture resolution; higher-resolution upstream files are not included.",
+        "The distributed texture maps are 1K; higher-resolution upstream files are not included.",
         "glTF validator reports 37 generated-tangent-space warning(s); normal-map shading can vary by renderer.",
         "The pieces are positioned as a static scene; no chess rules, interactions or animations are supplied."
       ]
@@ -13000,7 +13328,7 @@
       "license_evidence": "https://grab3d.com/dl/flywheel/LICENSE.txt",
       "directory": "assets/vehicles/parts/g3-flywheel",
       "metadata": "assets/vehicles/parts/g3-flywheel/asset.json",
-      "metadata_sha256": "4f90152901a0565fc87341a83f35d477d276918cd0b84921d1fbbe307d7a7ffe",
+      "metadata_sha256": "a76f6c94a781912b834d99b134e518154e9f6704e4e7ca4b9cba6bf2203da387",
       "model": "assets/vehicles/parts/g3-flywheel/model/flywheel.glb",
       "preview": "assets/vehicles/parts/g3-flywheel/previews/orbit-01.jpg",
       "contact_sheet": "assets/vehicles/parts/g3-flywheel/previews/contact-sheet.jpg",
@@ -13023,7 +13351,8 @@
       },
       "review_limitations": [
         "Stylised Cozy-kit palette rather than photoreal materials.",
-        "Tooth count and bolt pattern are illustrative rather than matched to a real engine."
+        "Tooth count and bolt pattern are illustrative rather than matched to a real engine.",
+        "The legacy clip named wheel_roll rotates the flywheel rotor; it is not an animation of a road wheel."
       ]
     },
     {
@@ -13497,52 +13826,6 @@
         "Very large real-world scale; check scene units before placing next to characters.",
         "Sails are static geometry in a fixed partially-furled state, not simulated cloth.",
         "Not rigged in the shipped glTF; masts and yards do not articulate."
-      ]
-    },
-    {
-      "id": "ph-ocean-buoy",
-      "title": "Ocean Buoy",
-      "category": "vehicles/watercraft",
-      "style": "realistic",
-      "tags": [
-        "marine buoy",
-        "light beacon",
-        "maritime",
-        "ship",
-        "dock",
-        "jetty",
-        "polyhaven"
-      ],
-      "creator": "Mateusz Sadek",
-      "license": "CC0-1.0",
-      "license_notes": [],
-      "resale_as_is": "The license page states the assets can be redistributed, including inside a product you sell.",
-      "source_url": "https://polyhaven.com/a/ocean_buoy",
-      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
-      "directory": "assets/vehicles/watercraft/ph-ocean-buoy",
-      "metadata": "assets/vehicles/watercraft/ph-ocean-buoy/asset.json",
-      "metadata_sha256": "786cad7b88b058b090740985d9bc1f37323684017a447d1ba466b8b2945fcc6b",
-      "model": "assets/vehicles/watercraft/ph-ocean-buoy/model/ocean_buoy_2k.gltf",
-      "preview": "assets/vehicles/watercraft/ph-ocean-buoy/previews/orbit-01.jpg",
-      "contact_sheet": "assets/vehicles/watercraft/ph-ocean-buoy/previews/contact-sheet.jpg",
-      "triangles": 12240,
-      "texture_count": 4,
-      "max_texture_resolution": 2048,
-      "rigged": false,
-      "animation_count": 0,
-      "authored_animation_count": 0,
-      "authored_animations": [],
-      "animated_model": null,
-      "review_scores": {
-        "silhouette": 5,
-        "materials": 4,
-        "topology": 5,
-        "completeness": 5,
-        "style_fit": 5
-      },
-      "review_limitations": [
-        "The selected package uses the downloaded texture resolution; higher-resolution upstream files are not included.",
-        "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
       ]
     },
     {
@@ -14408,8 +14691,8 @@
     }
   ],
   "totals": {
-    "assets": 302,
-    "categories": 86,
+    "assets": 308,
+    "categories": 91,
     "by_category": {
       "apparel/accessories": 1,
       "architecture/doors": 1,
@@ -14453,16 +14736,20 @@
       "furniture/desks": 1,
       "furniture/sofas": 3,
       "furniture/storage": 10,
-      "furniture/tables": 3,
+      "furniture/tables": 4,
       "industrial/containers": 6,
       "industrial/electrical": 1,
+      "industrial/hvac": 1,
       "industrial/infrastructure": 1,
+      "industrial/infrastructure/marine": 1,
       "industrial/safety": 2,
       "kitchen/cookware": 4,
+      "kitchen/preparation": 1,
       "kitchen/tableware": 4,
       "lighting/ceiling": 1,
       "lighting/chandeliers": 4,
       "lighting/lamps": 5,
+      "lighting/street": 1,
       "medical/equipment": 1,
       "medical/mobility": 1,
       "music/instruments": 1,
@@ -14475,7 +14762,8 @@
       "nature/trees": 2,
       "nature/wildlife": 34,
       "nature/wildlife/stylized": 1,
-      "science/optical": 3,
+      "science/laboratory": 1,
+      "science/optical": 4,
       "sports/equipment": 1,
       "tools/hand-tools": 7,
       "tools/measuring": 2,
@@ -14491,7 +14779,7 @@
       "vehicles/parts": 6,
       "vehicles/rail": 5,
       "vehicles/trucks": 1,
-      "vehicles/watercraft": 4,
+      "vehicles/watercraft": 3,
       "weapons/artillery": 1,
       "weapons/explosives": 1,
       "weapons/firearms": 2,
@@ -14500,7 +14788,7 @@
     },
     "by_style": {
       "low-poly": 26,
-      "realistic": 189,
+      "realistic": 195,
       "stylized": 87
     }
   }

@@ -16,8 +16,28 @@
   "batch": "realistic-diverse-01",
   "acquired_at": "2026-11-06T09:47:05.621470+00:00",
   "review": {
-    "status": "awaiting-visual-review",
-    "approved": false
+    "id": "ph-wooden-cutting-board",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Rectangular wooden board with rounded corners, carved recess and worn grain; complete in all inspection views.",
+    "limitations": [
+      "The model is a visual prop, not a validated physical cutting surface.",
+      "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+      "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+    ],
+    "contact_sheet_sha256": "d64b3f169e96dc260e4d2e6794e676cfc7387c4c2884478719b851978329b964",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
   },
   "source": {
     "provider": "polyhaven",
@@ -163,6 +183,12 @@
       "bytes": 7048,
       "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
       "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1424,
+      "sha256": "0c2896603871042a9d3b287934976bdf956196db62303db3a979bb4350db5054",
+      "role": "documentation"
     },
     {
       "path": "logs/animations.log",
@@ -325,6 +351,12 @@
       "bytes": 1185,
       "sha256": "15447c922336ab86645ff77d55be476a2db145adb244ef9358ab8928429eafa6",
       "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 885,
+      "sha256": "6a94461ecf81f714c69053c6669709491fb7fd169e4af611a56855f6d8e550d1",
+      "role": "documentation"
     }
   ]
 }

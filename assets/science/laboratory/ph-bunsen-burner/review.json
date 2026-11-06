@@ -1,0 +1,22 @@
+{
+  "id": "ph-bunsen-burner",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Laboratory burner with blue base, vertical tube, brass valve and surrounding tripod ring; all twelve inspection views checked.",
+  "limitations": [
+    "No flame or operational gas simulation is supplied.",
+    "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+    "glTF validator reports 2 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+  ],
+  "contact_sheet_sha256": "c645bb1355dddd76d04fc2f2156bb4322fb617a49db19a73ff7dfabd86affcd2",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

@@ -19,6 +19,7 @@ These are inspection renders, not a guarantee of identical shading in every engi
 
 - Stylised Cozy-kit palette rather than photoreal materials.
 - Tooth count and bolt pattern are illustrative rather than matched to a real engine.
+- The legacy clip named wheel_roll rotates the flywheel rotor; it is not an animation of a road wheel.
 
 Texture handling is recorded per image in `asset.json`. GLB files retain embedded
 textures; sidecar copies are byte-for-byte extracts for inspection and DCC workflows,

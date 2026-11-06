@@ -16,8 +16,28 @@
   "batch": "realistic-diverse-01",
   "acquired_at": "2026-11-06T09:45:37.239858+00:00",
   "review": {
-    "status": "awaiting-visual-review",
-    "approved": false
+    "id": "ph-bunsen-burner",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Laboratory burner with blue base, vertical tube, brass valve and surrounding tripod ring; all twelve inspection views checked.",
+    "limitations": [
+      "No flame or operational gas simulation is supplied.",
+      "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+      "glTF validator reports 2 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+    ],
+    "contact_sheet_sha256": "c645bb1355dddd76d04fc2f2156bb4322fb617a49db19a73ff7dfabd86affcd2",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
   },
   "source": {
     "provider": "polyhaven",
@@ -163,6 +183,12 @@
       "bytes": 7048,
       "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
       "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1372,
+      "sha256": "923cc80a9651539061dad82521178d87680de1b74979a2cfc8d9b137e0d96b8b",
+      "role": "documentation"
     },
     {
       "path": "logs/animations.log",
@@ -325,6 +351,12 @@
       "bytes": 1088,
       "sha256": "6be803a1b998355e0ea61ce45b38bb3589fd618530378c94d7b1bab5d719ed12",
       "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 876,
+      "sha256": "a11ec67f887c995621ee8c8e77a74263d7a4a5d77eac4b227bfc12e530aaa2d9",
+      "role": "documentation"
     }
   ]
 }

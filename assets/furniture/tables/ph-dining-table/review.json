@@ -1,0 +1,22 @@
+{
+  "id": "ph-dining-table",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Rustic wooden table with four tapered legs and a draped checkered cloth; inspected the orbit, top, bottom, clay and wireframe views.",
+  "limitations": [
+    "The cloth is supplied in the pictured draped pose; no cloth simulation was tested.",
+    "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+    "glTF validator reports 2 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+  ],
+  "contact_sheet_sha256": "b7c8abec86e8493df7d9dbd45b06c5a1620c7519d1de2fc8f1a709ae0854a998",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}
