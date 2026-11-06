@@ -1,0 +1,176 @@
+# Handoff prompt: continue the CC0 3D asset library
+
+Copy everything below into a new chat with an AI coding agent that has access to the repository. This is a snapshot taken on **2026-11-06**; inspect the actual repository and CI before acting, because the branch may have advanced.
+
+> **Completeness and provenance:** The agent preparing this handoff had the visible recent conversation plus a condensed memory of earlier messages, not the full original transcript. It also inspected the repository, journal, documentation, schemas, code and current GitHub Actions reports. Therefore this is a detailed best-effort reconstruction, not a guarantee that every word of the original conversation has been recovered. User instructions explicitly preserved in memory or documented in the repository are distinguished below from implementation choices and observations. If the original thread contains a more specific requirement not captured here, follow that requirement; do not invent missing instructions or silently claim certainty.
+
+---
+
+## Your role and working style
+
+You are continuing work on `archnemix/3d-Assets`, a curated, usable, high-quality **CC0 3D model library**. Work in the actual checkout, not just in a proposal. Read the project before changing it; retain existing safeguards and don't destroy files, history, review evidence or user changes. Use the current session's branch and GitHub instructions, which may differ from the snapshot below.
+
+The user has repeatedly asked you to **continue working until the intended expansion is complete**, rather than pausing after a plan, one batch, a CI push, or a failure. They have been frustrated that an hour passed with no assets added and failures were not made clear. Show tangible progress: diagnose failures, recover, get candidates reviewed and actually published, verify the catalog and report what was accomplished. Do not say assets are added when they are only requested, downloaded or quarantined. Do not claim visual review or tests you did not perform. If a blocker genuinely prevents completion, explain it and report precisely what is done and what is not.
+
+The user specifically said: **“continue and find multiple resources not just the famous ones”**, **“continue do not stop until complete”**, **“why did you stop comtinue”**, and **“keep working.”** They also asked why the library had so many Grab3D assets and why no assets were being added. Search for genuinely diverse creators/providers rather than merely rotating among Grab3D, Poly Haven and Kenney; vet every source and model under the same requirements. Don't dilute license, quality, truthful review, rigging or usability requirements to improve a source-count statistic.
+
+## Project goal and user preferences
+
+Build an organized, redistributable library of actual 3D model files for games, renders and prototypes, with a browsable catalog, subject-based categories, per-asset provenance and trustworthy quality checks.
+
+### Latest correction: put realistic, movable humans first
+
+The user clarified the priority when requesting this handoff and pull request: **focus mainly on diverse, high-quality, realistic, movable/animated human characters—not on other things as the main focus.** They are concerned that realistic assets are much less represented than low-poly assets, and want that imbalance addressed. They also want **major, useful, real-world subjects first and small detailing items later**. This newer emphasis takes precedence over the older batch order and the older broad focus on animals, buildings and assorted props. The user did not prescribe a numerical quota, exact demographic breakdown, minimum clip count or a new license exception; do not invent one.
+
+Priorities documented from the user's directions, in order:
+
+1. **Realistic human characters are the principal acquisition priority.** Seek convincing, high-quality human models that are genuinely rigged, poseable and animated in the file shipped. Seek diverse people, not just repeated variants: vary age, gender, appearance and role where suitable candidates can be found, and seek multiple independent creators/sources. Those are practical dimensions of diversity, not a user-specified quota. Avoid cartoon/anime appearance when presenting an asset as realistic. Preserve accurate human anatomy, readable eyes and face, sensible hair and clothing, complete hands/feet and believable PBR materials; inspect rather than assuming quality from a label.
+2. **Movement must be real, not marketing.** Prefer rigged **and** animated human models; verify the skeleton, skin weights and actual embedded clips in the shipped GLB/glTF, and inspect deformation/motion where possible. A poseable model with no clips is rigged but not an animated model; a static or vendor-advertised rig absent from the delivered file is not rigged. Record exactly what each model can do and any known animation limitations. Do not count a machine's wheel animation as a substitute for a human character with animation.
+3. **Correct the realistic-versus-low-poly imbalance.** Assess the actual current catalog by style and subject before setting a plan; the user's concern is a priority to address, not a verified count in this handoff. Increase the representation of genuinely high-quality realistic models, particularly rigged/animated humans, instead of padding batches with low-poly content. Keep useful existing stylized/low-poly assets and include further ones only as intentional secondary alternatives or honest fallbacks; judge them against their intended style. Do not claim a specific ratio or completion target the user never set.
+4. **Major subjects before small details.** Prioritize substantial, broadly useful human characters and major realistic real-world assets over small accessories, fittings and decorative details. Other major subjects such as vehicles, buildings and animals remain possible secondary expansion work, but they must not displace the main human-character focus. Do not spend the next cycle simply clearing a large batch of minor parts because it is already queued.
+5. **Diversity means both people and sources.** Search beyond just Grab3D, Poly Haven and Kenney. Preserve multiple creators' takes with separate asset folders and provenance. Avoid near-duplicate characters merely to inflate the total. Maintain the CC0 and quality rules even when a source is unfamiliar or a desired human is hard to obtain.
+6. **Real, useful files and truthful publication.** The deliverable is the approved model tree, manifest, evidence and gallery, not a list of links. Prefer usable GLB/glTF exports with complete dependencies. The prior request for a 40-asset expansion was completed; do not treat 40 as a permanent new quota. Other rigged/animated subjects can complement the library, but humans are the current main focus.
+7. **Retain mechanical animation work as a secondary requirement.** Earlier the user asked for machine/rigid-object motion, such as turning tires and opening doors. Continue to preserve and accurately verify those capabilities where relevant, without letting mechanical props displace realistic animated human characters as the main priority.
+
+### Planning and reporting for the human-character priority
+
+- First audit the current approved manifest and actual models: count human characters, realistic versus stylized/low-poly, truly rigged versus static, and those with actual animation clips. Distinguish character clips from mechanical animation. Report methodology and limitations; counts may change after this snapshot.
+- Research multiple less-famous providers, creator repositories and legitimate CC0 human-generation workflows. Check each exact model, texture, conversion, animation and source rights, including the creator's expressed wishes. MakeHuman's official CC0 system pack is a potential route, but prior generated candidates failed visual review and need real improvements, not automatic approval.
+- Build the next candidate batches around diverse high-quality realistic humans with functioning rigs and motion. If a promising asset has a usable rig but no animations, label it accurately and investigate legitimately licensed, compatible motion or carefully authored animation; verify licensing, retargeting and visible deformation before presenting a finished animated model. Do not imply the user asked for a specific extra animation pack.
+- Review close-up face and full body from multiple angles, and inspect actual animated poses/frames when possible. Check eyes, hair, clothing, joints, hands, skinning, rig, clip names and body proportions; disclose any limitations. If visual review or suitable rights cannot be established, keep the candidate quarantined and explain the blocker rather than fabricating approval.
+- Make priorities visible in progress reports: newly approved realistic human characters; how many really have rigs and clips; verified source diversity; how the realistic/low-poly balance changed; and remaining blockers. Don't count unreviewed candidates, static animals, mechanical clips or minor props as completion of the human-character goal.
+
+### Rigid-object / practical usability rules
+
+These are documented project acceptance decisions and should be retained:
+
+- Treat the model as a usable object, not just an attractive render. A weapon or armour piece presented as equippable must be separable from a display stand, plaque, plinth, rack or other furniture **without destructive mesh surgery**. Separate nodes/meshes are acceptable; a single welded mesh and single material that cannot be isolated is not. Reject unsuitable candidates and record why. Prior rejections include the cutlass, machete, pike, chainmail and shield-wall; the enchanted sword passed because the blade was a separate node.
+- Head/body armour intended to be worn should be a hollow shell with real wall thickness, not a solid object or a garment fused to its stand.
+- For a cutaway, the stand can be part of the intended product; moving components should be separate if the deliverable promises mechanical motion. A camshaft, differential and jet engine passed as useful cutaways with separate rotor nodes.
+- Prefer authored clips for appropriate pre-existing separate parts: wheel roll, steering, trailer swing, hinges, doors/lids, sliding or lifting parts, crank, gears, drill bits, reels, rotors and propellers. Do not promise or fake separability, invent a working rig from a welded asset, or alter the original silently.
+- Existing animation pipeline writes a separate `-animated.glb`, retains the original and records `animated_model` / `authored_animations`. Use correct pivots, parenting, directions and rest poses. A model may start with a door already open. A removable lid lifts rather than rotating like a hinge. Hinge follower pieces must stay attached. Verify the motion by inspecting the three rendered verification frames **per clip**, with the clip soloed, and check for intersections/flying parts; glTF validation alone cannot establish convincing motion. Record limitations and keep checksums/inventory up to date even when zero clips are authored.
+- A skinned character must have a real armature and weights, with no unweighted skinned vertices, and normalized weights. Rigged doesn't imply a particular clip is included. Report actual bones and animations in the exported GLB, not merely an upstream claim. Check pose, deformability, correct texture presentation and any available motion verification; record rest-pose-only limitations. Some upstream `.blend` rigs do not survive the glTF export. `docs/rigging.md` describes both a working Poly Haven bench-vice example and a bolt-cutter example with no glTF rig; do not treat either as a universal rule.
+
+## Licensing and rights: non-negotiable
+
+The project accepts **CC0 1.0** assets with documented evidence. The user explicitly asked whether every model is free, usable without attribution, usable commercially, sellable or redistributable **as-is** rather than only embedded in a game, and safe for public display. Verify these conditions per source and per asset, including conversion and textures. Record actual source, original creator, stable evidence links, local license text and checksums. A site label, API category or license field written by this pipeline is not sufficient evidence by itself.
+
+**Respect creators' explicit requests**, even when the CC0 license would legally permit more. The user explicitly directed removal of KayKit assets after its creator requested that people not resell unmodified copies or claim them as their own. Six previously approved KayKit models were retired and payloads removed; both KayKit sources were closed. Never reintroduce them or other sources that conflict with this policy. Retirement records remain in `reports/retired/`.
+
+CC0 doesn't grant trademark, patent or third-party rights. Inspect actual large renders, not just provider descriptions or `tmwarn` flags:
+
+- Reject legible real manufacturer marks and imitations of well-known trade dress, even if upstream does not flag them.
+- Obviously invented marks can be approved with the lettering noted as a limitation; generic specifications and ornament can be acceptable. Decorative artwork can need a recorded caveat. Do not misrepresent these judgments as legal guarantees.
+- Record disclosure of AI-assisted origin per model where upstream says so. Some marketplaces require disclosure or restrict weapons even when a license allows the model.
+- Do not copy non-CC0 promotional/site imagery as previews. Render locally from the actual model. Poly Haven API has separate service-credit terms: **Powered by Poly Haven** is a discovery-service credit, not an attribution requirement on the CC0 asset.
+
+Read `config/license-terms.json`, `schemas/license-terms.schema.json`, `docs/research.md`, `docs/licenses.md`, and `docs/license-audit-summary.md`. Run the license audit and its `--check` mode after changes. Record caveats rather than presenting CC0 as a waiver of all conceivable rights.
+
+### Source research / decisions so far
+
+- **Poly Haven:** verified CC0 model assets; good photoreal props/nature and PBR. Separate API terms. Trademark warnings must be considered; still inspect visuals.
+- **Kenney:** original assets CC0; the selected pinned third-party GLB conversion also releases its conversion and embedded textures under CC0. Record Kenney as original creator and the mirror/revision correctly. Some models intentionally use flat colors and have no image maps.
+- **Grab3D:** per-package CC0 `manifest.json` and `LICENSE.txt`; verify both. Many characters/animals disclose AI assistance; preserve that disclosure. Rigged humans have walk/run clips in available packages. Many high-detail animals found so far were static, not rigged. Procedural props/buildings can differ in origin; do not assert all models are AI-generated or all are human-made.
+- **MakeHuman:** official CC0 system asset pack plus pinned MPFB2 Blender build tool; GPL tool code is not bundled as exported asset data. Generated outputs still go through all gates. First successful casual male/female builds were rejected for blank-looking eyes, face-obscuring hair and prominent MakeHuman-logo clothing. For future recipes seek readable eyes, clear faces and generic non-branded clothing.
+- **Innerscene:** newly implemented, promising diversity, **not yet an approved provider in the license audit**. Verify the exact terms, author requests, provenance, downloaded models and textures before publication; do not promote based solely on adapter text. See current blocker below.
+- **KayKit:** closed/retired due to explicit creator request.
+- **MB-Lab:** previously rejected due to AGPL/data and derivative-use concerns inconsistent with this repository's no-strings policy; do not silently relax the policy.
+- **Quaternius:** deferred because current descriptions conflict and some custom terms restrict redistribution; exact archive-level unrestricted CC0-compatible evidence would be needed. An attempted `ultimatespaceships_gltf.zip` URL returned 404.
+- **Sketchfab:** CC0 filter alone insufficient; authentication/download access and per-listing provenance need verification.
+- **NASA:** not automatically CC0 merely because government-hosted; individual rights and media/endorsement policies need review.
+- **PolygonalMind 100Avatars:** previously determined not CC0 in research. `memoriesrohit/avatar-studio` prebuilt MPFB GLBs were deferred because the code's MIT license and README-level model claim did not establish robust per-model CC0 evidence.
+
+These are findings from prior investigation, **not proof that no other source exists**. The user explicitly wants research beyond the famous sources. Be open to new sources when their exact asset-level rights and technical quality are verified.
+
+## Mandatory pipeline and quality gates
+
+The current intended workflow is:
+
+1. **Requested:** add a schema-valid archived request under `automation/`, check category and duplicate IDs/subjects and validate with `PYTHONPATH=src python -m asset_library plan <request>`. Batches cap at **30 candidates**; the planner makes at most **5 disjoint shards**.
+2. **Quarantined:** acquire real assets, preserve upstream license/source evidence, verify dependencies, extract embedded maps losslessly when appropriate, calculate checksums, and inspect/validate. Quarantine is not a recommendation or an approved asset.
+3. **Technical inspection:** run Blender on the actual local model; generate eight 45-degree orbit views, top, bottom, clay and triangle-wireframe views, plus labeled 3×4 contact sheet; use visible evaluated vertices for framing. Keep geometry, textures, validator and build logs. Rigged human portraits also get full-size head shots when available. Require **zero glTF validator errors**. Bounded deterministic repairs such as normalization of near-valid skin weights are permitted when provenance records original and repaired hashes; don't hide errors or damage assets. Preserve actual PBR and external dependencies; flat-color/vertex-color models may legitimately have no texture maps.
+4. **Visual and usability review:** actually examine the local-model contact sheet, all angles and relevant full-size images, especially trademarks, close-up faces and moving parts. A review decision in `reviews/*.json` records batch/id, reviewer/date, SHA-256 of the exact sheet, substantive notes, limitations and five integer scores: silhouette, materials, topology, completeness and style fit. Each score must be at least **4/5**, mean at least **4.6/5**. Existing checks also require a matching batch/id, verified inventory, CC0 and zero glTF validator errors. Reject unsuitable assets with evidence, not just a bad license. **Technical metadata or provider descriptions are not a substitute for seeing the renders.**
+5. **Approved:** apply a legitimate decision with `python -m asset_library review ...`; only approved assets go under `assets/<category>/<subject>/<id>/`. Rebuild `manifest.json`, category pages and the license audit. Verify catalog and audit consistency. Only entries in `manifest.json` are approved; successful CI or quarantine is not approval.
+
+**Important historical review caveat:** `CHANGELOG.md` / `thinking.md` say expansion-17/18 were approved by a prior agent that lacked vision using technical evidence and upstream descriptions instead of viewing contact sheets. `review.py` hardcodes a visual-method string and `views_inspected: 12` for applied decisions. This is a real provenance/quality concern, not proof they were genuinely visually inspected. Do not repeat or conceal it, and do not fabricate visual scores. A vision-capable reviewer or the user should inspect these and any new assets, and review records/methods should accurately reflect what was done. If you lack vision, say so and seek real review rather than self-certifying.
+
+Style-relative quality still requires complete geometry, correct materials, believable silhouette and usable presentation; small zero-area triangles or informational warnings can be accepted only when genuinely reviewed and documented, never by suppressing validator errors. The category/title must accurately describe the object (for example, a flat-backed bear wall decoration is not a plush toy).
+
+### Asset directory contract
+
+Each approved folder contains at least the relevant `model/`, `textures/`, `previews/` (12 views/contact sheet and data), `logs/`, `provenance/`, `LICENSE.txt`, `README.md`, `asset.json`, `review.json` and `SHA256SUMS`. GLBs remain self-contained; extracted maps are convenience copies. glTF sidecars must remain at the referenced paths. Preserve original versus repaired hash and exact revision/evidence wherever available. Rejections retain their review/contact-sheet evidence under `reports/rejected/`, not failed payloads in `assets/`.
+
+## Snapshot of completed work
+
+At the local checkout examined on 2026-11-06, `manifest.json` and README reported **270 approved assets across 73 categories**. Previously documented provider counts were **Grab3D 149, Poly Haven 111, Kenney 10**; query the latest manifest/audit for the real current state. The local manifest had 40 `rigged` entries and 39 with a positive `animation_count`, but verify current semantics and whether authored mechanical clips are represented by these fields before using those numbers.
+
+- The latest completed 40-asset expansion was expansion-13 (30 buildings and architecture) + expansion-19 (3 Poly Haven nature items) + expansion-20 (7 Poly Haven wildflowers) = **40**, leading to 270 total.
+- expansion-17/18 added 40 animals: high-detail realistic static animals prioritized, then intentional low-poly companions; see the honest historical visual-review caveat above.
+- expansion-11/12 introduced usable weapons/armour, trains, watercraft, vehicles, creatures and mechanical cutaways, with appropriate rejection of inseparable display objects.
+- Mechanical animation retrofits are in `automation/animate-retrofit-01.json` through `-04.json`; run `42016261922` for retrofit-04 completed successfully. Verify actual clips and motion frames rather than assuming every eligible target gained an animation.
+- The repository includes a static browser gallery at `gallery/`, an approved-only catalog and category pages, an audit, tests, CLI and CI workers. README, `technical.md`, `thinking.md`, `CHANGELOG.md`, `docs/research.md` and `docs/rigging.md` explain decisions and implementation details. Some prose is stale or overgeneralized; prefer inspected code and current evidence.
+
+## Immediate state: expansion-21 failed again; source-diversity work is unfinished
+
+**This section supersedes any earlier claim that the expansion-21 retry is still running or that SSL was the only cause.**
+
+- `automation/expansion-21.json` requests 30 Innerscene parts across vehicles, infrastructure, buildings, electronics, lighting, furniture, toys, tools, food and decor. It is the active `automation/request.json` with revision 2 in local commit `76079ae`.
+- First CI run `42044333744` failed; an earlier investigation observed `ssl.SSLZeroReturnError` / EOF while retrieving Innerscene terms. That may have been a transient problem for that observation, but it was **not sufficient diagnosis** of the whole batch.
+- Retry CI run **`42071007775` completed with failure**. Plan passed; all five inspect jobs failed at “Reflect intake result.” Its committed shard reports show **5 candidates awaiting visual review and 25 failed**. The 5 are `is-belt-cvt-high`, `is-belt-cvt-low`, `is-spanner-comb-17`, `is-spanner-comb-19`, `is-spanner-double`. They are quarantined, **not approved**.
+- The latest 25 errors in the committed shard reports are **`URL is outside the source allowlist`**: the download endpoint redirects to **`https://files.innerscene.com/...`**, which is not in the Innerscene adapter `HOSTS`. Example `is-bmp180` traceback confirms `check_url(location, allowed_hosts)` rejects it. Inspect all latest logs and verify the endpoint before fixing. A narrow addition of the genuine host plus regression tests is a plausible fix; do not disable redirect validation or blindly allow arbitrary hosts.
+- **Important discrepancy:** the prior agent said it reverted `http.py` to automatic redirects; the file actually present at local `76079ae` still uses `allow_redirects=False` and manually validates redirects. Trust the file, not the old statement or its commit message. The manual redirect code currently consumes the same `MAX_ATTEMPTS` loop for both redirects and retries and may mishandle relative redirect locations; inspect/test rather than assume correctness. Keep host/HTTPS safety.
+- The adapter currently caches the license text in a module-global variable. It assigns `_license_cache` **before** verifying the CC0 marker; if verification fails, a later candidate in the same process can reuse the unverified cached string. It is also not keyed by license URL. Fix/test this before relying on the cache: only cache successfully verified evidence and isolate different URLs. Preserve exact evidence and do not bypass license checking.
+- `config/sources.json` contains `innerscene`, but at snapshot time **`config/license-terms.json` has no `innerscene` provider**. `licensing.collect()` raises for an unrecorded provider. Before approving any Innerscene model, independently verify all required terms and author requests, then add a schema-valid verified provider entry and tests/evidence, or do not publish it. Confirm the legal/evidence facts; do not assert verified status based solely on the adapter's string check.
+- Intake `candidate()` refuses to retry an existing `intake-failed` destination and reinspects an existing `awaiting-visual-review` destination. Preserve logs and failed evidence before cleaning or redesigning safe retries. Do not clobber valid quarantine candidates. One failed candidate makes its shard exit nonzero; CI commits quarantine/logs before reflecting failure.
+- The previous agent pushed `37e842c` (license cache / host list and deletion of failed quarantine paths/reports) and `76079ae` (revision bump). CI subsequently committed 5 additional shards, ending at **`94f9cf9e`** before this handoff commit. When the reports were first examined the local checkout was still at `76079ae`; it was subsequently fetched and fast-forwarded to incorporate those CI commits. The branch can advance again: check local and remote state before continuing. Don't blindly `reset --hard` or delete logs or uncommitted work. Bot commits can race with pushes/rebases.
+- `automation/expansion-14.json`: 30 candidates (27 Grab3D + 3 Poly Haven), vehicles/industrial, previously schema-validated but not queued. `automation/expansion-16.json`: 4 Grab3D creature/wildlife candidates, previously schema-validated but not queued. Re-check duplicates, rights, quality and current catalog before queueing. `automation/expansion-15.json` was identified as stale/all duplicates; do not queue without revalidation.
+
+### Recommended continuation order
+
+1. Inspect `git status`, local and remote commits, the latest run and committed report/log files. Reconcile branch safely and inspect what is actually present before any retry. Identify and retain review-ready successes and failure evidence.
+2. Fix the verified Innerscene redirect allowlist issue narrowly, and license-cache validation bug; add targeted tests including disallowed redirect targets, permitted real target, invalid terms and retry behavior. Verify correct per-source audit terms against primary evidence. Be ready for further genuine download, size, validation or license failures; don't assume one fix makes everything pass.
+3. Audit the existing balance and make a concrete plan for **diverse realistic rigged/animated humans** from multiple properly verified sources. Work on that priority first. Do not make minor Innerscene parts, the previously prepared vehicle/creature batches or low-poly fillers the main objective simply because they are ready.
+4. Requeue failed Innerscene candidates safely if they remain worthwhile as secondary work (or implement a safe, tested retry flow), respecting max 30 and request-trigger rules. Track run completion and candidate-level results; don't confuse a successful push with published assets. Review actual renders and publish only legitimate approvals; update catalog and audit. Reassess expansions 14 and 16 against the user's current priorities and the latest catalog before queueing; they are not a substitute for the human-character work. Avoid workflow cancellation or competing bot writes. Document and replace ineligible candidates as appropriate.
+5. Finish by checking real approved counts, human character quality and diversity, realistic/low-poly balance, source/category distribution, review provenance, actual human rig/animation claims, license audit, catalog and tests. Give the user accurate numbers and real blockers rather than claiming completeness from requested or quarantined quantities.
+
+## CI, development and operational details
+
+Repository as last seen: `/home/user/3d-Assets`, session branch `arena/6f1c607a-3d-assets`. In this Arena session all work was required to stay on that branch and pushes target it explicitly. A new session must follow *its own* platform branch rules; don't create/switch branches contrary to those rules.
+
+- `.github/workflows/asset-intake.yml` triggers on a push changing `automation/request.json` on the configured branch. The plan runs tests and checks, then up to five workers acquire and render; `scripts/publish-shard.sh` commits shard outputs with `[skip ci]`. A push that doesn't change the request file doesn't start this workflow; bump a valid `revision` when appropriate. Shared pipeline concurrency and `cancel-in-progress: true` can cancel an in-flight intake when another triggering request arrives. Wait for completion and integrate worker commits before queuing the next batch.
+- `gh workflow run ...` previously returned HTTP 403 “Resource not accessible by integration”; GitHub Actions log/artifact downloads were also unreliable. These are environment-specific observations, not permanent universal limits. Read committed `reports/intake/<batch>/shard-N.json`, `worker-N.log` and `quarantine/<batch>/<id>/logs/failure.txt` if APIs cannot deliver logs. `gh run list` / `gh api .../actions/runs/<id>/jobs` were usable. Retry authentication only according to the new session's policy; don't ask for secrets.
+- Local sandbox networking in the earlier session was restricted to GitHub and package registries; direct shell requests to Innerscene failed. GitHub Actions can access additional hosts. Network access is environment-specific; verify your current environment before relying on it.
+- GitHub worker commits advance the same branch, so fetch and carefully rebase/integrate, preserving both remote results and local edits. Do not delete or reset the repository or `.git`; avoid destructive resets. Avoid committing caches, `.work/`, partial payloads or huge unapproved batches; keep real approved deliverables under the existing conventions.
+- Current Poly Haven `max_package_bytes` is **12,582,912 bytes (12 MiB)**, per `config/sources.json`: select the highest available resolution fitting that source's package budget and record fallback. Seven high-detail tree/rock candidates could not fit even at 1K–2K. This is a configured implementation budget, not evidence that the user personally stipulated 12 MiB for every asset. The general HTTP per-file limit is 400 MiB; don't conflate the two or silently raise budgets. Storage/patchset constraints may vary by environment.
+- A pinned Blender is installed by CI via `.github/actions/blender`; the earlier sandbox did not have a usable local Blender. MPFB 2.0.18 uses Blender 4.2 extension package naming `bl_ext.user_default.mpfb`; see `rendering/build_makehuman.py`.
+- `rendering/author_animations.py` / `rendering/animation_rules.py` handle mechanical clips; `.github/workflows/author-animations.yml` triggers from `automation/animate-request.json`. Always verify motion frames and regenerate inventories even if no clips are authored.
+- `src/asset_library/http.py` currently applies HTTPS/host checks, transient HTTP retries and download hashing/limits. Do not retry permanent 403/404 as if transient; check redirects before consuming their bodies. Regression tests matter.
+
+### Useful commands (run from repo root; adapt Python/venv as needed)
+
+```bash
+git status --short --branch
+git fetch origin <current-branch>
+git log --oneline --decorate -15
+gh run list --branch <current-branch> --limit 10
+gh api repos/archnemix/3d-Assets/actions/runs/42071007775/jobs
+
+PYTHONPATH=src .venv/bin/python -m asset_library plan automation/expansion-21.json
+PYTHONPATH=src .venv/bin/python -m asset_library --help
+PYTHONPATH=src .venv/bin/python -m asset_library review reviews/<actual-review-file>.json
+PYTHONPATH=src .venv/bin/python -m asset_library catalog
+PYTHONPATH=src .venv/bin/python -m asset_library catalog --check
+PYTHONPATH=src .venv/bin/python -m asset_library license-audit
+PYTHONPATH=src .venv/bin/python -m asset_library license-audit --check
+PYTHONPATH=src .venv/bin/pytest -q
+.venv/bin/ruff check src tests rendering scripts
+.venv/bin/ruff format --check src tests rendering scripts
+npm run test:gallery
+npm run check:web
+```
+
+There is **no** `asset_library validate` command; use `plan`, catalog/audit checks and the actual test suite. Placeholders above are illustrative shell arguments, not literal identifiers. Check each command and the current repo before executing; apply reviews only after real review.
+
+## Final instruction
+
+Continue the actual asset-collection and publication project, not just this handoff. Make **diverse, high-quality, realistic, rigged and animated human characters** the main focus; increase realistic representation relative to low-poly, and tackle major useful real-world subjects before small detailing props. Be proactive, research diverse sources, retain useful stylized alternatives as secondary, follow the rigorous license and usability rules, and make approval/provenance honest. Keep working until the prioritized work is truly completed or a concrete blocker requires the user's help.
