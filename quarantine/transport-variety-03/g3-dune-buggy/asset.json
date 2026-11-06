@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "id": "g3-dune-buggy",
+  "title": "Open dune buggy",
+  "category": "vehicles/cars",
+  "style": "stylized",
+  "tags": [
+    "buggy",
+    "beach",
+    "off-road"
+  ],
+  "batch": "transport-variety-03",
+  "acquired_at": "2026-11-06T19:14:44.491905+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/dune-buggy.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/dune-buggy/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/dune-buggy/",
+    "source_id": "dune-buggy",
+    "revision": "0fe4ebb21f8a77702c140c912efc562ccd43cc4089e5bfe4653ce366f33f88c2",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/dune-buggy/dune-buggy.glb",
+        "bytes": 1126404,
+        "sha256": "0fe4ebb21f8a77702c140c912efc562ccd43cc4089e5bfe4653ce366f33f88c2"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/dune-buggy/LICENSE.txt"
+  },
+  "model": "model/dune-buggy.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 7,
+    "materials": 20,
+    "images": 5,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/dune-buggy_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "dune-buggy_body_normal"
+    },
+    {
+      "path": "textures/dune-buggy_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "dune-buggy_body_basecolor"
+    },
+    {
+      "path": "textures/dune-buggy_body_metallic-dune-buggy_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "dune-buggy_body_metallic-dune-buggy_body_roughness"
+    },
+    {
+      "path": "textures/dune-buggy_tire_normal.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "dune-buggy_tire_normal"
+    },
+    {
+      "path": "textures/dune-buggy_tire_color.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "dune-buggy_tire_color"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 7,
+    "hidden_mesh_objects": 0,
+    "vertices": 11964,
+    "triangles": 13945,
+    "material_slots": 20,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "dune-buggy_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "dune-buggy_body_metallic-dune-buggy_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "dune-buggy_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "dune-buggy_tire_color",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "dune-buggy_tire_normal",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 5,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 78972,
+      "sha256": "af3957c99135619f253d687aba5dc5842f27922f1df034b0e63738dd1f52e310",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "5e982700145f8467f9244475e7055553299eb2278d7901b77821f59fe9b6386e",
+      "role": "logs"
+    },
+    {
+      "path": "model/dune-buggy.glb",
+      "bytes": 1126404,
+      "sha256": "0fe4ebb21f8a77702c140c912efc562ccd43cc4089e5bfe4653ce366f33f88c2",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 25092,
+      "sha256": "62a0671688156eb7d0eab2e3b5b59222cc88f6bd540982b91bcd59df7a462e71",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 21292,
+      "sha256": "53b45cee140ca8570dcd49cffd6dfc93819a75faa34849dc3689b3be440c32db",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 221791,
+      "sha256": "ba23c7c9e1679a83ab9fef858350c6081791d40826e1f094d63611ff918469af",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1126,
+      "sha256": "ec1364a3d007aaf9568e97268d25db2d5168c2b895e7a6650dd2b2c35b5fcb7e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 34015,
+      "sha256": "3a5cad5b6abed500fd5662c1f2c966ecb3594cd7cc146ac048be406cf9fb7da3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 27914,
+      "sha256": "728086c4cc51a239b8783bfc706ac3c364b844dbc1db7c5c38944984cee4c66f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 27491,
+      "sha256": "a63646837c819aab35c8b3d09d09a20777a2a963ddd4b30d0646aca9c6f1c4ce",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 30015,
+      "sha256": "dae909b714b5406a007e711e2294d9257a0fe83de8ff554e64cf3a020891635a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 34334,
+      "sha256": "d8e352352e99e905b03f7d45f1c4e32aa3c4dd9ef193b3c51312e14c56d582b2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 30297,
+      "sha256": "1135678c1932e6ab2ea5f885bb42a3157fa166778f80970181287632829c0956",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 29451,
+      "sha256": "762547e1fb0b878e1ac0d340dd26f4656971e6dac5d1530cd0cd7d3b2e45be11",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 28450,
+      "sha256": "39c948b0d37d7aa83213e5e689bcc0431bdf1ec56e31dd07e6061eb00ef79170",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 25347,
+      "sha256": "9d423d67c48491d7dc7fb45d0f0e8e1bcaa48baf9a21263254ef28afa64f91d4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 39929,
+      "sha256": "730afcdd91486436d3667488e3fb683f4d07eaae3d0e36a72d9994b70e4e6bda",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 6546,
+      "sha256": "22f0b8d3946391b440f42869930fa75102ed2db01411df9565f69bfc3e72b8b8",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1579,
+      "sha256": "d4893ac6e3fd02e20c2e8b8501fcc0b4836790e31cbab1fe24f1bde94f73ed04",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 497,
+      "sha256": "a3938f85ae98cd8951c57bfd00b3efa67152f8bd2707b04e0eb859d6997ad14c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "75645d5fbc71e20413fd774aa2138c718af58bb51c80b534dfb8b6e6bf157ff2",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/dune-buggy_body_basecolor.jpg",
+      "bytes": 310170,
+      "sha256": "7c06aaf9e2fb227da912673d57ae4342b85c5904804b9f8b8fbecff39f0f6927",
+      "role": "textures"
+    },
+    {
+      "path": "textures/dune-buggy_body_metallic-dune-buggy_body_roughness.jpg",
+      "bytes": 277573,
+      "sha256": "d4ff1450b9cbb6893d4d2543630db1f49838339d5dfa8ad4ed726152c92c4b21",
+      "role": "textures"
+    },
+    {
+      "path": "textures/dune-buggy_body_normal.jpg",
+      "bytes": 66817,
+      "sha256": "e7cd45faed5948a2ee2043d1703e371e7e4db37dace0f5515568c875f208a4f8",
+      "role": "textures"
+    },
+    {
+      "path": "textures/dune-buggy_tire_color.jpg",
+      "bytes": 1464,
+      "sha256": "8e626e6a09cf9dd069cbb7646ea8a729268349916b569fb154f952aaecec3fd6",
+      "role": "textures"
+    },
+    {
+      "path": "textures/dune-buggy_tire_normal.jpg",
+      "bytes": 1851,
+      "sha256": "70c68a6fc74a53d9bd96adc5eac23e75eef775b7db492277f229f5d63484f71f",
+      "role": "textures"
+    }
+  ]
+}

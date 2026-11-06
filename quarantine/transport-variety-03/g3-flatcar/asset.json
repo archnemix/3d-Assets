@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "id": "g3-flatcar",
+  "title": "Railway log flatcar",
+  "category": "vehicles/rail",
+  "style": "stylized",
+  "tags": [
+    "flatcar",
+    "logs",
+    "rail"
+  ],
+  "batch": "transport-variety-03",
+  "acquired_at": "2026-11-06T19:20:01.922872+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/flatcar.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/flatcar/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/flatcar/",
+    "source_id": "flatcar",
+    "revision": "ad6281ee6694e56fcf8b501ca29e3430d1a2fd681d382ffbb5beaeeff9820d25",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/flatcar/flatcar.glb",
+        "bytes": 2227080,
+        "sha256": "ad6281ee6694e56fcf8b501ca29e3430d1a2fd681d382ffbb5beaeeff9820d25"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/flatcar/LICENSE.txt"
+  },
+  "model": "model/flatcar.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/flatcar_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "flatcar_body_normal"
+    },
+    {
+      "path": "textures/flatcar_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "flatcar_body_basecolor"
+    },
+    {
+      "path": "textures/flatcar_body_metallic-flatcar_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "flatcar_body_metallic-flatcar_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 35906,
+    "triangles": 33684,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 368,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "flatcar_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "flatcar_body_metallic-flatcar_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "flatcar_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67987,
+      "sha256": "20cf66f2b61d48d20ddcca2977832e8a7fd87dba2d8d58be56701d6c6b1b10e7",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/flatcar.glb",
+      "bytes": 2227080,
+      "sha256": "ad6281ee6694e56fcf8b501ca29e3430d1a2fd681d382ffbb5beaeeff9820d25",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 23877,
+      "sha256": "eaebdfc25188128d25613a91d8e8f1c6602916a8a8292588aacb5e3e73838f61",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 24912,
+      "sha256": "80ee31a679b5953289d65dfbe5bc58c398d259979c0ed0d961261feda3699148",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 216669,
+      "sha256": "d5488464e36b6d237821a15e465c3eb33d2e0f09f57a1ce8e8f65bc4ac071f9c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 814,
+      "sha256": "9eab43fc3d9f8364168f6e7abc33cb7aa374491b9bcc5a29861a53d3616bcf23",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 38268,
+      "sha256": "7999b7ca85f0ae9d03cb09f945bdd5b4fc52dab045e47d32c399e24758032145",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 29717,
+      "sha256": "81f140925f2c1b18d6b828d1a2acc0cd5111737a265acae849b5c5b16d89a702",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 22513,
+      "sha256": "1e877a2ba5f40e2f6f05a70c59a3316ff1bf08ab8af0af3749181049529db391",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 29571,
+      "sha256": "affe8f8c70992652ff3ea336bc9defd9cc2e167c0424bcf82a9705f36822f6de",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 37434,
+      "sha256": "af9141285fcc43d8b7909f09e6b94a7ad6482d9b8b21e199db773fa8ff521219",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 31755,
+      "sha256": "f98ba035e2029c647aea1b3a643e5532b338ba8971b871ee387fb40d33dc532d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 24072,
+      "sha256": "04dbdbc7cd92f6707e73f87e468c9f61c2bc2d3d87105c0d566bd72f4c9d7808",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 31563,
+      "sha256": "bb645e8806cfdf67d82cfb8c9547d2c536e842e9895ace1c03745bc973b81368",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 21550,
+      "sha256": "b576e6c8fbff4d553d08f0d150835fef610a30e89adc777e98dbddc3b84a3b2b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 43835,
+      "sha256": "71587ce4b7f32a2de45d3d45a4f8c88838e7a5b9a2253b43d585e60fb2073a3e",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1930,
+      "sha256": "2a08a199bf143d0d0277b5548386bec68afee769b2797ecc3dc08052d7a7feb0",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1923,
+      "sha256": "fb34c4207d8785f4ae678368be429c8ae61bb1da955ee221bea877d76ea49b5b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 473,
+      "sha256": "3ef6d1c95ba6e6c524edd13dd4ca7847f1a520c834cb14ae23863163ea7be210",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "8390a0077aef9d001697b7223c03362053fa6e09ad395a44c066b178e0d164b2",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/flatcar_body_basecolor.jpg",
+      "bytes": 438111,
+      "sha256": "8277d3f3e2a3243f2f946550357f3c8ce13cad328cea469b774ebf8db79c40ad",
+      "role": "textures"
+    },
+    {
+      "path": "textures/flatcar_body_metallic-flatcar_body_roughness.jpg",
+      "bytes": 350954,
+      "sha256": "b9fd76334450449851a6025b8b01f4ef873f11fe8866d740472cc57592e35e60",
+      "role": "textures"
+    },
+    {
+      "path": "textures/flatcar_body_normal.jpg",
+      "bytes": 84251,
+      "sha256": "1adb3f71f67ef62bf5326c409558e8a239b490789ef903b44fc89df1362c51fa",
+      "role": "textures"
+    }
+  ]
+}
