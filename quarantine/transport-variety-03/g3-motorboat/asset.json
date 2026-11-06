@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "id": "g3-motorboat",
+  "title": "Outboard runabout motorboat",
+  "category": "vehicles/watercraft",
+  "style": "stylized",
+  "tags": [
+    "motorboat",
+    "outboard",
+    "water"
+  ],
+  "batch": "transport-variety-03",
+  "acquired_at": "2026-11-06T19:12:46.009441+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/motorboat.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/motorboat/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/motorboat/",
+    "source_id": "motorboat",
+    "revision": "22860e4c78fe1ca671fe43e1e20f7adc1b9795bbde49adcec93355635dc0baf7",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/motorboat/motorboat.glb",
+        "bytes": 1071624,
+        "sha256": "22860e4c78fe1ca671fe43e1e20f7adc1b9795bbde49adcec93355635dc0baf7"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/motorboat/LICENSE.txt"
+  },
+  "model": "model/motorboat.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 3,
+    "materials": 3,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/motorboat_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "motorboat_body_normal"
+    },
+    {
+      "path": "textures/motorboat_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "motorboat_body_basecolor"
+    },
+    {
+      "path": "textures/motorboat_body_metallic-motorboat_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "motorboat_body_metallic-motorboat_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 3,
+    "hidden_mesh_objects": 0,
+    "vertices": 11936,
+    "triangles": 15248,
+    "material_slots": 3,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "motorboat_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "motorboat_body_metallic-motorboat_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "motorboat_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 69352,
+      "sha256": "9c48d67884e3d21ca86ae61d08d7277c3fd08a2b46948c76f8a747e9fbca1da7",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "7a84b1176b57bddbfccfe590d5ecd76472fb03d3866c0291e9264bd0bf7be862",
+      "role": "logs"
+    },
+    {
+      "path": "model/motorboat.glb",
+      "bytes": 1071624,
+      "sha256": "22860e4c78fe1ca671fe43e1e20f7adc1b9795bbde49adcec93355635dc0baf7",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 18291,
+      "sha256": "9a0607cc1f485d33c5b3cf9e4f7e27ea1df75415badd69df0a0e7cec6ada3355",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18637,
+      "sha256": "ed94ece6159e670843909231047e23665d59eb15150def8de5965afd704ffe63",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 191519,
+      "sha256": "5be669a02071dd00544a583c6d452d74e53e25ff1819a8e9fccb98a371a72515",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 820,
+      "sha256": "8fc9e82d58c1651421f3915ed4223020980d31f4b200a1373baaad96209189fc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 30957,
+      "sha256": "7513bf2ce8aeb82a5131f56bc1533e852a4f893cad90c7ba0d66cb9835d3ae6a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 24597,
+      "sha256": "f7b198ed40d42ebe4c156ac79f3247c544504402e37df800cd52a0e189cb0bcb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 19499,
+      "sha256": "5111a9b011ebf92ab47238c9de57790a711f4f74511544789bab3a30d49d4942",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 26157,
+      "sha256": "5ca46573ae7f0ab8f7b19436734e0173746cad961832c35f704d5bdac5d5bc65",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 32378,
+      "sha256": "af620244f821090c32740577b2da603e85a81c1f6d5f0d9ab4f489cbf4cf26ed",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 26884,
+      "sha256": "ab7e6ecf0a1fdfb13c6d14de0a62fde88e1d29452a26c8b89f523fba47c6255b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 20142,
+      "sha256": "69f08af15c9c04834d2893c5c30053c02e2adb38aacba6f098ded2746b941b0f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 25793,
+      "sha256": "be27f48e526cb7a2517f767cb0a4d6449cdff569abceac4100db3f6e331b5fa2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 19665,
+      "sha256": "a340f8536a49ad00871a57b34b956e65641ceedb4983eb6c9d71a2e3ca8768c5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 38643,
+      "sha256": "6df3b53884315eb90e1e8cfdfa859cab4eddd0fa662b3eb94a3378595325b6cc",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2308,
+      "sha256": "948639f4ca556aba018378d4a1e733a7fea59b7a73385f42a5a1dba33640adf9",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1667,
+      "sha256": "e124d756f992ee9df41ddd042b334162a5f8f6293a10b70e0c6dd9dbc3523f32",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 489,
+      "sha256": "db12561efa83b251846a42cde107d6bd9c9866befc3c0a872a3aa6d5e0e5c00a",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "49a7e8ef817135c2629a6c20944ce47d804fed5d68bcd8df4038fc3d718dc6bc",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/motorboat_body_basecolor.jpg",
+      "bytes": 264951,
+      "sha256": "2b92fe4d258b7ed1e43edc954478c60a0cfaf1c7ced83c7dc900e5b057c8d643",
+      "role": "textures"
+    },
+    {
+      "path": "textures/motorboat_body_metallic-motorboat_body_roughness.jpg",
+      "bytes": 260041,
+      "sha256": "2c12738c47d0823e331c4814b8f49ef5f88362404466813581b8fe243c3e4c16",
+      "role": "textures"
+    },
+    {
+      "path": "textures/motorboat_body_normal.jpg",
+      "bytes": 68230,
+      "sha256": "9c8e77ec64bfd69d3a492284c60ac1a7d1151742cf90f68000113b24bd080e00",
+      "role": "textures"
+    }
+  ]
+}
