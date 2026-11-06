@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "id": "g3-atv-quad",
+  "title": "Four-wheeled ATV",
+  "category": "vehicles/cars",
+  "style": "stylized",
+  "tags": [
+    "atv",
+    "off-road",
+    "quad"
+  ],
+  "batch": "transport-variety-03",
+  "acquired_at": "2026-11-06T19:12:13.428427+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/atv-quad.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/atv-quad/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/atv-quad/",
+    "source_id": "atv-quad",
+    "revision": "fa07b477cd927072c6121c4870736f3494e3587c957c396bd01ec49468cc1ac2",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/atv-quad/atv-quad.glb",
+        "bytes": 1096072,
+        "sha256": "fa07b477cd927072c6121c4870736f3494e3587c957c396bd01ec49468cc1ac2"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/atv-quad/LICENSE.txt"
+  },
+  "model": "model/atv-quad.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 6,
+    "materials": 21,
+    "images": 5,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/atv-quad_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "atv-quad_body_normal"
+    },
+    {
+      "path": "textures/atv-quad_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "atv-quad_body_basecolor"
+    },
+    {
+      "path": "textures/atv-quad_body_metallic-atv-quad_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "atv-quad_body_metallic-atv-quad_body_roughness"
+    },
+    {
+      "path": "textures/atv-quad_tire_normal.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "atv-quad_tire_normal"
+    },
+    {
+      "path": "textures/atv-quad_tire_color.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "atv-quad_tire_color"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 6,
+    "hidden_mesh_objects": 0,
+    "vertices": 13806,
+    "triangles": 18120,
+    "material_slots": 21,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "atv-quad_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "atv-quad_body_metallic-atv-quad_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "atv-quad_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "atv-quad_tire_color",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "atv-quad_tire_normal",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 5,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 78090,
+      "sha256": "e991bc0a75dfdc93e0a05c3b9a7b108d1e17df8c0bbe2561c0c3a382d82e855f",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "63f77c370709318ae448f255cb252a6f654225ba92bb919a125a29bf35eb4db0",
+      "role": "logs"
+    },
+    {
+      "path": "model/atv-quad.glb",
+      "bytes": 1096072,
+      "sha256": "fa07b477cd927072c6121c4870736f3494e3587c957c396bd01ec49468cc1ac2",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 34128,
+      "sha256": "5f1ba8013c83ec0137d8e1713ffb03b656a31ed3fd37ed6dc68fb37c5755dc4f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 27138,
+      "sha256": "754268c454a2e205f2ae94573563a15a655f7844dbb13d62c103abb0728950c6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 274997,
+      "sha256": "53c68eaa8fb6def98d4dfd18a67ab18b84eb2878c530e06b5ed50a08170b4dba",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1114,
+      "sha256": "a0b41dc63caf9866da3759ae523842bed75baf757cefde3ad3fa82abf6acf9a6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 45051,
+      "sha256": "bc498b51c94da21f6ede008ba6c22fe4de81186b23cb639fe2740d08174445a2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 36561,
+      "sha256": "1f6f3ac619232919976762aad6f483070c3ff55515d986fbd2101ba7bdd0db8b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 33109,
+      "sha256": "43c1e72443cafdd430e08d48d2350b158e2ddab097c30c85498cdb706addc3cb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 35226,
+      "sha256": "b192102d034ea84ca2726b80771fc0a1ddea6e13996661cb1b432a7f2d9a3c85",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 39118,
+      "sha256": "3e32f7f51dcd680116e43d434c44dc3d87630672caee281f27a8d9a78a37c46f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 36275,
+      "sha256": "240a9fcd7f4bf441ae385f18140dfebacbacff14d0be0205c8311114094640e9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 34926,
+      "sha256": "d4ae5db68a67ed997ff22b9dfcb0b63397e39213fe28c1db564844d0975e0609",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 37415,
+      "sha256": "d9a3f016bbdca6c920cdee161e2844da7c862b9c49f5cbf07bb344bea86506c7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 30385,
+      "sha256": "f8e6d6baf68cec773c996fbc5788666f87077350793ef329a350bab86816a489",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 52064,
+      "sha256": "d425a6fe7fc3b51cc280edda75601bff640189d06426faeba8fec9a6e688ea5c",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 6732,
+      "sha256": "1d10c3b6c1149c84f9be5c4a094c3fa983d4af7ca5364245695d7f4122ce9311",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1503,
+      "sha256": "e87614ba3d6716cac02390ab784027f4943373f83822442509fd212393c702ba",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 481,
+      "sha256": "0e90e3ed8e687275b4b92f4b83d02b227980d5d86f0682f73d0fc3606fd1b48f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "6fa5975de4f1b93cbb60a7196314349ff6cbe0996f2738ce550689afcc16639b",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/atv-quad_body_basecolor.jpg",
+      "bytes": 231585,
+      "sha256": "c94548490d247488bfa2fad55651659def2ee2da3f5c554d685080cd9a5233d3",
+      "role": "textures"
+    },
+    {
+      "path": "textures/atv-quad_body_metallic-atv-quad_body_roughness.jpg",
+      "bytes": 258048,
+      "sha256": "054642163c817c61dfe02c03d5ead1d1d24c611b1231f4db04d1141263b5603f",
+      "role": "textures"
+    },
+    {
+      "path": "textures/atv-quad_body_normal.jpg",
+      "bytes": 67189,
+      "sha256": "0a549fb385f5d37c6b7fcbdb31bc01ef6572ae5da2ae6e019d57fd7a4344a68e",
+      "role": "textures"
+    },
+    {
+      "path": "textures/atv-quad_tire_color.jpg",
+      "bytes": 1464,
+      "sha256": "8e626e6a09cf9dd069cbb7646ea8a729268349916b569fb154f952aaecec3fd6",
+      "role": "textures"
+    },
+    {
+      "path": "textures/atv-quad_tire_normal.jpg",
+      "bytes": 1851,
+      "sha256": "70c68a6fc74a53d9bd96adc5eac23e75eef775b7db492277f229f5d63484f71f",
+      "role": "textures"
+    }
+  ]
+}
