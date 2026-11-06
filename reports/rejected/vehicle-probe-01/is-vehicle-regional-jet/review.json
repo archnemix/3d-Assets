@@ -1,0 +1,22 @@
+{
+  "id": "is-vehicle-regional-jet",
+  "decision": "rejected",
+  "scores": {
+    "silhouette": 4,
+    "materials": 3,
+    "topology": 4,
+    "completeness": 3,
+    "style_fit": 2
+  },
+  "notes": "The twelve-view renders show a clean, generic jet silhouette but very simplified windows, cockpit and exterior surfaces; this does not meet the requested high-realism detail. No interior was verified.",
+  "limitations": [
+    "No animation actions or authored clips detected; no functional mechanics verified."
+  ],
+  "contact_sheet_sha256": "9126a9e2af44f473e30566e0ed3839143679e00935bfac5a445fbddc52f7164e",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports",
+  "status": "rejected",
+  "approved": false
+}

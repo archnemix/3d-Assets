@@ -1,0 +1,22 @@
+{
+  "id": "is-vehicle-tugboat",
+  "decision": "rejected",
+  "scores": {
+    "silhouette": 4,
+    "materials": 3,
+    "topology": 4,
+    "completeness": 3,
+    "style_fit": 2
+  },
+  "notes": "The twelve-view renders show a recognizable tug but a blocky wheelhouse, simple windows and sparse deck detail. It falls short of the requested high-realism finish. No interior was verified.",
+  "limitations": [
+    "Validator reports ten warnings; no animation actions or authored clips detected."
+  ],
+  "contact_sheet_sha256": "fbe374786b9596facb17a5d88138031e8ca405b08f2718f86a6452e8ed626b35",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports",
+  "status": "rejected",
+  "approved": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "is-vehicle-sport-motorcycle",
+  "decision": "rejected",
+  "scores": {
+    "silhouette": 4,
+    "materials": 3,
+    "topology": 3,
+    "completeness": 3,
+    "style_fit": 3
+  },
+  "notes": "The twelve-view renders show a recognizable motorcycle and exposed frame, but the engine and body are simplified and the finish is visibly synthetic rather than ultra-realistic. Eight zero-area triangles were reported.",
+  "limitations": [
+    "No animation actions or authored clips detected; wheels and steering were not functionally verified."
+  ],
+  "contact_sheet_sha256": "d8792f076c002b6927498e3df2161c271c08469793eb945add913529b199fe6c",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports",
+  "status": "rejected",
+  "approved": false
+}

@@ -1,0 +1,55 @@
+{
+  "batch": "vehicle-probe-01",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "decisions": [
+    {
+      "id": "is-vehicle-regional-jet",
+      "decision": "rejected",
+      "scores": {
+        "silhouette": 4,
+        "materials": 3,
+        "topology": 4,
+        "completeness": 3,
+        "style_fit": 2
+      },
+      "notes": "The twelve-view renders show a clean, generic jet silhouette but very simplified windows, cockpit and exterior surfaces; this does not meet the requested high-realism detail. No interior was verified.",
+      "limitations": [
+        "No animation actions or authored clips detected; no functional mechanics verified."
+      ],
+      "contact_sheet_sha256": "9126a9e2af44f473e30566e0ed3839143679e00935bfac5a445fbddc52f7164e"
+    },
+    {
+      "id": "is-vehicle-tugboat",
+      "decision": "rejected",
+      "scores": {
+        "silhouette": 4,
+        "materials": 3,
+        "topology": 4,
+        "completeness": 3,
+        "style_fit": 2
+      },
+      "notes": "The twelve-view renders show a recognizable tug but a blocky wheelhouse, simple windows and sparse deck detail. It falls short of the requested high-realism finish. No interior was verified.",
+      "limitations": [
+        "Validator reports ten warnings; no animation actions or authored clips detected."
+      ],
+      "contact_sheet_sha256": "fbe374786b9596facb17a5d88138031e8ca405b08f2718f86a6452e8ed626b35"
+    },
+    {
+      "id": "is-vehicle-sport-motorcycle",
+      "decision": "rejected",
+      "scores": {
+        "silhouette": 4,
+        "materials": 3,
+        "topology": 3,
+        "completeness": 3,
+        "style_fit": 3
+      },
+      "notes": "The twelve-view renders show a recognizable motorcycle and exposed frame, but the engine and body are simplified and the finish is visibly synthetic rather than ultra-realistic. Eight zero-area triangles were reported.",
+      "limitations": [
+        "No animation actions or authored clips detected; wheels and steering were not functionally verified."
+      ],
+      "contact_sheet_sha256": "d8792f076c002b6927498e3df2161c271c08469793eb945add913529b199fe6c"
+    }
+  ]
+}
