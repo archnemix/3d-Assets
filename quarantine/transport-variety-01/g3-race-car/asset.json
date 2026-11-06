@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "id": "g3-race-car",
+  "title": "Open-wheel race car",
+  "category": "vehicles/cars",
+  "style": "stylized",
+  "tags": [
+    "race-car",
+    "open-wheel",
+    "road"
+  ],
+  "batch": "transport-variety-01",
+  "acquired_at": "2026-11-06T14:40:14.189014+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/race-car.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/race-car/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/race-car/",
+    "source_id": "race-car",
+    "revision": "8470d027c8a61d9f5192f42ef5c5247fcec0f380c4395b2e985a37c90bb2dcbf",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/race-car/race-car.glb",
+        "bytes": 1180436,
+        "sha256": "8470d027c8a61d9f5192f42ef5c5247fcec0f380c4395b2e985a37c90bb2dcbf"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/race-car/LICENSE.txt"
+  },
+  "model": "model/race-car.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 7,
+    "materials": 20,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/race-car_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "race-car_body_normal"
+    },
+    {
+      "path": "textures/race-car_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "race-car_body_basecolor"
+    },
+    {
+      "path": "textures/race-car_body_metallic-race-car_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "race-car_body_metallic-race-car_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 7,
+    "hidden_mesh_objects": 0,
+    "vertices": 14783,
+    "triangles": 19440,
+    "material_slots": 20,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "race-car_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "race-car_body_metallic-race-car_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "race-car_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 76711,
+      "sha256": "0332090bb341ef69ff662c315cf238f3c8c59e030b0eef999d359e25400e6140",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "b80361a29b3361982c42e4a36d50572af9e716d805c60d48e60dce30d259385b",
+      "role": "logs"
+    },
+    {
+      "path": "model/race-car.glb",
+      "bytes": 1180436,
+      "sha256": "8470d027c8a61d9f5192f42ef5c5247fcec0f380c4395b2e985a37c90bb2dcbf",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 17349,
+      "sha256": "19202f025c3723b72e4de7a14aaf32fa5e6c79de93f62dee9a8d7d664401665b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 21353,
+      "sha256": "60d9e5d3a9848351428a89702a8aaad89744e304188ad14e8ec92522e39244c3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 202810,
+      "sha256": "7a40f64f7f8ce24244775e1b4fb6a8533b32a88fc4ae39e5c5aefaa62fa9aae7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 817,
+      "sha256": "bb65f05b481c34b4d230a43eef5000cc44bb4b19bbf8dae6a30828dde9a21e45",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 41959,
+      "sha256": "b42c6da1d1a3686e94138a8869409d9e06e5d1012770bec38cb0f6e1fb280565",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 25032,
+      "sha256": "3e765d21a7a8d9d2efccb621232cdcfde4e3467214178a7dd22dffbfe38d7107",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 21235,
+      "sha256": "955f958950f8d9fcba2246322913b5ff0ec3b4996d0961f5e8695e2378e83969",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 22423,
+      "sha256": "5fe548f69a74e20818e639fb0079e00d6dd3cacda9296cfdbbe1ec20a0b05a01",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 40724,
+      "sha256": "a794e24fef18a06c95779debffd097aee51184181f09565ffdb628cd1495c5ed",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 22835,
+      "sha256": "c0f0cb8e97cee0dc15414562328607fa25c6bc8a4b4d2aab2f7e8206fe2b39ef",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 21984,
+      "sha256": "ec4db244c58dfbe747eea0ed257b92c438d7ec0f67d26c640fe1046ec4757522",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 25488,
+      "sha256": "3cdcb39de4ca26c97ec1a69f10e9d375d4cc196e3a154b7602b80e2585f0a5ef",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 24131,
+      "sha256": "e4d1d6c33aba44bea3a4029cf3d9ed81e6bf1aca06f7b189747253d192687737",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 37404,
+      "sha256": "7101781a2631a2f171dbd4f352027a6f6a80322074ff96b630ce763e8ef11e47",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 5506,
+      "sha256": "03b071cee90975e5cf5a4ad40dfa24428c38b6a27dc8f2096465ecec3f4b1f3e",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1615,
+      "sha256": "5da999c7ba30c73cf8364300c1c88011efa5a23ff3071240a0553bf58df7741f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 481,
+      "sha256": "f22b50fea0f697524594b32d0fbadd4fbbae0fa2a81fc7a2d6ff1d6692913d03",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "fa1a0a4d1d1dcefb871a65febb5c093f499f4e6e02435e8bf6c0de80d673117e",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/race-car_body_basecolor.jpg",
+      "bytes": 297850,
+      "sha256": "7baaba2822ef41212398c107917669f1c4208cb54c44e02e55bee760ec253453",
+      "role": "textures"
+    },
+    {
+      "path": "textures/race-car_body_metallic-race-car_body_roughness.jpg",
+      "bytes": 219438,
+      "sha256": "64603e585de6cb2039ca0679587bd1ddaf56fbfa30f3a607a5e14c2bcc31ad3c",
+      "role": "textures"
+    },
+    {
+      "path": "textures/race-car_body_normal.jpg",
+      "bytes": 67026,
+      "sha256": "2ad528993d6e346b1ca9e7105e97adddccee19db5fee796f89f8ad9764e66ed5",
+      "role": "textures"
+    }
+  ]
+}

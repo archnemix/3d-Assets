@@ -1,0 +1,47 @@
+{
+  "slug": "race-car",
+  "triangles": 19440,
+  "texture_px": 2048,
+  "triangles_light": null,
+  "texture_px_light": null,
+  "files": {
+    "glb": {
+      "name": "race-car.glb",
+      "bytes": 1180436
+    },
+    "blend": {
+      "name": "race-car.blend",
+      "bytes": 1136502
+    },
+    "fbx": {
+      "name": "race-car.fbx",
+      "bytes": 2219212
+    },
+    "obj": {
+      "name": "race-car-obj.zip",
+      "bytes": 1133168
+    },
+    "usdz": {
+      "name": "race-car.usdz",
+      "bytes": 1887476
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "1.920 x 5.280 x 1.018",
+    "triangles": 19440,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-09-26",
+    "real_size": "open-wheel formula race car, approx. 5.2 x 2.0 x 1.0 m (L x W x H), wheel diameter 0.68 m (front) / 0.72 m (rear)",
+    "notes": "front faces -Y; 4 wheels are separate objects with origin on the axle (rotate around local X to roll; the front wheels can also steer around local Z); the steering wheel (race-car_steering_wheel) is a separate object with origin at its hub; open cockpit with seat, halo safety bar; no sponsors, no start number, no brand, no text",
+    "set": "Cozy Boats & Aircraft Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}

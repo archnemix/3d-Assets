@@ -1,0 +1,47 @@
+{
+  "slug": "tram",
+  "triangles": 29124,
+  "texture_px": 2048,
+  "triangles_light": null,
+  "texture_px_light": null,
+  "files": {
+    "glb": {
+      "name": "tram.glb",
+      "bytes": 1614300
+    },
+    "blend": {
+      "name": "tram.blend",
+      "bytes": 1268421
+    },
+    "fbx": {
+      "name": "tram.fbx",
+      "bytes": 2853964
+    },
+    "obj": {
+      "name": "tram-obj.zip",
+      "bytes": 1245416
+    },
+    "usdz": {
+      "name": "tram.usdz",
+      "bytes": 2190663
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "3.300 x 22.600 x 5.237",
+    "triangles": 29124,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-09-26",
+    "real_size": "two-section articulated tram on a short street track piece, approx. 20.7 x 2.4 x 5.2 m (L x W x H incl. raised pantograph; car body height 3.5 m above rail), wheel diameter 0.68 m, standard gauge 1435 mm",
+    "notes": "front faces -Y; both ends have a driver's cab; doors (coral, closed) on the right-hand side; the pantograph arms (tram_pantograph_arms) are a separate object with origin on the hinge of the fixed base frame (tram_pantograph_base) - rotate around local X (glTF X) by about -30 deg to lower them onto the roof; 12 wheels on 3 bogies (one Jacobs bogie under the articulation) are separate objects with origin on the axle (rotate around local X to roll); the track embedded in paving (tram_track) is a separate object, rail top at 0.30 m; neutral glowing destination displays without text or line number; opaque tinted windows, no interior; no brand, no text",
+    "set": "Cozy Boats & Aircraft Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}

@@ -1,0 +1,376 @@
+{
+  "schema_version": 1,
+  "id": "g3-dump-truck",
+  "title": "Dump truck",
+  "category": "vehicles/trucks",
+  "style": "stylized",
+  "tags": [
+    "dump",
+    "truck",
+    "construction"
+  ],
+  "batch": "transport-variety-01",
+  "acquired_at": "2026-11-06T14:38:43.532361+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/dump-truck.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/dump-truck/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/dump-truck/",
+    "source_id": "dump-truck",
+    "revision": "857592a26a3ae81000378b1ecf1b80c3681f8ecc222cd1c9a49630dff876be00",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/dump-truck/dump-truck.glb",
+        "bytes": 2375472,
+        "sha256": "857592a26a3ae81000378b1ecf1b80c3681f8ecc222cd1c9a49630dff876be00"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/dump-truck/LICENSE.txt"
+  },
+  "model": "model/dump-truck.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 11,
+    "materials": 24,
+    "images": 6,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/dump-truck_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "dump-truck_body_normal"
+    },
+    {
+      "path": "textures/dump-truck_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "dump-truck_body_basecolor"
+    },
+    {
+      "path": "textures/dump-truck_body_metallic-dump-truck_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "dump-truck_body_metallic-dump-truck_body_roughness"
+    },
+    {
+      "path": "textures/dump-truck_tipper_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "dump-truck_tipper_normal"
+    },
+    {
+      "path": "textures/dump-truck_tipper_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "dump-truck_tipper_basecolor"
+    },
+    {
+      "path": "textures/dump-truck_tipper_metallic-dump-truck_tipper_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "dump-truck_tipper_metallic-dump-truck_tipper_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 11,
+    "hidden_mesh_objects": 0,
+    "vertices": 27810,
+    "triangles": 34442,
+    "material_slots": 24,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "dump-truck_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "dump-truck_body_metallic-dump-truck_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "dump-truck_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "dump-truck_tipper_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "dump-truck_tipper_metallic-dump-truck_tipper_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "dump-truck_tipper_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 88495,
+      "sha256": "cb5ffc0db5304b5f43675da6ab2b70db94f80ac7b2b69cdc6ff1c04a6ca8da80",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "92561db7f0625d3d72a4b273398525dd70e43b5eba2046888f20a9e21b57b3f9",
+      "role": "logs"
+    },
+    {
+      "path": "model/dump-truck.glb",
+      "bytes": 2375472,
+      "sha256": "857592a26a3ae81000378b1ecf1b80c3681f8ecc222cd1c9a49630dff876be00",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 24420,
+      "sha256": "be09c84c285e37542949fa955ad72f5478628ee7092bd1040accad28982624e8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 24400,
+      "sha256": "293bf05a6168040fd1a409df5f837d97dd2c7f3e40e61273ce8ff87059b53f3d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 219481,
+      "sha256": "8c8c19002e9fe8a91aedfa903c7f47ed0cc53ebb1e64efacafa3ac5fbdd169a2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1327,
+      "sha256": "44371440476c0e565dd7a371742d7c104c6f06c08adf4480112df44fa44dfc59",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 27839,
+      "sha256": "fbfc4ba0dcccfa865e52517a8c8e52ed89de09697b41586fb5d0601e5e00c0c9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 31189,
+      "sha256": "d6ba9b15a8a64caa14bed3d10585f7fe19c336232a6af4b3bce04b8159476ce4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 25256,
+      "sha256": "0c319b15c65f8212d348e01c93853b84d1f78ca54e05eafb5ec0d48d046b7698",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 31436,
+      "sha256": "c196d4c3788b14efe73428b3245c2e3922a1af6240797d120df37bd27500dfaf",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 27062,
+      "sha256": "9abccaa12adf29cd436f17622255fad2b6d8dcf1e4a48185f54cc5b8139d7a91",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 32230,
+      "sha256": "1c75b6d718ebce816fc857d37de4425318a689dcfbf891a31a6e6db748f0c3c9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 26660,
+      "sha256": "4e4ae8ce48feb0cd0e1e142d34b789b57c179dc0643238f5be75b783db8c697d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 32306,
+      "sha256": "894005dc50bc1b8a75cea13a48744b0173b619753fc0a098e5a4477f6fa9aa2b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 15952,
+      "sha256": "e4109f9ac3e127f5f6efc0525ce198ad6f62ae2b8b7b87231ec1852899aaf8e0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 52854,
+      "sha256": "1797f2d816c7468d9fb2621f2090ca351bb7b877cc1286e319a9b724842d0723",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 7132,
+      "sha256": "1b1d7c17489654595fd4b27b0c6308d05dcddcd7e30d91afdd9939d119b0df16",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1702,
+      "sha256": "1d51d1dedf58a6c8b5046ee687f20f9557bb10817730e69cd5abe9d5309a4cee",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 497,
+      "sha256": "98529ecec74ff00c18c24157c458d0dc1a9c4f47763d446baa4294f14da99995",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "a6c7c20328be83222859c7399b286ebe0ddcc5a466de202cbef6ed65e4673770",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/dump-truck_body_basecolor.jpg",
+      "bytes": 286436,
+      "sha256": "8506bd7647eb1e01694bba1cc05d875a74aff0d91a8b482ae42a888049e30310",
+      "role": "textures"
+    },
+    {
+      "path": "textures/dump-truck_body_metallic-dump-truck_body_roughness.jpg",
+      "bytes": 358811,
+      "sha256": "f97add1caf3ca5859e42754c603b3f8a09607ff0ce6f452fdbd962c6bcf1dcf4",
+      "role": "textures"
+    },
+    {
+      "path": "textures/dump-truck_body_normal.jpg",
+      "bytes": 67647,
+      "sha256": "76577743225362702513ae6eb6e2e06ebd39c64f1149e487e95f75ce72f868b7",
+      "role": "textures"
+    },
+    {
+      "path": "textures/dump-truck_tipper_basecolor.jpg",
+      "bytes": 243075,
+      "sha256": "5184553a6c664c767ba665a9df5d5e1556c8b917e0407e4a4228380ddeeba423",
+      "role": "textures"
+    },
+    {
+      "path": "textures/dump-truck_tipper_metallic-dump-truck_tipper_roughness.jpg",
+      "bytes": 259710,
+      "sha256": "fcac2a770960be6a9eafb6570e39bb693fe702d9fdb7b7cef9074002b90cee8f",
+      "role": "textures"
+    },
+    {
+      "path": "textures/dump-truck_tipper_normal.jpg",
+      "bytes": 68389,
+      "sha256": "56c44c88dcb27dffe7a9e272edfd97ebce2856c3b3d102a9a9a227895f79c9d6",
+      "role": "textures"
+    }
+  ]
+}

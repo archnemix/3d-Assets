@@ -1,0 +1,47 @@
+{
+  "slug": "steam-train",
+  "triangles": 44282,
+  "texture_px": 2048,
+  "triangles_light": null,
+  "texture_px_light": null,
+  "files": {
+    "glb": {
+      "name": "steam-train.glb",
+      "bytes": 2301144
+    },
+    "blend": {
+      "name": "steam-train.blend",
+      "bytes": 1653950
+    },
+    "fbx": {
+      "name": "steam-train.fbx",
+      "bytes": 3897964
+    },
+    "obj": {
+      "name": "steam-train-obj.zip",
+      "bytes": 1802027
+    },
+    "usdz": {
+      "name": "steam-train.usdz",
+      "bytes": 3129946
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "2.880 x 11.200 x 3.890",
+    "triangles": 44282,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-09-26",
+    "real_size": "steam locomotive with tender on a short track, approx. 11 x 2.8 x 4.3 m (L x W x H incl. track), locomotive 6.6 m, driving wheel diameter 1.2 m, standard gauge 1435 mm",
+    "notes": "front faces -Y; 12 wheels are separate objects with origin on the axle (rotate around local X to roll); coupling rods (steam-train_coupling_rod_l/_r) are separate objects with origin on the middle crank pin: keep their orientation and move the origin on a circle of radius 0.30 m around the middle driving axle in step with the wheel rotation (left side leads the right side by 90 deg); the track (steam-train_track) is a separate object, rail top at 0.30 m; opaque tinted windows, no interior; neutral star emblem, no brand, no text",
+    "set": "Cozy Vehicles Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}

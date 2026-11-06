@@ -1,0 +1,47 @@
+{
+  "slug": "dump-truck",
+  "triangles": 34442,
+  "texture_px": 2048,
+  "triangles_light": null,
+  "texture_px_light": null,
+  "files": {
+    "glb": {
+      "name": "dump-truck.glb",
+      "bytes": 2375472
+    },
+    "blend": {
+      "name": "dump-truck.blend",
+      "bytes": 1817969
+    },
+    "fbx": {
+      "name": "dump-truck.fbx",
+      "bytes": 4107020
+    },
+    "obj": {
+      "name": "dump-truck-obj.zip",
+      "bytes": 2097598
+    },
+    "usdz": {
+      "name": "dump-truck.usdz",
+      "bytes": 3694240
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "2.945 x 8.263 x 3.195",
+    "triangles": 34442,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-09-26",
+    "real_size": "dump truck (3 axles), approx. 8.3 x 2.5 x 3.2 m (L x W x H), wheel diameter 1.04 m",
+    "notes": "front faces -Y; the dump body 'dump-truck_tipper' is a separate object with its origin on the rear tipping hinge (rotate around local X, a negative angle lifts the front, approx. 0 to -50 degrees); the telescopic lift cylinder stays retracted on the chassis; 6 wheels are separate objects with origin on the axle (rotate around local X to roll), the front wheels also steer around local Z; opaque tinted windows, no interior; no brand, no text",
+    "set": "Cozy Vehicles Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "monorail",
+  "triangles": 24612,
+  "texture_px": 2048,
+  "triangles_light": 15580,
+  "texture_px_light": 1024,
+  "files": {
+    "glb": {
+      "name": "monorail.glb",
+      "bytes": 1144664
+    },
+    "blend": {
+      "name": "monorail.blend",
+      "bytes": 1055698
+    },
+    "fbx": {
+      "name": "monorail.fbx",
+      "bytes": 2183468
+    },
+    "obj": {
+      "name": "monorail-obj.zip",
+      "bytes": 896391
+    },
+    "usdz": {
+      "name": "monorail.usdz",
+      "bytes": 1685031
+    },
+    "glb_light": {
+      "name": "monorail-light.glb",
+      "bytes": 654532
+    },
+    "fbx_light": {
+      "name": "monorail-light.fbx",
+      "bytes": 1342284
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "3.052 x 17.200 x 6.065",
+    "triangles": 24612,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-09-26",
+    "real_size": "straddle-beam monorail car on a short concrete guideway beam with one T-pillar, approx. 17.2 x 3.0 x 6.3 m (beam length x car width x height), car 13.6 m long; beam 0.86 x 1.5 m",
+    "notes": "one nose faces -Y (the car is symmetric, both ends have a cab); the concrete beam, pillar and footing are one object (monorail_beam), footing at z = 0; 8 guide wheels running on the beam flanks are separate objects with origin on their vertical axle (rotate around local Z in Blender / Y in glTF); load wheels are hidden inside the skirts; sliding doors modelled closed; opaque tinted windows, no interior; no brand, no text",
+    "set": "Cozy Boats & Aircraft Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}
