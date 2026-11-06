@@ -15,6 +15,8 @@ const detail = byId("detail-content");
 const categorySelect = byId("category");
 const chips = byId("category-chips");
 let catalog = null;
+const PAGE_SIZE = 36;
+let visibleCount = PAGE_SIZE;
 
 function stat(value, label) {
   const item = document.createElement("span");
@@ -26,7 +28,7 @@ function stat(value, label) {
 
 function renderStats() {
   byId("stats").replaceChildren(
-    stat(catalog.totals.assets, "reviewed assets"),
+    stat(catalog.totals.assets, "approved assets"),
     stat(catalog.totals.categories, "categories"),
     stat("12", "views per asset"),
   );
@@ -40,7 +42,7 @@ function addChip(value, label) {
   chip.textContent = label;
   chip.addEventListener("click", () => {
     categorySelect.value = value;
-    update();
+    update(true);
   });
   chips.append(chip);
 }
@@ -68,6 +70,7 @@ function currentFilters() {
     category: categorySelect.value,
     style: byId("style").value,
     rigged: byId("rigged").checked,
+    animated: byId("animated").checked,
   };
 }
 
@@ -84,14 +87,16 @@ function syncChips() {
   }
 }
 
-function update() {
+function update(resetPage = false) {
+  if (resetPage) visibleCount = PAGE_SIZE;
   if (!catalog) return;
   const filtered = filterAssets(catalog.assets, currentFilters());
   const sorted = sortAssets(filtered, byId("sort").value);
+  const visible = sorted.slice(0, visibleCount);
   grid.replaceChildren();
   grid.classList.toggle("grouped", byId("group").checked);
   if (byId("group").checked) {
-    for (const [category, assets] of groupByCategory(sorted)) {
+    for (const [category, assets] of groupByCategory(visible)) {
       const section = document.createElement("section");
       section.className = "category-section";
       const heading = document.createElement("h2");
@@ -103,10 +108,11 @@ function update() {
       grid.append(section);
     }
   } else {
-    renderCards(grid, sorted, inspect);
+    renderCards(grid, visible, inspect);
   }
   byId("result-count").textContent =
-    `${filtered.length} of ${catalog.assets.length} approved assets`;
+    `Showing ${visible.length} of ${filtered.length} matching assets · ${catalog.assets.length} total`;
+  byId("load-more").hidden = visible.length >= filtered.length;
   byId("empty").hidden = filtered.length > 0;
   syncChips();
 }
@@ -126,14 +132,18 @@ async function refresh() {
 }
 
 byId("filters").addEventListener("submit", (event) => event.preventDefault());
-byId("filters").addEventListener("input", update);
-categorySelect.addEventListener("change", update);
-byId("sort").addEventListener("change", update);
-byId("group").addEventListener("change", update);
+byId("filters").addEventListener("input", () => update(true));
+categorySelect.addEventListener("change", () => update(true));
+byId("sort").addEventListener("change", () => update(true));
+byId("group").addEventListener("change", () => update(true));
 byId("reset").addEventListener("click", () => {
   byId("filters").reset();
   byId("sort").value = "title";
   byId("group").checked = false;
+  update(true);
+});
+byId("load-more").addEventListener("click", () => {
+  visibleCount += PAGE_SIZE;
   update();
 });
 byId("refresh").addEventListener("click", refresh);

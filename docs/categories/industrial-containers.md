@@ -2,7 +2,23 @@
 
 Barrels, drums and storage props
 
-Approved assets: **4**
+Approved assets: **6**
+
+## Industrial barrel
+
+![Industrial barrel](../../assets/industrial/containers/modkit-barrel/previews/orbit-01.jpg)
+
+- Creator: Jaron Bragg; style: stylized; CC0-1.0
+- 1,804 triangles; 0 texture images
+- [Asset folder](../../assets/industrial/containers/modkit-barrel/) · [Metadata](../../assets/industrial/containers/modkit-barrel/asset.json) · [All inspection views](../../assets/industrial/containers/modkit-barrel/previews/contact-sheet.jpg)
+
+## Industrial crate large
+
+![Industrial crate large](../../assets/industrial/containers/modkit-crate-large/previews/orbit-01.jpg)
+
+- Creator: Jaron Bragg; style: stylized; CC0-1.0
+- 1,456 triangles; 0 texture images
+- [Asset folder](../../assets/industrial/containers/modkit-crate-large/) · [Metadata](../../assets/industrial/containers/modkit-crate-large/asset.json) · [All inspection views](../../assets/industrial/containers/modkit-crate-large/previews/contact-sheet.jpg)
 
 ## Weathered metal ammo box
 

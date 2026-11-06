@@ -167,3 +167,23 @@ test("parent category filters include descendants but not sibling prefixes", () 
   assert.equal(counts.get("furniture/chairs"), 1);
   assert.equal(counts.get("furniture/chairs/office"), 1);
 });
+
+test("animated filter includes embedded and separately authored clips", () => {
+  const variants = [
+    { ...assets[0], animation_count: 2 },
+    {
+      ...assets[0],
+      animation_count: 0,
+      authored_animation_count: 1,
+      animated_model: "a.glb",
+    },
+    { ...assets[0], animation_count: 0 },
+  ];
+  const filtered = filterAssets(variants, {
+    query: "",
+    category: "",
+    style: "",
+    animated: true,
+  });
+  assert.equal(filtered.length, 2);
+});

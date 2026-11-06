@@ -6065,6 +6065,88 @@
       }
     },
     {
+      "id": "modkit-barrel",
+      "title": "Industrial barrel",
+      "category": "industrial/containers",
+      "style": "stylized",
+      "tags": [
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
+      ],
+      "creator": "Jaron Bragg",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR."
+      ],
+      "resale_as_is": "The pinned README dedicates meshes and the assembled example to CC0 1.0; CC0 permits redistribution and resale of the files themselves.",
+      "source_url": "https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Barrel.glb",
+      "license_evidence": "https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE",
+      "directory": "assets/industrial/containers/modkit-barrel",
+      "metadata": "assets/industrial/containers/modkit-barrel/asset.json",
+      "metadata_sha256": "10cb9a2693fdb3716e195f5ba789d40a7e8b9a16d48e56cbfd1ea4797d89d2c9",
+      "model": "assets/industrial/containers/modkit-barrel/model/SM_Barrel.glb",
+      "preview": "assets/industrial/containers/modkit-barrel/previews/orbit-01.jpg",
+      "contact_sheet": "assets/industrial/containers/modkit-barrel/previews/contact-sheet.jpg",
+      "triangles": 1804,
+      "texture_count": 0,
+      "max_texture_resolution": 0,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      }
+    },
+    {
+      "id": "modkit-crate-large",
+      "title": "Industrial crate large",
+      "category": "industrial/containers",
+      "style": "stylized",
+      "tags": [
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
+      ],
+      "creator": "Jaron Bragg",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR."
+      ],
+      "resale_as_is": "The pinned README dedicates meshes and the assembled example to CC0 1.0; CC0 permits redistribution and resale of the files themselves.",
+      "source_url": "https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Crate_Large.glb",
+      "license_evidence": "https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE",
+      "directory": "assets/industrial/containers/modkit-crate-large",
+      "metadata": "assets/industrial/containers/modkit-crate-large/asset.json",
+      "metadata_sha256": "39fae202ebcd6b6864a1552293236cb6a72d128a44fad121d446de36a98b8661",
+      "model": "assets/industrial/containers/modkit-crate-large/model/SM_Crate_Large.glb",
+      "preview": "assets/industrial/containers/modkit-crate-large/previews/orbit-01.jpg",
+      "contact_sheet": "assets/industrial/containers/modkit-crate-large/previews/contact-sheet.jpg",
+      "triangles": 1456,
+      "texture_count": 0,
+      "max_texture_resolution": 0,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      }
+    },
+    {
       "id": "ph-ammo-box",
       "title": "Weathered metal ammo box",
       "category": "industrial/containers",
@@ -12172,7 +12254,7 @@
     }
   ],
   "totals": {
-    "assets": 282,
+    "assets": 284,
     "categories": 79,
     "by_category": {
       "architecture/doors": 1,
@@ -12217,7 +12299,7 @@
       "furniture/sofas": 2,
       "furniture/storage": 9,
       "furniture/tables": 3,
-      "industrial/containers": 4,
+      "industrial/containers": 6,
       "industrial/electrical": 1,
       "industrial/infrastructure": 1,
       "industrial/safety": 2,
@@ -12258,7 +12340,7 @@
     "by_style": {
       "low-poly": 24,
       "realistic": 173,
-      "stylized": 85
+      "stylized": 87
     }
   }
 }

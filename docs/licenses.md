@@ -2,7 +2,7 @@
 
 Checked on 2026-11-04. Scope: approved assets under assets/ only.
 
-**282 of 282 approved assets pass every check.**
+**284 of 284 approved assets pass every check.**
 
 Every approved asset is dedicated to the public domain under CC0 1.0. For each one
 that means: no cost, no attribution, commercial use allowed, use and redistribution
@@ -157,6 +157,8 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Kenney coffee table](../assets/furniture/tables/kenney-coffee-table/README.md) | `furniture/tables` | Kenney (kenney) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Modern coffee table](../assets/furniture/tables/ph-modern-coffee-table/README.md) | `furniture/tables` | Amin (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Oak side table with shelves](../assets/furniture/tables/ph-side-table/README.md) | `furniture/tables` | James Ray Cock (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Industrial barrel](../assets/industrial/containers/modkit-barrel/README.md) | `industrial/containers` | Jaron Bragg (modkit-industrial) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Industrial crate large](../assets/industrial/containers/modkit-crate-large/README.md) | `industrial/containers` | Jaron Bragg (modkit-industrial) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Weathered metal ammo box](../assets/industrial/containers/ph-ammo-box/README.md) | `industrial/containers` | DanKit (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Blue plastic industrial drum](../assets/industrial/containers/ph-blue-barrel/README.md) | `industrial/containers` | Jorge Camacho (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Industrial plastic storage container](../assets/industrial/containers/ph-plastic-container/README.md) | `industrial/containers` | Galo Benivegna (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -340,7 +342,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 
 ### ModKit by Jaron Bragg — `modkit-industrial`
 
-12 approved assets. Status: **verified**.
+14 approved assets. Status: **verified**.
 
 - Terms: <https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/README.md>
 - Pinned evidence: <https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE>
@@ -524,7 +526,9 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Kenney sports hatchback](../assets/vehicles/cars/kenney-sports-hatchback/README.md) | Third-party GLB conversion of a Kenney pack; conversion and embedded textures are also CC0. |
 | [Kenney sports sedan](../assets/vehicles/cars/kenney-sports-sedan/README.md) | Third-party GLB conversion of a Kenney pack; conversion and embedded textures are also CC0. |
 | [Kenney sprinkled donut](../assets/food/snacks/kenney-sprinkled-donut/README.md) | Third-party GLB conversion of a Kenney pack; conversion and embedded textures are also CC0. |
+| [Industrial barrel](../assets/industrial/containers/modkit-barrel/README.md) | Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR. |
 | [Industrial ceiling 4m](../assets/buildings/modular/industrial/modkit-ceiling-4m/README.md) | Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR. |
+| [Industrial crate large](../assets/industrial/containers/modkit-crate-large/README.md) | Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR. |
 | [Industrial door panel](../assets/buildings/modular/industrial/modkit-door-panel/README.md) | Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR. |
 | [Industrial floor 4m](../assets/buildings/modular/industrial/modkit-floor-4m/README.md) | Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR. |
 | [Industrial floor hatch](../assets/buildings/modular/industrial/modkit-floor-hatch/README.md) | Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR. |
@@ -543,19 +547,19 @@ Every check below is machine-verified by `python -m asset_library license-audit`
 
 | Check | Passing |
 | --- | --- |
-| `cc0_spdx` | 282/282 |
-| `cc0_text_present` | 282/282 |
-| `commercial_use_allowed` | 282/282 |
-| `evidence_recorded` | 282/282 |
-| `free_of_charge` | 282/282 |
-| `license_file_checksummed` | 282/282 |
-| `no_attribution_required` | 282/282 |
-| `no_trademark_warning` | 282/282 |
-| `redistribution_allowed` | 282/282 |
-| `source_terms_verified` | 282/282 |
-| `standalone_resale_permitted` | 282/282 |
-| `textures_included` | 282/282 |
-| `visually_approved` | 282/282 |
+| `cc0_spdx` | 284/284 |
+| `cc0_text_present` | 284/284 |
+| `commercial_use_allowed` | 284/284 |
+| `evidence_recorded` | 284/284 |
+| `free_of_charge` | 284/284 |
+| `license_file_checksummed` | 284/284 |
+| `no_attribution_required` | 284/284 |
+| `no_trademark_warning` | 284/284 |
+| `redistribution_allowed` | 284/284 |
+| `source_terms_verified` | 284/284 |
+| `standalone_resale_permitted` | 284/284 |
+| `textures_included` | 284/284 |
+| `visually_approved` | 284/284 |
 
 ## Evidence per asset
 
@@ -723,7 +727,9 @@ Each row links to the license file stored beside the model and to the exact
 | kenney-sports-hatchback | [LICENSE.txt](../assets/vehicles/cars/kenney-sports-hatchback/LICENSE.txt) | `6913dd72bdc2` | [source](https://github.com/Hidencod/tge-assets/blob/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/car-kit/hatchback-sports.glb) | [evidence](https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE) |
 | kenney-sports-sedan | [LICENSE.txt](../assets/vehicles/cars/kenney-sports-sedan/LICENSE.txt) | `6913dd72bdc2` | [source](https://github.com/Hidencod/tge-assets/blob/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/car-kit/sedan-sports.glb) | [evidence](https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE) |
 | kenney-sprinkled-donut | [LICENSE.txt](../assets/food/snacks/kenney-sprinkled-donut/LICENSE.txt) | `6913dd72bdc2` | [source](https://github.com/Hidencod/tge-assets/blob/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/food-kit/donut-sprinkles.glb) | [evidence](https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE) |
+| modkit-barrel | [LICENSE.txt](../assets/industrial/containers/modkit-barrel/LICENSE.txt) | `645290fbe623` | [source](https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Barrel.glb) | [evidence](https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE) |
 | modkit-ceiling-4m | [LICENSE.txt](../assets/buildings/modular/industrial/modkit-ceiling-4m/LICENSE.txt) | `645290fbe623` | [source](https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Ceiling_4m.glb) | [evidence](https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE) |
+| modkit-crate-large | [LICENSE.txt](../assets/industrial/containers/modkit-crate-large/LICENSE.txt) | `645290fbe623` | [source](https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Crate_Large.glb) | [evidence](https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE) |
 | modkit-door-panel | [LICENSE.txt](../assets/buildings/modular/industrial/modkit-door-panel/LICENSE.txt) | `645290fbe623` | [source](https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Door_Panel.glb) | [evidence](https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE) |
 | modkit-floor-4m | [LICENSE.txt](../assets/buildings/modular/industrial/modkit-floor-4m/LICENSE.txt) | `645290fbe623` | [source](https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Floor_4m.glb) | [evidence](https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE) |
 | modkit-floor-hatch | [LICENSE.txt](../assets/buildings/modular/industrial/modkit-floor-hatch/LICENSE.txt) | `645290fbe623` | [source](https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Floor_Hatch.glb) | [evidence](https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE) |

@@ -19,5 +19,8 @@ compatibility have not been verified as a set.
 - [Floor hatch panel](../../assets/buildings/modular/industrial/modkit-floor-hatch/) — static; no opening animation
 - [Railing](../../assets/buildings/modular/industrial/modkit-railing-4m/)
 
+Complementary static container props: [large crate](../../assets/industrial/containers/modkit-crate-large/)
+and [barrel](../../assets/industrial/containers/modkit-barrel/).
+
 Each folder contains the actual model, license, provenance, review and inspection
 renders. See the [per-asset license audit](../licenses.md) for rights and caveats.

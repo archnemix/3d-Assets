@@ -13,8 +13,27 @@
   "batch": "modkit-industrial-01",
   "acquired_at": "2026-11-06T07:44:30.473671+00:00",
   "review": {
-    "status": "awaiting-visual-review",
-    "approved": false
+    "id": "modkit-crate-large",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "A complete blue crate with thick corner posts and recessed panels on its sides and lid; all twelve inspection views and the enlarged oblique render were inspected.",
+    "limitations": [
+      "Static stylized crate with a flat material; the lid is not animated.",
+      "Target-engine collision has not been tested."
+    ],
+    "contact_sheet_sha256": "7ab38f16fdd602c34fc6e09fe9b07292d36b3977accd763c788a86a77ff858cd",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
   },
   "source": {
     "provider": "modkit-industrial",
@@ -79,6 +98,12 @@
       "bytes": 7133,
       "sha256": "645290fbe623e74da82dae25734e8e6d5123f40f85343ad11cf0d990f8b3e4e0",
       "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1355,
+      "sha256": "39c8b711ebfb182b4af09767300a2e5520e6a9c62207f9981384e3f207e98cd4",
+      "role": "documentation"
     },
     {
       "path": "logs/animations.log",
@@ -217,6 +242,12 @@
       "bytes": 15449,
       "sha256": "9b9d1d699b26f49a8f9835f0fb19094ca64eac2ccdac5a8b0a8cb8153f3303f9",
       "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 766,
+      "sha256": "fd322a068fc8dd39a2d386fe072fc156a05a042f0a8f58bb171908693552ea58",
+      "role": "documentation"
     }
   ]
 }

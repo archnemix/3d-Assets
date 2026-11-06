@@ -1,0 +1,51 @@
+name: Test 3D gallery in a browser
+on:
+  push:
+    branches: ['arena/d853ac80-3d-assets']
+    paths: ['automation/viewer-test.json']
+permissions:
+  contents: write
+concurrency:
+  group: asset-pipeline-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  browser:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npx playwright install --with-deps chromium
+      - name: Test viewer
+        id: test
+        continue-on-error: true
+        run: |
+          mkdir -p reports/viewer
+          python3 -m http.server 8000 --bind 0.0.0.0 > reports/viewer/server.log 2>&1 &
+          set +e
+          node tests/viewer.browser.mjs 2>&1 | tee reports/viewer/browser.log
+          result=${PIPESTATUS[0]}
+          echo "exit_code=$result" >> "$GITHUB_OUTPUT"
+          exit "$result"
+      - name: Commit test logs
+        if: always()
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- reports/viewer
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Record 3D gallery browser test [skip ci]'
+          for attempt in 1 2 3 4 5; do
+            if git push origin "HEAD:$GITHUB_REF_NAME"; then exit 0; fi
+            git pull --rebase origin "$GITHUB_REF_NAME"
+            sleep "$attempt"
+          done
+          exit 1
+      - name: Reflect browser test result
+        if: steps.test.outputs.exit_code != '0'
+        run: exit 1

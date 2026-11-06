@@ -13,8 +13,27 @@
   "batch": "modkit-industrial-01",
   "acquired_at": "2026-11-06T07:42:48.682314+00:00",
   "review": {
-    "status": "awaiting-visual-review",
-    "approved": false
+    "id": "modkit-barrel",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "A simple cylindrical brown barrel with three raised rings and a circular top cap; all orbit, top, underside, clay and wireframe views plus the enlarged oblique render were inspected.",
+    "limitations": [
+      "Static, stylized barrel with a flat material, not a textured or openable container.",
+      "Target-engine collision has not been tested."
+    ],
+    "contact_sheet_sha256": "97cbe51a5b91843d18f02e9c5f7b95fd5b881c7afd066dc54c23038d84ef4dc2",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
   },
   "source": {
     "provider": "modkit-industrial",
@@ -79,6 +98,12 @@
       "bytes": 7133,
       "sha256": "645290fbe623e74da82dae25734e8e6d5123f40f85343ad11cf0d990f8b3e4e0",
       "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1355,
+      "sha256": "56e14ec2c5afff42888652fde9c4eaf724d34cf23b3da1ccb95a148686cb6085",
+      "role": "documentation"
     },
     {
       "path": "logs/animations.log",
@@ -217,6 +242,12 @@
       "bytes": 15449,
       "sha256": "9b9d1d699b26f49a8f9835f0fb19094ca64eac2ccdac5a8b0a8cb8153f3303f9",
       "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 795,
+      "sha256": "a20b7566442d00778ade01ad9c971fd81a87db30df472252131f1a6da213ad5f",
+      "role": "documentation"
     }
   ]
 }

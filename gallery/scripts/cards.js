@@ -1,4 +1,4 @@
-import { assetUrl } from "./data.js";
+import { assetUrl, hasAnimation } from "./data.js";
 
 function element(tag, className, text) {
   const node = document.createElement(tag);
@@ -31,7 +31,11 @@ export function renderCards(container, assets, onInspect) {
     const meta = element("p", "card-meta");
     meta.append(
       element("span", "", `${asset.triangles.toLocaleString()} tris`),
-      element("span", "", asset.rigged ? "Rigged" : "Static"),
+      element(
+        "span",
+        "",
+        hasAnimation(asset) ? "Animated" : asset.rigged ? "Rigged" : "Static",
+      ),
     );
     const footer = element("div", "card-footer");
     const inspect = element("button", "detail-button", "Inspect ↗");

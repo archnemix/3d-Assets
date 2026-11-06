@@ -128,12 +128,11 @@ in 78 populated categories.
 
 GitHub Actions run `42182214678` completed successfully across five workers: all 39
 candidates passed technical intake. Twelve structural modules were subsequently visually
-reviewed and approved; see the three `reviews/modkit-industrial-01-*.json` files. The
-other 27, including the assembled outpost, remain in quarantine. The outpost's orbit
+reviewed and approved; see the three `reviews/modkit-industrial-01-*.json` files. Two container props were also subsequently approved; the other 25, including the assembled outpost, remain in quarantine. The outpost's orbit
 renders are distant and do not establish interior navigation, and its geometry report
 records 215 zero-area triangles; it requires closer review before any approval. The
 crate-stack preview shows three bare, simple cuboids and should not be represented as
-a richly detailed crate asset. The approved modules are static, untextured and
+a richly detailed crate asset. The approved pieces are static, untextured and
 stylized; they do not solve the realistic vehicle or enterable building gaps.
 
 ## Skyborn caretaker hut: quarantine review
@@ -157,3 +156,11 @@ renders show dark gaps between ceiling panels and a visibly raised stair base. T
 not test entry, stairs, collision or gameplay. Together with its 215 zero-area triangles,
 these assembly issues keep the scene quarantined; it is not presented as a complete,
 enterable map. The twelve separately approved kit pieces remain available independently.
+
+## Additional industrial props
+
+The large framed crate and closed ringed barrel were reviewed from all twelve inspection
+views and enlarged oblique renders and approved as simple static, stylized industrial
+props. They use flat materials, not detailed textures. The candidate labelled “open
+barrel” appears capped in its renders and remains in quarantine; the pallet also remains
+quarantined pending investigation of 32 zero-area triangles.

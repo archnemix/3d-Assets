@@ -1,0 +1,41 @@
+{
+  "batch": "modkit-industrial-01",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "decisions": [
+    {
+      "id": "modkit-barrel",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "A simple cylindrical brown barrel with three raised rings and a circular top cap; all orbit, top, underside, clay and wireframe views plus the enlarged oblique render were inspected.",
+      "limitations": [
+        "Static, stylized barrel with a flat material, not a textured or openable container.",
+        "Target-engine collision has not been tested."
+      ],
+      "contact_sheet_sha256": "97cbe51a5b91843d18f02e9c5f7b95fd5b881c7afd066dc54c23038d84ef4dc2"
+    },
+    {
+      "id": "modkit-crate-large",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "A complete blue crate with thick corner posts and recessed panels on its sides and lid; all twelve inspection views and the enlarged oblique render were inspected.",
+      "limitations": [
+        "Static stylized crate with a flat material; the lid is not animated.",
+        "Target-engine collision has not been tested."
+      ],
+      "contact_sheet_sha256": "7ab38f16fdd602c34fc6e09fe9b07292d36b3977accd763c788a86a77ff858cd"
+    }
+  ]
+}

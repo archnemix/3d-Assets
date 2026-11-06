@@ -10,6 +10,14 @@
     <title>3D Assets — CC0 Library</title>
     <link rel="stylesheet" href="styles/base.css" />
     <link rel="stylesheet" href="styles/components.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "./vendor/three/build/three.module.min.js",
+          "three/addons/": "./vendor/three/examples/jsm/"
+        }
+      }
+    </script>
     <script type="module" src="scripts/app.js"></script>
   </head>
   <body>
@@ -24,9 +32,9 @@
         <p class="eyebrow">THE REVIEWED COLLECTION</p>
         <h1>Good assets.<br /><span>No strings attached.</span></h1>
         <p>
-          Realistic details. Playful worlds. Every model checked from every
-          side, with its textures and source evidence included. New approved
-          assets appear here automatically.
+          Discover useful models for games, scenes and prototypes. Inspect
+          assets in 3D, explore animation clips, and find their source and
+          license details.
         </p>
         <div class="stats" id="stats" aria-live="polite"></div>
       </section>
@@ -57,6 +65,9 @@
           >
           <label class="check-label"
             ><input id="rigged" type="checkbox" /> Rigged only</label
+          >
+          <label class="check-label"
+            ><input id="animated" type="checkbox" /> Animated only</label
           >
         </form>
         <div class="browser-toolbar">
@@ -91,6 +102,11 @@
           </button>
         </div>
         <div class="asset-grid" id="asset-grid"></div>
+        <div class="load-more-wrap">
+          <button class="load-more" id="load-more" type="button" hidden>
+            Show more assets
+          </button>
+        </div>
         <div class="empty-state" id="empty" hidden>
           <h2>No matching assets</h2>
           <p>Try a broader search or reset the filters.</p>
@@ -99,8 +115,8 @@
     </main>
     <footer>
       <p>
-        Only visually approved assets appear here. Candidates stay outside the
-        catalog.
+        Only catalog-approved assets appear here. Candidates stay outside the
+        catalog; some historical reviews have a documented visual-review caveat.
       </p>
       <p>
         Discovery API credit:

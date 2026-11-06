@@ -15,13 +15,13 @@
     "author_request_blocks_intake": true
   },
   "totals": {
-    "assets": 282,
-    "passed": 282,
+    "assets": 284,
+    "passed": 284,
     "failed": 0,
     "by_provider": {
       "grab3d": 149,
       "kenney": 10,
-      "modkit-industrial": 12,
+      "modkit-industrial": 14,
       "polyhaven": 111
     }
   },
@@ -4688,6 +4688,74 @@
       "license_file_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
       "ai_assisted": false,
       "notes": [],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "modkit-barrel",
+      "title": "Industrial barrel",
+      "category": "industrial/containers",
+      "creator": "Jaron Bragg",
+      "provider": "modkit-industrial",
+      "spdx": "CC0-1.0",
+      "directory": "assets/industrial/containers/modkit-barrel",
+      "source_url": "https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Barrel.glb",
+      "license_evidence": "https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE",
+      "license_file": "assets/industrial/containers/modkit-barrel/LICENSE.txt",
+      "license_file_sha256": "645290fbe623e74da82dae25734e8e6d5123f40f85343ad11cf0d990f8b3e4e0",
+      "ai_assisted": false,
+      "notes": [
+        "Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "modkit-crate-large",
+      "title": "Industrial crate large",
+      "category": "industrial/containers",
+      "creator": "Jaron Bragg",
+      "provider": "modkit-industrial",
+      "spdx": "CC0-1.0",
+      "directory": "assets/industrial/containers/modkit-crate-large",
+      "source_url": "https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Crate_Large.glb",
+      "license_evidence": "https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE",
+      "license_file": "assets/industrial/containers/modkit-crate-large/LICENSE.txt",
+      "license_file_sha256": "645290fbe623e74da82dae25734e8e6d5123f40f85343ad11cf0d990f8b3e4e0",
+      "ai_assisted": false,
+      "notes": [
+        "Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR."
+      ],
       "checks": {
         "free_of_charge": true,
         "cc0_spdx": true,

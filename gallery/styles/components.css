@@ -443,3 +443,92 @@ dialog::backdrop {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/* The interactive view is opt-in so browsing does not download hundreds of models. */
+.viewer {
+  margin-top: 12px;
+}
+.viewer-launch,
+.viewer-tools button,
+.load-more {
+  border: 1px solid #226653;
+  background: #226653;
+  color: white;
+  border-radius: 7px;
+  padding: 10px 15px;
+  font-weight: 700;
+  font-size: 13px;
+}
+.viewer-launch {
+  width: 100%;
+}
+.viewer-launch:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+.viewer-stage {
+  width: 100%;
+  height: clamp(300px, 43vw, 500px);
+  overflow: hidden;
+  border-radius: 9px;
+  background: radial-gradient(circle at 50% 40%, #f5f8f1, #c8d4cb);
+  border: 1px solid var(--line);
+}
+.viewer-stage canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}
+.viewer-status,
+.viewer-hint {
+  font-size: 12px;
+  color: var(--muted);
+  margin: 10px 0;
+}
+.viewer-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: end;
+}
+.viewer-tools label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--muted);
+}
+.viewer-tools select {
+  max-width: 200px;
+  min-height: 37px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 5px 8px;
+  background: white;
+  color: var(--ink);
+}
+.viewer-tools button {
+  background: white;
+  color: var(--accent);
+  border-color: var(--line);
+  min-height: 37px;
+}
+.viewer-tools button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.viewer-tools .viewer-spin-label {
+  flex-direction: row;
+  align-items: center;
+  min-height: 37px;
+}
+.viewer-spin {
+  accent-color: var(--accent);
+}
+.load-more-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}

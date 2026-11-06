@@ -22,9 +22,18 @@ export function filterAssets(assets, filters) {
         asset.category === filters.category ||
         asset.category.startsWith(`${filters.category}/`)) &&
       (!filters.style || asset.style === filters.style) &&
-      (!filters.rigged || asset.rigged)
+      (!filters.rigged || asset.rigged) &&
+      (!filters.animated || hasAnimation(asset))
     );
   });
+}
+
+export function hasAnimation(asset) {
+  return Boolean(
+    asset.animation_count > 0 ||
+      asset.authored_animation_count > 0 ||
+      asset.animated_model,
+  );
 }
 
 export function sortAssets(assets, sort) {
