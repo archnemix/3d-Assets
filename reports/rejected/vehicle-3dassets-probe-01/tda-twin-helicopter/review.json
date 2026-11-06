@@ -1,0 +1,24 @@
+{
+  "id": "tda-twin-helicopter",
+  "decision": "rejected",
+  "scores": {
+    "silhouette": 3,
+    "materials": 2,
+    "topology": 4,
+    "completeness": 3,
+    "style_fit": 2
+  },
+  "notes": "Twelve views show a very simplified helicopter fuselage with small flat window shapes, limited exterior detail and pale untextured finish. It does not meet the requested realism.",
+  "limitations": [
+    "Provider identifies model as AI-generated; the glTF has no texture images.",
+    "Source CC0 evidence does not independently establish ownership or clear third-party rights.",
+    "Animations, controls and interiors were not inspected; candidate rejected on appearance."
+  ],
+  "contact_sheet_sha256": "b02b89138580c51223279dc4d3e74739ca9df0384e6a0988977915a34c4e76b6",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports",
+  "status": "rejected",
+  "approved": false
+}
