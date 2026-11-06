@@ -1,0 +1,101 @@
+{
+  "id": "32808",
+  "slug": "aircraft-fleet-and-airfield-medium-twin-helicopter-2fc3750d",
+  "title": "Medium Twin Turbine Helicopter (Aircraft Fleet and Airfield)",
+  "summary": "A twelve seat twin turbine helicopter with a wheeled undercarriage, forward hinged crew doors, sliding cabin doors on both sides and a four blade main rotor over a modelled head.. Premium CC0 aircraft and airfield game asset.",
+  "description": "A twelve seat twin turbine helicopter with a wheeled undercarriage, forward hinged crew doors, sliding cabin doors on both sides and a four blade main rotor over a modelled head. Dimensions 14.40 x 4.01 x 18.46 m (X x Y x Z). Origin at the footprint centre, resting on y = 0; metres, +Y up, nose toward +Z, wing span and wheel axles along X. Named pivots: rudder at (0, 2.8, -8.61); rotor-tail at (0.24, 2.96, -8.31); rotor-main at (0, 3.6, 2.03); wheel-main-right at (1.3, 0.28, 0.61); wheel-front-right at (1.3, 0.24, 4.19); wheel-main-left at (-1.3, 0.28, 0.61); wheel-front-left at (-1.3, 0.24, 4.19); door-right at (1.14, 1.98, 2.65); door-left at (-1.14, 1.98, 2.65); slide-right at (1.14, 1.98, 0.37); slide-left at (-1.14, 1.98, 0.37). Rigid node-transform clips door-open, door-close, rotor-spin, tail-rotor-spin, cabin-open, cabin-close, wheel-roll, rudder-steer drive named nodes on their own pivots. No skinning and no skeleton, so the retraction linkage, rotor flapping and lead-lag, propeller pitch change, the swashplate and wing flex are all deliberately static. Sixteen material palette of airframe white, deep blue, warm red, airfield yellow, bare aluminium, steel grey, charcoal, near black tarmac, light grey concrete, olive and tinted glazing, plus five emissive lighting materials for navigation, strobe, taxiway, threshold and interior lights. Flat colours, no texture maps. Original generic design with no manufacturer, type designation, livery, registration or operator marking. Free 3D model for Unity, Godot, Unreal, three.js and Blender. No collision or navigation data.",
+  "status": "published",
+  "url": "https://3dassets.dev/assets/aircraft-fleet-and-airfield-medium-twin-helicopter-2fc3750d",
+  "cdnUrl": "https://cdn.3dassets.dev/assets/32808/v1/model.glb",
+  "downloadUrl": "https://3dassets.dev/download/aircraft-fleet-and-airfield-medium-twin-helicopter-2fc3750d",
+  "thumbnailUrl": "https://cdn.3dassets.dev/assets/32808/v1/thumb.webp",
+  "posterUrl": "https://cdn.3dassets.dev/assets/32808/v1/poster.webp",
+  "blurhash": "U66RS~xt00IVxuRjRjtR00Rj~qxuD%xvxuIA",
+  "category": {
+    "slug": "vehicles",
+    "title": "Vehicles"
+  },
+  "tags": [
+    {
+      "slug": "modern",
+      "title": "Modern"
+    },
+    {
+      "slug": "realistic",
+      "title": "Realistic"
+    },
+    {
+      "slug": "exterior",
+      "title": "Exterior"
+    },
+    {
+      "slug": "animated",
+      "title": "Animated"
+    }
+  ],
+  "license": {
+    "slug": "cc0-1.0",
+    "name": "CC0 1.0 Universal",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false
+  },
+  "contributor": {
+    "username": "3dassets",
+    "name": "3D Assets",
+    "url": "https://3dassets.dev/u/3dassets"
+  },
+  "stats": {
+    "fileSize": 1374824,
+    "triangles": 34922,
+    "vertices": 72240,
+    "meshes": 27,
+    "materials": 10,
+    "textures": 0,
+    "animations": [
+      "door-open",
+      "door-close",
+      "rotor-spin",
+      "tail-rotor-spin",
+      "cabin-open",
+      "cabin-close",
+      "wheel-roll",
+      "rudder-steer"
+    ],
+    "boundingBox": {
+      "min": [
+        -7.199999809265137,
+        -2.2697448365249784e-09,
+        -9.230752948680589
+      ],
+      "max": [
+        7.199999809265137,
+        4.01317891549306,
+        9.230753146251967
+      ]
+    },
+    "sizeMeters": [
+      14.4,
+      4.013,
+      18.462
+    ],
+    "hasDraco": false,
+    "hasMeshopt": false,
+    "hasKTX2": false,
+    "extensionsUsed": [
+      "KHR_mesh_quantization"
+    ]
+  },
+  "aiGenerated": true,
+  "aiModel": "claude-opus-5",
+  "downloads": 23,
+  "publishedAt": "2026-09-08T13:05:11.033Z",
+  "updatedAt": "2026-11-02T15:16:17.401Z",
+  "usage": {
+    "threejs": "import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'\nimport { AnimationMixer } from 'three'\n\nlet mixer\n\nconst loader = new GLTFLoader()\nloader.load('https://cdn.3dassets.dev/assets/32808/v1/model.glb', (gltf) => {\n  scene.add(gltf.scene)\n  mixer = new AnimationMixer(gltf.scene)\n  mixer.clipAction(gltf.animations[0]).play()\n})\n\n// Call from your render loop; deltaSeconds is time since the previous frame.\nfunction updateAssetAnimation(deltaSeconds) {\n  mixer?.update(deltaSeconds)\n}",
+    "r3f": "import { useGLTF, useAnimations } from '@react-three/drei'\nimport { useEffect } from 'react'\n\nexport function MediumTwinTurbineHelicopterAircraftFleetAndAirfield(props) {\n  const { scene, animations } = useGLTF('https://cdn.3dassets.dev/assets/32808/v1/model.glb')\n  const { actions, names } = useAnimations(animations, scene)\n  useEffect(() => {\n    const action = actions[names[0]]\n    action?.reset().play()\n    return () => { action?.stop() }\n  }, [actions, names])\n  return <primitive object={scene} {...props} />\n}\nuseGLTF.preload('https://cdn.3dassets.dev/assets/32808/v1/model.glb')",
+    "modelViewer": "<model-viewer src=\"https://cdn.3dassets.dev/assets/32808/v1/model.glb\" alt=\"Medium Twin Turbine Helicopter (Aircraft Fleet and Airfield)\" camera-controls auto-rotate autoplay></model-viewer>",
+    "blender": "# Blender 4.x: File > Import > glTF 2.0, or from the Python console after downloading the file.\nimport bpy\nbpy.ops.import_scene.gltf(filepath='model.glb')  # from https://cdn.3dassets.dev/assets/32808/v1/model.glb\n# Metres and +Y up are converted to Blender's Z-up scene automatically.\n# Clips arrive as actions; play them from the Dope Sheet > Action Editor.",
+    "godot": "# Godot 4: copy model.glb into res://models/ and the editor imports it as a scene.\nvar packed := load(\"res://models/model.glb\") as PackedScene\nvar model := packed.instantiate()\nadd_child(model)\nvar player := model.find_child(\"AnimationPlayer\", true, false) as AnimationPlayer\nplayer.play(player.get_animation_list()[0])",
+    "unity": "// Unity: import model.glb with glTFast (Package Manager: com.unity.cloud.gltfast) and drag the prefab in,\n// or load it at runtime straight from the CDN:\nusing GLTFast;\nvar gltf = new GltfImport();\nif (await gltf.Load(\"https://cdn.3dassets.dev/assets/32808/v1/model.glb\")) await gltf.InstantiateMainSceneAsync(transform);\n// Clips import as legacy AnimationClips on the root; GetComponent<Animation>().Play() starts the first."
+  }
+}
