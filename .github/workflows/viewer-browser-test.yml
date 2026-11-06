@@ -6,7 +6,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: asset-pipeline-${{ github.ref }}
+  group: gallery-browser-${{ github.ref }}
   cancel-in-progress: false
 jobs:
   browser:
