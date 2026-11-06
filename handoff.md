@@ -178,3 +178,10 @@ There is **no** `asset_library validate` command; use `plan`, catalog/audit chec
 ## Final instruction
 
 Continue the actual asset-collection and publication project, not just this handoff. Make **diverse, high-quality, realistic, rigged and animated human characters** the main focus; increase realistic representation relative to low-poly, and tackle major useful real-world subjects before small detailing props. Be proactive, research diverse sources, retain useful stylized alternatives as secondary, follow the rigorous license and usability rules, and make approval/provenance honest. Keep working until the prioritized work is truly completed or a concrete blocker requires the user's help.
+
+## Vehicle round in progress — 2026-11-06
+
+- User explicitly requests vehicle-only focus to 450 total, high realism/interiors/animation where possible, and more than 50 sources. Baseline remains 333 approved; 117 additional vehicle assets are needed. No new vehicle has been approved in this round yet. Do not inflate counts or relax license and visual gates.
+- Gallery now has main category chips/dropdown with exact subcategory drill-down; single canonical categories remain unchanged. See real-browser run 42206126608. Main counts include all descendants once; exact child filters remain exact.
+- `reports/research/2026-11-06-vehicle-screening.md` is an initial source ledger, not a completed >50-source review. `automation/vehicle-probe-01.json` prepares three original Innerscene vehicles for quarantine only. Upstream descriptions are not proof of photorealism, interior function or animation.
+- The Innerscene adapter now checks validated terms without poisoning its cache, restricts downloads to the observed `files.innerscene.com` host, and records and checks each original-model page; US-government items are not accepted by this adapter. These checks do not resolve third-party rights or replace visual review. Check the resulting workflow status and contact sheets individually before making any approval; maintain the existing review score threshold and inspect motion/interiors separately.
