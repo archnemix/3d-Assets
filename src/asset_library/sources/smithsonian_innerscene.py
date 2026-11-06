@@ -15,7 +15,7 @@ ORIGINAL = "https://www.si.edu/object/nasm_A19610048000"
 def verify_page(html: str) -> None:
     parser = _VisibleText()
     parser.feed(html)
-    primary = " ".join(parser.parts).split("More like this", 1)[0]
+    primary = " ".join(" ".join(parser.parts).split()).split("More like this", 1)[0]
     if (
         not all(
             value in primary
@@ -36,15 +36,15 @@ def fetch_smithsonian_innerscene(source: dict, candidate: dict, directory: Path)
     if candidate.get("upstream_id") != SLUG:
         raise ValueError("Adapter is limited to the Wright Flyer museum scan")
     page = text(PAGE, HOSTS)
+    provenance = directory / "provenance"
+    provenance.mkdir(parents=True, exist_ok=True)
+    (provenance / "innerscene-page.html").write_text(page, encoding="utf-8")
     verify_page(page)
     terms_url = "https://www.innerscene.com/tools/library/terms"
     terms = text(terms_url, HOSTS)
     if "CC0 1.0 Universal" not in terms:
         raise ValueError("Missing license terms")
     (directory / "LICENSE.txt").write_text(terms, encoding="utf-8")
-    provenance = directory / "provenance"
-    provenance.mkdir(parents=True, exist_ok=True)
-    (provenance / "innerscene-page.html").write_text(page, encoding="utf-8")
     model = directory / "model" / "wright-flyer.glb"
     record = download(GLB, model, HOSTS)
     write_json(provenance / "mirror.json", {"page": PAGE, "original": ORIGINAL, "download": record})
