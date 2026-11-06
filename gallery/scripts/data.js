@@ -18,6 +18,8 @@ export function filterAssets(assets, filters) {
       .toLowerCase();
     return (
       (!query || text.includes(query)) &&
+      (!filters.mainCategory ||
+        asset.category.split("/")[0] === filters.mainCategory) &&
       (!filters.category || asset.category === filters.category) &&
       (!filters.style || asset.style === filters.style) &&
       (!filters.rigged || asset.rigged) &&
@@ -70,4 +72,14 @@ export function categoryCounts(assets) {
 
 export function assetUrl(path) {
   return new URL(`../${path}`, document.baseURI).href;
+}
+
+// A main category is a navigation group, not another asset classification.
+export function mainCategoryCounts(assets) {
+  const counts = new Map();
+  for (const asset of assets) {
+    const main = asset.category.split("/")[0];
+    counts.set(main, (counts.get(main) ?? 0) + 1);
+  }
+  return new Map([...counts.entries()].sort(([a], [b]) => a.localeCompare(b)));
 }

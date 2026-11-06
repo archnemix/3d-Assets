@@ -35,6 +35,22 @@ try {
     "show more expands the page",
   );
   await page.locator("#style").selectOption("");
+  assert.equal(
+    await page.locator('.chip[data-category="buildings"]').count(),
+    1,
+    "one main category chip",
+  );
+  assert.equal(
+    await page.locator('.chip[data-category="buildings/modular"]').count(),
+    0,
+    "no duplicate subcategory chip",
+  );
+  await page.locator("#main-category").selectOption("buildings");
+  assert.match(
+    await page.locator("#result-count").textContent(),
+    /37 matching assets/,
+    "main category includes descendants once",
+  );
   await page.locator("#category").selectOption("buildings/modular");
   assert.equal(
     await page.locator(".asset-card").count(),
@@ -47,7 +63,8 @@ try {
     12,
     "child selection contains only child assets",
   );
-  await page.locator("#category").selectOption("");
+  await page.locator("#main-category").selectOption("");
+  assert.equal(await page.locator("#category").isDisabled(), true);
   await page.locator("#animated").check();
   await page.locator("#search").fill("compact electric city car");
   assert.equal(
@@ -98,7 +115,7 @@ try {
   );
   assert.deepEqual(errors, []);
   console.log(
-    "PASS: default realistic style, exact subcategory filters, pagination, animated filter, animated GLB clips, controls, static GLB switch, external-texture glTF and close/reopen",
+    "PASS: default realistic style, grouped main and exact subcategory filters, pagination, animated filter, animated GLB clips, controls, static GLB switch, external-texture glTF and close/reopen",
   );
 } finally {
   await browser.close();

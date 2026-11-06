@@ -6,6 +6,7 @@ import {
   sortAssets,
   groupByCategory,
   categoryCounts,
+  mainCategoryCounts,
 } from "../gallery/scripts/data.js";
 
 const assets = [
@@ -207,5 +208,33 @@ test("catalog exposes per-asset review limitations", async () => {
     bat.review_limitations.some((note) =>
       note.includes("continuous baked track"),
     ),
+  );
+});
+
+test("main categories group all descendants once while subcategory stays exact", () => {
+  const nested = [
+    { ...assets[0], category: "architecture/doors" },
+    { ...assets[0], category: "architecture/fences" },
+    { ...assets[0], category: "architecture/doors/wood" },
+    { ...assets[0], category: "apparel/accessories" },
+  ];
+  const filters = {
+    query: "",
+    mainCategory: "architecture",
+    category: "",
+    style: "",
+    rigged: false,
+  };
+  assert.equal(filterAssets(nested, filters).length, 3);
+  assert.equal(
+    filterAssets(nested, { ...filters, category: "architecture/doors" }).length,
+    1,
+  );
+  const counts = mainCategoryCounts(nested);
+  assert.equal(counts.get("architecture"), 3);
+  assert.equal(counts.get("apparel"), 1);
+  assert.equal(
+    [...counts.values()].reduce((a, b) => a + b, 0),
+    nested.length,
   );
 });

@@ -4,6 +4,7 @@ import {
   sortAssets,
   groupByCategory,
   categoryCounts,
+  mainCategoryCounts,
 } from "./data.js";
 import { renderCards } from "./cards.js";
 import { showDetail } from "./detail.js";
@@ -13,6 +14,7 @@ const grid = byId("asset-grid");
 const dialog = byId("asset-dialog");
 const detail = byId("detail-content");
 const categorySelect = byId("category");
+const mainSelect = byId("main-category");
 const chips = byId("category-chips");
 let catalog = null;
 const PAGE_SIZE = 36;
@@ -34,28 +36,27 @@ function renderStats() {
   );
 }
 
-function addChip(value, label) {
-  const chip = document.createElement("button");
-  chip.type = "button";
-  chip.className = "chip";
-  chip.dataset.category = value;
-  chip.textContent = label;
-  chip.addEventListener("click", () => {
-    categorySelect.value = value;
-    update(true);
-  });
-  chips.append(chip);
+function categoryLabel(value) {
+  return value
+    .replaceAll("-", " ")
+    .replaceAll("/", " / ")
+    .replace(/^./, (c) => c.toUpperCase());
 }
 
-function renderCategoryControls() {
-  const selected = categorySelect.value;
-  categorySelect.replaceChildren(new Option("All categories", ""));
-  chips.replaceChildren();
-  addChip("", `All assets (${catalog.assets.length})`);
-  for (const [category, count] of categoryCounts(catalog.assets)) {
-    const label = category.replaceAll("/", " / ");
-    categorySelect.append(new Option(`${label} (${count})`, category));
-    addChip(category, `${label} (${count})`);
+function renderSubcategories(selected = "") {
+  const main = mainSelect.value;
+  categorySelect.replaceChildren(
+    new Option(main ? "All subcategories" : "Choose a main category first", ""),
+  );
+  categorySelect.disabled = !main;
+  if (main) {
+    for (const [category, count] of categoryCounts(catalog.assets)) {
+      if (category.split("/")[0] !== main) continue;
+      const rest = category.split("/").slice(1).join("/") || "General";
+      categorySelect.append(
+        new Option(`${categoryLabel(rest)} (${count})`, category),
+      );
+    }
   }
   categorySelect.value = [...categorySelect.options].some(
     (option) => option.value === selected,
@@ -64,9 +65,43 @@ function renderCategoryControls() {
     : "";
 }
 
+function addChip(value, label) {
+  const chip = document.createElement("button");
+  chip.type = "button";
+  chip.className = "chip";
+  chip.dataset.category = value;
+  chip.textContent = label;
+  chip.addEventListener("click", () => {
+    mainSelect.value = value;
+    renderSubcategories();
+    update(true);
+  });
+  chips.append(chip);
+}
+
+function renderCategoryControls() {
+  const selectedMain = mainSelect.value;
+  const selectedSubcategory = categorySelect.value;
+  mainSelect.replaceChildren(new Option("All categories", ""));
+  chips.replaceChildren();
+  addChip("", `All assets (${catalog.assets.length})`);
+  for (const [category, count] of mainCategoryCounts(catalog.assets)) {
+    const label = categoryLabel(category);
+    mainSelect.append(new Option(`${label} (${count})`, category));
+    addChip(category, `${label} (${count})`);
+  }
+  mainSelect.value = [...mainSelect.options].some(
+    (option) => option.value === selectedMain,
+  )
+    ? selectedMain
+    : "";
+  renderSubcategories(selectedSubcategory);
+}
+
 function currentFilters() {
   return {
     query: byId("search").value,
+    mainCategory: mainSelect.value,
     category: categorySelect.value,
     style: byId("style").value,
     rigged: byId("rigged").checked,
@@ -80,10 +115,7 @@ function inspect(asset) {
 
 function syncChips() {
   for (const chip of chips.children) {
-    chip.classList.toggle(
-      "active",
-      chip.dataset.category === categorySelect.value,
-    );
+    chip.classList.toggle("active", chip.dataset.category === mainSelect.value);
   }
 }
 
@@ -133,11 +165,16 @@ async function refresh() {
 
 byId("filters").addEventListener("submit", (event) => event.preventDefault());
 byId("filters").addEventListener("input", () => update(true));
+mainSelect.addEventListener("change", () => {
+  renderSubcategories();
+  update(true);
+});
 categorySelect.addEventListener("change", () => update(true));
 byId("sort").addEventListener("change", () => update(true));
 byId("group").addEventListener("change", () => update(true));
 byId("reset").addEventListener("click", () => {
   byId("filters").reset();
+  renderSubcategories();
   byId("sort").value = "title";
   byId("group").checked = false;
   update(true);

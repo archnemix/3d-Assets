@@ -49,9 +49,15 @@
               autocomplete="off"
           /></label>
           <label
-            ><span>Category</span
-            ><select id="category">
+            ><span>Main category</span
+            ><select id="main-category">
               <option value="">All categories</option>
+            </select></label
+          >
+          <label
+            ><span>Subcategory</span
+            ><select id="category" disabled>
+              <option value="">Choose a main category first</option>
             </select></label
           >
           <label
@@ -75,7 +81,8 @@
         <p>
           Style labels are approximate, not a guarantee of photorealism. Select
           “All styles” to see the complete catalog. Category counts cover all
-          styles; each filter matches one exact subcategory.
+          styles. Main categories group their subcategories; each asset has one
+          exact subcategory.
         </p>
         <div class="browser-toolbar">
           <div
