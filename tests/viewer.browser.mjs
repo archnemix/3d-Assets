@@ -34,16 +34,32 @@ try {
     72,
     "show more expands the page",
   );
+  await page.setViewportSize({ width: 390, height: 844 });
+  assert.equal(
+    await page.evaluate(
+      () => document.documentElement.scrollWidth <= innerWidth,
+    ),
+    true,
+    "filters and cards fit a mobile viewport without horizontal overflow",
+  );
+  await page.setViewportSize({ width: 1360, height: 900 });
   await page.locator("#style").selectOption("");
   assert.equal(
-    await page.locator('.chip[data-category="buildings"]').count(),
-    1,
-    "one main category chip",
+    await page.locator("#category-chips").count(),
+    0,
+    "no wall of category chips",
   );
   assert.equal(
-    await page.locator('.chip[data-category="buildings/modular"]').count(),
+    await page.locator('#main-category option[value="buildings"]').count(),
+    1,
+    "main categories appear once in the selector",
+  );
+  assert.equal(
+    await page
+      .locator('#main-category option[value="buildings/modular"]')
+      .count(),
     0,
-    "no duplicate subcategory chip",
+    "subcategories are not duplicated as main categories",
   );
   await page.locator("#main-category").selectOption("buildings");
   assert.match(

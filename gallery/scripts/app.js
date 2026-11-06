@@ -15,7 +15,6 @@ const dialog = byId("asset-dialog");
 const detail = byId("detail-content");
 const categorySelect = byId("category");
 const mainSelect = byId("main-category");
-const chips = byId("category-chips");
 let catalog = null;
 const PAGE_SIZE = 36;
 let visibleCount = PAGE_SIZE;
@@ -65,30 +64,13 @@ function renderSubcategories(selected = "") {
     : "";
 }
 
-function addChip(value, label) {
-  const chip = document.createElement("button");
-  chip.type = "button";
-  chip.className = "chip";
-  chip.dataset.category = value;
-  chip.textContent = label;
-  chip.addEventListener("click", () => {
-    mainSelect.value = value;
-    renderSubcategories();
-    update(true);
-  });
-  chips.append(chip);
-}
-
 function renderCategoryControls() {
   const selectedMain = mainSelect.value;
   const selectedSubcategory = categorySelect.value;
   mainSelect.replaceChildren(new Option("All categories", ""));
-  chips.replaceChildren();
-  addChip("", `All assets (${catalog.assets.length})`);
   for (const [category, count] of mainCategoryCounts(catalog.assets)) {
     const label = categoryLabel(category);
     mainSelect.append(new Option(`${label} (${count})`, category));
-    addChip(category, `${label} (${count})`);
   }
   mainSelect.value = [...mainSelect.options].some(
     (option) => option.value === selectedMain,
@@ -111,12 +93,6 @@ function currentFilters() {
 
 function inspect(asset) {
   showDetail(dialog, detail, asset);
-}
-
-function syncChips() {
-  for (const chip of chips.children) {
-    chip.classList.toggle("active", chip.dataset.category === mainSelect.value);
-  }
 }
 
 function update(resetPage = false) {
@@ -146,7 +122,6 @@ function update(resetPage = false) {
     `Showing ${visible.length} of ${filtered.length} matching assets · ${catalog.assets.length} total`;
   byId("load-more").hidden = visible.length >= filtered.length;
   byId("empty").hidden = filtered.length > 0;
-  syncChips();
 }
 
 async function refresh() {

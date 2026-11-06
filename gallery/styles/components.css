@@ -310,26 +310,14 @@ dialog::backdrop {
   flex-wrap: wrap;
   gap: 14px;
   align-items: center;
-  justify-content: space-between;
-  margin: 18px 0;
+  justify-content: flex-end;
+  margin: 12px 0;
 }
-.category-chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-.chip {
-  border: 1px solid var(--line);
-  background: white;
-  border-radius: 999px;
-  padding: 7px 12px;
-  font-size: 12px;
+.filter-hint {
   color: var(--muted);
-}
-.chip.active {
-  background: var(--accent);
-  color: white;
-  border-color: var(--accent);
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 10px 2px 0;
 }
 .toolbar-controls {
   display: flex;

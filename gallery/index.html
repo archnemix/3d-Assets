@@ -8,8 +8,8 @@
       content="A CC0-only 3D asset library with inspection records."
     />
     <title>3D Assets — CC0 Library</title>
-    <link rel="stylesheet" href="styles/base.css" />
-    <link rel="stylesheet" href="styles/components.css" />
+    <link rel="stylesheet" href="styles/base.css?v=2" />
+    <link rel="stylesheet" href="styles/components.css?v=2" />
     <script type="importmap">
       {
         "imports": {
@@ -18,7 +18,7 @@
         }
       }
     </script>
-    <script type="module" src="scripts/app.js"></script>
+    <script type="module" src="scripts/app.js?v=2"></script>
   </head>
   <body>
     <header class="masthead">
@@ -78,18 +78,11 @@
             ><input id="animated" type="checkbox" /> Animated only</label
           >
         </form>
-        <p>
-          Style labels are approximate, not a guarantee of photorealism. Select
-          “All styles” to see the complete catalog. Category counts cover all
-          styles. Main categories group their subcategories; each asset has one
-          exact subcategory.
+        <p class="filter-hint">
+          Choose a main category to browse its subcategories. Counts include all
+          styles; style labels are approximate, not a guarantee of photorealism.
         </p>
         <div class="browser-toolbar">
-          <div
-            class="category-chips"
-            id="category-chips"
-            aria-label="Quick categories"
-          ></div>
           <div class="toolbar-controls">
             <label
               ><span>Sort</span
