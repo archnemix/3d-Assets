@@ -11,4 +11,3 @@ Approved assets: **1**
 - Creator: John Malcolm; style: realistic; CC0-1.0
 - 67,306 triangles; 6 texture images
 - [Asset folder](../../assets/decor/books/ph-encyclopedia-set/) · [Metadata](../../assets/decor/books/ph-encyclopedia-set/asset.json) · [All inspection views](../../assets/decor/books/ph-encyclopedia-set/previews/contact-sheet.jpg)
-

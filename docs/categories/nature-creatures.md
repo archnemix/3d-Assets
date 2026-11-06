@@ -19,4 +19,3 @@ Approved assets: **2**
 - Creator: Grab3D; style: realistic; CC0-1.0
 - 181,914 triangles; 3 texture images
 - [Asset folder](../../assets/nature/creatures/grab3d-brachiosaurus/) · [Metadata](../../assets/nature/creatures/grab3d-brachiosaurus/asset.json) · [All inspection views](../../assets/nature/creatures/grab3d-brachiosaurus/previews/contact-sheet.jpg)
-

@@ -275,4 +275,3 @@ Approved assets: **34**
 - Creator: Sean Buckley; style: realistic; CC0-1.0
 - 57,216 triangles; 3 texture images
 - [Asset folder](../../assets/nature/wildlife/ph-street-rat/) · [Metadata](../../assets/nature/wildlife/ph-street-rat/asset.json) · [All inspection views](../../assets/nature/wildlife/ph-street-rat/previews/contact-sheet.jpg)
-

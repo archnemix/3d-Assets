@@ -19,4 +19,3 @@ Approved assets: **2**
 - Creator: James Ray Cock; style: realistic; CC0-1.0
 - 8,929 triangles; 3 texture images
 - [Asset folder](../../assets/nature/potted-plants/ph-potted-succulent/) · [Metadata](../../assets/nature/potted-plants/ph-potted-succulent/asset.json) · [All inspection views](../../assets/nature/potted-plants/ph-potted-succulent/previews/contact-sheet.jpg)
-

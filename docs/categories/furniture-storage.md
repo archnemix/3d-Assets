@@ -75,4 +75,3 @@ Approved assets: **9**
 - Creator: Gabriel Radić; style: realistic; CC0-1.0
 - 182 triangles; 3 texture images
 - [Asset folder](../../assets/furniture/storage/ph-wooden-shelf/) · [Metadata](../../assets/furniture/storage/ph-wooden-shelf/asset.json) · [All inspection views](../../assets/furniture/storage/ph-wooden-shelf/previews/contact-sheet.jpg)
-

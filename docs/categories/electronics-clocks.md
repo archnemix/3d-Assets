@@ -11,4 +11,3 @@ Approved assets: **1**
 - Creator: Yann Kervran, Rico Cilliers; style: realistic; CC0-1.0
 - 25,721 triangles; 4 texture images
 - [Asset folder](../../assets/electronics/clocks/ph-mantel-clock/) · [Metadata](../../assets/electronics/clocks/ph-mantel-clock/asset.json) · [All inspection views](../../assets/electronics/clocks/ph-mantel-clock/previews/contact-sheet.jpg)
-

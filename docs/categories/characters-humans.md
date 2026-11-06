@@ -155,4 +155,3 @@ Approved assets: **19**
 - Creator: Kenney; style: low-poly; CC0-1.0
 - 723 triangles; 1 texture images
 - [Asset folder](../../assets/characters/humans/kenney-male-character/) · [Metadata](../../assets/characters/humans/kenney-male-character/asset.json) · [All inspection views](../../assets/characters/humans/kenney-male-character/previews/contact-sheet.jpg)
-

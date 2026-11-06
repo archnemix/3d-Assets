@@ -35,4 +35,3 @@ Approved assets: **4**
 - Creator: Kuutti Siitonen; style: realistic; CC0-1.0
 - 11,416 triangles; 3 texture images
 - [Asset folder](../../assets/kitchen/cookware/ph-enamel-pot/) · [Metadata](../../assets/kitchen/cookware/ph-enamel-pot/asset.json) · [All inspection views](../../assets/kitchen/cookware/ph-enamel-pot/previews/contact-sheet.jpg)
-

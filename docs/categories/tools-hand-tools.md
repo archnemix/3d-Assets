@@ -43,4 +43,3 @@ Approved assets: **5**
 - Creator: John Hutcheson; style: realistic; CC0-1.0
 - 8,796 triangles; 3 texture images
 - [Asset folder](../../assets/tools/hand-tools/ph-ratchet-wrench/) · [Metadata](../../assets/tools/hand-tools/ph-ratchet-wrench/asset.json) · [All inspection views](../../assets/tools/hand-tools/ph-ratchet-wrench/previews/contact-sheet.jpg)
-

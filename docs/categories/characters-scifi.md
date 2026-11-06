@@ -43,4 +43,3 @@ Approved assets: **5**
 - Creator: Grab3D; style: realistic; CC0-1.0
 - 238,850 triangles; 3 texture images
 - [Asset folder](../../assets/characters/scifi/grab3d-scifi-soldier/) · [Metadata](../../assets/characters/scifi/grab3d-scifi-soldier/asset.json) · [All inspection views](../../assets/characters/scifi/grab3d-scifi-soldier/previews/contact-sheet.jpg)
-

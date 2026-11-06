@@ -27,4 +27,3 @@ Approved assets: **3**
 - Creator: James Ray Cock; style: realistic; CC0-1.0
 - 2,756 triangles; 3 texture images
 - [Asset folder](../../assets/furniture/tables/ph-side-table/) · [Metadata](../../assets/furniture/tables/ph-side-table/asset.json) · [All inspection views](../../assets/furniture/tables/ph-side-table/previews/contact-sheet.jpg)
-

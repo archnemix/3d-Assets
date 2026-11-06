@@ -13,8 +13,27 @@
   "batch": "modkit-industrial-01",
   "acquired_at": "2026-11-06T07:52:01.380128+00:00",
   "review": {
-    "status": "awaiting-visual-review",
-    "approved": false
+    "id": "modkit-wall-corner-4m",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "L-shaped corner with recessed panel on one face, visible consistent thickness and a plain adjoining face. The contact sheet and enlarged oblique show its shape from both sides.",
+    "limitations": [
+      "Static untextured corner; one face is plain.",
+      "Stylized modular piece; assembly alignment and target-engine behavior have not been verified."
+    ],
+    "contact_sheet_sha256": "d39d3aeeff346ccbcb2c5ddc49eb5e00d9bd231ef57221575e8b1b738cc2c54b",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
   },
   "source": {
     "provider": "modkit-industrial",
@@ -79,6 +98,12 @@
       "bytes": 7133,
       "sha256": "645290fbe623e74da82dae25734e8e6d5123f40f85343ad11cf0d990f8b3e4e0",
       "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1394,
+      "sha256": "c119ad21c2a6d793d509145040f6c80796ac14610a2bc579c7d95899130723e6",
+      "role": "documentation"
     },
     {
       "path": "logs/animations.log",
@@ -217,6 +242,12 @@
       "bytes": 15449,
       "sha256": "9b9d1d699b26f49a8f9835f0fb19094ca64eac2ccdac5a8b0a8cb8153f3303f9",
       "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 807,
+      "sha256": "910dc8e90cc9dca14361d76d4b256137b4129e97a6f16cdbffd7074f5f04a737",
+      "role": "documentation"
     }
   ]
 }

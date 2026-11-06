@@ -19,4 +19,3 @@ Approved assets: **2**
 - Creator: Jenelle van Heerden, Rico Cilliers; style: realistic; CC0-1.0
 - 83,128 triangles; 3 texture images
 - [Asset folder](../../assets/nature/trees/ph-dead-tree-trunk-02/) · [Metadata](../../assets/nature/trees/ph-dead-tree-trunk-02/asset.json) · [All inspection views](../../assets/nature/trees/ph-dead-tree-trunk-02/previews/contact-sheet.jpg)
-

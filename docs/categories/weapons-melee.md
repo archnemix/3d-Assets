@@ -91,4 +91,3 @@ Approved assets: **11**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 9,788 triangles; 3 texture images
 - [Asset folder](../../assets/weapons/melee/g3-rapier/) · [Metadata](../../assets/weapons/melee/g3-rapier/asset.json) · [All inspection views](../../assets/weapons/melee/g3-rapier/previews/contact-sheet.jpg)
-

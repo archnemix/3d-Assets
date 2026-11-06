@@ -11,4 +11,3 @@ Approved assets: **1**
 - Creator: Oliver Harries; style: realistic; CC0-1.0
 - 7,205 triangles; 3 texture images
 - [Asset folder](../../assets/food/vegetables/ph-ginger-root/) · [Metadata](../../assets/food/vegetables/ph-ginger-root/asset.json) · [All inspection views](../../assets/food/vegetables/ph-ginger-root/previews/contact-sheet.jpg)
-

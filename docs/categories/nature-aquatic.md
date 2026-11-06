@@ -67,4 +67,3 @@ Approved assets: **8**
 - Creator: Grab3D; style: realistic; CC0-1.0
 - 517,626 triangles; 3 texture images
 - [Asset folder](../../assets/nature/aquatic/grab3d-clownfish/) · [Metadata](../../assets/nature/aquatic/grab3d-clownfish/asset.json) · [All inspection views](../../assets/nature/aquatic/grab3d-clownfish/previews/contact-sheet.jpg)
-

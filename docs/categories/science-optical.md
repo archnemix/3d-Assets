@@ -27,4 +27,3 @@ Approved assets: **3**
 - Creator: Luis José Fernández Rodríguez; style: realistic; CC0-1.0
 - 20,631 triangles; 4 texture images
 - [Asset folder](../../assets/science/optical/ph-vintage-microscope/) · [Metadata](../../assets/science/optical/ph-vintage-microscope/asset.json) · [All inspection views](../../assets/science/optical/ph-vintage-microscope/previews/contact-sheet.jpg)
-

@@ -27,4 +27,3 @@ Approved assets: **3**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 15,612 triangles; 3 texture images
 - [Asset folder](../../assets/buildings/farm/g3-grain-bin/) · [Metadata](../../assets/buildings/farm/g3-grain-bin/asset.json) · [All inspection views](../../assets/buildings/farm/g3-grain-bin/previews/contact-sheet.jpg)
-

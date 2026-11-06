@@ -51,4 +51,3 @@ Approved assets: **6**
 - Creator: Grab3D; style: realistic; CC0-1.0
 - 267,417 triangles; 3 texture images
 - [Asset folder](../../assets/characters/occupations/grab3d-police-officer/) · [Metadata](../../assets/characters/occupations/grab3d-police-officer/asset.json) · [All inspection views](../../assets/characters/occupations/grab3d-police-officer/previews/contact-sheet.jpg)
-

@@ -19,4 +19,3 @@ Approved assets: **2**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 14,004 triangles; 3 texture images
 - [Asset folder](../../assets/armour/limbs/g3-pauldron/) · [Metadata](../../assets/armour/limbs/g3-pauldron/asset.json) · [All inspection views](../../assets/armour/limbs/g3-pauldron/previews/contact-sheet.jpg)
-

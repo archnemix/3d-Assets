@@ -19,4 +19,3 @@ Approved assets: **2**
 - Creator: Ulan Cabanilla; style: realistic; CC0-1.0
 - 16,356 triangles; 5 texture images
 - [Asset folder](../../assets/electronics/appliances/ph-ceiling-fan/) · [Metadata](../../assets/electronics/appliances/ph-ceiling-fan/asset.json) · [All inspection views](../../assets/electronics/appliances/ph-ceiling-fan/previews/contact-sheet.jpg)
-

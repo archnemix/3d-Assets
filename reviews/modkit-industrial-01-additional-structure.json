@@ -1,0 +1,109 @@
+{
+  "batch": "modkit-industrial-01",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "decisions": [
+    {
+      "id": "modkit-wall-corner-4m",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "L-shaped corner with recessed panel on one face, visible consistent thickness and a plain adjoining face. The contact sheet and enlarged oblique show its shape from both sides.",
+      "limitations": [
+        "Static untextured corner; one face is plain.",
+        "Stylized modular piece; assembly alignment and target-engine behavior have not been verified."
+      ],
+      "contact_sheet_sha256": "d39d3aeeff346ccbcb2c5ddc49eb5e00d9bd231ef57221575e8b1b738cc2c54b"
+    },
+    {
+      "id": "modkit-ceiling-4m",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "A shallow square slab with a fine perimeter border; orbit, top, underside, clay and wireframe show a simple complete ceiling piece.",
+      "limitations": [
+        "The slab is plain and untextured, with an especially simple underside.",
+        "Stylized modular piece; assembly alignment and target-engine behavior have not been verified."
+      ],
+      "contact_sheet_sha256": "e82fea3137495cfc0debe354255b76b96cbb08da48d38a831f4252e6a0e4bf49"
+    },
+    {
+      "id": "modkit-stairs-4m",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "A complete straight flight with consistent treads, solid side walls and a plinth; orbit and wireframe views show the stepped geometry.",
+      "limitations": [
+        "Static untextured stairs without railings; collision and walkability require target-engine setup.",
+        "Stylized modular piece; assembly alignment and target-engine behavior have not been verified."
+      ],
+      "contact_sheet_sha256": "5716c7de4d421ae2fecd382dd2b38c779c0d09d76a477256763d91e9f315efb8"
+    },
+    {
+      "id": "modkit-door-panel",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "A thin blue door panel with two recessed panels, handle and hinge details, visible from both sides and in the wireframe.",
+      "limitations": [
+        "Static colored door panel with no opening animation; pivot placement and doorway fit have not been tested.",
+        "Stylized modular piece; assembly alignment and target-engine behavior have not been verified."
+      ],
+      "contact_sheet_sha256": "709f33766a486926c8a97cb72fb823b394bdea23f1151e8095a4cc4367455eb6"
+    },
+    {
+      "id": "modkit-roof-pitched-4m",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "A shallow pitched roof segment with parallel raised seams; all sides, top, underside, clay and wireframe were inspected.",
+      "limitations": [
+        "Static untextured roof piece; the underside is plain and roof joins are untested.",
+        "Stylized modular piece; assembly alignment and target-engine behavior have not been verified."
+      ],
+      "contact_sheet_sha256": "4cd4ee5f03141ecafd0d9556ba4b334844f903d3d8143aa4f9fdebadbf63418e"
+    },
+    {
+      "id": "modkit-wall-arch-4m",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "A thick panelled wall with a full arched opening; both sides, edges, clay and wireframe show the opening and its surrounding structure.",
+      "limitations": [
+        "Static untextured wall opening; passage dimensions and collision have not been tested.",
+        "Stylized modular piece; assembly alignment and target-engine behavior have not been verified."
+      ],
+      "contact_sheet_sha256": "e1c2472918b85e159d6b5cf8c08e6abc827f4292ed7643c93386273a43ce6d9b"
+    }
+  ]
+}

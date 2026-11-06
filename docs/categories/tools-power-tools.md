@@ -27,4 +27,3 @@ Approved assets: **3**
 - Creator: Viktor; style: realistic; CC0-1.0
 - 58,526 triangles; 3 texture images
 - [Asset folder](../../assets/tools/power-tools/ph-drill-press/) · [Metadata](../../assets/tools/power-tools/ph-drill-press/asset.json) · [All inspection views](../../assets/tools/power-tools/ph-drill-press/previews/contact-sheet.jpg)
-

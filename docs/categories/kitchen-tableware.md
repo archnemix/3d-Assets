@@ -35,4 +35,3 @@ Approved assets: **4**
 - Creator: James Ray Cock, Rico Cilliers, Jurita Burger; style: realistic; CC0-1.0
 - 40,296 triangles; 3 texture images
 - [Asset folder](../../assets/kitchen/tableware/ph-tea-set/) · [Metadata](../../assets/kitchen/tableware/ph-tea-set/asset.json) · [All inspection views](../../assets/kitchen/tableware/ph-tea-set/previews/contact-sheet.jpg)
-

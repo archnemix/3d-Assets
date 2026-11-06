@@ -11,4 +11,3 @@ Approved assets: **1**
 - Creator: Joe Seabuhr; style: realistic; CC0-1.0
 - 27,659 triangles; 6 texture images
 - [Asset folder](../../assets/furniture/carts/ph-coffee-cart/) · [Metadata](../../assets/furniture/carts/ph-coffee-cart/asset.json) · [All inspection views](../../assets/furniture/carts/ph-coffee-cart/previews/contact-sheet.jpg)
-

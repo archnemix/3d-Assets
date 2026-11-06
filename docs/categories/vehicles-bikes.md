@@ -19,4 +19,3 @@ Approved assets: **2**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 28,020 triangles; 3 texture images
 - [Asset folder](../../assets/vehicles/bikes/g3-mountain-bike/) · [Metadata](../../assets/vehicles/bikes/g3-mountain-bike/asset.json) · [All inspection views](../../assets/vehicles/bikes/g3-mountain-bike/previews/contact-sheet.jpg)
-

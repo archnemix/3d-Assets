@@ -43,4 +43,3 @@ Approved assets: **5**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 24,808 triangles; 3 texture images
 - [Asset folder](../../assets/buildings/entertainment/g3-ticket-booth/) · [Metadata](../../assets/buildings/entertainment/g3-ticket-booth/asset.json) · [All inspection views](../../assets/buildings/entertainment/g3-ticket-booth/previews/contact-sheet.jpg)
-

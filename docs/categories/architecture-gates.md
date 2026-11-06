@@ -19,4 +19,3 @@ Approved assets: **2**
 - Creator: Josh Dean; style: realistic; CC0-1.0
 - 38,140 triangles; 3 texture images
 - [Asset folder](../../assets/architecture/gates/ph-iron-gate/) · [Metadata](../../assets/architecture/gates/ph-iron-gate/asset.json) · [All inspection views](../../assets/architecture/gates/ph-iron-gate/previews/contact-sheet.jpg)
-

@@ -27,4 +27,3 @@ Approved assets: **3**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 9,212 triangles; 6 texture images
 - [Asset folder](../../assets/buildings/modular/g3-revolving-door/) · [Metadata](../../assets/buildings/modular/g3-revolving-door/asset.json) · [All inspection views](../../assets/buildings/modular/g3-revolving-door/previews/contact-sheet.jpg)
-

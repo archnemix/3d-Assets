@@ -13,8 +13,27 @@
   "batch": "modkit-industrial-01",
   "acquired_at": "2026-11-06T07:50:07.168788+00:00",
   "review": {
-    "status": "awaiting-visual-review",
-    "approved": false
+    "id": "modkit-stairs-4m",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "A complete straight flight with consistent treads, solid side walls and a plinth; orbit and wireframe views show the stepped geometry.",
+    "limitations": [
+      "Static untextured stairs without railings; collision and walkability require target-engine setup.",
+      "Stylized modular piece; assembly alignment and target-engine behavior have not been verified."
+    ],
+    "contact_sheet_sha256": "5716c7de4d421ae2fecd382dd2b38c779c0d09d76a477256763d91e9f315efb8",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
   },
   "source": {
     "provider": "modkit-industrial",
@@ -79,6 +98,12 @@
       "bytes": 7133,
       "sha256": "645290fbe623e74da82dae25734e8e6d5123f40f85343ad11cf0d990f8b3e4e0",
       "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1434,
+      "sha256": "2e828b27af26e6aaffea25fd41f5a70ae4f97cf905bd5a3f7d454b9cfc020a35",
+      "role": "documentation"
     },
     {
       "path": "logs/animations.log",
@@ -217,6 +242,12 @@
       "bytes": 15449,
       "sha256": "9b9d1d699b26f49a8f9835f0fb19094ca64eac2ccdac5a8b0a8cb8153f3303f9",
       "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 813,
+      "sha256": "e9e848d649bc227214a2074ab14d66aba7f86a3545e59f6ad9a3556ab76135e3",
+      "role": "documentation"
     }
   ]
 }

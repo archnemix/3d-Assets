@@ -43,4 +43,3 @@ Approved assets: **5**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 18,884 triangles; 3 texture images
 - [Asset folder](../../assets/vehicles/rail/g3-tank-car/) · [Metadata](../../assets/vehicles/rail/g3-tank-car/asset.json) · [All inspection views](../../assets/vehicles/rail/g3-tank-car/previews/contact-sheet.jpg)
-

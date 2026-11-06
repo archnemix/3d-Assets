@@ -59,4 +59,3 @@ Approved assets: **7**
 - Creator: Oliver Harries; style: realistic; CC0-1.0
 - 7,012 triangles; 3 texture images
 - [Asset folder](../../assets/food/fruit/ph-red-apple/) · [Metadata](../../assets/food/fruit/ph-red-apple/asset.json) · [All inspection views](../../assets/food/fruit/ph-red-apple/previews/contact-sheet.jpg)
-

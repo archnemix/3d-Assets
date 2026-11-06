@@ -19,4 +19,3 @@ Approved assets: **2**
 - Creator: Michał Wiśniewski; style: realistic; CC0-1.0
 - 13,279 triangles; 4 texture images
 - [Asset folder](../../assets/tools/measuring/ph-spacecraft-instrument/) · [Metadata](../../assets/tools/measuring/ph-spacecraft-instrument/asset.json) · [All inspection views](../../assets/tools/measuring/ph-spacecraft-instrument/previews/contact-sheet.jpg)
-

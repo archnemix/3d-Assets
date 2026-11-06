@@ -127,9 +127,9 @@ in 78 populated categories.
 ## ModKit intake results
 
 GitHub Actions run `42182214678` completed successfully across five workers: all 39
-candidates passed technical intake. Six structural modules were subsequently visually
-reviewed and approved; see the two `reviews/modkit-industrial-01-*.json` files. The
-other 33, including the assembled outpost, remain in quarantine. The outpost's orbit
+candidates passed technical intake. Twelve structural modules were subsequently visually
+reviewed and approved; see the three `reviews/modkit-industrial-01-*.json` files. The
+other 27, including the assembled outpost, remain in quarantine. The outpost's orbit
 renders are distant and do not establish interior navigation, and its geometry report
 records 215 zero-area triangles; it requires closer review before any approval. The
 crate-stack preview shows three bare, simple cuboids and should not be represented as

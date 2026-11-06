@@ -19,4 +19,3 @@ Approved assets: **2**
 - Creator: Greg Zaal, Dario Barresi; style: realistic; CC0-1.0
 - 1,990 triangles; 3 texture images
 - [Asset folder](../../assets/food/baked-goods/ph-croissant/) · [Metadata](../../assets/food/baked-goods/ph-croissant/asset.json) · [All inspection views](../../assets/food/baked-goods/ph-croissant/previews/contact-sheet.jpg)
-

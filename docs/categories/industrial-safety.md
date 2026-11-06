@@ -19,4 +19,3 @@ Approved assets: **2**
 - Creator: Fran Calvente; style: realistic; CC0-1.0
 - 228 triangles; 3 texture images
 - [Asset folder](../../assets/industrial/safety/ph-wet-floor-sign/) · [Metadata](../../assets/industrial/safety/ph-wet-floor-sign/asset.json) · [All inspection views](../../assets/industrial/safety/ph-wet-floor-sign/previews/contact-sheet.jpg)
-

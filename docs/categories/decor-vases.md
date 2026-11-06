@@ -67,4 +67,3 @@ Approved assets: **8**
 - Creator: James Ray Cock; style: realistic; CC0-1.0
 - 9,000 triangles; 3 texture images
 - [Asset folder](../../assets/decor/vases/ph-ceramic-vase-stone/) · [Metadata](../../assets/decor/vases/ph-ceramic-vase-stone/asset.json) · [All inspection views](../../assets/decor/vases/ph-ceramic-vase-stone/previews/contact-sheet.jpg)
-

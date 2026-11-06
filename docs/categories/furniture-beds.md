@@ -27,4 +27,3 @@ Approved assets: **3**
 - Creator: Luca B; style: realistic; CC0-1.0
 - 49,990 triangles; 3 texture images
 - [Asset folder](../../assets/furniture/beds/ph-old-bed-frame/) · [Metadata](../../assets/furniture/beds/ph-old-bed-frame/asset.json) · [All inspection views](../../assets/furniture/beds/ph-old-bed-frame/previews/contact-sheet.jpg)
-

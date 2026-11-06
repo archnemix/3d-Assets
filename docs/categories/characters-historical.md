@@ -11,4 +11,3 @@ Approved assets: **1**
 - Creator: Grab3D; style: realistic; CC0-1.0
 - 287,867 triangles; 3 texture images
 - [Asset folder](../../assets/characters/historical/grab3d-viking/) · [Metadata](../../assets/characters/historical/grab3d-viking/asset.json) · [All inspection views](../../assets/characters/historical/grab3d-viking/previews/contact-sheet.jpg)
-

@@ -13,8 +13,27 @@
   "batch": "modkit-industrial-01",
   "acquired_at": "2026-11-06T07:52:23.506661+00:00",
   "review": {
-    "status": "awaiting-visual-review",
-    "approved": false
+    "id": "modkit-wall-arch-4m",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "A thick panelled wall with a full arched opening; both sides, edges, clay and wireframe show the opening and its surrounding structure.",
+    "limitations": [
+      "Static untextured wall opening; passage dimensions and collision have not been tested.",
+      "Stylized modular piece; assembly alignment and target-engine behavior have not been verified."
+    ],
+    "contact_sheet_sha256": "e1c2472918b85e159d6b5cf8c08e6abc827f4292ed7643c93386273a43ce6d9b",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
   },
   "source": {
     "provider": "modkit-industrial",
@@ -79,6 +98,12 @@
       "bytes": 7133,
       "sha256": "645290fbe623e74da82dae25734e8e6d5123f40f85343ad11cf0d990f8b3e4e0",
       "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1430,
+      "sha256": "f22a8bc33bb5047c37d7e4de76ef98d29fb222fb58f237ccf6e3be600c406a62",
+      "role": "documentation"
     },
     {
       "path": "logs/animations.log",
@@ -217,6 +242,12 @@
       "bytes": 15449,
       "sha256": "9b9d1d699b26f49a8f9835f0fb19094ca64eac2ccdac5a8b0a8cb8153f3303f9",
       "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 806,
+      "sha256": "abfed57a2626f8194c187c03b9c9f23eda8c208dfd23a7a28fa1ec98321a268e",
+      "role": "documentation"
     }
   ]
 }

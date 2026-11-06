@@ -19,4 +19,3 @@ Approved assets: **2**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 31,568 triangles; 6 texture images
 - [Asset folder](../../assets/vehicles/farm/g3-farm-trailer/) · [Metadata](../../assets/vehicles/farm/g3-farm-trailer/asset.json) · [All inspection views](../../assets/vehicles/farm/g3-farm-trailer/previews/contact-sheet.jpg)
-

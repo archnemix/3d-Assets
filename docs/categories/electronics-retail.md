@@ -11,4 +11,3 @@ Approved assets: **1**
 - Creator: Joe Seabuhr; style: realistic; CC0-1.0
 - 9,927 triangles; 6 texture images
 - [Asset folder](../../assets/electronics/retail/ph-cash-register/) · [Metadata](../../assets/electronics/retail/ph-cash-register/asset.json) · [All inspection views](../../assets/electronics/retail/ph-cash-register/previews/contact-sheet.jpg)
-

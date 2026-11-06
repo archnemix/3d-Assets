@@ -59,4 +59,3 @@ Approved assets: **7**
 - Creator: Rico Cilliers; style: realistic; CC0-1.0
 - 156,012 triangles; 3 texture images
 - [Asset folder](../../assets/nature/flowers/ph-shrub-01/) · [Metadata](../../assets/nature/flowers/ph-shrub-01/asset.json) · [All inspection views](../../assets/nature/flowers/ph-shrub-01/previews/contact-sheet.jpg)
-

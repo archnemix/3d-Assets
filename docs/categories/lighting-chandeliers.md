@@ -35,4 +35,3 @@ Approved assets: **4**
 - Creator: Kirill Sannikov; style: realistic; CC0-1.0
 - 29,301 triangles; 4 texture images
 - [Asset folder](../../assets/lighting/chandeliers/ph-ornate-chandelier/) · [Metadata](../../assets/lighting/chandeliers/ph-ornate-chandelier/asset.json) · [All inspection views](../../assets/lighting/chandeliers/ph-ornate-chandelier/previews/contact-sheet.jpg)
-

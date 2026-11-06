@@ -13,8 +13,27 @@
   "batch": "modkit-industrial-01",
   "acquired_at": "2026-11-06T07:44:45.363505+00:00",
   "review": {
-    "status": "awaiting-visual-review",
-    "approved": false
+    "id": "modkit-ceiling-4m",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "A shallow square slab with a fine perimeter border; orbit, top, underside, clay and wireframe show a simple complete ceiling piece.",
+    "limitations": [
+      "The slab is plain and untextured, with an especially simple underside.",
+      "Stylized modular piece; assembly alignment and target-engine behavior have not been verified."
+    ],
+    "contact_sheet_sha256": "e82fea3137495cfc0debe354255b76b96cbb08da48d38a831f4252e6a0e4bf49",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
   },
   "source": {
     "provider": "modkit-industrial",
@@ -79,6 +98,12 @@
       "bytes": 7133,
       "sha256": "645290fbe623e74da82dae25734e8e6d5123f40f85343ad11cf0d990f8b3e4e0",
       "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1408,
+      "sha256": "aaffa1c63f7d85f8b47b5526e8768efda115d7f1cf81074a44cc67fac2ed6624",
+      "role": "documentation"
     },
     {
       "path": "logs/animations.log",
@@ -217,6 +242,12 @@
       "bytes": 15449,
       "sha256": "9b9d1d699b26f49a8f9835f0fb19094ca64eac2ccdac5a8b0a8cb8153f3303f9",
       "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 784,
+      "sha256": "e47aa5b62c182bbf2bb4a52cb6e07c763ec302ffd8fb12b0e8d310060a7168d1",
+      "role": "documentation"
     }
   ]
 }

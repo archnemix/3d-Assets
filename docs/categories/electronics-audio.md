@@ -19,4 +19,3 @@ Approved assets: **2**
 - Creator: Ethan Simon-Law; style: realistic; CC0-1.0
 - 15,814 triangles; 3 texture images
 - [Asset folder](../../assets/electronics/audio/ph-megaphone/) · [Metadata](../../assets/electronics/audio/ph-megaphone/asset.json) · [All inspection views](../../assets/electronics/audio/ph-megaphone/previews/contact-sheet.jpg)
-

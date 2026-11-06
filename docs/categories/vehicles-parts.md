@@ -51,4 +51,3 @@ Approved assets: **6**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 39,382 triangles; 6 texture images
 - [Asset folder](../../assets/vehicles/parts/g3-jet-engine/) · [Metadata](../../assets/vehicles/parts/g3-jet-engine/asset.json) · [All inspection views](../../assets/vehicles/parts/g3-jet-engine/previews/contact-sheet.jpg)
-

@@ -19,4 +19,3 @@ Approved assets: **2**
 - Creator: Fran Calvente; style: realistic; CC0-1.0
 - 8,003 triangles; 4 texture images
 - [Asset folder](../../assets/furniture/sofas/ph-victorian-sofa/) · [Metadata](../../assets/furniture/sofas/ph-victorian-sofa/asset.json) · [All inspection views](../../assets/furniture/sofas/ph-victorian-sofa/previews/contact-sheet.jpg)
-

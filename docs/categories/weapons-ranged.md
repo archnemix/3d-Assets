@@ -27,4 +27,3 @@ Approved assets: **3**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 11,710 triangles; 3 texture images
 - [Asset folder](../../assets/weapons/ranged/g3-quiver/) · [Metadata](../../assets/weapons/ranged/g3-quiver/asset.json) · [All inspection views](../../assets/weapons/ranged/g3-quiver/previews/contact-sheet.jpg)
-

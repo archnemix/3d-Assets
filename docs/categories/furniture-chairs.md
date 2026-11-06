@@ -43,4 +43,3 @@ Approved assets: **5**
 - Creator: Kirill Sannikov; style: realistic; CC0-1.0
 - 5,626 triangles; 3 texture images
 - [Asset folder](../../assets/furniture/chairs/ph-victorian-armchair/) · [Metadata](../../assets/furniture/chairs/ph-victorian-armchair/asset.json) · [All inspection views](../../assets/furniture/chairs/ph-victorian-armchair/previews/contact-sheet.jpg)
-
