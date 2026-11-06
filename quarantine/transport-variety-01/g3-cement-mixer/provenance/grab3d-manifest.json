@@ -1,0 +1,55 @@
+{
+  "slug": "cement-mixer",
+  "triangles": 43497,
+  "texture_px": 2048,
+  "triangles_light": 29045,
+  "texture_px_light": 1024,
+  "files": {
+    "glb": {
+      "name": "cement-mixer.glb",
+      "bytes": 2733992
+    },
+    "blend": {
+      "name": "cement-mixer.blend",
+      "bytes": 2318615
+    },
+    "fbx": {
+      "name": "cement-mixer.fbx",
+      "bytes": 4845116
+    },
+    "obj": {
+      "name": "cement-mixer-obj.zip",
+      "bytes": 2567048
+    },
+    "usdz": {
+      "name": "cement-mixer.usdz",
+      "bytes": 4304670
+    },
+    "glb_light": {
+      "name": "cement-mixer-light.glb",
+      "bytes": 1447548
+    },
+    "fbx_light": {
+      "name": "cement-mixer-light.fbx",
+      "bytes": 2802444
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "2.945 x 8.487 x 3.806",
+    "triangles": 43497,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-09-26",
+    "real_size": "concrete mixer truck (3 axles), approx. 8.5 x 2.5 x 3.8 m (L x W x H), drum diameter 2.2 m, wheel diameter 1.04 m",
+    "notes": "front faces -Y; the mixer drum 'cement-mixer_drum' is a separate object with its origin on the drum axis at the front bearing; it spins around its own tilted axis (direction (0.000, 0.983, 0.182) in Blender coordinates, i.e. local Y tilted 10.5 degrees up towards the rear); 6 wheels are separate objects with origin on the axle (rotate around local X to roll), the front wheels also steer around local Z; opaque tinted windows, no interior; no brand, no text",
+    "set": "Cozy Vehicles Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}

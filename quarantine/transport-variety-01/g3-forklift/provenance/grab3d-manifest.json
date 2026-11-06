@@ -1,0 +1,55 @@
+{
+  "slug": "forklift",
+  "triangles": 22104,
+  "texture_px": 2048,
+  "triangles_light": 15439,
+  "texture_px_light": 1024,
+  "files": {
+    "glb": {
+      "name": "forklift.glb",
+      "bytes": 1483712
+    },
+    "blend": {
+      "name": "forklift.blend",
+      "bytes": 1274893
+    },
+    "fbx": {
+      "name": "forklift.fbx",
+      "bytes": 2606252
+    },
+    "obj": {
+      "name": "forklift-obj.zip",
+      "bytes": 1365859
+    },
+    "usdz": {
+      "name": "forklift.usdz",
+      "bytes": 2392688
+    },
+    "glb_light": {
+      "name": "forklift-light.glb",
+      "bytes": 822452
+    },
+    "fbx_light": {
+      "name": "forklift-light.fbx",
+      "bytes": 1551676
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "1.262 x 3.865 x 2.315",
+    "triangles": 22104,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-09-26",
+    "real_size": "counterbalance forklift, approx. 3.8 x 1.2 x 2.3 m (L x W x H), fork length 1.15 m",
+    "notes": "front (forks) faces -Y; 'forklift_fork_carriage' (carriage, load backrest and forks) is a separate object with its origin at the fork heel on the ground: translate along Z to lift (0 to approx. 0.9 m stays inside the fixed mast); 4 wheels are separate objects with origin on the axle (rotate around local X to roll), the rear wheels steer around local Z; open operator station with visible seat and steering wheel; no brand, no text",
+    "set": "Cozy Vehicles Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}

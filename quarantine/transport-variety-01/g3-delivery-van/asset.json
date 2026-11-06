@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "id": "g3-delivery-van",
+  "title": "Delivery van",
+  "category": "vehicles/trucks",
+  "style": "stylized",
+  "tags": [
+    "van",
+    "delivery",
+    "road"
+  ],
+  "batch": "transport-variety-01",
+  "acquired_at": "2026-11-06T14:28:13.658220+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/delivery-van.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/delivery-van/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/delivery-van/",
+    "source_id": "delivery-van",
+    "revision": "9c803de197b13b28071ebfa95658bc00838fae079f3ef1818a16c10a3da5aa7d",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/delivery-van/delivery-van.glb",
+        "bytes": 1269388,
+        "sha256": "9c803de197b13b28071ebfa95658bc00838fae079f3ef1818a16c10a3da5aa7d"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/delivery-van/LICENSE.txt"
+  },
+  "model": "model/delivery-van.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 7,
+    "materials": 16,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/delivery-van_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "delivery-van_body_normal"
+    },
+    {
+      "path": "textures/delivery-van_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "delivery-van_body_basecolor"
+    },
+    {
+      "path": "textures/delivery-van_body_metallic-delivery-van_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "delivery-van_body_metallic-delivery-van_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 7,
+    "hidden_mesh_objects": 0,
+    "vertices": 20463,
+    "triangles": 31517,
+    "material_slots": 16,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "delivery-van_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "delivery-van_body_metallic-delivery-van_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "delivery-van_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 77098,
+      "sha256": "4322eb7061f98b3e6dd9102ae325d3aec3b8f756471ebfd838f3e9bcdd04fa30",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "8b53234ae4186168210d3f992717f4ca110c4591695d16b46f67ab5db1daa92f",
+      "role": "logs"
+    },
+    {
+      "path": "model/delivery-van.glb",
+      "bytes": 1269388,
+      "sha256": "9c803de197b13b28071ebfa95658bc00838fae079f3ef1818a16c10a3da5aa7d",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 17605,
+      "sha256": "a939379f787c7d201e9e7df21c1d012efbda9835fc25fff9107428e792c57859",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18511,
+      "sha256": "f6f7a34e0e6904f78d0339888933b863cd1ae62543b4e0fc5d1489dfc5f43a6d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 192009,
+      "sha256": "cc3bafe3717dd1718258dcf0178c0fb55fecc85797c8d5df7fd8e58a12473d7f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 833,
+      "sha256": "b35cc85fcaa238a01d1808972bb808b5fc4f4a926f805d8ee307f1bbed503059",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 22741,
+      "sha256": "eba627f0a487765636aea5c8f6c7515ddc318bd3ba73fdae04896dbc4e253c3b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 25967,
+      "sha256": "9b4583c29241dad0b265afdb0e42e54511b6b83197ca551d418bb425f0a02bb5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 21601,
+      "sha256": "aa0e7a8b16a99130ed5d176b4af7dc1f9db549bdc33a9918a9e7df2c7d4581b1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 23835,
+      "sha256": "e497682ae30611258f7b5ffb272163e214e3c52e43daa4bc26837682004cfbf2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 24491,
+      "sha256": "8f92906585f29ecbd9b0038200eec7ea8e1bea007da343868fd669fd7b64e04a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 25843,
+      "sha256": "1f294a7f9a253a94e89e085405dedb7041a482c20a70d8efa900cf4c25c2274f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 23845,
+      "sha256": "38d1ac86b2777b4ce54998387e59a2868f61fce4757702ae9992b2405080c73c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 27711,
+      "sha256": "49644aaf0f1e374084990ca7567e293146b537ed2ab4f0a710754246cc032477",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 17057,
+      "sha256": "dec4b71fdeb988a90aeaf2fa0ead31911a28ec224e06ea637d3d001f8687a365",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 54036,
+      "sha256": "cfcf7f069efe919291b996ff2e50c30fa11838b285e25567f39a8636157d67a4",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 4758,
+      "sha256": "87333980df9b757ee7b955de78d52a8705e4db9fbb69d40d9368b5492d92876b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1624,
+      "sha256": "ee0d27596a79e5c52acc8dde9b960ed1452d28ca39f2be80601929b910e9bca1",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 513,
+      "sha256": "21adf4af341de02d87e272f1eca5442e02832d37a1ab1d86d44c6cf9f7e9fc6d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "f05f2d2ab15f82f55714dbab2fbb3fe237d74539e4e0663bd5558a4e46fa22dd",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/delivery-van_body_basecolor.jpg",
+      "bytes": 169645,
+      "sha256": "7991807680499aa2317b1d2257240837f51c02dd6b2571a906291568ca2fb680",
+      "role": "textures"
+    },
+    {
+      "path": "textures/delivery-van_body_metallic-delivery-van_body_roughness.jpg",
+      "bytes": 196488,
+      "sha256": "1f4a698460e3a226a6a5e344898625b3e095db3c4dddd15264c6803a20cc079d",
+      "role": "textures"
+    },
+    {
+      "path": "textures/delivery-van_body_normal.jpg",
+      "bytes": 68572,
+      "sha256": "2156f9ee10cf71172016bc01aa0439065dc1964858aeababf48305adaac9929c",
+      "role": "textures"
+    }
+  ]
+}

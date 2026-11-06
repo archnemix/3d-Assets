@@ -1,0 +1,55 @@
+{
+  "slug": "school-bus",
+  "triangles": 44066,
+  "texture_px": 2048,
+  "triangles_light": 29236,
+  "texture_px_light": 1024,
+  "files": {
+    "glb": {
+      "name": "school-bus.glb",
+      "bytes": 2234024
+    },
+    "blend": {
+      "name": "school-bus.blend",
+      "bytes": 1878355
+    },
+    "fbx": {
+      "name": "school-bus.fbx",
+      "bytes": 3809868
+    },
+    "obj": {
+      "name": "school-bus-obj.zip",
+      "bytes": 1618245
+    },
+    "usdz": {
+      "name": "school-bus.usdz",
+      "bytes": 3438885
+    },
+    "glb_light": {
+      "name": "school-bus-light.glb",
+      "bytes": 1558952
+    },
+    "fbx_light": {
+      "name": "school-bus-light.fbx",
+      "bytes": 2456812
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "3.020 x 11.276 x 3.154",
+    "triangles": 44066,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-09-26",
+    "real_size": "school bus (conventional), approx. 11.3 x 2.5 x 3.2 m (L x W x H), wheel diameter 1.0 m",
+    "notes": "front faces -Y; the stop arm 'school-bus_stop_arm' is a separate object with its origin on its vertical hinge (rotate around local Z, approx. -90 degrees swings it out); 4 wheel objects (rear with dual tires) are separate objects with origin on the axle (rotate around local X to roll), the front wheels also steer around local Z; opaque tinted windows, no interior; lettering 'SCHOOL BUS' and 'STOP' in grab3d's own stroke font; no brand",
+    "set": "Cozy Vehicles Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}
