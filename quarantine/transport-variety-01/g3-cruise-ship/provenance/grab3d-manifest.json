@@ -1,0 +1,55 @@
+{
+  "slug": "cruise-ship",
+  "triangles": 29160,
+  "texture_px": 4096,
+  "triangles_light": 18174,
+  "texture_px_light": 1024,
+  "files": {
+    "glb": {
+      "name": "cruise-ship.glb",
+      "bytes": 2921540
+    },
+    "blend": {
+      "name": "cruise-ship.blend",
+      "bytes": 2269013
+    },
+    "fbx": {
+      "name": "cruise-ship.fbx",
+      "bytes": 4863036
+    },
+    "obj": {
+      "name": "cruise-ship-obj.zip",
+      "bytes": 2863110
+    },
+    "usdz": {
+      "name": "cruise-ship.usdz",
+      "bytes": 4643505
+    },
+    "glb_light": {
+      "name": "cruise-ship-light.glb",
+      "bytes": 923392
+    },
+    "fbx_light": {
+      "name": "cruise-ship-light.fbx",
+      "bytes": 1645948
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "14.800 x 70.000 x 29.727",
+    "triangles": 29160,
+    "textures": "PBR 4096px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-09-26",
+    "real_size": "stylised cruise ship shortened to 70 m (real cruise ships are ~250-360 m): approx. 71.5 x 14.3 x 31 m (L x W x H), 5 superstructure decks",
+    "notes": "bow faces -Y; sits on its keel at z = 0, add your own water (waterline at 3.3 m: blue boot stripe above the antifouling); balcony rows stylised as dark window bands with white rails; separate moving parts with origin on their axis: cruise-ship_propeller_port / _starboard (spin around the shafts), cruise-ship_rudder_port / _starboard (turn around Z); opaque tinted windows, no interior; no brand, no text, no name, no flag",
+    "set": "Cozy Boats & Aircraft Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}

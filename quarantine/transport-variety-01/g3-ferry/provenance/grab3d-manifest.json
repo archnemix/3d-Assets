@@ -1,0 +1,55 @@
+{
+  "slug": "ferry",
+  "triangles": 26106,
+  "texture_px": 2048,
+  "triangles_light": 16191,
+  "texture_px_light": 1024,
+  "files": {
+    "glb": {
+      "name": "ferry.glb",
+      "bytes": 1536540
+    },
+    "blend": {
+      "name": "ferry.blend",
+      "bytes": 1466011
+    },
+    "fbx": {
+      "name": "ferry.fbx",
+      "bytes": 2735036
+    },
+    "obj": {
+      "name": "ferry-obj.zip",
+      "bytes": 1428222
+    },
+    "usdz": {
+      "name": "ferry.usdz",
+      "bytes": 2437498
+    },
+    "glb_light": {
+      "name": "ferry-light.glb",
+      "bytes": 823820
+    },
+    "fbx_light": {
+      "name": "ferry-light.fbx",
+      "bytes": 1619244
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "11.667 x 40.000 x 13.485",
+    "triangles": 26106,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-09-26",
+    "real_size": "car ferry (ro-ro), stylized and shortened to approx. 40.0 x 11.7 x 13.5 m (L x W x H incl. mast)",
+    "notes": "bow faces -Y; stands on its flat bottom at z = 0, add your own water (waterline at 1.9 m: blue boot stripe above the antifouling); open, empty vehicle deck with lane markings; separate moving parts with origin on their axis: ferry_bow_ramp (shown raised; hinge across the deck - rotate about +90 degrees around X in Blender to lower it forward, the hydraulic rams stay fixed), ferry_propeller_l/_r (spin around the shafts), ferry_rudder_l/_r (turn around Z); opaque tinted windows, no interior; no name, no text, no flag, no brand",
+    "set": "Cozy Boats & Aircraft Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}

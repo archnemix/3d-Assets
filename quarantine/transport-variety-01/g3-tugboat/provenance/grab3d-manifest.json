@@ -1,0 +1,55 @@
+{
+  "slug": "tugboat",
+  "triangles": 26380,
+  "texture_px": 2048,
+  "triangles_light": 15163,
+  "texture_px_light": 1024,
+  "files": {
+    "glb": {
+      "name": "tugboat.glb",
+      "bytes": 1725912
+    },
+    "blend": {
+      "name": "tugboat.blend",
+      "bytes": 1753974
+    },
+    "fbx": {
+      "name": "tugboat.fbx",
+      "bytes": 3172316
+    },
+    "obj": {
+      "name": "tugboat-obj.zip",
+      "bytes": 1788883
+    },
+    "usdz": {
+      "name": "tugboat.usdz",
+      "bytes": 2736873
+    },
+    "glb_light": {
+      "name": "tugboat-light.glb",
+      "bytes": 874280
+    },
+    "fbx_light": {
+      "name": "tugboat-light.fbx",
+      "bytes": 1801116
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "6.558 x 15.607 x 11.148",
+    "triangles": 26380,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-09-26",
+    "real_size": "harbour tugboat, approx. 15.3 x 6.4 x 11.5 m (L x W x H incl. mast)",
+    "notes": "bow faces -Y; sits on its keel at z = 0, add your own water (waterline at 2.3 m: blue boot stripe above the antifouling); tyre fenders on bow and sides; separate moving parts with origin on their axis: tugboat_propeller (inside the nozzle, spins around the shaft), tugboat_rudder (turns around Z), tugboat_winch_drum (rolls around X); opaque tinted windows, no interior; no brand, no text, no name, no flag",
+    "set": "Cozy Boats & Aircraft Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}

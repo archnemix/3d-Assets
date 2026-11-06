@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "id": "g3-paddle-steamer",
+  "title": "Paddle steamer",
+  "category": "vehicles/watercraft",
+  "style": "stylized",
+  "tags": [
+    "steamboat",
+    "paddle",
+    "ship"
+  ],
+  "batch": "transport-variety-01",
+  "acquired_at": "2026-11-06T14:28:01.970488+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/paddle-steamer.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/paddle-steamer/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/paddle-steamer/",
+    "source_id": "paddle-steamer",
+    "revision": "6e684155b2b7bec950b428f1bac46a22b660cbf8d5dfc5f466bf888b2390ef3e",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/paddle-steamer/paddle-steamer.glb",
+        "bytes": 1688024,
+        "sha256": "6e684155b2b7bec950b428f1bac46a22b660cbf8d5dfc5f466bf888b2390ef3e"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/paddle-steamer/LICENSE.txt"
+  },
+  "model": "model/paddle-steamer.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 3,
+    "materials": 5,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/paddle-steamer_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "paddle-steamer_body_normal"
+    },
+    {
+      "path": "textures/paddle-steamer_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "paddle-steamer_body_basecolor"
+    },
+    {
+      "path": "textures/paddle-steamer_body_metallic-paddle-steamer_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "paddle-steamer_body_metallic-paddle-steamer_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 3,
+    "hidden_mesh_objects": 0,
+    "vertices": 25727,
+    "triangles": 29474,
+    "material_slots": 5,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "paddle-steamer_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "paddle-steamer_body_metallic-paddle-steamer_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "paddle-steamer_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 70162,
+      "sha256": "001131df27ded1dcf07bb0e07739e9d6010a482a2e2ed0db3865f336ccf639f9",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "9b218ff0c7d3ae3393d4c152be34e97abbcb40bb0dd1f243e90fd6977e803b32",
+      "role": "logs"
+    },
+    {
+      "path": "model/paddle-steamer.glb",
+      "bytes": 1688024,
+      "sha256": "6e684155b2b7bec950b428f1bac46a22b660cbf8d5dfc5f466bf888b2390ef3e",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 16979,
+      "sha256": "ea2325d7019db5d08f0b0e4258a4f6aaaa0a75e3b02e4738181980e38baca610",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 29104,
+      "sha256": "7392666f8d2abbdacecaebad683286e4ad1d74deefc6b1868f8fb9e7f4d88341",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 242168,
+      "sha256": "a7b459506f627dcaef4c79ac458bd692b168ba70da25da379e54682938498c43",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 840,
+      "sha256": "4c2ddb84b0c0b572825874fac3454e8e6d34f5043b65501aa89623542675f4e3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 28997,
+      "sha256": "0d2d140fb68009d45510164ec7dd8a74a3ef89d0f2586260ea87231618e16fd5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 40621,
+      "sha256": "69c4d3ff716bbc1de8dd3a763ea8f422159c3b3bdb57ba0443864446833cc443",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 29635,
+      "sha256": "7352470f2445582af168a34ca150be9785d71d893ddbde024d7052a8ffdee4db",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 39594,
+      "sha256": "2bab96c6764667c5ed4fb5609a81054b9011ca6d5f5d7b906cd19ac998e85609",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 22667,
+      "sha256": "f6bf3d10c604773be8845d3bfc0cbb362dae5447ed82e5e17d17a2a7c65da39c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 41745,
+      "sha256": "b5b5ee40dae2378960051bada221b10a6e848d0948744ea86ce1f4f33cbfaf28",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 31499,
+      "sha256": "274dea1236da66cf99e49b9be76a3c4063a7844cc1825ff053cd4a8b093413b1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 42223,
+      "sha256": "433f5e80e2b12bccd85eefeb0d64a5ea94e928e1aaa6374ee6eea06e4b8aed79",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 18304,
+      "sha256": "36100425135973f8aedd552d31896d60625568728d2077765e6a812d29c3f942",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 59272,
+      "sha256": "aada917e345e05c4acc58f6194b2ad8a1e70768d4c9c14e156455a540c8af14b",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2689,
+      "sha256": "3b200aed965bf1d9f0a5f64e1a3a6fcb447c8eb3364a01c20b3c981d0ba6ba71",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1825,
+      "sha256": "0af9cb042fb5cab2622999c6a11c4bde4e50d4aa26e92033cfc67e190d781c8f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 529,
+      "sha256": "19d82fe2aeb06c837c5a694b2b8d031fd816cb3a37d65f31d6359c1ff29e4c8a",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "6b05f25da4fa2cc8b9163f8096b2568abce79df65072e40db4605e17d899152d",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/paddle-steamer_body_basecolor.jpg",
+      "bytes": 303081,
+      "sha256": "4f4d153216ed8f39a47911edaf6d9d14950f9b552e652aec2323a008e4e074fb",
+      "role": "textures"
+    },
+    {
+      "path": "textures/paddle-steamer_body_metallic-paddle-steamer_body_roughness.jpg",
+      "bytes": 262484,
+      "sha256": "7a091608ecefdb950aae31510d1a130a3f3316a36bb140b2e0f6689885091504",
+      "role": "textures"
+    },
+    {
+      "path": "textures/paddle-steamer_body_normal.jpg",
+      "bytes": 115573,
+      "sha256": "97c4442174775b2d63fe794191623b20de4eea102019ec70bfc852dd1e1b8a0f",
+      "role": "textures"
+    }
+  ]
+}
