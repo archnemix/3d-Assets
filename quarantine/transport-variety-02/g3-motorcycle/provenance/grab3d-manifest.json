@@ -1,0 +1,55 @@
+{
+  "slug": "motorcycle",
+  "triangles": 25644,
+  "texture_px": 2048,
+  "triangles_light": 15302,
+  "texture_px_light": 1024,
+  "files": {
+    "glb": {
+      "name": "motorcycle.glb",
+      "bytes": 1957120
+    },
+    "blend": {
+      "name": "motorcycle.blend",
+      "bytes": 1804503
+    },
+    "fbx": {
+      "name": "motorcycle.fbx",
+      "bytes": 3396396
+    },
+    "obj": {
+      "name": "motorcycle-obj.zip",
+      "bytes": 2047112
+    },
+    "usdz": {
+      "name": "motorcycle.usdz",
+      "bytes": 3097757
+    },
+    "glb_light": {
+      "name": "motorcycle-light.glb",
+      "bytes": 1019792
+    },
+    "fbx_light": {
+      "name": "motorcycle-light.fbx",
+      "bytes": 1900076
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "0.796 x 2.110 x 1.309",
+    "triangles": 25644,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-09-26",
+    "real_size": "classic motorcycle (cafe racer), approx. 2.0 x 0.8 x 1.2 m (L x W x H), 18 in spoked wheels",
+    "notes": "front faces -Y; stands upright on its center stand; wheels are separate objects with origin on the axle (rotate around local X to roll); motorcycle_steering (fork, triple clamps, handlebar, mirrors, gauges, headlight, front fender) has its origin on the steering axis, which is tilted 26 deg: rotate around the axis (0, 0.438, 0.899) in Blender Z-up coordinates = (0, 0.899, -0.438) in glTF Y-up, steering lock about +-28 deg (turn the front wheel about the same axis and pivot); no brand, no text, blank license plate",
+    "set": "Cozy Vehicles Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}
