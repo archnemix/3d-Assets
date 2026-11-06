@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "id": "g3-private-jet",
+  "title": "Private jet",
+  "category": "vehicles/aircraft",
+  "style": "stylized",
+  "tags": [
+    "jet",
+    "plane",
+    "flight"
+  ],
+  "batch": "transport-variety-01",
+  "acquired_at": "2026-11-06T14:30:32.642364+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/private-jet.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/private-jet/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/private-jet/",
+    "source_id": "private-jet",
+    "revision": "cc7e60f53eb11a6f2df684f050806586d6d88f5984b84818b3c5afed3d0240c2",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/private-jet/private-jet.glb",
+        "bytes": 1232992,
+        "sha256": "cc7e60f53eb11a6f2df684f050806586d6d88f5984b84818b3c5afed3d0240c2"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/private-jet/LICENSE.txt"
+  },
+  "model": "model/private-jet.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 5,
+    "materials": 11,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/private-jet_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "private-jet_body_normal"
+    },
+    {
+      "path": "textures/private-jet_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "private-jet_body_basecolor"
+    },
+    {
+      "path": "textures/private-jet_body_metallic-private-jet_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "private-jet_body_metallic-private-jet_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 5,
+    "hidden_mesh_objects": 0,
+    "vertices": 17284,
+    "triangles": 23104,
+    "material_slots": 11,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "private-jet_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "private-jet_body_metallic-private-jet_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "private-jet_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 72901,
+      "sha256": "9047c24141468b83e5d0c4fdab43935d300f37237208d608badf79b8450fc4ae",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "8403b1b62b69426fc9de905bbb757dd25c24ffab5738fb4e0bdfec20c0261071",
+      "role": "logs"
+    },
+    {
+      "path": "model/private-jet.glb",
+      "bytes": 1232992,
+      "sha256": "cc7e60f53eb11a6f2df684f050806586d6d88f5984b84818b3c5afed3d0240c2",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 16833,
+      "sha256": "8e71586915b64113c5239c8b8d70e24ea05ee1e119a398cc9beee56d39ff80a3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 17110,
+      "sha256": "6dd30b6441c3a06ddc28b106a93adf7520e11d951410dde9e848035522e49159",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 138334,
+      "sha256": "0e28e1314574e11b3959ffb93f64567b8bc76e3bec7a0abdd589c000c64246b3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 829,
+      "sha256": "2e5d1d9895451496183f4739679328db0c511e23eb5434b30e9e04b1439467d6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 16760,
+      "sha256": "f56248b309b9466fe9afa82031fed576ed7fb3c06d1d99b8b8d698f3fe0cf164",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 19692,
+      "sha256": "94bc38ba6ad7c4203f57a9d86a4fc3afdbd004c5dcc764ea0b55c95f5759d75c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 15526,
+      "sha256": "ea1e1097558a41ea928601d0b5423cde8cfa4c9b856aa30aef99101de6f7cf36",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 17380,
+      "sha256": "b36174e433088c596a4d973cd1454ab56132de7657617b22c8b31fa8f070784a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 13916,
+      "sha256": "96cc5b3db225e3c5309a5ccc936f0e5cbe4cbdeda3f43908df79248279049d65",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 17635,
+      "sha256": "8a7a22370bee75f73ac0b69d690a4b271bbaeeea4db5dc184942d80c6addfc56",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 15961,
+      "sha256": "548835f831546b8f0de5b10535d56902bfb4d08037848f41e713b5d28c40947d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 19984,
+      "sha256": "2d1b7af80dd9795e9e61eec4549d4de440a5006e55a66703171ef9f210a6a4ba",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 17028,
+      "sha256": "3c735182f16d39651359369899665a2dc7e3c9c6e365ca13ccf2a873850557ad",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 27957,
+      "sha256": "403bc3b26065384868e0a4601824ea2d7ac988c734d346cb8362a84650cb5932",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3817,
+      "sha256": "177eece0c89887ce4c43fb4374094a1f31772bca422ccf3f9edaac2e3ced4c1c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1760,
+      "sha256": "5e9c1bea135f39b4af31448d59d9fe6e7f793d2b58019797adc55da6962875ed",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 505,
+      "sha256": "b643214e23e1cbcaf7e14e856b86434fdc7ff773a2b230586fe3a6a2427e62d9",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "9e5aafd09642be505f4f9b8a76b0570cca6e25bee6b303c60c263648beee9f38",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/private-jet_body_basecolor.jpg",
+      "bytes": 247691,
+      "sha256": "617ec81af197d72272316930b3dfe0e83cf589034d9978efbef07f6c5d3fdc72",
+      "role": "textures"
+    },
+    {
+      "path": "textures/private-jet_body_metallic-private-jet_body_roughness.jpg",
+      "bytes": 217885,
+      "sha256": "bddf09dcd6752e40cdc014eb0d453d9c278e7906235fa0adf694fcbb2705b102",
+      "role": "textures"
+    },
+    {
+      "path": "textures/private-jet_body_normal.jpg",
+      "bytes": 72292,
+      "sha256": "502ebed2d63f70622def8e078ea780392cfc1258e269390807de288628eae1b9",
+      "role": "textures"
+    }
+  ]
+}

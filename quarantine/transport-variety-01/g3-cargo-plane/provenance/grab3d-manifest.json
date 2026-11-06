@@ -1,0 +1,55 @@
+{
+  "slug": "cargo-plane",
+  "triangles": 29788,
+  "texture_px": 2048,
+  "triangles_light": 20619,
+  "texture_px_light": 1024,
+  "files": {
+    "glb": {
+      "name": "cargo-plane.glb",
+      "bytes": 1425732
+    },
+    "blend": {
+      "name": "cargo-plane.blend",
+      "bytes": 1359102
+    },
+    "fbx": {
+      "name": "cargo-plane.fbx",
+      "bytes": 2928028
+    },
+    "obj": {
+      "name": "cargo-plane-obj.zip",
+      "bytes": 1370620
+    },
+    "usdz": {
+      "name": "cargo-plane.usdz",
+      "bytes": 2266451
+    },
+    "glb_light": {
+      "name": "cargo-plane-light.glb",
+      "bytes": 839380
+    },
+    "fbx_light": {
+      "name": "cargo-plane-light.fbx",
+      "bytes": 1832380
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "38.350 x 29.680 x 12.080",
+    "triangles": 29788,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-09-26",
+    "real_size": "four-engine turboprop cargo / transport airplane, high wing, approx. 29.7 x 38.4 x 12.1 m (L x wingspan x H), propeller diameter 4.0 m",
+    "notes": "nose faces -Y; stands on its landing gear (tandem main wheels in side pods, twin nose wheels); shown in loading pose: the rear ramp (cargo-plane_cargo_ramp, origin on its front hinge) is lowered onto the ground - rotate it by 28.4 deg around local X (glTF X) to close it flush with the fuselage; the upper rear cargo door (cargo-plane_cargo_door, origin on its rear hinge) is folded up into the tail - rotate by 40 deg around local X to close; the cargo hold has a simple interior with a pallet of crates; 4 propellers (origin on the hub, spin around the engine axis) and 6 wheels (origin on the axle, roll around local X) are separate objects; opaque tinted windows; no markings, no text, no registration",
+    "set": "Cozy Boats & Aircraft Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "airship",
+  "triangles": 18966,
+  "texture_px": 2048,
+  "triangles_light": null,
+  "texture_px_light": null,
+  "files": {
+    "glb": {
+      "name": "airship.glb",
+      "bytes": 1046472
+    },
+    "blend": {
+      "name": "airship.blend",
+      "bytes": 966203
+    },
+    "fbx": {
+      "name": "airship.fbx",
+      "bytes": 1862220
+    },
+    "obj": {
+      "name": "airship-obj.zip",
+      "bytes": 892853
+    },
+    "usdz": {
+      "name": "airship.usdz",
+      "bytes": 1654511
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "18.840 x 44.950 x 18.220",
+    "triangles": 18966,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-09-26",
+    "real_size": "airship / zeppelin-style blimp, approx. 44.9 x 16.8 x 17.2 m (L x fin span x H), envelope diameter 10.4 m, gondola 6.6 m",
+    "notes": "nose faces -Y; ground contact: the airship rests on two gondola wheels and a tail wheel under the lower fin (wheel bottoms at z = 0; in flight simply hide or ignore them); 2 propellers (origin on the hub, spin around the engine axis) and 3 wheels (origin on the axle, roll around local X) are separate objects; envelope made of 16 gently pillowed gores; opaque tinted windows, no interior; no brand, no text, no registration",
+    "set": "Cozy Boats & Aircraft Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}

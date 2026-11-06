@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "id": "g3-passenger-airplane",
+  "title": "Passenger airplane",
+  "category": "vehicles/aircraft",
+  "style": "stylized",
+  "tags": [
+    "airliner",
+    "plane",
+    "flight"
+  ],
+  "batch": "transport-variety-01",
+  "acquired_at": "2026-11-06T14:29:13.777144+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/passenger-airplane.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/passenger-airplane/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/passenger-airplane/",
+    "source_id": "passenger-airplane",
+    "revision": "91768127413c696cd627847c8bf969b2029115a648c32f006476f37dd1d07abd",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/passenger-airplane/passenger-airplane.glb",
+        "bytes": 1469576,
+        "sha256": "91768127413c696cd627847c8bf969b2029115a648c32f006476f37dd1d07abd"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/passenger-airplane/LICENSE.txt"
+  },
+  "model": "model/passenger-airplane.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 9,
+    "materials": 21,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/passenger-airplane_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "passenger-airplane_body_normal"
+    },
+    {
+      "path": "textures/passenger-airplane_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "passenger-airplane_body_basecolor"
+    },
+    {
+      "path": "textures/passenger-airplane_body_metallic-passenger-airplane_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "passenger-airplane_body_metallic-passenger-airplane_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 9,
+    "hidden_mesh_objects": 0,
+    "vertices": 22901,
+    "triangles": 29706,
+    "material_slots": 21,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "passenger-airplane_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "passenger-airplane_body_metallic-passenger-airplane_body_roughn",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "passenger-airplane_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 81497,
+      "sha256": "1e2c9e79a6c39bf2fa7e891c4f289ed9a934e4effbd557906038190fbad96cb9",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "8428137e8cf10ad56932c1d027cdca6cd99a9af6a1cb49c57a90489f03be4553",
+      "role": "logs"
+    },
+    {
+      "path": "model/passenger-airplane.glb",
+      "bytes": 1469576,
+      "sha256": "91768127413c696cd627847c8bf969b2029115a648c32f006476f37dd1d07abd",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 17148,
+      "sha256": "3896cd96935cc6c4a51eed9bd0e675b96c413fef902160342f8f1cef715da56a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 16926,
+      "sha256": "f0b3e2e20773747453cb053bd2b678ea3a95467324f306f86a9a2c449a56b925",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 142433,
+      "sha256": "47bb57d034cc13cd9e7a2073e172df317d87234d5dc6d5633c95a0403bbfedd2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 854,
+      "sha256": "d66bfa002600a7b5e73200596c29e631a9c8911fd14c0c00a89394343b3c93f0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 16668,
+      "sha256": "1c7139adb1215722f5ffac74a3eb132c3dc6c84d43e5a4613e99ce8f58ee0692",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 19379,
+      "sha256": "852033f8ee02ddb5a0f8ecba347c27c8278c08ef7d7403f6621c3a262a9c02a3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 17198,
+      "sha256": "b56108fa258aab1f0e419dda3adec7542f85f6286bf423d800167c4d96d5310d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 18669,
+      "sha256": "f669871c5f23dfd403ef91a5dee7f52b0425cbef008bebb46577ed99d3af5f3e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 13914,
+      "sha256": "a1a816d5423f3d6356830a67c6135cb6365579a63f310aba68b44fe46253b8c8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 19217,
+      "sha256": "20132833d61341943bd66ca01c68811643dd481e93f94e3e8f85fe88f3a5bbf4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 18110,
+      "sha256": "581aeaf0ee4983df0e5d9ca310505962fc150fd7c87e06da31d566c377437fe5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 20319,
+      "sha256": "f104fa5500c1449532305a74b2187492814f02cfb2e4f0c228da23d4ab64b9cb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 18110,
+      "sha256": "7ba3ae28f6406d62ddd96ff3225f895702222322d7c1a243b464759748a7c893",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 27039,
+      "sha256": "e6f9c4c4c91eaaffb179e6330b99fd0f95f3c4c174621aab8be81ed540dedae6",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 5704,
+      "sha256": "ed97a7180f2f4c3ede740738a41be7a9036a8888015638e819a144f30ea28e35",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1890,
+      "sha256": "2d2ea48659ff9f820ee5da9b0fd7b219115221ea6b48a425e84c08a68d984a9f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 561,
+      "sha256": "cc35520321d56990e588c5c32aef07945602bba0f3b8f2ba08a70b8dbe52614c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "e5df1724b70693b65540e1b82d15c1680610d8713a53933bb146fe9d1e352659",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/passenger-airplane_body_basecolor.jpg",
+      "bytes": 242259,
+      "sha256": "2f61e50e231470d44c12f8e10f94ce95ecde2dd135e0744ba7cdd45a1c8d3a95",
+      "role": "textures"
+    },
+    {
+      "path": "textures/passenger-airplane_body_metallic-passenger-airplane_body_roughness.jpg",
+      "bytes": 241821,
+      "sha256": "47b71d7ca0522a7d3e9bdbe3d16ec830b2cae337c33da84ac34bda340898af81",
+      "role": "textures"
+    },
+    {
+      "path": "textures/passenger-airplane_body_normal.jpg",
+      "bytes": 74523,
+      "sha256": "86fe0010fb8e0ab36d8695c0b7689ffc00c96e9daf8f1d6847427aa3562d0187",
+      "role": "textures"
+    }
+  ]
+}
