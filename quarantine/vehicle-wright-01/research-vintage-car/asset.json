@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "id": "research-vintage-car",
+  "title": "Old vintage car",
+  "category": "vehicles/cars/classic",
+  "style": "realistic",
+  "tags": [
+    "car",
+    "vintage",
+    "classic"
+  ],
+  "batch": "vehicle-wright-01",
+  "acquired_at": "2026-11-06T13:25:04.741186+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "research-vintage",
+    "model": "model/vintage_car_extended.gltf",
+    "creator": "piopis; scene by Benedikt Bitterli, glTF conversion by Erfan Momeni",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/ErfanMo77/gltf-research-scenes/f550972025ca39c7c9c05ee6bfd988ef6e0745de/scenes/vintage-car/source/LICENSE.txt",
+    "source_url": "https://blendswap.com/blend/14205",
+    "source_id": "vintage-car",
+    "revision": "f550972025ca39c7c9c05ee6bfd988ef6e0745de",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/ErfanMo77/gltf-research-scenes/f550972025ca39c7c9c05ee6bfd988ef6e0745de/scenes/vintage-car/gltf/vintage_car_extended.gltf",
+        "bytes": 89141,
+        "sha256": "d46c8fed9d3e8d1627bbc9590f02e5942ed84d71adbab785a2c621f3b882eee2"
+      },
+      {
+        "url": "https://media.githubusercontent.com/media/ErfanMo77/gltf-research-scenes/f550972025ca39c7c9c05ee6bfd988ef6e0745de/scenes/vintage-car/gltf/vintage_car.bin",
+        "bytes": 26712032,
+        "sha256": "8d13d6d614df0d75c3c22b61560f1c23ee15635093f72dcfa93ada091cd4e73d"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/ErfanMo77/gltf-research-scenes/f550972025ca39c7c9c05ee6bfd988ef6e0745de/scenes/vintage-car/source/LICENSE.txt"
+  },
+  "model": "model/vintage_car_extended.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 47,
+    "materials": 13,
+    "images": 0,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_materials_specular",
+      "KHR_materials_clearcoat",
+      "KHR_materials_transmission",
+      "KHR_materials_ior"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 47,
+    "hidden_mesh_objects": 0,
+    "vertices": 599355,
+    "triangles": 771640,
+    "material_slots": 47,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 1024,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 0,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 2773,
+      "sha256": "23a97cb9748a74f39a6bedb3d5c98bd42cdf2da1c85355334af76993c54367fa",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 135370,
+      "sha256": "cb70b1b476ed787294d7a8775b35568182cdfbdbe0c098255f752e804395067e",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "67efb7a7bfc27c93b30109ca7b4d3d54f144de8cddd1e63afacf516ad56a8765",
+      "role": "logs"
+    },
+    {
+      "path": "model/vintage_car.bin",
+      "bytes": 26712032,
+      "sha256": "8d13d6d614df0d75c3c22b61560f1c23ee15635093f72dcfa93ada091cd4e73d",
+      "role": "model"
+    },
+    {
+      "path": "model/vintage_car_extended.gltf",
+      "bytes": 87833,
+      "sha256": "50a1ee7af1a5026ca5028edb02b63a3f86f6ed92fc708b8b6fb0e45ee056618e",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 29232,
+      "sha256": "c379e2c42df5493dd02b522e60f23df4bdf58be607b773a948f4340351f3f321",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 21058,
+      "sha256": "80c8a4103b5ab9f5159aa1e574409fcde41a0bf7976e071c497c80fceb82ac1b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 238290,
+      "sha256": "72c15452ae6155e4a8970d48dd386fcb0531536267531d0ed747c9801b4218a4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 336,
+      "sha256": "aaec56abfdf50e6f2fd7d3489e7540d7cfa7ca18aaf936f870ff5c11de8fc148",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 31628,
+      "sha256": "f18e8a7e615bed107b19a2becd69ad4625761cd96501d9e4ba1eb7a3bfc5436e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 29170,
+      "sha256": "ae66bee339dccd143a4d6129cd11dc7969cd17bf5875b32c6554657badd2fdd5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 29241,
+      "sha256": "afd3731913312d7f5a87f7e54ee2c5e9e14a9a614e7a20c69b6af79a12088eb4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 29811,
+      "sha256": "ab6859f9031aad1e9c198ea418d7be72be5d66867d89973ec030df78fbc86e57",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 30632,
+      "sha256": "1aed8c310902162f271922f1bb717985162bb2bea683653a6b15e62372eff5ad",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 34723,
+      "sha256": "9742f4f579dbde5eef5cadb89283950701037c57feb3be208ece00c7e6b8b8d6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 43272,
+      "sha256": "7943f66a148163eb12236d33cd6a394318d2c3375afdb9841c3e0aefdd9297ba",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 34165,
+      "sha256": "73f14ee7e0caafccd963a0513858f5f5c092772ded35b02e0e439b4b1ba01fd5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 29482,
+      "sha256": "753fdeb73ef9c2d4f2c3a085d218f8ac6f20bda846f012f63e30639ea29adfbb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 48218,
+      "sha256": "6d4b7e86cdfe328fb60b9599788edff6aac6efee49794a02635a7027ec24be85",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 167,
+      "sha256": "4c7e53f797537c030d2d1f04d864219419eb8065fa13b994efcf6ca708782e33",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/converter-readme.md",
+      "bytes": 13939,
+      "sha256": "cd2c5ee3fa612a74ab55925bb099108dea996556e9ea391888e1bad4d0160adb",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 10893,
+      "sha256": "150ebdd4ed3f4dca0ae4415f755d6b025cde8191d1962dd05aa94b91feca522d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/isolation.json",
+      "bytes": 1009,
+      "sha256": "e9e02bf4179d8133809e9b3465e39d7e8f98e1fa224c6d09adad8c4caf2d73bd",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/scene-readme.md",
+      "bytes": 1572,
+      "sha256": "66764afdcbef5c5dc9b233a37ad61651672ec26cecb2fe20aa47852f4e5900ea",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source-license.txt",
+      "bytes": 813,
+      "sha256": "b78ea48e9ddc3769aca50377e2135e9fe655732c2ca4cf8ac606766559635b9d",
+      "role": "provenance"
+    }
+  ]
+}
