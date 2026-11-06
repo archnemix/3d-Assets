@@ -1,47 +1,57 @@
 {
   "revision": 1,
-  "batch_id": "vehicle-probe-01",
+  "batch_id": "vehicle-ships-01",
   "candidates": [
     {
-      "id": "is-vehicle-regional-jet",
-      "title": "Regional jet aircraft",
-      "category": "vehicles/aircraft",
-      "source": "innerscene",
-      "style": "realistic",
-      "tags": [
-        "aircraft",
-        "regional jet",
-        "passenger",
-        "unbranded"
-      ],
-      "upstream_id": "regional-jet-aircraft-ae1f8f3d"
-    },
-    {
-      "id": "is-vehicle-tugboat",
-      "title": "Harbor tugboat",
+      "id": "ph-dutch-ship-large-01",
+      "title": "Dutch large sailing ship 01",
       "category": "vehicles/watercraft",
-      "source": "innerscene",
+      "source": "polyhaven",
       "style": "realistic",
       "tags": [
-        "tugboat",
-        "harbor",
-        "boat",
-        "unbranded"
+        "sailing",
+        "ship",
+        "wooden",
+        "maritime",
+        "historical",
+        "pbr"
       ],
-      "upstream_id": "tugboat-9ee89198"
+      "upstream_id": "dutch_ship_large_01",
+      "resolution": "1k"
     },
     {
-      "id": "is-vehicle-sport-motorcycle",
-      "title": "Naked sport motorcycle",
-      "category": "vehicles/bikes",
-      "source": "innerscene",
+      "id": "ph-dutch-ship-large-02",
+      "title": "Dutch large sailing ship 02",
+      "category": "vehicles/watercraft",
+      "source": "polyhaven",
       "style": "realistic",
       "tags": [
-        "motorcycle",
-        "sport bike",
-        "unbranded"
+        "sailing",
+        "ship",
+        "wooden",
+        "maritime",
+        "historical",
+        "pbr"
       ],
-      "upstream_id": "sport-motorcycle-naked-sport-bike-fc4c9758"
+      "upstream_id": "dutch_ship_large_02",
+      "resolution": "1k"
+    },
+    {
+      "id": "ph-ship-pinnace",
+      "title": "Colonial sailing pinnace",
+      "category": "vehicles/watercraft",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "sailing",
+        "ship",
+        "wooden",
+        "maritime",
+        "historical",
+        "pbr"
+      ],
+      "upstream_id": "ship_pinnace",
+      "resolution": "1k"
     }
   ]
 }
