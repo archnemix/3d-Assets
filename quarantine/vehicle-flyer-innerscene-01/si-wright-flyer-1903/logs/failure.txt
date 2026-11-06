@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/runner/work/3d-Assets/3d-Assets/src/asset_library/intake.py", line 40, in candidate
+    provenance = fetch(sources()[candidate["source"]], candidate, directory)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/3d-Assets/3d-Assets/src/asset_library/sources/__init__.py", line 34, in fetch
+    return adapter(source, candidate, directory)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/3d-Assets/3d-Assets/src/asset_library/sources/smithsonian_innerscene.py", line 39, in fetch_smithsonian_innerscene
+    verify_page(page)
+  File "/home/runner/work/3d-Assets/3d-Assets/src/asset_library/sources/smithsonian_innerscene.py", line 32, in verify_page
+    raise ValueError("Missing Smithsonian-specific mirror and CC0 evidence")
+ValueError: Missing Smithsonian-specific mirror and CC0 evidence
