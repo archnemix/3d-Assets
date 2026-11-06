@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "id": "g3-scissor-lift",
+  "title": "Scissor lift vehicle",
+  "category": "vehicles/farm",
+  "style": "stylized",
+  "tags": [
+    "lift",
+    "construction",
+    "platform"
+  ],
+  "batch": "transport-variety-02",
+  "acquired_at": "2026-11-06T14:51:33.447100+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/scissor-lift.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/scissor-lift/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/scissor-lift/",
+    "source_id": "scissor-lift",
+    "revision": "3092338b08a0916df7c12c259e2b6bcb81ea2e0940e338321d8fe8f035848f65",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/scissor-lift/scissor-lift.glb",
+        "bytes": 1296376,
+        "sha256": "3092338b08a0916df7c12c259e2b6bcb81ea2e0940e338321d8fe8f035848f65"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/scissor-lift/LICENSE.txt"
+  },
+  "model": "model/scissor-lift.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 6,
+    "materials": 14,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/scissor-lift_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "scissor-lift_body_normal"
+    },
+    {
+      "path": "textures/scissor-lift_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "scissor-lift_body_basecolor"
+    },
+    {
+      "path": "textures/scissor-lift_body_metallic-scissor-lift_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "scissor-lift_body_metallic-scissor-lift_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 6,
+    "hidden_mesh_objects": 0,
+    "vertices": 15809,
+    "triangles": 17756,
+    "material_slots": 14,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "scissor-lift_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "scissor-lift_body_metallic-scissor-lift_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "scissor-lift_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 75342,
+      "sha256": "1a2a721d61707dd42704693ff8ad7830bb8535a836f23bb9f3407db1902bb8a5",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "e02a7fa229a734196dc3af270c1563d47091c7b03a396a6dd17acdc64201004a",
+      "role": "logs"
+    },
+    {
+      "path": "model/scissor-lift.glb",
+      "bytes": 1296376,
+      "sha256": "3092338b08a0916df7c12c259e2b6bcb81ea2e0940e338321d8fe8f035848f65",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 21740,
+      "sha256": "0c9369a760535affec62288b376e1ccd7dc029e459139fba06d2d1a7312542a7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 26645,
+      "sha256": "b314c711d86fc3eeb47a549f620116b13f1037f375dac61360023486a439f80d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 236287,
+      "sha256": "8251a2d8ab33560017ff0b5cd15c34821aba1ab5b78f3e32aaf2df53ccec9342",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 833,
+      "sha256": "299111c6b4d506eb19a39a5b9eb329b9fc1e425847b89b6566df00f7078370c5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 23497,
+      "sha256": "dd459b08c7582d23a9de80a706ed8d3d4c4edf9e1bb1386d7e9eb894233d6da8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 37451,
+      "sha256": "032455403f0406cf31d7bef7b560e4a476c862914d845e831aad597eb96a4392",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 38199,
+      "sha256": "52c5ee0d0b81d9c45b739296c543e72508674cd060b5574f87d1050f3e1db67d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 37437,
+      "sha256": "fae7c49d9d3cbff108cc6c178ee092654f2131c9f2002425a07bfc996b94c160",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 23177,
+      "sha256": "4adbe1c47e540d1a4d7c7191fff80a13fa244957a7e25733ef40694d6ac5d2a4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 38033,
+      "sha256": "71280ef315a7fd629a6637da1a936751aa5644b50bfdf525be3e3dec4c4699eb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 40509,
+      "sha256": "23e777e96f121a843fbad1fffb825050f76dd65d80ec7a1d099ba49abe5909e2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 38940,
+      "sha256": "f6bd9b501cfb4c3e1c0811accdb860c5cb7185b0c7e433ac96fc5fe2c59658da",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 21628,
+      "sha256": "d79bf3e61987fb015fec343325798cd546ee0073b808f439a8c629d01f818307",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 35768,
+      "sha256": "930bd3a765c078c004427b871a3774ae01f1c61558dab9274d21d7139c29a27e",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 4382,
+      "sha256": "9fbd833a1eaf596fecaefb5a05a598b5a2194d9437a9f8651d4fe5a10b1ee095",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1561,
+      "sha256": "53221b3290cd20d1f168ef8875faff286da82a83a1b97a37f8cf35b77d2a2713",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 513,
+      "sha256": "96070d137a4ed1e9a80387b4698d81992c1f0a21699780cd563e5f373a5cf0e8",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "5dcdda24b8e078cab947f78879140e697477de3f0bc0f25ad670dcf247e48acd",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/scissor-lift_body_basecolor.jpg",
+      "bytes": 321137,
+      "sha256": "e0ca959378205ad3fd8326358ee438a9496740ba580bc8d58d054ecfae5682e2",
+      "role": "textures"
+    },
+    {
+      "path": "textures/scissor-lift_body_metallic-scissor-lift_body_roughness.jpg",
+      "bytes": 289032,
+      "sha256": "248d40785c89ba4c866ef7ba390588b0bc4ff804a2cea4a79c32b5d1c45fa612",
+      "role": "textures"
+    },
+    {
+      "path": "textures/scissor-lift_body_normal.jpg",
+      "bytes": 68469,
+      "sha256": "3fe1b66ce31c0847cff6ffbc84dd92316fa35f44f24d511462bd40d644cca00f",
+      "role": "textures"
+    }
+  ]
+}

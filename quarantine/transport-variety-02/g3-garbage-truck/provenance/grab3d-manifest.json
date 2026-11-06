@@ -1,0 +1,55 @@
+{
+  "slug": "garbage-truck",
+  "triangles": 42513,
+  "texture_px": 2048,
+  "triangles_light": 28463,
+  "texture_px_light": 1024,
+  "files": {
+    "glb": {
+      "name": "garbage-truck.glb",
+      "bytes": 2489620
+    },
+    "blend": {
+      "name": "garbage-truck.blend",
+      "bytes": 2042372
+    },
+    "fbx": {
+      "name": "garbage-truck.fbx",
+      "bytes": 4334492
+    },
+    "obj": {
+      "name": "garbage-truck-obj.zip",
+      "bytes": 2135108
+    },
+    "usdz": {
+      "name": "garbage-truck.usdz",
+      "bytes": 3908049
+    },
+    "glb_light": {
+      "name": "garbage-truck-light.glb",
+      "bytes": 1342620
+    },
+    "fbx_light": {
+      "name": "garbage-truck-light.fbx",
+      "bytes": 2569180
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "2.965 x 9.077 x 3.485",
+    "triangles": 42513,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-09-26",
+    "real_size": "garbage truck (rear loader, 3 axles), approx. 9.1 x 2.5 x 3.5 m (L x W x H), wheel diameter 1.04 m",
+    "notes": "front faces -Y; the rear loader unit 'garbage-truck_tailgate' (hopper with lifter and riding steps) is a separate object with its origin on the upper hinge axis (rotate around local X, positive angle swings it up and open, approx. 0 to 60 degrees); 6 wheels are separate objects with origin on the axle (rotate around local X to roll), the front wheels also steer around local Z; opaque tinted windows, no interior; no brand, no text",
+    "set": "Cozy Vehicles Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}
