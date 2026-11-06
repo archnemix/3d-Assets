@@ -164,3 +164,14 @@ views and enlarged oblique renders and approved as simple static, stylized indus
 props. They use flat materials, not detailed textures. The candidate labelled “open
 barrel” appears capped in its renders and remains in quarantine; the pallet also remains
 quarantined pending investigation of 32 zero-area triangles.
+
+## Gobkit animated animal lead
+
+Gobkit / Alsomind Tech Co., Ltd. provides its free models under CC0 in the pinned
+repository `Ariescar/gobkit-free-assets` at
+`4e73c68fa6e8ca9d948fcc0ce7215c830a022c3b`. Its README and LICENSE explicitly cover
+commercial use and no attribution; CC0 permits standalone redistribution and resale.
+Seven distinct stylized animals were requested for quarantine review. These original
+repository exports have one continuous baked animation track with action frame ranges,
+not separate named clips; the later named-clip files advertised on the live site have
+not been acquired. Animation quality and suitability must be inspected before approval.

@@ -1,6 +1,6 @@
 # nature/wildlife
 
-Realistic wild animals and vermin
+Wild animals and vermin
 
 Approved assets: **34**
 
