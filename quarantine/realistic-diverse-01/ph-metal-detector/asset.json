@@ -1,0 +1,360 @@
+{
+  "schema_version": 1,
+  "id": "ph-metal-detector",
+  "title": "Metal Detector",
+  "category": "tools/measuring",
+  "style": "realistic",
+  "tags": [
+    "detector",
+    "exploration",
+    "adventure",
+    "treasure",
+    "equipment",
+    "archaeology",
+    "polyhaven"
+  ],
+  "batch": "realistic-diverse-01",
+  "acquired_at": "2026-11-06T09:40:58.409169+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/metal_detector_1k.gltf",
+    "creator": "Kuutti Siitonen",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/metal_detector",
+    "source_id": "metal_detector",
+    "resolution": "1k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/metal_detector/metal_detector_1k.gltf",
+        "bytes": 3249,
+        "sha256": "c6311c242020e98b3a8b4f79cf2d422b33706d1d33ece9d6bb3fc0eead7d442a"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/metal_detector/metal_detector_emissive_1k.jpg",
+        "bytes": 25565,
+        "sha256": "4d5771bd14db78f5f01939d1ba3eddfe303509bb57cb134adda5196e4f2357d7"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/metal_detector/metal_detector_nor_gl_1k.jpg",
+        "bytes": 498526,
+        "sha256": "6072e4866cec82de58f3dd60c376e630834bd8c21b871a997d879d212b20e347"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/metal_detector/metal_detector_diff_1k.jpg",
+        "bytes": 443953,
+        "sha256": "92c69791bcbd044fc03218f0409c6f03838f0d5b3d7c36d4dc2295e021b69248"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/metal_detector/metal_detector_arm_1k.jpg",
+        "bytes": 558218,
+        "sha256": "acffb3a5f74a3e6bb03c329d11018c51d93900b0f6eb2e3e5b03b3425752771c"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/metal_detector/metal_detector.bin",
+        "bytes": 521876,
+        "sha256": "e43f2ffa1c7b6f5011c2a45f0c6b713966992627f78b3ccdfb750af5182c5c24"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/metal_detector_1k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 4,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/metal_detector_emissive_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "metal_detector_emissive"
+    },
+    {
+      "path": "model/textures/metal_detector_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "metal_detector_nor_gl"
+    },
+    {
+      "path": "model/textures/metal_detector_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "metal_detector_diff"
+    },
+    {
+      "path": "model/textures/metal_detector_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "metal_detector_metal-metal_detector_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 13399,
+    "triangles": 15518,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "metal_detector_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-metal-detector/model/textures/metal_detector_diff_1k.jpg"
+      },
+      {
+        "name": "metal_detector_emissive",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-metal-detector/model/textures/metal_detector_emissive_1k.jpg"
+      },
+      {
+        "name": "metal_detector_metal-metal_detector_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-metal-detector/model/textures/metal_detector_arm_1k.jpg"
+      },
+      {
+        "name": "metal_detector_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-metal-detector/model/textures/metal_detector_nor_gl_1k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 287,
+      "sha256": "42d137d3cbae358d85762462788a72219042dc0bbd45baf29a6b69a8d35949f4",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68029,
+      "sha256": "99d4c624b7f72e0cad09f410b7af731d5a29d942d4b77fc4e0dfad39ae8772c8",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/metal_detector.bin",
+      "bytes": 521876,
+      "sha256": "e43f2ffa1c7b6f5011c2a45f0c6b713966992627f78b3ccdfb750af5182c5c24",
+      "role": "model"
+    },
+    {
+      "path": "model/metal_detector_1k.gltf",
+      "bytes": 3249,
+      "sha256": "c6311c242020e98b3a8b4f79cf2d422b33706d1d33ece9d6bb3fc0eead7d442a",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/metal_detector_arm_1k.jpg",
+      "bytes": 558218,
+      "sha256": "acffb3a5f74a3e6bb03c329d11018c51d93900b0f6eb2e3e5b03b3425752771c",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/metal_detector_diff_1k.jpg",
+      "bytes": 443953,
+      "sha256": "92c69791bcbd044fc03218f0409c6f03838f0d5b3d7c36d4dc2295e021b69248",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/metal_detector_emissive_1k.jpg",
+      "bytes": 25565,
+      "sha256": "4d5771bd14db78f5f01939d1ba3eddfe303509bb57cb134adda5196e4f2357d7",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/metal_detector_nor_gl_1k.jpg",
+      "bytes": 498526,
+      "sha256": "6072e4866cec82de58f3dd60c376e630834bd8c21b871a997d879d212b20e347",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 16958,
+      "sha256": "f40c3dc2289c9e160907fc77f9474fcc26f49f11afdc4fbe48adae716482b436",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 14317,
+      "sha256": "6725be71b8a368df46c6e71daaf59a386601192ccfcfc06f0f4616dbff3ae665",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 147528,
+      "sha256": "7e14420020a4fdcd9a6b373215307e8205dcc4c5f4a09251c5843bace5848a18",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1484,
+      "sha256": "a647cba797c0e7ace54bbc40415d141ca4d7f676dbd3e6308b03a6d4f74d2322",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 15728,
+      "sha256": "a1a551ad7175d7d1751562ee5ec8e608d72c1ac60b2e0bcc579abec7618fc166",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 21415,
+      "sha256": "4187ffcba67481bde324bee2324eff550b6a019277cf5abab3f7698afe594024",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 24357,
+      "sha256": "8e0f1b9947c6e9ceb93c6a58916b712050a76f87bd24f85a2c6feb94855782ba",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 23563,
+      "sha256": "44d57360213ba984362cc6398fbe58fa5294763927887acef409dae4826ebc22",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 18302,
+      "sha256": "dff5117f12d3f10f2631cbeb20d1da570a38730d1fc3695763c082eec1d57f00",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 23486,
+      "sha256": "3ec053add816f7b606f7ab55a4f1cee05c1594eb0f08587403f518c60841b42c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 24849,
+      "sha256": "d4853bd4e8da944134e7fd5bfabaa5df2a11709f374dbcd687d0546171447d70",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 21140,
+      "sha256": "0aa393f80107ffc2636c908cb6b83d2ec3e1fe26c9e0a9a39dee06d4c0289529",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 18557,
+      "sha256": "347930b8432b2fc68dcba0bd532cc2101574aebebeffccf262222785ee2cb9fa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 20094,
+      "sha256": "1b4c3a73822070095843c4ef331662cc26c5a25c2e9f9c4a8022d0923712025b",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 164,
+      "sha256": "fff4d93681ecdaee2f3fe279563bd3c435642f6a0c06b5e5f5994ce799367b1f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1243,
+      "sha256": "7e1bce2ff02c1029a958a0283e421d5c743b8f60877a548134f3690c7645ce0d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2433,
+      "sha256": "e1ddf0a267df3308a73a24bd0a7187189ce3bbcf6b46daddca0838990b8165b9",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1343,
+      "sha256": "770d8b2c660c8ff5e680269f09f5305ec9afac7690354ed135f29c92f20652f5",
+      "role": "provenance"
+    }
+  ]
+}

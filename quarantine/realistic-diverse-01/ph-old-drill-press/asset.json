@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "id": "ph-old-drill-press",
+  "title": "Old Drill Press",
+  "category": "tools/power-tools",
+  "style": "realistic",
+  "tags": [
+    "metal",
+    "workshop",
+    "garage",
+    "bench drill",
+    "stand",
+    "power cable",
+    "polyhaven"
+  ],
+  "batch": "realistic-diverse-01",
+  "acquired_at": "2026-11-06T09:52:35.889270+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/old_drill_press_2k.gltf",
+    "creator": "Harsh Vardhan Singh",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/old_drill_press",
+    "source_id": "old_drill_press",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/old_drill_press/old_drill_press_2k.gltf",
+        "bytes": 4218,
+        "sha256": "f0e06024222113f8ba93376ae90ed7628914edeefae315e8e622b022d23285f4"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/old_drill_press/old_drill_press_nor_gl_2k.jpg",
+        "bytes": 604783,
+        "sha256": "136501bd9988b3b93cc8bed9ec9137dde268ad0f3e08c514a128d512dd39ffff"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/old_drill_press/old_drill_press_diff_2k.jpg",
+        "bytes": 2281998,
+        "sha256": "40045df723be9ca9fc348f6ed233de34b25862ca296c99a9c9e1d9c7293b936b"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/old_drill_press/old_drill_press_arm_2k.jpg",
+        "bytes": 2795192,
+        "sha256": "c2ac4e964c049f0ed4ae00c789033c03d3b6f7aa2c403ed9cb3b9e72e3391c96"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/old_drill_press/old_drill_press.bin",
+        "bytes": 720460,
+        "sha256": "9ba55c8bd04686e021f706c30ebca9aee01f8ce7003fc31541bf47f39a7d33f8"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/old_drill_press_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 2,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/old_drill_press_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "old_drill_press_nor_gl"
+    },
+    {
+      "path": "model/textures/old_drill_press_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "old_drill_press_diff"
+    },
+    {
+      "path": "model/textures/old_drill_press_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "old_drill_press_metal-old_drill_press_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 2,
+    "hidden_mesh_objects": 0,
+    "vertices": 18419,
+    "triangles": 21842,
+    "material_slots": 2,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "old_drill_press_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-old-drill-press/model/textures/old_drill_press_diff_2k.jpg"
+      },
+      {
+        "name": "old_drill_press_metal-old_drill_press_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-old-drill-press/model/textures/old_drill_press_arm_2k.jpg"
+      },
+      {
+        "name": "old_drill_press_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-old-drill-press/model/textures/old_drill_press_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 348,
+      "sha256": "b9c1555139372e6fa52a9cbc3d9a942a5ec0a2caaed4fbc004c894c22a9a4e78",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 69576,
+      "sha256": "4a17fd8c671181126929fa67fab7fada4187988f46648c5d3c3cc021e30c3903",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "2a9a229f8bb2ed821581e94782406b1f4a42c4f9a9e024e1cc719a6265cfa1b4",
+      "role": "logs"
+    },
+    {
+      "path": "model/old_drill_press.bin",
+      "bytes": 720460,
+      "sha256": "9ba55c8bd04686e021f706c30ebca9aee01f8ce7003fc31541bf47f39a7d33f8",
+      "role": "model"
+    },
+    {
+      "path": "model/old_drill_press_2k.gltf",
+      "bytes": 4218,
+      "sha256": "f0e06024222113f8ba93376ae90ed7628914edeefae315e8e622b022d23285f4",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/old_drill_press_arm_2k.jpg",
+      "bytes": 2795192,
+      "sha256": "c2ac4e964c049f0ed4ae00c789033c03d3b6f7aa2c403ed9cb3b9e72e3391c96",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/old_drill_press_diff_2k.jpg",
+      "bytes": 2281998,
+      "sha256": "40045df723be9ca9fc348f6ed233de34b25862ca296c99a9c9e1d9c7293b936b",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/old_drill_press_nor_gl_2k.jpg",
+      "bytes": 604783,
+      "sha256": "136501bd9988b3b93cc8bed9ec9137dde268ad0f3e08c514a128d512dd39ffff",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 31517,
+      "sha256": "219ebd2201b284036ad3d7bedd5cf6ff8f3b6056067ad9848b9f04ec28135ea8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18257,
+      "sha256": "c1235cf2763e29713b95cd1b598e32df07654860bbcf61431e7d6bf056a42d4f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 197444,
+      "sha256": "7328436f7202c4fbc1d9cabb47fbf544861fbac430fb02f40c5984f5670ec803",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1206,
+      "sha256": "435d84872738b0cf4536a68ac4d6458f935d4c7ec48fbd2691c9598f77dad833",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 23362,
+      "sha256": "a4ebfe8f22ca0f32204b6a774635202af54034439d2652405cb468ba4a2dced6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 26924,
+      "sha256": "cb99399ff395885b7fc52999ab3fe92c4c73089cc48c59e29f908cb27db9264b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 29077,
+      "sha256": "b55a314b4cfa40b54339cea9345bcb9510d2a3fc9d5e008d99c7c397ba3cab26",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 28910,
+      "sha256": "00e3dd74d687073182e1700a22c204450e22120a4c7e10066b58145772bbee20",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 23350,
+      "sha256": "efcc7db85c0165746d7b0e26ba2059aa0de532e0ba39fb7224ff72000eeb3e62",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 26405,
+      "sha256": "9ad47122f7153e92a71c06d7ca3112f497605d60e960d6d7dc4c602908836b1b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 28233,
+      "sha256": "ad156a9abb76115a75f1b38faed68fcaaacd600f82a99efc32f9b86c3098f048",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 27089,
+      "sha256": "b67a95f2fae97bc1307a3099cb9d66976f3e91ebcb63938f1dda33a7574d2fbb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 31251,
+      "sha256": "03c3f682dbfd4d85b643a54167298acf3c853fa6dddd250a899614cf08093d9d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 27259,
+      "sha256": "50ab2bdc667f8ec031ecee05a2f6421ccfdd8ed3e0cef037a54c73af64ec0d99",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 165,
+      "sha256": "596c1bf8c5a53dbce365c01247712e4c14c168006a2b9c9203b40e5df26319de",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1289,
+      "sha256": "11338b0f8cc3e96b080074d9357beed6a5cf206764911183549a2740f19a47a2",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2466,
+      "sha256": "21d6cbd9390668d759682bb30100ccff5971adf5e0d23c606258425d378b59ce",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1118,
+      "sha256": "9a4dd10b00428dbbce6b625acdf22eab1a5d913aeaf59b485682728a33a90d03",
+      "role": "provenance"
+    }
+  ]
+}

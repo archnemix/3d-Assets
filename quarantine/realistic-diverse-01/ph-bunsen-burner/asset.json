@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "id": "ph-bunsen-burner",
+  "title": "Bunsen Burner",
+  "category": "science/laboratory",
+  "style": "realistic",
+  "tags": [
+    "chemistry",
+    "lab",
+    "equipment",
+    "gas",
+    "science",
+    "testing",
+    "polyhaven"
+  ],
+  "batch": "realistic-diverse-01",
+  "acquired_at": "2026-11-06T09:45:37.239858+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/bunsen_burner_1k.gltf",
+    "creator": "BKS",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/bunsen_burner",
+    "source_id": "bunsen_burner",
+    "resolution": "1k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/bunsen_burner/bunsen_burner_1k.gltf",
+        "bytes": 4182,
+        "sha256": "7c65775950cc7070513c4ce96d3d5f0035a3be5086f83cdba651a0ffc03b8a73"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bunsen_burner/bunsen_burner_nor_gl_1k.jpg",
+        "bytes": 524169,
+        "sha256": "2b02cefc52e30c8f6d946f9f804e87d2b33dbb4a42499f22956f48283491a5f8"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bunsen_burner/bunsen_burner_diff_1k.jpg",
+        "bytes": 532526,
+        "sha256": "fd12b3ef7c6904b1675e26f15bb06acddefb8aa380a0a151f59cf1b1f6f3a474"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bunsen_burner/bunsen_burner_arm_1k.jpg",
+        "bytes": 803757,
+        "sha256": "5d6cb8b08cefa4588f778fd843ad7cfd97246d3919e447b6213f9356f59dfa4c"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/bunsen_burner/bunsen_burner.bin",
+        "bytes": 268876,
+        "sha256": "088fb944f12617341aa521359e1655df10d07643b584ee6dc808eb3df01a6e06"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/bunsen_burner_1k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 2,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/bunsen_burner_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "bunsen_burner_nor_gl"
+    },
+    {
+      "path": "model/textures/bunsen_burner_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "bunsen_burner_diff"
+    },
+    {
+      "path": "model/textures/bunsen_burner_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "bunsen_burner_metal-bunsen_burner_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 2,
+    "hidden_mesh_objects": 0,
+    "vertices": 6821,
+    "triangles": 8434,
+    "material_slots": 2,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "bunsen_burner_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-bunsen-burner/model/textures/bunsen_burner_diff_1k.jpg"
+      },
+      {
+        "name": "bunsen_burner_metal-bunsen_burner_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-bunsen-burner/model/textures/bunsen_burner_arm_1k.jpg"
+      },
+      {
+        "name": "bunsen_burner_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-bunsen-burner/model/textures/bunsen_burner_nor_gl_1k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 342,
+      "sha256": "3e39fc2662950846e1ce67a6fffa41b4d5db9f26f7c3bb41cdb96599a6cce88b",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68966,
+      "sha256": "1edfc04692e7f5cd9c9f062a6f85279027b208d56a9ac86939a7c1ee90c98f7b",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "2a9a229f8bb2ed821581e94782406b1f4a42c4f9a9e024e1cc719a6265cfa1b4",
+      "role": "logs"
+    },
+    {
+      "path": "model/bunsen_burner.bin",
+      "bytes": 268876,
+      "sha256": "088fb944f12617341aa521359e1655df10d07643b584ee6dc808eb3df01a6e06",
+      "role": "model"
+    },
+    {
+      "path": "model/bunsen_burner_1k.gltf",
+      "bytes": 4182,
+      "sha256": "7c65775950cc7070513c4ce96d3d5f0035a3be5086f83cdba651a0ffc03b8a73",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/bunsen_burner_arm_1k.jpg",
+      "bytes": 803757,
+      "sha256": "5d6cb8b08cefa4588f778fd843ad7cfd97246d3919e447b6213f9356f59dfa4c",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/bunsen_burner_diff_1k.jpg",
+      "bytes": 532526,
+      "sha256": "fd12b3ef7c6904b1675e26f15bb06acddefb8aa380a0a151f59cf1b1f6f3a474",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/bunsen_burner_nor_gl_1k.jpg",
+      "bytes": 524169,
+      "sha256": "2b02cefc52e30c8f6d946f9f804e87d2b33dbb4a42499f22956f48283491a5f8",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 30741,
+      "sha256": "e10ef53476b11d7f4b785e7dff4ba50b3bdbbf0feaac401a06e6d5995bf38aef",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 22630,
+      "sha256": "27d819aa97f56f0467d83d8ba7cef04de256c0213f4db6fa6d229e85b4b3fd06",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 220218,
+      "sha256": "c645bb1355dddd76d04fc2f2156bb4322fb617a49db19a73ff7dfabd86affcd2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1184,
+      "sha256": "faa7cf9efef604d99f14a0d1dde309d2466d189b30b730b2c87284b629c4d947",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 29103,
+      "sha256": "c9b706fcaec273c445fca25a3e2b467212c0d25291e513aa13df5ac0bcf25000",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 28611,
+      "sha256": "d533d2f9ddd5eb6b6f51c088dbd537682b85c70e05373f9ef6b872bda90ebf78",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 27620,
+      "sha256": "f91049c0f0115f71ebd5ce14aa4e5d4fa74b7fdcb883accbc55ec2dd303ddd82",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 29542,
+      "sha256": "e7fde516368c309e57d8eded139e67541f9f69b95f0a57d34c5f6cc5561faea1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 27901,
+      "sha256": "09c27244a59971b2113421ce46a6c6a54f39d6ba0b89bb86345fc9a5e049cc0a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 28476,
+      "sha256": "bee1fd09ea13744d87c20e263ef2d63806bbecd750cfff9ac74bd52e20642f7d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 27613,
+      "sha256": "3a84c7d20717dcb540f7acc15860001dd0ef839a23748a6d78143ff7277c9730",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 28146,
+      "sha256": "bfae2803088074d0830d2a4ecf97c70662bb029d24de595476f1d56299f528e9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 34610,
+      "sha256": "6199d67fa3dba59a5ae58579959842d293903cf2d60266363fe0e3c9edcdcbaa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 36228,
+      "sha256": "12dbbb458a8519e52dd6dae6a19fe38daa4d3f0a7df98b745d65658532cfb701",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 163,
+      "sha256": "1e37ac936133b5917fb5b5e2df7dd519653f100552e5be668980ed9d6fec9213",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1306,
+      "sha256": "7d4825e14dda19b2dd678b8f988027687a24680107f80b80afb8f215c8284dde",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2454,
+      "sha256": "c3053c2bc4f14eb4c8196c1b7bc4d012f8c931ba9f63d848a23bfbb3534ea6a9",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1088,
+      "sha256": "6be803a1b998355e0ea61ce45b38bb3589fd618530378c94d7b1bab5d719ed12",
+      "role": "provenance"
+    }
+  ]
+}

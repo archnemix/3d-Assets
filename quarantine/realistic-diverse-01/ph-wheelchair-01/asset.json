@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "id": "ph-wheelchair-01",
+  "title": "Wheelchair 01",
+  "category": "medical/mobility",
+  "style": "realistic",
+  "tags": [
+    "infirmary",
+    "hospital",
+    "wheelchair",
+    "medical",
+    "clinic",
+    "mobilityaid",
+    "polyhaven"
+  ],
+  "batch": "realistic-diverse-01",
+  "acquired_at": "2026-11-06T09:42:16.438312+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/wheelchair_01_2k.gltf",
+    "creator": "Garreth Dean",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/wheelchair_01",
+    "source_id": "wheelchair_01",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/wheelchair_01/wheelchair_01_2k.gltf",
+        "bytes": 2702,
+        "sha256": "c4b498d1f9a9eb546f74ead39897512ccc94fbb3764e80e50f02951460e8b4d8"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wheelchair_01/wheelchair_01_nor_gl_2k.jpg",
+        "bytes": 622579,
+        "sha256": "0dad8104df77c6aa20dc59b4e0587009a5539c66e6e31b4df1b31af6be07f373"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/wheelchair_01/wheelchair_01.bin",
+        "bytes": 1183752,
+        "sha256": "66c7c1779171228f1a4691ec572a0346a258f65a88ca71ecc72b81b3bc765996"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wheelchair_01/wheelchair_01_diff_2k.jpg",
+        "bytes": 394165,
+        "sha256": "4c53c7534576f59b4d8e803c14f966053b493b90605de58f29737115804a2a43"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wheelchair_01/wheelchair_01_arm_2k.jpg",
+        "bytes": 733301,
+        "sha256": "c612534f3c93e1f4bfa4ae1ca1e48eb2e88e03499013ecfd26668cd7b07af4ec"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/wheelchair_01_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/wheelchair_01_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "wheelchair_01_nor_gl"
+    },
+    {
+      "path": "model/textures/wheelchair_01_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "wheelchair_01_diff.png"
+    },
+    {
+      "path": "model/textures/wheelchair_01_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "wheelchair_01_metal.png-wheelchair_01_rough.png"
+    }
+  ],
+  "authored_animations": [
+    {
+      "name": "wheel_roll",
+      "parts": [
+        "wheelchair_01"
+      ],
+      "axis": "X",
+      "start_degrees": 0.0,
+      "degrees": 360.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/wheelchair_01_2k-animated.glb",
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 29445,
+    "triangles": 40252,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "wheelchair_01_diff.png",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-wheelchair-01/model/textures/wheelchair_01_diff_2k.jpg"
+      },
+      {
+        "name": "wheelchair_01_metal.png-wheelchair_01_rough.png",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-wheelchair-01/model/textures/wheelchair_01_arm_2k.jpg"
+      },
+      {
+        "name": "wheelchair_01_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-wheelchair-01/model/textures/wheelchair_01_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 17736,
+      "sha256": "debd8a00521fc2d09148a448c11bec123ea47491598dfe958a632cf26a4e57b6",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67952,
+      "sha256": "3a16beecf190e2482b9d543ef08fcd1fea1843e0a26f517aa511a1572cd8ee98",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/textures/wheelchair_01_arm_2k.jpg",
+      "bytes": 733301,
+      "sha256": "c612534f3c93e1f4bfa4ae1ca1e48eb2e88e03499013ecfd26668cd7b07af4ec",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/wheelchair_01_diff_2k.jpg",
+      "bytes": 394165,
+      "sha256": "4c53c7534576f59b4d8e803c14f966053b493b90605de58f29737115804a2a43",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/wheelchair_01_nor_gl_2k.jpg",
+      "bytes": 622579,
+      "sha256": "0dad8104df77c6aa20dc59b4e0587009a5539c66e6e31b4df1b31af6be07f373",
+      "role": "model"
+    },
+    {
+      "path": "model/wheelchair_01.bin",
+      "bytes": 1183752,
+      "sha256": "66c7c1779171228f1a4691ec572a0346a258f65a88ca71ecc72b81b3bc765996",
+      "role": "model"
+    },
+    {
+      "path": "model/wheelchair_01_2k-animated.glb",
+      "bytes": 2956628,
+      "sha256": "eda95cd76bfd336056ae9501fa6d11f9e02d456e5fc022c8c71789959fa673d1",
+      "role": "model"
+    },
+    {
+      "path": "model/wheelchair_01_2k.gltf",
+      "bytes": 2702,
+      "sha256": "c4b498d1f9a9eb546f74ead39897512ccc94fbb3764e80e50f02951460e8b4d8",
+      "role": "model"
+    },
+    {
+      "path": "previews/anim-wheel_roll-a.jpg",
+      "bytes": 17560,
+      "sha256": "380dd2087c0284f8a6721fd13fa574178a575645e7950bf7cc9619f5d6fed259",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-b.jpg",
+      "bytes": 6726,
+      "sha256": "fb1ef81274253038b962e5597a8b643f57d02f81690753de40f1d6a0e65ac446",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-wheel_roll-c.jpg",
+      "bytes": 17555,
+      "sha256": "09d88d7bf671ec2705e97bc7507dee41fdc809d2988095023bbea2b0e40bd613",
+      "role": "previews"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 32159,
+      "sha256": "a49c22a8bca0025de9f351d5875930dd73bc87b5aa8ac6310145000cc54d7012",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 33515,
+      "sha256": "92261bee4a5c5330eac8e3aac9ed6f128566b889abbd58f0bc7d4e0201c44213",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 326574,
+      "sha256": "f79298e30e6983fe554ee29621e2429c1cec98c0f40c117bb1348af133f9ff6c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1198,
+      "sha256": "577f394638e24e92a143d3a306d9dcf4e5a9dd8a18957d05f0bfe5e1282e6ea2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 32042,
+      "sha256": "c74b4ed19da99c0c26c09f7c9fdb4838225786abc0ecdc8084212a893079dfda",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 53069,
+      "sha256": "647d26f0d50f1c59bfd4fce180f3899538b399ae808f82386b27984d53cb7da9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 57930,
+      "sha256": "c6d5eb5891975740035e403d9f6d712746a6fe092113f9e2881ae0212befecfb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 56159,
+      "sha256": "4256a47eabc348d4b37018771e10156735c9dcd9c6a6e44d0c780a560ab5137d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 31711,
+      "sha256": "d74122f8f03b3cea8665130bb229e12c474a0478d5dc937f1a90e43949cae310",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 57847,
+      "sha256": "62f29f455ae1c7797e0542e688090b0f57650a829e66345e409ca36d0909633e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 56086,
+      "sha256": "615d8e8abdbd12e2f7cb9aac3c30b70692b5ee47ddd28730e111a909d7ed98f1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 54095,
+      "sha256": "f8632fe3002a606a3bafe7e446b9909eaaada33412de3a133a7f6b993b63aba0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 31872,
+      "sha256": "34bb77826970c871b337c4a57b37599d86ab47e26dfd08c7131a200b8343ef45",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 59447,
+      "sha256": "ce5ca654b5fef6bb471e612057c1cd4141844cf581c197bd4ecede66db6a49c3",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 583,
+      "sha256": "2d8023ac2a8a4693cdce04d03d3b94e336f062e8d37efc86b857ce807d1ccc80",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1238,
+      "sha256": "b688487a219dd0a057bcb76d499568afbb5b6da20715024496d4c73c689816e3",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3038,
+      "sha256": "f86d79025d0a3cf5fc426de6d46cf581a43806887a5efbb80922a1c4d273a6a5",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1089,
+      "sha256": "72409d9f70ace04f68204c017970ff7617b572e15666ab59f1730a07c4b1d299",
+      "role": "provenance"
+    }
+  ]
+}

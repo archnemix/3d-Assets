@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "id": "ph-wooden-cutting-board",
+  "title": "Wooden Cutting Board",
+  "category": "kitchen/preparation",
+  "style": "realistic",
+  "tags": [
+    "culinary",
+    "cooking",
+    "kitchen",
+    "cutting",
+    "chopping",
+    "cheese",
+    "polyhaven"
+  ],
+  "batch": "realistic-diverse-01",
+  "acquired_at": "2026-11-06T09:47:05.621470+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/wooden_cutting_board_1k.gltf",
+    "creator": "Kuutti Siitonen",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/wooden_cutting_board",
+    "source_id": "wooden_cutting_board",
+    "resolution": "1k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/wooden_cutting_board/wooden_cutting_board_1k.gltf",
+        "bytes": 2852,
+        "sha256": "89fa89f6987c5087c0c7a8ac8ccbe451cfa8976ae46377d83a423e658cff9de4"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_cutting_board/wooden_cutting_board_arm_1k.jpg",
+        "bytes": 401619,
+        "sha256": "f35dec51ff94e279a9d43a4ee64b75235cc3d6701107ae22a1eea797e3d236d3"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_cutting_board/wooden_cutting_board_diff_1k.jpg",
+        "bytes": 788732,
+        "sha256": "79274fb86cc7f62363e4448b4597f06933d640a79c746ff6f823d2e4e27ad143"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_cutting_board/wooden_cutting_board_nor_gl_1k.jpg",
+        "bytes": 677881,
+        "sha256": "b123d7ca0d0be01a31686240c925e85a1d2499172586f119482924b06b0b0c93"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/wooden_cutting_board/wooden_cutting_board.bin",
+        "bytes": 94688,
+        "sha256": "d7fa7549afcae99eb4739dfb13039f1e56f03327c2936cb021bfd05c3afad839"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/wooden_cutting_board_1k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/wooden_cutting_board_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "wooden_cutting_board_nor_gl"
+    },
+    {
+      "path": "model/textures/wooden_cutting_board_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "wooden_cutting_board_diff"
+    },
+    {
+      "path": "model/textures/wooden_cutting_board_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "wooden_cutting_board_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 2299,
+    "triangles": 3520,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "wooden_cutting_board_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-wooden-cutting-board/model/textures/wooden_cutting_board_diff_1k.jpg"
+      },
+      {
+        "name": "wooden_cutting_board_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-wooden-cutting-board/model/textures/wooden_cutting_board_nor_gl_1k.jpg"
+      },
+      {
+        "name": "wooden_cutting_board_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-wooden-cutting-board/model/textures/wooden_cutting_board_arm_1k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 283,
+      "sha256": "da0fd10b678919b3fd75b3fb546211a7976646becc1ae8c53a6fd604ce2c0201",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67105,
+      "sha256": "89d9f78918db80a8f71ffdf1d8db7812e04edab69360907e1f39807d48785d1f",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/textures/wooden_cutting_board_arm_1k.jpg",
+      "bytes": 401619,
+      "sha256": "f35dec51ff94e279a9d43a4ee64b75235cc3d6701107ae22a1eea797e3d236d3",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/wooden_cutting_board_diff_1k.jpg",
+      "bytes": 788732,
+      "sha256": "79274fb86cc7f62363e4448b4597f06933d640a79c746ff6f823d2e4e27ad143",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/wooden_cutting_board_nor_gl_1k.jpg",
+      "bytes": 677881,
+      "sha256": "b123d7ca0d0be01a31686240c925e85a1d2499172586f119482924b06b0b0c93",
+      "role": "model"
+    },
+    {
+      "path": "model/wooden_cutting_board.bin",
+      "bytes": 94688,
+      "sha256": "d7fa7549afcae99eb4739dfb13039f1e56f03327c2936cb021bfd05c3afad839",
+      "role": "model"
+    },
+    {
+      "path": "model/wooden_cutting_board_1k.gltf",
+      "bytes": 2852,
+      "sha256": "89fa89f6987c5087c0c7a8ac8ccbe451cfa8976ae46377d83a423e658cff9de4",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 35614,
+      "sha256": "52a07e8193dd999da92b1401003dca16a73971c34979aac61b47eb7e3fdc1e87",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 12486,
+      "sha256": "d09d074b529ed7d4c6b9f9c121244ec7c33eb6262751247d85a806a9d809333c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 225603,
+      "sha256": "d64b3f169e96dc260e4d2e6794e676cfc7387c4c2884478719b851978329b964",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1227,
+      "sha256": "6877b5758092f108f786e23b8933b2f0a48a273678a6907597b521a49137ed84",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 25123,
+      "sha256": "8c31610379945682ebfb25f3f207c9c891e795b15d0b6bfb3cbaf9e0a672c20b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 26582,
+      "sha256": "0e64a21605bd9ed98c2f2775b8e72266c50bb64fffde54f49cf2af291f9387d6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 53788,
+      "sha256": "86a08b1a3d8a0710a95e319fb7cd20464c66dfb1a49ecdb9d6001d6d845ca2b9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 25041,
+      "sha256": "4bc9f397669557fe2409f9ac0d58b4a719cd3d53b1bfce9730f917e3dfba319f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 24280,
+      "sha256": "3651159854b0d99caf887fd14040eaf4613fd9c27b0de5f468dbd7ee7e8da2e8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 26418,
+      "sha256": "e806d103826734da71b5bffb16d6d29c0b329e75e4351fc4251d7dbea3a45182",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 53478,
+      "sha256": "066029a059be01fbd6176478d5f87accae74e6ab0c5df7752572e5b7b6fed56a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 26573,
+      "sha256": "9a5848f7e7ee48604946a0149160fd576fb97b1785a69e398e60d04884e2716b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 51212,
+      "sha256": "476c07ff7a3970116a84296936f73ab77b1821bfa25340e0655827c717852e8c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 24111,
+      "sha256": "f37f8adfdfd8733a291d83bfefffb144ad75aa063d875fc218d07ea4fc9c8b60",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 170,
+      "sha256": "d4cdca21e9e372bb2cc10616d29c2b741a75b4b40013d3ad81acc2937f9cbe29",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1167,
+      "sha256": "baff9a8cce3670fd5ca7723ab5aba80ae78306c4a968538184965bb9f3ba5e0f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2161,
+      "sha256": "f390060c1560b4fad5b6c8435d76123b24f95a1f488a86f993add67be2cbc879",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1185,
+      "sha256": "15447c922336ab86645ff77d55be476a2db145adb244ef9358ab8928429eafa6",
+      "role": "provenance"
+    }
+  ]
+}
