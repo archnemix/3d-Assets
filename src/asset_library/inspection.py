@@ -102,7 +102,11 @@ def inspect(directory: Path, candidate: dict, manifest: dict) -> dict:
         ],
         directory / "logs" / "blender.log",
     )
-    authored = author_animations(directory, model, blender)
+    authored = (
+        {"authored": []}
+        if manifest.get("skip_authored_animation", False)
+        else author_animations(directory, model, blender)
+    )
     if authored.get("authored"):
         manifest["authored_animations"] = authored["authored"]
         manifest["animated_model"] = f"model/{authored['animated_model']}"

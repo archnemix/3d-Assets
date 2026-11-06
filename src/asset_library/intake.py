@@ -36,6 +36,8 @@ def candidate(candidate: dict, batch: str) -> dict:
         "acquired_at": started,
         "review": {"status": "pending", "approved": False},
     }
+    if candidate.get("skip_authored_animation"):
+        manifest["skip_authored_animation"] = True
     try:
         provenance = fetch(sources()[candidate["source"]], candidate, directory)
         manifest["source"] = {"provider": candidate["source"], **provenance}

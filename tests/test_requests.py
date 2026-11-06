@@ -78,3 +78,17 @@ def test_existing_id_rejected_even_in_another_category(tmp_path, monkeypatch):
     write_json(path, {"batch_id": "test", "candidates": [candidate(0)]})
     with pytest.raises(ValueError, match="Already published"):
         load_request(path)
+
+
+def test_skip_authored_animation_is_optional_boolean(tmp_path):
+    from jsonschema import ValidationError
+
+    path = tmp_path / "request.json"
+    item = candidate(0)
+    item["skip_authored_animation"] = True
+    write_json(path, {"batch_id": "test", "candidates": [item]})
+    assert load_request(path)["candidates"][0]["skip_authored_animation"] is True
+    item["skip_authored_animation"] = "yes"
+    write_json(path, {"batch_id": "test", "candidates": [item]})
+    with pytest.raises(ValidationError):
+        load_request(path)

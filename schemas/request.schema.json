@@ -82,6 +82,10 @@
               "light"
             ],
             "description": "Select the decimated light build published inside the base manifest."
+          },
+          "skip_authored_animation": {
+            "type": "boolean",
+            "description": "Skip experimental library-authored mechanical clips; does not remove source animations."
           }
         }
       }
