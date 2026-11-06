@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "id": "ph-water-manhole-cover",
+  "title": "Water Manhole Cover",
+  "category": "industrial/infrastructure",
+  "style": "realistic",
+  "tags": [
+    "infrastructure",
+    "drainage",
+    "utility",
+    "manhole",
+    "underground",
+    "maintenance",
+    "polyhaven"
+  ],
+  "batch": "realistic-textures-01",
+  "acquired_at": "2026-11-06T10:19:21.747764+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/water_manhole_cover_2k.gltf",
+    "creator": "Raunox",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/water_manhole_cover",
+    "source_id": "water_manhole_cover",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/water_manhole_cover/water_manhole_cover_2k.gltf",
+        "bytes": 4253,
+        "sha256": "43fefd4fedda1ce67f5571f4e02fb78852583daa43c5de92fd9cb56c870a2ad1"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/water_manhole_cover/water_manhole_cover_nor_gl_2k.jpg",
+        "bytes": 4062229,
+        "sha256": "abdfc1f149e31989b9a29dd7d812e4751ec7fe7593a71213db8774c12b65814b"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/water_manhole_cover/water_manhole_cover.bin",
+        "bytes": 202320,
+        "sha256": "ada713d1f6f879164d3475e2ee18d69b4c4ecc8f100126e3921b7b3ea42c9267"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/water_manhole_cover/water_manhole_cover_diff_2k.jpg",
+        "bytes": 1519932,
+        "sha256": "f3038b11493dd09626e7b1e34c8eb72a8f594d77d9084d06d67bef34a35a8371"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/water_manhole_cover/water_manhole_cover_arm_2k.jpg",
+        "bytes": 2167214,
+        "sha256": "e58a4c473f0233d6c41c71d5a0b7b5d616160432d5fe299f071a1351b3640a15"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/water_manhole_cover_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 2,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/water_manhole_cover_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "water_manhole_cover_nor_gl"
+    },
+    {
+      "path": "model/textures/water_manhole_cover_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "water_manhole_cover_diff"
+    },
+    {
+      "path": "model/textures/water_manhole_cover_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "water_manhole_cover_metal-water_manhole_cover_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 2,
+    "hidden_mesh_objects": 0,
+    "vertices": 5141,
+    "triangles": 6301,
+    "material_slots": 2,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "water_manhole_cover_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-water-manhole-cover/model/textures/water_manhole_cover_diff_2k.jpg"
+      },
+      {
+        "name": "water_manhole_cover_metal-water_manhole_cover_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-water-manhole-cover/model/textures/water_manhole_cover_arm_2k.jpg"
+      },
+      {
+        "name": "water_manhole_cover_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-water-manhole-cover/model/textures/water_manhole_cover_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 342,
+      "sha256": "7585d08b784de4aff367df511f3622672b73be0d25ed0bda67693de959829c63",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 70126,
+      "sha256": "d1cc222ff4d751d347764c12276c8b9fc1afd670aad1fad21c7d3dc145d61ea1",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "2a9a229f8bb2ed821581e94782406b1f4a42c4f9a9e024e1cc719a6265cfa1b4",
+      "role": "logs"
+    },
+    {
+      "path": "model/textures/water_manhole_cover_arm_2k.jpg",
+      "bytes": 2167214,
+      "sha256": "e58a4c473f0233d6c41c71d5a0b7b5d616160432d5fe299f071a1351b3640a15",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/water_manhole_cover_diff_2k.jpg",
+      "bytes": 1519932,
+      "sha256": "f3038b11493dd09626e7b1e34c8eb72a8f594d77d9084d06d67bef34a35a8371",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/water_manhole_cover_nor_gl_2k.jpg",
+      "bytes": 4062229,
+      "sha256": "abdfc1f149e31989b9a29dd7d812e4751ec7fe7593a71213db8774c12b65814b",
+      "role": "model"
+    },
+    {
+      "path": "model/water_manhole_cover.bin",
+      "bytes": 202320,
+      "sha256": "ada713d1f6f879164d3475e2ee18d69b4c4ecc8f100126e3921b7b3ea42c9267",
+      "role": "model"
+    },
+    {
+      "path": "model/water_manhole_cover_2k.gltf",
+      "bytes": 4253,
+      "sha256": "43fefd4fedda1ce67f5571f4e02fb78852583daa43c5de92fd9cb56c870a2ad1",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 32468,
+      "sha256": "106c99e42362bee46fa3475693a7a1faf478692d16c016a0fb141bf60588d68a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18091,
+      "sha256": "9edb4be7a48351926147036b399a4514c136179eafe5e7f4130f0024efa81275",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 250009,
+      "sha256": "c6399b7758028a34b4f1695ae35cb0bab16ab4e5aa572a899f05cb183fb9eb72",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1247,
+      "sha256": "7eaefcf7674356f3667a206a65845061e94598b4d71fc55de72c8de42877680d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 35245,
+      "sha256": "5859adcab9ad2acbb242e0aecc57bdb8e4676a3404b477f42c21cc041a29a27f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 32744,
+      "sha256": "8baf24e6ff3a08932c16c2cb0911d7d41e8863cafd5ddec410c9777230e1c8f8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 31588,
+      "sha256": "47bcac2488dd616b5f56ab379447152c5d04f99234c75cb54aebdad0b96efcbb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 32124,
+      "sha256": "940cfe0c3687c9beffe1b57739780d0aef4901434dba88323de49dd785f40c9f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 32391,
+      "sha256": "0bfaf77bbb67d3b58eec336f022cdd81e1df3c073d86defce04ecbc168a555b8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 33821,
+      "sha256": "7a078d6051a436fe4770b96c0722eb575b405b8b743735037ee8ca51b039eb91",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 36033,
+      "sha256": "4fc9909e080c83310313f58c941bb760f7df71eeb929ca2c55639b1948a1f0b6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 33777,
+      "sha256": "2795c77bd5b80966f56893ea14dd6aa0fcc79d96b1e9932c0900b31c7e59fc58",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 61459,
+      "sha256": "5b98bf830cfdc3502cc5595e4966a245e8510520f66f1f589f3456134f56898b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 33286,
+      "sha256": "89541ac6193631280d7f7ffc7809d7bd6549517b3f69fbf6dc3ee732b762a2c0",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 169,
+      "sha256": "adaa3210bb10c54bebad225037a67c5137143ce630ec185610121f5c3b0813cc",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1356,
+      "sha256": "c228d443c58adc24ca66cdbcdc6f590ab025583d9fab28ba23ef490dd5cabd9a",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2484,
+      "sha256": "e7fb1c20e5da4cda66cf8e0b7b07dbd86fd5988cb981eed84bbf7e606ec97228",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1175,
+      "sha256": "39246121de4155997aa43bde8f1188d025402b959ca13009d7fed6c3b58deeb3",
+      "role": "provenance"
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "id": "ph-hatchet",
+  "title": "Hatchet",
+  "category": "tools/hand-tools",
+  "style": "realistic",
+  "tags": [
+    "weapon",
+    "axe",
+    "lumber",
+    "hatchet",
+    "chopping",
+    "woodwork",
+    "polyhaven"
+  ],
+  "batch": "realistic-textures-01",
+  "acquired_at": "2026-11-06T10:16:47.253235+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/hatchet_2k.gltf",
+    "creator": "James Ray Cock, Ulan Cabanilla",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/hatchet",
+    "source_id": "hatchet",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/hatchet/hatchet_2k.gltf",
+        "bytes": 2718,
+        "sha256": "b86d5a98fd78c06c907d5f22c9193ea8e89162114126d213a58080e14bd0b35f"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/hatchet/hatchet_diff_2k.jpg",
+        "bytes": 1935318,
+        "sha256": "35e86f492e4247108e09c2cd3c8488f01a2eaba5f58b882e8b59edc85983548b"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/hatchet/hatchet_arm_2k.jpg",
+        "bytes": 2376847,
+        "sha256": "6742e67f644f9858edba0aeb259d93808fa48f1850065bc79841a8ee28df9a7c"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/hatchet/hatchet.bin",
+        "bytes": 164524,
+        "sha256": "f4dc3fe12fc317eadae59d1c3ebd2ce8475bbfe0743c91a3bb754648781fda4b"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/hatchet/hatchet_nor_gl_2k.jpg",
+        "bytes": 2505892,
+        "sha256": "db977858f373e5c0509d9dc0c3c24f3cff616510db4f60f6a44d5afe4342c7e9"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/hatchet_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/hatchet_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "hatchet_nor_gl"
+    },
+    {
+      "path": "model/textures/hatchet_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "hatchet_diff"
+    },
+    {
+      "path": "model/textures/hatchet_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "hatchet_metal-hatchet_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 4157,
+    "triangles": 5250,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "hatchet_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-hatchet/model/textures/hatchet_diff_2k.jpg"
+      },
+      {
+        "name": "hatchet_metal-hatchet_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-hatchet/model/textures/hatchet_arm_2k.jpg"
+      },
+      {
+        "name": "hatchet_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-hatchet/model/textures/hatchet_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 284,
+      "sha256": "0550257f84a4f863c4b060430628fe3ee4e192591ee38a08575257b7f6a5ca9f",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67599,
+      "sha256": "6d55a0feedb0aa4460dba4cdb19ac511fc1e0edfbc2fce63004d0e2eee4445bc",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/hatchet.bin",
+      "bytes": 164524,
+      "sha256": "f4dc3fe12fc317eadae59d1c3ebd2ce8475bbfe0743c91a3bb754648781fda4b",
+      "role": "model"
+    },
+    {
+      "path": "model/hatchet_2k.gltf",
+      "bytes": 2718,
+      "sha256": "b86d5a98fd78c06c907d5f22c9193ea8e89162114126d213a58080e14bd0b35f",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/hatchet_arm_2k.jpg",
+      "bytes": 2376847,
+      "sha256": "6742e67f644f9858edba0aeb259d93808fa48f1850065bc79841a8ee28df9a7c",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/hatchet_diff_2k.jpg",
+      "bytes": 1935318,
+      "sha256": "35e86f492e4247108e09c2cd3c8488f01a2eaba5f58b882e8b59edc85983548b",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/hatchet_nor_gl_2k.jpg",
+      "bytes": 2505892,
+      "sha256": "db977858f373e5c0509d9dc0c3c24f3cff616510db4f60f6a44d5afe4342c7e9",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 18163,
+      "sha256": "dcba41f2ea9664e0b2e171387be91de4bbde526c073d88bc7c4e0aeed2026080",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 13049,
+      "sha256": "8e73ba36d97446915d6823e9787f2c53e51cca577f7a6b75974228405b6fb533",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 125119,
+      "sha256": "fd0c527aa5443a3b1b84f0ea6c54a2ca815dd56a1bacb435e5ab0318d9398447",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1127,
+      "sha256": "4ea8c195020f1eae8ca49971ac9e3058d74ee25e81288bbe57326c37995982c8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 13069,
+      "sha256": "b2ece6d1da651a5b7852f2e71a4d189a4ae3b5409b75fc5415e5e24caf3cf6cb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 17989,
+      "sha256": "88440e4804bdfb62979b991ac1ea4208f081e61930df7b8c3163784a52bef511",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 19122,
+      "sha256": "8bae236d46780803a6761758f87fa5edc8bfed17b2fe82e7c773a21c6a3f0dd3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 16682,
+      "sha256": "cd161ca81797dc73afbe6591e82b7c16f218cc0a7926afd25fba3af941988950",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 12557,
+      "sha256": "2c6d9c597e9f65ed769b6bbb65372c29f724bd1ccfd96cf04a6c4670a87de2d7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 16412,
+      "sha256": "f53381725620290bd0aa6b8d8adcf6c8b5b1e17bb581886359ee5586827c0dc5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 18463,
+      "sha256": "383393df2e03e4e0796921f242ca28793593cec9978c436bee154ad6df8c9296",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 17403,
+      "sha256": "f521edf27fdb3c664007b2ab48758af5b5db1c6f96b80e7c739bf770c8bca778",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 17799,
+      "sha256": "7e61b4cca31e013970e8b60ecafc1388b2b292cf63e928b9589c6436e5e0ab10",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 22012,
+      "sha256": "24ef227ab8abf01f1f7fbe8efa22d6104a625699aa307b33563ae8eb03646ab4",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 157,
+      "sha256": "cd0e20b828c9e49c5ccf4b4ba6d47c9416496b47293956aca6d00d2811d9b244",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1298,
+      "sha256": "cef322de4b365ba14ee964e2cd2e1c99ffc24d3128b66d83213e92acee35c936",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2097,
+      "sha256": "61f1a6fd4476b0d8e3584d4f78478000663dd168416e1a49954b1ec4b3951041",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1007,
+      "sha256": "a8535e6efd6584f5a7a5b1ca3788f5cc7c3c1f145dc421e9116e1bc42ed75e6e",
+      "role": "provenance"
+    }
+  ]
+}
