@@ -18,7 +18,7 @@
         }
       }
     </script>
-    <script type="module" src="scripts/app.js?v=2"></script>
+    <script type="module" src="scripts/app.js?v=3"></script>
   </head>
   <body>
     <header class="masthead">
@@ -64,9 +64,7 @@
             ><span>Style</span
             ><select id="style">
               <option value="">All styles</option>
-              <option value="realistic" selected>
-                Realistic (style label)
-              </option>
+              <option value="realistic">Realistic (style label)</option>
               <option value="stylized">Stylized</option>
               <option value="low-poly">Low-poly</option>
             </select></label
@@ -79,8 +77,9 @@
           >
         </form>
         <p class="filter-hint">
-          Choose a main category to browse its subcategories. Counts include all
-          styles; style labels are approximate, not a guarantee of photorealism.
+          All approved assets are shown by default. Choose a main category to
+          browse its subcategories; style labels are approximate, not a
+          guarantee of photorealism.
         </p>
         <div class="browser-toolbar">
           <div class="toolbar-controls">
@@ -109,11 +108,6 @@
           </button>
         </div>
         <div class="asset-grid" id="asset-grid"></div>
-        <div class="load-more-wrap">
-          <button class="load-more" id="load-more" type="button" hidden>
-            Show more assets
-          </button>
-        </div>
         <div class="empty-state" id="empty" hidden>
           <h2>No matching assets</h2>
           <p>Try a broader search or reset the filters.</p>

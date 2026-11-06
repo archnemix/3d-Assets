@@ -18,21 +18,83 @@ try {
     waitUntil: "networkidle",
   });
   await page.waitForSelector(".asset-card");
+  const catalog = await page.evaluate(async () => {
+    const response = await fetch("../manifest.json", { cache: "no-cache" });
+    return response.json();
+  });
   assert.equal(
     await page.locator("#style").inputValue(),
-    "realistic",
-    "realistic style selected initially",
+    "",
+    "all styles selected initially",
   );
   assert.equal(
     await page.locator(".asset-card").count(),
-    36,
-    "initial page is bounded",
+    catalog.assets.length,
+    "every approved asset has a card without pagination",
   );
-  await page.locator("#load-more").click();
+  assert.match(
+    await page.locator("#result-count").textContent(),
+    new RegExp(
+      `Showing ${catalog.assets.length} of ${catalog.assets.length} matching assets`,
+    ),
+  );
+  assert.equal(
+    await page.locator("#load-more").count(),
+    0,
+    "all cards are visible without a show-more button",
+  );
+  await page
+    .locator(".asset-card")
+    .first()
+    .evaluate((node) => {
+      node.dataset.refreshMarker = "preserved";
+    });
+  await Promise.all([
+    page.waitForResponse((response) =>
+      response.url().includes("manifest.json"),
+    ),
+    page.locator("#refresh").click(),
+  ]);
+  await page.waitForLoadState("networkidle");
+  assert.equal(
+    await page
+      .locator(".asset-card")
+      .first()
+      .getAttribute("data-refresh-marker"),
+    "preserved",
+    "refreshing an unchanged catalog does not rebuild the grid",
+  );
+  await page.locator(".asset-card").last().scrollIntoViewIfNeeded();
+  await page.waitForFunction(() => {
+    const image = document.querySelector(".asset-card:last-child img");
+    return image?.complete && image.naturalWidth > 0;
+  });
+  await page.locator("#search").fill("yellow submersible");
   assert.equal(
     await page.locator(".asset-card").count(),
-    72,
-    "show more expands the page",
+    1,
+    "new stylized asset is discoverable by default",
+  );
+  await page.waitForFunction(() => {
+    const image = document.querySelector(".asset-card img");
+    return image?.complete && image.naturalWidth > 0;
+  });
+  await page.locator("#style").selectOption("realistic");
+  assert.equal(
+    await page.locator(".asset-card").count(),
+    0,
+    "style filter narrows results",
+  );
+  await page.locator("#reset").click();
+  assert.equal(
+    await page.locator("#style").inputValue(),
+    "",
+    "reset restores all styles",
+  );
+  assert.equal(
+    await page.locator(".asset-card").count(),
+    catalog.assets.length,
+    "reset restores the full catalog",
   );
   await page.setViewportSize({ width: 390, height: 844 });
   assert.equal(
@@ -131,7 +193,7 @@ try {
   );
   assert.deepEqual(errors, []);
   console.log(
-    "PASS: default realistic style, grouped main and exact subcategory filters, pagination, animated filter, animated GLB clips, controls, static GLB switch, external-texture glTF and close/reopen",
+    "PASS: all approved cards and previews, reset and stable refresh, category filters, animated filter, animated GLB clips, controls, static GLB switch, external-texture glTF and close/reopen",
   );
 } finally {
   await browser.close();

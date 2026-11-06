@@ -16,8 +16,7 @@ const detail = byId("detail-content");
 const categorySelect = byId("category");
 const mainSelect = byId("main-category");
 let catalog = null;
-const PAGE_SIZE = 36;
-let visibleCount = PAGE_SIZE;
+let catalogFingerprint = null;
 
 function stat(value, label) {
   const item = document.createElement("span");
@@ -95,12 +94,11 @@ function inspect(asset) {
   showDetail(dialog, detail, asset);
 }
 
-function update(resetPage = false) {
-  if (resetPage) visibleCount = PAGE_SIZE;
+function update() {
   if (!catalog) return;
   const filtered = filterAssets(catalog.assets, currentFilters());
   const sorted = sortAssets(filtered, byId("sort").value);
-  const visible = sorted.slice(0, visibleCount);
+  const visible = sorted;
   grid.replaceChildren();
   grid.classList.toggle("grouped", byId("group").checked);
   if (byId("group").checked) {
@@ -120,16 +118,20 @@ function update(resetPage = false) {
   }
   byId("result-count").textContent =
     `Showing ${visible.length} of ${filtered.length} matching assets · ${catalog.assets.length} total`;
-  byId("load-more").hidden = visible.length >= filtered.length;
   byId("empty").hidden = filtered.length > 0;
 }
 
 async function refresh() {
   try {
-    catalog = await loadCatalog();
-    renderStats();
-    renderCategoryControls();
-    update();
+    const nextCatalog = await loadCatalog();
+    const fingerprint = JSON.stringify(nextCatalog);
+    if (fingerprint !== catalogFingerprint) {
+      catalog = nextCatalog;
+      catalogFingerprint = fingerprint;
+      renderStats();
+      renderCategoryControls();
+      update();
+    }
     byId("last-updated").textContent =
       `Updated ${new Date().toLocaleTimeString()}`;
   } catch (error) {
@@ -139,23 +141,19 @@ async function refresh() {
 }
 
 byId("filters").addEventListener("submit", (event) => event.preventDefault());
-byId("filters").addEventListener("input", () => update(true));
+byId("filters").addEventListener("input", () => update());
 mainSelect.addEventListener("change", () => {
   renderSubcategories();
-  update(true);
+  update();
 });
-categorySelect.addEventListener("change", () => update(true));
-byId("sort").addEventListener("change", () => update(true));
-byId("group").addEventListener("change", () => update(true));
+categorySelect.addEventListener("change", () => update());
+byId("sort").addEventListener("change", () => update());
+byId("group").addEventListener("change", () => update());
 byId("reset").addEventListener("click", () => {
   byId("filters").reset();
   renderSubcategories();
   byId("sort").value = "title";
   byId("group").checked = false;
-  update(true);
-});
-byId("load-more").addEventListener("click", () => {
-  visibleCount += PAGE_SIZE;
   update();
 });
 byId("refresh").addEventListener("click", refresh);

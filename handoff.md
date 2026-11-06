@@ -1,5 +1,7 @@
 # Handoff prompt: continue the CC0 3D asset library
 
+> **Viewer correction, 2026-11-07:** The user could see the 396 total but not every asset. The gallery now defaults to all styles and renders every matching card (images load lazily), rather than filtering to realistic and showing only 36. Refresh avoids rebuilding an unchanged grid. Browser and preview-path regression tests cover the full catalog; inspect the latest viewer test run for its result. The next intake `transport-variety-03` is in progress; do not count its candidates as published until individually reviewed and approved.
+
 > **Latest snapshot, 2026-11-07:** `transport-variety-02` successfully acquired and individually reviewed 20 more stylized static vehicles, including OpenGameArt creator weirdybeardyman’s yellow submersible. Catalog: **396/450**, **54 remain**. All 20 passed the zero glTF-error gate and license/inventory audit. Reviews disclose zero-area triangle counts (including 344 in the rail crane), absent animation, simplified materials, and any tangent warnings. The OpenGameArt converter was live-tested; source `.blend` is retained and should only be opened with auto-execution disabled. See `reviews/transport-variety-02.json`. Continue pursuing distinct types and multiple providers.
 
 

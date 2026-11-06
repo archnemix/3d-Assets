@@ -238,3 +238,16 @@ test("main categories group all descendants once while subcategory stays exact",
     nested.length,
   );
 });
+
+test("every approved asset has an existing local card preview", async () => {
+  const { readFile, stat } = await import("node:fs/promises");
+  const root = new URL("../", import.meta.url);
+  const catalog = JSON.parse(
+    await readFile(new URL("manifest.json", root), "utf8"),
+  );
+  for (const asset of catalog.assets) {
+    assert.ok(asset.preview && !asset.preview.startsWith("/"), asset.id);
+    const info = await stat(new URL(asset.preview, root));
+    assert.ok(info.isFile() && info.size > 0, `${asset.id}: ${asset.preview}`);
+  }
+});
