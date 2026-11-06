@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "id": "ph-wooden-bowl-01",
+  "title": "Wooden Bowl 01",
+  "category": "kitchen/tableware",
+  "style": "realistic",
+  "tags": [
+    "bowl",
+    "wooden",
+    "carved",
+    "fruit",
+    "fruitbowl",
+    "decoration",
+    "polyhaven"
+  ],
+  "batch": "realistic-textures-01",
+  "acquired_at": "2026-11-06T10:15:13.158553+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/wooden_bowl_01_2k.gltf",
+    "creator": "Oliver Harries",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/wooden_bowl_01",
+    "source_id": "wooden_bowl_01",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/wooden_bowl_01/wooden_bowl_01_2k.gltf",
+        "bytes": 2811,
+        "sha256": "9b2aadbd2aed3144cdbc30834052a8dd3536b3756a554cce99e9702c8adeb440"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_bowl_01/wooden_bowl_01_nor_gl_2k.jpg",
+        "bytes": 2529776,
+        "sha256": "6e464e49ab13675ef7eab45ad0b32fddf9a3425bf0df58f3a2156bf70be1d938"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/wooden_bowl_01/wooden_bowl_01.bin",
+        "bytes": 321052,
+        "sha256": "2659e19ea140aed29edca6761b6ee117e0a488ac14cd32c30fd0f1116f645761"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_bowl_01/wooden_bowl_01_arm_2k.jpg",
+        "bytes": 1861438,
+        "sha256": "6527473aa358b5f8c73cae1a8e5d66b764c9971b3dc7ca569951a084ae2008d0"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_bowl_01/wooden_bowl_01_diff_2k.jpg",
+        "bytes": 1750787,
+        "sha256": "2c9405291f6e23e5e376d2ceed2051f63f3a6e0c731de5add5ca6c6ec2a7dc7d"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/wooden_bowl_01_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/wooden_bowl_01_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "wooden_bowl_01_nor_gl"
+    },
+    {
+      "path": "model/textures/wooden_bowl_01_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "wooden_bowl_01_diff"
+    },
+    {
+      "path": "model/textures/wooden_bowl_01_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "wooden_bowl_01_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 7385,
+    "triangles": 14122,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "wooden_bowl_01_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-wooden-bowl-01/model/textures/wooden_bowl_01_diff_2k.jpg"
+      },
+      {
+        "name": "wooden_bowl_01_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-wooden-bowl-01/model/textures/wooden_bowl_01_nor_gl_2k.jpg"
+      },
+      {
+        "name": "wooden_bowl_01_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-wooden-bowl-01/model/textures/wooden_bowl_01_arm_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 300,
+      "sha256": "2ae0225d5eabb0508c84ef69c5f5871285272a8a526e7d09e34bf7d0fc754f54",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68268,
+      "sha256": "9c90bb291578bc5c7c73aa4384f47c085f0349214f618800889f04b957414134",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/textures/wooden_bowl_01_arm_2k.jpg",
+      "bytes": 1861438,
+      "sha256": "6527473aa358b5f8c73cae1a8e5d66b764c9971b3dc7ca569951a084ae2008d0",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/wooden_bowl_01_diff_2k.jpg",
+      "bytes": 1750787,
+      "sha256": "2c9405291f6e23e5e376d2ceed2051f63f3a6e0c731de5add5ca6c6ec2a7dc7d",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/wooden_bowl_01_nor_gl_2k.jpg",
+      "bytes": 2529776,
+      "sha256": "6e464e49ab13675ef7eab45ad0b32fddf9a3425bf0df58f3a2156bf70be1d938",
+      "role": "model"
+    },
+    {
+      "path": "model/wooden_bowl_01.bin",
+      "bytes": 321052,
+      "sha256": "2659e19ea140aed29edca6761b6ee117e0a488ac14cd32c30fd0f1116f645761",
+      "role": "model"
+    },
+    {
+      "path": "model/wooden_bowl_01_2k.gltf",
+      "bytes": 2811,
+      "sha256": "9b2aadbd2aed3144cdbc30834052a8dd3536b3756a554cce99e9702c8adeb440",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 52701,
+      "sha256": "71b4c6ca29163ac38f727a3119934707a0fce25b5721f4b44153d3f61e321b4e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 15160,
+      "sha256": "9980d87b5e9a2a9cdcf6181c5993dd67b398868f35dc2b29b075a469f9ed6f82",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 245132,
+      "sha256": "e36c8b87bbaffca725b73fc0bde40ba95e309488aae86c08381d30290a9a5876",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1177,
+      "sha256": "cf082c68b3f03e3d36b2bfaafa95d312c0a90131596e3866f57a9d9a11db4221",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 32522,
+      "sha256": "f07750aa15e5b4543b9c70b7c719aba68dc32c85d0e1d26bfd295ebc4a4dba0e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 31730,
+      "sha256": "cfa3d09c9fb5798300ea8d4fd10e8d1a493bc6124cf356e4bc132e4b65ea827a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 28562,
+      "sha256": "5d9a88f74f7b8a17b3e34c929b25595341799e2e4e8d8ffcfb98b680617a6a15",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 28068,
+      "sha256": "11266a8a62f467c39cc5c2f24a632b95e4baf5bb64b1ade2b65e5167b72b5509",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 28827,
+      "sha256": "b23bf96dfe5b8ba82a34fed443a8bdfa479b7501511ca75fc3fc974dc7ab4568",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 31864,
+      "sha256": "a724690a1f7076fb13d75816b008dc47cb3a8b806106d9bf1623c3587693f2fc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 33169,
+      "sha256": "7436a2a12d10960e9a0c1e1543762593baf07eb1d1f8285ad24d5029e1ec9192",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 32611,
+      "sha256": "77a25b5eec2b66381839d01fcd9cd7df6a49e47a75593b30a1b60e42297e976e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 53252,
+      "sha256": "7a6eab663ba96e57a1157a5480a1c724b0d6797fe9b53b9a3b44b0b4fe50dc4b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 44016,
+      "sha256": "e6503637b65b3d1b25495b7eec93e775c899c14679c8ffa62270ca0582e9c4fc",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 164,
+      "sha256": "b7d6e7c8fc3a4e80cb35b84daba62a4346308a1a357bdbd7524c32f86f9d1bec",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1130,
+      "sha256": "cb0932bb8e07260bdfc1279be76fe29c13bed6f7e557ddb97462d4d51f347cd6",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2133,
+      "sha256": "4df4c84ad4d59bbde565b016ab773e6a27663ae115de64b22313fb93a975dce2",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1105,
+      "sha256": "c1923a8d52fc7ebacdd794a05a8fc8fc710e4bfadbabad8f1c685c64a0c0bfdc",
+      "role": "provenance"
+    }
+  ]
+}

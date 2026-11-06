@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "id": "ph-coffee-table-round-01",
+  "title": "Coffee Table Round 01",
+  "category": "furniture/tables",
+  "style": "realistic",
+  "tags": [
+    "modern",
+    "marble",
+    "tea",
+    "coffee",
+    "metal",
+    "sleek",
+    "polyhaven"
+  ],
+  "batch": "realistic-textures-01",
+  "acquired_at": "2026-11-06T10:13:50.777426+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/coffee_table_round_01_2k.gltf",
+    "creator": "Ulan Cabanilla",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/coffee_table_round_01",
+    "source_id": "coffee_table_round_01",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/coffee_table_round_01/coffee_table_round_01_2k.gltf",
+        "bytes": 2776,
+        "sha256": "6b9dbd17317c9289ab8e008b05abd146dbe0831c975871732def694de4ad407d"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/coffee_table_round_01/coffee_table_round_01_arm_2k.jpg",
+        "bytes": 2631627,
+        "sha256": "fa00d2026a24f65cd825f565e010d498206d68ede792fcc5f058f20a3d94aa88"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/coffee_table_round_01/coffee_table_round_01_nor_gl_2k.jpg",
+        "bytes": 1177563,
+        "sha256": "b8e4f0780ee2008e33a3049656fcf3168d1036ad8d5cf368e925374123a5c553"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/coffee_table_round_01/coffee_table_round_01.bin",
+        "bytes": 131112,
+        "sha256": "9605a0c156bff4ec87e8717a79978d85d4e750d21b3193a3d08bed16e8666035"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/coffee_table_round_01/coffee_table_round_01_diff_2k.jpg",
+        "bytes": 1721075,
+        "sha256": "d63b809f381622925f852f6d1b0f712428cbe75837298073ad0424069d60870d"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/coffee_table_round_01_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/coffee_table_round_01_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "coffee_table_round_01_nor_gl.png"
+    },
+    {
+      "path": "model/textures/coffee_table_round_01_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "coffee_table_round_01_diff.png"
+    },
+    {
+      "path": "model/textures/coffee_table_round_01_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "coffee_table_round_01_metal.png-coffee_table_round_01_rough.png"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 3339,
+    "triangles": 4044,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "coffee_table_round_01_diff.png",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-coffee-table-round-01/model/textures/coffee_table_round_01_diff_2k.jpg"
+      },
+      {
+        "name": "coffee_table_round_01_metal.png-coffee_table_round_01_rough.png",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-coffee-table-round-01/model/textures/coffee_table_round_01_arm_2k.jpg"
+      },
+      {
+        "name": "coffee_table_round_01_nor_gl.png",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-coffee-table-round-01/model/textures/coffee_table_round_01_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 284,
+      "sha256": "3237f952bb2a055138f04f9dd344f0180856ccf4c2d8919b45c2b5ffcad8fc7c",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68610,
+      "sha256": "546e2d4d5c37e565bf4f18dd9e5a94220562a6e491a5e4c16b456a124ff76f18",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/coffee_table_round_01.bin",
+      "bytes": 131112,
+      "sha256": "9605a0c156bff4ec87e8717a79978d85d4e750d21b3193a3d08bed16e8666035",
+      "role": "model"
+    },
+    {
+      "path": "model/coffee_table_round_01_2k.gltf",
+      "bytes": 2776,
+      "sha256": "6b9dbd17317c9289ab8e008b05abd146dbe0831c975871732def694de4ad407d",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/coffee_table_round_01_arm_2k.jpg",
+      "bytes": 2631627,
+      "sha256": "fa00d2026a24f65cd825f565e010d498206d68ede792fcc5f058f20a3d94aa88",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/coffee_table_round_01_diff_2k.jpg",
+      "bytes": 1721075,
+      "sha256": "d63b809f381622925f852f6d1b0f712428cbe75837298073ad0424069d60870d",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/coffee_table_round_01_nor_gl_2k.jpg",
+      "bytes": 1177563,
+      "sha256": "b8e4f0780ee2008e33a3049656fcf3168d1036ad8d5cf368e925374123a5c553",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 29461,
+      "sha256": "97b42a55d313e1dd70d48cc2981b559ef0d493b7e8e83077ad375d47484128b2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18810,
+      "sha256": "a457a7c9d9d677f3d8c54103580125a86943df7fc8208703497973797145e89d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 185442,
+      "sha256": "7e6d3b8d0269f003ea5c6f48323bdcb997f426c3f3c73ab0ea4b18444a996946",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1283,
+      "sha256": "64164f1fd9977ba973ea6a45321d65def18c69c2ec397ec55d00040f8dcc9ce7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 21062,
+      "sha256": "aad700e99bfc1f1e7d99a75559a601cd70292ee2794b0f1d1a948dcf1d2df578",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 24904,
+      "sha256": "593a7b37891ebe4ad125a7fd7b303f7f5e565817741491a9ccdcb045d97042c4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 19234,
+      "sha256": "1ff069a4d07eef25c81bf2e7e0dcf1b55d65a6d56eb3e29d9fb1e80060452ebd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 24789,
+      "sha256": "1520df951dd5464dd714dc64bf95767e2922b9ad41e5ebd602f2391b7b3a633a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 19605,
+      "sha256": "cdefe06befa03b6f8d8adf5a0fee64ae228b4fdfe3a7c48421c4b7913fe1bbfd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 24845,
+      "sha256": "15dc743cba54a635ee6c591cb34f6dbcae4cee4b03d0d60f5e6e1c745dc9becb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 21629,
+      "sha256": "2db72f98bff12f463f88763aeda0763c7b9a0619d7f20f453c5d12c42d168784",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 25353,
+      "sha256": "ef37235a7701c297495e0ef5864c14d1ff1b17ca85485ed75a0e8aec6c133ba1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 22253,
+      "sha256": "2fcdd20bb578a4091d1b97dd47b2046273c481c6de6bd03c3952e9ec07732cd2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 33870,
+      "sha256": "3fbf5514c29381b6bb42cc0d9d539181f30fb72aac206cbbac84f2b2b0651587",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 171,
+      "sha256": "f560de620984952851d4f8d7353b008c4f10bfe6388bcefb9b7e073e96da9a6c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1200,
+      "sha256": "d901bff5364a204008944b3111638bc1c55cc142bd02ffb7b702dde06ca95e3f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3075,
+      "sha256": "496c851dd1eceae1574650f632104e8c24c86dee0922f17850640c72bfa48b3f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1203,
+      "sha256": "2a8eec391b661b7cb6bb5657c2eed41a42d8bbc37e0d6b55c03516b71b995864",
+      "role": "provenance"
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "id": "ph-pliers",
+  "title": "Pliers",
+  "category": "tools/hand-tools",
+  "style": "realistic",
+  "tags": [
+    "rusted",
+    "plastic",
+    "metal",
+    "combination pliers",
+    "wire cutters",
+    "hand tool",
+    "polyhaven"
+  ],
+  "batch": "realistic-textures-01",
+  "acquired_at": "2026-11-06T10:16:36.752633+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/pliers_2k.gltf",
+    "creator": "PierreB3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/pliers",
+    "source_id": "pliers",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/pliers/pliers_2k.gltf",
+        "bytes": 5560,
+        "sha256": "d8ea0149e9d1ec041537c28d756bee248c7fe7f7b36dbb8b837b134120dc2608"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pliers/pliers_nor_gl_2k.jpg",
+        "bytes": 1381222,
+        "sha256": "fbbbcc5e6076a29e50b9e4fce47564a7043fd822b147c4115cde348246d60b75"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pliers/pliers_diff_2k.jpg",
+        "bytes": 2390337,
+        "sha256": "aca520d7bbd84795ccfe99894e68699998f64258e539690e0a8a7f39da35d266"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pliers/pliers_arm_2k.jpg",
+        "bytes": 2821719,
+        "sha256": "b155de937c5c31831d1bc60c408f215530401cb264e49bd077c9ea27044668ce"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/pliers/pliers.bin",
+        "bytes": 146348,
+        "sha256": "df719ce479fb60a35d2424ef678b2c3a47f15d7c5968928da737614df7395ce8"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/pliers_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 3,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/pliers_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "pliers_nor_gl"
+    },
+    {
+      "path": "model/textures/pliers_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "pliers_diff"
+    },
+    {
+      "path": "model/textures/pliers_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "pliers_metal-pliers_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 3,
+    "hidden_mesh_objects": 0,
+    "vertices": 3722,
+    "triangles": 4540,
+    "material_slots": 3,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "pliers_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-pliers/model/textures/pliers_diff_2k.jpg"
+      },
+      {
+        "name": "pliers_metal-pliers_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-pliers/model/textures/pliers_arm_2k.jpg"
+      },
+      {
+        "name": "pliers_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-pliers/model/textures/pliers_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 3,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 409,
+      "sha256": "bc9e80c0f119570d70dcedf63c508d3ffc015a3c798571d2989c2fe579567df2",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 69179,
+      "sha256": "93077455ffbec62058270acfba152e773b1348974bbc94cd685e9e9a56aaa26b",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "13a8b99793ba089c84f4df144fa4bf72282f0ff6e6d5c1cb98630ea56b0eec8e",
+      "role": "logs"
+    },
+    {
+      "path": "model/pliers.bin",
+      "bytes": 146348,
+      "sha256": "df719ce479fb60a35d2424ef678b2c3a47f15d7c5968928da737614df7395ce8",
+      "role": "model"
+    },
+    {
+      "path": "model/pliers_2k.gltf",
+      "bytes": 5560,
+      "sha256": "d8ea0149e9d1ec041537c28d756bee248c7fe7f7b36dbb8b837b134120dc2608",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/pliers_arm_2k.jpg",
+      "bytes": 2821719,
+      "sha256": "b155de937c5c31831d1bc60c408f215530401cb264e49bd077c9ea27044668ce",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/pliers_diff_2k.jpg",
+      "bytes": 2390337,
+      "sha256": "aca520d7bbd84795ccfe99894e68699998f64258e539690e0a8a7f39da35d266",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/pliers_nor_gl_2k.jpg",
+      "bytes": 1381222,
+      "sha256": "fbbbcc5e6076a29e50b9e4fce47564a7043fd822b147c4115cde348246d60b75",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 23220,
+      "sha256": "e0ef6a4d24dd769caed69675a8f6983b8d9327af6424a537145ad66a75bdd757",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 13780,
+      "sha256": "f7ffbcb5facbc7f5b1c1b841090dbffe08f7a014fd9d41ebd8f363331f78cd76",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 148713,
+      "sha256": "4fdc19575631dfe7c668d86c8e9378ac08eb6e1a25db534a210280d45a2a977b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1117,
+      "sha256": "2fcda229ec8f7abe66a0a00ac717905b7a3abd3ba0203f6949cc6ed76f1534a9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 20215,
+      "sha256": "34ceb3354deda7bc7de599ad068d936dfa782a6d158a0fdbb4e8c38fca5b5c93",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 20191,
+      "sha256": "5a4c121f37971afa72aa4c5f895d5588f37e304189f64b69a4a1bc22e7efc939",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 14415,
+      "sha256": "b393aad915f45aeeaea47e5b7aae15403c871a543e7ba1a55e314b834d209f18",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 20459,
+      "sha256": "39a02cc97cf807bbe9bf25ea3500ba43a8b51880090f485091b36b386058f1bd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 20500,
+      "sha256": "c1d742e24b4b0be34a5185bc8d31e61787dfb8787c33e58a54af236d3c3b8035",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 20724,
+      "sha256": "aabf21cba53701b4fd0baf4ae97ec5ecf84ca84f3d39dcfc15f53512e57c44e5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 14988,
+      "sha256": "961021635bf45b6197c5b9d574491fa4c956cec0eae1dbc91c80ac783a7cb6ad",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 20537,
+      "sha256": "ef1ab6aacd96e2dc92caf04faa4208824755a38e2b2c6040977c06b4c519bdf7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 23504,
+      "sha256": "76975cf376bf05431ac0da8577681f8398e136d5d50806a25d02b66c07bcc0a0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 27644,
+      "sha256": "0ed729156eb7d0b71d2887e920a3a75585e031c7c6c76310b1e30566edb2d81c",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 156,
+      "sha256": "e045dd0ab485aef34e2a978163e4c00bdf4c606b16af87f7f17ed739710c73c8",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1261,
+      "sha256": "d1252640dbca69dd543ea6d9c262eada345acb7c036be8ca89c22e268e98e8b9",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2746,
+      "sha256": "0f61e0ae0cdf9f26df7f0040dfa3c6e67b3bbb8d71f45a94ae926bbff53033cd",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 993,
+      "sha256": "7180ac017d330411e2a0fb0b3e913032c21152a2cf1ad901da066f1fe7ff3535",
+      "role": "provenance"
+    }
+  ]
+}
