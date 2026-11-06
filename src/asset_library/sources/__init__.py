@@ -5,6 +5,7 @@ from .github_release import fetch_github_release
 from .grab3d import fetch_grab3d
 from .innerscene import fetch_innerscene
 from .makehuman import fetch_makehuman
+from .oga_locomotive import fetch_oga_locomotive
 from .polyhaven import fetch_polyhaven
 from .three_d_assets import fetch_three_d_assets
 
@@ -17,6 +18,7 @@ def fetch(source: dict, candidate: dict, directory) -> dict:
         "makehuman": fetch_makehuman,
         "grab3d": fetch_grab3d,
         "innerscene": fetch_innerscene,
+        "oga-locomotive": fetch_oga_locomotive,
         "three-d-assets": fetch_three_d_assets,
     }
     try:

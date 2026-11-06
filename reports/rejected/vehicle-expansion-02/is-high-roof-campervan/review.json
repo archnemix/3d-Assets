@@ -1,0 +1,24 @@
+{
+  "id": "is-high-roof-campervan",
+  "decision": "rejected",
+  "scores": {
+    "silhouette": 4,
+    "materials": 3,
+    "topology": 4,
+    "completeness": 4,
+    "style_fit": 3
+  },
+  "notes": "Individually inspected the twelve-view contact sheet. Recognizable campervan with some visible interior shapes, but smooth simplified body, windows and fixtures do not meet the requested detailed realism.",
+  "limitations": [
+    "Source provides embedded images but this does not itself establish detailed realism.",
+    "Interior access and functionality were not verified; no animation clips or armatures were found in the shipped glTF.",
+    "Recorded CC0 evidence does not independently guarantee ownership or third-party rights clearance."
+  ],
+  "contact_sheet_sha256": "fae1e99d9cb3c7f8e9cca540989f0b494829404abfff54764c8b3e9fa1328835",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports",
+  "status": "rejected",
+  "approved": false
+}
