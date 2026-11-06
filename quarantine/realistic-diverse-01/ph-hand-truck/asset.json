@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "id": "ph-hand-truck",
+  "title": "Hand Truck",
+  "category": "furniture/carts",
+  "style": "realistic",
+  "tags": [
+    "dolly",
+    "sack truck",
+    "warehouse equipment",
+    "load carrier",
+    "portable trolley",
+    "cart",
+    "polyhaven"
+  ],
+  "batch": "realistic-diverse-01",
+  "acquired_at": "2026-11-06T09:47:38.985191+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/hand_truck_1k.gltf",
+    "creator": "Mutanzom3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/hand_truck",
+    "source_id": "hand_truck",
+    "resolution": "1k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/hand_truck/hand_truck_1k.gltf",
+        "bytes": 2754,
+        "sha256": "303029ba829f2975ebed80f6f36e38d57cec87379e7214fcfb7d8e6e921c8e58"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/hand_truck/hand_truck_nor_gl_1k.jpg",
+        "bytes": 944148,
+        "sha256": "8674bbaa5562c24efceef0ab77f374ffe32fa583ef5dc2a44846305aa0fd8f79"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/hand_truck/hand_truck_diff_1k.jpg",
+        "bytes": 802329,
+        "sha256": "a1c528e0c88a03a96b89215eab228083f9dd66a502174936bccc0fe427ce345a"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/hand_truck/hand_truck_arm_1k.jpg",
+        "bytes": 894412,
+        "sha256": "30ceadb1fa303f36dc0372a5681203e69715546219838e1bc0634c274407204c"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/hand_truck/hand_truck.bin",
+        "bytes": 535704,
+        "sha256": "2a7ca50cdfac207defa68f71600f37e7cdd05d35bc94139df5269ea7d8b7a214"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/hand_truck_1k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/hand_truck_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "hand_truck_nor_gl"
+    },
+    {
+      "path": "model/textures/hand_truck_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "hand_truck_diff"
+    },
+    {
+      "path": "model/textures/hand_truck_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "hand_truck_metal-hand_truck_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 14262,
+    "triangles": 13220,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "hand_truck_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-hand-truck/model/textures/hand_truck_diff_1k.jpg"
+      },
+      {
+        "name": "hand_truck_metal-hand_truck_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-hand-truck/model/textures/hand_truck_arm_1k.jpg"
+      },
+      {
+        "name": "hand_truck_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-hand-truck/model/textures/hand_truck_nor_gl_1k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 285,
+      "sha256": "f9a5afcf5db19c99006da91be317cbac7735fbe90c6be54abdc90622494b2464",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 66877,
+      "sha256": "55dc4a335ac75c6b90c981d5a4b8f2b31d0a37d3d42faf628baeab81f7d22952",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/hand_truck.bin",
+      "bytes": 535704,
+      "sha256": "2a7ca50cdfac207defa68f71600f37e7cdd05d35bc94139df5269ea7d8b7a214",
+      "role": "model"
+    },
+    {
+      "path": "model/hand_truck_1k.gltf",
+      "bytes": 2754,
+      "sha256": "303029ba829f2975ebed80f6f36e38d57cec87379e7214fcfb7d8e6e921c8e58",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/hand_truck_arm_1k.jpg",
+      "bytes": 894412,
+      "sha256": "30ceadb1fa303f36dc0372a5681203e69715546219838e1bc0634c274407204c",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/hand_truck_diff_1k.jpg",
+      "bytes": 802329,
+      "sha256": "a1c528e0c88a03a96b89215eab228083f9dd66a502174936bccc0fe427ce345a",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/hand_truck_nor_gl_1k.jpg",
+      "bytes": 944148,
+      "sha256": "8674bbaa5562c24efceef0ab77f374ffe32fa583ef5dc2a44846305aa0fd8f79",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 38474,
+      "sha256": "1d31dc6b0a399f73586ef589d02e685c91f7a4df6a567adfe8881ab80aaca0e3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 19096,
+      "sha256": "c7cb8715c26860d146ea9d2351a851886b7b965d0f33688ff04afeb03e248d74",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 185323,
+      "sha256": "dd703bfbdf534b7e809c44be3c44ef6aa7f47ca70b4289b0d1e43f34cd191798",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1156,
+      "sha256": "6f306b17b8ae333e8e0460a110d194ac884d9832a5cceead350976594a6bd123",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 23407,
+      "sha256": "b2f3028888c690a05f8a3dce1b9a29455052a77b2176336621154f091efc9a3a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 24598,
+      "sha256": "a8b856025eab89b751117c9767bdae97c9b3bc3a724e9d10121eff56129517bb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 17847,
+      "sha256": "223a2de50cfce09a11ccaa8ee68b6d192523171c702f2203bfe3b762117e382e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 23964,
+      "sha256": "ed4caf1a6e92e5e235fc3002544f55bd5a1f4aa5b6639d1bda5cba55e479d6c6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 23976,
+      "sha256": "3cd65d6fb8dc1f3169b834a4780e63da486abdcb258e3c6a98d2d7aa298c979f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 23916,
+      "sha256": "719127252a4dec8428b03fd686a4e15742699ca3edd63766528efb7d67276f97",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 18699,
+      "sha256": "a381e463316a5d0460313ef312dbf2b40e6338b2a3b4013e7b2c6b6e78723319",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 24029,
+      "sha256": "8e608be7efa9073acf6503df079e9025ee5f6b5f384d9895a7f1422e914ebd6c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 41076,
+      "sha256": "dc2f40483d365d92a55aca3cef4df2580e54a110ea6681d6f8d3aa978e482b2c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 24754,
+      "sha256": "fd0e7bcd5b2a69d7dc7fdeeb609de8017040ef22bfdcba63bbfa5aaeeb07ad5e",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 160,
+      "sha256": "399b2ff2f446d9ec0125bac08a26c6f623d6f80ebe257b454fe282c488788eb9",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1412,
+      "sha256": "66b6811785b63791f9b4b0f8d58ee6e896815268ea2796d4af62191427c5ef8a",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2114,
+      "sha256": "43359df80e6032c7803dcbf4845f7f6fe03debbc899b0bc3367c02be66a73efd",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1046,
+      "sha256": "1e102adfb0ed3655290495064b9506b7a3e6fb5134883b5b7345c6e34fa36cda",
+      "role": "provenance"
+    }
+  ]
+}

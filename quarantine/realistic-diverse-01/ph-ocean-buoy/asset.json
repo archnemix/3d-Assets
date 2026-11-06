@@ -1,0 +1,362 @@
+{
+  "schema_version": 1,
+  "id": "ph-ocean-buoy",
+  "title": "Ocean Buoy",
+  "category": "vehicles/watercraft",
+  "style": "realistic",
+  "tags": [
+    "marine buoy",
+    "light beacon",
+    "maritime",
+    "ship",
+    "dock",
+    "jetty",
+    "polyhaven"
+  ],
+  "batch": "realistic-diverse-01",
+  "acquired_at": "2026-11-06T09:53:07.801885+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/ocean_buoy_2k.gltf",
+    "creator": "Mateusz Sadek",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/ocean_buoy",
+    "source_id": "ocean_buoy",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/ocean_buoy/ocean_buoy_2k.gltf",
+        "bytes": 3228,
+        "sha256": "746e4213c2f86cc8eec4cb3909d8c0cca9062ee0e27c342ab9021c76ae638e98"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/ocean_buoy/ocean_buoy_emission_2k.jpg",
+        "bytes": 106319,
+        "sha256": "9f1ae302f83eaa12f183f10b6883ab83c331fd55133d06dcef246573a645ceee"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/ocean_buoy/ocean_buoy_nor_gl_2k.jpg",
+        "bytes": 3100837,
+        "sha256": "bb302687cb174769a5c995842340cbd9569953b2d5afb643f94361ffd1d558f0"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/ocean_buoy/ocean_buoy_diff_2k.jpg",
+        "bytes": 3220162,
+        "sha256": "bcbf400042943b38527d327adab17502fb5e672b5c86e684382193ee1daf730d"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/ocean_buoy/ocean_buoy_arm_2k.jpg",
+        "bytes": 3633729,
+        "sha256": "1d3a7da4792384cfaa84430b5f26b1902a34d87803f01c5e852c613c5b1f93c8"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/ocean_buoy/ocean_buoy.bin",
+        "bytes": 426240,
+        "sha256": "b3c1f9c8170b9c538f8540f324e4b3707b842d37705dda2dfc95d0548b521e80"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/ocean_buoy_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 4,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_materials_emissive_strength"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/ocean_buoy_emission_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "ocean_buoy_emission"
+    },
+    {
+      "path": "model/textures/ocean_buoy_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "ocean_buoy_nor_gl"
+    },
+    {
+      "path": "model/textures/ocean_buoy_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "ocean_buoy_diff"
+    },
+    {
+      "path": "model/textures/ocean_buoy_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "ocean_buoy_metal-ocean_buoy_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 11025,
+    "triangles": 12240,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "ocean_buoy_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-ocean-buoy/model/textures/ocean_buoy_diff_2k.jpg"
+      },
+      {
+        "name": "ocean_buoy_emission",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-ocean-buoy/model/textures/ocean_buoy_emission_2k.jpg"
+      },
+      {
+        "name": "ocean_buoy_metal-ocean_buoy_rough",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-ocean-buoy/model/textures/ocean_buoy_arm_2k.jpg"
+      },
+      {
+        "name": "ocean_buoy_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-ocean-buoy/model/textures/ocean_buoy_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 284,
+      "sha256": "01c38a89ef150979cc64a22d4e716c4ac31b9e993e71bdeaa8d44471cbdc56fc",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68232,
+      "sha256": "0fdd0d10fdc3c5b9c56359fe1624d54114d665777a6913faede054e519ef074d",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/ocean_buoy.bin",
+      "bytes": 426240,
+      "sha256": "b3c1f9c8170b9c538f8540f324e4b3707b842d37705dda2dfc95d0548b521e80",
+      "role": "model"
+    },
+    {
+      "path": "model/ocean_buoy_2k.gltf",
+      "bytes": 3228,
+      "sha256": "746e4213c2f86cc8eec4cb3909d8c0cca9062ee0e27c342ab9021c76ae638e98",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/ocean_buoy_arm_2k.jpg",
+      "bytes": 3633729,
+      "sha256": "1d3a7da4792384cfaa84430b5f26b1902a34d87803f01c5e852c613c5b1f93c8",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/ocean_buoy_diff_2k.jpg",
+      "bytes": 3220162,
+      "sha256": "bcbf400042943b38527d327adab17502fb5e672b5c86e684382193ee1daf730d",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/ocean_buoy_emission_2k.jpg",
+      "bytes": 106319,
+      "sha256": "9f1ae302f83eaa12f183f10b6883ab83c331fd55133d06dcef246573a645ceee",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/ocean_buoy_nor_gl_2k.jpg",
+      "bytes": 3100837,
+      "sha256": "bb302687cb174769a5c995842340cbd9569953b2d5afb643f94361ffd1d558f0",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 55920,
+      "sha256": "ea9ce82828ed19f8076961c0e7227a36cd7e89d5a440f0937396016af92cd40b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 17829,
+      "sha256": "6dc31c9ecd86f7a460cb7dc523f28a5b5fb07874d1ca138837146eee9428da81",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 218279,
+      "sha256": "40d090f6f45aeaf11dcce2661b23c746b79189b43b6a9df4fba917682b670288",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1432,
+      "sha256": "986244be9a7ffc0a68a27ff48ecdad915be8618bc6faddb9ca15eb38cf4763f5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 26711,
+      "sha256": "6ee74bce46f0c0876df0b78436678d77d00d27aa5ee46f26069472b09433ab16",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 27911,
+      "sha256": "ec33bad65f44abdd159ece9ae3c271dfdec089075ef8794fb9afe2c8055c9770",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 26476,
+      "sha256": "d1c377e859243205635816892017dd259b315c9e371ce019c3f850147b66bec8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 27538,
+      "sha256": "f18d07e2deeec00a026749fd47c083eba6391385e193ce1091e277ac661d51f3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 26272,
+      "sha256": "076a590f3da5adb0badbd8ad2ae2435ce7fd87591558b92b376ff1c436b1c4df",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 27638,
+      "sha256": "d47b9dd27a99f064045525ebd7128036420f38e367081ed63cb5b4f5e39076d5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 26723,
+      "sha256": "41026ef09c01e6460aabb6ffa32e89bb7ea496069260d26f98a360d8cb8781d4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 26942,
+      "sha256": "fb352c32f59fb0226aee7196f51b5690c6c10d25254883b8e25864be46bdcbc1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 45759,
+      "sha256": "080ab20ae6b10dd78530acedb30805e5e3e5ec2a62a1835142148a1583a8b0c1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 28181,
+      "sha256": "10388051d8e8ed04ba9930901b94afe09c40604dd1980685b07523df09a0fb04",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 160,
+      "sha256": "ace8a9911907c7f8b66895ca13aa0e653741f0ca3bfd142e631ef37590063f4a",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1395,
+      "sha256": "752a626ab3ba0c6261bc195d786049becf802d07d4cd6721e3a34385c18e252a",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2480,
+      "sha256": "f9a46dee38a957829e759941e56088698fc7011cc1715cf768662c79f749a462",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1279,
+      "sha256": "2e1ecea8888951d418bdf1f5a93dc4f9f9d1081e9718190cd815e326db688829",
+      "role": "provenance"
+    }
+  ]
+}

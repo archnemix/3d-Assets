@@ -1,0 +1,340 @@
+{
+  "schema_version": 1,
+  "id": "ph-vintage-microwave",
+  "title": "Vintage Microwave",
+  "category": "electronics/appliances",
+  "style": "realistic",
+  "tags": [
+    "vintage",
+    "retro",
+    "wooden",
+    "70s",
+    "oven",
+    "analog",
+    "polyhaven"
+  ],
+  "batch": "realistic-diverse-01",
+  "acquired_at": "2026-11-06T09:43:51.648082+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/vintage_microwave_1k.gltf",
+    "creator": "Adam Nekola",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/vintage_microwave",
+    "source_id": "vintage_microwave",
+    "resolution": "1k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/vintage_microwave/vintage_microwave_1k.gltf",
+        "bytes": 4727,
+        "sha256": "d44f101ca3826e4ae4976bc4de96f31f15ea00f95775e41dc1eaf54aa598c8e0"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_microwave/vintage_microwave_nor_gl_1k.jpg",
+        "bytes": 312615,
+        "sha256": "9fd35346f2a6afa85d07c0904a3a8337dababb7347ee3c207e9243303e437b8c"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_microwave/vintage_microwave_diff_1k.jpg",
+        "bytes": 489267,
+        "sha256": "09a23468f70a41b16a3ae97b53940ff4178f5466a6e3a4ad4dfea416ed6691de"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_microwave/vintage_microwave_arm_1k.jpg",
+        "bytes": 589054,
+        "sha256": "740abbcdda87c94e5bc2f40e3c9e8f7798e4ca6ca44ecd70f20c2c5b503f1ee0"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/vintage_microwave/vintage_microwave.bin",
+        "bytes": 237296,
+        "sha256": "f09ab1eb99ca23e7a3496ead7372de9281018c11ae5b2e9eb50f1d06f2bfe4a3"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/vintage_microwave_1k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 2,
+    "images": 4,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/vintage_microwave_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "vintage_microwave_nor_gl"
+    },
+    {
+      "path": "model/textures/vintage_microwave_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "vintage_microwave_diff"
+    },
+    {
+      "path": "model/textures/vintage_microwave_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "vintage_microwave_metal-vintage_microwave_rough"
+    },
+    {
+      "path": "model/textures/vintage_microwave_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "vintage_microwave_diff-vintage_microwave_alpha"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 5893,
+    "triangles": 8120,
+    "material_slots": 2,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "vintage_microwave_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-vintage-microwave/model/textures/vintage_microwave_diff_1k.jpg"
+      },
+      {
+        "name": "vintage_microwave_metal-vintage_microwave_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-vintage-microwave/model/textures/vintage_microwave_arm_1k.jpg"
+      },
+      {
+        "name": "vintage_microwave_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-vintage-microwave/model/textures/vintage_microwave_nor_gl_1k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 296,
+      "sha256": "6f9e4038f11891fa32f59b586441a283a730d01d9a17a15e29cb89e431340a9c",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67639,
+      "sha256": "abc4a2d60d44d87982fc69d76c89b246d0d11c22dc8022f7e3ea7e48f6fdd21a",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "2a9a229f8bb2ed821581e94782406b1f4a42c4f9a9e024e1cc719a6265cfa1b4",
+      "role": "logs"
+    },
+    {
+      "path": "model/textures/vintage_microwave_arm_1k.jpg",
+      "bytes": 589054,
+      "sha256": "740abbcdda87c94e5bc2f40e3c9e8f7798e4ca6ca44ecd70f20c2c5b503f1ee0",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/vintage_microwave_diff_1k.jpg",
+      "bytes": 489267,
+      "sha256": "09a23468f70a41b16a3ae97b53940ff4178f5466a6e3a4ad4dfea416ed6691de",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/vintage_microwave_nor_gl_1k.jpg",
+      "bytes": 312615,
+      "sha256": "9fd35346f2a6afa85d07c0904a3a8337dababb7347ee3c207e9243303e437b8c",
+      "role": "model"
+    },
+    {
+      "path": "model/vintage_microwave.bin",
+      "bytes": 237296,
+      "sha256": "f09ab1eb99ca23e7a3496ead7372de9281018c11ae5b2e9eb50f1d06f2bfe4a3",
+      "role": "model"
+    },
+    {
+      "path": "model/vintage_microwave_1k.gltf",
+      "bytes": 4727,
+      "sha256": "d44f101ca3826e4ae4976bc4de96f31f15ea00f95775e41dc1eaf54aa598c8e0",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 27886,
+      "sha256": "dc16c025cfb6008b4ac7d6c425f3ab5a4a9de4ee52a2fec50467aa5a7a19e6ae",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 19091,
+      "sha256": "9c3350c2b8ed6f761bc498292afba636fc762517f9dd5c8d396d9262234898b1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 260378,
+      "sha256": "2f54b6b300a304b57a0c01863d490214c1eb73614bafadeefbc12dad6a705c4a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1224,
+      "sha256": "79afc0de91cb2051e9999d11f6ab7f53c7b65b497794c9ec93db6b68ad98514c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 29578,
+      "sha256": "94d1df3aed06b43e7d02624623696c2944ff869b78e2badf8270327318de47f3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 37248,
+      "sha256": "b02e58f68ed3c7754f9e3b446e59a0fcb80944fde0adeaef22f3c09fd22e0d5e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 52681,
+      "sha256": "664e935f728710b30bbcdd333f3d3d7415bceca4609e9e6de55d1a7cb5b78bba",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 34581,
+      "sha256": "5ede48f594c6953fc141bdcaa7f645ef06e558d9a5d7de7714761db8164bb6b5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 33328,
+      "sha256": "190a2380c99eeba537117ee47f1071a73cc1c6345ef9b59054439aa4af373584",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 32300,
+      "sha256": "08967bae712c43bb6feceef690f49af1c3547090cc42b2539d12ef4d7a67fb67",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 41573,
+      "sha256": "30f60d0ea48c47834df93a1756fa7cc029ddab41c5177bef24215572da44ad28",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 34114,
+      "sha256": "684ab95c3b88eea117c32cfc5d30201519c45a3d94c6870261bcdfb1ef7a6b53",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 41930,
+      "sha256": "fd187bc6aea011586a279ce3928f2181cc0136da43ead7186463cc7cdb954202",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 35699,
+      "sha256": "aca6aa867ad31e42d035933e43cd2bd294903bf249cf4e360431d519c12f4c0b",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 167,
+      "sha256": "47a02a711ac55877a6046601aec6ebe69132952f4d2e42729706bcf491b179f5",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1270,
+      "sha256": "cb51bcca5da2ef46de4d46d063b090ed928c443be1532bff504b4307d61ff96d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2772,
+      "sha256": "cf879f4a7a878ae66d77095dafad979f164460a037909c03ed7701f0f9b8b466",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1144,
+      "sha256": "3a17b1276142d287b79690b91fe82135001f4b77cc84ee0e27e97a056ab9ad5c",
+      "role": "provenance"
+    }
+  ]
+}

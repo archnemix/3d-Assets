@@ -1,0 +1,420 @@
+{
+  "schema_version": 1,
+  "id": "ph-modular-fire-escape",
+  "title": "Modular Fire Escape",
+  "category": "architecture/outdoor/fire-escapes",
+  "style": "realistic",
+  "tags": [
+    "modular",
+    "pieces",
+    "emergency",
+    "building",
+    "urban",
+    "evacuation",
+    "polyhaven"
+  ],
+  "batch": "realistic-diverse-01",
+  "acquired_at": "2026-11-06T09:50:20.245354+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/modular_fire_escape_1k.gltf",
+    "creator": "Juniix",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/modular_fire_escape",
+    "source_id": "modular_fire_escape",
+    "resolution": "1k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_fire_escape/modular_fire_escape_1k.gltf",
+        "bytes": 13672,
+        "sha256": "3a28e24cf2b6fc32c86f4fd378a372f9c3babfb9c2206036c6276d5bb47df2fd"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_fire_escape/modular_fire_escape_01_arm_1k.jpg",
+        "bytes": 711858,
+        "sha256": "ca4ada942209b9b880b180f0646e1bf7c86f46b7599b12ff56b4ef6ad533c44d"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_fire_escape/modular_fire_escape_02_nor_gl_1k.jpg",
+        "bytes": 939689,
+        "sha256": "d9024407844f8baf514d005354ea4a729aff3659753e36cbab92fb09d0df3565"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_fire_escape/modular_fire_escape_02_arm_1k.jpg",
+        "bytes": 732941,
+        "sha256": "b4b65ebcd05e6c4502240a46eebd6535e9f83c0c65e0baaebaf25dae207c7c95"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modular_fire_escape/modular_fire_escape.bin",
+        "bytes": 515356,
+        "sha256": "5173033f47b33cbfe47fb38fb18ad99e6d78070ab7e1faf6fcc5a002afe98728"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_fire_escape/modular_fire_escape_02_diff_1k.jpg",
+        "bytes": 615280,
+        "sha256": "9e969f5912b61aee6a6aa6dac3d98a4be3a4c92bf3b8f71e80fedc068493aa18"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_fire_escape/modular_fire_escape_01_diff_1k.jpg",
+        "bytes": 591379,
+        "sha256": "50b15363269bee95c4c4aeb54a4a4df31a3e52680877fe286259c92885c17b74"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_fire_escape/modular_fire_escape_01_nor_gl_1k.jpg",
+        "bytes": 685951,
+        "sha256": "2db2bfc1d9d487cec32f68a846883ded440a1d10a328d81d8dcc522be45e7734"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/modular_fire_escape_1k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 7,
+    "materials": 3,
+    "images": 6,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/modular_fire_escape_01_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "modular_fire_escape_01_nor_gl"
+    },
+    {
+      "path": "model/textures/modular_fire_escape_01_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "modular_fire_escape_01_diff"
+    },
+    {
+      "path": "model/textures/modular_fire_escape_01_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "modular_fire_escape_01_metal-modular_fire_escape_01_rough"
+    },
+    {
+      "path": "model/textures/modular_fire_escape_02_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "modular_fire_escape_02_nor_gl"
+    },
+    {
+      "path": "model/textures/modular_fire_escape_02_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "modular_fire_escape_02_diff"
+    },
+    {
+      "path": "model/textures/modular_fire_escape_02_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "modular_fire_escape_02_metal-modular_fire_escape_02_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 7,
+    "hidden_mesh_objects": 0,
+    "vertices": 13982,
+    "triangles": 11322,
+    "material_slots": 7,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "modular_fire_escape_01_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-modular-fire-escape/model/textures/modular_fire_escape_01_diff_1k.jpg"
+      },
+      {
+        "name": "modular_fire_escape_01_metal-modular_fire_escape_01_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-modular-fire-escape/model/textures/modular_fire_escape_01_arm_1k.jpg"
+      },
+      {
+        "name": "modular_fire_escape_01_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-modular-fire-escape/model/textures/modular_fire_escape_01_nor_gl_1k.jpg"
+      },
+      {
+        "name": "modular_fire_escape_02_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-modular-fire-escape/model/textures/modular_fire_escape_02_diff_1k.jpg"
+      },
+      {
+        "name": "modular_fire_escape_02_metal-modular_fire_escape_02_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-modular-fire-escape/model/textures/modular_fire_escape_02_arm_1k.jpg"
+      },
+      {
+        "name": "modular_fire_escape_02_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-modular-fire-escape/model/textures/modular_fire_escape_02_nor_gl_1k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 7,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 591,
+      "sha256": "7e4ba10c7c8cf8f8c8fa9c7868474debec79d2b9af590dac6cc44b4265cc664e",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 81767,
+      "sha256": "84bb08d04ae595657930d895803b23f5b0c502c8b7a9d74947799031b847ac9e",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "a7895248c078f69b9ec394c8c816e7a6d50cd4d472d5ef578ced0beb076b22e0",
+      "role": "logs"
+    },
+    {
+      "path": "model/modular_fire_escape.bin",
+      "bytes": 515356,
+      "sha256": "5173033f47b33cbfe47fb38fb18ad99e6d78070ab7e1faf6fcc5a002afe98728",
+      "role": "model"
+    },
+    {
+      "path": "model/modular_fire_escape_1k.gltf",
+      "bytes": 13672,
+      "sha256": "3a28e24cf2b6fc32c86f4fd378a372f9c3babfb9c2206036c6276d5bb47df2fd",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/modular_fire_escape_01_arm_1k.jpg",
+      "bytes": 711858,
+      "sha256": "ca4ada942209b9b880b180f0646e1bf7c86f46b7599b12ff56b4ef6ad533c44d",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/modular_fire_escape_01_diff_1k.jpg",
+      "bytes": 591379,
+      "sha256": "50b15363269bee95c4c4aeb54a4a4df31a3e52680877fe286259c92885c17b74",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/modular_fire_escape_01_nor_gl_1k.jpg",
+      "bytes": 685951,
+      "sha256": "2db2bfc1d9d487cec32f68a846883ded440a1d10a328d81d8dcc522be45e7734",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/modular_fire_escape_02_arm_1k.jpg",
+      "bytes": 732941,
+      "sha256": "b4b65ebcd05e6c4502240a46eebd6535e9f83c0c65e0baaebaf25dae207c7c95",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/modular_fire_escape_02_diff_1k.jpg",
+      "bytes": 615280,
+      "sha256": "9e969f5912b61aee6a6aa6dac3d98a4be3a4c92bf3b8f71e80fedc068493aa18",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/modular_fire_escape_02_nor_gl_1k.jpg",
+      "bytes": 939689,
+      "sha256": "d9024407844f8baf514d005354ea4a729aff3659753e36cbab92fb09d0df3565",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 21311,
+      "sha256": "41de1a89aa5c7b31562a1a476411791652f11b70c08dfe2730ed30c1529b8b49",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 28058,
+      "sha256": "7fc19711e6adc120ae5b8e7d15a849ca88898c2726adbaf1c9d25a8aae28be6d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 188611,
+      "sha256": "c69e38571822d8467f6379451b21ea9bc876207e1b0dd94a06074f45df7b527a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 2203,
+      "sha256": "3892191905e39cbdbc930e7ec6f9c9409910482b9832e88aafb91f93739913ef",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 32372,
+      "sha256": "c25a1c7cbda005b9aea55f8b99a7986bf038bf1917877ea9bdfd86faad579948",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 31774,
+      "sha256": "6e3416562a690365eb2a8da52526f7c22a0805f66249baddef287f2080ad2300",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 19147,
+      "sha256": "2457e7ef2588d51f095e633a23e059496103ea0889027189a995f8e644b9391b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 29849,
+      "sha256": "2c9b18b079dccbd30ea3068b9550092dbf15a919585d708f64924baf280cfe88",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 29174,
+      "sha256": "24a4d5c305b7abcaf371b21fac03bde9900510a6bd736389259d2312cd7edabd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 32154,
+      "sha256": "49f65e24f0f8789e3bff5d4eb2180932e000eb9003e84fe40de841a7e6322034",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 18401,
+      "sha256": "ec0a1f3a88662e8faff3f5ef3dcd3ea9fbcdf2d4a712116046cdfe51dca4bd85",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 32637,
+      "sha256": "d15dde4420c7687af9a18f2dd7f18a33efcb6311d9db635335240e8e3d2f284f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 22036,
+      "sha256": "45d54e10418c21a1cab8ed506a3ee40f5fdc1494f0d96ccc293109640e60b2e9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 31215,
+      "sha256": "46926e7d72b52b172c601c85bb2c4eec6050532c63fb7fb033710177cd20e269",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 169,
+      "sha256": "6264cce40ac54863cf00aafe5f7f9f6c5f29db9fe7d337b5ef832d0e49582c4d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1380,
+      "sha256": "d6ad769c82a0be15c6da5139bc9e63040965f6beaffffaa7eae3d738c2bb4432",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 5040,
+      "sha256": "582ef06e9dbaa77e7352f716226829eef1afc975540d8b8b8e40fa73ef5f23d6",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1958,
+      "sha256": "8eb6e11f22fc93d647cb4d51711d8284d8ae7804c4cc96c51c4e7813e586988f",
+      "role": "provenance"
+    }
+  ]
+}

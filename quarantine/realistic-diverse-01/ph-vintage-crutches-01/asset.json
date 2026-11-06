@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "id": "ph-vintage-crutches-01",
+  "title": "Vintage Crutches 01",
+  "category": "medical/mobility",
+  "style": "realistic",
+  "tags": [
+    "vintage",
+    "war",
+    "old",
+    "antique",
+    "wood",
+    "hospital",
+    "polyhaven"
+  ],
+  "batch": "realistic-diverse-01",
+  "acquired_at": "2026-11-06T09:42:35.887747+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/vintage_crutches_01_1k.gltf",
+    "creator": "James Ray Cock",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/vintage_crutches_01",
+    "source_id": "vintage_crutches_01",
+    "resolution": "1k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/vintage_crutches_01/vintage_crutches_01_1k.gltf",
+        "bytes": 4601,
+        "sha256": "1f63263b83d9984ba5f2bafd7792758c551a306a5c905fdf25d76ebc45431889"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_crutches_01/vintage_crutches_01_nor_gl_1k.jpg",
+        "bytes": 151576,
+        "sha256": "6944c1775255c840d361b630d88c6525a59a68742403bf1173ebeee7f26f7746"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/vintage_crutches_01/vintage_crutches_01.bin",
+        "bytes": 271320,
+        "sha256": "36b9bc2ff50d6a5e56927b49b5eee3c03a1e8ef7679476e772c79d747c2978ae"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_crutches_01/vintage_crutches_01_arm_1k.jpg",
+        "bytes": 190854,
+        "sha256": "fd4c7143a94690696814d948ff25b3242a3907874cf2a195d74414ee6e20308b"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_crutches_01/vintage_crutches_01_diff_1k.jpg",
+        "bytes": 171652,
+        "sha256": "1faf3f099e69b7ca1387462177c9c10df94fbea55491118de53f0be271db6fe3"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/vintage_crutches_01_1k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 2,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/vintage_crutches_01_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "vintage_crutches_01_nor_gl"
+    },
+    {
+      "path": "model/textures/vintage_crutches_01_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "vintage_crutches_01_diff"
+    },
+    {
+      "path": "model/textures/vintage_crutches_01_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "vintage_crutches_01_metallic-vintage_crutches_01_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 2,
+    "hidden_mesh_objects": 0,
+    "vertices": 6486,
+    "triangles": 10628,
+    "material_slots": 2,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "vintage_crutches_01_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-vintage-crutches-01/model/textures/vintage_crutches_01_diff_1k.jpg"
+      },
+      {
+        "name": "vintage_crutches_01_metallic-vintage_crutches_01_roughness",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-vintage-crutches-01/model/textures/vintage_crutches_01_arm_1k.jpg"
+      },
+      {
+        "name": "vintage_crutches_01_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-vintage-crutches-01/model/textures/vintage_crutches_01_nor_gl_1k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 378,
+      "sha256": "364c962e3ff8b957916e404cbc88356141c09eec508a829d54e86c60f96d26db",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 69663,
+      "sha256": "6f6e5270a3240fc1567da46f6c4a8e8a518dafed1d75e04a20eecb431a41e09e",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "2a9a229f8bb2ed821581e94782406b1f4a42c4f9a9e024e1cc719a6265cfa1b4",
+      "role": "logs"
+    },
+    {
+      "path": "model/textures/vintage_crutches_01_arm_1k.jpg",
+      "bytes": 190854,
+      "sha256": "fd4c7143a94690696814d948ff25b3242a3907874cf2a195d74414ee6e20308b",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/vintage_crutches_01_diff_1k.jpg",
+      "bytes": 171652,
+      "sha256": "1faf3f099e69b7ca1387462177c9c10df94fbea55491118de53f0be271db6fe3",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/vintage_crutches_01_nor_gl_1k.jpg",
+      "bytes": 151576,
+      "sha256": "6944c1775255c840d361b630d88c6525a59a68742403bf1173ebeee7f26f7746",
+      "role": "model"
+    },
+    {
+      "path": "model/vintage_crutches_01.bin",
+      "bytes": 271320,
+      "sha256": "36b9bc2ff50d6a5e56927b49b5eee3c03a1e8ef7679476e772c79d747c2978ae",
+      "role": "model"
+    },
+    {
+      "path": "model/vintage_crutches_01_1k.gltf",
+      "bytes": 4601,
+      "sha256": "1f63263b83d9984ba5f2bafd7792758c551a306a5c905fdf25d76ebc45431889",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 24049,
+      "sha256": "dec7ec17b480b84eafcd54ac4970cc3bde04ded247c0666bfeea4259d6cb2e56",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 14822,
+      "sha256": "5da4033e9f55d128b6c17001aa04cee25e617c2772f61dcdefd167eb3f395049",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 140751,
+      "sha256": "9971a0cb4591b2b2ac774b6e163045f1c7845ad4e399ff95c5b2cce7b0e0672a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1252,
+      "sha256": "fdd47d42c8f447777ad7de6b35fbf4e3c1e542453fa53409e440e81464bf2e7a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 19343,
+      "sha256": "34b9b02c35243c84525dfe3ab55dd3d90ffa2449750444686c2de50331e91d3f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 18945,
+      "sha256": "87f118ca8d8619df0bef7a961af53d2b99aa80680459927920a0d082fec8fb3d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 16201,
+      "sha256": "8ba07a894ddf43336b0019e63183650b8f2c5db865e31d01851640990189fc85",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 17873,
+      "sha256": "a86cadf8cb3bb08c16bee42de55964d97c99fa76d153efa4f19e148352d736e5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 18373,
+      "sha256": "ede38109cc3146cf4618f62822a576fd49056ad882000ad6db7e79d9ce3625dd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 19560,
+      "sha256": "5ae8fa1eca0838cad6229949da6424387ea4574a0fe4f9ed979362fbeb850992",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 16462,
+      "sha256": "eb50a14cee38aa583765415fb929bedf8d6441bc3c43b4cf314c9dd00f82c94b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 18185,
+      "sha256": "606608475923f18e2b44fdfe0323a110d11d39daf71819d790925ceed9ec915d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 22112,
+      "sha256": "2024aae75cac8f1cffd224009cc9dba1f088963d8cc7490d7fa74bef390399eb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 20914,
+      "sha256": "30200a45b9a21054d5a5690b93c309beda97edef55e5357ba0b402096784a617",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 169,
+      "sha256": "0fcc2fa8518356ce925faad83913a5bb82d78c045575aea2539710bd5dcb273a",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1223,
+      "sha256": "6c94a9755953e40731516b89599101780919fc4d7c65d0694833b46d1cde9afc",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 4301,
+      "sha256": "df16c49a3e75fccc9e3363c4020b6b7ff5fc05d3bf7d94751c9e1f1b778f0310",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1172,
+      "sha256": "bd82d854956095427a5481c5dc7f4725e093c2cd4038fd1087961bd67995fe1f",
+      "role": "provenance"
+    }
+  ]
+}

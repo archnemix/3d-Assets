@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "id": "ph-hand-plane-no4",
+  "title": "Hand Plane No4",
+  "category": "tools/hand-tools",
+  "style": "realistic",
+  "tags": [
+    "vintage",
+    "hand tool",
+    "carpentry",
+    "old",
+    "wood",
+    "worn",
+    "polyhaven"
+  ],
+  "batch": "realistic-diverse-01",
+  "acquired_at": "2026-11-06T09:51:28.597060+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/hand_plane_no4_1k.gltf",
+    "creator": "Satyaki Mandal",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/hand_plane_no4",
+    "source_id": "hand_plane_no4",
+    "resolution": "1k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/hand_plane_no4/hand_plane_no4_1k.gltf",
+        "bytes": 2917,
+        "sha256": "2c16b27d3ad132d46bee11fca83ceb63ec957fc042af4343fb4830fe3da7e22e"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/hand_plane_no4/hand_plane_no4_diff_1k.jpg",
+        "bytes": 733120,
+        "sha256": "b109c8f6df977c5a8d78588302c06d44adb2ba34009983f31b0d528550e11ba6"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/hand_plane_no4/hand_plane_no4_arm_1k.jpg",
+        "bytes": 711004,
+        "sha256": "e73a35d2ba880a63a4a7091a0b1ccf959425c6bfb5efb0e2c65b341c6baafd98"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/hand_plane_no4/hand_plane_no4_nor_gl_1k.jpg",
+        "bytes": 875917,
+        "sha256": "b06dea7a3499772eaa4d059a849ea0e5d448eeff583c00420e145302b6e186a1"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/hand_plane_no4/hand_plane_no4.bin",
+        "bytes": 229256,
+        "sha256": "5c4b28d2a931f0e66de91dd976c04f109419a8d0bda527096d2b4d4d0e00b9f7"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/hand_plane_no4_1k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/hand_plane_no4_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "hand_plane_no4_nor_gl"
+    },
+    {
+      "path": "model/textures/hand_plane_no4_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "hand_plane_no4_diff"
+    },
+    {
+      "path": "model/textures/hand_plane_no4_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "hand_plane_no4_metal-hand_plane_no4_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 5623,
+    "triangles": 8220,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "hand_plane_no4_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-hand-plane-no4/model/textures/hand_plane_no4_diff_1k.jpg"
+      },
+      {
+        "name": "hand_plane_no4_metal-hand_plane_no4_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-hand-plane-no4/model/textures/hand_plane_no4_arm_1k.jpg"
+      },
+      {
+        "name": "hand_plane_no4_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-hand-plane-no4/model/textures/hand_plane_no4_nor_gl_1k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 284,
+      "sha256": "240c8fb74c8305ec8a55a3df41d8d9719457ca9e45ea228e41323d15996fe610",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67442,
+      "sha256": "9f6bc7a8a26f2ebbde6bd79e98594e7d85105963f2ed6fba9b7de565e73e4401",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/hand_plane_no4.bin",
+      "bytes": 229256,
+      "sha256": "5c4b28d2a931f0e66de91dd976c04f109419a8d0bda527096d2b4d4d0e00b9f7",
+      "role": "model"
+    },
+    {
+      "path": "model/hand_plane_no4_1k.gltf",
+      "bytes": 2917,
+      "sha256": "2c16b27d3ad132d46bee11fca83ceb63ec957fc042af4343fb4830fe3da7e22e",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/hand_plane_no4_arm_1k.jpg",
+      "bytes": 711004,
+      "sha256": "e73a35d2ba880a63a4a7091a0b1ccf959425c6bfb5efb0e2c65b341c6baafd98",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/hand_plane_no4_diff_1k.jpg",
+      "bytes": 733120,
+      "sha256": "b109c8f6df977c5a8d78588302c06d44adb2ba34009983f31b0d528550e11ba6",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/hand_plane_no4_nor_gl_1k.jpg",
+      "bytes": 875917,
+      "sha256": "b06dea7a3499772eaa4d059a849ea0e5d448eeff583c00420e145302b6e186a1",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 18035,
+      "sha256": "99f759645e9bc29d9ae56c01f27fb46ee3cf29680d34726983aad6216c922255",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 20621,
+      "sha256": "be5f0ebcdda61a2d57efa8353a9386b6876e53bbd450d65559151e4510a2918b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 246844,
+      "sha256": "4b6921ab72154bafe1b0347ecea323fe822300f722b9cdd2ffcc7b16b67e16f8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1194,
+      "sha256": "079261a7cfb21ef0e83352698ba7d60ced4b9c3c3f98d0a529258f2db7e54fde",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 34333,
+      "sha256": "d3fa474e7490db3c72331d1c2aff732b18e3430f329d483faf81519338b8cd91",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 40200,
+      "sha256": "2d2ec6fb6d70af746d79928e1df2446bd251f8199c16d4a1e1c8ba5d39f752a6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 33405,
+      "sha256": "96bed2ec837ec4c396f56398339f1cffbe380141ebade00c9addb4d5925f09c0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 41355,
+      "sha256": "888572a3198cad670223c860074ff1638cf25a1bb7b1145918f144b09a38508a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 35132,
+      "sha256": "bbe0302c89a473637ab9dcc2c6cfc368c4ee726933099aa38a36f3b9879c11b2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 44006,
+      "sha256": "2abd358d2c059c1c23ea06d491a704178859c88b83f0fa85402f19a594bc2e12",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 27226,
+      "sha256": "990731f493b54f1fd2dc4df8be25c2d19260bdd8dedb9cf5de72ca6d7e05b8c8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 41684,
+      "sha256": "32613ef41aafc9bb796a5e2042e4f645db08e5dbe097de419e4164efecaab41a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 28352,
+      "sha256": "1b56725ed9cf082e36d99d182c59dd3b67a10bd7ebad7a676c667df4725ed024",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 44003,
+      "sha256": "38bdce4e0e191a092d5bd172c7a36b0f73b13c825a7c6f05591c3c68463775ab",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 164,
+      "sha256": "33a388c4cda77e9f373449d54e13ba34a6e76a9bed0e04fe1ae752eb19ba17c9",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1302,
+      "sha256": "4ec8de642da07e4fd3753c45d475798b626e3b908cbdda4161ebab102fdf4c6b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2132,
+      "sha256": "56efbbe5f75529c17a949062fa6f6d4beda592acc736a3a44e1a7523d6e173b4",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1102,
+      "sha256": "0c08c35108c750556a1d7444189bba8ff12e6ec2578e4764f8d2c616969c19fb",
+      "role": "provenance"
+    }
+  ]
+}

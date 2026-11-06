@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "id": "ph-modern-wooden-cabinet",
+  "title": "Modern Wooden Cabinet",
+  "category": "furniture/storage",
+  "style": "realistic",
+  "tags": [
+    "cabinet",
+    "wood",
+    "modern",
+    "minimalist",
+    "interrior",
+    "living room",
+    "polyhaven"
+  ],
+  "batch": "realistic-diverse-01",
+  "acquired_at": "2026-11-06T09:48:52.756503+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/modern_wooden_cabinet_1k.gltf",
+    "creator": "Patrik Pangerl",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/modern_wooden_cabinet",
+    "source_id": "modern_wooden_cabinet",
+    "resolution": "1k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modern_wooden_cabinet/modern_wooden_cabinet_1k.gltf",
+        "bytes": 10960,
+        "sha256": "9c0765063297018e854d11bc27da3cbab3c33904a3be2f5c15f46635df7e857f"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modern_wooden_cabinet/modern_wooden_cabinet.bin",
+        "bytes": 1170136,
+        "sha256": "04e664a95f52c48d0caa8c3148ab7e4ad4a0554b37a2a5c0e39dc6ed6c46cafe"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modern_wooden_cabinet/modern_wooden_cabinet_nor_gl_1k.jpg",
+        "bytes": 430053,
+        "sha256": "f08b3d0619a60e2eac19c9d9c0d7dc0e3eb75af2692d84b32ddfd12d857c15ab"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modern_wooden_cabinet/modern_wooden_cabinet_arm_1k.jpg",
+        "bytes": 574020,
+        "sha256": "fad6df227ec6d431387b10bd244a0d087e89e6dce0b1c732df5c87f0a1def3f5"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modern_wooden_cabinet/modern_wooden_cabinet_diff_1k.jpg",
+        "bytes": 670353,
+        "sha256": "e494b67439da73775413d6aaea369ae05a8ebd7705be8df08dbcd2ee4fd545e4"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/modern_wooden_cabinet_1k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 3,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [
+      "modern_wooden_cabinet_body",
+      "modern_wooden_cabinet_path_l",
+      "modern_wooden_cabinet_path_r"
+    ],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/modern_wooden_cabinet_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "modern_wooden_cabinet_nor_gl"
+    },
+    {
+      "path": "model/textures/modern_wooden_cabinet_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "modern_wooden_cabinet_diff"
+    },
+    {
+      "path": "model/textures/modern_wooden_cabinet_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "modern_wooden_cabinet_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 3,
+    "hidden_mesh_objects": 0,
+    "vertices": 31535,
+    "triangles": 24976,
+    "material_slots": 3,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [
+      "modern_wooden_cabinet_body_modern_wooden_cabinet_body",
+      "modern_wooden_cabinet_path_l_modern_wooden_cabinet_path_l",
+      "modern_wooden_cabinet_path_r_modern_wooden_cabinet_path_r"
+    ],
+    "images": [
+      {
+        "name": "modern_wooden_cabinet_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-modern-wooden-cabinet/model/textures/modern_wooden_cabinet_diff_1k.jpg"
+      },
+      {
+        "name": "modern_wooden_cabinet_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-modern-wooden-cabinet/model/textures/modern_wooden_cabinet_nor_gl_1k.jpg"
+      },
+      {
+        "name": "modern_wooden_cabinet_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-modern-wooden-cabinet/model/textures/modern_wooden_cabinet_arm_1k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 3,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 443,
+      "sha256": "fa2214e72e05a11970cc3f3ad331b6abd2934c33243db44ab0cd71d1bc441d26",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 69247,
+      "sha256": "5a7e65aa5392638c13dc18c019b7b5bc3f1b1acd0db478b8c58054ba93e301bc",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "14297110a61630b1a61342007da6bb064655af718ab3e4d641ced1695b89f7a6",
+      "role": "logs"
+    },
+    {
+      "path": "model/modern_wooden_cabinet.bin",
+      "bytes": 1170136,
+      "sha256": "04e664a95f52c48d0caa8c3148ab7e4ad4a0554b37a2a5c0e39dc6ed6c46cafe",
+      "role": "model"
+    },
+    {
+      "path": "model/modern_wooden_cabinet_1k.gltf",
+      "bytes": 10960,
+      "sha256": "9c0765063297018e854d11bc27da3cbab3c33904a3be2f5c15f46635df7e857f",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/modern_wooden_cabinet_arm_1k.jpg",
+      "bytes": 574020,
+      "sha256": "fad6df227ec6d431387b10bd244a0d087e89e6dce0b1c732df5c87f0a1def3f5",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/modern_wooden_cabinet_diff_1k.jpg",
+      "bytes": 670353,
+      "sha256": "e494b67439da73775413d6aaea369ae05a8ebd7705be8df08dbcd2ee4fd545e4",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/modern_wooden_cabinet_nor_gl_1k.jpg",
+      "bytes": 430053,
+      "sha256": "f08b3d0619a60e2eac19c9d9c0d7dc0e3eb75af2692d84b32ddfd12d857c15ab",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 15271,
+      "sha256": "08160a97a9078100c0d008194449887174e9ea38cd5a23a52c36c2dcdc189ed8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 20760,
+      "sha256": "779e20fd13695bbef551cc3dfc6d9a98e8cccd682684a0b4ca2cd4be4a3542be",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 183958,
+      "sha256": "26f71c31c25916fefefe32efdbe9c43efd7661b67ac0d55f5a1c07b58d0ca599",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1431,
+      "sha256": "59b6dbee7e1bb760bc34862bc53665b4160cd04be43f94284ed290854008794c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 29922,
+      "sha256": "2a00d739591c0bd6529e8773f72c116dd60118ea78a638d6bfecd36896d0021f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 35715,
+      "sha256": "6d2c0b528342a755aae695ec9e0588ad2a1fd366b7765994477a1d156687d8fa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 25247,
+      "sha256": "ab4d06eab9cb4e9b4748b3f3de85acd1a458c42fa17b5e34130d8675138aed67",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 27038,
+      "sha256": "003be3e55cddb3cc2dac3735f2e8db891044d2f9847da8d9d5239b874b7435ee",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 22649,
+      "sha256": "2c6c9228e6a51e0102a212ad87ebc508f3a8f23a8a4bb2a4613c70ca5a90f9ec",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 27086,
+      "sha256": "880912cdba870b128c2eec049622a78d16376b5f3888e94dc7fb420309b31a52",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 18618,
+      "sha256": "3250273815e599d60b5ae1da06f06437f03415c7ac0871fe76b252682d2ee316",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 34928,
+      "sha256": "48ac13ebe40184e0e9016bf6001ef655d1c3a9dd34b6094f881be937ed72b42c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 18268,
+      "sha256": "bd7553a1fa4f70d9b6534643f731be33d2c566ab6a6973532fa6d6ae1a1f6d5a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 33778,
+      "sha256": "e34fbfd10f42f95c035d39d71a5ff61508f1b5d3a79c9d838658496f2a1b64fc",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 171,
+      "sha256": "90b51b66cda8f4005e9642cef4362398e910826600f1f3d0c1635b79a77a83b6",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1241,
+      "sha256": "d545fe9dfeffdcc4f3d7eb8cbdb15460cc94d5e0323c516546aea004b64b9a06",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3116,
+      "sha256": "ae69cd4a35dbc4c5282491464c8aea11cfb36d7e3dd604b08c3201282aaafed7",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1202,
+      "sha256": "468f5f52574baf76317b5ef054c937b5d6492c9743343d0dec2d985407f2a5e7",
+      "role": "provenance"
+    }
+  ]
+}
