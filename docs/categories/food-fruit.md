@@ -2,7 +2,7 @@
 
 Whole fruit models
 
-Approved assets: **9**
+Approved assets: **10**
 
 ## Kenney stylized apple
 
@@ -27,6 +27,14 @@ Approved assets: **9**
 - Creator: Alexander Shulha; style: realistic; CC0-1.0
 - 46,868 triangles; 3 texture images
 - [Asset folder](../../assets/food/fruit/ph-bananas/) · [Metadata](../../assets/food/fruit/ph-bananas/asset.json) · [All inspection views](../../assets/food/fruit/ph-bananas/previews/contact-sheet.jpg)
+
+## Pears Asian 01
+
+![Pears Asian 01](../../assets/food/fruit/ph-food-pears-asian-01/previews/orbit-01.jpg)
+
+- Creator: Amal Kumar; style: realistic; CC0-1.0
+- 12,572 triangles; 3 texture images
+- [Asset folder](../../assets/food/fruit/ph-food-pears-asian-01/) · [Metadata](../../assets/food/fruit/ph-food-pears-asian-01/asset.json) · [All inspection views](../../assets/food/fruit/ph-food-pears-asian-01/previews/contact-sheet.jpg)
 
 ## Food Pomegranate 01
 

@@ -1,0 +1,22 @@
+{
+  "id": "ph-combination-wrench",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Metal combination wrench with open jaw and toothed ring end; inspected all twelve views and the diffuse texture.",
+  "limitations": [
+    "Static prop; metal reflections depend on scene lighting.",
+    "The shipped texture maps are 2K (2048 × 2048); higher-resolution upstream maps are not included.",
+    "glTF validator reports 1 warning(s); inspect the included validator report for renderer compatibility."
+  ],
+  "contact_sheet_sha256": "58bced2ca899ed140c67230781e53fd565c1ad4c7377625afb9e9055b8cfa207",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

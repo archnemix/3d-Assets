@@ -2,7 +2,7 @@
 
 Sofas and couches
 
-Approved assets: **3**
+Approved assets: **4**
 
 ## Kenney lounge sofa
 
@@ -19,6 +19,14 @@ Approved assets: **3**
 - Creator: Kirill Sannikov; style: realistic; CC0-1.0
 - 5,826 triangles; 3 texture images
 - [Asset folder](../../assets/furniture/sofas/ph-painted-wooden-sofa/) · [Metadata](../../assets/furniture/sofas/ph-painted-wooden-sofa/asset.json) · [All inspection views](../../assets/furniture/sofas/ph-painted-wooden-sofa/previews/contact-sheet.jpg)
+
+## Sofa 02
+
+![Sofa 02](../../assets/furniture/sofas/ph-sofa-02/previews/orbit-01.jpg)
+
+- Creator: Kirill Sannikov; style: realistic; CC0-1.0
+- 2,728 triangles; 3 texture images
+- [Asset folder](../../assets/furniture/sofas/ph-sofa-02/) · [Metadata](../../assets/furniture/sofas/ph-sofa-02/asset.json) · [All inspection views](../../assets/furniture/sofas/ph-sofa-02/previews/contact-sheet.jpg)
 
 ## Victorian leather sofa
 

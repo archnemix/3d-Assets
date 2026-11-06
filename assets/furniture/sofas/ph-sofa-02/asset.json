@@ -1,0 +1,362 @@
+{
+  "schema_version": 1,
+  "id": "ph-sofa-02",
+  "title": "Sofa 02",
+  "category": "furniture/sofas",
+  "style": "realistic",
+  "tags": [
+    "wood",
+    "furniture",
+    "chair",
+    "prop",
+    "couch",
+    "leather",
+    "polyhaven"
+  ],
+  "batch": "realistic-textures-01",
+  "acquired_at": "2026-11-06T10:14:07.850497+00:00",
+  "review": {
+    "id": "ph-sofa-02",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Dark tufted upholstered sofa with wooden base, cushion and buttons; inspected from all twelve views.",
+    "limitations": [
+      "Static furniture; cushion compression and seating behavior are not included.",
+      "The shipped texture maps are 2K (2048 × 2048); higher-resolution upstream maps are not included.",
+      "glTF validator reports 2 warning(s); inspect the included validator report for renderer compatibility."
+    ],
+    "contact_sheet_sha256": "af73f9b6caeccbf5be4361ea11f789e169c65e370bfe52a3d38c587d69712912",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/sofa_02_2k.gltf",
+    "creator": "Kirill Sannikov",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/sofa_02",
+    "source_id": "sofa_02",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/sofa_02/sofa_02_2k.gltf",
+        "bytes": 4183,
+        "sha256": "bd117710418921ece26af1ecb0b64d66b56ab7f96ff500f96044c11029c962ac"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/sofa_02/sofa_02_arm_2k.jpg",
+        "bytes": 401876,
+        "sha256": "1e6bb97f6c0d2a1b81b9aa3c67c26b65bc02aeed88b19373726f117c16f89980"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/sofa_02/sofa_02_nor_gl_2k.jpg",
+        "bytes": 463146,
+        "sha256": "7e53cd96fdb33b960a0447c619e028aa833fc9c6bee2838346ab5c752ac95c68"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/sofa_02/sofa_02_diff_2k.jpg",
+        "bytes": 323319,
+        "sha256": "d37c3c65d2bc4dfb9c61b8355cc0e5e0e92e34ae6affa819daa1cabe03d9e135"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/sofa_02/sofa_02.bin",
+        "bytes": 74864,
+        "sha256": "cb337e03211be0309afa1ded2b6cbb2d402c0f794aaf8828fba559d27a42d3f5"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/sofa_02_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 2,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/sofa_02_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "sofa_02_nor_gl"
+    },
+    {
+      "path": "model/textures/sofa_02_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "sofa_02_diff"
+    },
+    {
+      "path": "model/textures/sofa_02_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "sofa_02_metallic-sofa_02_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 2,
+    "hidden_mesh_objects": 0,
+    "vertices": 1828,
+    "triangles": 2728,
+    "material_slots": 2,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "sofa_02_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-sofa-02/model/textures/sofa_02_diff_2k.jpg"
+      },
+      {
+        "name": "sofa_02_metallic-sofa_02_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-sofa-02/model/textures/sofa_02_arm_2k.jpg"
+      },
+      {
+        "name": "sofa_02_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-textures-01/ph-sofa-02/model/textures/sofa_02_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1385,
+      "sha256": "4564e793d42252799cd7b81d84b93d56fba7ba7ceef2f37758654418bd6628b0",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 335,
+      "sha256": "ae7e114829ca55258be1e1cec5ce75bdfd841b361635f30587caa4d015cb8f47",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 69476,
+      "sha256": "dbe059cb86a5758fd2a6246f1c97c59ed7a6fa048f867ffbf3fac25618d8f4c0",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "2a9a229f8bb2ed821581e94782406b1f4a42c4f9a9e024e1cc719a6265cfa1b4",
+      "role": "logs"
+    },
+    {
+      "path": "model/sofa_02.bin",
+      "bytes": 74864,
+      "sha256": "cb337e03211be0309afa1ded2b6cbb2d402c0f794aaf8828fba559d27a42d3f5",
+      "role": "model"
+    },
+    {
+      "path": "model/sofa_02_2k.gltf",
+      "bytes": 4183,
+      "sha256": "bd117710418921ece26af1ecb0b64d66b56ab7f96ff500f96044c11029c962ac",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/sofa_02_arm_2k.jpg",
+      "bytes": 401876,
+      "sha256": "1e6bb97f6c0d2a1b81b9aa3c67c26b65bc02aeed88b19373726f117c16f89980",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/sofa_02_diff_2k.jpg",
+      "bytes": 323319,
+      "sha256": "d37c3c65d2bc4dfb9c61b8355cc0e5e0e92e34ae6affa819daa1cabe03d9e135",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/sofa_02_nor_gl_2k.jpg",
+      "bytes": 463146,
+      "sha256": "7e53cd96fdb33b960a0447c619e028aa833fc9c6bee2838346ab5c752ac95c68",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 20773,
+      "sha256": "f30622e8425c21652877deb7da51d414a0e0c6fe26138e49c0d2f34c71c8ba86",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 17893,
+      "sha256": "13fff5797818cd72649e626c0189d3e043b49e94734b9672b2f8732e0e56ef9b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 195797,
+      "sha256": "af73f9b6caeccbf5be4361ea11f789e169c65e370bfe52a3d38c587d69712912",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1134,
+      "sha256": "3e38c7e4cffe3bbdc52e51107ac6ac17aa95e4beae98b62d620b87a3e1032eae",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 27893,
+      "sha256": "01549d14e822e585067eefb4c7ad59ddd63df425cc3cdeb44429637134b719b3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 29580,
+      "sha256": "74e83d116a7a180ca97a4234ba3a4fb9b92c28607227f639a254c637fbe14c92",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 28708,
+      "sha256": "32ec37d13a3991ede502f2ea06bc6bd636abeb84e9fb467a9a685e6f8d22d32e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 21839,
+      "sha256": "1d9422d5d90f8b58a4b101287eab8a9969181f6013188d8fc4d718f17e06933b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 18983,
+      "sha256": "3eadc96f073b2d82fbecfbb6ac5333a9eae5e7fc8d8da2c60e9e96cd8a9d57dd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 21285,
+      "sha256": "63cbb79dbd0b7ad720f5d7b03d2bf123e724f560f8991d6d44987a509f1641c6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 28962,
+      "sha256": "3caf6afadd40070673a0ec8123e3b45311376256787db332d02620f4b815870b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 30801,
+      "sha256": "77fba58ca5c70bf74352c86e6e2c8c7d810ee6fd968b2bac3b74505507fdd701",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 22788,
+      "sha256": "c2ad83c5ad5237f68b9df4ea8414bb54f058d0d3808ecac5696e91bca56965a2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 41774,
+      "sha256": "282858b7743f0c0a8e99ca2f275796b61e52f46d2474986aa13a2ce78ca45b7a",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 157,
+      "sha256": "d630fa9004a66f0302edb8fface2ebfcc8e5d18107d6fb110e5fd92ed7ba4d10",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1164,
+      "sha256": "0c90c418597efc35ba86894da8adba2e4bb052e4e8452443b383d535ff13d40c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 4239,
+      "sha256": "a09f1664d092df8e52b3757bde81ca78e401a4ce81ff7beefca047a2d9bf371f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1003,
+      "sha256": "480e9be863fd33bc5b9b790a29dcb2bb6c4b3ad06410fe854fe8264c1ca51a23",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 866,
+      "sha256": "e4dba2cd476311dd4d79dd9f276dfd70b5af83fc79b8fc5cf16d6a570f62371a",
+      "role": "documentation"
+    }
+  ]
+}

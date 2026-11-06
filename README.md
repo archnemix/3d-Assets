@@ -4,9 +4,11 @@ A curated library of free, public-domain 3D assets for games, renders and protot
 
 ## Current status
 
-The library currently contains **315 approved CC0 assets** in **94 categories**, saved as real files under `assets/` and organized by category and subject. **Only entries in `manifest.json` are approved.** Files under `quarantine/` are review candidates, not recommendations.
+The library currently contains **333 approved CC0 assets** in **96 categories**, saved as real files under `assets/` and organized by category and subject. **Only entries in `manifest.json` are approved.** Files under `quarantine/` are review candidates, not recommendations.
 
 Approved subjects span realistic rigged humans, low-poly game characters, chairs, sofas, tables, beds, cabinets and shelving, desks, hand and power tools, measuring instruments, optical and scientific instruments, cookware and tableware, fruit, vegetables and baked goods, vases, books, potted plants, vehicles, toys, computers and audio, appliances, safety equipment, industrial containers, carts and lighting. The realistic-human set currently includes an adult male base character, an adult female base character and an elderly woman, each with embedded PBR textures and walk/run animation clips. MakeHuman/MPFB generation is working through the same quarantine/review pipeline, but generated characters are only added after they pass inspection and visual review.
+
+The gallery defaults to the approximate **realistic** style label; choose **All styles** to browse the whole collection. Style labels do not guarantee photorealism, and older entries still need individual reassessment. Each asset belongs to one exact subcategory. See [`reports/research/2026-11-06-texture-priority-review.md`](reports/research/2026-11-06-texture-priority-review.md) for the latest 2K-texture intake and held candidates.
 
 See [`docs/license-audit-summary.md`](docs/license-audit-summary.md) for historical exclusions and [`reports/research/2026-11-06-permissions-recheck.md`](reports/research/2026-11-06-permissions-recheck.md) for the latest source-level recheck. The recorded-evidence audit is not independent proof of ownership or an exhaustive check of every creator statement.
 

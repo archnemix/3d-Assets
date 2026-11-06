@@ -1,0 +1,151 @@
+{
+  "batch": "realistic-textures-01",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "decisions": [
+    {
+      "id": "ph-coffee-table-round-01",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Round light-colored table top with a curved dark crossed metal base; inspected all twelve views.",
+      "limitations": [
+        "The pale tabletop has subtle surface detail and may appear nearly white under bright lighting.",
+        "The shipped texture maps are 2K (2048 \u00d7 2048); higher-resolution upstream maps are not included.",
+        "glTF validator reports 1 warning(s); inspect the included validator report for renderer compatibility."
+      ],
+      "contact_sheet_sha256": "7e6d3b8d0269f003ea5c6f48323bdcb997f426c3f3c73ab0ea4b18444a996946"
+    },
+    {
+      "id": "ph-combination-wrench",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Metal combination wrench with open jaw and toothed ring end; inspected all twelve views and the diffuse texture.",
+      "limitations": [
+        "Static prop; metal reflections depend on scene lighting.",
+        "The shipped texture maps are 2K (2048 \u00d7 2048); higher-resolution upstream maps are not included.",
+        "glTF validator reports 1 warning(s); inspect the included validator report for renderer compatibility."
+      ],
+      "contact_sheet_sha256": "58bced2ca899ed140c67230781e53fd565c1ad4c7377625afb9e9055b8cfa207"
+    },
+    {
+      "id": "ph-food-pears-asian-01",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Group of five mottled green-yellow pears with stems and irregular markings; inspected all twelve views.",
+      "limitations": [
+        "Supplied as a group of five pears; no cutting or deformation animation.",
+        "The shipped texture maps are 2K (2048 \u00d7 2048); higher-resolution upstream maps are not included.",
+        "glTF validator reports 5 warning(s); inspect the included validator report for renderer compatibility."
+      ],
+      "contact_sheet_sha256": "ade187fddf079af7714454e22c7afdbf4694da8d63127bfcb6f49ef11c3edc9e"
+    },
+    {
+      "id": "ph-metal-jug",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Pale painted metal jug with light wear, side handles, open mouth and dark interior; inspected all twelve views.",
+      "limitations": [
+        "No separate lid or liquid simulation is supplied.",
+        "The shipped texture maps are 2K (2048 \u00d7 2048); higher-resolution upstream maps are not included.",
+        "glTF validator reports 1 warning(s); inspect the included validator report for renderer compatibility."
+      ],
+      "contact_sheet_sha256": "e0d6d07db6d3a371001c4417e7e88904c6d84ca953f449a4406ab7bba21094d4"
+    },
+    {
+      "id": "ph-potted-plant-02",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Potted plant with variegated heart-shaped leaves, soil and terracotta vessel, inspected from all twelve views.",
+      "limitations": [
+        "Static foliage; the asset does not include wind animation.",
+        "The shipped texture maps are 2K (2048 \u00d7 2048); higher-resolution upstream maps are not included.",
+        "glTF validator reports 3 warning(s); inspect the included validator report for renderer compatibility."
+      ],
+      "contact_sheet_sha256": "3b20108c8037d9c257926329a941df8afffed59dac8887d9fa3ba7fc1b2f5ed3"
+    },
+    {
+      "id": "ph-sofa-02",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Dark tufted upholstered sofa with wooden base, cushion and buttons; inspected from all twelve views.",
+      "limitations": [
+        "Static furniture; cushion compression and seating behavior are not included.",
+        "The shipped texture maps are 2K (2048 \u00d7 2048); higher-resolution upstream maps are not included.",
+        "glTF validator reports 2 warning(s); inspect the included validator report for renderer compatibility."
+      ],
+      "contact_sheet_sha256": "af73f9b6caeccbf5be4361ea11f789e169c65e370bfe52a3d38c587d69712912"
+    },
+    {
+      "id": "ph-water-manhole-cover",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Round weathered water manhole cover with raised lettering and segmented pattern; inspected all twelve views.",
+      "limitations": [
+        "Static cover; no opening animation or underground infrastructure is supplied.",
+        "The shipped texture maps are 2K (2048 \u00d7 2048); higher-resolution upstream maps are not included.",
+        "glTF validator reports 2 warning(s); inspect the included validator report for renderer compatibility."
+      ],
+      "contact_sheet_sha256": "c6399b7758028a34b4f1695ae35cb0bab16ab4e5aa572a899f05cb183fb9eb72"
+    },
+    {
+      "id": "ph-wooden-bowl-01",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Irregular natural-edge wooden bowl with a shallow hollow and visible grain; inspected all twelve views.",
+      "limitations": [
+        "Static bowl; its naturally uneven rim and dark underside are part of the scan.",
+        "The shipped texture maps are 2K (2048 \u00d7 2048); higher-resolution upstream maps are not included.",
+        "glTF validator reports 1 warning(s); inspect the included validator report for renderer compatibility."
+      ],
+      "contact_sheet_sha256": "e36c8b87bbaffca725b73fc0bde40ba95e309488aae86c08381d30290a9a5876"
+    }
+  ]
+}

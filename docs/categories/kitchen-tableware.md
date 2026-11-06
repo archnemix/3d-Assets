@@ -2,7 +2,7 @@
 
 Plates, goblets, jugs and tea service for the table
 
-Approved assets: **4**
+Approved assets: **6**
 
 ## Ornate brass goblets
 
@@ -28,6 +28,14 @@ Approved assets: **4**
 - 5,770 triangles; 3 texture images
 - [Asset folder](../../assets/kitchen/tableware/ph-ceramic-jug/) · [Metadata](../../assets/kitchen/tableware/ph-ceramic-jug/asset.json) · [All inspection views](../../assets/kitchen/tableware/ph-ceramic-jug/previews/contact-sheet.jpg)
 
+## Metal Jug
+
+![Metal Jug](../../assets/kitchen/tableware/ph-metal-jug/previews/orbit-01.jpg)
+
+- Creator: Anzor Lezhava; style: realistic; CC0-1.0
+- 6,040 triangles; 3 texture images
+- [Asset folder](../../assets/kitchen/tableware/ph-metal-jug/) · [Metadata](../../assets/kitchen/tableware/ph-metal-jug/asset.json) · [All inspection views](../../assets/kitchen/tableware/ph-metal-jug/previews/contact-sheet.jpg)
+
 ## Antique floral tea set
 
 ![Antique floral tea set](../../assets/kitchen/tableware/ph-tea-set/previews/orbit-01.jpg)
@@ -35,3 +43,11 @@ Approved assets: **4**
 - Creator: James Ray Cock, Rico Cilliers, Jurita Burger; style: realistic; CC0-1.0
 - 40,296 triangles; 3 texture images
 - [Asset folder](../../assets/kitchen/tableware/ph-tea-set/) · [Metadata](../../assets/kitchen/tableware/ph-tea-set/asset.json) · [All inspection views](../../assets/kitchen/tableware/ph-tea-set/previews/contact-sheet.jpg)
+
+## Wooden Bowl 01
+
+![Wooden Bowl 01](../../assets/kitchen/tableware/ph-wooden-bowl-01/previews/orbit-01.jpg)
+
+- Creator: Oliver Harries; style: realistic; CC0-1.0
+- 14,122 triangles; 3 texture images
+- [Asset folder](../../assets/kitchen/tableware/ph-wooden-bowl-01/) · [Metadata](../../assets/kitchen/tableware/ph-wooden-bowl-01/asset.json) · [All inspection views](../../assets/kitchen/tableware/ph-wooden-bowl-01/previews/contact-sheet.jpg)

@@ -2,7 +2,7 @@
 
 Dining, side and coffee tables
 
-Approved assets: **4**
+Approved assets: **5**
 
 ## Kenney coffee table
 
@@ -11,6 +11,14 @@ Approved assets: **4**
 - Creator: Kenney; style: low-poly; CC0-1.0
 - 124 triangles; 0 texture images
 - [Asset folder](../../assets/furniture/tables/kenney-coffee-table/) · [Metadata](../../assets/furniture/tables/kenney-coffee-table/asset.json) · [All inspection views](../../assets/furniture/tables/kenney-coffee-table/previews/contact-sheet.jpg)
+
+## Coffee Table Round 01
+
+![Coffee Table Round 01](../../assets/furniture/tables/ph-coffee-table-round-01/previews/orbit-01.jpg)
+
+- Creator: Ulan Cabanilla; style: realistic; CC0-1.0
+- 4,044 triangles; 3 texture images
+- [Asset folder](../../assets/furniture/tables/ph-coffee-table-round-01/) · [Metadata](../../assets/furniture/tables/ph-coffee-table-round-01/asset.json) · [All inspection views](../../assets/furniture/tables/ph-coffee-table-round-01/previews/contact-sheet.jpg)
 
 ## Dining Table
 
