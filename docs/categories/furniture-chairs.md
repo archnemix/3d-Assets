@@ -2,7 +2,7 @@
 
 Dining chairs, armchairs, stools and lounge chairs
 
-Approved assets: **5**
+Approved assets: **6**
 
 ## Kenney cushioned dining chair
 
@@ -35,6 +35,14 @@ Approved assets: **5**
 - Creator: Kirill Sannikov; style: realistic; CC0-1.0
 - 1,246 triangles; 3 texture images
 - [Asset folder](../../assets/furniture/chairs/ph-painted-dining-chair/) · [Metadata](../../assets/furniture/chairs/ph-painted-dining-chair/asset.json) · [All inspection views](../../assets/furniture/chairs/ph-painted-dining-chair/previews/contact-sheet.jpg)
+
+## School Chair 01
+
+![School Chair 01](../../assets/furniture/chairs/ph-schoolchair-01/previews/orbit-01.jpg)
+
+- Creator: Ethan Place; style: realistic; CC0-1.0
+- 5,072 triangles; 3 texture images
+- [Asset folder](../../assets/furniture/chairs/ph-schoolchair-01/) · [Metadata](../../assets/furniture/chairs/ph-schoolchair-01/asset.json) · [All inspection views](../../assets/furniture/chairs/ph-schoolchair-01/previews/contact-sheet.jpg)
 
 ## Victorian armchair
 

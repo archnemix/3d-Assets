@@ -2,7 +2,7 @@
 
 Wrenches, cutters, hammers and other manually operated tools
 
-Approved assets: **5**
+Approved assets: **7**
 
 ## Vintage adjustable wrench
 
@@ -43,3 +43,19 @@ Approved assets: **5**
 - Creator: John Hutcheson; style: realistic; CC0-1.0
 - 8,796 triangles; 3 texture images
 - [Asset folder](../../assets/tools/hand-tools/ph-ratchet-wrench/) · [Metadata](../../assets/tools/hand-tools/ph-ratchet-wrench/asset.json) · [All inspection views](../../assets/tools/hand-tools/ph-ratchet-wrench/previews/contact-sheet.jpg)
+
+## Rusted Hacksaw
+
+![Rusted Hacksaw](../../assets/tools/hand-tools/ph-rusted-hacksaw/previews/orbit-01.jpg)
+
+- Creator: Dabou Master; style: realistic; CC0-1.0
+- 6,546 triangles; 3 texture images
+- [Asset folder](../../assets/tools/hand-tools/ph-rusted-hacksaw/) · [Metadata](../../assets/tools/hand-tools/ph-rusted-hacksaw/asset.json) · [All inspection views](../../assets/tools/hand-tools/ph-rusted-hacksaw/previews/contact-sheet.jpg)
+
+## Sledgehammer 01
+
+![Sledgehammer 01](../../assets/tools/hand-tools/ph-sledgehammer-01/previews/orbit-01.jpg)
+
+- Creator: Dylan Guzman; style: realistic; CC0-1.0
+- 2,596 triangles; 3 texture images
+- [Asset folder](../../assets/tools/hand-tools/ph-sledgehammer-01/) · [Metadata](../../assets/tools/hand-tools/ph-sledgehammer-01/asset.json) · [All inspection views](../../assets/tools/hand-tools/ph-sledgehammer-01/previews/contact-sheet.jpg)

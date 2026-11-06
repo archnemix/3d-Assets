@@ -1,0 +1,21 @@
+{
+  "id": "ph-industrial-pipe-lamp",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Metal pipe desk lamp with angled joints, shade, weighted base and visible glowing filament; complete in inspection views.",
+  "limitations": [
+    "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+    "glTF validator reports 3 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+  ],
+  "contact_sheet_sha256": "dea68b83c149a30118102583727c003b49dc14ecce0ecbd677f7f2a93f36a947",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

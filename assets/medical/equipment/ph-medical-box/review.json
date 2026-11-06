@@ -1,0 +1,23 @@
+{
+  "id": "ph-medical-box",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "First-aid box with latches and handle, inspected twelve exterior views and three rendered lid_open frames showing the lid open onto an empty metal interior; independently validated animated GLB.",
+  "limitations": [
+    "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+    "glTF validator reports 5 generated-tangent-space warning(s); normal-map shading can vary by renderer.",
+    "The box is empty; no first-aid contents are included. The library-authored opening clip moves the lid but does not animate the latches.",
+    "Three sampled animation frames were inspected; continuous playback and all intermediate frames were not individually checked. Animated GLB validation: 0 errors, 5 warnings."
+  ],
+  "contact_sheet_sha256": "9695e39d4bc6b8370da1c2070e172ed351de1a12b0eb43682fe9ec7be5f6f642",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

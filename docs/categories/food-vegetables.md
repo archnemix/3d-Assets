@@ -2,7 +2,7 @@
 
 Whole vegetable and root models
 
-Approved assets: **1**
+Approved assets: **2**
 
 ## Photoscanned ginger root
 
@@ -11,3 +11,11 @@ Approved assets: **1**
 - Creator: Oliver Harries; style: realistic; CC0-1.0
 - 7,205 triangles; 3 texture images
 - [Asset folder](../../assets/food/vegetables/ph-ginger-root/) · [Metadata](../../assets/food/vegetables/ph-ginger-root/asset.json) · [All inspection views](../../assets/food/vegetables/ph-ginger-root/previews/contact-sheet.jpg)
+
+## Yellow Onion
+
+![Yellow Onion](../../assets/food/vegetables/ph-yellow-onion/previews/orbit-01.jpg)
+
+- Creator: Kuutti Siitonen; style: realistic; CC0-1.0
+- 5,444 triangles; 3 texture images
+- [Asset folder](../../assets/food/vegetables/ph-yellow-onion/) · [Metadata](../../assets/food/vegetables/ph-yellow-onion/asset.json) · [All inspection views](../../assets/food/vegetables/ph-yellow-onion/previews/contact-sheet.jpg)

@@ -1,0 +1,284 @@
+{
+  "batch": "realistic-diverse-01",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "decisions": [
+    {
+      "id": "ph-round-spectacles",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Complete round dark-lens spectacles with thin frames, arms, and nose pads; checked the orbit, overhead and underside, clay and wireframe views.",
+      "limitations": [
+        "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+        "glTF validator reports 2 generated-tangent-space warning(s); normal-map shading can vary by renderer.",
+        "The lenses appear dark and opaque in these renders; transparency may vary by renderer."
+      ],
+      "contact_sheet_sha256": "541e0b0b50e5cf4dd0c028e15dcb2b3f7314a7073689039b45eeedb583cd69c8"
+    },
+    {
+      "id": "ph-yellow-onion",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Whole yellow onion with papery skin, root and dried stem; the twelve views show an intact textured exterior.",
+      "limitations": [
+        "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+        "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+      ],
+      "contact_sheet_sha256": "ffca7a0839aa2229e5d364803c22052c35dcd3f3e55196f893800b97c7692e67"
+    },
+    {
+      "id": "ph-schoolchair-01",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Molded navy chair with slotted back, metal legs and supporting frame; intact and consistent across all views.",
+      "limitations": [
+        "The selected package uses the downloaded texture resolution; higher-resolution upstream files are not included.",
+        "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+      ],
+      "contact_sheet_sha256": "2fc393804f41ce5c2ab9f51bfcc4e452bd0e492565508b41ce18dd6f2530b731"
+    },
+    {
+      "id": "ph-industrial-pipe-lamp",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Metal pipe desk lamp with angled joints, shade, weighted base and visible glowing filament; complete in inspection views.",
+      "limitations": [
+        "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+        "glTF validator reports 3 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+      ],
+      "contact_sheet_sha256": "dea68b83c149a30118102583727c003b49dc14ecce0ecbd677f7f2a93f36a947"
+    },
+    {
+      "id": "ph-rusted-hacksaw",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Hand saw with a weathered frame, blade, handle and tensioner; reviewed twelve model views and technical report.",
+      "limitations": [
+        "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+        "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+      ],
+      "contact_sheet_sha256": "a37eb1db3857ebe770a0ab4aedb8be3eb0ac912257bb88c07b42c2f6f972efd5"
+    },
+    {
+      "id": "ph-baseball-bat",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Wooden baseball bat with worn wood and wrapped handle; complete simple silhouette visible from all inspection views.",
+      "limitations": [
+        "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+        "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+      ],
+      "contact_sheet_sha256": "bd5c4cbe9fd0d946f6e25be1f92d41de5ab219cd628207bfd8e2b983dd055899"
+    },
+    {
+      "id": "ph-medical-box",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "First-aid box with latches and handle, inspected twelve exterior views and three rendered lid_open frames showing the lid open onto an empty metal interior; independently validated animated GLB.",
+      "limitations": [
+        "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+        "glTF validator reports 5 generated-tangent-space warning(s); normal-map shading can vary by renderer.",
+        "The box is empty; no first-aid contents are included. The library-authored opening clip moves the lid but does not animate the latches.",
+        "Three sampled animation frames were inspected; continuous playback and all intermediate frames were not individually checked. Animated GLB validation: 0 errors, 5 warnings."
+      ],
+      "contact_sheet_sha256": "9695e39d4bc6b8370da1c2070e172ed351de1a12b0eb43682fe9ec7be5f6f642"
+    },
+    {
+      "id": "ph-food-pomegranate-01",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Whole textured pomegranate with mottled red skin and dried calyx; all views show a complete scanned exterior.",
+      "limitations": [
+        "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+        "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+      ],
+      "contact_sheet_sha256": "6286887bf79694e394c49dab5d8e5477e94236b97e56ba9aba5a6e79c2fcedaf"
+    },
+    {
+      "id": "ph-painted-wooden-sofa",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Painted wooden sofa with back, arms, seat cushion and four legs; reviewed all inspection views and technical report.",
+      "limitations": [
+        "The selected package uses the downloaded texture resolution; higher-resolution upstream files are not included.",
+        "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+      ],
+      "contact_sheet_sha256": "032e02d9cab1d60276d3a17f902fff15dcef1367837a31c56ac2588f321044cb"
+    },
+    {
+      "id": "ph-sledgehammer-01",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Sledgehammer with worn dark metal head, yellow handle and grip, complete in all inspection views.",
+      "limitations": [
+        "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+        "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+      ],
+      "contact_sheet_sha256": "428003ba983520be861070ed2d13f1829ad8c65bbcae5e941b44689a0042d544"
+    },
+    {
+      "id": "ph-chess-set",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Marble chess set with board and both full sets of pieces in starting positions; inspected orbit, overhead, underside, clay and wireframe views.",
+      "limitations": [
+        "The selected package uses the downloaded texture resolution; higher-resolution upstream files are not included.",
+        "glTF validator reports 37 generated-tangent-space warning(s); normal-map shading can vary by renderer.",
+        "The pieces are positioned as a static scene; no chess rules, interactions or animations are supplied."
+      ],
+      "contact_sheet_sha256": "ead7795b2ca3826916b18b8abbf5de4d95bf0a601ad6f69069090d9e3d3f8a56"
+    },
+    {
+      "id": "ph-vintage-crutches-01",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Pair of vintage wooden crutches with cloth underarm rests, handles, fittings and tapered supports; twelve views reviewed.",
+      "limitations": [
+        "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+        "glTF validator reports 2 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+      ],
+      "contact_sheet_sha256": "9971a0cb4591b2b2ac774b6e163045f1c7845ad4e399ff95c5b2cce7b0e0672a"
+    },
+    {
+      "id": "ph-lemon",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Whole realistic textured lemon with irregular rind and natural ends; twelve views and topology report reviewed.",
+      "limitations": [
+        "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+        "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+      ],
+      "contact_sheet_sha256": "bbff73243541a5cd0cce1f7cedd07e2e7f7176d55f5aa6b2e9f46233dca0e857"
+    },
+    {
+      "id": "ph-hand-truck",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Worn hand truck with two wheels, red tubular frame, handles and toe plate; complete in twelve inspection views.",
+      "limitations": [
+        "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+        "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+      ],
+      "contact_sheet_sha256": "dd703bfbdf534b7e809c44be3c44ef6aa7f47ca70b4289b0d1e43f34cd191798"
+    },
+    {
+      "id": "ph-modern-wooden-cabinet",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Long modern wooden cabinet with slatted doors and thin metal legs; inspected all orbit, top, bottom, clay and wireframe views.",
+      "limitations": [
+        "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+        "glTF validator reports 3 generated-tangent-space warning(s); normal-map shading can vary by renderer.",
+        "Doors appear closed; interior and door movement were not inspected."
+      ],
+      "contact_sheet_sha256": "26f71c31c25916fefefe32efdbe9c43efd7661b67ac0d55f5a1c07b58d0ca599"
+    },
+    {
+      "id": "ph-ocean-buoy",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Weathered buoy with red float, frame, light cage, suspended bell and mooring fitting; all views and geometry report reviewed.",
+      "limitations": [
+        "The selected package uses the downloaded texture resolution; higher-resolution upstream files are not included.",
+        "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+      ],
+      "contact_sheet_sha256": "40d090f6f45aeaf11dcce2661b23c746b79189b43b6a9df4fba917682b670288"
+    }
+  ]
+}

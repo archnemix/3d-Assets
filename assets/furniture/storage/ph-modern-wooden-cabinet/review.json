@@ -1,0 +1,22 @@
+{
+  "id": "ph-modern-wooden-cabinet",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Long modern wooden cabinet with slatted doors and thin metal legs; inspected all orbit, top, bottom, clay and wireframe views.",
+  "limitations": [
+    "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+    "glTF validator reports 3 generated-tangent-space warning(s); normal-map shading can vary by renderer.",
+    "Doors appear closed; interior and door movement were not inspected."
+  ],
+  "contact_sheet_sha256": "26f71c31c25916fefefe32efdbe9c43efd7661b67ac0d55f5a1c07b58d0ca599",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

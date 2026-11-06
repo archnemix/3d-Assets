@@ -2,7 +2,7 @@
 
 Portable lanterns, oil lamps and candle holders
 
-Approved assets: **4**
+Approved assets: **5**
 
 ## Ornate brass candleholders
 
@@ -35,3 +35,11 @@ Approved assets: **4**
 - Creator: Rajil Jose Macatangay; style: realistic; CC0-1.0
 - 33,902 triangles; 4 texture images
 - [Asset folder](../../assets/lighting/lamps/ph-hurricane-lantern/) · [Metadata](../../assets/lighting/lamps/ph-hurricane-lantern/asset.json) · [All inspection views](../../assets/lighting/lamps/ph-hurricane-lantern/previews/contact-sheet.jpg)
+
+## Industrial Pipe Lamp
+
+![Industrial Pipe Lamp](../../assets/lighting/lamps/ph-industrial-pipe-lamp/previews/orbit-01.jpg)
+
+- Creator: Mateusz Sadek; style: realistic; CC0-1.0
+- 8,626 triangles; 4 texture images
+- [Asset folder](../../assets/lighting/lamps/ph-industrial-pipe-lamp/) · [Metadata](../../assets/lighting/lamps/ph-industrial-pipe-lamp/asset.json) · [All inspection views](../../assets/lighting/lamps/ph-industrial-pipe-lamp/previews/contact-sheet.jpg)

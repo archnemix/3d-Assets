@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "id": "ph-schoolchair-01",
+  "title": "School Chair 01",
+  "category": "furniture/chairs",
+  "style": "realistic",
+  "tags": [
+    "prop",
+    "furniture",
+    "metal",
+    "plastic",
+    "chair",
+    "school",
+    "polyhaven"
+  ],
+  "batch": "realistic-diverse-01",
+  "acquired_at": "2026-11-06T09:44:47.074502+00:00",
+  "review": {
+    "id": "ph-schoolchair-01",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Molded navy chair with slotted back, metal legs and supporting frame; intact and consistent across all views.",
+    "limitations": [
+      "The selected package uses the downloaded texture resolution; higher-resolution upstream files are not included.",
+      "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+    ],
+    "contact_sheet_sha256": "2fc393804f41ce5c2ab9f51bfcc4e452bd0e492565508b41ce18dd6f2530b731",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/SchoolChair_01_2k.gltf",
+    "creator": "Ethan Place",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/SchoolChair_01",
+    "source_id": "SchoolChair_01",
+    "resolution": "2k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/SchoolChair_01/SchoolChair_01_2k.gltf",
+        "bytes": 2695,
+        "sha256": "f072f367f9282032bcc6fefb9ceb01cc2776166d9026a75583f2c8a7767e9693"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/SchoolChair_01/SchoolChair_01_arm_2k.jpg",
+        "bytes": 325085,
+        "sha256": "270a10398ee3a5753dd4208f2eb3ee97edcb00ccf3ac3227d00b276403d00df4"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/SchoolChair_01/SchoolChair_01_nor_gl_2k.jpg",
+        "bytes": 915279,
+        "sha256": "c7f018f35c03f3d42728da0e2aa032c0deea20210cd6b49328c56bde279e60ad"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/SchoolChair_01/SchoolChair_01_diff_2k.jpg",
+        "bytes": 174857,
+        "sha256": "7fabb6303317102d68afd3ccc9de247c3ec16577133f45a2d0cd13e550728a89"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/SchoolChair_01/SchoolChair_01.bin",
+        "bytes": 134912,
+        "sha256": "7d64d556ba88d3962778085b9a190f1adb0d84e667bca8ef032c0ae34b31a9fe"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/SchoolChair_01_2k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/SchoolChair_01_nor_gl_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "SchoolChair_01_nor_gl"
+    },
+    {
+      "path": "model/textures/SchoolChair_01_diff_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "SchoolChair_01_diff"
+    },
+    {
+      "path": "model/textures/SchoolChair_01_arm_2k.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "SchoolChair_01_metallic-SchoolChair_01_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 3265,
+    "triangles": 5072,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "SchoolChair_01_diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-schoolchair-01/model/textures/SchoolChair_01_diff_2k.jpg"
+      },
+      {
+        "name": "SchoolChair_01_metallic-SchoolChair_01_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-schoolchair-01/model/textures/SchoolChair_01_arm_2k.jpg"
+      },
+      {
+        "name": "SchoolChair_01_nor_gl",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-schoolchair-01/model/textures/SchoolChair_01_nor_gl_2k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1338,
+      "sha256": "9454bfddbaa6aee4e3c0af47ab1f9ccdc3fdc4e3be5a18ee9e6e950e30f37602",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 279,
+      "sha256": "3d7be94508ae4881a938dcc07d7a604eaaa3bc5b07da8b8996fe1edb96fa13cd",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68295,
+      "sha256": "35aa3bbf40d681029c8de26d0aae146c9cf4c363bc9bf5687f6b7b3919406563",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/SchoolChair_01.bin",
+      "bytes": 134912,
+      "sha256": "7d64d556ba88d3962778085b9a190f1adb0d84e667bca8ef032c0ae34b31a9fe",
+      "role": "model"
+    },
+    {
+      "path": "model/SchoolChair_01_2k.gltf",
+      "bytes": 2695,
+      "sha256": "f072f367f9282032bcc6fefb9ceb01cc2776166d9026a75583f2c8a7767e9693",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/SchoolChair_01_arm_2k.jpg",
+      "bytes": 325085,
+      "sha256": "270a10398ee3a5753dd4208f2eb3ee97edcb00ccf3ac3227d00b276403d00df4",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/SchoolChair_01_diff_2k.jpg",
+      "bytes": 174857,
+      "sha256": "7fabb6303317102d68afd3ccc9de247c3ec16577133f45a2d0cd13e550728a89",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/SchoolChair_01_nor_gl_2k.jpg",
+      "bytes": 915279,
+      "sha256": "c7f018f35c03f3d42728da0e2aa032c0deea20210cd6b49328c56bde279e60ad",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 39142,
+      "sha256": "20f9b2858a01daf726c6c53ca6ee32cc3c8c4333b86cb259d1893a9694652da0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18256,
+      "sha256": "42b30a9b87e1e1a64fc2ff18a703ff2f2194dfab70e8d096f7db87ac1fc2578f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 205335,
+      "sha256": "2fc393804f41ce5c2ab9f51bfcc4e452bd0e492565508b41ce18dd6f2530b731",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1201,
+      "sha256": "86aacf9f3dd04e9eee930d3fa7ec51814b663adb011e7c7a28e058e156401ad8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 24095,
+      "sha256": "a068d471f5bd6ac69cd22d7bbe86afc865378cdfdd7914aa7cb0abe57e03d82a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 25937,
+      "sha256": "8e1dd067f541dda3cb217bfa47bce45eba727505811714489141ecc2e10d1ee9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 22078,
+      "sha256": "4ab8d7b7568582ab54f433eae0e6616c01e4a63e57e5e00b64c699e5c10a62dd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 30578,
+      "sha256": "9721956e026e3be7d367d1f8deae8ff95db1cbdf5cccc35d70bbea393c394138",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 26451,
+      "sha256": "a1501bf8c2275c8a55f8bd57881ed3167cc7bcc90901efeba91fb5b90c2dbcc1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 29148,
+      "sha256": "a738f30021f984c585e26de1bb57634312144ad6906f4ac01fd67bbbe5d849ea",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 22022,
+      "sha256": "1ac5de60270c9d3a2e00ba32e0ace836597974709f9b119031b4ec3fffc46e66",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 25828,
+      "sha256": "f6b1f21f25bb01b9c026d758aed5d61b4cba12adab2ef98d873a344501c27b86",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 35387,
+      "sha256": "154bfdc4e0a212f63a2291f2b2ea7107458f3e192058c26cdaa34f57bc05aa60",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 31855,
+      "sha256": "d0542762406f4665f64430b814e71d098d6c47bd3a86c59c8d0f4c1cbce4c0ad",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 164,
+      "sha256": "e5667496dc007ab4c50c6e45e71395254bd012bb84563985d316e0c0ede7a816",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1162,
+      "sha256": "9e8d6821b1ec805c74f4fa4b6f8ddce49f2ba2c424552482e3ec896e9cb2a6a4",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3040,
+      "sha256": "f64af7186149a28c86f4458c57aacdf9dac0fae62523f229de85955ec33d9b76",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1102,
+      "sha256": "20ceef3777e5a3c1800c5e42de42caa556a68e25b8aa20aabe1de34cc99b2b98",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 811,
+      "sha256": "8fab8a3de4b4ab9752c8e88fb83f93d05272403f77a41aaacdd8cec01b7a20c3",
+      "role": "documentation"
+    }
+  ]
+}

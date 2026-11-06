@@ -1,0 +1,21 @@
+{
+  "id": "ph-lemon",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Whole realistic textured lemon with irregular rind and natural ends; twelve views and topology report reviewed.",
+  "limitations": [
+    "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+    "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+  ],
+  "contact_sheet_sha256": "bbff73243541a5cd0cce1f7cedd07e2e7f7176d55f5aa6b2e9f46233dca0e857",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

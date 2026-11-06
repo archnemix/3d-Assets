@@ -1,0 +1,22 @@
+{
+  "id": "ph-round-spectacles",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Complete round dark-lens spectacles with thin frames, arms, and nose pads; checked the orbit, overhead and underside, clay and wireframe views.",
+  "limitations": [
+    "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+    "glTF validator reports 2 generated-tangent-space warning(s); normal-map shading can vary by renderer.",
+    "The lenses appear dark and opaque in these renders; transparency may vary by renderer."
+  ],
+  "contact_sheet_sha256": "541e0b0b50e5cf4dd0c028e15dcb2b3f7314a7073689039b45eeedb583cd69c8",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

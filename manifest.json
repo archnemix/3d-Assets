@@ -4,6 +4,53 @@
   "approval_policy": "Explicit visual review; every score >=4, mean >=4.6",
   "assets": [
     {
+      "id": "ph-round-spectacles",
+      "title": "Round Spectacles",
+      "category": "apparel/accessories",
+      "style": "realistic",
+      "tags": [
+        "vintage",
+        "round frame",
+        "retro",
+        "eyewear",
+        "accessories",
+        "glasses",
+        "polyhaven"
+      ],
+      "creator": "Sean Buckley",
+      "license": "CC0-1.0",
+      "license_notes": [],
+      "resale_as_is": "The license page states the assets can be redistributed, including inside a product you sell.",
+      "source_url": "https://polyhaven.com/a/round_spectacles",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/apparel/accessories/ph-round-spectacles",
+      "metadata": "assets/apparel/accessories/ph-round-spectacles/asset.json",
+      "metadata_sha256": "61668447b5932c9b6f66c14b5c4f41a8eb55db8cb129e3d202efea0613749273",
+      "model": "assets/apparel/accessories/ph-round-spectacles/model/round_spectacles_1k.gltf",
+      "preview": "assets/apparel/accessories/ph-round-spectacles/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/accessories/ph-round-spectacles/previews/contact-sheet.jpg",
+      "triangles": 11810,
+      "texture_count": 4,
+      "max_texture_resolution": 1024,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+        "glTF validator reports 2 generated-tangent-space warning(s); normal-map shading can vary by renderer.",
+        "The lenses appear dark and opaque in these renders; transparency may vary by renderer."
+      ]
+    },
+    {
       "id": "ph-castle-door",
       "title": "Medieval arched double castle door",
       "category": "architecture/doors",
@@ -5351,6 +5398,52 @@
       ]
     },
     {
+      "id": "ph-food-pomegranate-01",
+      "title": "Food Pomegranate 01",
+      "category": "food/fruit",
+      "style": "realistic",
+      "tags": [
+        "fruit",
+        "fruitbowl",
+        "food",
+        "red",
+        "pomegranite",
+        "produce",
+        "polyhaven"
+      ],
+      "creator": "Oliver Harries",
+      "license": "CC0-1.0",
+      "license_notes": [],
+      "resale_as_is": "The license page states the assets can be redistributed, including inside a product you sell.",
+      "source_url": "https://polyhaven.com/a/food_pomegranate_01",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/food/fruit/ph-food-pomegranate-01",
+      "metadata": "assets/food/fruit/ph-food-pomegranate-01/asset.json",
+      "metadata_sha256": "ca884df1c9823656ccf20e21ebe975338df502828576cc1fdc2733d205729e28",
+      "model": "assets/food/fruit/ph-food-pomegranate-01/model/food_pomegranate_01_1k.gltf",
+      "preview": "assets/food/fruit/ph-food-pomegranate-01/previews/orbit-01.jpg",
+      "contact_sheet": "assets/food/fruit/ph-food-pomegranate-01/previews/contact-sheet.jpg",
+      "triangles": 8142,
+      "texture_count": 3,
+      "max_texture_resolution": 1024,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+        "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+      ]
+    },
+    {
       "id": "ph-kiwi",
       "title": "Photoscanned kiwi fruit",
       "category": "food/fruit",
@@ -5394,6 +5487,52 @@
       "review_limitations": [
         "Whole fruit only; no sliced variant showing the green interior.",
         "Fuzz is a texture effect, so it will not silhouette against a bright background."
+      ]
+    },
+    {
+      "id": "ph-lemon",
+      "title": "Lemon",
+      "category": "food/fruit",
+      "style": "realistic",
+      "tags": [
+        "culinary",
+        "cooking",
+        "vegetable",
+        "vegetables",
+        "organic",
+        "ingredients",
+        "polyhaven"
+      ],
+      "creator": "Kuutti Siitonen",
+      "license": "CC0-1.0",
+      "license_notes": [],
+      "resale_as_is": "The license page states the assets can be redistributed, including inside a product you sell.",
+      "source_url": "https://polyhaven.com/a/lemon",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/food/fruit/ph-lemon",
+      "metadata": "assets/food/fruit/ph-lemon/asset.json",
+      "metadata_sha256": "9c9083cecc87a6241f68db8abeca45282a051e6b7e6d99991d5d1178bce33302",
+      "model": "assets/food/fruit/ph-lemon/model/lemon_1k.gltf",
+      "preview": "assets/food/fruit/ph-lemon/previews/orbit-01.jpg",
+      "contact_sheet": "assets/food/fruit/ph-lemon/previews/contact-sheet.jpg",
+      "triangles": 4012,
+      "texture_count": 3,
+      "max_texture_resolution": 1024,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+        "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
       ]
     },
     {
@@ -5623,6 +5762,52 @@
       ]
     },
     {
+      "id": "ph-yellow-onion",
+      "title": "Yellow Onion",
+      "category": "food/vegetables",
+      "style": "realistic",
+      "tags": [
+        "culinary",
+        "kitchen",
+        "cooking",
+        "vegetables",
+        "organic",
+        "produce",
+        "polyhaven"
+      ],
+      "creator": "Kuutti Siitonen",
+      "license": "CC0-1.0",
+      "license_notes": [],
+      "resale_as_is": "The license page states the assets can be redistributed, including inside a product you sell.",
+      "source_url": "https://polyhaven.com/a/yellow_onion",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/food/vegetables/ph-yellow-onion",
+      "metadata": "assets/food/vegetables/ph-yellow-onion/asset.json",
+      "metadata_sha256": "595e1af4f3070f43940df2426af308e37ae24eb689b04b477c416e8cf27cf259",
+      "model": "assets/food/vegetables/ph-yellow-onion/model/yellow_onion_1k.gltf",
+      "preview": "assets/food/vegetables/ph-yellow-onion/previews/orbit-01.jpg",
+      "contact_sheet": "assets/food/vegetables/ph-yellow-onion/previews/contact-sheet.jpg",
+      "triangles": 5444,
+      "texture_count": 3,
+      "max_texture_resolution": 1024,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+        "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+      ]
+    },
+    {
       "id": "ph-day-bed",
       "title": "Vintage day bed with quilt",
       "category": "furniture/beds",
@@ -5807,6 +5992,52 @@
       ]
     },
     {
+      "id": "ph-hand-truck",
+      "title": "Hand Truck",
+      "category": "furniture/carts",
+      "style": "realistic",
+      "tags": [
+        "dolly",
+        "sack truck",
+        "warehouse equipment",
+        "load carrier",
+        "portable trolley",
+        "cart",
+        "polyhaven"
+      ],
+      "creator": "Mutanzom3D",
+      "license": "CC0-1.0",
+      "license_notes": [],
+      "resale_as_is": "The license page states the assets can be redistributed, including inside a product you sell.",
+      "source_url": "https://polyhaven.com/a/hand_truck",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/furniture/carts/ph-hand-truck",
+      "metadata": "assets/furniture/carts/ph-hand-truck/asset.json",
+      "metadata_sha256": "30b905d4230cc1fd38926dc0d2e10e42886438f2c6724892cdab69379ac7139c",
+      "model": "assets/furniture/carts/ph-hand-truck/model/hand_truck_1k.gltf",
+      "preview": "assets/furniture/carts/ph-hand-truck/previews/orbit-01.jpg",
+      "contact_sheet": "assets/furniture/carts/ph-hand-truck/previews/contact-sheet.jpg",
+      "triangles": 13220,
+      "texture_count": 3,
+      "max_texture_resolution": 1024,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+        "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+      ]
+    },
+    {
       "id": "kenney-cushion-chair",
       "title": "Kenney cushioned dining chair",
       "category": "furniture/chairs",
@@ -5985,6 +6216,52 @@
       ]
     },
     {
+      "id": "ph-schoolchair-01",
+      "title": "School Chair 01",
+      "category": "furniture/chairs",
+      "style": "realistic",
+      "tags": [
+        "prop",
+        "furniture",
+        "metal",
+        "plastic",
+        "chair",
+        "school",
+        "polyhaven"
+      ],
+      "creator": "Ethan Place",
+      "license": "CC0-1.0",
+      "license_notes": [],
+      "resale_as_is": "The license page states the assets can be redistributed, including inside a product you sell.",
+      "source_url": "https://polyhaven.com/a/SchoolChair_01",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/furniture/chairs/ph-schoolchair-01",
+      "metadata": "assets/furniture/chairs/ph-schoolchair-01/asset.json",
+      "metadata_sha256": "725a7f4339da83ad269f33086183840e4ab60507a303996eb2a861cc5007ae70",
+      "model": "assets/furniture/chairs/ph-schoolchair-01/model/SchoolChair_01_2k.gltf",
+      "preview": "assets/furniture/chairs/ph-schoolchair-01/previews/orbit-01.jpg",
+      "contact_sheet": "assets/furniture/chairs/ph-schoolchair-01/previews/contact-sheet.jpg",
+      "triangles": 5072,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "The selected package uses the downloaded texture resolution; higher-resolution upstream files are not included.",
+        "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+      ]
+    },
+    {
       "id": "ph-victorian-armchair",
       "title": "Victorian armchair",
       "category": "furniture/chairs",
@@ -6116,6 +6393,52 @@
       "review_limitations": [
         "No image textures; flat-color materials are intentional.",
         "Five zero-area triangles retained from upstream."
+      ]
+    },
+    {
+      "id": "ph-painted-wooden-sofa",
+      "title": "Painted Wooden Sofa",
+      "category": "furniture/sofas",
+      "style": "realistic",
+      "tags": [
+        "chair",
+        "outdoor",
+        "couch",
+        "wooden",
+        "vintage",
+        "aged",
+        "polyhaven"
+      ],
+      "creator": "Kirill Sannikov",
+      "license": "CC0-1.0",
+      "license_notes": [],
+      "resale_as_is": "The license page states the assets can be redistributed, including inside a product you sell.",
+      "source_url": "https://polyhaven.com/a/painted_wooden_sofa",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/furniture/sofas/ph-painted-wooden-sofa",
+      "metadata": "assets/furniture/sofas/ph-painted-wooden-sofa/asset.json",
+      "metadata_sha256": "4ef6f30845c788edde79dcd437c7f2590cc32c8b1c509927c4bc6177d0d2900b",
+      "model": "assets/furniture/sofas/ph-painted-wooden-sofa/model/painted_wooden_sofa_2k.gltf",
+      "preview": "assets/furniture/sofas/ph-painted-wooden-sofa/previews/orbit-01.jpg",
+      "contact_sheet": "assets/furniture/sofas/ph-painted-wooden-sofa/previews/contact-sheet.jpg",
+      "triangles": 5826,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "The selected package uses the downloaded texture resolution; higher-resolution upstream files are not included.",
+        "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
       ]
     },
     {
@@ -6390,6 +6713,53 @@
       "review_limitations": [
         "Drawers are modelled closed and are not rigged to open.",
         "Wood figure repeats slightly between the three drawer fronts."
+      ]
+    },
+    {
+      "id": "ph-modern-wooden-cabinet",
+      "title": "Modern Wooden Cabinet",
+      "category": "furniture/storage",
+      "style": "realistic",
+      "tags": [
+        "cabinet",
+        "wood",
+        "modern",
+        "minimalist",
+        "interrior",
+        "living room",
+        "polyhaven"
+      ],
+      "creator": "Patrik Pangerl",
+      "license": "CC0-1.0",
+      "license_notes": [],
+      "resale_as_is": "The license page states the assets can be redistributed, including inside a product you sell.",
+      "source_url": "https://polyhaven.com/a/modern_wooden_cabinet",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/furniture/storage/ph-modern-wooden-cabinet",
+      "metadata": "assets/furniture/storage/ph-modern-wooden-cabinet/asset.json",
+      "metadata_sha256": "7c77a9c50a22de4812ae3c19975640fa3985b39e0f8538f2e465f7d5aa8199b9",
+      "model": "assets/furniture/storage/ph-modern-wooden-cabinet/model/modern_wooden_cabinet_1k.gltf",
+      "preview": "assets/furniture/storage/ph-modern-wooden-cabinet/previews/orbit-01.jpg",
+      "contact_sheet": "assets/furniture/storage/ph-modern-wooden-cabinet/previews/contact-sheet.jpg",
+      "triangles": 24976,
+      "texture_count": 3,
+      "max_texture_resolution": 1024,
+      "rigged": false,
+      "animation_count": 3,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+        "glTF validator reports 3 generated-tangent-space warning(s); normal-map shading can vary by renderer.",
+        "Doors appear closed; interior and door movement were not inspected."
       ]
     },
     {
@@ -7948,6 +8318,148 @@
       "review_limitations": [
         "Glass globe is dark and non-transmissive in the inspection render; enable transmission in your engine.",
         "No flame or light source is included."
+      ]
+    },
+    {
+      "id": "ph-industrial-pipe-lamp",
+      "title": "Industrial Pipe Lamp",
+      "category": "lighting/lamps",
+      "style": "realistic",
+      "tags": [
+        "desk light",
+        "lamp",
+        "metal",
+        "industrial",
+        "workshop lamp",
+        "mechanical",
+        "polyhaven"
+      ],
+      "creator": "Mateusz Sadek",
+      "license": "CC0-1.0",
+      "license_notes": [],
+      "resale_as_is": "The license page states the assets can be redistributed, including inside a product you sell.",
+      "source_url": "https://polyhaven.com/a/industrial_pipe_lamp",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/lighting/lamps/ph-industrial-pipe-lamp",
+      "metadata": "assets/lighting/lamps/ph-industrial-pipe-lamp/asset.json",
+      "metadata_sha256": "4ee9cb21d1475f3e1e7949654b51ea6a4cbbfd8936c532479b8aea27a443ee96",
+      "model": "assets/lighting/lamps/ph-industrial-pipe-lamp/model/industrial_pipe_lamp_1k.gltf",
+      "preview": "assets/lighting/lamps/ph-industrial-pipe-lamp/previews/orbit-01.jpg",
+      "contact_sheet": "assets/lighting/lamps/ph-industrial-pipe-lamp/previews/contact-sheet.jpg",
+      "triangles": 8626,
+      "texture_count": 4,
+      "max_texture_resolution": 1024,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+        "glTF validator reports 3 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+      ]
+    },
+    {
+      "id": "ph-medical-box",
+      "title": "Medical Box",
+      "category": "medical/equipment",
+      "style": "realistic",
+      "tags": [
+        "worn",
+        "metal",
+        "green",
+        "medical",
+        "first aid",
+        "storage",
+        "polyhaven"
+      ],
+      "creator": "Ulan Cabanilla",
+      "license": "CC0-1.0",
+      "license_notes": [],
+      "resale_as_is": "The license page states the assets can be redistributed, including inside a product you sell.",
+      "source_url": "https://polyhaven.com/a/medical_box",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/medical/equipment/ph-medical-box",
+      "metadata": "assets/medical/equipment/ph-medical-box/asset.json",
+      "metadata_sha256": "27f4e096979abdd64a54d436eadb03ca89c44e74dba1b5099fc40e375667a249",
+      "model": "assets/medical/equipment/ph-medical-box/model/medical_box_1k.gltf",
+      "preview": "assets/medical/equipment/ph-medical-box/previews/orbit-01.jpg",
+      "contact_sheet": "assets/medical/equipment/ph-medical-box/previews/contact-sheet.jpg",
+      "triangles": 3718,
+      "texture_count": 3,
+      "max_texture_resolution": 1024,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 1,
+      "authored_animations": [
+        "lid_open"
+      ],
+      "animated_model": "assets/medical/equipment/ph-medical-box/model/medical_box_1k-animated.glb",
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+        "glTF validator reports 5 generated-tangent-space warning(s); normal-map shading can vary by renderer.",
+        "The box is empty; no first-aid contents are included. The library-authored opening clip moves the lid but does not animate the latches.",
+        "Three sampled animation frames were inspected; continuous playback and all intermediate frames were not individually checked. Animated GLB validation: 0 errors, 5 warnings."
+      ]
+    },
+    {
+      "id": "ph-vintage-crutches-01",
+      "title": "Vintage Crutches 01",
+      "category": "medical/mobility",
+      "style": "realistic",
+      "tags": [
+        "vintage",
+        "war",
+        "old",
+        "antique",
+        "wood",
+        "hospital",
+        "polyhaven"
+      ],
+      "creator": "James Ray Cock",
+      "license": "CC0-1.0",
+      "license_notes": [],
+      "resale_as_is": "The license page states the assets can be redistributed, including inside a product you sell.",
+      "source_url": "https://polyhaven.com/a/vintage_crutches_01",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/medical/mobility/ph-vintage-crutches-01",
+      "metadata": "assets/medical/mobility/ph-vintage-crutches-01/asset.json",
+      "metadata_sha256": "9c24affc6b3c1439a879a9e3e6fb7c8ceaa3da119ef0729eb6210c3353633881",
+      "model": "assets/medical/mobility/ph-vintage-crutches-01/model/vintage_crutches_01_1k.gltf",
+      "preview": "assets/medical/mobility/ph-vintage-crutches-01/previews/orbit-01.jpg",
+      "contact_sheet": "assets/medical/mobility/ph-vintage-crutches-01/previews/contact-sheet.jpg",
+      "triangles": 10628,
+      "texture_count": 3,
+      "max_texture_resolution": 1024,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+        "glTF validator reports 2 generated-tangent-space warning(s); normal-map shading can vary by renderer."
       ]
     },
     {
@@ -10832,6 +11344,52 @@
       ]
     },
     {
+      "id": "ph-baseball-bat",
+      "title": "Baseball Bat",
+      "category": "sports/equipment",
+      "style": "realistic",
+      "tags": [
+        "game",
+        "sports",
+        "baseball",
+        "toy",
+        "activities",
+        "bat",
+        "polyhaven"
+      ],
+      "creator": "Enrique Martín",
+      "license": "CC0-1.0",
+      "license_notes": [],
+      "resale_as_is": "The license page states the assets can be redistributed, including inside a product you sell.",
+      "source_url": "https://polyhaven.com/a/baseball_bat",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/sports/equipment/ph-baseball-bat",
+      "metadata": "assets/sports/equipment/ph-baseball-bat/asset.json",
+      "metadata_sha256": "83c1b081a802e9103447c1522798f1864aafe66adb623a508c93896d22cdb373",
+      "model": "assets/sports/equipment/ph-baseball-bat/model/baseball_bat_1k.gltf",
+      "preview": "assets/sports/equipment/ph-baseball-bat/previews/orbit-01.jpg",
+      "contact_sheet": "assets/sports/equipment/ph-baseball-bat/previews/contact-sheet.jpg",
+      "triangles": 2672,
+      "texture_count": 3,
+      "max_texture_resolution": 1024,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+        "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+      ]
+    },
+    {
       "id": "ph-adjustable-wrench",
       "title": "Vintage adjustable wrench",
       "category": "tools/hand-tools",
@@ -11066,6 +11624,98 @@
       "review_limitations": [
         "Not rigged in the shipped glTF; the drive and reversing lever do not move.",
         "No sockets are included."
+      ]
+    },
+    {
+      "id": "ph-rusted-hacksaw",
+      "title": "Rusted Hacksaw",
+      "category": "tools/hand-tools",
+      "style": "realistic",
+      "tags": [
+        "rusted",
+        "corroded",
+        "weathered",
+        "metal",
+        "saw",
+        "woodwork",
+        "polyhaven"
+      ],
+      "creator": "Dabou Master",
+      "license": "CC0-1.0",
+      "license_notes": [],
+      "resale_as_is": "The license page states the assets can be redistributed, including inside a product you sell.",
+      "source_url": "https://polyhaven.com/a/rusted_hacksaw",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/tools/hand-tools/ph-rusted-hacksaw",
+      "metadata": "assets/tools/hand-tools/ph-rusted-hacksaw/asset.json",
+      "metadata_sha256": "fb86e11b9684f5ac50c2fde35853b3d0ae25aca1252fb046a1da61c68bf67f30",
+      "model": "assets/tools/hand-tools/ph-rusted-hacksaw/model/rusted_hacksaw_1k.gltf",
+      "preview": "assets/tools/hand-tools/ph-rusted-hacksaw/previews/orbit-01.jpg",
+      "contact_sheet": "assets/tools/hand-tools/ph-rusted-hacksaw/previews/contact-sheet.jpg",
+      "triangles": 6546,
+      "texture_count": 3,
+      "max_texture_resolution": 1024,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+        "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+      ]
+    },
+    {
+      "id": "ph-sledgehammer-01",
+      "title": "Sledgehammer 01",
+      "category": "tools/hand-tools",
+      "style": "realistic",
+      "tags": [
+        "outdoor",
+        "construction",
+        "hammer",
+        "nails",
+        "heavy",
+        "shed",
+        "polyhaven"
+      ],
+      "creator": "Dylan Guzman",
+      "license": "CC0-1.0",
+      "license_notes": [],
+      "resale_as_is": "The license page states the assets can be redistributed, including inside a product you sell.",
+      "source_url": "https://polyhaven.com/a/sledgehammer_01",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/tools/hand-tools/ph-sledgehammer-01",
+      "metadata": "assets/tools/hand-tools/ph-sledgehammer-01/asset.json",
+      "metadata_sha256": "869dbf7add417d110fdfe4ce1290a7afcbf079c9b51b44ec7ce8731aff19e861",
+      "model": "assets/tools/hand-tools/ph-sledgehammer-01/model/sledgehammer_01_1k.gltf",
+      "preview": "assets/tools/hand-tools/ph-sledgehammer-01/previews/orbit-01.jpg",
+      "contact_sheet": "assets/tools/hand-tools/ph-sledgehammer-01/previews/contact-sheet.jpg",
+      "triangles": 2596,
+      "texture_count": 3,
+      "max_texture_resolution": 1024,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+        "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
       ]
     },
     {
@@ -11394,6 +12044,53 @@
       "review_limitations": [
         "Generated tangent-space warning is informational.",
         "Static hero prop; no collision mesh or LODs supplied."
+      ]
+    },
+    {
+      "id": "ph-chess-set",
+      "title": "Chess Set",
+      "category": "toys/games",
+      "style": "realistic",
+      "tags": [
+        "boardgame",
+        "game",
+        "old",
+        "decor",
+        "home",
+        "vintage",
+        "polyhaven"
+      ],
+      "creator": "Riley Queen",
+      "license": "CC0-1.0",
+      "license_notes": [],
+      "resale_as_is": "The license page states the assets can be redistributed, including inside a product you sell.",
+      "source_url": "https://polyhaven.com/a/chess_set",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/toys/games/ph-chess-set",
+      "metadata": "assets/toys/games/ph-chess-set/asset.json",
+      "metadata_sha256": "ac741bbb80e4f7a1525bab507589383b174f1d56dc9e21a955c7bedaff95f472",
+      "model": "assets/toys/games/ph-chess-set/model/chess_set_1k.gltf",
+      "preview": "assets/toys/games/ph-chess-set/previews/orbit-01.jpg",
+      "contact_sheet": "assets/toys/games/ph-chess-set/previews/contact-sheet.jpg",
+      "triangles": 76920,
+      "texture_count": 9,
+      "max_texture_resolution": 1024,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "The selected package uses the downloaded texture resolution; higher-resolution upstream files are not included.",
+        "glTF validator reports 37 generated-tangent-space warning(s); normal-map shading can vary by renderer.",
+        "The pieces are positioned as a static scene; no chess rules, interactions or animations are supplied."
       ]
     },
     {
@@ -12803,6 +13500,52 @@
       ]
     },
     {
+      "id": "ph-ocean-buoy",
+      "title": "Ocean Buoy",
+      "category": "vehicles/watercraft",
+      "style": "realistic",
+      "tags": [
+        "marine buoy",
+        "light beacon",
+        "maritime",
+        "ship",
+        "dock",
+        "jetty",
+        "polyhaven"
+      ],
+      "creator": "Mateusz Sadek",
+      "license": "CC0-1.0",
+      "license_notes": [],
+      "resale_as_is": "The license page states the assets can be redistributed, including inside a product you sell.",
+      "source_url": "https://polyhaven.com/a/ocean_buoy",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/vehicles/watercraft/ph-ocean-buoy",
+      "metadata": "assets/vehicles/watercraft/ph-ocean-buoy/asset.json",
+      "metadata_sha256": "786cad7b88b058b090740985d9bc1f37323684017a447d1ba466b8b2945fcc6b",
+      "model": "assets/vehicles/watercraft/ph-ocean-buoy/model/ocean_buoy_2k.gltf",
+      "preview": "assets/vehicles/watercraft/ph-ocean-buoy/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/watercraft/ph-ocean-buoy/previews/contact-sheet.jpg",
+      "triangles": 12240,
+      "texture_count": 4,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "The selected package uses the downloaded texture resolution; higher-resolution upstream files are not included.",
+        "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+      ]
+    },
+    {
       "id": "ph-cannon",
       "title": "Colonial ship cannon",
       "category": "weapons/artillery",
@@ -13665,9 +14408,10 @@
     }
   ],
   "totals": {
-    "assets": 286,
-    "categories": 81,
+    "assets": 302,
+    "categories": 86,
     "by_category": {
+      "apparel/accessories": 1,
       "architecture/doors": 1,
       "architecture/fences": 1,
       "architecture/gates": 2,
@@ -13700,15 +14444,15 @@
       "electronics/retail": 1,
       "electronics/security": 1,
       "food/baked-goods": 2,
-      "food/fruit": 7,
+      "food/fruit": 9,
       "food/snacks": 1,
-      "food/vegetables": 1,
+      "food/vegetables": 2,
       "furniture/beds": 3,
-      "furniture/carts": 1,
-      "furniture/chairs": 5,
+      "furniture/carts": 2,
+      "furniture/chairs": 6,
       "furniture/desks": 1,
-      "furniture/sofas": 2,
-      "furniture/storage": 9,
+      "furniture/sofas": 3,
+      "furniture/storage": 10,
       "furniture/tables": 3,
       "industrial/containers": 6,
       "industrial/electrical": 1,
@@ -13718,7 +14462,9 @@
       "kitchen/tableware": 4,
       "lighting/ceiling": 1,
       "lighting/chandeliers": 4,
-      "lighting/lamps": 4,
+      "lighting/lamps": 5,
+      "medical/equipment": 1,
+      "medical/mobility": 1,
       "music/instruments": 1,
       "nature/aquatic": 8,
       "nature/aquatic/stylized": 1,
@@ -13730,11 +14476,13 @@
       "nature/wildlife": 34,
       "nature/wildlife/stylized": 1,
       "science/optical": 3,
-      "tools/hand-tools": 5,
+      "sports/equipment": 1,
+      "tools/hand-tools": 7,
       "tools/measuring": 2,
       "tools/power-tools": 3,
       "tools/storage": 1,
       "toys/figures": 1,
+      "toys/games": 1,
       "vehicles/bikes": 2,
       "vehicles/cars": 8,
       "vehicles/cars/classic": 1,
@@ -13743,7 +14491,7 @@
       "vehicles/parts": 6,
       "vehicles/rail": 5,
       "vehicles/trucks": 1,
-      "vehicles/watercraft": 3,
+      "vehicles/watercraft": 4,
       "weapons/artillery": 1,
       "weapons/explosives": 1,
       "weapons/firearms": 2,
@@ -13752,7 +14500,7 @@
     },
     "by_style": {
       "low-poly": 26,
-      "realistic": 173,
+      "realistic": 189,
       "stylized": 87
     }
   }

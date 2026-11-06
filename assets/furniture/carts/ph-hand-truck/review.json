@@ -1,0 +1,21 @@
+{
+  "id": "ph-hand-truck",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Worn hand truck with two wheels, red tubular frame, handles and toe plate; complete in twelve inspection views.",
+  "limitations": [
+    "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+    "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+  ],
+  "contact_sheet_sha256": "dd703bfbdf534b7e809c44be3c44ef6aa7f47ca70b4289b0d1e43f34cd191798",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "id": "ph-baseball-bat",
+  "title": "Baseball Bat",
+  "category": "sports/equipment",
+  "style": "realistic",
+  "tags": [
+    "game",
+    "sports",
+    "baseball",
+    "toy",
+    "activities",
+    "bat",
+    "polyhaven"
+  ],
+  "batch": "realistic-diverse-01",
+  "acquired_at": "2026-11-06T09:46:59.289799+00:00",
+  "review": {
+    "id": "ph-baseball-bat",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Wooden baseball bat with worn wood and wrapped handle; complete simple silhouette visible from all inspection views.",
+    "limitations": [
+      "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+      "glTF validator reports 1 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+    ],
+    "contact_sheet_sha256": "bd5c4cbe9fd0d946f6e25be1f92d41de5ab219cd628207bfd8e2b983dd055899",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/baseball_bat_1k.gltf",
+    "creator": "Enrique Martín",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/baseball_bat",
+    "source_id": "baseball_bat",
+    "resolution": "1k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/baseball_bat/baseball_bat_1k.gltf",
+        "bytes": 2874,
+        "sha256": "a55e57c03f986a82713c4751e6e6372d39b5f25eee9bbd31576b62bbebe0fa59"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/baseball_bat/baseball_bat_nor_gl_1k.jpg",
+        "bytes": 367443,
+        "sha256": "1fc254147dc4caca617e7d92b526820b5cb4a299e9d4f254e71565814cc44337"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/baseball_bat/baseball_bat_arm_1k.jpg",
+        "bytes": 786624,
+        "sha256": "717489c7ca0fd799e87964ac685f43e94bc790199251f83b1ebb421b81531f08"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/baseball_bat/baseball_bat_diff_1k.jpg",
+        "bytes": 442458,
+        "sha256": "b542dc267c1b6abf8fcc3e864976be0269baaff2c00d1c98e58a60631ab6559a"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/baseball_bat/baseball_bat.bin",
+        "bytes": 74048,
+        "sha256": "884a4120d81c38e9370861f21c36a6fb3e53ad0d72eb0833ce9f9b9853e5199b"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/baseball_bat_1k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/baseball_bat_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "baseball_bat_nor_gl"
+    },
+    {
+      "path": "model/textures/baseball_bat_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "baseball_bat_diff"
+    },
+    {
+      "path": "model/textures/baseball_bat_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "baseball_bat_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 1813,
+    "triangles": 2672,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "baseball_bat_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-baseball-bat/model/textures/baseball_bat_diff_1k.jpg"
+      },
+      {
+        "name": "baseball_bat_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-baseball-bat/model/textures/baseball_bat_nor_gl_1k.jpg"
+      },
+      {
+        "name": "baseball_bat_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-baseball-bat/model/textures/baseball_bat_arm_1k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1325,
+      "sha256": "68a8518da02caca20460b9966a49db597391fe5911aa4337307c7849eeb0956a",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 283,
+      "sha256": "6e7387e71d617183333ca1969679616059e95691e8af1d2e6c30201cc01fb9df",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 66933,
+      "sha256": "d501e73d332ee102feaf2701fa929eb4991d1a3090317bc119b098d9f3c82496",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/baseball_bat.bin",
+      "bytes": 74048,
+      "sha256": "884a4120d81c38e9370861f21c36a6fb3e53ad0d72eb0833ce9f9b9853e5199b",
+      "role": "model"
+    },
+    {
+      "path": "model/baseball_bat_1k.gltf",
+      "bytes": 2874,
+      "sha256": "a55e57c03f986a82713c4751e6e6372d39b5f25eee9bbd31576b62bbebe0fa59",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/baseball_bat_arm_1k.jpg",
+      "bytes": 786624,
+      "sha256": "717489c7ca0fd799e87964ac685f43e94bc790199251f83b1ebb421b81531f08",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/baseball_bat_diff_1k.jpg",
+      "bytes": 442458,
+      "sha256": "b542dc267c1b6abf8fcc3e864976be0269baaff2c00d1c98e58a60631ab6559a",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/baseball_bat_nor_gl_1k.jpg",
+      "bytes": 367443,
+      "sha256": "1fc254147dc4caca617e7d92b526820b5cb4a299e9d4f254e71565814cc44337",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 28858,
+      "sha256": "3976223973ae18a7f0839ba68bd47e6c068d2bd5426bab55ff2f18cf7da3ea01",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 11136,
+      "sha256": "19892c86293ac8f729c3c7e2dd35024bbc4a91970acae08811b8284263ab5fb9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 126253,
+      "sha256": "bd5c4cbe9fd0d946f6e25be1f92d41de5ab219cd628207bfd8e2b983dd055899",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1155,
+      "sha256": "b7112fb87c5e1e51d0e9cdd05751e2c04a3529df6c4caf850b9ddc188f1798e9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 13631,
+      "sha256": "bfd9a8ede94751c23746f49eb231c1881475d54709f083fddb9f678f4c5e3acc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 13635,
+      "sha256": "8fce484e203bf1419e113afb9a8637128c6521dbb5bb28c09590c3e82333e534",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 13887,
+      "sha256": "91450093baea6ec212773be335c5ee725be13f21bc126aa61e53de0a07a8e799",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 13798,
+      "sha256": "ec565746321ff70a7f2353fb0ad32e00f63411fd0e2de0e0b103249e7589f8a8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 13909,
+      "sha256": "09a9621e7111ddf731249238e2d0bece4c91f6427266eac841d4502841216ab2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 13664,
+      "sha256": "aceeaf7322c06e94cf4e9c28f046c9cb14daf0468673e996e495e601a6a0dd36",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 13479,
+      "sha256": "d402c443b33c7b2a8e05e0ac09f1528c95a6c42d5a04476eb432cdc5bf9cd66a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 13441,
+      "sha256": "8ad9353c5ee699f0a10b7c327a013f7722e44976c78dd1c57a623a6bcd9f821c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 38246,
+      "sha256": "e25ec415f4a154f5a15dc96b2475c5655f2559712280db555cb8ea1aefe8e99d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 14053,
+      "sha256": "d68045806f447bb2069ed24ff0a14b5f3b153d63f3e198fa94803cc468e1f7ae",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 162,
+      "sha256": "9a672fd94b9ce5412189659747d7887f549026028f6a0ae8dcf5c3d626529f6e",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1241,
+      "sha256": "7053a862c9d82b8beab4d82a0562ea36173861f557bb386b970759fd31650ca5",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2121,
+      "sha256": "1438d80f4a70ead4014e77fc46159695e473a76fd66439b1ffcfbd54becae2eb",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1073,
+      "sha256": "54130a013a2ee06d5fdcc22cdf8a6a70f747dca06f38179c865c2c8439acf4ea",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 806,
+      "sha256": "c9395d9565208c607ed3693039122578589e57b306b04469c2973c22273e7223",
+      "role": "documentation"
+    }
+  ]
+}

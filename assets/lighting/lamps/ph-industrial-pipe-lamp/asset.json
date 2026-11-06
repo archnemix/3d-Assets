@@ -1,0 +1,393 @@
+{
+  "schema_version": 1,
+  "id": "ph-industrial-pipe-lamp",
+  "title": "Industrial Pipe Lamp",
+  "category": "lighting/lamps",
+  "style": "realistic",
+  "tags": [
+    "desk light",
+    "lamp",
+    "metal",
+    "industrial",
+    "workshop lamp",
+    "mechanical",
+    "polyhaven"
+  ],
+  "batch": "realistic-diverse-01",
+  "acquired_at": "2026-11-06T09:45:34.155666+00:00",
+  "review": {
+    "id": "ph-industrial-pipe-lamp",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Metal pipe desk lamp with angled joints, shade, weighted base and visible glowing filament; complete in inspection views.",
+    "limitations": [
+      "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+      "glTF validator reports 3 generated-tangent-space warning(s); normal-map shading can vary by renderer."
+    ],
+    "contact_sheet_sha256": "dea68b83c149a30118102583727c003b49dc14ecce0ecbd677f7f2a93f36a947",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/industrial_pipe_lamp_1k.gltf",
+    "creator": "Mateusz Sadek",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/industrial_pipe_lamp",
+    "source_id": "industrial_pipe_lamp",
+    "resolution": "1k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/industrial_pipe_lamp/industrial_pipe_lamp_1k.gltf",
+        "bytes": 7419,
+        "sha256": "c5a84037c9183d2966c5659213a0d5190f8fce305153829d81028f6589330af7"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/industrial_pipe_lamp/industrial_pipe_lamp_emission_1k.jpg",
+        "bytes": 26599,
+        "sha256": "fca3fb29d89214d49842cde79125727ff308b4ba1b3912c5ebcc65846cd0cc10"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/industrial_pipe_lamp/industrial_pipe_lamp_nor_gl_1k.jpg",
+        "bytes": 602864,
+        "sha256": "deb1517375d6a054671990ae63735b8b2808038c7406136f0a61ee848acd3377"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/industrial_pipe_lamp/industrial_pipe_lamp_diff_1k.jpg",
+        "bytes": 716999,
+        "sha256": "630c5732f1027a6acd369bac3b44c040ecbaff8f21e491a480c36715f15205ce"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/industrial_pipe_lamp/industrial_pipe_lamp_arm_1k.jpg",
+        "bytes": 771842,
+        "sha256": "ed862bc1d71322cd38efde6e4b1aa6b24b9e85eb950b7e0fc82a98b1c619f7fa"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/industrial_pipe_lamp/industrial_pipe_lamp.bin",
+        "bytes": 282476,
+        "sha256": "75690aa977d3bb011633ed649e058eb43ffef283f3a374f4842e411b25f82775"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/industrial_pipe_lamp_1k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 3,
+    "materials": 2,
+    "images": 4,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_materials_emissive_strength"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/industrial_pipe_lamp_emission_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "industrial_pipe_lamp_emission"
+    },
+    {
+      "path": "model/textures/industrial_pipe_lamp_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "industrial_pipe_lamp_nor_gl"
+    },
+    {
+      "path": "model/textures/industrial_pipe_lamp_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "industrial_pipe_lamp_diff"
+    },
+    {
+      "path": "model/textures/industrial_pipe_lamp_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "industrial_pipe_lamp_metal-industrial_pipe_lamp_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 3,
+    "hidden_mesh_objects": 0,
+    "vertices": 7210,
+    "triangles": 8626,
+    "material_slots": 3,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "industrial_pipe_lamp_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-industrial-pipe-lamp/model/textures/industrial_pipe_lamp_diff_1k.jpg"
+      },
+      {
+        "name": "industrial_pipe_lamp_emission",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-industrial-pipe-lamp/model/textures/industrial_pipe_lamp_emission_1k.jpg"
+      },
+      {
+        "name": "industrial_pipe_lamp_metal-industrial_pipe_lamp_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-industrial-pipe-lamp/model/textures/industrial_pipe_lamp_arm_1k.jpg"
+      },
+      {
+        "name": "industrial_pipe_lamp_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-industrial-pipe-lamp/model/textures/industrial_pipe_lamp_nor_gl_1k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 3,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1345,
+      "sha256": "7500c39a9b0ac9c21f434cfe25bcddfd87848f52ed9f9b97bd4a2c59c4aa1649",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 390,
+      "sha256": "6939129bb38c9ce98641f66286f5bf65eac701466e988b8d6ceacb12c843e50d",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 70275,
+      "sha256": "f3095ef60c7acc881d245745f4af0ef15cd9ef43f50ae6d1ad236fa8f385fa82",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "13a8b99793ba089c84f4df144fa4bf72282f0ff6e6d5c1cb98630ea56b0eec8e",
+      "role": "logs"
+    },
+    {
+      "path": "model/industrial_pipe_lamp.bin",
+      "bytes": 282476,
+      "sha256": "75690aa977d3bb011633ed649e058eb43ffef283f3a374f4842e411b25f82775",
+      "role": "model"
+    },
+    {
+      "path": "model/industrial_pipe_lamp_1k.gltf",
+      "bytes": 7419,
+      "sha256": "c5a84037c9183d2966c5659213a0d5190f8fce305153829d81028f6589330af7",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/industrial_pipe_lamp_arm_1k.jpg",
+      "bytes": 771842,
+      "sha256": "ed862bc1d71322cd38efde6e4b1aa6b24b9e85eb950b7e0fc82a98b1c619f7fa",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/industrial_pipe_lamp_diff_1k.jpg",
+      "bytes": 716999,
+      "sha256": "630c5732f1027a6acd369bac3b44c040ecbaff8f21e491a480c36715f15205ce",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/industrial_pipe_lamp_emission_1k.jpg",
+      "bytes": 26599,
+      "sha256": "fca3fb29d89214d49842cde79125727ff308b4ba1b3912c5ebcc65846cd0cc10",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/industrial_pipe_lamp_nor_gl_1k.jpg",
+      "bytes": 602864,
+      "sha256": "deb1517375d6a054671990ae63735b8b2808038c7406136f0a61ee848acd3377",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 29355,
+      "sha256": "d144caffc8ac38e1a0b1e99bbbc7b0cddd66817a7aef668c0dda082511d13c91",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 17439,
+      "sha256": "85af9c5b621dbf55f78635009d63b5a3034806065cc184230b523cf5c5071879",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 199737,
+      "sha256": "dea68b83c149a30118102583727c003b49dc14ecce0ecbd677f7f2a93f36a947",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1560,
+      "sha256": "f0c2e8a1a5d9a83c41a945fbde783ce01f2c84edc280dea2fc4754be56b42624",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 24141,
+      "sha256": "89d81437d33897ae718e6691421026bcad547ddce843c5c7fd997218b2639fe6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 26827,
+      "sha256": "e49ba4607ce0c2b7cc157fc7c850e6609f3bd60cc559163fae03085376216738",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 27040,
+      "sha256": "fdddb7924698fe78a61dba51731b7c9599970a2e5466011b0d46f7efa6c02c5c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 27312,
+      "sha256": "49bbf7ad232d7a4bb8f6f1837ce7ca59d3b70e4cfb9af403b6ecc6fdfe4303df",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 26004,
+      "sha256": "0f0ba852820475efe199ae89ee65ebdf2d43a50c91d504a2c820ce63f0b232c7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 28091,
+      "sha256": "92dc449ad8df0bb574fa63a9662ec7ea18ca04aaf02942de5daed0b7273b9e81",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 28322,
+      "sha256": "df3e883dec3b941bb11f54ad5eadbc88e584144f808dd6d8ed8201d50f56c5d1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 27037,
+      "sha256": "7af0bfaa4657c103b4b8f12a5102bea6dce49177f8647b6ba309ddb65b194772",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 34487,
+      "sha256": "701b89b5818e8129de24ff9700b03648982862195587b1820a15ac525b87d9ef",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 32770,
+      "sha256": "e525ff5e02d599fd0b9b14842e2c7fc903e5397ccc34c66a014581f79eacf343",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 170,
+      "sha256": "aefc44c86368168f592134bfa8c175e057d0e722617c7042d5ccffa60076f3b2",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1260,
+      "sha256": "368ff9ee5ceae1efa4a546e3049facdd7ecae198f08f5bc88c9e67f409055105",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3192,
+      "sha256": "b101ddca4479a1ae361c56fc64522c157136a72829970fa4977c60a5c32617dc",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1445,
+      "sha256": "9cb013fac026af390198a3e002fe63376de4f383e475eecd0e0118c7ba57e1c2",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 819,
+      "sha256": "5876a15ec92102ecc5c4dc6a9738d34c31df068a6b950bf73989e7aaa120b787",
+      "role": "documentation"
+    }
+  ]
+}

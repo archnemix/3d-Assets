@@ -1,0 +1,401 @@
+{
+  "schema_version": 1,
+  "id": "ph-medical-box",
+  "title": "Medical Box",
+  "category": "medical/equipment",
+  "style": "realistic",
+  "tags": [
+    "worn",
+    "metal",
+    "green",
+    "medical",
+    "first aid",
+    "storage",
+    "polyhaven"
+  ],
+  "batch": "realistic-diverse-01",
+  "acquired_at": "2026-11-06T09:42:18.038904+00:00",
+  "review": {
+    "id": "ph-medical-box",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "First-aid box with latches and handle, inspected twelve exterior views and three rendered lid_open frames showing the lid open onto an empty metal interior; independently validated animated GLB.",
+    "limitations": [
+      "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
+      "glTF validator reports 5 generated-tangent-space warning(s); normal-map shading can vary by renderer.",
+      "The box is empty; no first-aid contents are included. The library-authored opening clip moves the lid but does not animate the latches.",
+      "Three sampled animation frames were inspected; continuous playback and all intermediate frames were not individually checked. Animated GLB validation: 0 errors, 5 warnings."
+    ],
+    "contact_sheet_sha256": "9695e39d4bc6b8370da1c2070e172ed351de1a12b0eb43682fe9ec7be5f6f642",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/medical_box_1k.gltf",
+    "creator": "Ulan Cabanilla",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/medical_box",
+    "source_id": "medical_box",
+    "resolution": "1k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/medical_box/medical_box_1k.gltf",
+        "bytes": 8820,
+        "sha256": "ae52391cf95b6ec6505530ad00c098a5bafb173f39371296da3ce9db6808f01f"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/medical_box/medical_box_nor_gl_1k.jpg",
+        "bytes": 358278,
+        "sha256": "9afa38d3139b6cd9c022e371e3c53d2e8c21ab6cb2326a08e9457c506d82058c"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/medical_box/medical_box_diff_1k.jpg",
+        "bytes": 674432,
+        "sha256": "64627e4be15f9a83a2d160b62e54bb9963f225c2312671b3d6d82928f7de19a9"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/medical_box/medical_box_arm_1k.jpg",
+        "bytes": 805882,
+        "sha256": "eb61c506d05506fabd141a1a0caa130e305f81bb75847ab5dba7eaf621ad49c4"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/medical_box/medical_box.bin",
+        "bytes": 127972,
+        "sha256": "0104f7edd5da4cd1847bf4b3c23d6d4af14c16670827387b1f33048c554da189"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/medical_box_1k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 5,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/medical_box_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "medical_box_nor_gl"
+    },
+    {
+      "path": "model/textures/medical_box_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "medical_box_diff"
+    },
+    {
+      "path": "model/textures/medical_box_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "medical_box_metal-medical_box_rough"
+    }
+  ],
+  "authored_animations": [
+    {
+      "name": "lid_open",
+      "parts": [
+        "medical_box_lid"
+      ],
+      "axis": "X",
+      "start_degrees": 0.0,
+      "degrees": -105.0,
+      "frames": 60,
+      "fps": 30
+    }
+  ],
+  "animated_model": "model/medical_box_1k-animated.glb",
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 5,
+    "hidden_mesh_objects": 0,
+    "vertices": 3302,
+    "triangles": 3718,
+    "material_slots": 5,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "medical_box_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-medical-box/model/textures/medical_box_diff_1k.jpg"
+      },
+      {
+        "name": "medical_box_metal-medical_box_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-medical-box/model/textures/medical_box_arm_1k.jpg"
+      },
+      {
+        "name": "medical_box_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/realistic-diverse-01/ph-medical-box/model/textures/medical_box_nor_gl_1k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 5,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1635,
+      "sha256": "ca3f3aacd1ab3145e396d28a3464ff70bc72fe2d2fbb4311bd93814eeed416ca",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 19454,
+      "sha256": "7b852ba334fff9e9ef84b2d4668f1d7b06c8cd17f4cd81b589edde859eebb528",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 72229,
+      "sha256": "78b51579a1e657f18f8a36eeb8abe5f6a922ac1adef09c674b83d33222aa1389",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "4a1ac31e02299efa77ae3b810565b7859ed55e6bb96e9664c8420d2f29890ce8",
+      "role": "logs"
+    },
+    {
+      "path": "model/medical_box.bin",
+      "bytes": 127972,
+      "sha256": "0104f7edd5da4cd1847bf4b3c23d6d4af14c16670827387b1f33048c554da189",
+      "role": "model"
+    },
+    {
+      "path": "model/medical_box_1k-animated.glb",
+      "bytes": 1976984,
+      "sha256": "d5397a884fcef4a3b5decc5cf9aecfb2ade4b455752a12ae6055a0c3c29d5455",
+      "role": "model"
+    },
+    {
+      "path": "model/medical_box_1k.gltf",
+      "bytes": 8820,
+      "sha256": "ae52391cf95b6ec6505530ad00c098a5bafb173f39371296da3ce9db6808f01f",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/medical_box_arm_1k.jpg",
+      "bytes": 805882,
+      "sha256": "eb61c506d05506fabd141a1a0caa130e305f81bb75847ab5dba7eaf621ad49c4",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/medical_box_diff_1k.jpg",
+      "bytes": 674432,
+      "sha256": "64627e4be15f9a83a2d160b62e54bb9963f225c2312671b3d6d82928f7de19a9",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/medical_box_nor_gl_1k.jpg",
+      "bytes": 358278,
+      "sha256": "9afa38d3139b6cd9c022e371e3c53d2e8c21ab6cb2326a08e9457c506d82058c",
+      "role": "model"
+    },
+    {
+      "path": "previews/anim-lid_open-a.jpg",
+      "bytes": 10571,
+      "sha256": "ab00f83af332e898e32fe5448c2089407a276c6e338db625316014e4f514f9e5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-lid_open-b.jpg",
+      "bytes": 13648,
+      "sha256": "02cfd216c4d53177c5d969bcfebe63f93f5405b6f4a721cba3b46e371cede744",
+      "role": "previews"
+    },
+    {
+      "path": "previews/anim-lid_open-c.jpg",
+      "bytes": 12268,
+      "sha256": "e9b0c79a03f47b8d42fa75eb2e5fce281970d68896fc6834e9a7acac7c7f4a11",
+      "role": "previews"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 33904,
+      "sha256": "179fbbf087bd0d3f9ec1a813d0ee931558186db771e344fb641170691143b4f8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 15479,
+      "sha256": "691b04424c8f8fdc4f059faf8f4bf4e64f747b2e70690b7b4f507f456c1cf011",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 225095,
+      "sha256": "9695e39d4bc6b8370da1c2070e172ed351de1a12b0eb43682fe9ec7be5f6f642",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1164,
+      "sha256": "62e22399d8699511b165683f494073c47f4e1f9433affd3899a7b1e091f494c5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 33133,
+      "sha256": "09efacb53a247394060b57b8a8cb76987e438d2a046bc60e1fa3795f682f4628",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 30649,
+      "sha256": "36252ec65ba5d10a0c9299462e98b32cacc636b3694d144761fa2e3b60b86913",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 38751,
+      "sha256": "e2c7ffbbd1203e4ce42cb21049588828def96ac5879cabad6a6ebba96c7df703",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 32249,
+      "sha256": "9025b8d24989a626afe4a2264e2a1a8a06b649fce5a6af98c9ddd9482bc81ef9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 30275,
+      "sha256": "2bd6170fb6e5c34e692ef6138f664862d5d9ded8b4bbfaf9c5018036ca5a0c7c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 30994,
+      "sha256": "c98e4ffb3a7a4a4a7997b07d36536ab236fc29dbf6a5b972e73f3552e80a8f1d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 31507,
+      "sha256": "ed805ee2e04546116c004b8a4dd6e11b1f36eabf4a24e997efc17ec0a66ec56e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 29996,
+      "sha256": "c24c0b2baa3d00dec293af4607579bc5744269cc4bab4523a6d1991653ac59e3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 39999,
+      "sha256": "a43ed8953fa05501d0fd90238172da8fbca8c9ba47ed4ab159308e1d36c0c2e3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 23395,
+      "sha256": "e17651cb69d02d301b175907635b7b4442b79b7bb72abcfc1ae629fad2ecb2f8",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 572,
+      "sha256": "4b71bb6cd0b7fd24234e784da7fb1285488f09dc9875c79d5aeccd92c95278e8",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1256,
+      "sha256": "28f9e362f5333af3f8adb6df76a6b4b716b6876a173655871cf0b9f491ddb041",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3425,
+      "sha256": "b241f6aa0af71bf68ead952612a95d393fda8ed9542ed5b0ec82e8a7ce9562fc",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1060,
+      "sha256": "d487f0642d5dbbf84933b39ece8a519c20195227adafdc1ba1d290616b4baa07",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1206,
+      "sha256": "33ea2415708f765012bdeca7369bc3594df725f1952e76abfa07139a7bf975f5",
+      "role": "documentation"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "ph-chess-set",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 5,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Marble chess set with board and both full sets of pieces in starting positions; inspected orbit, overhead, underside, clay and wireframe views.",
+  "limitations": [
+    "The selected package uses the downloaded texture resolution; higher-resolution upstream files are not included.",
+    "glTF validator reports 37 generated-tangent-space warning(s); normal-map shading can vary by renderer.",
+    "The pieces are positioned as a static scene; no chess rules, interactions or animations are supplied."
+  ],
+  "contact_sheet_sha256": "ead7795b2ca3826916b18b8abbf5de4d95bf0a601ad6f69069090d9e3d3f8a56",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

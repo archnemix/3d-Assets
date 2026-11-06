@@ -2,7 +2,7 @@
 
 Whole fruit models
 
-Approved assets: **7**
+Approved assets: **9**
 
 ## Kenney stylized apple
 
@@ -28,6 +28,14 @@ Approved assets: **7**
 - 46,868 triangles; 3 texture images
 - [Asset folder](../../assets/food/fruit/ph-bananas/) · [Metadata](../../assets/food/fruit/ph-bananas/asset.json) · [All inspection views](../../assets/food/fruit/ph-bananas/previews/contact-sheet.jpg)
 
+## Food Pomegranate 01
+
+![Food Pomegranate 01](../../assets/food/fruit/ph-food-pomegranate-01/previews/orbit-01.jpg)
+
+- Creator: Oliver Harries; style: realistic; CC0-1.0
+- 8,142 triangles; 3 texture images
+- [Asset folder](../../assets/food/fruit/ph-food-pomegranate-01/) · [Metadata](../../assets/food/fruit/ph-food-pomegranate-01/asset.json) · [All inspection views](../../assets/food/fruit/ph-food-pomegranate-01/previews/contact-sheet.jpg)
+
 ## Photoscanned kiwi fruit
 
 ![Photoscanned kiwi fruit](../../assets/food/fruit/ph-kiwi/previews/orbit-01.jpg)
@@ -35,6 +43,14 @@ Approved assets: **7**
 - Creator: Oliver Harries; style: realistic; CC0-1.0
 - 7,748 triangles; 3 texture images
 - [Asset folder](../../assets/food/fruit/ph-kiwi/) · [Metadata](../../assets/food/fruit/ph-kiwi/asset.json) · [All inspection views](../../assets/food/fruit/ph-kiwi/previews/contact-sheet.jpg)
+
+## Lemon
+
+![Lemon](../../assets/food/fruit/ph-lemon/previews/orbit-01.jpg)
+
+- Creator: Kuutti Siitonen; style: realistic; CC0-1.0
+- 4,012 triangles; 3 texture images
+- [Asset folder](../../assets/food/fruit/ph-lemon/) · [Metadata](../../assets/food/fruit/ph-lemon/asset.json) · [All inspection views](../../assets/food/fruit/ph-lemon/previews/contact-sheet.jpg)
 
 ## Photoscanned fresh lime
 
