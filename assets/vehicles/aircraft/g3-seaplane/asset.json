@@ -1,0 +1,333 @@
+{
+  "schema_version": 1,
+  "id": "g3-seaplane",
+  "title": "Floatplane",
+  "category": "vehicles/aircraft",
+  "style": "stylized",
+  "tags": [
+    "seaplane",
+    "floatplane",
+    "flight"
+  ],
+  "batch": "transport-variety-01",
+  "acquired_at": "2026-11-06T14:32:43.397926+00:00",
+  "review": {
+    "id": "g3-seaplane",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. High-wing propeller floatplane with twin floats and support struts. A distinct stylized transport model.",
+    "limitations": [
+      "Stylized procedural model with simplified forms and materials; not photorealistic.",
+      "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+      "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+    ],
+    "contact_sheet_sha256": "e71cab944295b78b8c6d5a9e2a9b67247c802e9448e5fe04a857071258bd3a67",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/seaplane.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/seaplane/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/seaplane/",
+    "source_id": "seaplane",
+    "revision": "a1c833eab7debd74837dbbec2b292b49d769209c27a58734869b414ce00f24ba",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/seaplane/seaplane.glb",
+        "bytes": 961340,
+        "sha256": "a1c833eab7debd74837dbbec2b292b49d769209c27a58734869b414ce00f24ba"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/seaplane/LICENSE.txt"
+  },
+  "model": "model/seaplane.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 5,
+    "materials": 7,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/seaplane_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "seaplane_body_normal"
+    },
+    {
+      "path": "textures/seaplane_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "seaplane_body_basecolor"
+    },
+    {
+      "path": "textures/seaplane_body_metallic-seaplane_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "seaplane_body_metallic-seaplane_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 5,
+    "hidden_mesh_objects": 0,
+    "vertices": 13591,
+    "triangles": 19850,
+    "material_slots": 7,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "seaplane_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "seaplane_body_metallic-seaplane_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "seaplane_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1443,
+      "sha256": "863114fba578b73b5816e583772b74fab0e2f69e719bc25477cc2688fffc0801",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 72794,
+      "sha256": "e861c642d42e60441d8323d9af990eeca06dbf25f515d7c5497cf31bf685c8d9",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "d504eb5c45fbb2afe8c91ba2e8fbc78a3a89ad87f5d0b7e2a827fc1793adfb63",
+      "role": "logs"
+    },
+    {
+      "path": "model/seaplane.glb",
+      "bytes": 961340,
+      "sha256": "a1c833eab7debd74837dbbec2b292b49d769209c27a58734869b414ce00f24ba",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 17488,
+      "sha256": "3b2dd9f75adb415a2e7d0fecbd30b26517af6e6d9f5cc6b66c6483cdd08801cb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 17893,
+      "sha256": "56f5b16179453e011af194793af238c88d03b682ca8fc0f43fa91ff759695b9b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 152794,
+      "sha256": "e71cab944295b78b8c6d5a9e2a9b67247c802e9448e5fe04a857071258bd3a67",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 816,
+      "sha256": "31fcc48e1ed707decc0cec557d7c715c14232445e14ce7e55f6184b9f408cc79",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 15962,
+      "sha256": "1f4dd0102fc647e084957f3e1b185e79f08aeb5fdc113bd51c6bfeb00ff47150",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 21934,
+      "sha256": "2d7ff9f92c320201d8d043c41d11994295f0b3027c6d1d8ab990f8b856745eed",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 20394,
+      "sha256": "d3f75c2e49dff1e5121ca85a84ceff085bf077b750c996b11b9be7f5e5e62325",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 21420,
+      "sha256": "804213068b3669db7f1cca8535edd4926054463741843092328736fa2ac6de21",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 14258,
+      "sha256": "4fae1029dd8963c15992ce213f7b451dc4e21f11e26b080f982762f98c208d9c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 21831,
+      "sha256": "0a28b5503254b274554742e6c36bf2a6851599c7f23a7b9685b5706d152288ff",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 21565,
+      "sha256": "5a427ef675b6e43e8303c11495ae21b9e720d7e95e0f1c7d6a6af5be7797a9bb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 22465,
+      "sha256": "f6344cea93b763d72986cb21bd4704a11ad3f2456ae5e027be2d6c719bf6c61c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 16705,
+      "sha256": "b7819d2d262f5eeb31f3658f1261693c01142ca93b9ecd28e84620aaa498a29f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 26836,
+      "sha256": "564c5a1108328f7142638154fda231272a727bf0e19458fe8e393ef5e5bf403e",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3058,
+      "sha256": "74767ad1f95f4c58829b7d14d4b9cef59e01209f02c91d38f4a36b312dd698d0",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1661,
+      "sha256": "e4f336449d3663615a4efe02447ed7a3d7da29a8cf72243e6a8d73c04ebdf8b9",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 480,
+      "sha256": "6ae2f70ec3bc19fe49075dfcf98f1a285426c08d8ab947a47a753a74de3f113c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "cb5b47eea9172b4f1584d8dfee6e161e7e52fa23736e9aeb2a1ae98ac250619b",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 959,
+      "sha256": "ee5f345ebeed37acb7f8936bf870c3a513326e1ead571a3fec367353b33abf14",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/seaplane_body_basecolor.jpg",
+      "bytes": 174990,
+      "sha256": "e6be3dd8f3b6c52cface68fc5c03610a4b88998ec18dc973b1ddb07b0e270e0e",
+      "role": "textures"
+    },
+    {
+      "path": "textures/seaplane_body_metallic-seaplane_body_roughness.jpg",
+      "bytes": 158263,
+      "sha256": "1579d7f752ede6e552dc61ce711e702974c38b3d6b7ca8fe20a1a54ebe1eb3db",
+      "role": "textures"
+    },
+    {
+      "path": "textures/seaplane_body_normal.jpg",
+      "bytes": 67590,
+      "sha256": "96cbe3a3e82cdcecfa4f7d36f6d99df6889ed42fd0268c3fb7a20b9fe7962182",
+      "role": "textures"
+    }
+  ]
+}

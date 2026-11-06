@@ -1,0 +1,333 @@
+{
+  "schema_version": 1,
+  "id": "g3-ferry",
+  "title": "Car ferry",
+  "category": "vehicles/watercraft",
+  "style": "stylized",
+  "tags": [
+    "ferry",
+    "boat",
+    "transport"
+  ],
+  "batch": "transport-variety-01",
+  "acquired_at": "2026-11-06T14:25:21.811398+00:00",
+  "review": {
+    "id": "g3-ferry",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Car ferry with open vehicle deck, raised bow ramp, bridge and funnel. A distinct stylized transport model.",
+    "limitations": [
+      "Stylized procedural model with simplified forms and materials; not photorealistic.",
+      "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+      "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+    ],
+    "contact_sheet_sha256": "c660e4cce82e4fb32207b1da4ba36971d400b403d44a37a103906442362c6f6d",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/ferry.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/ferry/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/ferry/",
+    "source_id": "ferry",
+    "revision": "163e04aa8b00ccf09d722d549213b4b051f34459e78c1cb76f4d7abf8e9ef8dd",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/ferry/ferry.glb",
+        "bytes": 1536540,
+        "sha256": "163e04aa8b00ccf09d722d549213b4b051f34459e78c1cb76f4d7abf8e9ef8dd"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/ferry/LICENSE.txt"
+  },
+  "model": "model/ferry.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 7,
+    "materials": 7,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/ferry_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ferry_body_normal"
+    },
+    {
+      "path": "textures/ferry_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ferry_body_basecolor"
+    },
+    {
+      "path": "textures/ferry_body_metallic-ferry_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ferry_body_metallic-ferry_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 7,
+    "hidden_mesh_objects": 0,
+    "vertices": 22258,
+    "triangles": 26106,
+    "material_slots": 7,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "ferry_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "ferry_body_metallic-ferry_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "ferry_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1438,
+      "sha256": "8a09d6973924b3e037e662537a4dc826ac0334cfb35fe448c8573e3b2257947e",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 75925,
+      "sha256": "7b7668416f1908b2b523cac7148dd6738acdbf04ce8892bc528b7ffe00466649",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "4c132aaebe0bc85f31fcf2e3cc23835a777c60078e1621f0306d07a131a47e4c",
+      "role": "logs"
+    },
+    {
+      "path": "model/ferry.glb",
+      "bytes": 1536540,
+      "sha256": "163e04aa8b00ccf09d722d549213b4b051f34459e78c1cb76f4d7abf8e9ef8dd",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 16452,
+      "sha256": "39ac93fde6972ef870ec0892d8e604b3d257a980f1b55454cf13ff49f70e2078",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 20278,
+      "sha256": "56c3cf607a36a0903fd2ccb23d14cd22b61fdf0a028dd129620296450855d94a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 181416,
+      "sha256": "c660e4cce82e4fb32207b1da4ba36971d400b403d44a37a103906442362c6f6d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 804,
+      "sha256": "58a35e69cebb1ea9fd26c17c094257a174a9285a7f193e04e51a64b5061196e4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 30932,
+      "sha256": "ccfa86b4367f16e4b208903c1d4d7028764eff2e53f7ca068b0c8d78d0f9e6e6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 25386,
+      "sha256": "a7f4b467d728f8bacb885cbf610ccb00318a1f7404eb470a3251292f0cea1aa3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 19963,
+      "sha256": "9f2f8e82a385c58b6f6b1e3ea29062c0b89fc1f9122b2389561ce0e887ef050c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 23592,
+      "sha256": "89f6c06ee183db1c2fbaf479d84cdf55379aefc459fd8f715cafb67b45c61eb8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 25344,
+      "sha256": "c63c2920cdcd74590dc8f5327050decddc9d1aec19d0873473d20b6cb0381bd1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 25223,
+      "sha256": "3d11b259290b75ea780473df34ce4f692e21832a9cb2d96a2acd383835a78258",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 21171,
+      "sha256": "9524b014b158c466ac8eadc3217c6a533755a059a53fbe7c83d0d6ae11608209",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 27223,
+      "sha256": "24400613513cad7faeb68d0cb139d20e227a995e000be5b9773ee458e1feb885",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 17456,
+      "sha256": "5ace1ba5fbbc3f9d2a7fd6dc992ebe3573c686a6439232d9add40eac9543ebff",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 40879,
+      "sha256": "5a7baf91cfcaf0d013fc3d06e4cd6edba4113c3a119b10d03e7fda8d4e7fab1a",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3244,
+      "sha256": "fcbfb1d61658ea4d73cc97c10c3798dd90ecaf2d086f35ebfb87138961176b96",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1948,
+      "sha256": "b265fb6a804267ccd141b6c45f9cd4f9ad17333f6301b03f0e4db941806d62ed",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 457,
+      "sha256": "f2133c3c462838d63eff0993d2c0924044e5b0b66d383002e3d89ce31a72ec2a",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "8d7f11fc9deb85c919fe0d11c76158cce0fbe95e66b7a4428c3f9d4450618ccd",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 958,
+      "sha256": "c3c2b44d1a029d500c7a2f37b18862c08f255c121372162138166a4e8c8e30cb",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/ferry_body_basecolor.jpg",
+      "bytes": 317552,
+      "sha256": "6f1643ec9e2b687ced1e54f733e558e9553e71714cefa09fedb85da3b17e29ca",
+      "role": "textures"
+    },
+    {
+      "path": "textures/ferry_body_metallic-ferry_body_roughness.jpg",
+      "bytes": 268867,
+      "sha256": "d07cf70ecdf95cc019d50526f06ab6850e74cf7bda7a18456614f36ba66c1626",
+      "role": "textures"
+    },
+    {
+      "path": "textures/ferry_body_normal.jpg",
+      "bytes": 79664,
+      "sha256": "5662bde9376db10ba22159f5133aa3c8267fcc5fbfcd34cd4fc1ef30c370ad42",
+      "role": "textures"
+    }
+  ]
+}

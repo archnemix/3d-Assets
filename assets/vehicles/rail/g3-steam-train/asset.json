@@ -1,0 +1,334 @@
+{
+  "schema_version": 1,
+  "id": "g3-steam-train",
+  "title": "Steam locomotive and tender",
+  "category": "vehicles/rail",
+  "style": "stylized",
+  "tags": [
+    "steam",
+    "train",
+    "locomotive"
+  ],
+  "batch": "transport-variety-01",
+  "acquired_at": "2026-11-06T14:37:21.882835+00:00",
+  "review": {
+    "id": "g3-steam-train",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Steam locomotive and coal tender on a short rail section, with spoked wheels and rods. A distinct stylized transport model.",
+    "limitations": [
+      "Stylized procedural model with simplified forms and materials; not photorealistic.",
+      "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+      "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+      "Includes a short track section along with locomotive and tender."
+    ],
+    "contact_sheet_sha256": "ef86397bf62cda3d6ec4c93e73d568b191ca1e5cce1a675dbafef464386ca2dc",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/steam-train.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/steam-train/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/steam-train/",
+    "source_id": "steam-train",
+    "revision": "8d5647159ed4167708c9a2d6ba4d0158c5e2b97ded78ac54b16e5df7cf20ec74",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/steam-train/steam-train.glb",
+        "bytes": 2301144,
+        "sha256": "8d5647159ed4167708c9a2d6ba4d0158c5e2b97ded78ac54b16e5df7cf20ec74"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/steam-train/LICENSE.txt"
+  },
+  "model": "model/steam-train.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 17,
+    "materials": 59,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/steam-train_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "steam-train_body_normal"
+    },
+    {
+      "path": "textures/steam-train_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "steam-train_body_basecolor"
+    },
+    {
+      "path": "textures/steam-train_body_metallic-steam-train_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "steam-train_body_metallic-steam-train_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 17,
+    "hidden_mesh_objects": 0,
+    "vertices": 40829,
+    "triangles": 44282,
+    "material_slots": 59,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "steam-train_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "steam-train_body_metallic-steam-train_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "steam-train_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1530,
+      "sha256": "81a6d42145be440b22d8b438ecad1beed3fdcf43fbcd64f1d12082fa489fe786",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 95012,
+      "sha256": "c805dffd2e8ed3f644f47f2a2d4cbb0207d440ff4d620b3210d9b0cdf7ce0ab5",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "8a54fd2d0c45310b74efc460849357cf5092daf39d6b0c27d834f8f94c4c2c53",
+      "role": "logs"
+    },
+    {
+      "path": "model/steam-train.glb",
+      "bytes": 2301144,
+      "sha256": "8d5647159ed4167708c9a2d6ba4d0158c5e2b97ded78ac54b16e5df7cf20ec74",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 26144,
+      "sha256": "1d46b44af1af90fa7f0ed06637a9e8e1144770599f5e635fe29ed903ab018c85",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 28039,
+      "sha256": "93c72ece94c43f96de388e2ab42da0f3fa2424c29902b363cb3c7d3d8a1becc6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 259235,
+      "sha256": "ef86397bf62cda3d6ec4c93e73d568b191ca1e5cce1a675dbafef464386ca2dc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 830,
+      "sha256": "1089c18baabb1f33070fb71d10d579c0304354d66317d976da2dcc1c4ac85362",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 36834,
+      "sha256": "b2e039c97029c905c65bc7922c83d0d8a369de8bc94ee16ed95093c05d3927ee",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 42272,
+      "sha256": "744a54bfc94180f3de80149cb967feaa01c64edf901a07645ec79b3e265fdd45",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 33933,
+      "sha256": "7337d81c767a936bc5f6fc8aca386e4b9d210bfc3c46d64bff9c77dfae0b19eb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 40790,
+      "sha256": "03f34e930208bc2277a3eb6c3027ca5ca1f0f12df8e05bc3b0579a6ac5132f5f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 25626,
+      "sha256": "7fbac8dd18ec12cf6a1b82fbcca2f42f3c0abfd711734538be726001e7aa4ebc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 41286,
+      "sha256": "2577a06739482d1c8e8de523a9848197ba263f701a82289f47096ae85448607d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 35000,
+      "sha256": "0b03cd4efafebf6de09583ecc512c2930d674dfa89bfc2ff95350dd6c8342bc1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 42372,
+      "sha256": "7bb2bbed7e07b0e680d354593a945666adf63e2e3fab783db19709b3f03939f7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 22168,
+      "sha256": "1b2475b381f2549ad22fecd21c70cb51c0bb4701546df085bf23f13f02befb37",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 54965,
+      "sha256": "7b5858cefa07b0c770ff1054008b7aa05272c1c0fb00815601d25190630762a0",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 13054,
+      "sha256": "db4eea078ea3e096a10ede136ab39b046170f4a45938dbae30ee7a1676549606",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1884,
+      "sha256": "a0b266f96a5d38ae33e21ae07180ea0ea69b159e59e312fcc38c7336ee0b0f8f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 505,
+      "sha256": "1cf24c14a9d4581348c754b729d405104897e6d729cba94954b5f14513dbe4f4",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "43f865217fcd4abd77ff5651e0c3fe8b8dd847221fd78fe1302634403173c988",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1053,
+      "sha256": "621e398446c6d88ffb12fc0b191017a0b57f8bd22edd6a91f967633a9ef580cb",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/steam-train_body_basecolor.jpg",
+      "bytes": 330631,
+      "sha256": "0487b0a931f26be31124a443bdb19a1d9bc2639d3dc4a99c15f82227d0d42fa6",
+      "role": "textures"
+    },
+    {
+      "path": "textures/steam-train_body_metallic-steam-train_body_roughness.jpg",
+      "bytes": 354008,
+      "sha256": "8858766c830b866c5f84424cbca3ef3b723e8955189812b1960669d31a7457dc",
+      "role": "textures"
+    },
+    {
+      "path": "textures/steam-train_body_normal.jpg",
+      "bytes": 72036,
+      "sha256": "da1249db67832882ecf697b865f75a679df556b1bfc15d70b5121e34d5a99cf5",
+      "role": "textures"
+    }
+  ]
+}

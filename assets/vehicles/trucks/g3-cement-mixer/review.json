@@ -1,0 +1,22 @@
+{
+  "id": "g3-cement-mixer",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Three-axle mixer truck with striped drum, ladder and rear discharge chute. A distinct stylized transport model.",
+  "limitations": [
+    "Stylized procedural model with simplified forms and materials; not photorealistic.",
+    "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+    "Khronos validation reports zero errors and 2 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+  ],
+  "contact_sheet_sha256": "74eabc62224a88b14a8c430d4148c95cbe8acbdcf9ac74bc73e4315480f3a06f",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

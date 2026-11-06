@@ -1,0 +1,22 @@
+{
+  "id": "g3-private-jet",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Small business jet with rear-mounted engines, T-tail and landing gear. A distinct stylized transport model.",
+  "limitations": [
+    "Stylized procedural model with simplified forms and materials; not photorealistic.",
+    "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+    "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+  ],
+  "contact_sheet_sha256": "0e28e1314574e11b3959ffb93f64567b8bc76e3bec7a0abdd589c000c64246b3",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

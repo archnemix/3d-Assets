@@ -1,0 +1,22 @@
+{
+  "id": "g3-passenger-airplane",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Twin-engine passenger jet with winglets, landing gear and rows of windows. A distinct stylized transport model.",
+  "limitations": [
+    "Stylized procedural model with simplified forms and materials; not photorealistic.",
+    "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+    "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+  ],
+  "contact_sheet_sha256": "47bb57d034cc13cd9e7a2073e172df317d87234d5dc6d5633c95a0403bbfedd2",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "g3-steam-train",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Steam locomotive and coal tender on a short rail section, with spoked wheels and rods. A distinct stylized transport model.",
+  "limitations": [
+    "Stylized procedural model with simplified forms and materials; not photorealistic.",
+    "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+    "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Includes a short track section along with locomotive and tender."
+  ],
+  "contact_sheet_sha256": "ef86397bf62cda3d6ec4c93e73d568b191ca1e5cce1a675dbafef464386ca2dc",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

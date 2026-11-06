@@ -13600,6 +13600,50 @@
       ]
     },
     {
+      "id": "g3-airship",
+      "title": "Airship",
+      "category": "vehicles/aircraft",
+      "style": "stylized",
+      "tags": [
+        "flight",
+        "blimp"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/vehicles/airship/",
+      "license_evidence": "https://grab3d.com/dl/airship/LICENSE.txt",
+      "directory": "assets/vehicles/aircraft/g3-airship",
+      "metadata": "assets/vehicles/aircraft/g3-airship/asset.json",
+      "metadata_sha256": "b64c6c9cd34b37e6e12a47d8ec2df01410af597b69880d408f081dc040061bca",
+      "model": "assets/vehicles/aircraft/g3-airship/model/airship.glb",
+      "preview": "assets/vehicles/aircraft/g3-airship/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/aircraft/g3-airship/previews/contact-sheet.jpg",
+      "triangles": 18966,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Stylized procedural model with simplified forms and materials; not photorealistic.",
+        "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
       "id": "g3-biplane",
       "title": "Propeller biplane",
       "category": "vehicles/aircraft",
@@ -13643,6 +13687,98 @@
         "Static source GLB has no animation clips; functional operation and movable parts have not been verified.",
         "Khronos validator: zero errors, 1 warning(s) for runtime-generated tangent space; normal-map shading may differ between engines.",
         "Automatically authored experimental animation was not reviewed and its generated GLB is excluded; preview frames and report remain as intake evidence."
+      ]
+    },
+    {
+      "id": "g3-cargo-plane",
+      "title": "Turboprop cargo plane",
+      "category": "vehicles/aircraft",
+      "style": "stylized",
+      "tags": [
+        "cargo",
+        "plane",
+        "flight"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/vehicles/cargo-plane/",
+      "license_evidence": "https://grab3d.com/dl/cargo-plane/LICENSE.txt",
+      "directory": "assets/vehicles/aircraft/g3-cargo-plane",
+      "metadata": "assets/vehicles/aircraft/g3-cargo-plane/asset.json",
+      "metadata_sha256": "3432d63465e0d77b9fc763e08541982e7496e8b6d28751a67770ec85f0191c20",
+      "model": "assets/vehicles/aircraft/g3-cargo-plane/model/cargo-plane.glb",
+      "preview": "assets/vehicles/aircraft/g3-cargo-plane/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/aircraft/g3-cargo-plane/previews/contact-sheet.jpg",
+      "triangles": 29788,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Stylized procedural model with simplified forms and materials; not photorealistic.",
+        "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+        "The rear ramp is shown lowered; interior and moving parts have not been functionally tested."
+      ]
+    },
+    {
+      "id": "g3-glider",
+      "title": "Glider",
+      "category": "vehicles/aircraft",
+      "style": "stylized",
+      "tags": [
+        "glider",
+        "sailplane",
+        "flight"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/vehicles/glider/",
+      "license_evidence": "https://grab3d.com/dl/glider/LICENSE.txt",
+      "directory": "assets/vehicles/aircraft/g3-glider",
+      "metadata": "assets/vehicles/aircraft/g3-glider/asset.json",
+      "metadata_sha256": "0dda48660aea6d622234309c64b61deaa858cd1548db3a1d2cbb99bfdf8d5ce5",
+      "model": "assets/vehicles/aircraft/g3-glider/model/glider.glb",
+      "preview": "assets/vehicles/aircraft/g3-glider/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/aircraft/g3-glider/previews/contact-sheet.jpg",
+      "triangles": 15836,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Stylized procedural model with simplified forms and materials; not photorealistic.",
+        "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+        "The parked source model is tilted onto one wing; reorient for a level flight pose."
       ]
     },
     {
@@ -13690,6 +13826,186 @@
         "Khronos validator: zero errors, 1 warning(s) for runtime-generated tangent space; normal-map shading may differ between engines.",
         "Automatically authored experimental animation was not reviewed and its generated GLB is excluded; preview frames and report remain as intake evidence.",
         "Windows are opaque in the inspection renders; detailed interior is not established."
+      ]
+    },
+    {
+      "id": "g3-hot-air-balloon",
+      "title": "Hot air balloon",
+      "category": "vehicles/aircraft",
+      "style": "stylized",
+      "tags": [
+        "balloon",
+        "flight",
+        "basket"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/vehicles/hot-air-balloon/",
+      "license_evidence": "https://grab3d.com/dl/hot-air-balloon/LICENSE.txt",
+      "directory": "assets/vehicles/aircraft/g3-hot-air-balloon",
+      "metadata": "assets/vehicles/aircraft/g3-hot-air-balloon/asset.json",
+      "metadata_sha256": "b645d18a072feee50ffbcbc1d99903aa8f70979929004c9362ddd433c0ad3dbe",
+      "model": "assets/vehicles/aircraft/g3-hot-air-balloon/model/hot-air-balloon.glb",
+      "preview": "assets/vehicles/aircraft/g3-hot-air-balloon/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/aircraft/g3-hot-air-balloon/previews/contact-sheet.jpg",
+      "triangles": 28408,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Stylized procedural model with simplified forms and materials; not photorealistic.",
+        "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-passenger-airplane",
+      "title": "Passenger airplane",
+      "category": "vehicles/aircraft",
+      "style": "stylized",
+      "tags": [
+        "airliner",
+        "plane",
+        "flight"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/vehicles/passenger-airplane/",
+      "license_evidence": "https://grab3d.com/dl/passenger-airplane/LICENSE.txt",
+      "directory": "assets/vehicles/aircraft/g3-passenger-airplane",
+      "metadata": "assets/vehicles/aircraft/g3-passenger-airplane/asset.json",
+      "metadata_sha256": "d5e4279d8703bbaf165487d32f263a041c99afe40c2551ae0b53f1612fc7b100",
+      "model": "assets/vehicles/aircraft/g3-passenger-airplane/model/passenger-airplane.glb",
+      "preview": "assets/vehicles/aircraft/g3-passenger-airplane/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/aircraft/g3-passenger-airplane/previews/contact-sheet.jpg",
+      "triangles": 29706,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Stylized procedural model with simplified forms and materials; not photorealistic.",
+        "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-private-jet",
+      "title": "Private jet",
+      "category": "vehicles/aircraft",
+      "style": "stylized",
+      "tags": [
+        "jet",
+        "plane",
+        "flight"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/vehicles/private-jet/",
+      "license_evidence": "https://grab3d.com/dl/private-jet/LICENSE.txt",
+      "directory": "assets/vehicles/aircraft/g3-private-jet",
+      "metadata": "assets/vehicles/aircraft/g3-private-jet/asset.json",
+      "metadata_sha256": "6a8aff7c9b72b7c7c618e3d1543bb12f2376fd123437c92c82d0f56717d9d64f",
+      "model": "assets/vehicles/aircraft/g3-private-jet/model/private-jet.glb",
+      "preview": "assets/vehicles/aircraft/g3-private-jet/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/aircraft/g3-private-jet/previews/contact-sheet.jpg",
+      "triangles": 23104,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Stylized procedural model with simplified forms and materials; not photorealistic.",
+        "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-seaplane",
+      "title": "Floatplane",
+      "category": "vehicles/aircraft",
+      "style": "stylized",
+      "tags": [
+        "seaplane",
+        "floatplane",
+        "flight"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/vehicles/seaplane/",
+      "license_evidence": "https://grab3d.com/dl/seaplane/LICENSE.txt",
+      "directory": "assets/vehicles/aircraft/g3-seaplane",
+      "metadata": "assets/vehicles/aircraft/g3-seaplane/asset.json",
+      "metadata_sha256": "b065a8245fd4034ba9be375cb3902fde905462b4c629ad4847d9ee4f8f4eae71",
+      "model": "assets/vehicles/aircraft/g3-seaplane/model/seaplane.glb",
+      "preview": "assets/vehicles/aircraft/g3-seaplane/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/aircraft/g3-seaplane/previews/contact-sheet.jpg",
+      "triangles": 19850,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Stylized procedural model with simplified forms and materials; not photorealistic.",
+        "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
       ]
     },
     {
@@ -14233,6 +14549,52 @@
       ]
     },
     {
+      "id": "g3-double-decker-bus",
+      "title": "Double-decker bus",
+      "category": "vehicles/cars",
+      "style": "stylized",
+      "tags": [
+        "bus",
+        "public-transport",
+        "road"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/vehicles/double-decker-bus/",
+      "license_evidence": "https://grab3d.com/dl/double-decker-bus/LICENSE.txt",
+      "directory": "assets/vehicles/cars/g3-double-decker-bus",
+      "metadata": "assets/vehicles/cars/g3-double-decker-bus/asset.json",
+      "metadata_sha256": "d202f546cfc5e72c7e8feecdd9241a379b12afe3e75e13599ed50c655aad3eda",
+      "model": "assets/vehicles/cars/g3-double-decker-bus/model/double-decker-bus.glb",
+      "preview": "assets/vehicles/cars/g3-double-decker-bus/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/cars/g3-double-decker-bus/previews/contact-sheet.jpg",
+      "triangles": 28405,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Stylized procedural model with simplified forms and materials; not photorealistic.",
+        "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+        "The rear platform is open, but a fully detailed accessible interior is not established."
+      ]
+    },
+    {
       "id": "g3-muscle-car",
       "title": "Classic fastback muscle car",
       "category": "vehicles/cars",
@@ -14284,6 +14646,51 @@
       ]
     },
     {
+      "id": "g3-race-car",
+      "title": "Open-wheel race car",
+      "category": "vehicles/cars",
+      "style": "stylized",
+      "tags": [
+        "race-car",
+        "open-wheel",
+        "road"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/vehicles/race-car/",
+      "license_evidence": "https://grab3d.com/dl/race-car/LICENSE.txt",
+      "directory": "assets/vehicles/cars/g3-race-car",
+      "metadata": "assets/vehicles/cars/g3-race-car/asset.json",
+      "metadata_sha256": "93279b77da9dcea4182974449b876bf60d35ca8c502fc1c70f90742fb194f320",
+      "model": "assets/vehicles/cars/g3-race-car/model/race-car.glb",
+      "preview": "assets/vehicles/cars/g3-race-car/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/cars/g3-race-car/previews/contact-sheet.jpg",
+      "triangles": 19440,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Stylized procedural model with simplified forms and materials; not photorealistic.",
+        "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
       "id": "g3-rally-car",
       "title": "Rally car with roof scoop",
       "category": "vehicles/cars",
@@ -14331,6 +14738,51 @@
         "Stylized, not photoreal: this is a Cozy-kit vehicle with a simplified pastel palette.",
         "Wheels are separate objects pivoted on their hubs, so they can be rolled; the body itself is not rigged.",
         "Interior is simplified; not suitable for a close-up cabin shot."
+      ]
+    },
+    {
+      "id": "g3-school-bus",
+      "title": "School bus",
+      "category": "vehicles/cars",
+      "style": "stylized",
+      "tags": [
+        "bus",
+        "road",
+        "school"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/vehicles/school-bus/",
+      "license_evidence": "https://grab3d.com/dl/school-bus/LICENSE.txt",
+      "directory": "assets/vehicles/cars/g3-school-bus",
+      "metadata": "assets/vehicles/cars/g3-school-bus/asset.json",
+      "metadata_sha256": "db96ce0ada46f90867d8a9ff316edaf0abcd38383f2d1af477008129c705020f",
+      "model": "assets/vehicles/cars/g3-school-bus/model/school-bus.glb",
+      "preview": "assets/vehicles/cars/g3-school-bus/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/cars/g3-school-bus/previews/contact-sheet.jpg",
+      "triangles": 44066,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Stylized procedural model with simplified forms and materials; not photorealistic.",
+        "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
       ]
     },
     {
@@ -15188,6 +15640,98 @@
       ]
     },
     {
+      "id": "g3-monorail",
+      "title": "Monorail car",
+      "category": "vehicles/rail",
+      "style": "stylized",
+      "tags": [
+        "monorail",
+        "rail",
+        "public-transport"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/vehicles/monorail/",
+      "license_evidence": "https://grab3d.com/dl/monorail/LICENSE.txt",
+      "directory": "assets/vehicles/rail/g3-monorail",
+      "metadata": "assets/vehicles/rail/g3-monorail/asset.json",
+      "metadata_sha256": "e667ccc15c9c9fb36dc3741ffa48b9e9682b8cce6fad015be7a6ac8d286faad6",
+      "model": "assets/vehicles/rail/g3-monorail/model/monorail.glb",
+      "preview": "assets/vehicles/rail/g3-monorail/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/rail/g3-monorail/previews/contact-sheet.jpg",
+      "triangles": 24612,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Stylized procedural model with simplified forms and materials; not photorealistic.",
+        "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+        "Includes a short support beam and pillar along with the car."
+      ]
+    },
+    {
+      "id": "g3-steam-train",
+      "title": "Steam locomotive and tender",
+      "category": "vehicles/rail",
+      "style": "stylized",
+      "tags": [
+        "steam",
+        "train",
+        "locomotive"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/vehicles/steam-train/",
+      "license_evidence": "https://grab3d.com/dl/steam-train/LICENSE.txt",
+      "directory": "assets/vehicles/rail/g3-steam-train",
+      "metadata": "assets/vehicles/rail/g3-steam-train/asset.json",
+      "metadata_sha256": "eaea70e4a576709496a75951860fd681878516faf056d01bb29ec489f380e3d8",
+      "model": "assets/vehicles/rail/g3-steam-train/model/steam-train.glb",
+      "preview": "assets/vehicles/rail/g3-steam-train/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/rail/g3-steam-train/previews/contact-sheet.jpg",
+      "triangles": 44282,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Stylized procedural model with simplified forms and materials; not photorealistic.",
+        "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+        "Includes a short track section along with locomotive and tender."
+      ]
+    },
+    {
       "id": "g3-subway-train",
       "title": "Subway train car",
       "category": "vehicles/rail",
@@ -15278,6 +15822,52 @@
         "Stylised Cozy-kit palette rather than photoreal materials.",
         "Wheels are fused to the body.",
         "No placards are modelled; add your own if the scene needs them."
+      ]
+    },
+    {
+      "id": "g3-tram",
+      "title": "Tram",
+      "category": "vehicles/rail",
+      "style": "stylized",
+      "tags": [
+        "tram",
+        "rail",
+        "public-transport"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/vehicles/tram/",
+      "license_evidence": "https://grab3d.com/dl/tram/LICENSE.txt",
+      "directory": "assets/vehicles/rail/g3-tram",
+      "metadata": "assets/vehicles/rail/g3-tram/asset.json",
+      "metadata_sha256": "aedc6bf0b18d4d664607ddf6a33766d891980b4ba317b48261fe557262fab2cb",
+      "model": "assets/vehicles/rail/g3-tram/model/tram.glb",
+      "preview": "assets/vehicles/rail/g3-tram/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/rail/g3-tram/previews/contact-sheet.jpg",
+      "triangles": 29124,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Stylized procedural model with simplified forms and materials; not photorealistic.",
+        "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+        "Includes a short track section along with the vehicle."
       ]
     },
     {
@@ -15426,6 +16016,141 @@
       ]
     },
     {
+      "id": "g3-cement-mixer",
+      "title": "Cement mixer truck",
+      "category": "vehicles/trucks",
+      "style": "stylized",
+      "tags": [
+        "truck",
+        "construction",
+        "mixer"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/vehicles/cement-mixer/",
+      "license_evidence": "https://grab3d.com/dl/cement-mixer/LICENSE.txt",
+      "directory": "assets/vehicles/trucks/g3-cement-mixer",
+      "metadata": "assets/vehicles/trucks/g3-cement-mixer/asset.json",
+      "metadata_sha256": "3341bef1eface0167bd43cd196315c0702e6b496736bc3500d103d6295b902d9",
+      "model": "assets/vehicles/trucks/g3-cement-mixer/model/cement-mixer.glb",
+      "preview": "assets/vehicles/trucks/g3-cement-mixer/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/trucks/g3-cement-mixer/previews/contact-sheet.jpg",
+      "triangles": 43497,
+      "texture_count": 6,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Stylized procedural model with simplified forms and materials; not photorealistic.",
+        "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+        "Khronos validation reports zero errors and 2 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-delivery-van",
+      "title": "Delivery van",
+      "category": "vehicles/trucks",
+      "style": "stylized",
+      "tags": [
+        "van",
+        "delivery",
+        "road"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/vehicles/delivery-van/",
+      "license_evidence": "https://grab3d.com/dl/delivery-van/LICENSE.txt",
+      "directory": "assets/vehicles/trucks/g3-delivery-van",
+      "metadata": "assets/vehicles/trucks/g3-delivery-van/asset.json",
+      "metadata_sha256": "236858f1cf1381f3f8c2a34fd19004673deedb066a5935455bac7c92ae34b149",
+      "model": "assets/vehicles/trucks/g3-delivery-van/model/delivery-van.glb",
+      "preview": "assets/vehicles/trucks/g3-delivery-van/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/trucks/g3-delivery-van/previews/contact-sheet.jpg",
+      "triangles": 31517,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Stylized procedural model with simplified forms and materials; not photorealistic.",
+        "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-dump-truck",
+      "title": "Dump truck",
+      "category": "vehicles/trucks",
+      "style": "stylized",
+      "tags": [
+        "dump",
+        "truck",
+        "construction"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/vehicles/dump-truck/",
+      "license_evidence": "https://grab3d.com/dl/dump-truck/LICENSE.txt",
+      "directory": "assets/vehicles/trucks/g3-dump-truck",
+      "metadata": "assets/vehicles/trucks/g3-dump-truck/asset.json",
+      "metadata_sha256": "c3e5c9da909f5fcbda904fdeb782a8f62df75446f586ec421faeea1a6b996e01",
+      "model": "assets/vehicles/trucks/g3-dump-truck/model/dump-truck.glb",
+      "preview": "assets/vehicles/trucks/g3-dump-truck/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/trucks/g3-dump-truck/previews/contact-sheet.jpg",
+      "triangles": 34442,
+      "texture_count": 6,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Stylized procedural model with simplified forms and materials; not photorealistic.",
+        "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+        "Khronos validation reports zero errors and 2 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
       "id": "g3-fire-truck",
       "title": "Fire truck",
       "category": "vehicles/trucks",
@@ -15470,6 +16195,142 @@
         "Khronos validator: zero errors, 1 warning(s) for runtime-generated tangent space; normal-map shading may differ between engines.",
         "Automatically authored experimental animation was not reviewed and its generated GLB is excluded; preview frames and report remain as intake evidence.",
         "Windows are opaque in the inspection renders; detailed interior is not established."
+      ]
+    },
+    {
+      "id": "g3-forklift",
+      "title": "Forklift",
+      "category": "vehicles/trucks",
+      "style": "stylized",
+      "tags": [
+        "forklift",
+        "warehouse",
+        "industrial"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/vehicles/forklift/",
+      "license_evidence": "https://grab3d.com/dl/forklift/LICENSE.txt",
+      "directory": "assets/vehicles/trucks/g3-forklift",
+      "metadata": "assets/vehicles/trucks/g3-forklift/asset.json",
+      "metadata_sha256": "15fd6653b723783f8c0583f3692ea41b0b60bd00360eeb38986ce7303d79985a",
+      "model": "assets/vehicles/trucks/g3-forklift/model/forklift.glb",
+      "preview": "assets/vehicles/trucks/g3-forklift/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/trucks/g3-forklift/previews/contact-sheet.jpg",
+      "triangles": 22104,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Stylized procedural model with simplified forms and materials; not photorealistic.",
+        "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-submarine",
+      "title": "Research submarine",
+      "category": "vehicles/underwater",
+      "style": "stylized",
+      "tags": [
+        "submarine",
+        "underwater",
+        "research"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/vehicles/submarine/",
+      "license_evidence": "https://grab3d.com/dl/submarine/LICENSE.txt",
+      "directory": "assets/vehicles/underwater/g3-submarine",
+      "metadata": "assets/vehicles/underwater/g3-submarine/asset.json",
+      "metadata_sha256": "0c51601ed4e6b4db85dceed38e1b2672e8595ea30d520e641e28d5b36abfe0ac",
+      "model": "assets/vehicles/underwater/g3-submarine/model/submarine.glb",
+      "preview": "assets/vehicles/underwater/g3-submarine/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/underwater/g3-submarine/previews/contact-sheet.jpg",
+      "triangles": 15582,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Stylized procedural model with simplified forms and materials; not photorealistic.",
+        "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+        "The dome and portholes appear opaque; there is no verified interior."
+      ]
+    },
+    {
+      "id": "g3-canoe",
+      "title": "Canoe",
+      "category": "vehicles/watercraft",
+      "style": "stylized",
+      "tags": [
+        "canoe",
+        "paddling",
+        "boat"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/vehicles/canoe/",
+      "license_evidence": "https://grab3d.com/dl/canoe/LICENSE.txt",
+      "directory": "assets/vehicles/watercraft/g3-canoe",
+      "metadata": "assets/vehicles/watercraft/g3-canoe/asset.json",
+      "metadata_sha256": "f0d927b718e53ed84e71954dfa818fa5dc0f1633b139538309aa70fafec23a5e",
+      "model": "assets/vehicles/watercraft/g3-canoe/model/canoe.glb",
+      "preview": "assets/vehicles/watercraft/g3-canoe/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/watercraft/g3-canoe/previews/contact-sheet.jpg",
+      "triangles": 13744,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Stylized procedural model with simplified forms and materials; not photorealistic.",
+        "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
       ]
     },
     {
@@ -15519,6 +16380,97 @@
         "Stylised Cozy-kit palette rather than photoreal materials.",
         "Containers carry no shipping-line marks.",
         "The deck cranes are fused and cannot be slewed without separation."
+      ]
+    },
+    {
+      "id": "g3-cruise-ship",
+      "title": "Cruise ship",
+      "category": "vehicles/watercraft",
+      "style": "stylized",
+      "tags": [
+        "cruise",
+        "ship",
+        "passenger"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/vehicles/cruise-ship/",
+      "license_evidence": "https://grab3d.com/dl/cruise-ship/LICENSE.txt",
+      "directory": "assets/vehicles/watercraft/g3-cruise-ship",
+      "metadata": "assets/vehicles/watercraft/g3-cruise-ship/asset.json",
+      "metadata_sha256": "e4756c6ec0b6f88d2372531da249557a5916d1031ba9cbc05458e7eab3e534be",
+      "model": "assets/vehicles/watercraft/g3-cruise-ship/model/cruise-ship.glb",
+      "preview": "assets/vehicles/watercraft/g3-cruise-ship/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/watercraft/g3-cruise-ship/previews/contact-sheet.jpg",
+      "triangles": 29160,
+      "texture_count": 3,
+      "max_texture_resolution": 4096,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Stylized procedural model with simplified forms and materials; not photorealistic.",
+        "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+        "Blender reports 4 zero-area triangles among 29,160 total."
+      ]
+    },
+    {
+      "id": "g3-ferry",
+      "title": "Car ferry",
+      "category": "vehicles/watercraft",
+      "style": "stylized",
+      "tags": [
+        "ferry",
+        "boat",
+        "transport"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/vehicles/ferry/",
+      "license_evidence": "https://grab3d.com/dl/ferry/LICENSE.txt",
+      "directory": "assets/vehicles/watercraft/g3-ferry",
+      "metadata": "assets/vehicles/watercraft/g3-ferry/asset.json",
+      "metadata_sha256": "8ff9af4c42cc15d86e7538c2c8dd219070ac170d48adcff439b9e3a045365264",
+      "model": "assets/vehicles/watercraft/g3-ferry/model/ferry.glb",
+      "preview": "assets/vehicles/watercraft/g3-ferry/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/watercraft/g3-ferry/previews/contact-sheet.jpg",
+      "triangles": 26106,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Stylized procedural model with simplified forms and materials; not photorealistic.",
+        "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
       ]
     },
     {
@@ -15616,6 +16568,141 @@
       ]
     },
     {
+      "id": "g3-houseboat",
+      "title": "Pontoon houseboat",
+      "category": "vehicles/watercraft",
+      "style": "stylized",
+      "tags": [
+        "houseboat",
+        "boat",
+        "pontoon"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/vehicles/houseboat/",
+      "license_evidence": "https://grab3d.com/dl/houseboat/LICENSE.txt",
+      "directory": "assets/vehicles/watercraft/g3-houseboat",
+      "metadata": "assets/vehicles/watercraft/g3-houseboat/asset.json",
+      "metadata_sha256": "80a9ffaac2cd15326fc8a65e0033159d009b5d176abc90898f35c7b465e8d395",
+      "model": "assets/vehicles/watercraft/g3-houseboat/model/houseboat.glb",
+      "preview": "assets/vehicles/watercraft/g3-houseboat/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/watercraft/g3-houseboat/previews/contact-sheet.jpg",
+      "triangles": 25474,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Stylized procedural model with simplified forms and materials; not photorealistic.",
+        "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-paddle-steamer",
+      "title": "Paddle steamer",
+      "category": "vehicles/watercraft",
+      "style": "stylized",
+      "tags": [
+        "steamboat",
+        "paddle",
+        "ship"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/vehicles/paddle-steamer/",
+      "license_evidence": "https://grab3d.com/dl/paddle-steamer/LICENSE.txt",
+      "directory": "assets/vehicles/watercraft/g3-paddle-steamer",
+      "metadata": "assets/vehicles/watercraft/g3-paddle-steamer/asset.json",
+      "metadata_sha256": "d7271fa1cebfa23a798abc8940595e40abc751d88ac3646accb37d4d6367de32",
+      "model": "assets/vehicles/watercraft/g3-paddle-steamer/model/paddle-steamer.glb",
+      "preview": "assets/vehicles/watercraft/g3-paddle-steamer/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/watercraft/g3-paddle-steamer/previews/contact-sheet.jpg",
+      "triangles": 29474,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Stylized procedural model with simplified forms and materials; not photorealistic.",
+        "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-rowboat",
+      "title": "Rowboat",
+      "category": "vehicles/watercraft",
+      "style": "stylized",
+      "tags": [
+        "rowing",
+        "boat",
+        "oars"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/vehicles/rowboat/",
+      "license_evidence": "https://grab3d.com/dl/rowboat/LICENSE.txt",
+      "directory": "assets/vehicles/watercraft/g3-rowboat",
+      "metadata": "assets/vehicles/watercraft/g3-rowboat/asset.json",
+      "metadata_sha256": "bf039363ea903bd643403318f49fe7c5cf6c0283c6dc3c0d0fc31ba5981e2291",
+      "model": "assets/vehicles/watercraft/g3-rowboat/model/rowboat.glb",
+      "preview": "assets/vehicles/watercraft/g3-rowboat/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/watercraft/g3-rowboat/previews/contact-sheet.jpg",
+      "triangles": 18408,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Stylized procedural model with simplified forms and materials; not photorealistic.",
+        "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
       "id": "g3-sailboat",
       "title": "Cruising sailboat",
       "category": "vehicles/watercraft",
@@ -15659,6 +16746,51 @@
         "Static source GLB has no animation clips; functional operation and movable parts have not been verified.",
         "Khronos validator: zero errors, 1 warning(s) for runtime-generated tangent space; normal-map shading may differ between engines.",
         "Automatically authored experimental animation was not reviewed and its generated GLB is excluded; preview frames and report remain as intake evidence."
+      ]
+    },
+    {
+      "id": "g3-tugboat",
+      "title": "Harbor tugboat",
+      "category": "vehicles/watercraft",
+      "style": "stylized",
+      "tags": [
+        "tugboat",
+        "harbor",
+        "boat"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/vehicles/tugboat/",
+      "license_evidence": "https://grab3d.com/dl/tugboat/LICENSE.txt",
+      "directory": "assets/vehicles/watercraft/g3-tugboat",
+      "metadata": "assets/vehicles/watercraft/g3-tugboat/asset.json",
+      "metadata_sha256": "09869cc80e1fe9cce7b6278c7e5268f386b10461a508139518753bb0b8b70ccb",
+      "model": "assets/vehicles/watercraft/g3-tugboat/model/tugboat.glb",
+      "preview": "assets/vehicles/watercraft/g3-tugboat/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/watercraft/g3-tugboat/previews/contact-sheet.jpg",
+      "triangles": 26380,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Stylized procedural model with simplified forms and materials; not photorealistic.",
+        "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
       ]
     },
     {
@@ -16710,8 +17842,8 @@
     }
   ],
   "totals": {
-    "assets": 351,
-    "categories": 97,
+    "assets": 376,
+    "categories": 98,
     "by_category": {
       "apparel/accessories": 1,
       "architecture/doors": 1,
@@ -16795,16 +17927,17 @@
       "tools/storage": 1,
       "toys/figures": 1,
       "toys/games": 1,
-      "vehicles/aircraft": 2,
+      "vehicles/aircraft": 9,
       "vehicles/bikes": 3,
-      "vehicles/cars": 9,
+      "vehicles/cars": 12,
       "vehicles/cars/classic": 3,
       "vehicles/cars/electric": 1,
       "vehicles/farm": 4,
       "vehicles/parts": 6,
-      "vehicles/rail": 7,
-      "vehicles/trucks": 4,
-      "vehicles/watercraft": 8,
+      "vehicles/rail": 10,
+      "vehicles/trucks": 8,
+      "vehicles/underwater": 1,
+      "vehicles/watercraft": 15,
       "weapons/artillery": 1,
       "weapons/explosives": 1,
       "weapons/firearms": 2,
@@ -16814,7 +17947,7 @@
     "by_style": {
       "low-poly": 26,
       "realistic": 217,
-      "stylized": 108
+      "stylized": 133
     }
   }
 }

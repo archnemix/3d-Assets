@@ -2,7 +2,15 @@
 
 Boats and sailing ships
 
-Approved assets: **8**
+Approved assets: **15**
+
+## Canoe
+
+![Canoe](../../assets/vehicles/watercraft/g3-canoe/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 13,744 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/watercraft/g3-canoe/) · [Metadata](../../assets/vehicles/watercraft/g3-canoe/asset.json) · [All inspection views](../../assets/vehicles/watercraft/g3-canoe/previews/contact-sheet.jpg)
 
 ## Container cargo ship
 
@@ -11,6 +19,22 @@ Approved assets: **8**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 37,716 triangles; 3 texture images
 - [Asset folder](../../assets/vehicles/watercraft/g3-cargo-ship/) · [Metadata](../../assets/vehicles/watercraft/g3-cargo-ship/asset.json) · [All inspection views](../../assets/vehicles/watercraft/g3-cargo-ship/previews/contact-sheet.jpg)
+
+## Cruise ship
+
+![Cruise ship](../../assets/vehicles/watercraft/g3-cruise-ship/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 29,160 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/watercraft/g3-cruise-ship/) · [Metadata](../../assets/vehicles/watercraft/g3-cruise-ship/asset.json) · [All inspection views](../../assets/vehicles/watercraft/g3-cruise-ship/previews/contact-sheet.jpg)
+
+## Car ferry
+
+![Car ferry](../../assets/vehicles/watercraft/g3-ferry/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 26,106 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/watercraft/g3-ferry/) · [Metadata](../../assets/vehicles/watercraft/g3-ferry/asset.json) · [All inspection views](../../assets/vehicles/watercraft/g3-ferry/previews/contact-sheet.jpg)
 
 ## Fishing boat
 
@@ -28,6 +52,30 @@ Approved assets: **8**
 - 39,876 triangles; 3 texture images
 - [Asset folder](../../assets/vehicles/watercraft/g3-galleon/) · [Metadata](../../assets/vehicles/watercraft/g3-galleon/asset.json) · [All inspection views](../../assets/vehicles/watercraft/g3-galleon/previews/contact-sheet.jpg)
 
+## Pontoon houseboat
+
+![Pontoon houseboat](../../assets/vehicles/watercraft/g3-houseboat/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 25,474 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/watercraft/g3-houseboat/) · [Metadata](../../assets/vehicles/watercraft/g3-houseboat/asset.json) · [All inspection views](../../assets/vehicles/watercraft/g3-houseboat/previews/contact-sheet.jpg)
+
+## Paddle steamer
+
+![Paddle steamer](../../assets/vehicles/watercraft/g3-paddle-steamer/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 29,474 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/watercraft/g3-paddle-steamer/) · [Metadata](../../assets/vehicles/watercraft/g3-paddle-steamer/asset.json) · [All inspection views](../../assets/vehicles/watercraft/g3-paddle-steamer/previews/contact-sheet.jpg)
+
+## Rowboat
+
+![Rowboat](../../assets/vehicles/watercraft/g3-rowboat/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 18,408 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/watercraft/g3-rowboat/) · [Metadata](../../assets/vehicles/watercraft/g3-rowboat/asset.json) · [All inspection views](../../assets/vehicles/watercraft/g3-rowboat/previews/contact-sheet.jpg)
+
 ## Cruising sailboat
 
 ![Cruising sailboat](../../assets/vehicles/watercraft/g3-sailboat/previews/orbit-01.jpg)
@@ -35,6 +83,14 @@ Approved assets: **8**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 19,799 triangles; 3 texture images
 - [Asset folder](../../assets/vehicles/watercraft/g3-sailboat/) · [Metadata](../../assets/vehicles/watercraft/g3-sailboat/asset.json) · [All inspection views](../../assets/vehicles/watercraft/g3-sailboat/previews/contact-sheet.jpg)
+
+## Harbor tugboat
+
+![Harbor tugboat](../../assets/vehicles/watercraft/g3-tugboat/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 26,380 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/watercraft/g3-tugboat/) · [Metadata](../../assets/vehicles/watercraft/g3-tugboat/asset.json) · [All inspection views](../../assets/vehicles/watercraft/g3-tugboat/previews/contact-sheet.jpg)
 
 ## Motor yacht
 

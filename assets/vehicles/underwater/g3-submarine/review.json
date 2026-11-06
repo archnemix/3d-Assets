@@ -1,0 +1,23 @@
+{
+  "id": "g3-submarine",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Civil research submersible with domed nose, portholes, skids and ducted stern propeller. A distinct stylized transport model.",
+  "limitations": [
+    "Stylized procedural model with simplified forms and materials; not photorealistic.",
+    "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+    "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "The dome and portholes appear opaque; there is no verified interior."
+  ],
+  "contact_sheet_sha256": "ea0c94ce9e6ce159d11c23b5ba686c7c47d246955d2e087163e5e1ebfb8f79aa",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

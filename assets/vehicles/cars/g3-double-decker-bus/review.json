@@ -1,0 +1,23 @@
+{
+  "id": "g3-double-decker-bus",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Double-decker bus with two rows of windows and open rear staircase. A distinct stylized transport model.",
+  "limitations": [
+    "Stylized procedural model with simplified forms and materials; not photorealistic.",
+    "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+    "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "The rear platform is open, but a fully detailed accessible interior is not established."
+  ],
+  "contact_sheet_sha256": "8a9fde431e18333a495eea8da7d20753c8adebe967dbb5fe4dc886a7d0a8981b",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

@@ -1,0 +1,334 @@
+{
+  "schema_version": 1,
+  "id": "g3-double-decker-bus",
+  "title": "Double-decker bus",
+  "category": "vehicles/cars",
+  "style": "stylized",
+  "tags": [
+    "bus",
+    "public-transport",
+    "road"
+  ],
+  "batch": "transport-variety-01",
+  "acquired_at": "2026-11-06T14:25:08.850836+00:00",
+  "review": {
+    "id": "g3-double-decker-bus",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Double-decker bus with two rows of windows and open rear staircase. A distinct stylized transport model.",
+    "limitations": [
+      "Stylized procedural model with simplified forms and materials; not photorealistic.",
+      "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+      "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+      "The rear platform is open, but a fully detailed accessible interior is not established."
+    ],
+    "contact_sheet_sha256": "8a9fde431e18333a495eea8da7d20753c8adebe967dbb5fe4dc886a7d0a8981b",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/double-decker-bus.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/double-decker-bus/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/double-decker-bus/",
+    "source_id": "double-decker-bus",
+    "revision": "1f6d2465ec33da07b98c0e6048550b042c443283230dbeb9f3fd5da9313de557",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/double-decker-bus/double-decker-bus.glb",
+        "bytes": 1332600,
+        "sha256": "1f6d2465ec33da07b98c0e6048550b042c443283230dbeb9f3fd5da9313de557"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/double-decker-bus/LICENSE.txt"
+  },
+  "model": "model/double-decker-bus.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 10,
+    "materials": 20,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/double-decker-bus_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "double-decker-bus_body_normal"
+    },
+    {
+      "path": "textures/double-decker-bus_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "double-decker-bus_body_basecolor"
+    },
+    {
+      "path": "textures/double-decker-bus_body_metallic-double-decker-bus_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "double-decker-bus_body_metallic-double-decker-bus_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 10,
+    "hidden_mesh_objects": 0,
+    "vertices": 21790,
+    "triangles": 28405,
+    "material_slots": 20,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "double-decker-bus_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "double-decker-bus_body_metallic-double-decker-bus_body_roughnes",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "double-decker-bus_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1555,
+      "sha256": "596374a636defae9961fb1ce5dd4fd0d1b81549d7434a7b4c03fe2cf8559e90f",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 83589,
+      "sha256": "0d90227be247c5a7523e35f1635538b58ef60e1a542be00fdad73aa7289fb6c7",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "b80361a29b3361982c42e4a36d50572af9e716d805c60d48e60dce30d259385b",
+      "role": "logs"
+    },
+    {
+      "path": "model/double-decker-bus.glb",
+      "bytes": 1332600,
+      "sha256": "1f6d2465ec33da07b98c0e6048550b042c443283230dbeb9f3fd5da9313de557",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 15879,
+      "sha256": "581e273c5636241648ee53d0ca36413935a9a698308a1624f6cc024bcdb84bbe",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 19414,
+      "sha256": "8a41ec5eafc87503996b242281c07bccdb6aff841b6d8088373b769a77ca11ec",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 220642,
+      "sha256": "8a9fde431e18333a495eea8da7d20753c8adebe967dbb5fe4dc886a7d0a8981b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 853,
+      "sha256": "446f2b942ebc38956cc173e104ec1b4dac6ae79e1c0b77a87f9f7162c5a710d2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 21630,
+      "sha256": "eefa1bb087b6acb78d1178b38618f432936e07d5db39284e296d7185ad0e4582",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 34658,
+      "sha256": "5cba359ac7ab06322b13560c60cd091222b37d76920ae1638e639f2288b73122",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 28134,
+      "sha256": "a8c83e41fd5c7aadb1429a8393f399cf92b6d6ef9dccf810ae04fc58a003ac5f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 34579,
+      "sha256": "a2757aa466d6db9c510e68b7e2054de1161c29ff8c0895409aed682c0e32c0f6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 19936,
+      "sha256": "c15383201857c55ed2085fd9fa8f702ff6e80e94be4fcbcb26d138f38cc4ad76",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 33662,
+      "sha256": "3905e0bde43982b361701fb186655c598da71fb6717c05fbb12078abae5383b3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 28116,
+      "sha256": "0512e735d7a2f91b43fcc7b9e8501f9126d390a3d743b5e97c538cdc7ed3ec32",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 35179,
+      "sha256": "9bd5535c273353cf1440f7d6bdc855063064ffca3905d83a9f96002d6dabb1a9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 13652,
+      "sha256": "d7d45bb48904c0b7bae355f6d744a84aac0fb971ad665af54e2212b13fe80f66",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 63314,
+      "sha256": "1f395769f7d94cac08651c32af0a99106c4f5983d5ebaca5ec38483e7bd4949b",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 5515,
+      "sha256": "c68d4877882715af1a0cbd4e0fbffb6c16b4e566a7c4f0fe8603e158bffe092b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1732,
+      "sha256": "edeb539a5898bd0a58468ab09042f03a052a21ac8ac4f6793e3b3048ac960ba7",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 553,
+      "sha256": "85ab1a0477b33d8d6df884a70278d38c1d3abdfcf6614e629b4733cab9ee64e0",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "531f2e3d02aacd64ecf941fe9ac905294878e3c751da5e0ac2732a7c3553319f",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1063,
+      "sha256": "489343a44a6c81905a1a937a698101bb87cd431ce2e2c8d08d51b4429b88ef7d",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/double-decker-bus_body_basecolor.jpg",
+      "bytes": 200682,
+      "sha256": "1a221d8dff5629c1e0d2bbc1f3a4757b5f2053d3443be9e64a10063d660e28e2",
+      "role": "textures"
+    },
+    {
+      "path": "textures/double-decker-bus_body_metallic-double-decker-bus_body_roughness.jpg",
+      "bytes": 183215,
+      "sha256": "44eba235c6d09a7b6ed487808d9510482e70c996e416692ceab3d89ee9c15dce",
+      "role": "textures"
+    },
+    {
+      "path": "textures/double-decker-bus_body_normal.jpg",
+      "bytes": 69920,
+      "sha256": "8e8783f4ad2ac1525882f5219d929bcb6fa8efb58c8edf4edf83e0d1922879e5",
+      "role": "textures"
+    }
+  ]
+}

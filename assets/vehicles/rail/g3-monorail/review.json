@@ -1,0 +1,23 @@
+{
+  "id": "g3-monorail",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Rounded monorail car with doors and windows, posed on a raised beam and support. A distinct stylized transport model.",
+  "limitations": [
+    "Stylized procedural model with simplified forms and materials; not photorealistic.",
+    "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+    "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Includes a short support beam and pillar along with the car."
+  ],
+  "contact_sheet_sha256": "1a4f4c5197f422b36e9ac86ba6df28e174a6d7047a6f8dc1af0307b9f5ff5f45",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

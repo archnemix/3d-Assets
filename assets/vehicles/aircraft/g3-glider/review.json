@@ -1,0 +1,23 @@
+{
+  "id": "g3-glider",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Long-winged white sailplane with T-tail, blue canopy and small wheels. A distinct stylized transport model.",
+  "limitations": [
+    "Stylized procedural model with simplified forms and materials; not photorealistic.",
+    "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+    "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "The parked source model is tilted onto one wing; reorient for a level flight pose."
+  ],
+  "contact_sheet_sha256": "09a050502c1a9bc6c1d3e08fffe8b5407c3edcf85006bef0a9cfe8eaed9310a3",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

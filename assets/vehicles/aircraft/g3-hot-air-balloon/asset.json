@@ -1,0 +1,333 @@
+{
+  "schema_version": 1,
+  "id": "g3-hot-air-balloon",
+  "title": "Hot air balloon",
+  "category": "vehicles/aircraft",
+  "style": "stylized",
+  "tags": [
+    "balloon",
+    "flight",
+    "basket"
+  ],
+  "batch": "transport-variety-01",
+  "acquired_at": "2026-11-06T14:31:04.007196+00:00",
+  "review": {
+    "id": "g3-hot-air-balloon",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Pastel-striped balloon with suspended basket and burner assembly. A distinct stylized transport model.",
+    "limitations": [
+      "Stylized procedural model with simplified forms and materials; not photorealistic.",
+      "Source GLB contains no animation clips; operation of wheels, doors, controls or other moving parts was not verified.",
+      "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+    ],
+    "contact_sheet_sha256": "36221a9bf280cc21249faf7f248eb48a778954658f3dd16dcc7c8c97b99b0c7a",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/hot-air-balloon.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/hot-air-balloon/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/hot-air-balloon/",
+    "source_id": "hot-air-balloon",
+    "revision": "628bcbaf328181336e55681dd102d6712f1ab7aa981eeaf164c719e54e8812a6",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/hot-air-balloon/hot-air-balloon.glb",
+        "bytes": 2223680,
+        "sha256": "628bcbaf328181336e55681dd102d6712f1ab7aa981eeaf164c719e54e8812a6"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/hot-air-balloon/LICENSE.txt"
+  },
+  "model": "model/hot-air-balloon.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 2,
+    "materials": 8,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/hot-air-balloon_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "hot-air-balloon_body_normal"
+    },
+    {
+      "path": "textures/hot-air-balloon_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "hot-air-balloon_body_basecolor"
+    },
+    {
+      "path": "textures/hot-air-balloon_body_metallic-hot-air-balloon_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "hot-air-balloon_body_metallic-hot-air-balloon_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 2,
+    "hidden_mesh_objects": 0,
+    "vertices": 22338,
+    "triangles": 28408,
+    "material_slots": 8,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "hot-air-balloon_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "hot-air-balloon_body_metallic-hot-air-balloon_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "hot-air-balloon_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1462,
+      "sha256": "b9a950144db89a8854c8c452e7e3cfbe7999fae4bef780a32be13f741de0c0ef",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 70039,
+      "sha256": "722195be62cce51ca769894594af8cd53c314dfabadb3eead7d1144f845a8ed7",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "4c132aaebe0bc85f31fcf2e3cc23835a777c60078e1621f0306d07a131a47e4c",
+      "role": "logs"
+    },
+    {
+      "path": "model/hot-air-balloon.glb",
+      "bytes": 2223680,
+      "sha256": "628bcbaf328181336e55681dd102d6712f1ab7aa981eeaf164c719e54e8812a6",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 31540,
+      "sha256": "7f187316b4f3415e003d22f32adebc7e412d115926dc003cecd8046be9877bbe",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 16689,
+      "sha256": "cc8df9a8b80e8dbee21dd3f8423a76b57e3615114e9a6257e8defadef122ea64",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 193753,
+      "sha256": "36221a9bf280cc21249faf7f248eb48a778954658f3dd16dcc7c8c97b99b0c7a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 844,
+      "sha256": "b37725f253a929b6c3aefc8f76271783874bc4dc333ab65bf864843b13e64028",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 21371,
+      "sha256": "fc752bbffd099d0caf1a4e36972a5430b82ec3bcefee34fa31df20219d6c5090",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 21136,
+      "sha256": "358ba9e1a53493799db295047ee61e91584e0dd4cc1d7bd453cbf21e994c57ab",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 21710,
+      "sha256": "92e89aee960f8f46735d6344b3b8a1ca46cf670d7f5ff5c38a259c18a5c7f31a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 20704,
+      "sha256": "efb4a93096c12a4c5b335030bbbf0d6aa0c05c8bdffc84a31711b5ab75b57b9d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 21016,
+      "sha256": "4799a43bd71024f647fbadaebd7a6b80e15c242f2361c118609fc4c16a7f5c94",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 22142,
+      "sha256": "1dc669e33dc0465389ccd23f8e4e3518a75ec5c43679a48795e87b397a610567",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 21816,
+      "sha256": "01182a864d542d3775eff622ddc218848d1c50eb9393d7912aca0d2a4ba60ffe",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 22729,
+      "sha256": "00928c99106831fb5943516b0df3d0ec4189e74f95da5adec177ae61e67515c1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 20691,
+      "sha256": "4d69006938d490cf2f88d5405625e4e3c43caf7f3ffaf435abf91285b7c13e8b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 54720,
+      "sha256": "905ecb99b519560e13700645621513150909f11168bb026bf2919f9dba3011ca",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3254,
+      "sha256": "8fb61b94ce1b0353da7b36e6a831f98dc1471abbbdaab7cbecb9d604c66b06e6",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1767,
+      "sha256": "18f58915ca58135d612d6e455638f5119f7a21eb7179e775bed94d3b332c5b65",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 537,
+      "sha256": "f29bcb792cf91d1c38741e80d0623017e458e0f6dfaebe311c6787fa5ccd3249",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "2bccae07069a5cad0ed89af2e1aafc80afc73d86a142a01cd9bb30502f50d6dd",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 964,
+      "sha256": "597a5a71bd28ea22d4f6fb31b968e94b2bd2e95fb466973cc4b6dd61bc402967",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/hot-air-balloon_body_basecolor.jpg",
+      "bytes": 614840,
+      "sha256": "bc90bc23671f5bbb1c39897a09849c8a2ff74669e9f5dec0cd41b9a391b4dd26",
+      "role": "textures"
+    },
+    {
+      "path": "textures/hot-air-balloon_body_metallic-hot-air-balloon_body_roughness.jpg",
+      "bytes": 660465,
+      "sha256": "ca1fcc29ca3372dcc0edd61624ace4ab675d92c5e555b5410d4a79d9f1a88e9b",
+      "role": "textures"
+    },
+    {
+      "path": "textures/hot-air-balloon_body_normal.jpg",
+      "bytes": 74682,
+      "sha256": "1aa29e5f8e22b0269a6059bd27ce969edbc7636d86dac6daa5fb4bc8311030df",
+      "role": "textures"
+    }
+  ]
+}
