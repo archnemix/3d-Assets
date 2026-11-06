@@ -2,7 +2,7 @@
 
 Shops, banks, cinemas and public buildings
 
-Approved assets: **5**
+Approved assets: **4**
 
 ## Airport terminal with control tower
 
@@ -35,12 +35,3 @@ Approved assets: **5**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 20,642 triangles; 3 texture images
 - [Asset folder](../../assets/buildings/commercial/g3-city-block/) · [Metadata](../../assets/buildings/commercial/g3-city-block/asset.json) · [All inspection views](../../assets/buildings/commercial/g3-city-block/previews/contact-sheet.jpg)
-
-## Western general store
-
-![Western general store](../../assets/buildings/commercial/g3-general-store/previews/orbit-01.jpg)
-
-- Creator: Grab3D; style: stylized; CC0-1.0
-- 37,266 triangles; 8 texture images
-- [Asset folder](../../assets/buildings/commercial/g3-general-store/) · [Metadata](../../assets/buildings/commercial/g3-general-store/asset.json) · [All inspection views](../../assets/buildings/commercial/g3-general-store/previews/contact-sheet.jpg)
-

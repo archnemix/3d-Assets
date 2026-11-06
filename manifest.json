@@ -572,7 +572,7 @@
     {
       "id": "g3-general-store",
       "title": "Western general store",
-      "category": "buildings/commercial",
+      "category": "buildings/commercial/western",
       "style": "stylized",
       "tags": [
         "store",
@@ -592,12 +592,12 @@
       "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
       "source_url": "https://grab3d.com/models/buildings/general-store/",
       "license_evidence": "https://grab3d.com/dl/general-store/LICENSE.txt",
-      "directory": "assets/buildings/commercial/g3-general-store",
-      "metadata": "assets/buildings/commercial/g3-general-store/asset.json",
-      "metadata_sha256": "b6a42389990c771aa728eaf335093de1d5b513eb87a61a05916629b94a3369fc",
-      "model": "assets/buildings/commercial/g3-general-store/model/general-store.glb",
-      "preview": "assets/buildings/commercial/g3-general-store/previews/orbit-01.jpg",
-      "contact_sheet": "assets/buildings/commercial/g3-general-store/previews/contact-sheet.jpg",
+      "directory": "assets/buildings/commercial/western/g3-general-store",
+      "metadata": "assets/buildings/commercial/western/g3-general-store/asset.json",
+      "metadata_sha256": "637015912073659598a70daae1639472a6c435de81087bc3cf99c0e812f85eb7",
+      "model": "assets/buildings/commercial/western/g3-general-store/model/general-store.glb",
+      "preview": "assets/buildings/commercial/western/g3-general-store/previews/orbit-01.jpg",
+      "contact_sheet": "assets/buildings/commercial/western/g3-general-store/previews/contact-sheet.jpg",
       "triangles": 37266,
       "texture_count": 8,
       "max_texture_resolution": 2048,
@@ -1025,7 +1025,7 @@
     {
       "id": "g3-witch-cottage",
       "title": "Crooked witch cottage",
-      "category": "buildings/houses",
+      "category": "buildings/houses/fantasy",
       "style": "stylized",
       "tags": [
         "cottage",
@@ -1045,12 +1045,12 @@
       "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
       "source_url": "https://grab3d.com/models/buildings/witch-cottage/",
       "license_evidence": "https://grab3d.com/dl/witch-cottage/LICENSE.txt",
-      "directory": "assets/buildings/houses/g3-witch-cottage",
-      "metadata": "assets/buildings/houses/g3-witch-cottage/asset.json",
-      "metadata_sha256": "7148c1920cf8e14c5f0ab1a89869a2108419f41909b90e323d52d1152eca2bdd",
-      "model": "assets/buildings/houses/g3-witch-cottage/model/witch-cottage.glb",
-      "preview": "assets/buildings/houses/g3-witch-cottage/previews/orbit-01.jpg",
-      "contact_sheet": "assets/buildings/houses/g3-witch-cottage/previews/contact-sheet.jpg",
+      "directory": "assets/buildings/houses/fantasy/g3-witch-cottage",
+      "metadata": "assets/buildings/houses/fantasy/g3-witch-cottage/asset.json",
+      "metadata_sha256": "4dae83400aaf5aa207cf8cd586c104fbea7e8918a3dadf21f271a4377c357ae9",
+      "model": "assets/buildings/houses/fantasy/g3-witch-cottage/model/witch-cottage.glb",
+      "preview": "assets/buildings/houses/fantasy/g3-witch-cottage/previews/orbit-01.jpg",
+      "contact_sheet": "assets/buildings/houses/fantasy/g3-witch-cottage/previews/contact-sheet.jpg",
       "triangles": 27380,
       "texture_count": 6,
       "max_texture_resolution": 2048,
@@ -1060,7 +1060,7 @@
       "authored_animations": [
         "door_open"
       ],
-      "animated_model": "assets/buildings/houses/g3-witch-cottage/model/witch-cottage-animated.glb",
+      "animated_model": "assets/buildings/houses/fantasy/g3-witch-cottage/model/witch-cottage-animated.glb",
       "review_scores": {
         "silhouette": 5,
         "materials": 4,
@@ -1118,7 +1118,7 @@
     {
       "id": "g3-castle",
       "title": "Fairy-tale castle with towers",
-      "category": "buildings/landmarks",
+      "category": "buildings/landmarks/fantasy",
       "style": "stylized",
       "tags": [
         "castle",
@@ -1139,12 +1139,12 @@
       "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
       "source_url": "https://grab3d.com/models/buildings/castle/",
       "license_evidence": "https://grab3d.com/dl/castle/LICENSE.txt",
-      "directory": "assets/buildings/landmarks/g3-castle",
-      "metadata": "assets/buildings/landmarks/g3-castle/asset.json",
-      "metadata_sha256": "91ea1ee09d945ca804ac473906511e4867c300c5e8e7471105ae120d6fa6d886",
-      "model": "assets/buildings/landmarks/g3-castle/model/castle.glb",
-      "preview": "assets/buildings/landmarks/g3-castle/previews/orbit-01.jpg",
-      "contact_sheet": "assets/buildings/landmarks/g3-castle/previews/contact-sheet.jpg",
+      "directory": "assets/buildings/landmarks/fantasy/g3-castle",
+      "metadata": "assets/buildings/landmarks/fantasy/g3-castle/asset.json",
+      "metadata_sha256": "b733ce7af7c347f86b2857a87854c49d397144c880ba883ae5e464b8c474650b",
+      "model": "assets/buildings/landmarks/fantasy/g3-castle/model/castle.glb",
+      "preview": "assets/buildings/landmarks/fantasy/g3-castle/previews/orbit-01.jpg",
+      "contact_sheet": "assets/buildings/landmarks/fantasy/g3-castle/previews/contact-sheet.jpg",
       "triangles": 48980,
       "texture_count": 3,
       "max_texture_resolution": 2048,
@@ -1509,6 +1509,252 @@
       "triangles": 9212,
       "texture_count": 6,
       "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      }
+    },
+    {
+      "id": "modkit-floor-4m",
+      "title": "Industrial floor 4m",
+      "category": "buildings/modular/industrial",
+      "style": "stylized",
+      "tags": [
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
+      ],
+      "creator": "Jaron Bragg",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR."
+      ],
+      "resale_as_is": "The pinned README dedicates meshes and the assembled example to CC0 1.0; CC0 permits redistribution and resale of the files themselves.",
+      "source_url": "https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Floor_4m.glb",
+      "license_evidence": "https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE",
+      "directory": "assets/buildings/modular/industrial/modkit-floor-4m",
+      "metadata": "assets/buildings/modular/industrial/modkit-floor-4m/asset.json",
+      "metadata_sha256": "c5ffd582fc0b3175a4563d9f79a44b1061d00c469b272f9f045f8664b11f46c5",
+      "model": "assets/buildings/modular/industrial/modkit-floor-4m/model/SM_Floor_4m.glb",
+      "preview": "assets/buildings/modular/industrial/modkit-floor-4m/previews/orbit-01.jpg",
+      "contact_sheet": "assets/buildings/modular/industrial/modkit-floor-4m/previews/contact-sheet.jpg",
+      "triangles": 620,
+      "texture_count": 0,
+      "max_texture_resolution": 0,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      }
+    },
+    {
+      "id": "modkit-floor-hatch",
+      "title": "Industrial floor hatch",
+      "category": "buildings/modular/industrial",
+      "style": "stylized",
+      "tags": [
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
+      ],
+      "creator": "Jaron Bragg",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR."
+      ],
+      "resale_as_is": "The pinned README dedicates meshes and the assembled example to CC0 1.0; CC0 permits redistribution and resale of the files themselves.",
+      "source_url": "https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Floor_Hatch.glb",
+      "license_evidence": "https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE",
+      "directory": "assets/buildings/modular/industrial/modkit-floor-hatch",
+      "metadata": "assets/buildings/modular/industrial/modkit-floor-hatch/asset.json",
+      "metadata_sha256": "c588a2f038d59f7b045ec24a518554388fe55caadaf2e86760b662110f14404b",
+      "model": "assets/buildings/modular/industrial/modkit-floor-hatch/model/SM_Floor_Hatch.glb",
+      "preview": "assets/buildings/modular/industrial/modkit-floor-hatch/previews/orbit-01.jpg",
+      "contact_sheet": "assets/buildings/modular/industrial/modkit-floor-hatch/previews/contact-sheet.jpg",
+      "triangles": 1004,
+      "texture_count": 0,
+      "max_texture_resolution": 0,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      }
+    },
+    {
+      "id": "modkit-railing-4m",
+      "title": "Industrial railing 4m",
+      "category": "buildings/modular/industrial",
+      "style": "stylized",
+      "tags": [
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
+      ],
+      "creator": "Jaron Bragg",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR."
+      ],
+      "resale_as_is": "The pinned README dedicates meshes and the assembled example to CC0 1.0; CC0 permits redistribution and resale of the files themselves.",
+      "source_url": "https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Railing_4m.glb",
+      "license_evidence": "https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE",
+      "directory": "assets/buildings/modular/industrial/modkit-railing-4m",
+      "metadata": "assets/buildings/modular/industrial/modkit-railing-4m/asset.json",
+      "metadata_sha256": "6a8e253fe47c040ed217cc811ca34d0914879d31b4f23396ccc0042fdaa4878a",
+      "model": "assets/buildings/modular/industrial/modkit-railing-4m/model/SM_Railing_4m.glb",
+      "preview": "assets/buildings/modular/industrial/modkit-railing-4m/previews/orbit-01.jpg",
+      "contact_sheet": "assets/buildings/modular/industrial/modkit-railing-4m/previews/contact-sheet.jpg",
+      "triangles": 1594,
+      "texture_count": 0,
+      "max_texture_resolution": 0,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      }
+    },
+    {
+      "id": "modkit-wall-doorway-4m",
+      "title": "Industrial wall doorway 4m",
+      "category": "buildings/modular/industrial",
+      "style": "stylized",
+      "tags": [
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
+      ],
+      "creator": "Jaron Bragg",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR."
+      ],
+      "resale_as_is": "The pinned README dedicates meshes and the assembled example to CC0 1.0; CC0 permits redistribution and resale of the files themselves.",
+      "source_url": "https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Wall_Doorway_4m.glb",
+      "license_evidence": "https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE",
+      "directory": "assets/buildings/modular/industrial/modkit-wall-doorway-4m",
+      "metadata": "assets/buildings/modular/industrial/modkit-wall-doorway-4m/asset.json",
+      "metadata_sha256": "1730354822548ea916b92e43153c30bfb7e4ad403d49dbd2558c30c40a36b769",
+      "model": "assets/buildings/modular/industrial/modkit-wall-doorway-4m/model/SM_Wall_Doorway_4m.glb",
+      "preview": "assets/buildings/modular/industrial/modkit-wall-doorway-4m/previews/orbit-01.jpg",
+      "contact_sheet": "assets/buildings/modular/industrial/modkit-wall-doorway-4m/previews/contact-sheet.jpg",
+      "triangles": 772,
+      "texture_count": 0,
+      "max_texture_resolution": 0,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      }
+    },
+    {
+      "id": "modkit-wall-straight-4m",
+      "title": "Industrial wall straight 4m",
+      "category": "buildings/modular/industrial",
+      "style": "stylized",
+      "tags": [
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
+      ],
+      "creator": "Jaron Bragg",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR."
+      ],
+      "resale_as_is": "The pinned README dedicates meshes and the assembled example to CC0 1.0; CC0 permits redistribution and resale of the files themselves.",
+      "source_url": "https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Wall_Straight_4m.glb",
+      "license_evidence": "https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE",
+      "directory": "assets/buildings/modular/industrial/modkit-wall-straight-4m",
+      "metadata": "assets/buildings/modular/industrial/modkit-wall-straight-4m/asset.json",
+      "metadata_sha256": "8fc9323d68e03c4ddebd12dad29eafdd680f07e1dba198b89f682b8e5915d4da",
+      "model": "assets/buildings/modular/industrial/modkit-wall-straight-4m/model/SM_Wall_Straight_4m.glb",
+      "preview": "assets/buildings/modular/industrial/modkit-wall-straight-4m/previews/orbit-01.jpg",
+      "contact_sheet": "assets/buildings/modular/industrial/modkit-wall-straight-4m/previews/contact-sheet.jpg",
+      "triangles": 620,
+      "texture_count": 0,
+      "max_texture_resolution": 0,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      }
+    },
+    {
+      "id": "modkit-wall-window-4m",
+      "title": "Industrial wall window 4m",
+      "category": "buildings/modular/industrial",
+      "style": "stylized",
+      "tags": [
+        "industrial",
+        "modkit-industrial",
+        "modular",
+        "untextured"
+      ],
+      "creator": "Jaron Bragg",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR."
+      ],
+      "resale_as_is": "The pinned README dedicates meshes and the assembled example to CC0 1.0; CC0 permits redistribution and resale of the files themselves.",
+      "source_url": "https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Wall_Window_4m.glb",
+      "license_evidence": "https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE",
+      "directory": "assets/buildings/modular/industrial/modkit-wall-window-4m",
+      "metadata": "assets/buildings/modular/industrial/modkit-wall-window-4m/asset.json",
+      "metadata_sha256": "cf072222990c1199763b4bc5852c5bcf8fceeba77890c9c1035e404cc318ddf5",
+      "model": "assets/buildings/modular/industrial/modkit-wall-window-4m/model/SM_Wall_Window_4m.glb",
+      "preview": "assets/buildings/modular/industrial/modkit-wall-window-4m/previews/orbit-01.jpg",
+      "contact_sheet": "assets/buildings/modular/industrial/modkit-wall-window-4m/previews/contact-sheet.jpg",
+      "triangles": 816,
+      "texture_count": 0,
+      "max_texture_resolution": 0,
       "rigged": false,
       "animation_count": 0,
       "authored_animation_count": 0,
@@ -9721,7 +9967,7 @@
     {
       "id": "g3-1960s-sports-car",
       "title": "1960s sports car",
-      "category": "vehicles/cars",
+      "category": "vehicles/cars/classic",
       "style": "stylized",
       "tags": [
         "car",
@@ -9739,12 +9985,12 @@
       "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
       "source_url": "https://grab3d.com/models/vehicles/1960s-sports-car/",
       "license_evidence": "https://grab3d.com/dl/1960s-sports-car/LICENSE.txt",
-      "directory": "assets/vehicles/cars/g3-1960s-sports-car",
-      "metadata": "assets/vehicles/cars/g3-1960s-sports-car/asset.json",
-      "metadata_sha256": "d9fe6ed88902d9f97964d06f98da642c040256089e83053d33aaaff7243acc29",
-      "model": "assets/vehicles/cars/g3-1960s-sports-car/model/1960s-sports-car.glb",
-      "preview": "assets/vehicles/cars/g3-1960s-sports-car/previews/orbit-01.jpg",
-      "contact_sheet": "assets/vehicles/cars/g3-1960s-sports-car/previews/contact-sheet.jpg",
+      "directory": "assets/vehicles/cars/classic/g3-1960s-sports-car",
+      "metadata": "assets/vehicles/cars/classic/g3-1960s-sports-car/asset.json",
+      "metadata_sha256": "3e1146c0fec3547ce64dc4249bbe2c78b3992d7e88b705cae27740dd49a570ef",
+      "model": "assets/vehicles/cars/classic/g3-1960s-sports-car/model/1960s-sports-car.glb",
+      "preview": "assets/vehicles/cars/classic/g3-1960s-sports-car/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/cars/classic/g3-1960s-sports-car/previews/contact-sheet.jpg",
       "triangles": 18555,
       "texture_count": 5,
       "max_texture_resolution": 2048,
@@ -9755,7 +10001,52 @@
         "wheel_roll",
         "steer"
       ],
-      "animated_model": "assets/vehicles/cars/g3-1960s-sports-car/model/1960s-sports-car-animated.glb",
+      "animated_model": "assets/vehicles/cars/classic/g3-1960s-sports-car/model/1960s-sports-car-animated.glb",
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 4
+      }
+    },
+    {
+      "id": "g3-electric-car",
+      "title": "Compact electric city car",
+      "category": "vehicles/cars/electric",
+      "style": "stylized",
+      "tags": [
+        "car",
+        "electric",
+        "city",
+        "compact",
+        "stylized"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/vehicles/electric-car/",
+      "license_evidence": "https://grab3d.com/dl/electric-car/LICENSE.txt",
+      "directory": "assets/vehicles/cars/electric/g3-electric-car",
+      "metadata": "assets/vehicles/cars/electric/g3-electric-car/asset.json",
+      "metadata_sha256": "13c1a9cf7b053571afc28aed28d0a9c95a94da5ae0aaf100be03e6553f964071",
+      "model": "assets/vehicles/cars/electric/g3-electric-car/model/electric-car.glb",
+      "preview": "assets/vehicles/cars/electric/g3-electric-car/previews/orbit-01.jpg",
+      "contact_sheet": "assets/vehicles/cars/electric/g3-electric-car/previews/contact-sheet.jpg",
+      "triangles": 17770,
+      "texture_count": 5,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 2,
+      "authored_animations": [
+        "wheel_roll",
+        "steer"
+      ],
+      "animated_model": "assets/vehicles/cars/electric/g3-electric-car/model/electric-car-animated.glb",
       "review_scores": {
         "silhouette": 5,
         "materials": 5,
@@ -9893,51 +10184,6 @@
         "steer"
       ],
       "animated_model": "assets/vehicles/cars/g3-compact-car/model/compact-car-animated.glb",
-      "review_scores": {
-        "silhouette": 5,
-        "materials": 5,
-        "topology": 5,
-        "completeness": 5,
-        "style_fit": 4
-      }
-    },
-    {
-      "id": "g3-electric-car",
-      "title": "Compact electric city car",
-      "category": "vehicles/cars",
-      "style": "stylized",
-      "tags": [
-        "car",
-        "electric",
-        "city",
-        "compact",
-        "stylized"
-      ],
-      "creator": "Grab3D",
-      "license": "CC0-1.0",
-      "license_notes": [
-        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
-      ],
-      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
-      "source_url": "https://grab3d.com/models/vehicles/electric-car/",
-      "license_evidence": "https://grab3d.com/dl/electric-car/LICENSE.txt",
-      "directory": "assets/vehicles/cars/g3-electric-car",
-      "metadata": "assets/vehicles/cars/g3-electric-car/asset.json",
-      "metadata_sha256": "90cb09c3afa30c052c6e46340c7a63974ab20ade829a961ec878c9aa50dd7739",
-      "model": "assets/vehicles/cars/g3-electric-car/model/electric-car.glb",
-      "preview": "assets/vehicles/cars/g3-electric-car/previews/orbit-01.jpg",
-      "contact_sheet": "assets/vehicles/cars/g3-electric-car/previews/contact-sheet.jpg",
-      "triangles": 17770,
-      "texture_count": 5,
-      "max_texture_resolution": 2048,
-      "rigged": false,
-      "animation_count": 0,
-      "authored_animation_count": 2,
-      "authored_animations": [
-        "wheel_roll",
-        "steer"
-      ],
-      "animated_model": "assets/vehicles/cars/g3-electric-car/model/electric-car-animated.glb",
       "review_scores": {
         "silhouette": 5,
         "materials": 5,
@@ -11680,8 +11926,8 @@
     }
   ],
   "totals": {
-    "assets": 270,
-    "categories": 75,
+    "assets": 276,
+    "categories": 79,
     "by_category": {
       "architecture/doors": 1,
       "architecture/fences": 1,
@@ -11690,14 +11936,16 @@
       "armour/head": 1,
       "armour/limbs": 2,
       "armour/shields": 1,
-      "buildings/commercial": 5,
+      "buildings/commercial": 4,
+      "buildings/commercial/western": 1,
       "buildings/entertainment": 5,
       "buildings/farm": 3,
-      "buildings/houses": 1,
-      "buildings/houses/fantasy": 1,
+      "buildings/houses/fantasy": 2,
       "buildings/houses/modern": 1,
-      "buildings/landmarks": 6,
+      "buildings/landmarks": 5,
+      "buildings/landmarks/fantasy": 1,
       "buildings/modular": 3,
+      "buildings/modular/industrial": 6,
       "characters/fantasy": 8,
       "characters/historical": 1,
       "characters/humans": 19,
@@ -11747,7 +11995,9 @@
       "tools/storage": 1,
       "toys/figures": 1,
       "vehicles/bikes": 2,
-      "vehicles/cars": 10,
+      "vehicles/cars": 8,
+      "vehicles/cars/classic": 1,
+      "vehicles/cars/electric": 1,
       "vehicles/farm": 2,
       "vehicles/parts": 6,
       "vehicles/rail": 5,
@@ -11762,7 +12012,7 @@
     "by_style": {
       "low-poly": 24,
       "realistic": 173,
-      "stylized": 73
+      "stylized": 79
     }
   }
 }

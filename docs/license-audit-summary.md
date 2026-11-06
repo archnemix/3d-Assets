@@ -1,5 +1,7 @@
 # License and author-request audit
 
+> **Historical snapshot (2026-11-05):** Counts, providers and source decisions below are not the current library state. See [the current per-asset audit](licenses.md) and [research notes](../reports/research/2026-11-06-library-review.md). Automated checks rely on recorded evidence and do not independently certify every current upstream term or third-party right.
+
 **Audited:** 2026-11-05 · **Library:** 139 approved assets · **Result: no conflicts.**
 
 Every approved asset is CC0 1.0 from a provider whose published terms were re-read on the

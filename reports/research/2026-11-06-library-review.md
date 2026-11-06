@@ -83,3 +83,55 @@ Research realistic cars and complete maps without lowering the license standard.
 Local Blender was not installed in this environment; CI intake needs a suitable new
 request and an available runner. The previous Innerscene batch remains unapproved and
 its documented redirect, cache and terms issues still require resolution.
+
+## Follow-up: Skyborn Building Studio release lead
+
+The [pinned v1.0.0 README](https://github.com/holokat/building-studio/blob/a4c4d0381ea478c79649e8e750553ffdeb4845bf/README.md)
+states that buildings, props and their textures are CC0, no attribution required;
+application code and runtime are separately MIT. Its [pinned asset catalog](https://github.com/holokat/building-studio/blob/a4c4d0381ea478c79649e8e750553ffdeb4845bf/downloads.json)
+lists individual downloadable GLBs with byte counts and SHA-256 hashes. Its release
+notes say engine-specific collision, LODs and gameplay integration remain separate work,
+and browser-specific material effects may not match standard glTF viewers. The
+creator describes a walk-inside viewer; that is not independent proof the exported
+building is readily enterable. A one-building intake request is prepared to validate
+this before expanding the set. The sandbox cannot reach GitHub's release-asset host;
+the Actions worker must acquire it and verify the exact catalog hash. The later README
+links v1.1.0, but that release was not available through GitHub when checked; the
+request intentionally pins the existing v1.0.0 release and its corresponding catalog.
+
+## Additional source-record cross-check
+
+A local pass over all 270 currently approved `asset.json` records checked source-specific
+stored evidence beyond the generic audit: 149/149 Grab3D assets have a saved package
+manifest whose declared license is `CC0-1.0` and whose slug agrees with the asset and
+package provenance; 111/111 Poly Haven assets have saved API metadata with an author
+map; 10/10 Kenney conversions have a saved GitHub provenance record whose pinned commit
+and path agree with the asset record. This verifies the presence and internal consistency
+of stored acquisition evidence, not the identity of each uploader, live terms, ownership
+of third-party material, or visual freedom from trademarks. The catalog and audit also
+verify inventories and license text hashes. Further independent rights review remains
+necessary where provenance or creator requests are uncertain.
+
+## Further local contact-sheet review
+
+Five additional existing assets were reviewed visually for category placement only.
+The witch cottage moved to `buildings/houses/fantasy`, the fairy-tale castle to
+`buildings/landmarks/fantasy`, and the western general store to
+`buildings/commercial/western`. Their exterior sheets do not prove usable interiors.
+The 1960s sports car moved to `vehicles/cars/classic` and the electric city car to
+`vehicles/cars/electric`; both appear stylized rather than photorealistic. These
+categorization checks did not re-assess full-size views, movement or actual interiors
+and are not a complete quality re-review. The library remains at 270 assets, now
+in 78 populated categories.
+
+## ModKit intake results
+
+GitHub Actions run `42182214678` completed successfully across five workers: all 39
+candidates passed technical intake. Six structural modules were subsequently visually
+reviewed and approved; see the two `reviews/modkit-industrial-01-*.json` files. The
+other 33, including the assembled outpost, remain in quarantine. The outpost's orbit
+renders are distant and do not establish interior navigation, and its geometry report
+records 215 zero-area triangles; it requires closer review before any approval. The
+crate-stack preview shows three bare, simple cuboids and should not be represented as
+a richly detailed crate asset. The approved modules are static, untextured and
+stylized; they do not solve the realistic vehicle or enterable building gaps.

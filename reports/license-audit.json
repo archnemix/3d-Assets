@@ -15,12 +15,13 @@
     "author_request_blocks_intake": true
   },
   "totals": {
-    "assets": 270,
-    "passed": 270,
+    "assets": 276,
+    "passed": 276,
     "failed": 0,
     "by_provider": {
       "grab3d": 149,
       "kenney": 10,
+      "modkit-industrial": 6,
       "polyhaven": 111
     }
   },
@@ -66,6 +67,26 @@
         "The standalone page https://kenney.nl/license returned 404 when checked on 2026-11-04. The evidence used instead is the support page (all asset-page assets are CC0, attribution not required) plus the license file pinned in the exact source revision each asset came from.",
         "Kenney reserves its studio logo for official projects. The logo is not part of any asset here and must not be used to imply endorsement.",
         "Files come from a pinned third-party mirror that converts Kenney's packs to GLB. That mirror's license explicitly releases its conversions, embedded textures and thumbnails under CC0 as well. Kenney remains the original creator and is recorded as such."
+      ]
+    },
+    "modkit-industrial": {
+      "name": "ModKit by Jaron Bragg",
+      "spdx": "CC0-1.0",
+      "status": "verified",
+      "free_of_charge": true,
+      "terms_url": "https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/README.md",
+      "evidence_url": "https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE",
+      "resale_as_is": {
+        "permitted": true,
+        "explicit": false,
+        "note": "The pinned README dedicates meshes and the assembled example to CC0 1.0; CC0 permits redistribution and resale of the files themselves."
+      },
+      "asset_notes": [
+        "Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR."
+      ],
+      "caveats": [
+        "The example scene and individual components are from the same pinned upstream repository. Confirm in-engine navigation, collisions, scale and visual quality before assuming it is a complete playable map.",
+        "CC0 does not clear trademarks, patents or third-party rights; inspect all models and source evidence individually."
       ]
     },
     "polyhaven": {
@@ -534,14 +555,14 @@
     {
       "id": "g3-general-store",
       "title": "Western general store",
-      "category": "buildings/commercial",
+      "category": "buildings/commercial/western",
       "creator": "Grab3D",
       "provider": "grab3d",
       "spdx": "CC0-1.0",
-      "directory": "assets/buildings/commercial/g3-general-store",
+      "directory": "assets/buildings/commercial/western/g3-general-store",
       "source_url": "https://grab3d.com/models/buildings/general-store/",
       "license_evidence": "https://grab3d.com/dl/general-store/LICENSE.txt",
-      "license_file": "assets/buildings/commercial/g3-general-store/LICENSE.txt",
+      "license_file": "assets/buildings/commercial/western/g3-general-store/LICENSE.txt",
       "license_file_sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
       "ai_assisted": false,
       "notes": [
@@ -874,14 +895,14 @@
     {
       "id": "g3-witch-cottage",
       "title": "Crooked witch cottage",
-      "category": "buildings/houses",
+      "category": "buildings/houses/fantasy",
       "creator": "Grab3D",
       "provider": "grab3d",
       "spdx": "CC0-1.0",
-      "directory": "assets/buildings/houses/g3-witch-cottage",
+      "directory": "assets/buildings/houses/fantasy/g3-witch-cottage",
       "source_url": "https://grab3d.com/models/buildings/witch-cottage/",
       "license_evidence": "https://grab3d.com/dl/witch-cottage/LICENSE.txt",
-      "license_file": "assets/buildings/houses/g3-witch-cottage/LICENSE.txt",
+      "license_file": "assets/buildings/houses/fantasy/g3-witch-cottage/LICENSE.txt",
       "license_file_sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
       "ai_assisted": false,
       "notes": [
@@ -942,14 +963,14 @@
     {
       "id": "g3-castle",
       "title": "Fairy-tale castle with towers",
-      "category": "buildings/landmarks",
+      "category": "buildings/landmarks/fantasy",
       "creator": "Grab3D",
       "provider": "grab3d",
       "spdx": "CC0-1.0",
-      "directory": "assets/buildings/landmarks/g3-castle",
+      "directory": "assets/buildings/landmarks/fantasy/g3-castle",
       "source_url": "https://grab3d.com/models/buildings/castle/",
       "license_evidence": "https://grab3d.com/dl/castle/LICENSE.txt",
-      "license_file": "assets/buildings/landmarks/g3-castle/LICENSE.txt",
+      "license_file": "assets/buildings/landmarks/fantasy/g3-castle/LICENSE.txt",
       "license_file_sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
       "ai_assisted": false,
       "notes": [
@@ -1226,6 +1247,210 @@
       "ai_assisted": false,
       "notes": [
         "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "modkit-floor-4m",
+      "title": "Industrial floor 4m",
+      "category": "buildings/modular/industrial",
+      "creator": "Jaron Bragg",
+      "provider": "modkit-industrial",
+      "spdx": "CC0-1.0",
+      "directory": "assets/buildings/modular/industrial/modkit-floor-4m",
+      "source_url": "https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Floor_4m.glb",
+      "license_evidence": "https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE",
+      "license_file": "assets/buildings/modular/industrial/modkit-floor-4m/LICENSE.txt",
+      "license_file_sha256": "645290fbe623e74da82dae25734e8e6d5123f40f85343ad11cf0d990f8b3e4e0",
+      "ai_assisted": false,
+      "notes": [
+        "Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "modkit-floor-hatch",
+      "title": "Industrial floor hatch",
+      "category": "buildings/modular/industrial",
+      "creator": "Jaron Bragg",
+      "provider": "modkit-industrial",
+      "spdx": "CC0-1.0",
+      "directory": "assets/buildings/modular/industrial/modkit-floor-hatch",
+      "source_url": "https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Floor_Hatch.glb",
+      "license_evidence": "https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE",
+      "license_file": "assets/buildings/modular/industrial/modkit-floor-hatch/LICENSE.txt",
+      "license_file_sha256": "645290fbe623e74da82dae25734e8e6d5123f40f85343ad11cf0d990f8b3e4e0",
+      "ai_assisted": false,
+      "notes": [
+        "Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "modkit-railing-4m",
+      "title": "Industrial railing 4m",
+      "category": "buildings/modular/industrial",
+      "creator": "Jaron Bragg",
+      "provider": "modkit-industrial",
+      "spdx": "CC0-1.0",
+      "directory": "assets/buildings/modular/industrial/modkit-railing-4m",
+      "source_url": "https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Railing_4m.glb",
+      "license_evidence": "https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE",
+      "license_file": "assets/buildings/modular/industrial/modkit-railing-4m/LICENSE.txt",
+      "license_file_sha256": "645290fbe623e74da82dae25734e8e6d5123f40f85343ad11cf0d990f8b3e4e0",
+      "ai_assisted": false,
+      "notes": [
+        "Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "modkit-wall-doorway-4m",
+      "title": "Industrial wall doorway 4m",
+      "category": "buildings/modular/industrial",
+      "creator": "Jaron Bragg",
+      "provider": "modkit-industrial",
+      "spdx": "CC0-1.0",
+      "directory": "assets/buildings/modular/industrial/modkit-wall-doorway-4m",
+      "source_url": "https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Wall_Doorway_4m.glb",
+      "license_evidence": "https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE",
+      "license_file": "assets/buildings/modular/industrial/modkit-wall-doorway-4m/LICENSE.txt",
+      "license_file_sha256": "645290fbe623e74da82dae25734e8e6d5123f40f85343ad11cf0d990f8b3e4e0",
+      "ai_assisted": false,
+      "notes": [
+        "Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "modkit-wall-straight-4m",
+      "title": "Industrial wall straight 4m",
+      "category": "buildings/modular/industrial",
+      "creator": "Jaron Bragg",
+      "provider": "modkit-industrial",
+      "spdx": "CC0-1.0",
+      "directory": "assets/buildings/modular/industrial/modkit-wall-straight-4m",
+      "source_url": "https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Wall_Straight_4m.glb",
+      "license_evidence": "https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE",
+      "license_file": "assets/buildings/modular/industrial/modkit-wall-straight-4m/LICENSE.txt",
+      "license_file_sha256": "645290fbe623e74da82dae25734e8e6d5123f40f85343ad11cf0d990f8b3e4e0",
+      "ai_assisted": false,
+      "notes": [
+        "Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "modkit-wall-window-4m",
+      "title": "Industrial wall window 4m",
+      "category": "buildings/modular/industrial",
+      "creator": "Jaron Bragg",
+      "provider": "modkit-industrial",
+      "spdx": "CC0-1.0",
+      "directory": "assets/buildings/modular/industrial/modkit-wall-window-4m",
+      "source_url": "https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Wall_Window_4m.glb",
+      "license_evidence": "https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE",
+      "license_file": "assets/buildings/modular/industrial/modkit-wall-window-4m/LICENSE.txt",
+      "license_file_sha256": "645290fbe623e74da82dae25734e8e6d5123f40f85343ad11cf0d990f8b3e4e0",
+      "ai_assisted": false,
+      "notes": [
+        "Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR."
       ],
       "checks": {
         "free_of_charge": true,
@@ -7538,14 +7763,48 @@
     {
       "id": "g3-1960s-sports-car",
       "title": "1960s sports car",
-      "category": "vehicles/cars",
+      "category": "vehicles/cars/classic",
       "creator": "Grab3D",
       "provider": "grab3d",
       "spdx": "CC0-1.0",
-      "directory": "assets/vehicles/cars/g3-1960s-sports-car",
+      "directory": "assets/vehicles/cars/classic/g3-1960s-sports-car",
       "source_url": "https://grab3d.com/models/vehicles/1960s-sports-car/",
       "license_evidence": "https://grab3d.com/dl/1960s-sports-car/LICENSE.txt",
-      "license_file": "assets/vehicles/cars/g3-1960s-sports-car/LICENSE.txt",
+      "license_file": "assets/vehicles/cars/classic/g3-1960s-sports-car/LICENSE.txt",
+      "license_file_sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "ai_assisted": false,
+      "notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "g3-electric-car",
+      "title": "Compact electric city car",
+      "category": "vehicles/cars/electric",
+      "creator": "Grab3D",
+      "provider": "grab3d",
+      "spdx": "CC0-1.0",
+      "directory": "assets/vehicles/cars/electric/g3-electric-car",
+      "source_url": "https://grab3d.com/models/vehicles/electric-car/",
+      "license_evidence": "https://grab3d.com/dl/electric-car/LICENSE.txt",
+      "license_file": "assets/vehicles/cars/electric/g3-electric-car/LICENSE.txt",
       "license_file_sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
       "ai_assisted": false,
       "notes": [
@@ -7648,40 +7907,6 @@
       "source_url": "https://grab3d.com/models/vehicles/compact-car/",
       "license_evidence": "https://grab3d.com/dl/compact-car/LICENSE.txt",
       "license_file": "assets/vehicles/cars/g3-compact-car/LICENSE.txt",
-      "license_file_sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
-      "ai_assisted": false,
-      "notes": [
-        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
-      ],
-      "checks": {
-        "free_of_charge": true,
-        "cc0_spdx": true,
-        "cc0_text_present": true,
-        "license_file_checksummed": true,
-        "no_attribution_required": true,
-        "commercial_use_allowed": true,
-        "redistribution_allowed": true,
-        "evidence_recorded": true,
-        "source_terms_verified": true,
-        "standalone_resale_permitted": true,
-        "textures_included": true,
-        "no_trademark_warning": true,
-        "visually_approved": true
-      },
-      "failed_checks": [],
-      "pass": true
-    },
-    {
-      "id": "g3-electric-car",
-      "title": "Compact electric city car",
-      "category": "vehicles/cars",
-      "creator": "Grab3D",
-      "provider": "grab3d",
-      "spdx": "CC0-1.0",
-      "directory": "assets/vehicles/cars/g3-electric-car",
-      "source_url": "https://grab3d.com/models/vehicles/electric-car/",
-      "license_evidence": "https://grab3d.com/dl/electric-car/LICENSE.txt",
-      "license_file": "assets/vehicles/cars/g3-electric-car/LICENSE.txt",
       "license_file_sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
       "ai_assisted": false,
       "notes": [

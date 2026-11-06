@@ -2,15 +2,7 @@
 
 Castles, monuments and recognisable structures
 
-Approved assets: **6**
-
-## Fairy-tale castle with towers
-
-![Fairy-tale castle with towers](../../assets/buildings/landmarks/g3-castle/previews/orbit-01.jpg)
-
-- Creator: Grab3D; style: stylized; CC0-1.0
-- 48,980 triangles; 3 texture images
-- [Asset folder](../../assets/buildings/landmarks/g3-castle/) · [Metadata](../../assets/buildings/landmarks/g3-castle/asset.json) · [All inspection views](../../assets/buildings/landmarks/g3-castle/previews/contact-sheet.jpg)
+Approved assets: **5**
 
 ## Roman colosseum
 
@@ -51,4 +43,3 @@ Approved assets: **6**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 19,124 triangles; 3 texture images
 - [Asset folder](../../assets/buildings/landmarks/g3-ziggurat/) · [Metadata](../../assets/buildings/landmarks/g3-ziggurat/asset.json) · [All inspection views](../../assets/buildings/landmarks/g3-ziggurat/previews/contact-sheet.jpg)
-

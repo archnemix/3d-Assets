@@ -1,0 +1,58 @@
+{
+  "batch": "modkit-industrial-01",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-06",
+  "decisions": [
+    {
+      "id": "modkit-wall-window-4m",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "The rectangular window opening is cut all the way through a thick wall, with inset side panels. All orbit, edge, clay and wireframe views and the larger oblique render show a clean consistent module.",
+      "limitations": [
+        "The opening has no glazing or window frame; this is a static, untextured wall module, not a finished building.",
+        "Simplified industrial kit; grid fit, interior traversal and collision have not been tested in-engine."
+      ],
+      "contact_sheet_sha256": "525af93da2332979597f7efd3ae4f981b3f2917eb155f50f965386896fb15198"
+    },
+    {
+      "id": "modkit-wall-straight-4m",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "The straight wall has two recessed panels and consistent thickness on both sides; eight orbit, top, underside, clay and wireframe views plus the large oblique render show a complete simple module.",
+      "limitations": [
+        "This is a static, untextured modular wall and does not include openings.",
+        "Simplified industrial kit; grid fit, interior traversal and collision have not been tested in-engine."
+      ],
+      "contact_sheet_sha256": "d305c2872b7fb1c8cd0f118223b4c5caaf353c3ecc7b8ac1b5d4aecccb793899"
+    },
+    {
+      "id": "modkit-floor-4m",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 5,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "A square slab with four inset surface panels and visible edge thickness remains coherent from all orbit, top, bottom, clay and wireframe views; the large oblique view shows the panel joins clearly.",
+      "limitations": [
+        "This untextured static slab requires a target-engine collision setup; its underside is plain.",
+        "Simplified industrial kit; grid fit, interior traversal and collision have not been tested in-engine."
+      ],
+      "contact_sheet_sha256": "4cdca5608affde57de4b69177b00d52a9e32d7cd5ab3cb34168a21cacfea46e3"
+    }
+  ]
+}

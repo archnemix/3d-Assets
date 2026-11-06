@@ -124,6 +124,27 @@
         "The example scene and individual components are from the same pinned upstream repository. Confirm in-engine navigation, collisions, scale and visual quality before assuming it is a complete playable map.",
         "CC0 does not clear trademarks, patents or third-party rights; inspect all models and source evidence individually."
       ]
+    },
+    "skyborn-buildings": {
+      "name": "Skyborn Building Studio",
+      "spdx": "CC0-1.0",
+      "status": "verified",
+      "free_of_charge": true,
+      "terms_url": "https://github.com/holokat/building-studio/blob/a4c4d0381ea478c79649e8e750553ffdeb4845bf/README.md",
+      "evidence_url": "https://raw.githubusercontent.com/holokat/building-studio/a4c4d0381ea478c79649e8e750553ffdeb4845bf/licenses/CC0-1.0.txt",
+      "resale_as_is": {
+        "permitted": true,
+        "explicit": false,
+        "note": "The pinned README dedicates buildings, props and asset textures to CC0 1.0; the dedication permits standalone resale and redistribution."
+      },
+      "asset_notes": [
+        "Source describes the standalone GLBs as art assets; collisions and gameplay integration require separate work."
+      ],
+      "caveats": [
+        "The studio application code and vendor runtime are MIT, not CC0; only the building and asset files are covered by this source entry.",
+        "Upstream says browser-specific material effects may differ in standard glTF viewers; inspect the actual exported model before claiming its appearance.",
+        "CC0 does not clear trademarks, patents or rights of third parties depicted in the assets."
+      ]
     }
   }
 }

@@ -1,6 +1,7 @@
 """Source adapters return files plus evidence; they do not approve quality."""
 
 from .github import fetch_github
+from .github_release import fetch_github_release
 from .grab3d import fetch_grab3d
 from .innerscene import fetch_innerscene
 from .makehuman import fetch_makehuman
@@ -11,6 +12,7 @@ def fetch(source: dict, candidate: dict, directory) -> dict:
     adapters = {
         "polyhaven": fetch_polyhaven,
         "github": fetch_github,
+        "github-release": fetch_github_release,
         "makehuman": fetch_makehuman,
         "grab3d": fetch_grab3d,
         "innerscene": fetch_innerscene,

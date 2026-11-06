@@ -2,15 +2,7 @@
 
 Road vehicles and go-karts
 
-Approved assets: **10**
-
-## 1960s sports car
-
-![1960s sports car](../../assets/vehicles/cars/g3-1960s-sports-car/previews/orbit-01.jpg)
-
-- Creator: Grab3D; style: stylized; CC0-1.0
-- 18,555 triangles; 5 texture images
-- [Asset folder](../../assets/vehicles/cars/g3-1960s-sports-car/) · [Metadata](../../assets/vehicles/cars/g3-1960s-sports-car/asset.json) · [All inspection views](../../assets/vehicles/cars/g3-1960s-sports-car/previews/contact-sheet.jpg)
+Approved assets: **8**
 
 ## 1980s wedge sports car
 
@@ -35,14 +27,6 @@ Approved assets: **10**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 17,338 triangles; 5 texture images
 - [Asset folder](../../assets/vehicles/cars/g3-compact-car/) · [Metadata](../../assets/vehicles/cars/g3-compact-car/asset.json) · [All inspection views](../../assets/vehicles/cars/g3-compact-car/previews/contact-sheet.jpg)
-
-## Compact electric city car
-
-![Compact electric city car](../../assets/vehicles/cars/g3-electric-car/previews/orbit-01.jpg)
-
-- Creator: Grab3D; style: stylized; CC0-1.0
-- 17,770 triangles; 5 texture images
-- [Asset folder](../../assets/vehicles/cars/g3-electric-car/) · [Metadata](../../assets/vehicles/cars/g3-electric-car/asset.json) · [All inspection views](../../assets/vehicles/cars/g3-electric-car/previews/contact-sheet.jpg)
 
 ## Classic fastback muscle car
 
@@ -83,4 +67,3 @@ Approved assets: **10**
 - Creator: Kenney; style: low-poly; CC0-1.0
 - 2,088 triangles; 1 texture images
 - [Asset folder](../../assets/vehicles/cars/kenney-sports-sedan/) · [Metadata](../../assets/vehicles/cars/kenney-sports-sedan/asset.json) · [All inspection views](../../assets/vehicles/cars/kenney-sports-sedan/previews/contact-sheet.jpg)
-

@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "id": "modkit-wall-straight-4m",
+  "title": "Industrial wall straight 4m",
+  "category": "buildings/modular/industrial",
+  "style": "stylized",
+  "tags": [
+    "industrial",
+    "modkit-industrial",
+    "modular",
+    "untextured"
+  ],
+  "batch": "modkit-industrial-01",
+  "acquired_at": "2026-11-06T07:53:41.056750+00:00",
+  "review": {
+    "id": "modkit-wall-straight-4m",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "The straight wall has two recessed panels and consistent thickness on both sides; eight orbit, top, underside, clay and wireframe views plus the large oblique render show a complete simple module.",
+    "limitations": [
+      "This is a static, untextured modular wall and does not include openings.",
+      "Simplified industrial kit; grid fit, interior traversal and collision have not been tested in-engine."
+    ],
+    "contact_sheet_sha256": "d305c2872b7fb1c8cd0f118223b4c5caaf353c3ecc7b8ac1b5d4aecccb793899",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "modkit-industrial",
+    "model": "model/SM_Wall_Straight_4m.glb",
+    "creator": "Jaron Bragg",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE",
+    "source_url": "https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Wall_Straight_4m.glb",
+    "source_id": "exports/GLTF/SM_Wall_Straight_4m.glb",
+    "revision": "f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Wall_Straight_4m.glb",
+        "bytes": 31604,
+        "sha256": "9b6b52e56cfa2dce875999e5d9c693981ad835f04ab4fc71e902c97b9d142d43"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE"
+  },
+  "model": "model/SM_Wall_Straight_4m.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 0,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 664,
+    "triangles": 620,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 0,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7133,
+      "sha256": "645290fbe623e74da82dae25734e8e6d5123f40f85343ad11cf0d990f8b3e4e0",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1436,
+      "sha256": "738b204478c56989d1d5022987ffbaaafee94d711d5dd9c7abbfdbd21ef04277",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 294,
+      "sha256": "876104b7a830776cdf82eb6012409bc72eec4b79e34eb73a94f54fc66253a01a",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 61716,
+      "sha256": "35bb8cb6d8d98d897ace606bf44f871165faf0e70f0a8146b44348f8ab82c0bf",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "e7040e3bf05438a7ca6aac251c6fe9710aa659243a0514755c103e4cac54790e",
+      "role": "logs"
+    },
+    {
+      "path": "model/SM_Wall_Straight_4m.glb",
+      "bytes": 31604,
+      "sha256": "9b6b52e56cfa2dce875999e5d9c693981ad835f04ab4fc71e902c97b9d142d43",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 10430,
+      "sha256": "678adfc911d1951d727f788c4ae5c2dbbc49a03f18e2852af8b7c914012aa8a6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18134,
+      "sha256": "8d7d6bc55a6efff0ebbcf02531645d6bd842d4a8cd51d877d72c05aac053badc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 125071,
+      "sha256": "d305c2872b7fb1c8cd0f118223b4c5caaf353c3ecc7b8ac1b5d4aecccb793899",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 325,
+      "sha256": "88541cb63261112e4e9e87ab6cf6b8cb2b5f83e216c781f96cb2410c5b8529d0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 16578,
+      "sha256": "abda9cc977e6ccfa8967df1a2a6f1894599ef4afda7c8ef57fca0c7e41183f90",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 18171,
+      "sha256": "fcdd2db9a514b7d1670f62328010cc40bcfcb7b589ad5f792c7f0c5c5e9e6971",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 9739,
+      "sha256": "a6c45a39239c2a3d9e011947d0f1da355a46fc4134998756c67cbb8f65d53f7f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 16743,
+      "sha256": "1da03ffd326d08e6b3c84a57a67a54ee0b5b8e15df443f5db3bed03fbf33ddf6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 15860,
+      "sha256": "4c5462c646eb3c47e0aae36f34f1e371ef94d7f0d97b07714ac95b5cb888fcd8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 17396,
+      "sha256": "6b02f4fb0dc76aa05dbf1b57939339e02c38ffa978996f59c5d0558a71310876",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 9829,
+      "sha256": "c0795e13ac7452b1a9cef35dcc8cd062db9d5bd4d2a5f5d8d62308f02ee018d2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 17594,
+      "sha256": "c419fa7089cdbec7fdef861c77c8056093f0619feff8a5a06f0baacc64136bf0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 9821,
+      "sha256": "d3037b3dc4f30f6e62b79eb72567b7daf342654e317bac52540f24e952f2b6a0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 30227,
+      "sha256": "437b5825675ad0280e5e9e31df61229be335d5db2b8454b26b940365736d76da",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 165,
+      "sha256": "a7b5afa481b3a6677fd86e40e8eb8c569b039471e63da64e31c1c39c379411f5",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/github-source.json",
+      "bytes": 393,
+      "sha256": "9cc4ab9ebe16899ef5f2ec552b65b1e78465bcb4e983a4b1deb8c13467dc8c2f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1254,
+      "sha256": "57c58b891226a861274e716fdce21ec9b65a6f113d1c69ecd5359a43b538d32b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/upstream-terms.md",
+      "bytes": 15449,
+      "sha256": "9b9d1d699b26f49a8f9835f0fb19094ca64eac2ccdac5a8b0a8cb8153f3303f9",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 865,
+      "sha256": "c9541ca6aa4cc05940d74b4304146b301f62449eb7f1a7e2f60bb7d4cadf9c5a",
+      "role": "documentation"
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "id": "modkit-floor-4m",
+  "title": "Industrial floor 4m",
+  "category": "buildings/modular/industrial",
+  "style": "stylized",
+  "tags": [
+    "industrial",
+    "modkit-industrial",
+    "modular",
+    "untextured"
+  ],
+  "batch": "modkit-industrial-01",
+  "acquired_at": "2026-11-06T07:46:19.666890+00:00",
+  "review": {
+    "id": "modkit-floor-4m",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 5,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "A square slab with four inset surface panels and visible edge thickness remains coherent from all orbit, top, bottom, clay and wireframe views; the large oblique view shows the panel joins clearly.",
+    "limitations": [
+      "This untextured static slab requires a target-engine collision setup; its underside is plain.",
+      "Simplified industrial kit; grid fit, interior traversal and collision have not been tested in-engine."
+    ],
+    "contact_sheet_sha256": "4cdca5608affde57de4b69177b00d52a9e32d7cd5ab3cb34168a21cacfea46e3",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-06",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "source": {
+    "provider": "modkit-industrial",
+    "model": "model/SM_Floor_4m.glb",
+    "creator": "Jaron Bragg",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE",
+    "source_url": "https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Floor_4m.glb",
+    "source_id": "exports/GLTF/SM_Floor_4m.glb",
+    "revision": "f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Floor_4m.glb",
+        "bytes": 31592,
+        "sha256": "f7fcbe7b43f8ddc421988526e63bd35db3338beb5961e03cc5dd0d1e625d2a42"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE"
+  },
+  "model": "model/SM_Floor_4m.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 0,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 664,
+    "triangles": 620,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 0,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7133,
+      "sha256": "645290fbe623e74da82dae25734e8e6d5123f40f85343ad11cf0d990f8b3e4e0",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1433,
+      "sha256": "3e7bc730c204912ad64e22fa076f5ac1f4d93177d28f5d715cc7158b62eb072f",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/animations.log",
+      "bytes": 286,
+      "sha256": "627779f49b79e8f1b79ec06156fcac98286a1bcf7f0cbbc7d3de7b5c172029b9",
+      "role": "logs"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 61516,
+      "sha256": "247ce104d2d295ca7366dc018cdec29f8cc54a636451e5b446334db36deddb20",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "e7040e3bf05438a7ca6aac251c6fe9710aa659243a0514755c103e4cac54790e",
+      "role": "logs"
+    },
+    {
+      "path": "model/SM_Floor_4m.glb",
+      "bytes": 31592,
+      "sha256": "f7fcbe7b43f8ddc421988526e63bd35db3338beb5961e03cc5dd0d1e625d2a42",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 12404,
+      "sha256": "bebed7c6d3dfb719ea2cfc28c83399d053960c32171ec9f4f7b90c6ee96bb9eb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 13220,
+      "sha256": "5db9ea0555c851f854511618f819f5a5b13aff46fb29328941c14f4034849585",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 109512,
+      "sha256": "4cdca5608affde57de4b69177b00d52a9e32d7cd5ab3cb34168a21cacfea46e3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 325,
+      "sha256": "88541cb63261112e4e9e87ab6cf6b8cb2b5f83e216c781f96cb2410c5b8529d0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 13844,
+      "sha256": "684ccb0cc8e0998253d62fb6c13a8877038af153f7cffc3fb251304b18460046",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 13405,
+      "sha256": "884883b1045dc259893c0288957b6dec6e1bccc7f9ac560730528240375d23c6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 12918,
+      "sha256": "7b308402ed340e8fdfe28e734d141950b41e7b2eecba0463ab6685de67e04e04",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 13042,
+      "sha256": "f5b4940e4e81903bcf89f9b52063fd66d1b81141bdaa4058327a0729467ec19f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 12986,
+      "sha256": "c705f3502c8fb0412202625317e2ee9dc481fc7a283d3a07023afeb1bf8a0bb4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 13946,
+      "sha256": "1d2edfa23f92b118881c1c06cacedea09371f46d0d9ae80a4367db3be7f5fab1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 14202,
+      "sha256": "fd4644709060dbe5b9092c696070061e69db9b195bc4053a843d294360273d3b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 14447,
+      "sha256": "1d5c077fceeee37653d8b3eede661ac95ae6712ffd956997a94f301261573a0a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 16762,
+      "sha256": "1509b376d5b602b62d53a9378459b67dfaf19549a7424b3e11a8153c23068918",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 20316,
+      "sha256": "e222ced94477f64275a25d798cd397966b1175d13e300820fd538e09ff0019e9",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/animations.json",
+      "bytes": 157,
+      "sha256": "518039f9c8381ca1d367fd01059904d5f839eab336a83c013915f6d645a127ca",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/github-source.json",
+      "bytes": 385,
+      "sha256": "56700f892424cfc9835a13e25d9644ebfb864b2deea62809e3f3486bf91af656",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1246,
+      "sha256": "1f7961d6388bf9a30efa97438dcd354d2628974615abe9ee32e96999fdd151da",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/upstream-terms.md",
+      "bytes": 15449,
+      "sha256": "9b9d1d699b26f49a8f9835f0fb19094ca64eac2ccdac5a8b0a8cb8153f3303f9",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 879,
+      "sha256": "059a5dea9aaf34f0e9f770da017b6936719b6927608833c994ec8483f3bded9f",
+      "role": "documentation"
+    }
+  ]
+}
