@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "id": "mhs-female-elegantsuit01",
+  "title": "Formal outfit B",
+  "category": "apparel/outfits",
+  "style": "realistic",
+  "tags": [
+    "clothing",
+    "formal"
+  ],
+  "batch": "clothing-work-casual-01",
+  "acquired_at": "2026-11-07T09:49:48.593839+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "makehuman-clothing",
+    "model": "model/garment.glb",
+    "creator": "makehuman_system",
+    "license": "CC0-1.0",
+    "license_evidence": "https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html",
+    "source_url": "https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html",
+    "source_id": "female_elegantsuit01",
+    "revision": "b542127a8e25547c7c29c19f2d1d2adb9a664c80396ecd694095dbc8028a0107",
+    "downloads": [
+      {
+        "url": "https://files2.makehumancommunity.org/asset_packs/makehuman_system_assets/makehuman_system_assets_cc0.zip",
+        "bytes": 280737770,
+        "sha256": "b542127a8e25547c7c29c19f2d1d2adb9a664c80396ecd694095dbc8028a0107",
+        "cached": true
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html"
+  },
+  "model": "model/garment.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 2,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/garment.glb",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "female_elegantsuit01_normal",
+      "embedded_image_index": 0,
+      "embedded_sha256": "ae3650bce6678cd67d025ab70e68b22683176aeaabc06d8e5b2129af99c762e9"
+    },
+    {
+      "path": "model/garment.glb",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "female_elegantsuit01_diffuse",
+      "embedded_image_index": 1,
+      "embedded_sha256": "ebe6f2afcbaadbe56d5cee6e00bab45e97ce482f0be0e34491d16ca5f98b38ac"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 8384,
+    "triangles": 4192,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "female_elegantsuit01_diffuse",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "female_elegantsuit01_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 66492,
+      "sha256": "5b993b8ce5f5fcb215ec0bf3ab94d360086f49b342cbb45dfba4bed67cb2f411",
+      "role": "logs"
+    },
+    {
+      "path": "logs/convert.log",
+      "bytes": 443,
+      "sha256": "6ddc5366c6c83cf96ad934ab0c0e1c97106e624818056380d668e6298c8eab1a",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/garment.glb",
+      "bytes": 3840720,
+      "sha256": "734dece88a9f5f72047866e705b025aaa2dc4f0b18b170e91304aaf9d15d9814",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 22304,
+      "sha256": "fe7232084678666d33a2b8ea6d675082b9ba6d7997c79b80ed322da9fe4f4415",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 19827,
+      "sha256": "8cd19390cea8c255e182c45106a93c2a3466d68453c10e94db4ac7d12cdf599e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 250985,
+      "sha256": "81ed28ebc308b940efcc412b9ea5e405c934f39134dc948a0ea20708efe58007",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 648,
+      "sha256": "48f6a6d845e7f37120f8690c8cf1ccc9dc5ea8907d82d3faea43ff483f8dbba0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 45277,
+      "sha256": "063ce947b4ab961d42c79884c165b47caae64ab1719cb65853e211e8059d76ce",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 41868,
+      "sha256": "d4d4afd0b6ec55daa3239aae679a8d0c0584e91d3edac15d1b225b3e5823c706",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 28366,
+      "sha256": "fa78398dc503b069254fdce45a52a7801c538c2afb4e3513a062289c9a0de3a1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 43602,
+      "sha256": "f5e8bf7500730eeae8c741909a0ed180a3a119d7ee2c29ef3ba439c4d8a2485c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 43931,
+      "sha256": "7e30fba9b3d9d593d062f6063db57d045e1d698736de235299186ab987ced1c2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 42667,
+      "sha256": "008e5aa99739486f692fbb82d232f8d3a5843ab604aa4d603a1916852cd53dd0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 28202,
+      "sha256": "10c851c951a26fd1f09db33b56a2330fb8dce4d5523c7ff8287a6ba5b52808f8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 41780,
+      "sha256": "feb6681da3370787b5f296f56ba05fb89b94b52faa0a05ae0d3ec52c94d6a37c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 29606,
+      "sha256": "ea64652ed8a4440078585a97195237a4535e7a5f0934ca52e45c3a8b9de93e76",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 49853,
+      "sha256": "39fcfbd789a9e145bad13b359629a51033826d5b6288df330f9fa63429907958",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/clothing-source.json",
+      "bytes": 1240,
+      "sha256": "9ceb5e87e6d4cf47955f5a78726a46913b7bf445dd9139b103d50de4784e2b80",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1806,
+      "sha256": "59322938b1a7adecbc1a478d1833736fc00c66ce576ee1113016d26243b45aba",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source.mhclo",
+      "bytes": 151008,
+      "sha256": "8ed657dbc49466e6a485993cfdcfd7b6ac30a0f44408dfd38de7a649477d8928",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source.mhmat",
+      "bytes": 1408,
+      "sha256": "a0b1708efbff3c4ad96f8e7d8cc27fb1652719549455ce94b89bcf6294cfbed0",
+      "role": "provenance"
+    }
+  ]
+}
