@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "id": "g3-fashion-tiara",
+  "title": "Gemstone tiara",
+  "category": "apparel/jewelry",
+  "style": "stylized",
+  "tags": [
+    "tiara",
+    "formal",
+    "apparel"
+  ],
+  "batch": "apparel-foundations-01",
+  "acquired_at": "2026-11-07T01:46:38.134482+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/tiara.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/tiara/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/props/tiara/",
+    "source_id": "tiara",
+    "revision": "ef6f3825f57a5962b7fdc14933f96a2f00164515d32186b8a23e1605d032c423",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/tiara/tiara.glb",
+        "bytes": 1676736,
+        "sha256": "ef6f3825f57a5962b7fdc14933f96a2f00164515d32186b8a23e1605d032c423"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/tiara/LICENSE.txt"
+  },
+  "model": "model/tiara.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/tiara_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tiara_body_normal"
+    },
+    {
+      "path": "textures/tiara_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tiara_body_basecolor"
+    },
+    {
+      "path": "textures/tiara_body_metallic-tiara_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tiara_body_metallic-tiara_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 24643,
+    "triangles": 18660,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "tiara_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "tiara_body_metallic-tiara_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "tiara_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68110,
+      "sha256": "af09ed27d1920976053c0df43204f816d037476120bbb19796f25e4c7798da81",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/tiara.glb",
+      "bytes": 1676736,
+      "sha256": "ef6f3825f57a5962b7fdc14933f96a2f00164515d32186b8a23e1605d032c423",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 20275,
+      "sha256": "9505c9bcaff3f373e20d99ef34036773a04245c69ca0c9dce49f804c2fe352e8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 19503,
+      "sha256": "edab21be62c6358b94ffeed035e2f75492fc4d9868ced1450e37763c15023c0a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 193114,
+      "sha256": "5d38b3bb619105556d603bb0b8f131d7f014b3b446e34a884984c573da7675f9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 804,
+      "sha256": "9f412e30310a303b595630bc005601c02b602d44946a61907cd3661e49056580",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 26514,
+      "sha256": "83178f56f174041ca16e5cad94f13bdacc9c94321361fe9c4b9732be7781a840",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 25227,
+      "sha256": "95a1ba0c0791abc7abba8af4fd5d4949b7a63578057404f9fbeea55fc1df39e9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 33161,
+      "sha256": "c23ce4680d4ca974eac914ea409d260917bac92e160fee28bb48d9ef0cb22d96",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 25447,
+      "sha256": "adf997dd48c9921b0618dc9cb1c301e3ba1b332346e96923d58a076058a67bf6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 25447,
+      "sha256": "e5559950103e2eca280b0a86e7253922b252a07580ceddc5b796247e5040a9ba",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 26320,
+      "sha256": "4831a380abd5ba220ac47fc85f8dbf4fcea05290d2da9b1583b04ab00a5167cc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 35220,
+      "sha256": "fee7167013611514241799f19afbe6235a8dea6b1f16b2ffea7fd984a9cab134",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 25655,
+      "sha256": "9ca5d873d3f8da382420ef2f7eda550967a323fdd30345bda52dcaa864c79ae2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 17799,
+      "sha256": "731e5003f2e9ff17087a896a6d68caeb42512a32c36d94c8c16f069187a10b3e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 31635,
+      "sha256": "6f8c32308e5ca7a95f0e9cc53c308b6775a2220d5db127bf0f85facfee7567af",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1928,
+      "sha256": "6098f75bf30fd6123765e6c42a6c4d3584e39f76a324c74f5d07351295e455dc",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1587,
+      "sha256": "9d3677ca7ed435dd572c883bd6469e74b71b0e4e62a2d993c1d60f96a4affe22",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 454,
+      "sha256": "bdb737b3d10e754a401cf8e43f51369eccf1a4ff165612f69439ae20e2b0632d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "804b07158c784d9b1a678c1487dbcba0a1bed33afcda155f455c31c76f2183b8",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/tiara_body_basecolor.jpg",
+      "bytes": 336004,
+      "sha256": "0d09cc631e87e80f4c3aacf3c0b96cfed8d47ef7ac2247d8881afc7e5684aa6e",
+      "role": "textures"
+    },
+    {
+      "path": "textures/tiara_body_metallic-tiara_body_roughness.jpg",
+      "bytes": 370583,
+      "sha256": "8ae885e7f37c1740efdb822706c3bd3b1626a294b7e1ce0c380a41bae5982d15",
+      "role": "textures"
+    },
+    {
+      "path": "textures/tiara_body_normal.jpg",
+      "bytes": 67008,
+      "sha256": "2d7db8aa91a0b68e11cc9ffd27083f0c206d99b8528066903485c82266dbc3c2",
+      "role": "textures"
+    }
+  ]
+}
