@@ -1,0 +1,24 @@
+{
+  "id": "cc-garment-shirt",
+  "decision": "rejected",
+  "scores": {
+    "silhouette": 3,
+    "materials": 2,
+    "topology": 3,
+    "completeness": 3,
+    "style_fit": 2
+  },
+  "notes": "Neutral base is legible but the plain near-white shirt has almost no visible buttons or surface detail; derived from the same suit family already present.",
+  "limitations": [
+    "Derivative GLB: all 92 mesh default morph weights were changed from 1 to 0; source and derivative hashes and unchanged binary-chunk hash are recorded in provenance.",
+    "Contains a skin and morph targets, but character fit, retargeting, morph behavior and animation are not verified; no animation clips are supplied.",
+    "Textured game-asset geometry, not photorealistic; upstream runtime tint/mask shader features are not guaranteed in generic GLB viewers."
+  ],
+  "contact_sheet_sha256": "9b0aa8e5a3f721f4885f8d0f4c72378d77e31c3b092eacfa26316e785d84443e",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports",
+  "status": "rejected",
+  "approved": false
+}

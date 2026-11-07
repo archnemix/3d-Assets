@@ -15,10 +15,11 @@
     "author_request_blocks_intake": true
   },
   "totals": {
-    "assets": 511,
-    "passed": 511,
+    "assets": 513,
+    "passed": 513,
     "failed": 0,
     "by_provider": {
+      "charactercreator-clothing": 2,
       "gobkit-free": 2,
       "grab3d": 299,
       "kenney": 10,
@@ -30,6 +31,26 @@
     }
   },
   "providers": {
+    "charactercreator-clothing": {
+      "name": "CharacterCreator garment outputs",
+      "spdx": "CC0-1.0",
+      "status": "verified",
+      "free_of_charge": true,
+      "terms_url": "https://github.com/kblood/CharacterCreator/blob/852e48f316b90a0937234886630e4fb4cdfd1f78/LICENSE-NOTES.md",
+      "evidence_url": "https://github.com/kblood/CharacterCreator/blob/852e48f316b90a0937234886630e4fb4cdfd1f78/LICENSE-NOTES.md",
+      "resale_as_is": {
+        "permitted": true,
+        "explicit": false,
+        "note": "The author releases these garment GLBs as CC0, which permits redistribution and sale."
+      },
+      "asset_notes": [
+        "The project owner identifies these specific generated output GLBs as CC0, distinct from the GPL-licensed source code. Original MakeHuman asset and project-generated component details are retained for each item."
+      ],
+      "caveats": [
+        "Rig and morphs are included, but fitting to another body and motion compatibility are not guaranteed.",
+        "The original source files may include reused meshes and textures; review visual distinctness and possible logos independently."
+      ]
+    },
     "gobkit-free": {
       "name": "Gobkit free assets",
       "spdx": "CC0-1.0",
@@ -421,6 +442,74 @@
       "license_file_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
       "ai_assisted": false,
       "notes": [],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "cc-garment-jeans",
+      "title": "Jeans",
+      "category": "apparel/bottoms",
+      "creator": "Kasper Olesen; MakeHuman system assets where listed",
+      "provider": "charactercreator-clothing",
+      "spdx": "CC0-1.0",
+      "directory": "assets/apparel/bottoms/cc-garment-jeans",
+      "source_url": "https://github.com/kblood/CharacterCreator/blob/852e48f316b90a0937234886630e4fb4cdfd1f78/output/clothing_jeans.glb",
+      "license_evidence": "https://raw.githubusercontent.com/kblood/CharacterCreator/852e48f316b90a0937234886630e4fb4cdfd1f78/LICENSE-NOTES.md",
+      "license_file": "assets/apparel/bottoms/cc-garment-jeans/LICENSE.txt",
+      "license_file_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "ai_assisted": false,
+      "notes": [
+        "The project owner identifies these specific generated output GLBs as CC0, distinct from the GPL-licensed source code. Original MakeHuman asset and project-generated component details are retained for each item."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "cc-garment-shorts",
+      "title": "Casual shorts",
+      "category": "apparel/bottoms",
+      "creator": "Kasper Olesen; MakeHuman system assets where listed",
+      "provider": "charactercreator-clothing",
+      "spdx": "CC0-1.0",
+      "directory": "assets/apparel/bottoms/cc-garment-shorts",
+      "source_url": "https://github.com/kblood/CharacterCreator/blob/852e48f316b90a0937234886630e4fb4cdfd1f78/output/clothing_shorts.glb",
+      "license_evidence": "https://raw.githubusercontent.com/kblood/CharacterCreator/852e48f316b90a0937234886630e4fb4cdfd1f78/LICENSE-NOTES.md",
+      "license_file": "assets/apparel/bottoms/cc-garment-shorts/LICENSE.txt",
+      "license_file_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "ai_assisted": false,
+      "notes": [
+        "The project owner identifies these specific generated output GLBs as CC0, distinct from the GPL-licensed source code. Original MakeHuman asset and project-generated component details are retained for each item."
+      ],
       "checks": {
         "free_of_charge": true,
         "cc0_spdx": true,

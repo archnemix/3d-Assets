@@ -1,0 +1,24 @@
+{
+  "id": "cc-garment-trenchcoat",
+  "decision": "rejected",
+  "scores": {
+    "silhouette": 3,
+    "materials": 2,
+    "topology": 3,
+    "completeness": 3,
+    "style_fit": 2
+  },
+  "notes": "Long coat is distinct, but its large skirt section is a featureless smooth shell and the overall surface detail is insufficient for the realism target.",
+  "limitations": [
+    "Derivative GLB: all 92 mesh default morph weights were changed from 1 to 0; source and derivative hashes and unchanged binary-chunk hash are recorded in provenance.",
+    "Contains a skin and morph targets, but character fit, retargeting, morph behavior and animation are not verified; no animation clips are supplied.",
+    "Textured game-asset geometry, not photorealistic; upstream runtime tint/mask shader features are not guaranteed in generic GLB viewers."
+  ],
+  "contact_sheet_sha256": "ea3b90ba33ef96f73f73266d1b1a2fcb20b9940f31b3cdb6786236c2fc8be204",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports",
+  "status": "rejected",
+  "approved": false
+}

@@ -2,7 +2,7 @@
 
 Checked on 2026-11-04. Scope: approved assets under assets/ only.
 
-**511 of 511 approved assets pass every check.**
+**513 of 513 approved assets pass every check.**
 
 Every approved asset is dedicated to the public domain under CC0 1.0. For each one
 that means: no cost, no attribution, commercial use allowed, use and redistribution
@@ -26,6 +26,8 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Tinted sunglasses](../assets/apparel/accessories/g3-fashion-sunglasses/README.md) | `apparel/accessories` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Leather-strap wristwatch](../assets/apparel/accessories/g3-fashion-wristwatch/README.md) | `apparel/accessories` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Round Spectacles](../assets/apparel/accessories/ph-round-spectacles/README.md) | `apparel/accessories` | Sean Buckley (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Jeans](../assets/apparel/bottoms/cc-garment-jeans/README.md) | `apparel/bottoms` | Kasper Olesen; MakeHuman system assets where listed (charactercreator-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Casual shorts](../assets/apparel/bottoms/cc-garment-shorts/README.md) | `apparel/bottoms` | Kasper Olesen; MakeHuman system assets where listed (charactercreator-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Harem trousers](../assets/apparel/bottoms/mh-toigo-harem-pants/README.md) | `apparel/bottoms` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Feather costume wings](../assets/apparel/costume/g3-fashion-costume-wings/README.md) | `apparel/costume` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Flapper-style dress](../assets/apparel/dresses/mh-aethelraed-flapper-dress/README.md) | `apparel/dresses` | Aethelraed_Unraed (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -542,6 +544,17 @@ standalone. "Display" means showing the model and our own renders publicly.
 
 ## Source terms and caveats
 
+### CharacterCreator garment outputs — `charactercreator-clothing`
+
+2 approved assets. Status: **verified**.
+
+- Terms: <https://github.com/kblood/CharacterCreator/blob/852e48f316b90a0937234886630e4fb4cdfd1f78/LICENSE-NOTES.md>
+- Pinned evidence: <https://github.com/kblood/CharacterCreator/blob/852e48f316b90a0937234886630e4fb4cdfd1f78/LICENSE-NOTES.md>
+- Reselling the files themselves: The author releases these garment GLBs as CC0, which permits redistribution and sale.
+
+- Rig and morphs are included, but fitting to another body and motion compatibility are not guaranteed.
+- The original source files may include reused meshes and textures; review visual distinctness and possible logos independently.
+
 ### Gobkit free assets — `gobkit-free`
 
 2 approved assets. Status: **verified**.
@@ -639,6 +652,8 @@ standalone. "Display" means showing the model and our own renders publicly.
 
 | Asset | Note |
 | --- | --- |
+| [Jeans](../assets/apparel/bottoms/cc-garment-jeans/README.md) | The project owner identifies these specific generated output GLBs as CC0, distinct from the GPL-licensed source code. Original MakeHuman asset and project-generated component details are retained for each item. |
+| [Casual shorts](../assets/apparel/bottoms/cc-garment-shorts/README.md) | The project owner identifies these specific generated output GLBs as CC0, distinct from the GPL-licensed source code. Original MakeHuman asset and project-generated component details are retained for each item. |
 | [1950s pickup truck](../assets/vehicles/trucks/g3-1950s-pickup-truck/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [1950s open roadster](../assets/vehicles/cars/classic/g3-1950s-roadster/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [1950s finned sedan](../assets/vehicles/cars/classic/g3-1950s-sedan/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
@@ -995,19 +1010,19 @@ Every check below is machine-verified by `python -m asset_library license-audit`
 
 | Check | Passing |
 | --- | --- |
-| `cc0_spdx` | 511/511 |
-| `cc0_text_present` | 511/511 |
-| `commercial_use_allowed` | 511/511 |
-| `evidence_recorded` | 511/511 |
-| `free_of_charge` | 511/511 |
-| `license_file_checksummed` | 511/511 |
-| `no_attribution_required` | 511/511 |
-| `no_trademark_warning` | 511/511 |
-| `redistribution_allowed` | 511/511 |
-| `source_terms_verified` | 511/511 |
-| `standalone_resale_permitted` | 511/511 |
-| `textures_included` | 511/511 |
-| `visually_approved` | 511/511 |
+| `cc0_spdx` | 513/513 |
+| `cc0_text_present` | 513/513 |
+| `commercial_use_allowed` | 513/513 |
+| `evidence_recorded` | 513/513 |
+| `free_of_charge` | 513/513 |
+| `license_file_checksummed` | 513/513 |
+| `no_attribution_required` | 513/513 |
+| `no_trademark_warning` | 513/513 |
+| `redistribution_allowed` | 513/513 |
+| `source_terms_verified` | 513/513 |
+| `standalone_resale_permitted` | 513/513 |
+| `textures_included` | 513/513 |
+| `visually_approved` | 513/513 |
 
 ## Evidence per asset
 
@@ -1016,6 +1031,8 @@ Each row links to the license file stored beside the model and to the exact
 
 | Asset | License file | SHA-256 (first 12) | Source | Evidence |
 | --- | --- | --- | --- | --- |
+| cc-garment-jeans | [LICENSE.txt](../assets/apparel/bottoms/cc-garment-jeans/LICENSE.txt) | `a2010f343487` | [source](https://github.com/kblood/CharacterCreator/blob/852e48f316b90a0937234886630e4fb4cdfd1f78/output/clothing_jeans.glb) | [evidence](https://raw.githubusercontent.com/kblood/CharacterCreator/852e48f316b90a0937234886630e4fb4cdfd1f78/LICENSE-NOTES.md) |
+| cc-garment-shorts | [LICENSE.txt](../assets/apparel/bottoms/cc-garment-shorts/LICENSE.txt) | `a2010f343487` | [source](https://github.com/kblood/CharacterCreator/blob/852e48f316b90a0937234886630e4fb4cdfd1f78/output/clothing_shorts.glb) | [evidence](https://raw.githubusercontent.com/kblood/CharacterCreator/852e48f316b90a0937234886630e4fb4cdfd1f78/LICENSE-NOTES.md) |
 | g3-1950s-pickup-truck | [LICENSE.txt](../assets/vehicles/trucks/g3-1950s-pickup-truck/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/1950s-pickup-truck/) | [evidence](https://grab3d.com/dl/1950s-pickup-truck/LICENSE.txt) |
 | g3-1950s-roadster | [LICENSE.txt](../assets/vehicles/cars/classic/g3-1950s-roadster/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/1950s-roadster/) | [evidence](https://grab3d.com/dl/1950s-roadster/LICENSE.txt) |
 | g3-1950s-sedan | [LICENSE.txt](../assets/vehicles/cars/classic/g3-1950s-sedan/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/1950s-sedan/) | [evidence](https://grab3d.com/dl/1950s-sedan/LICENSE.txt) |

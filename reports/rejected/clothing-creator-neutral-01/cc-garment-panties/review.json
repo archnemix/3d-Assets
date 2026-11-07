@@ -1,0 +1,24 @@
+{
+  "id": "cc-garment-panties",
+  "decision": "rejected",
+  "scores": {
+    "silhouette": 3,
+    "materials": 2,
+    "topology": 3,
+    "completeness": 3,
+    "style_fit": 2
+  },
+  "notes": "Crude, featureless underwear has uneven edges and insufficient material detail.",
+  "limitations": [
+    "Derivative GLB: all 92 mesh default morph weights were changed from 1 to 0; source and derivative hashes and unchanged binary-chunk hash are recorded in provenance.",
+    "Contains a skin and morph targets, but character fit, retargeting, morph behavior and animation are not verified; no animation clips are supplied.",
+    "Textured game-asset geometry, not photorealistic; upstream runtime tint/mask shader features are not guaranteed in generic GLB viewers."
+  ],
+  "contact_sheet_sha256": "ee2c89e6c838681650471371bd32219a9e44370ce810571a1ca9b68eaee82394",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports",
+  "status": "rejected",
+  "approved": false
+}

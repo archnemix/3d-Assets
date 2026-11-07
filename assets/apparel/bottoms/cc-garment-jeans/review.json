@@ -1,0 +1,22 @@
+{
+  "id": "cc-garment-jeans",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Standalone blue jeans with distinct pockets, seams and denim fading; noticeably more usable after resetting the default morph weights.",
+  "limitations": [
+    "Derivative GLB: all 92 mesh default morph weights were changed from 1 to 0; source and derivative hashes and unchanged binary-chunk hash are recorded in provenance.",
+    "Contains a skin and morph targets, but character fit, retargeting, morph behavior and animation are not verified; no animation clips are supplied.",
+    "Textured game-asset geometry, not photorealistic; upstream runtime tint/mask shader features are not guaranteed in generic GLB viewers."
+  ],
+  "contact_sheet_sha256": "6050cdff5c77ffd134147237ea9ddf99b67697f7399d51a568ce00828f50e5eb",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

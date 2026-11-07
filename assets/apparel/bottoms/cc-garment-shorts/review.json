@@ -1,0 +1,22 @@
+{
+  "id": "cc-garment-shorts",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Standalone tan cut-off shorts with pockets, seams, stitched hems and worn fabric; distinct from the full-length jeans.",
+  "limitations": [
+    "Derivative GLB: all 92 mesh default morph weights were changed from 1 to 0; source and derivative hashes and unchanged binary-chunk hash are recorded in provenance.",
+    "Contains a skin and morph targets, but character fit, retargeting, morph behavior and animation are not verified; no animation clips are supplied.",
+    "Textured game-asset geometry, not photorealistic; upstream runtime tint/mask shader features are not guaranteed in generic GLB viewers."
+  ],
+  "contact_sheet_sha256": "2c32a7c40eaa7aa20e5f8793c528a939612d14dd813db3726327062cdcc3d320",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

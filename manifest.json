@@ -326,6 +326,96 @@
       ]
     },
     {
+      "id": "cc-garment-jeans",
+      "title": "Jeans",
+      "category": "apparel/bottoms",
+      "style": "realistic",
+      "tags": [
+        "clothing",
+        "charactercreator",
+        "neutral-default-derivative"
+      ],
+      "creator": "Kasper Olesen; MakeHuman system assets where listed",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "The project owner identifies these specific generated output GLBs as CC0, distinct from the GPL-licensed source code. Original MakeHuman asset and project-generated component details are retained for each item."
+      ],
+      "resale_as_is": "The author releases these garment GLBs as CC0, which permits redistribution and sale.",
+      "source_url": "https://github.com/kblood/CharacterCreator/blob/852e48f316b90a0937234886630e4fb4cdfd1f78/output/clothing_jeans.glb",
+      "license_evidence": "https://raw.githubusercontent.com/kblood/CharacterCreator/852e48f316b90a0937234886630e4fb4cdfd1f78/LICENSE-NOTES.md",
+      "directory": "assets/apparel/bottoms/cc-garment-jeans",
+      "metadata": "assets/apparel/bottoms/cc-garment-jeans/asset.json",
+      "metadata_sha256": "4095d471c8ac8a3c02cdfe483b6944950df3534f80e2a5338cbfe92b95ff48eb",
+      "model": "assets/apparel/bottoms/cc-garment-jeans/model/clothing_jeans.glb",
+      "preview": "assets/apparel/bottoms/cc-garment-jeans/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/bottoms/cc-garment-jeans/previews/contact-sheet.jpg",
+      "triangles": 1712,
+      "texture_count": 2,
+      "max_texture_resolution": 832,
+      "rigged": true,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Derivative GLB: all 92 mesh default morph weights were changed from 1 to 0; source and derivative hashes and unchanged binary-chunk hash are recorded in provenance.",
+        "Contains a skin and morph targets, but character fit, retargeting, morph behavior and animation are not verified; no animation clips are supplied.",
+        "Textured game-asset geometry, not photorealistic; upstream runtime tint/mask shader features are not guaranteed in generic GLB viewers."
+      ]
+    },
+    {
+      "id": "cc-garment-shorts",
+      "title": "Casual shorts",
+      "category": "apparel/bottoms",
+      "style": "realistic",
+      "tags": [
+        "clothing",
+        "charactercreator",
+        "neutral-default-derivative"
+      ],
+      "creator": "Kasper Olesen; MakeHuman system assets where listed",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "The project owner identifies these specific generated output GLBs as CC0, distinct from the GPL-licensed source code. Original MakeHuman asset and project-generated component details are retained for each item."
+      ],
+      "resale_as_is": "The author releases these garment GLBs as CC0, which permits redistribution and sale.",
+      "source_url": "https://github.com/kblood/CharacterCreator/blob/852e48f316b90a0937234886630e4fb4cdfd1f78/output/clothing_shorts.glb",
+      "license_evidence": "https://raw.githubusercontent.com/kblood/CharacterCreator/852e48f316b90a0937234886630e4fb4cdfd1f78/LICENSE-NOTES.md",
+      "directory": "assets/apparel/bottoms/cc-garment-shorts",
+      "metadata": "assets/apparel/bottoms/cc-garment-shorts/asset.json",
+      "metadata_sha256": "1bf2713092a29bd2802105d571961edc33741d8f533c3289a0b5e1dfc03e1390",
+      "model": "assets/apparel/bottoms/cc-garment-shorts/model/clothing_shorts.glb",
+      "preview": "assets/apparel/bottoms/cc-garment-shorts/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/bottoms/cc-garment-shorts/previews/contact-sheet.jpg",
+      "triangles": 862,
+      "texture_count": 1,
+      "max_texture_resolution": 1024,
+      "rigged": true,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 4,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Derivative GLB: all 92 mesh default morph weights were changed from 1 to 0; source and derivative hashes and unchanged binary-chunk hash are recorded in provenance.",
+        "Contains a skin and morph targets, but character fit, retargeting, morph behavior and animation are not verified; no animation clips are supplied.",
+        "Textured game-asset geometry, not photorealistic; upstream runtime tint/mask shader features are not guaranteed in generic GLB viewers."
+      ]
+    },
+    {
       "id": "mh-toigo-harem-pants",
       "title": "Harem trousers",
       "category": "apparel/bottoms",
@@ -24001,11 +24091,11 @@
     }
   ],
   "totals": {
-    "assets": 511,
+    "assets": 513,
     "categories": 114,
     "by_category": {
       "apparel/accessories": 7,
-      "apparel/bottoms": 1,
+      "apparel/bottoms": 3,
       "apparel/costume": 1,
       "apparel/dresses": 9,
       "apparel/footwear": 7,
@@ -24121,7 +24211,7 @@
     },
     "by_style": {
       "low-poly": 26,
-      "realistic": 241,
+      "realistic": 243,
       "stylized": 244
     }
   }
