@@ -5,6 +5,7 @@ from .github_release import fetch_github_release
 from .grab3d import fetch_grab3d
 from .innerscene import fetch_innerscene
 from .makehuman import fetch_makehuman
+from .makehuman_clothing import fetch_makehuman_clothing
 from .oga_locomotive import fetch_oga_locomotive
 from .oga_submarine import fetch_oga_submarine
 from .oga_submersible import fetch_oga_submersible
@@ -25,6 +26,7 @@ def fetch(source: dict, candidate: dict, directory) -> dict:
         "github": fetch_github,
         "github-release": fetch_github_release,
         "makehuman": fetch_makehuman,
+        "makehuman-clothing": fetch_makehuman_clothing,
         "grab3d": fetch_grab3d,
         "innerscene": fetch_innerscene,
         "oga-locomotive": fetch_oga_locomotive,
