@@ -1,6 +1,9 @@
 name: Inspect a candidate submarine archive
 on:
   workflow_dispatch:
+  push:
+    branches: ["arena/d853ac80-3d-assets"]
+    paths: [".github/workflows/vehicle-source-scout.yml"]
 permissions:
   contents: read
 jobs:
