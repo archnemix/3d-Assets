@@ -368,6 +368,26 @@
         "A descriptor explicitly naming a non-CC0 license conflicts with the index and is rejected pending clarification.",
         "The OBJ converter recreates diffuse and declared normal textures; other legacy shader maps and rigging are not reproduced."
       ]
+    },
+    "oga-clothing": {
+      "name": "OpenGameArt Teh_Bucket clothing",
+      "spdx": "CC0-1.0",
+      "status": "verified",
+      "free_of_charge": true,
+      "terms_url": "https://opengameart.org/content/hats-clothing-props",
+      "evidence_url": "https://opengameart.org/content/hats-clothing-props",
+      "resale_as_is": {
+        "permitted": true,
+        "explicit": false,
+        "note": "CC0 places no copyright restriction on redistribution or sale."
+      },
+      "asset_notes": [
+        "Only the two pinned garment zips from Teh_Bucket are permitted; source credits Joao Paulo / 3dtextures.me for textures."
+      ],
+      "caveats": [
+        "The source author reports that older textures were replaced; the pinned current archives and source page must still be reviewed for dependencies.",
+        "Static conversion removes armature modifiers; fit and animation are not guaranteed."
+      ]
     }
   }
 }

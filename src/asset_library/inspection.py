@@ -136,7 +136,7 @@ def inspect(directory: Path, candidate: dict, manifest: dict) -> dict:
     }
     # Garment GLBs are self-contained; preserve lossless image indices rather
     # than committing large redundant extracted copies for every candidate.
-    if manifest.get("source", {}).get("provider") == "makehuman-clothing":
+    if manifest.get("source", {}).get("provider") in {"makehuman-clothing", "oga-clothing"}:
         compact_embedded_textures(directory, manifest)
     manifest["files"] = inventory(directory)
     write_checksums(directory, manifest["files"])
