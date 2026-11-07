@@ -1,0 +1,238 @@
+{
+  "schema_version": 1,
+  "id": "oga-clothing-sweatshirt",
+  "title": "Sweatshirt",
+  "category": "apparel/tops",
+  "style": "realistic",
+  "tags": [
+    "clothing",
+    "casual"
+  ],
+  "batch": "clothing-variety-02",
+  "acquired_at": "2026-11-07T10:02:46.044169+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "oga-clothing",
+    "model": "model/garment.glb",
+    "creator": "Teh_Bucket",
+    "license": "CC0-1.0",
+    "license_evidence": "https://opengameart.org/content/hats-clothing-props",
+    "source_url": "https://opengameart.org/content/hats-clothing-props",
+    "source_id": "sweatshirt",
+    "revision": "c8f6f0288f3bb716e54eee162a99e75f7756a3e0ea64a4044569b5b0f1606034",
+    "downloads": [
+      {
+        "url": "https://opengameart.org/sites/default/files/sweatshirt_e.zip",
+        "bytes": 2779834,
+        "sha256": "c8f6f0288f3bb716e54eee162a99e75f7756a3e0ea64a4044569b5b0f1606034"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://opengameart.org/content/hats-clothing-props"
+  },
+  "model": "model/garment.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 1,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/garment.glb",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "sweatshirt c orange",
+      "embedded_image_index": 0,
+      "embedded_sha256": "e4c60f53760da140ad57742abff5feaebbba2816454c958d73bd97734122341d"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 2213,
+    "triangles": 3284,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "sweatshirt c orange",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 0,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 64129,
+      "sha256": "c68c3c1b29f2fedd9a7d8f444462bf63224a11fb22a8248e95dad2a8c1a7d411",
+      "role": "logs"
+    },
+    {
+      "path": "logs/convert.log",
+      "bytes": 586,
+      "sha256": "72b9daa95d984b1aefad0800eca4366a2ba69869fdc5f979b4599ce50763eb31",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "3629b738db9a859e28c3be3ca3f30737a293067d742f1bb7f0d75f7f8b36e9e2",
+      "role": "logs"
+    },
+    {
+      "path": "model/garment.glb",
+      "bytes": 1240348,
+      "sha256": "3faff6d1512e8ea5baa52262c623ac47780cc5a7962a1f800b9e79d4b80b7cfc",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 14828,
+      "sha256": "6e9e634feac6e438277d2ecc3d9a9a1867dadd1a0019ba8273979c786ea624a7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 14415,
+      "sha256": "5b29dba4dddb8801629801ea656a5c9531fe2e65708c544b05443d2a43d74ec9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 153947,
+      "sha256": "13354dc72830c3351886b248338b440cf6fe32101c220d7d769622ee05f991f3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 480,
+      "sha256": "502979e41a005faa7832bdb00586dd79bc6fcfa8be15d43bbfef639b464d660e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 19567,
+      "sha256": "bf95c1a49905cc4b4c03f49daef5703ae9bab385c749f08f2dc5004056d3a0e2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 22522,
+      "sha256": "3eb44db791a8d42a870118956c0042b8a6b339e740b4c95a88d4aa1494d31f2a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 21317,
+      "sha256": "c199302e72cbccec9d1278259370c84c9d645e41bd1e802d848d0c3d8349d15b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 19215,
+      "sha256": "65c523e79e9cbe390618d9fe6fc0b6026e816fedf0241e1c6616773dd11786a2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 16973,
+      "sha256": "f31820843cb0d637677b1a26534e2c69b0e0aa0c820c64d198eb29d2b3ab10bc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 19607,
+      "sha256": "41d14247e09d5862bc5b2dc273c57be32e50a37fcb9a2a5e5a7e06bfb0ef6330",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 22977,
+      "sha256": "80be805add2ebad0efd738d5d3b6da089cc5fe35adba9e13f70e49971daea356",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 22752,
+      "sha256": "b8f3d41acd454fa767cdedcc52c8350be8a010fae3bc2da72d23ce36f6973cf6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 14152,
+      "sha256": "3aff534c944b98937ea774ad26bf0b236181bdb9dee1bb7774989ade633180af",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 33522,
+      "sha256": "fa11dc912067ac0387652a00c2033ac47d608fe0dbe37fb00c380dcc5e99d248",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/conversion.json",
+      "bytes": 515,
+      "sha256": "3bd652b6d4ba8afe7e440b717d02661eb7bc5c4f4c9156d12203af59338bac26",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1362,
+      "sha256": "412626d4e45a5815d59850f0bfaba2e84013c64c60f14b75a6e804fb6ed6ed5f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/opengameart-page.html",
+      "bytes": 38270,
+      "sha256": "bae36a2486b6591f1b90110513dbac02ce3191f3f2a9d86d69670d5c87beeb8c",
+      "role": "provenance"
+    }
+  ]
+}

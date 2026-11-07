@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "id": "mh-toigo-halter-dress-knee-length",
+  "title": "Knee-length halter dress",
+  "category": "apparel/dresses",
+  "style": "realistic",
+  "tags": [
+    "clothing"
+  ],
+  "batch": "clothing-variety-02",
+  "acquired_at": "2026-11-07T09:59:41.466155+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "makehuman-clothing",
+    "model": "model/garment.glb",
+    "creator": "MargaretToigo",
+    "license": "CC0-1.0",
+    "license_evidence": "https://static.makehumancommunity.org/assets/assetpacks/dress01.html",
+    "source_url": "https://static.makehumancommunity.org/assets/assetpacks/dress01.html",
+    "source_id": "toigo_halter_dress_knee_length",
+    "revision": "f49ba54a3c93acd3c3307cc5a96cfc65daf8abfed9212a7e580791d821c9e93a",
+    "downloads": [
+      {
+        "url": "https://files2.makehumancommunity.org/asset_packs/dress01/dress01_cc0.zip",
+        "bytes": 46598791,
+        "sha256": "f49ba54a3c93acd3c3307cc5a96cfc65daf8abfed9212a7e580791d821c9e93a"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://static.makehumancommunity.org/assets/assetpacks/dress01.html"
+  },
+  "model": "model/garment.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 1,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/garment.glb",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "DressCloth3UV",
+      "embedded_image_index": 0,
+      "embedded_sha256": "45ec64abbb9346751de8059f7c77bc719c9a7d5186c895168f1a8432ea0ec26a"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 7872,
+    "triangles": 3936,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "DressCloth3UV",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 0,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 64140,
+      "sha256": "3510a475e504d0583fd47df52122ca96dcb52f6eede251165e48d80a0db7da09",
+      "role": "logs"
+    },
+    {
+      "path": "logs/convert.log",
+      "bytes": 444,
+      "sha256": "d8fb176dd10f5635a557f5a786a602356f63b77cf3d41a0f39d69703f09cd68e",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "082e951724014468ff5480fb2a42b17b945a390940b3476599aaaa9a77b8ecc1",
+      "role": "logs"
+    },
+    {
+      "path": "model/garment.glb",
+      "bytes": 945696,
+      "sha256": "ac5f346431d6e6c58f5b3b0622d38afa54c369800a8daa8443407445e31a1f44",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 35982,
+      "sha256": "ea07c23d5bc62253c08a84f5d4dfebaa339c5da83e519343333d24078c412f52",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 16044,
+      "sha256": "91cdf1de64db2a6dfe6d5b347bf2dae149b06b44cb8c7e7aaa8abae551f09e4e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 302613,
+      "sha256": "05869f1dd36f862f48034a7ab842cf5b1db7bcd6430e50d32674a0f3887c233f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 474,
+      "sha256": "ae6319584b672b8b5450e689d2452d4cf63a4d747e98402bac705083213c8e77",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 59785,
+      "sha256": "f50089c02b9091c9ca8d377099069dc588e128d0a45238a8f9846acdbb4d6532",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 52418,
+      "sha256": "26b2d442f1502f2a2a6c39afb01d81387224d4d1ceaab88b7bc67539ae4fad62",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 45516,
+      "sha256": "82b0fb546952c96740d1bca84925c25e04e895d7ffab502c84c5c2df9cd69351",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 57840,
+      "sha256": "9d1f9f02a64279398d947dfdd497e41cdfbbb8e961f187c4222011666165f7c4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 66725,
+      "sha256": "e07140ae0f3fa3225d578834b2d69986bfc56e8f607ff436b01c8284fa64ad5a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 55268,
+      "sha256": "6f5c94cdf19d60497ab15d30e47da64a6f7dfb521afb1a3b258228973bc2fe10",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 41921,
+      "sha256": "bbd7d0b2cf7f22392637397b93780ee55f6b72a85a0ec0fb4f89188627676a7e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 49533,
+      "sha256": "b8b8fb01a9f5b914fb70dab73a6558c57a9bc5b73a3f1208bd3b67d3ac1f7d3a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 61458,
+      "sha256": "013b9ab53ea6740d0b89203f6238267aac9cb335dd38903c3d8fae9a54f8406a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 41946,
+      "sha256": "c70b28056f5744bf66c41ddec2eca4f54299c2586fc45625219d3a0f5e675a0f",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/clothing-source.json",
+      "bytes": 1044,
+      "sha256": "829ed8abffd6dcb8fe78f1a1b72cc0def275c284728164f997a83d5e3dd4ac54",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1169,
+      "sha256": "77949c2017fe23478cb08e31d24fc29052887cc02cd35b5797d8ef6ea97a80fa",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source.mhclo",
+      "bytes": 138176,
+      "sha256": "043447253bdb06272eb2565cc7fb484f5cf1c010d0e251314135b72287a5c374",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source.mhmat",
+      "bytes": 513,
+      "sha256": "ccdb35f08daf4b4896e6f7a655c89eee39170793fe3d095482ab326056dfa64b",
+      "role": "provenance"
+    }
+  ]
+}
