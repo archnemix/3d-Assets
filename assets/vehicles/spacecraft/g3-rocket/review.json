@@ -1,0 +1,23 @@
+{
+  "id": "g3-rocket",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Stylized vertical launch rocket with capsule-like nose, escape tower and five engine nozzles.",
+  "limitations": [
+    "Stylized model with simplified forms and materials; not photorealistic.",
+    "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+    "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Stylized design; no specific launch vehicle or technical accuracy is claimed."
+  ],
+  "contact_sheet_sha256": "d5577887b02ff418e689518e321ca5c68df609e3f7b7324b83e31f5be4869431",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

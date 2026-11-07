@@ -2,7 +2,7 @@
 
 Boats and sailing ships
 
-Approved assets: **20**
+Approved assets: **21**
 
 ## Canoe
 
@@ -123,6 +123,14 @@ Approved assets: **20**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 19,799 triangles; 3 texture images
 - [Asset folder](../../assets/vehicles/watercraft/g3-sailboat/) · [Metadata](../../assets/vehicles/watercraft/g3-sailboat/asset.json) · [All inspection views](../../assets/vehicles/watercraft/g3-sailboat/previews/contact-sheet.jpg)
+
+## Twin-engine speedboat
+
+![Twin-engine speedboat](../../assets/vehicles/watercraft/g3-speedboat/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 19,648 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/watercraft/g3-speedboat/) · [Metadata](../../assets/vehicles/watercraft/g3-speedboat/asset.json) · [All inspection views](../../assets/vehicles/watercraft/g3-speedboat/previews/contact-sheet.jpg)
 
 ## Harbor tugboat
 

@@ -1,7 +1,7 @@
 # Space shuttle orbiter
 
 - Creator: Grab3D
-- Source: https://grab3d.com/models/vehicles/space-shuttle/
+- Source: https://grab3d.com/models/sci-fi/space-shuttle/
 - License: CC0-1.0; no attribution required; commercial use and redistribution allowed.
 - Category: `vehicles/spacecraft`
 - Intended style: stylized

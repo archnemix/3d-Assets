@@ -1,15 +1,24 @@
-"""Convert an item-specific CC0 Blender source with autoexec disabled."""
+"""Convert the individually reviewed Fokker triplane with autoexec disabled."""
 
 import sys
 
 import bpy
 
-# Refuse unbundled image dependencies: no unlicensed local files or silent missing textures.
-for image in bpy.data.images:
+# This exact unbundled file is an author's modeling reference, not a redistributable
+# texture. Drop it only if its users are image-empty reference objects. Never
+# silently discard an image used by materials, modifiers, worlds or other data.
+for image in list(bpy.data.images):
     if image.source == "FILE" and image.filepath and not image.packed_file:
-        raise ValueError(f"Unpacked image dependency: {image.name}: {image.filepath}")
+        name = image.filepath.replace("\\", "/").rsplit("/", 1)[-1].lower()
+        if name != "fokker-dri.jpg":
+            raise ValueError(f"Unpacked image dependency: {image.name}: {image.filepath}")
+        for obj in list(bpy.data.objects):
+            if obj.type == "EMPTY" and obj.data == image:
+                bpy.data.objects.remove(obj, do_unlink=True)
+        if image.users:
+            raise ValueError(f"Reference image still has non-empty users: {image.name}")
+        bpy.data.images.remove(image)
 
-# Scene lights and cameras are not part of the vehicle.
 for obj in list(bpy.data.objects):
     if obj.type in {"CAMERA", "LIGHT"}:
         bpy.data.objects.remove(obj, do_unlink=True)

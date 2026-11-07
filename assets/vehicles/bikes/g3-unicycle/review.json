@@ -1,0 +1,24 @@
+{
+  "id": "g3-unicycle",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Pedal-driven unicycle in an included display stand.",
+  "limitations": [
+    "Stylized model with simplified forms and materials; not photorealistic.",
+    "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+    "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Blender inspection counted 280 zero-area triangles; these may need cleanup for topology-sensitive workflows.",
+    "Includes a small display stand, which obscures part of the underside; removability not verified."
+  ],
+  "contact_sheet_sha256": "55adc26e02306e7718f61d2a21d598603197cf099f6906eb73573ae3eb87df7f",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

@@ -2,7 +2,7 @@
 
 Road vehicles and go-karts
 
-Approved assets: **26**
+Approved assets: **30**
 
 ## 1980s wedge sports car
 
@@ -28,6 +28,14 @@ Approved assets: **26**
 - 18,120 triangles; 5 texture images
 - [Asset folder](../../assets/vehicles/cars/g3-atv-quad/) · [Metadata](../../assets/vehicles/cars/g3-atv-quad/asset.json) · [All inspection views](../../assets/vehicles/cars/g3-atv-quad/previews/contact-sheet.jpg)
 
+## Fairground bumper car
+
+![Fairground bumper car](../../assets/vehicles/cars/g3-bumper-car/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 9,172 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/cars/g3-bumper-car/) · [Metadata](../../assets/vehicles/cars/g3-bumper-car/asset.json) · [All inspection views](../../assets/vehicles/cars/g3-bumper-car/previews/contact-sheet.jpg)
+
 ## Pop-top camper van
 
 ![Pop-top camper van](../../assets/vehicles/cars/g3-camper-van/previews/orbit-01.jpg)
@@ -35,6 +43,14 @@ Approved assets: **26**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 19,900 triangles; 5 texture images
 - [Asset folder](../../assets/vehicles/cars/g3-camper-van/) · [Metadata](../../assets/vehicles/cars/g3-camper-van/asset.json) · [All inspection views](../../assets/vehicles/cars/g3-camper-van/previews/contact-sheet.jpg)
+
+## Circus ticket wagon
+
+![Circus ticket wagon](../../assets/vehicles/cars/g3-circus-wagon/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 39,808 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/cars/g3-circus-wagon/) · [Metadata](../../assets/vehicles/cars/g3-circus-wagon/asset.json) · [All inspection views](../../assets/vehicles/cars/g3-circus-wagon/previews/contact-sheet.jpg)
 
 ## City bus
 
@@ -156,6 +172,14 @@ Approved assets: **26**
 - 19,440 triangles; 3 texture images
 - [Asset folder](../../assets/vehicles/cars/g3-race-car/) · [Metadata](../../assets/vehicles/cars/g3-race-car/asset.json) · [All inspection views](../../assets/vehicles/cars/g3-race-car/previews/contact-sheet.jpg)
 
+## Ancient racing chariot
+
+![Ancient racing chariot](../../assets/vehicles/cars/g3-racing-chariot/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 14,880 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/cars/g3-racing-chariot/) · [Metadata](../../assets/vehicles/cars/g3-racing-chariot/asset.json) · [All inspection views](../../assets/vehicles/cars/g3-racing-chariot/previews/contact-sheet.jpg)
+
 ## Rally car with roof scoop
 
 ![Rally car with roof scoop](../../assets/vehicles/cars/g3-rally-car/previews/orbit-01.jpg)
@@ -187,6 +211,14 @@ Approved assets: **26**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 29,932 triangles; 4 texture images
 - [Asset folder](../../assets/vehicles/cars/g3-stagecoach/) · [Metadata](../../assets/vehicles/cars/g3-stagecoach/asset.json) · [All inspection views](../../assets/vehicles/cars/g3-stagecoach/previews/contact-sheet.jpg)
+
+## Three-wheeled tuk-tuk
+
+![Three-wheeled tuk-tuk](../../assets/vehicles/cars/g3-tuk-tuk/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 11,899 triangles; 5 texture images
+- [Asset folder](../../assets/vehicles/cars/g3-tuk-tuk/) · [Metadata](../../assets/vehicles/cars/g3-tuk-tuk/asset.json) · [All inspection views](../../assets/vehicles/cars/g3-tuk-tuk/previews/contact-sheet.jpg)
 
 ## Kenney go-kart
 

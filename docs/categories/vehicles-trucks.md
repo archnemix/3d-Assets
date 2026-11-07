@@ -2,7 +2,7 @@
 
 Trucks, lorries and haulage vehicles
 
-Approved assets: **20**
+Approved assets: **24**
 
 ## 1950s pickup truck
 
@@ -11,6 +11,14 @@ Approved assets: **20**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 16,872 triangles; 5 texture images
 - [Asset folder](../../assets/vehicles/trucks/g3-1950s-pickup-truck/) · [Metadata](../../assets/vehicles/trucks/g3-1950s-pickup-truck/asset.json) · [All inspection views](../../assets/vehicles/trucks/g3-1950s-pickup-truck/previews/contact-sheet.jpg)
+
+## 1990s-inspired pickup truck
+
+![1990s-inspired pickup truck](../../assets/vehicles/trucks/g3-1990s-pickup/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 18,384 triangles; 5 texture images
+- [Asset folder](../../assets/vehicles/trucks/g3-1990s-pickup/) · [Metadata](../../assets/vehicles/trucks/g3-1990s-pickup/asset.json) · [All inspection views](../../assets/vehicles/trucks/g3-1990s-pickup/previews/contact-sheet.jpg)
 
 ## Mobile passenger boarding stairs
 
@@ -84,6 +92,14 @@ Approved assets: **20**
 - 47,288 triangles; 3 texture images
 - [Asset folder](../../assets/vehicles/trucks/g3-fire-truck/) · [Metadata](../../assets/vehicles/trucks/g3-fire-truck/asset.json) · [All inspection views](../../assets/vehicles/trucks/g3-fire-truck/previews/contact-sheet.jpg)
 
+## Food service truck
+
+![Food service truck](../../assets/vehicles/trucks/g3-food-truck/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 25,425 triangles; 5 texture images
+- [Asset folder](../../assets/vehicles/trucks/g3-food-truck/) · [Metadata](../../assets/vehicles/trucks/g3-food-truck/asset.json) · [All inspection views](../../assets/vehicles/trucks/g3-food-truck/previews/contact-sheet.jpg)
+
 ## Forklift
 
 ![Forklift](../../assets/vehicles/trucks/g3-forklift/previews/orbit-01.jpg)
@@ -156,6 +172,14 @@ Approved assets: **20**
 - 21,468 triangles; 12 texture images
 - [Asset folder](../../assets/vehicles/trucks/g3-tow-truck/) · [Metadata](../../assets/vehicles/trucks/g3-tow-truck/asset.json) · [All inspection views](../../assets/vehicles/trucks/g3-tow-truck/previews/contact-sheet.jpg)
 
+## Travel caravan trailer
+
+![Travel caravan trailer](../../assets/vehicles/trucks/g3-travel-trailer/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 19,387 triangles; 5 texture images
+- [Asset folder](../../assets/vehicles/trucks/g3-travel-trailer/) · [Metadata](../../assets/vehicles/trucks/g3-travel-trailer/asset.json) · [All inspection views](../../assets/vehicles/trucks/g3-travel-trailer/previews/contact-sheet.jpg)
+
 ## Curtainsider semi trailer
 
 ![Curtainsider semi trailer](../../assets/vehicles/trucks/g3-truck-trailer/previews/orbit-01.jpg)
@@ -163,3 +187,11 @@ Approved assets: **20**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 28,804 triangles; 3 texture images
 - [Asset folder](../../assets/vehicles/trucks/g3-truck-trailer/) · [Metadata](../../assets/vehicles/trucks/g3-truck-trailer/asset.json) · [All inspection views](../../assets/vehicles/trucks/g3-truck-trailer/previews/contact-sheet.jpg)
+
+## 1940s-inspired pickup truck
+
+![1940s-inspired pickup truck](../../assets/vehicles/trucks/g3-vintage-truck/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 19,709 triangles; 8 texture images
+- [Asset folder](../../assets/vehicles/trucks/g3-vintage-truck/) · [Metadata](../../assets/vehicles/trucks/g3-vintage-truck/asset.json) · [All inspection views](../../assets/vehicles/trucks/g3-vintage-truck/previews/contact-sheet.jpg)

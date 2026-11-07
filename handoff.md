@@ -1,3 +1,10 @@
+## Current vehicle status — latest 2026-11-07
+
+- `transport-final-01`: 15 assets were visually reviewed and approved, bringing the catalog to **453 total approved library assets** (not 453 vehicles); catalog integrity and license audit pass. Adds chariot, unicycle, tuk-tuk, circus wagon, travel trailer, food truck, vintage and 1990s pickup, 1980s hatchback, lowrider, bumper car, speedboat, lunar lander, Mars rover, and rocket. See `reviews/transport-final-01.json` for limitations.
+- Intake run 42322366466 failed overall solely because `oga-fokker-triplane` failed Blender conversion on an unpacked reference image. The asset remains quarantined and is **not approved or counted**. `rendering/convert_oga_aircraft.py` was updated to remove only that specific reference image if used exclusively by image-empty objects, but the fix has not yet been live-tested.
+- An individually CC0 historical submarine archive by Phelippeau Rudy was inspected safely; see `reports/research/submarine-archive.txt` and its pinned digest. Adapter/converter added with narrowly pinned archive, exact members and tests, but not yet live-tested or visually reviewed; it is not in the catalog. Continue air, surface-water, underwater and road variety if requested rather than treating these leads as finished assets.
+- Fixed published spacecraft source page links and README/provenance for capsule and shuttle. `vehicles/planetary-rovers` distinguishes the Mars rover from spacecraft.
+
 ## Current vehicle status — 2026-11-07 (takes precedence over older notes)
 
 - `transport-eras-01`: GitHub Actions run 42319840913 succeeded; all 20 candidates individually inspected and approved in `reviews/transport-eras-01.json`. Catalog and license audit: 438 approved assets total, 12 remain to reach 450. These are total library assets, not 438 vehicles.

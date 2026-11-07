@@ -1,0 +1,24 @@
+{
+  "id": "g3-vintage-truck",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. 1940s-inspired pickup with separate rounded fenders, tall grille and wooden bed.",
+  "limitations": [
+    "Stylized model with simplified forms and materials; not photorealistic.",
+    "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+    "Khronos validation reports zero errors and 6 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Blender inspection counted 1 zero-area triangles; these may need cleanup for topology-sensitive workflows.",
+    "Era is a stylistic approximation, not an identified make, model, or production date."
+  ],
+  "contact_sheet_sha256": "8f01a91d9f7b90d590cd4b0e87619372eb9e61c95df2ead5f061ac5fdc5696dc",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

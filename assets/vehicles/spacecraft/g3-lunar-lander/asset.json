@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "id": "g3-lunar-lander",
+  "title": "Lunar lander",
+  "category": "vehicles/spacecraft",
+  "style": "stylized",
+  "tags": [
+    "lander",
+    "space",
+    "historical"
+  ],
+  "batch": "transport-final-01",
+  "acquired_at": "2026-11-07T01:15:16.037201+00:00",
+  "review": {
+    "id": "g3-lunar-lander",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Lunar lander inspired by Apollo-era designs with four legs and ladder.",
+    "limitations": [
+      "Stylized model with simplified forms and materials; not photorealistic.",
+      "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+      "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+      "Historical inspiration only; not a dimensionally accurate depiction of a specific mission."
+    ],
+    "contact_sheet_sha256": "da595005307cc01eb5044064e147250aad7dde7dadbe2090f720525c36998db9",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/lunar-lander.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/lunar-lander/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/sci-fi/lunar-lander/",
+    "source_id": "lunar-lander",
+    "revision": "11fc94d5d72ca79651d5903023c9eac6058f67315f6699e537c3f53ce6b6ebac",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/lunar-lander/lunar-lander.glb",
+        "bytes": 1402744,
+        "sha256": "11fc94d5d72ca79651d5903023c9eac6058f67315f6699e537c3f53ce6b6ebac"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/lunar-lander/LICENSE.txt"
+  },
+  "model": "model/lunar-lander.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 7,
+    "materials": 11,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_materials_emissive_strength"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/lunar-lander_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "lunar-lander_body_normal"
+    },
+    {
+      "path": "textures/lunar-lander_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "lunar-lander_body_basecolor"
+    },
+    {
+      "path": "textures/lunar-lander_body_metallic-lunar-lander_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "lunar-lander_body_metallic-lunar-lander_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 7,
+    "hidden_mesh_objects": 0,
+    "vertices": 22256,
+    "triangles": 24790,
+    "material_slots": 11,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "lunar-lander_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "lunar-lander_body_metallic-lunar-lander_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "lunar-lander_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1502,
+      "sha256": "985ebd63c63408cea85eabeb3711fa33018177fec5313f739ea7838ceb4e7a28",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 76868,
+      "sha256": "19b7b8032acbdcfe7ecb9daf1206905d8f8f0b088d71e84021d547525721c31b",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "8403b1b62b69426fc9de905bbb757dd25c24ffab5738fb4e0bdfec20c0261071",
+      "role": "logs"
+    },
+    {
+      "path": "model/lunar-lander.glb",
+      "bytes": 1402744,
+      "sha256": "11fc94d5d72ca79651d5903023c9eac6058f67315f6699e537c3f53ce6b6ebac",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 23214,
+      "sha256": "fac72130eff13490b89429d5510404b34d323e13e59879742bcf2c19fd4da4b5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 25984,
+      "sha256": "1cfff4f8102f75cdfa37fa084247267f69362512b12de8e8970177f18567adf4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 220594,
+      "sha256": "da595005307cc01eb5044064e147250aad7dde7dadbe2090f720525c36998db9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 833,
+      "sha256": "8528f71ea55de5819425abdde4a4b6d3a83db6fb5cbf2df9a57f22ed99da574b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 26635,
+      "sha256": "2f3597c65db14c8dca5f674a7894a811f8679d82ea9f8c8312bbc5a579020d61",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 31504,
+      "sha256": "eb3cf28e6464d57fad695d990e14585251d61a2f987494c5cdc5254255fa6322",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 23095,
+      "sha256": "aadf22ec1efb8ff9287c6c944b6e50cd367bedf2b66a0e03de716555e23ae7e6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 29739,
+      "sha256": "87f91c5633baf27799d6bdc6de303cd3a63f074ecd4041966e7b132e62d902be",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 23711,
+      "sha256": "d7807f79cd099f331d1f1058e026edcfd683544af4570d8b82c2b42251e051d1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 31459,
+      "sha256": "2437911cbf0b4e9045f9ce7a242b0b2b31e6c50cc172819860dd4cf0f05902a3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 25156,
+      "sha256": "105cec0e5e46b332b4c326fd65002317f850c24822e47bbbc5a473147070211f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 33124,
+      "sha256": "5805dc457a185828b1727759eccfba0a13ad34e8e511aa65b93c82aec776dcc1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 23014,
+      "sha256": "0be7a4b29505a280782eb1bc379104e54e7187000ed0fcf2c2dec25cbc04a9ad",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 54124,
+      "sha256": "ffa13caf24dbe2d32ab8424b5e5a272c9cbe4132e5aaec6b3fffa391cb840f33",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3889,
+      "sha256": "dac38e83a5c3e9fef97709964b16f7de6d63af4509e1be785b2cf68906313f83",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1779,
+      "sha256": "d9efc6c3da0c69d65945ef52cef91a28ebe3105f08f25d50b735782d18245bd0",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 511,
+      "sha256": "1e1f1d5c2de9bdf6478e0c40c938ae06b2d4fb54d7956df10a36675cf32c00cc",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "494192540d923047474d32cd7c5d507bee9fd4ce90adb5c6f88476fd4a1de465",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 983,
+      "sha256": "f024a06fa5394546a40958a7606edff18fcec35a5e5df02b6d88cc9963e1affd",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/lunar-lander_body_basecolor.jpg",
+      "bytes": 242241,
+      "sha256": "0a36e7c9746fd51585e2d0f7dae6bcb52d5507ce537d9db342218f33fea66d34",
+      "role": "textures"
+    },
+    {
+      "path": "textures/lunar-lander_body_metallic-lunar-lander_body_roughness.jpg",
+      "bytes": 222176,
+      "sha256": "3be2cda1fc1ddbc5c36302fdb307551fdaac1915693bbb29c6b73b6654e68062",
+      "role": "textures"
+    },
+    {
+      "path": "textures/lunar-lander_body_normal.jpg",
+      "bytes": 68325,
+      "sha256": "a84fdfebcc6958bbc56b890bac002e26ec0284eba82e74a9f82b61526d467c69",
+      "role": "textures"
+    }
+  ]
+}

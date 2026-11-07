@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "id": "g3-mars-rover",
+  "title": "Mars exploration rover",
+  "category": "vehicles/planetary-rovers",
+  "style": "stylized",
+  "tags": [
+    "rover",
+    "space",
+    "exploration"
+  ],
+  "batch": "transport-final-01",
+  "acquired_at": "2026-11-07T01:13:31.350051+00:00",
+  "review": {
+    "id": "g3-mars-rover",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Six-wheel planetary rover with articulated-looking suspension, camera mast and antenna.",
+    "limitations": [
+      "Stylized model with simplified forms and materials; not photorealistic.",
+      "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+      "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+      "Blender inspection counted 16 zero-area triangles; these may need cleanup for topology-sensitive workflows.",
+      "Stylized exploration design, not a verified replica of a specific rover."
+    ],
+    "contact_sheet_sha256": "56741ca3dfd0e72104565648680e4101f14ff16a6851fd5225aab3494f4f0d1d",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/mars-rover.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/mars-rover/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/sci-fi/mars-rover/",
+    "source_id": "mars-rover",
+    "revision": "2204e1844e9fde113038dbd5415a7f84379a82bdd533f84d52aae036ecac960a",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/mars-rover/mars-rover.glb",
+        "bytes": 1459032,
+        "sha256": "2204e1844e9fde113038dbd5415a7f84379a82bdd533f84d52aae036ecac960a"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/mars-rover/LICENSE.txt"
+  },
+  "model": "model/mars-rover.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 8,
+    "materials": 20,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_materials_emissive_strength"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/mars-rover_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "mars-rover_body_normal"
+    },
+    {
+      "path": "textures/mars-rover_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "mars-rover_body_basecolor"
+    },
+    {
+      "path": "textures/mars-rover_body_metallic-mars-rover_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "mars-rover_body_metallic-mars-rover_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 8,
+    "hidden_mesh_objects": 0,
+    "vertices": 25189,
+    "triangles": 24008,
+    "material_slots": 20,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 16,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "mars-rover_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "mars-rover_body_metallic-mars-rover_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "mars-rover_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1606,
+      "sha256": "c9d2ec6b14fcfce61d22dd304487155010c7b3ab08acf6f3c141218fbd2f60cf",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 79330,
+      "sha256": "35af99a5ca754c7e5efce40ed3a059551c96d1c5d609e328522a7d61fd4a4554",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "b80361a29b3361982c42e4a36d50572af9e716d805c60d48e60dce30d259385b",
+      "role": "logs"
+    },
+    {
+      "path": "model/mars-rover.glb",
+      "bytes": 1459032,
+      "sha256": "2204e1844e9fde113038dbd5415a7f84379a82bdd533f84d52aae036ecac960a",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 28955,
+      "sha256": "d11c975125722e480eb754d27782047003f82337cd221d0d45e77ba9018b1198",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 25575,
+      "sha256": "7e39736bd76b3648a0136bc0e8fcdb5255adab8ef7f32fc5e109594c9243e9b6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 236770,
+      "sha256": "56741ca3dfd0e72104565648680e4101f14ff16a6851fd5225aab3494f4f0d1d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 826,
+      "sha256": "32896d8280d3070a481bac57fa96926dde72adfce28d8474c698f14fa6d01ca4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 32663,
+      "sha256": "28f658dc376e9fdfeda9b4effc7a58861b645dee201cf0da7f5a51ddb71b3da2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 27401,
+      "sha256": "ee41b32b08db947e56ac324174ecba3478ddb671a212892d7101327e4b14f254",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 31290,
+      "sha256": "673f40de4fec873f7ef3c15c5db3211b2e38eb5425b91d0c1e0ffc8023637e2f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 28211,
+      "sha256": "f006cfaaf5b9fb6e9d68b4f61a4578b24f7e313bc5d4c78ed0116f0329bc2c6d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 29958,
+      "sha256": "10e5a0e6ec22fbeb737b4db9ebfb5ac8798d1e8fd2523a763cd012770eb28062",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 29165,
+      "sha256": "270bc31616fc90e465ea7b02b37dee804a7c7b6a4b18221a30c437889389f557",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 34421,
+      "sha256": "59cebaa5b1b409d4757254cedc3c91f6411e820cbfce0674893b006db7bd51e1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 28716,
+      "sha256": "349d362047af262d01243de371fb5b3d83d9f7dc9462eb8efb7aba535fac4a2a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 31185,
+      "sha256": "02a961db48b869e3a27e478abab343028a74ab0b7fc499b0419de34a4793c582",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 41751,
+      "sha256": "5321bf0de314d48f6575b7999b88ee4082f2e8b002d6f1ac843aa161eb19a42a",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 5579,
+      "sha256": "7db4e98b4d689bc6474d0db1fe53c8237271ce04fa17bd609f83815f5a1c8960",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1559,
+      "sha256": "d0c943c849d5e0b02fae457a100ab56eed10e5f43a39d853f47083ce2732c483",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 495,
+      "sha256": "f0edd40e63dbe822a46d7b9a2bd48f5cbebd8a4f68575e3d837cfeaee2bcb46b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "a1c330d33eb6dd017788f40ccf2d673d0b29878c22d91db08cc533e737bcf13d",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1095,
+      "sha256": "ec0499973db074bcdb84a4a1934ca2e7929095df6b456078e9fe8858f60824d1",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/mars-rover_body_basecolor.jpg",
+      "bytes": 247888,
+      "sha256": "95f9350ad3796e84575c552c285cf9c2dcccb8dfeaf81c6168e9a74a75c854ad",
+      "role": "textures"
+    },
+    {
+      "path": "textures/mars-rover_body_metallic-mars-rover_body_roughness.jpg",
+      "bytes": 230212,
+      "sha256": "ee77a62cc9d4953f19236057582236f52b829fdc014ae9c9b2f1526fdfa0171d",
+      "role": "textures"
+    },
+    {
+      "path": "textures/mars-rover_body_normal.jpg",
+      "bytes": 66680,
+      "sha256": "fec5e01801f679ff1a6383e520033595fbbc5fc7e10e6727a3b2c47a17ca5533",
+      "role": "textures"
+    }
+  ]
+}

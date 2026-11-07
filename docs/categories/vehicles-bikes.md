@@ -2,7 +2,7 @@
 
 Bicycles, mopeds and scooters
 
-Approved assets: **5**
+Approved assets: **6**
 
 ## BMX bike
 
@@ -43,3 +43,11 @@ Approved assets: **5**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 28,020 triangles; 3 texture images
 - [Asset folder](../../assets/vehicles/bikes/g3-mountain-bike/) · [Metadata](../../assets/vehicles/bikes/g3-mountain-bike/asset.json) · [All inspection views](../../assets/vehicles/bikes/g3-mountain-bike/previews/contact-sheet.jpg)
+
+## Pedal unicycle
+
+![Pedal unicycle](../../assets/vehicles/bikes/g3-unicycle/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 9,592 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/bikes/g3-unicycle/) · [Metadata](../../assets/vehicles/bikes/g3-unicycle/asset.json) · [All inspection views](../../assets/vehicles/bikes/g3-unicycle/previews/contact-sheet.jpg)

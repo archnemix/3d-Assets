@@ -1,0 +1,23 @@
+{
+  "id": "g3-lunar-lander",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Lunar lander inspired by Apollo-era designs with four legs and ladder.",
+  "limitations": [
+    "Stylized model with simplified forms and materials; not photorealistic.",
+    "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+    "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Historical inspiration only; not a dimensionally accurate depiction of a specific mission."
+  ],
+  "contact_sheet_sha256": "da595005307cc01eb5044064e147250aad7dde7dadbe2090f720525c36998db9",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

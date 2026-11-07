@@ -2,7 +2,7 @@
 
 Classic and historical cars
 
-Approved assets: **16**
+Approved assets: **18**
 
 ## 1950s open roadster
 
@@ -76,6 +76,14 @@ Approved assets: **16**
 - 16,438 triangles; 5 texture images
 - [Asset folder](../../assets/vehicles/cars/classic/g3-1970s-hatchback/) · [Metadata](../../assets/vehicles/cars/classic/g3-1970s-hatchback/asset.json) · [All inspection views](../../assets/vehicles/cars/classic/g3-1970s-hatchback/previews/contact-sheet.jpg)
 
+## 1980s-inspired hatchback
+
+![1980s-inspired hatchback](../../assets/vehicles/cars/classic/g3-1980s-hatchback/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 15,612 triangles; 5 texture images
+- [Asset folder](../../assets/vehicles/cars/classic/g3-1980s-hatchback/) · [Metadata](../../assets/vehicles/cars/classic/g3-1980s-hatchback/asset.json) · [All inspection views](../../assets/vehicles/cars/classic/g3-1980s-hatchback/previews/contact-sheet.jpg)
+
 ## 1980s wood-panel station wagon
 
 ![1980s wood-panel station wagon](../../assets/vehicles/cars/classic/g3-1980s-station-wagon/previews/orbit-01.jpg)
@@ -123,6 +131,14 @@ Approved assets: **16**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 15,482 triangles; 5 texture images
 - [Asset folder](../../assets/vehicles/cars/classic/g3-atomic-age-car/) · [Metadata](../../assets/vehicles/cars/classic/g3-atomic-age-car/asset.json) · [All inspection views](../../assets/vehicles/cars/classic/g3-atomic-age-car/previews/contact-sheet.jpg)
+
+## Classic lowrider coupe
+
+![Classic lowrider coupe](../../assets/vehicles/cars/classic/g3-lowrider/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 19,739 triangles; 5 texture images
+- [Asset folder](../../assets/vehicles/cars/classic/g3-lowrider/) · [Metadata](../../assets/vehicles/cars/classic/g3-lowrider/asset.json) · [All inspection views](../../assets/vehicles/cars/classic/g3-lowrider/previews/contact-sheet.jpg)
 
 ## Old vintage car
 

@@ -1,0 +1,23 @@
+{
+  "id": "g3-lowrider",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Low-slung classic coupe with wire-look wheels, white roof and rear-mounted spare.",
+  "limitations": [
+    "Stylized model with simplified forms and materials; not photorealistic.",
+    "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+    "Khronos validation reports zero errors and 5 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Blender inspection counted 2 zero-area triangles; these may need cleanup for topology-sensitive workflows."
+  ],
+  "contact_sheet_sha256": "6ff84cc531077f794d40c8a344735614d67161d494fbe8ee8c538f82ab364cf6",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

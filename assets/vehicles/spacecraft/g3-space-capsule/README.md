@@ -1,7 +1,7 @@
 # Space capsule
 
 - Creator: Grab3D
-- Source: https://grab3d.com/models/vehicles/space-capsule/
+- Source: https://grab3d.com/models/sci-fi/space-capsule/
 - License: CC0-1.0; no attribution required; commercial use and redistribution allowed.
 - Category: `vehicles/spacecraft`
 - Intended style: stylized

@@ -1,0 +1,24 @@
+{
+  "id": "g3-circus-wagon",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Circus ticket wagon with spoked wheels, striped curved roof, hitch and steps.",
+  "limitations": [
+    "Stylized model with simplified forms and materials; not photorealistic.",
+    "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+    "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Blender inspection counted 1124 zero-area triangles; these may need cleanup for topology-sensitive workflows.",
+    "No towing vehicle or animals included; interior and removal of the stairs are unverified."
+  ],
+  "contact_sheet_sha256": "443f719334bc76654b13f663206af528b9d7d2288d2c119435c426bafefde40a",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

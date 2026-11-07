@@ -2,7 +2,23 @@
 
 Space shuttles, capsules and other spacecraft
 
-Approved assets: **2**
+Approved assets: **4**
+
+## Lunar lander
+
+![Lunar lander](../../assets/vehicles/spacecraft/g3-lunar-lander/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 24,790 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/spacecraft/g3-lunar-lander/) · [Metadata](../../assets/vehicles/spacecraft/g3-lunar-lander/asset.json) · [All inspection views](../../assets/vehicles/spacecraft/g3-lunar-lander/previews/contact-sheet.jpg)
+
+## Crewed launch rocket
+
+![Crewed launch rocket](../../assets/vehicles/spacecraft/g3-rocket/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 29,561 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/spacecraft/g3-rocket/) · [Metadata](../../assets/vehicles/spacecraft/g3-rocket/asset.json) · [All inspection views](../../assets/vehicles/spacecraft/g3-rocket/previews/contact-sheet.jpg)
 
 ## Space capsule
 

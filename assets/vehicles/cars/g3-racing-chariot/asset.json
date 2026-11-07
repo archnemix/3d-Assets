@@ -1,0 +1,334 @@
+{
+  "schema_version": 1,
+  "id": "g3-racing-chariot",
+  "title": "Ancient racing chariot",
+  "category": "vehicles/cars",
+  "style": "stylized",
+  "tags": [
+    "ancient",
+    "chariot",
+    "historical"
+  ],
+  "batch": "transport-final-01",
+  "acquired_at": "2026-11-07T01:13:46.206921+00:00",
+  "review": {
+    "id": "g3-racing-chariot",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Open two-wheel ancient-style racing chariot with drawbar.",
+    "limitations": [
+      "Stylized model with simplified forms and materials; not photorealistic.",
+      "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+      "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+      "No draft animals or harness are included; historical accuracy is not verified."
+    ],
+    "contact_sheet_sha256": "eed9b34908323b0984f1bf39fa16f7319da8d43d1cea695a5a985f0b997849d2",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/racing-chariot.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/racing-chariot/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/racing-chariot/",
+    "source_id": "racing-chariot",
+    "revision": "0d9f927fe0da0bed2d0c6d6d048a2ef7835d7a52169a1cf55204eddab0a60e03",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/racing-chariot/racing-chariot.glb",
+        "bytes": 864900,
+        "sha256": "0d9f927fe0da0bed2d0c6d6d048a2ef7835d7a52169a1cf55204eddab0a60e03"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/racing-chariot/LICENSE.txt"
+  },
+  "model": "model/racing-chariot.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 3,
+    "materials": 7,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/racing-chariot_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "racing-chariot_body_normal"
+    },
+    {
+      "path": "textures/racing-chariot_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "racing-chariot_body_basecolor"
+    },
+    {
+      "path": "textures/racing-chariot_body_metallic-racing-chariot_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "racing-chariot_body_metallic-racing-chariot_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 3,
+    "hidden_mesh_objects": 0,
+    "vertices": 11085,
+    "triangles": 14880,
+    "material_slots": 7,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "racing-chariot_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "racing-chariot_body_metallic-racing-chariot_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "racing-chariot_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1500,
+      "sha256": "492d72a05c66bc138542a683203925084b8aed547d9eee8736939f8f3c4ea902",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 70836,
+      "sha256": "38aa93bd2a35bb1fae2227c4fe4c1fe5a21f56b95bdc39afbad498f1ee041519",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "d504eb5c45fbb2afe8c91ba2e8fbc78a3a89ad87f5d0b7e2a827fc1793adfb63",
+      "role": "logs"
+    },
+    {
+      "path": "model/racing-chariot.glb",
+      "bytes": 864900,
+      "sha256": "0d9f927fe0da0bed2d0c6d6d048a2ef7835d7a52169a1cf55204eddab0a60e03",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 18845,
+      "sha256": "1d2b20419ecfe2b146fb44c49604d14c93f5a4092ae610371437c5cf0e8186f3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 19110,
+      "sha256": "30d02c68829d56a056dfe20ab6f885200953da19cf9151d3c18613b74b6a89bc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 171534,
+      "sha256": "eed9b34908323b0984f1bf39fa16f7319da8d43d1cea695a5a985f0b997849d2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 840,
+      "sha256": "82f31d704742b1e872da31a04f2953a3e1629ac4b756c837b01c06320c351a83",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 25706,
+      "sha256": "a0e671de65f399935cdf61f9b8b3d9e790f90c377d6d3ba82cf52caab1d88fab",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 21439,
+      "sha256": "3eb51d419f53041c1e19707170a36e471d103d24432f8f6ab2956738f439b862",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 21362,
+      "sha256": "df895553fe16fa3f1ef96096f6a755038b9e01e3139211c64d38d3d695682fd1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 23001,
+      "sha256": "4e3b57a2f728bb54765409ee33291e979b042ebae729aabf44cfbaeecf7775b1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 23780,
+      "sha256": "f4346518c3de2c91952d9c1d87c6431cfe7f6146ca3f0872108f8958d8a3ebab",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 23703,
+      "sha256": "5f7a731a621e6fa6b582b9825535031d3025beab8f942957f911e71eac0fdf3b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 23384,
+      "sha256": "e192fcce9a3b4b49df3f699033582b709ddd87401382999bb24814d9b208ae69",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 22640,
+      "sha256": "f033f568249262a1714a0f6bde4dd000cbedd72b638ac46cabfde6f0cfabb2bb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 16842,
+      "sha256": "3f5466690e592e2a0dc1a39568211274316fcf9268668ae40485bbd686dd93c4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 32847,
+      "sha256": "3e5e359b2dcaf16ca8d828a203bcd86f1624ba8421d8df03c9c7d765d523d9c7",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 3064,
+      "sha256": "1739a5c79bd55a73ff77b05d4b9d65414cf38d11fbfce5b354cc08a58fcd92ae",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1805,
+      "sha256": "06ece4ee6acb4e7c014628ebf986d0611776adb30aee633efb5b14205ca3a669",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 528,
+      "sha256": "6444943abf234be7a5376e7ef5d34c5b836025ff6d55841888fe087683246a77",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "7ec067705b67c4b400e100a539e01ac9e55f6ee9c45440c2a32b3121d2e217c7",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 960,
+      "sha256": "e73f0078634c223df1c715702c7d10c90d70e21db0fb8d3e59ca37f2aa73ae32",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/racing-chariot_body_basecolor.jpg",
+      "bytes": 172176,
+      "sha256": "a3c6f184f050ffcbd451120387f1da40e9c502a36d7c8fc649511960e1f5c12c",
+      "role": "textures"
+    },
+    {
+      "path": "textures/racing-chariot_body_metallic-racing-chariot_body_roughness.jpg",
+      "bytes": 173078,
+      "sha256": "388f290c76880d71e3471e5ac5628148ade93d3e91a1d7e353da9f1c08b8feed",
+      "role": "textures"
+    },
+    {
+      "path": "textures/racing-chariot_body_normal.jpg",
+      "bytes": 66634,
+      "sha256": "22727603b5d4bbe1057eac54d73d92fa6d2cab63923a9b2022c36e6d737893da",
+      "role": "textures"
+    }
+  ]
+}

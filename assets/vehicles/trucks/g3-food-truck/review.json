@@ -1,0 +1,24 @@
+{
+  "id": "g3-food-truck",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Mobile food truck with serving hatch, striped canopy, menu board, table and stools.",
+  "limitations": [
+    "Stylized model with simplified forms and materials; not photorealistic.",
+    "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+    "Khronos validation reports zero errors and 5 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Blender inspection counted 2 zero-area triangles; these may need cleanup for topology-sensitive workflows.",
+    "The scene includes menu board, table and stools; their removability was not verified."
+  ],
+  "contact_sheet_sha256": "0034417147a7fcd5f919964406bbaeef84ee6e7f8d57dd70357edb6b74a36491",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

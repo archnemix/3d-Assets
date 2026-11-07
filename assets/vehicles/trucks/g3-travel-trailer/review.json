@@ -1,0 +1,24 @@
+{
+  "id": "g3-travel-trailer",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Two-axle travel caravan with side door, windows and tow hitch.",
+  "limitations": [
+    "Stylized model with simplified forms and materials; not photorealistic.",
+    "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+    "Khronos validation reports zero errors and 5 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Blender inspection counted 4 zero-area triangles; these may need cleanup for topology-sensitive workflows.",
+    "Trailer only; tow vehicle and interior are not included or verified."
+  ],
+  "contact_sheet_sha256": "e09616186a657ffaa54620d1f3ad0c61941483c09e51d6c3d5c9edffc08f4215",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}
