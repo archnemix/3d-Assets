@@ -2,7 +2,7 @@
 
 Boats and sailing ships
 
-Approved assets: **19**
+Approved assets: **20**
 
 ## Canoe
 
@@ -75,6 +75,14 @@ Approved assets: **19**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 14,528 triangles; 3 texture images
 - [Asset folder](../../assets/vehicles/watercraft/g3-kayak/) · [Metadata](../../assets/vehicles/watercraft/g3-kayak/asset.json) · [All inspection views](../../assets/vehicles/watercraft/g3-kayak/previews/contact-sheet.jpg)
+
+## Outboard runabout motorboat
+
+![Outboard runabout motorboat](../../assets/vehicles/watercraft/g3-motorboat/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 15,248 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/watercraft/g3-motorboat/) · [Metadata](../../assets/vehicles/watercraft/g3-motorboat/asset.json) · [All inspection views](../../assets/vehicles/watercraft/g3-motorboat/previews/contact-sheet.jpg)
 
 ## Paddle steamer
 

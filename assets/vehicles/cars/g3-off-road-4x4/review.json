@@ -1,0 +1,23 @@
+{
+  "id": "g3-off-road-4x4",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Boxy off-road four-wheel drive with roof rack, auxiliary lights, snorkel and rear spare.",
+  "limitations": [
+    "Stylized model with simplified forms and materials; not photorealistic.",
+    "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+    "Khronos validation reports zero errors and 6 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Blender inspection counted 3 zero-area triangles; these may need cleanup for topology-sensitive workflows."
+  ],
+  "contact_sheet_sha256": "e00b1944bfad6045fc9a430326908df9f3563ef86ecfad53b868f85bcd019d3d",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

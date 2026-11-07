@@ -1,0 +1,22 @@
+{
+  "id": "g3-microcar",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Rounded bubble microcar with front window, tiny body and tightly spaced rear wheels.",
+  "limitations": [
+    "Stylized model with simplified forms and materials; not photorealistic.",
+    "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+    "Khronos validation reports zero errors and 6 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+  ],
+  "contact_sheet_sha256": "515223765740906db9fc8fe1f927dadcf1e2acf1592c8fdf6ee4a1d365dc154e",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

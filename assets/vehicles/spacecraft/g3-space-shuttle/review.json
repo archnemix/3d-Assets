@@ -1,0 +1,23 @@
+{
+  "id": "g3-space-shuttle",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Winged space shuttle orbiter with cockpit windows, engine nozzles and landing gear.",
+  "limitations": [
+    "Stylized model with simplified forms and materials; not photorealistic.",
+    "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+    "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "The shuttle is the orbiter alone; external fuel tank and boosters are not included."
+  ],
+  "contact_sheet_sha256": "621b2119c7cb9d783db9ce7edfe38434ac1ba22c0b22440562df2a5db4b17e1f",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

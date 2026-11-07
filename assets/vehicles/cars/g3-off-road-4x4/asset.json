@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "id": "g3-off-road-4x4",
+  "title": "Off-road four-wheel drive",
+  "category": "vehicles/cars",
+  "style": "stylized",
+  "tags": [
+    "off-road",
+    "4x4",
+    "road"
+  ],
+  "batch": "transport-variety-03",
+  "acquired_at": "2026-11-06T19:14:20.767560+00:00",
+  "review": {
+    "id": "g3-off-road-4x4",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Boxy off-road four-wheel drive with roof rack, auxiliary lights, snorkel and rear spare.",
+    "limitations": [
+      "Stylized model with simplified forms and materials; not photorealistic.",
+      "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+      "Khronos validation reports zero errors and 6 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+      "Blender inspection counted 3 zero-area triangles; these may need cleanup for topology-sensitive workflows."
+    ],
+    "contact_sheet_sha256": "e00b1944bfad6045fc9a430326908df9f3563ef86ecfad53b868f85bcd019d3d",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/off-road-4x4.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/off-road-4x4/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/off-road-4x4/",
+    "source_id": "off-road-4x4",
+    "revision": "58e4b3f6e1bf16a37bacf171d5d40b914429a37e7ff41cbe65dd71004688bfa9",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/off-road-4x4/off-road-4x4.glb",
+        "bytes": 1235852,
+        "sha256": "58e4b3f6e1bf16a37bacf171d5d40b914429a37e7ff41cbe65dd71004688bfa9"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/off-road-4x4/LICENSE.txt"
+  },
+  "model": "model/off-road-4x4.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 7,
+    "materials": 23,
+    "images": 5,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/off-road-4x4_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "off-road-4x4_body_normal"
+    },
+    {
+      "path": "textures/off-road-4x4_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "off-road-4x4_body_basecolor"
+    },
+    {
+      "path": "textures/off-road-4x4_body_metallic-off-road-4x4_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "off-road-4x4_body_metallic-off-road-4x4_body_roughness"
+    },
+    {
+      "path": "textures/off-road-4x4_tire_normal.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "off-road-4x4_tire_normal"
+    },
+    {
+      "path": "textures/off-road-4x4_tire_color.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "off-road-4x4_tire_color"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 7,
+    "hidden_mesh_objects": 0,
+    "vertices": 16123,
+    "triangles": 19882,
+    "material_slots": 23,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 3,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "off-road-4x4_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "off-road-4x4_body_metallic-off-road-4x4_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "off-road-4x4_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "off-road-4x4_tire_color",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "off-road-4x4_tire_normal",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 6,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1527,
+      "sha256": "fead1276f60ab7937c314f6d8b7f523cd9130435a222d3b264f412e695a264ec",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 79142,
+      "sha256": "16c45bccc7872e0ff58df0376e2c96d384715ccde1f237fd1a6ea147fada1632",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "fcb5c1dc024f5f477e8b82386d5c52bff039be449717ee183efaeee777fb99f9",
+      "role": "logs"
+    },
+    {
+      "path": "model/off-road-4x4.glb",
+      "bytes": 1235852,
+      "sha256": "58e4b3f6e1bf16a37bacf171d5d40b914429a37e7ff41cbe65dd71004688bfa9",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 19857,
+      "sha256": "b4564cd82310eeac8386f84da37ebb98aea577f76f7b2a34b98197e24deeee21",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 25575,
+      "sha256": "4b5647346dd55d2f1eaa903bbd1a09feae3bd82531c6c6e92389f7d0fa688391",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 242277,
+      "sha256": "e00b1944bfad6045fc9a430326908df9f3563ef86ecfad53b868f85bcd019d3d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1138,
+      "sha256": "459482d6b96e32f48a09f7a2904b48b20eef41649cd99aa284a8efb8c26161b4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 31614,
+      "sha256": "14678643402a77c90c7fb5bdcab9265a39fc9285a4197e2fca4fcdfa3a721043",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 34767,
+      "sha256": "fb94fccd6f1d3f5eca8d43728f8d08f6aafebabd953d55855074e4b7a9f1b04d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 25683,
+      "sha256": "5930016a49be6cf26fdd06b0ca813d93b7c665e4b37bddbb2c6d9e51728a0f2c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 33309,
+      "sha256": "fcec61c2bbb0c6f7c887c128da051df55ba570790fe9aaa302d301bdcd3fbdc5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 37506,
+      "sha256": "a5f4b829da2a70d5c25b31dd634974957f118b40367942925f00c4dc2c5850a6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 36038,
+      "sha256": "b9a81277a973234863c76e149b875c90f0c5d6c8be3a57b3a514890d34ce87f5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 27898,
+      "sha256": "dd18fa0d64b2594669f110004715b5c426dbe953256ba68434c9adef389893b9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 36343,
+      "sha256": "f0cf865fd5a0fc5f02175a2ec0fec46da4ee5d0e76c5eb77734e5c2e682b1fa1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 21822,
+      "sha256": "9e151b6e7b8d2cca0ee55587ecf11b30f63cde32d92fb13e46f7e8421445ce9d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 59892,
+      "sha256": "cb21d46c1d294309c99cbf65fdb5871a9fddb4223d253d44e51cadd794cb79f0",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 7251,
+      "sha256": "c84b1eb1f92e62644e3d7e3dea54397d2bb20b55acec392b616f80796828322c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1674,
+      "sha256": "389c38ab902f3edb5c1d6d8da203b427dd757d079d2cb508d0de433e6b459b1b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 513,
+      "sha256": "f25226317ad967a98ed977825681af141296c56d7868b148b02dd8b763602b1b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "3e719b56a867dc080d741f484b5775ceeee683bd88ccbb14377f2b8b2c96ae5c",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1017,
+      "sha256": "e4ac621a95dbc513b68964fdef2581fb25cac72c898b9002aa8d94550947e6a0",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/off-road-4x4_body_basecolor.jpg",
+      "bytes": 254450,
+      "sha256": "515e702bdc370ee622bb23bd0c5aff74dc1652b9eb93a7029863a97bb46e8157",
+      "role": "textures"
+    },
+    {
+      "path": "textures/off-road-4x4_body_metallic-off-road-4x4_body_roughness.jpg",
+      "bytes": 266482,
+      "sha256": "1f44bc766699469376001f1c7ed29f7af7565863c84e2aa16c4d941121d445ab",
+      "role": "textures"
+    },
+    {
+      "path": "textures/off-road-4x4_body_normal.jpg",
+      "bytes": 69128,
+      "sha256": "08aeca0047c180f5edcbd52ae3cb439f8e480f9617f282a682bc9e213700fd63",
+      "role": "textures"
+    },
+    {
+      "path": "textures/off-road-4x4_tire_color.jpg",
+      "bytes": 1464,
+      "sha256": "8e626e6a09cf9dd069cbb7646ea8a729268349916b569fb154f952aaecec3fd6",
+      "role": "textures"
+    },
+    {
+      "path": "textures/off-road-4x4_tire_normal.jpg",
+      "bytes": 1851,
+      "sha256": "70c68a6fc74a53d9bd96adc5eac23e75eef775b7db492277f229f5d63484f71f",
+      "role": "textures"
+    }
+  ]
+}

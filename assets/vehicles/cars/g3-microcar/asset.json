@@ -1,0 +1,458 @@
+{
+  "schema_version": 1,
+  "id": "g3-microcar",
+  "title": "Bubble microcar",
+  "category": "vehicles/cars",
+  "style": "stylized",
+  "tags": [
+    "microcar",
+    "bubble",
+    "road"
+  ],
+  "batch": "transport-variety-03",
+  "acquired_at": "2026-11-06T19:13:17.761948+00:00",
+  "review": {
+    "id": "g3-microcar",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Rounded bubble microcar with front window, tiny body and tightly spaced rear wheels.",
+    "limitations": [
+      "Stylized model with simplified forms and materials; not photorealistic.",
+      "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+      "Khronos validation reports zero errors and 6 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+    ],
+    "contact_sheet_sha256": "515223765740906db9fc8fe1f927dadcf1e2acf1592c8fdf6ee4a1d365dc154e",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/microcar.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/microcar/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/microcar/",
+    "source_id": "microcar",
+    "revision": "deab3f57a8ab6640f8bc435178f0801c2d38e7992fb4b32ade9594a11bce8ca6",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/microcar/microcar.glb",
+        "bytes": 1280304,
+        "sha256": "deab3f57a8ab6640f8bc435178f0801c2d38e7992fb4b32ade9594a11bce8ca6"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/microcar/LICENSE.txt"
+  },
+  "model": "model/microcar.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 8,
+    "materials": 20,
+    "images": 8,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/microcar_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "microcar_body_normal"
+    },
+    {
+      "path": "textures/microcar_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "microcar_body_basecolor"
+    },
+    {
+      "path": "textures/microcar_body_metallic-microcar_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "microcar_body_metallic-microcar_body_roughness"
+    },
+    {
+      "path": "textures/microcar_front_door_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "microcar_front_door_normal"
+    },
+    {
+      "path": "textures/microcar_front_door_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "microcar_front_door_basecolor"
+    },
+    {
+      "path": "textures/microcar_front_door_metallic-microcar_front_door_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "microcar_front_door_metallic-microcar_front_door_roughness"
+    },
+    {
+      "path": "textures/microcar_tire_normal.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "microcar_tire_normal"
+    },
+    {
+      "path": "textures/microcar_tire_color.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "microcar_tire_color"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 8,
+    "hidden_mesh_objects": 0,
+    "vertices": 10905,
+    "triangles": 13792,
+    "material_slots": 20,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "microcar_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "microcar_body_metallic-microcar_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "microcar_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "microcar_front_door_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "microcar_front_door_metallic-microcar_front_door_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "microcar_front_door_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "microcar_tire_color",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "microcar_tire_normal",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 6,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1400,
+      "sha256": "a1b82282a817ddd17a1a2276784f2bb387b9d65bb7ada1a9f672e15070ecd847",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 86525,
+      "sha256": "ee447e41e0402fa3d51a8ca02690b7ebf80b1d334a54bbf3cb589e73494e6e6f",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "8dd2bd9ef263878e7f3ea08b62fc00d33b5059188998abbb746e2538aee75c39",
+      "role": "logs"
+    },
+    {
+      "path": "model/microcar.glb",
+      "bytes": 1280304,
+      "sha256": "deab3f57a8ab6640f8bc435178f0801c2d38e7992fb4b32ade9594a11bce8ca6",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 27257,
+      "sha256": "da2c7379aacbb134ae654da13b9d170d6d8988116b1a2e4cd771f89dbe1203f8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 20527,
+      "sha256": "161674dc151cbef593d5b2d6553cfb60c38510a4ea27f843dd0ae5e170c1f1a2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 217416,
+      "sha256": "515223765740906db9fc8fe1f927dadcf1e2acf1592c8fdf6ee4a1d365dc154e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1623,
+      "sha256": "1917d45349893189a6f4e65e45adf0004331bd802b63035e3a166fa7371a0611",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 26339,
+      "sha256": "82492a821f2f1834ad007a1f34a3a5639c9b814aa11af3c6e5087e111d0089f8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 25720,
+      "sha256": "4d6d25b93ad8210e66c1a4306d0e07cb272b65f6e2d5a11542147f79189027b4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 23395,
+      "sha256": "cf0922ecd2ae13f7745d23582b75db267c6d5110aa8bf69e0e1686763f95a42a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 27244,
+      "sha256": "4f8240ec95de0c9024ce2ab7f66fc654e5fe5e9cf85635247202673a1cc72178",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 27550,
+      "sha256": "5cd014ce3698198b0dfe6306f4073fddd205a297591f2aa59479d524cbd4d55f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 28757,
+      "sha256": "9ee75f4dd4d3be8219e970cfa7072cbb2956ac2fd5d4a8ebfc3edb817f712f3c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 25368,
+      "sha256": "7d53f9e3dfa40dea510830478d2f3214c2884a8bcd1fba6913f14edad1ec838e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 27502,
+      "sha256": "5cbb31b029ccf0380fe86cf4d7b56f5b5bbaf100e1694a00bb6d9e61dec6d618",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 19967,
+      "sha256": "2bc0a67abe054268597328e1a0ca744ca4d4b1b917212bd99c04dc6304f28090",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 57006,
+      "sha256": "2a060005a634dce9e8f6bd1db80aef5364436d540518a9b4eb1214921f4b9216",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 7415,
+      "sha256": "11b15ec89027a3d471a19220a68ec49dd4644fa4b9ef89ec97f980037b0df17f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1621,
+      "sha256": "e19e7591e14cf66cc6364372523e2446799c5689c13a6e459b804a8ac3d21355",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 481,
+      "sha256": "bd7e218bf898ed2802e0eea89ac8804c10f0130c7139f03863df3972dc211cca",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "dd449d86795182b265b70c560a2fd8a1059118a1b3b3da4154dae28f27accafd",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 895,
+      "sha256": "a24dcf284bbecf02efac15ab907242af7caa3c98ff67b93faddfb9603ff67fe0",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/microcar_body_basecolor.jpg",
+      "bytes": 247748,
+      "sha256": "3546b77e3074e553b7fde26bf40860f8d66019fc73bb9c214f27b3d602cbdbe5",
+      "role": "textures"
+    },
+    {
+      "path": "textures/microcar_body_metallic-microcar_body_roughness.jpg",
+      "bytes": 226979,
+      "sha256": "17b5e092df05e8a6f596fa8a544ecc5b5e8ab600b31ba2c8cd1f0459dcbf2ad8",
+      "role": "textures"
+    },
+    {
+      "path": "textures/microcar_body_normal.jpg",
+      "bytes": 66675,
+      "sha256": "39eeab917ab3c839f469faf54277132b52fe08a5cf8909d57c5bc2a7f62628b9",
+      "role": "textures"
+    },
+    {
+      "path": "textures/microcar_front_door_basecolor.jpg",
+      "bytes": 120540,
+      "sha256": "450c556df06a3aeeccc2f0b48a879a7967ec94d3edc3b4d1289929437e1ffa2e",
+      "role": "textures"
+    },
+    {
+      "path": "textures/microcar_front_door_metallic-microcar_front_door_roughness.jpg",
+      "bytes": 118481,
+      "sha256": "ca6dbb04f58d5f8e5cdb8e5846ec5b6406aa1ab0b5296632bc5c74b49e224a4e",
+      "role": "textures"
+    },
+    {
+      "path": "textures/microcar_front_door_normal.jpg",
+      "bytes": 66342,
+      "sha256": "28d7c616caaf7a190c63642b07ef98c6307e408a9fe2f73eb598011349b0a931",
+      "role": "textures"
+    },
+    {
+      "path": "textures/microcar_tire_color.jpg",
+      "bytes": 1539,
+      "sha256": "9a26cd08e0224cc42916de18d402a711edeee7659c6a944e67dae2b4e9b09f91",
+      "role": "textures"
+    },
+    {
+      "path": "textures/microcar_tire_normal.jpg",
+      "bytes": 2114,
+      "sha256": "1ac12a81a5ccc3fb6b78601a0b9665ecb4251b6a18602b230f6c025b54cd930c",
+      "role": "textures"
+    }
+  ]
+}

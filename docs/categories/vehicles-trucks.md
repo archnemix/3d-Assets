@@ -2,7 +2,7 @@
 
 Trucks, lorries and haulage vehicles
 
-Approved assets: **14**
+Approved assets: **18**
 
 ## 1950s pickup truck
 
@@ -19,6 +19,14 @@ Approved assets: **14**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 35,997 triangles; 3 texture images
 - [Asset folder](../../assets/vehicles/trucks/g3-ambulance/) · [Metadata](../../assets/vehicles/trucks/g3-ambulance/asset.json) · [All inspection views](../../assets/vehicles/trucks/g3-ambulance/previews/contact-sheet.jpg)
+
+## Armored cash transport truck
+
+![Armored cash transport truck](../../assets/vehicles/trucks/g3-armored-truck/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 19,699 triangles; 5 texture images
+- [Asset folder](../../assets/vehicles/trucks/g3-armored-truck/) · [Metadata](../../assets/vehicles/trucks/g3-armored-truck/asset.json) · [All inspection views](../../assets/vehicles/trucks/g3-armored-truck/previews/contact-sheet.jpg)
 
 ## Double-deck car transporter
 
@@ -92,6 +100,14 @@ Approved assets: **14**
 - 34,886 triangles; 3 texture images
 - [Asset folder](../../assets/vehicles/trucks/g3-ice-cream-truck/) · [Metadata](../../assets/vehicles/trucks/g3-ice-cream-truck/asset.json) · [All inspection views](../../assets/vehicles/trucks/g3-ice-cream-truck/previews/contact-sheet.jpg)
 
+## Monster truck
+
+![Monster truck](../../assets/vehicles/trucks/g3-monster-truck/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 19,973 triangles; 5 texture images
+- [Asset folder](../../assets/vehicles/trucks/g3-monster-truck/) · [Metadata](../../assets/vehicles/trucks/g3-monster-truck/asset.json) · [All inspection views](../../assets/vehicles/trucks/g3-monster-truck/previews/contact-sheet.jpg)
+
 ## Snow plow truck
 
 ![Snow plow truck](../../assets/vehicles/trucks/g3-snow-plow/previews/orbit-01.jpg)
@@ -108,6 +124,14 @@ Approved assets: **14**
 - 20,392 triangles; 9 texture images
 - [Asset folder](../../assets/vehicles/trucks/g3-street-sweeper/) · [Metadata](../../assets/vehicles/trucks/g3-street-sweeper/asset.json) · [All inspection views](../../assets/vehicles/trucks/g3-street-sweeper/previews/contact-sheet.jpg)
 
+## Road tanker truck
+
+![Road tanker truck](../../assets/vehicles/trucks/g3-tanker-truck/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 29,971 triangles; 5 texture images
+- [Asset folder](../../assets/vehicles/trucks/g3-tanker-truck/) · [Metadata](../../assets/vehicles/trucks/g3-tanker-truck/asset.json) · [All inspection views](../../assets/vehicles/trucks/g3-tanker-truck/previews/contact-sheet.jpg)
+
 ## Tow truck
 
 ![Tow truck](../../assets/vehicles/trucks/g3-tow-truck/previews/orbit-01.jpg)
@@ -115,3 +139,11 @@ Approved assets: **14**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 21,468 triangles; 12 texture images
 - [Asset folder](../../assets/vehicles/trucks/g3-tow-truck/) · [Metadata](../../assets/vehicles/trucks/g3-tow-truck/asset.json) · [All inspection views](../../assets/vehicles/trucks/g3-tow-truck/previews/contact-sheet.jpg)
+
+## Curtainsider semi trailer
+
+![Curtainsider semi trailer](../../assets/vehicles/trucks/g3-truck-trailer/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 28,804 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/trucks/g3-truck-trailer/) · [Metadata](../../assets/vehicles/trucks/g3-truck-trailer/asset.json) · [All inspection views](../../assets/vehicles/trucks/g3-truck-trailer/previews/contact-sheet.jpg)

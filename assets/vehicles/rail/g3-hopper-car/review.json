@@ -1,0 +1,24 @@
+{
+  "id": "g3-hopper-car",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Bulk railway hopper car with sloped discharge chutes, ladders and visible load.",
+  "limitations": [
+    "Stylized model with simplified forms and materials; not photorealistic.",
+    "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+    "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Blender inspection counted 80 zero-area triangles; these may need cleanup for topology-sensitive workflows.",
+    "Bulk load is included; its removability is not verified."
+  ],
+  "contact_sheet_sha256": "907315e553763b66476f38abd04a5a32d160079d99110f329f2ede081abb0f52",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

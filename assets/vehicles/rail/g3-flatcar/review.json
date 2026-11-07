@@ -1,0 +1,24 @@
+{
+  "id": "g3-flatcar",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Long railway flatcar with strapped stacks of logs, stakes and two wheel bogies.",
+  "limitations": [
+    "Stylized model with simplified forms and materials; not photorealistic.",
+    "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+    "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Blender inspection counted 368 zero-area triangles; these may need cleanup for topology-sensitive workflows.",
+    "Log load is included; its removability is not verified."
+  ],
+  "contact_sheet_sha256": "d5488464e36b6d237821a15e465c3eb33d2e0f09f57a1ce8e8f65bc4ac071f9c",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

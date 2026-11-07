@@ -2,7 +2,7 @@
 
 Locomotives, wagons and railway rolling stock
 
-Approved assets: **12**
+Approved assets: **14**
 
 ## Ribbed railway boxcar
 
@@ -36,6 +36,14 @@ Approved assets: **12**
 - 34,940 triangles; 3 texture images
 - [Asset folder](../../assets/vehicles/rail/g3-electric-locomotive/) · [Metadata](../../assets/vehicles/rail/g3-electric-locomotive/asset.json) · [All inspection views](../../assets/vehicles/rail/g3-electric-locomotive/previews/contact-sheet.jpg)
 
+## Railway log flatcar
+
+![Railway log flatcar](../../assets/vehicles/rail/g3-flatcar/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 33,684 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/rail/g3-flatcar/) · [Metadata](../../assets/vehicles/rail/g3-flatcar/asset.json) · [All inspection views](../../assets/vehicles/rail/g3-flatcar/previews/contact-sheet.jpg)
+
 ## High-speed train power car
 
 ![High-speed train power car](../../assets/vehicles/rail/g3-high-speed-train/previews/orbit-01.jpg)
@@ -43,6 +51,14 @@ Approved assets: **12**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 29,487 triangles; 3 texture images
 - [Asset folder](../../assets/vehicles/rail/g3-high-speed-train/) · [Metadata](../../assets/vehicles/rail/g3-high-speed-train/asset.json) · [All inspection views](../../assets/vehicles/rail/g3-high-speed-train/previews/contact-sheet.jpg)
+
+## Railway hopper car
+
+![Railway hopper car](../../assets/vehicles/rail/g3-hopper-car/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 28,132 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/rail/g3-hopper-car/) · [Metadata](../../assets/vehicles/rail/g3-hopper-car/asset.json) · [All inspection views](../../assets/vehicles/rail/g3-hopper-car/previews/contact-sheet.jpg)
 
 ## Monorail car
 

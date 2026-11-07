@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "id": "g3-motorhome",
+  "title": "Motorhome",
+  "category": "vehicles/cars",
+  "style": "stylized",
+  "tags": [
+    "motorhome",
+    "recreational",
+    "road"
+  ],
+  "batch": "transport-variety-03",
+  "acquired_at": "2026-11-06T19:16:24.840126+00:00",
+  "review": {
+    "id": "g3-motorhome",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Cab-over recreational motorhome with long living compartment and rear ladder.",
+    "limitations": [
+      "Stylized model with simplified forms and materials; not photorealistic.",
+      "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+      "Khronos validation reports zero errors and 5 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+      "Blender inspection counted 1 zero-area triangles; these may need cleanup for topology-sensitive workflows."
+    ],
+    "contact_sheet_sha256": "2460932b600948f14a72cef777e23c1d698e0cc5458c80ef82450f10244c5d6c",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/motorhome.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/motorhome/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/motorhome/",
+    "source_id": "motorhome",
+    "revision": "c25ae561a590a482e9c13eac4defbfa8ace9ea4e7b1888d9d73d2bffaece831b",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/motorhome/motorhome.glb",
+        "bytes": 1462404,
+        "sha256": "c25ae561a590a482e9c13eac4defbfa8ace9ea4e7b1888d9d73d2bffaece831b"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/motorhome/LICENSE.txt"
+  },
+  "model": "model/motorhome.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 6,
+    "materials": 14,
+    "images": 5,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/motorhome_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "motorhome_body_normal"
+    },
+    {
+      "path": "textures/motorhome_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "motorhome_body_basecolor"
+    },
+    {
+      "path": "textures/motorhome_body_metallic-motorhome_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "motorhome_body_metallic-motorhome_body_roughness"
+    },
+    {
+      "path": "textures/motorhome_tire_normal.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "motorhome_tire_normal"
+    },
+    {
+      "path": "textures/motorhome_tire_color.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "motorhome_tire_color"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 6,
+    "hidden_mesh_objects": 0,
+    "vertices": 21523,
+    "triangles": 27801,
+    "material_slots": 14,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 1,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "motorhome_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "motorhome_body_metallic-motorhome_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "motorhome_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "motorhome_tire_color",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "motorhome_tire_normal",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 5,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1505,
+      "sha256": "db19e1f311a81433a0e7efbbca58a387fed8691130ce6cb5ce60890583642f42",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 77323,
+      "sha256": "0f4716467f12b83bc9ad904917fb1cc65281cf18e893f7121bda7bafbddf1dda",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "d960e055ac485f20e937d93fed063f71063260946a79a3eca71f3393874eb6b9",
+      "role": "logs"
+    },
+    {
+      "path": "model/motorhome.glb",
+      "bytes": 1462404,
+      "sha256": "c25ae561a590a482e9c13eac4defbfa8ace9ea4e7b1888d9d73d2bffaece831b",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 16465,
+      "sha256": "fd09c4af9b5b923e3128a91a227c8f5ed3379e07a039ee82b8e0c57da91ff20f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 21042,
+      "sha256": "654b2c37918413d8621bc72f85486f2386c3bb399bab46883b9df45a172e5d8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 191391,
+      "sha256": "2460932b600948f14a72cef777e23c1d698e0cc5458c80ef82450f10244c5d6c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1120,
+      "sha256": "ee89267ce63cf1e021422a69f37f38d0486859978488c9f357c217e7b1f43988",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 22273,
+      "sha256": "25b5d6395a3400163fdce9c8d197a0e0f36bb2ba18bf7ba689b5c53f8ebd415b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 25776,
+      "sha256": "83b4d4196157a8612b27753f557fa0ae81f6ee59fcfb3766a25ed62759fda256",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 21202,
+      "sha256": "5e310d9af7711d11c51552d8ec1f5b88b5a5d90087c927a8a629d786161db8a9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 23105,
+      "sha256": "fb1e320078ce5028eb6c1013cb5eeafe1ef23945e060b852332a5694a4eb315a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 18983,
+      "sha256": "ba82c4eff96dbda9c518c564c9983edfc29b3392e8292dde8fef902e3e424efa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 27364,
+      "sha256": "8eb00f4bcc5ba07575b46639101e3772c72df5d19de5d0ed7184932b5e3a466c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 24549,
+      "sha256": "be01b0f2a9529b0da977e62bdb15a989016c536cd6c925425c0b3e702b732ba7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 29756,
+      "sha256": "9763766ff6312a8d315a9011ec285bf2f669700a3dbcf7171bd87b2f118b4453",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 14233,
+      "sha256": "b57cc5b994becad187bb965c7a7c8f20caf3c76d4e54553bfb2f1280e21a7156",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 58330,
+      "sha256": "6a4015a591349aec6d01712af8633562c1c9636f5d9e021466b716e3a306a009",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 5416,
+      "sha256": "395b928e64e0d1f6e2c83d8c1fc45513817db09f02943afcf2b0d5c7d6637533",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1810,
+      "sha256": "db97d3add697979b3787494ce733142acbac5341514be0b81884e0e13b6d4b73",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 489,
+      "sha256": "b1ff0915a537b0008f22222301a5a6b434e8f7084784e0301080310295d0b30e",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "28239e592ff954ecbdf856fef4b61f3ea5f4f9d9f15079dd8aef7c9f417aa620",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1003,
+      "sha256": "b275c543608da17a2b36113535123c6935569b147f1d1b32d52b06373d14dd24",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/motorhome_body_basecolor.jpg",
+      "bytes": 258579,
+      "sha256": "cee585075691ddd95a0b88d8d8a25a8d83b42b07177056827b003d96e1078fa2",
+      "role": "textures"
+    },
+    {
+      "path": "textures/motorhome_body_metallic-motorhome_body_roughness.jpg",
+      "bytes": 273785,
+      "sha256": "1f10e5d4e0a6f9f3108c0f84d10e8bd76406d1fef83ec7ccdb65ab4551f98cc4",
+      "role": "textures"
+    },
+    {
+      "path": "textures/motorhome_body_normal.jpg",
+      "bytes": 69498,
+      "sha256": "d726a22b26e90f57511aea413591c43680f95787c15aa21c02d6a87fc1c9475d",
+      "role": "textures"
+    },
+    {
+      "path": "textures/motorhome_tire_color.jpg",
+      "bytes": 1540,
+      "sha256": "aa2ab29266becd3f622c2611983be42cee1706c6d4daca1a48c5a46baf426a75",
+      "role": "textures"
+    },
+    {
+      "path": "textures/motorhome_tire_normal.jpg",
+      "bytes": 2014,
+      "sha256": "2252df7930ea706d83e2556d93bdab18a1f235c944b235124d44eb3979e06fc8",
+      "role": "textures"
+    }
+  ]
+}

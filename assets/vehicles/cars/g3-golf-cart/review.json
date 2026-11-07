@@ -1,0 +1,23 @@
+{
+  "id": "g3-golf-cart",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Open golf cart with bench seat, roof canopy and a bag of golf clubs.",
+  "limitations": [
+    "Stylized model with simplified forms and materials; not photorealistic.",
+    "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+    "Khronos validation reports zero errors and 5 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Golf bag and clubs are included; separability is not verified."
+  ],
+  "contact_sheet_sha256": "cbcf2654231863287518ae966fbbfb7030f42bb2f50ddeca23628db9e33280b4",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

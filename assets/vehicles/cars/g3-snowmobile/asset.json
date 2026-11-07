@@ -1,0 +1,383 @@
+{
+  "schema_version": 1,
+  "id": "g3-snowmobile",
+  "title": "Tracked snowmobile",
+  "category": "vehicles/cars",
+  "style": "stylized",
+  "tags": [
+    "snowmobile",
+    "snow",
+    "tracked"
+  ],
+  "batch": "transport-variety-03",
+  "acquired_at": "2026-11-06T19:16:47.435403+00:00",
+  "review": {
+    "id": "g3-snowmobile",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Snowmobile with front skis, handlebar, seat and a rear tracked drive.",
+    "limitations": [
+      "Stylized model with simplified forms and materials; not photorealistic.",
+      "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+      "Khronos validation reports zero errors and 2 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+    ],
+    "contact_sheet_sha256": "0052c8312102369c6f120a12024f489071bf19b12cb88f6e31f756a09a57852f",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/snowmobile.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/snowmobile/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/snowmobile/",
+    "source_id": "snowmobile",
+    "revision": "f738d67c8f3c5dc5d668afe38724843ec98acaf475df2b795691cf51b900a4e4",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/snowmobile/snowmobile.glb",
+        "bytes": 1107516,
+        "sha256": "f738d67c8f3c5dc5d668afe38724843ec98acaf475df2b795691cf51b900a4e4"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/snowmobile/LICENSE.txt"
+  },
+  "model": "model/snowmobile.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 6,
+    "materials": 13,
+    "images": 5,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/snowmobile_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "snowmobile_body_normal"
+    },
+    {
+      "path": "textures/snowmobile_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "snowmobile_body_basecolor"
+    },
+    {
+      "path": "textures/snowmobile_body_metallic-snowmobile_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "snowmobile_body_metallic-snowmobile_body_roughness"
+    },
+    {
+      "path": "textures/snowmobile_track_rubber_normal.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "snowmobile_track_rubber_normal"
+    },
+    {
+      "path": "textures/snowmobile_track_rubber_color.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "snowmobile_track_rubber_color"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 6,
+    "hidden_mesh_objects": 0,
+    "vertices": 13880,
+    "triangles": 16733,
+    "material_slots": 13,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "snowmobile_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "snowmobile_body_metallic-snowmobile_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "snowmobile_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "snowmobile_track_rubber_color",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "snowmobile_track_rubber_normal",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1407,
+      "sha256": "6895a58459b6a34bf434506044932c33e69d355cdacf2bbc8286c89bc947cbf6",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 77472,
+      "sha256": "b595a64c15000b7f46bc37f561272ec752192d653799671e307a5c0711bf73ea",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "3955f6c83ba1c92ad96ecd4125232f7b3623a477f801afc7956d1ea012661ffb",
+      "role": "logs"
+    },
+    {
+      "path": "model/snowmobile.glb",
+      "bytes": 1107516,
+      "sha256": "f738d67c8f3c5dc5d668afe38724843ec98acaf475df2b795691cf51b900a4e4",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 22091,
+      "sha256": "81296766b41a41b1567a152965fb8f3b4d2f50a934dc322d7622e068e5934eaf",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 21168,
+      "sha256": "146f21fe76cfb490712683139f87854aaf8b10c4def4a1c976f7754e1eaa7227",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 198990,
+      "sha256": "0052c8312102369c6f120a12024f489071bf19b12cb88f6e31f756a09a57852f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1142,
+      "sha256": "1b1d256816938d20a3b7ee529b843a372c5a26a942422f6963768b90c130ca39",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 28124,
+      "sha256": "7e52466a8e3c5ad11cad074191e2a60fa6c3c36c5c70c643bc5ccd0c356307b3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 25927,
+      "sha256": "25da4e55811a3a9ce0345a6b43df5d0adb5b76986c8e0fb31dc464f7c795f0b1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 23409,
+      "sha256": "bc1380f7f09c27fefc53af157c4628c147780c5f6861d291a2fe821eb4875270",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 26253,
+      "sha256": "6476797a43e4a6f3b1fb2d8caa0fda5307d605d0fe3ca79cc071cf883c8c4ee1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 30769,
+      "sha256": "07e1e5ceffa937de96718bde17230b90ca38f53fda887e501d507819f52a537b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 26997,
+      "sha256": "dad8ee9785941c1b645f483debbaf08303a1138c679862b7cd8d572ccb327a50",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 25185,
+      "sha256": "9f54e59b1aab00d2c4e23f300d26f04e81b88a60fd5b72b134224014dd0011fa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 27052,
+      "sha256": "26678d0556166bad4962ab8c5139f826a2bc3f5ffd99fa0342e6428db4996037",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 21286,
+      "sha256": "09afcc622fc0d80df974be15004fbd3e74c2c9dc34096777a224b40726d707c1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 37574,
+      "sha256": "97e4a6d60b8448e1085cd021a271d4bd2aff63aab9f1401edfaaf8e54bcf4e16",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 4813,
+      "sha256": "59a22f0fb7b2465a7f87badeedfe48b4ba6be103eb4a437ab964feea16f7a566",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1594,
+      "sha256": "839cd5434ea2c5b5ca4e1d0d35d5d8795f93d749b275613d03eda8231f2edb14",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 497,
+      "sha256": "29f4be869fae0cd90f3f57ebbec67899ce3faa64df99b8c486096bb3ce712b4b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "69428352adf947b0ceff2bf027bcabdf83ee46edc09680940a64d85d3d2e5009",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 882,
+      "sha256": "c42d427ebb0125edc5240f5fc9b9f520a5b574718c33627e769928cbc5ad067f",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/snowmobile_body_basecolor.jpg",
+      "bytes": 241006,
+      "sha256": "6b64bd2ffd376237a6d0cc1a7484a900bf36868a98a5eea5c6f256ff1a0cc5e4",
+      "role": "textures"
+    },
+    {
+      "path": "textures/snowmobile_body_metallic-snowmobile_body_roughness.jpg",
+      "bytes": 240605,
+      "sha256": "949427a1e63b41e713d771e110362063aa0eea156b2ca2929d7d376b94ed9d0f",
+      "role": "textures"
+    },
+    {
+      "path": "textures/snowmobile_body_normal.jpg",
+      "bytes": 68189,
+      "sha256": "1d58aa0644d721ec86de7f7ba12faaa24211451b1efa5b47d0cfaf0c6290c487",
+      "role": "textures"
+    },
+    {
+      "path": "textures/snowmobile_track_rubber_color.jpg",
+      "bytes": 1464,
+      "sha256": "8e626e6a09cf9dd069cbb7646ea8a729268349916b569fb154f952aaecec3fd6",
+      "role": "textures"
+    },
+    {
+      "path": "textures/snowmobile_track_rubber_normal.jpg",
+      "bytes": 1851,
+      "sha256": "70c68a6fc74a53d9bd96adc5eac23e75eef775b7db492277f229f5d63484f71f",
+      "role": "textures"
+    }
+  ]
+}

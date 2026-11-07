@@ -1,0 +1,23 @@
+{
+  "id": "g3-limousine",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Long stretch limousine with multiple passenger windows and whitewall tyres.",
+  "limitations": [
+    "Stylized model with simplified forms and materials; not photorealistic.",
+    "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+    "Khronos validation reports zero errors and 5 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Blender inspection counted 1 zero-area triangles; these may need cleanup for topology-sensitive workflows."
+  ],
+  "contact_sheet_sha256": "2a00d81ff35ddc16860f5be421e864183130ced117ef8cd7f88d8734e508fd7f",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

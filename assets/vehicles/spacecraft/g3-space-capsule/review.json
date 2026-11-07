@@ -1,0 +1,23 @@
+{
+  "id": "g3-space-capsule",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Conical re-entry capsule with hatch, top docking ring, windows and dark heat shield.",
+  "limitations": [
+    "Stylized model with simplified forms and materials; not photorealistic.",
+    "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+    "Khronos validation reports zero errors and 2 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Spacecraft rather than an airplane; no interior or flight operation is verified."
+  ],
+  "contact_sheet_sha256": "10b5101cb54c4e67d22ebc37ccd0e0246c639e20981b0f7744de59b97dd4caaf",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

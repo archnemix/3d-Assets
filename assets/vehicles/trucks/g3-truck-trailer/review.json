@@ -1,0 +1,23 @@
+{
+  "id": "g3-truck-trailer",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Unpowered three-axle curtainsider semitrailer with rear doors and landing legs.",
+  "limitations": [
+    "Stylized model with simplified forms and materials; not photorealistic.",
+    "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+    "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Trailer only: a tractor unit is not included."
+  ],
+  "contact_sheet_sha256": "a810ca17519d15e83d98db08d87386c115c489d8031e609f3d6017b0c912276c",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

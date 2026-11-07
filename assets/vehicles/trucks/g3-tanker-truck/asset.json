@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "id": "g3-tanker-truck",
+  "title": "Road tanker truck",
+  "category": "vehicles/trucks",
+  "style": "stylized",
+  "tags": [
+    "tanker",
+    "truck",
+    "road"
+  ],
+  "batch": "transport-variety-03",
+  "acquired_at": "2026-11-06T19:15:17.788685+00:00",
+  "review": {
+    "id": "g3-tanker-truck",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Three-axle road tanker with cylindrical tank, top railings and rear ladder.",
+    "limitations": [
+      "Stylized model with simplified forms and materials; not photorealistic.",
+      "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+      "Khronos validation reports zero errors and 7 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+      "Blender inspection counted 11 zero-area triangles; these may need cleanup for topology-sensitive workflows."
+    ],
+    "contact_sheet_sha256": "c0e667561b3e3a75db69a29631731bbb67c7c771cead8421e0166711ef6fc1cb",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/tanker-truck.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/tanker-truck/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/tanker-truck/",
+    "source_id": "tanker-truck",
+    "revision": "0251f353981d0a5bf4c30323bb49445911ebe82c73efe35353fe984842afc49b",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/tanker-truck/tanker-truck.glb",
+        "bytes": 1703440,
+        "sha256": "0251f353981d0a5bf4c30323bb49445911ebe82c73efe35353fe984842afc49b"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/tanker-truck/LICENSE.txt"
+  },
+  "model": "model/tanker-truck.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 8,
+    "materials": 20,
+    "images": 5,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/tanker-truck_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tanker-truck_body_normal"
+    },
+    {
+      "path": "textures/tanker-truck_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tanker-truck_body_basecolor"
+    },
+    {
+      "path": "textures/tanker-truck_body_metallic-tanker-truck_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tanker-truck_body_metallic-tanker-truck_body_roughness"
+    },
+    {
+      "path": "textures/tanker-truck_tire_normal.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tanker-truck_tire_normal"
+    },
+    {
+      "path": "textures/tanker-truck_tire_color.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tanker-truck_tire_color"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 8,
+    "hidden_mesh_objects": 0,
+    "vertices": 24622,
+    "triangles": 29971,
+    "material_slots": 20,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 11,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "tanker-truck_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "tanker-truck_body_metallic-tanker-truck_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "tanker-truck_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "tanker-truck_tire_color",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "tanker-truck_tire_normal",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 7,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1522,
+      "sha256": "06f0b4048a8d9e080e631e40e2190299217c93392642ab50939fe36cf58f0f5d",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 80767,
+      "sha256": "0070c451e65484ff4ca8ca92b3473f1b5167bd4be9a4cb6942c6cdf7fcb5f327",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "10db65f492d526d99bdb8d1579ff78ff1b83d00f3280b76b16a5f8d72416f978",
+      "role": "logs"
+    },
+    {
+      "path": "model/tanker-truck.glb",
+      "bytes": 1703440,
+      "sha256": "0251f353981d0a5bf4c30323bb49445911ebe82c73efe35353fe984842afc49b",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 22343,
+      "sha256": "5353ed5a01e80d3fcf8013cd79e46349dba98845099e23d37502e21d6c4c7785",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 22766,
+      "sha256": "f58223828e1d2128862fd4854865f801b4dac89510a0e73df16748374ac709c1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 217490,
+      "sha256": "c0e667561b3e3a75db69a29631731bbb67c7c771cead8421e0166711ef6fc1cb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1139,
+      "sha256": "932251d9038227f40b50b2c7ccf44505a18dd8eb35a5e44d634a393022039798",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 25650,
+      "sha256": "a9b9d42dfb493bc329d59abf0e9d9161ee27fd66aa98cac7e8ae6ab238758da9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 30244,
+      "sha256": "883536d14c4d4e11710aeb965042fd819891c01f3e6daac05ce20f49c6b920e3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 26354,
+      "sha256": "1dbcd6334a228f3c0b7b0aecdbc245967f19f6bda8a38ce2713a3f50bb14111b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 30832,
+      "sha256": "c3ca25a5b9115a6f82a6974bb1a2d65b392cabf3814635945be4da14406e3877",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 28145,
+      "sha256": "9175e9d587c4e006c427f623383a83cfb135dea8a80300746b334d489eee84a0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 32142,
+      "sha256": "d3ae73b5b20b24f9fdcc078f7eb8e7c64bcf5252814047740ea666ee17eb208e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 27418,
+      "sha256": "a8ad595ed734a1a3c48047c66e7c63b6688fb97a0d0d4920f2995341a9c7503e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 31964,
+      "sha256": "4478f0dfee3ad611b594fe370ead5d7cee2451d6f874381312631342493047d2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 18302,
+      "sha256": "0fd8f453fa6c45fc35fddff5cb327b682ac2e1179f40a1c161903781eca5be44",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 52842,
+      "sha256": "0844f20e968e408fb116707da44798314c460558a18a17d8b7fc8e1e0dd68358",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 6826,
+      "sha256": "afa087a8e71e803efef7b4282cb4de284b8e8b9a281625ccc025878bc673758f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1761,
+      "sha256": "1876fef78acd97f2c5ccaed883069c0d30f64497ae69210c19ca9ee898761f10",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 513,
+      "sha256": "4f6f6168a0da5f12ee273b9c1af148bff2eef5857ade75190cbc56a372480c46",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "0b60d1e1b8e0acb56fc38aaa3661fafa005e14d37c4bf216c2f04cbbcfc1df8e",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1005,
+      "sha256": "2bf7489753e65c87c457f42717dcef4ca762f60c16cb5fae35fda517b5d072f7",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/tanker-truck_body_basecolor.jpg",
+      "bytes": 343854,
+      "sha256": "6b75ddcecb673e88df7cb8fa06c5a4174ee0cc5579fbc6a97471f32b5233b246",
+      "role": "textures"
+    },
+    {
+      "path": "textures/tanker-truck_body_metallic-tanker-truck_body_roughness.jpg",
+      "bytes": 324126,
+      "sha256": "1d79ae82f6f026c1086fa4ad6cf9fb33785bc07511433d65c5bb41f0093b724f",
+      "role": "textures"
+    },
+    {
+      "path": "textures/tanker-truck_body_normal.jpg",
+      "bytes": 71183,
+      "sha256": "3d7e324add44399430e8bf436569db74605dce40614ba9c9097b6c763a33e203",
+      "role": "textures"
+    },
+    {
+      "path": "textures/tanker-truck_tire_color.jpg",
+      "bytes": 1541,
+      "sha256": "e06aed30af9f6cdcf4c5b48c00ddb50f4df636392976d72e0049ca9ed36be0c4",
+      "role": "textures"
+    },
+    {
+      "path": "textures/tanker-truck_tire_normal.jpg",
+      "bytes": 2142,
+      "sha256": "ed320a0e6b5a408fb76e508cbf92a33cfd2b8c49642f900804239d9a47ee497f",
+      "role": "textures"
+    }
+  ]
+}

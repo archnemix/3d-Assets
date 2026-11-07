@@ -2,7 +2,7 @@
 
 Checked on 2026-11-04. Scope: approved assets under assets/ only.
 
-**396 of 396 approved assets pass every check.**
+**418 of 418 approved assets pass every check.**
 
 Every approved asset is dedicated to the public domain under CC0 1.0. For each one
 that means: no cost, no attribution, commercial use allowed, use and redistribution
@@ -305,6 +305,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Rusted steel tool chest](../assets/tools/storage/ph-tool-chest/README.md) | `tools/storage` | Yann Kervran, John Hutcheson (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Worn rubber duck toy](../assets/toys/figures/ph-rubber-duck-toy/README.md) | `toys/figures` | Plat251 (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Chess Set](../assets/toys/games/ph-chess-set/README.md) | `toys/games` | Riley Queen (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Aerial cable car cabin](../assets/vehicles/aerial-lifts/g3-cable-car/README.md) | `vehicles/aerial-lifts` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Airship](../assets/vehicles/aircraft/g3-airship/README.md) | `vehicles/aircraft` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Propeller biplane](../assets/vehicles/aircraft/g3-biplane/README.md) | `vehicles/aircraft` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Turboprop cargo plane](../assets/vehicles/aircraft/g3-cargo-plane/README.md) | `vehicles/aircraft` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -321,14 +322,26 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Mountain bike](../assets/vehicles/bikes/g3-mountain-bike/README.md) | `vehicles/bikes` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [1980s wedge sports car](../assets/vehicles/cars/g3-1980s-sports-car/README.md) | `vehicles/cars` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [1990s police patrol car](../assets/vehicles/cars/g3-1990s-police-car/README.md) | `vehicles/cars` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Four-wheeled ATV](../assets/vehicles/cars/g3-atv-quad/README.md) | `vehicles/cars` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Pop-top camper van](../assets/vehicles/cars/g3-camper-van/README.md) | `vehicles/cars` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [City bus](../assets/vehicles/cars/g3-city-bus/README.md) | `vehicles/cars` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Small hatchback compact car](../assets/vehicles/cars/g3-compact-car/README.md) | `vehicles/cars` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Covered wagon](../assets/vehicles/cars/g3-covered-wagon/README.md) | `vehicles/cars` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Double-decker bus](../assets/vehicles/cars/g3-double-decker-bus/README.md) | `vehicles/cars` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Drag racing car](../assets/vehicles/cars/g3-dragster/README.md) | `vehicles/cars` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Open dune buggy](../assets/vehicles/cars/g3-dune-buggy/README.md) | `vehicles/cars` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Golf cart](../assets/vehicles/cars/g3-golf-cart/README.md) | `vehicles/cars` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Stretch limousine](../assets/vehicles/cars/g3-limousine/README.md) | `vehicles/cars` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Bubble microcar](../assets/vehicles/cars/g3-microcar/README.md) | `vehicles/cars` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Passenger minibus](../assets/vehicles/cars/g3-minibus/README.md) | `vehicles/cars` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Family minivan](../assets/vehicles/cars/g3-minivan/README.md) | `vehicles/cars` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Motorhome](../assets/vehicles/cars/g3-motorhome/README.md) | `vehicles/cars` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Classic fastback muscle car](../assets/vehicles/cars/g3-muscle-car/README.md) | `vehicles/cars` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Off-road four-wheel drive](../assets/vehicles/cars/g3-off-road-4x4/README.md) | `vehicles/cars` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Open-wheel race car](../assets/vehicles/cars/g3-race-car/README.md) | `vehicles/cars` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Rally car with roof scoop](../assets/vehicles/cars/g3-rally-car/README.md) | `vehicles/cars` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [School bus](../assets/vehicles/cars/g3-school-bus/README.md) | `vehicles/cars` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Tracked snowmobile](../assets/vehicles/cars/g3-snowmobile/README.md) | `vehicles/cars` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Stagecoach](../assets/vehicles/cars/g3-stagecoach/README.md) | `vehicles/cars` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Kenney go-kart](../assets/vehicles/cars/kenney-go-kart/README.md) | `vehicles/cars` | Kenney (kenney) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Kenney sports hatchback](../assets/vehicles/cars/kenney-sports-hatchback/README.md) | `vehicles/cars` | Kenney (kenney) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -354,7 +367,9 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Railway caboose](../assets/vehicles/rail/g3-caboose/README.md) | `vehicles/rail` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Centre-cab diesel locomotive](../assets/vehicles/rail/g3-diesel-locomotive/README.md) | `vehicles/rail` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Electric locomotive with pantographs](../assets/vehicles/rail/g3-electric-locomotive/README.md) | `vehicles/rail` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Railway log flatcar](../assets/vehicles/rail/g3-flatcar/README.md) | `vehicles/rail` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [High-speed train power car](../assets/vehicles/rail/g3-high-speed-train/README.md) | `vehicles/rail` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Railway hopper car](../assets/vehicles/rail/g3-hopper-car/README.md) | `vehicles/rail` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Monorail car](../assets/vehicles/rail/g3-monorail/README.md) | `vehicles/rail` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Passenger railway coach](../assets/vehicles/rail/g3-passenger-car/README.md) | `vehicles/rail` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Railway crane](../assets/vehicles/rail/g3-rail-crane/README.md) | `vehicles/rail` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -362,8 +377,11 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Subway train car](../assets/vehicles/rail/g3-subway-train/README.md) | `vehicles/rail` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Railway tank car](../assets/vehicles/rail/g3-tank-car/README.md) | `vehicles/rail` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Tram](../assets/vehicles/rail/g3-tram/README.md) | `vehicles/rail` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Space capsule](../assets/vehicles/spacecraft/g3-space-capsule/README.md) | `vehicles/spacecraft` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Space shuttle orbiter](../assets/vehicles/spacecraft/g3-space-shuttle/README.md) | `vehicles/spacecraft` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [1950s pickup truck](../assets/vehicles/trucks/g3-1950s-pickup-truck/README.md) | `vehicles/trucks` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Ambulance](../assets/vehicles/trucks/g3-ambulance/README.md) | `vehicles/trucks` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Armored cash transport truck](../assets/vehicles/trucks/g3-armored-truck/README.md) | `vehicles/trucks` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Double-deck car transporter](../assets/vehicles/trucks/g3-car-transporter/README.md) | `vehicles/trucks` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Cement mixer truck](../assets/vehicles/trucks/g3-cement-mixer/README.md) | `vehicles/trucks` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Mobile crane truck](../assets/vehicles/trucks/g3-crane-truck/README.md) | `vehicles/trucks` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -373,9 +391,12 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Forklift](../assets/vehicles/trucks/g3-forklift/README.md) | `vehicles/trucks` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Garbage truck](../assets/vehicles/trucks/g3-garbage-truck/README.md) | `vehicles/trucks` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Ice cream truck](../assets/vehicles/trucks/g3-ice-cream-truck/README.md) | `vehicles/trucks` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Monster truck](../assets/vehicles/trucks/g3-monster-truck/README.md) | `vehicles/trucks` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Snow plow truck](../assets/vehicles/trucks/g3-snow-plow/README.md) | `vehicles/trucks` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Street sweeper](../assets/vehicles/trucks/g3-street-sweeper/README.md) | `vehicles/trucks` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Road tanker truck](../assets/vehicles/trucks/g3-tanker-truck/README.md) | `vehicles/trucks` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Tow truck](../assets/vehicles/trucks/g3-tow-truck/README.md) | `vehicles/trucks` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Curtainsider semi trailer](../assets/vehicles/trucks/g3-truck-trailer/README.md) | `vehicles/trucks` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Research submarine](../assets/vehicles/underwater/g3-submarine/README.md) | `vehicles/underwater` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Yellow submersible](../assets/vehicles/underwater/oga-yellow-submersible/README.md) | `vehicles/underwater` | weirdybeardyman (oga-submersible) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Canoe](../assets/vehicles/watercraft/g3-canoe/README.md) | `vehicles/watercraft` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -387,6 +408,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Pontoon houseboat](../assets/vehicles/watercraft/g3-houseboat/README.md) | `vehicles/watercraft` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Personal watercraft](../assets/vehicles/watercraft/g3-jet-ski/README.md) | `vehicles/watercraft` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Sea kayak](../assets/vehicles/watercraft/g3-kayak/README.md) | `vehicles/watercraft` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Outboard runabout motorboat](../assets/vehicles/watercraft/g3-motorboat/README.md) | `vehicles/watercraft` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Paddle steamer](../assets/vehicles/watercraft/g3-paddle-steamer/README.md) | `vehicles/watercraft` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Log sailing raft](../assets/vehicles/watercraft/g3-pirate-raft/README.md) | `vehicles/watercraft` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Sailing sloop](../assets/vehicles/watercraft/g3-pirate-sloop/README.md) | `vehicles/watercraft` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -440,7 +462,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 
 ### Grab3D — `grab3d`
 
-208 approved assets. Status: **verified**.
+230 approved assets. Status: **verified**.
 
 - Terms: <https://grab3d.com/license/>
 - Pinned evidence: <https://grab3d.com/license/>
@@ -520,6 +542,8 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Airport terminal with control tower](../assets/buildings/commercial/g3-airport-terminal/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Airship](../assets/vehicles/aircraft/g3-airship/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Ambulance](../assets/vehicles/trucks/g3-ambulance/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Armored cash transport truck](../assets/vehicles/trucks/g3-armored-truck/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Four-wheeled ATV](../assets/vehicles/cars/g3-atv-quad/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Neoclassical bank with vault door](../assets/buildings/commercial/g3-bank/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Modern beach villa with pool](../assets/buildings/houses/modern/g3-beach-house/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Brown Bear](../assets/nature/wildlife/g3-bear/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
@@ -534,7 +558,9 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Black Bull](../assets/nature/wildlife/g3-bull/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Crawler bulldozer](../assets/vehicles/farm/g3-bulldozer/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Blue Morpho Butterfly](../assets/nature/creatures/g3-butterfly/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Aerial cable car cabin](../assets/vehicles/aerial-lifts/g3-cable-car/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Railway caboose](../assets/vehicles/rail/g3-caboose/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Pop-top camper van](../assets/vehicles/cars/g3-camper-van/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Camshaft in bearing blocks](../assets/vehicles/parts/g3-camshaft/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Canoe](../assets/vehicles/watercraft/g3-canoe/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Car engine block assembly](../assets/vehicles/parts/g3-car-engine/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
@@ -568,7 +594,9 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Differential cutaway](../assets/vehicles/parts/g3-differential/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Bottlenose Dolphin](../assets/nature/aquatic/g3-dolphin/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Double-decker bus](../assets/vehicles/cars/g3-double-decker-bus/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Drag racing car](../assets/vehicles/cars/g3-dragster/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Dump truck](../assets/vehicles/trucks/g3-dump-truck/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Open dune buggy](../assets/vehicles/cars/g3-dune-buggy/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Electric kick scooter](../assets/vehicles/bikes/g3-e-scooter/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Bald Eagle](../assets/nature/wildlife/g3-eagle/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Lattice iron tower](../assets/buildings/landmarks/g3-eiffel-tower/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
@@ -585,6 +613,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Fire truck](../assets/vehicles/trucks/g3-fire-truck/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Fishing boat](../assets/vehicles/watercraft/g3-fishing-boat/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Chain flail](../assets/weapons/melee/g3-flail/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Railway log flatcar](../assets/vehicles/rail/g3-flatcar/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Flywheel with clutch face](../assets/vehicles/parts/g3-flywheel/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Forklift](../assets/vehicles/trucks/g3-forklift/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Fun house facade with mirrors](../assets/buildings/entertainment/g3-fun-house/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
@@ -594,6 +623,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Western general store](../assets/buildings/commercial/western/g3-general-store/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Giraffe](../assets/nature/wildlife/g3-giraffe/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Glider](../assets/vehicles/aircraft/g3-glider/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Golf cart](../assets/vehicles/cars/g3-golf-cart/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Corrugated grain bin](../assets/buildings/farm/g3-grain-bin/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Great helm with breathing rosettes](../assets/armour/head/g3-great-helm/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Great White Shark](../assets/nature/aquatic/g3-great-white-shark/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
@@ -602,6 +632,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Light helicopter](../assets/vehicles/aircraft/g3-helicopter/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [High-speed train power car](../assets/vehicles/rail/g3-high-speed-train/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Hippopotamus](../assets/nature/wildlife/g3-hippo/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Railway hopper car](../assets/vehicles/rail/g3-hopper-car/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Bay Horse](../assets/nature/wildlife/g3-horse/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Hot air balloon](../assets/vehicles/aircraft/g3-hot-air-balloon/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Pontoon houseboat](../assets/vehicles/watercraft/g3-houseboat/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
@@ -612,6 +643,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Katana with cord-wrapped grip](../assets/weapons/melee/g3-katana/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Sea kayak](../assets/vehicles/watercraft/g3-kayak/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Calico Kitten](../assets/nature/wildlife/g3-kitten/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Stretch limousine](../assets/vehicles/cars/g3-limousine/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Lion](../assets/nature/wildlife/g3-lion/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Llama](../assets/nature/wildlife/g3-llama/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Ash longbow](../assets/weapons/ranged/g3-longbow/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
@@ -631,14 +663,21 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Low Poly Parrot](../assets/nature/wildlife/g3-low-poly-parrot/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Low Poly Rhino](../assets/nature/wildlife/g3-low-poly-rhino/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Flanged mace](../assets/weapons/melee/g3-mace/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Bubble microcar](../assets/vehicles/cars/g3-microcar/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Passenger minibus](../assets/vehicles/cars/g3-minibus/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Family minivan](../assets/vehicles/cars/g3-minivan/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Monorail car](../assets/vehicles/rail/g3-monorail/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Monster truck](../assets/vehicles/trucks/g3-monster-truck/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Moose](../assets/nature/wildlife/g3-moose/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Retro moped](../assets/vehicles/bikes/g3-moped/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Outboard runabout motorboat](../assets/vehicles/watercraft/g3-motorboat/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Cafe racer motorcycle](../assets/vehicles/bikes/g3-motorcycle/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Motorhome](../assets/vehicles/cars/g3-motorhome/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Mountain bike](../assets/vehicles/bikes/g3-mountain-bike/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Classic fastback muscle car](../assets/vehicles/cars/g3-muscle-car/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Fantasy mushroom house](../assets/buildings/houses/fantasy/g3-mushroom-house/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Hilltop castle with spires](../assets/buildings/landmarks/g3-neuschwanstein/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Off-road four-wheel drive](../assets/vehicles/cars/g3-off-road-4x4/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Paddle steamer](../assets/vehicles/watercraft/g3-paddle-steamer/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Theme park entrance with turnstiles](../assets/buildings/entertainment/g3-park-entrance/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Passenger airplane](../assets/vehicles/aircraft/g3-passenger-airplane/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
@@ -664,6 +703,9 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Scissor lift vehicle](../assets/vehicles/farm/g3-scissor-lift/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Floatplane](../assets/vehicles/aircraft/g3-seaplane/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Snow plow truck](../assets/vehicles/trucks/g3-snow-plow/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Tracked snowmobile](../assets/vehicles/cars/g3-snowmobile/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Space capsule](../assets/vehicles/spacecraft/g3-space-capsule/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Space shuttle orbiter](../assets/vehicles/spacecraft/g3-space-shuttle/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Sphynx Cat](../assets/nature/wildlife/g3-sphynx-cat/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Red Squirrel](../assets/nature/wildlife/g3-squirrel/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Stagecoach](../assets/vehicles/cars/g3-stagecoach/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
@@ -672,10 +714,12 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Research submarine](../assets/vehicles/underwater/g3-submarine/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Subway train car](../assets/vehicles/rail/g3-subway-train/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Railway tank car](../assets/vehicles/rail/g3-tank-car/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Road tanker truck](../assets/vehicles/trucks/g3-tanker-truck/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Octagonal ticket booth](../assets/buildings/entertainment/g3-ticket-booth/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Tow truck](../assets/vehicles/trucks/g3-tow-truck/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Farm tractor](../assets/vehicles/farm/g3-tractor/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Tram](../assets/vehicles/rail/g3-tram/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Curtainsider semi trailer](../assets/vehicles/trucks/g3-truck-trailer/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Harbor tugboat](../assets/vehicles/watercraft/g3-tugboat/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Crooked witch cottage](../assets/buildings/houses/fantasy/g3-witch-cottage/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Motor yacht](../assets/vehicles/watercraft/g3-yacht/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
@@ -755,19 +799,19 @@ Every check below is machine-verified by `python -m asset_library license-audit`
 
 | Check | Passing |
 | --- | --- |
-| `cc0_spdx` | 396/396 |
-| `cc0_text_present` | 396/396 |
-| `commercial_use_allowed` | 396/396 |
-| `evidence_recorded` | 396/396 |
-| `free_of_charge` | 396/396 |
-| `license_file_checksummed` | 396/396 |
-| `no_attribution_required` | 396/396 |
-| `no_trademark_warning` | 396/396 |
-| `redistribution_allowed` | 396/396 |
-| `source_terms_verified` | 396/396 |
-| `standalone_resale_permitted` | 396/396 |
-| `textures_included` | 396/396 |
-| `visually_approved` | 396/396 |
+| `cc0_spdx` | 418/418 |
+| `cc0_text_present` | 418/418 |
+| `commercial_use_allowed` | 418/418 |
+| `evidence_recorded` | 418/418 |
+| `free_of_charge` | 418/418 |
+| `license_file_checksummed` | 418/418 |
+| `no_attribution_required` | 418/418 |
+| `no_trademark_warning` | 418/418 |
+| `redistribution_allowed` | 418/418 |
+| `source_terms_verified` | 418/418 |
+| `standalone_resale_permitted` | 418/418 |
+| `textures_included` | 418/418 |
+| `visually_approved` | 418/418 |
 
 ## Evidence per asset
 
@@ -784,6 +828,8 @@ Each row links to the license file stored beside the model and to the exact
 | g3-airport-terminal | [LICENSE.txt](../assets/buildings/commercial/g3-airport-terminal/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/airport-terminal/) | [evidence](https://grab3d.com/dl/airport-terminal/LICENSE.txt) |
 | g3-airship | [LICENSE.txt](../assets/vehicles/aircraft/g3-airship/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/airship/) | [evidence](https://grab3d.com/dl/airship/LICENSE.txt) |
 | g3-ambulance | [LICENSE.txt](../assets/vehicles/trucks/g3-ambulance/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/ambulance/) | [evidence](https://grab3d.com/dl/ambulance/LICENSE.txt) |
+| g3-armored-truck | [LICENSE.txt](../assets/vehicles/trucks/g3-armored-truck/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/armored-truck/) | [evidence](https://grab3d.com/dl/armored-truck/LICENSE.txt) |
+| g3-atv-quad | [LICENSE.txt](../assets/vehicles/cars/g3-atv-quad/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/atv-quad/) | [evidence](https://grab3d.com/dl/atv-quad/LICENSE.txt) |
 | g3-bank | [LICENSE.txt](../assets/buildings/commercial/g3-bank/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/bank/) | [evidence](https://grab3d.com/dl/bank/LICENSE.txt) |
 | g3-beach-house | [LICENSE.txt](../assets/buildings/houses/modern/g3-beach-house/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/luxury-beach-house/) | [evidence](https://grab3d.com/dl/luxury-beach-house/LICENSE.txt) |
 | g3-bear | [LICENSE.txt](../assets/nature/wildlife/g3-bear/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/bear/) | [evidence](https://grab3d.com/dl/bear/LICENSE.txt) |
@@ -798,7 +844,9 @@ Each row links to the license file stored beside the model and to the exact
 | g3-bull | [LICENSE.txt](../assets/nature/wildlife/g3-bull/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/bull/) | [evidence](https://grab3d.com/dl/bull/LICENSE.txt) |
 | g3-bulldozer | [LICENSE.txt](../assets/vehicles/farm/g3-bulldozer/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/bulldozer/) | [evidence](https://grab3d.com/dl/bulldozer/LICENSE.txt) |
 | g3-butterfly | [LICENSE.txt](../assets/nature/creatures/g3-butterfly/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/creatures/butterfly/) | [evidence](https://grab3d.com/dl/butterfly/LICENSE.txt) |
+| g3-cable-car | [LICENSE.txt](../assets/vehicles/aerial-lifts/g3-cable-car/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/cable-car/) | [evidence](https://grab3d.com/dl/cable-car/LICENSE.txt) |
 | g3-caboose | [LICENSE.txt](../assets/vehicles/rail/g3-caboose/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/caboose/) | [evidence](https://grab3d.com/dl/caboose/LICENSE.txt) |
+| g3-camper-van | [LICENSE.txt](../assets/vehicles/cars/g3-camper-van/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/camper-van/) | [evidence](https://grab3d.com/dl/camper-van/LICENSE.txt) |
 | g3-camshaft | [LICENSE.txt](../assets/vehicles/parts/g3-camshaft/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/camshaft/) | [evidence](https://grab3d.com/dl/camshaft/LICENSE.txt) |
 | g3-canoe | [LICENSE.txt](../assets/vehicles/watercraft/g3-canoe/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/canoe/) | [evidence](https://grab3d.com/dl/canoe/LICENSE.txt) |
 | g3-car-engine | [LICENSE.txt](../assets/vehicles/parts/g3-car-engine/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/car-engine/) | [evidence](https://grab3d.com/dl/car-engine/LICENSE.txt) |
@@ -832,7 +880,9 @@ Each row links to the license file stored beside the model and to the exact
 | g3-differential | [LICENSE.txt](../assets/vehicles/parts/g3-differential/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/differential/) | [evidence](https://grab3d.com/dl/differential/LICENSE.txt) |
 | g3-dolphin | [LICENSE.txt](../assets/nature/aquatic/g3-dolphin/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/dolphin/) | [evidence](https://grab3d.com/dl/dolphin/LICENSE.txt) |
 | g3-double-decker-bus | [LICENSE.txt](../assets/vehicles/cars/g3-double-decker-bus/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/double-decker-bus/) | [evidence](https://grab3d.com/dl/double-decker-bus/LICENSE.txt) |
+| g3-dragster | [LICENSE.txt](../assets/vehicles/cars/g3-dragster/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/dragster/) | [evidence](https://grab3d.com/dl/dragster/LICENSE.txt) |
 | g3-dump-truck | [LICENSE.txt](../assets/vehicles/trucks/g3-dump-truck/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/dump-truck/) | [evidence](https://grab3d.com/dl/dump-truck/LICENSE.txt) |
+| g3-dune-buggy | [LICENSE.txt](../assets/vehicles/cars/g3-dune-buggy/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/dune-buggy/) | [evidence](https://grab3d.com/dl/dune-buggy/LICENSE.txt) |
 | g3-e-scooter | [LICENSE.txt](../assets/vehicles/bikes/g3-e-scooter/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/e-scooter/) | [evidence](https://grab3d.com/dl/e-scooter/LICENSE.txt) |
 | g3-eagle | [LICENSE.txt](../assets/nature/wildlife/g3-eagle/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/eagle/) | [evidence](https://grab3d.com/dl/eagle/LICENSE.txt) |
 | g3-eiffel-tower | [LICENSE.txt](../assets/buildings/landmarks/g3-eiffel-tower/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/eiffel-tower/) | [evidence](https://grab3d.com/dl/eiffel-tower/LICENSE.txt) |
@@ -849,6 +899,7 @@ Each row links to the license file stored beside the model and to the exact
 | g3-fire-truck | [LICENSE.txt](../assets/vehicles/trucks/g3-fire-truck/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/fire-truck/) | [evidence](https://grab3d.com/dl/fire-truck/LICENSE.txt) |
 | g3-fishing-boat | [LICENSE.txt](../assets/vehicles/watercraft/g3-fishing-boat/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/fishing-boat/) | [evidence](https://grab3d.com/dl/fishing-boat/LICENSE.txt) |
 | g3-flail | [LICENSE.txt](../assets/weapons/melee/g3-flail/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/weapons/flail/) | [evidence](https://grab3d.com/dl/flail/LICENSE.txt) |
+| g3-flatcar | [LICENSE.txt](../assets/vehicles/rail/g3-flatcar/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/flatcar/) | [evidence](https://grab3d.com/dl/flatcar/LICENSE.txt) |
 | g3-flywheel | [LICENSE.txt](../assets/vehicles/parts/g3-flywheel/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/flywheel/) | [evidence](https://grab3d.com/dl/flywheel/LICENSE.txt) |
 | g3-forklift | [LICENSE.txt](../assets/vehicles/trucks/g3-forklift/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/forklift/) | [evidence](https://grab3d.com/dl/forklift/LICENSE.txt) |
 | g3-fun-house | [LICENSE.txt](../assets/buildings/entertainment/g3-fun-house/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/fun-house/) | [evidence](https://grab3d.com/dl/fun-house/LICENSE.txt) |
@@ -858,6 +909,7 @@ Each row links to the license file stored beside the model and to the exact
 | g3-general-store | [LICENSE.txt](../assets/buildings/commercial/western/g3-general-store/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/general-store/) | [evidence](https://grab3d.com/dl/general-store/LICENSE.txt) |
 | g3-giraffe | [LICENSE.txt](../assets/nature/wildlife/g3-giraffe/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/giraffe/) | [evidence](https://grab3d.com/dl/giraffe/LICENSE.txt) |
 | g3-glider | [LICENSE.txt](../assets/vehicles/aircraft/g3-glider/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/glider/) | [evidence](https://grab3d.com/dl/glider/LICENSE.txt) |
+| g3-golf-cart | [LICENSE.txt](../assets/vehicles/cars/g3-golf-cart/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/golf-cart/) | [evidence](https://grab3d.com/dl/golf-cart/LICENSE.txt) |
 | g3-grain-bin | [LICENSE.txt](../assets/buildings/farm/g3-grain-bin/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/grain-bin/) | [evidence](https://grab3d.com/dl/grain-bin/LICENSE.txt) |
 | g3-great-helm | [LICENSE.txt](../assets/armour/head/g3-great-helm/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/characters/great-helm/) | [evidence](https://grab3d.com/dl/great-helm/LICENSE.txt) |
 | g3-great-white-shark | [LICENSE.txt](../assets/nature/aquatic/g3-great-white-shark/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/great-white-shark/) | [evidence](https://grab3d.com/dl/great-white-shark/LICENSE.txt) |
@@ -866,6 +918,7 @@ Each row links to the license file stored beside the model and to the exact
 | g3-helicopter | [LICENSE.txt](../assets/vehicles/aircraft/g3-helicopter/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/helicopter/) | [evidence](https://grab3d.com/dl/helicopter/LICENSE.txt) |
 | g3-high-speed-train | [LICENSE.txt](../assets/vehicles/rail/g3-high-speed-train/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/high-speed-train/) | [evidence](https://grab3d.com/dl/high-speed-train/LICENSE.txt) |
 | g3-hippo | [LICENSE.txt](../assets/nature/wildlife/g3-hippo/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/hippo/) | [evidence](https://grab3d.com/dl/hippo/LICENSE.txt) |
+| g3-hopper-car | [LICENSE.txt](../assets/vehicles/rail/g3-hopper-car/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/hopper-car/) | [evidence](https://grab3d.com/dl/hopper-car/LICENSE.txt) |
 | g3-horse | [LICENSE.txt](../assets/nature/wildlife/g3-horse/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/horse/) | [evidence](https://grab3d.com/dl/horse/LICENSE.txt) |
 | g3-hot-air-balloon | [LICENSE.txt](../assets/vehicles/aircraft/g3-hot-air-balloon/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/hot-air-balloon/) | [evidence](https://grab3d.com/dl/hot-air-balloon/LICENSE.txt) |
 | g3-houseboat | [LICENSE.txt](../assets/vehicles/watercraft/g3-houseboat/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/houseboat/) | [evidence](https://grab3d.com/dl/houseboat/LICENSE.txt) |
@@ -876,6 +929,7 @@ Each row links to the license file stored beside the model and to the exact
 | g3-katana | [LICENSE.txt](../assets/weapons/melee/g3-katana/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/weapons/katana/) | [evidence](https://grab3d.com/dl/katana/LICENSE.txt) |
 | g3-kayak | [LICENSE.txt](../assets/vehicles/watercraft/g3-kayak/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/kayak/) | [evidence](https://grab3d.com/dl/kayak/LICENSE.txt) |
 | g3-kitten | [LICENSE.txt](../assets/nature/wildlife/g3-kitten/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/kitten/) | [evidence](https://grab3d.com/dl/kitten/LICENSE.txt) |
+| g3-limousine | [LICENSE.txt](../assets/vehicles/cars/g3-limousine/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/limousine/) | [evidence](https://grab3d.com/dl/limousine/LICENSE.txt) |
 | g3-lion | [LICENSE.txt](../assets/nature/wildlife/g3-lion/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/lion/) | [evidence](https://grab3d.com/dl/lion/LICENSE.txt) |
 | g3-llama | [LICENSE.txt](../assets/nature/wildlife/g3-llama/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/llama/) | [evidence](https://grab3d.com/dl/llama/LICENSE.txt) |
 | g3-longbow | [LICENSE.txt](../assets/weapons/ranged/g3-longbow/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/weapons/longbow/) | [evidence](https://grab3d.com/dl/longbow/LICENSE.txt) |
@@ -895,14 +949,21 @@ Each row links to the license file stored beside the model and to the exact
 | g3-low-poly-parrot | [LICENSE.txt](../assets/nature/wildlife/g3-low-poly-parrot/LICENSE.txt) | `c3f0afb03c33` | [source](https://grab3d.com/models/animals/low-poly-parrot/) | [evidence](https://grab3d.com/dl/low-poly-parrot/LICENSE.txt) |
 | g3-low-poly-rhino | [LICENSE.txt](../assets/nature/wildlife/g3-low-poly-rhino/LICENSE.txt) | `0121bda2e8a8` | [source](https://grab3d.com/models/animals/low-poly-rhino/) | [evidence](https://grab3d.com/dl/low-poly-rhino/LICENSE.txt) |
 | g3-mace | [LICENSE.txt](../assets/weapons/melee/g3-mace/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/weapons/mace/) | [evidence](https://grab3d.com/dl/mace/LICENSE.txt) |
+| g3-microcar | [LICENSE.txt](../assets/vehicles/cars/g3-microcar/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/microcar/) | [evidence](https://grab3d.com/dl/microcar/LICENSE.txt) |
+| g3-minibus | [LICENSE.txt](../assets/vehicles/cars/g3-minibus/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/minibus/) | [evidence](https://grab3d.com/dl/minibus/LICENSE.txt) |
+| g3-minivan | [LICENSE.txt](../assets/vehicles/cars/g3-minivan/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/minivan/) | [evidence](https://grab3d.com/dl/minivan/LICENSE.txt) |
 | g3-monorail | [LICENSE.txt](../assets/vehicles/rail/g3-monorail/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/monorail/) | [evidence](https://grab3d.com/dl/monorail/LICENSE.txt) |
+| g3-monster-truck | [LICENSE.txt](../assets/vehicles/trucks/g3-monster-truck/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/monster-truck/) | [evidence](https://grab3d.com/dl/monster-truck/LICENSE.txt) |
 | g3-moose | [LICENSE.txt](../assets/nature/wildlife/g3-moose/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/moose/) | [evidence](https://grab3d.com/dl/moose/LICENSE.txt) |
 | g3-moped | [LICENSE.txt](../assets/vehicles/bikes/g3-moped/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/moped/) | [evidence](https://grab3d.com/dl/moped/LICENSE.txt) |
+| g3-motorboat | [LICENSE.txt](../assets/vehicles/watercraft/g3-motorboat/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/motorboat/) | [evidence](https://grab3d.com/dl/motorboat/LICENSE.txt) |
 | g3-motorcycle | [LICENSE.txt](../assets/vehicles/bikes/g3-motorcycle/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/motorcycle/) | [evidence](https://grab3d.com/dl/motorcycle/LICENSE.txt) |
+| g3-motorhome | [LICENSE.txt](../assets/vehicles/cars/g3-motorhome/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/motorhome/) | [evidence](https://grab3d.com/dl/motorhome/LICENSE.txt) |
 | g3-mountain-bike | [LICENSE.txt](../assets/vehicles/bikes/g3-mountain-bike/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/mountain-bike/) | [evidence](https://grab3d.com/dl/mountain-bike/LICENSE.txt) |
 | g3-muscle-car | [LICENSE.txt](../assets/vehicles/cars/g3-muscle-car/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/muscle-car/) | [evidence](https://grab3d.com/dl/muscle-car/LICENSE.txt) |
 | g3-mushroom-house | [LICENSE.txt](../assets/buildings/houses/fantasy/g3-mushroom-house/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/fantasy-mushroom-house/) | [evidence](https://grab3d.com/dl/fantasy-mushroom-house/LICENSE.txt) |
 | g3-neuschwanstein | [LICENSE.txt](../assets/buildings/landmarks/g3-neuschwanstein/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/neuschwanstein-castle/) | [evidence](https://grab3d.com/dl/neuschwanstein-castle/LICENSE.txt) |
+| g3-off-road-4x4 | [LICENSE.txt](../assets/vehicles/cars/g3-off-road-4x4/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/off-road-4x4/) | [evidence](https://grab3d.com/dl/off-road-4x4/LICENSE.txt) |
 | g3-paddle-steamer | [LICENSE.txt](../assets/vehicles/watercraft/g3-paddle-steamer/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/paddle-steamer/) | [evidence](https://grab3d.com/dl/paddle-steamer/LICENSE.txt) |
 | g3-park-entrance | [LICENSE.txt](../assets/buildings/entertainment/g3-park-entrance/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/theme-park-entrance/) | [evidence](https://grab3d.com/dl/theme-park-entrance/LICENSE.txt) |
 | g3-passenger-airplane | [LICENSE.txt](../assets/vehicles/aircraft/g3-passenger-airplane/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/passenger-airplane/) | [evidence](https://grab3d.com/dl/passenger-airplane/LICENSE.txt) |
@@ -928,6 +989,9 @@ Each row links to the license file stored beside the model and to the exact
 | g3-scissor-lift | [LICENSE.txt](../assets/vehicles/farm/g3-scissor-lift/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/scissor-lift/) | [evidence](https://grab3d.com/dl/scissor-lift/LICENSE.txt) |
 | g3-seaplane | [LICENSE.txt](../assets/vehicles/aircraft/g3-seaplane/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/seaplane/) | [evidence](https://grab3d.com/dl/seaplane/LICENSE.txt) |
 | g3-snow-plow | [LICENSE.txt](../assets/vehicles/trucks/g3-snow-plow/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/snow-plow/) | [evidence](https://grab3d.com/dl/snow-plow/LICENSE.txt) |
+| g3-snowmobile | [LICENSE.txt](../assets/vehicles/cars/g3-snowmobile/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/snowmobile/) | [evidence](https://grab3d.com/dl/snowmobile/LICENSE.txt) |
+| g3-space-capsule | [LICENSE.txt](../assets/vehicles/spacecraft/g3-space-capsule/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/space-capsule/) | [evidence](https://grab3d.com/dl/space-capsule/LICENSE.txt) |
+| g3-space-shuttle | [LICENSE.txt](../assets/vehicles/spacecraft/g3-space-shuttle/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/space-shuttle/) | [evidence](https://grab3d.com/dl/space-shuttle/LICENSE.txt) |
 | g3-sphynx-cat | [LICENSE.txt](../assets/nature/wildlife/g3-sphynx-cat/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/sphynx-cat/) | [evidence](https://grab3d.com/dl/sphynx-cat/LICENSE.txt) |
 | g3-squirrel | [LICENSE.txt](../assets/nature/wildlife/g3-squirrel/LICENSE.txt) | `a15412842aa0` | [source](https://grab3d.com/models/animals/squirrel/) | [evidence](https://grab3d.com/dl/squirrel/LICENSE.txt) |
 | g3-stagecoach | [LICENSE.txt](../assets/vehicles/cars/g3-stagecoach/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/stagecoach/) | [evidence](https://grab3d.com/dl/stagecoach/LICENSE.txt) |
@@ -936,10 +1000,12 @@ Each row links to the license file stored beside the model and to the exact
 | g3-submarine | [LICENSE.txt](../assets/vehicles/underwater/g3-submarine/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/submarine/) | [evidence](https://grab3d.com/dl/submarine/LICENSE.txt) |
 | g3-subway-train | [LICENSE.txt](../assets/vehicles/rail/g3-subway-train/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/subway-train/) | [evidence](https://grab3d.com/dl/subway-train/LICENSE.txt) |
 | g3-tank-car | [LICENSE.txt](../assets/vehicles/rail/g3-tank-car/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/tank-car/) | [evidence](https://grab3d.com/dl/tank-car/LICENSE.txt) |
+| g3-tanker-truck | [LICENSE.txt](../assets/vehicles/trucks/g3-tanker-truck/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/tanker-truck/) | [evidence](https://grab3d.com/dl/tanker-truck/LICENSE.txt) |
 | g3-ticket-booth | [LICENSE.txt](../assets/buildings/entertainment/g3-ticket-booth/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/ticket-booth/) | [evidence](https://grab3d.com/dl/ticket-booth/LICENSE.txt) |
 | g3-tow-truck | [LICENSE.txt](../assets/vehicles/trucks/g3-tow-truck/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/tow-truck/) | [evidence](https://grab3d.com/dl/tow-truck/LICENSE.txt) |
 | g3-tractor | [LICENSE.txt](../assets/vehicles/farm/g3-tractor/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/tractor/) | [evidence](https://grab3d.com/dl/tractor/LICENSE.txt) |
 | g3-tram | [LICENSE.txt](../assets/vehicles/rail/g3-tram/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/tram/) | [evidence](https://grab3d.com/dl/tram/LICENSE.txt) |
+| g3-truck-trailer | [LICENSE.txt](../assets/vehicles/trucks/g3-truck-trailer/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/truck-trailer/) | [evidence](https://grab3d.com/dl/truck-trailer/LICENSE.txt) |
 | g3-tugboat | [LICENSE.txt](../assets/vehicles/watercraft/g3-tugboat/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/tugboat/) | [evidence](https://grab3d.com/dl/tugboat/LICENSE.txt) |
 | g3-witch-cottage | [LICENSE.txt](../assets/buildings/houses/fantasy/g3-witch-cottage/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/witch-cottage/) | [evidence](https://grab3d.com/dl/witch-cottage/LICENSE.txt) |
 | g3-yacht | [LICENSE.txt](../assets/vehicles/watercraft/g3-yacht/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/yacht/) | [evidence](https://grab3d.com/dl/yacht/LICENSE.txt) |
