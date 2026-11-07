@@ -79,6 +79,8 @@ jobs:
         with:
           path: .work/cache/makehuman/*.zip
           key: makehuman-archives-${{ hashFiles('config/sources.json') }}
+          restore-keys: |
+            makehuman-archives-4cf27fe7549ff1de43e54f1add29f13a5f195f8d4857b5bbcfa75f569405a6dd
       - name: Acquire and render quarantine candidates
         id: intake
         continue-on-error: true

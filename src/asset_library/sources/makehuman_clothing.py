@@ -95,7 +95,10 @@ def fetch_makehuman_clothing(source: dict, candidate: dict, directory: Path) -> 
     pack_name = item["pack"]
     if not re.fullmatch(r"[a-z0-9_-]+", upstream):
         raise ValueError("Invalid garment identity")
-    evidence = read_json(ROOT / "research" / "clothing-packs.json")[pack_name]
+    if pack_name == "makehuman_system_assets":
+        evidence = read_json(ROOT / "research" / "makehuman-system-pack.json")["archive"]
+    else:
+        evidence = read_json(ROOT / "research" / "clothing-packs.json")[pack_name]
     index_url = f"https://static.makehumancommunity.org/assets/assetpacks/{pack_name}.html"
     row = verify_index(text(index_url, HOSTS), upstream, item["author"])
     archive, download_record = pinned_archive(

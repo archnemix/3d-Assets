@@ -9,7 +9,7 @@ from pathlib import Path
 from .config import ROOT, read_json
 from .contact_sheet import build
 from .files import inventory, write_checksums, write_json
-from .gltf import extract_textures, validate_local
+from .gltf import compact_embedded_textures, extract_textures, validate_local
 
 
 def validate_inventory(directory: Path, manifest: dict) -> None:
@@ -134,6 +134,10 @@ def inspect(directory: Path, candidate: dict, manifest: dict) -> dict:
         "blender_import": "passed",
         "inspection_views": 12,
     }
+    # Garment GLBs are self-contained; preserve lossless image indices rather
+    # than committing large redundant extracted copies for every candidate.
+    if manifest.get("source", {}).get("provider") == "makehuman-clothing":
+        compact_embedded_textures(directory, manifest)
     manifest["files"] = inventory(directory)
     write_checksums(directory, manifest["files"])
     write_json(directory / "asset.json", manifest)
