@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "id": "g3-fashion-belt",
+  "title": "Rolled leather belt",
+  "category": "apparel/accessories",
+  "style": "stylized",
+  "tags": [
+    "belt",
+    "leather",
+    "apparel"
+  ],
+  "batch": "apparel-foundations-01",
+  "acquired_at": "2026-11-07T01:45:02.263852+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/belt.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/belt/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/props/belt/",
+    "source_id": "belt",
+    "revision": "b61693e47b8e8bdda8749bd9e951a82301787211d4566cf111e4cc6b33edd669",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/belt/belt.glb",
+        "bytes": 1010740,
+        "sha256": "b61693e47b8e8bdda8749bd9e951a82301787211d4566cf111e4cc6b33edd669"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/belt/LICENSE.txt"
+  },
+  "model": "model/belt.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/belt_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "belt_body_normal"
+    },
+    {
+      "path": "textures/belt_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "belt_body_basecolor"
+    },
+    {
+      "path": "textures/belt_body_metallic-belt_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "belt_body_metallic-belt_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 5445,
+    "triangles": 6280,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "belt_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "belt_body_metallic-belt_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "belt_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67508,
+      "sha256": "699bbe849e6ddc8d6631352fc776f367f2f9143a344f0a1dd554d86673abb12a",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/belt.glb",
+      "bytes": 1010740,
+      "sha256": "b61693e47b8e8bdda8749bd9e951a82301787211d4566cf111e4cc6b33edd669",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 29786,
+      "sha256": "bfc809e005e7df66d6135925abab5c149066af661b6814b560ef649b65424317",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 20945,
+      "sha256": "cffc0988204fbfb25fa69d21e5e8da8b18de2ca1f4dc33674a79d4bbe121c210",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 202940,
+      "sha256": "75f77cd5a17ff5dff02cd91fcfb8be945a5224d210ae1c47da4f7f6bed01fc9a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 798,
+      "sha256": "237ee7fcf700e5f382f69bd424bbcd44e6e3af4e1fbc63e74f0b8b687f2eb464",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 40982,
+      "sha256": "2e439aab83342eff8cc285f37fea7c9ab3e87a4cfc163b15b61bb368116ccb50",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 26203,
+      "sha256": "04c6c8d6c0551e808c6692f37d58a7dea127ccc8d94b061abdee90ba1b7e0f5b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 19107,
+      "sha256": "09355f4f6e2e85f550c01407c33d010586906c8952d68344bfb0e703cd1b5621",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 20226,
+      "sha256": "cb0a654eee05885caf7de145b1d9e0afe668e5154995522c3b9c04fe0f3ae622",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 31030,
+      "sha256": "3bd108b2308b41db5fb140ba46efd9e5cea9fceacd4922972d8482eaa10983c0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 26021,
+      "sha256": "53ad44a499466950f4f50c806431e69435e99e4c57770be488b071b8a52ccab7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 19984,
+      "sha256": "8d4bc90a0ea80ebfa04f7d71c9ab982d0bd8aa05dcf059d3e4a630e73009fe9d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 20970,
+      "sha256": "7d6322ee6c3dab345b5541cfce848305908958c7bae89b9c2e8c2a8f7635c57e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 27791,
+      "sha256": "8b90cabceba396c5e4f85eeaf921faa82c8fe41132a8e200aac17cc8b2d27f44",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 43443,
+      "sha256": "75815417ff5b49fb1e24d3ae6f7388ca34a854c152e0cfd80218e5ff177a8993",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1925,
+      "sha256": "6b1d8af80596542eae9d77fdc73fa7c9f68245b59537b371305cca89cd3cf058",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1482,
+      "sha256": "cef15653a23e0d7ac0599b2f9e21aeec9816450ed3cbcf10fe1f18ebd9be13be",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 446,
+      "sha256": "d1df1fa39e881099527750e1c0dc13e393840e8d94c940a207ea66c9e48f2ef8",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "9038e05321615915d10ffff33ff06c40be0af0a19e6146f5e9c20985defb197b",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/belt_body_basecolor.jpg",
+      "bytes": 267890,
+      "sha256": "fde7f2b914b2a9a02f2347ab5f6d4250141c538ff4ded9b836fa21116bd5376b",
+      "role": "textures"
+    },
+    {
+      "path": "textures/belt_body_metallic-belt_body_roughness.jpg",
+      "bytes": 244155,
+      "sha256": "8403c9a57d188b2e79164703b779e86770929a6c6369b9cc64f7e682223dd100",
+      "role": "textures"
+    },
+    {
+      "path": "textures/belt_body_normal.jpg",
+      "bytes": 284258,
+      "sha256": "acd01f486b2602f2dd185f4fdb724cfb3f1dbc1794e5df1e6476bbc398ee8647",
+      "role": "textures"
+    }
+  ]
+}

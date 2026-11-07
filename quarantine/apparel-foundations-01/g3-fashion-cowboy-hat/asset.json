@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "id": "g3-fashion-cowboy-hat",
+  "title": "Western cowboy hat",
+  "category": "apparel/headwear",
+  "style": "stylized",
+  "tags": [
+    "cowboy",
+    "western",
+    "apparel"
+  ],
+  "batch": "apparel-foundations-01",
+  "acquired_at": "2026-11-07T01:41:52.163545+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/cowboy-hat.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/cowboy-hat/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/props/cowboy-hat/",
+    "source_id": "cowboy-hat",
+    "revision": "77db0243e2a27e47d0e98c5ee80d931cfd5845838101e83c0ada057f718d6d61",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/cowboy-hat/cowboy-hat.glb",
+        "bytes": 582140,
+        "sha256": "77db0243e2a27e47d0e98c5ee80d931cfd5845838101e83c0ada057f718d6d61"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/cowboy-hat/LICENSE.txt"
+  },
+  "model": "model/cowboy-hat.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/cowboy-hat_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "cowboy-hat_body_normal"
+    },
+    {
+      "path": "textures/cowboy-hat_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "cowboy-hat_body_basecolor"
+    },
+    {
+      "path": "textures/cowboy-hat_body_metallic-cowboy-hat_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "cowboy-hat_body_metallic-cowboy-hat_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 6087,
+    "triangles": 7744,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 44,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "cowboy-hat_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "cowboy-hat_body_metallic-cowboy-hat_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "cowboy-hat_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68023,
+      "sha256": "04183a1ec27dddca3085898dce8033396d357c9ac69127b054eeea116f51c547",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/cowboy-hat.glb",
+      "bytes": 582140,
+      "sha256": "77db0243e2a27e47d0e98c5ee80d931cfd5845838101e83c0ada057f718d6d61",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 21020,
+      "sha256": "3231edad3574dceeb9feab7c2941b846fd4d7bee290725cc77cabdcf6d0edf7b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 15045,
+      "sha256": "c09e71c68179324e84be4bc9281f4bd2f287c192309dc128460b543ad209fcf6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 159432,
+      "sha256": "f7c7e4b1f2fb8443ccae58fa6a4b552ed75c90ef4b5fabbf7b9685ece4618bae",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 823,
+      "sha256": "31087e287539891c70773297db1ca9c233b23a0d892cf4bfafd0671bf4f7216d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 19725,
+      "sha256": "943e3c947e3dc1fca70bac0f451c02339a06ba2670daf51560efa2a4a98c45e9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 18407,
+      "sha256": "0a7b98f45bc32c27fddeb1d76586705be6e229ca231ac9749719bf9d51c571bf",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 16956,
+      "sha256": "1e9dde75725b93aef276668826007f40f00e1adc65fe5a1898f17da841c6d0cb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 18047,
+      "sha256": "c550fb8afff574e6af83f7d291b4f17b80311d9b83c38e6d829ee7325d0923cb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 19113,
+      "sha256": "489fb718dcf9cb44423cedb5e63d78116674c74e83357b9a9529b9160928e38e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 18579,
+      "sha256": "5719fab868d9dc496bffd644c74c657a3e4cadd50dd87f9835531f881d3766e3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 17668,
+      "sha256": "2076cfb4db22c614362ba69b367ed0db9cf8c42a0b056cc9d543867cc4e1d758",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 18872,
+      "sha256": "da53bc73dd40938bc74a9611dcff9ff9d095e49a820a92e502c8051dd824d4a1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 23554,
+      "sha256": "4e30c959da83ebc28d85eccba2c1a6697ea7165d7c4133ff1550ad7a58362d57",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 37145,
+      "sha256": "bc829ef13d6df1b56be7140089fad8cdf966a9c9bf5cbe8ff07b94ae3e8ff2f6",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1930,
+      "sha256": "c4703f2f81a707f8383b3d225248f8f6465f6c2f2feb2a8462ea3573dec399fa",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1432,
+      "sha256": "2369cd5c509dc59b2cdbcb921b60cb8d1696e9be8d1530cf06c7fef1da38f42b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 493,
+      "sha256": "6a5b65675fa49e3e5156158fe5c4d5f9f10c7ddc647b08747d4e8b26e2616b38",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "106ee3e1844cff4be60f2905eff05f4ee3a58e6c4bb8fc1add6d38ce9428c170",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/cowboy-hat_body_basecolor.jpg",
+      "bytes": 132396,
+      "sha256": "35c5031037bb734201440d2cf7a5f96cd065909d570a16550d5d448effbc024a",
+      "role": "textures"
+    },
+    {
+      "path": "textures/cowboy-hat_body_metallic-cowboy-hat_body_roughness.jpg",
+      "bytes": 139582,
+      "sha256": "6c0e70ca3205759e552190d67777208522bd96678c5127cde6242309fb65bbe1",
+      "role": "textures"
+    },
+    {
+      "path": "textures/cowboy-hat_body_normal.jpg",
+      "bytes": 66482,
+      "sha256": "b63964428e292e9d47da453d0936c26081d770cdf26a8dd56f9cbf00490bee14",
+      "role": "textures"
+    }
+  ]
+}
