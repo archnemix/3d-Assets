@@ -2,7 +2,7 @@
 
 Trucks, lorries and haulage vehicles
 
-Approved assets: **18**
+Approved assets: **20**
 
 ## 1950s pickup truck
 
@@ -11,6 +11,14 @@ Approved assets: **18**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 16,872 triangles; 5 texture images
 - [Asset folder](../../assets/vehicles/trucks/g3-1950s-pickup-truck/) · [Metadata](../../assets/vehicles/trucks/g3-1950s-pickup-truck/asset.json) · [All inspection views](../../assets/vehicles/trucks/g3-1950s-pickup-truck/previews/contact-sheet.jpg)
+
+## Mobile passenger boarding stairs
+
+![Mobile passenger boarding stairs](../../assets/vehicles/trucks/g3-airplane-stairs/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 18,920 triangles; 6 texture images
+- [Asset folder](../../assets/vehicles/trucks/g3-airplane-stairs/) · [Metadata](../../assets/vehicles/trucks/g3-airplane-stairs/asset.json) · [All inspection views](../../assets/vehicles/trucks/g3-airplane-stairs/previews/contact-sheet.jpg)
 
 ## Ambulance
 
@@ -91,6 +99,14 @@ Approved assets: **18**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 42,513 triangles; 6 texture images
 - [Asset folder](../../assets/vehicles/trucks/g3-garbage-truck/) · [Metadata](../../assets/vehicles/trucks/g3-garbage-truck/asset.json) · [All inspection views](../../assets/vehicles/trucks/g3-garbage-truck/previews/contact-sheet.jpg)
+
+## Horse transport trailer
+
+![Horse transport trailer](../../assets/vehicles/trucks/g3-horse-trailer/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 25,324 triangles; 6 texture images
+- [Asset folder](../../assets/vehicles/trucks/g3-horse-trailer/) · [Metadata](../../assets/vehicles/trucks/g3-horse-trailer/asset.json) · [All inspection views](../../assets/vehicles/trucks/g3-horse-trailer/previews/contact-sheet.jpg)
 
 ## Ice cream truck
 

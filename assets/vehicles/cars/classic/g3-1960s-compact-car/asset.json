@@ -1,0 +1,385 @@
+{
+  "schema_version": 1,
+  "id": "g3-1960s-compact-car",
+  "title": "1960s compact car",
+  "category": "vehicles/cars/classic",
+  "style": "stylized",
+  "tags": [
+    "1960s",
+    "vintage",
+    "compact"
+  ],
+  "batch": "transport-eras-01",
+  "acquired_at": "2026-11-07T00:47:31.275915+00:00",
+  "review": {
+    "id": "g3-1960s-compact-car",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Small 1960s-inspired three-box compact car with rounded lights and short proportions.",
+    "limitations": [
+      "Stylized model with simplified forms and materials; not photorealistic.",
+      "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+      "Khronos validation reports zero errors and 5 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+      "Blender inspection counted 8 zero-area triangles; these may need cleanup for topology-sensitive workflows.",
+      "Era is a stylistic approximation, not an identified make, model, or production date."
+    ],
+    "contact_sheet_sha256": "d9c3722de2d15616624c2cfc9a0e6b45bbdfc5203caeaa91004950dad9f4d5aa",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/1960s-compact-car.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/1960s-compact-car/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/1960s-compact-car/",
+    "source_id": "1960s-compact-car",
+    "revision": "3f9e9dcd141d9b8c7b48cd3618a375d12e46fd97b755994b177060f7cdaa3f6a",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/1960s-compact-car/1960s-compact-car.glb",
+        "bytes": 1180676,
+        "sha256": "3f9e9dcd141d9b8c7b48cd3618a375d12e46fd97b755994b177060f7cdaa3f6a"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/1960s-compact-car/LICENSE.txt"
+  },
+  "model": "model/1960s-compact-car.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 6,
+    "materials": 18,
+    "images": 5,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/1960s-compact-car_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1960s-compact-car_body_normal"
+    },
+    {
+      "path": "textures/1960s-compact-car_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1960s-compact-car_body_basecolor"
+    },
+    {
+      "path": "textures/1960s-compact-car_body_metallic-1960s-compact-car_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1960s-compact-car_body_metallic-1960s-compact-car_body_roughness"
+    },
+    {
+      "path": "textures/1960s-compact-car_tire_normal.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1960s-compact-car_tire_normal"
+    },
+    {
+      "path": "textures/1960s-compact-car_tire_color.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1960s-compact-car_tire_color"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 6,
+    "hidden_mesh_objects": 0,
+    "vertices": 13440,
+    "triangles": 16797,
+    "material_slots": 18,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 8,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "1960s-compact-car_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1960s-compact-car_body_metallic-1960s-compact-car_body_roughnes",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1960s-compact-car_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1960s-compact-car_tire_color",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1960s-compact-car_tire_normal",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 5,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1624,
+      "sha256": "db15ace9160e1933c72877b2c0730538770b801a796cb0f94ba44cdaa4ebd112",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 77863,
+      "sha256": "40b584d5aa2b6d0396b5a1b4ed479a729699beca8bff27037aadb3f85811e82c",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "998ef207bb56a5da54cfc753f6cf05bd6985e629781c1ba33f1562c902587ed1",
+      "role": "logs"
+    },
+    {
+      "path": "model/1960s-compact-car.glb",
+      "bytes": 1180676,
+      "sha256": "3f9e9dcd141d9b8c7b48cd3618a375d12e46fd97b755994b177060f7cdaa3f6a",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 19366,
+      "sha256": "dc8871126c67174e202509a1203f1c53e7976f72e9c7520ec819d04af58518a1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18335,
+      "sha256": "5784a5d5226bace527d033e94530f006ee6a71ca4f16a7c6877c5d126be735bb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 198565,
+      "sha256": "d9c3722de2d15616624c2cfc9a0e6b45bbdfc5203caeaa91004950dad9f4d5aa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1167,
+      "sha256": "1853d9be31534baa7396c95aae27beb26d8535f782832543a4468049947ae2ba",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 32686,
+      "sha256": "ca4c070c7c5d6e4a4ff38efaf9dd9637027275c99d68d657e8c69384afb198db",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 25233,
+      "sha256": "dc5209982fb6387dd71720614aa6ad8d57022edb91840de3119d1bd2a078d2a0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 22401,
+      "sha256": "86f9b308491f77be5d3db1fb04cc839f139f7036a1288d4e3a94dd8f687ea54e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 23019,
+      "sha256": "a7173529f7855cc3106b64a2903df4fedee3aa75a81563c753d8aca0cb2daf46",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 29868,
+      "sha256": "a7e084c56d62b72599a2c95fce987f1c9e050cdaa99cb69b6b7d05cb9c29fc8c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 24985,
+      "sha256": "a2a1e4488145df6be7432f21ce779377d0d31194a13f4b4c2110e7f271267fd1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 24647,
+      "sha256": "3232db5f9499baa7bbf443cf66bbcd61b2eea3cccbd7b427ed43681bfe982fb1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 27222,
+      "sha256": "03969a4dab2dc10923af6424de6465b4f54dcfdddd026bccc37cb1540eeed6e4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 20136,
+      "sha256": "db3c9fd27e8a93626a68e976e17f2929ca1dae6dae0bb58e7e085f78870a5b6d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 44975,
+      "sha256": "0c22bcf69ba9dfc3f4ca8b612c5547de02fc79af258483cb0ee8e6c6f4a6a300",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 6177,
+      "sha256": "d4357b1acbcc342c7cfdd7b16d338d2d93d3fb89220c2210e7d0d3cf2b60418f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1721,
+      "sha256": "14f3b1c59925f1d2b8c6258c20cc7529ef68abdf588060200a1c213ff7c906fe",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 553,
+      "sha256": "aae91d2ae8cf28f1ec2543d8d93f01c7d7e8d21129bf1d7406667b8f213d4803",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "6f7b45b70036e4de052cfc7eabaf27b300533958b76adda58113cbea5c69fdcf",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1111,
+      "sha256": "48d637f31a203744a95a9f9010d37d886a1fd9e4ecd1a271e3a694f37f9f1ffe",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/1960s-compact-car_body_basecolor.jpg",
+      "bytes": 295656,
+      "sha256": "95d592f4e1064b9e1abf39520b6c3f48a113c82823319ecbba8db0d60369661b",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1960s-compact-car_body_metallic-1960s-compact-car_body_roughness.jpg",
+      "bytes": 263249,
+      "sha256": "630b6ed8775d3cf1e948371014741c1b5191b958a2bf9a1acd19fe861e90826b",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1960s-compact-car_body_normal.jpg",
+      "bytes": 80873,
+      "sha256": "9edb8f0b0fc527db37c50d2bdce48d3bd3873ee6073ee83e5abd1d5cd2bd3742",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1960s-compact-car_tire_color.jpg",
+      "bytes": 1539,
+      "sha256": "9a26cd08e0224cc42916de18d402a711edeee7659c6a944e67dae2b4e9b09f91",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1960s-compact-car_tire_normal.jpg",
+      "bytes": 2114,
+      "sha256": "1ac12a81a5ccc3fb6b78601a0b9665ecb4251b6a18602b230f6c025b54cd930c",
+      "role": "textures"
+    }
+  ]
+}

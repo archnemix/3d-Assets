@@ -1,0 +1,24 @@
+{
+  "id": "g3-atomic-age-car",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Retro-futuristic fantasy bubble-canopy car with rear fin and visible seats.",
+  "limitations": [
+    "Stylized model with simplified forms and materials; not photorealistic.",
+    "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+    "Khronos validation reports zero errors and 5 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Blender inspection counted 2 zero-area triangles; these may need cleanup for topology-sensitive workflows.",
+    "A fictional retro-futuristic design, not a documented historical production vehicle."
+  ],
+  "contact_sheet_sha256": "f63a73680027cceb87867cb03e3eefdd0f28fc615e4ee46faec32cefe2e2f5bc",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

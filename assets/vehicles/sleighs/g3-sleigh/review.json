@@ -1,0 +1,24 @@
+{
+  "id": "g3-sleigh",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Festive runner sleigh with wrapped gifts and lantern; no draft animal or harness included.",
+  "limitations": [
+    "Stylized model with simplified forms and materials; not photorealistic.",
+    "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+    "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Blender inspection counted 256 zero-area triangles; these may need cleanup for topology-sensitive workflows.",
+    "Festive gifts and decoration are included; no horse, reindeer, or harness is provided."
+  ],
+  "contact_sheet_sha256": "56dd74960752495aba725e60c3448d5d319d1ba754845944fafff2780db20e8e",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "g3-1960s-compact-car",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Small 1960s-inspired three-box compact car with rounded lights and short proportions.",
+  "limitations": [
+    "Stylized model with simplified forms and materials; not photorealistic.",
+    "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+    "Khronos validation reports zero errors and 5 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Blender inspection counted 8 zero-area triangles; these may need cleanup for topology-sensitive workflows.",
+    "Era is a stylistic approximation, not an identified make, model, or production date."
+  ],
+  "contact_sheet_sha256": "d9c3722de2d15616624c2cfc9a0e6b45bbdfc5203caeaa91004950dad9f4d5aa",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

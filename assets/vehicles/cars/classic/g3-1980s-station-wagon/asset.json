@@ -1,0 +1,385 @@
+{
+  "schema_version": 1,
+  "id": "g3-1980s-station-wagon",
+  "title": "1980s wood-panel station wagon",
+  "category": "vehicles/cars/classic",
+  "style": "stylized",
+  "tags": [
+    "1980s",
+    "vintage",
+    "station-wagon"
+  ],
+  "batch": "transport-eras-01",
+  "acquired_at": "2026-11-07T00:48:59.553438+00:00",
+  "review": {
+    "id": "g3-1980s-station-wagon",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. 1980s-inspired square station wagon with wood-look side panels and roof rails.",
+    "limitations": [
+      "Stylized model with simplified forms and materials; not photorealistic.",
+      "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+      "Khronos validation reports zero errors and 5 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+      "Blender inspection counted 6 zero-area triangles; these may need cleanup for topology-sensitive workflows.",
+      "Era is a stylistic approximation, not an identified make, model, or production date."
+    ],
+    "contact_sheet_sha256": "1474b68a2e0ff861606147de881187aab7c6bdaf51cc3cbd02f8fd3bae16a814",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/1980s-station-wagon.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/1980s-station-wagon/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/1980s-station-wagon/",
+    "source_id": "1980s-station-wagon",
+    "revision": "4feeeb8eaf21855f52a5977e888cd265dc3e561f2426c1460ce7a45fa4511fd5",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/1980s-station-wagon/1980s-station-wagon.glb",
+        "bytes": 1330016,
+        "sha256": "4feeeb8eaf21855f52a5977e888cd265dc3e561f2426c1460ce7a45fa4511fd5"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/1980s-station-wagon/LICENSE.txt"
+  },
+  "model": "model/1980s-station-wagon.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 6,
+    "materials": 18,
+    "images": 5,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/1980s-station-wagon_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1980s-station-wagon_body_normal"
+    },
+    {
+      "path": "textures/1980s-station-wagon_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1980s-station-wagon_body_basecolor"
+    },
+    {
+      "path": "textures/1980s-station-wagon_body_metallic-1980s-station-wagon_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1980s-station-wagon_body_metallic-1980s-station-wagon_body_roughness"
+    },
+    {
+      "path": "textures/1980s-station-wagon_tire_normal.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1980s-station-wagon_tire_normal"
+    },
+    {
+      "path": "textures/1980s-station-wagon_tire_color.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1980s-station-wagon_tire_color"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 6,
+    "hidden_mesh_objects": 0,
+    "vertices": 17234,
+    "triangles": 19644,
+    "material_slots": 18,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 6,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "1980s-station-wagon_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1980s-station-wagon_body_metallic-1980s-station-wagon_body_roug",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1980s-station-wagon_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1980s-station-wagon_tire_color",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1980s-station-wagon_tire_normal",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 5,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1641,
+      "sha256": "4f4ae71be0311fe6b0eccaf83b06bc8e3ef65168175b91f0d0c5fb8fbc5fdbed",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 78059,
+      "sha256": "f71e5198c66befb32e551e5f37ce3b4b3fb7496cba07cde8a9da27c94977d6d8",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "998ef207bb56a5da54cfc753f6cf05bd6985e629781c1ba33f1562c902587ed1",
+      "role": "logs"
+    },
+    {
+      "path": "model/1980s-station-wagon.glb",
+      "bytes": 1330016,
+      "sha256": "4feeeb8eaf21855f52a5977e888cd265dc3e561f2426c1460ce7a45fa4511fd5",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 17579,
+      "sha256": "251aee16c9affdec33ccc8f9d92920efab3074c300c19db4213477e7185b963d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 19421,
+      "sha256": "941b766aae5961c8929902d3e1817eb552e68d16cb5525cb04a764f6c9a99dd3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 195681,
+      "sha256": "1474b68a2e0ff861606147de881187aab7c6bdaf51cc3cbd02f8fd3bae16a814",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1175,
+      "sha256": "e18ad414dc6af4c5086405fb006c502e704211ef2fbaac9f560dcfd589004716",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 28929,
+      "sha256": "913c5dd5f2a0059b14852bb115d6543e105e8ab1861e460da665d7b3bf209775",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 26803,
+      "sha256": "20bf2555d3d723b3d4449521445d91f633834034188057054a3cd2696dc4d42f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 21988,
+      "sha256": "75ec851c2b225d6bdf426b978ebb8799dd300f65a9a28452c5ccc9b99f84c95a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 24444,
+      "sha256": "2e762e22ec8b8200be35ace902849151b4e6808a6f4699fb6c06e8be9c613bad",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 29985,
+      "sha256": "3bd5177644941653e9f431a5dfc32b288bb2e56b800bc4958ff737fd05ec2a94",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 26125,
+      "sha256": "775c9247d78f7b827a13034f6bcf24aee5b0e3ce75267010e5780cf2af329c00",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 23807,
+      "sha256": "8e2bac582d59ae40191eea4da48df01589e3b46bdb1927eb80c6d155ba52777a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 28490,
+      "sha256": "5fb2cbc28855ee8c28222dac44f10111b650809104296a0ce83f05c16863f44c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 17836,
+      "sha256": "fb40071c400d211e0fe13c201c17b220bf26b4a13fe08d69813e293927ee2f0f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 46012,
+      "sha256": "d6ba870084e4b25fd3e76f15d2494f9f5baeb75fd3d151928e5ec36be8c15f4a",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 6179,
+      "sha256": "dd7e8286b25dbd264110fdd0dde618b3063ea1b5830c56ce127b1c93bc7cac52",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1652,
+      "sha256": "d6a1664833941930d165cfd455f649ff4b3784f04d68b9662c712d47faf727c6",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 569,
+      "sha256": "5609aa6385d37e30587890d5b471d83a637f3af504e9883d070c316f654c8172",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "6216bde7e9efe1f254373da5d2a6fb0e27904998639acdc117097b7477021692",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1106,
+      "sha256": "d2fca59df7c2ca633415d414b17ae105456d747ae89db608e7571a303b4d4ccd",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/1980s-station-wagon_body_basecolor.jpg",
+      "bytes": 298272,
+      "sha256": "c66bdfa46c7a488a1f0dbcc7a1cf145255da7ea73dea0d31c19a2a47f492a67c",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1980s-station-wagon_body_metallic-1980s-station-wagon_body_roughness.jpg",
+      "bytes": 277318,
+      "sha256": "ca2b20e2833cca440cba2d220e2a33bd3d1e050f3091ed816def6a2b8e664dcb",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1980s-station-wagon_body_normal.jpg",
+      "bytes": 81632,
+      "sha256": "1a6de936d85a5a375e6adb79ea6a60b9174eb6c2a8d46c9201d0ba190d555b2c",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1980s-station-wagon_tire_color.jpg",
+      "bytes": 1539,
+      "sha256": "9a26cd08e0224cc42916de18d402a711edeee7659c6a944e67dae2b4e9b09f91",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1980s-station-wagon_tire_normal.jpg",
+      "bytes": 2114,
+      "sha256": "1ac12a81a5ccc3fb6b78601a0b9665ecb4251b6a18602b230f6c025b54cd930c",
+      "role": "textures"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 Tractors, harvesters and agricultural machinery
 
-Approved assets: **7**
+Approved assets: **8**
 
 ## Crawler bulldozer
 
@@ -35,6 +35,14 @@ Approved assets: **7**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 31,568 triangles; 6 texture images
 - [Asset folder](../../assets/vehicles/farm/g3-farm-trailer/) · [Metadata](../../assets/vehicles/farm/g3-farm-trailer/asset.json) · [All inspection views](../../assets/vehicles/farm/g3-farm-trailer/previews/contact-sheet.jpg)
+
+## Riding lawn mower
+
+![Riding lawn mower](../../assets/vehicles/farm/g3-riding-mower/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 30,848 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/farm/g3-riding-mower/) · [Metadata](../../assets/vehicles/farm/g3-riding-mower/asset.json) · [All inspection views](../../assets/vehicles/farm/g3-riding-mower/previews/contact-sheet.jpg)
 
 ## Road roller
 

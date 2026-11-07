@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "id": "g3-1960s-convertible",
+  "title": "1960s convertible",
+  "category": "vehicles/cars/classic",
+  "style": "stylized",
+  "tags": [
+    "1960s",
+    "vintage",
+    "convertible"
+  ],
+  "batch": "transport-eras-01",
+  "acquired_at": "2026-11-07T00:47:41.531017+00:00",
+  "review": {
+    "id": "g3-1960s-convertible",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Open 1960s-inspired four-seat convertible with exposed seats and folded top.",
+    "limitations": [
+      "Stylized model with simplified forms and materials; not photorealistic.",
+      "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+      "Khronos validation reports zero errors and 5 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+      "Era is a stylistic approximation, not an identified make, model, or production date."
+    ],
+    "contact_sheet_sha256": "f2d07095d69c919ca747492aa285882b8da3eef3c1308c4c943a3c5485659761",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/1960s-convertible.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/1960s-convertible/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/1960s-convertible/",
+    "source_id": "1960s-convertible",
+    "revision": "ccf1e7efb6da7afe373c1c84b78f93111e0aead2b4ad168220082b835464e61c",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/1960s-convertible/1960s-convertible.glb",
+        "bytes": 1212136,
+        "sha256": "ccf1e7efb6da7afe373c1c84b78f93111e0aead2b4ad168220082b835464e61c"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/1960s-convertible/LICENSE.txt"
+  },
+  "model": "model/1960s-convertible.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 6,
+    "materials": 18,
+    "images": 5,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/1960s-convertible_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1960s-convertible_body_normal"
+    },
+    {
+      "path": "textures/1960s-convertible_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1960s-convertible_body_basecolor"
+    },
+    {
+      "path": "textures/1960s-convertible_body_metallic-1960s-convertible_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1960s-convertible_body_metallic-1960s-convertible_body_roughness"
+    },
+    {
+      "path": "textures/1960s-convertible_tire_normal.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1960s-convertible_tire_normal"
+    },
+    {
+      "path": "textures/1960s-convertible_tire_color.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1960s-convertible_tire_color"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 6,
+    "hidden_mesh_objects": 0,
+    "vertices": 13723,
+    "triangles": 16001,
+    "material_slots": 18,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "1960s-convertible_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1960s-convertible_body_metallic-1960s-convertible_body_roughnes",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1960s-convertible_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1960s-convertible_tire_color",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1960s-convertible_tire_normal",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 5,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1515,
+      "sha256": "3a060ce588c12124522f82d50a8f448c6f38beda79862e142f54e23ee5e84ade",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 78360,
+      "sha256": "ee41538964b2590caf76d41c7306332eb46d5f6c2b9dc96dacb22aeaaf319878",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "998ef207bb56a5da54cfc753f6cf05bd6985e629781c1ba33f1562c902587ed1",
+      "role": "logs"
+    },
+    {
+      "path": "model/1960s-convertible.glb",
+      "bytes": 1212136,
+      "sha256": "ccf1e7efb6da7afe373c1c84b78f93111e0aead2b4ad168220082b835464e61c",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 18395,
+      "sha256": "c4b9fc5d7c5e0f916001f13b0ef3162f5e2c8dea225db671a501dc331bb4f6a0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 17717,
+      "sha256": "201e2988f9cd22b72af52a3f31f6916c7489a72a1c951e6377beb89d3c52cf87",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 192465,
+      "sha256": "f2d07095d69c919ca747492aa285882b8da3eef3c1308c4c943a3c5485659761",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1167,
+      "sha256": "adf1225008595a59eba959215694ec9448eb3c12be240191f80d1fbd67221f25",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 38016,
+      "sha256": "7973feefdd39b93b404cfe850aeed73d4362b577bc526a447f232d5b1ca6c6d5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 22670,
+      "sha256": "d8bfba25279352d0ff61c05a02b4f099c4f09e01ed3a58e3520cddc88cec08d8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 20619,
+      "sha256": "ac7abf61fa9ffafeadd2bc7883d2eec5e60e59df21663df9d5e249182c85a4c2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 22823,
+      "sha256": "d7ab0ca309e68ed8086b5bb156257407518da93fee7c79910497f064f9f103e4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 38323,
+      "sha256": "4353553e6cf4e0001caa4003dda8a2d98cb5032e22acad91053b18df220f92ec",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 24174,
+      "sha256": "bfda9a9ca8e16faaddc50d8aa360bc126c46fdccbbe82ebdce9b55dcdf47db38",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 22586,
+      "sha256": "33c29e0f47c49112dd358dea2fe14c5e3be6f30006529dd61d2fe8ac69b1fbc2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 24063,
+      "sha256": "69ecf09fb5b3d83769ed02532660a75dbbaadba2796fe4c340b852371b74afab",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 22505,
+      "sha256": "f5003e48c5da8ae6a48dc915a5c6bd306ae00c384d84823b898806fe0bf0d07f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 34595,
+      "sha256": "aca024417c8fb37aecbbe1b9b45b1ff4101aaee5433427d53b7ccbae7177f18f",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 6177,
+      "sha256": "f63cb82e06e3682ad387c2fdf22b0fc1052cdb4b23c4833a9036ff241f6d01c9",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1777,
+      "sha256": "2a02e9d0072ae14a11391e6a3be3b6048d0b2ffb20e90e8244fadab91398934b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 553,
+      "sha256": "22e32def10fa333c039081dac7791aacf47f84bf50cbf34d8790e99d57a2bebe",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "684b1705ca3f3f49f971e10c26aee5614a8e881bcc996e89d56a4660243f1de3",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 988,
+      "sha256": "a79f69fae5bb92c8bb5e320f98f460a242c3bb38cc78fc53ea40597633702fdb",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/1960s-convertible_body_basecolor.jpg",
+      "bytes": 302538,
+      "sha256": "524692faeebe15d24648ac944b6b3575a491f7f4bafa1ad1d7d82643bae5f439",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1960s-convertible_body_metallic-1960s-convertible_body_roughness.jpg",
+      "bytes": 280978,
+      "sha256": "a6b2ec5d4923a2bb37f939134ae6caec4a5ea7e927dfae0786c11459424adc82",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1960s-convertible_body_normal.jpg",
+      "bytes": 83358,
+      "sha256": "881198a716da4f55371b730792bfe0ef2aaee8c4a43a9cdddbe920f06116ca17",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1960s-convertible_tire_color.jpg",
+      "bytes": 1539,
+      "sha256": "9a26cd08e0224cc42916de18d402a711edeee7659c6a944e67dae2b4e9b09f91",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1960s-convertible_tire_normal.jpg",
+      "bytes": 2114,
+      "sha256": "1ac12a81a5ccc3fb6b78601a0b9665ecb4251b6a18602b230f6c025b54cd930c",
+      "role": "textures"
+    }
+  ]
+}

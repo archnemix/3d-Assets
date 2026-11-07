@@ -2,7 +2,7 @@
 
 Locomotives, wagons and railway rolling stock
 
-Approved assets: **14**
+Approved assets: **17**
 
 ## Ribbed railway boxcar
 
@@ -44,6 +44,22 @@ Approved assets: **14**
 - 33,684 triangles; 3 texture images
 - [Asset folder](../../assets/vehicles/rail/g3-flatcar/) · [Metadata](../../assets/vehicles/rail/g3-flatcar/asset.json) · [All inspection views](../../assets/vehicles/rail/g3-flatcar/previews/contact-sheet.jpg)
 
+## Container railway freight car
+
+![Container railway freight car](../../assets/vehicles/rail/g3-freight-container-car/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 34,810 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/rail/g3-freight-container-car/) · [Metadata](../../assets/vehicles/rail/g3-freight-container-car/asset.json) · [All inspection views](../../assets/vehicles/rail/g3-freight-container-car/previews/contact-sheet.jpg)
+
+## Hand-pumped railway car
+
+![Hand-pumped railway car](../../assets/vehicles/rail/g3-handcar/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 13,870 triangles; 6 texture images
+- [Asset folder](../../assets/vehicles/rail/g3-handcar/) · [Metadata](../../assets/vehicles/rail/g3-handcar/asset.json) · [All inspection views](../../assets/vehicles/rail/g3-handcar/previews/contact-sheet.jpg)
+
 ## High-speed train power car
 
 ![High-speed train power car](../../assets/vehicles/rail/g3-high-speed-train/previews/orbit-01.jpg)
@@ -59,6 +75,14 @@ Approved assets: **14**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 28,132 triangles; 3 texture images
 - [Asset folder](../../assets/vehicles/rail/g3-hopper-car/) · [Metadata](../../assets/vehicles/rail/g3-hopper-car/asset.json) · [All inspection views](../../assets/vehicles/rail/g3-hopper-car/previews/contact-sheet.jpg)
+
+## Narrow gauge mining cart
+
+![Narrow gauge mining cart](../../assets/vehicles/rail/g3-mine-cart/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 8,356 triangles; 3 texture images
+- [Asset folder](../../assets/vehicles/rail/g3-mine-cart/) · [Metadata](../../assets/vehicles/rail/g3-mine-cart/asset.json) · [All inspection views](../../assets/vehicles/rail/g3-mine-cart/previews/contact-sheet.jpg)
 
 ## Monorail car
 

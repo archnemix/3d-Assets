@@ -1,0 +1,385 @@
+{
+  "schema_version": 1,
+  "id": "g3-1990s-suv",
+  "title": "1990s sport utility vehicle",
+  "category": "vehicles/cars/classic",
+  "style": "stylized",
+  "tags": [
+    "1990s",
+    "vintage",
+    "suv"
+  ],
+  "batch": "transport-eras-01",
+  "acquired_at": "2026-11-07T00:51:19.735128+00:00",
+  "review": {
+    "id": "g3-1990s-suv",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. 1990s-inspired four-door SUV with raised roof and rear-mounted spare tire.",
+    "limitations": [
+      "Stylized model with simplified forms and materials; not photorealistic.",
+      "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+      "Khronos validation reports zero errors and 6 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+      "Blender inspection counted 5 zero-area triangles; these may need cleanup for topology-sensitive workflows.",
+      "Era is a stylistic approximation, not an identified make, model, or production date."
+    ],
+    "contact_sheet_sha256": "bb35089fd4de558a69851dff0e70796eb262773d4517cb45e35cd317327ce9ad",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/1990s-suv.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/1990s-suv/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/1990s-suv/",
+    "source_id": "1990s-suv",
+    "revision": "6de5880316e6d27e40f3294428b16a31251af6d59af2d20d7884cbb23414da99",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/1990s-suv/1990s-suv.glb",
+        "bytes": 1444272,
+        "sha256": "6de5880316e6d27e40f3294428b16a31251af6d59af2d20d7884cbb23414da99"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/1990s-suv/LICENSE.txt"
+  },
+  "model": "model/1990s-suv.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 7,
+    "materials": 24,
+    "images": 5,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/1990s-suv_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1990s-suv_body_normal"
+    },
+    {
+      "path": "textures/1990s-suv_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1990s-suv_body_basecolor"
+    },
+    {
+      "path": "textures/1990s-suv_body_metallic-1990s-suv_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1990s-suv_body_metallic-1990s-suv_body_roughness"
+    },
+    {
+      "path": "textures/1990s-suv_tire_normal.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1990s-suv_tire_normal"
+    },
+    {
+      "path": "textures/1990s-suv_tire_color.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1990s-suv_tire_color"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 7,
+    "hidden_mesh_objects": 0,
+    "vertices": 17513,
+    "triangles": 19885,
+    "material_slots": 24,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 5,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "1990s-suv_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1990s-suv_body_metallic-1990s-suv_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1990s-suv_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1990s-suv_tire_color",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1990s-suv_tire_normal",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 6,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1618,
+      "sha256": "dec613dfc16a6e528772194f7a0d64c5228206d173b54489012b8a3e5fed6641",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 78531,
+      "sha256": "c6b8e5b77218347a3ece4a6060eacc6f707e08cf60e21fb9a8cf340f43e98d50",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "dca3cd3e419239b1ee0bde9c9ecf8fc1bc2d7e174e0ed000005bf5a31558142f",
+      "role": "logs"
+    },
+    {
+      "path": "model/1990s-suv.glb",
+      "bytes": 1444272,
+      "sha256": "6de5880316e6d27e40f3294428b16a31251af6d59af2d20d7884cbb23414da99",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 18534,
+      "sha256": "8869ebb52b9aa81b553047400d2832ad5cacc9d073e7db8e6c60b30dca3de583",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 21234,
+      "sha256": "08d62afa039d0e5ed8851fdf04085e690668cc313fa1055a18f2b2cbbebbd606",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 215325,
+      "sha256": "bb35089fd4de558a69851dff0e70796eb262773d4517cb45e35cd317327ce9ad",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1120,
+      "sha256": "ebbf3beb178d82f166ddfa4cbab113878268c81a4cd62b628319f2d40b68d4db",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 28758,
+      "sha256": "8a3d1bc9657263fca3af5549e72122a17650eca8108b9255eded614df585663f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 29361,
+      "sha256": "f09b1bb2cede835ee106ec140be5836aab3554d66cbc02b61b5f86875f00b182",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 24742,
+      "sha256": "1a0e7dc2141dda7b2ddaa5782167329bbb1caf1864ddd75f66ff28138d41b21d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 27968,
+      "sha256": "39b9ad7e2c2417feb961209562f87c71953112cb6841f6b826d7d35c5ae75657",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 33132,
+      "sha256": "a17e23e187fa4609766cf83ebecae65fed18f054ba33738b8fd100adb3e54dcb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 29059,
+      "sha256": "f23c1673a244984a60ba2ec51d9c38af9f997a8e6f103c8b3b06aebaaa7ef5f3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 26373,
+      "sha256": "cebca75af2df208e23a6571609130c9c3fdeab0b18b0459364b838dca65f43bc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 30563,
+      "sha256": "6def1cc172669c0652efdbdc5401c041df91b5b68f585fd7ca88821ed5872b5e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 20224,
+      "sha256": "14cbfa42e80f0cd77b243d97bee5d7c3f92343f32656bf775f12d3ef0d901447",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 51579,
+      "sha256": "08311128424e9eae2dc818d08717d5f4a5fe39a1e337f2c7a98a59b62b3aea76",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 7436,
+      "sha256": "e6a5fa33b6edc2f6bf1e10ac5ffc8e70d6b7b42b57cc1507fec83305d1e9eb34",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1717,
+      "sha256": "d32a1f983bf595ac27c94c1b788be716c873d917fa24268cab909082866521dc",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 489,
+      "sha256": "38c42e81f71fe977ac29d05f17a71754d0115762a98bd98cbc25e67bc043c963",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "b9ac4e30a6b7e90e548565ec1b7b1907ae273ea2e05d5f0e3eb3f6befe932484",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1092,
+      "sha256": "1f33f499c7aff58040d453af6b8cf3199d5eba195f0aeadbc475813926a6b97b",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/1990s-suv_body_basecolor.jpg",
+      "bytes": 346741,
+      "sha256": "c31fa91af7a569729fd05b03cedb478a1020b5574faddff478f96d43cd6917ed",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1990s-suv_body_metallic-1990s-suv_body_roughness.jpg",
+      "bytes": 340036,
+      "sha256": "e32e1c5dc7cca1cb6e762c9b67577c571a780496d6ec25289a99ed2bca0f790f",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1990s-suv_body_normal.jpg",
+      "bytes": 67697,
+      "sha256": "881266dddc39b86662d2fa2c602f370b3c3fe3a934522bc61280993e0684a9f2",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1990s-suv_tire_color.jpg",
+      "bytes": 1464,
+      "sha256": "8e626e6a09cf9dd069cbb7646ea8a729268349916b569fb154f952aaecec3fd6",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1990s-suv_tire_normal.jpg",
+      "bytes": 1851,
+      "sha256": "70c68a6fc74a53d9bd96adc5eac23e75eef775b7db492277f229f5d63484f71f",
+      "role": "textures"
+    }
+  ]
+}

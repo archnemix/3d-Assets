@@ -1,0 +1,24 @@
+{
+  "id": "g3-1980s-van",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. 1980s-inspired long passenger van with projecting hood, sliding door and side windows.",
+  "limitations": [
+    "Stylized model with simplified forms and materials; not photorealistic.",
+    "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+    "Khronos validation reports zero errors and 5 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Blender inspection counted 1 zero-area triangles; these may need cleanup for topology-sensitive workflows.",
+    "Era is a stylistic approximation, not an identified make, model, or production date."
+  ],
+  "contact_sheet_sha256": "bbeced34a0ee575a6dae38a21bf1b94fb2052fc2704108e21e1675123397b270",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

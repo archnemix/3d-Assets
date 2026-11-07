@@ -7,7 +7,7 @@ def test_static_intake_skips_authored_clips_but_inspects_model(tmp_path, monkeyp
     (tmp_path / "model").mkdir()
     (tmp_path / "model" / "model.glb").write_bytes(b"test")
     (tmp_path / "previews").mkdir()
-    (tmp_path / "previews" / "geometry.json").write_text('{}')
+    (tmp_path / "previews" / "geometry.json").write_text("{}")
     (tmp_path / "provenance").mkdir()
     (tmp_path / "provenance" / "gltf-validator.json").write_text(
         json.dumps({"issues": {"numErrors": 0, "numWarnings": 0}})

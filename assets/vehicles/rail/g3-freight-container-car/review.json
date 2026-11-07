@@ -1,0 +1,24 @@
+{
+  "id": "g3-freight-container-car",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Railway flatcar carrying two differently colored freight containers.",
+  "limitations": [
+    "Stylized model with simplified forms and materials; not photorealistic.",
+    "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+    "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Blender inspection counted 332 zero-area triangles; these may need cleanup for topology-sensitive workflows.",
+    "Includes two freight containers as shown; removability was not verified."
+  ],
+  "contact_sheet_sha256": "b39504bbceec0579e98dfa99581a2072422dd2f1e28cfa6acbdde8679939b929",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

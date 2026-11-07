@@ -1,0 +1,385 @@
+{
+  "schema_version": 1,
+  "id": "g3-1980s-van",
+  "title": "1980s passenger van",
+  "category": "vehicles/cars/classic",
+  "style": "stylized",
+  "tags": [
+    "1980s",
+    "vintage",
+    "van"
+  ],
+  "batch": "transport-eras-01",
+  "acquired_at": "2026-11-07T00:49:27.280011+00:00",
+  "review": {
+    "id": "g3-1980s-van",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. 1980s-inspired long passenger van with projecting hood, sliding door and side windows.",
+    "limitations": [
+      "Stylized model with simplified forms and materials; not photorealistic.",
+      "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+      "Khronos validation reports zero errors and 5 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+      "Blender inspection counted 1 zero-area triangles; these may need cleanup for topology-sensitive workflows.",
+      "Era is a stylistic approximation, not an identified make, model, or production date."
+    ],
+    "contact_sheet_sha256": "bbeced34a0ee575a6dae38a21bf1b94fb2052fc2704108e21e1675123397b270",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/1980s-van.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/1980s-van/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/1980s-van/",
+    "source_id": "1980s-van",
+    "revision": "ad6cbf869cd8d29354f5e64e9357c969671cb9afa7fc35cdc4c6946afeb8a34c",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/1980s-van/1980s-van.glb",
+        "bytes": 1301836,
+        "sha256": "ad6cbf869cd8d29354f5e64e9357c969671cb9afa7fc35cdc4c6946afeb8a34c"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/1980s-van/LICENSE.txt"
+  },
+  "model": "model/1980s-van.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 6,
+    "materials": 18,
+    "images": 5,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/1980s-van_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1980s-van_body_normal"
+    },
+    {
+      "path": "textures/1980s-van_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1980s-van_body_basecolor"
+    },
+    {
+      "path": "textures/1980s-van_body_metallic-1980s-van_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1980s-van_body_metallic-1980s-van_body_roughness"
+    },
+    {
+      "path": "textures/1980s-van_tire_normal.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1980s-van_tire_normal"
+    },
+    {
+      "path": "textures/1980s-van_tire_color.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1980s-van_tire_color"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 6,
+    "hidden_mesh_objects": 0,
+    "vertices": 16389,
+    "triangles": 19749,
+    "material_slots": 18,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 1,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "1980s-van_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1980s-van_body_metallic-1980s-van_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1980s-van_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1980s-van_tire_color",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1980s-van_tire_normal",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 5,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1610,
+      "sha256": "d27a0c638618ac867e454b7d9d1a66f11ba99565961493dec31a998953c67780",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 76992,
+      "sha256": "7d8377b2256643e098dbbeb46e4475b9b4ab28cf69fecef6bff8e39140f3d69b",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "998ef207bb56a5da54cfc753f6cf05bd6985e629781c1ba33f1562c902587ed1",
+      "role": "logs"
+    },
+    {
+      "path": "model/1980s-van.glb",
+      "bytes": 1301836,
+      "sha256": "ad6cbf869cd8d29354f5e64e9357c969671cb9afa7fc35cdc4c6946afeb8a34c",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 18240,
+      "sha256": "e601ae1db2bb327e035f5c90c8342c06a75b1a109fcea91f9ea6a0b4cfb3b0c5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 19313,
+      "sha256": "1963bd31997ddf2ea0cd8cbd1d40367b9fc89862d7502c7478641c460c8ed414",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 194837,
+      "sha256": "bbeced34a0ee575a6dae38a21bf1b94fb2052fc2704108e21e1675123397b270",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1120,
+      "sha256": "66f58c177fdf734e14a5b5525fb06aec8f944d875dec29e2ce60b4cadfd96015",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 25040,
+      "sha256": "c08fa9856b3ef1befa4b911fb1e46e6ce5ece7fb0e96417839be113308c6e1cc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 25581,
+      "sha256": "b89f1683cf44b7e5866525378488ca3690cfa7b7d095614795ebaf0cc8a1a958",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 21681,
+      "sha256": "6e0078c7efafb02bfad0400c24688fc1b7c476d7304898dafa58328bc5fef4b9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 24523,
+      "sha256": "a12796bd40d315a1d5ce1238fd0ee095f6bff063188817b63ab605b871dfadc4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 23870,
+      "sha256": "4ec2350a56c51f0da1e4e3e1b01246aa68498e7048b7178ddc7597e4b951d014",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 27595,
+      "sha256": "3528f5d59b136a8e2b6f483925c044d8cb14c5f4f639612992577cd66b418a4f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 25640,
+      "sha256": "32da9558d3eb58c8badbb975d9ce5263a4188750c4cda14029033f7e93cb9482",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 28850,
+      "sha256": "3d28daeaf347cef6ed5ebc9a051f3ba1580fbd65c78ee510e3fcb2d2670f318b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 16515,
+      "sha256": "8b725d6ae77d7e31146ae565f63b48f076355f5bb8794c6a098a541bba6b65f3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 51459,
+      "sha256": "b1922640164d5dd5300f5773dea390513644e7cf8a0e0f5a36a8c4066d20f933",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 6169,
+      "sha256": "55d70bf52f918d14285066a48423de33d17190800432122ed60ceefd2ead8f18",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1609,
+      "sha256": "54f88722923fa7155b361e6cfe939144d272fa094ab94f347eb46a5685fe83ce",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 489,
+      "sha256": "b9bad7f1e5ffb05d27dd51fd005ee6f235c458fdd9288e22fd18c2ec0d3f1083",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "99e0e6705d3c53541b969fc403259800907e3ef32bf863574242a1e65d88b62f",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1104,
+      "sha256": "889eb6ed1f49e5c595cc94c301a0d7c16039bf1628d05676b437ff5c7648862d",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/1980s-van_body_basecolor.jpg",
+      "bytes": 292870,
+      "sha256": "3d1c682e05b62b08b993aaece79ce8c11e26ccaec4320cbf76bcc5ec3cc99b3f",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1980s-van_body_metallic-1980s-van_body_roughness.jpg",
+      "bytes": 288814,
+      "sha256": "5c79b1133814367f6057236a6e846ea954fcf56a5fe4a18e8c9e8ff260535174",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1980s-van_body_normal.jpg",
+      "bytes": 71396,
+      "sha256": "22941874cb0ae70c97f91219aa427632bf0ae6c21700847318ee44649a2a7374",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1980s-van_tire_color.jpg",
+      "bytes": 1539,
+      "sha256": "9a26cd08e0224cc42916de18d402a711edeee7659c6a944e67dae2b4e9b09f91",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1980s-van_tire_normal.jpg",
+      "bytes": 2114,
+      "sha256": "1ac12a81a5ccc3fb6b78601a0b9665ecb4251b6a18602b230f6c025b54cd930c",
+      "role": "textures"
+    }
+  ]
+}

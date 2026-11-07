@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "id": "g3-sleigh",
+  "title": "Festive gift sleigh",
+  "category": "vehicles/sleighs",
+  "style": "stylized",
+  "tags": [
+    "sleigh",
+    "winter",
+    "festive"
+  ],
+  "batch": "transport-eras-01",
+  "acquired_at": "2026-11-07T00:53:10.751182+00:00",
+  "review": {
+    "id": "g3-sleigh",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Festive runner sleigh with wrapped gifts and lantern; no draft animal or harness included.",
+    "limitations": [
+      "Stylized model with simplified forms and materials; not photorealistic.",
+      "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+      "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+      "Blender inspection counted 256 zero-area triangles; these may need cleanup for topology-sensitive workflows.",
+      "Festive gifts and decoration are included; no horse, reindeer, or harness is provided."
+    ],
+    "contact_sheet_sha256": "56dd74960752495aba725e60c3448d5d319d1ba754845944fafff2780db20e8e",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/sleigh.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/sleigh/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/sleigh/",
+    "source_id": "sleigh",
+    "revision": "1a0a6c847b9855545401b4bc671436326dcd2729648beee4abea040fb520e8b4",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/sleigh/sleigh.glb",
+        "bytes": 1707816,
+        "sha256": "1a0a6c847b9855545401b4bc671436326dcd2729648beee4abea040fb520e8b4"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/sleigh/LICENSE.txt"
+  },
+  "model": "model/sleigh.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 2,
+    "materials": 2,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_materials_emissive_strength"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/sleigh_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "sleigh_body_normal"
+    },
+    {
+      "path": "textures/sleigh_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "sleigh_body_basecolor"
+    },
+    {
+      "path": "textures/sleigh_body_metallic-sleigh_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "sleigh_body_metallic-sleigh_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 2,
+    "hidden_mesh_objects": 0,
+    "vertices": 25301,
+    "triangles": 24992,
+    "material_slots": 2,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 256,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "sleigh_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "sleigh_body_metallic-sleigh_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "sleigh_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1603,
+      "sha256": "aff4809580fec6fdfbdb9578636af64edb52f7e1f095a8515928e4a3b8b39ebd",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 69306,
+      "sha256": "bb35e9a806947b594ed88d3002d0ddc1f97b31739ca2e102d68fe01ab1d1ffa4",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "a7bd174aca67fdd44852b7c25e401fa22379da95c70a5c6e1b180613fc9a99df",
+      "role": "logs"
+    },
+    {
+      "path": "model/sleigh.glb",
+      "bytes": 1707816,
+      "sha256": "1a0a6c847b9855545401b4bc671436326dcd2729648beee4abea040fb520e8b4",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 21904,
+      "sha256": "6d1be96c83ad1850cfee07539a617f980f6921aeab03db24c58fe52d581f584c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 29202,
+      "sha256": "d1a0845dc650f2e1c48633a78bffdf0352f0464704d094a36fd1b9aa27fd137f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 265092,
+      "sha256": "56dd74960752495aba725e60c3448d5d319d1ba754845944fafff2780db20e8e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 810,
+      "sha256": "03cb837ea759abee9ce28b967424a2878d9520c7ff081fa34e97f2bffafd0a91",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 34484,
+      "sha256": "1275e6a9bc7ad032c8dfe0698781adab714028f27797ae2caad1e7515a895b6a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 37560,
+      "sha256": "6a752aa82f8a2085ccbbb4223cab504d5ac7a3b364c421f0edea71471d094216",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 36883,
+      "sha256": "ed3b4491bf70d9571d672074c51c3f982e9e3b080614e3a13a1d05a12ee2a6b6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 35037,
+      "sha256": "5635ae04b582b8703bef77f9f5c5b1f5339e353e48e90677c4db7af426768b5e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 33081,
+      "sha256": "0b83426fa48eba4095cfae0f8f14bde9f3fd2e86c28174fb676b605776a7e143",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 38109,
+      "sha256": "d0ad8d927d974419f701407174a14dfc93f3ebddd85d018ec320ea398eba3fe0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 39602,
+      "sha256": "5405c8d38fb8a509d3ddd57f7ca1813f085638c6b0ac3e27911830d82332747a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 38105,
+      "sha256": "99b685480b8a3167e135606689e26f06b17d615c731dcc5e9b38a6796ab58dfa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 34878,
+      "sha256": "df2e2ce430784d0d6577f48edce378a012a89f3116efa18c2ae589fbbe423dd4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 49619,
+      "sha256": "444910308ef3d6686858ebff7294a01c82e73d564168fe6c1fff766e282e0a1c",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2188,
+      "sha256": "d59f4885aaed0e7f6e501fcb01398dc2917694b5783adea71619476a06f1ce11",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1944,
+      "sha256": "b10e1b41201bddfc85ac9b71c0642042c3c9197dd1c0efd85b66f5447d5211df",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 465,
+      "sha256": "ec24000e70894443428b93ae926eb0d6ad5b06c6c317359dd925d5a5251f1f06",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "bb0810091b99cf43baa878b4a85cbd09ec54361b141e2f3eff8be29c9a7e0a9e",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1109,
+      "sha256": "eefd27f6cbb690f4364be24b6f105fc82c131e34a88d8d1b083eb1a3de783b5b",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/sleigh_body_basecolor.jpg",
+      "bytes": 364703,
+      "sha256": "3eb0eef65c9e9914200da0f5db0a0ed7bd96284ca1ebbb9bfe05c3ed532ef466",
+      "role": "textures"
+    },
+    {
+      "path": "textures/sleigh_body_metallic-sleigh_body_roughness.jpg",
+      "bytes": 301304,
+      "sha256": "73238832c0764da8f7bc17cfa5f54b6c76f51aedf120f8908c8bf3f104d131fe",
+      "role": "textures"
+    },
+    {
+      "path": "textures/sleigh_body_normal.jpg",
+      "bytes": 78178,
+      "sha256": "be4cceafb0afa88f5f6aa3c1b687a36d76119f87f353ac397ad59a7677f78f9f",
+      "role": "textures"
+    }
+  ]
+}

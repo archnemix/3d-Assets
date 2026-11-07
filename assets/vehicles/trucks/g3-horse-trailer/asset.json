@@ -1,0 +1,410 @@
+{
+  "schema_version": 1,
+  "id": "g3-horse-trailer",
+  "title": "Horse transport trailer",
+  "category": "vehicles/trucks",
+  "style": "stylized",
+  "tags": [
+    "horse",
+    "trailer",
+    "road"
+  ],
+  "batch": "transport-eras-01",
+  "acquired_at": "2026-11-07T00:51:53.281416+00:00",
+  "review": {
+    "id": "g3-horse-trailer",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Two-axle enclosed horse transport trailer with hitch and rear loading door.",
+    "limitations": [
+      "Stylized model with simplified forms and materials; not photorealistic.",
+      "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+      "Khronos validation reports zero errors and 2 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+      "Blender inspection counted 2 zero-area triangles; these may need cleanup for topology-sensitive workflows.",
+      "Trailer only; no tow vehicle or horse is included."
+    ],
+    "contact_sheet_sha256": "02baf3ce2f18a68a8bdbe27ae1982281742dd061a83b7b42b861017da8a3243c",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/horse-trailer.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/horse-trailer/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/horse-trailer/",
+    "source_id": "horse-trailer",
+    "revision": "ff5c040fbeaf2a673b1ec916a97feb9e6305936300a9c2d9d53b44a7383b4819",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/horse-trailer/horse-trailer.glb",
+        "bytes": 1799076,
+        "sha256": "ff5c040fbeaf2a673b1ec916a97feb9e6305936300a9c2d9d53b44a7383b4819"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/horse-trailer/LICENSE.txt"
+  },
+  "model": "model/horse-trailer.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 7,
+    "materials": 15,
+    "images": 6,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/horse-trailer_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "horse-trailer_body_normal"
+    },
+    {
+      "path": "textures/horse-trailer_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "horse-trailer_body_basecolor"
+    },
+    {
+      "path": "textures/horse-trailer_body_metallic-horse-trailer_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "horse-trailer_body_metallic-horse-trailer_body_roughness"
+    },
+    {
+      "path": "textures/horse-trailer_ramp_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "horse-trailer_ramp_normal"
+    },
+    {
+      "path": "textures/horse-trailer_ramp_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "horse-trailer_ramp_basecolor"
+    },
+    {
+      "path": "textures/horse-trailer_ramp_metallic-horse-trailer_ramp_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "horse-trailer_ramp_metallic-horse-trailer_ramp_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 7,
+    "hidden_mesh_objects": 0,
+    "vertices": 21349,
+    "triangles": 25324,
+    "material_slots": 15,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 2,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "horse-trailer_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "horse-trailer_body_metallic-horse-trailer_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "horse-trailer_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "horse-trailer_ramp_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "horse-trailer_ramp_metallic-horse-trailer_ramp_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "horse-trailer_ramp_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1582,
+      "sha256": "22c11bb2e098eb66f0dca488d4195a8890452d7e0fda8b4f6671f2eabfb02fbf",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 81382,
+      "sha256": "3b7c8db689c805236b77c712f4ce59db21129a5e3bf455cce1d0332359859f62",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "c053c1067c4bff53b886585d2757a77b310f7d61471914c0f89f1de7baa19612",
+      "role": "logs"
+    },
+    {
+      "path": "model/horse-trailer.glb",
+      "bytes": 1799076,
+      "sha256": "ff5c040fbeaf2a673b1ec916a97feb9e6305936300a9c2d9d53b44a7383b4819",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 21932,
+      "sha256": "d7774e7d06de994a56b45c08e233623957ffb2cca8a82084b8a071d961445e11",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 20189,
+      "sha256": "68effbd4e429ebac0fdadbb752f1057312f5353f0f1b0ee2eae7ee10304cc714",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 224421,
+      "sha256": "02baf3ce2f18a68a8bdbe27ae1982281742dd061a83b7b42b861017da8a3243c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1342,
+      "sha256": "52f2968d63b4fb8bf8021b0ef8b29a9b496ff30c611ca0b0454f931fce52b7a9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 22497,
+      "sha256": "27aa1bc98cc6fc407fa5fe922215e4aeb359dc63bb7cd671359a41d5f23a97ad",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 32994,
+      "sha256": "5b912e412514d80f745f3acdaf12671238e9425d31d48af9a8d3b0ab28051988",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 26572,
+      "sha256": "bb930f9531a503f5629d990922ce2560e9e2a7b7e58cac74e8465b87e5001cd9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 36233,
+      "sha256": "5da2c1d47d01ad9f2b9bd97986e55b5813ddf357037b9790634919b5301d98b6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 28388,
+      "sha256": "bc56bfe9b84cde80ce06da2c212571b35ee4ccfc3b75ebc6ca98efb953d6b189",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 36299,
+      "sha256": "e3b3e28b8c266b03867cfd432e118ae21647774132e7b8111a8bd080bdbafab9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 26411,
+      "sha256": "74dd747154f501c63be3bb586c102a2f4f06c49eb727dabe8c6f4e11cf21a622",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 32393,
+      "sha256": "c5a35050d769344b4fc4c0155f341b21ba6823951e5cdd27cae2efd98a97bc27",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 15854,
+      "sha256": "dca185201b755e97af6e5f67b37b3533df3eabee462788521c92bd6517b4db68",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 52580,
+      "sha256": "0cdccb277f16b99a68a893e48cb7ddfc2949e78e856764ea61f3a6caec62d8be",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 5442,
+      "sha256": "8d79cce71c8723b1600db57e59735ed78aaa8a1c386ba9fa2f22019855d8f904",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 2239,
+      "sha256": "ccd90798aac34e2672b5594bb5dffd356355b9b6e8b3f8d4c33ae1e9db12b42f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 521,
+      "sha256": "59fc3aa3da85565f75af946df4cf2926a404aeae28f183ddd63b456deb3d0243",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "16fdec269bca43dd5d70e48c5fe8efb54eb2fc66ec26dc75cd021c139a729c92",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1063,
+      "sha256": "a5493802fe1c5d47564cb253942e972f390e5da229ffee45574e22ce0f4b7867",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/horse-trailer_body_basecolor.jpg",
+      "bytes": 275107,
+      "sha256": "87276f77665647e807d79fbb8365b64c583705e7ea2fb0de6cc8aa683774a4de",
+      "role": "textures"
+    },
+    {
+      "path": "textures/horse-trailer_body_metallic-horse-trailer_body_roughness.jpg",
+      "bytes": 267395,
+      "sha256": "d8520e65780208c01edf4fd2046b0aafa957d4ea59c5d79f5b195349cf89ead8",
+      "role": "textures"
+    },
+    {
+      "path": "textures/horse-trailer_body_normal.jpg",
+      "bytes": 80411,
+      "sha256": "1aa50bc6c3512abbc0bccc10a8fe8c5960d7b03c1a581b6c53ea3d4bec7fdfed",
+      "role": "textures"
+    },
+    {
+      "path": "textures/horse-trailer_ramp_basecolor.jpg",
+      "bytes": 133462,
+      "sha256": "2acbe30825eec45ae19f1e1b4b812e7af606f0cf609ea0db8ff36d12ad1e1398",
+      "role": "textures"
+    },
+    {
+      "path": "textures/horse-trailer_ramp_metallic-horse-trailer_ramp_roughness.jpg",
+      "bytes": 144173,
+      "sha256": "3c149013f4613a856a503d4373313f051f0b1cb91da1cdf5ed2f6c6cfab4a09c",
+      "role": "textures"
+    },
+    {
+      "path": "textures/horse-trailer_ramp_normal.jpg",
+      "bytes": 68914,
+      "sha256": "0f7e152c908a2ccb57e033dbf6ad011e1399fd82ffd462fc378e5d3ed7ea0c49",
+      "role": "textures"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "g3-handcar",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 4,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Manually pumped railway handcar with lever and short track section on a gravel base.",
+  "limitations": [
+    "Stylized model with simplified forms and materials; not photorealistic.",
+    "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+    "Khronos validation reports zero errors and 2 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Blender inspection counted 26 zero-area triangles; these may need cleanup for topology-sensitive workflows.",
+    "Includes a short track and gravel base; the underside is occluded by the base in the bottom view and cannot be visually assessed."
+  ],
+  "contact_sheet_sha256": "b546da7d002a9cbf2b573e6901637c8f0303a9588136bd17bbfde8c353352995",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

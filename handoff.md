@@ -1,3 +1,10 @@
+## Current vehicle status — 2026-11-07 (takes precedence over older notes)
+
+- `transport-eras-01`: GitHub Actions run 42319840913 succeeded; all 20 candidates individually inspected and approved in `reviews/transport-eras-01.json`. Catalog and license audit: 438 approved assets total, 12 remain to reach 450. These are total library assets, not 438 vehicles.
+- The batch adds distinct 1950s–1990s-inspired road vehicles plus a fantasy bubble car, handcar, container railcar, mining cart, festive sleigh, horse trailer, riding mower and airport stair truck. Era labels are approximate design inspirations, not verified production models. The sleigh has no horse; its title/category and contact sheet were corrected. Handcar bottom view is occluded by its included base. All are stylized and static. Each review discloses tangent warnings and any zero-area triangles.
+- Added an item-restricted OpenGameArt Fokker triplane adapter and converter, but it has NOT been intake-tested or visually reviewed and must not be counted. `https://opengameart.org/content/low-poly-fokker-triplane` individually declares CC0. For later variety, Grab3D offers `racing-chariot`, `bumper-car`, `circus-wagon`, `unicycle`, `lunar-lander`, `mars-rover`, and `rocket`; these are leads only, not reviewed or approved. Avoid padding with near-duplicates.
+- Viewer shows all approved cards by default, preview on port 8765. Catalog and license checks passed; tests and format checks passed. Continue with historical and modern air, water, underwater and road transport; screen every new item and preserve honest limitations.
+
 # Handoff prompt: continue the CC0 3D asset library
 
 > **Latest vehicle progress, 2026-11-07:** The user wants a deliberate vintage-to-modern range across transportation types. `transport-variety-03` added 22 reviewed stylized static models and rejected a near-duplicate mail truck and station wagon. Catalog is **418/450; 32 remain**. It includes spacecraft and aerial-lift categories, and review files disclose degenerate triangles and tangent warnings. The intake has completed. Continue with distinct historical and modern vehicles and diverse sources.

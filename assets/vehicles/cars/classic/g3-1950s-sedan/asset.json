@@ -1,0 +1,385 @@
+{
+  "schema_version": 1,
+  "id": "g3-1950s-sedan",
+  "title": "1950s finned sedan",
+  "category": "vehicles/cars/classic",
+  "style": "stylized",
+  "tags": [
+    "1950s",
+    "vintage",
+    "sedan"
+  ],
+  "batch": "transport-eras-01",
+  "acquired_at": "2026-11-07T00:47:29.588688+00:00",
+  "review": {
+    "id": "g3-1950s-sedan",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Finned 1950s-inspired sedan with white roof, whitewall tires and chrome-look trim.",
+    "limitations": [
+      "Stylized model with simplified forms and materials; not photorealistic.",
+      "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+      "Khronos validation reports zero errors and 5 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+      "Blender inspection counted 2 zero-area triangles; these may need cleanup for topology-sensitive workflows.",
+      "Era is a stylistic approximation, not an identified make, model, or production date."
+    ],
+    "contact_sheet_sha256": "24ec668b201efbd0d83109ca32ed8d6c86eacd64ce89a7fac827949c972d4818",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/1950s-sedan.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/1950s-sedan/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/1950s-sedan/",
+    "source_id": "1950s-sedan",
+    "revision": "41c83367e34271d8f5a7d4567d756079303cd8513226c8029fab6a18d73e35f9",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/1950s-sedan/1950s-sedan.glb",
+        "bytes": 1305068,
+        "sha256": "41c83367e34271d8f5a7d4567d756079303cd8513226c8029fab6a18d73e35f9"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/1950s-sedan/LICENSE.txt"
+  },
+  "model": "model/1950s-sedan.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 6,
+    "materials": 22,
+    "images": 5,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/1950s-sedan_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1950s-sedan_body_normal"
+    },
+    {
+      "path": "textures/1950s-sedan_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1950s-sedan_body_basecolor"
+    },
+    {
+      "path": "textures/1950s-sedan_body_metallic-1950s-sedan_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1950s-sedan_body_metallic-1950s-sedan_body_roughness"
+    },
+    {
+      "path": "textures/1950s-sedan_tire_normal.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1950s-sedan_tire_normal"
+    },
+    {
+      "path": "textures/1950s-sedan_tire_color.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1950s-sedan_tire_color"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 6,
+    "hidden_mesh_objects": 0,
+    "vertices": 16575,
+    "triangles": 19584,
+    "material_slots": 22,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 2,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "1950s-sedan_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1950s-sedan_body_metallic-1950s-sedan_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1950s-sedan_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1950s-sedan_tire_color",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1950s-sedan_tire_normal",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 5,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1613,
+      "sha256": "d7cca26cf2f96e3748c6de4bf3ec7c0735ffc93f21628feca81bf35ca200f139",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 78134,
+      "sha256": "b500900abcf0efff9654cd93a550ee9c9e84cd4a50588d3546c0be90bf1d25f1",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "f3b25ee04e7e8ca1312e912327344f09b217be42cbf3adf92abfad11a0a27c25",
+      "role": "logs"
+    },
+    {
+      "path": "model/1950s-sedan.glb",
+      "bytes": 1305068,
+      "sha256": "41c83367e34271d8f5a7d4567d756079303cd8513226c8029fab6a18d73e35f9",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 17117,
+      "sha256": "d625a3527c9e8c6919482110aba0ae875b190dbdf7c650dc51999aab2a23d149",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 17692,
+      "sha256": "96c6a55545d3094dba547516916ab964ff25c36fc366abc3ef93894fe2a38f85",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 183154,
+      "sha256": "24ec668b201efbd0d83109ca32ed8d6c86eacd64ce89a7fac827949c972d4818",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1132,
+      "sha256": "ca0588c2262af47c80082cb2e81257cabff1d109a273dca08f49b0dab816edee",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 32879,
+      "sha256": "56f6aad8bbed0173ff2325ddc30c665d015bde2ad13c189ed76af6d87c99cf1d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 23548,
+      "sha256": "e73cf47fbb74e88886a7ec85b50f538a75e1196d8458b4891b73f8f1a315e51f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 20361,
+      "sha256": "165dc30abec149c058fa410f68ff1357c1fdb0ad7de598048443bd9ed3ab6762",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 21366,
+      "sha256": "a5a80c419ef16052932da60f77e5818d875a05f27406f99f5b1b414dd659ae27",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 27924,
+      "sha256": "a3ddab516309410660f70c9243885c879a91bbf8cb54d3485ab181e46a6089e1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 23187,
+      "sha256": "6db5e2a5de70dde0d5b7692a096ec5a815b6ba3570f850b9d2c093a526963a25",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 22406,
+      "sha256": "f0f58b5cc87a0eaeeb68695dffe070b9f3a532879c694e44a4f0947feb1efa04",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 24721,
+      "sha256": "f672f83f69019e9aaa5f8479d39ceeb02365997c6c6fffd211157fd85f5ba558",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 17587,
+      "sha256": "da96ed6d393e6363b545fca6c84859979daf0a98076f0ba98264f5f25d4887d7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 39649,
+      "sha256": "6638f5e8ad6a43800093cf63796e529a85266c3cbafe35d7afdc65aa6d12e57a",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 6923,
+      "sha256": "1c6eedc5f85db0914fe3e5d63d653f4e1b58f68c9f9afccdfafb4ac374f4155b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1727,
+      "sha256": "0ac81755c58e572c8fbc803f4fc2383a89f1d615cf6a21704beaf83f50b25bd3",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 505,
+      "sha256": "9992fb7106c8d1a42112be8bbc577632d95c2aa5d49f5adfdf8b12948b6060d1",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "dad16da469e0b14d42886ddac47c9623d809ef52faf151e14f29d3276ee9fe1d",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1102,
+      "sha256": "b99210f8e7fe9c9252503853b62c1b1653a50b3677287c7780cd9004474e4709",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/1950s-sedan_body_basecolor.jpg",
+      "bytes": 292520,
+      "sha256": "4a7efc53b403545d29f165776d7f0b451dd4ef96b4ced8ec064b955bda616392",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1950s-sedan_body_metallic-1950s-sedan_body_roughness.jpg",
+      "bytes": 281195,
+      "sha256": "f2192432d43358a8aa1aebd419758076d459fc881b0e74625d6c2418fc86480e",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1950s-sedan_body_normal.jpg",
+      "bytes": 74872,
+      "sha256": "0f9b00a5db3f3993246c56619f1caa17ab1a2a4f773abf1b7a6e077ca9d5fe15",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1950s-sedan_tire_color.jpg",
+      "bytes": 1539,
+      "sha256": "9a26cd08e0224cc42916de18d402a711edeee7659c6a944e67dae2b4e9b09f91",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1950s-sedan_tire_normal.jpg",
+      "bytes": 2114,
+      "sha256": "1ac12a81a5ccc3fb6b78601a0b9665ecb4251b6a18602b230f6c025b54cd930c",
+      "role": "textures"
+    }
+  ]
+}
