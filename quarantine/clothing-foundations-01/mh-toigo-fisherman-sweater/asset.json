@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "id": "mh-toigo-fisherman-sweater",
+  "title": "Fisherman knit sweater",
+  "category": "apparel/tops",
+  "style": "realistic",
+  "tags": [
+    "clothing",
+    "casual"
+  ],
+  "batch": "clothing-foundations-01",
+  "acquired_at": "2026-11-07T09:23:04.460819+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "makehuman-clothing",
+    "model": "model/garment.glb",
+    "creator": "MargaretToigo",
+    "license": "CC0-1.0",
+    "license_evidence": "https://static.makehumancommunity.org/assets/assetpacks/shirts01.html",
+    "source_url": "https://static.makehumancommunity.org/assets/assetpacks/shirts01.html",
+    "source_id": "toigo_fisherman_sweater",
+    "revision": "a5a723b0e84a109bb190fcfeac7f1de4138d875da3e30fe5b3340eac9f38bcd3",
+    "downloads": [
+      {
+        "url": "https://files2.makehumancommunity.org/asset_packs/shirts01/shirts01_cc0.zip",
+        "bytes": 24479483,
+        "sha256": "a5a723b0e84a109bb190fcfeac7f1de4138d875da3e30fe5b3340eac9f38bcd3",
+        "cached": true
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://static.makehumancommunity.org/assets/assetpacks/shirts01.html"
+  },
+  "model": "model/garment.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 1,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/shirt-knit.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "shirt-knit"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 8328,
+    "triangles": 4164,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "shirt-knit",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 0,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 64068,
+      "sha256": "f49d53905d09b00dd091bf571773747afa5e49b972016c1620399886da4dfea4",
+      "role": "logs"
+    },
+    {
+      "path": "logs/convert.log",
+      "bytes": 444,
+      "sha256": "5fd3e0bc681e07b5ee627df0f3cf80435d54e2f430ea59aa77a01c8e1240d092",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "082e951724014468ff5480fb2a42b17b945a390940b3476599aaaa9a77b8ecc1",
+      "role": "logs"
+    },
+    {
+      "path": "model/garment.glb",
+      "bytes": 2609716,
+      "sha256": "844fd847fa38b5144e19a5b120ebb12dfad3d66aacc83fb095e0ff6e6f1f2ace",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 21429,
+      "sha256": "a1949cc231e3bfd61f7d54de6ca05957853177dbdcb44181e3e78a0268746a9e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18970,
+      "sha256": "163d33472b454e96eac5b963994ec1f036008df517c8d5d2fa7a6a50094de8e7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 241839,
+      "sha256": "247cdc9dda9313842ee3fdc7189da300fadbcfe8d63136f5f69c59a8c93276b9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 471,
+      "sha256": "ca407b2093c905aa32308ff873abe7e74c5e663b1f0f71824f2350afb8c2da60",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 30770,
+      "sha256": "258dac92ca66b546994da5efc6d31bfbd8474d7c93b64dd9fd41479621b62178",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 44630,
+      "sha256": "db16e3c5d19df13a8c0279ce81227dca9dc6dad97ef5e84872d3f2d0fe7b49a3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 42635,
+      "sha256": "4230435b775bc3e1a3d63edfb565ea8b182503b05dd23e507b94048f8be98efd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 41882,
+      "sha256": "75821deee1468a16a55354ac591fefc3651554e058af72d0e6d26e59d6c079b0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 29284,
+      "sha256": "01daa9a65673a972542a3c896a562c69b6793766f68274bc217c94516a1e3fd9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 41767,
+      "sha256": "4836d41394b42fd3c902d78e35c57a2ce6f6fe884430c86ec241364f1dfb253e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 42804,
+      "sha256": "6ad2812cafc2e23a043548fa423daff751a95e0a7be31233a3dd7a11bb12496d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 44390,
+      "sha256": "d4d48fe22fb6e642e9e82f1d8bca48fb1112f4fad8804ec4e2b8f58c1775ff98",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 21176,
+      "sha256": "3e4248d06093424a3cc67cb83bd3be12b8de9ecc581cb3af9a13fd93a3c1eb19",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 46858,
+      "sha256": "e9c097f369f158c3f57ad9460f94227a1145c928d171bcc6df84a4254efcf64f",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/clothing-source.json",
+      "bytes": 1044,
+      "sha256": "6c23f0f075a3668d87248f081ef6319aace833e5773fe45d815180e84f1a1ff9",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1170,
+      "sha256": "8f061632a3e33a5b6b0e8ea736dfa03da37b7ac7700d1e136bf752b699f28c5c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source.mhclo",
+      "bytes": 144016,
+      "sha256": "b454960bdd61985f246e88e547a127a75d590dc87d6c1a4062fb7c7c281d8999",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source.mhmat",
+      "bytes": 509,
+      "sha256": "254c011b3edae8cbab7adb2d082de670dd41b26324bf5772318b7557a127fd64",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/shirt-knit.png",
+      "bytes": 2316765,
+      "sha256": "a7d526797da4cdc1a79603a35abebf41e577277267f36db6641cdb6cebe6ffb1",
+      "role": "textures"
+    }
+  ]
+}

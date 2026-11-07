@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "id": "mh-wdg-mycenaean-tunic",
+  "title": "Mycenaean-inspired tunic",
+  "category": "apparel/dresses",
+  "style": "realistic",
+  "tags": [
+    "clothing",
+    "historical"
+  ],
+  "batch": "clothing-foundations-01",
+  "acquired_at": "2026-11-07T09:19:59.590144+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "makehuman-clothing",
+    "model": "model/garment.glb",
+    "creator": "WDG",
+    "license": "CC0-1.0",
+    "license_evidence": "https://static.makehumancommunity.org/assets/assetpacks/dress01.html",
+    "source_url": "https://static.makehumancommunity.org/assets/assetpacks/dress01.html",
+    "source_id": "wdg_mycenaean_tunic",
+    "revision": "f49ba54a3c93acd3c3307cc5a96cfc65daf8abfed9212a7e580791d821c9e93a",
+    "downloads": [
+      {
+        "url": "https://files2.makehumancommunity.org/asset_packs/dress01/dress01_cc0.zip",
+        "bytes": 46598791,
+        "sha256": "f49ba54a3c93acd3c3307cc5a96cfc65daf8abfed9212a7e580791d821c9e93a",
+        "cached": true
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://static.makehumancommunity.org/assets/assetpacks/dress01.html"
+  },
+  "model": "model/garment.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 1,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/Mycenaean_Tunic_texture.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "Mycenaean_Tunic_texture"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 5320,
+    "triangles": 2660,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "Mycenaean_Tunic_texture",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 63288,
+      "sha256": "661e46ecc012db1fd035c2ea177f65cc3d207c67bb1cebd4d1279bbebd44756a",
+      "role": "logs"
+    },
+    {
+      "path": "logs/convert.log",
+      "bytes": 445,
+      "sha256": "e56d2b90a8d1b17b0999bcc376efcc046e14d6bf1cab9eceb860432681fb5710",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/garment.glb",
+      "bytes": 1053912,
+      "sha256": "dfb9ae5d4302a7a68fb7d339e7c3a3425d1544fc9c5426be70a08d246216a73d",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 23195,
+      "sha256": "e4b466b70386c6e50143f84d4289d1229b27ac0e02de107accecff6677a8f67f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 16441,
+      "sha256": "10b690938e9f3b4712faf3ea436784bd3f238ff8a46a4d466fc8e43479add8a7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 187202,
+      "sha256": "cc4e0ef2f07eefeb170de38c2db3f2f7a1078b5497908bfce4426bf5683a36cf",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 484,
+      "sha256": "07ae78fb508ba49334bf6867738622a2f0fb335e95ed775aeb70c9d13519306f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 30347,
+      "sha256": "0be15010acc6dea41b9e0b5a3cfbf020ad14c0510a9a1a05801cdde38790fcc2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 26952,
+      "sha256": "a576decd7d904bcf6ad59ebd47b001c47c0005a07e8f5e21b62adda611ffc67a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 19946,
+      "sha256": "367062430ae183909684454cee20f9a8e48051903f1d1afa95dc9e9cad6e7b27",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 24447,
+      "sha256": "959db0da932c24657127f4711bf7a0cd2896e0904c0d29582e44e6663cf8b11f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 27911,
+      "sha256": "8c8f07282a02714170c3b12c120d503f44cb9d3552c2359f6aba2130a9b18e37",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 25046,
+      "sha256": "9ed687857264a0c066fb79f310832adb6c8cae27683b3309367bc4186ff08635",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 20396,
+      "sha256": "1ae1947522524552c9237ca833718458a86607db253da3680161726c7f8c4fcd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 26547,
+      "sha256": "e2f5a8dcd61de70d94f5d2b6285ff10356a99abbbd63295ca692c9e7e7c97a13",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 20683,
+      "sha256": "b1481497ab968cfa151ac0506354cc5509999c461f383451a00eb7db823427df",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 45691,
+      "sha256": "ae44fcbd395b7156fec04cc77bbdc17eece7633a9ce3391f25975ad0b7eb3430",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/clothing-source.json",
+      "bytes": 1029,
+      "sha256": "5c97aba76234234d22ff0d8a8746c71b3ed8efe7b04b6adc7bb23ee15880c67a",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1426,
+      "sha256": "2cc23db65c7e6cc5555be304edaa95f835a4cb3421c15faa581a5050ee046574",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source.mhclo",
+      "bytes": 66130,
+      "sha256": "08cbe26da9933317eea77d34ae1cf781be94896025091d8f14db36a4a4f00c29",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source.mhmat",
+      "bytes": 495,
+      "sha256": "297497b840c280e7bf765189e2e68c3c5464d925ae5c14f59230b38a003ba825",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/Mycenaean_Tunic_texture.png",
+      "bytes": 866230,
+      "sha256": "9a0cb2b998c1c83a8cfae7dd50727c7d5ff51dfc0b13c5b9dfed2d80fd3aa4c1",
+      "role": "textures"
+    }
+  ]
+}
