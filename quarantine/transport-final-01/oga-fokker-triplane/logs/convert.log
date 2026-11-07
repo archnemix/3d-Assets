@@ -1,0 +1,11 @@
+Blender 4.2.9 LTS (hash a10f621e649a built 2025-04-15 01:46:41)
+Read blend: "/home/runner/work/3d-Assets/3d-Assets/quarantine/transport-final-01/oga-fokker-triplane/provenance/fokker-triplane-v2.blend"
+Warning: region type 4 missing in space type "Info" (id: 7) - removing region
+Traceback (most recent call last):
+  File "/home/runner/work/3d-Assets/3d-Assets/rendering/convert_oga_aircraft.py", line 10, in <module>
+    raise ValueError(f"Unpacked image dependency: {image.name}: {image.filepath}")
+ValueError: Unpacked image dependency: fokker-dri.jpg: E:/Archieve/_My Projects/2D Airplane Game/references/fokker-dri.jpg
+
+Error: script failed, file: '/home/runner/work/3d-Assets/3d-Assets/rendering/convert_oga_aircraft.py', exiting.
+
+Blender quit
