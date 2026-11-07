@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "id": "g3-1990s-sedan",
+  "title": "1990s family sedan",
+  "category": "vehicles/cars/classic",
+  "style": "stylized",
+  "tags": [
+    "1990s",
+    "vintage",
+    "sedan"
+  ],
+  "batch": "transport-eras-01",
+  "acquired_at": "2026-11-07T00:50:18.157506+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/1990s-sedan.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/1990s-sedan/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/1990s-sedan/",
+    "source_id": "1990s-sedan",
+    "revision": "91e8486ffbe598da286439b9dabefbd6663a1fc33f7cc9c247b316534b5ef4b5",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/1990s-sedan/1990s-sedan.glb",
+        "bytes": 1229228,
+        "sha256": "91e8486ffbe598da286439b9dabefbd6663a1fc33f7cc9c247b316534b5ef4b5"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/1990s-sedan/LICENSE.txt"
+  },
+  "model": "model/1990s-sedan.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 6,
+    "materials": 18,
+    "images": 5,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/1990s-sedan_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1990s-sedan_body_normal"
+    },
+    {
+      "path": "textures/1990s-sedan_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1990s-sedan_body_basecolor"
+    },
+    {
+      "path": "textures/1990s-sedan_body_metallic-1990s-sedan_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1990s-sedan_body_metallic-1990s-sedan_body_roughness"
+    },
+    {
+      "path": "textures/1990s-sedan_tire_normal.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1990s-sedan_tire_normal"
+    },
+    {
+      "path": "textures/1990s-sedan_tire_color.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1990s-sedan_tire_color"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 6,
+    "hidden_mesh_objects": 0,
+    "vertices": 16132,
+    "triangles": 19368,
+    "material_slots": 18,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 4,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "1990s-sedan_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1990s-sedan_body_metallic-1990s-sedan_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1990s-sedan_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1990s-sedan_tire_color",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1990s-sedan_tire_normal",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 5,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 77292,
+      "sha256": "939b9e28c29a402b914fd773d417355b6da2c153e64856b85043e0b09fa19642",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "998ef207bb56a5da54cfc753f6cf05bd6985e629781c1ba33f1562c902587ed1",
+      "role": "logs"
+    },
+    {
+      "path": "model/1990s-sedan.glb",
+      "bytes": 1229228,
+      "sha256": "91e8486ffbe598da286439b9dabefbd6663a1fc33f7cc9c247b316534b5ef4b5",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 17857,
+      "sha256": "cb5fdcd3d246e69d9fbe416771e1175278048a7972e4a567bba655ccaf8a88b9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18414,
+      "sha256": "c9e74a7256496b1359ac23d6e17da2888be87d633c6439b152840f74e140bd1d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 194267,
+      "sha256": "0173c39841a9d1d996d43b50de4a4aacabe83ac3f74be98590fdd753de6d6516",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1132,
+      "sha256": "965edb00a777e1353de1c7d44b7a303e5c306e499a56807132de74a0a2493fcf",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 33768,
+      "sha256": "95ae09ba7459f34494607e224d239e7fbb660ee9b22c84300e6205469ca03bad",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 24146,
+      "sha256": "21eff9e38add716191dd301800ae5353df187404e7a7eea7ebab7cc56d381b4e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 21384,
+      "sha256": "3d5de2b807890d07379f53e0d42612db5c5ee711de2e4d83c6c7a717222d5cb2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 23673,
+      "sha256": "581ee4e29eedb2e3237da4e9ae1df09b6f865a27cc9d97c6025ab63343c1d7de",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 33688,
+      "sha256": "6614614d273a74650215ddd72870ecbe2c7e737c30b8f498d76968c867347ceb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 24855,
+      "sha256": "a217f7eb187a2ef1fc8b1ac970230b7a6a9a0a37c9b7c8dbbdab127b683d0b6a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 23735,
+      "sha256": "61965851ffed091231b33a09a7346667c940dba2974ed8daaccb407c03c4a486",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 25562,
+      "sha256": "708dbf2d83be3bca52368d9ffcd656408adb774807c9a5e874425e7bae9bc61b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 18444,
+      "sha256": "ce954d85f5cc4d728202c3cf6fb072264a7bb8d420b899e143c90a8d713a0ac3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 43256,
+      "sha256": "a5b852140bbc69fa592659146ae97650ce1b527766719f9f240d349d78c4a62e",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 6171,
+      "sha256": "70a70c43db7b80ac18a7eceb118190f4219a268761fc93d3ce688d0169841424",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1673,
+      "sha256": "0a9e125f5371fcb4c4ad3a7288a4a0ef09e9bd95d4c02cc82517b75d871f7a4f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 505,
+      "sha256": "4481cc3308c0860f74849193c4cbbceed0581a0a2828b04124dc4d07ef97677b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "bdc7db415e3e6547b848ad1913959855b223979d6a150549ebb6256ff62c65aa",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/1990s-sedan_body_basecolor.jpg",
+      "bytes": 248082,
+      "sha256": "626c46c9ba3eec3319a4e6bf596df6dcb02b1ecca14a9b4cbf6082e0c1fa5c01",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1990s-sedan_body_metallic-1990s-sedan_body_roughness.jpg",
+      "bytes": 272455,
+      "sha256": "ca69c87567c6cdd7a3ef0e068faaa88c9c0e68c65936c83e3215ba0425d28b8f",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1990s-sedan_body_normal.jpg",
+      "bytes": 69016,
+      "sha256": "dce2437c6521445428dbab6cb4c0242cdc1b66d08adb7afd51227b68758742a9",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1990s-sedan_tire_color.jpg",
+      "bytes": 1539,
+      "sha256": "9a26cd08e0224cc42916de18d402a711edeee7659c6a944e67dae2b4e9b09f91",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1990s-sedan_tire_normal.jpg",
+      "bytes": 2114,
+      "sha256": "1ac12a81a5ccc3fb6b78601a0b9665ecb4251b6a18602b230f6c025b54cd930c",
+      "role": "textures"
+    }
+  ]
+}
