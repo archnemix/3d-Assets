@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "id": "cc-garment-skirt",
+  "title": "Flared skirt",
+  "category": "apparel/skirts",
+  "style": "realistic",
+  "tags": [
+    "clothing",
+    "charactercreator",
+    "neutral-default-derivative"
+  ],
+  "batch": "clothing-creator-neutral-01",
+  "acquired_at": "2026-11-07T10:37:11.850447+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "charactercreator-clothing",
+    "model": "model/clothing_skirt.glb",
+    "creator": "Kasper Olesen; MakeHuman system assets where listed",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/kblood/CharacterCreator/852e48f316b90a0937234886630e4fb4cdfd1f78/LICENSE-NOTES.md",
+    "source_url": "https://github.com/kblood/CharacterCreator/blob/852e48f316b90a0937234886630e4fb4cdfd1f78/output/clothing_skirt.glb",
+    "source_id": "skirt",
+    "revision": "852e48f316b90a0937234886630e4fb4cdfd1f78",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/kblood/CharacterCreator/852e48f316b90a0937234886630e4fb4cdfd1f78/output/clothing_skirt.glb",
+        "bytes": 196756,
+        "sha256": "b0c9e31793fc2f0dedd9b1bfb60489711d7bf0c8c72405e949911afd836de6a2"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/kblood/CharacterCreator/852e48f316b90a0937234886630e4fb4cdfd1f78/LICENSE-NOTES.md"
+  },
+  "model": "model/clothing_skirt.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 2,
+    "skins": 1,
+    "animations": [],
+    "extensions": [
+      "KHR_mesh_quantization"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/clothing_skirt.glb",
+      "dimensions": [
+        416,
+        208
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "cloth_skirt_normal",
+      "embedded_image_index": 0,
+      "embedded_sha256": "0a30b729a63349e5bf9ef3394b6a1e9a56bab993aca28fa8c04b1b2bcab7aa8d"
+    },
+    {
+      "path": "model/clothing_skirt.glb",
+      "dimensions": [
+        832,
+        416
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "cloth_skirt_albedo",
+      "embedded_image_index": 1,
+      "embedded_sha256": "6a2a5611d5eaab600589c61c51a68e092f3b2e2bc4a774aaa126dcb13c68c746"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 1,
+    "vertices": 408,
+    "triangles": 728,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [
+      {
+        "name": "Armature",
+        "bones": 53
+      }
+    ],
+    "actions": [],
+    "images": [
+      {
+        "name": "cloth_skirt_albedo",
+        "dimensions": [
+          832,
+          416
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "cloth_skirt_normal",
+        "dimensions": [
+          416,
+          208
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 64900,
+      "sha256": "0ec7bfccfb85ffa0b33f4a7bf4f1a5f84ef97ab24cafdf90843ba05a3fc14d43",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "2aba577f75cf99f75b5cb0e0420c55e2a5e8c902365462a45451193520e80e6a",
+      "role": "logs"
+    },
+    {
+      "path": "model/clothing_skirt.glb",
+      "bytes": 196756,
+      "sha256": "829c706c04abf40ce705e3997464a1271a7ca22cb450ac939371ac1ff708d88e",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 19563,
+      "sha256": "b27adc374bdc9ef03d0765b66088eb592047f6ada950bbb42672e212fd33f191",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 14320,
+      "sha256": "479ddf47516765f6b801004c7d42b4b70d98bfb3d2a40d27e8d68f1ae4ad6f49",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 159157,
+      "sha256": "c515cdfa1c554d00a7cfeb4893f748f17ee50b5386ea103848dab7f2caf4f7ad",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 682,
+      "sha256": "f6e09aa364b039cae430bb9bd845dcf271083e8f661411842795c7005d0623f0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 20961,
+      "sha256": "022b32afd529b995ae58e90fab5965472c7360243daefd86e714cd55f19d5769",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 18930,
+      "sha256": "cead456e16c6bf610b9f1f14fc62d40e48631bc6965ea09048b2fbbcf46b2bc6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 16691,
+      "sha256": "3ae187aa89502c2cd02c6808eb1d86dc58af56e873fbcc0e4c789011bef3fb66",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 19896,
+      "sha256": "8144479d7ae81a3bceeca6e8e08876cc4a94bf43b9b551e8cf40c01e50857a0a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 21020,
+      "sha256": "ba9f616de52b06fa9571b64e5622abae16d03cbe5ca1653392aa00b5c0d46a0f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 20443,
+      "sha256": "cfe884823479c402f947257c18bee023dfc5862c0e9ec017ff3f03528c8b1454",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 17160,
+      "sha256": "c8aabb4006b7f2262f736cb4ca902fcbccb6eb22db7b52dc88eedcaeec3cb174",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 19029,
+      "sha256": "9f5f5e78e9a8151bd2aa7d4f9555c8a22811c1fca4c31de6aa2d9c239a313637",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 14849,
+      "sha256": "ec6cff36de40aca79c3123c9dea1e9defe37460b38bd04ad75ee9bdbb1cb4d65",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 45803,
+      "sha256": "437924b13ac1193353ae613b3878e18e50d74da0c6fbdce35d9a2e36f0aa059f",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/garment-source.json",
+      "bytes": 920,
+      "sha256": "b610c11f26affa5956639741b868918a79597cc6bea6997d102bab5040302c5e",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2399,
+      "sha256": "50cbfab4e8eb037a3de9adacffe160419a145bbda5233803a8430e7693ca6d5a",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/neutral-morph-defaults.json",
+      "bytes": 411,
+      "sha256": "3ae6f79b85ec7ef95e063ec4bb398c7b454ceb500d18ded8310f70a462a06f21",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/output-license-notes.md",
+      "bytes": 18771,
+      "sha256": "18af8d071bcb1cab2260263991ad49c314dc616facf7f33b0ab19bee78d4ec13",
+      "role": "provenance"
+    }
+  ]
+}
