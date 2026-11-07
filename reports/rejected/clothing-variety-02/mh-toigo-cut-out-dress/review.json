@@ -1,0 +1,23 @@
+{
+  "id": "mh-toigo-cut-out-dress",
+  "decision": "rejected",
+  "scores": {
+    "silhouette": 3,
+    "materials": 3,
+    "topology": 2,
+    "completeness": 4,
+    "style_fit": 3
+  },
+  "notes": "Distinct cut-out silhouette, but strong polygonal bands on sleeves, torso and skirt fall below the clothing quality standard.",
+  "limitations": [
+    "Static standalone garment conversion; no rig, skin weights or automatic fitting are provided, and compatibility with any body shape has not been verified.",
+    "Diffuse and any declared normal maps are embedded; legacy specular, bump, AO and other shader parameters are not reproduced."
+  ],
+  "contact_sheet_sha256": "48dbc1b4ffccfeb5c1939ac58ca10e2b3ab406babd1440e5e47a670d8e7e918b",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports",
+  "status": "rejected",
+  "approved": false
+}

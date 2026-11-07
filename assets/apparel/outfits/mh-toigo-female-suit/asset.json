@@ -1,0 +1,275 @@
+{
+  "schema_version": 1,
+  "id": "mh-toigo-female-suit",
+  "title": "Formal suit",
+  "category": "apparel/outfits",
+  "style": "realistic",
+  "tags": [
+    "clothing"
+  ],
+  "batch": "clothing-variety-02",
+  "acquired_at": "2026-11-07T10:01:36.913622+00:00",
+  "review": {
+    "id": "mh-toigo-female-suit",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Gray pinstripe skirt suit with a white collared blouse and jacket, clearly distinct from the previously approved trouser suits.",
+    "limitations": [
+      "Static standalone garment conversion; no rig, skin weights or automatic fitting are provided, and compatibility with any body shape has not been verified.",
+      "Diffuse and any declared normal maps are embedded; legacy specular, bump, AO and other shader parameters are not reproduced.",
+      "Textured game-asset geometry, not photorealistic; some surfaces show visible faceting."
+    ],
+    "contact_sheet_sha256": "99755677600a37a53622c7b159fc5df03d470553c4eb75c20f4d4e5e7c8d5258",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "makehuman-clothing",
+    "model": "model/garment.glb",
+    "creator": "MargaretToigo",
+    "license": "CC0-1.0",
+    "license_evidence": "https://static.makehumancommunity.org/assets/assetpacks/suits01.html",
+    "source_url": "https://static.makehumancommunity.org/assets/assetpacks/suits01.html",
+    "source_id": "toigo_female_suit",
+    "revision": "2b1d8676f3863b188e9eea98c1d8f234543d54c440e791d92b819f8ee1861f19",
+    "downloads": [
+      {
+        "url": "https://files2.makehumancommunity.org/asset_packs/suits01/suits01_cc0.zip",
+        "bytes": 42624017,
+        "sha256": "2b1d8676f3863b188e9eea98c1d8f234543d54c440e791d92b819f8ee1861f19"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://static.makehumancommunity.org/assets/assetpacks/suits01.html"
+  },
+  "model": "model/garment.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 1,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/garment.glb",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "MHSuitsFem-diff",
+      "embedded_image_index": 0,
+      "embedded_sha256": "f1d15f99341184f87d9657e0ef754150b51f4d00d503e393beb6e11cf1c60507"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 54654,
+    "triangles": 27938,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "MHSuitsFem-diff",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 0,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1642,
+      "sha256": "4e68964d02721dd3c73a5008d7de0c5a4bf638424dd132f17205c05dec7fbff6",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 64032,
+      "sha256": "cd7bca04827d772d50cb534d527e5a010d500b098203320e89a04ddc87a3c0a2",
+      "role": "logs"
+    },
+    {
+      "path": "logs/convert.log",
+      "bytes": 596,
+      "sha256": "c1026a7df8f53c0f385ffc81bd405ed43fd727a24048a26851b82ebbdbc2663a",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "082e951724014468ff5480fb2a42b17b945a390940b3476599aaaa9a77b8ecc1",
+      "role": "logs"
+    },
+    {
+      "path": "model/garment.glb",
+      "bytes": 2687296,
+      "sha256": "f721b0e7b8b54bf01ad93f20f5e8912178814872e8e59df8230b6ac9af98da6d",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 19926,
+      "sha256": "699a2ac7bd0efc9f7514ec0c003e35ed500294c0d4ddcf48e14c3bfb1df18171",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 20723,
+      "sha256": "03efb358ea1508cab92f25231be88cea79259186557c6390e0aeca9bbe772179",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 190968,
+      "sha256": "99755677600a37a53622c7b159fc5df03d470553c4eb75c20f4d4e5e7c8d5258",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 478,
+      "sha256": "7b94106148f3ac645422455dad252fe5cc7fc14ca234ce967f66a71e87092cc3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 29455,
+      "sha256": "280feb946cdc64f66bebeb0c86c43620089d4b832adbeab7b08a4bcda18ba79f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 26229,
+      "sha256": "4793eea7d3656d179437372ea515059d25d69eac2a580f3baa014c25b3ae528e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 19269,
+      "sha256": "e140b09d7946fd9f344b221dc70298e9ec8f3fa07618e3158ed2a58b34fd1f6c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 24288,
+      "sha256": "f5aa633c68c1cc7c4c162f3e5093493a676a538a28008eb22b13378c31006007",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 27583,
+      "sha256": "a0766c40bc10be3ba4dcf065aa5cca54a8eb05b68e3cefd081efc74e84518d4c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 24705,
+      "sha256": "390a028b6517761d510f32db7a37adece1810b8790966079ddfcd05709447c0e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 20072,
+      "sha256": "880cd950535664abd840e62e24e54560ccd442c12e4d5c48f1181b764de4e6fc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 26691,
+      "sha256": "2e5c9146b0e107306cd5bde1affb923d380932f2ed2974806c411e7768145a53",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 17980,
+      "sha256": "a7d3c2f2c82fbce27cbdb5fbf0b73fef8c15fe6a3200432c2fdd4aaa5e0dd2bb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 59870,
+      "sha256": "4d7823dc13bb434447c6a3617f7c1166aae07cfcd7c274511f09a1e1cb358fa2",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/clothing-source.json",
+      "bytes": 997,
+      "sha256": "e88f1b1cfca5c88cea293cc2b4b4cdb6f86301044682e57aaee6a0e8b863b523",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1172,
+      "sha256": "a57923f742a9cecca380c46e76a6e0cadf12936c0ae66ba57c1c652f58edbb06",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source.mhclo",
+      "bytes": 978009,
+      "sha256": "60c5e83133dbca9419e383b34d8354c3b2276890e94cafac4347ecfd7c1969bf",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source.mhmat",
+      "bytes": 553,
+      "sha256": "921c5abd123790d4bdb4df25920c20e48fb607dbabd606633054cde96f626da1",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 992,
+      "sha256": "6f11c4a5261ea4df8986c0f7d32130034edf176313ff962b9c55f7dc8d6d1cb6",
+      "role": "documentation"
+    }
+  ]
+}

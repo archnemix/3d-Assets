@@ -2,7 +2,15 @@
 
 Suits and coordinated full outfits
 
-Approved assets: **7**
+Approved assets: **8**
+
+## Formal suit
+
+![Formal suit](../../assets/apparel/outfits/mh-toigo-female-suit/previews/orbit-01.jpg)
+
+- Creator: MargaretToigo; style: realistic; CC0-1.0
+- 27,938 triangles; 1 texture images
+- [Asset folder](../../assets/apparel/outfits/mh-toigo-female-suit/) · [Metadata](../../assets/apparel/outfits/mh-toigo-female-suit/asset.json) · [All inspection views](../../assets/apparel/outfits/mh-toigo-female-suit/previews/contact-sheet.jpg)
 
 ## Double-breasted pinstripe suit
 

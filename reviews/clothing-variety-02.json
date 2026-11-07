@@ -1,0 +1,215 @@
+{
+  "batch": "clothing-variety-02",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "decisions": [
+    {
+      "id": "mh-toigo-basic-tucked-t-shirt",
+      "decision": "rejected",
+      "scores": {
+        "silhouette": 3,
+        "materials": 3,
+        "topology": 2,
+        "completeness": 4,
+        "style_fit": 3
+      },
+      "notes": "Very plain nearly white shirt and severe faceted shading fail the requested texture and geometry quality bar.",
+      "limitations": [
+        "Static standalone garment conversion; no rig, skin weights or automatic fitting are provided, and compatibility with any body shape has not been verified.",
+        "Diffuse and any declared normal maps are embedded; legacy specular, bump, AO and other shader parameters are not reproduced."
+      ],
+      "contact_sheet_sha256": "ed6c25a9a9dbae5114a15c2b36a19c0e4b47d6f226994523d2b418dfe186a2a2"
+    },
+    {
+      "id": "mh-toigo-cut-out-dress",
+      "decision": "rejected",
+      "scores": {
+        "silhouette": 3,
+        "materials": 3,
+        "topology": 2,
+        "completeness": 4,
+        "style_fit": 3
+      },
+      "notes": "Distinct cut-out silhouette, but strong polygonal bands on sleeves, torso and skirt fall below the clothing quality standard.",
+      "limitations": [
+        "Static standalone garment conversion; no rig, skin weights or automatic fitting are provided, and compatibility with any body shape has not been verified.",
+        "Diffuse and any declared normal maps are embedded; legacy specular, bump, AO and other shader parameters are not reproduced."
+      ],
+      "contact_sheet_sha256": "48dbc1b4ffccfeb5c1939ac58ca10e2b3ab406babd1440e5e47a670d8e7e918b"
+    },
+    {
+      "id": "mh-toigo-female-suit",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Gray pinstripe skirt suit with a white collared blouse and jacket, clearly distinct from the previously approved trouser suits.",
+      "limitations": [
+        "Static standalone garment conversion; no rig, skin weights or automatic fitting are provided, and compatibility with any body shape has not been verified.",
+        "Diffuse and any declared normal maps are embedded; legacy specular, bump, AO and other shader parameters are not reproduced.",
+        "Textured game-asset geometry, not photorealistic; some surfaces show visible faceting."
+      ],
+      "contact_sheet_sha256": "99755677600a37a53622c7b159fc5df03d470553c4eb75c20f4d4e5e7c8d5258"
+    },
+    {
+      "id": "mh-toigo-halter-dress-knee-length",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Patterned sleeveless halter dress with open back and flared knee-length skirt; reviewed all twelve views.",
+      "limitations": [
+        "Static standalone garment conversion; no rig, skin weights or automatic fitting are provided, and compatibility with any body shape has not been verified.",
+        "Diffuse and any declared normal maps are embedded; legacy specular, bump, AO and other shader parameters are not reproduced.",
+        "Textured game-asset geometry, not photorealistic; some surfaces show visible faceting."
+      ],
+      "contact_sheet_sha256": "05869f1dd36f862f48034a7ab842cf5b1db7bcd6430e50d32674a0f3887c233f"
+    },
+    {
+      "id": "mh-toigo-halter-dress-midi",
+      "decision": "rejected",
+      "scores": {
+        "silhouette": 3,
+        "materials": 3,
+        "topology": 2,
+        "completeness": 4,
+        "style_fit": 3
+      },
+      "notes": "Halter neckline and patterned shape closely duplicate the knee-length dress in this batch; a length variation is not sufficiently distinct.",
+      "limitations": [
+        "Static standalone garment conversion; no rig, skin weights or automatic fitting are provided, and compatibility with any body shape has not been verified.",
+        "Diffuse and any declared normal maps are embedded; legacy specular, bump, AO and other shader parameters are not reproduced."
+      ],
+      "contact_sheet_sha256": "0de2d8b9053ca15b13aae8961678f15eded5201e59793f32981de999df2e8d4b"
+    },
+    {
+      "id": "mh-toigo-keyhole-neck-dress",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Zebra-pattern sleeveless keyhole dress with a short, flared skirt and distinct back detailing.",
+      "limitations": [
+        "Static standalone garment conversion; no rig, skin weights or automatic fitting are provided, and compatibility with any body shape has not been verified.",
+        "Diffuse and any declared normal maps are embedded; legacy specular, bump, AO and other shader parameters are not reproduced.",
+        "Textured game-asset geometry, not photorealistic; some surfaces show visible faceting."
+      ],
+      "contact_sheet_sha256": "3e08184d671e70c9f6b6e021898203c7de6cd74b64206d179730025037692e6a"
+    },
+    {
+      "id": "mh-toigo-keyhole-tank-top",
+      "decision": "rejected",
+      "scores": {
+        "silhouette": 3,
+        "materials": 3,
+        "topology": 2,
+        "completeness": 4,
+        "style_fit": 3
+      },
+      "notes": "Conspicuous large faceted polygons across the shoulders and bodice make this tank unsuitable for the requested quality level.",
+      "limitations": [
+        "Static standalone garment conversion; no rig, skin weights or automatic fitting are provided, and compatibility with any body shape has not been verified.",
+        "Diffuse and any declared normal maps are embedded; legacy specular, bump, AO and other shader parameters are not reproduced."
+      ],
+      "contact_sheet_sha256": "c5fe005f4c9f90acf7ba9f28b008f90c0e284e47110b850faf70ea78aa17a404"
+    },
+    {
+      "id": "mh-toigo-male-suit-tie-and-jacket",
+      "decision": "rejected",
+      "scores": {
+        "silhouette": 3,
+        "materials": 3,
+        "topology": 2,
+        "completeness": 4,
+        "style_fit": 3
+      },
+      "notes": "Very similar jacket, tie and trouser silhouette to the existing single-breasted formal suit; insufficiently distinct.",
+      "limitations": [
+        "Static standalone garment conversion; no rig, skin weights or automatic fitting are provided, and compatibility with any body shape has not been verified.",
+        "Diffuse and any declared normal maps are embedded; legacy specular, bump, AO and other shader parameters are not reproduced."
+      ],
+      "contact_sheet_sha256": "dd2430110343c144eda05f95fad9c4a750ca3a289c4cf9307b01a39dcf84630e"
+    },
+    {
+      "id": "mh-toigo-strapless-ruffle-top-dress",
+      "decision": "approved",
+      "scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "notes": "Floral strapless dress with wide lace-edged ruffle across the neckline, waist sash and flared skirt.",
+      "limitations": [
+        "Static standalone garment conversion; no rig, skin weights or automatic fitting are provided, and compatibility with any body shape has not been verified.",
+        "Diffuse and any declared normal maps are embedded; legacy specular, bump, AO and other shader parameters are not reproduced.",
+        "Textured game-asset geometry, not photorealistic; some surfaces show visible faceting."
+      ],
+      "contact_sheet_sha256": "4411c603644a5d8c91c36f6880d032c8e0b8147086348d29c37cbf40c45bc88c"
+    },
+    {
+      "id": "mh-toigo-tiered-skirt",
+      "decision": "rejected",
+      "scores": {
+        "silhouette": 3,
+        "materials": 3,
+        "topology": 2,
+        "completeness": 4,
+        "style_fit": 3
+      },
+      "notes": "Prominent hard polygon facets across all three tiers are below the requested clothing quality bar.",
+      "limitations": [
+        "Static standalone garment conversion; no rig, skin weights or automatic fitting are provided, and compatibility with any body shape has not been verified.",
+        "Diffuse and any declared normal maps are embedded; legacy specular, bump, AO and other shader parameters are not reproduced."
+      ],
+      "contact_sheet_sha256": "c12ce4b78b2b79bd8d4bcefb2b171b41f242b1139ad5fb39916501b9a0ad7af5"
+    },
+    {
+      "id": "oga-clothing-cargo-pants",
+      "decision": "rejected",
+      "scores": {
+        "silhouette": 3,
+        "materials": 3,
+        "topology": 2,
+        "completeness": 4,
+        "style_fit": 3
+      },
+      "notes": "The conversion is overly smooth and indistinct: it lacks convincing cargo pockets, seams and detailed fabric appearance.",
+      "limitations": [
+        "Static standalone garment conversion; no rig, skin weights or automatic fitting are provided, and compatibility with any body shape has not been verified.",
+        "The source mesh was exported without its armature modifier; source texture and materials are embedded."
+      ],
+      "contact_sheet_sha256": "f6358c09ca1448a27fb12edda3e9c6db56ae3703fc055642b9434fb3d250ccd4"
+    },
+    {
+      "id": "oga-clothing-sweatshirt",
+      "decision": "rejected",
+      "scores": {
+        "silhouette": 3,
+        "materials": 3,
+        "topology": 2,
+        "completeness": 4,
+        "style_fit": 3
+      },
+      "notes": "The hooded jacket appears glossy and lumpy, with little convincing fabric texture; it does not meet the requested quality level.",
+      "limitations": [
+        "Static standalone garment conversion; no rig, skin weights or automatic fitting are provided, and compatibility with any body shape has not been verified.",
+        "The source mesh was exported without its armature modifier; source texture and materials are embedded."
+      ],
+      "contact_sheet_sha256": "13354dc72830c3351886b248338b440cf6fe32101c220d7d769622ee05f991f3"
+    }
+  ]
+}

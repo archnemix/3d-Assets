@@ -2,7 +2,7 @@
 
 Checked on 2026-11-04. Scope: approved assets under assets/ only.
 
-**507 of 507 approved assets pass every check.**
+**511 of 511 approved assets pass every check.**
 
 Every approved asset is dedicated to the public domain under CC0 1.0. For each one
 that means: no cost, no attribution, commercial use allowed, use and redistribution
@@ -32,8 +32,11 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Bodice dress with lace ruffle skirt](../assets/apparel/dresses/mh-toigo-bodice-dress-with-lace-ruffle-skirt/README.md) | `apparel/dresses` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Camisole dress with full skirt](../assets/apparel/dresses/mh-toigo-camisole-dress-with-full-skirt/README.md) | `apparel/dresses` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Tiered skirt dress](../assets/apparel/dresses/mh-toigo-dress-with-tiered-skirt/README.md) | `apparel/dresses` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Knee-length halter dress](../assets/apparel/dresses/mh-toigo-halter-dress-knee-length/README.md) | `apparel/dresses` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Halter dress with fluted skirt](../assets/apparel/dresses/mh-toigo-halter-dress-with-fluted-skirt/README.md) | `apparel/dresses` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Keyhole-neck dress](../assets/apparel/dresses/mh-toigo-keyhole-neck-dress/README.md) | `apparel/dresses` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Shift dress](../assets/apparel/dresses/mh-toigo-shift-dress/README.md) | `apparel/dresses` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Strapless ruffle-top dress](../assets/apparel/dresses/mh-toigo-strapless-ruffle-top-dress/README.md) | `apparel/dresses` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Western cowboy boots](../assets/apparel/footwear/g3-fashion-cowboy-boots/README.md) | `apparel/footwear` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Bow high-heel pumps](../assets/apparel/footwear/g3-fashion-high-heels/README.md) | `apparel/footwear` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Laced hiking boots](../assets/apparel/footwear/g3-fashion-hiking-boots/README.md) | `apparel/footwear` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -58,6 +61,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Pearl necklace](../assets/apparel/jewelry/g3-fashion-necklace/README.md) | `apparel/jewelry` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Gemstone pendant necklace](../assets/apparel/jewelry/g3-fashion-pendant/README.md) | `apparel/jewelry` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Gemstone tiara](../assets/apparel/jewelry/g3-fashion-tiara/README.md) | `apparel/jewelry` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Formal suit](../assets/apparel/outfits/mh-toigo-female-suit/README.md) | `apparel/outfits` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Double-breasted pinstripe suit](../assets/apparel/outfits/mh-toigo-male-double-breasted-suit/README.md) | `apparel/outfits` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Formal suit with red tie](../assets/apparel/outfits/mh-toigo-male-suit-3/README.md) | `apparel/outfits` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Dinner jacket suit](../assets/apparel/outfits/mh-toigo-suit-with-dinner-jacket/README.md) | `apparel/outfits` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -576,7 +580,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 
 ### MakeHuman Community clothing packs — `makehuman-clothing`
 
-18 approved assets. Status: **verified**.
+22 approved assets. Status: **verified**.
 
 - Terms: <https://static.makehumancommunity.org/assets/assetpacks.html>
 - Pinned evidence: <https://static.makehumancommunity.org/assets/assetpacks.html>
@@ -951,14 +955,18 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Camisole dress with full skirt](../assets/apparel/dresses/mh-toigo-camisole-dress-with-full-skirt/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
 | [Camisole top](../assets/apparel/tops/mh-toigo-camisole-top/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
 | [Tiered skirt dress](../assets/apparel/dresses/mh-toigo-dress-with-tiered-skirt/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
+| [Formal suit](../assets/apparel/outfits/mh-toigo-female-suit/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
 | [Fisherman knit sweater](../assets/apparel/tops/mh-toigo-fisherman-sweater/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
+| [Knee-length halter dress](../assets/apparel/dresses/mh-toigo-halter-dress-knee-length/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
 | [Halter dress with fluted skirt](../assets/apparel/dresses/mh-toigo-halter-dress-with-fluted-skirt/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
 | [Harem trousers](../assets/apparel/bottoms/mh-toigo-harem-pants/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
+| [Keyhole-neck dress](../assets/apparel/dresses/mh-toigo-keyhole-neck-dress/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
 | [Long full skirt](../assets/apparel/skirts/mh-toigo-long-full-skirt/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
 | [Double-breasted pinstripe suit](../assets/apparel/outfits/mh-toigo-male-double-breasted-suit/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
 | [Formal suit with red tie](../assets/apparel/outfits/mh-toigo-male-suit-3/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
 | [Shift dress](../assets/apparel/dresses/mh-toigo-shift-dress/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
 | [Lace ruffle skirt](../assets/apparel/skirts/mh-toigo-skirt-with-lace-ruffle/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
+| [Strapless ruffle-top dress](../assets/apparel/dresses/mh-toigo-strapless-ruffle-top-dress/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
 | [Dinner jacket suit](../assets/apparel/outfits/mh-toigo-suit-with-dinner-jacket/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
 | [Bow tie suit](../assets/apparel/outfits/mh-toigo-suit-with-jacket-and-bowtie/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
 | [Blue button-up shirt and jeans](../assets/apparel/outfits/mhs-male-casualsuit01/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
@@ -987,19 +995,19 @@ Every check below is machine-verified by `python -m asset_library license-audit`
 
 | Check | Passing |
 | --- | --- |
-| `cc0_spdx` | 507/507 |
-| `cc0_text_present` | 507/507 |
-| `commercial_use_allowed` | 507/507 |
-| `evidence_recorded` | 507/507 |
-| `free_of_charge` | 507/507 |
-| `license_file_checksummed` | 507/507 |
-| `no_attribution_required` | 507/507 |
-| `no_trademark_warning` | 507/507 |
-| `redistribution_allowed` | 507/507 |
-| `source_terms_verified` | 507/507 |
-| `standalone_resale_permitted` | 507/507 |
-| `textures_included` | 507/507 |
-| `visually_approved` | 507/507 |
+| `cc0_spdx` | 511/511 |
+| `cc0_text_present` | 511/511 |
+| `commercial_use_allowed` | 511/511 |
+| `evidence_recorded` | 511/511 |
+| `free_of_charge` | 511/511 |
+| `license_file_checksummed` | 511/511 |
+| `no_attribution_required` | 511/511 |
+| `no_trademark_warning` | 511/511 |
+| `redistribution_allowed` | 511/511 |
+| `source_terms_verified` | 511/511 |
+| `standalone_resale_permitted` | 511/511 |
+| `textures_included` | 511/511 |
+| `visually_approved` | 511/511 |
 
 ## Evidence per asset
 
@@ -1324,14 +1332,18 @@ Each row links to the license file stored beside the model and to the exact
 | mh-toigo-camisole-dress-with-full-skirt | [LICENSE.txt](../assets/apparel/dresses/mh-toigo-camisole-dress-with-full-skirt/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/dress01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/dress01.html) |
 | mh-toigo-camisole-top | [LICENSE.txt](../assets/apparel/tops/mh-toigo-camisole-top/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/shirts01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/shirts01.html) |
 | mh-toigo-dress-with-tiered-skirt | [LICENSE.txt](../assets/apparel/dresses/mh-toigo-dress-with-tiered-skirt/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/dress01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/dress01.html) |
+| mh-toigo-female-suit | [LICENSE.txt](../assets/apparel/outfits/mh-toigo-female-suit/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/suits01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/suits01.html) |
 | mh-toigo-fisherman-sweater | [LICENSE.txt](../assets/apparel/tops/mh-toigo-fisherman-sweater/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/shirts01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/shirts01.html) |
+| mh-toigo-halter-dress-knee-length | [LICENSE.txt](../assets/apparel/dresses/mh-toigo-halter-dress-knee-length/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/dress01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/dress01.html) |
 | mh-toigo-halter-dress-with-fluted-skirt | [LICENSE.txt](../assets/apparel/dresses/mh-toigo-halter-dress-with-fluted-skirt/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/dress01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/dress01.html) |
 | mh-toigo-harem-pants | [LICENSE.txt](../assets/apparel/bottoms/mh-toigo-harem-pants/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/pants01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/pants01.html) |
+| mh-toigo-keyhole-neck-dress | [LICENSE.txt](../assets/apparel/dresses/mh-toigo-keyhole-neck-dress/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/dress01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/dress01.html) |
 | mh-toigo-long-full-skirt | [LICENSE.txt](../assets/apparel/skirts/mh-toigo-long-full-skirt/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/skirts01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/skirts01.html) |
 | mh-toigo-male-double-breasted-suit | [LICENSE.txt](../assets/apparel/outfits/mh-toigo-male-double-breasted-suit/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/suits01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/suits01.html) |
 | mh-toigo-male-suit-3 | [LICENSE.txt](../assets/apparel/outfits/mh-toigo-male-suit-3/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/suits01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/suits01.html) |
 | mh-toigo-shift-dress | [LICENSE.txt](../assets/apparel/dresses/mh-toigo-shift-dress/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/dress01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/dress01.html) |
 | mh-toigo-skirt-with-lace-ruffle | [LICENSE.txt](../assets/apparel/skirts/mh-toigo-skirt-with-lace-ruffle/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/skirts01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/skirts01.html) |
+| mh-toigo-strapless-ruffle-top-dress | [LICENSE.txt](../assets/apparel/dresses/mh-toigo-strapless-ruffle-top-dress/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/dress01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/dress01.html) |
 | mh-toigo-suit-with-dinner-jacket | [LICENSE.txt](../assets/apparel/outfits/mh-toigo-suit-with-dinner-jacket/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/suits01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/suits01.html) |
 | mh-toigo-suit-with-jacket-and-bowtie | [LICENSE.txt](../assets/apparel/outfits/mh-toigo-suit-with-jacket-and-bowtie/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/suits01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/suits01.html) |
 | mhs-male-casualsuit01 | [LICENSE.txt](../assets/apparel/outfits/mhs-male-casualsuit01/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html) |
