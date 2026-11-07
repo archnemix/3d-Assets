@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "id": "g3-atomic-age-car",
+  "title": "Retro-futuristic bubble car",
+  "category": "vehicles/cars/classic",
+  "style": "stylized",
+  "tags": [
+    "retro-futuristic",
+    "concept",
+    "vintage"
+  ],
+  "batch": "transport-eras-01",
+  "acquired_at": "2026-11-07T00:50:25.753182+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/atomic-age-car.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/atomic-age-car/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/atomic-age-car/",
+    "source_id": "atomic-age-car",
+    "revision": "6e91195c6f8b938bee5aa5627550a36533aac93fcd30ab1a39c10188d45465ae",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/atomic-age-car/atomic-age-car.glb",
+        "bytes": 1090324,
+        "sha256": "6e91195c6f8b938bee5aa5627550a36533aac93fcd30ab1a39c10188d45465ae"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/atomic-age-car/LICENSE.txt"
+  },
+  "model": "model/atomic-age-car.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 6,
+    "materials": 22,
+    "images": 5,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/atomic-age-car_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "atomic-age-car_body_normal"
+    },
+    {
+      "path": "textures/atomic-age-car_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "atomic-age-car_body_basecolor"
+    },
+    {
+      "path": "textures/atomic-age-car_body_metallic-atomic-age-car_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "atomic-age-car_body_metallic-atomic-age-car_body_roughness"
+    },
+    {
+      "path": "textures/atomic-age-car_tire_normal.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "atomic-age-car_tire_normal"
+    },
+    {
+      "path": "textures/atomic-age-car_tire_color.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "atomic-age-car_tire_color"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 6,
+    "hidden_mesh_objects": 0,
+    "vertices": 12875,
+    "triangles": 15482,
+    "material_slots": 22,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 2,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "atomic-age-car_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "atomic-age-car_body_metallic-atomic-age-car_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "atomic-age-car_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "atomic-age-car_tire_color",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "atomic-age-car_tire_normal",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 5,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 77918,
+      "sha256": "394baa29cfef301f65e77b93505faadeadf9ca29a83c265d614010a62c00d7d5",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "f3b25ee04e7e8ca1312e912327344f09b217be42cbf3adf92abfad11a0a27c25",
+      "role": "logs"
+    },
+    {
+      "path": "model/atomic-age-car.glb",
+      "bytes": 1090324,
+      "sha256": "6e91195c6f8b938bee5aa5627550a36533aac93fcd30ab1a39c10188d45465ae",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 18602,
+      "sha256": "62534989c5be8398123e0aae6bec785b88d973466cc0934e413f3fb98d122995",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 17842,
+      "sha256": "da09582c7578b1d9466ba2cdcd96e1eb75104e5f419d1cc5f1f620ce9a4ea6d1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 182299,
+      "sha256": "f63a73680027cceb87867cb03e3eefdd0f28fc615e4ee46faec32cefe2e2f5bc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1150,
+      "sha256": "5a3ae7e063d03158ad7188c166211c5004441848120eaba38b7ac090bf1418a5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 26993,
+      "sha256": "e6a24c12d884e070f3f91eb23ca04f8c2b5c372ecedfe49eb7a320f76c657ae7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 21998,
+      "sha256": "d5e68feb99a04c975a9f39fec71932558e3de15c08cff3b7729bc682294a123e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 19330,
+      "sha256": "076b8228780836b5f4d95e67e8c7fd57641ba22495ca0a0ec9ebfd2a71d9e047",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 21261,
+      "sha256": "25b4c73a176139e481c8568d3e63bdfbcac827fad95f4973f0fb987496f73488",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 29887,
+      "sha256": "366d36df7e31069be0d54effe7f10ffefac500994623aa23e9d851556c632a17",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 22691,
+      "sha256": "8c91fcdf000752ae09a99aa8df9bf43e329f5297fa577dd55c8a057120c169b1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 21292,
+      "sha256": "d0666560b1f2ff11e4b18bdfd9afc90a87856bba4aa7cf03d09922105f2785b4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 23470,
+      "sha256": "24be115ed11393b5f74c954bccff07404ba7388ede178f8e6a74a45f016d3e3c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 17665,
+      "sha256": "25f4f061fe843567dd047459e6d0695ac13747f62bc966346ee6a0d7d9579f82",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 41160,
+      "sha256": "308072c9f7a645b3d95273723067aeea86be491550e13483f8f1a03af80074bc",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 6926,
+      "sha256": "e8b3a67af66104479eb38758624bf64358acf7dc95644e0db9348b2826a6b2db",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1664,
+      "sha256": "35fb41a6c8fa3841bdcfe51b93039ad7c68431e8c5abb0e54ef92e90f11cb083",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 529,
+      "sha256": "f948401e91b8bc28c81b493d786c6da14e6414deb0a6601a77eb0bbd8f9abc18",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "42bbbcff96f253c92cb03387760f8d504c65b103e731af975d96a56920fdf854",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/atomic-age-car_body_basecolor.jpg",
+      "bytes": 261658,
+      "sha256": "e4d365b6efd8f1f7c8075504384970e366e50f3d16772626a6d62d8343f2d552",
+      "role": "textures"
+    },
+    {
+      "path": "textures/atomic-age-car_body_metallic-atomic-age-car_body_roughness.jpg",
+      "bytes": 246265,
+      "sha256": "5c6c0e2850e9c115c665f4fb67814006c15285ebf0ac8606f182f98e05154de9",
+      "role": "textures"
+    },
+    {
+      "path": "textures/atomic-age-car_body_normal.jpg",
+      "bytes": 68746,
+      "sha256": "9bdaae053a0e20f4dd45df04676de291a2b9cab2e421860656c1e8fe0b3c6d0f",
+      "role": "textures"
+    },
+    {
+      "path": "textures/atomic-age-car_tire_color.jpg",
+      "bytes": 1539,
+      "sha256": "9a26cd08e0224cc42916de18d402a711edeee7659c6a944e67dae2b4e9b09f91",
+      "role": "textures"
+    },
+    {
+      "path": "textures/atomic-age-car_tire_normal.jpg",
+      "bytes": 2114,
+      "sha256": "1ac12a81a5ccc3fb6b78601a0b9665ecb4251b6a18602b230f6c025b54cd930c",
+      "role": "textures"
+    }
+  ]
+}
