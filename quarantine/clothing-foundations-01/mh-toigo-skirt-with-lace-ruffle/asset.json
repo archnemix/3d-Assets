@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "id": "mh-toigo-skirt-with-lace-ruffle",
+  "title": "Lace ruffle skirt",
+  "category": "apparel/skirts",
+  "style": "realistic",
+  "tags": [
+    "clothing",
+    "formal"
+  ],
+  "batch": "clothing-foundations-01",
+  "acquired_at": "2026-11-07T09:25:17.196608+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "makehuman-clothing",
+    "model": "model/garment.glb",
+    "creator": "MargaretToigo",
+    "license": "CC0-1.0",
+    "license_evidence": "https://static.makehumancommunity.org/assets/assetpacks/skirts01.html",
+    "source_url": "https://static.makehumancommunity.org/assets/assetpacks/skirts01.html",
+    "source_id": "toigo_skirt_with_lace_ruffle",
+    "revision": "293fa0c15e28e8dcea8dfff20cae31aa4b0d1268a6e6ba0a53a92ebb0f36c882",
+    "downloads": [
+      {
+        "url": "https://files2.makehumancommunity.org/asset_packs/skirts01/skirts01_cc0.zip",
+        "bytes": 29554534,
+        "sha256": "293fa0c15e28e8dcea8dfff20cae31aa4b0d1268a6e6ba0a53a92ebb0f36c882"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://static.makehumancommunity.org/assets/assetpacks/skirts01.html"
+  },
+  "model": "model/garment.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 1,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/LaceRuffleSkirt.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "LaceRuffleSkirt"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 11052,
+    "triangles": 5576,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "LaceRuffleSkirt",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 0,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 64188,
+      "sha256": "978fe043c5ca6b7afb7c81d54d5818306eef34a85420f39b7fb8ad5d8a5cf6cf",
+      "role": "logs"
+    },
+    {
+      "path": "logs/convert.log",
+      "bytes": 597,
+      "sha256": "27cca2e3e2937026dd36ad3db5d720c6a5fa1add9321c66aac0d76ea8bc71e19",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "082e951724014468ff5480fb2a42b17b945a390940b3476599aaaa9a77b8ecc1",
+      "role": "logs"
+    },
+    {
+      "path": "model/garment.glb",
+      "bytes": 9367776,
+      "sha256": "a5d1545e51eeac362c49da986afd9c1c461ad1911698f46cfe0a9b6f5c64486a",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 48430,
+      "sha256": "0a5d43347255b7c68945fe780513bd8bd37326bdfcbad62fb89915ade7338270",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 22546,
+      "sha256": "0cd779c7541e8d6009d19996897d8ad43f6f71033f33a253a2680a35ac2c7fe9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 517540,
+      "sha256": "0b210a94c8076f0586a49e66703cab2433c9cd7c0ff215a5bc8f8e5421caa37f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 477,
+      "sha256": "1d693c7be41aaf96e902cdf1e18fdc41e46ffd096eed5a729b58fe6ef8ce7985",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 98823,
+      "sha256": "ba45839892fc05a72723149958fdd79c59ba5147da99e0e55c02dc3c070a6d9e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 106868,
+      "sha256": "015d0de8c8733e818840dfd81375d455aa193117657991121f06c18173cf3e7c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 92700,
+      "sha256": "57a025265e048b9c1cdb3eb282dc40ed60fa87d875ca86f75e5fb1967a34dd65",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 111134,
+      "sha256": "b49cb7c0121072b5765db3301a3051f8bc25ea3ad07dc680b06bdd9702dd1ff0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 101734,
+      "sha256": "909e597626e48ae40b04b64dcd68f714e084e5e893bbc656c973d53240094e56",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 109094,
+      "sha256": "f6c4553311670886a6652a61ddfd163bec4bcc0b9904fc17a5ad68fe6723a01e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 92553,
+      "sha256": "effd603b8e6b2337a898c06bf3c121260ae113ea5beba0f778d9d18c70c52b74",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 108929,
+      "sha256": "f4cdf836ae80c70dae3af2a259defff7a127cdf59f1cda39fac8083c10b85316",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 52708,
+      "sha256": "12d92ff9c0243fa0cfd1739f08553581abbbe667681e036c7180e7166a2561cc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 73660,
+      "sha256": "a07193e601a2350ef2739a7ac4b408a7a1c1207de10e2da56111b87978f81936",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/clothing-source.json",
+      "bytes": 1048,
+      "sha256": "ce2ad86f24c55b56876f6e9e200017ecb55c8bb1067b0c9db816548c6d584a11",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1171,
+      "sha256": "20c330592e8d86c70b63ada1a243e28563e361be4ed4949f71723fd3ed7c9cd4",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source.mhclo",
+      "bytes": 193668,
+      "sha256": "d8650bbb06adb94d5c73453fe4c7079a17161b0fdd442c829a739aa0876610ed",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source.mhmat",
+      "bytes": 520,
+      "sha256": "efe7fd0920c3db051c6585c355a3c1d7c44219c203de607ee4bfde93045085fe",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/LaceRuffleSkirt.png",
+      "bytes": 8979156,
+      "sha256": "053f1419244c59d862969fa359eef9e1ae798045bdd8e8e51b221b19866fb5ea",
+      "role": "textures"
+    }
+  ]
+}

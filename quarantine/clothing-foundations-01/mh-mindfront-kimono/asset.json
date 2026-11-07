@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "id": "mh-mindfront-kimono",
+  "title": "Kimono",
+  "category": "apparel/dresses",
+  "style": "realistic",
+  "tags": [
+    "clothing",
+    "traditional"
+  ],
+  "batch": "clothing-foundations-01",
+  "acquired_at": "2026-11-07T09:16:04.372851+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "makehuman-clothing",
+    "model": "model/garment.glb",
+    "creator": "Mindfront",
+    "license": "CC0-1.0",
+    "license_evidence": "https://static.makehumancommunity.org/assets/assetpacks/dress01.html",
+    "source_url": "https://static.makehumancommunity.org/assets/assetpacks/dress01.html",
+    "source_id": "mindfront_kimono",
+    "revision": "f49ba54a3c93acd3c3307cc5a96cfc65daf8abfed9212a7e580791d821c9e93a",
+    "downloads": [
+      {
+        "url": "https://files2.makehumancommunity.org/asset_packs/dress01/dress01_cc0.zip",
+        "bytes": 46598791,
+        "sha256": "f49ba54a3c93acd3c3307cc5a96cfc65daf8abfed9212a7e580791d821c9e93a"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://static.makehumancommunity.org/assets/assetpacks/dress01.html"
+  },
+  "model": "model/garment.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 2,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/F_Kimono_NRM.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "F_Kimono_NRM"
+    },
+    {
+      "path": "textures/F_Kimono_COL.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "F_Kimono_COL"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 13844,
+    "triangles": 6922,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "F_Kimono_COL",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "F_Kimono_NRM",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 3,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 66060,
+      "sha256": "ba368d222e13711efa5bf2579e14c8732672cd9721cbeb3167a0c697d64ade1e",
+      "role": "logs"
+    },
+    {
+      "path": "logs/convert.log",
+      "bytes": 444,
+      "sha256": "a9bb9abbcd5c3ea7ebe22bbbc5191f31773d29f37acb2640542e7823a9978295",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "13a8b99793ba089c84f4df144fa4bf72282f0ff6e6d5c1cb98630ea56b0eec8e",
+      "role": "logs"
+    },
+    {
+      "path": "model/garment.glb",
+      "bytes": 4221420,
+      "sha256": "2e76ae3db83a3c913a14b85593f43d5f0c25536980f549cda72129311653fafa",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 22794,
+      "sha256": "bf4b77fad11f8332797b0971617d24a1d51585423eab3dfe6d3365661141f010",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 19570,
+      "sha256": "60decb79dedf6d1985529792896175e81cba8abbb875cf2446ea2892cb872c1d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 168258,
+      "sha256": "9c23b3cf37a17a88766b7504c68fae13f6181d13830ae951eab0b864dcbe4010",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 618,
+      "sha256": "a353e3bd07f2ae7526fe41b2ce851f35eba41679a5db223a9a037a75c4cfa9e5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 23221,
+      "sha256": "abe23a2e1cbef06cffd03040555ef8687345364d4381977d893bb6f008a39af9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 21845,
+      "sha256": "fa5f91918313431848964bba5066e96821a8694b93900fc51240e9f34ab8341f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 16010,
+      "sha256": "bfa160968d1d3982e5df957c0175d2625929debd8ac19a9650ef5fe4024eb81b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 18516,
+      "sha256": "7d32c82e07029ca7dbd608eff86fb3bb251436cf66fff238888260c97a140505",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 20876,
+      "sha256": "c0a961ca0770c5f9397a63d9eb5aa225c64ddc72ee081f89d0fd342ecf1fa016",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 19633,
+      "sha256": "2a3254db87fea4a8559d28d2c38d227ea83b72fcc3451f14fd4a07bd271a6283",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 17497,
+      "sha256": "fd791f0eefd545d8f6ab1e80606b59001bd168ae580f0518aa171fba28f86ad1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 21165,
+      "sha256": "f44bc5c540f29c6873d1dbf39cf1c68dbea3c28c43410bfda4832f375953578b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 17759,
+      "sha256": "695886d53a05863a3221df4804e55c3a5050bb58e2e33d26e816a6ae6d45c45b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 43998,
+      "sha256": "0484b410a2f5d554c0e73ce6f1f6210646c2c96d01db1c995f0906210998ac9e",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/clothing-source.json",
+      "bytes": 1089,
+      "sha256": "1e39fd3f038c71f312c79aba26bb7b54543923edb24ac78e448cc9d1fe9860a3",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2311,
+      "sha256": "a62aeb87b649310125f125d693c7fad8f93bdbee4a2c818ac8e7d3db096271b7",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source.mhclo",
+      "bytes": 240398,
+      "sha256": "c1c736e8449f65d19e408b43fa5ab20106deedfa9d5563952dbbf1f9519c8f1f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source.mhmat",
+      "bytes": 594,
+      "sha256": "3d9beb418e5a8dfc5f8d4b539591f2d5719a3ab9402499b969c9626b45b84b43",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/F_Kimono_COL.png",
+      "bytes": 802227,
+      "sha256": "dbb80df9187513e418c8d062c39e3da1743b096887f9a75bc1e3737814fad9eb",
+      "role": "textures"
+    },
+    {
+      "path": "textures/F_Kimono_NRM.png",
+      "bytes": 2933005,
+      "sha256": "e925f39fb718658331dc917731c4a408f9013eff727c5cd63344d003007399ef",
+      "role": "textures"
+    }
+  ]
+}

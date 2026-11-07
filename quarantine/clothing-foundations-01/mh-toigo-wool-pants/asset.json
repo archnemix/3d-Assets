@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "id": "mh-toigo-wool-pants",
+  "title": "Wool trousers",
+  "category": "apparel/bottoms",
+  "style": "realistic",
+  "tags": [
+    "clothing",
+    "formal"
+  ],
+  "batch": "clothing-foundations-01",
+  "acquired_at": "2026-11-07T09:20:51.834776+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "makehuman-clothing",
+    "model": "model/garment.glb",
+    "creator": "MargaretToigo",
+    "license": "CC0-1.0",
+    "license_evidence": "https://static.makehumancommunity.org/assets/assetpacks/pants01.html",
+    "source_url": "https://static.makehumancommunity.org/assets/assetpacks/pants01.html",
+    "source_id": "toigo_wool_pants",
+    "revision": "e4e0ec60db34f279be291a83cfd7b342a7c5cf09bb7676682a5f39f4f6ac4ad9",
+    "downloads": [
+      {
+        "url": "https://files2.makehumancommunity.org/asset_packs/pants01/pants01_cc0.zip",
+        "bytes": 21908723,
+        "sha256": "e4e0ec60db34f279be291a83cfd7b342a7c5cf09bb7676682a5f39f4f6ac4ad9"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://static.makehumancommunity.org/assets/assetpacks/pants01.html"
+  },
+  "model": "model/garment.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 1,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/Pants_wool.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "Pants_wool"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 5348,
+    "triangles": 2674,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 5,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "Pants_wool",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 0,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 63984,
+      "sha256": "2f349024f7e5263b1a26f7795601a624614d5ad57a114629a7eac75580f9f4d1",
+      "role": "logs"
+    },
+    {
+      "path": "logs/convert.log",
+      "bytes": 597,
+      "sha256": "50a0d4f3e514b4bf3d5e048f9c2c9a66da87fb40fdf1cc1fa90808e0f357ba13",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "082e951724014468ff5480fb2a42b17b945a390940b3476599aaaa9a77b8ecc1",
+      "role": "logs"
+    },
+    {
+      "path": "model/garment.glb",
+      "bytes": 1543788,
+      "sha256": "b5f23cc6d4e3a0c07fa21ba698a884dcbee5df48b2980241a138ddc4c696a0df",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 28030,
+      "sha256": "a633e93b85ab2af828a16b2735488349cfe10d9bf831dd900563b64770645704",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 15706,
+      "sha256": "b4a2c4a90eef8b7566ca03d07c8888b6dd63e3c5754499fc536f97868e02a034",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 169656,
+      "sha256": "67b42e9ec0cab6eb77751f8e3082e9bbe929c0f8f9ddab910945ffc5ac447647",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 471,
+      "sha256": "9a30a0cf439b6aab9f198ae2c4954dd2e17fee0f65b9ebb2700d97889de5036b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 25303,
+      "sha256": "f3485521972cb555e51c25ba415e6a71c0fc62055bd7289c46971f8c2c3ff39e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 24298,
+      "sha256": "1ba7f1da37aa982dc55310216a3c319bff124c2a8ee386a3eec453098715ae31",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 18660,
+      "sha256": "9ae340490f5090e2ef711998210d58d7a3ed17ac8369a8f1e62a5333a0014a68",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 23615,
+      "sha256": "c1c4c73d445d6b4021b77cce743e72025f4041a2140bffdbfe8db7ecdad89d42",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 25264,
+      "sha256": "2eb6e4d35e7974e9007a08780f28fc7d2845b477cacee36492b999562e29f76e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 23232,
+      "sha256": "dc664c70ef800656b0fa7f0cae780b645db45170f9969257e027edc9f0dd777d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 18444,
+      "sha256": "a5bc3e78e9b86e286315eb65677382a58de09c4c3fdf6b44eba90ee6dc0f2d97",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 23791,
+      "sha256": "d14fdefbbe669415542fc3f9e4be012eb67f46a025f0d32fc7adceca23ff1145",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 23229,
+      "sha256": "bb8ed8521644ad0cda1856ffa321aa80736cd3811dfec492648284ce70e667e4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 38504,
+      "sha256": "7bf8e8ac91a62ede0cc3dd049a1845948a2fd126951066983a217c7fd8961fc0",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/clothing-source.json",
+      "bytes": 991,
+      "sha256": "3fbdfde08d69c03083e627d608a8bb98b9eab0c12d17a029354ffaf33c83df35",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1170,
+      "sha256": "0753806afce956e381901a25666ea481c7354fe38ff86ba923eed7eba33eab0f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source.mhclo",
+      "bytes": 93219,
+      "sha256": "ac1a57a817976d80ece8a88698873d54de7f252d01ba3dca5e361693621fcf22",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source.mhmat",
+      "bytes": 473,
+      "sha256": "fedf31e98ea92b57c8f45e10ec167d420f5eb11b9410feb075c321c3798fdb53",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/Pants_wool.png",
+      "bytes": 1355120,
+      "sha256": "a820b0dc4f9f881956a068f26889ca677b696dbdccfdbf2a168e7b327b390ab6",
+      "role": "textures"
+    }
+  ]
+}
