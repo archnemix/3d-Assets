@@ -1,173 +1,89 @@
 {
-  "revision": 2,
-  "batch_id": "clothing-creator-neutral-01",
+  "revision": 10,
+  "batch_id": "outfit-footwear-probe-01",
   "candidates": [
     {
-      "id": "cc-garment-shirt",
-      "title": "Long-sleeve shirt",
-      "category": "apparel/tops",
-      "source": "charactercreator-clothing",
+      "id": "mhs-shoes-01",
+      "title": "MakeHuman footwear candidate 01",
+      "category": "apparel/footwear/shoes",
+      "source": "makehuman-clothing",
       "style": "realistic",
       "tags": [
-        "clothing",
-        "charactercreator",
-        "neutral-default-derivative"
+        "footwear",
+        "outfit-component",
+        "probe"
       ],
-      "upstream_id": "shirt",
+      "upstream_id": "shoes01",
       "skip_authored_animation": true
     },
     {
-      "id": "cc-garment-tshirt",
-      "title": "T-shirt",
-      "category": "apparel/tops",
-      "source": "charactercreator-clothing",
+      "id": "mhs-shoes-02",
+      "title": "MakeHuman footwear candidate 02",
+      "category": "apparel/footwear/shoes",
+      "source": "makehuman-clothing",
       "style": "realistic",
       "tags": [
-        "clothing",
-        "charactercreator",
-        "neutral-default-derivative"
+        "footwear",
+        "outfit-component",
+        "probe"
       ],
-      "upstream_id": "tshirt",
+      "upstream_id": "shoes02",
       "skip_authored_animation": true
     },
     {
-      "id": "cc-garment-hoodie",
-      "title": "Hooded sweatshirt",
-      "category": "apparel/tops",
-      "source": "charactercreator-clothing",
+      "id": "mhs-shoes-03",
+      "title": "MakeHuman footwear candidate 03",
+      "category": "apparel/footwear/shoes",
+      "source": "makehuman-clothing",
       "style": "realistic",
       "tags": [
-        "clothing",
-        "charactercreator",
-        "neutral-default-derivative"
+        "footwear",
+        "outfit-component",
+        "probe"
       ],
-      "upstream_id": "hoodie",
+      "upstream_id": "shoes03",
       "skip_authored_animation": true
     },
     {
-      "id": "cc-garment-jeans",
-      "title": "Jeans",
-      "category": "apparel/bottoms",
-      "source": "charactercreator-clothing",
+      "id": "mhs-shoes-04",
+      "title": "MakeHuman footwear candidate 04",
+      "category": "apparel/footwear/shoes",
+      "source": "makehuman-clothing",
       "style": "realistic",
       "tags": [
-        "clothing",
-        "charactercreator",
-        "neutral-default-derivative"
+        "footwear",
+        "outfit-component",
+        "probe"
       ],
-      "upstream_id": "jeans",
+      "upstream_id": "shoes04",
       "skip_authored_animation": true
     },
     {
-      "id": "cc-garment-shorts",
-      "title": "Casual shorts",
-      "category": "apparel/bottoms",
-      "source": "charactercreator-clothing",
+      "id": "mhs-shoes-05",
+      "title": "MakeHuman footwear candidate 05",
+      "category": "apparel/footwear/shoes",
+      "source": "makehuman-clothing",
       "style": "realistic",
       "tags": [
-        "clothing",
-        "charactercreator",
-        "neutral-default-derivative"
+        "footwear",
+        "outfit-component",
+        "probe"
       ],
-      "upstream_id": "shorts",
+      "upstream_id": "shoes05",
       "skip_authored_animation": true
     },
     {
-      "id": "cc-garment-skirt",
-      "title": "Flared skirt",
-      "category": "apparel/skirts",
-      "source": "charactercreator-clothing",
+      "id": "mhs-shoes-06",
+      "title": "MakeHuman footwear candidate 06",
+      "category": "apparel/footwear/shoes",
+      "source": "makehuman-clothing",
       "style": "realistic",
       "tags": [
-        "clothing",
-        "charactercreator",
-        "neutral-default-derivative"
+        "footwear",
+        "outfit-component",
+        "probe"
       ],
-      "upstream_id": "skirt",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "cc-garment-jacket",
-      "title": "Jacket",
-      "category": "apparel/tops",
-      "source": "charactercreator-clothing",
-      "style": "realistic",
-      "tags": [
-        "clothing",
-        "charactercreator",
-        "neutral-default-derivative"
-      ],
-      "upstream_id": "jacket",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "cc-garment-trenchcoat",
-      "title": "Long trench coat",
-      "category": "apparel/outfits",
-      "source": "charactercreator-clothing",
-      "style": "realistic",
-      "tags": [
-        "clothing",
-        "charactercreator",
-        "neutral-default-derivative"
-      ],
-      "upstream_id": "trenchcoat",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "cc-garment-dress",
-      "title": "Belted dress",
-      "category": "apparel/dresses",
-      "source": "charactercreator-clothing",
-      "style": "realistic",
-      "tags": [
-        "clothing",
-        "charactercreator",
-        "neutral-default-derivative"
-      ],
-      "upstream_id": "dress",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "cc-garment-briefs",
-      "title": "Briefs",
-      "category": "apparel/bottoms",
-      "source": "charactercreator-clothing",
-      "style": "realistic",
-      "tags": [
-        "clothing",
-        "charactercreator",
-        "neutral-default-derivative"
-      ],
-      "upstream_id": "briefs",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "cc-garment-panties",
-      "title": "Bikini briefs",
-      "category": "apparel/bottoms",
-      "source": "charactercreator-clothing",
-      "style": "realistic",
-      "tags": [
-        "clothing",
-        "charactercreator",
-        "neutral-default-derivative"
-      ],
-      "upstream_id": "panties",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "cc-garment-bra",
-      "title": "Strapless bra",
-      "category": "apparel/tops",
-      "source": "charactercreator-clothing",
-      "style": "realistic",
-      "tags": [
-        "clothing",
-        "charactercreator",
-        "neutral-default-derivative"
-      ],
-      "upstream_id": "bra",
+      "upstream_id": "shoes06",
       "skip_authored_animation": true
     }
   ]

@@ -4,7 +4,7 @@ import {
   sortAssets,
   groupByCategory,
   childCategoryCounts,
-} from "./data.js";
+} from "./data.js?v=2";
 import { renderCards } from "./cards.js";
 import { showDetail } from "./detail.js";
 
