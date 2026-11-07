@@ -1,0 +1,24 @@
+{
+  "id": "g3-fashion-wristwatch",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Analog gold-colored wristwatch with leather strap around a display pillow.",
+  "limitations": [
+    "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+    "Stylized pastel model, not photorealistic.",
+    "Includes a display pillow in the same mesh as the apparel; removing it requires mesh editing and separability was not verified.",
+    "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Blender inspection counted 4 zero-area triangles; topology-sensitive workflows may require cleanup."
+  ],
+  "contact_sheet_sha256": "9160eaf14f9e8a44a39ab0ca0041e65fdc02871bc82b0ca27b7d81ff73bb3f99",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

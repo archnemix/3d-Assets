@@ -2,7 +2,7 @@
 
 Checked on 2026-11-04. Scope: approved assets under assets/ only.
 
-**453 of 453 approved assets pass every check.**
+**489 of 489 approved assets pass every check.**
 
 Every approved asset is dedicated to the public domain under CC0 1.0. For each one
 that means: no cost, no attribution, commercial use allowed, use and redistribution
@@ -19,7 +19,43 @@ standalone. "Display" means showing the model and our own renders publicly.
 
 | Asset | Category | Creator / source | License | Free | Credit | Sell with it | Use as-is | Display |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Rolled leather belt](../assets/apparel/accessories/g3-fashion-belt/README.md) | `apparel/accessories` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Western boot spurs](../assets/apparel/accessories/g3-fashion-cowboy-spurs/README.md) | `apparel/accessories` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Polka-dot hair bow](../assets/apparel/accessories/g3-fashion-hair-bow/README.md) | `apparel/accessories` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Striped knit scarf](../assets/apparel/accessories/g3-fashion-scarf/README.md) | `apparel/accessories` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Tinted sunglasses](../assets/apparel/accessories/g3-fashion-sunglasses/README.md) | `apparel/accessories` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Leather-strap wristwatch](../assets/apparel/accessories/g3-fashion-wristwatch/README.md) | `apparel/accessories` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Round Spectacles](../assets/apparel/accessories/ph-round-spectacles/README.md) | `apparel/accessories` | Sean Buckley (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Feather costume wings](../assets/apparel/costume/g3-fashion-costume-wings/README.md) | `apparel/costume` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Western cowboy boots](../assets/apparel/footwear/g3-fashion-cowboy-boots/README.md) | `apparel/footwear` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Bow high-heel pumps](../assets/apparel/footwear/g3-fashion-high-heels/README.md) | `apparel/footwear` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Laced hiking boots](../assets/apparel/footwear/g3-fashion-hiking-boots/README.md) | `apparel/footwear` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Rubber rain boots](../assets/apparel/footwear/g3-fashion-rain-boots/README.md) | `apparel/footwear` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Leather lace-up shoes](../assets/apparel/footwear/g3-fashion-shoe/README.md) | `apparel/footwear` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Plush house slippers](../assets/apparel/footwear/g3-fashion-slippers/README.md) | `apparel/footwear` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Canvas sneakers](../assets/apparel/footwear/g3-fashion-sneaker/README.md) | `apparel/footwear` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Baseball cap](../assets/apparel/headwear/g3-fashion-baseball-cap/README.md) | `apparel/headwear` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Knitted pom-pom beanie](../assets/apparel/headwear/g3-fashion-beanie/README.md) | `apparel/headwear` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Bucket hat](../assets/apparel/headwear/g3-fashion-bucket-hat/README.md) | `apparel/headwear` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Pleated chef toque](../assets/apparel/headwear/g3-fashion-chef-hat/README.md) | `apparel/headwear` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Western cowboy hat](../assets/apparel/headwear/g3-fashion-cowboy-hat/README.md) | `apparel/headwear` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Felt fedora](../assets/apparel/headwear/g3-fashion-fedora/README.md) | `apparel/headwear` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Graduation mortarboard](../assets/apparel/headwear/g3-fashion-graduation-cap/README.md) | `apparel/headwear` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Festive Santa hat](../assets/apparel/headwear/g3-fashion-santa-hat/README.md) | `apparel/headwear` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Woven straw sun hat](../assets/apparel/headwear/g3-fashion-straw-hat/README.md) | `apparel/headwear` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Formal top hat](../assets/apparel/headwear/g3-fashion-top-hat/README.md) | `apparel/headwear` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Fisherman’s hat](../assets/apparel/headwear/ph-fishermans-hat/README.md) | `apparel/headwear` | PierreB3D (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Chainmail shirt on hanger](../assets/apparel/historical-armor/g3-fashion-chainmail/README.md) | `apparel/historical-armor` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Charm bracelet](../assets/apparel/jewelry/g3-fashion-bracelet/README.md) | `apparel/jewelry` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Gemstone drop earrings](../assets/apparel/jewelry/g3-fashion-earrings/README.md) | `apparel/jewelry` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Pearl necklace](../assets/apparel/jewelry/g3-fashion-necklace/README.md) | `apparel/jewelry` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Gemstone pendant necklace](../assets/apparel/jewelry/g3-fashion-pendant/README.md) | `apparel/jewelry` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Gemstone tiara](../assets/apparel/jewelry/g3-fashion-tiara/README.md) | `apparel/jewelry` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Boxing gloves](../assets/apparel/sportswear/g3-fashion-boxing-gloves/README.md) | `apparel/sportswear` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Sports jersey on hanger](../assets/apparel/sportswear/g3-fashion-sports-jersey/README.md) | `apparel/sportswear` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Hooded sweatshirt on hanger](../assets/apparel/tops/g3-fashion-hoodie/README.md) | `apparel/tops` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Denim jacket on hanger](../assets/apparel/tops/g3-fashion-jacket/README.md) | `apparel/tops` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Garden gloves](../assets/apparel/workwear/ph-garden-gloves/README.md) | `apparel/workwear` | Satyaki Mandal (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Medieval arched double castle door](../assets/architecture/doors/ph-castle-door/README.md) | `architecture/doors` | Tina (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Modular chainlink fence](../assets/architecture/fences/ph-chainlink-fence/README.md) | `architecture/fences` | James Ray Cock, Amal Kumar (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Forged farm gate latch](../assets/architecture/gates/ph-gate-latch/README.md) | `architecture/gates` | Desktoy (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -497,7 +533,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 
 ### Grab3D — `grab3d`
 
-265 approved assets. Status: **verified**.
+299 approved assets. Status: **verified**.
 
 - Terms: <https://grab3d.com/license/>
 - Pinned evidence: <https://grab3d.com/license/>
@@ -544,7 +580,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 
 ### Poly Haven — `polyhaven`
 
-160 approved assets. Status: **verified**.
+162 approved assets. Status: **verified**.
 
 - Terms: <https://polyhaven.com/license>
 - Pinned evidence: <https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md>
@@ -662,6 +698,40 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Crawler excavator](../assets/vehicles/farm/g3-excavator/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Roadside farm produce stand](../assets/buildings/farm/g3-farm-stand/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Farm tipping trailer with hay](../assets/vehicles/farm/g3-farm-trailer/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Baseball cap](../assets/apparel/headwear/g3-fashion-baseball-cap/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Knitted pom-pom beanie](../assets/apparel/headwear/g3-fashion-beanie/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Rolled leather belt](../assets/apparel/accessories/g3-fashion-belt/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Boxing gloves](../assets/apparel/sportswear/g3-fashion-boxing-gloves/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Charm bracelet](../assets/apparel/jewelry/g3-fashion-bracelet/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Bucket hat](../assets/apparel/headwear/g3-fashion-bucket-hat/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Chainmail shirt on hanger](../assets/apparel/historical-armor/g3-fashion-chainmail/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Pleated chef toque](../assets/apparel/headwear/g3-fashion-chef-hat/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Feather costume wings](../assets/apparel/costume/g3-fashion-costume-wings/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Western cowboy boots](../assets/apparel/footwear/g3-fashion-cowboy-boots/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Western cowboy hat](../assets/apparel/headwear/g3-fashion-cowboy-hat/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Western boot spurs](../assets/apparel/accessories/g3-fashion-cowboy-spurs/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Gemstone drop earrings](../assets/apparel/jewelry/g3-fashion-earrings/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Felt fedora](../assets/apparel/headwear/g3-fashion-fedora/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Graduation mortarboard](../assets/apparel/headwear/g3-fashion-graduation-cap/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Polka-dot hair bow](../assets/apparel/accessories/g3-fashion-hair-bow/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Bow high-heel pumps](../assets/apparel/footwear/g3-fashion-high-heels/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Laced hiking boots](../assets/apparel/footwear/g3-fashion-hiking-boots/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Hooded sweatshirt on hanger](../assets/apparel/tops/g3-fashion-hoodie/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Denim jacket on hanger](../assets/apparel/tops/g3-fashion-jacket/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Pearl necklace](../assets/apparel/jewelry/g3-fashion-necklace/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Gemstone pendant necklace](../assets/apparel/jewelry/g3-fashion-pendant/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Rubber rain boots](../assets/apparel/footwear/g3-fashion-rain-boots/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Festive Santa hat](../assets/apparel/headwear/g3-fashion-santa-hat/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Striped knit scarf](../assets/apparel/accessories/g3-fashion-scarf/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Leather lace-up shoes](../assets/apparel/footwear/g3-fashion-shoe/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Plush house slippers](../assets/apparel/footwear/g3-fashion-slippers/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Canvas sneakers](../assets/apparel/footwear/g3-fashion-sneaker/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Sports jersey on hanger](../assets/apparel/sportswear/g3-fashion-sports-jersey/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Woven straw sun hat](../assets/apparel/headwear/g3-fashion-straw-hat/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Tinted sunglasses](../assets/apparel/accessories/g3-fashion-sunglasses/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Gemstone tiara](../assets/apparel/jewelry/g3-fashion-tiara/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Formal top hat](../assets/apparel/headwear/g3-fashion-top-hat/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
+| [Leather-strap wristwatch](../assets/apparel/accessories/g3-fashion-wristwatch/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Car ferry](../assets/vehicles/watercraft/g3-ferry/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Fire truck](../assets/vehicles/trucks/g3-fire-truck/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
 | [Fishing boat](../assets/vehicles/watercraft/g3-fishing-boat/README.md) | AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure. |
@@ -869,19 +939,19 @@ Every check below is machine-verified by `python -m asset_library license-audit`
 
 | Check | Passing |
 | --- | --- |
-| `cc0_spdx` | 453/453 |
-| `cc0_text_present` | 453/453 |
-| `commercial_use_allowed` | 453/453 |
-| `evidence_recorded` | 453/453 |
-| `free_of_charge` | 453/453 |
-| `license_file_checksummed` | 453/453 |
-| `no_attribution_required` | 453/453 |
-| `no_trademark_warning` | 453/453 |
-| `redistribution_allowed` | 453/453 |
-| `source_terms_verified` | 453/453 |
-| `standalone_resale_permitted` | 453/453 |
-| `textures_included` | 453/453 |
-| `visually_approved` | 453/453 |
+| `cc0_spdx` | 489/489 |
+| `cc0_text_present` | 489/489 |
+| `commercial_use_allowed` | 489/489 |
+| `evidence_recorded` | 489/489 |
+| `free_of_charge` | 489/489 |
+| `license_file_checksummed` | 489/489 |
+| `no_attribution_required` | 489/489 |
+| `no_trademark_warning` | 489/489 |
+| `redistribution_allowed` | 489/489 |
+| `source_terms_verified` | 489/489 |
+| `standalone_resale_permitted` | 489/489 |
+| `textures_included` | 489/489 |
+| `visually_approved` | 489/489 |
 
 ## Evidence per asset
 
@@ -983,6 +1053,40 @@ Each row links to the license file stored beside the model and to the exact
 | g3-excavator | [LICENSE.txt](../assets/vehicles/farm/g3-excavator/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/excavator/) | [evidence](https://grab3d.com/dl/excavator/LICENSE.txt) |
 | g3-farm-stand | [LICENSE.txt](../assets/buildings/farm/g3-farm-stand/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/buildings/farm-stand/) | [evidence](https://grab3d.com/dl/farm-stand/LICENSE.txt) |
 | g3-farm-trailer | [LICENSE.txt](../assets/vehicles/farm/g3-farm-trailer/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/farm-trailer/) | [evidence](https://grab3d.com/dl/farm-trailer/LICENSE.txt) |
+| g3-fashion-baseball-cap | [LICENSE.txt](../assets/apparel/headwear/g3-fashion-baseball-cap/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/baseball-cap/) | [evidence](https://grab3d.com/dl/baseball-cap/LICENSE.txt) |
+| g3-fashion-beanie | [LICENSE.txt](../assets/apparel/headwear/g3-fashion-beanie/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/beanie/) | [evidence](https://grab3d.com/dl/beanie/LICENSE.txt) |
+| g3-fashion-belt | [LICENSE.txt](../assets/apparel/accessories/g3-fashion-belt/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/belt/) | [evidence](https://grab3d.com/dl/belt/LICENSE.txt) |
+| g3-fashion-boxing-gloves | [LICENSE.txt](../assets/apparel/sportswear/g3-fashion-boxing-gloves/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/sports/boxing-gloves/) | [evidence](https://grab3d.com/dl/boxing-gloves/LICENSE.txt) |
+| g3-fashion-bracelet | [LICENSE.txt](../assets/apparel/jewelry/g3-fashion-bracelet/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/bracelet/) | [evidence](https://grab3d.com/dl/bracelet/LICENSE.txt) |
+| g3-fashion-bucket-hat | [LICENSE.txt](../assets/apparel/headwear/g3-fashion-bucket-hat/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/bucket-hat/) | [evidence](https://grab3d.com/dl/bucket-hat/LICENSE.txt) |
+| g3-fashion-chainmail | [LICENSE.txt](../assets/apparel/historical-armor/g3-fashion-chainmail/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/weapons/chainmail/) | [evidence](https://grab3d.com/dl/chainmail/LICENSE.txt) |
+| g3-fashion-chef-hat | [LICENSE.txt](../assets/apparel/headwear/g3-fashion-chef-hat/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/chef-hat/) | [evidence](https://grab3d.com/dl/chef-hat/LICENSE.txt) |
+| g3-fashion-costume-wings | [LICENSE.txt](../assets/apparel/costume/g3-fashion-costume-wings/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/costume-wings/) | [evidence](https://grab3d.com/dl/costume-wings/LICENSE.txt) |
+| g3-fashion-cowboy-boots | [LICENSE.txt](../assets/apparel/footwear/g3-fashion-cowboy-boots/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/cowboy-boots/) | [evidence](https://grab3d.com/dl/cowboy-boots/LICENSE.txt) |
+| g3-fashion-cowboy-hat | [LICENSE.txt](../assets/apparel/headwear/g3-fashion-cowboy-hat/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/cowboy-hat/) | [evidence](https://grab3d.com/dl/cowboy-hat/LICENSE.txt) |
+| g3-fashion-cowboy-spurs | [LICENSE.txt](../assets/apparel/accessories/g3-fashion-cowboy-spurs/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/cowboy-spurs/) | [evidence](https://grab3d.com/dl/cowboy-spurs/LICENSE.txt) |
+| g3-fashion-earrings | [LICENSE.txt](../assets/apparel/jewelry/g3-fashion-earrings/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/earrings/) | [evidence](https://grab3d.com/dl/earrings/LICENSE.txt) |
+| g3-fashion-fedora | [LICENSE.txt](../assets/apparel/headwear/g3-fashion-fedora/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/fedora/) | [evidence](https://grab3d.com/dl/fedora/LICENSE.txt) |
+| g3-fashion-graduation-cap | [LICENSE.txt](../assets/apparel/headwear/g3-fashion-graduation-cap/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/graduation-cap/) | [evidence](https://grab3d.com/dl/graduation-cap/LICENSE.txt) |
+| g3-fashion-hair-bow | [LICENSE.txt](../assets/apparel/accessories/g3-fashion-hair-bow/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/hair-bow/) | [evidence](https://grab3d.com/dl/hair-bow/LICENSE.txt) |
+| g3-fashion-high-heels | [LICENSE.txt](../assets/apparel/footwear/g3-fashion-high-heels/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/high-heels/) | [evidence](https://grab3d.com/dl/high-heels/LICENSE.txt) |
+| g3-fashion-hiking-boots | [LICENSE.txt](../assets/apparel/footwear/g3-fashion-hiking-boots/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/hiking-boots/) | [evidence](https://grab3d.com/dl/hiking-boots/LICENSE.txt) |
+| g3-fashion-hoodie | [LICENSE.txt](../assets/apparel/tops/g3-fashion-hoodie/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/hoodie/) | [evidence](https://grab3d.com/dl/hoodie/LICENSE.txt) |
+| g3-fashion-jacket | [LICENSE.txt](../assets/apparel/tops/g3-fashion-jacket/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/jacket/) | [evidence](https://grab3d.com/dl/jacket/LICENSE.txt) |
+| g3-fashion-necklace | [LICENSE.txt](../assets/apparel/jewelry/g3-fashion-necklace/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/necklace/) | [evidence](https://grab3d.com/dl/necklace/LICENSE.txt) |
+| g3-fashion-pendant | [LICENSE.txt](../assets/apparel/jewelry/g3-fashion-pendant/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/pendant/) | [evidence](https://grab3d.com/dl/pendant/LICENSE.txt) |
+| g3-fashion-rain-boots | [LICENSE.txt](../assets/apparel/footwear/g3-fashion-rain-boots/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/rain-boots/) | [evidence](https://grab3d.com/dl/rain-boots/LICENSE.txt) |
+| g3-fashion-santa-hat | [LICENSE.txt](../assets/apparel/headwear/g3-fashion-santa-hat/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/santa-hat/) | [evidence](https://grab3d.com/dl/santa-hat/LICENSE.txt) |
+| g3-fashion-scarf | [LICENSE.txt](../assets/apparel/accessories/g3-fashion-scarf/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/scarf/) | [evidence](https://grab3d.com/dl/scarf/LICENSE.txt) |
+| g3-fashion-shoe | [LICENSE.txt](../assets/apparel/footwear/g3-fashion-shoe/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/shoe/) | [evidence](https://grab3d.com/dl/shoe/LICENSE.txt) |
+| g3-fashion-slippers | [LICENSE.txt](../assets/apparel/footwear/g3-fashion-slippers/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/slippers/) | [evidence](https://grab3d.com/dl/slippers/LICENSE.txt) |
+| g3-fashion-sneaker | [LICENSE.txt](../assets/apparel/footwear/g3-fashion-sneaker/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/sneaker/) | [evidence](https://grab3d.com/dl/sneaker/LICENSE.txt) |
+| g3-fashion-sports-jersey | [LICENSE.txt](../assets/apparel/sportswear/g3-fashion-sports-jersey/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/sports/sports-jersey/) | [evidence](https://grab3d.com/dl/sports-jersey/LICENSE.txt) |
+| g3-fashion-straw-hat | [LICENSE.txt](../assets/apparel/headwear/g3-fashion-straw-hat/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/straw-hat/) | [evidence](https://grab3d.com/dl/straw-hat/LICENSE.txt) |
+| g3-fashion-sunglasses | [LICENSE.txt](../assets/apparel/accessories/g3-fashion-sunglasses/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/sunglasses/) | [evidence](https://grab3d.com/dl/sunglasses/LICENSE.txt) |
+| g3-fashion-tiara | [LICENSE.txt](../assets/apparel/jewelry/g3-fashion-tiara/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/tiara/) | [evidence](https://grab3d.com/dl/tiara/LICENSE.txt) |
+| g3-fashion-top-hat | [LICENSE.txt](../assets/apparel/headwear/g3-fashion-top-hat/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/top-hat/) | [evidence](https://grab3d.com/dl/top-hat/LICENSE.txt) |
+| g3-fashion-wristwatch | [LICENSE.txt](../assets/apparel/accessories/g3-fashion-wristwatch/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/props/wristwatch/) | [evidence](https://grab3d.com/dl/wristwatch/LICENSE.txt) |
 | g3-ferry | [LICENSE.txt](../assets/vehicles/watercraft/g3-ferry/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/ferry/) | [evidence](https://grab3d.com/dl/ferry/LICENSE.txt) |
 | g3-fire-truck | [LICENSE.txt](../assets/vehicles/trucks/g3-fire-truck/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/fire-truck/) | [evidence](https://grab3d.com/dl/fire-truck/LICENSE.txt) |
 | g3-fishing-boat | [LICENSE.txt](../assets/vehicles/watercraft/g3-fishing-boat/LICENSE.txt) | `01908a56d6ca` | [source](https://grab3d.com/models/vehicles/fishing-boat/) | [evidence](https://grab3d.com/dl/fishing-boat/LICENSE.txt) |
@@ -1251,12 +1355,14 @@ Each row links to the license file stored beside the model and to the exact
 | ph-film-projector | [LICENSE.txt](../assets/electronics/av/ph-film-projector/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/filmstrip_projector_8mm) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-fire-alarm | [LICENSE.txt](../assets/industrial/safety/ph-fire-alarm/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/fire_alarm) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-fire-hydrant | [LICENSE.txt](../assets/industrial/infrastructure/ph-fire-hydrant/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/fire_hydrant) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-fishermans-hat | [LICENSE.txt](../assets/apparel/headwear/ph-fishermans-hat/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/fishermans_hat) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-flower-empodium | [LICENSE.txt](../assets/nature/flowers/ph-flower-empodium/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/flower_empodium) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-flower-gazania | [LICENSE.txt](../assets/nature/flowers/ph-flower-gazania/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/flower_gazania) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-flower-stinkkruid | [LICENSE.txt](../assets/nature/flowers/ph-flower-stinkkruid/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/flower_stinkkruid) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-flower-ursinia | [LICENSE.txt](../assets/nature/flowers/ph-flower-ursinia/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/flower_ursinia) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-food-pears-asian-01 | [LICENSE.txt](../assets/food/fruit/ph-food-pears-asian-01/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/food_pears_asian_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-food-pomegranate-01 | [LICENSE.txt](../assets/food/fruit/ph-food-pomegranate-01/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/food_pomegranate_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
+| ph-garden-gloves | [LICENSE.txt](../assets/apparel/workwear/ph-garden-gloves/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/garden_gloves_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-garden-hose-wall-mounted-01 | [LICENSE.txt](../assets/tools/garden/ph-garden-hose-wall-mounted-01/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/garden_hose_wall_mounted_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-gate-latch | [LICENSE.txt](../assets/architecture/gates/ph-gate-latch/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/gate_latch_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |
 | ph-ginger-root | [LICENSE.txt](../assets/food/vegetables/ph-ginger-root/LICENSE.txt) | `a2010f343487` | [source](https://polyhaven.com/a/food_ginger_01) | [evidence](https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md) |

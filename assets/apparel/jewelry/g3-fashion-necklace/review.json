@@ -1,0 +1,23 @@
+{
+  "id": "g3-fashion-necklace",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Pearl necklace draped on a lavender display bust.",
+  "limitations": [
+    "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+    "Stylized pastel model, not photorealistic.",
+    "Includes a display bust and base in the same mesh as the apparel; removing it requires mesh editing and separability was not verified.",
+    "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+  ],
+  "contact_sheet_sha256": "e20f9f9356a702c9f692b9e214557bde5de484bc17fd50f9c083b6504e9300e2",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

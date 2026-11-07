@@ -1,0 +1,24 @@
+{
+  "id": "g3-fashion-hoodie",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Pink hoodie with pocket and drawcords on a wooden stand.",
+  "limitations": [
+    "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+    "Stylized pastel model, not photorealistic.",
+    "Includes a hanger and coat stand in the same mesh as the apparel; removing it requires mesh editing and separability was not verified.",
+    "Hanging garment is compressed into a display shape; it is not a ready-to-wear character garment.",
+    "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+  ],
+  "contact_sheet_sha256": "4746d4df0a7d4f5f52e305623baae199e0e37b507ed348f778dcbddd4b211708",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

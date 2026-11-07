@@ -1,0 +1,334 @@
+{
+  "schema_version": 1,
+  "id": "g3-fashion-costume-wings",
+  "title": "Feather costume wings",
+  "category": "apparel/costume",
+  "style": "stylized",
+  "tags": [
+    "wings",
+    "costume",
+    "apparel"
+  ],
+  "batch": "apparel-foundations-01",
+  "acquired_at": "2026-11-07T01:45:48.676071+00:00",
+  "review": {
+    "id": "g3-fashion-costume-wings",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Layered pastel feather costume wings on a tall coat stand.",
+    "limitations": [
+      "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+      "Stylized pastel model, not photorealistic.",
+      "Includes a coat stand in the same mesh as the apparel; removing it requires mesh editing and separability was not verified.",
+      "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+    ],
+    "contact_sheet_sha256": "3d172f1d76fd7308053e29b2f3740f78f72dd1d9db75e23819f014b697acf8c3",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/costume-wings.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/costume-wings/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/props/costume-wings/",
+    "source_id": "costume-wings",
+    "revision": "f46cc2366aba9a582d83c18264f5f1243e2b3b5f53101a63c53795a67e0b6310",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/costume-wings/costume-wings.glb",
+        "bytes": 1844276,
+        "sha256": "f46cc2366aba9a582d83c18264f5f1243e2b3b5f53101a63c53795a67e0b6310"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/costume-wings/LICENSE.txt"
+  },
+  "model": "model/costume-wings.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/costume-wings_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "costume-wings_body_normal"
+    },
+    {
+      "path": "textures/costume-wings_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "costume-wings_body_basecolor"
+    },
+    {
+      "path": "textures/costume-wings_body_metallic-costume-wings_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "costume-wings_body_metallic-costume-wings_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 25843,
+    "triangles": 34610,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "costume-wings_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "costume-wings_body_metallic-costume-wings_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "costume-wings_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1536,
+      "sha256": "b220f5d40d9a6df1962ba45f0cefee460d6f841bc7797d8a69dfd552b0044a53",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68221,
+      "sha256": "35899aa3feca4baadf01c4d5c12fe0a0d033aa52f775d52d3c6d7e172cfd7a55",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/costume-wings.glb",
+      "bytes": 1844276,
+      "sha256": "f46cc2366aba9a582d83c18264f5f1243e2b3b5f53101a63c53795a67e0b6310",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 12550,
+      "sha256": "8f4eda4dd31476eb3a39cc18c6b7244a8626977d82c629ef10cb599bfe005fb1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 20943,
+      "sha256": "b384e255f99988eb5da56f0e7680e0259ef21a017ed37de53880ac46774e143b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 146029,
+      "sha256": "3d172f1d76fd7308053e29b2f3740f78f72dd1d9db75e23819f014b697acf8c3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 836,
+      "sha256": "345a1228f63a433783e84b7223ef8849cca7db88d9be0fd90d6e043d0d0ad37f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 25659,
+      "sha256": "a8b1fe7811f6a7208c62b94b0f970d0372a47a291ea1a3cc45bdcc8c9d84b884",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 21862,
+      "sha256": "d194cc49fa431087301c0bb14c5fce4439369cf606e2157df20533177ad63d83",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 13023,
+      "sha256": "43fbef39cac276220c80e9e174c7e7180dd1d92988ecc582f2330e112148bd82",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 17694,
+      "sha256": "e004c1558c2e7c3e6d20b1556e5c14d3cb3895e7150f11da2f148a7d6cdd74e2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 19254,
+      "sha256": "bbe47ea4dedf127a03ba945df445042ca1597fc220615c58c4910205bf80b881",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 17703,
+      "sha256": "b84cc09dad49ae01563e51ed00e5b0ccf8c18fb3a521b652a37ac2bc5b8d6e99",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 13299,
+      "sha256": "e41d9205fd14f76bb3f7c62cebf6fd18bd5634b0515f285eca86604b64fba47a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 22002,
+      "sha256": "0791e136ece171effca0e3fd006df2ba2db7a549e2d953e9c387415bc642f473",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 13703,
+      "sha256": "3c3ec19e6df6ea09f9a72be055b42458e7fac11453cd26e08ed77380355c1907",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 34722,
+      "sha256": "5fea20d507ade3a005b83021e284cf988204ebbbac0b3a6049beb40be534ece1",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1936,
+      "sha256": "cc5d31b9bcfee007869d65dbb48948c90d36eff5663db1c84871dda9a7052acd",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1904,
+      "sha256": "720840d27e5e73a0f59c69de9595d4b192517cc53f7b00784a8b6e8caad0abd6",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 518,
+      "sha256": "ed5e78f6bda082de8d636bf4c43045f70ce2427f3b016a10a80d9bc4109f37f2",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "85d79f1d8ddfc27ef84051b409d3e633a3b3af024c08952d3c785788cb03a888",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1008,
+      "sha256": "35b313791b5ff6c427992f47739136e10b72a96d349f70f8780de50f517b873b",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/costume-wings_body_basecolor.jpg",
+      "bytes": 351146,
+      "sha256": "f6e773fab706991c69ded5ac23fe46784b00fe8b6469041a887ad140b6f6bbbe",
+      "role": "textures"
+    },
+    {
+      "path": "textures/costume-wings_body_metallic-costume-wings_body_roughness.jpg",
+      "bytes": 276718,
+      "sha256": "e815a95ae0b25b6141ab158a06eb3dae27cb105e9ad7eeaf60759d0dbabcce67",
+      "role": "textures"
+    },
+    {
+      "path": "textures/costume-wings_body_normal.jpg",
+      "bytes": 179050,
+      "sha256": "11273ac685de228c3f0967c71b1b8bf60f0347ee488281b8dd1af3ddb9e6360c",
+      "role": "textures"
+    }
+  ]
+}

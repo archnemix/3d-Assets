@@ -1,0 +1,333 @@
+{
+  "schema_version": 1,
+  "id": "g3-fashion-chef-hat",
+  "title": "Pleated chef toque",
+  "category": "apparel/headwear",
+  "style": "stylized",
+  "tags": [
+    "chef",
+    "workwear",
+    "apparel"
+  ],
+  "batch": "apparel-foundations-01",
+  "acquired_at": "2026-11-07T01:40:49.527305+00:00",
+  "review": {
+    "id": "g3-fashion-chef-hat",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. White pleated cook’s toque with broad band.",
+    "limitations": [
+      "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+      "Stylized pastel model, not photorealistic.",
+      "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+    ],
+    "contact_sheet_sha256": "642f333e6706f419083bef9b6e57f0e1ff2626e8c0aeb64d4be70ee89f35eb9e",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/chef-hat.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/chef-hat/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/props/chef-hat/",
+    "source_id": "chef-hat",
+    "revision": "a16229e6a8ece62ca4bae9d8152d2fc68f847c27d73b8f6e64933ee992e77854",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/chef-hat/chef-hat.glb",
+        "bytes": 914860,
+        "sha256": "a16229e6a8ece62ca4bae9d8152d2fc68f847c27d73b8f6e64933ee992e77854"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/chef-hat/LICENSE.txt"
+  },
+  "model": "model/chef-hat.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/chef-hat_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "chef-hat_body_normal"
+    },
+    {
+      "path": "textures/chef-hat_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "chef-hat_body_basecolor"
+    },
+    {
+      "path": "textures/chef-hat_body_metallic-chef-hat_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "chef-hat_body_metallic-chef-hat_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 6357,
+    "triangles": 7328,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "chef-hat_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "chef-hat_body_metallic-chef-hat_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "chef-hat_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1397,
+      "sha256": "323f05805e33a5eeef9f2053accbb441125c8eb1b9a50ef8e935848dcee6d9b6",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68459,
+      "sha256": "2bbc2c3ea2b401a4a5b437a89ec71ae8ef3db20f014c79267b8b23f5235fc4b5",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/chef-hat.glb",
+      "bytes": 914860,
+      "sha256": "a16229e6a8ece62ca4bae9d8152d2fc68f847c27d73b8f6e64933ee992e77854",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 27757,
+      "sha256": "b13522131503a378f756acd4ec26afa1c6126169a98e5451352ef7bea76dae54",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 20556,
+      "sha256": "158e5eb098ea745e31cc671528e9be5b79472a339fddced1f65ad4895f90b6d3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 197698,
+      "sha256": "642f333e6706f419083bef9b6e57f0e1ff2626e8c0aeb64d4be70ee89f35eb9e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 814,
+      "sha256": "b6ca35d06cd45571896790d872b6e1ec8098729e136b1ee4a3bebd2e69ec8c30",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 22697,
+      "sha256": "351052b7b84c1c5d05a6267909cc7af84a6b11218eb8bd119f355c166fad95db",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 21698,
+      "sha256": "370d1df13b41253f91d1807eb9de07352d1a4ae43619bde7369bb4b73b4872e0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 20868,
+      "sha256": "199916e4aa3288c5871b99777317749fab595b5ea4659d6a02a94b363ac3ad11",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 21133,
+      "sha256": "c3357df7350d569317b22bd70cd396b082bb7fb12e50c2893819a4d783eaa289",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 22340,
+      "sha256": "0da82d2b6d30dc377b0684fbbcf5a073c814616feb57630b03f177edc2789db6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 24496,
+      "sha256": "596bea32bcc916e6f16d509259efcb76bd0a494b00c6ae22b2826d8cf08ae083",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 24875,
+      "sha256": "e2bd8944582d56710ad8af591c0b63418da963d8b1d745d3639794f18cd03b44",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 23365,
+      "sha256": "ddac5358aeab56ce9d11ac077e5af78d56bcd97a3c8e896b49b0a8287ca36904",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 20106,
+      "sha256": "680a04ee14195193faae1f97f873daf800189f79b36bba8f591e06fca74deed0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 60554,
+      "sha256": "a12f162289240685210ed827b30ed1c591d6a82741277a9732195f96ef6498b0",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1928,
+      "sha256": "c10630b705801b0949d6948515f328e4a3c80298fb696cce8f917ba107c3e0cd",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1509,
+      "sha256": "a606ab30de9e4c9af08b94547dcb51f95882d522a5568acb7576e832a7c00c88",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 477,
+      "sha256": "31039fedb343361f57045256802c3f20d3bb55d80cf5f890bc9a6676441ebb5c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "9883fc7d6eb267c8b526a1e0b1d2012e50eeea9eb8d39ce9030a2deb9cd8c66c",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 859,
+      "sha256": "64bd023c43e1e49c7c1f8d3ca96b7937842c39bab6d40ed06d0689b8fa4c8d71",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/chef-hat_body_basecolor.jpg",
+      "bytes": 226780,
+      "sha256": "31b41329f5e3a0434e6c58617fb1f9652eb7daf0b70968823cba14425ed790c5",
+      "role": "textures"
+    },
+    {
+      "path": "textures/chef-hat_body_metallic-chef-hat_body_roughness.jpg",
+      "bytes": 144829,
+      "sha256": "4727f10e3809c4eb9a46449413340a50f442f10a6d9f4ebf1ca8ca0f53f9f7eb",
+      "role": "textures"
+    },
+    {
+      "path": "textures/chef-hat_body_normal.jpg",
+      "bytes": 293346,
+      "sha256": "02923bb72d03b3f03166ff966fa16b0958ce5fd0599ec93a57e890e2ccc5f4c2",
+      "role": "textures"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "g3-fashion-jacket",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Blue denim-style jacket with collar, buttons and pockets displayed on a rack.",
+  "limitations": [
+    "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+    "Stylized pastel model, not photorealistic.",
+    "Includes a hanger and rack in the same mesh as the apparel; removing it requires mesh editing and separability was not verified.",
+    "Hanging garment is compressed into a display shape; it is not a ready-to-wear character garment.",
+    "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+  ],
+  "contact_sheet_sha256": "19f6e147d22a96c542105faacfcbf0f87fa855c42cf6af7485b2160bd2313c21",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

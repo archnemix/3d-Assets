@@ -1,0 +1,333 @@
+{
+  "schema_version": 1,
+  "id": "g3-fashion-cowboy-boots",
+  "title": "Western cowboy boots",
+  "category": "apparel/footwear",
+  "style": "stylized",
+  "tags": [
+    "boots",
+    "western",
+    "apparel"
+  ],
+  "batch": "apparel-foundations-01",
+  "acquired_at": "2026-11-07T01:47:52.430563+00:00",
+  "review": {
+    "id": "g3-fashion-cowboy-boots",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Tall western boots with pull loops and decorative stitching, one tilted.",
+    "limitations": [
+      "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+      "Stylized pastel model, not photorealistic.",
+      "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+    ],
+    "contact_sheet_sha256": "74e1b8a3de6ef83cee9edff6a4fe9976084713619427356c487fd0a23b70bcd3",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/cowboy-boots.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/cowboy-boots/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/props/cowboy-boots/",
+    "source_id": "cowboy-boots",
+    "revision": "fefed0df7e6825cebc1ab30672d157d0c766e96e6ae2e996f14bdbb76d3e35d2",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/cowboy-boots/cowboy-boots.glb",
+        "bytes": 1195192,
+        "sha256": "fefed0df7e6825cebc1ab30672d157d0c766e96e6ae2e996f14bdbb76d3e35d2"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/cowboy-boots/LICENSE.txt"
+  },
+  "model": "model/cowboy-boots.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/cowboy-boots_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "cowboy-boots_body_normal"
+    },
+    {
+      "path": "textures/cowboy-boots_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "cowboy-boots_body_basecolor"
+    },
+    {
+      "path": "textures/cowboy-boots_body_metallic-cowboy-boots_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "cowboy-boots_body_metallic-cowboy-boots_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 12493,
+    "triangles": 9480,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "cowboy-boots_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "cowboy-boots_body_metallic-cowboy-boots_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "cowboy-boots_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1407,
+      "sha256": "d3e318f43a09d3e8d5815f045efc61978033ae1bf00196c1bfc3894d6c46ebd2",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68420,
+      "sha256": "a3bcc296f98426dd34569241fabfd9434b0f9022726d335054691a5ba7436a80",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/cowboy-boots.glb",
+      "bytes": 1195192,
+      "sha256": "fefed0df7e6825cebc1ab30672d157d0c766e96e6ae2e996f14bdbb76d3e35d2",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 22323,
+      "sha256": "bda5e656f4ba2a3f3f9c8e46133e70557c3a21b6584cc531a8a1b0236556749e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 20961,
+      "sha256": "1e8f7bea4a746ab6636dee14d2ff0db60f1e3d333328d0cf6eb7cb66b76c200e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 196838,
+      "sha256": "74e1b8a3de6ef83cee9edff6a4fe9976084713619427356c487fd0a23b70bcd3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 831,
+      "sha256": "1cd00396df19f2b365bb0c35d549d94a77aa0a152a21900d9ae2797b67c31e29",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 22808,
+      "sha256": "71f68e9291da43fdbb909ab67e29c71eed68769ca0a96c198da00fc5909a6359",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 30004,
+      "sha256": "7f21f6facf284a60e641186f096267cb12d912dbb14dd871540c49be4ce755cd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 24217,
+      "sha256": "204500e4a66875bcacb63560d6a2170300f1b1bd0fd06cc8d8fa10e352609c5d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 20327,
+      "sha256": "b7268180cb6a53b60f8b247e2f6c3e4552b0b5c4e956c17410d82efbbfd9a12d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 20815,
+      "sha256": "13f08f153e00bf104343dc5e9565502acfab0d6b71b838fe837a02ba1918f539",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 26364,
+      "sha256": "2e6964fffe28e92e3298300980cd4b77238806a28196398d9454e1ceb793d653",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 25600,
+      "sha256": "16feaeee728dac7a13a740560d20d247dacbbbb9e39c4a03de7306dcefb1ef8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 22895,
+      "sha256": "58101da1a1ef7e6003ccc0b1e9de58cc7555e073f8fff7feb19cf2581918832b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 20584,
+      "sha256": "307c92dd6720833aa9076e80251b3dd7a616ea8d6024b5445a9748fbd6b20822",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 52503,
+      "sha256": "81d5372a47adb6dc7cb7eedf050c16fc43623428500e8d9c13062b5963958938",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1934,
+      "sha256": "7abd1c1f06c56fc0d31ae536b5dd23a48c0d432ee0226eabc0691b5374700ba4",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1479,
+      "sha256": "9b9d6644a11cdfe806503bd7d6c23a46cb2fcb96028581dc4464483791564599",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 510,
+      "sha256": "73d1ab8d788825fb8835d73e80a8b0e5e1fc2b7be914daa63b989b4d22885c69",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "42acfa0a5d599d074ebcf0d3a852cb7c1ef965534f7a8056b9311a92de846e12",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 890,
+      "sha256": "82bca069f85ffa7aeb2f01d9d2e0a28f4f3651b7e5d61333cec96c3b6efb61cb",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/cowboy-boots_body_basecolor.jpg",
+      "bytes": 379605,
+      "sha256": "1add526f5c4fb0c91bf2b8e1246f3cd0709cddab61b157e7b1bac23f59b51dfd",
+      "role": "textures"
+    },
+    {
+      "path": "textures/cowboy-boots_body_metallic-cowboy-boots_body_roughness.jpg",
+      "bytes": 289991,
+      "sha256": "879eee7146bda87b701d3e9f90b359be558e8eb0ecf76384d0c4371a14fe82f8",
+      "role": "textures"
+    },
+    {
+      "path": "textures/cowboy-boots_body_normal.jpg",
+      "bytes": 66407,
+      "sha256": "c668ae9b25612eb6374f84fc127560d76bfbaf5baf4ef7e07d30232084429c5c",
+      "role": "textures"
+    }
+  ]
+}

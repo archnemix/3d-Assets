@@ -1,0 +1,333 @@
+{
+  "schema_version": 1,
+  "id": "g3-fashion-sneaker",
+  "title": "Canvas sneakers",
+  "category": "apparel/footwear",
+  "style": "stylized",
+  "tags": [
+    "sneakers",
+    "casual",
+    "apparel"
+  ],
+  "batch": "apparel-foundations-01",
+  "acquired_at": "2026-11-07T01:49:41.844324+00:00",
+  "review": {
+    "id": "g3-fashion-sneaker",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Pair of low canvas-style sneakers with contrast toe panels and laces.",
+    "limitations": [
+      "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+      "Stylized pastel model, not photorealistic.",
+      "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+    ],
+    "contact_sheet_sha256": "6a26ac2fbfcce0161d5e822e7321428d99acbe8abde5a0867fc32dec766dbf04",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/sneaker.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/sneaker/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/props/sneaker/",
+    "source_id": "sneaker",
+    "revision": "64a3cc3d2ff77aa4f77d7bd38d54ac91cb4bed0eae888f7cc253e3fe7545fdb6",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/sneaker/sneaker.glb",
+        "bytes": 1518144,
+        "sha256": "64a3cc3d2ff77aa4f77d7bd38d54ac91cb4bed0eae888f7cc253e3fe7545fdb6"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/sneaker/LICENSE.txt"
+  },
+  "model": "model/sneaker.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/sneaker_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "sneaker_body_normal"
+    },
+    {
+      "path": "textures/sneaker_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "sneaker_body_basecolor"
+    },
+    {
+      "path": "textures/sneaker_body_metallic-sneaker_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "sneaker_body_metallic-sneaker_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 18024,
+    "triangles": 19838,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "sneaker_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "sneaker_body_metallic-sneaker_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "sneaker_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1393,
+      "sha256": "d235dfc374880022c8d2eb2fa24085fc792410ccac8edd41002526757a01ffbf",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68129,
+      "sha256": "0d97ba4cd8409a30f47b580d2381e74d2b056d0a675721183273c4a363a456f0",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/sneaker.glb",
+      "bytes": 1518144,
+      "sha256": "64a3cc3d2ff77aa4f77d7bd38d54ac91cb4bed0eae888f7cc253e3fe7545fdb6",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 18318,
+      "sha256": "f110b22d4ca8dc674f19eca3620e9ddbef8e0a8720a5874f8b72c9d5854a81d1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 25089,
+      "sha256": "29145296aa9c98ae81e17a28133151aa604edd5acfd9774eb0df4bca708e2e87",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 212819,
+      "sha256": "6a26ac2fbfcce0161d5e822e7321428d99acbe8abde5a0867fc32dec766dbf04",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 812,
+      "sha256": "7534174c22bcc71c5f5c946b96f5cb9b214b1b93005b6bbc22b49e422a7c9ff2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 28584,
+      "sha256": "0d73486e290173b008bf4a9e1278234e7c6d3956f788a6491f8e767c548dfa14",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 28887,
+      "sha256": "fb858b1ec95afc291529b47bce258a455361349071b09a45aff26164ae7b1e0f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 23885,
+      "sha256": "0021e933c5b147e51737c8c3c13885b9c1a01742e60a742558005be57e6c77c0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 21183,
+      "sha256": "53288610c7d98c838559f6e0dd14c212b978d58bf703ab1983dd4acda466a1d8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 22687,
+      "sha256": "e38fc0f58e8e7a56b38018c77bdb713ee5960057be195871d33316bc15b08964",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 27177,
+      "sha256": "fef0ca01e871def539c44044fd8c740430ca7f38a6a36185696ce95a3e4723e2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 26611,
+      "sha256": "7f422ebfe027e355a74628ec5331d1a3f1dcf2cabb0370376295a353bf6caf02",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 24935,
+      "sha256": "b340c886cca72a6ce098c439d7179f7525978cb0ceb2faf65542b9c6d0cf4f2d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 33031,
+      "sha256": "327833705a6f86513b4b140d1987ddc6d4d268a6c5310170bff526496eefdc0d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 59243,
+      "sha256": "547f618c880240f88766fb1d7fe6a84d83fb56588ef63861dbf4b1e42a8d8ec2",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1930,
+      "sha256": "de1d0f3c811de55ad26f30ba5d3429a80c2fb90281cb11bc980db36fa153b271",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1699,
+      "sha256": "b0edcd41d6bc9d7027a566191cca266a1143a6237762a294531990a5485e0081",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 470,
+      "sha256": "c5219d2ab8baf224fb3d49766e2d295febeb45d365dfd18a67261d11bac3f8d1",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "28e240c841a55d3587532273138db2906bedd173aca4eb88ea0aff1e6bd76127",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 882,
+      "sha256": "dfdaf7d46f384e707e32aaaa3de2bf8d844d87b9a44032dae730817e6d715f71",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/sneaker_body_basecolor.jpg",
+      "bytes": 354537,
+      "sha256": "bfacdd348a2794e665dccc7189878083ac141d1406529caa881aca6fd6122c7d",
+      "role": "textures"
+    },
+    {
+      "path": "textures/sneaker_body_metallic-sneaker_body_roughness.jpg",
+      "bytes": 312912,
+      "sha256": "36c226623376cacfae6261fd3892a749880759d2e1e74ad8438d0991e5f5852c",
+      "role": "textures"
+    },
+    {
+      "path": "textures/sneaker_body_normal.jpg",
+      "bytes": 152193,
+      "sha256": "0c9ad05a27349a464889b8c2b3e44f91b96e580fb14f17c97364b8c9063d79f0",
+      "role": "textures"
+    }
+  ]
+}

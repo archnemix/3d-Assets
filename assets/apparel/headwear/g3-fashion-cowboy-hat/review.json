@@ -1,0 +1,23 @@
+{
+  "id": "g3-fashion-cowboy-hat",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Western hat with upturned brim, creased crown and studded band.",
+  "limitations": [
+    "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+    "Stylized pastel model, not photorealistic.",
+    "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Blender inspection counted 44 zero-area triangles; topology-sensitive workflows may require cleanup."
+  ],
+  "contact_sheet_sha256": "f7c7e4b1f2fb8443ccae58fa6a4b552ed75c90ef4b5fabbf7b9685ece4618bae",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

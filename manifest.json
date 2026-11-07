@@ -4,6 +4,281 @@
   "approval_policy": "Explicit visual review; every score >=4, mean >=4.6",
   "assets": [
     {
+      "id": "g3-fashion-belt",
+      "title": "Rolled leather belt",
+      "category": "apparel/accessories",
+      "style": "stylized",
+      "tags": [
+        "belt",
+        "leather",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/belt/",
+      "license_evidence": "https://grab3d.com/dl/belt/LICENSE.txt",
+      "directory": "assets/apparel/accessories/g3-fashion-belt",
+      "metadata": "assets/apparel/accessories/g3-fashion-belt/asset.json",
+      "metadata_sha256": "3d5485a09e087adc1f981a8e9ca73f5bf5603da0d569668dadcb48bd12f3de11",
+      "model": "assets/apparel/accessories/g3-fashion-belt/model/belt.glb",
+      "preview": "assets/apparel/accessories/g3-fashion-belt/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/accessories/g3-fashion-belt/previews/contact-sheet.jpg",
+      "triangles": 6280,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Fixed in a laid-out arrangement; reshaping it to be worn would require editing.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-cowboy-spurs",
+      "title": "Western boot spurs",
+      "category": "apparel/accessories",
+      "style": "stylized",
+      "tags": [
+        "spurs",
+        "western",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/cowboy-spurs/",
+      "license_evidence": "https://grab3d.com/dl/cowboy-spurs/LICENSE.txt",
+      "directory": "assets/apparel/accessories/g3-fashion-cowboy-spurs",
+      "metadata": "assets/apparel/accessories/g3-fashion-cowboy-spurs/asset.json",
+      "metadata_sha256": "61439b999ee45957cb9e4927a332f3ce4bd32d02c747d87c5a399ffe39bd752e",
+      "model": "assets/apparel/accessories/g3-fashion-cowboy-spurs/model/cowboy-spurs.glb",
+      "preview": "assets/apparel/accessories/g3-fashion-cowboy-spurs/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/accessories/g3-fashion-cowboy-spurs/previews/contact-sheet.jpg",
+      "triangles": 7112,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+        "Blender inspection counted 4 zero-area triangles; topology-sensitive workflows may require cleanup."
+      ]
+    },
+    {
+      "id": "g3-fashion-hair-bow",
+      "title": "Polka-dot hair bow",
+      "category": "apparel/accessories",
+      "style": "stylized",
+      "tags": [
+        "bow",
+        "hair",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/hair-bow/",
+      "license_evidence": "https://grab3d.com/dl/hair-bow/LICENSE.txt",
+      "directory": "assets/apparel/accessories/g3-fashion-hair-bow",
+      "metadata": "assets/apparel/accessories/g3-fashion-hair-bow/asset.json",
+      "metadata_sha256": "e97d3ce076d0b6be08907025f2bdc178f246eee24171b94bf5c8690fc1c228a3",
+      "model": "assets/apparel/accessories/g3-fashion-hair-bow/model/hair-bow.glb",
+      "preview": "assets/apparel/accessories/g3-fashion-hair-bow/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/accessories/g3-fashion-hair-bow/previews/contact-sheet.jpg",
+      "triangles": 8436,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-scarf",
+      "title": "Striped knit scarf",
+      "category": "apparel/accessories",
+      "style": "stylized",
+      "tags": [
+        "scarf",
+        "winter",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/scarf/",
+      "license_evidence": "https://grab3d.com/dl/scarf/LICENSE.txt",
+      "directory": "assets/apparel/accessories/g3-fashion-scarf",
+      "metadata": "assets/apparel/accessories/g3-fashion-scarf/asset.json",
+      "metadata_sha256": "ca0fc0f4253f651ee76fbd68de146b21b421ddeec963efbe555b1d94047e2090",
+      "model": "assets/apparel/accessories/g3-fashion-scarf/model/scarf.glb",
+      "preview": "assets/apparel/accessories/g3-fashion-scarf/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/accessories/g3-fashion-scarf/previews/contact-sheet.jpg",
+      "triangles": 13148,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Fixed in a laid-out arrangement; reshaping it to be worn would require editing.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-sunglasses",
+      "title": "Tinted sunglasses",
+      "category": "apparel/accessories",
+      "style": "stylized",
+      "tags": [
+        "sunglasses",
+        "eyewear",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/sunglasses/",
+      "license_evidence": "https://grab3d.com/dl/sunglasses/LICENSE.txt",
+      "directory": "assets/apparel/accessories/g3-fashion-sunglasses",
+      "metadata": "assets/apparel/accessories/g3-fashion-sunglasses/asset.json",
+      "metadata_sha256": "e15e67abe5b05f39d8c8cd249492b8aa0f35b9dd941487d0ecb58d8db5c8f1d4",
+      "model": "assets/apparel/accessories/g3-fashion-sunglasses/model/sunglasses.glb",
+      "preview": "assets/apparel/accessories/g3-fashion-sunglasses/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/accessories/g3-fashion-sunglasses/previews/contact-sheet.jpg",
+      "triangles": 10128,
+      "texture_count": 9,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Khronos validation reports zero errors and 3 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-wristwatch",
+      "title": "Leather-strap wristwatch",
+      "category": "apparel/accessories",
+      "style": "stylized",
+      "tags": [
+        "watch",
+        "accessory",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/wristwatch/",
+      "license_evidence": "https://grab3d.com/dl/wristwatch/LICENSE.txt",
+      "directory": "assets/apparel/accessories/g3-fashion-wristwatch",
+      "metadata": "assets/apparel/accessories/g3-fashion-wristwatch/asset.json",
+      "metadata_sha256": "07acf15d5159c7b361f39a9dbe0393012712ebfa25b81ecc341b0cded83b8c83",
+      "model": "assets/apparel/accessories/g3-fashion-wristwatch/model/wristwatch.glb",
+      "preview": "assets/apparel/accessories/g3-fashion-wristwatch/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/accessories/g3-fashion-wristwatch/previews/contact-sheet.jpg",
+      "triangles": 14822,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Includes a display pillow in the same mesh as the apparel; removing it requires mesh editing and separability was not verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+        "Blender inspection counted 4 zero-area triangles; topology-sensitive workflows may require cleanup."
+      ]
+    },
+    {
       "id": "ph-round-spectacles",
       "title": "Round Spectacles",
       "category": "apparel/accessories",
@@ -48,6 +323,1364 @@
         "The distributed texture maps are 1K; close-up detail may be softer than the higher-resolution source.",
         "glTF validator reports 2 generated-tangent-space warning(s); normal-map shading can vary by renderer.",
         "The lenses appear dark and opaque in these renders; transparency may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-costume-wings",
+      "title": "Feather costume wings",
+      "category": "apparel/costume",
+      "style": "stylized",
+      "tags": [
+        "wings",
+        "costume",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/costume-wings/",
+      "license_evidence": "https://grab3d.com/dl/costume-wings/LICENSE.txt",
+      "directory": "assets/apparel/costume/g3-fashion-costume-wings",
+      "metadata": "assets/apparel/costume/g3-fashion-costume-wings/asset.json",
+      "metadata_sha256": "bd55d325525641f91732e88351e683683f3cc1729f5c51e2d94a8e68b2d48f08",
+      "model": "assets/apparel/costume/g3-fashion-costume-wings/model/costume-wings.glb",
+      "preview": "assets/apparel/costume/g3-fashion-costume-wings/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/costume/g3-fashion-costume-wings/previews/contact-sheet.jpg",
+      "triangles": 34610,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Includes a coat stand in the same mesh as the apparel; removing it requires mesh editing and separability was not verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-cowboy-boots",
+      "title": "Western cowboy boots",
+      "category": "apparel/footwear",
+      "style": "stylized",
+      "tags": [
+        "boots",
+        "western",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/cowboy-boots/",
+      "license_evidence": "https://grab3d.com/dl/cowboy-boots/LICENSE.txt",
+      "directory": "assets/apparel/footwear/g3-fashion-cowboy-boots",
+      "metadata": "assets/apparel/footwear/g3-fashion-cowboy-boots/asset.json",
+      "metadata_sha256": "085dcd7ba7bebdd7d2e71778b5302871f92a728954ff6298adff08e6613826bb",
+      "model": "assets/apparel/footwear/g3-fashion-cowboy-boots/model/cowboy-boots.glb",
+      "preview": "assets/apparel/footwear/g3-fashion-cowboy-boots/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/footwear/g3-fashion-cowboy-boots/previews/contact-sheet.jpg",
+      "triangles": 9480,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-high-heels",
+      "title": "Bow high-heel pumps",
+      "category": "apparel/footwear",
+      "style": "stylized",
+      "tags": [
+        "heels",
+        "formal",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/high-heels/",
+      "license_evidence": "https://grab3d.com/dl/high-heels/LICENSE.txt",
+      "directory": "assets/apparel/footwear/g3-fashion-high-heels",
+      "metadata": "assets/apparel/footwear/g3-fashion-high-heels/asset.json",
+      "metadata_sha256": "cd7c4f27f1474c48e537f314bc8286b2514392ac5092eba5de3adc10f515b035",
+      "model": "assets/apparel/footwear/g3-fashion-high-heels/model/high-heels.glb",
+      "preview": "assets/apparel/footwear/g3-fashion-high-heels/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/footwear/g3-fashion-high-heels/previews/contact-sheet.jpg",
+      "triangles": 13432,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-hiking-boots",
+      "title": "Laced hiking boots",
+      "category": "apparel/footwear",
+      "style": "stylized",
+      "tags": [
+        "boots",
+        "hiking",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/hiking-boots/",
+      "license_evidence": "https://grab3d.com/dl/hiking-boots/LICENSE.txt",
+      "directory": "assets/apparel/footwear/g3-fashion-hiking-boots",
+      "metadata": "assets/apparel/footwear/g3-fashion-hiking-boots/asset.json",
+      "metadata_sha256": "10284268987acc9f95ac43a869098830e903b2df1fbb60e931b3da17fdac8998",
+      "model": "assets/apparel/footwear/g3-fashion-hiking-boots/model/hiking-boots.glb",
+      "preview": "assets/apparel/footwear/g3-fashion-hiking-boots/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/footwear/g3-fashion-hiking-boots/previews/contact-sheet.jpg",
+      "triangles": 20008,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-rain-boots",
+      "title": "Rubber rain boots",
+      "category": "apparel/footwear",
+      "style": "stylized",
+      "tags": [
+        "boots",
+        "rain",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/rain-boots/",
+      "license_evidence": "https://grab3d.com/dl/rain-boots/LICENSE.txt",
+      "directory": "assets/apparel/footwear/g3-fashion-rain-boots",
+      "metadata": "assets/apparel/footwear/g3-fashion-rain-boots/asset.json",
+      "metadata_sha256": "aacfa26d4240baf873afdd9438b22bcb026a9d621cc030ce0b0dd10e03b303e0",
+      "model": "assets/apparel/footwear/g3-fashion-rain-boots/model/rain-boots.glb",
+      "preview": "assets/apparel/footwear/g3-fashion-rain-boots/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/footwear/g3-fashion-rain-boots/previews/contact-sheet.jpg",
+      "triangles": 12890,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-shoe",
+      "title": "Leather lace-up shoes",
+      "category": "apparel/footwear",
+      "style": "stylized",
+      "tags": [
+        "shoes",
+        "leather",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/shoe/",
+      "license_evidence": "https://grab3d.com/dl/shoe/LICENSE.txt",
+      "directory": "assets/apparel/footwear/g3-fashion-shoe",
+      "metadata": "assets/apparel/footwear/g3-fashion-shoe/asset.json",
+      "metadata_sha256": "07cda0097a7d0b32243781407a562555f854fb91626f404272c36255e17d38ad",
+      "model": "assets/apparel/footwear/g3-fashion-shoe/model/shoe.glb",
+      "preview": "assets/apparel/footwear/g3-fashion-shoe/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/footwear/g3-fashion-shoe/previews/contact-sheet.jpg",
+      "triangles": 19744,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-slippers",
+      "title": "Plush house slippers",
+      "category": "apparel/footwear",
+      "style": "stylized",
+      "tags": [
+        "slippers",
+        "indoor",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/slippers/",
+      "license_evidence": "https://grab3d.com/dl/slippers/LICENSE.txt",
+      "directory": "assets/apparel/footwear/g3-fashion-slippers",
+      "metadata": "assets/apparel/footwear/g3-fashion-slippers/asset.json",
+      "metadata_sha256": "03b5840b7a66c558dafdeaf8b506b8ad781450502944ad5ed8adc208002e71a3",
+      "model": "assets/apparel/footwear/g3-fashion-slippers/model/slippers.glb",
+      "preview": "assets/apparel/footwear/g3-fashion-slippers/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/footwear/g3-fashion-slippers/previews/contact-sheet.jpg",
+      "triangles": 11396,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-sneaker",
+      "title": "Canvas sneakers",
+      "category": "apparel/footwear",
+      "style": "stylized",
+      "tags": [
+        "sneakers",
+        "casual",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/sneaker/",
+      "license_evidence": "https://grab3d.com/dl/sneaker/LICENSE.txt",
+      "directory": "assets/apparel/footwear/g3-fashion-sneaker",
+      "metadata": "assets/apparel/footwear/g3-fashion-sneaker/asset.json",
+      "metadata_sha256": "ab48c57987bf6fab55b6c869a0230165cb9c425afc1961c8ca3bbeaca2d7b96d",
+      "model": "assets/apparel/footwear/g3-fashion-sneaker/model/sneaker.glb",
+      "preview": "assets/apparel/footwear/g3-fashion-sneaker/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/footwear/g3-fashion-sneaker/previews/contact-sheet.jpg",
+      "triangles": 19838,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-baseball-cap",
+      "title": "Baseball cap",
+      "category": "apparel/headwear",
+      "style": "stylized",
+      "tags": [
+        "cap",
+        "modern",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/baseball-cap/",
+      "license_evidence": "https://grab3d.com/dl/baseball-cap/LICENSE.txt",
+      "directory": "assets/apparel/headwear/g3-fashion-baseball-cap",
+      "metadata": "assets/apparel/headwear/g3-fashion-baseball-cap/asset.json",
+      "metadata_sha256": "b56565f275fba8bc76c0e8b8cfc4d12d2fdd017b91edc792db5439a2a67a180e",
+      "model": "assets/apparel/headwear/g3-fashion-baseball-cap/model/baseball-cap.glb",
+      "preview": "assets/apparel/headwear/g3-fashion-baseball-cap/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/headwear/g3-fashion-baseball-cap/previews/contact-sheet.jpg",
+      "triangles": 10458,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-beanie",
+      "title": "Knitted pom-pom beanie",
+      "category": "apparel/headwear",
+      "style": "stylized",
+      "tags": [
+        "knit",
+        "winter",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/beanie/",
+      "license_evidence": "https://grab3d.com/dl/beanie/LICENSE.txt",
+      "directory": "assets/apparel/headwear/g3-fashion-beanie",
+      "metadata": "assets/apparel/headwear/g3-fashion-beanie/asset.json",
+      "metadata_sha256": "ad88d15b1e3709c38a5c03140fffbecded6b286f68bac7089d114cce771c77b5",
+      "model": "assets/apparel/headwear/g3-fashion-beanie/model/beanie.glb",
+      "preview": "assets/apparel/headwear/g3-fashion-beanie/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/headwear/g3-fashion-beanie/previews/contact-sheet.jpg",
+      "triangles": 8688,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-bucket-hat",
+      "title": "Bucket hat",
+      "category": "apparel/headwear",
+      "style": "stylized",
+      "tags": [
+        "hat",
+        "modern",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/bucket-hat/",
+      "license_evidence": "https://grab3d.com/dl/bucket-hat/LICENSE.txt",
+      "directory": "assets/apparel/headwear/g3-fashion-bucket-hat",
+      "metadata": "assets/apparel/headwear/g3-fashion-bucket-hat/asset.json",
+      "metadata_sha256": "332816e76b8c5969d48e57b2658d8291f528b33bcc530ef23616df88d721f763",
+      "model": "assets/apparel/headwear/g3-fashion-bucket-hat/model/bucket-hat.glb",
+      "preview": "assets/apparel/headwear/g3-fashion-bucket-hat/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/headwear/g3-fashion-bucket-hat/previews/contact-sheet.jpg",
+      "triangles": 10224,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-chef-hat",
+      "title": "Pleated chef toque",
+      "category": "apparel/headwear",
+      "style": "stylized",
+      "tags": [
+        "chef",
+        "workwear",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/chef-hat/",
+      "license_evidence": "https://grab3d.com/dl/chef-hat/LICENSE.txt",
+      "directory": "assets/apparel/headwear/g3-fashion-chef-hat",
+      "metadata": "assets/apparel/headwear/g3-fashion-chef-hat/asset.json",
+      "metadata_sha256": "bf44825a5f1aa528c4b309db3acd5077ac4d40beb69f20b6b6449cefdf3c8bf5",
+      "model": "assets/apparel/headwear/g3-fashion-chef-hat/model/chef-hat.glb",
+      "preview": "assets/apparel/headwear/g3-fashion-chef-hat/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/headwear/g3-fashion-chef-hat/previews/contact-sheet.jpg",
+      "triangles": 7328,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-cowboy-hat",
+      "title": "Western cowboy hat",
+      "category": "apparel/headwear",
+      "style": "stylized",
+      "tags": [
+        "cowboy",
+        "western",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/cowboy-hat/",
+      "license_evidence": "https://grab3d.com/dl/cowboy-hat/LICENSE.txt",
+      "directory": "assets/apparel/headwear/g3-fashion-cowboy-hat",
+      "metadata": "assets/apparel/headwear/g3-fashion-cowboy-hat/asset.json",
+      "metadata_sha256": "3f8b121032ab8661679f328eeda0f4ca8ff418e15b3ae34ae0cdefaa6b30d2cc",
+      "model": "assets/apparel/headwear/g3-fashion-cowboy-hat/model/cowboy-hat.glb",
+      "preview": "assets/apparel/headwear/g3-fashion-cowboy-hat/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/headwear/g3-fashion-cowboy-hat/previews/contact-sheet.jpg",
+      "triangles": 7744,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+        "Blender inspection counted 44 zero-area triangles; topology-sensitive workflows may require cleanup."
+      ]
+    },
+    {
+      "id": "g3-fashion-fedora",
+      "title": "Felt fedora",
+      "category": "apparel/headwear",
+      "style": "stylized",
+      "tags": [
+        "hat",
+        "vintage",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/fedora/",
+      "license_evidence": "https://grab3d.com/dl/fedora/LICENSE.txt",
+      "directory": "assets/apparel/headwear/g3-fashion-fedora",
+      "metadata": "assets/apparel/headwear/g3-fashion-fedora/asset.json",
+      "metadata_sha256": "d83f5334731f67394adfc8cfd8de7e84343f88a46397a818d439b6b67eaf3de9",
+      "model": "assets/apparel/headwear/g3-fashion-fedora/model/fedora.glb",
+      "preview": "assets/apparel/headwear/g3-fashion-fedora/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/headwear/g3-fashion-fedora/previews/contact-sheet.jpg",
+      "triangles": 6336,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-graduation-cap",
+      "title": "Graduation mortarboard",
+      "category": "apparel/headwear",
+      "style": "stylized",
+      "tags": [
+        "cap",
+        "ceremonial",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/graduation-cap/",
+      "license_evidence": "https://grab3d.com/dl/graduation-cap/LICENSE.txt",
+      "directory": "assets/apparel/headwear/g3-fashion-graduation-cap",
+      "metadata": "assets/apparel/headwear/g3-fashion-graduation-cap/asset.json",
+      "metadata_sha256": "8f1fe8fe4a673b2e1f5973a35e1ea03464cf2584ffd47ddf3837e28564683737",
+      "model": "assets/apparel/headwear/g3-fashion-graduation-cap/model/graduation-cap.glb",
+      "preview": "assets/apparel/headwear/g3-fashion-graduation-cap/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/headwear/g3-fashion-graduation-cap/previews/contact-sheet.jpg",
+      "triangles": 8724,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-santa-hat",
+      "title": "Festive Santa hat",
+      "category": "apparel/headwear",
+      "style": "stylized",
+      "tags": [
+        "winter",
+        "costume",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/santa-hat/",
+      "license_evidence": "https://grab3d.com/dl/santa-hat/LICENSE.txt",
+      "directory": "assets/apparel/headwear/g3-fashion-santa-hat",
+      "metadata": "assets/apparel/headwear/g3-fashion-santa-hat/asset.json",
+      "metadata_sha256": "075d8a4d62c5233b8b6b9e3b05b5ff32f2061599063960efdddbee8cfb635572",
+      "model": "assets/apparel/headwear/g3-fashion-santa-hat/model/santa-hat.glb",
+      "preview": "assets/apparel/headwear/g3-fashion-santa-hat/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/headwear/g3-fashion-santa-hat/previews/contact-sheet.jpg",
+      "triangles": 4528,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-straw-hat",
+      "title": "Woven straw sun hat",
+      "category": "apparel/headwear",
+      "style": "stylized",
+      "tags": [
+        "straw",
+        "sun-hat",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/straw-hat/",
+      "license_evidence": "https://grab3d.com/dl/straw-hat/LICENSE.txt",
+      "directory": "assets/apparel/headwear/g3-fashion-straw-hat",
+      "metadata": "assets/apparel/headwear/g3-fashion-straw-hat/asset.json",
+      "metadata_sha256": "3580dbc51353f8cc068114e319ecc25aeb2d5e58721346a1c350e04e4fc2d214",
+      "model": "assets/apparel/headwear/g3-fashion-straw-hat/model/straw-hat.glb",
+      "preview": "assets/apparel/headwear/g3-fashion-straw-hat/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/headwear/g3-fashion-straw-hat/previews/contact-sheet.jpg",
+      "triangles": 11452,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-top-hat",
+      "title": "Formal top hat",
+      "category": "apparel/headwear",
+      "style": "stylized",
+      "tags": [
+        "formal",
+        "historical",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/top-hat/",
+      "license_evidence": "https://grab3d.com/dl/top-hat/LICENSE.txt",
+      "directory": "assets/apparel/headwear/g3-fashion-top-hat",
+      "metadata": "assets/apparel/headwear/g3-fashion-top-hat/asset.json",
+      "metadata_sha256": "dceaaca09851d3d757df220bc49c15d72a1691d710bb7db68117d7696d835933",
+      "model": "assets/apparel/headwear/g3-fashion-top-hat/model/top-hat.glb",
+      "preview": "assets/apparel/headwear/g3-fashion-top-hat/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/headwear/g3-fashion-top-hat/previews/contact-sheet.jpg",
+      "triangles": 7896,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "ph-fishermans-hat",
+      "title": "Fisherman’s hat",
+      "category": "apparel/headwear",
+      "style": "realistic",
+      "tags": [
+        "hat",
+        "realistic",
+        "outdoor"
+      ],
+      "creator": "PierreB3D",
+      "license": "CC0-1.0",
+      "license_notes": [],
+      "resale_as_is": "The license page states the assets can be redistributed, including inside a product you sell.",
+      "source_url": "https://polyhaven.com/a/fishermans_hat",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/apparel/headwear/ph-fishermans-hat",
+      "metadata": "assets/apparel/headwear/ph-fishermans-hat/asset.json",
+      "metadata_sha256": "7e6887f24191d346b779079942a0dcc1053c5cdbc06425c80a053fc6fc9bb042",
+      "model": "assets/apparel/headwear/ph-fishermans-hat/model/fishermans_hat_1k.gltf",
+      "preview": "assets/apparel/headwear/ph-fishermans-hat/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/headwear/ph-fishermans-hat/previews/contact-sheet.jpg",
+      "triangles": 10304,
+      "texture_count": 3,
+      "max_texture_resolution": 1024,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-chainmail",
+      "title": "Chainmail shirt on hanger",
+      "category": "apparel/historical-armor",
+      "style": "stylized",
+      "tags": [
+        "armor",
+        "medieval",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/weapons/chainmail/",
+      "license_evidence": "https://grab3d.com/dl/chainmail/LICENSE.txt",
+      "directory": "assets/apparel/historical-armor/g3-fashion-chainmail",
+      "metadata": "assets/apparel/historical-armor/g3-fashion-chainmail/asset.json",
+      "metadata_sha256": "238dceda7638c5c0eadb86507fbd1714cfbcdc52b596ed1c343bef9dd6ee98a0",
+      "model": "assets/apparel/historical-armor/g3-fashion-chainmail/model/chainmail.glb",
+      "preview": "assets/apparel/historical-armor/g3-fashion-chainmail/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/historical-armor/g3-fashion-chainmail/previews/contact-sheet.jpg",
+      "triangles": 14432,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Includes a hanger and stand in the same mesh as the apparel; removing it requires mesh editing and separability was not verified.",
+        "Fantasy-style interpretation, not verified historical reconstruction; chain links are represented by surface detail.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-bracelet",
+      "title": "Charm bracelet",
+      "category": "apparel/jewelry",
+      "style": "stylized",
+      "tags": [
+        "bracelet",
+        "jewelry",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/bracelet/",
+      "license_evidence": "https://grab3d.com/dl/bracelet/LICENSE.txt",
+      "directory": "assets/apparel/jewelry/g3-fashion-bracelet",
+      "metadata": "assets/apparel/jewelry/g3-fashion-bracelet/asset.json",
+      "metadata_sha256": "10f6be0ee14cea6f25733f8decc4c3db5f1387bbf118cab4e9769735f4770076",
+      "model": "assets/apparel/jewelry/g3-fashion-bracelet/model/bracelet.glb",
+      "preview": "assets/apparel/jewelry/g3-fashion-bracelet/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/jewelry/g3-fashion-bracelet/previews/contact-sheet.jpg",
+      "triangles": 12872,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Includes a cushion in the same mesh as the apparel; removing it requires mesh editing and separability was not verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-earrings",
+      "title": "Gemstone drop earrings",
+      "category": "apparel/jewelry",
+      "style": "stylized",
+      "tags": [
+        "earrings",
+        "jewelry",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/earrings/",
+      "license_evidence": "https://grab3d.com/dl/earrings/LICENSE.txt",
+      "directory": "assets/apparel/jewelry/g3-fashion-earrings",
+      "metadata": "assets/apparel/jewelry/g3-fashion-earrings/asset.json",
+      "metadata_sha256": "1b627d31983f41b8f3088d1842b7ee5a8d6e12282eee0411240855d7944a3bb5",
+      "model": "assets/apparel/jewelry/g3-fashion-earrings/model/earrings.glb",
+      "preview": "assets/apparel/jewelry/g3-fashion-earrings/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/jewelry/g3-fashion-earrings/previews/contact-sheet.jpg",
+      "triangles": 14770,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Includes a folding display card in the same mesh as the apparel; removing it requires mesh editing and separability was not verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-necklace",
+      "title": "Pearl necklace",
+      "category": "apparel/jewelry",
+      "style": "stylized",
+      "tags": [
+        "necklace",
+        "pearls",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/necklace/",
+      "license_evidence": "https://grab3d.com/dl/necklace/LICENSE.txt",
+      "directory": "assets/apparel/jewelry/g3-fashion-necklace",
+      "metadata": "assets/apparel/jewelry/g3-fashion-necklace/asset.json",
+      "metadata_sha256": "9f514676928e15c83d1e1380953eb24520c00dc8384cbadab0182b2b898afd16",
+      "model": "assets/apparel/jewelry/g3-fashion-necklace/model/necklace.glb",
+      "preview": "assets/apparel/jewelry/g3-fashion-necklace/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/jewelry/g3-fashion-necklace/previews/contact-sheet.jpg",
+      "triangles": 16338,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Includes a display bust and base in the same mesh as the apparel; removing it requires mesh editing and separability was not verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-pendant",
+      "title": "Gemstone pendant necklace",
+      "category": "apparel/jewelry",
+      "style": "stylized",
+      "tags": [
+        "pendant",
+        "jewelry",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/pendant/",
+      "license_evidence": "https://grab3d.com/dl/pendant/LICENSE.txt",
+      "directory": "assets/apparel/jewelry/g3-fashion-pendant",
+      "metadata": "assets/apparel/jewelry/g3-fashion-pendant/asset.json",
+      "metadata_sha256": "af82fbf7c4148562303083fcf1324a5a1932e749932b5035e82dd9f588233134",
+      "model": "assets/apparel/jewelry/g3-fashion-pendant/model/pendant.glb",
+      "preview": "assets/apparel/jewelry/g3-fashion-pendant/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/jewelry/g3-fashion-pendant/previews/contact-sheet.jpg",
+      "triangles": 14892,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Includes a jewelry stand in the same mesh as the apparel; removing it requires mesh editing and separability was not verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-tiara",
+      "title": "Gemstone tiara",
+      "category": "apparel/jewelry",
+      "style": "stylized",
+      "tags": [
+        "tiara",
+        "formal",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/tiara/",
+      "license_evidence": "https://grab3d.com/dl/tiara/LICENSE.txt",
+      "directory": "assets/apparel/jewelry/g3-fashion-tiara",
+      "metadata": "assets/apparel/jewelry/g3-fashion-tiara/asset.json",
+      "metadata_sha256": "41ff7da9df5105a9bbc34a9a0c8cc07cb41a2fb56c62ceb170fa1d42233e94e5",
+      "model": "assets/apparel/jewelry/g3-fashion-tiara/model/tiara.glb",
+      "preview": "assets/apparel/jewelry/g3-fashion-tiara/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/jewelry/g3-fashion-tiara/previews/contact-sheet.jpg",
+      "triangles": 18660,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-boxing-gloves",
+      "title": "Boxing gloves",
+      "category": "apparel/sportswear",
+      "style": "stylized",
+      "tags": [
+        "boxing",
+        "gloves",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/sports/boxing-gloves/",
+      "license_evidence": "https://grab3d.com/dl/boxing-gloves/LICENSE.txt",
+      "directory": "assets/apparel/sportswear/g3-fashion-boxing-gloves",
+      "metadata": "assets/apparel/sportswear/g3-fashion-boxing-gloves/asset.json",
+      "metadata_sha256": "2243dd863a63c75c7aaf50c2f288ff381656944982f6167711b1204172d687cf",
+      "model": "assets/apparel/sportswear/g3-fashion-boxing-gloves/model/boxing-gloves.glb",
+      "preview": "assets/apparel/sportswear/g3-fashion-boxing-gloves/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/sportswear/g3-fashion-boxing-gloves/previews/contact-sheet.jpg",
+      "triangles": 18640,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-sports-jersey",
+      "title": "Sports jersey on hanger",
+      "category": "apparel/sportswear",
+      "style": "stylized",
+      "tags": [
+        "jersey",
+        "sports",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/sports/sports-jersey/",
+      "license_evidence": "https://grab3d.com/dl/sports-jersey/LICENSE.txt",
+      "directory": "assets/apparel/sportswear/g3-fashion-sports-jersey",
+      "metadata": "assets/apparel/sportswear/g3-fashion-sports-jersey/asset.json",
+      "metadata_sha256": "3665ac74d7738d46b605a7b58cb93c9ec0b72667284a6d694ee52a3f078cfca8",
+      "model": "assets/apparel/sportswear/g3-fashion-sports-jersey/model/sports-jersey.glb",
+      "preview": "assets/apparel/sportswear/g3-fashion-sports-jersey/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/sportswear/g3-fashion-sports-jersey/previews/contact-sheet.jpg",
+      "triangles": 32988,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Includes a hanger and rack in the same mesh as the apparel; removing it requires mesh editing and separability was not verified.",
+        "Hanging garment is compressed into a display shape; it is not a ready-to-wear character garment.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-hoodie",
+      "title": "Hooded sweatshirt on hanger",
+      "category": "apparel/tops",
+      "style": "stylized",
+      "tags": [
+        "hoodie",
+        "casual",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/hoodie/",
+      "license_evidence": "https://grab3d.com/dl/hoodie/LICENSE.txt",
+      "directory": "assets/apparel/tops/g3-fashion-hoodie",
+      "metadata": "assets/apparel/tops/g3-fashion-hoodie/asset.json",
+      "metadata_sha256": "13360837f7bc2c4dd722bd703d35ab262766b2de03d9b78328c09b96c5b5323a",
+      "model": "assets/apparel/tops/g3-fashion-hoodie/model/hoodie.glb",
+      "preview": "assets/apparel/tops/g3-fashion-hoodie/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/tops/g3-fashion-hoodie/previews/contact-sheet.jpg",
+      "triangles": 24953,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Includes a hanger and coat stand in the same mesh as the apparel; removing it requires mesh editing and separability was not verified.",
+        "Hanging garment is compressed into a display shape; it is not a ready-to-wear character garment.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "g3-fashion-jacket",
+      "title": "Denim jacket on hanger",
+      "category": "apparel/tops",
+      "style": "stylized",
+      "tags": [
+        "jacket",
+        "denim",
+        "apparel"
+      ],
+      "creator": "Grab3D",
+      "license": "CC0-1.0",
+      "license_notes": [
+        "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "resale_as_is": "The license page explicitly allows redistributing the models, original or modified, and explicitly allows reselling the models themselves.",
+      "source_url": "https://grab3d.com/models/props/jacket/",
+      "license_evidence": "https://grab3d.com/dl/jacket/LICENSE.txt",
+      "directory": "assets/apparel/tops/g3-fashion-jacket",
+      "metadata": "assets/apparel/tops/g3-fashion-jacket/asset.json",
+      "metadata_sha256": "f44931676f135c84ea4e9edb69952c5c3192a90f18abe76e251d5d89a998996a",
+      "model": "assets/apparel/tops/g3-fashion-jacket/model/jacket.glb",
+      "preview": "assets/apparel/tops/g3-fashion-jacket/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/tops/g3-fashion-jacket/previews/contact-sheet.jpg",
+      "triangles": 31784,
+      "texture_count": 3,
+      "max_texture_resolution": 2048,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Stylized pastel model, not photorealistic.",
+        "Includes a hanger and rack in the same mesh as the apparel; removing it requires mesh editing and separability was not verified.",
+        "Hanging garment is compressed into a display shape; it is not a ready-to-wear character garment.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+      ]
+    },
+    {
+      "id": "ph-garden-gloves",
+      "title": "Garden gloves",
+      "category": "apparel/workwear",
+      "style": "realistic",
+      "tags": [
+        "gloves",
+        "workwear",
+        "realistic"
+      ],
+      "creator": "Satyaki Mandal",
+      "license": "CC0-1.0",
+      "license_notes": [],
+      "resale_as_is": "The license page states the assets can be redistributed, including inside a product you sell.",
+      "source_url": "https://polyhaven.com/a/garden_gloves_01",
+      "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+      "directory": "assets/apparel/workwear/ph-garden-gloves",
+      "metadata": "assets/apparel/workwear/ph-garden-gloves/asset.json",
+      "metadata_sha256": "e5e0d99e4a23cbb843e6ae56cd77fec38c13a393b07f177c0c27938838395bf7",
+      "model": "assets/apparel/workwear/ph-garden-gloves/model/garden_gloves_01_1k.gltf",
+      "preview": "assets/apparel/workwear/ph-garden-gloves/previews/orbit-01.jpg",
+      "contact_sheet": "assets/apparel/workwear/ph-garden-gloves/previews/contact-sheet.jpg",
+      "triangles": 6822,
+      "texture_count": 3,
+      "max_texture_resolution": 1024,
+      "rigged": false,
+      "animation_count": 0,
+      "authored_animation_count": 0,
+      "authored_animations": [],
+      "animated_model": null,
+      "review_scores": {
+        "silhouette": 5,
+        "materials": 5,
+        "topology": 4,
+        "completeness": 5,
+        "style_fit": 5
+      },
+      "review_limitations": [
+        "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+        "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
       ]
     },
     {
@@ -21397,10 +23030,18 @@
     }
   ],
   "totals": {
-    "assets": 453,
-    "categories": 102,
+    "assets": 489,
+    "categories": 110,
     "by_category": {
-      "apparel/accessories": 1,
+      "apparel/accessories": 7,
+      "apparel/costume": 1,
+      "apparel/footwear": 7,
+      "apparel/headwear": 11,
+      "apparel/historical-armor": 1,
+      "apparel/jewelry": 5,
+      "apparel/sportswear": 2,
+      "apparel/tops": 2,
+      "apparel/workwear": 1,
       "architecture/doors": 1,
       "architecture/fences": 1,
       "architecture/gates": 2,
@@ -21505,8 +23146,8 @@
     },
     "by_style": {
       "low-poly": 26,
-      "realistic": 217,
-      "stylized": 210
+      "realistic": 219,
+      "stylized": 244
     }
   }
 }

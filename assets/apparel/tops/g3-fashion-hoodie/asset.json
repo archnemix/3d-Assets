@@ -1,0 +1,335 @@
+{
+  "schema_version": 1,
+  "id": "g3-fashion-hoodie",
+  "title": "Hooded sweatshirt on hanger",
+  "category": "apparel/tops",
+  "style": "stylized",
+  "tags": [
+    "hoodie",
+    "casual",
+    "apparel"
+  ],
+  "batch": "apparel-foundations-01",
+  "acquired_at": "2026-11-07T01:43:44.636902+00:00",
+  "review": {
+    "id": "g3-fashion-hoodie",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Pink hoodie with pocket and drawcords on a wooden stand.",
+    "limitations": [
+      "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+      "Stylized pastel model, not photorealistic.",
+      "Includes a hanger and coat stand in the same mesh as the apparel; removing it requires mesh editing and separability was not verified.",
+      "Hanging garment is compressed into a display shape; it is not a ready-to-wear character garment.",
+      "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+    ],
+    "contact_sheet_sha256": "4746d4df0a7d4f5f52e305623baae199e0e37b507ed348f778dcbddd4b211708",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/hoodie.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/hoodie/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/props/hoodie/",
+    "source_id": "hoodie",
+    "revision": "ab4d75b01d5ab50079a61b06b8a7eea22a19b33ecd266b8ed0210d1027b92617",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/hoodie/hoodie.glb",
+        "bytes": 1511348,
+        "sha256": "ab4d75b01d5ab50079a61b06b8a7eea22a19b33ecd266b8ed0210d1027b92617"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/hoodie/LICENSE.txt"
+  },
+  "model": "model/hoodie.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/hoodie_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "hoodie_body_normal"
+    },
+    {
+      "path": "textures/hoodie_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "hoodie_body_basecolor"
+    },
+    {
+      "path": "textures/hoodie_body_metallic-hoodie_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "hoodie_body_metallic-hoodie_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 19253,
+    "triangles": 24953,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "hoodie_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "hoodie_body_metallic-hoodie_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "hoodie_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1635,
+      "sha256": "929c9c28fadeb710b4bf1e16b94255e6b9e63e9f0917cf7ee609d50edb85a49f",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68340,
+      "sha256": "b3412d53d90021ae7fd0999ff4e4f73865ddd5f8b16305c4ae006145e8fb3771",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/hoodie.glb",
+      "bytes": 1511348,
+      "sha256": "ab4d75b01d5ab50079a61b06b8a7eea22a19b33ecd266b8ed0210d1027b92617",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 19766,
+      "sha256": "da489f569fb30e92bf18975ad7e246a78ce99ee451bdf05503ec5a2b234b91fc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 15954,
+      "sha256": "d5db43a7b3072906408ebe1f212f786fb03483f8914bda54c642ded9876748f1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 143325,
+      "sha256": "4746d4df0a7d4f5f52e305623baae199e0e37b507ed348f778dcbddd4b211708",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 808,
+      "sha256": "4505a3f62229d127ca2ea71b1f46eb53198c91ebe69c25fc1b34dfe102701663",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 18927,
+      "sha256": "44478ca1f0906849b3601b5fd493648b133a74741eb82ac6d325c1f5ebc5b361",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 17470,
+      "sha256": "99995b04e88c53565e0edf889e16cd221e19b158e892e5906879bcf523cbddea",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 14594,
+      "sha256": "914e7f6aaa8f20ecddf03def66208efa74748fba422df8089fecc86535aece83",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 17025,
+      "sha256": "7c5d5467563464d382158df14758f5c9ad52ff490e2da0f6311a067764454257",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 17608,
+      "sha256": "73210b00d99e60364946c15992c4a9c582d9ccd2e26e9fec17544cb2a5e83afc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 17501,
+      "sha256": "b5e38c4eed1f71c00bb28788ce5f6afadcaabc73ef3c3ecd241ae1dc441d107c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 15291,
+      "sha256": "d4d416f5faf33b7bad61717ee2f62c19b19d0d2a6ef3404d34358909003e18ef",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 17564,
+      "sha256": "3f77734368725d61cbb9ea4942b6494a35b7066a46f5f02141628065da724628",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 17352,
+      "sha256": "96aef0bc6fe135b216e81b319333945aad979efcba58a7dd1295f621d64cf5d5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 38139,
+      "sha256": "ce18f6b2b3063720d24632cc6cef12f0d6913673d778299614a7a961a0938c3c",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1929,
+      "sha256": "593b0011eb5315b9b52f763310d022048db8954be7e06b86cb24267932f2afa3",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1796,
+      "sha256": "8f7621ebae7bae174e1cc5a829db17dd179133d751f9b77ad3589a1ff082de95",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 462,
+      "sha256": "2a802b60b43a7cfa98715a537e672ff403a928465a96724e58c6f4ff9b0bd21e",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "1baa751dcc88a106d8d979648eefa4e013a25375d5c9494f5225cddc4d6c67c0",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1114,
+      "sha256": "afdfe9a208356f7cbcafc0789a1b9e24c1a953f750c38398688f92e052cc31c1",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/hoodie_body_basecolor.jpg",
+      "bytes": 307389,
+      "sha256": "1de9d703b5a97828919d1dd876d188f97b4ed3ba3a26395cfebdf935cf0bfd5a",
+      "role": "textures"
+    },
+    {
+      "path": "textures/hoodie_body_metallic-hoodie_body_roughness.jpg",
+      "bytes": 218581,
+      "sha256": "bf250323fae531ac469e946849ae50c4a86a293193f3d62df80d7478ba50bef8",
+      "role": "textures"
+    },
+    {
+      "path": "textures/hoodie_body_normal.jpg",
+      "bytes": 216928,
+      "sha256": "d760b712d0be92565b2470259788e342af1408fcdbe94dcda09f25a57bc3b45b",
+      "role": "textures"
+    }
+  ]
+}
