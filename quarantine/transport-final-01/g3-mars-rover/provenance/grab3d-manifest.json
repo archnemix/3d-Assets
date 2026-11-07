@@ -1,0 +1,47 @@
+{
+  "slug": "mars-rover",
+  "triangles": 24008,
+  "texture_px": 2048,
+  "triangles_light": null,
+  "texture_px_light": null,
+  "files": {
+    "glb": {
+      "name": "mars-rover.glb",
+      "bytes": 1459032
+    },
+    "blend": {
+      "name": "mars-rover.blend",
+      "bytes": 1107372
+    },
+    "fbx": {
+      "name": "mars-rover.fbx",
+      "bytes": 2571404
+    },
+    "obj": {
+      "name": "mars-rover-obj.zip",
+      "bytes": 1257016
+    },
+    "usdz": {
+      "name": "mars-rover.usdz",
+      "bytes": 1787770
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "2.700 x 3.079 x 2.172",
+    "triangles": 24008,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-09-26",
+    "real_size": "six-wheeled Mars exploration rover, approx. 2.9 m long, 2.7 m wide, 2.2 m high (camera mast)",
+    "notes": "front faces -Y; 6 wheels are separate objects (mars-rover_wheel_*) with origin on the axle, roll around local X; rocker-bogie suspension, folded robotic arm, camera mast with emissive cyan status light; real inset panel seams, wheel tread grooves and cleats; no text, no flags, no agency logos",
+    "set": "Cozy Space Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}

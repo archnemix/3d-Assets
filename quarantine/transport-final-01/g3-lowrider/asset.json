@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "id": "g3-lowrider",
+  "title": "Classic lowrider coupe",
+  "category": "vehicles/cars/classic",
+  "style": "stylized",
+  "tags": [
+    "classic",
+    "lowrider",
+    "custom"
+  ],
+  "batch": "transport-final-01",
+  "acquired_at": "2026-11-07T01:15:06.645011+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/lowrider.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/lowrider/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/lowrider/",
+    "source_id": "lowrider",
+    "revision": "c66b5a5b47089699d99b17da776581991de1cd99875a2d19e3e2172bd5d43722",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/lowrider/lowrider.glb",
+        "bytes": 1266680,
+        "sha256": "c66b5a5b47089699d99b17da776581991de1cd99875a2d19e3e2172bd5d43722"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/lowrider/LICENSE.txt"
+  },
+  "model": "model/lowrider.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 6,
+    "materials": 22,
+    "images": 5,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/lowrider_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "lowrider_body_normal"
+    },
+    {
+      "path": "textures/lowrider_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "lowrider_body_basecolor"
+    },
+    {
+      "path": "textures/lowrider_body_metallic-lowrider_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "lowrider_body_metallic-lowrider_body_roughness"
+    },
+    {
+      "path": "textures/lowrider_tire_normal.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "lowrider_tire_normal"
+    },
+    {
+      "path": "textures/lowrider_tire_color.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "lowrider_tire_color"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 6,
+    "hidden_mesh_objects": 0,
+    "vertices": 18345,
+    "triangles": 19739,
+    "material_slots": 22,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 2,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "lowrider_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "lowrider_body_metallic-lowrider_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "lowrider_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "lowrider_tire_color",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "lowrider_tire_normal",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 5,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 76889,
+      "sha256": "a1795bcdeb7c2bb9d4766c330904e044bcd26317c3ae19366c8b314c1251aca6",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "f3b25ee04e7e8ca1312e912327344f09b217be42cbf3adf92abfad11a0a27c25",
+      "role": "logs"
+    },
+    {
+      "path": "model/lowrider.glb",
+      "bytes": 1266680,
+      "sha256": "c66b5a5b47089699d99b17da776581991de1cd99875a2d19e3e2172bd5d43722",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 16766,
+      "sha256": "990336f3cc0467b03e9c09ee0af41d00e167967b9463debca14032ea2886c32a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 16678,
+      "sha256": "41776c1e1b394e608f69fb67a4447fb1500446df7b9996c616d92d5d46db5928",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 171742,
+      "sha256": "6ff84cc531077f794d40c8a344735614d67161d494fbe8ee8c538f82ab364cf6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1114,
+      "sha256": "7bf25df6ec619deb817c07b986d6186fbe1c8604597d234df9f36c9df397cf2b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 29398,
+      "sha256": "fb8f3b7598739d708904a789a95ecf8a382f590a57c0b722cd0642d3125ab136",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 21356,
+      "sha256": "5366bf26a15a3324643bdc2ec8bb5ef702195201cf0e95f8011905b291e86339",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 18600,
+      "sha256": "5cfaf70b1f5622ca1c9a18b3260c8bdad38f0cdec6dea70ed8dbbaf1804decd2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 20920,
+      "sha256": "7b2df2f207a58e1cccd864617322e71e1174235c8d2378084bb5262d0218044e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 33721,
+      "sha256": "d5282c6d8d94b55a4cd2363f29c5b45766347f07eabf08fd3b717ba9c30098cf",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 21899,
+      "sha256": "eaf5fe3fd02fa85b8d8fa67bdc85f784558c8a8bb6b839e8e84dac953f40d567",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 19845,
+      "sha256": "aa1da108c1b444f71e75c17a1dd7289fee30717fa93f996bbccd0d3f719560ae",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 22322,
+      "sha256": "4ba21065bcb98e0e198cd0c5997d8109bd52ae5c2610cd53f60c81b972c6e182",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 16002,
+      "sha256": "119f656d06ec64c2b19b9e7f2163b5ecf1721970a71e60a5503ce108021d5743",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 35317,
+      "sha256": "356c907d93d7cb2340c66b6d26de59c3d8036cd346cacfcf795633a13829dc09",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 6920,
+      "sha256": "ded85164495d105d946bba59b063fb874eb747e9ed7e0b342bf1d36c9949a203",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1515,
+      "sha256": "6411c1394b99799e2c6b597f77dc112554c1efbe8a26d60f470d77b7c0a4c1dd",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 481,
+      "sha256": "64a2eeaadf5852962099334a7029281b99fef694ac299d8b9087695099b1dc7f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "57b67d8819ead98220f9efc7bfa9374e2c7208367564514c8cf67d841e3648a1",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/lowrider_body_basecolor.jpg",
+      "bytes": 241686,
+      "sha256": "bad8c78e17159fa43db88b86918bbcce379f7d7558375e7f5bc1a37d4e51c3af",
+      "role": "textures"
+    },
+    {
+      "path": "textures/lowrider_body_metallic-lowrider_body_roughness.jpg",
+      "bytes": 247516,
+      "sha256": "03ebddd390feb75df006c88021fd403ce2260659e474f1824d3cd2197ff5dcbf",
+      "role": "textures"
+    },
+    {
+      "path": "textures/lowrider_body_normal.jpg",
+      "bytes": 71983,
+      "sha256": "3755a2366a649247fae01eb72c80541b169bcb7d83036535ace1c827b2d35a5a",
+      "role": "textures"
+    },
+    {
+      "path": "textures/lowrider_tire_color.jpg",
+      "bytes": 1539,
+      "sha256": "9a26cd08e0224cc42916de18d402a711edeee7659c6a944e67dae2b4e9b09f91",
+      "role": "textures"
+    },
+    {
+      "path": "textures/lowrider_tire_normal.jpg",
+      "bytes": 2114,
+      "sha256": "1ac12a81a5ccc3fb6b78601a0b9665ecb4251b6a18602b230f6c025b54cd930c",
+      "role": "textures"
+    }
+  ]
+}
