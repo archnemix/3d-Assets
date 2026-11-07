@@ -1,0 +1,40 @@
+name: Inspect clothing model dependencies
+on:
+  push:
+    branches: ['arena/d853ac80-3d-assets']
+    paths: ['.github/workflows/oga-clothing-probe.yml']
+permissions:
+  contents: write
+jobs:
+  probe:
+    if: github.ref == 'refs/heads/arena/d853ac80-3d-assets'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends libxi6 libxrender1 libxxf86vm1 libxfixes3 libxkbcommon0 libsm6 libgl1
+      - uses: ./.github/actions/blender
+      - name: Inspect unapproved clothing source
+        env:
+          PYTHONPATH: src
+        run: python scripts/probe_oga_clothing.py
+      - name: Publish probe report
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add reports/research/oga-clothing-blend-probe.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'research: probe clothing model dependencies [skip ci]'
+          for attempt in 1 2 3 4 5; do
+            git push origin "HEAD:$GITHUB_REF_NAME" && exit 0
+            git pull --rebase origin "$GITHUB_REF_NAME"
+            sleep "$attempt"
+          done
+          exit 1
