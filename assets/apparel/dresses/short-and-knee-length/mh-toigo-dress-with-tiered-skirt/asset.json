@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "id": "mh-toigo-dress-with-tiered-skirt",
+  "title": "Tiered skirt dress",
+  "category": "apparel/dresses/short-and-knee-length",
+  "style": "realistic",
+  "tags": [
+    "clothing",
+    "casual"
+  ],
+  "batch": "clothing-foundations-01",
+  "acquired_at": "2026-11-07T09:16:28.654983+00:00",
+  "review": {
+    "id": "mh-toigo-dress-with-tiered-skirt",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed all twelve views. Floral halter-neck dress with waist sash and three distinct skirt tiers.",
+    "limitations": [
+      "Standalone static OBJ conversion; no rig, skin weights or automatic fitting are provided, and compatibility with any body shape has not been verified.",
+      "Diffuse texture and declared normal map (when present) are preserved; legacy specular, bump and other shader parameters are not reproduced.",
+      "Textured game-asset geometry, not photorealistic; some surfaces show visible faceting."
+    ],
+    "contact_sheet_sha256": "4788eb7c3ecb02199165290d1213526b69f695c8df3af0d709e1ba16194ba2bc",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "makehuman-clothing",
+    "model": "model/garment.glb",
+    "creator": "MargaretToigo",
+    "license": "CC0-1.0",
+    "license_evidence": "https://static.makehumancommunity.org/assets/assetpacks/dress01.html",
+    "source_url": "https://static.makehumancommunity.org/assets/assetpacks/dress01.html",
+    "source_id": "toigo_dress_with_tiered_skirt",
+    "revision": "f49ba54a3c93acd3c3307cc5a96cfc65daf8abfed9212a7e580791d821c9e93a",
+    "downloads": [
+      {
+        "url": "https://files2.makehumancommunity.org/asset_packs/dress01/dress01_cc0.zip",
+        "bytes": 46598791,
+        "sha256": "f49ba54a3c93acd3c3307cc5a96cfc65daf8abfed9212a7e580791d821c9e93a"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://static.makehumancommunity.org/assets/assetpacks/dress01.html"
+  },
+  "model": "model/garment.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 1,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/garment.glb",
+      "dimensions": [
+        2040,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "DressTierSkirt",
+      "embedded_image_index": 0,
+      "embedded_sha256": "7dc22616ee48d4c24044be1897dbaf006ce1484ce873adb12a7031e6444ab96f"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 37678,
+    "triangles": 18896,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "DressTierSkirt",
+        "dimensions": [
+          2040,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 0,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1682,
+      "sha256": "dd2feb93c43b1f881c26a497eab5499b82bf72848e9e82ee1db6d6c98fdb33fd",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 64188,
+      "sha256": "8c30e5dc0d9a3b37d7efcc93b915296805bca219b8c29c3ad8ef34af952b5be5",
+      "role": "logs"
+    },
+    {
+      "path": "logs/convert.log",
+      "bytes": 444,
+      "sha256": "6f20c80ca9209679e4201cda9e9779c7006ec6b938db0dacf1445a86906cac9e",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "3629b738db9a859e28c3be3ca3f30737a293067d742f1bb7f0d75f7f8b36e9e2",
+      "role": "logs"
+    },
+    {
+      "path": "model/garment.glb",
+      "bytes": 3124412,
+      "sha256": "b1ee3142fd75bbb96ca33d3f8a71e2e814ad3c88e556c7db8ac122e690586871",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 78344,
+      "sha256": "169a28da3e4e49a06f9eaf6ba94677af8106b8dbdc35db60f30a242718d4d9a1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 16491,
+      "sha256": "c3679671cb31f805f503fb283e41814d309328808173c567a609da9a761dbedb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 300195,
+      "sha256": "4788eb7c3ecb02199165290d1213526b69f695c8df3af0d709e1ba16194ba2bc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 477,
+      "sha256": "153828ab7da9bbe2d7aa792c8a6631edaf486e7c77c9fadd79f120b6820dfe1c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 50905,
+      "sha256": "a215e49ecfb52627f7491edb7d7976da2e11ec4f43ee7929979e70cf1df25e2a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 44228,
+      "sha256": "0ca1af2d5df5954f25a91c5aa7c5e3459fb9db278012b1381555804d7446e043",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 36754,
+      "sha256": "e14aeafc4c55ce025d1e1c75ff259c865cc4d4190638f140cb78a850d03cb069",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 42356,
+      "sha256": "5bcc815cf584e1d02cb2681ac90632c46294b1470b9de42670a43cc17cb88405",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 47223,
+      "sha256": "0a045ff6345e9173fb6225144c358a5f85fc74ae19d0fd8ac21f2251ac7a9d8b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 44258,
+      "sha256": "120c9875037ba63737261bcf70147b79c31a2eb802ad0234c31718c025c6dc0f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 39727,
+      "sha256": "eb913dbdebb6171f0fd0d623f1206e548eb583abacc6cafcf480a8070ffc51fc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 46094,
+      "sha256": "924ab86850ae10105df327d7a2578d578308f0e066d7c31db255c887838a06ef",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 75017,
+      "sha256": "4b16d358bc60a9cb5be8f713ce5c44665d8b853ba6c08a47ab170f1e27e4625e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 44015,
+      "sha256": "ea0de112b9e7a3d00c5e76c530cd8711b70df508028c87a9e516739c5e60f6e9",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/clothing-source.json",
+      "bytes": 1039,
+      "sha256": "a0aac03bb2595a6ed9550790fe3430f38d658fe4692f5ab90b703869cd3fbce0",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1360,
+      "sha256": "6edd7b8274da41926d8d26a5e17e2cf9d23d940f830f599a16e3fba89c99d710",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source.mhclo",
+      "bytes": 652626,
+      "sha256": "cfe1e93603f745d3afa96d6571c62f6188388a72b4c965c5dfff4d59584e5d17",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source.mhmat",
+      "bytes": 483,
+      "sha256": "3a53c7e499e4b325d06a0f1804ebb0185ba9d98d7d821d3a6683d6a53d674f17",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 987,
+      "sha256": "e8b9f42efa93fcc7c7b846ce0cfeaa5b813d3d6b9f4ae7145139ff5b861469cb",
+      "role": "documentation"
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "schema_version": 1,
+  "id": "g3-fashion-shoe",
+  "title": "Leather lace-up shoes",
+  "category": "apparel/footwear/shoes",
+  "style": "stylized",
+  "tags": [
+    "shoes",
+    "leather",
+    "apparel"
+  ],
+  "batch": "apparel-foundations-01",
+  "acquired_at": "2026-11-07T01:44:08.564534+00:00",
+  "review": {
+    "id": "g3-fashion-shoe",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Pair of lace-up shoes with toe caps and low heels.",
+    "limitations": [
+      "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+      "Stylized pastel model, not photorealistic.",
+      "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+    ],
+    "contact_sheet_sha256": "f86c22af724e40877655ff27754beeeae482aa26b68d9fe1eec97b21e403eb89",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/shoe.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/shoe/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/props/shoe/",
+    "source_id": "shoe",
+    "revision": "b128daa115033cf074c6f5fe1ceba2f38b3f65bfa2a98451f133ead0f98db9ad",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/shoe/shoe.glb",
+        "bytes": 1609112,
+        "sha256": "b128daa115033cf074c6f5fe1ceba2f38b3f65bfa2a98451f133ead0f98db9ad"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/shoe/LICENSE.txt"
+  },
+  "model": "model/shoe.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/shoe_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "shoe_body_normal"
+    },
+    {
+      "path": "textures/shoe_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "shoe_body_basecolor"
+    },
+    {
+      "path": "textures/shoe_body_metallic-shoe_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "shoe_body_metallic-shoe_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 19056,
+    "triangles": 19744,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "shoe_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "shoe_body_metallic-shoe_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "shoe_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1531,
+      "sha256": "d397f53599c0b0732665bbd5b1dd3fe926b6f8f1fca34283a40e84790e6d0f21",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68336,
+      "sha256": "6c09d03ee157bda5dcd1304f91a31fb4aa77876cf196fc20da2b179c72f7195d",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/shoe.glb",
+      "bytes": 1609112,
+      "sha256": "b128daa115033cf074c6f5fe1ceba2f38b3f65bfa2a98451f133ead0f98db9ad",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 19797,
+      "sha256": "b91391d14fe656ba1a44734b3c0dccc0088dea481f0a564c68301372af958451",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 22627,
+      "sha256": "fe464f24cee2c799615d31070dc69920cc135011f876f395cc7ffcb93452dd72",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 232189,
+      "sha256": "f86c22af724e40877655ff27754beeeae482aa26b68d9fe1eec97b21e403eb89",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 800,
+      "sha256": "696ab2b2077917ebc8334eb1ba88eb0897b95c9f45ca7cd0453f931b5a9020da",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 37466,
+      "sha256": "63adebe388f288b0b139186b1b5268f3da20f31310562e17750808e2c935ced0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 32105,
+      "sha256": "c1ff7699583373de4533aa3e8724ea18c5c60884a4b8ed53a4849b325bf9d721",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 28396,
+      "sha256": "9391a55a2371a6a1151daae9dd730cf22a32b8f299ced58cb05bb18388271a06",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 24933,
+      "sha256": "67e21849e89047a3a020a967775101b8495930e98b2affc10caf971e300c21c3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 27550,
+      "sha256": "4130c4df6d68d2e42becf52e03cac51735da48e4e95c048859f9fb279c0dba99",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 28364,
+      "sha256": "c1e1800e3f95ccfa9a84060f362b35935d8b489a04a3a7cdc9ff35cb06d9575e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 30997,
+      "sha256": "864548055cf9c414f5ac1e8a738d93ff47cba0e77c5babd5f5b06d93ff53f632",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 31095,
+      "sha256": "ecf23180c3b7665964a7858a19233334e01cb367750e9ebc8e72e01a249e824e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 40088,
+      "sha256": "4f18b0b4b51853973a2905d0caf3e71c460bc0b02e72c25d2fd53ebfc6ee917c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 51599,
+      "sha256": "03a4478849d5dc487e3ca7440854c8a9df3cff2dd6fcc02d75123d0cfac38688",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1927,
+      "sha256": "aa83d7e3239b0715f4420012ddea0e1c77ea2f33f19fc750ce60648a8340378f",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1658,
+      "sha256": "b8c9681a44146cb0993949ac7fddd842c1d5063258f09abb67e16a99e6e3363a",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 446,
+      "sha256": "943223a94a31fe52945a0e51378e0373790bf54f553c725a8c148086abacc548",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "02d854f04d5a61ad353237d91c2bf5cf0447625a616c0741acdaea5b7b76d74a",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 860,
+      "sha256": "df9181aa072196813eb47b0e3ae018ff8f61e818ecd6edf791d990b252cae962",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/shoe_body_basecolor.jpg",
+      "bytes": 398146,
+      "sha256": "e1ccf6f1107320bd2a1e613bbac6d7f0ab17b04f80e68cd7f91f65eaec0baaa2",
+      "role": "textures"
+    },
+    {
+      "path": "textures/shoe_body_metallic-shoe_body_roughness.jpg",
+      "bytes": 374524,
+      "sha256": "5b72bfaf8aee12ec9ccabf2783aec00171165ff17f0093e63c14aed0a279f74d",
+      "role": "textures"
+    },
+    {
+      "path": "textures/shoe_body_normal.jpg",
+      "bytes": 105531,
+      "sha256": "9e3609a6d6303511a4543d2771a5757e548358f32828c7c713f0dc9ccf56e64a",
+      "role": "textures"
+    }
+  ]
+}

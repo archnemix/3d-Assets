@@ -1,0 +1,333 @@
+{
+  "schema_version": 1,
+  "id": "g3-fashion-top-hat",
+  "title": "Formal top hat",
+  "category": "apparel/headwear/hats",
+  "style": "stylized",
+  "tags": [
+    "formal",
+    "historical",
+    "apparel"
+  ],
+  "batch": "apparel-foundations-01",
+  "acquired_at": "2026-11-07T01:42:45.609916+00:00",
+  "review": {
+    "id": "g3-fashion-top-hat",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Tall formal top hat with ribbon, bow and curved brim.",
+    "limitations": [
+      "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+      "Stylized pastel model, not photorealistic.",
+      "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+    ],
+    "contact_sheet_sha256": "edd0b46b0f0bca8f830bff078a36f40a68b27343b58031f563b9323dd65a5479",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/top-hat.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/top-hat/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/props/top-hat/",
+    "source_id": "top-hat",
+    "revision": "cc90a081e68c65aefd05c99da4562c0366c9976f55a71b5d25778927ad06d55c",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/top-hat/top-hat.glb",
+        "bytes": 652892,
+        "sha256": "cc90a081e68c65aefd05c99da4562c0366c9976f55a71b5d25778927ad06d55c"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/top-hat/LICENSE.txt"
+  },
+  "model": "model/top-hat.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/top-hat_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "top-hat_body_normal"
+    },
+    {
+      "path": "textures/top-hat_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "top-hat_body_basecolor"
+    },
+    {
+      "path": "textures/top-hat_body_metallic-top-hat_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "top-hat_body_metallic-top-hat_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 5355,
+    "triangles": 7896,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "top-hat_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "top-hat_body_metallic-top-hat_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "top-hat_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1528,
+      "sha256": "2d612ee9dfba9cf8031fcd38b59a0bef61a71474fd802abf88cd130c7b4b026b",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68270,
+      "sha256": "acc301f54ad1f536a9468b3070980e5bfca6bd4932dab6d1c3915635501a7cd4",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/top-hat.glb",
+      "bytes": 652892,
+      "sha256": "cc90a081e68c65aefd05c99da4562c0366c9976f55a71b5d25778927ad06d55c",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 20888,
+      "sha256": "4007a807c8d97a8b818f1929e16077e963f1e6ad4882b5b37d3bd8c2e755fb50",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 16195,
+      "sha256": "35d15e75c87aa37dfb1dbf19125b899c60ef0ba794006cf31d6d01d5801fac53",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 184602,
+      "sha256": "edd0b46b0f0bca8f830bff078a36f40a68b27343b58031f563b9323dd65a5479",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 810,
+      "sha256": "26a1c9e383b5c97ae618d9d8e159741ec017f224263d7b269c62721d8db4cd90",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 23920,
+      "sha256": "ff3aae727a1557c991da6df3b18092c952449eb18a7197a941c1265d2befe717",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 21500,
+      "sha256": "8ada02e5effe77d55b099c35da46a50ddd91a174c77efd5689b3117b865685f4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 19086,
+      "sha256": "453692a2266c8c31ccf34075204348caef60f6d66f668c07ce7975bca527c0b0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 21244,
+      "sha256": "5cf5cb95f58d8ed57823add10bcf8b761fe0e2620fea83dda01eec5f8369f866",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 23334,
+      "sha256": "b8121acb3296c22923c906be42db2babf82d7246b16362c1d6bdb890031c37c3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 23843,
+      "sha256": "3d45816a60a3b16e4dae5146a736ae0e11e4bc3cb411d6ac118e87dc75e48d93",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 22872,
+      "sha256": "4b8ced50cd5d5178d93138f199ac5c1f40acfc6c0d1dc8729a99169b3f685409",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 23086,
+      "sha256": "d14444752b3a32e401a1847859d6634011b5a237ca481358e1678698020543db",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 24826,
+      "sha256": "e73ef71b52f74856dd3694ab5413c83b71a43492ff3a2e981bb2ee7267f159bf",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 47871,
+      "sha256": "4d8648413d97bdb82ba991c3ff1feeee1d75f8de213c31cd3cf73aa16eda6d45",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1927,
+      "sha256": "e6f001865c6c7e772c75859fce00321e0a9eb018d1f86fa5a46681990f13678b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1491,
+      "sha256": "343385c47363cbc5f6ea62f7667f56f1d2f3c3a34dd1fe8caf69dc3cd468de7e",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 469,
+      "sha256": "9a8c922087b592b5096b7ee566a8ec4219b21012097c19fb563397ec4d48e380",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "f184e62325c68a3d83d683812d8022bc496f4d946fd5bb41314a124943337df8",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 866,
+      "sha256": "4bffe884cbeb782edd46db6f79099f973174f32101b7455813131c3baeed3f8d",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/top-hat_body_basecolor.jpg",
+      "bytes": 163978,
+      "sha256": "777cf9253a3cec66d0700e05f1fb920bd7f0025320e0872daa8891b5935a8cb5",
+      "role": "textures"
+    },
+    {
+      "path": "textures/top-hat_body_metallic-top-hat_body_roughness.jpg",
+      "bytes": 149593,
+      "sha256": "2025fa2e2961235f96dc880a8c1d4551e89a4d0e86d9bd77539257b92ed079c6",
+      "role": "textures"
+    },
+    {
+      "path": "textures/top-hat_body_normal.jpg",
+      "bytes": 118074,
+      "sha256": "1efe6da8c7f53ddcef48d5955c332c419b33c1317d1271fd73dc17750c6d8c9b",
+      "role": "textures"
+    }
+  ]
+}

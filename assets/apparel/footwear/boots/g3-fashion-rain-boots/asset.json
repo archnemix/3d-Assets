@@ -1,0 +1,333 @@
+{
+  "schema_version": 1,
+  "id": "g3-fashion-rain-boots",
+  "title": "Rubber rain boots",
+  "category": "apparel/footwear/boots",
+  "style": "stylized",
+  "tags": [
+    "boots",
+    "rain",
+    "apparel"
+  ],
+  "batch": "apparel-foundations-01",
+  "acquired_at": "2026-11-07T01:48:05.518766+00:00",
+  "review": {
+    "id": "g3-fashion-rain-boots",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Pair of glossy tall rain boots with side buckles and tread.",
+    "limitations": [
+      "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+      "Stylized pastel model, not photorealistic.",
+      "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+    ],
+    "contact_sheet_sha256": "787e72958c00c32c24cc7f27c04fc35ef41aabea47bdfea08da41672684c73a4",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/rain-boots.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/rain-boots/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/props/rain-boots/",
+    "source_id": "rain-boots",
+    "revision": "e1677c3f61806abdca6b4c0a11c02791424f8bbb997e5f8c6cd0eb97daaae55a",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/rain-boots/rain-boots.glb",
+        "bytes": 1055356,
+        "sha256": "e1677c3f61806abdca6b4c0a11c02791424f8bbb997e5f8c6cd0eb97daaae55a"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/rain-boots/LICENSE.txt"
+  },
+  "model": "model/rain-boots.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/rain-boots_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "rain-boots_body_normal"
+    },
+    {
+      "path": "textures/rain-boots_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "rain-boots_body_basecolor"
+    },
+    {
+      "path": "textures/rain-boots_body_metallic-rain-boots_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "rain-boots_body_metallic-rain-boots_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 11829,
+    "triangles": 12890,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "rain-boots_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "rain-boots_body_metallic-rain-boots_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "rain-boots_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1539,
+      "sha256": "52d310334ea2cc696916d9f59a1ffa15247d3c17ef75772e4c9ec144469274db",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68167,
+      "sha256": "cecd586df9eb5727987d2f47a968f1ad3d5cc30fe5d0431f1286adffad8bed77",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/rain-boots.glb",
+      "bytes": 1055356,
+      "sha256": "e1677c3f61806abdca6b4c0a11c02791424f8bbb997e5f8c6cd0eb97daaae55a",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 29811,
+      "sha256": "e048fa3ec70a4ebc9ae4212e2051d9a34c25a750099de1ab7168e973adde48b6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 17909,
+      "sha256": "16dd3daa51ea65be222bb1020c41efe7b2345df1090eec8f1d3986238821f58c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 200364,
+      "sha256": "787e72958c00c32c24cc7f27c04fc35ef41aabea47bdfea08da41672684c73a4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 824,
+      "sha256": "48f90bb02048eddb06b1de1c0e9f35e7b69b6c9ea5246938164a7227019390e4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 22013,
+      "sha256": "d6fb0086ab316fdfd983f6652f2a3f8391a55626f8cb24f48823a93f0cec52c2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 20923,
+      "sha256": "139a8756f37553c4d2b0cd9199cef7a7b5839fc38256c939b1c332599e89f54e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 21494,
+      "sha256": "5f32d80e5789c26cf5d9945e94c937a94ff278c39d0847a3e5664ab813edc624",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 23221,
+      "sha256": "b9539a003c03443b183a3b6e0fae794df6b73f5c91572a00e9acb34bb38ae9aa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 21952,
+      "sha256": "9aeb5c8d850410ea95a6d68eb88d8cd108c52e477d52bf41591947ef67fd9718",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 20801,
+      "sha256": "d101934338dceba6a264920ea4f9eaa7ff66a2180d55a77952b1af9f7d67f2d4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 23933,
+      "sha256": "1b11bac8728e2c5bf8ea55298eea2dde22b8fcba93dd414b46d9873f412b4638",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 24207,
+      "sha256": "684afceb3610999690e8f9a58578c95e1236d29d5221186cfceb87facd99b1d1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 25287,
+      "sha256": "ea6606a5774defb2d7fd3f4eb71288628e77b5ce0d4eb2ed12097855e943bad3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 55527,
+      "sha256": "10f9d11508d6cfed5c6baa62b83b5af50387bf3203d57e02ec05e6e0a619b6d1",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1933,
+      "sha256": "40918967bc9af84cd51ce024c6c4bb469a825fd48c1154f235f61e221d388c3c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1580,
+      "sha256": "1cfac50884660f02cba5a0a3db9e3b8f159a094dc4dd1e4b6bbdcb43c51552a7",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 494,
+      "sha256": "fb7cd4b56a23b7c1e8c0d0a5aae6a875a362ea24d26155b215f0bc2f04730223",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "8650301f68decfe49f23d1a5e3ea0eab204f6dc0a7fffe75589d6e3f93c04a91",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 875,
+      "sha256": "758e194a41529dc6206ccec20fa3396f40ebb53874be3eecaabf65de9821725d",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/rain-boots_body_basecolor.jpg",
+      "bytes": 222495,
+      "sha256": "ed177639b986ffc824099e4cb53eb5d5f6102518a2a56fd568b16c6b17cfd658",
+      "role": "textures"
+    },
+    {
+      "path": "textures/rain-boots_body_metallic-rain-boots_body_roughness.jpg",
+      "bytes": 280834,
+      "sha256": "5e54d82264513e1259e8123e7cb7e9e4af1384634562c514b282cd7ab63546d7",
+      "role": "textures"
+    },
+    {
+      "path": "textures/rain-boots_body_normal.jpg",
+      "bytes": 93574,
+      "sha256": "5ce84152a32fab2dc7415c8ad3cd3b3705bf3ba454d555e001213ff74dd901bb",
+      "role": "textures"
+    }
+  ]
+}

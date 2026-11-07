@@ -1,0 +1,333 @@
+{
+  "schema_version": 1,
+  "id": "g3-fashion-fedora",
+  "title": "Felt fedora",
+  "category": "apparel/headwear/hats",
+  "style": "stylized",
+  "tags": [
+    "hat",
+    "vintage",
+    "apparel"
+  ],
+  "batch": "apparel-foundations-01",
+  "acquired_at": "2026-11-07T01:42:07.653312+00:00",
+  "review": {
+    "id": "g3-fashion-fedora",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Pinched-crown fedora with flat brim, bow and contrasting band.",
+    "limitations": [
+      "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+      "Stylized pastel model, not photorealistic.",
+      "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+    ],
+    "contact_sheet_sha256": "8cc626476613bf19b3ab1758eccfc09b385dd5e6d9f67794f18889e9b81f2e8a",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/fedora.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/fedora/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/props/fedora/",
+    "source_id": "fedora",
+    "revision": "f3d20c222351c34023e0ea3097571576a6124d39b97265c96680fc9f47914eb2",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/fedora/fedora.glb",
+        "bytes": 569228,
+        "sha256": "f3d20c222351c34023e0ea3097571576a6124d39b97265c96680fc9f47914eb2"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/fedora/LICENSE.txt"
+  },
+  "model": "model/fedora.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/fedora_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "fedora_body_normal"
+    },
+    {
+      "path": "textures/fedora_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "fedora_body_basecolor"
+    },
+    {
+      "path": "textures/fedora_body_metallic-fedora_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "fedora_body_metallic-fedora_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 4082,
+    "triangles": 6336,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "fedora_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "fedora_body_metallic-fedora_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "fedora_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1523,
+      "sha256": "74db376ff9f7a66125322f3e954d4e30534ed3a5ce0552155119628797015635",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68039,
+      "sha256": "6b64b6857eb87eabc974f3f970beb27f4df4888d65554001a175792394cd650e",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/fedora.glb",
+      "bytes": 569228,
+      "sha256": "f3d20c222351c34023e0ea3097571576a6124d39b97265c96680fc9f47914eb2",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 21778,
+      "sha256": "8d2e65cea927a78838a442aba007b2df45b2eb74667cb34b41e7e684d8971065",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 14694,
+      "sha256": "772d8441c693d25ec5beb72781d7a1d8850e107287116bf2d592d59fca73f0a2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 168973,
+      "sha256": "8cc626476613bf19b3ab1758eccfc09b385dd5e6d9f67794f18889e9b81f2e8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 806,
+      "sha256": "5af5c57f1bf1145a778b5f8aa19dc03bdddf9e71ba83fa689d178389bd6a420a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 20582,
+      "sha256": "0d1c16b62654d72f44d24eb2b5f76fa394ae8ac65f37080d7f51b5880dd73de9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 19102,
+      "sha256": "2605bd62dbe8ee0093023eb65c8cc085c19b23f00773b4fe7eb180bf6cc425e6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 18036,
+      "sha256": "f9ba6662ae53a219a6dff174a4a8afafbcff454f8639ca86f3f5c3cff9a5736d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 18870,
+      "sha256": "e694547607668cf0f445e28585eff7ab52508e91d73103fb26728efeea3dadb3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 19937,
+      "sha256": "1229939548cca1ebdb4ebaef28226b4d44a179d6d7ab91ac0c7fc1d2ea7b9645",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 20900,
+      "sha256": "76291ec0f9cb4e66898b4e255b44c6f966cce1889653ed92cda82171cecd69b1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 20596,
+      "sha256": "635d36947a546a820835867b535243036a1e2cf90a6df7c217045a819295a5cd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 20847,
+      "sha256": "3055ae1e4b3cfb953723e0f60a79e7f56102eb1db67fb3264fba0c7fb99f9c0c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 23934,
+      "sha256": "af747877dad1098452c307aefe8b6778696d56189a7491a502289ef0bbd05d0b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 41184,
+      "sha256": "bc3d78d98f47ac66c7882a77dba85e65dca7ef622413e3c22001a64916d83006",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1926,
+      "sha256": "2a712f72b1c8e431dac4ee8fadce7269f95c584d2c4e9e0fdd11110bcd8fda37",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1504,
+      "sha256": "8156fe282b2d93c56c5053d25e1ca054910494b5bbf83911384fe74c8a681fe8",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 461,
+      "sha256": "894a058faac62d3eac049af89fa3d035c52bec2f3a82269905ce5dd3572f5e9c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "796e4400adf4f96840b94c2f4520a4b0dc98fc4f18d69ae79b055df090809750",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 874,
+      "sha256": "44bc016636b41d402c41f2a8608f659a296de6c367b05a6c084c68ee0a3c1314",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/fedora_body_basecolor.jpg",
+      "bytes": 140165,
+      "sha256": "a1adce36df9183bedc981ee4da1fab46f8b78cf3df0dd52b45a80e75d1f2f021",
+      "role": "textures"
+    },
+    {
+      "path": "textures/fedora_body_metallic-fedora_body_roughness.jpg",
+      "bytes": 118980,
+      "sha256": "01751a27481a2a9385e3f79402068220f497bce1ac9f4cbed9d934973ca613aa",
+      "role": "textures"
+    },
+    {
+      "path": "textures/fedora_body_normal.jpg",
+      "bytes": 138920,
+      "sha256": "97be0abea7ad687b26519269e347dd0a805d963cb6bc24b90170e4c9d78bcd78",
+      "role": "textures"
+    }
+  ]
+}

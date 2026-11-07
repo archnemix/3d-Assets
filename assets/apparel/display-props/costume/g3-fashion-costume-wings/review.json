@@ -1,0 +1,24 @@
+{
+  "id": "g3-fashion-costume-wings",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed twelve-view contact sheet. Layered pastel feather costume wings on a tall coat stand.",
+  "limitations": [
+    "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+    "Stylized pastel model, not photorealistic.",
+    "Includes a coat stand in the same mesh as the apparel; removing it requires mesh editing and separability was not verified.",
+    "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+    "Display prop: the wearable item is supplied on a stand, mount, hanger or cushion; separation and character wearability are not verified."
+  ],
+  "contact_sheet_sha256": "3d172f1d76fd7308053e29b2f3740f78f72dd1d9db75e23819f014b697acf8c3",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

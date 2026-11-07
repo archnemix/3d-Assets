@@ -300,3 +300,21 @@ test("immediate children support unlimited depth, empty planned categories and d
     3,
   );
 });
+
+test("category navigation anchors exist in the gallery markup", async () => {
+  const { readFile } = await import("node:fs/promises");
+  const html = await readFile(
+    new URL("../gallery/index.html", import.meta.url),
+    "utf8",
+  );
+  for (const id of [
+    "main-category",
+    "category",
+    "category-levels",
+    "category-browser",
+    "category-breadcrumb",
+    "category-children",
+  ]) {
+    assert.match(html, new RegExp(`id="${id}"`));
+  }
+});

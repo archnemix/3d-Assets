@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "id": "mh-toigo-harem-pants",
+  "title": "Harem trousers",
+  "category": "apparel/bottoms/trousers",
+  "style": "realistic",
+  "tags": [
+    "clothing",
+    "traditional"
+  ],
+  "batch": "clothing-foundations-01",
+  "acquired_at": "2026-11-07T09:19:21.299907+00:00",
+  "review": {
+    "id": "mh-toigo-harem-pants",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed all twelve views. Loose floral trousers with elastic-looking waistband and gathered ankles.",
+    "limitations": [
+      "Standalone static OBJ conversion; no rig, skin weights or automatic fitting are provided, and compatibility with any body shape has not been verified.",
+      "Diffuse texture and declared normal map (when present) are preserved; legacy specular, bump and other shader parameters are not reproduced.",
+      "Textured game-asset geometry, not photorealistic; some surfaces show visible faceting."
+    ],
+    "contact_sheet_sha256": "274de6c4818807c9789b217d0936a765568b6187846ef08161461af67eb6d8bf",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "makehuman-clothing",
+    "model": "model/garment.glb",
+    "creator": "MargaretToigo",
+    "license": "CC0-1.0",
+    "license_evidence": "https://static.makehumancommunity.org/assets/assetpacks/pants01.html",
+    "source_url": "https://static.makehumancommunity.org/assets/assetpacks/pants01.html",
+    "source_id": "toigo_harem_pants",
+    "revision": "e4e0ec60db34f279be291a83cfd7b342a7c5cf09bb7676682a5f39f4f6ac4ad9",
+    "downloads": [
+      {
+        "url": "https://files2.makehumancommunity.org/asset_packs/pants01/pants01_cc0.zip",
+        "bytes": 21908723,
+        "sha256": "e4e0ec60db34f279be291a83cfd7b342a7c5cf09bb7676682a5f39f4f6ac4ad9"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://static.makehumancommunity.org/assets/assetpacks/pants01.html"
+  },
+  "model": "model/garment.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 1,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/garment.glb",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "HaremPants",
+      "embedded_image_index": 0,
+      "embedded_sha256": "75067b13c0d28293e99fda8b5156e80496622bf42c5abd32491a5456da4dd04c"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 21822,
+    "triangles": 10912,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "HaremPants",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 0,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1665,
+      "sha256": "b774aaf3e79f1064b4b4d874540496dda11cd0f756be07eaa0191fa472dca39c",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 63996,
+      "sha256": "c7a0b878fcfee9c3a9499c2799995d31afc3081a4c64e079592b66cf0c17802c",
+      "role": "logs"
+    },
+    {
+      "path": "logs/convert.log",
+      "bytes": 444,
+      "sha256": "1bd52183ca599ad6b6a98ddf51f7d52113f8c5afbe5333b7ff5580aec39a9590",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "082e951724014468ff5480fb2a42b17b945a390940b3476599aaaa9a77b8ecc1",
+      "role": "logs"
+    },
+    {
+      "path": "model/garment.glb",
+      "bytes": 6552372,
+      "sha256": "89ffd80f1a49a31981bb8efd495e19b4b8b179a19ae803d1b2898c3bbf888189",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 58154,
+      "sha256": "b004c3a2ce3d09a37ba3543666cebe8c6a35dfc967f106266e39a237d366b3c8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 16688,
+      "sha256": "45f6c6f78ef0d92fb0668c3b11216458fbcdcb527dc143a6e6fd60b834788349",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 366307,
+      "sha256": "274de6c4818807c9789b217d0936a765568b6187846ef08161461af67eb6d8bf",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 473,
+      "sha256": "afc620f9ec39212e46b49cac313931d2a8a4258aad9b1be88e42be821d27325b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 75209,
+      "sha256": "3f0cf1618ae206b415067c8dd3b6730b0b61792445653523af5015cab79862af",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 64764,
+      "sha256": "452b908c533ba5c2cfe31d3f266a5c23168c68f30e89522c0be1fe623f9e790d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 44732,
+      "sha256": "c7960e259ee73d91b0aa3e15f967de44e56d47aa18df28ece1be0888e5a204ca",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 64374,
+      "sha256": "9090121e7b65d33bf728a7910c93113264617c12edf9a807c018cd2ebd7008d8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 71945,
+      "sha256": "8a7f17efeaf68f523ff56f0931c83cdd3ca770659a2b4575b48bcf3323482986",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 64406,
+      "sha256": "4a2e3873344a5c035d053ddd4b7d305cf9533b6877aa170b3feb004a68c3857c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 44688,
+      "sha256": "b3d102fac5887c8799af76a63222f3422e00fd33a4a991554402142acfda0efb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 65519,
+      "sha256": "37ec33d9b0a919b16451710820f866c5adeda755500c923cc7e0aca146edc704",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 54073,
+      "sha256": "668f4c90d6e6c0a9da41a582a55b41de0ec731c01321275e9d9f9e854214692e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 53552,
+      "sha256": "de96c3b3d329fe6b5c4d4c3905e7e634eef8903ab28e65bec51101c1fb3bdd83",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/clothing-source.json",
+      "bytes": 996,
+      "sha256": "14344da055d2fe4b8f5d74666e9ad10f1b1c0f598a79372511d328e6d49c5310",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1172,
+      "sha256": "0e99752b91e65f76892d6eb432d91eacf93b917bcf1defd8205baaba5a899247",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source.mhclo",
+      "bytes": 375603,
+      "sha256": "9cdfb91852c9d3952ef621d58aeb0b73f1be98b5448c84bb621dc45f3b828287",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source.mhmat",
+      "bytes": 500,
+      "sha256": "bda009f2d77cd3d0c3af6268026d08f1e294f0c0806b1679b4bdd3dc0c96de9c",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 976,
+      "sha256": "ad4170088d218db3319d908d2787a34e3b1577b48d2b53da279d8b3c090db89d",
+      "role": "documentation"
+    }
+  ]
+}

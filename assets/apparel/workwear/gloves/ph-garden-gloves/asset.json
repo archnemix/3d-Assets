@@ -1,0 +1,346 @@
+{
+  "schema_version": 1,
+  "id": "ph-garden-gloves",
+  "title": "Garden gloves",
+  "category": "apparel/workwear/gloves",
+  "style": "realistic",
+  "tags": [
+    "gloves",
+    "workwear",
+    "realistic"
+  ],
+  "batch": "apparel-foundations-01",
+  "acquired_at": "2026-11-07T01:50:57.362940+00:00",
+  "review": {
+    "id": "ph-garden-gloves",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Used fabric-and-rubber gardening gloves with grime and frayed edges.",
+    "limitations": [
+      "Static prop: no rig or animation; fitting or use as wearable clothing on a character has not been verified.",
+      "Khronos validation reports zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer."
+    ],
+    "contact_sheet_sha256": "df3a51154773533e4bf0871a5024734c4a29ef5a3ffdde7b696afa3f9f579daa",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "polyhaven",
+    "model": "model/garden_gloves_01_1k.gltf",
+    "creator": "Satyaki Mandal",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md",
+    "license_page": "https://polyhaven.com/license",
+    "source_url": "https://polyhaven.com/a/garden_gloves_01",
+    "source_id": "garden_gloves_01",
+    "resolution": "1k",
+    "downloads": [
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/garden_gloves_01/garden_gloves_01_1k.gltf",
+        "bytes": 2813,
+        "sha256": "ab36c016f48b8cecf0658a9e3264592265dd159777ee56f3dbfdd765650f0287"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/garden_gloves_01/garden_gloves_01.bin",
+        "bytes": 168132,
+        "sha256": "8d4d237eaa5d28fe7d5ba8daa700a6a888963e226a44653fc66067232202395b"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/garden_gloves_01/garden_gloves_01_nor_gl_1k.jpg",
+        "bytes": 1042336,
+        "sha256": "da7ef6105041181532cc69466c645966b0e0d039ae1fdba3986d7e96af121f57"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/garden_gloves_01/garden_gloves_01_diff_1k.jpg",
+        "bytes": 806038,
+        "sha256": "09aa415fbb228cdc5c7539f0c79bd3caa5fff1b4a7aa8470c6163c497115b062"
+      },
+      {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/garden_gloves_01/garden_gloves_01_arm_1k.jpg",
+        "bytes": 885378,
+        "sha256": "4ca81495947ed5a7c29295caf83014c88a2eebd736f8dfbd92e7672e8e431a86"
+      }
+    ],
+    "api_credit": "Powered by Poly Haven. This credits the discovery API, not a condition on asset use."
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/Poly-Haven/Public-API/2fd1796dc3506dfa8269439aac8e6f5c65876bd1/ToS.md"
+  },
+  "model": "model/garden_gloves_01_1k.gltf",
+  "gltf": {
+    "format": "gltf",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/textures/garden_gloves_01_nor_gl_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "garden_gloves_01_nor_gl"
+    },
+    {
+      "path": "model/textures/garden_gloves_01_diff_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "garden_gloves_01_diff"
+    },
+    {
+      "path": "model/textures/garden_gloves_01_arm_1k.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "embedded_in_glb": false,
+      "linked_sidecar": true,
+      "name": "garden_gloves_01_rough"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 3975,
+    "triangles": 6822,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "garden_gloves_01_diff",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/apparel-foundations-01/ph-garden-gloves/model/textures/garden_gloves_01_diff_1k.jpg"
+      },
+      {
+        "name": "garden_gloves_01_nor_gl",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/apparel-foundations-01/ph-garden-gloves/model/textures/garden_gloves_01_nor_gl_1k.jpg"
+      },
+      {
+        "name": "garden_gloves_01_rough",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "filepath": "/home/runner/work/3d-Assets/3d-Assets/quarantine/apparel-foundations-01/ph-garden-gloves/model/textures/garden_gloves_01_arm_1k.jpg"
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1506,
+      "sha256": "1eb6dee297d54b8a74552c0b83a2f861591f260122855c1079d125b9192e45ec",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 67011,
+      "sha256": "814ab56b41ff4275d23f1dddf5707bf64747c81eb1f7a05fa4c09e90c29b7e41",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/garden_gloves_01.bin",
+      "bytes": 168132,
+      "sha256": "8d4d237eaa5d28fe7d5ba8daa700a6a888963e226a44653fc66067232202395b",
+      "role": "model"
+    },
+    {
+      "path": "model/garden_gloves_01_1k.gltf",
+      "bytes": 2813,
+      "sha256": "ab36c016f48b8cecf0658a9e3264592265dd159777ee56f3dbfdd765650f0287",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/garden_gloves_01_arm_1k.jpg",
+      "bytes": 885378,
+      "sha256": "4ca81495947ed5a7c29295caf83014c88a2eebd736f8dfbd92e7672e8e431a86",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/garden_gloves_01_diff_1k.jpg",
+      "bytes": 806038,
+      "sha256": "09aa415fbb228cdc5c7539f0c79bd3caa5fff1b4a7aa8470c6163c497115b062",
+      "role": "model"
+    },
+    {
+      "path": "model/textures/garden_gloves_01_nor_gl_1k.jpg",
+      "bytes": 1042336,
+      "sha256": "da7ef6105041181532cc69466c645966b0e0d039ae1fdba3986d7e96af121f57",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 42502,
+      "sha256": "6a8e30240b2e22cfefad0fa5dc229b7de459fdb8c978c39019edd089b302589f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 17368,
+      "sha256": "64f1aecde820a94f742a1a38cc113af71d11d4f8d8b5d3a08559f1ca7bad9abe",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 226563,
+      "sha256": "df3a51154773533e4bf0871a5024734c4a29ef5a3ffdde7b696afa3f9f579daa",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1188,
+      "sha256": "d9779a76ed33eb96a548dfe69012606e9d34e79a618c377a39f13ecd8ac02d6a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 39753,
+      "sha256": "7e32e9255ae3cccfab4ddd0a23ee3cd7aa41b8aeea0121c8c5f0f71f2363d670",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 32927,
+      "sha256": "a27967d6add441fd0f4a8c29021903d5429778eefe4d3cecaa5aa3ed14d9da43",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 27152,
+      "sha256": "0cf9478c98b6b64f8fc081f7248d4471f240153ce023bd414ca394c40a83627a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 25661,
+      "sha256": "582431c5bd87463b6fe7a073dfe597a91607dbfbd7d332c71b8f377fac76e668",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 27083,
+      "sha256": "acd977423466a562686943cf2b55756f39c1d38bf6544a05cca29205cc3ab690",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 28505,
+      "sha256": "4bf2d99db1a37d06018166af39209d25042af1af26a911c79678de5f895857d4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 30236,
+      "sha256": "d5cf9ad12b1a9938ad0a298709c7e962e057b8de91e4a74bb82a58ba070a5258",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 33237,
+      "sha256": "b02d5ea621ad1fd4eee876e1e5738cfda00319a29f1924bf2a717541cc301769",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 45905,
+      "sha256": "742cf8e74d8a47b821e10009a936a2c3027bab7e4bc8322a294cc2e11a0e52ab",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 35642,
+      "sha256": "5ab1106e58d5acb9c781fb72bfc5142c0ce982d15a1799d23f190813ebcda5b2",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/api-info.json",
+      "bytes": 1382,
+      "sha256": "0e0d9477d8bc6a59d1661093951bf7da82054f727f848738057dae0a6d972586",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2142,
+      "sha256": "226c43e63189724a0fd6991435d444f21bc7e815476dc222e12555ae6b095e64",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/selected-package.json",
+      "bytes": 1131,
+      "sha256": "3a49e65142ef49bccebad37bc02739bb03b2cc8b8aaa70c47a1c5403a331e529",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 829,
+      "sha256": "7a8536fbc95d56cee395759c178c89902b48dc50d73a70869a1a47386cbef479",
+      "role": "documentation"
+    }
+  ]
+}
