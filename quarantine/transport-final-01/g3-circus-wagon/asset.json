@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "id": "g3-circus-wagon",
+  "title": "Circus ticket wagon",
+  "category": "vehicles/cars",
+  "style": "stylized",
+  "tags": [
+    "circus",
+    "wagon",
+    "historical"
+  ],
+  "batch": "transport-final-01",
+  "acquired_at": "2026-11-07T01:16:59.694832+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/circus-wagon.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/circus-wagon/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/circus-wagon/",
+    "source_id": "circus-wagon",
+    "revision": "5643c8cd030d07ea14674ed6dd00c9990bda4dc9e5cf344b4ae0779726fbfc8d",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/circus-wagon/circus-wagon.glb",
+        "bytes": 2218540,
+        "sha256": "5643c8cd030d07ea14674ed6dd00c9990bda4dc9e5cf344b4ae0779726fbfc8d"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/circus-wagon/LICENSE.txt"
+  },
+  "model": "model/circus-wagon.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 6,
+    "materials": 18,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [
+      "KHR_materials_emissive_strength"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/circus-wagon_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "circus-wagon_body_normal"
+    },
+    {
+      "path": "textures/circus-wagon_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "circus-wagon_body_basecolor"
+    },
+    {
+      "path": "textures/circus-wagon_body_metallic-circus-wagon_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "circus-wagon_body_metallic-circus-wagon_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 6,
+    "hidden_mesh_objects": 0,
+    "vertices": 37551,
+    "triangles": 39808,
+    "material_slots": 18,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 1124,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "circus-wagon_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "circus-wagon_body_metallic-circus-wagon_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "circus-wagon_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 74728,
+      "sha256": "771f946fcb534a2135b359bac3dd692742106950f338b2c65caf44c90c590f57",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "21e65e622823e7dea53f380d2b8c94c9e8e481f575a7311301698d45579591ba",
+      "role": "logs"
+    },
+    {
+      "path": "model/circus-wagon.glb",
+      "bytes": 2218540,
+      "sha256": "5643c8cd030d07ea14674ed6dd00c9990bda4dc9e5cf344b4ae0779726fbfc8d",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 25512,
+      "sha256": "adb7366a7a52317c4cd4b21194528897235ecc13d4bc58e2ca2617a508a3382e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 33125,
+      "sha256": "6c966171b1dbc93f72342e823d7764487ca2b8a8e8d0399673d05a8ac8707c8e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 283108,
+      "sha256": "443f719334bc76654b13f663206af528b9d7d2288d2c119435c426bafefde40a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 836,
+      "sha256": "d06afa7262baefe48977afafbdd759cebb524b1f5e00852e3da6f55a46b5ba96",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 31911,
+      "sha256": "900627763747014e06f8a79987dd39ca1f6dcf3edc593c4879f5412ca875b34e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 48466,
+      "sha256": "c4cbac6d264add1e6cc5b31deaf6c7e8665103b7f75aa46f95a7cdaf36565943",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 30207,
+      "sha256": "2b851a789b45f49a4da7102ab4e65d780b2bac6c72665ba3f950967a909286ba",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 49259,
+      "sha256": "ca6b93dcce4f13ed9542c52a893b5a3906f4e82100fd02cd506377fd0e8dea54",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 29953,
+      "sha256": "323975eaf5353561a2137cec1c54448bc8b30e2eb848c77b29e0914d130b6dde",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 52263,
+      "sha256": "152b3ee5055b556e9f481d5b03a864f39fd7e940cb298f1efad3422b5a6d3265",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 33049,
+      "sha256": "055904ab47f0636589c6fa642f9b211d5c2c5a2e0eb6da1ad62cec5702c62209",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 51294,
+      "sha256": "5f9047031630155b6f023f7c255fb1e8f2311b90facdc13577996592523ffeb1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 19037,
+      "sha256": "2bd24b3f74acdf88d809524c7b5703a277719e9efa94b2642e6975194fb3a3db",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 59704,
+      "sha256": "2db119da6b72cf9ea668263d4c192c25921bb5e1398674dd8e0b9afe235f6d1b",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 5205,
+      "sha256": "c84283ddb269fc3acf58f5c9183b02761cd809cd802c0b295791d06432fc4488",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 2121,
+      "sha256": "d47f10ae1887c73aa3fb90eac0b388bc5a492fe13548b3dbcbae6201020025de",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 513,
+      "sha256": "fba995d215354fba665f3dc2019659facf2a009b28929cedc9479158a5c1b565",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "19e2e45baa2ec69da5ea27b40198950a67cd296101b7bba6de18c7901e2319d3",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/circus-wagon_body_basecolor.jpg",
+      "bytes": 395341,
+      "sha256": "13147a2a23429a0f5a9f051a339fbeb342e79898beb89d0608916e0ed9fd1d14",
+      "role": "textures"
+    },
+    {
+      "path": "textures/circus-wagon_body_metallic-circus-wagon_body_roughness.jpg",
+      "bytes": 292504,
+      "sha256": "8a677d3ea3fb6daa96f94cf525055f8c02e0f26122eeee146e6c175fa954ef28",
+      "role": "textures"
+    },
+    {
+      "path": "textures/circus-wagon_body_normal.jpg",
+      "bytes": 78363,
+      "sha256": "7f0f1650b094a131bd363316ea420690d9ee0adb624386d0591a8565e16c6a45",
+      "role": "textures"
+    }
+  ]
+}

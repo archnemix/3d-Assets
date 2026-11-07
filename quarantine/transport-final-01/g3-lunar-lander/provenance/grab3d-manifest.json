@@ -1,0 +1,55 @@
+{
+  "slug": "lunar-lander",
+  "triangles": 24790,
+  "texture_px": 2048,
+  "triangles_light": 15119,
+  "texture_px_light": 1024,
+  "files": {
+    "glb": {
+      "name": "lunar-lander.glb",
+      "bytes": 1402744
+    },
+    "blend": {
+      "name": "lunar-lander.blend",
+      "bytes": 1182161
+    },
+    "fbx": {
+      "name": "lunar-lander.fbx",
+      "bytes": 2552348
+    },
+    "obj": {
+      "name": "lunar-lander-obj.zip",
+      "bytes": 1239318
+    },
+    "usdz": {
+      "name": "lunar-lander.usdz",
+      "bytes": 2309390
+    },
+    "glb_light": {
+      "name": "lunar-lander-light.glb",
+      "bytes": 787840
+    },
+    "fbx_light": {
+      "name": "lunar-lander-light.fbx",
+      "bytes": 1504428
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "9.700 x 9.700 x 6.815",
+    "triangles": 24790,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-09-26",
+    "real_size": "lunar lander (two-stage moon landing module), approx. 9 m across the landing legs, 6.9 m high",
+    "notes": "front faces -Y (windows, hatch, porch and ladder); 4 landing legs (lunar-lander_leg_*) are separate objects with origin on the upper hinge (fold up by rotating about their local horizontal axis); descent engine glow and beacon are emissive; gold foil descent stage with real inset seams; no text, no flags, no agency logos",
+    "set": "Cozy Space Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}
