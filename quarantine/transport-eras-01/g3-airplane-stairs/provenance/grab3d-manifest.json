@@ -1,0 +1,47 @@
+{
+  "slug": "airplane-stairs",
+  "triangles": 18920,
+  "texture_px": 2048,
+  "triangles_light": null,
+  "texture_px_light": null,
+  "files": {
+    "glb": {
+      "name": "airplane-stairs.glb",
+      "bytes": 1915188
+    },
+    "blend": {
+      "name": "airplane-stairs.blend",
+      "bytes": 1551891
+    },
+    "fbx": {
+      "name": "airplane-stairs.fbx",
+      "bytes": 3178972
+    },
+    "obj": {
+      "name": "airplane-stairs-obj.zip",
+      "bytes": 1839522
+    },
+    "usdz": {
+      "name": "airplane-stairs.usdz",
+      "bytes": 2984697
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "2.460 x 6.782 x 4.744",
+    "triangles": 18920,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-09-26",
+    "real_size": "airport passenger stair truck, approx. 2.5 x 6.7 x 4.8 m, platform height 3.6 m",
+    "notes": "ground support vehicle: yellow chassis with cab at the front (-Y), blue stair flight with rubber treads and yellow nosings, handrails both sides, platform with bumper above the cab, amber beacon (emissive, not baked). Moving parts: airplane-stairs_flight (stair, platform and lift rods, origin on the rear hinge pin, rotate around local X, negative raises the platform, about -4 to +3 degrees), airplane-stairs_wheel_fl/fr/rl/rr (origin at the hub, spin around local X); lift cylinders move with the stair and dip into the lift housing on the deck; no text, no airline colours",
+    "set": "Cozy Airport Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}
