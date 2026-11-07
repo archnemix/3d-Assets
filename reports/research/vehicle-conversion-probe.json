@@ -1,0 +1,30 @@
+{
+  "probes": [
+    {
+      "id": "fokker-triplane",
+      "status": "failed-not-approved",
+      "error": "Blender conversion failed; see logs/convert.log",
+      "conversion_log_tail": "Blender 4.2.9 LTS (hash a10f621e649a built 2025-04-15 01:46:41)\nRead blend: \"/tmp/vehicle-conversion-probe-dc1q2wb7/fokker-triplane/provenance/fokker-triplane-v2.blend\"\nWarning: region type 4 missing in space type \"Info\" (id: 7) - removing region\nTraceback (most recent call last):\n  File \"/home/runner/work/3d-Assets/3d-Assets/rendering/convert_oga_aircraft.py\", line 19, in <module>\n    raise ValueError(f\"Reference image still has non-empty users: {image.name}\")\nValueError: Reference image still has non-empty users: fokker-dri.jpg\n\nError: script failed, file: '/home/runner/work/3d-Assets/3d-Assets/rendering/convert_oga_aircraft.py', exiting.\n\nBlender quit\n"
+    },
+    {
+      "id": "submarine",
+      "status": "converted-not-reviewed",
+      "source": {
+        "model": "model/submarine.glb",
+        "creator": "Phelippeau Rudy (STKRudy85)",
+        "license": "CC0-1.0",
+        "license_evidence": "https://opengameart.org/content/submarine-low-poly",
+        "source_url": "https://opengameart.org/content/submarine-low-poly",
+        "source_id": "submarine-low-poly",
+        "revision": "d868a377acf63eba1c587c75d0fc4353817cf69b2ec0a1dafa233d02e5f65ae4",
+        "downloads": [
+          {
+            "url": "https://opengameart.org/sites/default/files/Submarine.7z",
+            "bytes": 86823,
+            "sha256": "d868a377acf63eba1c587c75d0fc4353817cf69b2ec0a1dafa233d02e5f65ae4"
+          }
+        ]
+      }
+    }
+  ]
+}
