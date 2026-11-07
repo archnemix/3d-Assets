@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "id": "mh-toigo-tiered-skirt",
+  "title": "Tiered skirt",
+  "category": "apparel/skirts",
+  "style": "realistic",
+  "tags": [
+    "clothing"
+  ],
+  "batch": "clothing-variety-02",
+  "acquired_at": "2026-11-07T10:00:17.169261+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "makehuman-clothing",
+    "model": "model/garment.glb",
+    "creator": "MargaretToigo",
+    "license": "CC0-1.0",
+    "license_evidence": "https://static.makehumancommunity.org/assets/assetpacks/skirts01.html",
+    "source_url": "https://static.makehumancommunity.org/assets/assetpacks/skirts01.html",
+    "source_id": "toigo_tiered_skirt",
+    "revision": "293fa0c15e28e8dcea8dfff20cae31aa4b0d1268a6e6ba0a53a92ebb0f36c882",
+    "downloads": [
+      {
+        "url": "https://files2.makehumancommunity.org/asset_packs/skirts01/skirts01_cc0.zip",
+        "bytes": 29554534,
+        "sha256": "293fa0c15e28e8dcea8dfff20cae31aa4b0d1268a6e6ba0a53a92ebb0f36c882"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://static.makehumancommunity.org/assets/assetpacks/skirts01.html"
+  },
+  "model": "model/garment.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 1,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/garment.glb",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ShadesTex-PINK",
+      "embedded_image_index": 0,
+      "embedded_sha256": "cd981ab28ff1916e168f64c7933a82a022fae670b6b301f0c307a1807f4a7b3a"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 25910,
+    "triangles": 12960,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "ShadesTex-PINK",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 0,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 64008,
+      "sha256": "e7d5d60c578c93f90725dc62b6b6bb2bffe92ef03f0a7264f6ad99a4090ec338",
+      "role": "logs"
+    },
+    {
+      "path": "logs/convert.log",
+      "bytes": 444,
+      "sha256": "fc54396fa118ad438b4f49f23d7fad2567d3b245670eb9227526a6da494ae669",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "082e951724014468ff5480fb2a42b17b945a390940b3476599aaaa9a77b8ecc1",
+      "role": "logs"
+    },
+    {
+      "path": "model/garment.glb",
+      "bytes": 2684056,
+      "sha256": "70037c9f083dbd9d529c59775dea0fd31e6a9361360588ed179e5fce6e77ecd5",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 35226,
+      "sha256": "787cfe73a3236697881c86cbbc96d002ea646237ba27c1b86f32c48de8a6b0eb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 19403,
+      "sha256": "17e96b535386cf80e6040978440696a69123d8f33ae1c016d8ef9451d31607cc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 222963,
+      "sha256": "c12ce4b78b2b79bd8d4bcefb2b171b41f242b1139ad5fb39916501b9a0ad7af5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 477,
+      "sha256": "ef76ecd361967a4d1c7d88ad8afa01bed530a7ef4ce0227e89861818b58e6892",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 30349,
+      "sha256": "a73c3caec67f28a2994e7a3002a0b110184f1aefb9cda77d8af7b55e5a388971",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 27372,
+      "sha256": "f19b8f2313b509cfba93c13c639fea1acf855eb5fc78785fe2ef54160e0e145e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 23752,
+      "sha256": "3ca56e5f0ada7b010c77209fc5dfa93f3402a291393ee08c59a48f8efc910974",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 26034,
+      "sha256": "06fef3ae1bbc4f2e99e3e2e59dc022d70e2e77419af561e1a4edfd9f35c60f90",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 28518,
+      "sha256": "db872390a005472e77b8b08437ad6a07f1142da5a04672f94176b13b3ac34e03",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 28523,
+      "sha256": "0218f8d64ab2c093e899500947802829bf43c2bfb73045263c76ed922d348435",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 26520,
+      "sha256": "73d19efc24498524ff7d147067acd8d10d77b1fd66d4f4323a91e5e2e81a0bd5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 29175,
+      "sha256": "c0565ce6eff5465719ad3728542b4d44994106672d29222f9f7b26e97de2e628",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 32035,
+      "sha256": "06865eba2e5e2c74489c2e036382bfcde1937a47cae2d8af1222be630cd2bb3c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 60516,
+      "sha256": "866db662ecab171a83d61a0a386cf3815c5c6e8dbea08509c6170f60b0a6874f",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/clothing-source.json",
+      "bytes": 1006,
+      "sha256": "fb7f869e8d6c91f0ef70aac7c786bbe49c2097b63006b7c335fdfc3829b85557",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1172,
+      "sha256": "6d89e0e994291098e27bc593d7926703e19f7c32f29aa7efa598826987165b91",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source.mhclo",
+      "bytes": 443825,
+      "sha256": "cab11bb05f906156ad571f8cccc03f73ea78212a0376e1b6e8f369e4a909245b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source.mhmat",
+      "bytes": 479,
+      "sha256": "faaf69214ad10fd23fe2ebbb07a886999f86a8fc6775ae00629ba5605307987c",
+      "role": "provenance"
+    }
+  ]
+}
