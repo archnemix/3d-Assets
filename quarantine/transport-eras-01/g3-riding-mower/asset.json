@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "id": "g3-riding-mower",
+  "title": "Riding lawn mower",
+  "category": "vehicles/farm",
+  "style": "stylized",
+  "tags": [
+    "mower",
+    "garden",
+    "vehicle"
+  ],
+  "batch": "transport-eras-01",
+  "acquired_at": "2026-11-07T00:53:08.933856+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/riding-mower.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/riding-mower/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/riding-mower/",
+    "source_id": "riding-mower",
+    "revision": "64b621dc0c6a19bff70fbcff2c92ae79b3734bce4fb3170252709f2df66a6316",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/riding-mower/riding-mower.glb",
+        "bytes": 1731812,
+        "sha256": "64b621dc0c6a19bff70fbcff2c92ae79b3734bce4fb3170252709f2df66a6316"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/riding-mower/LICENSE.txt"
+  },
+  "model": "model/riding-mower.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 5,
+    "materials": 13,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/riding-mower_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "riding-mower_body_normal"
+    },
+    {
+      "path": "textures/riding-mower_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "riding-mower_body_basecolor"
+    },
+    {
+      "path": "textures/riding-mower_body_metallic-riding-mower_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "riding-mower_body_metallic-riding-mower_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 5,
+    "hidden_mesh_objects": 0,
+    "vertices": 28627,
+    "triangles": 30848,
+    "material_slots": 13,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "riding-mower_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "riding-mower_body_metallic-riding-mower_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "riding-mower_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 73589,
+      "sha256": "dafcf8dc0775a406d14925d21ac6706787afca7d42101b6be10a09c36faa579e",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "98e238bcb9af43e2826f240aa4666da957ecca96b6e2bd1b166d4bdcf846690a",
+      "role": "logs"
+    },
+    {
+      "path": "model/riding-mower.glb",
+      "bytes": 1731812,
+      "sha256": "64b621dc0c6a19bff70fbcff2c92ae79b3734bce4fb3170252709f2df66a6316",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 30202,
+      "sha256": "52b8040309966b5ce610045e7351b00b6d4968ca8eb0570014c13b8de476c030",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 25913,
+      "sha256": "0b88a1bd70fc65c2958ca373ffb8826cda1fcd69095fab30725514181b5fbfb0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 263609,
+      "sha256": "3f80eaaa93d33d1636392d6b3fd9fab46d3a44756baad99d48d56d0e7e598b21",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 833,
+      "sha256": "224d0f84ff00ec52466a950c43bfc046637db3219cddd6115ce6e0038d7f90e4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 37561,
+      "sha256": "fa03112f93512b499a542834721fde7d3485c83e4807520cacd2ae13d4426705",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 34185,
+      "sha256": "ef5cdfc11277d22bfad8136718ffe1c078f3b1f16389c3415c90b99541dc8557",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 32690,
+      "sha256": "66d372f623e430ca6c42e214cad1beb8be10b772ce360e7a8ded3f431c151506",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 33954,
+      "sha256": "fc89ed408456a5d06093d02390958b1a28a2033cd758ec0671b9afe5d0606881",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 31921,
+      "sha256": "63a57a1ae03ce3cc14578f8748d87a60df5ad3df5fa52dffa78a45e1dec7d01e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 35192,
+      "sha256": "3995736202313bd449fc480c5c557b9bc1ece98b41ea951ac7afa37b1f63d870",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 34947,
+      "sha256": "c50b571c41c7d66a58ac68315a1f093ed16bbb5ac413f57b7fa355300d538cf8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 35197,
+      "sha256": "a963a8bc6d357e0d0ac572414f107dd589ca72f3a62bb6d61f85cc9152586067",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 30015,
+      "sha256": "d9465a7c385c021d0202365dd8b8c34fb85d888126fba5c1eaec7504c4aa670a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 55182,
+      "sha256": "aa8eef725b8cdbb5f32e40f1a6574e84ae8ab3a54a9b1fd80c860c13d6c8ce7d",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 4194,
+      "sha256": "c14be58a8bbce185d5b382f73581a590ea9f5a98dd2a883e34cd108add6415fb",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1823,
+      "sha256": "784c0b40ff6aa8f28a96c676dc94660ea6f7d09d2a96d24ec5da0d8376ee35d4",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 513,
+      "sha256": "5a55b6d76bee6a1f49a431248afa133d6e9d08899bba907b1010a8525c93c94c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "cf21bbec77982dd4ce36cc26860b398a9d7a7108a3650f41e279eb8f1f7cc752",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/riding-mower_body_basecolor.jpg",
+      "bytes": 262139,
+      "sha256": "15a4cb4f28bcb1af96b5d85e427bc189f1501d49217b7cb14541ba9729b52142",
+      "role": "textures"
+    },
+    {
+      "path": "textures/riding-mower_body_metallic-riding-mower_body_roughness.jpg",
+      "bytes": 286134,
+      "sha256": "54069189e4d75a0fbaf3f04d76f9f8a4e44540034384a01026646030dd54a94c",
+      "role": "textures"
+    },
+    {
+      "path": "textures/riding-mower_body_normal.jpg",
+      "bytes": 67232,
+      "sha256": "6e9b201562a17dcf94e160c7fbb4f9adba56aa3c73d114c3a816f13c192908f5",
+      "role": "textures"
+    }
+  ]
+}

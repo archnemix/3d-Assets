@@ -1,0 +1,47 @@
+{
+  "slug": "handcar",
+  "triangles": 13870,
+  "texture_px": 2048,
+  "triangles_light": null,
+  "texture_px_light": null,
+  "files": {
+    "glb": {
+      "name": "handcar.glb",
+      "bytes": 1659596
+    },
+    "blend": {
+      "name": "handcar.blend",
+      "bytes": 1362171
+    },
+    "fbx": {
+      "name": "handcar.fbx",
+      "bytes": 2648060
+    },
+    "obj": {
+      "name": "handcar-obj.zip",
+      "bytes": 1549194
+    },
+    "usdz": {
+      "name": "handcar.usdz",
+      "bytes": 2521516
+    }
+  },
+  "extras": {
+    "license": "CC0-1.0",
+    "source": "grab3d.com",
+    "dimensions_m": "3.700 x 4.000 x 2.130",
+    "triangles": 13870,
+    "textures": "PBR 2048px: base color, roughness, metallic, normal (baked)",
+    "generator": "Created by grab3d",
+    "created": "2026-10-25",
+    "real_size": "railway handcar (pump trolley), 2.5 m long, 2.1 m wide, 1.9 m high on its own 4.0 m straight track piece, standard gauge 1435 mm",
+    "notes": "front faces -Y. The handcar stands on the rail top of the included track piece (ballast bottom z = 0, rail top 0.30 m, track ends at y = -2.0 and +2.0 like the railway-track module, so it can replace a straight piece). Movable: the wooden pump lever with two T handles is the separate object 'handcar_lever', origin on the pivot axis (x +0.000, y +0.000, z +2.020 m from the model origin, Z up); rotate about the Blender X axis (glTF X), about +-15 deg for pumping. Red frame, plank deck, two wheelsets in axle boxes, gear drive, toolbox and an emissive front lamp; wheels are part of the mesh",
+    "set": "Cozy Trains & Railway Kit"
+  },
+  "origin": {
+    "method": "procedural",
+    "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+    "ai_content": false,
+    "ai_assisted_code": true
+  }
+}
