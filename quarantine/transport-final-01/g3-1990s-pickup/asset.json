@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "id": "g3-1990s-pickup",
+  "title": "1990s-inspired pickup truck",
+  "category": "vehicles/trucks",
+  "style": "stylized",
+  "tags": [
+    "1990s",
+    "pickup",
+    "road"
+  ],
+  "batch": "transport-final-01",
+  "acquired_at": "2026-11-07T01:17:08.582826+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/1990s-pickup-truck.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/1990s-pickup-truck/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/1990s-pickup-truck/",
+    "source_id": "1990s-pickup-truck",
+    "revision": "6717acf895b3f47657eb92962c452ebe8ad08f066d7849c32cc6a506ed68ee79",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/1990s-pickup-truck/1990s-pickup-truck.glb",
+        "bytes": 1356868,
+        "sha256": "6717acf895b3f47657eb92962c452ebe8ad08f066d7849c32cc6a506ed68ee79"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/1990s-pickup-truck/LICENSE.txt"
+  },
+  "model": "model/1990s-pickup-truck.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 6,
+    "materials": 18,
+    "images": 5,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/1990s-pickup-truck_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1990s-pickup-truck_body_normal"
+    },
+    {
+      "path": "textures/1990s-pickup-truck_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1990s-pickup-truck_body_basecolor"
+    },
+    {
+      "path": "textures/1990s-pickup-truck_body_metallic-1990s-pickup-truck_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1990s-pickup-truck_body_metallic-1990s-pickup-truck_body_roughness"
+    },
+    {
+      "path": "textures/1990s-pickup-truck_tire_normal.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1990s-pickup-truck_tire_normal"
+    },
+    {
+      "path": "textures/1990s-pickup-truck_tire_color.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "1990s-pickup-truck_tire_color"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 6,
+    "hidden_mesh_objects": 0,
+    "vertices": 15994,
+    "triangles": 18384,
+    "material_slots": 18,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 1,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "1990s-pickup-truck_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1990s-pickup-truck_body_metallic-1990s-pickup-truck_body_roughn",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1990s-pickup-truck_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1990s-pickup-truck_tire_color",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "1990s-pickup-truck_tire_normal",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 5,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 78046,
+      "sha256": "3076d252d2030189dd3f05fbf8825a58b68259b3280f1e4bc5a6319248954819",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "998ef207bb56a5da54cfc753f6cf05bd6985e629781c1ba33f1562c902587ed1",
+      "role": "logs"
+    },
+    {
+      "path": "model/1990s-pickup-truck.glb",
+      "bytes": 1356868,
+      "sha256": "6717acf895b3f47657eb92962c452ebe8ad08f066d7849c32cc6a506ed68ee79",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 18012,
+      "sha256": "18fb0657dd6bbe1de559af2bbdebc58e470ba39ffec11aed2d4ef74afd3810bb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18981,
+      "sha256": "c8fb0d6a3379ca2dd0c90be7624c024a604705dbfc9e276faad923b58e5929cc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 192135,
+      "sha256": "4a9be1a4c8487f7c5cd44c35d177cff90410287f01137bc51f859927c1bd72bb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1171,
+      "sha256": "2855def2e6720c38853b3da6cc21e77b03001535873ed62b83d8122b087c7000",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 31600,
+      "sha256": "5d9e44364cc5fc4812a1bba3aa5ebe56d376392a07b3bfb439fb3488dac4e525",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 25054,
+      "sha256": "bfabcb4675bcb14b83089ec1c43bd07fb21b48c201335f8b2c017bb7eed47e22",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 21604,
+      "sha256": "0cdd429f22ea4b719b8d394698cfb81f2681b680dc2d01bd1570e4a93215271a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 23991,
+      "sha256": "2b1e653add46796368fd4d73ef553ab5edc1150ad67d6122c679a69ccd47555d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 29535,
+      "sha256": "d7895c62aa48c982a37c568dd85fa7660e960a812dc6fb66d39ac824b391e6f5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 24953,
+      "sha256": "2b6c99a9b10b1f3b1ac0b62808828b6cbec32931ed338db633f9034ad88b8101",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 23443,
+      "sha256": "f491e09103675cdd64d88fb798a483aa8fdd7f5e2f309b100e3c934e23ad60ca",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 26035,
+      "sha256": "45bf88c3aa65b5898486f9c67e4a95e2e305620678f1ad3703f7346668195529",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 18877,
+      "sha256": "a38bd0809d15142bc31e9f28928cc07ee003a27cc7377748e2ca20c405e2af40",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 43061,
+      "sha256": "445918ae998077643e70389f47c87b137368cce7f36502fdd8d2c4f18f489669",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 6178,
+      "sha256": "6bc02372e6d3f334e2d5a2f9f3cc8d8cb118b7e60a2369497aef8d3320fdcc4c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1739,
+      "sha256": "75dd00a9f89a5559170c897f533255d7e9883c1dcecb5f17cb272d5a680e8f8b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 561,
+      "sha256": "9abab0a7edaf869fd452abe1a17be2c491d19e84782b37086ed6c6fe1094bac7",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "b256fb0b14a0008ef5a696102f2eb6e5116897353cbbc9b6865c37ba044452cc",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/1990s-pickup-truck_body_basecolor.jpg",
+      "bytes": 332666,
+      "sha256": "faff772a1aa570b9d944dfcba6ae66c9c162bcd125d20b9d96928bcf8c0dba0b",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1990s-pickup-truck_body_metallic-1990s-pickup-truck_body_roughness.jpg",
+      "bytes": 327217,
+      "sha256": "ca6ec8a16a4bb750542d438cf774c79f1ba8b64c172c204800a70046c5e0cea8",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1990s-pickup-truck_body_normal.jpg",
+      "bytes": 67715,
+      "sha256": "5b5bfae7e311294c7b0aa74ac327d724a98beddfe482dc24dfeec91ba751d133",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1990s-pickup-truck_tire_color.jpg",
+      "bytes": 1464,
+      "sha256": "8e626e6a09cf9dd069cbb7646ea8a729268349916b569fb154f952aaecec3fd6",
+      "role": "textures"
+    },
+    {
+      "path": "textures/1990s-pickup-truck_tire_normal.jpg",
+      "bytes": 1851,
+      "sha256": "70c68a6fc74a53d9bd96adc5eac23e75eef775b7db492277f229f5d63484f71f",
+      "role": "textures"
+    }
+  ]
+}

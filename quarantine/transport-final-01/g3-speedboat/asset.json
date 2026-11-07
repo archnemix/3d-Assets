@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "id": "g3-speedboat",
+  "title": "Twin-engine speedboat",
+  "category": "vehicles/watercraft",
+  "style": "stylized",
+  "tags": [
+    "motorboat",
+    "watercraft",
+    "recreation"
+  ],
+  "batch": "transport-final-01",
+  "acquired_at": "2026-11-07T01:13:48.869741+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/speedboat.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/speedboat/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/speedboat/",
+    "source_id": "speedboat",
+    "revision": "76a49fdd0eeb2e35eb9ca8e191064e46da15c77b1c6222ab76c3fcd343bf4a5b",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/speedboat/speedboat.glb",
+        "bytes": 1233392,
+        "sha256": "76a49fdd0eeb2e35eb9ca8e191064e46da15c77b1c6222ab76c3fcd343bf4a5b"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/speedboat/LICENSE.txt"
+  },
+  "model": "model/speedboat.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 4,
+    "materials": 3,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/speedboat_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "speedboat_body_normal"
+    },
+    {
+      "path": "textures/speedboat_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "speedboat_body_basecolor"
+    },
+    {
+      "path": "textures/speedboat_body_metallic-speedboat_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "speedboat_body_metallic-speedboat_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 4,
+    "hidden_mesh_objects": 0,
+    "vertices": 14990,
+    "triangles": 19648,
+    "material_slots": 3,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "speedboat_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "speedboat_body_metallic-speedboat_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "speedboat_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 71207,
+      "sha256": "5231156cb7f649e19e3bf9bf87433b82a25430d3da0281f47724e72146e1913d",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "c2c7e1623cc8de0ed1fe35ab328504d5a1e7fa61bee9e68fa9c82b310a1975f2",
+      "role": "logs"
+    },
+    {
+      "path": "model/speedboat.glb",
+      "bytes": 1233392,
+      "sha256": "76a49fdd0eeb2e35eb9ca8e191064e46da15c77b1c6222ab76c3fcd343bf4a5b",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 18925,
+      "sha256": "e53b0af070d10b25b797b44a235d218a994e96bc185dc9bdfc787d61abdee8b2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 17783,
+      "sha256": "790c46b1566c09b19f42bb449e504a448461c6a841cc51f4f8d4a5d82c7ff121",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 174755,
+      "sha256": "0929724f9728348de6fca08c3e9f122bff630560b8fb4e42ae3b1ba810f95741",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 820,
+      "sha256": "e822bedce0dfb9cd8bbdce4adbfb2b0cb0976d2e7b2f5560fe7f25ad4fb09ad5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 27756,
+      "sha256": "84e4107468521ff8af69f0e9d22e519f6124e122e69073ed4c0489e5f22fc6ef",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 21666,
+      "sha256": "0e408c8bde80fa360dfde3da25a20a7aa3c86bc3d8fbd792d4cfaebcd3eb9bbd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 17568,
+      "sha256": "3695a8cab430ef3d7ba6e71e9ac29a9ccfdaab1dff58981319769f97ffe1dc39",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 22418,
+      "sha256": "7d0e864071bbd20323739ab32f4ed3c925b18d2169c1c768142eec86c7e49b1f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 31064,
+      "sha256": "04b465c91d2f1e71001d89b91d6df904bd7ff84b0207eb1e7dc58792ae589b3b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 23118,
+      "sha256": "b5d0f5b812a578d95486ed78ebf098e381031c5f8e80e0562d0c7936d658b537",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 18424,
+      "sha256": "8396ed127b96ed74ea06f549f78c25d85188837ab9badce380c732cf5a6e1950",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 22633,
+      "sha256": "0085a61f9e44edb467d22de6e287ccb88ca8d0b6acf2041fdddc4b43041ab690",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 18720,
+      "sha256": "2a4ef6a5060ff20eead8881532971f5da0a2616df9258585f128e9477497e619",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 34506,
+      "sha256": "bd154b4a8823d57341470d10ea3c60fa1a850984a84a33434e229d5919a7b6ed",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2496,
+      "sha256": "2309a465b3baa44b6f0009413ab162fa61727f047042139d526711f21f82ad48",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1707,
+      "sha256": "bce9a07645a4890f55359944d6aa3d7d22b6ec4007d86fae31bda51bb93d74d2",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 489,
+      "sha256": "9e8a4718bfb80e08aa8441e87aeb1ad3941a12b01093aad6ae62e3e25a5432a3",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "032d702f0c723dc51318b06190700935c1443487ef4d40495bc2bf9f4fc3c23b",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/speedboat_body_basecolor.jpg",
+      "bytes": 290039,
+      "sha256": "95c6c6e24743d545243100fd83c95f26c77d8ca24e7950ad26043bb3de013b56",
+      "role": "textures"
+    },
+    {
+      "path": "textures/speedboat_body_metallic-speedboat_body_roughness.jpg",
+      "bytes": 276886,
+      "sha256": "b16d10768833658cb7dd286749dee3fd081f76b2af36e92b56af40b90d2f721f",
+      "role": "textures"
+    },
+    {
+      "path": "textures/speedboat_body_normal.jpg",
+      "bytes": 67907,
+      "sha256": "e90571db462874a246d83e6f17702336f8c54beb3bd8302aaec16433e4fef899",
+      "role": "textures"
+    }
+  ]
+}
