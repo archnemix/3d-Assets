@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "id": "g3-fashion-jacket",
+  "title": "Denim jacket on hanger",
+  "category": "apparel/tops",
+  "style": "stylized",
+  "tags": [
+    "jacket",
+    "denim",
+    "apparel"
+  ],
+  "batch": "apparel-foundations-01",
+  "acquired_at": "2026-11-07T01:44:53.222478+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/jacket.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/jacket/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/props/jacket/",
+    "source_id": "jacket",
+    "revision": "8264e26c21daf980183144f680a4744667aefeae3446967c22293710c278617f",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/jacket/jacket.glb",
+        "bytes": 2096720,
+        "sha256": "8264e26c21daf980183144f680a4744667aefeae3446967c22293710c278617f"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/jacket/LICENSE.txt"
+  },
+  "model": "model/jacket.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/jacket_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "jacket_body_normal"
+    },
+    {
+      "path": "textures/jacket_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "jacket_body_basecolor"
+    },
+    {
+      "path": "textures/jacket_body_metallic-jacket_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "jacket_body_metallic-jacket_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 28848,
+    "triangles": 31784,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "jacket_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "jacket_body_metallic-jacket_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "jacket_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68039,
+      "sha256": "e7bea2b206ad187cd83e6821fce804091f739867d3ecc082f1650a92f2e1063a",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/jacket.glb",
+      "bytes": 2096720,
+      "sha256": "8264e26c21daf980183144f680a4744667aefeae3446967c22293710c278617f",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 20109,
+      "sha256": "3053020046a49ef31387cb806c9c45d20e713835b7d3517363485aa9415d2dab",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 19944,
+      "sha256": "2c77ad5824ff1d6120227b5fd92f5a9ae4029264e716fe0a6dbd9811d0a764b4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 165016,
+      "sha256": "19f6e147d22a96c542105faacfcbf0f87fa855c42cf6af7485b2160bd2313c21",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 808,
+      "sha256": "b343521e1a68a81ca66521ec7c2dc0fad3ab938e5217b320c1b8d6dcefe05ea6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 26004,
+      "sha256": "dccc2614c7284b2f4d5d7349faf07ff638a0685e575da0773a56bc6c36f9ed2c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 23573,
+      "sha256": "bf129a658221cb7a6e6aec8163a097fa65936d20dc72414c476be31c927399cd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 13306,
+      "sha256": "4ed6c6dbb4e77cfa3014cac572e3b229d2ad1ad1c08590e6aa3026a8dc565f1b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 21545,
+      "sha256": "2deb4b1c812ea5246153b5378a2b235f03325b39167c37b9dbe5c30da1bd58b4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 22228,
+      "sha256": "9d4f7664f326373274ac7e91dd74bdf7f4f943d81c0eafe75cec0a5f162bc34d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 21728,
+      "sha256": "4c1404f20a02b44da1c1a5c98f2f7200a44fa071efada637aaab4840dc6c1e26",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 13905,
+      "sha256": "6c1b3850043c42cc214a198873cc82becbc5a129d359408772e4f09b3de2e863",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 23517,
+      "sha256": "ee10f91817cc81052439edeafdbbb9a4c48eafb1ba142cc329ef9f40d6c99b86",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 16699,
+      "sha256": "2ef062df5a31a464ff02ecaf26db3a2eeeeefbeced4aa3a6c59a6608d961e8b0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 41824,
+      "sha256": "8890fc7e6bd0d702c437585b2baa1eec7cda2460fd7ffcfa205bd00929abca59",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1929,
+      "sha256": "3ebb4f66b3516fc18daea293e0631d470a38ffb1d144fc5f00e75e89cd9cb444",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1780,
+      "sha256": "6edff6dfa34890a08fe3325f4a9e0b07f68c61f6bd51c9fe0febbfbd475986ec",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 462,
+      "sha256": "74a9931c0301678276e590fe4fb0b5f0459f56d48e80228de31891c5deb348ac",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "c9c82ec3bba8d181b906b8d24ca89117e17454a28c466da22982c2beb1154c0c",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/jacket_body_basecolor.jpg",
+      "bytes": 501249,
+      "sha256": "aeee533dee6d5d5fdea0198d774ddc60c8de9c5cdca51b6e775a1309951254c3",
+      "role": "textures"
+    },
+    {
+      "path": "textures/jacket_body_metallic-jacket_body_roughness.jpg",
+      "bytes": 249415,
+      "sha256": "19331c611e5e342a14a576d44e411ca21e5b9274b53f09a3d335b1336c154945",
+      "role": "textures"
+    },
+    {
+      "path": "textures/jacket_body_normal.jpg",
+      "bytes": 229664,
+      "sha256": "6e30c9b705574cf8c532135f5a8866b7ffe675d6a117523521ff3247af4a0176",
+      "role": "textures"
+    }
+  ]
+}

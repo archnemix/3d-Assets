@@ -1,0 +1,451 @@
+{
+  "schema_version": 1,
+  "id": "g3-fashion-sunglasses",
+  "title": "Tinted sunglasses",
+  "category": "apparel/accessories",
+  "style": "stylized",
+  "tags": [
+    "sunglasses",
+    "eyewear",
+    "apparel"
+  ],
+  "batch": "apparel-foundations-01",
+  "acquired_at": "2026-11-07T01:51:34.117238+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/sunglasses.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/sunglasses/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/props/sunglasses/",
+    "source_id": "sunglasses",
+    "revision": "6221e3bcf5e453b16d1cbf29592fc294232d67b1896e7df73548e1b450a6a6f7",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/sunglasses/sunglasses.glb",
+        "bytes": 955752,
+        "sha256": "6221e3bcf5e453b16d1cbf29592fc294232d67b1896e7df73548e1b450a6a6f7"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/sunglasses/LICENSE.txt"
+  },
+  "model": "model/sunglasses.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 5,
+    "materials": 5,
+    "images": 9,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/sunglasses_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "sunglasses_body_normal"
+    },
+    {
+      "path": "textures/sunglasses_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "sunglasses_body_basecolor"
+    },
+    {
+      "path": "textures/sunglasses_body_metallic-sunglasses_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "sunglasses_body_metallic-sunglasses_body_roughness"
+    },
+    {
+      "path": "textures/sunglasses_temple_l_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "sunglasses_temple_l_normal"
+    },
+    {
+      "path": "textures/sunglasses_temple_l_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "sunglasses_temple_l_basecolor"
+    },
+    {
+      "path": "textures/sunglasses_temple_l_metallic-sunglasses_temple_l_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "sunglasses_temple_l_metallic-sunglasses_temple_l_roughness"
+    },
+    {
+      "path": "textures/sunglasses_temple_r_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "sunglasses_temple_r_normal"
+    },
+    {
+      "path": "textures/sunglasses_temple_r_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "sunglasses_temple_r_basecolor"
+    },
+    {
+      "path": "textures/sunglasses_temple_r_metallic-sunglasses_temple_r_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "sunglasses_temple_r_metallic-sunglasses_temple_r_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 5,
+    "hidden_mesh_objects": 0,
+    "vertices": 6996,
+    "triangles": 10128,
+    "material_slots": 5,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "sunglasses_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "sunglasses_body_metallic-sunglasses_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "sunglasses_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "sunglasses_temple_l_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "sunglasses_temple_l_metallic-sunglasses_temple_l_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "sunglasses_temple_l_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "sunglasses_temple_r_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "sunglasses_temple_r_metallic-sunglasses_temple_r_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "sunglasses_temple_r_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 3,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 84737,
+      "sha256": "dc3c78e4ab3a3f797c375af33a9eab2b34abb19a115f3438bb18c6a3caaf5273",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "14297110a61630b1a61342007da6bb064655af718ab3e4d641ced1695b89f7a6",
+      "role": "logs"
+    },
+    {
+      "path": "model/sunglasses.glb",
+      "bytes": 955752,
+      "sha256": "6221e3bcf5e453b16d1cbf29592fc294232d67b1896e7df73548e1b450a6a6f7",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 16227,
+      "sha256": "02911643fe1f3122c6af0a0d7e9c7a9912c7e98babb4227da6f1db08bcadd03e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 15205,
+      "sha256": "8ea9bca24338f54325f3d7da0dd1ff967885f8645aecebb72b64f95170ccd773",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 138962,
+      "sha256": "d6e574b40e376666f3a413e170a15ac8abd21dc7a7b6e76189eb3880668e8ee3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1841,
+      "sha256": "d4282f8b46e9e8737a1a626118db2392edb32602ce0bd3862e1ee4562656b9c1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 19249,
+      "sha256": "562b34119145b95a4d014d2e84955bea24d5a159f2647a333add1f1dc07e1482",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 17395,
+      "sha256": "6c21ecf572bbd579c32fb0af22cb64c9194c59816f34ac716944b217a17cfde6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 17184,
+      "sha256": "d3b5149087563eb675e804dc64e984ad161bc4be3732c64ccc33993ab34cd2c6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 18352,
+      "sha256": "8369c855046fc2f4d092da5999395e732aa0eefac2c02894d0b1540be8ac7e9e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 19786,
+      "sha256": "05b96d70062e3cfa4bba732b0622b61542745053f2f0cde28fe2166323e1431a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 18771,
+      "sha256": "f35f91b96c4947c575d25486327319a5f2b0dff4f115ba01a8386b416aa16ccb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 17923,
+      "sha256": "f5ba6549e3d5eef92b5ad9e511ceb7ce7e29b2440c036316f0ca1d6b94e21c95",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 17420,
+      "sha256": "e46383aea0c1b73412ec956be940f96f5dff2b40d48d5b0e45be9174aed04351",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 15608,
+      "sha256": "67801f22cd587730be85a3bd4032ea40b504fcec9b76a1d1917a084d0f3f1eff",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 28834,
+      "sha256": "d8cc2b9f0a676496eab52d7da4f14692fb2b8545531de9e784c4eabeac18c195",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 4425,
+      "sha256": "f920f2528cdb8e6a8e156d323b883f1ab028eb48a20d1615bf4438d92f56daf3",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1726,
+      "sha256": "bd7afd7768cf58ab51331c66996ea260499a40a9b2b1f7cebe0015787ef5141b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 493,
+      "sha256": "d586b5a4e130f087b36aa93e22682d144924b55a231020c1c2d359d55327bbfb",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "75b101f74a2a82ab0630dbf10b6b0c0f4406242087761a49cd7b5d57ff51146a",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/sunglasses_body_basecolor.jpg",
+      "bytes": 81455,
+      "sha256": "91947aebca6dc520d0d1ae00bcca8779b085d58f45eb7707a6ca2b5f307c8ff4",
+      "role": "textures"
+    },
+    {
+      "path": "textures/sunglasses_body_metallic-sunglasses_body_roughness.jpg",
+      "bytes": 93847,
+      "sha256": "a5e176601fa16da2a0b25bc299d507e4d19ddf62bd6c41947bb93266859a5056",
+      "role": "textures"
+    },
+    {
+      "path": "textures/sunglasses_body_normal.jpg",
+      "bytes": 66355,
+      "sha256": "eefe87879f345769d419ce3fdbdf65e78cf7cd32eed01cea6a15354a61e88c0e",
+      "role": "textures"
+    },
+    {
+      "path": "textures/sunglasses_temple_l_basecolor.jpg",
+      "bytes": 70963,
+      "sha256": "5ccf0c3f9063756cc23fb1e502cd2338c04248bebf784e8bdc05d1ac3f44c116",
+      "role": "textures"
+    },
+    {
+      "path": "textures/sunglasses_temple_l_metallic-sunglasses_temple_l_roughness.jpg",
+      "bytes": 73637,
+      "sha256": "f8b6ddceac28e2f7d74fff6e991b5f0f163e919e15d89dafb4e47d73e5d4190b",
+      "role": "textures"
+    },
+    {
+      "path": "textures/sunglasses_temple_l_normal.jpg",
+      "bytes": 66346,
+      "sha256": "6c8f8e264a5639ca48614fa52d88d0f50ace66f0d51ef7fec5b5f292cd1dcbb6",
+      "role": "textures"
+    },
+    {
+      "path": "textures/sunglasses_temple_r_basecolor.jpg",
+      "bytes": 70815,
+      "sha256": "267ae51351f88e00553da90188efd6f00324fd02ae4f6b03394d1004619b0b56",
+      "role": "textures"
+    },
+    {
+      "path": "textures/sunglasses_temple_r_metallic-sunglasses_temple_r_roughness.jpg",
+      "bytes": 73134,
+      "sha256": "22d00a43c8f3f49760bbe9b9201facfa698d0f5cb10d8e0efb096156cb067e27",
+      "role": "textures"
+    },
+    {
+      "path": "textures/sunglasses_temple_r_normal.jpg",
+      "bytes": 66352,
+      "sha256": "95195277f2d0792c44eeb5d004fbdec6453c4694027004351208ea6f79dd846d",
+      "role": "textures"
+    }
+  ]
+}
