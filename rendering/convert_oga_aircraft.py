@@ -16,7 +16,11 @@ for image in list(bpy.data.images):
             if obj.type == "EMPTY" and obj.data == image:
                 bpy.data.objects.remove(obj, do_unlink=True)
         if image.users:
-            raise ValueError(f"Reference image still has non-empty users: {image.name}")
+            users = [
+                (type(item).__name__, item.name)
+                for item in bpy.data.user_map(subset={image})[image]
+            ]
+            raise ValueError(f"Reference image still has non-empty users: {image.name}: {users}")
         bpy.data.images.remove(image)
 
 for obj in list(bpy.data.objects):

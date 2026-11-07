@@ -1,4 +1,5 @@
 name: Probe unapproved transport sources
+# Capture missing reference-image users for safe diagnosis.
 on:
   push:
     branches: ["arena/d853ac80-3d-assets"]
