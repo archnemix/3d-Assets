@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "id": "cc-garment-bra",
+  "title": "Strapless bra",
+  "category": "apparel/tops",
+  "style": "realistic",
+  "tags": [
+    "clothing",
+    "charactercreator",
+    "neutral-default-derivative"
+  ],
+  "batch": "clothing-creator-neutral-01",
+  "acquired_at": "2026-11-07T10:39:18.839920+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "charactercreator-clothing",
+    "model": "model/clothing_bra.glb",
+    "creator": "Kasper Olesen; MakeHuman system assets where listed",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/kblood/CharacterCreator/852e48f316b90a0937234886630e4fb4cdfd1f78/LICENSE-NOTES.md",
+    "source_url": "https://github.com/kblood/CharacterCreator/blob/852e48f316b90a0937234886630e4fb4cdfd1f78/output/clothing_bra.glb",
+    "source_id": "bra",
+    "revision": "852e48f316b90a0937234886630e4fb4cdfd1f78",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/kblood/CharacterCreator/852e48f316b90a0937234886630e4fb4cdfd1f78/output/clothing_bra.glb",
+        "bytes": 294820,
+        "sha256": "5f664e238312be3c4507f77f7e012b30731dbe0618c8e2941c350f516090fd5b"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/kblood/CharacterCreator/852e48f316b90a0937234886630e4fb4cdfd1f78/LICENSE-NOTES.md"
+  },
+  "model": "model/clothing_bra.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 2,
+    "skins": 1,
+    "animations": [],
+    "extensions": [
+      "KHR_mesh_quantization"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/clothing_bra.glb",
+      "dimensions": [
+        740,
+        286
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "cloth_bra_albedo",
+      "embedded_image_index": 0,
+      "embedded_sha256": "6c64043ab2cb9b4d6277d6053c1612afdae30231cb0afb83704dce52c673dd18"
+    },
+    {
+      "path": "model/clothing_bra.glb",
+      "dimensions": [
+        740,
+        286
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ccMask",
+      "embedded_image_index": 1,
+      "embedded_sha256": "6ac35955450e79f9ba5d771ca24c40b8c5253e058651186d9fa17013fac0ca72"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 1,
+    "vertices": 510,
+    "triangles": 860,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [
+      {
+        "name": "Armature",
+        "bones": 53
+      }
+    ],
+    "actions": [],
+    "images": [
+      {
+        "name": "cloth_bra_albedo",
+        "dimensions": [
+          740,
+          286
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 63182,
+      "sha256": "8e8f564ac7730b273aaa5475ee7c86f793167689ee23949c34c53eaadf4a3114",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "c2c7e1623cc8de0ed1fe35ab328504d5a1e7fa61bee9e68fa9c82b310a1975f2",
+      "role": "logs"
+    },
+    {
+      "path": "model/clothing_bra.glb",
+      "bytes": 294820,
+      "sha256": "6a5da16d192d019d205841fbb5a441fe026a083bfc46a8c819171f0e9efce7dd",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 15770,
+      "sha256": "29658b91512186b94994a0fb03271410127e9759975abb9012ea56e769ddb085",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 14334,
+      "sha256": "a47da3735b6f8fbecfa4d54c88a1d6a7d9daaae74b62655b28a727e7733e1358",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 156841,
+      "sha256": "dd0dffe4895ae4c559f208443d267374f628493e2c8c6d671e91bdb2830af0f6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 532,
+      "sha256": "cce07dd35b30dd408ca1997cdee8618401b7d69356fdbf2f3d54bb85fdec5278",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 15996,
+      "sha256": "c1d942c853258535611abce5d35c5450eb2add62b8e77d4e9a8a606c9d6ea89a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 16776,
+      "sha256": "3f6877f0bc96d93c4225986e1dab4a6e2be42e2ed76f844025a7499e946bae3b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 18476,
+      "sha256": "3ea3a0b78766915c3e3fb2f386f01d15c99344b5af2e5043468df85848bbadea",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 19765,
+      "sha256": "f9b6c87c236e105a077837079a5ae6c1f2edd068e89bc093daa85c6dc6f5a11c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 19721,
+      "sha256": "c493c8eb30c741042fcfc1d62c71815c61e7d140511833ecd5593860b96c5841",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 20523,
+      "sha256": "44910b92b0f3fe0f1eddff913702c55eb694401d0ff0db42cae1074bd2eb4cb7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 18879,
+      "sha256": "9b81ebc9412cb275e5767afe5bd81100c552a5e8c2688049b1ecf46af242b64d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 16874,
+      "sha256": "c9940b167319802808fb3a9074358ba25ba52991253510500eafa1647d8f4e5b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 17235,
+      "sha256": "4d3680c50c2720b96074b495681b24dd32d1d07c0c5f5276faece270563aed5d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 42775,
+      "sha256": "71097766748972f6330c096b9f03285b88ac059eff6f737713019c7f0e7e0161",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/garment-source.json",
+      "bytes": 896,
+      "sha256": "0d60b1f924e550105837d81a3c37e6262731f3793b4752ed35ac9b81fc1a7b32",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2291,
+      "sha256": "181587e8bd5ff3e973725866b4c00f790e9979f26dda57d46f98eb71cbb98e13",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/neutral-morph-defaults.json",
+      "bytes": 411,
+      "sha256": "a2505bee1fb07067bae8901493ae584166d43bb706059b1ce1eb90171d57f933",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/output-license-notes.md",
+      "bytes": 18771,
+      "sha256": "18af8d071bcb1cab2260263991ad49c314dc616facf7f33b0ab19bee78d4ec13",
+      "role": "provenance"
+    }
+  ]
+}
