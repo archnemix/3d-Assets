@@ -1,0 +1,190 @@
+{
+  "cargo_pants_e.zip": {
+    "exit_code": 0,
+    "log_tail": "Blender 4.2.9 LTS (hash a10f621e649a built 2025-04-15 01:46:41)\nRead blend: \"/tmp/oga-clothing-probe-lsa_xmcj/cargo_pants_e/cargo pants.blend\"\n\nBlender quit\n",
+    "inspection": {
+      "objects": [
+        {
+          "name": "cargo pants",
+          "vertices": 1195,
+          "polygons": 1171,
+          "materials": [
+            "comp"
+          ],
+          "modifiers": [
+            {
+              "type": "ARMATURE",
+              "name": "Armature"
+            }
+          ],
+          "hidden": false,
+          "uv_layers": [
+            "UVMap",
+            "bake"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "name": "cargo_pants.png",
+          "filepath": "//cargo_pants.png",
+          "packed": false,
+          "source": "FILE",
+          "dimensions": [
+            1024,
+            1024
+          ]
+        },
+        {
+          "name": "Render Result",
+          "filepath": "",
+          "packed": false,
+          "source": "VIEWER",
+          "dimensions": [
+            0,
+            0
+          ]
+        }
+      ],
+      "materials": [
+        {
+          "name": "comp",
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled",
+              "image": null
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial",
+              "image": null
+            },
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "image": "cargo_pants.png"
+            }
+          ]
+        },
+        {
+          "name": "Dots Stroke",
+          "use_nodes": false,
+          "nodes": []
+        },
+        {
+          "name": "Material",
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial",
+              "image": null
+            },
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled",
+              "image": null
+            }
+          ]
+        }
+      ],
+      "libraries": []
+    }
+  },
+  "sweatshirt_e.zip": {
+    "exit_code": 0,
+    "log_tail": "Blender 4.2.9 LTS (hash a10f621e649a built 2025-04-15 01:46:41)\nRead blend: \"/tmp/oga-clothing-probe-lsa_xmcj/sweatshirt_e/sweatshirt.blend\"\n\nBlender quit\n",
+    "inspection": {
+      "objects": [
+        {
+          "name": "sweatshirt",
+          "vertices": 1660,
+          "polygons": 1634,
+          "materials": [
+            "comp"
+          ],
+          "modifiers": [
+            {
+              "type": "ARMATURE",
+              "name": "Armature"
+            }
+          ],
+          "hidden": false,
+          "uv_layers": [
+            "UVMap",
+            "bake"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "name": "Render Result",
+          "filepath": "",
+          "packed": false,
+          "source": "VIEWER",
+          "dimensions": [
+            0,
+            0
+          ]
+        },
+        {
+          "name": "sweatshirt c orange.png",
+          "filepath": "//sweatshirt c orange.png",
+          "packed": false,
+          "source": "FILE",
+          "dimensions": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "materials": [
+        {
+          "name": "comp",
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled",
+              "image": null
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial",
+              "image": null
+            },
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "image": "sweatshirt c orange.png"
+            }
+          ]
+        },
+        {
+          "name": "Dots Stroke",
+          "use_nodes": false,
+          "nodes": []
+        },
+        {
+          "name": "Material",
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial",
+              "image": null
+            },
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled",
+              "image": null
+            }
+          ]
+        }
+      ],
+      "libraries": []
+    }
+  }
+}
