@@ -2,7 +2,7 @@
 
 Checked on 2026-11-04. Scope: approved assets under assets/ only.
 
-**504 of 504 approved assets pass every check.**
+**507 of 507 approved assets pass every check.**
 
 Every approved asset is dedicated to the public domain under CC0 1.0. For each one
 that means: no cost, no attribution, commercial use allowed, use and redistribution
@@ -62,6 +62,9 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Formal suit with red tie](../assets/apparel/outfits/mh-toigo-male-suit-3/README.md) | `apparel/outfits` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Dinner jacket suit](../assets/apparel/outfits/mh-toigo-suit-with-dinner-jacket/README.md) | `apparel/outfits` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Bow tie suit](../assets/apparel/outfits/mh-toigo-suit-with-jacket-and-bowtie/README.md) | `apparel/outfits` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Blue button-up shirt and jeans](../assets/apparel/outfits/mhs-male-casualsuit01/README.md) | `apparel/outfits` | makehuman_system (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Striped shirt and jeans](../assets/apparel/outfits/mhs-male-casualsuit03/README.md) | `apparel/outfits` | makehuman_system (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Pocketed jacket and jeans](../assets/apparel/outfits/mhs-male-casualsuit05/README.md) | `apparel/outfits` | makehuman_system (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Long full skirt](../assets/apparel/skirts/mh-toigo-long-full-skirt/README.md) | `apparel/skirts` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Lace ruffle skirt](../assets/apparel/skirts/mh-toigo-skirt-with-lace-ruffle/README.md) | `apparel/skirts` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Boxing gloves](../assets/apparel/sportswear/g3-fashion-boxing-gloves/README.md) | `apparel/sportswear` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -573,7 +576,7 @@ standalone. "Display" means showing the model and our own renders publicly.
 
 ### MakeHuman Community clothing packs — `makehuman-clothing`
 
-15 approved assets. Status: **verified**.
+18 approved assets. Status: **verified**.
 
 - Terms: <https://static.makehumancommunity.org/assets/assetpacks.html>
 - Pinned evidence: <https://static.makehumancommunity.org/assets/assetpacks.html>
@@ -958,6 +961,9 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Lace ruffle skirt](../assets/apparel/skirts/mh-toigo-skirt-with-lace-ruffle/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
 | [Dinner jacket suit](../assets/apparel/outfits/mh-toigo-suit-with-dinner-jacket/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
 | [Bow tie suit](../assets/apparel/outfits/mh-toigo-suit-with-jacket-and-bowtie/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
+| [Blue button-up shirt and jeans](../assets/apparel/outfits/mhs-male-casualsuit01/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
+| [Striped shirt and jeans](../assets/apparel/outfits/mhs-male-casualsuit03/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
+| [Pocketed jacket and jeans](../assets/apparel/outfits/mhs-male-casualsuit05/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
 | [Industrial barrel](../assets/industrial/containers/modkit-barrel/README.md) | Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR. |
 | [Industrial ceiling 4m](../assets/buildings/modular/industrial/modkit-ceiling-4m/README.md) | Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR. |
 | [Industrial crate large](../assets/industrial/containers/modkit-crate-large/README.md) | Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR. |
@@ -981,19 +987,19 @@ Every check below is machine-verified by `python -m asset_library license-audit`
 
 | Check | Passing |
 | --- | --- |
-| `cc0_spdx` | 504/504 |
-| `cc0_text_present` | 504/504 |
-| `commercial_use_allowed` | 504/504 |
-| `evidence_recorded` | 504/504 |
-| `free_of_charge` | 504/504 |
-| `license_file_checksummed` | 504/504 |
-| `no_attribution_required` | 504/504 |
-| `no_trademark_warning` | 504/504 |
-| `redistribution_allowed` | 504/504 |
-| `source_terms_verified` | 504/504 |
-| `standalone_resale_permitted` | 504/504 |
-| `textures_included` | 504/504 |
-| `visually_approved` | 504/504 |
+| `cc0_spdx` | 507/507 |
+| `cc0_text_present` | 507/507 |
+| `commercial_use_allowed` | 507/507 |
+| `evidence_recorded` | 507/507 |
+| `free_of_charge` | 507/507 |
+| `license_file_checksummed` | 507/507 |
+| `no_attribution_required` | 507/507 |
+| `no_trademark_warning` | 507/507 |
+| `redistribution_allowed` | 507/507 |
+| `source_terms_verified` | 507/507 |
+| `standalone_resale_permitted` | 507/507 |
+| `textures_included` | 507/507 |
+| `visually_approved` | 507/507 |
 
 ## Evidence per asset
 
@@ -1328,6 +1334,9 @@ Each row links to the license file stored beside the model and to the exact
 | mh-toigo-skirt-with-lace-ruffle | [LICENSE.txt](../assets/apparel/skirts/mh-toigo-skirt-with-lace-ruffle/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/skirts01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/skirts01.html) |
 | mh-toigo-suit-with-dinner-jacket | [LICENSE.txt](../assets/apparel/outfits/mh-toigo-suit-with-dinner-jacket/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/suits01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/suits01.html) |
 | mh-toigo-suit-with-jacket-and-bowtie | [LICENSE.txt](../assets/apparel/outfits/mh-toigo-suit-with-jacket-and-bowtie/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/suits01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/suits01.html) |
+| mhs-male-casualsuit01 | [LICENSE.txt](../assets/apparel/outfits/mhs-male-casualsuit01/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html) |
+| mhs-male-casualsuit03 | [LICENSE.txt](../assets/apparel/outfits/mhs-male-casualsuit03/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html) |
+| mhs-male-casualsuit05 | [LICENSE.txt](../assets/apparel/outfits/mhs-male-casualsuit05/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html) |
 | modkit-barrel | [LICENSE.txt](../assets/industrial/containers/modkit-barrel/LICENSE.txt) | `645290fbe623` | [source](https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Barrel.glb) | [evidence](https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE) |
 | modkit-ceiling-4m | [LICENSE.txt](../assets/buildings/modular/industrial/modkit-ceiling-4m/LICENSE.txt) | `645290fbe623` | [source](https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Ceiling_4m.glb) | [evidence](https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE) |
 | modkit-crate-large | [LICENSE.txt](../assets/industrial/containers/modkit-crate-large/LICENSE.txt) | `645290fbe623` | [source](https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Crate_Large.glb) | [evidence](https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE) |

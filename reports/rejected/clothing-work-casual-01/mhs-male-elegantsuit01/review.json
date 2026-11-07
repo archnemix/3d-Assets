@@ -1,0 +1,24 @@
+{
+  "id": "mhs-male-elegantsuit01",
+  "decision": "rejected",
+  "scores": {
+    "silhouette": 3,
+    "materials": 3,
+    "topology": 2,
+    "completeness": 4,
+    "style_fit": 3
+  },
+  "notes": "The gray suit and pants are visibly faceted and similar to an already approved conventional tailored suit.",
+  "limitations": [
+    "Static standalone outfit conversion; no rig, skin weights or automatic fitting are provided, and compatibility with any body shape has not been verified.",
+    "Full-resolution diffuse and declared normal maps are embedded; legacy specular, bump, AO and other shader parameters are not reproduced.",
+    "Khronos validation reports 1 warning(s); normal-map tangent shading can vary by renderer."
+  ],
+  "contact_sheet_sha256": "dbac3368abdce95129f8ebdeeb18b1a0a7dfed28160fe8f6796c4a7fcc6d52eb",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports",
+  "status": "rejected",
+  "approved": false
+}

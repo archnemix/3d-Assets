@@ -1,0 +1,24 @@
+{
+  "id": "mhs-male-worksuit01",
+  "decision": "rejected",
+  "scores": {
+    "silhouette": 3,
+    "materials": 3,
+    "topology": 2,
+    "completeness": 4,
+    "style_fit": 3
+  },
+  "notes": "Workwear silhouette is identifiable but strongly faceted overalls and legs fail the requested surface-quality standard.",
+  "limitations": [
+    "Static standalone outfit conversion; no rig, skin weights or automatic fitting are provided, and compatibility with any body shape has not been verified.",
+    "Full-resolution diffuse and declared normal maps are embedded; legacy specular, bump, AO and other shader parameters are not reproduced.",
+    "Khronos validation reports 2 warning(s); normal-map tangent shading can vary by renderer."
+  ],
+  "contact_sheet_sha256": "6f77a75d4b4f8f25b9c3ff2d13780bbccceed418444bd1503613bbfa761abaa5",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports",
+  "status": "rejected",
+  "approved": false
+}

@@ -1,0 +1,24 @@
+{
+  "id": "mhs-male-casualsuit04",
+  "decision": "rejected",
+  "scores": {
+    "silhouette": 3,
+    "materials": 3,
+    "topology": 2,
+    "completeness": 4,
+    "style_fit": 3
+  },
+  "notes": "The blue T-shirt visibly carries a MakeHuman-like figure emblem; unresolved trademark risk means conservative rejection.",
+  "limitations": [
+    "Static standalone outfit conversion; no rig, skin weights or automatic fitting are provided, and compatibility with any body shape has not been verified.",
+    "Full-resolution diffuse and declared normal maps are embedded; legacy specular, bump, AO and other shader parameters are not reproduced.",
+    "Khronos validation reports 1 warning(s); normal-map tangent shading can vary by renderer."
+  ],
+  "contact_sheet_sha256": "bd124aed4af44274925cf39641f289c4230622ed017cb6738520a5b8d2819067",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports",
+  "status": "rejected",
+  "approved": false
+}

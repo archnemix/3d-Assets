@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "id": "mhs-male-casualsuit01",
+  "title": "Blue button-up shirt and jeans",
+  "category": "apparel/outfits",
+  "style": "realistic",
+  "tags": [
+    "clothing",
+    "casual"
+  ],
+  "batch": "clothing-work-casual-01",
+  "acquired_at": "2026-11-07T09:43:46.590297+00:00",
+  "review": {
+    "id": "mhs-male-casualsuit01",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Detailed wrinkled blue shirt, belt and denim trousers; all twelve inspection views reviewed.",
+    "limitations": [
+      "Static standalone outfit conversion; no rig, skin weights or automatic fitting are provided, and compatibility with any body shape has not been verified.",
+      "Full-resolution diffuse and declared normal maps are embedded; legacy specular, bump, AO and other shader parameters are not reproduced.",
+      "Khronos validation reports 1 warning(s); normal-map tangent shading can vary by renderer."
+    ],
+    "contact_sheet_sha256": "ee92a7f3a14386d7b81a42fd7a08d2e0eb66d563cd6b688723ed571f63a4bb85",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "makehuman-clothing",
+    "model": "model/garment.glb",
+    "creator": "makehuman_system",
+    "license": "CC0-1.0",
+    "license_evidence": "https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html",
+    "source_url": "https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html",
+    "source_id": "male_casualsuit01",
+    "revision": "b542127a8e25547c7c29c19f2d1d2adb9a664c80396ecd694095dbc8028a0107",
+    "downloads": [
+      {
+        "url": "https://files2.makehumancommunity.org/asset_packs/makehuman_system_assets/makehuman_system_assets_cc0.zip",
+        "bytes": 280737770,
+        "sha256": "b542127a8e25547c7c29c19f2d1d2adb9a664c80396ecd694095dbc8028a0107"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html"
+  },
+  "model": "model/garment.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 2,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/garment.glb",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "male_casualsuit01_normal",
+      "embedded_image_index": 0,
+      "embedded_sha256": "ff029fc5a3350ebc72813cdf050afcffd23064c7701d99e664572713cfa98a5f"
+    },
+    {
+      "path": "model/garment.glb",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "male_casualsuit01_diffuse",
+      "embedded_image_index": 1,
+      "embedded_sha256": "3fd0bba5dcbdea0ac427f644a6c7c298938f7369b8f96626621ce1e88989394e"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 33344,
+    "triangles": 16672,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "male_casualsuit01_diffuse",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "male_casualsuit01_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1694,
+      "sha256": "3016cc8aed9665e8f6a8eba57cec1452c579362e1ab1e6b4657824f44fbdd34a",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 66384,
+      "sha256": "a6ff276b45d0d2ed85dfb16c9cc1faae93c8032fde086cf519401ae0c5e78191",
+      "role": "logs"
+    },
+    {
+      "path": "logs/convert.log",
+      "bytes": 443,
+      "sha256": "e4ef63cede10d9daf454c29ca2d46eb5e4dee1b913a592e495d63c08db482ff7",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/garment.glb",
+      "bytes": 8439100,
+      "sha256": "2405a46482cab3ea2abf7a505a555ef82829933ebdcfd357e4b35f67145a5689",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 22772,
+      "sha256": "d42e24a7cec763556f0765727bf287da524ede5f7ec5026d0591b86d22bb0351",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 19996,
+      "sha256": "4a922912c8ba495601c2786147ad915f7bdb43ca409f05b4ca30c04f180eb3ba",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 184763,
+      "sha256": "ee92a7f3a14386d7b81a42fd7a08d2e0eb66d563cd6b688723ed571f63a4bb85",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 644,
+      "sha256": "b44814e2e7c0aef3f47a3b9b70b038adcf03c994541283e7b5074f893f8a99b0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 30095,
+      "sha256": "88915051f545a930817dae6f43b4eb15f4c38bd59a3712621e9aa6ae2b6d3be0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 26648,
+      "sha256": "a7cfcc258884576e3fd715df77669b250db6f84e5ebeda98b2df7f5d6a79a482",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 18469,
+      "sha256": "872240652b31499fcbce31f1f8229955c8b994422ad01a788cf645309662e65d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 24499,
+      "sha256": "09760dd06bd128de09a969f647fd7809af7570171b056b242f0e11f7a8aa6666",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 27697,
+      "sha256": "9cc00b11faffce5cf50f30b178db5c4e982aacc5a8b3b0520471f21d2a435bc1",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 25384,
+      "sha256": "e0b677e3aff81763f786b2fc55f43b324856095f31c05504ea71b3be929271cd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 19312,
+      "sha256": "34e681817ebfc96a1330ae161b4972679d0e564394da8f5c69165e272cd99633",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 27362,
+      "sha256": "657b819cafec0a884201170f71797504dbf4f861689bef3334d8159fdfd9a407",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 17087,
+      "sha256": "aa1a54510b2b773dec1ccc9f4bdf1a0f829420637dea3d6bda2a0a6cc6e1d3c3",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 41676,
+      "sha256": "e3c9964ca2d2680a323e08ce4b84b6d4ee151a813ff5a51ff74d8a1febcce190",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/clothing-source.json",
+      "bytes": 1199,
+      "sha256": "6d201a169f2148aa5cd812e99958eb60c2d9368a6b0598ca27ae7bf5406cca2d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1807,
+      "sha256": "75ddcb04f9b17a989588265bc0d0c9578d2c95904c58f165592112ff1e4133de",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source.mhclo",
+      "bytes": 570419,
+      "sha256": "78503ed7f56c149843d85e06e1164bc6871ce7319b2ef689237046352cc90de4",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source.mhmat",
+      "bytes": 1345,
+      "sha256": "043b25cefd398261b893d3dae58c81fc3e9633a25a01eafe66963591f5ad6eb6",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 972,
+      "sha256": "ca51e0f6678354e76356f169bdd383ac7903ed9c2ebc20903ac2c7129e04ef1f",
+      "role": "documentation"
+    }
+  ]
+}

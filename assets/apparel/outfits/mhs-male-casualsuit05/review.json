@@ -1,0 +1,23 @@
+{
+  "id": "mhs-male-casualsuit05",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Layered pocket jacket over striped shirt with faded denim trousers; all twelve views reviewed.",
+  "limitations": [
+    "Static standalone outfit conversion; no rig, skin weights or automatic fitting are provided, and compatibility with any body shape has not been verified.",
+    "Full-resolution diffuse and declared normal maps are embedded; legacy specular, bump, AO and other shader parameters are not reproduced.",
+    "Khronos validation reports 1 warning(s); normal-map tangent shading can vary by renderer.",
+    "Textured game-asset geometry; parts of the jacket, shirt or trouser legs show visible faceting."
+  ],
+  "contact_sheet_sha256": "f4a36dd897095da0ed1f7e8719d18616aee83b9dcb16481c63456860394b7dd7",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

@@ -2,7 +2,7 @@
 
 Suits and coordinated full outfits
 
-Approved assets: **4**
+Approved assets: **7**
 
 ## Double-breasted pinstripe suit
 
@@ -35,3 +35,27 @@ Approved assets: **4**
 - Creator: MargaretToigo; style: realistic; CC0-1.0
 - 24,654 triangles; 1 texture images
 - [Asset folder](../../assets/apparel/outfits/mh-toigo-suit-with-jacket-and-bowtie/) · [Metadata](../../assets/apparel/outfits/mh-toigo-suit-with-jacket-and-bowtie/asset.json) · [All inspection views](../../assets/apparel/outfits/mh-toigo-suit-with-jacket-and-bowtie/previews/contact-sheet.jpg)
+
+## Blue button-up shirt and jeans
+
+![Blue button-up shirt and jeans](../../assets/apparel/outfits/mhs-male-casualsuit01/previews/orbit-01.jpg)
+
+- Creator: makehuman_system; style: realistic; CC0-1.0
+- 16,672 triangles; 2 texture images
+- [Asset folder](../../assets/apparel/outfits/mhs-male-casualsuit01/) · [Metadata](../../assets/apparel/outfits/mhs-male-casualsuit01/asset.json) · [All inspection views](../../assets/apparel/outfits/mhs-male-casualsuit01/previews/contact-sheet.jpg)
+
+## Striped shirt and jeans
+
+![Striped shirt and jeans](../../assets/apparel/outfits/mhs-male-casualsuit03/previews/orbit-01.jpg)
+
+- Creator: makehuman_system; style: realistic; CC0-1.0
+- 4,800 triangles; 2 texture images
+- [Asset folder](../../assets/apparel/outfits/mhs-male-casualsuit03/) · [Metadata](../../assets/apparel/outfits/mhs-male-casualsuit03/asset.json) · [All inspection views](../../assets/apparel/outfits/mhs-male-casualsuit03/previews/contact-sheet.jpg)
+
+## Pocketed jacket and jeans
+
+![Pocketed jacket and jeans](../../assets/apparel/outfits/mhs-male-casualsuit05/previews/orbit-01.jpg)
+
+- Creator: makehuman_system; style: realistic; CC0-1.0
+- 5,996 triangles; 2 texture images
+- [Asset folder](../../assets/apparel/outfits/mhs-male-casualsuit05/) · [Metadata](../../assets/apparel/outfits/mhs-male-casualsuit05/asset.json) · [All inspection views](../../assets/apparel/outfits/mhs-male-casualsuit05/previews/contact-sheet.jpg)
