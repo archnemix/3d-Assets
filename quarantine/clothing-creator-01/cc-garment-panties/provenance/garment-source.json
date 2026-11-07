@@ -1,0 +1,40 @@
+{
+  "id": "panties",
+  "file": "clothing_panties.glb",
+  "mesh": "Cloth_panties",
+  "label": {
+    "da": "Trusser",
+    "en": "Panties"
+  },
+  "slot": "underwear",
+  "occupies": [
+    "underwear"
+  ],
+  "conflicts": [],
+  "layer": 0,
+  "hidesBodyZones": [
+    "underwear_f"
+  ],
+  "colors": {
+    "primary": "#2a2630",
+    "secondary": "#b58a9c"
+  },
+  "bytes": 184344,
+  "vertices": 370,
+  "license": "project-original",
+  "source": "project-original: bikini briefs generated from the body surface by blender/cc_clothing.py add_generated (no third-party asset)",
+  "projectOriginal": "whole mesh (370 vertices, 530 faces) generated from the body surface by blender/cc_clothing.py add_generated (bikini)",
+  "sex": "female",
+  "collidesAsLayer": false,
+  "coveredBy": {
+    "jeans": 347,
+    "skirt": 292,
+    "shorts": 338,
+    "tshirt": 4,
+    "shirt": 123,
+    "dress": 239,
+    "trenchcoat": 0,
+    "hoodie": 168,
+    "jacket": 192
+  }
+}
