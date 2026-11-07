@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "id": "g3-tuk-tuk",
+  "title": "Three-wheeled tuk-tuk",
+  "category": "vehicles/cars",
+  "style": "stylized",
+  "tags": [
+    "three-wheeler",
+    "road",
+    "passenger"
+  ],
+  "batch": "transport-final-01",
+  "acquired_at": "2026-11-07T01:13:32.507341+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/tuk-tuk.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/tuk-tuk/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/tuk-tuk/",
+    "source_id": "tuk-tuk",
+    "revision": "3e8e7c1851179acd8ac6ca2952fac992e24e426c509ec448dcf620ce8ab0469e",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/tuk-tuk/tuk-tuk.glb",
+        "bytes": 932836,
+        "sha256": "3e8e7c1851179acd8ac6ca2952fac992e24e426c509ec448dcf620ce8ab0469e"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/tuk-tuk/LICENSE.txt"
+  },
+  "model": "model/tuk-tuk.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 6,
+    "materials": 17,
+    "images": 5,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/tuk-tuk_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tuk-tuk_body_normal"
+    },
+    {
+      "path": "textures/tuk-tuk_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tuk-tuk_body_basecolor"
+    },
+    {
+      "path": "textures/tuk-tuk_body_metallic-tuk-tuk_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tuk-tuk_body_metallic-tuk-tuk_body_roughness"
+    },
+    {
+      "path": "textures/tuk-tuk_tire_normal.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tuk-tuk_tire_normal"
+    },
+    {
+      "path": "textures/tuk-tuk_tire_color.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "tuk-tuk_tire_color"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 6,
+    "hidden_mesh_objects": 0,
+    "vertices": 9893,
+    "triangles": 11899,
+    "material_slots": 17,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "tuk-tuk_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "tuk-tuk_body_metallic-tuk-tuk_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "tuk-tuk_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "tuk-tuk_tire_color",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "tuk-tuk_tire_normal",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 4,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 77337,
+      "sha256": "c8f5e43fcc0de37285f77b3a657a502f3d66bff7037ef0a9509d6037862af795",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "e7bac76f192a43689427567531c78ee9556c545ca3cbeacd72c1708d943c3153",
+      "role": "logs"
+    },
+    {
+      "path": "model/tuk-tuk.glb",
+      "bytes": 932836,
+      "sha256": "3e8e7c1851179acd8ac6ca2952fac992e24e426c509ec448dcf620ce8ab0469e",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 22573,
+      "sha256": "95a544b17abc0baa1a1e149271c5ad6dc504a1e2e3384ba9d6691f1aadeb7136",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 25273,
+      "sha256": "8e82ee0440f2d882c9c7bd78678fee07434ea5deeed9a6f023bb9ad44b719296",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 248035,
+      "sha256": "c8f5801e2522ab7025d5f08788c6020a3e312242810277e7e189da92b04ae205",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1107,
+      "sha256": "01febbf54de19d7f03c00417bc25ba8d2d2d02deb9a02ac7e058ef4ce956de2e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 27093,
+      "sha256": "3e7e26cb1a144882281ef06ef6cb1458c454464e3ed22ce6eeb9a45824d91f83",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 38831,
+      "sha256": "7d20224fc928a1fc25def8dbab00d406cc6c87edd862525b088bb937951d884a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 32589,
+      "sha256": "58b8b88144548d7f6c1e6b0fd47d7bc2b43648eab31bf3b7286a095082948216",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 38237,
+      "sha256": "7d6107a15d9148d14c937585b7411fa048bdc0e790b1744bdc3e6ab387f77e3b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 22139,
+      "sha256": "4ac3dcc6d37a857cb862d10af60b1489c86106fc9a6d8e50cd18ae53d913543c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 38914,
+      "sha256": "88a01c54f849a9c210b9e6f6357954773e265fbf4382790257c0b857046fd503",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 33585,
+      "sha256": "fab254ed522656ae07ad6da144578ef164775835f02a270b40f274bdfe99745b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 39238,
+      "sha256": "72908c0af363a4a44d07720f6be3f0c990a7c9066b4eff6ea43fc7d9e054fbb0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 14574,
+      "sha256": "d7a582943b775fd11f649c04e8a44e152a235666cca7fdf7243f9c94855fda96",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 55458,
+      "sha256": "b25a2d55047b02e64a794d7a97ade2aa2b28a53c2584b58be28bb1a06c3c2332",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 5838,
+      "sha256": "837c966ecf4bf20e0af72368fe8648cf12da69f5d5ef1e0749aeb049cf8a6ec8",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1586,
+      "sha256": "4a4219ff5308392846fad8e01dfc19dd0e18bcccb60e5997d4db02cf5a4eb2b5",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 472,
+      "sha256": "440d9b1cbd31ce4ab88b699eab2e3fd802abceb2945e239721540a8114950253",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "c9101d7ab790c7b4bacfecf5fdd153e41cfc5cd3db1162155a4158b72e5eeebe",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/tuk-tuk_body_basecolor.jpg",
+      "bytes": 236087,
+      "sha256": "4d09d6ec147d3c38b359ce87e1b0b76ae73696a565df207a7c87b00f187ddf8c",
+      "role": "textures"
+    },
+    {
+      "path": "textures/tuk-tuk_body_metallic-tuk-tuk_body_roughness.jpg",
+      "bytes": 232805,
+      "sha256": "cb6e6768140b79afd45d2b7a8b5f78d0781b0c7005b0b141da14fb3ae20ae59f",
+      "role": "textures"
+    },
+    {
+      "path": "textures/tuk-tuk_body_normal.jpg",
+      "bytes": 67157,
+      "sha256": "69c6b46379d2834d30970c6cbf7aeb8cc10aee14dcfa85e616e57848e1ec8a88",
+      "role": "textures"
+    },
+    {
+      "path": "textures/tuk-tuk_tire_color.jpg",
+      "bytes": 1539,
+      "sha256": "9a26cd08e0224cc42916de18d402a711edeee7659c6a944e67dae2b4e9b09f91",
+      "role": "textures"
+    },
+    {
+      "path": "textures/tuk-tuk_tire_normal.jpg",
+      "bytes": 2114,
+      "sha256": "1ac12a81a5ccc3fb6b78601a0b9665ecb4251b6a18602b230f6c025b54cd930c",
+      "role": "textures"
+    }
+  ]
+}
