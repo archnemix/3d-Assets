@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "id": "g3-fashion-hair-bow",
+  "title": "Polka-dot hair bow",
+  "category": "apparel/accessories",
+  "style": "stylized",
+  "tags": [
+    "bow",
+    "hair",
+    "apparel"
+  ],
+  "batch": "apparel-foundations-01",
+  "acquired_at": "2026-11-07T01:50:09.468670+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/hair-bow.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/hair-bow/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/props/hair-bow/",
+    "source_id": "hair-bow",
+    "revision": "82dffb70bf2a4fde6f8cdecd92f031d4b1455000b717e602717926a5d149ce2c",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/hair-bow/hair-bow.glb",
+        "bytes": 1098840,
+        "sha256": "82dffb70bf2a4fde6f8cdecd92f031d4b1455000b717e602717926a5d149ce2c"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/hair-bow/LICENSE.txt"
+  },
+  "model": "model/hair-bow.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/hair-bow_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "hair-bow_body_normal"
+    },
+    {
+      "path": "textures/hair-bow_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "hair-bow_body_basecolor"
+    },
+    {
+      "path": "textures/hair-bow_body_metallic-hair-bow_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "hair-bow_body_metallic-hair-bow_body_roughness"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 6543,
+    "triangles": 8436,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "hair-bow_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "hair-bow_body_metallic-hair-bow_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "hair-bow_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 68624,
+      "sha256": "f2783f36a9db652512fbdac85cff141adc8f64b170ef60286770712f42785670",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/hair-bow.glb",
+      "bytes": 1098840,
+      "sha256": "82dffb70bf2a4fde6f8cdecd92f031d4b1455000b717e602717926a5d149ce2c",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 30045,
+      "sha256": "a134496ef0684d9f0554399b4061ba591319914b12b0dfa77e789d12a31222a0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18566,
+      "sha256": "bbbd26026cd847918b36ae04e9dd90538389e0c15bf37d8e5bead25730bb45c9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 181658,
+      "sha256": "e31f9614a20b61e8b999b9553d8598d6e2bd32ec8cc5fd1e23aa28f6d8bfb97d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 814,
+      "sha256": "1e9728425f6c1d0f9caaf2c80076f44ea5fe7a572b409f2388f07862067efbb9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 24241,
+      "sha256": "7d15bf910a98b4d0f9b98b9c466ee3500f597f0c1041a773ddaf5b67153f7bfd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 21695,
+      "sha256": "d825ad976014b7878f0126304be5eeed000036c6c35a65915a3c585d0984078c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 22467,
+      "sha256": "8995728cfa93860d0741372ac3cf2fba30cfe8ed2c6e09a6ff53f0e1eca6f902",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 19233,
+      "sha256": "c3c853f2947dec500ffc8859f6272b6135e86489d4a7f156dd53d84064a88770",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 21331,
+      "sha256": "32fe9c4d2024f033b0ebc038a71c793536abf9be251d998d99ddb9eb1328fa9c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 19893,
+      "sha256": "6778a73f1aa0f256883685858168652c4bbbe70dae1556bfaf89ad871ec68df2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 24219,
+      "sha256": "973bcf3c606571c9ca7691f3bf7c8f6d10ba0a6c4bf92c39ca9f668f877a113d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 22710,
+      "sha256": "7c86ffa7b6e6f70bd2a2f8a1f6e6427597e37d1c79b599acc5c60e089b5e767d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 25532,
+      "sha256": "3b9168b1aedc75f8faced7139fbe3f735d4bd6b445722523cb16aacff5e3be9b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 33699,
+      "sha256": "4dee6ea3a093faaf2c2a7348b51518637dcab09078969f0022c843213eef6c49",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1929,
+      "sha256": "bcbd5d44532ed17a9dddff0948b071b5e209bc95ed02baa3e4456521b5495f30",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1508,
+      "sha256": "09cf86bdf96517623b8c93884ea2b36486e945ee206f23d60e5faa9da4e8310d",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 478,
+      "sha256": "519cd7e08e7cb97b64561d1f0a5a082c8b66c02cf198d1f0a155d511ff8b7fb4",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "4ef4db96c59f509a8b1d64e4ab951597eb7e2457d5c72e153cc9b83d00ead3ac",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/hair-bow_body_basecolor.jpg",
+      "bytes": 272194,
+      "sha256": "4bf5790e4e985b3622c273be2d051713308e810aef31cdc5622ae7b68232bb44",
+      "role": "textures"
+    },
+    {
+      "path": "textures/hair-bow_body_metallic-hair-bow_body_roughness.jpg",
+      "bytes": 213164,
+      "sha256": "b23ec32f811b286284294e75e4032aa9c2e4088108fffbe3527e6d369786de5e",
+      "role": "textures"
+    },
+    {
+      "path": "textures/hair-bow_body_normal.jpg",
+      "bytes": 350959,
+      "sha256": "8a33d284c28840eb50acc1402a299c67c8e327ad12ea61a9016460ad16cb623e",
+      "role": "textures"
+    }
+  ]
+}
