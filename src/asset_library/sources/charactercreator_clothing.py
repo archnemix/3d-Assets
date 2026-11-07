@@ -66,6 +66,8 @@ def fetch_charactercreator_clothing(source: dict, candidate: dict, directory: Pa
     record = download(f"{BASE}/output/{item['file']}", model, HOSTS)
     if record["sha256"] != expected["sha256"] or record["bytes"] != expected["bytes"]:
         raise ValueError("Pinned garment bytes changed")
+    changes = reset_default_morph_weights(model)
+    write_json(provenance / "neutral-morph-defaults.json", changes)
     return {
         "model": model.relative_to(directory).as_posix(),
         "creator": "Kasper Olesen; MakeHuman system assets where listed",
@@ -75,4 +77,60 @@ def fetch_charactercreator_clothing(source: dict, candidate: dict, directory: Pa
         "source_id": garment,
         "revision": COMMIT,
         "downloads": [record],
+    }
+
+
+def reset_default_morph_weights(model: Path) -> dict:
+    """Change only GLB JSON default weights; preserve every binary byte.
+
+    These exports ship every mutually exclusive body morph at weight one. The
+    source application drives them from its own sliders; for a standalone GLB,
+    the neutral base with all targets at zero is the safe default instead.
+    """
+    import hashlib
+    import json as jsonlib
+    import struct
+
+    data = model.read_bytes()
+    if len(data) < 28:
+        raise ValueError("Truncated GLB")
+    magic, version, total, json_size, kind = struct.unpack_from("<4sIII4s", data)
+    if magic != b"glTF" or version != 2 or total != len(data) or kind != b"JSON":
+        raise ValueError("Unexpected GLB format")
+    end = 20 + json_size
+    if end + 8 > len(data):
+        raise ValueError("Missing GLB binary chunk")
+    binary_size, binary_kind = struct.unpack_from("<I4s", data, end)
+    if binary_kind != b"BIN\x00" or end + 8 + binary_size != len(data):
+        raise ValueError("Expected exactly one GLB binary chunk")
+    document = jsonlib.loads(data[20:end])
+    if len(document.get("meshes", [])) != 1:
+        raise ValueError("Expected exactly one garment mesh")
+    mesh = document["meshes"][0]
+    weights = mesh.get("weights")
+    targets = mesh.get("extras", {}).get("targetNames", [])
+    primitives = mesh.get("primitives", [])
+    if (
+        not weights
+        or len(weights) != len(targets)
+        or any(value != 1 for value in weights)
+        or not primitives
+        or any(len(primitive.get("targets", [])) != len(weights) for primitive in primitives)
+        or any("weights" in node for node in document.get("nodes", []))
+    ):
+        raise ValueError("Unexpected morph defaults; manual review required")
+    mesh["weights"] = [0] * len(weights)
+    encoded = jsonlib.dumps(document, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
+    encoded += b" " * (-len(encoded) % 4)
+    binary_chunk = data[end:]
+    output = struct.pack("<4sII", b"glTF", 2, 20 + len(encoded) + len(binary_chunk))
+    output += struct.pack("<I4s", len(encoded), b"JSON") + encoded + binary_chunk
+    model.write_bytes(output)
+    return {
+        "operation": "Set the standalone GLB mesh's mutually exclusive default morph weights to zero; leave all morph targets, skin, materials and binary bytes unchanged.",
+        "original_weights": 1,
+        "new_weights": 0,
+        "target_count": len(weights),
+        "binary_sha256": hashlib.sha256(data[end + 8 :]).hexdigest(),
+        "output_sha256": hashlib.sha256(output).hexdigest(),
     }

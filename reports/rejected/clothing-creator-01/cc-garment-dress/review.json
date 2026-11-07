@@ -1,0 +1,22 @@
+{
+  "id": "cc-garment-dress",
+  "decision": "rejected",
+  "scores": {
+    "silhouette": 1,
+    "materials": 3,
+    "topology": 2,
+    "completeness": 2,
+    "style_fit": 2
+  },
+  "notes": "Exaggerated chest and disjointed waist in the original default view. All 92 mutually exclusive morph target defaults are set to 1 in the source GLB, so the standalone file is not usable as displayed. A separately reviewed neutral-default derivative may be considered.",
+  "limitations": [
+    "Original source GLB rejected; rig compatibility and animation not tested."
+  ],
+  "contact_sheet_sha256": "850cf0ea80b3ab8c7b9e78d5c61d4b4743ca6ff99124165c5b026094958f6f96",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports",
+  "status": "rejected",
+  "approved": false
+}
