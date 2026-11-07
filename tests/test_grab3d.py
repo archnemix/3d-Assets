@@ -173,3 +173,11 @@ def test_missing_light_build_fails_with_the_key_it_looked_for(tmp_path, monkeypa
             },
             tmp_path,
         )
+
+
+def test_spacecraft_use_sci_fi_source_pages():
+    source = {**SOURCE, "page_sections": {**SOURCE["page_sections"], "vehicles/spacecraft": "sci-fi"}}
+    assert (
+        grab3d.page_url(source, "space-capsule", "vehicles/spacecraft")
+        == "https://grab3d.com/models/sci-fi/space-capsule/"
+    )

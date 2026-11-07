@@ -1,285 +1,229 @@
 {
   "revision": 1,
-  "batch_id": "transport-eras-01",
+  "batch_id": "transport-final-01",
   "candidates": [
     {
-      "id": "g3-1950s-sedan",
-      "title": "1950s finned sedan",
-      "category": "vehicles/cars/classic",
-      "source": "grab3d",
-      "style": "stylized",
+      "id": "oga-fokker-triplane",
+      "title": "Fokker triplane",
+      "category": "vehicles/aircraft",
+      "source": "oga-triplane",
+      "style": "low-poly",
       "tags": [
-        "1950s",
-        "vintage",
-        "sedan"
+        "aircraft",
+        "historical",
+        "triplane"
       ],
-      "upstream_id": "1950s-sedan",
+      "upstream_id": "low-poly-fokker-triplane",
       "skip_authored_animation": true
     },
     {
-      "id": "g3-1950s-station-wagon",
-      "title": "1950s station wagon",
-      "category": "vehicles/cars/classic",
-      "source": "grab3d",
-      "style": "stylized",
-      "tags": [
-        "1950s",
-        "vintage",
-        "station-wagon"
-      ],
-      "upstream_id": "1950s-station-wagon",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "g3-1960s-compact-car",
-      "title": "1960s compact car",
-      "category": "vehicles/cars/classic",
-      "source": "grab3d",
-      "style": "stylized",
-      "tags": [
-        "1960s",
-        "vintage",
-        "compact"
-      ],
-      "upstream_id": "1960s-compact-car",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "g3-1960s-convertible",
-      "title": "1960s convertible",
-      "category": "vehicles/cars/classic",
-      "source": "grab3d",
-      "style": "stylized",
-      "tags": [
-        "1960s",
-        "vintage",
-        "convertible"
-      ],
-      "upstream_id": "1960s-convertible",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "g3-1960s-microbus",
-      "title": "1960s microbus",
-      "category": "vehicles/cars/classic",
-      "source": "grab3d",
-      "style": "stylized",
-      "tags": [
-        "1960s",
-        "vintage",
-        "microbus"
-      ],
-      "upstream_id": "1960s-microbus",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "g3-1970s-coupe",
-      "title": "1970s coupe",
-      "category": "vehicles/cars/classic",
-      "source": "grab3d",
-      "style": "stylized",
-      "tags": [
-        "1970s",
-        "vintage",
-        "coupe"
-      ],
-      "upstream_id": "1970s-coupe",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "g3-1970s-hatchback",
-      "title": "1970s hatchback",
-      "category": "vehicles/cars/classic",
-      "source": "grab3d",
-      "style": "stylized",
-      "tags": [
-        "1970s",
-        "vintage",
-        "hatchback"
-      ],
-      "upstream_id": "1970s-hatchback",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "g3-1980s-station-wagon",
-      "title": "1980s wood-panel station wagon",
-      "category": "vehicles/cars/classic",
-      "source": "grab3d",
-      "style": "stylized",
-      "tags": [
-        "1980s",
-        "vintage",
-        "station-wagon"
-      ],
-      "upstream_id": "1980s-station-wagon",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "g3-1980s-van",
-      "title": "1980s passenger van",
-      "category": "vehicles/cars/classic",
-      "source": "grab3d",
-      "style": "stylized",
-      "tags": [
-        "1980s",
-        "vintage",
-        "van"
-      ],
-      "upstream_id": "1980s-van",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "g3-1990s-sports-car",
-      "title": "1990s sports coupe",
-      "category": "vehicles/cars/classic",
-      "source": "grab3d",
-      "style": "stylized",
-      "tags": [
-        "1990s",
-        "vintage",
-        "sports"
-      ],
-      "upstream_id": "1990s-sports-car",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "g3-1990s-sedan",
-      "title": "1990s family sedan",
-      "category": "vehicles/cars/classic",
-      "source": "grab3d",
-      "style": "stylized",
-      "tags": [
-        "1990s",
-        "vintage",
-        "sedan"
-      ],
-      "upstream_id": "1990s-sedan",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "g3-1990s-suv",
-      "title": "1990s sport utility vehicle",
-      "category": "vehicles/cars/classic",
-      "source": "grab3d",
-      "style": "stylized",
-      "tags": [
-        "1990s",
-        "vintage",
-        "suv"
-      ],
-      "upstream_id": "1990s-suv",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "g3-atomic-age-car",
-      "title": "Retro-futuristic bubble car",
-      "category": "vehicles/cars/classic",
-      "source": "grab3d",
-      "style": "stylized",
-      "tags": [
-        "retro-futuristic",
-        "concept",
-        "vintage"
-      ],
-      "upstream_id": "atomic-age-car",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "g3-handcar",
-      "title": "Hand-pumped railway car",
-      "category": "vehicles/rail",
-      "source": "grab3d",
-      "style": "stylized",
-      "tags": [
-        "handcar",
-        "rail",
-        "historical"
-      ],
-      "upstream_id": "handcar",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "g3-freight-container-car",
-      "title": "Container railway freight car",
-      "category": "vehicles/rail",
-      "source": "grab3d",
-      "style": "stylized",
-      "tags": [
-        "container",
-        "rail",
-        "freight"
-      ],
-      "upstream_id": "freight-container-car",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "g3-mine-cart",
-      "title": "Narrow gauge mining cart",
-      "category": "vehicles/rail",
-      "source": "grab3d",
-      "style": "stylized",
-      "tags": [
-        "mine",
-        "rail",
-        "historical"
-      ],
-      "upstream_id": "mine-cart",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "g3-sleigh",
-      "title": "Horse-drawn sleigh",
+      "id": "g3-racing-chariot",
+      "title": "Ancient racing chariot",
       "category": "vehicles/cars",
       "source": "grab3d",
       "style": "stylized",
       "tags": [
-        "sleigh",
-        "winter",
+        "ancient",
+        "chariot",
         "historical"
       ],
-      "upstream_id": "sleigh",
+      "upstream_id": "racing-chariot",
       "skip_authored_animation": true
     },
     {
-      "id": "g3-horse-trailer",
-      "title": "Horse transport trailer",
+      "id": "g3-tuk-tuk",
+      "title": "Three-wheeled tuk-tuk",
+      "category": "vehicles/cars",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "three-wheeler",
+        "road",
+        "passenger"
+      ],
+      "upstream_id": "tuk-tuk",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-mars-rover",
+      "title": "Mars exploration rover",
+      "category": "vehicles/spacecraft",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "rover",
+        "space",
+        "exploration"
+      ],
+      "upstream_id": "mars-rover",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-speedboat",
+      "title": "Twin-engine speedboat",
+      "category": "vehicles/watercraft",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "motorboat",
+        "watercraft",
+        "recreation"
+      ],
+      "upstream_id": "speedboat",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-unicycle",
+      "title": "Pedal unicycle",
+      "category": "vehicles/bikes",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "unicycle",
+        "pedal",
+        "circus"
+      ],
+      "upstream_id": "unicycle",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-lunar-lander",
+      "title": "Lunar lander",
+      "category": "vehicles/spacecraft",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "lander",
+        "space",
+        "historical"
+      ],
+      "upstream_id": "lunar-lander",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-food-truck",
+      "title": "Food service truck",
       "category": "vehicles/trucks",
       "source": "grab3d",
       "style": "stylized",
       "tags": [
-        "horse",
+        "food-truck",
+        "road",
+        "service"
+      ],
+      "upstream_id": "food-truck",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-rocket",
+      "title": "Crewed launch rocket",
+      "category": "vehicles/spacecraft",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "rocket",
+        "space",
+        "launch"
+      ],
+      "upstream_id": "rocket",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-bumper-car",
+      "title": "Fairground bumper car",
+      "category": "vehicles/cars",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "amusement",
+        "electric",
+        "car"
+      ],
+      "upstream_id": "bumper-car",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-travel-trailer",
+      "title": "Travel caravan trailer",
+      "category": "vehicles/trucks",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
         "trailer",
+        "caravan",
         "road"
       ],
-      "upstream_id": "horse-trailer",
+      "upstream_id": "travel-trailer",
       "skip_authored_animation": true
     },
     {
-      "id": "g3-riding-mower",
-      "title": "Riding lawn mower",
-      "category": "vehicles/farm",
+      "id": "g3-circus-wagon",
+      "title": "Circus ticket wagon",
+      "category": "vehicles/cars",
       "source": "grab3d",
       "style": "stylized",
       "tags": [
-        "mower",
-        "garden",
-        "vehicle"
+        "circus",
+        "wagon",
+        "historical"
       ],
-      "upstream_id": "riding-mower",
+      "upstream_id": "circus-wagon",
       "skip_authored_animation": true
     },
     {
-      "id": "g3-airplane-stairs",
-      "title": "Mobile passenger boarding stairs",
+      "id": "g3-vintage-truck",
+      "title": "1940s-inspired pickup truck",
       "category": "vehicles/trucks",
       "source": "grab3d",
       "style": "stylized",
       "tags": [
-        "airport",
-        "stairs",
-        "aircraft"
+        "1940s",
+        "vintage",
+        "pickup"
       ],
-      "upstream_id": "airplane-stairs",
+      "upstream_id": "vintage-truck",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-lowrider",
+      "title": "Classic lowrider coupe",
+      "category": "vehicles/cars/classic",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "classic",
+        "lowrider",
+        "custom"
+      ],
+      "upstream_id": "lowrider",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-1990s-pickup",
+      "title": "1990s-inspired pickup truck",
+      "category": "vehicles/trucks",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "1990s",
+        "pickup",
+        "road"
+      ],
+      "upstream_id": "1990s-pickup-truck",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-1980s-hatchback",
+      "title": "1980s-inspired hatchback",
+      "category": "vehicles/cars/classic",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "1980s",
+        "hatchback",
+        "road"
+      ],
+      "upstream_id": "1980s-hatchback",
       "skip_authored_animation": true
     }
   ]
