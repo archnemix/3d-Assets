@@ -4,7 +4,7 @@
       "id": "fokker-triplane",
       "status": "failed-not-approved",
       "error": "Blender conversion failed; see logs/convert.log",
-      "conversion_log_tail": "Blender 4.2.9 LTS (hash a10f621e649a built 2025-04-15 01:46:41)\nRead blend: \"/tmp/vehicle-conversion-probe-dc1q2wb7/fokker-triplane/provenance/fokker-triplane-v2.blend\"\nWarning: region type 4 missing in space type \"Info\" (id: 7) - removing region\nTraceback (most recent call last):\n  File \"/home/runner/work/3d-Assets/3d-Assets/rendering/convert_oga_aircraft.py\", line 19, in <module>\n    raise ValueError(f\"Reference image still has non-empty users: {image.name}\")\nValueError: Reference image still has non-empty users: fokker-dri.jpg\n\nError: script failed, file: '/home/runner/work/3d-Assets/3d-Assets/rendering/convert_oga_aircraft.py', exiting.\n\nBlender quit\n"
+      "conversion_log_tail": "Blender 4.2.9 LTS (hash a10f621e649a built 2025-04-15 01:46:41)\nRead blend: \"/tmp/vehicle-conversion-probe-2uevzr7y/fokker-triplane/provenance/fokker-triplane-v2.blend\"\nWarning: region type 4 missing in space type \"Info\" (id: 7) - removing region\nTraceback (most recent call last):\n  File \"/home/runner/work/3d-Assets/3d-Assets/rendering/convert_oga_aircraft.py\", line 23, in <module>\n    raise ValueError(f\"Reference image still has non-empty users: {image.name}: {users}\")\nValueError: Reference image still has non-empty users: fokker-dri.jpg: [('ImageTexture', 'fokker-dri')]\n\nError: script failed, file: '/home/runner/work/3d-Assets/3d-Assets/rendering/convert_oga_aircraft.py', exiting.\n\nBlender quit\n"
     },
     {
       "id": "submarine",
