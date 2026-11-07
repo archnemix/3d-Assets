@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "id": "g3-minibus",
+  "title": "Passenger minibus",
+  "category": "vehicles/buses",
+  "style": "stylized",
+  "tags": [
+    "minibus",
+    "passenger",
+    "road"
+  ],
+  "batch": "transport-variety-03",
+  "acquired_at": "2026-11-06T19:15:14.208850+00:00",
+  "review": {
+    "id": "g3-minibus",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 4,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed twelve-view contact sheet. Passenger minibus with windowed seating area and roof rack carrying luggage.",
+    "limitations": [
+      "Stylized model with simplified forms and materials; not photorealistic.",
+      "The shipped GLB has no animation clips; operation of moving parts was not verified.",
+      "Khronos validation reports zero errors and 5 runtime-generated tangent-space warning(s); normal-map shading may vary by renderer.",
+      "Blender inspection counted 7 zero-area triangles; these may need cleanup for topology-sensitive workflows."
+    ],
+    "contact_sheet_sha256": "e10598db97fe9635f76187c3861e5d97afc02a12e679fc99e26e096ae311bda2",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "grab3d",
+    "model": "model/minibus.glb",
+    "creator": "Grab3D",
+    "license": "CC0-1.0",
+    "license_evidence": "https://grab3d.com/dl/minibus/LICENSE.txt",
+    "license_page": "https://grab3d.com/license/",
+    "source_url": "https://grab3d.com/models/vehicles/minibus/",
+    "source_id": "minibus",
+    "revision": "f40d7b6e2734e8a50f17df3c564c1a272cf0192584db525c4b8532553dafa1ff",
+    "downloads": [
+      {
+        "url": "https://grab3d.com/dl/minibus/minibus.glb",
+        "bytes": 1499096,
+        "sha256": "f40d7b6e2734e8a50f17df3c564c1a272cf0192584db525c4b8532553dafa1ff"
+      }
+    ],
+    "repairs": [],
+    "origin": {
+      "method": "procedural",
+      "detail": "Built procedurally with Blender scripts. The scripts were written with the help of an AI coding assistant. No generative AI model produced the geometry or textures directly.",
+      "ai_content": false,
+      "ai_assisted_code": true
+    }
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://grab3d.com/dl/minibus/LICENSE.txt"
+  },
+  "model": "model/minibus.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 6,
+    "materials": 18,
+    "images": 5,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/minibus_body_normal.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "minibus_body_normal"
+    },
+    {
+      "path": "textures/minibus_body_basecolor.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "minibus_body_basecolor"
+    },
+    {
+      "path": "textures/minibus_body_metallic-minibus_body_roughness.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "minibus_body_metallic-minibus_body_roughness"
+    },
+    {
+      "path": "textures/minibus_tire_normal.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "minibus_tire_normal"
+    },
+    {
+      "path": "textures/minibus_tire_color.jpg",
+      "dimensions": [
+        64,
+        256
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "minibus_tire_color"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 6,
+    "hidden_mesh_objects": 0,
+    "vertices": 21046,
+    "triangles": 25969,
+    "material_slots": 18,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 7,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "minibus_body_basecolor",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "minibus_body_metallic-minibus_body_roughness",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "minibus_body_normal",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "minibus_tire_color",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "minibus_tire_normal",
+        "dimensions": [
+          64,
+          256
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 5,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1642,
+      "sha256": "60ae80ab97d0bbf2853091799165c76eee79bdfde9b3a743e6c181a1b00911ac",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 76238,
+      "sha256": "e0418d039b052b6ca9b3831c86650c5245951537f935e062dec2bb87a47daa08",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 31,
+      "sha256": "998ef207bb56a5da54cfc753f6cf05bd6985e629781c1ba33f1562c902587ed1",
+      "role": "logs"
+    },
+    {
+      "path": "model/minibus.glb",
+      "bytes": 1499096,
+      "sha256": "f40d7b6e2734e8a50f17df3c564c1a272cf0192584db525c4b8532553dafa1ff",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 17422,
+      "sha256": "a4ff81db4c2bc5bfd779d7dc29026324e103019803d3ee1ca636fa13072c66f5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 22133,
+      "sha256": "8fd9490046e533ab447e96e8c6b05db94d224b2fbe594bbc98e24cb9dc4f80a4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 220991,
+      "sha256": "e10598db97fe9635f76187c3861e5d97afc02a12e679fc99e26e096ae311bda2",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 1108,
+      "sha256": "ad86d9b075deff9f57e4d909f89b97e7b0a71c16755315e8b0fa289bec6131e8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 26330,
+      "sha256": "77e07cb7fe172aa406750610fe84f0ea8b69fa13bee1b6d9bbd0572746708231",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 29536,
+      "sha256": "7bde2bf85df5829551f1d61fb5707b22f3ccc5170e1f50f3a2afb1997125f883",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 25761,
+      "sha256": "f931b5bd47a44c040f42e495e9a865e28c080f9430612a0ca85e9ba78c51ce4d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 27984,
+      "sha256": "f192635dfff89846e771fd809030f3741326d6ce010bd5ada7061b4c9932b116",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 27336,
+      "sha256": "8ad4fe35d9ac42a015ff9cd3302b695d26575b1c2203f0792e22b09fc29f2497",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 30618,
+      "sha256": "0afc841beb24098d499256ef75903f07cf31cead53599793b7f5303b2d485bb6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 29517,
+      "sha256": "9f9681c798dd2ff86a16af6d68759fdf1fe76be9b3f3b5a4c69fbb85e911433b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 32743,
+      "sha256": "b82491f195f47a9902b26bfc7f5e6a36ad16a44370e88f9afddd5cbbb08c7938",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 20099,
+      "sha256": "7cb7975e743127f9d97758290b3f82e043f1fe254b2d5592ac7696fd96c7f1be",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 61539,
+      "sha256": "df9c82e934ec288cd26d2899009a3455bd1f395052b0ee31f14c23745f01d757",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 6167,
+      "sha256": "7c2613370a420fe90b38d806dd4bf18b75672847738ae5d56ccc23392e3c37db",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-manifest.json",
+      "bytes": 1709,
+      "sha256": "0d0a8e498fcf1f0942c049dfdf331c55123f1aa947f1527501e880b8d04e7489",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-package.json",
+      "bytes": 473,
+      "sha256": "e1c79e10aea2b0c44b9e2f118f30476b071345b5ebeaaaaa42150033917c0ab4",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/grab3d-repair.json",
+      "bytes": 315,
+      "sha256": "057969b6ebe3943153e7e3a824d98a69c7b025fbd0e85a7aa51748d9eceff1b5",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1000,
+      "sha256": "603c614e7e9aa25c4e76a4a9254754bf5d3cd689561e307ff5a26a148fe9fbc7",
+      "role": "documentation"
+    },
+    {
+      "path": "textures/minibus_body_basecolor.jpg",
+      "bytes": 302034,
+      "sha256": "e37fce3cb002fc58819979c17f59009449e7aa3f66a232b1f11fdd7c3246c719",
+      "role": "textures"
+    },
+    {
+      "path": "textures/minibus_body_metallic-minibus_body_roughness.jpg",
+      "bytes": 293343,
+      "sha256": "952ae69e21fa5d1844ebfa1e7eb539e5082f77a0c6be8958b803193b57bc9155",
+      "role": "textures"
+    },
+    {
+      "path": "textures/minibus_body_normal.jpg",
+      "bytes": 72504,
+      "sha256": "33cefab9976e8be43b9661165a23ec54aa77386101b04ef5433606996dbd25b4",
+      "role": "textures"
+    },
+    {
+      "path": "textures/minibus_tire_color.jpg",
+      "bytes": 1539,
+      "sha256": "9a26cd08e0224cc42916de18d402a711edeee7659c6a944e67dae2b4e9b09f91",
+      "role": "textures"
+    },
+    {
+      "path": "textures/minibus_tire_normal.jpg",
+      "bytes": 2114,
+      "sha256": "1ac12a81a5ccc3fb6b78601a0b9665ecb4251b6a18602b230f6c025b54cd930c",
+      "role": "textures"
+    }
+  ]
+}

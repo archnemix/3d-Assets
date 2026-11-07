@@ -2,7 +2,7 @@
 
 Classic and historical cars
 
-Approved assets: **18**
+Approved assets: **19**
 
 ## 1950s open roadster
 
@@ -139,6 +139,14 @@ Approved assets: **18**
 - Creator: Grab3D; style: stylized; CC0-1.0
 - 19,739 triangles; 5 texture images
 - [Asset folder](../../assets/vehicles/cars/classic/g3-lowrider/) · [Metadata](../../assets/vehicles/cars/classic/g3-lowrider/asset.json) · [All inspection views](../../assets/vehicles/cars/classic/g3-lowrider/previews/contact-sheet.jpg)
+
+## Classic fastback muscle car
+
+![Classic fastback muscle car](../../assets/vehicles/cars/classic/g3-muscle-car/previews/orbit-01.jpg)
+
+- Creator: Grab3D; style: stylized; CC0-1.0
+- 19,806 triangles; 5 texture images
+- [Asset folder](../../assets/vehicles/cars/classic/g3-muscle-car/) · [Metadata](../../assets/vehicles/cars/classic/g3-muscle-car/asset.json) · [All inspection views](../../assets/vehicles/cars/classic/g3-muscle-car/previews/contact-sheet.jpg)
 
 ## Old vintage car
 
