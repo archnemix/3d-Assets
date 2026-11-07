@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "id": "mh-toigo-suit-with-jacket-and-bowtie",
+  "title": "Bow tie suit",
+  "category": "apparel/outfits",
+  "style": "realistic",
+  "tags": [
+    "clothing",
+    "formal"
+  ],
+  "batch": "clothing-foundations-01",
+  "acquired_at": "2026-11-07T09:27:36.579968+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "makehuman-clothing",
+    "model": "model/garment.glb",
+    "creator": "MargaretToigo",
+    "license": "CC0-1.0",
+    "license_evidence": "https://static.makehumancommunity.org/assets/assetpacks/suits01.html",
+    "source_url": "https://static.makehumancommunity.org/assets/assetpacks/suits01.html",
+    "source_id": "toigo_suit_with_jacket_and_bowtie",
+    "revision": "2b1d8676f3863b188e9eea98c1d8f234543d54c440e791d92b819f8ee1861f19",
+    "downloads": [
+      {
+        "url": "https://files2.makehumancommunity.org/asset_packs/suits01/suits01_cc0.zip",
+        "bytes": 42624017,
+        "sha256": "2b1d8676f3863b188e9eea98c1d8f234543d54c440e791d92b819f8ee1861f19",
+        "cached": true
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://static.makehumancommunity.org/assets/assetpacks/suits01.html"
+  },
+  "model": "model/garment.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 1,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/SuitBowtie-diff2.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "SuitBowtie-diff2"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 49307,
+    "triangles": 24654,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "SuitBowtie-diff2",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 0,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 64280,
+      "sha256": "28acf684e703315007019d46ec51e105af2e42a2a1e9ce7e5880a47c0fc13fc6",
+      "role": "logs"
+    },
+    {
+      "path": "logs/convert.log",
+      "bytes": 597,
+      "sha256": "ecfaae60b58dc6499ed73de8028b53aaaa275a2d1e4e97fafaeb2fb4db0e4d4a",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "082e951724014468ff5480fb2a42b17b945a390940b3476599aaaa9a77b8ecc1",
+      "role": "logs"
+    },
+    {
+      "path": "model/garment.glb",
+      "bytes": 3649700,
+      "sha256": "525152e22e60b67fbee28fe1b0966540c60f1b1d04c9e256d6e3c649c77030cd",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 19558,
+      "sha256": "0aab9572e94c7db8b7f9c14b78ccc9bddad376921c870a8b6f150de0de10653b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 17914,
+      "sha256": "2c0a8c3c73ae9cf4d697b9714f9d641127ed57c3f36da250a36a20c3d238a09d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 165375,
+      "sha256": "fd866d564eb9b19ea02a1d72e6b76cf3f64b13c419aac862088fa3435346654a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 479,
+      "sha256": "d8026dfd7cf6dc56111406e71a6790c2b8e400568eab436a1bb5cab44a45e9c7",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 26420,
+      "sha256": "364c9bcdeaca0f611dfa66c0138278a8d353b41076e6ba8f1928aa6184be9ec5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 23462,
+      "sha256": "19c5e35d54c516134badd922053f6a025de598f087f196ca333e1b73a0e8d777",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 17502,
+      "sha256": "fda3eea5f8b54b7edf0a6bfbde1cae0cbbc91066e74e5dcaae508d6c52a971b5",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 22562,
+      "sha256": "9bdd6a039d848f7cd3ef52155b62e2e757a5c1344b618e42c3322ee6ce6e635e",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 24988,
+      "sha256": "edb908800679a7d49d7e6faaa0ded9ca6f67970ca6daa4947b17be9cc0ee4025",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 22826,
+      "sha256": "17e856586c829e3473e09704a22d5501c0bc8ccfea11d0165eda4085980330a6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 18012,
+      "sha256": "d458351fb09b1f51b459bd930ce9fa09d7a71758083c325719a827e9519a7be0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 23468,
+      "sha256": "4cc336f4ec0dc5540759e1fffb544d3fe415ae8dce2a0cb207c6405831b2b70b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 19891,
+      "sha256": "40805fa84cce820d9add519f4c909fff997823eb3c7604a0b5dde4a9019373f4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 42049,
+      "sha256": "0d592dcf7b80f241913cc18771cdcde5f5f237cb6b93744a7acf34802cb49297",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/clothing-source.json",
+      "bytes": 1077,
+      "sha256": "e308ef7d32a35a6be828f053e150038cf580db20767603a59c4e43bd46236e5c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1172,
+      "sha256": "c815895732ebd7059e2ab5d7adf4d8c105154864207eaf93aea86e8c1aef3a0b",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source.mhclo",
+      "bytes": 866807,
+      "sha256": "ec88fc4b60531e0c601bd0f553576f32d54b49821990aae0f3f23391af65ba1c",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source.mhmat",
+      "bytes": 562,
+      "sha256": "8ebb7313b4dda918c43308290160f076dcf4bf608c63a7d1916d97a7a30f0ea0",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/SuitBowtie-diff2.png",
+      "bytes": 1922445,
+      "sha256": "9c386f415b3624527ea73b7772eceb35afb1e30a1cc92cd7d78c99ce997b6c0b",
+      "role": "textures"
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "id": "mh-toigo-female-double-breasted-suit",
+  "title": "Women’s double-breasted suit",
+  "category": "apparel/outfits",
+  "style": "realistic",
+  "tags": [
+    "clothing",
+    "formal"
+  ],
+  "batch": "clothing-foundations-01",
+  "acquired_at": "2026-11-07T09:25:53.065872+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "makehuman-clothing",
+    "model": "model/garment.glb",
+    "creator": "MargaretToigo",
+    "license": "CC0-1.0",
+    "license_evidence": "https://static.makehumancommunity.org/assets/assetpacks/suits01.html",
+    "source_url": "https://static.makehumancommunity.org/assets/assetpacks/suits01.html",
+    "source_id": "toigo_female_double-breasted_suit",
+    "revision": "2b1d8676f3863b188e9eea98c1d8f234543d54c440e791d92b819f8ee1861f19",
+    "downloads": [
+      {
+        "url": "https://files2.makehumancommunity.org/asset_packs/suits01/suits01_cc0.zip",
+        "bytes": 42624017,
+        "sha256": "2b1d8676f3863b188e9eea98c1d8f234543d54c440e791d92b819f8ee1861f19"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://static.makehumancommunity.org/assets/assetpacks/suits01.html"
+  },
+  "model": "model/garment.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 2,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "textures/DB-suit-Fem-norm.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "DB-suit-Fem-norm"
+    },
+    {
+      "path": "textures/DB-suit-Fem.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "DB-suit-Fem"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 20124,
+    "triangles": 10062,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "DB-suit-Fem",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "DB-suit-Fem-norm",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 66300,
+      "sha256": "5fe7288c8b2931bf90f27e30a2f3d0640e1b56a2f7a82f69a6a4bc2e5c4ad49e",
+      "role": "logs"
+    },
+    {
+      "path": "logs/convert.log",
+      "bytes": 444,
+      "sha256": "a5efbb506d9a1c0cc375d7ac22d1ed10be375a2fc97b638cdcd43b1f9df62ec6",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/garment.glb",
+      "bytes": 6636152,
+      "sha256": "088e596d3ef42b54b1458401e383b6104bcb4ea0016c98247e23d16dcc047bd5",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 21588,
+      "sha256": "651a63702927e3aa289186550c12dd21894d1aec43d6aba552641854a34bb21a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 17869,
+      "sha256": "76552d94445c34091bdbbf7f321f9dc10b99521b09f810a47b5fcd6bf96db50a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 162692,
+      "sha256": "c0604c134d6dce8dd0b68200490a7fcd2b2ff33588bc7315c8293372ca7975a9",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 622,
+      "sha256": "276ffa26b0c324a69d1f0e48aff76ff8d3b9b01f8cc0d6b8fe0f2ff8ab4ba8d6",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 24836,
+      "sha256": "86e6e7453c2ccc6cf5b25101a93b132eb4a1492e511395215d8ec31f12b89720",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 21939,
+      "sha256": "952dea4dda42f64d98d1182a0bb069a6b3c640c05326a938cab8cf6715a3cae8",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 16153,
+      "sha256": "4e21fa59adf386173a812650416599894f1600798858d0a752bcd74c84d36055",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 20828,
+      "sha256": "03401788aa615f9675a942e731239497bc007d2d82f200be789ea054df3e6b8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 24861,
+      "sha256": "9b217c7fd81553e21e64791509b15b0b7b3d8e8df90bc716067105338d0722fd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 21017,
+      "sha256": "9e89ef7ed6b0c947454501562bed0850db047caac094a82c4c90ee7029e85191",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 16922,
+      "sha256": "9a35a27c0b38a275db071b94e302ebc40c235d19e58ad3a10d2f0d90c4f63e53",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 22234,
+      "sha256": "04fae5edf0000625dd2500b1c6c3e016fc1026f5200083b66d77aa65fce9c78a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 23105,
+      "sha256": "c3ef1c30a21c400010c103a598ec2c6e3afd1acb6322b1e5bab42f6e5f849139",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 39564,
+      "sha256": "959dd24d1233706fcb4c87cd2676a50789d10d3a5ca65c1202e2605c0f0c214e",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/clothing-source.json",
+      "bytes": 1180,
+      "sha256": "50d4fd8f13422e65b786d408d20be700e05b42a87c183d518c9088d883fabd18",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1808,
+      "sha256": "608bd9b4bff2a619d5229964e382ac8638c38c4e5edc0d9fd1a93e763596241a",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source.mhclo",
+      "bytes": 365044,
+      "sha256": "87b9b5499c67904338fe2ac271977dccabb3e603e3d2a5f90a62a633d5504913",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source.mhmat",
+      "bytes": 568,
+      "sha256": "6cb410ea629f27d50da019dc5fd514d7f729ed3108a42ce9996e1ce447beb8fa",
+      "role": "provenance"
+    },
+    {
+      "path": "textures/DB-suit-Fem-norm.png",
+      "bytes": 3368345,
+      "sha256": "cacd846e25b71181b9c49e12392b403c9c98765fe637238aaef498a39d8c94fe",
+      "role": "textures"
+    },
+    {
+      "path": "textures/DB-suit-Fem.png",
+      "bytes": 2561814,
+      "sha256": "d3f52f73401982399a79f210f4570f21138e8ddb312042cb6ea31d8c9666790e",
+      "role": "textures"
+    }
+  ]
+}
