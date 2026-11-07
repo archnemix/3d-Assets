@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "id": "cc-garment-hoodie",
+  "title": "Hooded sweatshirt",
+  "category": "apparel/tops",
+  "style": "realistic",
+  "tags": [
+    "clothing",
+    "charactercreator",
+    "neutral-default-derivative"
+  ],
+  "batch": "clothing-creator-neutral-01",
+  "acquired_at": "2026-11-07T10:36:02.017777+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "charactercreator-clothing",
+    "model": "model/clothing_hoodie.glb",
+    "creator": "Kasper Olesen; MakeHuman system assets where listed",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/kblood/CharacterCreator/852e48f316b90a0937234886630e4fb4cdfd1f78/LICENSE-NOTES.md",
+    "source_url": "https://github.com/kblood/CharacterCreator/blob/852e48f316b90a0937234886630e4fb4cdfd1f78/output/clothing_hoodie.glb",
+    "source_id": "hoodie",
+    "revision": "852e48f316b90a0937234886630e4fb4cdfd1f78",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/kblood/CharacterCreator/852e48f316b90a0937234886630e4fb4cdfd1f78/output/clothing_hoodie.glb",
+        "bytes": 684848,
+        "sha256": "264ad136179ac35326a273116652cf44badc189f6c78f09d188ecda19b3fd969"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/kblood/CharacterCreator/852e48f316b90a0937234886630e4fb4cdfd1f78/LICENSE-NOTES.md"
+  },
+  "model": "model/clothing_hoodie.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 2,
+    "skins": 1,
+    "animations": [],
+    "extensions": [
+      "KHR_mesh_quantization"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/clothing_hoodie.glb",
+      "dimensions": [
+        1024,
+        992
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "cloth_hoodie_albedo",
+      "embedded_image_index": 0,
+      "embedded_sha256": "69d0706906c3d74ccf3019cd8dfbdef5057ce33b2f863a765a55048e3ee29feb"
+    },
+    {
+      "path": "model/clothing_hoodie.glb",
+      "dimensions": [
+        1024,
+        992
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ccMask",
+      "embedded_image_index": 1,
+      "embedded_sha256": "2272ddb4ef47b834ab2cba6e3cda00c67cde3be8007acba56da50558a4704c49"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 1,
+    "vertices": 1793,
+    "triangles": 3176,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [
+      {
+        "name": "Armature",
+        "bones": 53
+      }
+    ],
+    "actions": [],
+    "images": [
+      {
+        "name": "cloth_hoodie_albedo",
+        "dimensions": [
+          1024,
+          992
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 63293,
+      "sha256": "3f863d4476412fd436de75c14f03b763674fcb865b0ba5fc2dd51ffea9ae6de7",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "c2c7e1623cc8de0ed1fe35ab328504d5a1e7fa61bee9e68fa9c82b310a1975f2",
+      "role": "logs"
+    },
+    {
+      "path": "model/clothing_hoodie.glb",
+      "bytes": 684848,
+      "sha256": "8df03b9f7dbb39cf8bca24906a31b9b5d99b41b5a65234033723150ea82cc453",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 16535,
+      "sha256": "fe9746c6445d1ec5c6b3c2394f0f5bed2fe7f3ca6ac9a2570a4c90179df9c29d",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18550,
+      "sha256": "f3b4199091a851764a9b57c9ea90e17d3745ad26f73a511cc89020bc66730a1c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 175708,
+      "sha256": "2998dc57e7e4cddc39fceac6f6042ae19d002151b65dd2a3614a6c09d8cc6d09",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 538,
+      "sha256": "cdea7be83a841aef06a763b7e3c7500f88a0acf7287e68f3ab9b3ffa126950a0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 21467,
+      "sha256": "7325ef8b5ca27f75d78fbc5d6d4f3548c4cf0e4e27bddcc6db3756bbb7fa5065",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 24573,
+      "sha256": "8e5da62521e5e76f47ffb4dd5bb66dad8519f2ece9ee5e383d40890f93ff0fd4",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 19196,
+      "sha256": "ec55c10195f4f534181405c2b558aab66f44a6df241dcf7eb458f88b541f4992",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 22503,
+      "sha256": "dbded6cde90bcf8537c74e11b1dcd82747d236a8c9c0cf10986310ab6c939309",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 19810,
+      "sha256": "f15101001053a949cbfa95af4aa5c71bee8ddac6bf7bbe89e608e76f99945bdb",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 22809,
+      "sha256": "19ac4dda3db7f3a2bdb63878d574b9a537f1591b8e2689adfdfcce1cf7b38b05",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 20651,
+      "sha256": "190e9d3536ae6cbeb3c153c84378ea9a42ada197e3e1e47fce6046057ee127e0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 25345,
+      "sha256": "c9f048a28f90167021ee20acf59153c605c72e90d0eccebb5f923adf5d5f5744",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 13752,
+      "sha256": "98eaaaf79f428f750c48b7c04ee1d9d7b706b42d3b4f5248cb75182d0e5e310b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 50682,
+      "sha256": "b7e0d7450554f5dccb139b33630940404847c859dd88659818c36b72d51a6f5c",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/garment-source.json",
+      "bytes": 901,
+      "sha256": "1b10a418652594953f67bd98e7e9687f676a859c8fa18dc9b2413af67b603b93",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2300,
+      "sha256": "89ac431253da733c586480c0efad215c152f6d5a83f3a7c3a2364a40a5becfb7",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/neutral-morph-defaults.json",
+      "bytes": 411,
+      "sha256": "60ef9843cba7a8940a34f99a0ddbdd9cf9422f92967dc4e3e662bb738eb0fba1",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/output-license-notes.md",
+      "bytes": 18771,
+      "sha256": "18af8d071bcb1cab2260263991ad49c314dc616facf7f33b0ab19bee78d4ec13",
+      "role": "provenance"
+    }
+  ]
+}

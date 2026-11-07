@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "id": "cc-garment-trenchcoat",
+  "title": "Long trench coat",
+  "category": "apparel/outfits",
+  "style": "realistic",
+  "tags": [
+    "clothing",
+    "charactercreator",
+    "neutral-default-derivative"
+  ],
+  "batch": "clothing-creator-neutral-01",
+  "acquired_at": "2026-11-07T10:37:37.253024+00:00",
+  "review": {
+    "status": "awaiting-visual-review",
+    "approved": false
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "charactercreator-clothing",
+    "model": "model/clothing_trenchcoat.glb",
+    "creator": "Kasper Olesen; MakeHuman system assets where listed",
+    "license": "CC0-1.0",
+    "license_evidence": "https://raw.githubusercontent.com/kblood/CharacterCreator/852e48f316b90a0937234886630e4fb4cdfd1f78/LICENSE-NOTES.md",
+    "source_url": "https://github.com/kblood/CharacterCreator/blob/852e48f316b90a0937234886630e4fb4cdfd1f78/output/clothing_trenchcoat.glb",
+    "source_id": "trenchcoat",
+    "revision": "852e48f316b90a0937234886630e4fb4cdfd1f78",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/kblood/CharacterCreator/852e48f316b90a0937234886630e4fb4cdfd1f78/output/clothing_trenchcoat.glb",
+        "bytes": 1006564,
+        "sha256": "7ba089a6bd00af369ad9746120a82ac48d949e898493ee3b345d169f7ce6170c"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://raw.githubusercontent.com/kblood/CharacterCreator/852e48f316b90a0937234886630e4fb4cdfd1f78/LICENSE-NOTES.md"
+  },
+  "model": "model/clothing_trenchcoat.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 3,
+    "skins": 1,
+    "animations": [],
+    "extensions": [
+      "KHR_mesh_quantization"
+    ],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/clothing_trenchcoat.glb",
+      "dimensions": [
+        512,
+        400
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "cloth_trenchcoat_normal",
+      "embedded_image_index": 0,
+      "embedded_sha256": "8275f3517094b48532f9f2a54c0bdd86767485e376308954e7b78b60f17a1345"
+    },
+    {
+      "path": "model/clothing_trenchcoat.glb",
+      "dimensions": [
+        1024,
+        800
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "cloth_trenchcoat_albedo",
+      "embedded_image_index": 1,
+      "embedded_sha256": "29d643a12df4c3e6fa96717751d68cc68e9594b9f0e45790ed7a21356f40a7b8"
+    },
+    {
+      "path": "model/clothing_trenchcoat.glb",
+      "dimensions": [
+        256,
+        200
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "ccMask",
+      "embedded_image_index": 2,
+      "embedded_sha256": "372b57c5d6e316432cbefb884599b4dfeecd5532bb74e89486dd78dc19d1b7db"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 1,
+    "vertices": 2584,
+    "triangles": 4480,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [
+      {
+        "name": "Armature",
+        "bones": 53
+      }
+    ],
+    "actions": [],
+    "images": [
+      {
+        "name": "cloth_trenchcoat_albedo",
+        "dimensions": [
+          1024,
+          800
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "cloth_trenchcoat_normal",
+        "dimensions": [
+          512,
+          400
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 2,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 65145,
+      "sha256": "e25686526739207ca7ab4e6e4481d9be45def26c29f74751c37a941e291cfc39",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "8092b37bcdff0477d961eb1ef4ce3b2266b682dcf10a3778c5077f1ae8275816",
+      "role": "logs"
+    },
+    {
+      "path": "model/clothing_trenchcoat.glb",
+      "bytes": 1006564,
+      "sha256": "eaace3d3882c9f31d70e9babaa812f83f097cd87895c5e6c6934e4c1d5c64a36",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 20126,
+      "sha256": "3df06dbfbdd94e9c6ad52f45c7e57ddfa96d8b7edcc8b03895dc17c74f42e2d0",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18624,
+      "sha256": "91776020dd56486aabc251372c2fb9d693b1ffb70055bbc0a86b18f31d4e0b28",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 156363,
+      "sha256": "ea3b90ba33ef96f73f73266d1b1a2fcb20b9940f31b3cdb6786236c2fc8be204",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 695,
+      "sha256": "a0544faee6be4fa9faea50c109e928e633ad79f7cbb44d8bbaaf5d7876783c2f",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 21041,
+      "sha256": "ac0d4d8b0e44d1400518f6f51ff12526d662690b4a90e647d9331db1b0c34587",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 18906,
+      "sha256": "7425efeb198e490aeab02671981699c02e680cc0d9e204445f17a44b4c1177be",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 14603,
+      "sha256": "e48e7e36b9f2800c0f0abe7a3555e599ed5a0f685a5a4391a54faf59d8714d57",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 16405,
+      "sha256": "35159574b65d21ec27babfc1edc313a6ed5b43d5ae1701ef540cfc62f6962743",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 18171,
+      "sha256": "79eee2d1550751790204b88556b1dd7511bc93d4f3dbf4a9fc4d9e7b58d74694",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 16877,
+      "sha256": "c768862a1df349f2a3a16acce93328c584e96413bf4a3ef80ab0b1f343d5c6ac",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 15240,
+      "sha256": "766b80ad5ad5c5ca2a8b3fc343978cbf120e761928ccda0c3779ce9a37b2ae36",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 19312,
+      "sha256": "c0defab791b364236558b420324dbb0e8e98d044888bc0c118585ef7c02df024",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 19138,
+      "sha256": "539462e14204e84e00a4cd0ac3e9f523d99d79d83416c620c3ebfd67f188cb50",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 46127,
+      "sha256": "97ba36cd0b25b6032805fb2f70d358e226bd29a8b3256b78c525a4e03640f3c1",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/garment-source.json",
+      "bytes": 1481,
+      "sha256": "88566357c3d369300a14ff552898888b930c742afe5e5481d81af1917435911e",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 2987,
+      "sha256": "033a77dd2a5c7911c6185a58cccfed607524fbf2b50d60aea4a04863f759cce4",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/neutral-morph-defaults.json",
+      "bytes": 411,
+      "sha256": "96ce37b7e36e32f066b33ef363e64b6a4de3da8b50e90b0ceb8ae506988dfb5a",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/output-license-notes.md",
+      "bytes": 18771,
+      "sha256": "18af8d071bcb1cab2260263991ad49c314dc616facf7f33b0ab19bee78d4ec13",
+      "role": "provenance"
+    }
+  ]
+}
