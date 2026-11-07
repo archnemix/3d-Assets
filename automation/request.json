@@ -1,229 +1,539 @@
 {
   "revision": 1,
-  "batch_id": "transport-final-01",
+  "batch_id": "apparel-foundations-01",
   "candidates": [
     {
-      "id": "oga-fokker-triplane",
-      "title": "Fokker triplane",
-      "category": "vehicles/aircraft",
-      "source": "oga-triplane",
+      "id": "oga-historical-submarine",
+      "title": "Low-poly submarine",
+      "category": "vehicles/underwater",
+      "source": "oga-submarine",
       "style": "low-poly",
       "tags": [
-        "aircraft",
-        "historical",
-        "triplane"
-      ],
-      "upstream_id": "low-poly-fokker-triplane",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "g3-racing-chariot",
-      "title": "Ancient racing chariot",
-      "category": "vehicles/cars",
-      "source": "grab3d",
-      "style": "stylized",
-      "tags": [
-        "ancient",
-        "chariot",
+        "submarine",
+        "underwater",
         "historical"
       ],
-      "upstream_id": "racing-chariot",
+      "upstream_id": "submarine-low-poly",
       "skip_authored_animation": true
     },
     {
-      "id": "g3-tuk-tuk",
-      "title": "Three-wheeled tuk-tuk",
-      "category": "vehicles/cars",
+      "id": "g3-fashion-baseball-cap",
+      "title": "Baseball cap",
+      "category": "apparel/headwear",
       "source": "grab3d",
       "style": "stylized",
       "tags": [
-        "three-wheeler",
-        "road",
-        "passenger"
+        "cap",
+        "modern",
+        "apparel"
       ],
-      "upstream_id": "tuk-tuk",
+      "upstream_id": "baseball-cap",
       "skip_authored_animation": true
     },
     {
-      "id": "g3-mars-rover",
-      "title": "Mars exploration rover",
-      "category": "vehicles/spacecraft",
+      "id": "g3-fashion-beanie",
+      "title": "Knitted pom-pom beanie",
+      "category": "apparel/headwear",
       "source": "grab3d",
       "style": "stylized",
       "tags": [
-        "rover",
-        "space",
-        "exploration"
+        "knit",
+        "winter",
+        "apparel"
       ],
-      "upstream_id": "mars-rover",
+      "upstream_id": "beanie",
       "skip_authored_animation": true
     },
     {
-      "id": "g3-speedboat",
-      "title": "Twin-engine speedboat",
-      "category": "vehicles/watercraft",
+      "id": "g3-fashion-bucket-hat",
+      "title": "Bucket hat",
+      "category": "apparel/headwear",
       "source": "grab3d",
       "style": "stylized",
       "tags": [
-        "motorboat",
-        "watercraft",
-        "recreation"
+        "hat",
+        "modern",
+        "apparel"
       ],
-      "upstream_id": "speedboat",
+      "upstream_id": "bucket-hat",
       "skip_authored_animation": true
     },
     {
-      "id": "g3-unicycle",
-      "title": "Pedal unicycle",
-      "category": "vehicles/bikes",
+      "id": "g3-fashion-chef-hat",
+      "title": "Pleated chef toque",
+      "category": "apparel/headwear",
       "source": "grab3d",
       "style": "stylized",
       "tags": [
-        "unicycle",
-        "pedal",
-        "circus"
+        "chef",
+        "workwear",
+        "apparel"
       ],
-      "upstream_id": "unicycle",
+      "upstream_id": "chef-hat",
       "skip_authored_animation": true
     },
     {
-      "id": "g3-lunar-lander",
-      "title": "Lunar lander",
-      "category": "vehicles/spacecraft",
+      "id": "g3-fashion-fedora",
+      "title": "Felt fedora",
+      "category": "apparel/headwear",
       "source": "grab3d",
       "style": "stylized",
       "tags": [
-        "lander",
-        "space",
-        "historical"
-      ],
-      "upstream_id": "lunar-lander",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "g3-food-truck",
-      "title": "Food service truck",
-      "category": "vehicles/trucks",
-      "source": "grab3d",
-      "style": "stylized",
-      "tags": [
-        "food-truck",
-        "road",
-        "service"
-      ],
-      "upstream_id": "food-truck",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "g3-rocket",
-      "title": "Crewed launch rocket",
-      "category": "vehicles/spacecraft",
-      "source": "grab3d",
-      "style": "stylized",
-      "tags": [
-        "rocket",
-        "space",
-        "launch"
-      ],
-      "upstream_id": "rocket",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "g3-bumper-car",
-      "title": "Fairground bumper car",
-      "category": "vehicles/cars",
-      "source": "grab3d",
-      "style": "stylized",
-      "tags": [
-        "amusement",
-        "electric",
-        "car"
-      ],
-      "upstream_id": "bumper-car",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "g3-travel-trailer",
-      "title": "Travel caravan trailer",
-      "category": "vehicles/trucks",
-      "source": "grab3d",
-      "style": "stylized",
-      "tags": [
-        "trailer",
-        "caravan",
-        "road"
-      ],
-      "upstream_id": "travel-trailer",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "g3-circus-wagon",
-      "title": "Circus ticket wagon",
-      "category": "vehicles/cars",
-      "source": "grab3d",
-      "style": "stylized",
-      "tags": [
-        "circus",
-        "wagon",
-        "historical"
-      ],
-      "upstream_id": "circus-wagon",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "g3-vintage-truck",
-      "title": "1940s-inspired pickup truck",
-      "category": "vehicles/trucks",
-      "source": "grab3d",
-      "style": "stylized",
-      "tags": [
-        "1940s",
+        "hat",
         "vintage",
-        "pickup"
+        "apparel"
       ],
-      "upstream_id": "vintage-truck",
+      "upstream_id": "fedora",
       "skip_authored_animation": true
     },
     {
-      "id": "g3-lowrider",
-      "title": "Classic lowrider coupe",
-      "category": "vehicles/cars/classic",
+      "id": "g3-fashion-graduation-cap",
+      "title": "Graduation mortarboard",
+      "category": "apparel/headwear",
       "source": "grab3d",
       "style": "stylized",
       "tags": [
-        "classic",
-        "lowrider",
-        "custom"
+        "cap",
+        "ceremonial",
+        "apparel"
       ],
-      "upstream_id": "lowrider",
+      "upstream_id": "graduation-cap",
       "skip_authored_animation": true
     },
     {
-      "id": "g3-1990s-pickup",
-      "title": "1990s-inspired pickup truck",
-      "category": "vehicles/trucks",
+      "id": "g3-fashion-straw-hat",
+      "title": "Woven straw sun hat",
+      "category": "apparel/headwear",
       "source": "grab3d",
       "style": "stylized",
       "tags": [
-        "1990s",
-        "pickup",
-        "road"
+        "straw",
+        "sun-hat",
+        "apparel"
       ],
-      "upstream_id": "1990s-pickup-truck",
+      "upstream_id": "straw-hat",
       "skip_authored_animation": true
     },
     {
-      "id": "g3-1980s-hatchback",
-      "title": "1980s-inspired hatchback",
-      "category": "vehicles/cars/classic",
+      "id": "g3-fashion-top-hat",
+      "title": "Formal top hat",
+      "category": "apparel/headwear",
       "source": "grab3d",
       "style": "stylized",
       "tags": [
-        "1980s",
-        "hatchback",
-        "road"
+        "formal",
+        "historical",
+        "apparel"
       ],
-      "upstream_id": "1980s-hatchback",
+      "upstream_id": "top-hat",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-fashion-cowboy-hat",
+      "title": "Western cowboy hat",
+      "category": "apparel/headwear",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "cowboy",
+        "western",
+        "apparel"
+      ],
+      "upstream_id": "cowboy-hat",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-fashion-santa-hat",
+      "title": "Festive Santa hat",
+      "category": "apparel/headwear",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "winter",
+        "costume",
+        "apparel"
+      ],
+      "upstream_id": "santa-hat",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-fashion-jacket",
+      "title": "Denim jacket on hanger",
+      "category": "apparel/tops",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "jacket",
+        "denim",
+        "apparel"
+      ],
+      "upstream_id": "jacket",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-fashion-hoodie",
+      "title": "Hooded sweatshirt on hanger",
+      "category": "apparel/tops",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "hoodie",
+        "casual",
+        "apparel"
+      ],
+      "upstream_id": "hoodie",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-fashion-t-shirt",
+      "title": "T-shirt display set",
+      "category": "apparel/tops",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "t-shirt",
+        "casual",
+        "apparel"
+      ],
+      "upstream_id": "t-shirt",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-fashion-sports-jersey",
+      "title": "Sports jersey on hanger",
+      "category": "apparel/sportswear",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "jersey",
+        "sports",
+        "apparel"
+      ],
+      "upstream_id": "sports-jersey",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-fashion-boxing-gloves",
+      "title": "Boxing gloves",
+      "category": "apparel/sportswear",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "boxing",
+        "gloves",
+        "apparel"
+      ],
+      "upstream_id": "boxing-gloves",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-fashion-bracelet",
+      "title": "Charm bracelet",
+      "category": "apparel/jewelry",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "bracelet",
+        "jewelry",
+        "apparel"
+      ],
+      "upstream_id": "bracelet",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-fashion-earrings",
+      "title": "Gemstone drop earrings",
+      "category": "apparel/jewelry",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "earrings",
+        "jewelry",
+        "apparel"
+      ],
+      "upstream_id": "earrings",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-fashion-necklace",
+      "title": "Pearl necklace",
+      "category": "apparel/jewelry",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "necklace",
+        "pearls",
+        "apparel"
+      ],
+      "upstream_id": "necklace",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-fashion-pendant",
+      "title": "Gemstone pendant necklace",
+      "category": "apparel/jewelry",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "pendant",
+        "jewelry",
+        "apparel"
+      ],
+      "upstream_id": "pendant",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-fashion-tiara",
+      "title": "Gemstone tiara",
+      "category": "apparel/jewelry",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "tiara",
+        "formal",
+        "apparel"
+      ],
+      "upstream_id": "tiara",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-fashion-high-heels",
+      "title": "Bow high-heel pumps",
+      "category": "apparel/footwear",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "heels",
+        "formal",
+        "apparel"
+      ],
+      "upstream_id": "high-heels",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-fashion-hiking-boots",
+      "title": "Laced hiking boots",
+      "category": "apparel/footwear",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "boots",
+        "hiking",
+        "apparel"
+      ],
+      "upstream_id": "hiking-boots",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-fashion-rain-boots",
+      "title": "Rubber rain boots",
+      "category": "apparel/footwear",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "boots",
+        "rain",
+        "apparel"
+      ],
+      "upstream_id": "rain-boots",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-fashion-shoe",
+      "title": "Leather lace-up shoes",
+      "category": "apparel/footwear",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "shoes",
+        "leather",
+        "apparel"
+      ],
+      "upstream_id": "shoe",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-fashion-slippers",
+      "title": "Plush house slippers",
+      "category": "apparel/footwear",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "slippers",
+        "indoor",
+        "apparel"
+      ],
+      "upstream_id": "slippers",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-fashion-sneaker",
+      "title": "Canvas sneakers",
+      "category": "apparel/footwear",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "sneakers",
+        "casual",
+        "apparel"
+      ],
+      "upstream_id": "sneaker",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-fashion-cowboy-boots",
+      "title": "Western cowboy boots",
+      "category": "apparel/footwear",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "boots",
+        "western",
+        "apparel"
+      ],
+      "upstream_id": "cowboy-boots",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-fashion-hair-bow",
+      "title": "Polka-dot hair bow",
+      "category": "apparel/accessories",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "bow",
+        "hair",
+        "apparel"
+      ],
+      "upstream_id": "hair-bow",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-fashion-belt",
+      "title": "Rolled leather belt",
+      "category": "apparel/accessories",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "belt",
+        "leather",
+        "apparel"
+      ],
+      "upstream_id": "belt",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-fashion-scarf",
+      "title": "Striped knit scarf",
+      "category": "apparel/accessories",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "scarf",
+        "winter",
+        "apparel"
+      ],
+      "upstream_id": "scarf",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-fashion-sunglasses",
+      "title": "Tinted sunglasses",
+      "category": "apparel/accessories",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "sunglasses",
+        "eyewear",
+        "apparel"
+      ],
+      "upstream_id": "sunglasses",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-fashion-wristwatch",
+      "title": "Leather-strap wristwatch",
+      "category": "apparel/accessories",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "watch",
+        "accessory",
+        "apparel"
+      ],
+      "upstream_id": "wristwatch",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-fashion-cowboy-spurs",
+      "title": "Western boot spurs",
+      "category": "apparel/accessories",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "spurs",
+        "western",
+        "apparel"
+      ],
+      "upstream_id": "cowboy-spurs",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-fashion-costume-wings",
+      "title": "Feather costume wings",
+      "category": "apparel/costume",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "wings",
+        "costume",
+        "apparel"
+      ],
+      "upstream_id": "costume-wings",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "g3-fashion-chainmail",
+      "title": "Chainmail shirt on hanger",
+      "category": "apparel/historical-armor",
+      "source": "grab3d",
+      "style": "stylized",
+      "tags": [
+        "armor",
+        "medieval",
+        "apparel"
+      ],
+      "upstream_id": "chainmail",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "ph-fishermans-hat",
+      "title": "Fisherman’s hat",
+      "category": "apparel/headwear",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "hat",
+        "realistic",
+        "outdoor"
+      ],
+      "upstream_id": "fishermans_hat",
+      "resolution": "1k",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "ph-garden-gloves",
+      "title": "Garden gloves",
+      "category": "apparel/workwear",
+      "source": "polyhaven",
+      "style": "realistic",
+      "tags": [
+        "gloves",
+        "workwear",
+        "realistic"
+      ],
+      "upstream_id": "garden_gloves_01",
+      "resolution": "1k",
       "skip_authored_animation": true
     }
   ]
