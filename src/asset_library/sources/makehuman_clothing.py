@@ -72,6 +72,14 @@ def descriptor_field(contents: str, key: str, required=True) -> str | None:
     return matches[0] if matches else None
 
 
+def verify_descriptor_license(header: str) -> None:
+    """Fail closed when the packaged garment explicitly names a non-CC0 license."""
+    for line in header.splitlines():
+        match = re.match(r"\s*#\s*license\s+(.+)", line, re.IGNORECASE)
+        if match and not re.match(r"CC0(?:\b|[- ])", match.group(1), re.IGNORECASE):
+            raise ValueError("Garment descriptor conflicts with the CC0 pack index")
+
+
 def local_dependency(folder: Path, name: str) -> Path:
     path = destination(folder, safe_relative_path(name))
     if not path.is_file():
@@ -99,6 +107,7 @@ def fetch_makehuman_clothing(source: dict, candidate: dict, directory: Path) -> 
     mhclo = descriptor.read_text(encoding="utf-8")
     # Mapping records can be enormous; fields occur before the verts section.
     header = mhclo.split("\nverts", 1)[0]
+    verify_descriptor_license(header)
     obj = local_dependency(folder, descriptor_field(header, "obj_file"))
     mat = local_dependency(folder, descriptor_field(header, "material"))
     material = mat.read_text(encoding="utf-8")

@@ -2,7 +2,7 @@
 
 Checked on 2026-11-04. Scope: approved assets under assets/ only.
 
-**489 of 489 approved assets pass every check.**
+**504 of 504 approved assets pass every check.**
 
 Every approved asset is dedicated to the public domain under CC0 1.0. For each one
 that means: no cost, no attribution, commercial use allowed, use and redistribution
@@ -26,7 +26,14 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Tinted sunglasses](../assets/apparel/accessories/g3-fashion-sunglasses/README.md) | `apparel/accessories` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Leather-strap wristwatch](../assets/apparel/accessories/g3-fashion-wristwatch/README.md) | `apparel/accessories` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Round Spectacles](../assets/apparel/accessories/ph-round-spectacles/README.md) | `apparel/accessories` | Sean Buckley (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Harem trousers](../assets/apparel/bottoms/mh-toigo-harem-pants/README.md) | `apparel/bottoms` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Feather costume wings](../assets/apparel/costume/g3-fashion-costume-wings/README.md) | `apparel/costume` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Flapper-style dress](../assets/apparel/dresses/mh-aethelraed-flapper-dress/README.md) | `apparel/dresses` | Aethelraed_Unraed (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Bodice dress with lace ruffle skirt](../assets/apparel/dresses/mh-toigo-bodice-dress-with-lace-ruffle-skirt/README.md) | `apparel/dresses` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Camisole dress with full skirt](../assets/apparel/dresses/mh-toigo-camisole-dress-with-full-skirt/README.md) | `apparel/dresses` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Tiered skirt dress](../assets/apparel/dresses/mh-toigo-dress-with-tiered-skirt/README.md) | `apparel/dresses` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Halter dress with fluted skirt](../assets/apparel/dresses/mh-toigo-halter-dress-with-fluted-skirt/README.md) | `apparel/dresses` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Shift dress](../assets/apparel/dresses/mh-toigo-shift-dress/README.md) | `apparel/dresses` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Western cowboy boots](../assets/apparel/footwear/g3-fashion-cowboy-boots/README.md) | `apparel/footwear` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Bow high-heel pumps](../assets/apparel/footwear/g3-fashion-high-heels/README.md) | `apparel/footwear` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Laced hiking boots](../assets/apparel/footwear/g3-fashion-hiking-boots/README.md) | `apparel/footwear` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -51,10 +58,18 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Pearl necklace](../assets/apparel/jewelry/g3-fashion-necklace/README.md) | `apparel/jewelry` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Gemstone pendant necklace](../assets/apparel/jewelry/g3-fashion-pendant/README.md) | `apparel/jewelry` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Gemstone tiara](../assets/apparel/jewelry/g3-fashion-tiara/README.md) | `apparel/jewelry` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Double-breasted pinstripe suit](../assets/apparel/outfits/mh-toigo-male-double-breasted-suit/README.md) | `apparel/outfits` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Formal suit with red tie](../assets/apparel/outfits/mh-toigo-male-suit-3/README.md) | `apparel/outfits` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Dinner jacket suit](../assets/apparel/outfits/mh-toigo-suit-with-dinner-jacket/README.md) | `apparel/outfits` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Bow tie suit](../assets/apparel/outfits/mh-toigo-suit-with-jacket-and-bowtie/README.md) | `apparel/outfits` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Long full skirt](../assets/apparel/skirts/mh-toigo-long-full-skirt/README.md) | `apparel/skirts` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Lace ruffle skirt](../assets/apparel/skirts/mh-toigo-skirt-with-lace-ruffle/README.md) | `apparel/skirts` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Boxing gloves](../assets/apparel/sportswear/g3-fashion-boxing-gloves/README.md) | `apparel/sportswear` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Sports jersey on hanger](../assets/apparel/sportswear/g3-fashion-sports-jersey/README.md) | `apparel/sportswear` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Hooded sweatshirt on hanger](../assets/apparel/tops/g3-fashion-hoodie/README.md) | `apparel/tops` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Denim jacket on hanger](../assets/apparel/tops/g3-fashion-jacket/README.md) | `apparel/tops` | Grab3D (grab3d) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Camisole top](../assets/apparel/tops/mh-toigo-camisole-top/README.md) | `apparel/tops` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
+| [Fisherman knit sweater](../assets/apparel/tops/mh-toigo-fisherman-sweater/README.md) | `apparel/tops` | MargaretToigo (makehuman-clothing) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Garden gloves](../assets/apparel/workwear/ph-garden-gloves/README.md) | `apparel/workwear` | Satyaki Mandal (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Medieval arched double castle door](../assets/architecture/doors/ph-castle-door/README.md) | `architecture/doors` | Tina (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
 | [Modular chainlink fence](../assets/architecture/fences/ph-chainlink-fence/README.md) | `architecture/fences` | James Ray Cock, Amal Kumar (polyhaven) | CC0-1.0 | Yes | Not required | Yes | Yes | Yes |
@@ -556,6 +571,18 @@ standalone. "Display" means showing the model and our own renders publicly.
 - Kenney reserves its studio logo for official projects. The logo is not part of any asset here and must not be used to imply endorsement.
 - Files come from a pinned third-party mirror that converts Kenney's packs to GLB. That mirror's license explicitly releases its conversions, embedded textures and thumbnails under CC0 as well. Kenney remains the original creator and is recorded as such.
 
+### MakeHuman Community clothing packs — `makehuman-clothing`
+
+15 approved assets. Status: **verified**.
+
+- Terms: <https://static.makehumancommunity.org/assets/assetpacks.html>
+- Pinned evidence: <https://static.makehumancommunity.org/assets/assetpacks.html>
+- Reselling the files themselves: CC0 places no copyright restriction on redistribution or sale.
+
+- The MakeHuman asset pack index separates CC0 packs from CC-BY packs; only individually indexed CC0 garments are eligible.
+- A descriptor explicitly naming a non-CC0 license conflicts with the index and is rejected pending clarification.
+- The OBJ converter recreates diffuse and declared normal textures; other legacy shader maps and rigging are not reproduced.
+
 ### ModKit by Jaron Bragg — `modkit-industrial`
 
 14 approved assets. Status: **verified**.
@@ -916,6 +943,21 @@ standalone. "Display" means showing the model and our own renders publicly.
 | [Kenney sports hatchback](../assets/vehicles/cars/kenney-sports-hatchback/README.md) | Third-party GLB conversion of a Kenney pack; conversion and embedded textures are also CC0. |
 | [Kenney sports sedan](../assets/vehicles/cars/kenney-sports-sedan/README.md) | Third-party GLB conversion of a Kenney pack; conversion and embedded textures are also CC0. |
 | [Kenney sprinkled donut](../assets/food/snacks/kenney-sprinkled-donut/README.md) | Third-party GLB conversion of a Kenney pack; conversion and embedded textures are also CC0. |
+| [Flapper-style dress](../assets/apparel/dresses/mh-aethelraed-flapper-dress/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
+| [Bodice dress with lace ruffle skirt](../assets/apparel/dresses/mh-toigo-bodice-dress-with-lace-ruffle-skirt/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
+| [Camisole dress with full skirt](../assets/apparel/dresses/mh-toigo-camisole-dress-with-full-skirt/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
+| [Camisole top](../assets/apparel/tops/mh-toigo-camisole-top/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
+| [Tiered skirt dress](../assets/apparel/dresses/mh-toigo-dress-with-tiered-skirt/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
+| [Fisherman knit sweater](../assets/apparel/tops/mh-toigo-fisherman-sweater/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
+| [Halter dress with fluted skirt](../assets/apparel/dresses/mh-toigo-halter-dress-with-fluted-skirt/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
+| [Harem trousers](../assets/apparel/bottoms/mh-toigo-harem-pants/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
+| [Long full skirt](../assets/apparel/skirts/mh-toigo-long-full-skirt/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
+| [Double-breasted pinstripe suit](../assets/apparel/outfits/mh-toigo-male-double-breasted-suit/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
+| [Formal suit with red tie](../assets/apparel/outfits/mh-toigo-male-suit-3/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
+| [Shift dress](../assets/apparel/dresses/mh-toigo-shift-dress/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
+| [Lace ruffle skirt](../assets/apparel/skirts/mh-toigo-skirt-with-lace-ruffle/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
+| [Dinner jacket suit](../assets/apparel/outfits/mh-toigo-suit-with-dinner-jacket/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
+| [Bow tie suit](../assets/apparel/outfits/mh-toigo-suit-with-jacket-and-bowtie/README.md) | Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset. |
 | [Industrial barrel](../assets/industrial/containers/modkit-barrel/README.md) | Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR. |
 | [Industrial ceiling 4m](../assets/buildings/modular/industrial/modkit-ceiling-4m/README.md) | Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR. |
 | [Industrial crate large](../assets/industrial/containers/modkit-crate-large/README.md) | Procedural industrial kit; materials are untextured and should not be presented as photorealistic PBR. |
@@ -939,19 +981,19 @@ Every check below is machine-verified by `python -m asset_library license-audit`
 
 | Check | Passing |
 | --- | --- |
-| `cc0_spdx` | 489/489 |
-| `cc0_text_present` | 489/489 |
-| `commercial_use_allowed` | 489/489 |
-| `evidence_recorded` | 489/489 |
-| `free_of_charge` | 489/489 |
-| `license_file_checksummed` | 489/489 |
-| `no_attribution_required` | 489/489 |
-| `no_trademark_warning` | 489/489 |
-| `redistribution_allowed` | 489/489 |
-| `source_terms_verified` | 489/489 |
-| `standalone_resale_permitted` | 489/489 |
-| `textures_included` | 489/489 |
-| `visually_approved` | 489/489 |
+| `cc0_spdx` | 504/504 |
+| `cc0_text_present` | 504/504 |
+| `commercial_use_allowed` | 504/504 |
+| `evidence_recorded` | 504/504 |
+| `free_of_charge` | 504/504 |
+| `license_file_checksummed` | 504/504 |
+| `no_attribution_required` | 504/504 |
+| `no_trademark_warning` | 504/504 |
+| `redistribution_allowed` | 504/504 |
+| `source_terms_verified` | 504/504 |
+| `standalone_resale_permitted` | 504/504 |
+| `textures_included` | 504/504 |
+| `visually_approved` | 504/504 |
 
 ## Evidence per asset
 
@@ -1271,6 +1313,21 @@ Each row links to the license file stored beside the model and to the exact
 | kenney-sports-hatchback | [LICENSE.txt](../assets/vehicles/cars/kenney-sports-hatchback/LICENSE.txt) | `6913dd72bdc2` | [source](https://github.com/Hidencod/tge-assets/blob/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/car-kit/hatchback-sports.glb) | [evidence](https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE) |
 | kenney-sports-sedan | [LICENSE.txt](../assets/vehicles/cars/kenney-sports-sedan/LICENSE.txt) | `6913dd72bdc2` | [source](https://github.com/Hidencod/tge-assets/blob/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/car-kit/sedan-sports.glb) | [evidence](https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE) |
 | kenney-sprinkled-donut | [LICENSE.txt](../assets/food/snacks/kenney-sprinkled-donut/LICENSE.txt) | `6913dd72bdc2` | [source](https://github.com/Hidencod/tge-assets/blob/d92c6e923bbef8649d4e5be3ab375a40f88672b0/packs/food-kit/donut-sprinkles.glb) | [evidence](https://raw.githubusercontent.com/Hidencod/tge-assets/d92c6e923bbef8649d4e5be3ab375a40f88672b0/LICENSE) |
+| mh-aethelraed-flapper-dress | [LICENSE.txt](../assets/apparel/dresses/mh-aethelraed-flapper-dress/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/dress01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/dress01.html) |
+| mh-toigo-bodice-dress-with-lace-ruffle-skirt | [LICENSE.txt](../assets/apparel/dresses/mh-toigo-bodice-dress-with-lace-ruffle-skirt/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/dress01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/dress01.html) |
+| mh-toigo-camisole-dress-with-full-skirt | [LICENSE.txt](../assets/apparel/dresses/mh-toigo-camisole-dress-with-full-skirt/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/dress01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/dress01.html) |
+| mh-toigo-camisole-top | [LICENSE.txt](../assets/apparel/tops/mh-toigo-camisole-top/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/shirts01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/shirts01.html) |
+| mh-toigo-dress-with-tiered-skirt | [LICENSE.txt](../assets/apparel/dresses/mh-toigo-dress-with-tiered-skirt/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/dress01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/dress01.html) |
+| mh-toigo-fisherman-sweater | [LICENSE.txt](../assets/apparel/tops/mh-toigo-fisherman-sweater/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/shirts01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/shirts01.html) |
+| mh-toigo-halter-dress-with-fluted-skirt | [LICENSE.txt](../assets/apparel/dresses/mh-toigo-halter-dress-with-fluted-skirt/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/dress01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/dress01.html) |
+| mh-toigo-harem-pants | [LICENSE.txt](../assets/apparel/bottoms/mh-toigo-harem-pants/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/pants01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/pants01.html) |
+| mh-toigo-long-full-skirt | [LICENSE.txt](../assets/apparel/skirts/mh-toigo-long-full-skirt/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/skirts01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/skirts01.html) |
+| mh-toigo-male-double-breasted-suit | [LICENSE.txt](../assets/apparel/outfits/mh-toigo-male-double-breasted-suit/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/suits01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/suits01.html) |
+| mh-toigo-male-suit-3 | [LICENSE.txt](../assets/apparel/outfits/mh-toigo-male-suit-3/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/suits01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/suits01.html) |
+| mh-toigo-shift-dress | [LICENSE.txt](../assets/apparel/dresses/mh-toigo-shift-dress/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/dress01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/dress01.html) |
+| mh-toigo-skirt-with-lace-ruffle | [LICENSE.txt](../assets/apparel/skirts/mh-toigo-skirt-with-lace-ruffle/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/skirts01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/skirts01.html) |
+| mh-toigo-suit-with-dinner-jacket | [LICENSE.txt](../assets/apparel/outfits/mh-toigo-suit-with-dinner-jacket/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/suits01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/suits01.html) |
+| mh-toigo-suit-with-jacket-and-bowtie | [LICENSE.txt](../assets/apparel/outfits/mh-toigo-suit-with-jacket-and-bowtie/LICENSE.txt) | `a2010f343487` | [source](https://static.makehumancommunity.org/assets/assetpacks/suits01.html) | [evidence](https://static.makehumancommunity.org/assets/assetpacks/suits01.html) |
 | modkit-barrel | [LICENSE.txt](../assets/industrial/containers/modkit-barrel/LICENSE.txt) | `645290fbe623` | [source](https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Barrel.glb) | [evidence](https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE) |
 | modkit-ceiling-4m | [LICENSE.txt](../assets/buildings/modular/industrial/modkit-ceiling-4m/LICENSE.txt) | `645290fbe623` | [source](https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Ceiling_4m.glb) | [evidence](https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE) |
 | modkit-crate-large | [LICENSE.txt](../assets/industrial/containers/modkit-crate-large/LICENSE.txt) | `645290fbe623` | [source](https://github.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/blob/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/exports/GLTF/SM_Crate_Large.glb) | [evidence](https://raw.githubusercontent.com/JaronKBragg7337/asset-pack-ue-threejs-blender-unity/f5a53eaadbb46fac8e29faabb6c0ac1b6c6d2311/LICENSE) |

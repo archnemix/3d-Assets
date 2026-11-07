@@ -1,0 +1,24 @@
+{
+  "id": "mh-wdg-mycenaean-tunic",
+  "decision": "rejected",
+  "scores": {
+    "silhouette": 3,
+    "materials": 3,
+    "topology": 2,
+    "completeness": 4,
+    "style_fit": 3
+  },
+  "notes": "Coarse faceted geometry, near-white appearance and an unsupported image feature warning make this unsuitable.",
+  "limitations": [
+    "Standalone static OBJ conversion; no rig, skin weights or automatic fitting are provided, and compatibility with any body shape has not been verified.",
+    "Diffuse texture and declared normal map (when present) are preserved; legacy specular, bump and other shader parameters are not reproduced.",
+    "Khronos validation has zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading can vary by renderer."
+  ],
+  "contact_sheet_sha256": "cc4e0ef2f07eefeb170de38c2db3f2f7a1078b5497908bfce4426bf5683a36cf",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports",
+  "status": "rejected",
+  "approved": false
+}

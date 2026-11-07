@@ -7,6 +7,7 @@ import pytest
 from asset_library.sources.makehuman_clothing import (
     descriptor_field,
     local_dependency,
+    verify_descriptor_license,
     verify_index,
 )
 
@@ -39,3 +40,10 @@ def test_dependency_refuses_escape_and_missing(tmp_path: Path):
     for name in ("../evil.png", "/etc/passwd", "https://evil/texture.png", "missing.png"):
         with pytest.raises(ValueError):
             local_dependency(tmp_path, name)
+
+
+def test_descriptor_conflicting_license_fails_closed():
+    verify_descriptor_license("# author MRT\n# license CC0\n")
+    verify_descriptor_license("# Cortu Johnstone - CC0\n")
+    with pytest.raises(ValueError, match="conflicts"):
+        verify_descriptor_license("# license AGPL3 (tool link)\n")

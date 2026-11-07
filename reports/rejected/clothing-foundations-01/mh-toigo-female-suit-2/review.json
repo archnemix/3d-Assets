@@ -1,0 +1,24 @@
+{
+  "id": "mh-toigo-female-suit-2",
+  "decision": "rejected",
+  "scores": {
+    "silhouette": 3,
+    "materials": 3,
+    "topology": 2,
+    "completeness": 4,
+    "style_fit": 3
+  },
+  "notes": "Looks too similar in cut to the formal suit already selected; initial skirt label was also incorrect because this has trousers.",
+  "limitations": [
+    "Standalone static OBJ conversion; no rig, skin weights or automatic fitting are provided, and compatibility with any body shape has not been verified.",
+    "Diffuse texture and declared normal map (when present) are preserved; legacy specular, bump and other shader parameters are not reproduced.",
+    "Khronos validation has zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading can vary by renderer."
+  ],
+  "contact_sheet_sha256": "ba315eb40dc47a5ac541b30b6b8e6ac00f2c6e6fa10a876b0810f8b3886ba341",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports",
+  "status": "rejected",
+  "approved": false
+}

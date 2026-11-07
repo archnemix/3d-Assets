@@ -53,3 +53,32 @@ def test_truncated_glb_is_rejected(tmp_path):
     model.write_bytes(glb({"buffers": [{"byteLength": 100}]}, b"short")[:40])
     with pytest.raises(ValueError):
         read_model(model)
+
+
+def test_compact_embedded_texture_keeps_lossless_index_and_hash(tmp_path):
+    import hashlib
+
+    from asset_library.gltf import compact_embedded_textures, embedded_image_bytes
+    from asset_library.licensing import texture_files_present
+
+    payload = image_bytes(tmp_path)
+    doc = {
+        "asset": {"version": "2.0"},
+        "meshes": [{}],
+        "buffers": [{"byteLength": len(payload)}],
+        "bufferViews": [{"buffer": 0, "byteLength": len(payload)}],
+        "images": [{"name": "fabric", "mimeType": "image/png", "bufferView": 0}],
+    }
+    model = tmp_path / "model.glb"
+    model.write_bytes(glb(doc, payload))
+    manifest = {"model": "model.glb", "textures": extract_textures(model, tmp_path / "textures")}
+    compact_embedded_textures(tmp_path, manifest)
+    record = manifest["textures"][0]
+    assert record["path"] == "model.glb"
+    assert record["embedded_image_index"] == 0
+    assert record["embedded_sha256"] == hashlib.sha256(payload).hexdigest()
+    assert not (tmp_path / "textures" / "fabric.png").exists()
+    assert embedded_image_bytes(model, 0) == payload
+    assert texture_files_present(tmp_path, manifest)
+    record["embedded_sha256"] = "bad"
+    assert not texture_files_present(tmp_path, manifest)

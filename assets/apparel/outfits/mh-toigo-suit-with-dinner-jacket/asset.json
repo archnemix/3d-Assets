@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "id": "mh-toigo-suit-with-dinner-jacket",
+  "title": "Dinner jacket suit",
+  "category": "apparel/outfits",
+  "style": "realistic",
+  "tags": [
+    "clothing",
+    "formal"
+  ],
+  "batch": "clothing-foundations-01",
+  "acquired_at": "2026-11-07T09:26:18.001682+00:00",
+  "review": {
+    "id": "mh-toigo-suit-with-dinner-jacket",
+    "decision": "approved",
+    "scores": {
+      "silhouette": 5,
+      "materials": 5,
+      "topology": 4,
+      "completeness": 5,
+      "style_fit": 5
+    },
+    "notes": "Reviewed all twelve views. White dinner jacket, contrasting trousers, lapels and bow tie.",
+    "limitations": [
+      "Standalone static OBJ conversion; no rig, skin weights or automatic fitting are provided, and compatibility with any body shape has not been verified.",
+      "Diffuse texture and declared normal map (when present) are preserved; legacy specular, bump and other shader parameters are not reproduced.",
+      "Khronos validation has zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading can vary by renderer.",
+      "Textured game-asset geometry, not photorealistic; some surfaces show visible faceting."
+    ],
+    "contact_sheet_sha256": "7554649ea03e1739cbdd96f99c2434899c19142c185a29f2014382c1e7baf252",
+    "reviewer": "Arena agent",
+    "reviewed_at": "2026-11-07",
+    "views_inspected": 12,
+    "method": "Visual inspection of local-model renders and technical reports",
+    "status": "approved",
+    "approved": true
+  },
+  "skip_authored_animation": true,
+  "source": {
+    "provider": "makehuman-clothing",
+    "model": "model/garment.glb",
+    "creator": "MargaretToigo",
+    "license": "CC0-1.0",
+    "license_evidence": "https://static.makehumancommunity.org/assets/assetpacks/suits01.html",
+    "source_url": "https://static.makehumancommunity.org/assets/assetpacks/suits01.html",
+    "source_id": "toigo_suit_with_dinner_jacket",
+    "revision": "2b1d8676f3863b188e9eea98c1d8f234543d54c440e791d92b819f8ee1861f19",
+    "downloads": [
+      {
+        "url": "https://files2.makehumancommunity.org/asset_packs/suits01/suits01_cc0.zip",
+        "bytes": 42624017,
+        "sha256": "2b1d8676f3863b188e9eea98c1d8f234543d54c440e791d92b819f8ee1861f19"
+      }
+    ]
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "attribution_required": false,
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "evidence": "https://static.makehumancommunity.org/assets/assetpacks/suits01.html"
+  },
+  "model": "model/garment.glb",
+  "gltf": {
+    "format": "glb",
+    "meshes": 1,
+    "materials": 1,
+    "images": 2,
+    "skins": 0,
+    "animations": [],
+    "extensions": [],
+    "missing_dependencies": []
+  },
+  "textures": [
+    {
+      "path": "model/garment.glb",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "SuitDinnerJacket-norm",
+      "embedded_image_index": 0,
+      "embedded_sha256": "c8e5628ac38c45e92afc9ee6f2df384219a7298bcbde7995132a954b98b929d7"
+    },
+    {
+      "path": "model/garment.glb",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "embedded_in_glb": true,
+      "linked_sidecar": false,
+      "name": "SuitDinnerJacket",
+      "embedded_image_index": 1,
+      "embedded_sha256": "83d78368f20b5a5dda93ec1828f8ba70af3acda30b0b2b6a682126e276a0af4f"
+    }
+  ],
+  "geometry": {
+    "blender_version": "4.2.9 LTS",
+    "mesh_objects": 1,
+    "hidden_mesh_objects": 0,
+    "vertices": 30600,
+    "triangles": 15300,
+    "material_slots": 1,
+    "meshes_without_uv": 0,
+    "zero_area_triangles": 0,
+    "unweighted_skinned_vertices": 0,
+    "armatures": [],
+    "actions": [],
+    "images": [
+      {
+        "name": "SuitDinnerJacket",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      },
+      {
+        "name": "SuitDinnerJacket-norm",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": ""
+      }
+    ],
+    "finite_mesh_coordinates": true
+  },
+  "validation": {
+    "gltf_errors": 0,
+    "gltf_warnings": 1,
+    "blender_import": "passed",
+    "inspection_views": 12
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "role": "license"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1788,
+      "sha256": "e7ae52e7ecb6311a34e46c34776ef1cece9b7727da49626e3c8767428cfb4151",
+      "role": "documentation"
+    },
+    {
+      "path": "logs/blender.log",
+      "bytes": 66372,
+      "sha256": "91162d09b7883744ee8e17e1d1783158d02c29cddcef9af7fe750c31edcb4a58",
+      "role": "logs"
+    },
+    {
+      "path": "logs/convert.log",
+      "bytes": 444,
+      "sha256": "5eed7e5aca6ddc6343a5f644ec79191391c4ebc5fce5c112a65f3d3003be846b",
+      "role": "logs"
+    },
+    {
+      "path": "logs/validator.log",
+      "bytes": 30,
+      "sha256": "520a7330d5aaf198619caa1563de82d7f0700df91939910793d2a78e05189b16",
+      "role": "logs"
+    },
+    {
+      "path": "model/garment.glb",
+      "bytes": 11038372,
+      "sha256": "225e298d0e519424377f7ced782a275cdf69c9c487f95db1575e668c6c70178b",
+      "role": "model"
+    },
+    {
+      "path": "previews/bottom.jpg",
+      "bytes": 20291,
+      "sha256": "834941c6ee4ee2789edc10778ae6634a289b1f97057606983677834e481f53fc",
+      "role": "previews"
+    },
+    {
+      "path": "previews/clay.jpg",
+      "bytes": 18255,
+      "sha256": "4a37fd56514353c67bbbafe947fe790bb4e0d4d529ff03050290e1973323fa1c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/contact-sheet.jpg",
+      "bytes": 162517,
+      "sha256": "7554649ea03e1739cbdd96f99c2434899c19142c185a29f2014382c1e7baf252",
+      "role": "previews"
+    },
+    {
+      "path": "previews/geometry.json",
+      "bytes": 632,
+      "sha256": "c9904ebb2b9abbeb2776d2318cdc4ac38de6cbd0db2be4ddfd06f5a714b35b12",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-00.jpg",
+      "bytes": 24705,
+      "sha256": "6533dbd98c11d13b744c2ae2fa06d3b9bbe1c093aa1091920a11b17eb0215e1c",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-01.jpg",
+      "bytes": 22252,
+      "sha256": "76a08edd400dae814a68b71157d223bf8e7281240b0811a58ea31fe18115d800",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-02.jpg",
+      "bytes": 15947,
+      "sha256": "799e9a75989b66a2a9598a14a84fccb9a2f09892f45a14e99c7211050b23f230",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-03.jpg",
+      "bytes": 20018,
+      "sha256": "045eb6b4a49dbfabe44890eb865382172717ebccdffad1f028f4fca6f60201be",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-04.jpg",
+      "bytes": 21836,
+      "sha256": "95f6ea2f25a36771d9e0f9800def0f426721fc83456c1327117dc58669b7f9cd",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-05.jpg",
+      "bytes": 20219,
+      "sha256": "c9c0f0a631c4d53aff8b3f6325b162f69e403f0a365db84c119b3bdad374ce95",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-06.jpg",
+      "bytes": 16499,
+      "sha256": "baf54f135d8c77df7b6a8467671c885bfd6c7fe8c26897727dc4f89148869b2b",
+      "role": "previews"
+    },
+    {
+      "path": "previews/orbit-07.jpg",
+      "bytes": 22517,
+      "sha256": "2327169d8a57173d7dec3bc1ab7adfef408e1bf170543c433754fadc114ef8ea",
+      "role": "previews"
+    },
+    {
+      "path": "previews/top.jpg",
+      "bytes": 18706,
+      "sha256": "0a385e0fd3554545f87ccc0f5f9f579e99123d218c0d3b2da1bcc8406e3cb509",
+      "role": "previews"
+    },
+    {
+      "path": "previews/views.json",
+      "bytes": 499,
+      "sha256": "97f5865aa4b2ba68cc126ca63389daa728ff970baada618548b7c1c9f707cf8a",
+      "role": "previews"
+    },
+    {
+      "path": "previews/wireframe.jpg",
+      "bytes": 38892,
+      "sha256": "2064ba7b5c0746e68d9b9eb798ef68b15731f182b80ae7f0d7d0e00150b4ed33",
+      "role": "previews"
+    },
+    {
+      "path": "provenance/clothing-source.json",
+      "bytes": 1168,
+      "sha256": "65e909b91f74376fa6bb6b0e41e006e6229ab81da2a0184fdd9d4a94dd61e893",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/gltf-validator.json",
+      "bytes": 1809,
+      "sha256": "5a76b9701783338bd8243b070b961403348516a764c3df3c3f5db1c51c6fcdcf",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source.mhclo",
+      "bytes": 547155,
+      "sha256": "ef83aa8df98402e5523d67c1557dcaa301e2dc8d168f77cfd6561f3e22a53d00",
+      "role": "provenance"
+    },
+    {
+      "path": "provenance/source.mhmat",
+      "bytes": 582,
+      "sha256": "775e98eaae91e5d5fa5a334fa67910f49c0b61ef104574b2229a7d47035965ea",
+      "role": "provenance"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1110,
+      "sha256": "6e71a95e3ec60c4821ddf3fc6b7f4ed80c2e2f1117986419c82968d0cd61796b",
+      "role": "documentation"
+    }
+  ]
+}

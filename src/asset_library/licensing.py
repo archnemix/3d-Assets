@@ -4,12 +4,14 @@ The license question is answered per asset, from files on disk plus the pinned
 evidence recorded at acquisition time. A provider label alone is never enough.
 """
 
+import hashlib
 from collections import Counter
 
 from jsonschema import FormatChecker, validate
 
 from .config import ROOT, read_json
 from .files import sha256, write_json
+from .gltf import embedded_image_bytes
 from .license_report import render
 
 CC0_MARKERS = ("cc0", "creativecommons.org/publicdomain/zero", "public domain")
@@ -30,7 +32,18 @@ def license_text(directory) -> str:
 
 
 def texture_files_present(directory, manifest: dict) -> bool:
-    return all((directory / texture["path"]).is_file() for texture in manifest["textures"])
+    for texture in manifest["textures"]:
+        path = directory / texture["path"]
+        if not path.is_file():
+            return False
+        if "embedded_image_index" in texture:
+            try:
+                data = embedded_image_bytes(path, texture["embedded_image_index"])
+            except (ValueError, KeyError, IndexError, TypeError):
+                return False
+            if hashlib.sha256(data).hexdigest() != texture.get("embedded_sha256"):
+                return False
+    return True
 
 
 def trademark_flag(directory) -> bool:

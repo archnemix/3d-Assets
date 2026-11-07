@@ -1,0 +1,22 @@
+{
+  "id": "mh-toigo-fisherman-sweater",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed all twelve views. Long-sleeve ribbed knit sweater with clear neck and sleeve openings.",
+  "limitations": [
+    "Standalone static OBJ conversion; no rig, skin weights or automatic fitting are provided, and compatibility with any body shape has not been verified.",
+    "Diffuse texture and declared normal map (when present) are preserved; legacy specular, bump and other shader parameters are not reproduced.",
+    "Textured game-asset geometry, not photorealistic; some surfaces show visible faceting."
+  ],
+  "contact_sheet_sha256": "247cdc9dda9313842ee3fdc7189da300fadbcfe8d63136f5f69c59a8c93276b9",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

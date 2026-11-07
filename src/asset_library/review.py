@@ -47,8 +47,10 @@ These are inspection renders, not a guarantee of identical shading in every engi
 {chr(10).join("- " + note for note in manifest["review"]["limitations"]) or "- No additional limitations recorded."}
 
 Texture handling is recorded per image in `asset.json`. GLB files retain embedded
-textures; sidecar copies are byte-for-byte extracts for inspection and DCC workflows,
-not additional dependencies. External glTF maps remain at their referenced paths.
+textures; where present, sidecar copies are byte-for-byte extracts for inspection and
+DCC workflows, not additional dependencies. Embedded-only image records identify the
+GLB and image index; extract them losslessly for DCC workflows when needed. External
+glTF maps remain at their referenced paths.
 If `textures` is empty, the source uses flat-color or vertex-color materials rather
 than image maps; no texture files were omitted.
 """

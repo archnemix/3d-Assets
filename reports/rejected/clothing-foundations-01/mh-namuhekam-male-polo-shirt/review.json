@@ -1,0 +1,23 @@
+{
+  "id": "mh-namuhekam-male-polo-shirt",
+  "decision": "rejected",
+  "scores": {
+    "silhouette": 3,
+    "materials": 3,
+    "topology": 2,
+    "completeness": 4,
+    "style_fit": 3
+  },
+  "notes": "Pale almost monochrome material and obvious faceted shading are below the requested quality bar.",
+  "limitations": [
+    "Standalone static OBJ conversion; no rig, skin weights or automatic fitting are provided, and compatibility with any body shape has not been verified.",
+    "Diffuse texture and declared normal map (when present) are preserved; legacy specular, bump and other shader parameters are not reproduced."
+  ],
+  "contact_sheet_sha256": "5294ce9503e6bcea3710e02efd0fd503eab588156ff06cf3752e0c47db471cea",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports",
+  "status": "rejected",
+  "approved": false
+}

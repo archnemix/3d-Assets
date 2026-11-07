@@ -365,7 +365,7 @@
       ],
       "caveats": [
         "The MakeHuman asset pack index separates CC0 packs from CC-BY packs; only individually indexed CC0 garments are eligible.",
-        "Legacy MakeClothes boilerplate in some descriptors names the tool license; the official individually listed pack license and creator are verified per garment.",
+        "A descriptor explicitly naming a non-CC0 license conflicts with the index and is rejected pending clarification.",
         "The OBJ converter recreates diffuse and declared normal textures; other legacy shader maps and rigging are not reproduced."
       ]
     }

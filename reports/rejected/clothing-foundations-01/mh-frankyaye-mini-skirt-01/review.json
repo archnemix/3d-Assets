@@ -1,0 +1,23 @@
+{
+  "id": "mh-frankyaye-mini-skirt-01",
+  "decision": "rejected",
+  "scores": {
+    "silhouette": 3,
+    "materials": 3,
+    "topology": 2,
+    "completeness": 4,
+    "style_fit": 3
+  },
+  "notes": "Very short coarse polygonal skirt geometry appears visibly faceted despite the patterned texture.",
+  "limitations": [
+    "Standalone static OBJ conversion; no rig, skin weights or automatic fitting are provided, and compatibility with any body shape has not been verified.",
+    "Diffuse texture and declared normal map (when present) are preserved; legacy specular, bump and other shader parameters are not reproduced."
+  ],
+  "contact_sheet_sha256": "ef33f9d35c918ab397245435e0ead45c372ac6e3253aab8ff1ee85b0c18bf0d9",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports",
+  "status": "rejected",
+  "approved": false
+}

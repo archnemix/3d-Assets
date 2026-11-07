@@ -18,3 +18,8 @@ Potential next step: implement a dedicated pinned pack garment adapter and safe 
 - [Cloth library](https://blendswap.com/blend/19332) is marked CC0 and contains various garments. Acquisition, licenses for bundled materials, separation and modern Blender conversion remain unverified.
 - Meshy search pages claim CC0 for pre-made gallery models, but search results also show identifiable IP and generative content; direct individual licenses, access, origin and trademark/IP concerns remain unverified. No Meshy assets are approved on this basis.
 - [Sketchfab clothing kit](https://sketchfab.com/3d-models/clothing-and-character-kit-10-fbx-cc0-77da31c1350343f9ae2f9ef4cb228b8a) has a CC0 claim in its description but a CC Attribution license field. Do not assume CC0 without resolving the conflict.
+
+## Additional leads and exclusions after standalone garment review
+
+- [OverScore Proxy](https://opengameart.org/content/overscore-proxy-modular-low-poly-female-character-creation-set) lists 50 tops, 30 legwear and 20 full-body outfits, including occupational silhouettes, under CC0. Its author explicitly says the models have **no UVs and are untextured**; do not count these toward the textured clothing goal without substantive, appropriately licensed material work and quality review.
+- Two potential lehenga models, [Indian Wedding Lehenga Choli](https://sketchfab.com/3d-models/indian-wedding-lehenga-choli-3385430bad2c465691028474136bd6b7) and [India – Lehenga or Saree](https://sketchfab.com/3d-models/india-lehenga-or-saree-wedding-dress-f3aeec252e2d4f32894ac1454cda4280), are labeled CC Attribution, **not CC0**; they have not been acquired and cannot pass this catalog's CC0 gate as listed. No genuine lehenga has yet been approved.

@@ -15,13 +15,14 @@
     "author_request_blocks_intake": true
   },
   "totals": {
-    "assets": 489,
-    "passed": 489,
+    "assets": 504,
+    "passed": 504,
     "failed": 0,
     "by_provider": {
       "gobkit-free": 2,
       "grab3d": 299,
       "kenney": 10,
+      "makehuman-clothing": 15,
       "modkit-industrial": 14,
       "oga-submersible": 1,
       "polyhaven": 162,
@@ -90,6 +91,27 @@
         "The standalone page https://kenney.nl/license returned 404 when checked on 2026-11-04. The evidence used instead is the support page (all asset-page assets are CC0, attribution not required) plus the license file pinned in the exact source revision each asset came from.",
         "Kenney reserves its studio logo for official projects. The logo is not part of any asset here and must not be used to imply endorsement.",
         "Files come from a pinned third-party mirror that converts Kenney's packs to GLB. That mirror's license explicitly releases its conversions, embedded textures and thumbnails under CC0 as well. Kenney remains the original creator and is recorded as such."
+      ]
+    },
+    "makehuman-clothing": {
+      "name": "MakeHuman Community clothing packs",
+      "spdx": "CC0-1.0",
+      "status": "verified",
+      "free_of_charge": true,
+      "terms_url": "https://static.makehumancommunity.org/assets/assetpacks.html",
+      "evidence_url": "https://static.makehumancommunity.org/assets/assetpacks.html",
+      "resale_as_is": {
+        "permitted": true,
+        "explicit": false,
+        "note": "CC0 places no copyright restriction on redistribution or sale."
+      },
+      "asset_notes": [
+        "Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset."
+      ],
+      "caveats": [
+        "The MakeHuman asset pack index separates CC0 packs from CC-BY packs; only individually indexed CC0 garments are eligible.",
+        "A descriptor explicitly naming a non-CC0 license conflicts with the index and is rejected pending clarification.",
+        "The OBJ converter recreates diffuse and declared normal textures; other legacy shader maps and rigging are not reproduced."
       ]
     },
     "modkit-industrial": {
@@ -418,6 +440,40 @@
       "pass": true
     },
     {
+      "id": "mh-toigo-harem-pants",
+      "title": "Harem trousers",
+      "category": "apparel/bottoms",
+      "creator": "MargaretToigo",
+      "provider": "makehuman-clothing",
+      "spdx": "CC0-1.0",
+      "directory": "assets/apparel/bottoms/mh-toigo-harem-pants",
+      "source_url": "https://static.makehumancommunity.org/assets/assetpacks/pants01.html",
+      "license_evidence": "https://static.makehumancommunity.org/assets/assetpacks/pants01.html",
+      "license_file": "assets/apparel/bottoms/mh-toigo-harem-pants/LICENSE.txt",
+      "license_file_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "ai_assisted": false,
+      "notes": [
+        "Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
       "id": "g3-fashion-costume-wings",
       "title": "Feather costume wings",
       "category": "apparel/costume",
@@ -432,6 +488,210 @@
       "ai_assisted": false,
       "notes": [
         "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "mh-aethelraed-flapper-dress",
+      "title": "Flapper-style dress",
+      "category": "apparel/dresses",
+      "creator": "Aethelraed_Unraed",
+      "provider": "makehuman-clothing",
+      "spdx": "CC0-1.0",
+      "directory": "assets/apparel/dresses/mh-aethelraed-flapper-dress",
+      "source_url": "https://static.makehumancommunity.org/assets/assetpacks/dress01.html",
+      "license_evidence": "https://static.makehumancommunity.org/assets/assetpacks/dress01.html",
+      "license_file": "assets/apparel/dresses/mh-aethelraed-flapper-dress/LICENSE.txt",
+      "license_file_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "ai_assisted": false,
+      "notes": [
+        "Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "mh-toigo-bodice-dress-with-lace-ruffle-skirt",
+      "title": "Bodice dress with lace ruffle skirt",
+      "category": "apparel/dresses",
+      "creator": "MargaretToigo",
+      "provider": "makehuman-clothing",
+      "spdx": "CC0-1.0",
+      "directory": "assets/apparel/dresses/mh-toigo-bodice-dress-with-lace-ruffle-skirt",
+      "source_url": "https://static.makehumancommunity.org/assets/assetpacks/dress01.html",
+      "license_evidence": "https://static.makehumancommunity.org/assets/assetpacks/dress01.html",
+      "license_file": "assets/apparel/dresses/mh-toigo-bodice-dress-with-lace-ruffle-skirt/LICENSE.txt",
+      "license_file_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "ai_assisted": false,
+      "notes": [
+        "Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "mh-toigo-camisole-dress-with-full-skirt",
+      "title": "Camisole dress with full skirt",
+      "category": "apparel/dresses",
+      "creator": "MargaretToigo",
+      "provider": "makehuman-clothing",
+      "spdx": "CC0-1.0",
+      "directory": "assets/apparel/dresses/mh-toigo-camisole-dress-with-full-skirt",
+      "source_url": "https://static.makehumancommunity.org/assets/assetpacks/dress01.html",
+      "license_evidence": "https://static.makehumancommunity.org/assets/assetpacks/dress01.html",
+      "license_file": "assets/apparel/dresses/mh-toigo-camisole-dress-with-full-skirt/LICENSE.txt",
+      "license_file_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "ai_assisted": false,
+      "notes": [
+        "Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "mh-toigo-dress-with-tiered-skirt",
+      "title": "Tiered skirt dress",
+      "category": "apparel/dresses",
+      "creator": "MargaretToigo",
+      "provider": "makehuman-clothing",
+      "spdx": "CC0-1.0",
+      "directory": "assets/apparel/dresses/mh-toigo-dress-with-tiered-skirt",
+      "source_url": "https://static.makehumancommunity.org/assets/assetpacks/dress01.html",
+      "license_evidence": "https://static.makehumancommunity.org/assets/assetpacks/dress01.html",
+      "license_file": "assets/apparel/dresses/mh-toigo-dress-with-tiered-skirt/LICENSE.txt",
+      "license_file_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "ai_assisted": false,
+      "notes": [
+        "Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "mh-toigo-halter-dress-with-fluted-skirt",
+      "title": "Halter dress with fluted skirt",
+      "category": "apparel/dresses",
+      "creator": "MargaretToigo",
+      "provider": "makehuman-clothing",
+      "spdx": "CC0-1.0",
+      "directory": "assets/apparel/dresses/mh-toigo-halter-dress-with-fluted-skirt",
+      "source_url": "https://static.makehumancommunity.org/assets/assetpacks/dress01.html",
+      "license_evidence": "https://static.makehumancommunity.org/assets/assetpacks/dress01.html",
+      "license_file": "assets/apparel/dresses/mh-toigo-halter-dress-with-fluted-skirt/LICENSE.txt",
+      "license_file_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "ai_assisted": false,
+      "notes": [
+        "Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "mh-toigo-shift-dress",
+      "title": "Shift dress",
+      "category": "apparel/dresses",
+      "creator": "MargaretToigo",
+      "provider": "makehuman-clothing",
+      "spdx": "CC0-1.0",
+      "directory": "assets/apparel/dresses/mh-toigo-shift-dress",
+      "source_url": "https://static.makehumancommunity.org/assets/assetpacks/dress01.html",
+      "license_evidence": "https://static.makehumancommunity.org/assets/assetpacks/dress01.html",
+      "license_file": "assets/apparel/dresses/mh-toigo-shift-dress/LICENSE.txt",
+      "license_file_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "ai_assisted": false,
+      "notes": [
+        "Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset."
       ],
       "checks": {
         "free_of_charge": true,
@@ -1266,6 +1526,210 @@
       "pass": true
     },
     {
+      "id": "mh-toigo-male-double-breasted-suit",
+      "title": "Double-breasted pinstripe suit",
+      "category": "apparel/outfits",
+      "creator": "MargaretToigo",
+      "provider": "makehuman-clothing",
+      "spdx": "CC0-1.0",
+      "directory": "assets/apparel/outfits/mh-toigo-male-double-breasted-suit",
+      "source_url": "https://static.makehumancommunity.org/assets/assetpacks/suits01.html",
+      "license_evidence": "https://static.makehumancommunity.org/assets/assetpacks/suits01.html",
+      "license_file": "assets/apparel/outfits/mh-toigo-male-double-breasted-suit/LICENSE.txt",
+      "license_file_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "ai_assisted": false,
+      "notes": [
+        "Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "mh-toigo-male-suit-3",
+      "title": "Formal suit with red tie",
+      "category": "apparel/outfits",
+      "creator": "MargaretToigo",
+      "provider": "makehuman-clothing",
+      "spdx": "CC0-1.0",
+      "directory": "assets/apparel/outfits/mh-toigo-male-suit-3",
+      "source_url": "https://static.makehumancommunity.org/assets/assetpacks/suits01.html",
+      "license_evidence": "https://static.makehumancommunity.org/assets/assetpacks/suits01.html",
+      "license_file": "assets/apparel/outfits/mh-toigo-male-suit-3/LICENSE.txt",
+      "license_file_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "ai_assisted": false,
+      "notes": [
+        "Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "mh-toigo-suit-with-dinner-jacket",
+      "title": "Dinner jacket suit",
+      "category": "apparel/outfits",
+      "creator": "MargaretToigo",
+      "provider": "makehuman-clothing",
+      "spdx": "CC0-1.0",
+      "directory": "assets/apparel/outfits/mh-toigo-suit-with-dinner-jacket",
+      "source_url": "https://static.makehumancommunity.org/assets/assetpacks/suits01.html",
+      "license_evidence": "https://static.makehumancommunity.org/assets/assetpacks/suits01.html",
+      "license_file": "assets/apparel/outfits/mh-toigo-suit-with-dinner-jacket/LICENSE.txt",
+      "license_file_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "ai_assisted": false,
+      "notes": [
+        "Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "mh-toigo-suit-with-jacket-and-bowtie",
+      "title": "Bow tie suit",
+      "category": "apparel/outfits",
+      "creator": "MargaretToigo",
+      "provider": "makehuman-clothing",
+      "spdx": "CC0-1.0",
+      "directory": "assets/apparel/outfits/mh-toigo-suit-with-jacket-and-bowtie",
+      "source_url": "https://static.makehumancommunity.org/assets/assetpacks/suits01.html",
+      "license_evidence": "https://static.makehumancommunity.org/assets/assetpacks/suits01.html",
+      "license_file": "assets/apparel/outfits/mh-toigo-suit-with-jacket-and-bowtie/LICENSE.txt",
+      "license_file_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "ai_assisted": false,
+      "notes": [
+        "Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "mh-toigo-long-full-skirt",
+      "title": "Long full skirt",
+      "category": "apparel/skirts",
+      "creator": "MargaretToigo",
+      "provider": "makehuman-clothing",
+      "spdx": "CC0-1.0",
+      "directory": "assets/apparel/skirts/mh-toigo-long-full-skirt",
+      "source_url": "https://static.makehumancommunity.org/assets/assetpacks/skirts01.html",
+      "license_evidence": "https://static.makehumancommunity.org/assets/assetpacks/skirts01.html",
+      "license_file": "assets/apparel/skirts/mh-toigo-long-full-skirt/LICENSE.txt",
+      "license_file_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "ai_assisted": false,
+      "notes": [
+        "Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "mh-toigo-skirt-with-lace-ruffle",
+      "title": "Lace ruffle skirt",
+      "category": "apparel/skirts",
+      "creator": "MargaretToigo",
+      "provider": "makehuman-clothing",
+      "spdx": "CC0-1.0",
+      "directory": "assets/apparel/skirts/mh-toigo-skirt-with-lace-ruffle",
+      "source_url": "https://static.makehumancommunity.org/assets/assetpacks/skirts01.html",
+      "license_evidence": "https://static.makehumancommunity.org/assets/assetpacks/skirts01.html",
+      "license_file": "assets/apparel/skirts/mh-toigo-skirt-with-lace-ruffle/LICENSE.txt",
+      "license_file_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "ai_assisted": false,
+      "notes": [
+        "Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
       "id": "g3-fashion-boxing-gloves",
       "title": "Boxing gloves",
       "category": "apparel/sportswear",
@@ -1382,6 +1846,74 @@
       "ai_assisted": false,
       "notes": [
         "AI-assisted origin disclosed by the provider; some storefronts require an AI content disclosure."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "mh-toigo-camisole-top",
+      "title": "Camisole top",
+      "category": "apparel/tops",
+      "creator": "MargaretToigo",
+      "provider": "makehuman-clothing",
+      "spdx": "CC0-1.0",
+      "directory": "assets/apparel/tops/mh-toigo-camisole-top",
+      "source_url": "https://static.makehumancommunity.org/assets/assetpacks/shirts01.html",
+      "license_evidence": "https://static.makehumancommunity.org/assets/assetpacks/shirts01.html",
+      "license_file": "assets/apparel/tops/mh-toigo-camisole-top/LICENSE.txt",
+      "license_file_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "ai_assisted": false,
+      "notes": [
+        "Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset."
+      ],
+      "checks": {
+        "free_of_charge": true,
+        "cc0_spdx": true,
+        "cc0_text_present": true,
+        "license_file_checksummed": true,
+        "no_attribution_required": true,
+        "commercial_use_allowed": true,
+        "redistribution_allowed": true,
+        "evidence_recorded": true,
+        "source_terms_verified": true,
+        "standalone_resale_permitted": true,
+        "textures_included": true,
+        "no_trademark_warning": true,
+        "visually_approved": true
+      },
+      "failed_checks": [],
+      "pass": true
+    },
+    {
+      "id": "mh-toigo-fisherman-sweater",
+      "title": "Fisherman knit sweater",
+      "category": "apparel/tops",
+      "creator": "MargaretToigo",
+      "provider": "makehuman-clothing",
+      "spdx": "CC0-1.0",
+      "directory": "assets/apparel/tops/mh-toigo-fisherman-sweater",
+      "source_url": "https://static.makehumancommunity.org/assets/assetpacks/shirts01.html",
+      "license_evidence": "https://static.makehumancommunity.org/assets/assetpacks/shirts01.html",
+      "license_file": "assets/apparel/tops/mh-toigo-fisherman-sweater/LICENSE.txt",
+      "license_file_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "ai_assisted": false,
+      "notes": [
+        "Only individually indexed CC0 garments from pinned community packs are used; creator and per-pack row are recorded per asset."
       ],
       "checks": {
         "free_of_charge": true,

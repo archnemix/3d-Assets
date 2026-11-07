@@ -129,3 +129,43 @@ def extract_textures(model: Path, texture_root: Path) -> list[dict]:
             }
         )
     return result
+
+
+def embedded_image_bytes(model: Path, index: int) -> bytes:
+    """Return a self-contained GLB image exactly as stored, without re-encoding."""
+    document, binary = read_model(model)
+    if binary is None or not isinstance(index, int) or index < 0:
+        raise ValueError("Invalid embedded image index or missing GLB binary")
+    images = document.get("images", [])
+    if index >= len(images) or "bufferView" not in images[index]:
+        raise ValueError("Image is not embedded in a GLB buffer view")
+    view = document["bufferViews"][images[index]["bufferView"]]
+    if view.get("buffer", 0) != 0:
+        raise ValueError("Embedded image is not in the GLB binary buffer")
+    start, length = view.get("byteOffset", 0), view["byteLength"]
+    if start < 0 or length <= 0 or start + length > len(binary):
+        raise ValueError("Invalid image buffer range")
+    return binary[start : start + length]
+
+
+def compact_embedded_textures(directory: Path, manifest: dict) -> None:
+    """Avoid storing a second copy of images already embedded in the GLB.
+
+    Retain an index and checksum for lossless extraction and independent auditing.
+    External image dependencies are never removed.
+    """
+    import hashlib
+
+    model = directory / manifest["model"]
+    for index, texture in enumerate(manifest["textures"]):
+        if texture.get("embedded_in_glb") and not texture.get("linked_sidecar"):
+            sidecar = directory / texture["path"]
+            data = embedded_image_bytes(model, index)
+            if sidecar.read_bytes() != data:
+                raise ValueError("Embedded image does not match its extracted sidecar")
+            texture.update(
+                path=manifest["model"],
+                embedded_image_index=index,
+                embedded_sha256=hashlib.sha256(data).hexdigest(),
+            )
+            sidecar.unlink()
