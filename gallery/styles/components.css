@@ -531,3 +531,58 @@ dialog::backdrop {
   font-size: 12px;
   color: var(--muted);
 }
+
+.category-levels {
+  display: contents;
+}
+.category-browser {
+  padding: 16px 20px;
+  margin-top: 12px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+.category-browser[hidden] {
+  display: none;
+}
+.category-breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  color: var(--muted);
+  font-size: 13px;
+}
+.category-breadcrumb button {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--accent);
+}
+.category-breadcrumb button[aria-current="page"] {
+  color: var(--ink);
+  font-weight: 700;
+}
+.category-children {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 12px;
+}
+.category-child {
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: #fafbf8;
+  padding: 9px 12px;
+  color: var(--ink);
+}
+.category-child:hover,
+.category-child:focus-visible {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.category-direct {
+  align-self: center;
+}

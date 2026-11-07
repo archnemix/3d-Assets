@@ -9,7 +9,7 @@
     />
     <title>3D Assets — CC0 Library</title>
     <link rel="stylesheet" href="styles/base.css?v=2" />
-    <link rel="stylesheet" href="styles/components.css?v=2" />
+    <link rel="stylesheet" href="styles/components.css?v=3" />
     <script type="importmap">
       {
         "imports": {
@@ -18,7 +18,7 @@
         }
       }
     </script>
-    <script type="module" src="scripts/app.js?v=3"></script>
+    <script type="module" src="scripts/app.js?v=4"></script>
   </head>
   <body>
     <header class="masthead">
@@ -78,9 +78,19 @@
         </form>
         <p class="filter-hint">
           All approved assets are shown by default. Choose a main category to
-          browse its subcategories; style labels are approximate, not a
-          guarantee of photorealism.
+          browse its subcategories and drill down as far as the catalog allows.
+          Category counts include descendants. Style labels are approximate, not
+          a guarantee of photorealism.
         </p>
+        <nav
+          class="category-browser"
+          id="category-browser"
+          aria-label="Browse categories"
+          hidden
+        >
+          <div class="category-breadcrumb" id="category-breadcrumb"></div>
+          <div class="category-children" id="category-children"></div>
+        </nav>
         <div class="browser-toolbar">
           <div class="toolbar-controls">
             <label

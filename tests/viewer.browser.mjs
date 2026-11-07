@@ -156,14 +156,46 @@ try {
   await page.locator("#category").selectOption("buildings/modular");
   assert.equal(
     await page.locator(".asset-card").count(),
-    3,
-    "parent selection excludes child subcategory",
+    15,
+    "parent selection includes direct items and descendants",
   );
-  await page.locator("#category").selectOption("buildings/modular/industrial");
+  await page
+    .locator('[data-category-level="3"]')
+    .selectOption("buildings/modular/industrial");
   assert.equal(
     await page.locator(".asset-card").count(),
     12,
     "child selection contains only child assets",
+  );
+  await page.locator("#main-category").selectOption("apparel");
+  await page.locator("#category").selectOption("apparel/outfits");
+  assert.equal(
+    await page.locator(".asset-card").count(),
+    0,
+    "partial clothing sets are not complete outfits",
+  );
+  assert.match(
+    await page.locator("#category-children").textContent(),
+    /Modern men · 0/,
+  );
+  assert.match(
+    await page.locator("#category-children").textContent(),
+    /Work suits · 0/,
+  );
+  await page.getByRole("button", { name: "Work suits · 0" }).click();
+  assert.match(
+    await page.locator("#category-children").textContent(),
+    /Women · 0/,
+  );
+  await page.getByRole("button", { name: "Women · 0" }).click();
+  assert.equal(
+    await page.locator('[data-category-level="4"]').inputValue(),
+    "apparel/outfits/work-suits/women",
+  );
+  await page.getByRole("button", { name: "Outfits", exact: true }).click();
+  assert.equal(
+    await page.locator('[data-category-level="3"]').inputValue(),
+    "",
   );
   await page.locator("#main-category").selectOption("");
   assert.equal(await page.locator("#category").isDisabled(), true);
@@ -215,6 +247,60 @@ try {
     await page.locator("#asset-dialog").evaluate((el) => el.open),
     false,
   );
+  const deepPage = await browser.newPage({
+    viewport: { width: 390, height: 844 },
+  });
+  const deepAssets = [
+    { ...catalog.assets[0], id: "direct-parent", category: "test/branch" },
+    {
+      ...catalog.assets[1],
+      id: "deep-child",
+      category: "test/branch/level-three/level-four/level-five",
+    },
+    {
+      ...catalog.assets[2],
+      id: "prefix-neighbor",
+      category: "test/branch-extra",
+    },
+  ];
+  await deepPage.route("**/manifest.json?*", (route) =>
+    route.fulfill({
+      json: {
+        ...catalog,
+        assets: deepAssets,
+        totals: { ...catalog.totals, assets: 3 },
+      },
+    }),
+  );
+  await deepPage.goto("http://127.0.0.1:8000/gallery/", {
+    waitUntil: "networkidle",
+  });
+  await deepPage.locator("#main-category").selectOption("test");
+  await deepPage.locator("#category").selectOption("test/branch");
+  assert.equal(await deepPage.locator(".asset-card").count(), 2);
+  assert.match(
+    await deepPage.locator("#category-children").textContent(),
+    /1 additional item directly/,
+  );
+  await deepPage
+    .locator('[data-category-level="3"]')
+    .selectOption("test/branch/level-three");
+  await deepPage
+    .locator('[data-category-level="4"]')
+    .selectOption("test/branch/level-three/level-four");
+  await deepPage
+    .locator('[data-category-level="5"]')
+    .selectOption("test/branch/level-three/level-four/level-five");
+  assert.equal(await deepPage.locator(".asset-card").count(), 1);
+  assert.equal(
+    await deepPage.evaluate(
+      () => document.documentElement.scrollWidth <= innerWidth,
+    ),
+    true,
+  );
+  await deepPage.locator("#reset").click();
+  assert.equal(await deepPage.locator(".asset-card").count(), 3);
+  await deepPage.close();
   assert.deepEqual(errors, []);
   console.log(
     "PASS: all approved cards and previews, reset and stable refresh, category filters, animated filter, animated GLB clips, controls, static GLB switch, external-texture glTF and close/reopen",

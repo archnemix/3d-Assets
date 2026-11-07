@@ -145,3 +145,22 @@ def test_rejection_preserves_evidence_without_payload(tmp_path, candidate):
     assert json.loads((evidence / "review.json").read_text())["approved"] is False
     assert not directory.exists()
     assert not (tmp_path / "assets").exists()
+
+
+def test_complete_outfits_require_documented_footwear_and_body_clothing():
+    from asset_library.review import check_outfit_completeness
+
+    decision = {"id": "outfit", "decision": "approved"}
+    with pytest.raises(ValueError, match="footwear"):
+        check_outfit_completeness("apparel/outfits/work-suits/men", decision)
+    # Partial clothing sets remain valid when honestly categorized.
+    check_outfit_completeness("apparel/clothing-sets/formal-men", decision)
+    decision["outfit_completeness"] = {
+        "body_clothing": True,
+        "footwear": True,
+        "evidence": "Inspected the paired shoes and the jacket and trousers in the rendered views.",
+    }
+    check_outfit_completeness("apparel/outfits/work-suits/men", decision)
+    decision["outfit_completeness"]["footwear"] = False
+    with pytest.raises(ValueError, match="footwear"):
+        check_outfit_completeness("apparel/outfits/modern-men", decision)

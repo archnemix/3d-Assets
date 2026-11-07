@@ -7,6 +7,7 @@ import {
   groupByCategory,
   categoryCounts,
   mainCategoryCounts,
+  childCategoryCounts,
 } from "../gallery/scripts/data.js";
 
 const assets = [
@@ -151,7 +152,7 @@ test("manifest carries per-asset license rights and caveats", async () => {
   );
 });
 
-test("each category filter counts and returns only its exact subcategory", () => {
+test("category filtering includes descendants without matching neighboring prefixes", () => {
   const nested = [
     { ...assets[0], category: "furniture/chairs/office" },
     { ...assets[0], category: "furniture/chairs-extra" },
@@ -162,7 +163,7 @@ test("each category filter counts and returns only its exact subcategory", () =>
     style: "",
     rigged: false,
   };
-  assert.equal(filterAssets(nested, filters).length, 0);
+  assert.equal(filterAssets(nested, filters).length, 1);
   assert.equal(
     filterAssets(nested, { ...filters, category: "furniture/chairs/office" })
       .length,
@@ -211,7 +212,7 @@ test("catalog exposes per-asset review limitations", async () => {
   );
 });
 
-test("main categories group all descendants once while subcategory stays exact", () => {
+test("main categories and subtree filters include descendants once", () => {
   const nested = [
     { ...assets[0], category: "architecture/doors" },
     { ...assets[0], category: "architecture/fences" },
@@ -228,7 +229,7 @@ test("main categories group all descendants once while subcategory stays exact",
   assert.equal(filterAssets(nested, filters).length, 3);
   assert.equal(
     filterAssets(nested, { ...filters, category: "architecture/doors" }).length,
-    1,
+    2,
   );
   const counts = mainCategoryCounts(nested);
   assert.equal(counts.get("architecture"), 3);
@@ -250,4 +251,52 @@ test("every approved asset has an existing local card preview", async () => {
     const info = await stat(new URL(asset.preview, root));
     assert.ok(info.isFile() && info.size > 0, `${asset.id}: ${asset.preview}`);
   }
+});
+
+test("immediate children support unlimited depth, empty planned categories and direct assets", () => {
+  const nested = [
+    { ...assets[0], category: "apparel/outfits" },
+    { ...assets[0], category: "apparel/outfits/work-suits/men/medical/scrubs" },
+    { ...assets[0], category: "apparel/outfits/work-suits/men" },
+    { ...assets[0], category: "apparel/outfits-extra/men" },
+  ];
+  const planned = [
+    "apparel/outfits/work-suits/women",
+    "apparel/outfits/casual-women",
+  ];
+  assert.deepEqual(
+    [...childCategoryCounts(nested, "apparel/outfits", planned)],
+    [
+      ["apparel/outfits/casual-women", 0],
+      ["apparel/outfits/work-suits", 2],
+    ],
+  );
+  assert.deepEqual(
+    [...childCategoryCounts(nested, "apparel/outfits/work-suits", planned)],
+    [
+      ["apparel/outfits/work-suits/men", 2],
+      ["apparel/outfits/work-suits/women", 0],
+    ],
+  );
+  assert.deepEqual(
+    [
+      ...childCategoryCounts(
+        nested,
+        "apparel/outfits/work-suits/men/medical",
+        planned,
+      ),
+    ],
+    [["apparel/outfits/work-suits/men/medical/scrubs", 1]],
+  );
+  assert.equal(
+    filterAssets(nested, {
+      query: "",
+      category: "apparel/outfits/work-suits/men",
+    }).length,
+    2,
+  );
+  assert.equal(
+    filterAssets(nested, { query: "", category: "apparel/outfits" }).length,
+    3,
+  );
 });

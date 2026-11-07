@@ -6,7 +6,7 @@ from .config import ROOT, categories, read_json
 from .files import sha256, write_json
 from .inspection import validate_inventory
 from .licensing import terms
-from .review import check_decision
+from .review import check_decision, check_outfit_completeness
 
 
 def check_review(directory, manifest: dict) -> None:
@@ -17,6 +17,7 @@ def check_review(directory, manifest: dict) -> None:
     if record.get("decision") != "approved":
         raise ValueError(f"Missing approved review record: {directory}")
     check_decision(record)
+    check_outfit_completeness(manifest["category"], record)
     if any(review.get(key) != value for key, value in record.items()):
         raise ValueError(f"Review record and asset metadata disagree: {directory}")
     sheet = directory / "previews" / "contact-sheet.jpg"

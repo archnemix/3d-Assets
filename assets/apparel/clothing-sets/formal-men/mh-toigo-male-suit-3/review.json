@@ -1,0 +1,25 @@
+{
+  "id": "mh-toigo-male-suit-3",
+  "decision": "approved",
+  "scores": {
+    "silhouette": 5,
+    "materials": 5,
+    "topology": 4,
+    "completeness": 5,
+    "style_fit": 5
+  },
+  "notes": "Reviewed all twelve views. Formal single-breasted suit with jacket, shirt, contrasting tie, pockets and trousers.",
+  "limitations": [
+    "Standalone static OBJ conversion; no rig, skin weights or automatic fitting are provided, and compatibility with any body shape has not been verified.",
+    "Diffuse texture and declared normal map (when present) are preserved; legacy specular, bump and other shader parameters are not reproduced.",
+    "The source labels this a male suit, but this unrefitted default-base mesh has a bust-shaped torso; adjust it for the intended character.",
+    "Khronos validation has zero errors and 1 runtime-generated tangent-space warning(s); normal-map shading can vary by renderer.",
+    "Textured game-asset geometry, not photorealistic; some surfaces show visible faceting.",
+    "Coordinated upper-and-lower clothing set only; footwear is not included, so this is not a complete head-to-toe outfit."
+  ],
+  "contact_sheet_sha256": "207516fbf2696d8eae81f93e3a4b64c17218de189ff560899c652aa44af06b75",
+  "reviewer": "Arena agent",
+  "reviewed_at": "2026-11-07",
+  "views_inspected": 12,
+  "method": "Visual inspection of local-model renders and technical reports"
+}

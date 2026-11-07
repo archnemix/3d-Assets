@@ -23,6 +23,23 @@ def check_decision(decision: dict) -> None:
         raise ValueError(f"{decision['id']}: a rejection needs a substantive reason")
 
 
+def check_outfit_completeness(category: str, decision: dict) -> None:
+    """Require a human-verified component record for full-outfit approvals."""
+    if (category == "apparel/outfits" or category.startswith("apparel/outfits/")) and decision.get(
+        "decision"
+    ) == "approved":
+        components = decision.get("outfit_completeness", {})
+        if (
+            components.get("body_clothing") is not True
+            or components.get("footwear") is not True
+            or not isinstance(components.get("evidence"), str)
+            or len(components["evidence"].strip()) < 40
+        ):
+            raise ValueError(
+                f"{decision['id']}: complete outfits require documented clothing and footwear review"
+            )
+
+
 def asset_readme(manifest: dict) -> str:
     geometry = manifest["geometry"]
     return f"""# {manifest["title"]}
@@ -83,6 +100,7 @@ def apply(path: Path) -> None:
         validate_inventory(source, manifest)
         if manifest["license"]["spdx"] != "CC0-1.0" or manifest["validation"]["gltf_errors"]:
             raise ValueError(f"{decision['id']}: license/format gate failed")
+        check_outfit_completeness(manifest["category"], decision)
         if decision["decision"] == "approved":
             target = asset_directory(ROOT / "assets", manifest["category"], manifest["id"])
             if target.exists() or target in targets:

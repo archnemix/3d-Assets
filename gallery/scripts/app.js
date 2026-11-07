@@ -3,8 +3,7 @@ import {
   filterAssets,
   sortAssets,
   groupByCategory,
-  categoryCounts,
-  mainCategoryCounts,
+  childCategoryCounts,
 } from "./data.js";
 import { renderCards } from "./cards.js";
 import { showDetail } from "./detail.js";
@@ -41,49 +40,134 @@ function categoryLabel(value) {
     .replace(/^./, (c) => c.toUpperCase());
 }
 
-function renderSubcategories(selected = "") {
-  const main = mainSelect.value;
-  categorySelect.replaceChildren(
-    new Option(main ? "All subcategories" : "Choose a main category first", ""),
-  );
-  categorySelect.disabled = !main;
-  if (main) {
-    for (const [category, count] of categoryCounts(catalog.assets)) {
-      if (category.split("/")[0] !== main) continue;
-      const rest = category.split("/").slice(1).join("/") || "General";
-      categorySelect.append(
-        new Option(`${categoryLabel(rest)} (${count})`, category),
-      );
-    }
-  }
-  categorySelect.value = [...categorySelect.options].some(
-    (option) => option.value === selected,
-  )
-    ? selected
-    : "";
+// Paths are canonical slash-separated segments. Each selector and tile represents
+// a subtree; selecting a parent includes both direct items and descendants.
+let selectedCategory = "";
+
+function categorySegment(path) {
+  return categoryLabel(path.split("/").at(-1));
 }
 
 function renderCategoryControls() {
-  const selectedMain = mainSelect.value;
-  const selectedSubcategory = categorySelect.value;
+  const segments = selectedCategory ? selectedCategory.split("/") : [];
+  const main = segments[0] || "";
   mainSelect.replaceChildren(new Option("All categories", ""));
-  for (const [category, count] of mainCategoryCounts(catalog.assets)) {
-    const label = categoryLabel(category);
-    mainSelect.append(new Option(`${label} (${count})`, category));
+  for (const [path, count] of childCategoryCounts(
+    catalog.assets,
+    "",
+    catalog.categoryPaths,
+  )) {
+    mainSelect.append(new Option(`${categorySegment(path)} (${count})`, path));
   }
-  mainSelect.value = [...mainSelect.options].some(
-    (option) => option.value === selectedMain,
-  )
-    ? selectedMain
-    : "";
-  renderSubcategories(selectedSubcategory);
+  mainSelect.value = main;
+  const children = main
+    ? childCategoryCounts(catalog.assets, main, catalog.categoryPaths)
+    : new Map();
+  categorySelect.replaceChildren(
+    new Option(main ? "All subcategories" : "Choose a main category first", ""),
+  );
+  categorySelect.disabled = !main || children.size === 0;
+  for (const [path, count] of children) {
+    categorySelect.append(
+      new Option(`${categorySegment(path)} (${count})`, path),
+    );
+  }
+  categorySelect.value =
+    segments.length > 1 ? segments.slice(0, 2).join("/") : "";
+
+  const levels = byId("category-levels");
+  levels.replaceChildren();
+  for (let depth = 2; depth <= segments.length; depth++) {
+    const parent = segments.slice(0, depth).join("/");
+    const options = childCategoryCounts(
+      catalog.assets,
+      parent,
+      catalog.categoryPaths,
+    );
+    if (!options.size) break;
+    const label = document.createElement("label");
+    const caption = document.createElement("span");
+    caption.textContent = `Level ${depth + 1}`;
+    const select = document.createElement("select");
+    select.setAttribute("aria-label", `Category level ${depth + 1}`);
+    select.dataset.categoryLevel = String(depth + 1);
+    select.append(new Option("All within this category", ""));
+    for (const [path, count] of options) {
+      select.append(new Option(`${categorySegment(path)} (${count})`, path));
+    }
+    select.value =
+      segments.length > depth ? segments.slice(0, depth + 1).join("/") : "";
+    select.addEventListener("change", () =>
+      selectCategory(select.value || parent),
+    );
+    label.append(caption, select);
+    levels.append(label);
+  }
+  renderCategoryBrowser();
+}
+
+function selectCategory(path) {
+  selectedCategory = path;
+  renderCategoryControls();
+  update();
+}
+
+function renderCategoryBrowser() {
+  const browser = byId("category-browser");
+  browser.hidden = !selectedCategory;
+  if (!selectedCategory) return;
+  const breadcrumb = byId("category-breadcrumb");
+  breadcrumb.replaceChildren();
+  const root = document.createElement("button");
+  root.type = "button";
+  root.textContent = "All categories";
+  root.addEventListener("click", () => selectCategory(""));
+  breadcrumb.append(root);
+  const segments = selectedCategory.split("/");
+  segments.forEach((segment, index) => {
+    const path = segments.slice(0, index + 1).join("/");
+    breadcrumb.append(document.createTextNode(" / "));
+    const button = document.createElement("button");
+    button.type = "button";
+    button.textContent = categoryLabel(segment);
+    if (path === selectedCategory) button.setAttribute("aria-current", "page");
+    button.addEventListener("click", () => selectCategory(path));
+    breadcrumb.append(button);
+  });
+  const list = byId("category-children");
+  list.replaceChildren();
+  const children = childCategoryCounts(
+    catalog.assets,
+    selectedCategory,
+    catalog.categoryPaths,
+  );
+  const direct = catalog.assets.filter(
+    (asset) => asset.category === selectedCategory,
+  ).length;
+  if (children.size) {
+    for (const [path, count] of children) {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "category-child";
+      button.textContent = `${categorySegment(path)} · ${count}`;
+      button.addEventListener("click", () => selectCategory(path));
+      list.append(button);
+    }
+    if (direct) {
+      const note = document.createElement("span");
+      note.className = "category-direct";
+      note.textContent = `${direct} additional item${direct === 1 ? "" : "s"} directly in this category`;
+      list.append(note);
+    }
+  } else {
+    list.textContent = "No deeper categories";
+  }
 }
 
 function currentFilters() {
   return {
     query: byId("search").value,
-    mainCategory: mainSelect.value,
-    category: categorySelect.value,
+    category: selectedCategory,
     style: byId("style").value,
     rigged: byId("rigged").checked,
     animated: byId("animated").checked,
@@ -142,16 +226,16 @@ async function refresh() {
 
 byId("filters").addEventListener("submit", (event) => event.preventDefault());
 byId("filters").addEventListener("input", () => update());
-mainSelect.addEventListener("change", () => {
-  renderSubcategories();
-  update();
-});
-categorySelect.addEventListener("change", () => update());
+mainSelect.addEventListener("change", () => selectCategory(mainSelect.value));
+categorySelect.addEventListener("change", () =>
+  selectCategory(categorySelect.value || mainSelect.value),
+);
 byId("sort").addEventListener("change", () => update());
 byId("group").addEventListener("change", () => update());
 byId("reset").addEventListener("click", () => {
   byId("filters").reset();
-  renderSubcategories();
+  selectedCategory = "";
+  renderCategoryControls();
   byId("sort").value = "title";
   byId("group").checked = false;
   update();
