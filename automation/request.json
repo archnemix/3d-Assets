@@ -1,151 +1,161 @@
 {
   "revision": 1,
-  "batch_id": "clothing-variety-02",
+  "batch_id": "clothing-creator-01",
   "candidates": [
     {
-      "id": "mh-toigo-cut-out-dress",
-      "title": "Cut-out dress",
-      "category": "apparel/dresses",
-      "source": "makehuman-clothing",
-      "style": "realistic",
-      "tags": [
-        "clothing"
-      ],
-      "upstream_id": "toigo_cut_out_dress",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "mh-toigo-halter-dress-knee-length",
-      "title": "Knee-length halter dress",
-      "category": "apparel/dresses",
-      "source": "makehuman-clothing",
-      "style": "realistic",
-      "tags": [
-        "clothing"
-      ],
-      "upstream_id": "toigo_halter_dress_knee_length",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "mh-toigo-halter-dress-midi",
-      "title": "Midi halter dress",
-      "category": "apparel/dresses",
-      "source": "makehuman-clothing",
-      "style": "realistic",
-      "tags": [
-        "clothing"
-      ],
-      "upstream_id": "toigo_halter_dress_midi",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "mh-toigo-keyhole-neck-dress",
-      "title": "Keyhole-neck dress",
-      "category": "apparel/dresses",
-      "source": "makehuman-clothing",
-      "style": "realistic",
-      "tags": [
-        "clothing"
-      ],
-      "upstream_id": "toigo_keyhole_neck_dress",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "mh-toigo-strapless-ruffle-top-dress",
-      "title": "Strapless ruffle-top dress",
-      "category": "apparel/dresses",
-      "source": "makehuman-clothing",
-      "style": "realistic",
-      "tags": [
-        "clothing"
-      ],
-      "upstream_id": "toigo_strapless_ruffle_top_dress",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "mh-toigo-basic-tucked-t-shirt",
-      "title": "Tucked T-shirt",
+      "id": "cc-garment-shirt",
+      "title": "Long-sleeve shirt",
       "category": "apparel/tops",
-      "source": "makehuman-clothing",
+      "source": "charactercreator-clothing",
       "style": "realistic",
       "tags": [
-        "clothing"
+        "clothing",
+        "charactercreator"
       ],
-      "upstream_id": "toigo_basic_tucked_t-shirt",
+      "upstream_id": "shirt",
       "skip_authored_animation": true
     },
     {
-      "id": "mh-toigo-keyhole-tank-top",
-      "title": "Keyhole tank top",
+      "id": "cc-garment-tshirt",
+      "title": "T-shirt",
       "category": "apparel/tops",
-      "source": "makehuman-clothing",
+      "source": "charactercreator-clothing",
       "style": "realistic",
       "tags": [
-        "clothing"
+        "clothing",
+        "charactercreator"
       ],
-      "upstream_id": "toigo_keyhole_tank_top",
+      "upstream_id": "tshirt",
       "skip_authored_animation": true
     },
     {
-      "id": "mh-toigo-tiered-skirt",
-      "title": "Tiered skirt",
-      "category": "apparel/skirts",
-      "source": "makehuman-clothing",
+      "id": "cc-garment-hoodie",
+      "title": "Hooded sweatshirt",
+      "category": "apparel/tops",
+      "source": "charactercreator-clothing",
       "style": "realistic",
       "tags": [
-        "clothing"
+        "clothing",
+        "charactercreator"
       ],
-      "upstream_id": "toigo_tiered_skirt",
+      "upstream_id": "hoodie",
       "skip_authored_animation": true
     },
     {
-      "id": "mh-toigo-female-suit",
-      "title": "Formal suit",
-      "category": "apparel/outfits",
-      "source": "makehuman-clothing",
-      "style": "realistic",
-      "tags": [
-        "clothing"
-      ],
-      "upstream_id": "toigo_female_suit",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "mh-toigo-male-suit-tie-and-jacket",
-      "title": "Suit with tie and jacket",
-      "category": "apparel/outfits",
-      "source": "makehuman-clothing",
-      "style": "realistic",
-      "tags": [
-        "clothing"
-      ],
-      "upstream_id": "toigo_male_suit_tie_and_jacket",
-      "skip_authored_animation": true
-    },
-    {
-      "id": "oga-clothing-cargo-pants",
-      "title": "Cargo pants",
+      "id": "cc-garment-jeans",
+      "title": "Jeans",
       "category": "apparel/bottoms",
-      "source": "oga-clothing",
+      "source": "charactercreator-clothing",
       "style": "realistic",
       "tags": [
         "clothing",
-        "casual"
+        "charactercreator"
       ],
-      "upstream_id": "cargo-pants",
+      "upstream_id": "jeans",
       "skip_authored_animation": true
     },
     {
-      "id": "oga-clothing-sweatshirt",
-      "title": "Sweatshirt",
-      "category": "apparel/tops",
-      "source": "oga-clothing",
+      "id": "cc-garment-shorts",
+      "title": "Casual shorts",
+      "category": "apparel/bottoms",
+      "source": "charactercreator-clothing",
       "style": "realistic",
       "tags": [
         "clothing",
-        "casual"
+        "charactercreator"
       ],
-      "upstream_id": "sweatshirt",
+      "upstream_id": "shorts",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "cc-garment-skirt",
+      "title": "Flared skirt",
+      "category": "apparel/skirts",
+      "source": "charactercreator-clothing",
+      "style": "realistic",
+      "tags": [
+        "clothing",
+        "charactercreator"
+      ],
+      "upstream_id": "skirt",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "cc-garment-jacket",
+      "title": "Jacket",
+      "category": "apparel/tops",
+      "source": "charactercreator-clothing",
+      "style": "realistic",
+      "tags": [
+        "clothing",
+        "charactercreator"
+      ],
+      "upstream_id": "jacket",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "cc-garment-trenchcoat",
+      "title": "Long trench coat",
+      "category": "apparel/outfits",
+      "source": "charactercreator-clothing",
+      "style": "realistic",
+      "tags": [
+        "clothing",
+        "charactercreator"
+      ],
+      "upstream_id": "trenchcoat",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "cc-garment-dress",
+      "title": "Belted dress",
+      "category": "apparel/dresses",
+      "source": "charactercreator-clothing",
+      "style": "realistic",
+      "tags": [
+        "clothing",
+        "charactercreator"
+      ],
+      "upstream_id": "dress",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "cc-garment-briefs",
+      "title": "Briefs",
+      "category": "apparel/bottoms",
+      "source": "charactercreator-clothing",
+      "style": "realistic",
+      "tags": [
+        "clothing",
+        "charactercreator"
+      ],
+      "upstream_id": "briefs",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "cc-garment-panties",
+      "title": "Bikini briefs",
+      "category": "apparel/bottoms",
+      "source": "charactercreator-clothing",
+      "style": "realistic",
+      "tags": [
+        "clothing",
+        "charactercreator"
+      ],
+      "upstream_id": "panties",
+      "skip_authored_animation": true
+    },
+    {
+      "id": "cc-garment-bra",
+      "title": "Strapless bra",
+      "category": "apparel/tops",
+      "source": "charactercreator-clothing",
+      "style": "realistic",
+      "tags": [
+        "clothing",
+        "charactercreator"
+      ],
+      "upstream_id": "bra",
       "skip_authored_animation": true
     }
   ]

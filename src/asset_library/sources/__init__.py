@@ -1,5 +1,6 @@
 """Source adapters return files plus evidence; they do not approve quality."""
 
+from .charactercreator_clothing import fetch_charactercreator_clothing
 from .github import fetch_github
 from .github_release import fetch_github_release
 from .grab3d import fetch_grab3d
@@ -24,6 +25,7 @@ def fetch(source: dict, candidate: dict, directory) -> dict:
         "research-vintage": fetch_research_vintage,
         "smithsonian-flyer": fetch_smithsonian_flyer,
         "smithsonian-innerscene": fetch_smithsonian_innerscene,
+        "charactercreator-clothing": fetch_charactercreator_clothing,
         "github": fetch_github,
         "github-release": fetch_github_release,
         "makehuman": fetch_makehuman,
