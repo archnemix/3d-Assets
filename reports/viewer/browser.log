@@ -1,13 +1,1 @@
-node:internal/modules/run_main:123
-    triggerUncaughtException(
-    ^
-
-page.waitForSelector: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator('.asset-card') to be visible
-
-    at /home/runner/work/3d-Assets/3d-Assets/tests/viewer.browser.mjs:20:14 {
-  name: 'TimeoutError'
-}
-
-Node.js v22.23.4
+PASS: all approved cards and previews, reset and stable refresh, category filters, animated filter, animated GLB clips, controls, static GLB switch, external-texture glTF and close/reopen
